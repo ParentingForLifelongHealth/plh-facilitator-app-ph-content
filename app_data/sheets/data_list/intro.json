@@ -1,0 +1,102 @@
+{
+  "flow_type": "data_list",
+  "flow_name": "intro",
+  "status": "released",
+  "data_list_name": "intro",
+  "rows": [
+    {
+      "id": "intro_1",
+      "foreign_key": "onboarding_day_chat",
+      "image_asset": "",
+      "text": "This chat session should happen on the same day or day after you complete the in-person onboarding session. As the first chat session, it offers a chance for parents to introduce themselves to the group.",
+      "media_type": "",
+      "media_title": "",
+      "media_asset": "",
+      "media_transcript": "",
+      "ignore": 1
+    },
+    {
+      "id": "intro_2",
+      "foreign_key": "day_3_mh_stress",
+      "image_asset": "images/day_3_mh_stress_self_talk.svg",
+      "text": "**Before conducting the chat sessions, make sure you:** \n\nCreate a WhatsApp Group during the onboarding session. \nIdentify the ground rules for the WhatsApp Group\n\nMake sure all participants are already in the WhatsApp group and know the session time.\n\n**Structure for the chat sessions**: \n\nDay  1 (immediately after the onboarding session): Welcome, introductions, and reminder of home practice. \n\nDay 3: Self-talk: WhatsApp Chat session on self-talk and stress\n\nDay 5: Saying Goodbye\n\n**When to send the messages** \n\nYou and your group will decide a time to chat during the onboarding session. \n\nEach chat session has a reminder message (Message 1) that you should send a few hours before the chat session. \n\nSend the remaining messages during the scheduled chat time.",
+      "media_type": "",
+      "media_title": "",
+      "media_asset": "",
+      "media_transcript": "",
+      "ignore": 2
+    },
+    {
+      "id": "intro_3",
+      "foreign_key": "day_5_final_chat_session_5ux",
+      "image_asset": "",
+      "text": "This is your final chat session with the group. You should congratulate yourself for taking the parents through the @global.programme_name journey and celebrate with them the positive changes in their lives and for their girls, boys, and teens.\n\nYou can choose to stay or leave the WhatsApp Group after the program ends.",
+      "media_type": "",
+      "media_title": "",
+      "media_asset": "",
+      "media_transcript": "",
+      "ignore": 3
+    },
+    {
+      "id": "intro_4",
+      "foreign_key": "before_chat",
+      "image_asset": "",
+      "text": "On the morning of your chat session, send the following message as a reminder:",
+      "media_type": "",
+      "media_title": "",
+      "media_asset": "",
+      "media_transcript": "",
+      "ignore": 4
+    },
+    {
+      "id": "intro_5",
+      "foreign_key": "week_1_chat",
+      "image_asset": "images/day_3_mh_stress_self_talk.svg",
+      "text": "This chat session will help parents understand the connection between thoughts, feelings, and actions. \nThe goal is for caregivers to identify how emotions, feelings, and actions impact their and their girls’, boys’, and teen’s well-being.",
+      "media_type": "",
+      "media_title": "",
+      "media_asset": "",
+      "media_transcript": "",
+      "ignore": 5
+    },
+    {
+      "id": "intro_6",
+      "foreign_key": "week_2_chat",
+      "image_asset": "images/day_4_check_in.svg",
+      "text": "In this chat, caregivers will learn how the way they talk to themselves can change how they feel. \n\nThey will also practise identifying unkind self-talk and replacing it with kind self-talk.",
+      "media_type": "",
+      "media_title": "",
+      "media_asset": "",
+      "media_transcript": "",
+      "ignore": 6
+    },
+    {
+      "id": "intro_7",
+      "foreign_key": "week_3_chat",
+      "image_asset": "",
+      "text": "This chat session will help caregivers understand how to identify strengths in themselves. They will learn about the connection between strengths and well-being and practice identifying how to incorporate strengths into their daily lives.",
+      "media_type": "",
+      "media_title": "",
+      "media_asset": "",
+      "media_transcript": "",
+      "ignore": 7
+    },
+    {
+      "id": "intro_8",
+      "foreign_key": "week_4_chat",
+      "image_asset": "images/onboarding_cc.svg",
+      "text": "This is your final chat session with the group.You should congratulate yourself for taking the parents through the Crianza con Conciencia+ journey and celebrate with them the positive changes in their lives and for their girls, boys, and teens.\n\nIn this chat session, you will also help parents understand how they can use pleasant emotions to improve the well-being of themselves and their child or teen. \n\nYou can choose to stay or leave the WhatsApp Group after the program ends.",
+      "media_type": "",
+      "media_title": "",
+      "media_asset": "",
+      "media_transcript": "",
+      "ignore": 8
+    }
+  ],
+  "_xlsxPath": "templates/temp data/PH modules new structure.xlsx",
+  "_metadata": {
+    "ignore": {
+      "type": "number"
+    }
+  }
+}

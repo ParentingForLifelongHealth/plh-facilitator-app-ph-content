@@ -1,0 +1,85 @@
+{
+  "flow_type": "template",
+  "flow_name": "intro_element",
+  "status": "released",
+  "rows": [
+    {
+      "name": "image",
+      "value": "test",
+      "_translations": {
+        "value": {}
+      },
+      "type": "set_variable",
+      "_nested_name": "image"
+    },
+    {
+      "name": "text",
+      "value": "test",
+      "_translations": {
+        "value": {}
+      },
+      "type": "set_variable",
+      "_nested_name": "text"
+    },
+    {
+      "type": "display_group",
+      "name": "dg_box",
+      "parameter_list": {
+        "style": "column"
+      },
+      "rows": [
+        {
+          "type": "image",
+          "name": "image",
+          "value": "@local.image",
+          "_translations": {
+            "value": {}
+          },
+          "condition": false,
+          "_nested_name": "dg_box.image",
+          "_dynamicFields": {
+            "value": [
+              {
+                "fullExpression": "@local.image",
+                "matchedExpression": "@local.image",
+                "type": "local",
+                "fieldName": "image"
+              }
+            ]
+          },
+          "_dynamicDependencies": {
+            "@local.image": [
+              "value"
+            ]
+          }
+        },
+        {
+          "type": "text",
+          "name": "text",
+          "value": "@local.text",
+          "_translations": {
+            "value": {}
+          },
+          "_nested_name": "dg_box.text",
+          "_dynamicFields": {
+            "value": [
+              {
+                "fullExpression": "@local.text",
+                "matchedExpression": "@local.text",
+                "type": "local",
+                "fieldName": "text"
+              }
+            ]
+          },
+          "_dynamicDependencies": {
+            "@local.text": [
+              "value"
+            ]
+          }
+        }
+      ],
+      "_nested_name": "dg_box"
+    }
+  ],
+  "_xlsxPath": "templates/article_elements.xlsx"
+}

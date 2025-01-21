@@ -1,0 +1,153 @@
+{
+  "flow_type": "template",
+  "flow_name": "home_screen",
+  "status": "released",
+  "parameter_list": {
+    "app_config": {
+      "APP_FOOTER_DEFAULTS": {
+        "templateName": "footer"
+      }
+    }
+  },
+  "rows": [
+    {
+      "type": "template",
+      "name": "menu_task_flow",
+      "value": "menu_task_flow",
+      "rows": [
+        {
+          "name": "card_style",
+          "value": "landscape",
+          "_translations": {
+            "value": {}
+          },
+          "exclude_from_translation": true,
+          "type": "set_variable",
+          "_nested_name": "menu_task_flow.card_style"
+        },
+        {
+          "name": "highlighted_text",
+          "value": "Active",
+          "_translations": {
+            "value": {}
+          },
+          "exclude_from_translation": true,
+          "type": "set_variable",
+          "_nested_name": "menu_task_flow.highlighted_text"
+        },
+        {
+          "name": "in_progress_icon",
+          "value": "images/icons/in_progress.svg",
+          "_translations": {
+            "value": {}
+          },
+          "exclude_from_translation": true,
+          "type": "set_variable",
+          "_nested_name": "menu_task_flow.in_progress_icon"
+        },
+        {
+          "name": "completed_icon",
+          "value": "images/icons/tick_white.svg",
+          "_translations": {
+            "value": {}
+          },
+          "exclude_from_translation": true,
+          "type": "set_variable",
+          "_nested_name": "menu_task_flow.completed_icon"
+        },
+        {
+          "name": "title",
+          "value": "title",
+          "_translations": {
+            "value": {}
+          },
+          "exclude_from_translation": true,
+          "type": "set_variable",
+          "_nested_name": "menu_task_flow.title"
+        },
+        {
+          "name": "subtitle",
+          "value": "description",
+          "_translations": {
+            "value": {}
+          },
+          "exclude_from_translation": true,
+          "type": "set_variable",
+          "_nested_name": "menu_task_flow.subtitle"
+        },
+        {
+          "name": "image",
+          "value": "image_asset",
+          "_translations": {
+            "value": {}
+          },
+          "exclude_from_translation": true,
+          "type": "set_variable",
+          "_nested_name": "menu_task_flow.image"
+        },
+        {
+          "name": "completed_prefix",
+          "value": "task_",
+          "_translations": {
+            "value": {}
+          },
+          "exclude_from_translation": true,
+          "type": "set_variable",
+          "_nested_name": "menu_task_flow.completed_prefix"
+        },
+        {
+          "name": "completed_postfix",
+          "value": "_completed",
+          "_translations": {
+            "value": {}
+          },
+          "exclude_from_translation": true,
+          "type": "set_variable",
+          "_nested_name": "menu_task_flow.completed_postfix"
+        },
+        {
+          "name": "sub_menu",
+          "value": "_category_tasks",
+          "_translations": {
+            "value": {}
+          },
+          "exclude_from_translation": true,
+          "type": "set_variable",
+          "_nested_name": "menu_task_flow.sub_menu"
+        },
+        {
+          "name": "menu_items",
+          "value": "modules",
+          "_translations": {
+            "value": {}
+          },
+          "exclude_from_translation": true,
+          "type": "set_variable",
+          "_nested_name": "menu_task_flow.menu_items"
+        },
+        {
+          "name": "click_prefix",
+          "value": "sub_item_",
+          "_translations": {
+            "value": {}
+          },
+          "exclude_from_translation": true,
+          "type": "set_variable",
+          "_nested_name": "menu_task_flow.click_prefix"
+        },
+        {
+          "name": "progress_units_name",
+          "value": "sections",
+          "_translations": {
+            "value": {}
+          },
+          "exclude_from_translation": true,
+          "type": "set_variable",
+          "_nested_name": "menu_task_flow.progress_units_name"
+        }
+      ],
+      "_nested_name": "menu_task_flow"
+    }
+  ],
+  "_xlsxPath": "templates/menu_overrides.xlsx"
+}

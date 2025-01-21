@@ -1,0 +1,131 @@
+{
+  "flow_type": "data_list",
+  "flow_name": "a_sections",
+  "status": "released",
+  "data_list_name": "a_sections",
+  "rows": [
+    {
+      "id": "section_1",
+      "foreign_key": "onboarding_day_chat",
+      "ignore": 1,
+      "ignore_2": "onboarding_day_chat_1",
+      "title": "Add Ground Rules, previously agreed, to the WhatsApp Group Description",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "button_text": {},
+        "extra_text": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Add Ground Rules, previously agreed, to the WhatsApp Group Description"
+        },
+        "text": {
+          "eng": "Remember to add the ground rules to the WhatsApp Group Description. \n\n​​To add the ground rules to the Group Description:\n \nOpen the WhatsApp group chat. \n\nTap the group name. \n\nTap the existing description, or tap Add Group Description. \nPaste the ground rules. \n\nTap Save."
+        },
+        "button_text": {
+          "eng": "Sample Ground Rules"
+        },
+        "extra_text": {
+          "eng": ""
+        }
+      },
+      "text": "Remember to add the ground rules to the WhatsApp Group Description. \n\n​​To add the ground rules to the Group Description:\n \nOpen the WhatsApp group chat. \n\nTap the group name. \n\nTap the existing description, or tap Add Group Description. \nPaste the ground rules. \n\nTap Save.",
+      "button_text": "Sample Ground Rules",
+      "extra_text": ""
+    },
+    {
+      "id": "section_2",
+      "foreign_key": "before_chat_2",
+      "ignore": 2,
+      "ignore_2": "before_chat_2",
+      "title": "Add Ground Rules, previously agreed, to the WhatsApp Group Description",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "button_text": {},
+        "extra_text": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Add Ground Rules, previously agreed, to the WhatsApp Group Description"
+        },
+        "text": {
+          "eng": "Remember to add the ground rules to the WhatsApp Group Description. ​​To add the ground rules to the Group Description, copy the ground rules or use the ones agreed during the onboarding session. Then: \n\nOpen the WhatsApp group chat. \n\nTap the group name. \n\nTap the existing description, or tap Add Group Description. \nPaste the ground rules. \n\nTap Save."
+        },
+        "button_text": {
+          "eng": "Sample Ground Rules"
+        },
+        "extra_text": {
+          "eng": "“To make this a a comfortable, empathetic and safe space for everyone, here are some ground rules:\n \n✅ What is said in the group stays in the group, both in person and online You need to know that this group is private.\n✅ Accept each other. Everyone is different and has different experiences.\n✅ Share only what you feel comfortable sharing. Avoid topics unrelated to the content of the workshop, advertisements or sales. \n✅Respect each other by paying attention and taking turns to share and listen.\n✅The conversation in the WhatsApp group will focus solely on the parenting of children.\n✅ Feel free to ask questions! \n✅ Respect privacy of personal pictures and videos that are sent to the chat group. \n✅ I AM only here as an observer. I will not respond to questions about your parenting habits in this group or personally. However, if there is a message that will benefit the entire group, then I will share a general message here.”\n✅Connect and participate in the interaction schedule with the facilitator. The schedule to interact in this chat is:[Enter schedule]"
+        }
+      },
+      "text": "Remember to add the ground rules to the WhatsApp Group Description. ​​To add the ground rules to the Group Description, copy the ground rules or use the ones agreed during the onboarding session. Then: \n\nOpen the WhatsApp group chat. \n\nTap the group name. \n\nTap the existing description, or tap Add Group Description. \nPaste the ground rules. \n\nTap Save.",
+      "button_text": "Sample Ground Rules",
+      "extra_text": "“To make this a a comfortable, empathetic and safe space for everyone, here are some ground rules:\n \n✅ What is said in the group stays in the group, both in person and online You need to know that this group is private.\n✅ Accept each other. Everyone is different and has different experiences.\n✅ Share only what you feel comfortable sharing. Avoid topics unrelated to the content of the workshop, advertisements or sales. \n✅Respect each other by paying attention and taking turns to share and listen.\n✅The conversation in the WhatsApp group will focus solely on the parenting of children.\n✅ Feel free to ask questions! \n✅ Respect privacy of personal pictures and videos that are sent to the chat group. \n✅ I AM only here as an observer. I will not respond to questions about your parenting habits in this group or personally. However, if there is a message that will benefit the entire group, then I will share a general message here.”\n✅Connect and participate in the interaction schedule with the facilitator. The schedule to interact in this chat is:[Enter schedule]"
+    },
+    {
+      "foreign_key": "",
+      "ignore_2": "",
+      "title": "",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "button_text": {},
+        "extra_text": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": ""
+        },
+        "text": {
+          "eng": ""
+        },
+        "button_text": {
+          "eng": ""
+        },
+        "extra_text": {
+          "eng": ""
+        }
+      },
+      "text": "",
+      "button_text": "",
+      "extra_text": ""
+    },
+    {
+      "foreign_key": "",
+      "ignore_2": "",
+      "title": "",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "extra_text": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": ""
+        },
+        "text": {
+          "eng": ""
+        },
+        "extra_text": {
+          "eng": ""
+        }
+      },
+      "text": "",
+      "extra_text": ""
+    },
+    {
+      "ignore_2": ""
+    },
+    {
+      "ignore_2": ""
+    }
+  ],
+  "_xlsxPath": "templates/temp data/PH modules new structure.xlsx",
+  "_metadata": {
+    "ignore": {
+      "type": "number"
+    }
+  }
+}

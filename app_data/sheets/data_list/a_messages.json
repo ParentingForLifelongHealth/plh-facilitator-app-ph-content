@@ -1,0 +1,898 @@
+{
+  "flow_type": "data_list",
+  "flow_name": "a_messages",
+  "status": "released",
+  "data_list_name": "a_messages",
+  "rows": [
+    {
+      "id": "message_1",
+      "foreign_key": "onboarding_day_chat_2",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 1,
+      "title": "Message 1: Introduction",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "guidance": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Message 1: Introduction"
+        },
+        "text": {
+          "eng": "😃 Hi there! Welcome to our @global.programme_name WhatsApp Group! \n\nToday, we are introducing ourselves and our goals for the programme! ⭐ \n\nMy name is [INSERT NAME], and my goal is to learn more about how to help my girl go to bed by 8 every night.⏰🌙 \n\nPlease share your name and your goal for @global.programme_name using text or audio message."
+        },
+        "guidance": {
+          "eng": "Remember to fill in your name where it says [INSERT NAME] before sending your message. \n\nAllow some time for parents to share. Try to praise each response.\n\nFor example, you can say, “Thanks for the response, [Insert Name]!” or “Great goal, [Insert Name]”! You can also use simple emojis like 👍or 🙂"
+        }
+      },
+      "text": "😃 Hi there! Welcome to our @global.programme_name WhatsApp Group! \n\nToday, we are introducing ourselves and our goals for the programme! ⭐ \n\nMy name is [INSERT NAME], and my goal is to learn more about how to help my girl go to bed by 8 every night.⏰🌙 \n\nPlease share your name and your goal for @global.programme_name using text or audio message.",
+      "guidance": "Remember to fill in your name where it says [INSERT NAME] before sending your message. \n\nAllow some time for parents to share. Try to praise each response.\n\nFor example, you can say, “Thanks for the response, [Insert Name]!” or “Great goal, [Insert Name]”! You can also use simple emojis like 👍or 🙂"
+    },
+    {
+      "id": "message_2",
+      "foreign_key": "onboarding_day_chat_3",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 2,
+      "title": "Message 2: Setting time to chat",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "guidance": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Message 2: Setting time to chat"
+        },
+        "text": {
+          "eng": "This week, we will catch up at [INSERT TIME] on [INSERT DAY] to chat about our @global.programme_name journey. \n\n👋Please join to share how things are going. Every little step matters. Share what works when you practise, reflections about the topic, any challenges you experience, or just say hi! 😊\n\n⏰Does this time and day work for everyone?"
+        },
+        "guidance": {
+          "eng": "Add the time and day of the week before sending the message."
+        }
+      },
+      "text": "This week, we will catch up at [INSERT TIME] on [INSERT DAY] to chat about our @global.programme_name journey. \n\n👋Please join to share how things are going. Every little step matters. Share what works when you practise, reflections about the topic, any challenges you experience, or just say hi! 😊\n\n⏰Does this time and day work for everyone?",
+      "guidance": "Add the time and day of the week before sending the message."
+    },
+    {
+      "id": "message_3",
+      "foreign_key": "onboarding_day_chat_4",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 3,
+      "title": "Message 3: Closing",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "guidance": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Message 3: Closing"
+        },
+        "text": {
+          "eng": "😃Thank you so much for being part of our WhatsApp chat group! \n\nAs your home practice, try to spend at least 5 minutes of one-on-one time with your girl, boy or teen each day. \n\nWe can share how it goes during our next chat session. \n\n👋See you later."
+        },
+        "guidance": {
+          "eng": ""
+        }
+      },
+      "text": "😃Thank you so much for being part of our WhatsApp chat group! \n\nAs your home practice, try to spend at least 5 minutes of one-on-one time with your girl, boy or teen each day. \n\nWe can share how it goes during our next chat session. \n\n👋See you later.",
+      "guidance": ""
+    },
+    {
+      "id": "message_4",
+      "foreign_key": "day_3_mh_stress_2",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 4,
+      "title": "Message 1: Chat Reminder",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "guidance": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Message 1: Chat Reminder"
+        },
+        "text": {
+          "eng": "💚Hello everyone! Our next chat session will be later today at [INSERT TIME]. Chat soon!"
+        },
+        "guidance": {
+          "eng": "Send this message in the morning on the day of the chat session. Insert the time for the chat before sending the message."
+        }
+      },
+      "text": "💚Hello everyone! Our next chat session will be later today at [INSERT TIME]. Chat soon!",
+      "guidance": "Send this message in the morning on the day of the chat session. Insert the time for the chat before sending the message."
+    },
+    {
+      "id": "message_5",
+      "foreign_key": "day_3_mh_stress_3",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 5,
+      "title": "Message 2: Welcome and Check-in",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "guidance": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Message 2: Welcome and Check-in"
+        },
+        "text": {
+          "eng": "Hello, everyone! 😃\nWelcome to our second chat session! \n\nToday, we are talking about feeling stressed. Feeling stressed is a normal part of being human, and parenting can add an extra layer of challenges. \n\nIt’s important to manage our stress. Otherwise, it can build up and affect our health and relationships!\n\nHow is everyone’s stress level today? \n\nUse a number from 1 to 10 to share your stress level:\n1 - No Stress \n2 to 5 - Some Stress \n6 to 9 - Feeling Stressed \n10 - Extremely Stressed \n\nFeel free to share your number with the group. We're all in this together!"
+        },
+        "guidance": {
+          "eng": "Allow time for parents to share how they are feeling. You should also share how you are feeling. For example, “Today, I'm at a 5 stress level, my teen has been sick for a few days but happy to be part of the chat today.”"
+        }
+      },
+      "text": "Hello, everyone! 😃\nWelcome to our second chat session! \n\nToday, we are talking about feeling stressed. Feeling stressed is a normal part of being human, and parenting can add an extra layer of challenges. \n\nIt’s important to manage our stress. Otherwise, it can build up and affect our health and relationships!\n\nHow is everyone’s stress level today? \n\nUse a number from 1 to 10 to share your stress level:\n1 - No Stress \n2 to 5 - Some Stress \n6 to 9 - Feeling Stressed \n10 - Extremely Stressed \n\nFeel free to share your number with the group. We're all in this together!",
+      "guidance": "Allow time for parents to share how they are feeling. You should also share how you are feeling. For example, “Today, I'm at a 5 stress level, my teen has been sick for a few days but happy to be part of the chat today.”"
+    },
+    {
+      "id": "message_6",
+      "foreign_key": "day_3_mh_stress_4",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 6,
+      "title": "Message 3: Understanding Self Talk",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "guidance": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Message 3: Understanding Self Talk"
+        },
+        "text": {
+          "eng": "Thank you all for sharing your honest responses! 🎉\n💡 Today, we're going to practise a skill to manage stress: self-talk.\n🎤 Self-talk is the way we talk to ourselves in our head or out loud during stressful situations. It’s the things we say to ourselves out loud and the thoughts in our minds.\nIt's easy to be unkind to ourselves, especially when we're tired or upset.\nCan anyone share a time when they said something negative to themselves?"
+        },
+        "guidance": {
+          "eng": "Allow parents to respond. You can reply to the parents with an emoji ⭐ or words of encouragement, like “That is a good example! I am sure a lot of us have felt that way”."
+        }
+      },
+      "text": "Thank you all for sharing your honest responses! 🎉\n💡 Today, we're going to practise a skill to manage stress: self-talk.\n🎤 Self-talk is the way we talk to ourselves in our head or out loud during stressful situations. It’s the things we say to ourselves out loud and the thoughts in our minds.\nIt's easy to be unkind to ourselves, especially when we're tired or upset.\nCan anyone share a time when they said something negative to themselves?",
+      "guidance": "Allow parents to respond. You can reply to the parents with an emoji ⭐ or words of encouragement, like “That is a good example! I am sure a lot of us have felt that way”."
+    },
+    {
+      "id": "message_7",
+      "foreign_key": "day_3_mh_stress_5",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 7,
+      "title": "Message 4: Positive Self-Talk",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "guidance": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Message 4: Positive Self-Talk"
+        },
+        "text": {
+          "eng": "Thanks for sharing that example! \nParenting can be challenging. But you can reduce your overall stress when you think about what you’re doing well and speak kindly to yourself. \n\n1️⃣ The first step for practising self-talk is to notice when a negative thought comes.\n2️⃣Then, ask yourself: How can I change this thought into something kind or caring? You can: \n😃 Look for small parenting accomplishments or efforts. \n✅ Consider what you’ve learned from the negative situation. \n📝Come up with a few ways to help you act differently next time. Remember, this is temporary, and you have the chance to be better in the future."
+        },
+        "guidance": {
+          "eng": ""
+        }
+      },
+      "text": "Thanks for sharing that example! \nParenting can be challenging. But you can reduce your overall stress when you think about what you’re doing well and speak kindly to yourself. \n\n1️⃣ The first step for practising self-talk is to notice when a negative thought comes.\n2️⃣Then, ask yourself: How can I change this thought into something kind or caring? You can: \n😃 Look for small parenting accomplishments or efforts. \n✅ Consider what you’ve learned from the negative situation. \n📝Come up with a few ways to help you act differently next time. Remember, this is temporary, and you have the chance to be better in the future.",
+      "guidance": ""
+    },
+    {
+      "id": "message_8",
+      "foreign_key": "day_3_mh_stress_6",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 8,
+      "title": "Practice Activity: Re-wording Negative Self-Talk",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "guidance": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Practice Activity: Re-wording Negative Self-Talk"
+        },
+        "text": {
+          "eng": "📝 Let's notice negative self-talk when it happens, and turn it around. For example, \n**Negative Self-Talk:** \"I was a bad parent today. I yelled at my teen for an honest mistake.\"\n**Positive Self-Talk:** \"Today was tough because I've been overwhelmed. I yelled at my teen, knowing it was an honest mistake. Next time, I'll pause before responding, ensuring I'm calm and in control.\"\n💡 See how the positive self-talk is more supportive? 🏠 Now, your turn! Share a time you talked negatively to yourself, and let’s find and turn it into positive self-talk. Try doing this three times by the week’s end and feel the difference! \nHow parents talk to themselves teaches their kids how to talk to themselves. Girls, boys,  and teens learn from watching their parents."
+        },
+        "guidance": {
+          "eng": "Briefly read the participants’ responses and make sure they are not insulting themselves and generally follow the example above. Any instances of intent of self-harm or harm to girls and boys should be reported appropriately. \nThank you and react positively to all participation. Invite those who have not written their response to participate."
+        }
+      },
+      "text": "📝 Let's notice negative self-talk when it happens, and turn it around. For example, \n**Negative Self-Talk:** \"I was a bad parent today. I yelled at my teen for an honest mistake.\"\n**Positive Self-Talk:** \"Today was tough because I've been overwhelmed. I yelled at my teen, knowing it was an honest mistake. Next time, I'll pause before responding, ensuring I'm calm and in control.\"\n💡 See how the positive self-talk is more supportive? 🏠 Now, your turn! Share a time you talked negatively to yourself, and let’s find and turn it into positive self-talk. Try doing this three times by the week’s end and feel the difference! \nHow parents talk to themselves teaches their kids how to talk to themselves. Girls, boys,  and teens learn from watching their parents.",
+      "guidance": "Briefly read the participants’ responses and make sure they are not insulting themselves and generally follow the example above. Any instances of intent of self-harm or harm to girls and boys should be reported appropriately. \nThank you and react positively to all participation. Invite those who have not written their response to participate."
+    },
+    {
+      "id": "message_9",
+      "foreign_key": "day_5_final_chat_session_5ux_2",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 9,
+      "title": "Message 1: Reminder",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "guidance": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Message 1: Reminder"
+        },
+        "text": {
+          "eng": "Hello! Our last chat session will be later today at [INSERT TIME]. See you then! 👋"
+        },
+        "guidance": {
+          "eng": "Send this message in the morning on the day of the chat session. Insert the time for the chat before sending the message."
+        }
+      },
+      "text": "Hello! Our last chat session will be later today at [INSERT TIME]. See you then! 👋",
+      "guidance": "Send this message in the morning on the day of the chat session. Insert the time for the chat before sending the message."
+    },
+    {
+      "id": "message_10",
+      "foreign_key": "day_5_final_chat_session_5ux_3",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 10,
+      "title": "Message 2: Welcome",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "guidance": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Message 2: Welcome"
+        },
+        "text": {
+          "eng": "👋Hi everyone, congratulations on completing the course on improving your relationship with your girl, boy or teen on @global.programme_name! \n✨ Take a moment to think back to the beginning of the programme. You should be so proud of yourself. How was your experience in @global.programme_name?"
+        },
+        "guidance": {
+          "eng": "Allow parents to share their experience during the programme. You can give brief words of encouragement like “Wonderful!” or “I am happy to hear that!” or even share celebration emojis like 🎉or ⭐."
+        }
+      },
+      "text": "👋Hi everyone, congratulations on completing the course on improving your relationship with your girl, boy or teen on @global.programme_name! \n✨ Take a moment to think back to the beginning of the programme. You should be so proud of yourself. How was your experience in @global.programme_name?",
+      "guidance": "Allow parents to share their experience during the programme. You can give brief words of encouragement like “Wonderful!” or “I am happy to hear that!” or even share celebration emojis like 🎉or ⭐."
+    },
+    {
+      "id": "message_11",
+      "foreign_key": "day_5_final_chat_session_5ux_4",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 11,
+      "title": "Message 3: Thank You",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "guidance": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Message 3: Thank You"
+        },
+        "text": {
+          "eng": "Thank you for sharing your experiences. It is wonderful to hear from you about the programme. Remember that your parenting journey continues! 💚\n\nOn @global.programme_name, we will be adding more courses soon. So stay tuned for exciting learning opportunities!"
+        },
+        "guidance": {
+          "eng": ""
+        }
+      },
+      "text": "Thank you for sharing your experiences. It is wonderful to hear from you about the programme. Remember that your parenting journey continues! 💚\n\nOn @global.programme_name, we will be adding more courses soon. So stay tuned for exciting learning opportunities!",
+      "guidance": ""
+    },
+    {
+      "id": "message_12",
+      "foreign_key": "day_5_final_chat_session_5ux_5",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 12,
+      "title": "Message 4: Goodbye",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "guidance": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Message 4: Goodbye"
+        },
+        "text": {
+          "eng": "It's been wonderful being part of this amazing parent program with all of you! Saying goodbye makes me a bit sad. \n\nAs I shared with you during the onboarding session, I will now be exiting this WhatsApp Group. 👋\n\nYou are the best parents to your boys, girls, and teens.  *You can still complete your final @global.programme_name lessons if you have not done so yet*. 🌱\n\nWe all face difficult situations sometimes, and these final parts of @global.programme_name will help you and your girl, boy or teen to get through them well. \n\nYou’ve got this! ⭐You are doing a wonderful job as a parent. It has been a pleasure to be on this journey with you!"
+        },
+        "guidance": {
+          "eng": ""
+        }
+      },
+      "text": "It's been wonderful being part of this amazing parent program with all of you! Saying goodbye makes me a bit sad. \n\nAs I shared with you during the onboarding session, I will now be exiting this WhatsApp Group. 👋\n\nYou are the best parents to your boys, girls, and teens.  *You can still complete your final @global.programme_name lessons if you have not done so yet*. 🌱\n\nWe all face difficult situations sometimes, and these final parts of @global.programme_name will help you and your girl, boy or teen to get through them well. \n\nYou’ve got this! ⭐You are doing a wonderful job as a parent. It has been a pleasure to be on this journey with you!",
+      "guidance": ""
+    },
+    {
+      "id": "message_13",
+      "foreign_key": "before_chat",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 13,
+      "title": "Message 1: Chat Reminder",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "guidance": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Message 1: Chat Reminder"
+        },
+        "text": {
+          "eng": "💚Hello everyone! Our next chat session will be later today at [INSERT TIME]. Chat soon!"
+        },
+        "guidance": {
+          "eng": "Insert the time before sending the message."
+        }
+      },
+      "text": "💚Hello everyone! Our next chat session will be later today at [INSERT TIME]. Chat soon!",
+      "guidance": "Insert the time before sending the message."
+    },
+    {
+      "id": "message_14",
+      "foreign_key": "week_1_chat_2",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 14,
+      "title": "Message 1:Home Activity Check-in",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "guidance": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Message 1:Home Activity Check-in"
+        },
+        "text": {
+          "eng": "Hello, everyone! 😃\nWelcome to our second chat session! \n\nLet’s chat about how your home activities are going with your girl, boy, or teen. Please share what went well or if you found anything difficult."
+        },
+        "guidance": {
+          "eng": "Acknowledge the experiences parents share with an appropriate emoji or with a response from the common challenges."
+        }
+      },
+      "text": "Hello, everyone! 😃\nWelcome to our second chat session! \n\nLet’s chat about how your home activities are going with your girl, boy, or teen. Please share what went well or if you found anything difficult.",
+      "guidance": "Acknowledge the experiences parents share with an appropriate emoji or with a response from the common challenges."
+    },
+    {
+      "id": "message_15",
+      "foreign_key": "week_1_chat_3",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 15,
+      "title": "Message 2: Feelings",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "guidance": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Message 2: Feelings"
+        },
+        "text": {
+          "eng": "Thank you for sharing. \n\nJust like we take care of our bodies, it's important to take care of our minds as well. As caregivers, it’s important that we learn what mental well-being is and how to promote it not just for your girls, boys and teens, but yourself too! \n\nToday, we're discussing some of the building blocks of well-being: thoughts, feelings, and actions.\n\nLet's start by sharing how we're feeling today. Are you feeling happy, sad, angry, scared, stressed, confused?... I'll begin!"
+        },
+        "guidance": {
+          "eng": "Allow time for caregivers to share how they are feeling. You should also share how you are feeling. For example, “I’m feeling a little tired today, and at the same time very excited for our session together!”"
+        }
+      },
+      "text": "Thank you for sharing. \n\nJust like we take care of our bodies, it's important to take care of our minds as well. As caregivers, it’s important that we learn what mental well-being is and how to promote it not just for your girls, boys and teens, but yourself too! \n\nToday, we're discussing some of the building blocks of well-being: thoughts, feelings, and actions.\n\nLet's start by sharing how we're feeling today. Are you feeling happy, sad, angry, scared, stressed, confused?... I'll begin!",
+      "guidance": "Allow time for caregivers to share how they are feeling. You should also share how you are feeling. For example, “I’m feeling a little tired today, and at the same time very excited for our session together!”"
+    },
+    {
+      "id": "message_16",
+      "foreign_key": "week_1_chat_4",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 16,
+      "title": "Message 3: Connecting to thoughts",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "guidance": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Message 3: Connecting to thoughts"
+        },
+        "text": {
+          "eng": "Thank you all for sharing your honest responses! 🎉\n\nGreat! You already know the first important step in taking care of our minds - identify and name our feelings! \n\nFeelings are like messages that tell us or warn us about how we are doing inside. \nThey can be powerful and sometimes influence our thoughts. Similarly, our thoughts can affect how we feel!\n\nWhen we’re happy, our thoughts are often pleasant too. But when we are sad or angry, our thoughts can also be unpleasant. \n\nNow, take a moment and think about the thoughts that go along with the feelings you mentioned earlier in the chat. Please share an example in the chat."
+        },
+        "guidance": {
+          "eng": "Allow parents to respond. You can reply to the parents with an emoji ⭐ or use ACCEPT, to say  “That is a good example! I am sure a lot of us have felt that way”.\n\nIf needed, you can provide the following example: “I’ll share an example. I was feeling happy today, and so I thought about spending some time with my son.”"
+        }
+      },
+      "text": "Thank you all for sharing your honest responses! 🎉\n\nGreat! You already know the first important step in taking care of our minds - identify and name our feelings! \n\nFeelings are like messages that tell us or warn us about how we are doing inside. \nThey can be powerful and sometimes influence our thoughts. Similarly, our thoughts can affect how we feel!\n\nWhen we’re happy, our thoughts are often pleasant too. But when we are sad or angry, our thoughts can also be unpleasant. \n\nNow, take a moment and think about the thoughts that go along with the feelings you mentioned earlier in the chat. Please share an example in the chat.",
+      "guidance": "Allow parents to respond. You can reply to the parents with an emoji ⭐ or use ACCEPT, to say  “That is a good example! I am sure a lot of us have felt that way”.\n\nIf needed, you can provide the following example: “I’ll share an example. I was feeling happy today, and so I thought about spending some time with my son.”"
+    },
+    {
+      "id": "message_17",
+      "foreign_key": "week_1_chat_5",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 17,
+      "title": "Message 4: Connecting to actions",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "guidance": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Message 4: Connecting to actions"
+        },
+        "text": {
+          "eng": "These are great connections! You’re already learning how thoughts and feelings work together. Now, let’s talk about our actions. \n\nActions are the behaviours we take based on our thoughts and feelings. For example, if you feel happy and relaxed while spending time with your girls, boys, and teens, you are more likely to do fun activities together or to respond calmly. On the other hand, if you are feeling stressed or overwhelmed, you might get angry or irritated with your girls, boys, or teens. \n\nWe talked about our feelings and the thoughts that come with them that may affect our actions. Now, in the chat, let’s share how these feelings and thoughts affected your actions today."
+        },
+        "guidance": {
+          "eng": "Allow parents to respond. You can reply to the parents with an emoji ⭐ or words of encouragement. \n\nIf needed, you can share:“I’ll share an example. One thought I’ve had recently is, when I think about my son playing, I feel happy. When I saw him later that day, I gave him an extra long hug :)”"
+        }
+      },
+      "text": "These are great connections! You’re already learning how thoughts and feelings work together. Now, let’s talk about our actions. \n\nActions are the behaviours we take based on our thoughts and feelings. For example, if you feel happy and relaxed while spending time with your girls, boys, and teens, you are more likely to do fun activities together or to respond calmly. On the other hand, if you are feeling stressed or overwhelmed, you might get angry or irritated with your girls, boys, or teens. \n\nWe talked about our feelings and the thoughts that come with them that may affect our actions. Now, in the chat, let’s share how these feelings and thoughts affected your actions today.",
+      "guidance": "Allow parents to respond. You can reply to the parents with an emoji ⭐ or words of encouragement. \n\nIf needed, you can share:“I’ll share an example. One thought I’ve had recently is, when I think about my son playing, I feel happy. When I saw him later that day, I gave him an extra long hug :)”"
+    },
+    {
+      "id": "message_18",
+      "foreign_key": "week_1_chat_6",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 18,
+      "title": "Message 5: Practise for the week",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "guidance": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Message 5: Practise for the week"
+        },
+        "text": {
+          "eng": "Great job! You’ve learned one way in which thoughts, feelings, and actions are connected. \n\nHow we feel and act is affected by what we think. Similarly, how we think and act also affects our feelings. \n\nThink of it like a triangle: \n\n        Thoughts\n       /               \\\nActions  –  Feelings\n\nThis week, try noticing this connection in your life or your girls, boys and teen’s. Type in the chat, record a voice note, or write down: \n\n1) A thought  that popped into your head or a situation that happened\n2) How it made you feel\n3) How the thought affected your actions\n\nThank you for participating in this chat session!"
+        },
+        "guidance": {
+          "eng": "Allow parents to respond. You can reply to the parents with an emoji ⭐ or words of encouragement."
+        }
+      },
+      "text": "Great job! You’ve learned one way in which thoughts, feelings, and actions are connected. \n\nHow we feel and act is affected by what we think. Similarly, how we think and act also affects our feelings. \n\nThink of it like a triangle: \n\n        Thoughts\n       /               \\\nActions  –  Feelings\n\nThis week, try noticing this connection in your life or your girls, boys and teen’s. Type in the chat, record a voice note, or write down: \n\n1) A thought  that popped into your head or a situation that happened\n2) How it made you feel\n3) How the thought affected your actions\n\nThank you for participating in this chat session!",
+      "guidance": "Allow parents to respond. You can reply to the parents with an emoji ⭐ or words of encouragement."
+    },
+    {
+      "id": "message_19",
+      "foreign_key": "week_2_chat_2",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 19,
+      "title": "Message 1: Home Activity Check-in",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "guidance": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Message 1: Home Activity Check-in"
+        },
+        "text": {
+          "eng": "Hello, everyone! 😃\nWelcome to our third chat session! \n\nLet’s begin our session by checking how your @global.programme_name home activities are going. \nDid you find anything difficult or want to share anything that went well?"
+        },
+        "guidance": {
+          "eng": "Acknowledge the experiences caregivers share with an appropriate emoji or with a response to the common challenges."
+        }
+      },
+      "text": "Hello, everyone! 😃\nWelcome to our third chat session! \n\nLet’s begin our session by checking how your @global.programme_name home activities are going. \nDid you find anything difficult or want to share anything that went well?",
+      "guidance": "Acknowledge the experiences caregivers share with an appropriate emoji or with a response to the common challenges."
+    },
+    {
+      "id": "message_20",
+      "foreign_key": "week_2_chat_3",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 20,
+      "title": "Message 2: Understanding Self-Talk",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "guidance": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Message 2: Understanding Self-Talk"
+        },
+        "text": {
+          "eng": "Thank you all for sharing your honest responses! 🎉\n\n💡 Today, we are going to practise talking kindly to ourselves. \n\nLast chat session, we learnt that our thoughts affect our feelings and actions. Today, we will practise talking kindly to ourselves, so we can influence our feelings and actions. \n\nBut when we are stressed or overwhelmed, we often say unkind things to ourselves. \n\nCan anyone share an example of an unkind thing you might say to yourself during the day?"
+        },
+        "guidance": {
+          "eng": "Allow parents to respond. You can reply to the parents with an emoji ⭐ or use ACCEPT, like “That is a good example! I am sure a lot of us have felt that way”."
+        }
+      },
+      "text": "Thank you all for sharing your honest responses! 🎉\n\n💡 Today, we are going to practise talking kindly to ourselves. \n\nLast chat session, we learnt that our thoughts affect our feelings and actions. Today, we will practise talking kindly to ourselves, so we can influence our feelings and actions. \n\nBut when we are stressed or overwhelmed, we often say unkind things to ourselves. \n\nCan anyone share an example of an unkind thing you might say to yourself during the day?",
+      "guidance": "Allow parents to respond. You can reply to the parents with an emoji ⭐ or use ACCEPT, like “That is a good example! I am sure a lot of us have felt that way”."
+    },
+    {
+      "id": "message_21",
+      "foreign_key": "week_2_chat_4",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 21,
+      "title": "Message 3: Kind self-talk",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "guidance": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Message 3: Kind self-talk"
+        },
+        "text": {
+          "eng": "Thanks for sharing that example! \n\n1️⃣ You have already taken the first step in talking kindly to yourself - noticing when you have an unpleasant thought about yourself. \n2️⃣ After noticing an unpleasant thought, ask yourself: \n\nHow can I change this unpleasant thought into a kind thought? \nWhat would a friend or loved one say if I shared this unkind thought? \n\n3️⃣ Now, let's keep practising this together. Share in the chat the kind thought that came up for you when you asked yourself these questions."
+        },
+        "guidance": {
+          "eng": ""
+        }
+      },
+      "text": "Thanks for sharing that example! \n\n1️⃣ You have already taken the first step in talking kindly to yourself - noticing when you have an unpleasant thought about yourself. \n2️⃣ After noticing an unpleasant thought, ask yourself: \n\nHow can I change this unpleasant thought into a kind thought? \nWhat would a friend or loved one say if I shared this unkind thought? \n\n3️⃣ Now, let's keep practising this together. Share in the chat the kind thought that came up for you when you asked yourself these questions.",
+      "guidance": ""
+    },
+    {
+      "id": "message_22",
+      "foreign_key": "week_2_chat_5",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 22,
+      "title": "Message 4: Example",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "guidance": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Message 4: Example"
+        },
+        "text": {
+          "eng": "🫤 Unkind Self-Talk: \"I was a bad parent today. I yelled at my teen for an honest mistake.\" \n\n😊 Kind Self-Talk: \"Today was tough because I've been overwhelmed. I yelled at my teen, knowing it was an honest mistake. Next time, I'll pause before responding, ensuring I'm calm and in control.\""
+        },
+        "guidance": {
+          "eng": "This is an example. Feel free to make it your own!"
+        }
+      },
+      "text": "🫤 Unkind Self-Talk: \"I was a bad parent today. I yelled at my teen for an honest mistake.\" \n\n😊 Kind Self-Talk: \"Today was tough because I've been overwhelmed. I yelled at my teen, knowing it was an honest mistake. Next time, I'll pause before responding, ensuring I'm calm and in control.\"",
+      "guidance": "This is an example. Feel free to make it your own!"
+    },
+    {
+      "id": "message_23",
+      "foreign_key": "week_2_chat_6",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 23,
+      "title": "Message 4: Practice for the Week",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "guidance": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Message 4: Practice for the Week"
+        },
+        "text": {
+          "eng": "This week, notice 3 times when you have an unkind thought towards yourself. Ask yourself, how you can change this into a kind thought. \n\nTry and write in the chat the unkind thought and the kind thought you came up with. \n\nFeel free to share in the chat during the week."
+        },
+        "guidance": {
+          "eng": ""
+        }
+      },
+      "text": "This week, notice 3 times when you have an unkind thought towards yourself. Ask yourself, how you can change this into a kind thought. \n\nTry and write in the chat the unkind thought and the kind thought you came up with. \n\nFeel free to share in the chat during the week.",
+      "guidance": ""
+    },
+    {
+      "id": "message_24",
+      "foreign_key": "week_2_chat_7",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 24,
+      "title": "Message 5: Three good things and closing",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "guidance": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Message 5: Three good things and closing"
+        },
+        "text": {
+          "eng": "To close our session, let’s share our three good things from this week.  \n\nRemember, they can be personal, work-related, or family-related. The more detailed, the better!\n\nSee you in the next chat session!"
+        },
+        "guidance": {
+          "eng": "Allow caregivers to respond. You can reply to the parents with an emoji ⭐ or words of encouragement. \n\nIf needed, you can share the examples below, or come up with your own. They can be in your personal life, work life, or something from your family. \n\n“Here are three good things from me: \n\nI had a great onboarding session with you all this week!\nI made a delicious dinner and enjoyed it with my whole family.\nSomeone at work gave me a compliment and it made me feel very happy.”"
+        }
+      },
+      "text": "To close our session, let’s share our three good things from this week.  \n\nRemember, they can be personal, work-related, or family-related. The more detailed, the better!\n\nSee you in the next chat session!",
+      "guidance": "Allow caregivers to respond. You can reply to the parents with an emoji ⭐ or words of encouragement. \n\nIf needed, you can share the examples below, or come up with your own. They can be in your personal life, work life, or something from your family. \n\n“Here are three good things from me: \n\nI had a great onboarding session with you all this week!\nI made a delicious dinner and enjoyed it with my whole family.\nSomeone at work gave me a compliment and it made me feel very happy.”"
+    },
+    {
+      "id": "message_25",
+      "foreign_key": "week_3_chat_2",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 25,
+      "title": "Welcome 1: Home Activity Check-in",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "guidance": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Welcome 1: Home Activity Check-in"
+        },
+        "text": {
+          "eng": "Hello, everyone! 😃\n\nWelcome to our chat session! \n\nHow are things going with your @global.programme_name home activities? Any challenges you've encountered or successes you'd like to share?"
+        },
+        "guidance": {
+          "eng": "Acknowledge the experiences caregivers share with an appropriate emoji or with a response from the common challenges."
+        }
+      },
+      "text": "Hello, everyone! 😃\n\nWelcome to our chat session! \n\nHow are things going with your @global.programme_name home activities? Any challenges you've encountered or successes you'd like to share?",
+      "guidance": "Acknowledge the experiences caregivers share with an appropriate emoji or with a response from the common challenges."
+    },
+    {
+      "id": "message_26",
+      "foreign_key": "week_3_chat_3",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 26,
+      "title": "Message 2: Reflecting on our strengths",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "guidance": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Message 2: Reflecting on our strengths"
+        },
+        "text": {
+          "eng": "Thank you all for sharing your honest responses! 🎉\n\nToday we are going to talk about our strengths. \n\nOur strengths are our positive qualities that help us face challenges, build relationships, and help us grow. Some examples of strengths are kindness, patience, and being appreciative of good things in life. \n\nBy being part of this program, you are showing the strength of love of learning and commitment for you girls’, boy’s and teen wellbeing!  \n\nThink about a time when you were enjoying what you were doing. What made you feel energised? Or, what has made it possible for you to get out of difficult situations?  \n\nShare it in the chat!"
+        },
+        "guidance": {
+          "eng": "Allow parents to respond. You can reply to the parents with an emoji ⭐ or use ACCEPT, like “That is a good example! I am sure a lot of us have felt that way”.\n\nYou can share an example to begin the conversation: “I really enjoy talking to different people and facilitating.”"
+        }
+      },
+      "text": "Thank you all for sharing your honest responses! 🎉\n\nToday we are going to talk about our strengths. \n\nOur strengths are our positive qualities that help us face challenges, build relationships, and help us grow. Some examples of strengths are kindness, patience, and being appreciative of good things in life. \n\nBy being part of this program, you are showing the strength of love of learning and commitment for you girls’, boy’s and teen wellbeing!  \n\nThink about a time when you were enjoying what you were doing. What made you feel energised? Or, what has made it possible for you to get out of difficult situations?  \n\nShare it in the chat!",
+      "guidance": "Allow parents to respond. You can reply to the parents with an emoji ⭐ or use ACCEPT, like “That is a good example! I am sure a lot of us have felt that way”.\n\nYou can share an example to begin the conversation: “I really enjoy talking to different people and facilitating.”"
+    },
+    {
+      "id": "message_27",
+      "foreign_key": "week_3_chat_4",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 27,
+      "title": "Message 3: Exploring our strengths",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "guidance": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Message 3: Exploring our strengths"
+        },
+        "text": {
+          "eng": "Thanks for sharing!\nYou know we all have strengths, and we can also develop them over time. Sometimes, it is hard for us to notice all our positive qualities. \nSo, let’s reflect on some of the positive qualities you used during the time you mentioned in the chat. \nWas it that you were creative in solving a problem or showed courage in a difficult situation?"
+        },
+        "guidance": {
+          "eng": "Allow caregivers to respond. You can reply to the parents with an emoji ⭐ or words of encouragement, like “These are great!”\n\nIf a parent has difficulty thinking of positive qualities, you can share these words for inspiration and normalise it: \n\nWanting to learn new things\nNot giving up when things are difficult\nBeing honest\nFeeling excited about life\nCaring deeply for someone"
+        }
+      },
+      "text": "Thanks for sharing!\nYou know we all have strengths, and we can also develop them over time. Sometimes, it is hard for us to notice all our positive qualities. \nSo, let’s reflect on some of the positive qualities you used during the time you mentioned in the chat. \nWas it that you were creative in solving a problem or showed courage in a difficult situation?",
+      "guidance": "Allow caregivers to respond. You can reply to the parents with an emoji ⭐ or words of encouragement, like “These are great!”\n\nIf a parent has difficulty thinking of positive qualities, you can share these words for inspiration and normalise it: \n\nWanting to learn new things\nNot giving up when things are difficult\nBeing honest\nFeeling excited about life\nCaring deeply for someone"
+    },
+    {
+      "id": "message_28",
+      "foreign_key": "week_3_chat_5",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 28,
+      "title": "Message 4: Practise for the week",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "guidance": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Message 4: Practise for the week"
+        },
+        "text": {
+          "eng": "What an amazing group of caregivers we have! \n\nThe more we use our positive qualities, the stronger they become. For example, the more we practise thinking of three good things in our life, the more appreciative we become of what we have. \n\nFor practising this skill this week, try to do one activity where you use a strength you identified in the previous message. See how you feel after - the connection between the strengths and well-being is powerful! You can also try this with your girl, boy, or teen:)  \n\nIf you are not sure yet, you can always practise your love of learning by doing a new course in Crianza con Conciencia+. \n\nFeel free to share in the chat during the week."
+        },
+        "guidance": {
+          "eng": ""
+        }
+      },
+      "text": "What an amazing group of caregivers we have! \n\nThe more we use our positive qualities, the stronger they become. For example, the more we practise thinking of three good things in our life, the more appreciative we become of what we have. \n\nFor practising this skill this week, try to do one activity where you use a strength you identified in the previous message. See how you feel after - the connection between the strengths and well-being is powerful! You can also try this with your girl, boy, or teen:)  \n\nIf you are not sure yet, you can always practise your love of learning by doing a new course in Crianza con Conciencia+. \n\nFeel free to share in the chat during the week.",
+      "guidance": ""
+    },
+    {
+      "id": "message_29",
+      "foreign_key": "week_3_chat_6",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 29,
+      "title": "Message 5: Three good things and closing",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "guidance": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Message 5: Three good things and closing"
+        },
+        "text": {
+          "eng": "Next week will be my last chat session with you. But you can keep this WhatsApp group open as a place to continue to support each other!  💚\n\nIs anyone willing to take over as a group admin? \n\nPlease send me a direct message if you are interested. It would be great to get *two volunteers*. 👀\n\nBefore we end our session, let’s share our three good things from this week.  \n\nRemember, they can be personal, work-related, or family-related. The more detailed, the better! You can also try this with your girl, boy, teen, or family!\n\nSee you in the next chat session!"
+        },
+        "guidance": {
+          "eng": "Allow parents to respond. You can reply to the parents with an emoji ⭐ or use ACCEPT.\n\n\nYou can share an example to begin the conversation: “I have had the absolute pleasure of facilitating this group, and I feel so happy about the community we’ve created!”"
+        }
+      },
+      "text": "Next week will be my last chat session with you. But you can keep this WhatsApp group open as a place to continue to support each other!  💚\n\nIs anyone willing to take over as a group admin? \n\nPlease send me a direct message if you are interested. It would be great to get *two volunteers*. 👀\n\nBefore we end our session, let’s share our three good things from this week.  \n\nRemember, they can be personal, work-related, or family-related. The more detailed, the better! You can also try this with your girl, boy, teen, or family!\n\nSee you in the next chat session!",
+      "guidance": "Allow parents to respond. You can reply to the parents with an emoji ⭐ or use ACCEPT.\n\n\nYou can share an example to begin the conversation: “I have had the absolute pleasure of facilitating this group, and I feel so happy about the community we’ve created!”"
+    },
+    {
+      "id": "message_30",
+      "foreign_key": "week_4_chat_2",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 30,
+      "title": "Message 1: Welcome and Check-in",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "guidance": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Message 1: Welcome and Check-in"
+        },
+        "text": {
+          "eng": "Hello, everyone! 😃\n\nWelcome to our final chat session! \n\nToday, we are wrapping up our conversation about building blocks for mental wellbeing. So far, we’ve identified the relationship between thoughts, feelings, and behaviours, learned about positive self talk, and relying on our character strengths. Great job!\n\nCongratulations on completing the Crianza con Conciencia+ Programme! You can continue to complete the course on the CC+.\n\n✨ Take a moment to think back to the beginning of the programme. You should be so proud of yourself. How was your experience in Crianza con Conciencia+?"
+        },
+        "guidance": {
+          "eng": "Allow caregivers to share their experience during the programme. You can give brief words of encouragement like “Wonderful!” or “I am happy to hear that!” or even share celebration emojis like 🎉 or ⭐."
+        }
+      },
+      "text": "Hello, everyone! 😃\n\nWelcome to our final chat session! \n\nToday, we are wrapping up our conversation about building blocks for mental wellbeing. So far, we’ve identified the relationship between thoughts, feelings, and behaviours, learned about positive self talk, and relying on our character strengths. Great job!\n\nCongratulations on completing the Crianza con Conciencia+ Programme! You can continue to complete the course on the CC+.\n\n✨ Take a moment to think back to the beginning of the programme. You should be so proud of yourself. How was your experience in Crianza con Conciencia+?",
+      "guidance": "Allow caregivers to share their experience during the programme. You can give brief words of encouragement like “Wonderful!” or “I am happy to hear that!” or even share celebration emojis like 🎉 or ⭐."
+    },
+    {
+      "id": "message_31",
+      "foreign_key": "week_4_chat_3",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 31,
+      "title": "Message 2: Pleasant time with your girl, boy or teen",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "guidance": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Message 2: Pleasant time with your girl, boy or teen"
+        },
+        "text": {
+          "eng": "Thank you for sharing your experiences. \n\nNow, let’s think back to a time when you and your girl, boy or teen did something together that made you feel really good. \n\nHow did it make you feel? Did it make you feel joy, love, pride or inspired? What were you doing? \n\nIf you feel comfortable, you can tell us about it in the chat. We would love to hear your story!"
+        },
+        "guidance": {
+          "eng": "Allow time for caregivers to share stories. If needed, feel free to share an example: \n\nMy teen and I cooked dinner together, and we had such a great time. I felt so joyful doing a fun activity together. He is learning all the best recipes from me:)."
+        }
+      },
+      "text": "Thank you for sharing your experiences. \n\nNow, let’s think back to a time when you and your girl, boy or teen did something together that made you feel really good. \n\nHow did it make you feel? Did it make you feel joy, love, pride or inspired? What were you doing? \n\nIf you feel comfortable, you can tell us about it in the chat. We would love to hear your story!",
+      "guidance": "Allow time for caregivers to share stories. If needed, feel free to share an example: \n\nMy teen and I cooked dinner together, and we had such a great time. I felt so joyful doing a fun activity together. He is learning all the best recipes from me:)."
+    },
+    {
+      "id": "message_32",
+      "foreign_key": "week_4_chat_4",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 32,
+      "title": "Message 3: Pleasant emotions",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "guidance": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Message 3: Pleasant emotions"
+        },
+        "text": {
+          "eng": "Thank you for sharing! \n\nWe all experience pleasant emotions throughout our lives, but did you know that you can boost your well-being by boosting pleasant emotions and thoughts? This works for you and your child or teen! \n\nSome ways we have talked about in our chat sessions are: \nThinking of three good things that happened during the day. \nRemember our chat last time about positive qualities? You and your girl, boy or teen could do activities together that brings out the positive qualities in both of you. \nWhen you feel pleasant emotions and share it with your girl, boy, or teen, they feel it too! \n\nWhen your well-being needs a boost, start by trying these activities. \n\nWhich of these do you think you can continue doing even after the programme has ended?"
+        },
+        "guidance": {
+          "eng": "Allow caregivers to respond. You can reply to the parents with an emoji ⭐ or words of encouragement, like “That sounds great!” or “Don’t worry, you can always plan to try it later this week.”"
+        }
+      },
+      "text": "Thank you for sharing! \n\nWe all experience pleasant emotions throughout our lives, but did you know that you can boost your well-being by boosting pleasant emotions and thoughts? This works for you and your child or teen! \n\nSome ways we have talked about in our chat sessions are: \nThinking of three good things that happened during the day. \nRemember our chat last time about positive qualities? You and your girl, boy or teen could do activities together that brings out the positive qualities in both of you. \nWhen you feel pleasant emotions and share it with your girl, boy, or teen, they feel it too! \n\nWhen your well-being needs a boost, start by trying these activities. \n\nWhich of these do you think you can continue doing even after the programme has ended?",
+      "guidance": "Allow caregivers to respond. You can reply to the parents with an emoji ⭐ or words of encouragement, like “That sounds great!” or “Don’t worry, you can always plan to try it later this week.”"
+    },
+    {
+      "id": "message_33",
+      "foreign_key": "week_4_chat_5",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 33,
+      "title": "Message 4: Three Good Things and Group Admin",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "guidance": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Message 4: Three Good Things and Group Admin"
+        },
+        "text": {
+          "eng": "Thank you for sharing. 🏅\n\nBefore we close, let’s share our three good things from this week all together.  \n\nRemember, they can be personal, work-related, or family-related. The more detailed, the better! You can keep this up after I leave the WhatsApp Group.\n\nAlthough this is my last chat session with you, you are in good hands with your new chat group admin: [INSERT NAMES OF MODERATORS] 💙"
+        },
+        "guidance": {
+          "eng": ""
+        }
+      },
+      "text": "Thank you for sharing. 🏅\n\nBefore we close, let’s share our three good things from this week all together.  \n\nRemember, they can be personal, work-related, or family-related. The more detailed, the better! You can keep this up after I leave the WhatsApp Group.\n\nAlthough this is my last chat session with you, you are in good hands with your new chat group admin: [INSERT NAMES OF MODERATORS] 💙",
+      "guidance": ""
+    },
+    {
+      "id": "message_34",
+      "foreign_key": "week_4_chat_6",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 34,
+      "title": "Message 5: Goodbye",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "guidance": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Message 5: Goodbye"
+        },
+        "text": {
+          "eng": "It's been wonderful being part of this amazing parent program with all of you! Saying goodbye makes me a bit sad. \n\nAs I shared with you during the onboarding session, I will now be exiting this WhatsApp Group. 👋\n\nYou are the best parents to your girls, boys and teens.  *You can still complete your final Crianza con Conciencia+ lessons if you have not done so yet*. 🌱\n\nWe all face difficult situations sometimes, and these final parts of @global.programme_name will help you and your girl, boy or teen to get through them well. \n\nYou’ve got this! ⭐You are doing a wonderful job as a caregiver. It has been a pleasure to be on this journey with you!"
+        },
+        "guidance": {
+          "eng": ""
+        }
+      },
+      "text": "It's been wonderful being part of this amazing parent program with all of you! Saying goodbye makes me a bit sad. \n\nAs I shared with you during the onboarding session, I will now be exiting this WhatsApp Group. 👋\n\nYou are the best parents to your girls, boys and teens.  *You can still complete your final Crianza con Conciencia+ lessons if you have not done so yet*. 🌱\n\nWe all face difficult situations sometimes, and these final parts of @global.programme_name will help you and your girl, boy or teen to get through them well. \n\nYou’ve got this! ⭐You are doing a wonderful job as a caregiver. It has been a pleasure to be on this journey with you!",
+      "guidance": ""
+    }
+  ],
+  "_xlsxPath": "templates/temp data/PH modules new structure.xlsx",
+  "_metadata": {
+    "ignore": {
+      "type": "number"
+    }
+  }
+}

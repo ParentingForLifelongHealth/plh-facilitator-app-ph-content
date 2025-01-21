@@ -1,0 +1,394 @@
+{
+  "flow_type": "template",
+  "flow_name": "module_final",
+  "status": "released",
+  "rows": [
+    {
+      "name": "module_id",
+      "value": "test",
+      "_translations": {
+        "value": {}
+      },
+      "type": "set_variable",
+      "_nested_name": "module_id"
+    },
+    {
+      "name": "module_name",
+      "value": "test",
+      "_translations": {
+        "value": {}
+      },
+      "type": "set_variable",
+      "_nested_name": "module_name"
+    },
+    {
+      "name": "test",
+      "value": "@calc(@fields.current_module_no)",
+      "_translations": {
+        "value": {}
+      },
+      "type": "set_variable",
+      "_nested_name": "test",
+      "_dynamicFields": {
+        "value": [
+          {
+            "fullExpression": "@calc(@fields.current_module_no)",
+            "matchedExpression": "@fields.current_module_no",
+            "type": "fields",
+            "fieldName": "current_module_no"
+          },
+          {
+            "fullExpression": "@calc(@fields.current_module_no)",
+            "matchedExpression": "@calc(@fields.current_module_no)",
+            "type": "calc",
+            "fieldName": "@fields.current_module_no"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@fields.current_module_no": [
+          "value"
+        ],
+        "@calc(@fields.current_module_no)": [
+          "value"
+        ]
+      }
+    },
+    {
+      "type": "display_group",
+      "name": "dg_top",
+      "parameter_list": {
+        "sticky": "top",
+        "background_image_asset": "images/backgrounds/home_top_left.svg",
+        "background_image_position": "top left"
+      },
+      "style_list": [
+        "width: 105%",
+        "align-items: flex-start",
+        "padding: 24px",
+        "min-height: 192px"
+      ],
+      "rows": [
+        {
+          "type": "image",
+          "name": "logo",
+          "value": "images/logos/bird_on_light.svg",
+          "_translations": {
+            "value": {}
+          },
+          "style_list": [
+            "max-width: 72px"
+          ],
+          "_nested_name": "dg_top.logo"
+        }
+      ],
+      "_nested_name": "dg_top"
+    },
+    {
+      "type": "task_progress_bar",
+      "name": "task_progress_bar",
+      "parameter_list": {
+        "task_group_data": "sub_items",
+        "completed_field": "completed",
+        "filter": "@task_item.foreign_key == \"@fields.current_module_no\"",
+        "variant": "wheel"
+      },
+      "_nested_name": "task_progress_bar",
+      "_dynamicFields": {
+        "parameter_list": {
+          "filter": [
+            {
+              "fullExpression": "@task_item.foreign_key == \"@fields.current_module_no\"",
+              "matchedExpression": "@fields.current_module_no",
+              "type": "fields",
+              "fieldName": "current_module_no"
+            }
+          ]
+        }
+      },
+      "_dynamicDependencies": {
+        "@fields.current_module_no": [
+          "parameter_list.filter"
+        ]
+      }
+    },
+    {
+      "name": "found",
+      "value": false,
+      "type": "set_variable",
+      "_nested_name": "found"
+    },
+    {
+      "type": "data_items",
+      "value": "report_answers",
+      "parameter_list": {
+        "filter": "@item.archived == false"
+      },
+      "condition": "@fields.current_has_report !== \"empty\"",
+      "rows": [
+        {
+          "name": "found",
+          "value": true,
+          "condition": "@fields.current_module_no == @item.module_id && @item.group_id == @field.current_group_no",
+          "type": "set_variable",
+          "_nested_name": "data_items_9.found",
+          "_dynamicFields": {
+            "condition": [
+              {
+                "fullExpression": "@fields.current_module_no == @item.module_id && @item.group_id == @field.current_group_no",
+                "matchedExpression": "@fields.current_module_no",
+                "type": "fields",
+                "fieldName": "current_module_no"
+              },
+              {
+                "fullExpression": "@fields.current_module_no == @item.module_id && @item.group_id == @field.current_group_no",
+                "matchedExpression": "@item.module_id",
+                "type": "item",
+                "fieldName": "module_id"
+              },
+              {
+                "fullExpression": "@fields.current_module_no == @item.module_id && @item.group_id == @field.current_group_no",
+                "matchedExpression": "@item.group_id",
+                "type": "item",
+                "fieldName": "group_id"
+              },
+              {
+                "fullExpression": "@fields.current_module_no == @item.module_id && @item.group_id == @field.current_group_no",
+                "matchedExpression": "@field.current_group_no",
+                "type": "field",
+                "fieldName": "current_group_no"
+              }
+            ]
+          },
+          "_dynamicDependencies": {
+            "@fields.current_module_no": [
+              "condition"
+            ],
+            "@item.module_id": [
+              "condition"
+            ],
+            "@item.group_id": [
+              "condition"
+            ],
+            "@field.current_group_no": [
+              "condition"
+            ]
+          }
+        },
+        {
+          "type": "button",
+          "name": "existing_report",
+          "value": "Review Report",
+          "_translations": {
+            "value": {}
+          },
+          "action_list": [
+            {
+              "trigger": "click",
+              "action_id": "set_field",
+              "args": [
+                "current_report_no",
+                "@item.id"
+              ],
+              "_raw": "click | set_field: current_report_no: @item.id",
+              "_cleaned": "click | set_field: current_report_no: @item.id"
+            },
+            {
+              "trigger": "click",
+              "action_id": "go_to",
+              "args": [
+                "edit_report"
+              ],
+              "_raw": "click | go_to: edit_report",
+              "_cleaned": "click | go_to: edit_report"
+            }
+          ],
+          "parameter_list": {
+            "icon_src": "images/icons/edit.svg"
+          },
+          "condition": "@fields.current_module_no == @item.module_id && @item.group_id == @field.current_group_no",
+          "_nested_name": "data_items_9.existing_report",
+          "_dynamicFields": {
+            "action_list": {
+              "0": {
+                "args": {
+                  "1": [
+                    {
+                      "fullExpression": "@item.id",
+                      "matchedExpression": "@item.id",
+                      "type": "item",
+                      "fieldName": "id"
+                    }
+                  ]
+                },
+                "_raw": [
+                  {
+                    "fullExpression": "click | set_field: current_report_no: @item.id",
+                    "matchedExpression": "@item.id",
+                    "type": "item",
+                    "fieldName": "id"
+                  }
+                ],
+                "_cleaned": [
+                  {
+                    "fullExpression": "click | set_field: current_report_no: @item.id",
+                    "matchedExpression": "@item.id",
+                    "type": "item",
+                    "fieldName": "id"
+                  }
+                ]
+              }
+            },
+            "condition": [
+              {
+                "fullExpression": "@fields.current_module_no == @item.module_id && @item.group_id == @field.current_group_no",
+                "matchedExpression": "@fields.current_module_no",
+                "type": "fields",
+                "fieldName": "current_module_no"
+              },
+              {
+                "fullExpression": "@fields.current_module_no == @item.module_id && @item.group_id == @field.current_group_no",
+                "matchedExpression": "@item.module_id",
+                "type": "item",
+                "fieldName": "module_id"
+              },
+              {
+                "fullExpression": "@fields.current_module_no == @item.module_id && @item.group_id == @field.current_group_no",
+                "matchedExpression": "@item.group_id",
+                "type": "item",
+                "fieldName": "group_id"
+              },
+              {
+                "fullExpression": "@fields.current_module_no == @item.module_id && @item.group_id == @field.current_group_no",
+                "matchedExpression": "@field.current_group_no",
+                "type": "field",
+                "fieldName": "current_group_no"
+              }
+            ]
+          },
+          "_dynamicDependencies": {
+            "@item.id": [
+              "action_list.0.args.1",
+              "action_list.0._raw",
+              "action_list.0._cleaned"
+            ],
+            "@fields.current_module_no": [
+              "condition"
+            ],
+            "@item.module_id": [
+              "condition"
+            ],
+            "@item.group_id": [
+              "condition"
+            ],
+            "@field.current_group_no": [
+              "condition"
+            ]
+          }
+        },
+        {
+          "type": "button",
+          "name": "new_report",
+          "value": "Submit Report",
+          "_translations": {
+            "value": {}
+          },
+          "action_list": [
+            {
+              "trigger": "click",
+              "action_id": "go_to",
+              "args": [
+                "add_report"
+              ],
+              "_raw": "click | go_to: add_report",
+              "_cleaned": "click | go_to: add_report"
+            }
+          ],
+          "parameter_list": {
+            "icon_src": "images/icons/edit.svg"
+          },
+          "condition": "@item._last && !@local.found",
+          "_nested_name": "data_items_9.new_report",
+          "_dynamicFields": {
+            "condition": [
+              {
+                "fullExpression": "@item._last && !@local.found",
+                "matchedExpression": "@item._last",
+                "type": "item",
+                "fieldName": "_last"
+              },
+              {
+                "fullExpression": "@item._last && !@local.found",
+                "matchedExpression": "!@local.found",
+                "type": "local",
+                "fieldName": "found"
+              }
+            ]
+          },
+          "_dynamicDependencies": {
+            "@item._last": [
+              "condition"
+            ],
+            "!@local.found": [
+              "condition"
+            ]
+          }
+        }
+      ],
+      "name": "data_items_9",
+      "_nested_name": "data_items_9",
+      "_dynamicFields": {
+        "parameter_list": {
+          "filter": [
+            {
+              "fullExpression": "@item.archived == false",
+              "matchedExpression": "@item.archived",
+              "type": "item",
+              "fieldName": "archived"
+            }
+          ]
+        },
+        "condition": [
+          {
+            "fullExpression": "@fields.current_has_report !== \"empty\"",
+            "matchedExpression": "@fields.current_has_report",
+            "type": "fields",
+            "fieldName": "current_has_report"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@item.archived": [
+          "parameter_list.filter"
+        ],
+        "@fields.current_has_report": [
+          "condition"
+        ]
+      }
+    },
+    {
+      "type": "button",
+      "name": "support",
+      "value": "Get Support",
+      "_translations": {
+        "value": {}
+      },
+      "action_list": [
+        {
+          "trigger": "click",
+          "action_id": "go_to",
+          "args": [
+            "library_faq"
+          ],
+          "_raw": "click | go_to: library_faq",
+          "_cleaned": "click | go_to: library_faq"
+        }
+      ],
+      "parameter_list": {
+        "icon_src": "images/icons/help.svg"
+      },
+      "_nested_name": "support"
+    }
+  ],
+  "_xlsxPath": "templates/menu_sub_tasks.xlsx"
+}

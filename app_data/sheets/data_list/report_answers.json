@@ -1,0 +1,22 @@
+{
+  "flow_type": "data_list",
+  "flow_name": "report_answers",
+  "status": "released",
+  "rows": [
+    {
+      "id": "text",
+      "group_id": "text",
+      "module_id": "text",
+      "archived": false,
+      "question_1": "text",
+      "question_2": "text",
+      "question_3": "text"
+    }
+  ],
+  "_xlsxPath": "templates/reports.xlsx",
+  "_metadata": {
+    "archived": {
+      "type": "boolean"
+    }
+  }
+}

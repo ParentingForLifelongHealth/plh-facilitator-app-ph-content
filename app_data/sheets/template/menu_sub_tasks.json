@@ -1,0 +1,84 @@
+{
+  "flow_type": "template",
+  "flow_name": "menu_sub_tasks",
+  "status": "released",
+  "rows": [
+    {
+      "name": "menu_id",
+      "value": "test",
+      "_translations": {
+        "value": {}
+      },
+      "type": "set_variable",
+      "_nested_name": "menu_id"
+    },
+    {
+      "name": "type",
+      "value": "test2",
+      "_translations": {
+        "value": {}
+      },
+      "type": "set_variable",
+      "_nested_name": "type"
+    },
+    {
+      "type": "template",
+      "name": "menu_sub_tasks_base",
+      "value": "menu_sub_tasks_base",
+      "condition": "@local.type == menu",
+      "rows": [
+        {
+          "name": "menu_id",
+          "value": "@local.menu_id",
+          "_translations": {
+            "value": {}
+          },
+          "style_list": true,
+          "type": "set_variable",
+          "_nested_name": "menu_sub_tasks_base.menu_id",
+          "_dynamicFields": {
+            "value": [
+              {
+                "fullExpression": "@local.menu_id",
+                "matchedExpression": "@local.menu_id",
+                "type": "local",
+                "fieldName": "menu_id"
+              }
+            ]
+          },
+          "_dynamicDependencies": {
+            "@local.menu_id": [
+              "value"
+            ]
+          }
+        },
+        {
+          "name": "click_prefix",
+          "value": "sub_item_",
+          "_translations": {
+            "value": {}
+          },
+          "type": "set_variable",
+          "_nested_name": "menu_sub_tasks_base.click_prefix"
+        }
+      ],
+      "_nested_name": "menu_sub_tasks_base",
+      "_dynamicFields": {
+        "condition": [
+          {
+            "fullExpression": "@local.type == menu",
+            "matchedExpression": "@local.type",
+            "type": "local",
+            "fieldName": "type"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@local.type": [
+          "condition"
+        ]
+      }
+    }
+  ],
+  "_xlsxPath": "templates/menu_sub_tasks.xlsx"
+}

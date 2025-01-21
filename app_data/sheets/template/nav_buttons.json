@@ -1,0 +1,17 @@
+{
+  "flow_type": "template",
+  "flow_name": "nav_buttons",
+  "status": "released",
+  "rows": [
+    {
+      "name": "article_id",
+      "value": "TEST",
+      "_translations": {
+        "value": {}
+      },
+      "type": "set_variable",
+      "_nested_name": "article_id"
+    }
+  ],
+  "_xlsxPath": "templates/menu_sub_tasks.xlsx"
+}

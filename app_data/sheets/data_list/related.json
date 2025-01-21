@@ -1,0 +1,222 @@
+{
+  "flow_type": "data_list",
+  "flow_name": "related",
+  "status": "released",
+  "data_list_name": "related",
+  "rows": [
+    {
+      "id": "",
+      "foreign_key": "",
+      "related_article_id": "",
+      "ignore": 1,
+      "ignore_2": "#N/A",
+      "title": "",
+      "_translations": {
+        "title": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": ""
+        }
+      }
+    },
+    {
+      "id": "",
+      "foreign_key": "",
+      "related_article_id": "",
+      "ignore": 2,
+      "ignore_2": "#N/A",
+      "title": "",
+      "_translations": {
+        "title": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": ""
+        }
+      }
+    },
+    {
+      "id": "",
+      "foreign_key": "",
+      "related_article_id": "",
+      "ignore": 3,
+      "ignore_2": "#N/A",
+      "title": "",
+      "_translations": {
+        "title": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": ""
+        }
+      }
+    },
+    {
+      "id": "",
+      "foreign_key": "",
+      "related_article_id": "",
+      "ignore": 4,
+      "ignore_2": "#N/A",
+      "title": "",
+      "_translations": {
+        "title": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": ""
+        }
+      }
+    },
+    {
+      "id": "",
+      "foreign_key": "",
+      "related_article_id": "",
+      "ignore": 5,
+      "ignore_2": "#N/A",
+      "title": "",
+      "_translations": {
+        "title": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": ""
+        }
+      }
+    },
+    {
+      "id": "",
+      "foreign_key": "",
+      "related_article_id": "",
+      "ignore": 6,
+      "ignore_2": "#N/A",
+      "title": "",
+      "_translations": {
+        "title": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": ""
+        }
+      }
+    },
+    {
+      "id": "",
+      "foreign_key": "",
+      "related_article_id": "",
+      "ignore": 7,
+      "ignore_2": "#N/A",
+      "title": "",
+      "_translations": {
+        "title": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": ""
+        }
+      }
+    },
+    {
+      "id": "",
+      "foreign_key": "",
+      "related_article_id": "",
+      "ignore": 8,
+      "ignore_2": "#N/A",
+      "title": "",
+      "_translations": {
+        "title": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": ""
+        }
+      }
+    },
+    {
+      "id": "",
+      "foreign_key": "",
+      "related_article_id": "",
+      "ignore": 9,
+      "ignore_2": "#N/A",
+      "title": "",
+      "_translations": {
+        "title": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": ""
+        }
+      }
+    },
+    {
+      "id": "",
+      "foreign_key": "",
+      "related_article_id": "",
+      "ignore": 10,
+      "ignore_2": "#N/A",
+      "title": "",
+      "_translations": {
+        "title": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": ""
+        }
+      }
+    },
+    {
+      "id": "",
+      "foreign_key": "",
+      "related_article_id": "",
+      "ignore": 11,
+      "ignore_2": "#N/A",
+      "title": "",
+      "_translations": {
+        "title": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": ""
+        }
+      }
+    },
+    {
+      "id": "",
+      "foreign_key": "",
+      "related_article_id": "",
+      "ignore": 12,
+      "ignore_2": "#N/A",
+      "title": "",
+      "_translations": {
+        "title": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": ""
+        }
+      }
+    },
+    {
+      "id": "",
+      "foreign_key": "",
+      "related_article_id": "",
+      "ignore": 13,
+      "ignore_2": "#N/A",
+      "title": "",
+      "_translations": {
+        "title": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": ""
+        }
+      }
+    }
+  ],
+  "_xlsxPath": "templates/temp data/PH modules new structure.xlsx",
+  "_metadata": {
+    "ignore": {
+      "type": "number"
+    }
+  }
+}

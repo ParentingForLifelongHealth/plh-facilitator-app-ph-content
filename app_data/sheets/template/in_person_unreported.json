@@ -1,0 +1,611 @@
+{
+  "flow_type": "template",
+  "flow_name": "in_person_unreported",
+  "status": "released",
+  "rows": [
+    {
+      "type": "title",
+      "name": "title",
+      "value": "In-Person",
+      "_translations": {
+        "value": {}
+      },
+      "_nested_name": "title"
+    },
+    {
+      "name": "attendance_data_json",
+      "value": "@calc(JSON.parse(@fields.attendance_data))",
+      "_translations": {
+        "value": {}
+      },
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "_nested_name": "attendance_data_json",
+      "_dynamicFields": {
+        "value": [
+          {
+            "fullExpression": "@calc(JSON.parse(@fields.attendance_data))",
+            "matchedExpression": "@fields.attendance_data",
+            "type": "fields",
+            "fieldName": "attendance_data"
+          },
+          {
+            "fullExpression": "@calc(JSON.parse(@fields.attendance_data))",
+            "matchedExpression": "@calc(JSON.parse(@fields.attendance_data))",
+            "type": "calc",
+            "fieldName": "JSON.parse(@fields.attendance_data)"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@fields.attendance_data": [
+          "value"
+        ],
+        "@calc(JSON.parse(@fields.attendance_data))": [
+          "value"
+        ]
+      }
+    },
+    {
+      "name": "previous_report_id_array",
+      "value": "@calc(Object.keys(@local.attendance_data_json))",
+      "_translations": {
+        "value": {}
+      },
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "_nested_name": "previous_report_id_array",
+      "_dynamicFields": {
+        "value": [
+          {
+            "fullExpression": "@calc(Object.keys(@local.attendance_data_json))",
+            "matchedExpression": "@local.attendance_data_json",
+            "type": "local",
+            "fieldName": "attendance_data_json"
+          },
+          {
+            "fullExpression": "@calc(Object.keys(@local.attendance_data_json))",
+            "matchedExpression": "@calc(Object.keys(@local.attendance_data_json))",
+            "type": "calc",
+            "fieldName": "Object.keys(@local.attendance_data_json)"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@local.attendance_data_json": [
+          "value"
+        ],
+        "@calc(Object.keys(@local.attendance_data_json))": [
+          "value"
+        ]
+      }
+    },
+    {
+      "name": "at_least_one_unreported",
+      "value": false,
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "_nested_name": "at_least_one_unreported"
+    },
+    {
+      "type": "items",
+      "value": "@data.report",
+      "exclude_from_translation": true,
+      "rows": [
+        {
+          "name": "already_reported",
+          "value": "@calc(@local.previous_report_id_array.includes(@item.id))",
+          "_translations": {
+            "value": {}
+          },
+          "exclude_from_translation": true,
+          "type": "set_variable",
+          "_nested_name": "items_6.already_reported",
+          "_dynamicFields": {
+            "value": [
+              {
+                "fullExpression": "@calc(@local.previous_report_id_array.includes(@item.id))",
+                "matchedExpression": "@local.previous_report_id_array.includes",
+                "type": "local",
+                "fieldName": "previous_report_id_array"
+              },
+              {
+                "fullExpression": "@calc(@local.previous_report_id_array.includes(@item.id))",
+                "matchedExpression": "@item.id",
+                "type": "item",
+                "fieldName": "id"
+              },
+              {
+                "fullExpression": "@calc(@local.previous_report_id_array.includes(@item.id))",
+                "matchedExpression": "@calc(@local.previous_report_id_array.includes(@item.id))",
+                "type": "calc",
+                "fieldName": "@local.previous_report_id_array.includes(@item.id)"
+              }
+            ]
+          },
+          "_dynamicDependencies": {
+            "@local.previous_report_id_array.includes": [
+              "value"
+            ],
+            "@item.id": [
+              "value"
+            ],
+            "@calc(@local.previous_report_id_array.includes(@item.id))": [
+              "value"
+            ]
+          }
+        },
+        {
+          "name": "is_relevant_form",
+          "value": "@calc(@item.tag_list.includes(@fields.current_package))",
+          "_translations": {
+            "value": {}
+          },
+          "condition": "@global.has_multiple_content_packages",
+          "type": "set_variable",
+          "_nested_name": "items_6.is_relevant_form",
+          "_dynamicFields": {
+            "value": [
+              {
+                "fullExpression": "@calc(@item.tag_list.includes(@fields.current_package))",
+                "matchedExpression": "@item.tag_list.includes",
+                "type": "item",
+                "fieldName": "tag_list"
+              },
+              {
+                "fullExpression": "@calc(@item.tag_list.includes(@fields.current_package))",
+                "matchedExpression": "@fields.current_package",
+                "type": "fields",
+                "fieldName": "current_package"
+              },
+              {
+                "fullExpression": "@calc(@item.tag_list.includes(@fields.current_package))",
+                "matchedExpression": "@calc(@item.tag_list.includes(@fields.current_package))",
+                "type": "calc",
+                "fieldName": "@item.tag_list.includes(@fields.current_package)"
+              }
+            ],
+            "condition": [
+              {
+                "fullExpression": "@global.has_multiple_content_packages",
+                "matchedExpression": "@global.has_multiple_content_packages",
+                "type": "global",
+                "fieldName": "has_multiple_content_packages"
+              }
+            ]
+          },
+          "_dynamicDependencies": {
+            "@item.tag_list.includes": [
+              "value"
+            ],
+            "@fields.current_package": [
+              "value"
+            ],
+            "@calc(@item.tag_list.includes(@fields.current_package))": [
+              "value"
+            ],
+            "@global.has_multiple_content_packages": [
+              "condition"
+            ]
+          }
+        },
+        {
+          "name": "is_relevant_form",
+          "value": true,
+          "condition": "!@global.has_multiple_content_packages",
+          "type": "set_variable",
+          "_nested_name": "items_6.is_relevant_form",
+          "_dynamicFields": {
+            "condition": [
+              {
+                "fullExpression": "!@global.has_multiple_content_packages",
+                "matchedExpression": "!@global.has_multiple_content_packages",
+                "type": "global",
+                "fieldName": "has_multiple_content_packages"
+              }
+            ]
+          },
+          "_dynamicDependencies": {
+            "!@global.has_multiple_content_packages": [
+              "condition"
+            ]
+          }
+        },
+        {
+          "name": "at_least_one_unreported",
+          "value": true,
+          "condition": "!@local.already_reported & @item.type == \"in_person\" & @local.is_relevant_form",
+          "type": "set_variable",
+          "_nested_name": "items_6.at_least_one_unreported",
+          "_dynamicFields": {
+            "condition": [
+              {
+                "fullExpression": "!@local.already_reported & @item.type == \"in_person\" & @local.is_relevant_form",
+                "matchedExpression": "!@local.already_reported",
+                "type": "local",
+                "fieldName": "already_reported"
+              },
+              {
+                "fullExpression": "!@local.already_reported & @item.type == \"in_person\" & @local.is_relevant_form",
+                "matchedExpression": "@item.type",
+                "type": "item",
+                "fieldName": "type"
+              },
+              {
+                "fullExpression": "!@local.already_reported & @item.type == \"in_person\" & @local.is_relevant_form",
+                "matchedExpression": "@local.is_relevant_form",
+                "type": "local",
+                "fieldName": "is_relevant_form"
+              }
+            ]
+          },
+          "_dynamicDependencies": {
+            "!@local.already_reported": [
+              "condition"
+            ],
+            "@item.type": [
+              "condition"
+            ],
+            "@local.is_relevant_form": [
+              "condition"
+            ]
+          }
+        }
+      ],
+      "name": "items_6",
+      "_nested_name": "items_6",
+      "_dynamicFields": {
+        "value": [
+          {
+            "fullExpression": "@data.report",
+            "matchedExpression": "@data.report",
+            "type": "data",
+            "fieldName": "report"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@data.report": [
+          "value"
+        ]
+      }
+    },
+    {
+      "type": "text",
+      "name": "question_text",
+      "value": "Which session are you reporting on?",
+      "_translations": {
+        "value": {}
+      },
+      "condition": "@local.at_least_one_unreported",
+      "_nested_name": "question_text",
+      "_dynamicFields": {
+        "condition": [
+          {
+            "fullExpression": "@local.at_least_one_unreported",
+            "matchedExpression": "@local.at_least_one_unreported",
+            "type": "local",
+            "fieldName": "at_least_one_unreported"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@local.at_least_one_unreported": [
+          "condition"
+        ]
+      }
+    },
+    {
+      "type": "items",
+      "value": "@data.report",
+      "exclude_from_translation": true,
+      "rows": [
+        {
+          "name": "already_reported",
+          "value": "@calc(@local.previous_report_id_array.includes(@item.id))",
+          "_translations": {
+            "value": {}
+          },
+          "exclude_from_translation": true,
+          "type": "set_variable",
+          "_nested_name": "items_10.already_reported",
+          "_dynamicFields": {
+            "value": [
+              {
+                "fullExpression": "@calc(@local.previous_report_id_array.includes(@item.id))",
+                "matchedExpression": "@local.previous_report_id_array.includes",
+                "type": "local",
+                "fieldName": "previous_report_id_array"
+              },
+              {
+                "fullExpression": "@calc(@local.previous_report_id_array.includes(@item.id))",
+                "matchedExpression": "@item.id",
+                "type": "item",
+                "fieldName": "id"
+              },
+              {
+                "fullExpression": "@calc(@local.previous_report_id_array.includes(@item.id))",
+                "matchedExpression": "@calc(@local.previous_report_id_array.includes(@item.id))",
+                "type": "calc",
+                "fieldName": "@local.previous_report_id_array.includes(@item.id)"
+              }
+            ]
+          },
+          "_dynamicDependencies": {
+            "@local.previous_report_id_array.includes": [
+              "value"
+            ],
+            "@item.id": [
+              "value"
+            ],
+            "@calc(@local.previous_report_id_array.includes(@item.id))": [
+              "value"
+            ]
+          }
+        },
+        {
+          "name": "is_relevant_form",
+          "value": "@calc(@item.tag_list.includes(@fields.current_package))",
+          "_translations": {
+            "value": {}
+          },
+          "condition": "@global.has_multiple_content_packages",
+          "type": "set_variable",
+          "_nested_name": "items_10.is_relevant_form",
+          "_dynamicFields": {
+            "value": [
+              {
+                "fullExpression": "@calc(@item.tag_list.includes(@fields.current_package))",
+                "matchedExpression": "@item.tag_list.includes",
+                "type": "item",
+                "fieldName": "tag_list"
+              },
+              {
+                "fullExpression": "@calc(@item.tag_list.includes(@fields.current_package))",
+                "matchedExpression": "@fields.current_package",
+                "type": "fields",
+                "fieldName": "current_package"
+              },
+              {
+                "fullExpression": "@calc(@item.tag_list.includes(@fields.current_package))",
+                "matchedExpression": "@calc(@item.tag_list.includes(@fields.current_package))",
+                "type": "calc",
+                "fieldName": "@item.tag_list.includes(@fields.current_package)"
+              }
+            ],
+            "condition": [
+              {
+                "fullExpression": "@global.has_multiple_content_packages",
+                "matchedExpression": "@global.has_multiple_content_packages",
+                "type": "global",
+                "fieldName": "has_multiple_content_packages"
+              }
+            ]
+          },
+          "_dynamicDependencies": {
+            "@item.tag_list.includes": [
+              "value"
+            ],
+            "@fields.current_package": [
+              "value"
+            ],
+            "@calc(@item.tag_list.includes(@fields.current_package))": [
+              "value"
+            ],
+            "@global.has_multiple_content_packages": [
+              "condition"
+            ]
+          }
+        },
+        {
+          "name": "is_relevant_form",
+          "value": true,
+          "condition": "!@global.has_multiple_content_packages",
+          "type": "set_variable",
+          "_nested_name": "items_10.is_relevant_form",
+          "_dynamicFields": {
+            "condition": [
+              {
+                "fullExpression": "!@global.has_multiple_content_packages",
+                "matchedExpression": "!@global.has_multiple_content_packages",
+                "type": "global",
+                "fieldName": "has_multiple_content_packages"
+              }
+            ]
+          },
+          "_dynamicDependencies": {
+            "!@global.has_multiple_content_packages": [
+              "condition"
+            ]
+          }
+        },
+        {
+          "type": "button",
+          "name": "button_@item.id",
+          "value": "@item.name",
+          "_translations": {
+            "value": {}
+          },
+          "action_list": [
+            {
+              "trigger": "click",
+              "action_id": "set_field",
+              "args": [
+                "current_report_id",
+                "@item.id"
+              ],
+              "_raw": "click | set_field: current_report_id: @item.id",
+              "_cleaned": "click | set_field: current_report_id: @item.id"
+            },
+            {
+              "trigger": "click",
+              "action_id": "emit",
+              "args": [
+                "completed"
+              ],
+              "_raw": "click | emit: completed",
+              "_cleaned": "click | emit: completed"
+            },
+            {
+              "trigger": "click",
+              "action_id": "go_to",
+              "args": [
+                "in_person_form",
+                "dismiss_pop_up",
+                true
+              ],
+              "_raw": "click | go_to: in_person_form: dismiss_pop_up: true",
+              "_cleaned": "click | go_to: in_person_form: dismiss_pop_up: true"
+            }
+          ],
+          "parameter_list": {
+            "style": "card"
+          },
+          "condition": "!@local.already_reported & @item.type == \"in_person\" & @local.is_relevant_form",
+          "exclude_from_translation": true,
+          "_nested_name": "items_10.button_@item.id",
+          "_dynamicFields": {
+            "name": [
+              {
+                "fullExpression": "button_@item.id",
+                "matchedExpression": "@item.id",
+                "type": "item",
+                "fieldName": "id"
+              }
+            ],
+            "value": [
+              {
+                "fullExpression": "@item.name",
+                "matchedExpression": "@item.name",
+                "type": "item",
+                "fieldName": "name"
+              }
+            ],
+            "action_list": {
+              "0": {
+                "args": {
+                  "1": [
+                    {
+                      "fullExpression": "@item.id",
+                      "matchedExpression": "@item.id",
+                      "type": "item",
+                      "fieldName": "id"
+                    }
+                  ]
+                },
+                "_raw": [
+                  {
+                    "fullExpression": "click | set_field: current_report_id: @item.id",
+                    "matchedExpression": "@item.id",
+                    "type": "item",
+                    "fieldName": "id"
+                  }
+                ],
+                "_cleaned": [
+                  {
+                    "fullExpression": "click | set_field: current_report_id: @item.id",
+                    "matchedExpression": "@item.id",
+                    "type": "item",
+                    "fieldName": "id"
+                  }
+                ]
+              }
+            },
+            "condition": [
+              {
+                "fullExpression": "!@local.already_reported & @item.type == \"in_person\" & @local.is_relevant_form",
+                "matchedExpression": "!@local.already_reported",
+                "type": "local",
+                "fieldName": "already_reported"
+              },
+              {
+                "fullExpression": "!@local.already_reported & @item.type == \"in_person\" & @local.is_relevant_form",
+                "matchedExpression": "@item.type",
+                "type": "item",
+                "fieldName": "type"
+              },
+              {
+                "fullExpression": "!@local.already_reported & @item.type == \"in_person\" & @local.is_relevant_form",
+                "matchedExpression": "@local.is_relevant_form",
+                "type": "local",
+                "fieldName": "is_relevant_form"
+              }
+            ],
+            "_nested_name": [
+              {
+                "fullExpression": "items_10.button_@item.id",
+                "matchedExpression": "@item.id",
+                "type": "item",
+                "fieldName": "id"
+              }
+            ]
+          },
+          "_dynamicDependencies": {
+            "@item.id": [
+              "name",
+              "action_list.0.args.1",
+              "action_list.0._raw",
+              "action_list.0._cleaned",
+              "_nested_name"
+            ],
+            "@item.name": [
+              "value"
+            ],
+            "!@local.already_reported": [
+              "condition"
+            ],
+            "@item.type": [
+              "condition"
+            ],
+            "@local.is_relevant_form": [
+              "condition"
+            ]
+          }
+        }
+      ],
+      "name": "items_10",
+      "_nested_name": "items_10",
+      "_dynamicFields": {
+        "value": [
+          {
+            "fullExpression": "@data.report",
+            "matchedExpression": "@data.report",
+            "type": "data",
+            "fieldName": "report"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@data.report": [
+          "value"
+        ]
+      }
+    },
+    {
+      "type": "text",
+      "name": "text_none",
+      "value": "You have reported on all in-person sessions already.",
+      "_translations": {
+        "value": {}
+      },
+      "condition": "!@local.at_least_one_unreported",
+      "_nested_name": "text_none",
+      "_dynamicFields": {
+        "condition": [
+          {
+            "fullExpression": "!@local.at_least_one_unreported",
+            "matchedExpression": "!@local.at_least_one_unreported",
+            "type": "local",
+            "fieldName": "at_least_one_unreported"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "!@local.at_least_one_unreported": [
+          "condition"
+        ]
+      }
+    }
+  ],
+  "_xlsxPath": "templates/data_collection.xlsx"
+}
