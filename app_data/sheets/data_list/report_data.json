@@ -1,0 +1,106 @@
+{
+  "flow_type": "data_list",
+  "flow_name": "report_data",
+  "status": "released",
+  "data_list_name": "report",
+  "rows": [
+    {
+      "id": "onboarding",
+      "type": "in_person",
+      "tag_list": [
+        "study_dif_bc",
+        "study_dif_chih",
+        "study_dif_cdmx",
+        "study_dif_mich",
+        "scale_dif"
+      ],
+      "name": "Onboarding",
+      "_translations": {
+        "name": {}
+      },
+      "_translatedFields": {
+        "name": {
+          "eng": "Onboarding"
+        }
+      }
+    },
+    {
+      "id": "week_1",
+      "type": "virtual",
+      "tag_list": [
+        "study_dif_bc",
+        "study_dif_chih",
+        "study_dif_cdmx",
+        "study_dif_mich",
+        "scale_dif"
+      ],
+      "name": "Week 1: Thoughts, Feelings, and Actions",
+      "_translations": {
+        "name": {}
+      },
+      "_translatedFields": {
+        "name": {
+          "eng": "Week 1: Thoughts, Feelings, and Actions"
+        }
+      }
+    },
+    {
+      "id": "week_2",
+      "type": "virtual",
+      "tag_list": [
+        "study_dif_bc",
+        "study_dif_chih",
+        "study_dif_cdmx",
+        "study_dif_mich"
+      ],
+      "name": "Week 2: Self-Talk",
+      "_translations": {
+        "name": {}
+      },
+      "_translatedFields": {
+        "name": {
+          "eng": "Week 2: Self-Talk"
+        }
+      }
+    },
+    {
+      "id": "week_3",
+      "type": "virtual",
+      "tag_list": [
+        "study_dif_bc",
+        "study_dif_chih",
+        "study_dif_cdmx",
+        "study_dif_mich"
+      ],
+      "name": "Week 3: Character Strengths",
+      "_translations": {
+        "name": {}
+      },
+      "_translatedFields": {
+        "name": {
+          "eng": "Week 3: Character Strengths"
+        }
+      }
+    },
+    {
+      "id": "week_4",
+      "type": "virtual",
+      "tag_list": [
+        "study_dif_bc",
+        "study_dif_chih",
+        "study_dif_cdmx",
+        "study_dif_mich"
+      ],
+      "name": "Week 4: Building Pleasant Emotions",
+      "_translations": {
+        "name": {}
+      },
+      "_translatedFields": {
+        "name": {
+          "eng": "Week 4: Building Pleasant Emotions"
+        }
+      }
+    }
+  ],
+  "_xlsxPath": "data/FacilitatorApp PH articles.xlsx"
+}

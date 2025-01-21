@@ -1,0 +1,97 @@
+{
+  "flow_type": "template",
+  "flow_name": "article_related",
+  "status": "released",
+  "rows": [
+    {
+      "name": "article_id",
+      "value": "test",
+      "_translations": {
+        "value": {}
+      },
+      "type": "set_variable",
+      "_nested_name": "article_id"
+    },
+    {
+      "type": "data_items",
+      "name": "loop_related",
+      "value": "@data.related",
+      "rows": [
+        {
+          "type": "template",
+          "name": "related_element",
+          "value": "related_element",
+          "condition": "@item.foreign_key == @local.article_id",
+          "rows": [
+            {
+              "name": "article_id",
+              "value": "@item.related_article_id",
+              "_translations": {
+                "value": {}
+              },
+              "type": "set_variable",
+              "_nested_name": "loop_related.related_element.article_id",
+              "_dynamicFields": {
+                "value": [
+                  {
+                    "fullExpression": "@item.related_article_id",
+                    "matchedExpression": "@item.related_article_id",
+                    "type": "item",
+                    "fieldName": "related_article_id"
+                  }
+                ]
+              },
+              "_dynamicDependencies": {
+                "@item.related_article_id": [
+                  "value"
+                ]
+              }
+            }
+          ],
+          "_nested_name": "loop_related.related_element",
+          "_dynamicFields": {
+            "condition": [
+              {
+                "fullExpression": "@item.foreign_key == @local.article_id",
+                "matchedExpression": "@item.foreign_key",
+                "type": "item",
+                "fieldName": "foreign_key"
+              },
+              {
+                "fullExpression": "@item.foreign_key == @local.article_id",
+                "matchedExpression": "@local.article_id",
+                "type": "local",
+                "fieldName": "article_id"
+              }
+            ]
+          },
+          "_dynamicDependencies": {
+            "@item.foreign_key": [
+              "condition"
+            ],
+            "@local.article_id": [
+              "condition"
+            ]
+          }
+        }
+      ],
+      "_nested_name": "loop_related",
+      "_dynamicFields": {
+        "value": [
+          {
+            "fullExpression": "@data.related",
+            "matchedExpression": "@data.related",
+            "type": "data",
+            "fieldName": "related"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@data.related": [
+          "value"
+        ]
+      }
+    }
+  ],
+  "_xlsxPath": "templates/menu_sub_tasks.xlsx"
+}

@@ -1,0 +1,89 @@
+{
+  "flow_type": "generator",
+  "flow_name": "gen_article_loops",
+  "status": "released",
+  "parameter_list": {
+    "input_data_list": "article_loops",
+    "output_flow_name": "sub_item_{@gen.loop_id}",
+    "output_flow_type": "template",
+    "output_flow_subtype": "generated"
+  },
+  "rows": [
+    {
+      "type": "template",
+      "name": "article_loop",
+      "value": "article_loop",
+      "exclude_from_translation": true,
+      "rows": [
+        {
+          "name": "article_id",
+          "value": "@gen.id",
+          "exclude_from_translation": true
+        },
+        {
+          "name": "foreign_key",
+          "value": "@gen.foreign_key",
+          "exclude_from_translation": true
+        },
+        {
+          "name": "next_article",
+          "value": "@gen.next_article",
+          "exclude_from_translation": true
+        },
+        {
+          "name": "previous_article",
+          "value": "@gen.previous_article",
+          "exclude_from_translation": true
+        }
+      ]
+    }
+  ],
+  "_xlsxPath": "templates/menu_sub_tasks.xlsx",
+  "_output_flows": [
+    {
+      "flow_name": "sub_item_onboarding_day_chat",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "sub_item_day_3_mh_stress",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "sub_item_day_5_final_chat_session_5ux",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "sub_item_before_chat",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "sub_item_week_1_chat",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "sub_item_week_2_chat",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "sub_item_week_3_chat",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "sub_item_week_4_chat",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "sub_item_#N/A",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    }
+  ]
+}

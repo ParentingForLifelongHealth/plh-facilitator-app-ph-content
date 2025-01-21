@@ -1,0 +1,69 @@
+{
+  "flow_type": "data_list",
+  "flow_name": "tag_data",
+  "status": "released",
+  "data_list_name": "tag",
+  "rows": [
+    {
+      "id": "scale_dif",
+      "title": "SNDIF Capacitación Nacional",
+      "_translations": {
+        "title": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "SNDIF Capacitación Nacional"
+        }
+      }
+    },
+    {
+      "id": "study_dif_bc",
+      "title": "Investigación - Baja California",
+      "_translations": {
+        "title": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Investigación - Baja California"
+        }
+      }
+    },
+    {
+      "id": "study_dif_chih",
+      "title": "Investigación - Chihuahua",
+      "_translations": {
+        "title": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Investigación - Chihuahua"
+        }
+      }
+    },
+    {
+      "id": "study_dif_cdmx",
+      "title": "Investigación - Ciudad de México",
+      "_translations": {
+        "title": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Investigación - Ciudad de México"
+        }
+      }
+    },
+    {
+      "id": "study_dif_mich",
+      "title": "Investigación - Michoacan",
+      "_translations": {
+        "title": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Investigación - Michoacan"
+        }
+      }
+    }
+  ],
+  "_xlsxPath": "data/FacilitatorApp PH articles.xlsx"
+}

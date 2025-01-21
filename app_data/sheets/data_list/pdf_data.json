@@ -1,0 +1,74 @@
+{
+  "flow_type": "data_list",
+  "flow_name": "pdf_data",
+  "status": "released",
+  "data_list_name": "pdf",
+  "rows": [
+    {
+      "id": "onboard_guide",
+      "pdf_asset": "pdf/manual.pdf",
+      "title": "Onboarding Guide",
+      "_translations": {
+        "title": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Onboarding Guide"
+        }
+      }
+    },
+    {
+      "id": "onboard_guide_study",
+      "pdf_asset": "pdf/manual_study.pdf",
+      "title": "Onboarding Guide",
+      "_translations": {
+        "title": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Onboarding Guide"
+        }
+      }
+    },
+    {
+      "id": "more_info",
+      "pdf_asset": "pdf/programme_details.pdf",
+      "title": "Programme Details",
+      "_translations": {
+        "title": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Programme Details"
+        }
+      }
+    },
+    {
+      "id": "overview_study",
+      "pdf_asset": "pdf/overview_guide_study.pdf",
+      "title": "Overview Guide",
+      "_translations": {
+        "title": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Overview Guide"
+        }
+      }
+    },
+    {
+      "id": "peas",
+      "pdf_asset": "pdf/peas.pdf",
+      "title": "Reporting Abuse from Programme Partners",
+      "_translations": {
+        "title": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Reporting Abuse from Programme Partners"
+        }
+      }
+    }
+  ],
+  "_xlsxPath": "data/FacilitatorApp PH articles.xlsx"
+}

@@ -1,0 +1,17 @@
+{
+  "flow_type": "global",
+  "flow_name": "programme_name",
+  "status": "released",
+  "rows": [
+    {
+      "type": "declare_global_constant",
+      "name": "programme_name",
+      "value": "Crianza con Conciencia+",
+      "_translations": {
+        "value": {}
+      },
+      "exclude_from_translation": true
+    }
+  ],
+  "_xlsxPath": "data/dynamic_global_ph.xlsx"
+}

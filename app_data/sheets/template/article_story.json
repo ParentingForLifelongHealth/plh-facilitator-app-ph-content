@@ -1,0 +1,65 @@
+{
+  "flow_type": "template",
+  "flow_name": "article_story",
+  "status": "released",
+  "rows": [
+    {
+      "name": "article_id",
+      "value": "test",
+      "_translations": {
+        "value": {}
+      },
+      "type": "set_variable",
+      "_nested_name": "article_id"
+    },
+    {
+      "type": "template",
+      "name": "article_story_base",
+      "value": "article_story_base",
+      "condition": "@local.type == article",
+      "rows": [
+        {
+          "name": "article_id",
+          "value": "@local.article_id",
+          "_translations": {
+            "value": {}
+          },
+          "type": "set_variable",
+          "_nested_name": "article_story_base.article_id",
+          "_dynamicFields": {
+            "value": [
+              {
+                "fullExpression": "@local.article_id",
+                "matchedExpression": "@local.article_id",
+                "type": "local",
+                "fieldName": "article_id"
+              }
+            ]
+          },
+          "_dynamicDependencies": {
+            "@local.article_id": [
+              "value"
+            ]
+          }
+        }
+      ],
+      "_nested_name": "article_story_base",
+      "_dynamicFields": {
+        "condition": [
+          {
+            "fullExpression": "@local.type == article",
+            "matchedExpression": "@local.type",
+            "type": "local",
+            "fieldName": "type"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@local.type": [
+          "condition"
+        ]
+      }
+    }
+  ],
+  "_xlsxPath": "templates/menu_sub_tasks.xlsx"
+}

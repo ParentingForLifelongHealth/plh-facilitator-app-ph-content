@@ -1,0 +1,28 @@
+{
+  "flow_type": "data_list",
+  "flow_name": "report_questions",
+  "status": "released",
+  "rows": [
+    {
+      "id": "question_1",
+      "question": "How many minutes did it take you to prepare for this session?",
+      "type": "text"
+    },
+    {
+      "id": "question_2",
+      "question": "How many minutes did it take you to travel to the location where the session was delivered?",
+      "type": "text"
+    },
+    {
+      "id": "question_3",
+      "question": "How many minutes did it take you to deliver the sessions?",
+      "type": "text"
+    },
+    {
+      "id": "question_4",
+      "question": "Which of the parents in this group attended your in-person session?",
+      "type": "select"
+    }
+  ],
+  "_xlsxPath": "templates/reports.xlsx"
+}

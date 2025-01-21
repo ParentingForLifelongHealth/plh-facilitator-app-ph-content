@@ -1,0 +1,123 @@
+{
+  "flow_name": "article_loops",
+  "flow_subtype": "generated",
+  "flow_type": "data_list",
+  "rows": [
+    {
+      "ignore": 1,
+      "id": "onboarding_day_chat",
+      "completed": false,
+      "loop_id": "onboarding_day_chat",
+      "foreign_key": "onboarding_day_chat",
+      "type": "article",
+      "next_article": "onboarding_day_chat_2",
+      "previous_article": "",
+      "test": "onboarding_day_chat",
+      "create_loop": "create"
+    },
+    {
+      "ignore": 5,
+      "id": "day_3_mh_stress",
+      "completed": false,
+      "loop_id": "day_3_mh_stress",
+      "foreign_key": "day_3_mh_stress",
+      "type": "article",
+      "next_article": "day_3_mh_stress_2",
+      "previous_article": "",
+      "test": "day_3_mh_stress",
+      "create_loop": "create"
+    },
+    {
+      "ignore": 11,
+      "id": "day_5_final_chat_session_5ux",
+      "completed": false,
+      "loop_id": "day_5_final_chat_session_5ux",
+      "foreign_key": "day_5_final_chat_session_5ux",
+      "type": "article",
+      "next_article": "day_5_final_chat_session_5ux_2",
+      "previous_article": "",
+      "test": "day_5_final_chat_session_5ux",
+      "create_loop": "create"
+    },
+    {
+      "ignore": 16,
+      "id": "before_chat",
+      "completed": false,
+      "loop_id": "before_chat",
+      "foreign_key": "before_chat",
+      "type": "article",
+      "next_article": "before_chat_2",
+      "previous_article": "",
+      "test": "before_chat",
+      "create_loop": "create"
+    },
+    {
+      "ignore": 18,
+      "id": "week_1_chat",
+      "completed": false,
+      "loop_id": "week_1_chat",
+      "foreign_key": "week_1_chat",
+      "type": "article",
+      "next_article": "week_1_chat_2",
+      "previous_article": "",
+      "test": "week_1_chat",
+      "create_loop": "create"
+    },
+    {
+      "ignore": 24,
+      "id": "week_2_chat",
+      "completed": false,
+      "loop_id": "week_2_chat",
+      "foreign_key": "week_2_chat",
+      "type": "article",
+      "next_article": "week_2_chat_2",
+      "previous_article": "",
+      "test": "week_2_chat",
+      "create_loop": "create"
+    },
+    {
+      "ignore": 31,
+      "id": "week_3_chat",
+      "completed": false,
+      "loop_id": "week_3_chat",
+      "foreign_key": "week_3_chat",
+      "type": "article",
+      "next_article": "week_3_chat_2",
+      "previous_article": "",
+      "test": "week_3_chat",
+      "create_loop": "create"
+    },
+    {
+      "ignore": 37,
+      "id": "week_4_chat",
+      "completed": false,
+      "loop_id": "week_4_chat",
+      "foreign_key": "week_4_chat",
+      "type": "article",
+      "next_article": "week_4_chat_2",
+      "previous_article": "",
+      "test": "week_4_chat",
+      "create_loop": "create"
+    },
+    {
+      "ignore": 43,
+      "id": "#N/A",
+      "completed": false,
+      "loop_id": "#N/A",
+      "foreign_key": "#N/A",
+      "type": "article",
+      "next_article": "#N/A",
+      "previous_article": "#N/A",
+      "test": "#N/A",
+      "create_loop": "create"
+    }
+  ],
+  "_metadata": {
+    "ignore": {
+      "type": "number"
+    },
+    "completed": {
+      "type": "boolean"
+    }
+  }
+}

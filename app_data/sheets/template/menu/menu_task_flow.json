@@ -1,0 +1,893 @@
+{
+  "flow_type": "template",
+  "flow_name": "menu_task_flow",
+  "status": "released",
+  "flow_subtype": "menu",
+  "rows": [
+    {
+      "name": "completed_prefix",
+      "value": "completed_",
+      "_translations": {
+        "value": {}
+      },
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "_nested_name": "completed_prefix"
+    },
+    {
+      "name": "completed_postfix",
+      "value": "_completed",
+      "_translations": {
+        "value": {}
+      },
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "_nested_name": "completed_postfix"
+    },
+    {
+      "name": "sub_menu",
+      "value": "_category_tasks",
+      "_translations": {
+        "value": {}
+      },
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "_nested_name": "sub_menu"
+    },
+    {
+      "name": "menu_items",
+      "value": "modules",
+      "_translations": {
+        "value": {}
+      },
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "_nested_name": "menu_items"
+    },
+    {
+      "name": "click_prefix",
+      "value": "sub_item_",
+      "_translations": {
+        "value": {}
+      },
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "_nested_name": "click_prefix"
+    },
+    {
+      "name": "progress_units_name",
+      "value": "sections",
+      "_translations": {
+        "value": {}
+      },
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "_nested_name": "progress_units_name"
+    },
+    {
+      "type": "display_group",
+      "name": "dg_top",
+      "parameter_list": {
+        "sticky": "top",
+        "background_image_asset": "images/backgrounds/home_top_left.svg",
+        "background_image_position": "top left",
+        "style": "background_solid"
+      },
+      "exclude_from_translation": true,
+      "style_list": [
+        "width: 105%",
+        "align-items: flex-start",
+        "padding: 24px",
+        "min-height: 192px"
+      ],
+      "rows": [
+        {
+          "type": "display_group",
+          "name": "dg_top_column",
+          "parameter_list": {
+            "style": "column"
+          },
+          "style_list": [
+            "align-items: flex-start"
+          ],
+          "rows": [
+            {
+              "type": "image",
+              "name": "logo",
+              "value": "images/logos/bird_on_light.svg",
+              "_translations": {
+                "value": {}
+              },
+              "style_list": [
+                "max-width: 72px"
+              ],
+              "_nested_name": "dg_top.dg_top_column.logo"
+            },
+            {
+              "type": "title",
+              "name": "label_group",
+              "value": "Parent Group",
+              "_translations": {
+                "value": {}
+              },
+              "exclude_from_translation": false,
+              "_nested_name": "dg_top.dg_top_column.label_group"
+            },
+            {
+              "type": "display_group",
+              "name": "dg_top_row",
+              "style_list": [
+                "justify-content: space-between"
+              ],
+              "rows": [
+                {
+                  "type": "combo_box",
+                  "name": "selected_group",
+                  "action_list": [
+                    {
+                      "trigger": "changed",
+                      "action_id": "set_data",
+                      "args": [],
+                      "_raw": "changed |  set_data |\n_list_id: sub_items,\ncompleted: @item.@local.completed_prefix@local.selected_group",
+                      "_cleaned": "changed |  set_data |\n_list_id: sub_items,\ncompleted: @item.@local.completed_prefix@local.selected_group",
+                      "params": {
+                        "_list_id": "sub_items",
+                        "completed": "@item.@local.completed_prefix@local.selected_group"
+                      }
+                    },
+                    {
+                      "trigger": "changed",
+                      "action_id": "set_field",
+                      "args": [
+                        "current_group_no",
+                        "this.value"
+                      ],
+                      "_raw": "changed | set_field: current_group_no: @local.selected_group",
+                      "_cleaned": "changed | set_field: current_group_no: @local.selected_group"
+                    }
+                  ],
+                  "parameter_list": {
+                    "placeholder": "Select Parent Group",
+                    "disabled_text": "No Parent Groups",
+                    "variant": "dropdown"
+                  },
+                  "style_list": [
+                    "flex: 4"
+                  ],
+                  "rows": [
+                    {
+                      "type": "data_items",
+                      "value": "parent_groups",
+                      "parameter_list": {
+                        "filter": "!@item.archived"
+                      },
+                      "rows": [],
+                      "name": "data_items_1",
+                      "_nested_name": "dg_top.dg_top_column.dg_top_row.selected_group.data_items_1",
+                      "_dynamicFields": {
+                        "parameter_list": {
+                          "filter": [
+                            {
+                              "fullExpression": "!@item.archived",
+                              "matchedExpression": "!@item.archived",
+                              "type": "item",
+                              "fieldName": "archived"
+                            }
+                          ]
+                        }
+                      },
+                      "_dynamicDependencies": {
+                        "!@item.archived": [
+                          "parameter_list.filter"
+                        ]
+                      }
+                    }
+                  ],
+                  "_nested_name": "dg_top.dg_top_column.dg_top_row.selected_group",
+                  "_dynamicFields": {
+                    "action_list": {
+                      "0": {
+                        "_raw": [
+                          {
+                            "fullExpression": "changed |  set_data |\n_list_id: sub_items,\ncompleted: @item.@local.completed_prefix@local.selected_group",
+                            "matchedExpression": "@local.completed_prefix",
+                            "type": "local",
+                            "fieldName": "completed_prefix"
+                          },
+                          {
+                            "fullExpression": "changed |  set_data |\n_list_id: sub_items,\ncompleted: @item.@local.completed_prefix@local.selected_group",
+                            "matchedExpression": "@local.selected_group",
+                            "type": "local",
+                            "fieldName": "selected_group"
+                          }
+                        ],
+                        "_cleaned": [
+                          {
+                            "fullExpression": "changed |  set_data |\n_list_id: sub_items,\ncompleted: @item.@local.completed_prefix@local.selected_group",
+                            "matchedExpression": "@local.completed_prefix",
+                            "type": "local",
+                            "fieldName": "completed_prefix"
+                          },
+                          {
+                            "fullExpression": "changed |  set_data |\n_list_id: sub_items,\ncompleted: @item.@local.completed_prefix@local.selected_group",
+                            "matchedExpression": "@local.selected_group",
+                            "type": "local",
+                            "fieldName": "selected_group"
+                          }
+                        ],
+                        "params": {
+                          "completed": [
+                            {
+                              "fullExpression": "@item.@local.completed_prefix@local.selected_group",
+                              "matchedExpression": "@local.completed_prefix",
+                              "type": "local",
+                              "fieldName": "completed_prefix"
+                            },
+                            {
+                              "fullExpression": "@item.@local.completed_prefix@local.selected_group",
+                              "matchedExpression": "@local.selected_group",
+                              "type": "local",
+                              "fieldName": "selected_group"
+                            }
+                          ]
+                        }
+                      },
+                      "1": {
+                        "_raw": [
+                          {
+                            "fullExpression": "changed | set_field: current_group_no: @local.selected_group",
+                            "matchedExpression": "@local.selected_group",
+                            "type": "local",
+                            "fieldName": "selected_group"
+                          }
+                        ],
+                        "_cleaned": [
+                          {
+                            "fullExpression": "changed | set_field: current_group_no: @local.selected_group",
+                            "matchedExpression": "@local.selected_group",
+                            "type": "local",
+                            "fieldName": "selected_group"
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  "_dynamicDependencies": {
+                    "@local.completed_prefix": [
+                      "action_list.0._raw",
+                      "action_list.0._cleaned",
+                      "action_list.0.params.completed"
+                    ],
+                    "@local.selected_group": [
+                      "action_list.0._raw",
+                      "action_list.0._cleaned",
+                      "action_list.0.params.completed",
+                      "action_list.1._raw",
+                      "action_list.1._cleaned"
+                    ]
+                  }
+                },
+                {
+                  "type": "round_button",
+                  "name": "groups_go_to",
+                  "action_list": [
+                    {
+                      "trigger": "click",
+                      "action_id": "go_to",
+                      "args": [
+                        "profile_groups"
+                      ],
+                      "_raw": "click | go_to: profile_groups",
+                      "_cleaned": "click | go_to: profile_groups"
+                    }
+                  ],
+                  "parameter_list": {
+                    "variant": "no-background",
+                    "icon_src": "images/icons/person_cog.svg"
+                  },
+                  "style_list": [
+                    "flex: 1"
+                  ],
+                  "_nested_name": "dg_top.dg_top_column.dg_top_row.groups_go_to"
+                }
+              ],
+              "_nested_name": "dg_top.dg_top_column.dg_top_row"
+            }
+          ],
+          "_nested_name": "dg_top.dg_top_column"
+        }
+      ],
+      "_nested_name": "dg_top"
+    },
+    {
+      "name": "t_group_data",
+      "value": "sub_items",
+      "_translations": {
+        "value": {}
+      },
+      "type": "set_variable",
+      "_nested_name": "t_group_data"
+    },
+    {
+      "type": "text",
+      "name": "spacer",
+      "style_list": [
+        "margin-top: 24px"
+      ],
+      "_nested_name": "spacer"
+    },
+    {
+      "name": "image_prefix",
+      "value": "images/icons/task_",
+      "_translations": {
+        "value": {}
+      },
+      "type": "set_variable",
+      "_nested_name": "image_prefix"
+    },
+    {
+      "name": "image_postfix",
+      "value": ".png",
+      "_translations": {
+        "value": {}
+      },
+      "type": "set_variable",
+      "_nested_name": "image_postfix"
+    },
+    {
+      "type": "display_group",
+      "parameter_list": {
+        "style": "column"
+      },
+      "condition": "@local.selected_group",
+      "rows": [
+        {
+          "type": "items",
+          "value": "@data.modules",
+          "exclude_from_translation": true,
+          "rows": [
+            {
+              "name": "image_count",
+              "value": 0,
+              "condition": "@item._first",
+              "type": "set_variable",
+              "_nested_name": "display_group_14.items_1.image_count",
+              "_dynamicFields": {
+                "condition": [
+                  {
+                    "fullExpression": "@item._first",
+                    "matchedExpression": "@item._first",
+                    "type": "item",
+                    "fieldName": "_first"
+                  }
+                ]
+              },
+              "_dynamicDependencies": {
+                "@item._first": [
+                  "condition"
+                ]
+              }
+            },
+            {
+              "name": "packages",
+              "value": "ALL",
+              "_translations": {
+                "value": {}
+              },
+              "condition": "!@item.tag_list || !@global.has_multiple_content_packages",
+              "exclude_from_translation": true,
+              "type": "set_variable",
+              "_nested_name": "display_group_14.items_1.packages",
+              "_dynamicFields": {
+                "condition": [
+                  {
+                    "fullExpression": "!@item.tag_list || !@global.has_multiple_content_packages",
+                    "matchedExpression": "!@item.tag_list",
+                    "type": "item",
+                    "fieldName": "tag_list"
+                  },
+                  {
+                    "fullExpression": "!@item.tag_list || !@global.has_multiple_content_packages",
+                    "matchedExpression": "!@global.has_multiple_content_packages",
+                    "type": "global",
+                    "fieldName": "has_multiple_content_packages"
+                  }
+                ]
+              },
+              "_dynamicDependencies": {
+                "!@item.tag_list": [
+                  "condition"
+                ],
+                "!@global.has_multiple_content_packages": [
+                  "condition"
+                ]
+              }
+            },
+            {
+              "name": "condition_package",
+              "value": true,
+              "condition": "!@item.tag_list || !@global.has_multiple_content_packages",
+              "type": "set_variable",
+              "_nested_name": "display_group_14.items_1.condition_package",
+              "_dynamicFields": {
+                "condition": [
+                  {
+                    "fullExpression": "!@item.tag_list || !@global.has_multiple_content_packages",
+                    "matchedExpression": "!@item.tag_list",
+                    "type": "item",
+                    "fieldName": "tag_list"
+                  },
+                  {
+                    "fullExpression": "!@item.tag_list || !@global.has_multiple_content_packages",
+                    "matchedExpression": "!@global.has_multiple_content_packages",
+                    "type": "global",
+                    "fieldName": "has_multiple_content_packages"
+                  }
+                ]
+              },
+              "_dynamicDependencies": {
+                "!@item.tag_list": [
+                  "condition"
+                ],
+                "!@global.has_multiple_content_packages": [
+                  "condition"
+                ]
+              }
+            },
+            {
+              "name": "packages",
+              "value": "@item.tag_list",
+              "_translations": {
+                "value": {}
+              },
+              "condition": "!!@item.tag_list && @global.has_multiple_content_packages",
+              "type": "set_variable",
+              "_nested_name": "display_group_14.items_1.packages",
+              "_dynamicFields": {
+                "value": [
+                  {
+                    "fullExpression": "@item.tag_list",
+                    "matchedExpression": "@item.tag_list",
+                    "type": "item",
+                    "fieldName": "tag_list"
+                  }
+                ],
+                "condition": [
+                  {
+                    "fullExpression": "!!@item.tag_list && @global.has_multiple_content_packages",
+                    "matchedExpression": "!@item.tag_list",
+                    "type": "item",
+                    "fieldName": "tag_list"
+                  },
+                  {
+                    "fullExpression": "!!@item.tag_list && @global.has_multiple_content_packages",
+                    "matchedExpression": "@global.has_multiple_content_packages",
+                    "type": "global",
+                    "fieldName": "has_multiple_content_packages"
+                  }
+                ]
+              },
+              "_dynamicDependencies": {
+                "@item.tag_list": [
+                  "value"
+                ],
+                "!@item.tag_list": [
+                  "condition"
+                ],
+                "@global.has_multiple_content_packages": [
+                  "condition"
+                ]
+              }
+            },
+            {
+              "name": "condition_package",
+              "value": "@calc(@local.packages.includes(@fields.current_package))",
+              "_translations": {
+                "value": {}
+              },
+              "condition": "!!@item.tag_list && @global.has_multiple_content_packages",
+              "type": "set_variable",
+              "_nested_name": "display_group_14.items_1.condition_package",
+              "_dynamicFields": {
+                "value": [
+                  {
+                    "fullExpression": "@calc(@local.packages.includes(@fields.current_package))",
+                    "matchedExpression": "@local.packages.includes",
+                    "type": "local",
+                    "fieldName": "packages"
+                  },
+                  {
+                    "fullExpression": "@calc(@local.packages.includes(@fields.current_package))",
+                    "matchedExpression": "@fields.current_package",
+                    "type": "fields",
+                    "fieldName": "current_package"
+                  },
+                  {
+                    "fullExpression": "@calc(@local.packages.includes(@fields.current_package))",
+                    "matchedExpression": "@calc(@local.packages.includes(@fields.current_package))",
+                    "type": "calc",
+                    "fieldName": "@local.packages.includes(@fields.current_package)"
+                  }
+                ],
+                "condition": [
+                  {
+                    "fullExpression": "!!@item.tag_list && @global.has_multiple_content_packages",
+                    "matchedExpression": "!@item.tag_list",
+                    "type": "item",
+                    "fieldName": "tag_list"
+                  },
+                  {
+                    "fullExpression": "!!@item.tag_list && @global.has_multiple_content_packages",
+                    "matchedExpression": "@global.has_multiple_content_packages",
+                    "type": "global",
+                    "fieldName": "has_multiple_content_packages"
+                  }
+                ]
+              },
+              "_dynamicDependencies": {
+                "@local.packages.includes": [
+                  "value"
+                ],
+                "@fields.current_package": [
+                  "value"
+                ],
+                "@calc(@local.packages.includes(@fields.current_package))": [
+                  "value"
+                ],
+                "!@item.tag_list": [
+                  "condition"
+                ],
+                "@global.has_multiple_content_packages": [
+                  "condition"
+                ]
+              }
+            },
+            {
+              "type": "text",
+              "value": "@local.image_prefix@local.image_count@local.image_postfix",
+              "_translations": {
+                "value": {}
+              },
+              "condition": false,
+              "name": "text_6",
+              "_nested_name": "display_group_14.items_1.text_6",
+              "_dynamicFields": {
+                "value": [
+                  {
+                    "fullExpression": "@local.image_prefix@local.image_count@local.image_postfix",
+                    "matchedExpression": "@local.image_prefix",
+                    "type": "local",
+                    "fieldName": "image_prefix"
+                  },
+                  {
+                    "fullExpression": "@local.image_prefix@local.image_count@local.image_postfix",
+                    "matchedExpression": "@local.image_count",
+                    "type": "local",
+                    "fieldName": "image_count"
+                  },
+                  {
+                    "fullExpression": "@local.image_prefix@local.image_count@local.image_postfix",
+                    "matchedExpression": "@local.image_postfix",
+                    "type": "local",
+                    "fieldName": "image_postfix"
+                  }
+                ]
+              },
+              "_dynamicDependencies": {
+                "@local.image_prefix": [
+                  "value"
+                ],
+                "@local.image_count": [
+                  "value"
+                ],
+                "@local.image_postfix": [
+                  "value"
+                ]
+              }
+            },
+            {
+              "type": "template",
+              "name": "menu_task_card",
+              "value": "menu_task_card",
+              "condition": "@local.condition_package",
+              "rows": [
+                {
+                  "name": "module_id",
+                  "value": "@item.id",
+                  "_translations": {
+                    "value": {}
+                  },
+                  "type": "set_variable",
+                  "_nested_name": "display_group_14.items_1.menu_task_card.module_id",
+                  "_dynamicFields": {
+                    "value": [
+                      {
+                        "fullExpression": "@item.id",
+                        "matchedExpression": "@item.id",
+                        "type": "item",
+                        "fieldName": "id"
+                      }
+                    ]
+                  },
+                  "_dynamicDependencies": {
+                    "@item.id": [
+                      "value"
+                    ]
+                  }
+                },
+                {
+                  "name": "module_name",
+                  "value": "@item.title",
+                  "_translations": {
+                    "value": {}
+                  },
+                  "type": "set_variable",
+                  "_nested_name": "display_group_14.items_1.menu_task_card.module_name",
+                  "_dynamicFields": {
+                    "value": [
+                      {
+                        "fullExpression": "@item.title",
+                        "matchedExpression": "@item.title",
+                        "type": "item",
+                        "fieldName": "title"
+                      }
+                    ]
+                  },
+                  "_dynamicDependencies": {
+                    "@item.title": [
+                      "value"
+                    ]
+                  }
+                },
+                {
+                  "name": "report_id",
+                  "value": "@item.report_id",
+                  "_translations": {
+                    "value": {}
+                  },
+                  "type": "set_variable",
+                  "_nested_name": "display_group_14.items_1.menu_task_card.report_id",
+                  "_dynamicFields": {
+                    "value": [
+                      {
+                        "fullExpression": "@item.report_id",
+                        "matchedExpression": "@item.report_id",
+                        "type": "item",
+                        "fieldName": "report_id"
+                      }
+                    ]
+                  },
+                  "_dynamicDependencies": {
+                    "@item.report_id": [
+                      "value"
+                    ]
+                  }
+                },
+                {
+                  "name": "image",
+                  "value": "@local.image_prefix@local.image_count@local.image_postfix",
+                  "_translations": {
+                    "value": {}
+                  },
+                  "type": "set_variable",
+                  "_nested_name": "display_group_14.items_1.menu_task_card.image",
+                  "_dynamicFields": {
+                    "value": [
+                      {
+                        "fullExpression": "@local.image_prefix@local.image_count@local.image_postfix",
+                        "matchedExpression": "@local.image_prefix",
+                        "type": "local",
+                        "fieldName": "image_prefix"
+                      },
+                      {
+                        "fullExpression": "@local.image_prefix@local.image_count@local.image_postfix",
+                        "matchedExpression": "@local.image_count",
+                        "type": "local",
+                        "fieldName": "image_count"
+                      },
+                      {
+                        "fullExpression": "@local.image_prefix@local.image_count@local.image_postfix",
+                        "matchedExpression": "@local.image_postfix",
+                        "type": "local",
+                        "fieldName": "image_postfix"
+                      }
+                    ]
+                  },
+                  "_dynamicDependencies": {
+                    "@local.image_prefix": [
+                      "value"
+                    ],
+                    "@local.image_count": [
+                      "value"
+                    ],
+                    "@local.image_postfix": [
+                      "value"
+                    ]
+                  }
+                }
+              ],
+              "_nested_name": "display_group_14.items_1.menu_task_card",
+              "_dynamicFields": {
+                "condition": [
+                  {
+                    "fullExpression": "@local.condition_package",
+                    "matchedExpression": "@local.condition_package",
+                    "type": "local",
+                    "fieldName": "condition_package"
+                  }
+                ]
+              },
+              "_dynamicDependencies": {
+                "@local.condition_package": [
+                  "condition"
+                ]
+              }
+            },
+            {
+              "name": "image_count",
+              "value": "@calc(@local.image_count +1)",
+              "_translations": {
+                "value": {}
+              },
+              "condition": "@local.condition_package",
+              "type": "set_variable",
+              "_nested_name": "display_group_14.items_1.image_count",
+              "_dynamicFields": {
+                "value": [
+                  {
+                    "fullExpression": "@calc(@local.image_count +1)",
+                    "matchedExpression": "@local.image_count",
+                    "type": "local",
+                    "fieldName": "image_count"
+                  },
+                  {
+                    "fullExpression": "@calc(@local.image_count +1)",
+                    "matchedExpression": "@calc(@local.image_count +1)",
+                    "type": "calc",
+                    "fieldName": "@local.image_count +1"
+                  }
+                ],
+                "condition": [
+                  {
+                    "fullExpression": "@local.condition_package",
+                    "matchedExpression": "@local.condition_package",
+                    "type": "local",
+                    "fieldName": "condition_package"
+                  }
+                ]
+              },
+              "_dynamicDependencies": {
+                "@local.image_count": [
+                  "value"
+                ],
+                "@calc(@local.image_count +1)": [
+                  "value"
+                ],
+                "@local.condition_package": [
+                  "condition"
+                ]
+              }
+            }
+          ],
+          "name": "items_1",
+          "_nested_name": "display_group_14.items_1",
+          "_dynamicFields": {
+            "value": [
+              {
+                "fullExpression": "@data.modules",
+                "matchedExpression": "@data.modules",
+                "type": "data",
+                "fieldName": "modules"
+              }
+            ]
+          },
+          "_dynamicDependencies": {
+            "@data.modules": [
+              "value"
+            ]
+          }
+        }
+      ],
+      "name": "display_group_14",
+      "_nested_name": "display_group_14",
+      "_dynamicFields": {
+        "condition": [
+          {
+            "fullExpression": "@local.selected_group",
+            "matchedExpression": "@local.selected_group",
+            "type": "local",
+            "fieldName": "selected_group"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@local.selected_group": [
+          "condition"
+        ]
+      }
+    },
+    {
+      "type": "display_group",
+      "parameter_list": {
+        "style": "column"
+      },
+      "condition": "!@local.selected_group",
+      "rows": [
+        {
+          "type": "image",
+          "name": "logo",
+          "value": "images/no_group_selected.svg",
+          "_translations": {
+            "value": {}
+          },
+          "style_list": [
+            "width: 40%"
+          ],
+          "_nested_name": "display_group_16.logo"
+        },
+        {
+          "type": "text",
+          "value": "Chat Sessions will load after you select a parent group",
+          "_translations": {
+            "value": {}
+          },
+          "parameter_list": {
+            "text_align": "center"
+          },
+          "name": "text_2",
+          "_nested_name": "display_group_16.text_2"
+        }
+      ],
+      "name": "display_group_16",
+      "_nested_name": "display_group_16",
+      "_dynamicFields": {
+        "condition": [
+          {
+            "fullExpression": "!@local.selected_group",
+            "matchedExpression": "!@local.selected_group",
+            "type": "local",
+            "fieldName": "selected_group"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "!@local.selected_group": [
+          "condition"
+        ]
+      }
+    },
+    {
+      "type": "display_group",
+      "name": "dg_footer",
+      "parameter_list": {
+        "sticky": "bottom",
+        "background_image_asset": "images/backgrounds/home_bottom_right.svg",
+        "background_image_position": "bottom right"
+      },
+      "condition": "!@local.selected_group",
+      "exclude_from_translation": true,
+      "style_list": [
+        "width: 110%",
+        "min-height: 144px"
+      ],
+      "rows": [],
+      "_nested_name": "dg_footer",
+      "_dynamicFields": {
+        "condition": [
+          {
+            "fullExpression": "!@local.selected_group",
+            "matchedExpression": "!@local.selected_group",
+            "type": "local",
+            "fieldName": "selected_group"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "!@local.selected_group": [
+          "condition"
+        ]
+      }
+    }
+  ],
+  "_xlsxPath": "templates/menu_multi_run_task_flow.xlsx"
+}
