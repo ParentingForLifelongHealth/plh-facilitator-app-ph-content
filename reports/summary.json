@@ -231,8 +231,8 @@
     "data": [
       {
         "assets": "total",
-        "KB": "5423 KB",
-        "MB": "5.4 MB"
+        "KB": "5535 KB",
+        "MB": "5.5 MB"
       },
       {
         "assets": "unused",
@@ -733,6 +733,11 @@
         "size_kb": 84.6
       },
       {
+        "path": "images/logos/MaPa_logo.png",
+        "count": 1,
+        "size_kb": 112.5
+      },
+      {
         "path": "images/logos/PLH.png",
         "count": 1,
         "size_kb": 26.6
@@ -744,7 +749,7 @@
       },
       {
         "path": "images/logos/bird_on_light.svg",
-        "count": 2,
+        "count": 1,
         "size_kb": 2
       },
       {
