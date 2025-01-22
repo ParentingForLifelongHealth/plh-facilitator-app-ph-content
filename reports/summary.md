@@ -72,7 +72,7 @@
 
 | assets | KB | MB |
 | --- | --- | --- |
-| total | 5423 KB | 5.4 MB |
+| total | 5535 KB | 5.5 MB |
 | unused | 760 KB | 0.8 MB |
 </details>
 
@@ -205,9 +205,10 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | images/icons/visibility.svg | 1.9 | 1 |
 | images/icons/world.svg | 6.2 | 1 |
 | images/logos/IDEMS.png | 84.6 | 1 |
+| images/logos/MaPa_logo.png | 112.5 | 1 |
 | images/logos/PLH.png | 26.6 | 1 |
 | images/logos/UNICEF.jpg | 27.7 | 1 |
-| images/logos/bird_on_light.svg | 2 | 2 |
+| images/logos/bird_on_light.svg | 2 | 1 |
 | images/logos/nip.png | 11.9 | 1 |
 | images/no_group_selected.svg | 3.5 | 1 |
 | images/onboarding_cc.svg | 19.3 | 4 |
