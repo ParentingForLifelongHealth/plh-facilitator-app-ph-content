@@ -99,7 +99,7 @@
       },
       {
         "type": "template",
-        "count": 205
+        "count": 206
       },
       {
         "type": "text",
@@ -881,6 +881,11 @@
         "type": "template",
         "subtype": "legal_terms",
         "total": 4
+      },
+      {
+        "type": "template",
+        "subtype": "menu",
+        "total": 1
       }
     ]
   }

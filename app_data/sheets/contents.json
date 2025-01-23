@@ -3459,7 +3459,7 @@
     "home_screen": {
       "flow_type": "template",
       "flow_name": "home_screen",
-      "_xlsxPath": "templates/menu_multi_run_task_flow.xlsx"
+      "_xlsxPath": "templates/menu_overrides.xlsx"
     },
     "home_screen_carousel": {
       "flow_type": "template",
@@ -3541,6 +3541,12 @@
       "flow_type": "template",
       "flow_name": "media",
       "_xlsxPath": "templates/media.xlsx"
+    },
+    "menu_task_flow": {
+      "flow_type": "template",
+      "flow_name": "menu_task_flow",
+      "flow_subtype": "menu",
+      "_xlsxPath": "templates/menu_multi_run_task_flow.xlsx"
     },
     "menu_sub_tasks": {
       "flow_type": "template",
