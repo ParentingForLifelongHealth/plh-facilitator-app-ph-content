@@ -1,6 +1,5 @@
-import { extendDeploymentConfig } from "scripts";
-const config = extendDeploymentConfig({ name: "plh_facilitator_ph", parent: "plh_facilitator" });
-
+import { generateDeploymentConfig } from "scripts";
+const config = generateDeploymentConfig("plh_facilitator_ph");
 /**
  * The default config should ideally be a superset of any extended configs
  * to allow for easier post-processing
@@ -19,7 +18,7 @@ config.google_drive.assets_folder_ids = [
 
 config.git = {
   content_repo: "https://github.com/IDEMSInternational/plh-facilitator-app-ph-content.git",
-  content_tag_latest: "1.1.8",
+  content_tag_latest: "1.1.9",
 };
 
 config.api.db_name = "plh_facilitator_ph"
