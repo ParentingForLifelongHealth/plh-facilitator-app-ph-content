@@ -87,7 +87,7 @@
       },
       {
         "type": "set_variable",
-        "count": 783
+        "count": 770
       },
       {
         "type": "simple_checkbox",
@@ -410,16 +410,11 @@
       },
       {
         "path": "images/icons/in_progress.svg",
-        "count": 2,
-        "missing": true
-      },
-      {
-        "path": "images/icons/tick.svg",
         "count": 1,
         "missing": true
       },
       {
-        "path": "images/icons/tick_white.svg",
+        "path": "images/icons/tick.svg",
         "count": 1,
         "missing": true
       }
@@ -464,27 +459,27 @@
       },
       {
         "path": "images/day_1_introduction.svg",
-        "count": 1,
+        "count": 2,
         "size_kb": 6.7
       },
       {
         "path": "images/day_3_check_in.svg",
-        "count": 1,
+        "count": 2,
         "size_kb": 6.5
       },
       {
         "path": "images/day_3_mh_stress_self_talk.svg",
-        "count": 4,
+        "count": 6,
         "size_kb": 5.4
       },
       {
         "path": "images/day_4_check_in.svg",
-        "count": 2,
+        "count": 3,
         "size_kb": 11.3
       },
       {
         "path": "images/day_5_goodbye.svg",
-        "count": 1,
+        "count": 2,
         "size_kb": 19.4
       },
       {
@@ -584,7 +579,7 @@
       },
       {
         "path": "images/how_to_report_abuse.svg",
-        "count": 2,
+        "count": 3,
         "size_kb": 12.2
       },
       {
@@ -764,7 +759,7 @@
       },
       {
         "path": "images/onboarding_cc.svg",
-        "count": 4,
+        "count": 5,
         "size_kb": 19.3
       },
       {
