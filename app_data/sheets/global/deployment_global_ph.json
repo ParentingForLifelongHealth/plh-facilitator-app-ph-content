@@ -3,7 +3,7 @@
   "flow_name": "deployment_global_ph",
   "status": "released",
   "override_target": "deployment_global",
-  "override_condition": "@fields._deployment_name == \"plh_facilitator_mph\"",
+  "override_condition": "@fields._deployment_name == \"plh_facilitator_ph\"",
   "rows": [
     {
       "type": "declare_global_constant",
@@ -17,6 +17,10 @@
     {
       "type": "declare_global_constant",
       "name": "home_icon_asset",
+      "value": "",
+      "_translations": {
+        "value": {}
+      },
       "exclude_from_translation": true
     },
     {
@@ -132,6 +136,14 @@
       "type": "declare_global_constant",
       "name": "edit_text_id",
       "value": "Parent Text ID",
+      "_translations": {
+        "value": {}
+      }
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "main_logo",
+      "value": "images/logos/MaPa_logo.png",
       "_translations": {
         "value": {}
       }
