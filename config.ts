@@ -7,19 +7,19 @@ const config = extendDeploymentConfig({ name: "plh_facilitator_ph", parent: "plh
  */
 
 config.google_drive.sheets_folder_ids =  [
-  "1k8zJfBeOm18gYDsk0XmdUm7OFtZDUY9R",  //Global
+  "1Jo1-q7KOE4gC2XRKEMcU9bXnrwB5oCRC",  //Global
   "1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"   //PH Sheets
 ];
 
 config.google_drive.assets_folder_ids = [
-  "1KcHDI7O4o2_FZ_YlXsz-8OqN3ehsfdVf", 
+  "1nrj0QSvhVKdUaPFrnCB6CyXSCvpozBDK", 
 	"1GA6vgLIC2aPPRzUJkm_albAvPdMa3XUK" //PH assets
 ];
 
 
 config.git = {
   content_repo: "https://github.com/IDEMSInternational/plh-facilitator-app-ph-content.git",
-  content_tag_latest: "1.1.4",
+  content_tag_latest: "1.1.5",
 };
 
 config.api.db_name = "plh_facilitator_ph"

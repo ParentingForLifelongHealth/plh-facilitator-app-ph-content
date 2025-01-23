@@ -69,7 +69,6 @@
                       "parameter_list": {
                         "filter": "!@item.archived"
                       },
-                      "condition": "Data list should include columns for name and text",
                       "rows": [],
                       "name": "data_items_1",
                       "_nested_name": "dg_top.dg_top_column.dg_top_row.report_group.data_items_1",

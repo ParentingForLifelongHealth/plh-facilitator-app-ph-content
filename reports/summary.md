@@ -6,35 +6,34 @@
 | accordion | 2 |
 | accordion_section | 2 |
 | audio | 2 |
-| button | 73 |
+| button | 67 |
 | carousel | 1 |
 | combo_box | 3 |
 | data_items | 21 |
 | debug_toggle | 1 |
 | display_grid | 4 |
-| display_group | 92 |
+| display_group | 86 |
 | drawer | 2 |
-| image | 9 |
-| items | 38 |
+| image | 8 |
+| items | 27 |
 | navigation_bar | 2 |
-| odk_form | 1 |
 | pdf | 1 |
 | qr_code | 1 |
 | radio_button_grid | 4 |
-| round_button | 29 |
+| round_button | 27 |
 | select_text | 1 |
 | set_field | 1 |
-| set_variable | 770 |
+| set_variable | 667 |
 | simple_checkbox | 2 |
-| task_card | 3 |
+| task_card | 2 |
 | task_progress_bar | 2 |
-| template | 211 |
-| text | 167 |
+| template | 205 |
+| text | 143 |
 | text_area | 2 |
-| text_box | 25 |
-| title | 43 |
-| toggle_bar | 5 |
-| update_action_list | 3 |
+| text_box | 22 |
+| title | 37 |
+| toggle_bar | 3 |
+| update_action_list | 2 |
 | video | 2 |
 </details>
 
@@ -45,22 +44,21 @@
 | --- | --- |
 | add_data | 4 |
 | app_update | 1 |
-| emit: completed | 22 |
-| emit: force_reload | 5 |
+| emit: completed | 19 |
+| emit: force_reload | 4 |
 | emit: force_reprocess | 9 |
 | emit: force_restart | 3 |
-| emit: server_sync | 5 |
+| emit: server_sync | 4 |
 | emit: set_language | 1 |
 | emit: uncompleted | 72 |
 | feedback | 13 |
-| go_to | 40 |
-| go_to_url | 1 |
+| go_to | 36 |
 | nav_stack | 4 |
-| pop_up | 13 |
+| pop_up | 9 |
 | reset_app | 1 |
 | save_to_device | 3 |
 | set_data | 15 |
-| set_field | 60 |
+| set_field | 54 |
 | set_item | 8 |
 | set_local | 19 |
 | share | 2 |
@@ -72,8 +70,8 @@
 
 | assets | KB | MB |
 | --- | --- | --- |
-| total | 5535 KB | 5.5 MB |
-| unused | 760 KB | 0.8 MB |
+| total | 5213 KB | 5.2 MB |
+| unused | 1082 KB | 1.1 MB |
 </details>
 
 <details open>
@@ -114,6 +112,7 @@ Assets that appear in app-data but do not have references within sheets
 | images/icons/task_8.png | 2.4 |
 | images/logos/KEMAS.png | 5.6 |
 | images/logos/LPPKN.png | 41.2 |
+| images/logos/MaPa_logo.png | 112.5 |
 | images/logos/Oxford.png | 50 |
 | images/logos/UPM.png | 120.8 |
 | images/logos/bird_on_dark.svg | 2.1 |
@@ -122,6 +121,7 @@ Assets that appear in app-data but do not have references within sheets
 | images/logos/masw.png | 7.1 |
 | images/logos/thsn.png | 35.5 |
 | images/person_cog.png | 0.8 |
+| odk_forms/eplh_pilot_facilitator_weekly_survey_combined.json | 209.4 |
 </details>
 
 <details open>
@@ -152,7 +152,7 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | images/crisis_hotlines.svg | 12.6 | 1 |
 | images/day_1_introduction.svg | 6.7 | 2 |
 | images/day_3_check_in.svg | 6.5 | 2 |
-| images/day_3_mh_stress_self_talk.svg | 5.4 | 6 |
+| images/day_3_mh_stress_self_talk.svg | 5.4 | 4 |
 | images/day_4_check_in.svg | 11.3 | 3 |
 | images/day_5_goodbye.svg | 19.4 | 2 |
 | images/during_disclosed_abuse.svg | 7.7 | 2 |
@@ -174,7 +174,7 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | images/group_admin_onboarding.svg | 13.5 | 1 |
 | images/how_to_chat_session.svg | 11 | 2 |
 | images/how_to_report.svg | 5.8 | 1 |
-| images/how_to_report_abuse.svg | 12.2 | 3 |
+| images/how_to_report_abuse.svg | 12.2 | 1 |
 | images/icons/add_circle.svg | 1 | 2 |
 | images/icons/arrow_back.svg | 0.5 | 1 |
 | images/icons/arrow_forward.svg | 0.4 | 2 |
@@ -204,10 +204,9 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | images/icons/visibility.svg | 1.9 | 1 |
 | images/icons/world.svg | 6.2 | 1 |
 | images/logos/IDEMS.png | 84.6 | 1 |
-| images/logos/MaPa_logo.png | 112.5 | 1 |
 | images/logos/PLH.png | 26.6 | 1 |
 | images/logos/UNICEF.jpg | 27.7 | 1 |
-| images/logos/bird_on_light.svg | 2 | 1 |
+| images/logos/bird_on_light.svg | 2 | 2 |
 | images/logos/nip.png | 11.9 | 1 |
 | images/no_group_selected.svg | 3.5 | 1 |
 | images/onboarding_cc.svg | 19.3 | 5 |
@@ -217,7 +216,6 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | images/routine_challenges.svg | 20.5 | 1 |
 | images/talk_feelings_challenges.svg | 19.3 | 1 |
 | images/what_is_safeguarding.svg | 5.6 | 1 |
-| odk_forms/eplh_pilot_facilitator_weekly_survey_combined.json | 209.4 | 1 |
 | pdf/manual.pdf | 470.3 | 1 |
 | pdf/manual_study.pdf | 1047 | 1 |
 | pdf/overview_guide_study.pdf | 2252.6 | 1 |
@@ -236,12 +234,11 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | data_list | legal_terms | 2 |
 | data_list | lifecycle_actions | 1 |
 | data_pipe |  | 2 |
-| data_pipe | generated | 43 |
+| data_pipe | generated | 42 |
 | generator |  | 11 |
 | global |  | 11 |
 | global | legal_terms | 1 |
-| template |  | 77 |
-| template | generated | 164 |
+| template |  | 69 |
+| template | generated | 162 |
 | template | legal_terms | 4 |
-| template | menu | 1 |
 </details>

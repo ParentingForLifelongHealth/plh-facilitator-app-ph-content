@@ -15,7 +15,7 @@
       },
       {
         "type": "button",
-        "count": 73
+        "count": 67
       },
       {
         "type": "carousel",
@@ -39,7 +39,7 @@
       },
       {
         "type": "display_group",
-        "count": 92
+        "count": 86
       },
       {
         "type": "drawer",
@@ -47,19 +47,15 @@
       },
       {
         "type": "image",
-        "count": 9
+        "count": 8
       },
       {
         "type": "items",
-        "count": 38
+        "count": 27
       },
       {
         "type": "navigation_bar",
         "count": 2
-      },
-      {
-        "type": "odk_form",
-        "count": 1
       },
       {
         "type": "pdf",
@@ -75,7 +71,7 @@
       },
       {
         "type": "round_button",
-        "count": 29
+        "count": 27
       },
       {
         "type": "select_text",
@@ -87,7 +83,7 @@
       },
       {
         "type": "set_variable",
-        "count": 770
+        "count": 667
       },
       {
         "type": "simple_checkbox",
@@ -95,7 +91,7 @@
       },
       {
         "type": "task_card",
-        "count": 3
+        "count": 2
       },
       {
         "type": "task_progress_bar",
@@ -103,11 +99,11 @@
       },
       {
         "type": "template",
-        "count": 211
+        "count": 205
       },
       {
         "type": "text",
-        "count": 167
+        "count": 143
       },
       {
         "type": "text_area",
@@ -115,19 +111,19 @@
       },
       {
         "type": "text_box",
-        "count": 25
+        "count": 22
       },
       {
         "type": "title",
-        "count": 43
+        "count": 37
       },
       {
         "type": "toggle_bar",
-        "count": 5
+        "count": 3
       },
       {
         "type": "update_action_list",
-        "count": 3
+        "count": 2
       },
       {
         "type": "video",
@@ -147,11 +143,11 @@
       },
       {
         "type": "emit: completed",
-        "count": 22
+        "count": 19
       },
       {
         "type": "emit: force_reload",
-        "count": 5
+        "count": 4
       },
       {
         "type": "emit: force_reprocess",
@@ -163,7 +159,7 @@
       },
       {
         "type": "emit: server_sync",
-        "count": 5
+        "count": 4
       },
       {
         "type": "emit: set_language",
@@ -179,11 +175,7 @@
       },
       {
         "type": "go_to",
-        "count": 40
-      },
-      {
-        "type": "go_to_url",
-        "count": 1
+        "count": 36
       },
       {
         "type": "nav_stack",
@@ -191,7 +183,7 @@
       },
       {
         "type": "pop_up",
-        "count": 13
+        "count": 9
       },
       {
         "type": "reset_app",
@@ -207,7 +199,7 @@
       },
       {
         "type": "set_field",
-        "count": 60
+        "count": 54
       },
       {
         "type": "set_item",
@@ -231,13 +223,13 @@
     "data": [
       {
         "assets": "total",
-        "KB": "5535 KB",
-        "MB": "5.5 MB"
+        "KB": "5213 KB",
+        "MB": "5.2 MB"
       },
       {
         "assets": "unused",
-        "KB": "760 KB",
-        "MB": "0.8 MB"
+        "KB": "1082 KB",
+        "MB": "1.1 MB"
       }
     ]
   },
@@ -368,6 +360,10 @@
         "size_kb": 41.2
       },
       {
+        "path": "images/logos/MaPa_logo.png",
+        "size_kb": 112.5
+      },
+      {
         "path": "images/logos/Oxford.png",
         "size_kb": 50
       },
@@ -398,6 +394,10 @@
       {
         "path": "images/person_cog.png",
         "size_kb": 0.8
+      },
+      {
+        "path": "odk_forms/eplh_pilot_facilitator_weekly_survey_combined.json",
+        "size_kb": 209.4
       }
     ]
   },
@@ -469,7 +469,7 @@
       },
       {
         "path": "images/day_3_mh_stress_self_talk.svg",
-        "count": 6,
+        "count": 4,
         "size_kb": 5.4
       },
       {
@@ -579,7 +579,7 @@
       },
       {
         "path": "images/how_to_report_abuse.svg",
-        "count": 3,
+        "count": 1,
         "size_kb": 12.2
       },
       {
@@ -728,11 +728,6 @@
         "size_kb": 84.6
       },
       {
-        "path": "images/logos/MaPa_logo.png",
-        "count": 1,
-        "size_kb": 112.5
-      },
-      {
         "path": "images/logos/PLH.png",
         "count": 1,
         "size_kb": 26.6
@@ -744,7 +739,7 @@
       },
       {
         "path": "images/logos/bird_on_light.svg",
-        "count": 1,
+        "count": 2,
         "size_kb": 2
       },
       {
@@ -791,11 +786,6 @@
         "path": "images/what_is_safeguarding.svg",
         "count": 1,
         "size_kb": 5.6
-      },
-      {
-        "path": "odk_forms/eplh_pilot_facilitator_weekly_survey_combined.json",
-        "count": 1,
-        "size_kb": 209.4
       },
       {
         "path": "pdf/manual.pdf",
@@ -859,7 +849,7 @@
       {
         "type": "data_pipe",
         "subtype": "generated",
-        "total": 43
+        "total": 42
       },
       {
         "type": "generator",
@@ -879,22 +869,17 @@
       {
         "type": "template",
         "subtype": null,
-        "total": 77
+        "total": 69
       },
       {
         "type": "template",
         "subtype": "generated",
-        "total": 164
+        "total": 162
       },
       {
         "type": "template",
         "subtype": "legal_terms",
         "total": 4
-      },
-      {
-        "type": "template",
-        "subtype": "menu",
-        "total": 1
       }
     ]
   }
