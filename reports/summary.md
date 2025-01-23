@@ -27,7 +27,7 @@
 | simple_checkbox | 2 |
 | task_card | 2 |
 | task_progress_bar | 2 |
-| template | 205 |
+| template | 206 |
 | text | 143 |
 | text_area | 2 |
 | text_box | 22 |
@@ -241,4 +241,5 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | template |  | 69 |
 | template | generated | 162 |
 | template | legal_terms | 4 |
+| template | menu | 1 |
 </details>
