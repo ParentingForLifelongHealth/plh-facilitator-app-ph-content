@@ -18,16 +18,18 @@ config.google_drive.assets_folder_ids = [
 
 config.git = {
   content_repo: "https://github.com/IDEMSInternational/plh-facilitator-app-ph-content.git",
-  content_tag_latest: "1.1.9",
+  content_tag_latest: "1.1.10",
 };
 
 config.api.db_name = "plh_facilitator_ph"
-
 config.app_data.output_path = "./app_data";
 
 config.app_config.APP_LANGUAGES.default = "gb_en";
 config.app_config.APP_SIDEMENU_DEFAULTS.title = "Facilitator PH";
 config.app_config.APP_HEADER_DEFAULTS.title = "Facilitator PH";
+config.app_config.APP_HEADER_DEFAULTS.collapse = false;
+config.app_config.APP_HEADER_DEFAULTS.variant ="compact";
+config.app_config.APP_HEADER_DEFAULTS.colour = "none";
 config.app_config.NOTIFICATION_DEFAULTS.title = "New message from Facilitator PH";
 config.app_config.NOTIFICATION_DEFAULTS.text = "You have a new message from Facilitator PH";
 config.app_config.APP_THEMES.available = ["default", "professional"];
