@@ -87,7 +87,7 @@
     {
       "type": "declare_global_constant",
       "name": "main_menu_title",
-      "value": "Groups",
+      "value": "Parent Group",
       "_translations": {
         "value": {}
       }
