@@ -378,7 +378,6 @@
       "style_list": [
         "padding: 12px 24px"
       ],
-      "condition": "@local.external_id_valid_syntax",
       "rows": [
         {
           "type": "button",
@@ -416,7 +415,7 @@
             }
           ],
           "parameter_list": {
-            "variant": "card"
+            "disabled": "!@local.external_id_valid_syntax \nvariant"
           },
           "style_list": [
             "flex: 1"
@@ -512,6 +511,16 @@
                   ]
                 }
               }
+            },
+            "parameter_list": {
+              "disabled": [
+                {
+                  "fullExpression": "!@local.external_id_valid_syntax \nvariant",
+                  "matchedExpression": "!@local.external_id_valid_syntax",
+                  "type": "local",
+                  "fieldName": "external_id_valid_syntax"
+                }
+              ]
             }
           },
           "_dynamicDependencies": {
@@ -534,6 +543,9 @@
               "action_list.0._raw",
               "action_list.0._cleaned",
               "action_list.0.params.text_id"
+            ],
+            "!@local.external_id_valid_syntax": [
+              "parameter_list.disabled"
             ]
           }
         },
@@ -717,22 +729,7 @@
         }
       ],
       "name": "display_group_11",
-      "_nested_name": "display_group_11",
-      "_dynamicFields": {
-        "condition": [
-          {
-            "fullExpression": "@local.external_id_valid_syntax",
-            "matchedExpression": "@local.external_id_valid_syntax",
-            "type": "local",
-            "fieldName": "external_id_valid_syntax"
-          }
-        ]
-      },
-      "_dynamicDependencies": {
-        "@local.external_id_valid_syntax": [
-          "condition"
-        ]
-      }
+      "_nested_name": "display_group_11"
     }
   ],
   "_xlsxPath": "templates/profile.xlsx"

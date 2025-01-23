@@ -93,14 +93,29 @@
             {
               "type": "image",
               "name": "logo",
-              "value": "images/logos/bird_on_light.svg",
+              "value": "@global.main_logo",
               "_translations": {
                 "value": {}
               },
               "style_list": [
                 "max-width: 72px"
               ],
-              "_nested_name": "dg_top.dg_top_column.logo"
+              "_nested_name": "dg_top.dg_top_column.logo",
+              "_dynamicFields": {
+                "value": [
+                  {
+                    "fullExpression": "@global.main_logo",
+                    "matchedExpression": "@global.main_logo",
+                    "type": "global",
+                    "fieldName": "main_logo"
+                  }
+                ]
+              },
+              "_dynamicDependencies": {
+                "@global.main_logo": [
+                  "value"
+                ]
+              }
             },
             {
               "type": "title",

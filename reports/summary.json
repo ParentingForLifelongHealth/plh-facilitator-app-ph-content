@@ -223,13 +223,13 @@
     "data": [
       {
         "assets": "total",
-        "KB": "5213 KB",
-        "MB": "5.2 MB"
+        "KB": "5326 KB",
+        "MB": "5.3 MB"
       },
       {
         "assets": "unused",
-        "KB": "1082 KB",
-        "MB": "1.1 MB"
+        "KB": "970 KB",
+        "MB": "1 MB"
       }
     ]
   },
@@ -358,10 +358,6 @@
       {
         "path": "images/logos/LPPKN.png",
         "size_kb": 41.2
-      },
-      {
-        "path": "images/logos/MaPa_logo.png",
-        "size_kb": 112.5
       },
       {
         "path": "images/logos/Oxford.png",
@@ -728,6 +724,11 @@
         "size_kb": 84.6
       },
       {
+        "path": "images/logos/MaPa_logo.png",
+        "count": 1,
+        "size_kb": 112.5
+      },
+      {
         "path": "images/logos/PLH.png",
         "count": 1,
         "size_kb": 26.6
@@ -739,7 +740,7 @@
       },
       {
         "path": "images/logos/bird_on_light.svg",
-        "count": 2,
+        "count": 1,
         "size_kb": 2
       },
       {

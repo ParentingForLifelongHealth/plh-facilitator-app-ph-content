@@ -70,8 +70,8 @@
 
 | assets | KB | MB |
 | --- | --- | --- |
-| total | 5213 KB | 5.2 MB |
-| unused | 1082 KB | 1.1 MB |
+| total | 5326 KB | 5.3 MB |
+| unused | 970 KB | 1 MB |
 </details>
 
 <details open>
@@ -112,7 +112,6 @@ Assets that appear in app-data but do not have references within sheets
 | images/icons/task_8.png | 2.4 |
 | images/logos/KEMAS.png | 5.6 |
 | images/logos/LPPKN.png | 41.2 |
-| images/logos/MaPa_logo.png | 112.5 |
 | images/logos/Oxford.png | 50 |
 | images/logos/UPM.png | 120.8 |
 | images/logos/bird_on_dark.svg | 2.1 |
@@ -204,9 +203,10 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | images/icons/visibility.svg | 1.9 | 1 |
 | images/icons/world.svg | 6.2 | 1 |
 | images/logos/IDEMS.png | 84.6 | 1 |
+| images/logos/MaPa_logo.png | 112.5 | 1 |
 | images/logos/PLH.png | 26.6 | 1 |
 | images/logos/UNICEF.jpg | 27.7 | 1 |
-| images/logos/bird_on_light.svg | 2 | 2 |
+| images/logos/bird_on_light.svg | 2 | 1 |
 | images/logos/nip.png | 11.9 | 1 |
 | images/no_group_selected.svg | 3.5 | 1 |
 | images/onboarding_cc.svg | 19.3 | 5 |
