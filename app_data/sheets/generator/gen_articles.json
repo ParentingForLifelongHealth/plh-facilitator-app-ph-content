@@ -234,11 +234,6 @@
       "flow_name": "articles_week_4_chat_6",
       "flow_subtype": "generated",
       "flow_type": "template"
-    },
-    {
-      "flow_name": "articles_#N/A",
-      "flow_subtype": "generated",
-      "flow_type": "template"
     }
   ]
 }

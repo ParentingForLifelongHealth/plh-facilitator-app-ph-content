@@ -130,6 +130,10 @@
         }
       ],
       "parameter_list": {
+        "task_group_id": "@local.module_id",
+        "task_group_data": "sub_items",
+        "completed_column_name": "completed",
+        "filter": "@task_item.foreign_key == \"@local.module_id\"",
         "title": "@local.module_name",
         "style": "button",
         "variant": "block-button",
@@ -253,6 +257,22 @@
           }
         },
         "parameter_list": {
+          "task_group_id": [
+            {
+              "fullExpression": "@local.module_id",
+              "matchedExpression": "@local.module_id",
+              "type": "local",
+              "fieldName": "module_id"
+            }
+          ],
+          "filter": [
+            {
+              "fullExpression": "@task_item.foreign_key == \"@local.module_id\"",
+              "matchedExpression": "@local.module_id",
+              "type": "local",
+              "fieldName": "module_id"
+            }
+          ],
           "title": [
             {
               "fullExpression": "@local.module_name",
@@ -275,7 +295,9 @@
         "@local.module_id": [
           "action_list.0.args.1",
           "action_list.0._raw",
-          "action_list.0._cleaned"
+          "action_list.0._cleaned",
+          "parameter_list.task_group_id",
+          "parameter_list.filter"
         ],
         "@local.module_name": [
           "action_list.1.args.1",

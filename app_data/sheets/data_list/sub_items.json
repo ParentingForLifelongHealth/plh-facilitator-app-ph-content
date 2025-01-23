@@ -503,25 +503,13 @@
       "loop_id": "week_4_chat",
       "foreign_key": "week_4_chat",
       "type": "article",
-      "next_article": "#N/A",
+      "next_article": "",
       "previous_article": "week_4_chat_5",
       "test": "week_4_chat",
       "create_loop": 0
-    },
-    {
-      "ignore": 43,
-      "id": "#N/A",
-      "completed": false,
-      "loop_id": "#N/A",
-      "foreign_key": "#N/A",
-      "type": "article",
-      "next_article": "#N/A",
-      "previous_article": "#N/A",
-      "test": "#N/A",
-      "create_loop": "create"
     }
   ],
-  "_xlsxPath": "templates/temp data/PH modules new structure.xlsx",
+  "_xlsxPath": "data/modules_sub_items_ph.xlsx",
   "_metadata": {
     "ignore": {
       "type": "number"
