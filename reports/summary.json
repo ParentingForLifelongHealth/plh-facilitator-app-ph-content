@@ -228,7 +228,7 @@
       },
       {
         "assets": "unused",
-        "KB": "970 KB",
+        "KB": "967 KB",
         "MB": "1 MB"
       }
     ]
@@ -250,10 +250,6 @@
       {
         "path": "android/splash.png",
         "size_kb": 290.4
-      },
-      {
-        "path": "contents.json",
-        "size_kb": 2.8
       },
       {
         "path": "images/Message.png",
