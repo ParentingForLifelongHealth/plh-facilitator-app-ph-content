@@ -4,6 +4,18 @@
   "status": "released",
   "rows": [
     {
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "name": "set_variable_2",
+      "_nested_name": "set_variable_2"
+    },
+    {
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "name": "set_variable_3",
+      "_nested_name": "set_variable_3"
+    },
+    {
       "name": "title_label",
       "value": "New Parent Group",
       "_translations": {
@@ -19,8 +31,9 @@
         "value": {}
       },
       "condition": false,
-      "name": "text_4",
-      "_nested_name": "text_4",
+      "exclude_from_translation": true,
+      "name": "text_5",
+      "_nested_name": "text_5",
       "_dynamicFields": {
         "value": [
           {
@@ -52,6 +65,7 @@
           "_cleaned": "uncompleted | emit: uncompleted"
         }
       ],
+      "exclude_from_translation": true,
       "rows": [
         {
           "name": "title",
@@ -59,6 +73,7 @@
           "_translations": {
             "value": {}
           },
+          "exclude_from_translation": true,
           "type": "set_variable",
           "_nested_name": "header.title",
           "_dynamicFields": {
@@ -81,6 +96,12 @@
       "_nested_name": "header"
     },
     {
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "name": "set_variable_8",
+      "_nested_name": "set_variable_8"
+    },
+    {
       "type": "text",
       "name": "text_group_name",
       "value": "Group Name",
@@ -90,7 +111,6 @@
       "parameter_list": {
         "style": "emphasised"
       },
-      "exclude_from_translation": false,
       "_nested_name": "text_group_name"
     },
     {
@@ -100,8 +120,9 @@
         "value": {}
       },
       "condition": false,
-      "name": "text_8",
-      "_nested_name": "text_8",
+      "exclude_from_translation": true,
+      "name": "text_10",
+      "_nested_name": "text_10",
       "_dynamicFields": {
         "value": [
           {
@@ -119,19 +140,98 @@
       }
     },
     {
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "name": "set_variable_11",
+      "_nested_name": "set_variable_11"
+    },
+    {
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "name": "set_variable_12",
+      "_nested_name": "set_variable_12"
+    },
+    {
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "name": "set_variable_13",
+      "_nested_name": "set_variable_13"
+    },
+    {
       "type": "text_box",
       "name": "text_box",
       "parameter_list": {
-        "placeholder": "Group Name"
+        "placeholder": "@local.text_group_name"
       },
-      "_nested_name": "text_box"
+      "exclude_from_translation": true,
+      "_nested_name": "text_box",
+      "_dynamicFields": {
+        "parameter_list": {
+          "placeholder": [
+            {
+              "fullExpression": "@local.text_group_name",
+              "matchedExpression": "@local.text_group_name",
+              "type": "local",
+              "fieldName": "text_group_name"
+            }
+          ]
+        }
+      },
+      "_dynamicDependencies": {
+        "@local.text_group_name": [
+          "parameter_list.placeholder"
+        ]
+      }
+    },
+    {
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "name": "set_variable_15",
+      "_nested_name": "set_variable_15"
     },
     {
       "type": "template",
       "name": "parent_list",
       "value": "parent_list",
+      "exclude_from_translation": true,
       "rows": [],
       "_nested_name": "parent_list"
+    },
+    {
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "name": "set_variable_18",
+      "_nested_name": "set_variable_18"
+    },
+    {
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "name": "set_variable_19",
+      "_nested_name": "set_variable_19"
+    },
+    {
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "name": "set_variable_20",
+      "_nested_name": "set_variable_20"
+    },
+    {
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "name": "set_variable_21",
+      "_nested_name": "set_variable_21"
+    },
+    {
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "name": "set_variable_22",
+      "_nested_name": "set_variable_22"
+    },
+    {
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "name": "set_variable_23",
+      "_nested_name": "set_variable_23"
     },
     {
       "type": "display_group",
@@ -141,6 +241,7 @@
       "style_list": [
         "padding: 12px 24px"
       ],
+      "exclude_from_translation": true,
       "rows": [
         {
           "type": "template",
@@ -157,6 +258,7 @@
               "_cleaned": "completed | emit: completed"
             }
           ],
+          "exclude_from_translation": true,
           "rows": [
             {
               "name": "name",
@@ -164,8 +266,9 @@
               "_translations": {
                 "value": {}
               },
+              "exclude_from_translation": true,
               "type": "set_variable",
-              "_nested_name": "display_group_12.add_group_button.name",
+              "_nested_name": "display_group_24.add_group_button.name",
               "_dynamicFields": {
                 "value": [
                   {
@@ -188,8 +291,9 @@
               "_translations": {
                 "value": {}
               },
+              "exclude_from_translation": true,
               "type": "set_variable",
-              "_nested_name": "display_group_12.add_group_button.text",
+              "_nested_name": "display_group_24.add_group_button.text",
               "_dynamicFields": {
                 "value": [
                   {
@@ -207,11 +311,17 @@
               }
             }
           ],
-          "_nested_name": "display_group_12.add_group_button"
+          "_nested_name": "display_group_24.add_group_button"
         }
       ],
-      "name": "display_group_12",
-      "_nested_name": "display_group_12"
+      "name": "display_group_24",
+      "_nested_name": "display_group_24"
+    },
+    {
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "name": "set_variable_26",
+      "_nested_name": "set_variable_26"
     }
   ],
   "_xlsxPath": "templates/profile.xlsx"

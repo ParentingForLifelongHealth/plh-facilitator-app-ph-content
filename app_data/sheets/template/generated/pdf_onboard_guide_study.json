@@ -7,6 +7,27 @@
       "type": "template",
       "name": "pdf",
       "value": "pdf",
+      "action_list": [
+        {
+          "trigger": "completed",
+          "action_id": "emit",
+          "args": [
+            "completed"
+          ],
+          "_raw": "completed | emit: completed",
+          "_cleaned": "completed | emit: completed"
+        },
+        {
+          "trigger": "uncompleted",
+          "action_id": "emit",
+          "args": [
+            "uncompleted"
+          ],
+          "_raw": "uncompleted | emit: uncompleted",
+          "_cleaned": "uncompleted | emit: uncompleted"
+        }
+      ],
+      "exclude_from_translation": true,
       "rows": [
         {
           "name": "data",
@@ -14,6 +35,7 @@
           "_translations": {
             "value": {}
           },
+          "exclude_from_translation": true,
           "type": "set_variable",
           "_nested_name": "pdf.data"
         },
@@ -23,6 +45,7 @@
           "_translations": {
             "value": {}
           },
+          "exclude_from_translation": true,
           "type": "set_variable",
           "_nested_name": "pdf.pdf_id"
         }

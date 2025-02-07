@@ -7,10 +7,12 @@
       "id": "text",
       "group_id": "text",
       "module_id": "text",
+      "type": "text",
       "archived": false,
       "question_1": "text",
       "question_2": "text",
-      "question_3": "text"
+      "question_3": "text",
+      "dynamic_question": "{}"
     }
   ],
   "_xlsxPath": "templates/reports.xlsx",

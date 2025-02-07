@@ -6,10 +6,10 @@
   "rows": [
     {
       "id": "section_1",
-      "foreign_key": "onboarding_day_chat",
+      "foreign_key": "week_1_session",
       "ignore": 1,
-      "ignore_2": "onboarding_day_chat_1",
-      "title": "Add Ground Rules, previously agreed, to the WhatsApp Group Description",
+      "ignore_2": "week_1_session_1",
+      "title": "Before your session, discuss with your co-facilitator",
       "_translations": {
         "title": {},
         "text": {},
@@ -18,68 +18,10 @@
       },
       "_translatedFields": {
         "title": {
-          "eng": "Add Ground Rules, previously agreed, to the WhatsApp Group Description"
+          "eng": "Before your session, discuss with your co-facilitator"
         },
         "text": {
-          "eng": "Remember to add the ground rules to the WhatsApp Group Description. \n\n​​To add the ground rules to the Group Description:\n \nOpen the WhatsApp group chat. \n\nTap the group name. \n\nTap the existing description, or tap Add Group Description. \nPaste the ground rules. \n\nTap Save."
-        },
-        "button_text": {
-          "eng": "Sample Ground Rules"
-        },
-        "extra_text": {
-          "eng": ""
-        }
-      },
-      "text": "Remember to add the ground rules to the WhatsApp Group Description. \n\n​​To add the ground rules to the Group Description:\n \nOpen the WhatsApp group chat. \n\nTap the group name. \n\nTap the existing description, or tap Add Group Description. \nPaste the ground rules. \n\nTap Save.",
-      "button_text": "Sample Ground Rules",
-      "extra_text": ""
-    },
-    {
-      "id": "section_2",
-      "foreign_key": "before_chat_2",
-      "ignore": 2,
-      "ignore_2": "before_chat_2",
-      "title": "Add Ground Rules, previously agreed, to the WhatsApp Group Description",
-      "_translations": {
-        "title": {},
-        "text": {},
-        "button_text": {},
-        "extra_text": {}
-      },
-      "_translatedFields": {
-        "title": {
-          "eng": "Add Ground Rules, previously agreed, to the WhatsApp Group Description"
-        },
-        "text": {
-          "eng": "Remember to add the ground rules to the WhatsApp Group Description. ​​To add the ground rules to the Group Description, copy the ground rules or use the ones agreed during the onboarding session. Then: \n\nOpen the WhatsApp group chat. \n\nTap the group name. \n\nTap the existing description, or tap Add Group Description. \nPaste the ground rules. \n\nTap Save."
-        },
-        "button_text": {
-          "eng": "Sample Ground Rules"
-        },
-        "extra_text": {
-          "eng": "“To make this a a comfortable, empathetic and safe space for everyone, here are some ground rules:\n \n✅ What is said in the group stays in the group, both in person and online You need to know that this group is private.\n✅ Accept each other. Everyone is different and has different experiences.\n✅ Share only what you feel comfortable sharing. Avoid topics unrelated to the content of the workshop, advertisements or sales. \n✅Respect each other by paying attention and taking turns to share and listen.\n✅The conversation in the WhatsApp group will focus solely on the parenting of children.\n✅ Feel free to ask questions! \n✅ Respect privacy of personal pictures and videos that are sent to the chat group. \n✅ I AM only here as an observer. I will not respond to questions about your parenting habits in this group or personally. However, if there is a message that will benefit the entire group, then I will share a general message here.”\n✅Connect and participate in the interaction schedule with the facilitator. The schedule to interact in this chat is:[Enter schedule]"
-        }
-      },
-      "text": "Remember to add the ground rules to the WhatsApp Group Description. ​​To add the ground rules to the Group Description, copy the ground rules or use the ones agreed during the onboarding session. Then: \n\nOpen the WhatsApp group chat. \n\nTap the group name. \n\nTap the existing description, or tap Add Group Description. \nPaste the ground rules. \n\nTap Save.",
-      "button_text": "Sample Ground Rules",
-      "extra_text": "“To make this a a comfortable, empathetic and safe space for everyone, here are some ground rules:\n \n✅ What is said in the group stays in the group, both in person and online You need to know that this group is private.\n✅ Accept each other. Everyone is different and has different experiences.\n✅ Share only what you feel comfortable sharing. Avoid topics unrelated to the content of the workshop, advertisements or sales. \n✅Respect each other by paying attention and taking turns to share and listen.\n✅The conversation in the WhatsApp group will focus solely on the parenting of children.\n✅ Feel free to ask questions! \n✅ Respect privacy of personal pictures and videos that are sent to the chat group. \n✅ I AM only here as an observer. I will not respond to questions about your parenting habits in this group or personally. However, if there is a message that will benefit the entire group, then I will share a general message here.”\n✅Connect and participate in the interaction schedule with the facilitator. The schedule to interact in this chat is:[Enter schedule]"
-    },
-    {
-      "foreign_key": "",
-      "ignore_2": "",
-      "title": "",
-      "_translations": {
-        "title": {},
-        "text": {},
-        "button_text": {},
-        "extra_text": {}
-      },
-      "_translatedFields": {
-        "title": {
-          "eng": ""
-        },
-        "text": {
-          "eng": ""
+          "eng": "1. Read the module for the session carefully and make sure you are clear about the objectives for your discussion.\n\n2. Write down notes that will help you conduct the session.\n\n3. It may be helpful to write down different ways of asking questions to participants. T\n\n4. You can also practice conducting or discussing some parts of the session with your co-facilitator!\n\n5. Decide who among you and the co-facilitator will lead the activities and who will provide support.\n\n6. Review each participant's documents to see their progress in the program and to note who needs additional support. \n\n7. Divide the time according to the needs of the group. \n\n8. Arrive early to prepare the space to be used."
         },
         "button_text": {
           "eng": ""
@@ -88,38 +30,219 @@
           "eng": ""
         }
       },
-      "text": "",
+      "text": "1. Read the module for the session carefully and make sure you are clear about the objectives for your discussion.\n\n2. Write down notes that will help you conduct the session.\n\n3. It may be helpful to write down different ways of asking questions to participants. T\n\n4. You can also practice conducting or discussing some parts of the session with your co-facilitator!\n\n5. Decide who among you and the co-facilitator will lead the activities and who will provide support.\n\n6. Review each participant's documents to see their progress in the program and to note who needs additional support. \n\n7. Divide the time according to the needs of the group. \n\n8. Arrive early to prepare the space to be used.",
       "button_text": "",
       "extra_text": ""
     },
     {
-      "foreign_key": "",
-      "ignore_2": "",
-      "title": "",
+      "id": "section_2",
+      "foreign_key": "week_1_session_3",
+      "ignore": 2,
+      "ignore_2": "week_1_session_3",
+      "title": "Materials required for the session",
       "_translations": {
         "title": {},
         "text": {},
+        "button_text": {},
         "extra_text": {}
       },
       "_translatedFields": {
         "title": {
-          "eng": ""
+          "eng": "Materials required for the session"
         },
         "text": {
+          "eng": "**The materials listed should be sufficient for 15 participants**\n\nPencils, bond paper, ballpoint pen, pentel pen, scotch tape, name tags\n\nComic posters and handouts\n\n\nSnack for the break\n\n**Other materials are for the whole group**\n\nFlipchart for participants' ideas\n\nVideo camera if you will be recording the session\n\nSome things that MaPa Staff will determine are:\n\nReimbursement for transportation, attendance list, and other forms required by MaPa"
+        },
+        "button_text": {
+          "eng": "Additional material for this session"
+        },
+        "extra_text": {
+          "eng": "Flashcards (6 pieces for parents) or Projector + Section 2.1"
+        }
+      },
+      "text": "**The materials listed should be sufficient for 15 participants**\n\nPencils, bond paper, ballpoint pen, pentel pen, scotch tape, name tags\n\nComic posters and handouts\n\n\nSnack for the break\n\n**Other materials are for the whole group**\n\nFlipchart for participants' ideas\n\nVideo camera if you will be recording the session\n\nSome things that MaPa Staff will determine are:\n\nReimbursement for transportation, attendance list, and other forms required by MaPa",
+      "button_text": "Additional material for this session",
+      "extra_text": "Flashcards (6 pieces for parents) or Projector + Section 2.1"
+    },
+    {
+      "id": "section_3",
+      "foreign_key": "module_2_feelings",
+      "ignore": 3,
+      "ignore_2": "module_2_feelings_1",
+      "title": "Review the chat",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "button_text": {},
+        "extra_text": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Review the chat"
+        },
+        "text": {
+          "eng": "1️⃣ Review the messages from the previous module. Take note of parents who may need additional support.\n\n2️⃣ Review the feedback from the previous module. Select a success that can be linked to the foundations in the live chat.\n\n3️⃣ Choose a challenge that the group can work together to solve in the live chat."
+        },
+        "button_text": {
           "eng": ""
         },
         "extra_text": {
           "eng": ""
         }
       },
-      "text": "",
+      "text": "1️⃣ Review the messages from the previous module. Take note of parents who may need additional support.\n\n2️⃣ Review the feedback from the previous module. Select a success that can be linked to the foundations in the live chat.\n\n3️⃣ Choose a challenge that the group can work together to solve in the live chat.",
+      "button_text": "",
       "extra_text": ""
     },
     {
-      "ignore_2": ""
+      "id": "section_4",
+      "foreign_key": "module_2_feelings_3",
+      "ignore": 4,
+      "ignore_2": "module_2_feelings_3",
+      "title": "Outline for Day One",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "button_text": {},
+        "extra_text": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Outline for Day One"
+        },
+        "text": {
+          "eng": "1 – Greetings & Welcome\n2 – Discussion: Burial Work\n3 – Sharing Success\n4 – Sharing the Challenge\n5 – Discussion: Challenges & Solutions\n6 – Introducing MaPa Skill: Talking About Feelings\n7 – Comics: Conversation About Feelings (Children)\n8 – Discussion About Comics\n9 – Comics: Talking About Feelings (Teenage Son)\n10 – Discussion About Comics\n11 – Discussion: Considering the Child’s Age in Conversations\n12 – Discussion: Reasons for Talking About Feelings\n13 – Setting a Home Activity or Homework\n14 – Clarification Video: MaPa Skill Reminder\n15 – Audio Reminder: Pause for a Moment\n16 – Gratitude & Closing"
+        },
+        "button_text": {
+          "eng": ""
+        },
+        "extra_text": {
+          "eng": ""
+        }
+      },
+      "text": "1 – Greetings & Welcome\n2 – Discussion: Burial Work\n3 – Sharing Success\n4 – Sharing the Challenge\n5 – Discussion: Challenges & Solutions\n6 – Introducing MaPa Skill: Talking About Feelings\n7 – Comics: Conversation About Feelings (Children)\n8 – Discussion About Comics\n9 – Comics: Talking About Feelings (Teenage Son)\n10 – Discussion About Comics\n11 – Discussion: Considering the Child’s Age in Conversations\n12 – Discussion: Reasons for Talking About Feelings\n13 – Setting a Home Activity or Homework\n14 – Clarification Video: MaPa Skill Reminder\n15 – Audio Reminder: Pause for a Moment\n16 – Gratitude & Closing",
+      "button_text": "",
+      "extra_text": ""
     },
     {
-      "ignore_2": ""
+      "id": "section_5",
+      "foreign_key": "module_2_feelings_5",
+      "ignore": 5,
+      "ignore_2": "module_2_feelings_5",
+      "title": "Building Blocks of Module 1: One-on-one time",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "button_text": {},
+        "extra_text": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Building Blocks of Module 1: One-on-one time"
+        },
+        "text": {
+          "eng": "Write building block here"
+        },
+        "button_text": {
+          "eng": ""
+        },
+        "extra_text": {
+          "eng": ""
+        }
+      },
+      "text": "Write building block here",
+      "button_text": "",
+      "extra_text": ""
+    },
+    {
+      "id": "section_6",
+      "foreign_key": "module_2_feelings_6",
+      "ignore": 6,
+      "ignore_2": "module_2_feelings_6",
+      "title": "Building Blocks of Module 1: One-on-one time",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "button_text": {},
+        "extra_text": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Building Blocks of Module 1: One-on-one time"
+        },
+        "text": {
+          "eng": "Write building block here"
+        },
+        "button_text": {
+          "eng": ""
+        },
+        "extra_text": {
+          "eng": ""
+        }
+      },
+      "text": "Write building block here",
+      "button_text": "",
+      "extra_text": ""
+    },
+    {
+      "id": "section_7",
+      "foreign_key": "module_2_feelings_11",
+      "ignore": 7,
+      "ignore_2": "module_2_feelings_11",
+      "title": "Building Blocks of Module 2: Talking about feelings",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "button_text": {},
+        "extra_text": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Building Blocks of Module 2: Talking about feelings"
+        },
+        "text": {
+          "eng": "Write building block here"
+        },
+        "button_text": {
+          "eng": ""
+        },
+        "extra_text": {
+          "eng": ""
+        }
+      },
+      "text": "Write building block here",
+      "button_text": "",
+      "extra_text": ""
+    },
+    {
+      "id": "section_8",
+      "foreign_key": "module_2_feelings_12",
+      "ignore": 8,
+      "ignore_2": "module_2_feelings_12",
+      "title": "Building Blocks of Module 2: Talking about feelings",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "button_text": {},
+        "extra_text": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Building Blocks of Module 2: Talking about feelings"
+        },
+        "text": {
+          "eng": "Write building block here"
+        },
+        "button_text": {
+          "eng": ""
+        },
+        "extra_text": {
+          "eng": ""
+        }
+      },
+      "text": "Write building block here",
+      "button_text": "",
+      "extra_text": ""
     }
   ],
   "_xlsxPath": "data/modules_sub_items_ph.xlsx",

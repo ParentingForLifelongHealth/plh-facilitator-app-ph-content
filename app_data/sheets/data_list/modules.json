@@ -5,66 +5,19 @@
   "data_list_name": "modules",
   "rows": [
     {
-      "id": "onboarding_day_chat",
-      "image_asset": "images/day_1_introduction.svg",
-      "report_id": "onboarding",
-      "title": "After Onboarding Session",
-      "_translations": {
-        "title": {},
-        "description": {}
-      },
-      "_translatedFields": {
-        "title": {
-          "eng": "After Onboarding Session"
-        },
-        "description": {
-          "eng": "onboarding"
-        }
-      },
-      "description": "onboarding"
-    },
-    {
-      "id": "before_chat",
-      "tag_list": [
-        "study_dif_bc",
-        "study_dif_chih",
-        "study_dif_cdmx",
-        "study_dif_mich"
-      ],
-      "image_asset": "images/day_3_check_in.svg",
-      "related_article_id_1": "faq_text_support",
-      "related_article_id_2": "faq_ground_rules",
-      "related_article_id_3": "faq_misbehaviour",
-      "title": "Before Your Chat Session",
-      "_translations": {
-        "title": {}
-      },
-      "_translatedFields": {
-        "title": {
-          "eng": "Before Your Chat Session"
-        }
-      }
-    },
-    {
-      "id": "week_1_chat",
-      "tag_list": [
-        "study_dif_bc",
-        "study_dif_chih",
-        "study_dif_cdmx",
-        "study_dif_mich"
-      ],
+      "id": "week_1_session",
       "image_asset": "images/day_3_mh_stress_self_talk.svg",
       "report_id": "week_1",
       "related_article_id_1": "faq_h_no_understand_connection",
       "related_article_id_2": "faq_h_no_thoughts",
-      "title": "Week 1 Chat Session: Thoughts, Feelings, and Actions",
+      "title": "Module 1: One-on-one time",
       "_translations": {
         "title": {},
         "description": {}
       },
       "_translatedFields": {
         "title": {
-          "eng": "Week 1 Chat Session: Thoughts, Feelings, and Actions"
+          "eng": "Module 1: One-on-one time"
         },
         "description": {
           "eng": "week_1"
@@ -73,26 +26,20 @@
       "description": "week_1"
     },
     {
-      "id": "week_2_chat",
-      "tag_list": [
-        "study_dif_bc",
-        "study_dif_chih",
-        "study_dif_cdmx",
-        "study_dif_mich"
-      ],
-      "image_asset": "images/day_4_check_in.svg",
+      "id": "module_2_feelings",
+      "image_asset": "images/message.png",
       "report_id": "week_2",
-      "related_article_id_1": "faq_h_parents_insult",
-      "related_article_id_2": "faq_h_self_harm",
-      "related_article_id_3": "faq_h_no_neg_to_pos",
-      "title": "Week 2: Self-Talk",
+      "related_article_id_1": "faq_text_support",
+      "related_article_id_2": "faq_ground_rules",
+      "related_article_id_3": "faq_misbehaviour",
+      "title": "Module 2: Talking about Feelings",
       "_translations": {
         "title": {},
         "description": {}
       },
       "_translatedFields": {
         "title": {
-          "eng": "Week 2: Self-Talk"
+          "eng": "Module 2: Talking about Feelings"
         },
         "description": {
           "eng": "week_2"
@@ -101,26 +48,42 @@
       "description": "week_2"
     },
     {
-      "id": "week_3_chat",
-      "tag_list": [
-        "study_dif_bc",
-        "study_dif_chih",
-        "study_dif_cdmx",
-        "study_dif_mich"
-      ],
+      "id": "week_2_chat",
       "image_asset": "images/day_5_goodbye.svg",
-      "report_id": "week_3",
+      "report_id": "week_4",
       "related_article_id_1": "faq_h_no_strengths",
       "related_article_id_2": "faq_h_no_volunteers",
       "related_article_id_3": "group_admin_onboarding",
-      "title": "Week 3: Character Strengths",
+      "title": "Week 2: Character Strengths",
       "_translations": {
         "title": {},
         "description": {}
       },
       "_translatedFields": {
         "title": {
-          "eng": "Week 3: Character Strengths"
+          "eng": "Week 2: Character Strengths"
+        },
+        "description": {
+          "eng": "week_4"
+        }
+      },
+      "description": "week_4"
+    },
+    {
+      "id": "week_3_session",
+      "image_asset": "images/day_4_check_in.svg",
+      "report_id": "week_3",
+      "related_article_id_1": "faq_h_parents_insult",
+      "related_article_id_2": "faq_h_self_harm",
+      "related_article_id_3": "faq_h_no_neg_to_pos",
+      "title": "Module 3: Giving Positive\nDirection and Praise",
+      "_translations": {
+        "title": {},
+        "description": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Module 3: Giving Positive\nDirection and Praise"
         },
         "description": {
           "eng": "week_3"
@@ -130,31 +93,19 @@
     },
     {
       "id": "week_4_chat",
-      "tag_list": [
-        "study_dif_bc",
-        "study_dif_chih",
-        "study_dif_cdmx",
-        "study_dif_mich"
-      ],
       "image_asset": "images/onboarding_cc.svg",
-      "report_id": "week_4",
       "related_article_id_1": "faq_h_still_struggling",
       "related_article_id_2": "faq_h_sad_to_end",
       "related_article_id_3": "faq_h_no_volunteers",
       "title": "Week 4: Building Pleasant Emotions",
       "_translations": {
-        "title": {},
-        "description": {}
+        "title": {}
       },
       "_translatedFields": {
         "title": {
           "eng": "Week 4: Building Pleasant Emotions"
-        },
-        "description": {
-          "eng": "week_4"
         }
-      },
-      "description": "week_4"
+      }
     }
   ],
   "_xlsxPath": "data/modules_sub_items_ph.xlsx"

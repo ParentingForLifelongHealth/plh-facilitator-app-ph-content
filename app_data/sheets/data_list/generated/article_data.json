@@ -4,17 +4,40 @@
   "flow_type": "data_list",
   "rows": [
     {
+      "id": "Module 2: Talking about Feelings",
+      "home_screen_section_list": [
+        "sessions"
+      ],
+      "resource_data_1": "pdf",
+      "resource_id_1": "module2_guide",
+      "status": "released",
+      "title": "Module 2: Talking about Feelings",
+      "_translations": {
+        "title": {},
+        "introduction": {},
+        "resource_title_1": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Module 2: Talking about Feelings"
+        },
+        "introduction": {
+          "eng": "\"**Welcome to Module 2: Talking about feelings! ** \n\nThe main goal is for parents to learn  and  practice  talking  about  their  own  feelings  and  their  child's  feelings.\n\nParents will also learn: \n1️⃣the  importance  of  accepting,  naming,  and  recognizing  the  different  emotions  their  child  is  feeling\n2️⃣ ways  and  skills  that  can  help  with  this.\""
+        },
+        "resource_title_1": {
+          "eng": "Module 2 Foundations & Messages"
+        }
+      },
+      "introduction": "\"**Welcome to Module 2: Talking about feelings! ** \n\nThe main goal is for parents to learn  and  practice  talking  about  their  own  feelings  and  their  child's  feelings.\n\nParents will also learn: \n1️⃣the  importance  of  accepting,  naming,  and  recognizing  the  different  emotions  their  child  is  feeling\n2️⃣ ways  and  skills  that  can  help  with  this.\"",
+      "resource_title_1": "Module 2 Foundations & Messages"
+    },
+    {
       "id": "what_is_safeguarding",
       "home_screen_section_list": [
         "safeguarding"
       ],
-      "icon_asset": "images/what_is_safeguarding.svg",
       "resource_data_1": "pdf",
       "resource_id_1": "peas",
-      "related_article_id_1": "during_disclosed_abuse",
-      "related_article_id_2": "after_disclosed_abuse",
-      "related_article_id_3": "how_to_report_abuse",
-      "attached_single_doc": "https://docs.google.com/document/d/1eREUx1d-XpC_bu79lr8rWunOzPPQ2qSi55JH_0pHGK0",
       "status": "released",
       "title": "What is Safeguarding?",
       "_translations": {
@@ -39,6 +62,11 @@
       },
       "introduction": "It is important to know the following guidelines for handling disclosures of abuse, neglect, and violence from participants:\n\n1️⃣ **Understand abuse, neglect and exploitation.**\n\n❗ **Abuse** refers to a deliberate act of maltreatment that can damage a boy or girl’s security, wellbeing, dignity and development. Abuse includes all forms of physical, sexual, psychological and emotional maltreatment. (Save the Children definition)\n\n❗ **Violence** against girls and boys is defined as forms of physical or mental violence, damage and abuse, neglect or neglectful treatment or maltreatment or exploitation, including sexual abuse. (Office of the High Commissioner for Human Rights, 1990,\nArticle 19)\n\n❗ **Child exploitation** refers to using girls and boys for economic or sexual benefit, gratification or profit, often resulting in unjust, cruel and harmful treatment of the girl or boy. (Save the Children definition)\n\n2️⃣ **Know your organisation’s child safeguarding policies and referral procedures.**\n\n📖 All organisations should have or develop child rights safeguarding policies and referral procedures, including details on how to respond appropriately when a caregiver, other adults, girl or boy discloses abuse. \n\n📝 You should have accurate knowledge of all protocols and response plans. These will tell you what to do within your organisation if a caregiver or girl or boy reports abuse (e.g. who to report to, internal resources for supporting the girl or boy), as well as how to engage outside resources (e.g. local referral pathways, when to engage with authorities). \n\n🔑 It is your responsibility to act regardless of whether you are responding to disclosures of past and/or present abuse. However, you are not responsible for resolving the situation on your own. It is important that you discuss the situation with your supervisor to agree on what steps to take next.\n\n3️⃣ **Ensure parents know that you are someone who can help.**\n\n🌷Parents participating in your sessions need to know that they can come to you for help, regardless of when the abuse occurred. \n\n👂You should make sure that they know that they can trust you and that you will listen and support them without judgement or any further harm.",
       "resource_title_1": "Reporting Abuse from Programme Partners",
+      "introduction_image": "images/what_is_safeguarding.svg",
+      "related_article_id_1": "during_disclosed_abuse",
+      "related_article_id_2": "after_disclosed_abuse",
+      "related_article_id_3": "how_to_report_abuse",
+      "attached_single_doc": "https://docs.google.com/document/d/1eREUx1d-XpC_bu79lr8rWunOzPPQ2qSi55JH_0pHGK0",
       "related_articles_title": "Additional Safeguarding Resources"
     },
     {
@@ -46,10 +74,6 @@
       "home_screen_section_list": [
         "safeguarding"
       ],
-      "icon_asset": "images/during_disclosed_abuse.svg",
-      "related_article_id_1": "after_disclosed_abuse",
-      "related_article_id_2": "how_to_report_abuse",
-      "related_article_id_3": "contact_for_reporting_abuse",
       "status": "released",
       "title": "What should I do during the disclosure of abuse, neglect, or exploitation?",
       "_translations": {
@@ -69,6 +93,10 @@
         }
       },
       "introduction": "**During disclosure:**\n\n💚 Provide a safe environment in which the participant can share their story.\n\n👂 Listen carefully to the participant and take notes: what/when/where/who.\n\n❗ Determine if the participant is in immediate danger and what help is available.\n\n💙 Make sure that the participant feels that you believe him/her.\n\n🌷 Let them know they have done the right thing by sharing their story with you.\n\n✨ Be supportive and free of judgement in your responses – avoid blaming at all times!\n\n➡️ Let the participant know that you will share what he/she told you with your supervisor to find a way to support and protect him/her.\n\n📝 Explain what you are going to do next.\n\n ✅ Notify @global.supervisor_name\n\n❗Remember that it is not your obligation to solve the situation, but you must report it to your supervisors for follow-up. Don't try to solve it alone.",
+      "introduction_image": "images/during_disclosed_abuse.svg",
+      "related_article_id_1": "after_disclosed_abuse",
+      "related_article_id_2": "how_to_report_abuse",
+      "related_article_id_3": "contact_for_reporting_abuse",
       "related_articles_title": "Additional Safeguarding Resources"
     },
     {
@@ -76,12 +104,8 @@
       "home_screen_section_list": [
         "safeguarding"
       ],
-      "icon_asset": "images/after_disclosed_abuse.svg",
       "resource_data_1": "pdf",
       "resource_id_1": "peas",
-      "related_article_id_1": "how_to_report_abuse",
-      "related_article_id_2": "contact_for_reporting_abuse",
-      "related_article_id_3": "crisis_hotlines",
       "status": "released",
       "title": "What can I do after a participant discloses abuse, neglect or exploitation?",
       "_translations": {
@@ -106,6 +130,10 @@
       },
       "introduction": "**After disclosure:**\n\n❌ Avoid engaging with the alleged abuser – that may make things worse and make next steps difficult. It could also jeopardise future legal proceedings.\n\n🌷 You are not alone. Get help from your supervisor to agree on the next steps.",
       "resource_title_1": "Reporting Abuse from Programme Partners",
+      "introduction_image": "images/after_disclosed_abuse.svg",
+      "related_article_id_1": "how_to_report_abuse",
+      "related_article_id_2": "contact_for_reporting_abuse",
+      "related_article_id_3": "crisis_hotlines",
       "related_articles_title": "Additional Safeguarding Resources"
     },
     {
@@ -113,12 +141,8 @@
       "home_screen_section_list": [
         "safeguarding"
       ],
-      "icon_asset": "images/how_to_report_abuse.svg",
       "resource_data_1": "pdf",
       "resource_id_1": "peas",
-      "related_article_id_1": "contact_for_reporting_abuse",
-      "related_article_id_2": "crisis_hotlines",
-      "related_article_id_3": "after_disclosed_abuse",
       "status": "released",
       "title": "How should I report abuse?",
       "_translations": {
@@ -143,6 +167,10 @@
       },
       "introduction": "✅ Follow your organisation’s protocol.\n\n📝 If your organisation needs assistance in developing or improving its policies and procedures, please refer to the following resources:\n\n**Mexican resources**\n1️⃣ [National Inter-institutional Coordination Protocol for the Protection of Girls, Boys and Adolescent Victims of Violence](https://www.gob.mx/sipinna/documentos/protocolo-nacional-de-coordinacion-interinstitucional-para-la-proteccion-de-ninas-ninos-y-adolescentes-victimas-de-violencia) \n\n2️⃣ [National System for the Protection of Girls, Boys, and Adolescents](https://www.gob.mx/sipinna)\n\n3️⃣ [National Human Rights Commission of Mexico](https://www.cndh.org.mx/pagina/tematicas-y-talleres) \n\n4️⃣[Inter-ministerial Commission to prevent, punish and eradicate crimes related to trafficking in persons.](https://www.gob.mx/segob/acciones-y-programas/comision-intersecretarial-para-prevenir-sancionar-y-erradicar-los-delitos-en-materia-de-trata-de-personas)\n\n**International resources**\n1️⃣ [World Health Organization Guidelines Responding to Girls, Boys, and Adolescents who have Been Sexually Abused](https://iris.paho.org/handle/10665.2/52043) \n\n2️⃣ [Keeping Girls and Boys Safe](https://www.keepingchildrensafe.global/)\n\n3️⃣ [Caring for Child Survivors of Sexual Abuse](https://www.unicef.org/documents/caring-child-survivors-sexual-abuse) \n\n4️⃣ [Strengthening Linkages between Clinical and Social Services for Girls, Boys, and Adolescents who have Experienced Sexual Violence: A Companion Guide](https://www.togetherforgirls.org/en/resources/strengthening-linkages-between-clinical-and-social-community-services-for-children-and-adolescents-who-have-experienced-sexual-violence-a-companion-guide) \n\n5️⃣ [Together for Girls: Every Hour Matters](https://www.togetherforgirls.org/en/campaigns/every-hour-matters)",
       "resource_title_1": "Reporting Abuse from Programme Partners",
+      "introduction_image": "images/how_to_report_abuse.svg",
+      "related_article_id_1": "contact_for_reporting_abuse",
+      "related_article_id_2": "crisis_hotlines",
+      "related_article_id_3": "after_disclosed_abuse",
       "related_articles_title": "Additional Safeguarding Resources"
     },
     {
@@ -150,9 +178,6 @@
       "home_screen_section_list": [
         "safeguarding"
       ],
-      "icon_asset": "images/contact_for_reporting_abuse.svg",
-      "related_article_id_1": "how_to_report_abuse",
-      "related_article_id_2": "crisis_hotlines",
       "status": "released",
       "title": "Abuse, Neglect and Violence Hotline",
       "_translations": {
@@ -180,15 +205,15 @@
         }
       },
       "introduction": "You can share the following information with the participant:\n\nFiscalía General de Justicia\n+911 (Call)\n+089 (Anonymous Call)",
+      "introduction_image": "images/contact_for_reporting_abuse.svg",
+      "related_article_id_1": "how_to_report_abuse",
+      "related_article_id_2": "crisis_hotlines",
       "related_articles_title": "Additional Safeguarding Resources",
       "message_title_1": "Quickly Share These Resources",
       "message_text_1": "Fiscalía General de Justicia\n+911 (Call)\n+089 (Anonymous Call)"
     },
     {
       "id": "crisis_hotlines",
-      "icon_asset": "images/crisis_hotlines.svg",
-      "related_article_id_1": "how_to_report_abuse",
-      "related_article_id_2": "contact_for_reporting_abuse",
       "status": "released",
       "title": "Crisis Hotlines",
       "_translations": {
@@ -216,6 +241,9 @@
         }
       },
       "introduction": "You can share any of the following contact numbers with the participant:\n\n1️⃣ Abuse, neglect, violence, poverty, and juvenile delinquency:\nFiscalía General de Justicia\n+911 (Call)\n+089 (Anonymous Call)\n\n\n2️⃣ Abuse of women, girls, and boys \nFiscalía General de Justicia\n+911 (Call)\n+089 (Anonymous Call)\n\n3️⃣ Emotional distress and suicidal thoughts:\nNational System of Support, Psychological Counselling and Crisis Intervention by Telephone\n55 5259-8121 (Call)\nLínea de la vida\n+800 911 2000 (Call)\nlalineadelavida@salud.gob.mx (Email)\n\n4️⃣ Cybersecurity incident\nPolicía Cibernética \n+5552425100 ext. 5086 (Call)\npolicia.cibernetica@ssc.cdmx.gob.mx (Email)",
+      "introduction_image": "images/crisis_hotlines.svg",
+      "related_article_id_1": "how_to_report_abuse",
+      "related_article_id_2": "contact_for_reporting_abuse",
       "related_articles_title": "Additional Safeguarding Resources",
       "message_title_1": "Quickly Share These Resources",
       "message_text_1": "1️⃣ Abuse, neglect, violence, poverty, and juvenile delinquency:\nFiscalía General de Justicia\n+911 (Call)\n+089 (Anonymous Call)\n\n2️⃣ Abuse of women, girls, and boys: \nFiscalía General de Justicia\n+911 (Call)\n+089 (Anonymous Call)\n\n3️⃣ Emotional distress and suicidal thoughts:\nNational System of Support, Psychological Counselling and Crisis Intervention by Telephone\n55 5259-8121 (Call)\nLínea de la Vida\n+800 911 2000 (Call)\nlalineadelavida@salud.gob.mx (Email)\n\n4️⃣ Cybersecurity incident\nPolicía Cibernética \n+5552425100 ext. 5086 (Call)\npolicia.cibernetica@ssc.cdmx.gob.mx (Email)"
@@ -225,10 +253,6 @@
       "home_screen_section_list": [
         "sessions"
       ],
-      "icon_asset": "images/day_1_introduction.svg",
-      "related_article_id_1": "faq_text_support",
-      "related_article_id_2": "faq_ground_rules",
-      "related_article_id_3": "faq_misbehaviour",
       "status": "released",
       "title": "After Onboarding Session",
       "_translations": {
@@ -288,6 +312,10 @@
         }
       },
       "introduction": "This chat session should happen on the same day or day after you complete the in-person onboarding session. As the first chat session, it offers a chance for parents to introduce themselves to the group.",
+      "introduction_image": "images/day_1_introduction.svg",
+      "related_article_id_1": "faq_text_support",
+      "related_article_id_2": "faq_ground_rules",
+      "related_article_id_3": "faq_misbehaviour",
       "related_articles_title": "Support",
       "message_title_1": "Message 1: Introduction",
       "message_text_1": "😃 Hi there! Welcome to our @global.programme_name WhatsApp Group! \n\nToday, we are introducing ourselves and our goals for the programme! ⭐ \n\nMy name is [INSERT NAME], and my goal is to learn more about how to help my girl go to bed by 8 every night.⏰🌙 \n\nPlease share your name and your goal for @global.programme_name using text or audio message.",
@@ -305,7 +333,6 @@
       "home_screen_section_list": [
         "sessions"
       ],
-      "icon_asset": "images/day_3_check_in.svg",
       "status": "released",
       "title": "Before Your Chat Session",
       "_translations": {
@@ -333,6 +360,7 @@
         }
       },
       "introduction": "On the morning of your chat session, send the following message as a reminder:",
+      "introduction_image": "images/day_3_check_in.svg",
       "message_title_1": "Message 1: Chat Reminder",
       "message_text_1": "💚Hello everyone! Our next chat session will be later today at [INSERT TIME]. Chat soon!",
       "message_guidance_1": "Insert the time before sending the message.",
@@ -348,9 +376,6 @@
       "home_screen_section_list": [
         "sessions"
       ],
-      "icon_asset": "images/day_3_mh_stress_self_talk.svg",
-      "related_article_id_1": "faq_h_no_understand_connection",
-      "related_article_id_2": "faq_h_no_thoughts",
       "status": "released",
       "title": "Week 1 Chat Session: Thoughts, Feelings, and Actions",
       "_translations": {
@@ -426,6 +451,9 @@
         }
       },
       "introduction": "This chat session will help parents understand the connection between thoughts, feelings, and actions. \nThe goal is for caregivers to identify how emotions, feelings, and actions impact their and their girls’, boys’, and teen’s well-being.",
+      "introduction_image": "images/day_3_mh_stress_self_talk.svg",
+      "related_article_id_1": "faq_h_no_understand_connection",
+      "related_article_id_2": "faq_h_no_thoughts",
       "message_title_1": "Message 1:Home Activity Check-in",
       "message_text_1": "Hello, everyone! 😃\nWelcome to our second chat session! \n\nLet’s chat about how your home activities are going with your girl, boy, or teen. Please share what went well or if you found anything difficult.",
       "message_guidance_1": "Acknowledge the experiences parents share with an appropriate emoji or with a response from the common challenges.",
@@ -453,10 +481,6 @@
       "home_screen_section_list": [
         "sessions"
       ],
-      "icon_asset": "images/day_4_check_in.svg",
-      "related_article_id_1": "faq_h_parents_insult",
-      "related_article_id_2": "faq_h_self_harm",
-      "related_article_id_3": "faq_h_no_neg_to_pos",
       "status": "released",
       "title": "Week 2: Self-Talk",
       "_translations": {
@@ -532,6 +556,10 @@
         }
       },
       "introduction": "In this chat, caregivers will learn how the way they talk to themselves can change how they feel. \n\nThey will also practise identifying unkind self-talk and replacing it with kind self-talk.",
+      "introduction_image": "images/day_4_check_in.svg",
+      "related_article_id_1": "faq_h_parents_insult",
+      "related_article_id_2": "faq_h_self_harm",
+      "related_article_id_3": "faq_h_no_neg_to_pos",
       "related_articles_title": "FAQ",
       "message_title_1": "Message 1: Home Activity Check-in",
       "message_text_1": "Hello, everyone! 😃\nWelcome to our third chat session! \n\nLet’s begin our session by checking how your @global.programme_name home activities are going. \nDid you find anything difficult or want to share anything that went well?",
@@ -559,10 +587,6 @@
       "home_screen_section_list": [
         "sessions"
       ],
-      "icon_asset": "images/day_5_goodbye.svg",
-      "related_article_id_1": "faq_h_no_strengths",
-      "related_article_id_2": "faq_h_no_volunteers",
-      "related_article_id_3": "group_admin_onboarding",
       "status": "released",
       "title": "Week 3: Character Strengths",
       "_translations": {
@@ -638,6 +662,10 @@
         }
       },
       "introduction": "This chat session will help caregivers understand how to identify strengths in themselves. They will learn about the connection between strengths and well-being and practice identifying how to incorporate strengths into their daily lives.",
+      "introduction_image": "images/day_5_goodbye.svg",
+      "related_article_id_1": "faq_h_no_strengths",
+      "related_article_id_2": "faq_h_no_volunteers",
+      "related_article_id_3": "group_admin_onboarding",
       "related_articles_title": "FAQ",
       "message_title_1": "Welcome 1: Home Activity Check-in",
       "message_text_1": "Hello, everyone! 😃\n\nWelcome to our chat session! \n\nHow are things going with your @global.programme_name home activities? Any challenges you've encountered or successes you'd like to share?",
@@ -665,10 +693,6 @@
       "home_screen_section_list": [
         "sessions"
       ],
-      "icon_asset": "images/onboarding_cc.svg",
-      "related_article_id_1": "faq_h_still_struggling",
-      "related_article_id_2": "faq_h_sad_to_end",
-      "related_article_id_3": "faq_h_no_volunteers",
       "status": "released",
       "title": "Week 4: Building Pleasant Emotions",
       "_translations": {
@@ -740,6 +764,10 @@
         }
       },
       "introduction": "This is your final chat session with the group.You should congratulate yourself for taking the parents through the Crianza con Conciencia+ journey and celebrate with them the positive changes in their lives and for their girls, boys, and teens.\n\nIn this chat session, you will also help parents understand how they can use pleasant emotions to improve the well-being of themselves and their child or teen. \n\nYou can choose to stay or leave the WhatsApp Group after the program ends.",
+      "introduction_image": "images/onboarding_cc.svg",
+      "related_article_id_1": "faq_h_still_struggling",
+      "related_article_id_2": "faq_h_sad_to_end",
+      "related_article_id_3": "faq_h_no_volunteers",
       "related_articles_title": "FAQ",
       "message_title_1": "Message 1: Welcome and Check-in",
       "message_text_1": "Hello, everyone! 😃\n\nWelcome to our final chat session! \n\nToday, we are wrapping up our conversation about building blocks for mental wellbeing. So far, we’ve identified the relationship between thoughts, feelings, and behaviours, learned about positive self talk, and relying on our character strengths. Great job!\n\nCongratulations on completing the Crianza con Conciencia+ Programme! You can continue to complete the course on the CC+.\n\n✨ Take a moment to think back to the beginning of the programme. You should be so proud of yourself. How was your experience in Crianza con Conciencia+?",
@@ -766,7 +794,6 @@
       "home_screen_section_list": [
         "faq"
       ],
-      "icon_asset": "images/faq_text_support.svg",
       "status": "released",
       "title": "A parent needs support accessing the chatbot, and I'm not sure how to answer their question.",
       "_translations": {
@@ -781,14 +808,14 @@
           "eng": "Reach out for support to @global.supervisor_name."
         }
       },
-      "introduction": "Reach out for support to @global.supervisor_name."
+      "introduction": "Reach out for support to @global.supervisor_name.",
+      "introduction_image": "images/faq_text_support.svg"
     },
     {
       "id": "faq_ground_rules",
       "home_screen_section_list": [
         "faq"
       ],
-      "icon_asset": "images/faq_ground_rules.svg",
       "status": "released",
       "title": "A parent cannot commit to the ground rules.",
       "_translations": {
@@ -840,6 +867,7 @@
         }
       },
       "introduction": "Ground rules make your WhatsApp Support Group a comfortable, empathetic and safe space for everyone. \n\nIf someone forgets the ground rules, send the message below to remind them of their importance gently. \n\nIf necessary, share a group reminder about the importance of maintaining a positive and respectful space. \n\nIf, despite reminders, the parent continues not to follow the rules, notify your supervisor. \n\nYou can remove the parent from the group as the last option, done only when you feel it is necessary. For example, if a member repeatedly (more than twice) shares unrelated content, uses inappropriate language, or disrespects another member. \n\nIf you do remove someone from the group, it should be handled with sensitivity and respect. Make sure you talk privately with the parent, remind the group about ground rules, and notify your supervisor.",
+      "introduction_image": "images/faq_ground_rules.svg",
       "message_title_1": "Send this reminder message to the group",
       "message_text_1": "Hello ⭐\n\n👀 I'd like to take a moment to remind everyone about the importance of our group's ground rules. \n\n💚They're here to ensure that all of us feel comfortable sharing and maintain a positive environment. \n\n🌱It's all about making this group a great place for everyone.\n\n❗Please keep in mind that if the ground rules aren't consistently followed, we might need to consider removing members from the WhatsApp group for the well-being of all.\n\nSee you in the next chat session.",
       "message_title_2": "Send this reminder message to the parent who broke the  ground rule",
@@ -855,7 +883,6 @@
       "home_screen_section_list": [
         "faq"
       ],
-      "icon_asset": "images/faq_misbehaviour.svg",
       "status": "released",
       "title": "A parent is personally messaging me or calling me with lots of questions on their parenting habits or girl, boy or teen’s misbehaviours.",
       "_translations": {
@@ -879,6 +906,7 @@
         }
       },
       "introduction": "Parents may see you as someone they can turn to for help beyond school and @global.programme_name, especially when they need advice on their boy, girl, or teen’s  behaviour. \n\nEven though you want to help, finding a balance for your well-being is important. \n\nShare the following message to gently remind the parents about your role in @global.programme_name. \n\nIf the parents continue to persist, notify @global.supervisor_name.",
+      "introduction_image": "images/faq_misbehaviour.svg",
       "message_title_1": "Send This Message to the Parent",
       "message_text_1": "Hi!😃Thank you for your message. \n\nMy role in this activity is limited to only sharing messages in the group. I unfortunately do not have the capacity to respond to each individual message.😔\n\n🔑 If you are comfortable posting your questions in the group, please feel free to do so during our chat sessions! 💡\n\nYou can also type MENU in @global.programme_name to get more support about the courses."
     },
@@ -887,7 +915,6 @@
       "home_screen_section_list": [
         "faq"
       ],
-      "icon_asset": "images/faq_no_participation_general.svg",
       "status": "released",
       "title": "What if no one participates?",
       "_translations": {
@@ -923,6 +950,7 @@
         }
       },
       "introduction": "Engaging parents in the group chat can sometimes be hard. Some parents may need a nudge to share their experiences, or they might be busy with their schedules. \n\nSometimes, caregivers need only one person to participate. \n\nIf your chat goes silent after the prompt, consider sharing these ideas or suggestions:",
+      "introduction_image": "images/faq_no_participation_general.svg",
       "message_title_1": "Directly ask a specific parent to share",
       "message_text_1": "[Enter a Parent's Name], we'd love to hear about your week with @global.programme_name. Would you be interested in sharing how it went?",
       "message_guidance_1": "Before hitting send, please make sure to tag a specific parent by typing @Parent’s Name",
@@ -934,7 +962,6 @@
       "home_screen_section_list": [
         "faq"
       ],
-      "icon_asset": "images/faq_small_group_active.svg",
       "status": "released",
       "title": "Only a small group of parents are actively participating in the chat sessions, while other parents are not responding.",
       "_translations": {
@@ -990,6 +1017,7 @@
         }
       },
       "introduction": "Getting everyone to join in the chat sessions can be a bit challenging. Some parents might be busy, shy, or just prefer to read about other’s experiences. \n\nHere are some helpful tips to encourage participation: \n\n1. Directly ask a question to someone by typing @parent name on WhatsApp. \n\n2. Share one of the messages below with the entire group. \n\n3. Consider sending a private message to a parent (see the message below).",
+      "introduction_image": "images/faq_small_group_active.svg",
       "message_title_1": "Reminder for Participation",
       "message_text_1": "🔔 Quick Reminder:\n\nWe all benefit when everyone joins in! Your experiences are important. Share your thoughts, and let's keep this group lively and supportive for everyone. 🌷",
       "message_title_2": "Praising active parents",
@@ -1003,7 +1031,6 @@
     },
     {
       "id": "faq_h_no_understand_connection",
-      "icon_asset": "images/after_disclosed_abuse.svg",
       "status": "released",
       "title": "I don’t understand how thoughts, feelings, and actions are connected.",
       "_translations": {
@@ -1035,6 +1062,7 @@
         }
       },
       "introduction": "If caregivers need more support, you can share more examples. Try breaking it down into Situation, Thought, Feeling, and Action. \n\nRemember, the goal is to show how a thought creates or changes a feeling, and the feeling creates or changes an action",
+      "introduction_image": "images/after_disclosed_abuse.svg",
       "message_title_1": "Share this message with the parent",
       "message_text_1": "Hi! Sometimes it’s hard to see how our thoughts connect to our feelings. \n\nIt can all begin with a feeling, thought or action and affect the other two:\n\n                Thoughts\n               /               \\\n        Actions  –  Feelings\n\nYou can break this relationship down into Situation, Thought, and Feeling, and list each statement next to the label. For example: \n\nSituation: My child keeps interrupting me when I’m speaking. \n\nThought: He is being inconsiderate of me and disrespectful.\n\nFeeling: I’m now annoyed and irritated because I’m trying to finish something. \n\nCan you think of one situation that happened? What did it make you think? How did you feel?",
       "message_title_2": "If you want to share an example:",
@@ -1048,7 +1076,6 @@
     },
     {
       "id": "faq_h_no_thoughts",
-      "icon_asset": "images/faq_ground_rules.svg",
       "status": "released",
       "title": "I don’t know what thoughts are affecting my feelings or actions.",
       "_translations": {
@@ -1092,6 +1119,7 @@
         }
       },
       "introduction": "Parents may struggle to identify thoughts that are affecting their feelings or actions. This is normal, as this is a new skill for many! \n\nSometimes, thoughts and feelings can be very similar to one another, and that is ok. \n\nThe goal is just for them to understand that they are related and how they can impact their and their girl’s, boy’s and teens well-being. \n\nYou can guide the parents by asking the following questions:",
+      "introduction_image": "images/faq_ground_rules.svg",
       "message_title_1": "Message 1:",
       "message_text_1": "It can be difficult to identify thoughts sometimes, particularly when you have an intense feeling.",
       "section_text_1": "",
@@ -1108,7 +1136,6 @@
     },
     {
       "id": "faq_h_parents_insult",
-      "icon_asset": "images/faq_h_parents_insult.svg",
       "status": "released",
       "title": "Parents began insulting themselves during the chat session",
       "_translations": {
@@ -1140,6 +1167,7 @@
         }
       },
       "introduction": "During our chat, parents might speak unkindly about themselves. If this happens, it's important to correct them gently. While it's okay to share examples of negative self-talk when asked, if it occurs in other parts of the conversation, the facilitator should step in to help guide the discussion positively.",
+      "introduction_image": "images/faq_h_parents_insult.svg",
       "section_title_1": "Using kinder language",
       "section_text_1": "If a parent is being unkind to themselves, they might already realise it. To help, gently suggest a kinder language. For example\n\nParent: \"I’m an okay parent, even though I often mess up.\"\n\nFacilitator: \"Thank you for sharing. Great job recognizing your strength. Let's re-word this unkind talk. How about:\n💚 'I’m an okay parent, even though I’m overwhelmed right now.'\n💛 'Even when I don’t have all the answers.'\n💙 'It's okay to make mistakes and learn from them.'\n\nYou can choose one of these or create a new one. Parents might not be used to positive self-talk so a little encouragement can go a long way!",
       "section_title_2": "Promoting Support",
@@ -1147,7 +1175,6 @@
     },
     {
       "id": "faq_h_self_harm",
-      "icon_asset": "images/faq_h_self_harm.svg",
       "status": "released",
       "title": "Caregivers express intentions of self-harm or harm to their girls, boys, and teens during the session.",
       "_translations": {
@@ -1175,13 +1202,13 @@
         }
       },
       "introduction": "If a parent is showing intention to self-harm or harm to their girls and boys, remember, they may be experiencing an intense emotion. Remember, the best thing you can do is follow safeguarding protocols and refer them to services that can provide the help they need.\n\nReport to your supervisor after sending the following message privately to the parent:",
+      "introduction_image": "images/faq_h_self_harm.svg",
       "message_title_1": "Send this message",
       "message_text_1": "Dear [INSERT NAME], \n\nThis space is here to support you. If you or someone else is in immediate danger, consider calling La Línea de la Vida at 800 911 2000 or SAPTEL at 55 5259 8121 for assistance.\n\nYou can also type @global.trigger_help in @global.programme_name to find more resources for support. \n\nYour safety and well-being is important to us, and we are here to help. Asking for help is a brave and healthy act",
       "message_guidance_1": "Write the name of the parent before sending the message."
     },
     {
       "id": "faq_h_no_neg_to_pos",
-      "icon_asset": "images/faq_h_no_neg_to_pos.svg",
       "status": "released",
       "title": "Parents could not turn negative self-talk into positive self-talk",
       "_translations": {
@@ -1205,12 +1232,12 @@
         }
       },
       "introduction": "At times, parents may find it challenging to transform negative self-talk into positive self-talk during the chat session. If this happens, remember that everyone moves at their own pace. Stay calm and offer support with a different perspective:\n\n1️⃣ Imagine someone you love is going through a similar situation.\n2️⃣ Consider what they might need to hear to feel better.\n3️⃣ Use the same words you identified and say them to yourself.\n\nWe're not aiming for perfection; you're doing your best with what you have. Keep practising these steps, and gradually, the task will become easier.\n\nYou can send the message below:",
+      "introduction_image": "images/faq_h_no_neg_to_pos.svg",
       "message_title_1": "Send this message",
       "message_text_1": "If you are struggling to say kind or caring words to yourselves, try this: \n\n1️⃣ Imagine someone you love is going through a similar situation.\n2️⃣ Think about what they might need to hear to feel better.\n3️⃣ Use those same comforting words and say them to yourself.\n\nRemember, you're not alone, and treating yourself with kindness matters."
     },
     {
       "id": "faq_h_no_strengths",
-      "icon_asset": "images/faq_h_after_group_ended.svg",
       "status": "released",
       "title": "I can’t identify my strengths.",
       "_translations": {
@@ -1242,6 +1269,7 @@
         }
       },
       "introduction": "Some caregivers may struggle with identifying strengths. This is a new skill that for some may come naturally, but others may struggle with, especially if they have not had experiences that connect them with their strengths. Encouraging parents to look at the list of strengths provided in message guidance is the best way to help them identify their own. \n\nSome parents may not want to participate, and that is okay! The most important thing is for parents to understand what strengths are so that they can help their girls, boys  or teen find their strengths\n\nYou can share these messages to support them:",
+      "introduction_image": "images/faq_h_after_group_ended.svg",
       "message_title_1": "Send this to caregivers:",
       "message_text_1": "Hi! It can be hard to think of our strengths, but trust me, we all have them. \n\nLet’s try an exercise together. I am going to share some positive qualities, and I want you to try putting these in order for what is most like you to least like you. \nI’m a good listener.  \n\nI love learning new things\n\nI give helpful advice to others\n\nI am brave\n\nEveryone has strengths!",
       "message_title_2": "Send this to caregivers:",
@@ -1255,7 +1283,6 @@
     },
     {
       "id": "faq_h_after_group_ended",
-      "icon_asset": "images/faq_h_after_group_ended.svg",
       "status": "released",
       "title": "If parents reach out to you after the group has ended.",
       "_translations": {
@@ -1275,11 +1302,11 @@
         }
       },
       "introduction": "If parents or group admins reach out to you after the group has ended, it means that you have been helpful to them, which is amazing! \n\nParents may see you as a source of support outside of @global.programme_name, but it is important to keep things balanced. \n\nShare this message to guide the parents to other places for support gently.",
+      "introduction_image": "images/faq_h_after_group_ended.svg",
       "message_text_1": "Hi!😃Thank you for your message. \n\nMy role with @global.programme_name was limited. I unfortunately will not be further involved with the programme. \n\nIf your WhatsApp Support group is still active, feel free to post your questions in the group. Other parents may be able to support you with helpful suggestions. 💡\n\nYou can replay the programme by typing @global.trigger_menu or typing @global.trigger_help if you need assistance for an emergency."
     },
     {
       "id": "faq_h_still_struggling",
-      "icon_asset": "images/faq_h_still_struggling.svg",
       "status": "released",
       "title": "Participants share that the programme was not helpful or that they are still struggling",
       "_translations": {
@@ -1303,12 +1330,12 @@
         }
       },
       "introduction": "Every family is different, and some parents may need more help than others.\n\nConsider sending the message below if a parent is still struggling or needs more support.",
+      "introduction_image": "images/faq_h_still_struggling.svg",
       "message_title_1": "Message of Support",
       "message_text_1": "Hello 👋\n\nThank you for sharing your thoughts about the programme. I’m sorry that you’re facing challenges. Here are a couple of things you can try: \n\n1️⃣If there’s a lesson that you are finding difficult, remember you can always go back to it by typing @global.trigger_menu. Practice makes perfect! ✨\n\n2️⃣If you feel comfortable, please feel free to chat about the areas you’re finding tough with your peers in the WhatsApp Support Group. Your peers might have some helpful tips 👍\n\n3️⃣If you are facing a severe situation, please type @global.trigger_help to access a list of resources. \n\nRemember, everyone’s learning journey is unique, and change takes time. But trust me, if you keep practising the skills you’ve learned, you’ll start to see progress. 🏅"
     },
     {
       "id": "faq_h_sad_to_end",
-      "icon_asset": "images/faq_h_sad_to_end.svg",
       "status": "released",
       "title": "Parents are feeling concerned, stressed or sad as the programme comes to an end.",
       "_translations": {
@@ -1332,6 +1359,7 @@
         }
       },
       "introduction": "It is normal for parents to feel sad or emotional when the programme ends, and you leave the group. This means that parents found the chat sessions helpful and enjoyed participating. What a gift you have given them! Congratulations! \n\nTo support them with this transition, consider sending the message below.",
+      "introduction_image": "images/faq_h_sad_to_end.svg",
       "message_title_1": "Message of Support",
       "message_text_1": "Hello 👋\n\nThank you for sharing your feelings. \nIt’s okay to have fears or feel sad when something you’ve been a part of is ending. \n\nRemember, \n\n1️⃣Even though @global.programme_name is ending, your journey can continue. You have gained some ⭐amazing ⭐parenting skills that you can carry with you. \n\n2️⃣The WhatsApp group can be a source of support well beyond the programme. Keep sharing your successes and struggles in the WhatsApp Group or with your peers. \n\n3️⃣If you ever want to go back to any lesson, you can type MENU. Practice makes perfect ✨\n\n4️⃣ You can type HELP to look for other resources that are available for you. \n\nYou did great throughout the @global.programme_name journey!"
     },
@@ -1340,7 +1368,6 @@
       "home_screen_section_list": [
         "programme"
       ],
-      "icon_asset": "images/onboarding_cc.svg",
       "resource_data_1": "pdf",
       "resource_id_1": "onboard_guide",
       "status": "released",
@@ -1383,6 +1410,7 @@
       },
       "introduction": "The Onboarding Session sets the tone for the entire @global.programme_name programme. It is important to create a welcoming and safe space for the participants to feel at ease and familiarise themselves with the programme.",
       "resource_title_1": "Onboarding Guide",
+      "introduction_image": "images/onboarding_cc.svg",
       "section_title_1": "1 week before your session",
       "section_text_1": "- Read the Facilitator Guide on Formando Conciencia+ \n\n- Practise the onboarding session with a peer or supervisor",
       "tag_list": [
@@ -1397,8 +1425,6 @@
       "home_screen_section_list": [
         "programme"
       ],
-      "icon_asset": "images/how_to_chat_session.svg",
-      "related_article_id_1": "what_is_safeguarding",
       "status": "released",
       "title": "How to Conduct WhatsApp Group Chat Sessions",
       "_translations": {
@@ -1454,6 +1480,8 @@
         }
       },
       "introduction": "The @global.programme_name programme includes WhatsApp support Groups with parents with pre-scripted messages that you share from Formando Conciencia+\n\nThe aim of this group is to provide parents with extra support during their @global.programme_name journey.",
+      "introduction_image": "images/how_to_chat_session.svg",
+      "related_article_id_1": "what_is_safeguarding",
       "related_articles_title": "Additional Information",
       "section_title_1": "Create a WhatsApp Group",
       "section_text_1": "**Make sure you have done the following before the onboarding session starts:** \n\n- Save the names and WhatsApp numbers of the parents assigned to you on your phone (if available), so you can easily confirm details during the onboarding session. \n\n- Create your WhatsApp group (with the temporary group name, icon, and description). The name of each WhatsApp group has the same structure:\n“CC+ WhatsApp Support Group”\nA name selected by the group \n\nWhen you create your temporary group name, you will use \"CC+ WhatsApp Support Group” \n\nYou can keep your temporary group name or you can add a name to the temporary group name. For example, “CC+ __HappyFamilies”.",
@@ -1473,12 +1501,8 @@
       "home_screen_section_list": [
         "programme"
       ],
-      "icon_asset": "images/overview_cc.svg",
       "resource_data_1": "pdf",
       "resource_id_1": "overview_study",
-      "related_article_id_1": "onboarding_cc_study",
-      "related_article_id_2": "how_to_chat_session_study",
-      "related_article_id_3": "how_to_report",
       "status": "released",
       "title": "Overview of the @global.programme_name Programme",
       "_translations": {
@@ -1543,6 +1567,10 @@
       },
       "introduction": "Welcome to the @global.programme_name Positive Parenting Programme! \n\nThank you for your commitment and dedication to supporting girls, boys, teens and families in your community. \nYou are a shining star!",
       "resource_title_1": "Overview Guide",
+      "introduction_image": "images/overview_cc.svg",
+      "related_article_id_1": "onboarding_cc_study",
+      "related_article_id_2": "how_to_chat_session_study",
+      "related_article_id_3": "how_to_report",
       "related_articles_title": "Additional Information",
       "section_title_1": "What’s inside the Facilitator Guide?",
       "section_text_1": "This guide is for YOU!! \nA comprehensive guide to help you deliver @global.programme_name to families around you. \nSteps on how to introduce caregivers to the programme and support them\nSpecific information on the programme’s content.",
@@ -1568,7 +1596,6 @@
       "home_screen_section_list": [
         "programme"
       ],
-      "icon_asset": "images/onboarding_cc.svg",
       "resource_data_1": "pdf",
       "resource_id_1": "onboard_guide_study",
       "status": "released",
@@ -1615,6 +1642,7 @@
       },
       "introduction": "The Onboarding Session sets the tone for the entire @global.programme_name programme. It is important to create an empathetic, welcoming and safe space for the participants to feel at ease and familiarise themselves with the programme.",
       "resource_title_1": "Onboarding Guide",
+      "introduction_image": "images/onboarding_cc.svg",
       "section_title_1": "To start the chatbot in WhatsApp",
       "section_text_1": "Parents can type: \nAFECTIVA to start the programme, if you are in Chihuahua state. \n\nFORMANDO to start the programme, for all other states.",
       "tag_list": [
@@ -1635,8 +1663,6 @@
       "home_screen_section_list": [
         "programme"
       ],
-      "icon_asset": "images/how_to_chat_session.svg",
-      "related_article_id_1": "what_is_safeguarding",
       "status": "released",
       "title": "How to Conduct WhatsApp Support Group Chat Sessions",
       "_translations": {
@@ -1692,6 +1718,8 @@
         }
       },
       "introduction": "The @global.programme_name programme includes WhatsApp support  Groups with parents with pre-scripted messages that you share from Formando Conciencia+\n\nThe aim of this group is to provide parents with extra support during their @global.programme_name journey.",
+      "introduction_image": "images/how_to_chat_session.svg",
+      "related_article_id_1": "what_is_safeguarding",
       "related_articles_title": "Additional Information",
       "section_title_1": "Create a WhatsApp Group",
       "section_text_1": "**Make sure you have done the following before the onboarding session starts:** \n\n- Save the names and WhatsApp numbers of the parents assigned to you on your phone (if available), so you can easily confirm details during the onboarding session. \n\n- Create your WhatsApp group (with the temporary group name, icon, and description). The name of each WhatsApp group has the same structure:\n“CC+ WhatsApp Support Group”\nA name selected by the group \n\nWhen you create your temporary group name, you will use \"CC+ WhatsApp Support Group” \n\nYou can keep your temporary group name or you can add a name to the temporary group name. For example, “CC+ __HappyFamilies”.",
@@ -1714,7 +1742,6 @@
       "home_screen_section_list": [
         "programme"
       ],
-      "icon_asset": "images/how_to_report.svg",
       "resource_data_1": "media",
       "resource_id_1": "add_parent",
       "status": "released",
@@ -1781,6 +1808,7 @@
       },
       "introduction": "The Formando Conciencia+ also makes reporting on the delivery of @global.programme_name much easier than paper forms.\n\nAfter adding each parent’s name to the App, you will be able to report on their participation during in-person and WhatsApp group sessions.\n\nYou will also report on your own experience, including the time spent conducting each session and whether you were able to do all the activities in the session. Be honest with the information, we are really interested in knowing your experience",
       "resource_title_1": "Add a Parent and Co-Parent",
+      "introduction_image": "images/how_to_report.svg",
       "section_title_1": "Set up your profile",
       "section_text_1": "Select the profile icon from the bottom navigation bar. \n\nChoose “About you” \n\nType your name under “Your name” \n\nSelect your state from the dropdown menu \n\nTap Save",
       "section_title_2": "Add a Parent",
@@ -1798,8 +1826,6 @@
       "home_screen_section_list": [
         "programme"
       ],
-      "icon_asset": "images/faq_h_prompts.svg",
-      "related_article_id_1": "how_to_chat_session_study",
       "status": "released",
       "title": "Coaching support",
       "_translations": {
@@ -1855,6 +1881,8 @@
         }
       },
       "introduction": "Once you join the program, you'll be matched with a coach right from the start. \n\nYour coach will help you prepare for your chat sessions with the caregivers, talk about any problems you had during your sessions, find solutions together, and practise them. \n\nYou will have 4 coaching sessions with other facilitators and your coach. Each coaching session will be 60 minutes long.",
+      "introduction_image": "images/faq_h_prompts.svg",
+      "related_article_id_1": "how_to_chat_session_study",
       "related_articles_title": "Additional Information",
       "section_title_1": "How will the coach get in touch with me?",
       "section_text_1": "Make sure you're part of a WhatsApp group with other facilitators from your state and your coach. Your coach will share important information with you through this group. Stay connected and keep an eye out for updates from your coach in the WhatsApp group!",
@@ -1877,9 +1905,6 @@
       "home_screen_section_list": [
         "programme"
       ],
-      "icon_asset": "images/group_admin_onboarding.svg",
-      "related_article_id_1": "faq_h_after_group_ended",
-      "related_article_id_2": "faq_h_prompts",
       "status": "released",
       "title": "How to hand over to Group Admin",
       "_translations": {
@@ -1927,6 +1952,9 @@
         }
       },
       "introduction": "Once 2 volunteers to be group admin are selected, schedule a WhatsApp call with them.\n\nWhen you’re done with the call, you can send the guidelines as messages to remind them what you discussed.",
+      "introduction_image": "images/group_admin_onboarding.svg",
+      "related_article_id_1": "faq_h_after_group_ended",
+      "related_article_id_2": "faq_h_prompts",
       "related_articles_title": "FAQ",
       "message_title_1": "Send this message after your WhatsApp Call",
       "message_text_1": "Hi! Thank you for volunteering to lead the group discussions. \n\n*While engaging with other parents in the group, keep the following in mind*: \n\n👋Greet parents when engaging with them.\n\n💛Respect what participants share and be aware of different ages, genders, values and circumstances. \n\n🏅Encourage parents to share and respond to each other - and praise them for it.\n\n🔔Remind parents of ground rules when needed.\n\n🔑Model the behaviour you want to see among the parents.",
@@ -1944,7 +1972,6 @@
     },
     {
       "id": "faq_h_prompts",
-      "icon_asset": "images/faq_h_prompts.svg",
       "status": "released",
       "title": "Chat session prompts for new group admin",
       "_translations": {
@@ -1972,6 +1999,7 @@
         }
       },
       "introduction": "After your call with the new group admin, you can share these prompts to support them with leading the chat sessions.",
+      "introduction_image": "images/faq_h_prompts.svg",
       "message_text_1": "🎉Let us celebrate our successes! What was something positive you experienced when you tried one of the @global.programme_name skills with your boy or girl?",
       "message_text_2": "🌱Trying out new skills can be hard at first. What was something *difficult* that you experienced when you tried a @global.programme_name skill with your boy or girl at home?",
       "message_text_3": "💙You are welcome to use this WhatsApp space to share any questions or experiences you have on your @global.programme_name journey. Remember, I may not always be able to respond, but this is our group – *together we can find all the answers we need*!",
@@ -1984,7 +2012,6 @@
     },
     {
       "id": "faq_h_no_volunteers",
-      "icon_asset": "images/faq_h_no_volunteers.svg",
       "status": "released",
       "title": "No one volunteered to be group admin",
       "_translations": {
@@ -2008,6 +2035,7 @@
         }
       },
       "introduction": "It may be difficult to find volunteers to become group admin. If no one volunteers to lead the group, you can send the message below to close the group. \n\nWait a couple days before closing because someone might still volunteer!",
+      "introduction_image": "images/faq_h_no_volunteers.svg",
       "message_title_1": "Alternate Closing Message",
       "message_text_1": "Thank you for sharing your thoughts 💙\n\nSince we don’t have any volunteers for group admin, I will be closing this WhatsApp Support Group at the end of the Programme. \n\nRemember, you can still continue your @global.programme_name journey with your family!",
       "tag_list": [
@@ -2022,7 +2050,6 @@
       "home_screen_section_list": [
         "challenges"
       ],
-      "icon_asset": "images/one_on_one_challenges.svg",
       "status": "released",
       "title": "Spending one-on-one time",
       "_translations": {
@@ -2078,6 +2105,7 @@
         }
       },
       "introduction": "Parenting can be challenging and many obstacles can get in the way.\n\nRemember, your job isn't to solve their problems but to enable a conversation between parents to support one another. 🔄\n\nHere are some common challenges and possible solutions for spending one-on-one time that we have encountered previously when delivering the programme. \n\nYou can share the following messages as responses during your chat sessions when parents share challenges with this topic.",
+      "introduction_image": "images/one_on_one_challenges.svg",
       "message_title_1": "I didn’t have enough time to spend one-on-one time.",
       "message_text_1": "✨Thank you for sharing. It can be hard to find time, especially when you have work, chores, and other responsibilities to do.🙂 You could try finding a chore to do together.",
       "message_title_2": "My girl, boy or teen did not want to spend time with me.",
@@ -2094,7 +2122,6 @@
       "home_screen_section_list": [
         "challenges"
       ],
-      "icon_asset": "images/praise_challenges.svg",
       "status": "released",
       "title": "Praising your girl, boy, or teen",
       "_translations": {
@@ -2134,6 +2161,7 @@
         }
       },
       "introduction": "It is normal for caregivers to feel uncomfortable or have challenges when praising their boys, girls, and teens. They may at first think that praise will either inflate their girls, boys, or teens or is not part of what they were taught. \n\nIt is important to remember that there are many different ways to praise boys, girls, and teens. @global.programme_name focuses mainly on praise as a method to reinforce positive behaviour. We praise the behaviour more than just the girl, boy, or teen! With practice it will become easier and more comfortable.\n\nHere are some common challenges and possible solutions for praising your girl, boy, or teen. \n\nYou can share the following messages as responses during your weekly chat when parents share challenges with this topic.",
+      "introduction_image": "images/praise_challenges.svg",
       "message_title_1": "I forgot to praise my boy, girl, or teen.",
       "message_text_1": "💚It can be difficult to juggle all the different things we need to do. \n\n🌱Next time you spend one-on-one time, try and think of one thing you can praise them for. \n\n☀️You can even say, “Thank you for spending time with me!”",
       "message_title_2": "I felt embarrassed or weird when praising my boy, girl, or teen.",
@@ -2146,7 +2174,6 @@
       "home_screen_section_list": [
         "challenges"
       ],
-      "icon_asset": "images/talk_feelings_challenges.svg",
       "status": "released",
       "title": "Talking about feelings",
       "_translations": {
@@ -2202,6 +2229,7 @@
         }
       },
       "introduction": "It is completely normal for parents to have difficulty talking about and expressing emotions and feelings. Parents may be trying to recognise their emotions and communicate about them for the first time here. With practice it will become easier and more comfortable.\n\nHere are some common challenges and possible solutions for talking about feelings. \n\nYou can share the following messages as responses during your chat session when parents share challenges with this topic.",
+      "introduction_image": "images/talk_feelings_challenges.svg",
       "message_title_1": "My girl, boy or teen did not want to share their emotions.",
       "message_text_1": "💚I understand that sharing feelings is challenging when it’s new. \n\n🌱Be patient and keep providing them with the opportunity to start sharing. \n\n☀️Be a model for your boys, girls, and teens by sharing your own feelings.",
       "message_title_2": "I felt uncomfortable talking about my own feelings",
@@ -2218,7 +2246,6 @@
       "home_screen_section_list": [
         "challenges"
       ],
-      "icon_asset": "images/routine_challenges.svg",
       "status": "released",
       "title": "Setting routines",
       "_translations": {
@@ -2266,6 +2293,7 @@
         }
       },
       "introduction": "Establishing routines can be difficult for parents at first. \n\nParents may also not feel comfortable involving their girls, boys, or teens in establishing a routine. You can remind them that this will make it more likely that their boy, girl, or teen will follow the rule and will also help their girl, boy, or teen learn responsibilities.\n\nHere are some common challenges and possible solutions for setting routines for one-on-one time and other activities: \n\nYou can share the following messages as responses to the challenges:",
+      "introduction_image": "images/routine_challenges.svg",
       "message_title_1": "Parents should be the one setting the rule, not the girl, boy, or teen.",
       "message_text_1": "When we establish rules together with our\nchildren, that helps the family to understand each other better.\n\n The rules will be more realistic and children will be more willing and able to follow the rules.",
       "message_title_2": "We made the routine, but my boy, girl, or teen does not follow it.",
@@ -2280,7 +2308,6 @@
       "home_screen_section_list": [
         "challenges"
       ],
-      "icon_asset": "images/faq_h_parents_insult.svg",
       "status": "released",
       "title": "Supporting girl, boy, or teen’s learning",
       "_translations": {
@@ -2320,6 +2347,7 @@
         }
       },
       "introduction": "Here are some common challenges and possible solutions for supporting caregivers to help their girl, boy, or teen’s learning. \n\nYou can share the following messages as responses during your weekly chat when parents share challenges with this topic.",
+      "introduction_image": "images/faq_h_parents_insult.svg",
       "message_title_1": "My girl or boy does not want to learn.",
       "message_text_1": "💡Try to understand why girl or boy doesn't want to learn. It could be due to frustration, lack of motivation, unidentified learning difficulties, or simply disinterest in the teaching method.\n\n🎵Adapt the activities to what girl or boy enjoys. For example, if they enjoy music, consider songs about numbers and words. Make it fun! \n\n🎨Let girl or boy choose what they want to learn. Celebrate their achievements, no matter how small. This will help girl or boy feel confident and be independent. \n\n💙 Model the behaviour. When a girl or boy will see you be enthusiastic about learning, they will want to learn too! \n\n📱 For playful, educational ideas, type @global.trigger_play at any time!",
       "message_title_2": "I don't know what to do with my teen.",
@@ -2338,7 +2366,6 @@
       "home_screen_section_list": [
         "challenges"
       ],
-      "icon_asset": "images/faq_h_no_neg_to_pos.svg",
       "status": "released",
       "title": "Helping your girl, boy, or teen give structure",
       "_translations": {
@@ -2394,6 +2421,7 @@
         }
       },
       "introduction": "Here are some common challenges and possible solutions that parents may experience when giving their girls, boys, or teens structure. \n\nYou can share the following messages as responses during your weekly chat when parents share challenges with this topic.",
+      "introduction_image": "images/faq_h_no_neg_to_pos.svg",
       "message_title_1": "My girl or boy could not agree on one specific rule or routine.",
       "message_text_1": "📖 When creating rules, it is important to think about the age of each girl or boy so you can come up with routines that are fair for their age.\n\n⏰ This is most important for bedtime, the time to come home, and household chores.\n\n💡 Try to agree on a small and meaningful incentive that can motivate girl or boy to follow the rule. Consider options like playing a 15-minute board game with the family, choosing the food for the day, or enjoying a 30-minute trip to the park. \n\nWhat other ideas come to mind?",
       "message_title_2": "My teen felt it was unfair that they have to follow the rule while I don’t have to follow it.",
@@ -2416,7 +2444,6 @@
       "home_screen_section_list": [
         "challenges"
       ],
-      "icon_asset": "images/faq_h_sad_to_end.svg",
       "status": "released",
       "title": "Supporting positive child behaviour",
       "_translations": {
@@ -2472,6 +2499,7 @@
         }
       },
       "introduction": "Here are some common challenges and possible solutions for supporting positive girl, boy, or teen behaviour. \n\nYou can share the following messages as responses during your weekly chat when parents share challenges with this topic.",
+      "introduction_image": "images/faq_h_sad_to_end.svg",
       "message_title_1": "I can’t redirect my girl or boy to a positive behaviour when they are misbehaving.",
       "message_text_1": "🌱 Next time, try to catch the misbehaviour early on, before it sets in or gets worse.\n\n👂 Talk to them about this behaviour when both of you feel calmer.\n\n⭐ Remember to praise your girl or boy when they behave well.",
       "message_title_2": "I am too angry to find anything positive to say to my teen after they have misbehaved.",
@@ -2494,7 +2522,6 @@
       "home_screen_section_list": [
         "challenges"
       ],
-      "icon_asset": "images/during_disclosed_abuse.svg",
       "status": "released",
       "title": "Keeping the girl, boy, or teen safe and healthy",
       "_translations": {
@@ -2550,6 +2577,7 @@
         }
       },
       "introduction": "Here are some common challenges and possible solutions for keeping girls, boys, and teens safe and healthy. \n\nYou can share the following messages as responses during your weekly chat when parents share challenges with this topic.",
+      "introduction_image": "images/during_disclosed_abuse.svg",
       "message_title_1": "My girl or boy is always on a gadget, even when I am working or doing house chores.",
       "message_text_1": "📺 It must be exhausting to always tell girl or boy to turn off or put away the gadgets.\n\n📝 Set rules with girl or boy. Tell them that they cannot be on gadgets when you are busy. Your busy time is your child’s quiet play time with toys or reading time with books.\n\n🌷 Tell your child that sharing what they watch on T.V. or what they do on gadgets is a rule. \n\n👂 Be patient and kind while listening to them. Manage your anger if you find that they did something wrong online. Take a deep breath.\n\n💛 Praise girl or boy when they follow the rules!",
       "message_title_2": "My child is refusing to eat vegetables and fruits, especially when they are out of the house.",

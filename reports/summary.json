@@ -3,11 +3,11 @@
     "data": [
       {
         "type": "accordion",
-        "count": 2
+        "count": 1
       },
       {
         "type": "accordion_section",
-        "count": 2
+        "count": 1
       },
       {
         "type": "audio",
@@ -15,11 +15,11 @@
       },
       {
         "type": "button",
-        "count": 67
+        "count": 72
       },
       {
         "type": "carousel",
-        "count": 1
+        "count": 2
       },
       {
         "type": "combo_box",
@@ -27,7 +27,7 @@
       },
       {
         "type": "data_items",
-        "count": 21
+        "count": 26
       },
       {
         "type": "debug_toggle",
@@ -35,23 +35,27 @@
       },
       {
         "type": "display_grid",
-        "count": 4
-      },
-      {
-        "type": "display_group",
-        "count": 86
-      },
-      {
-        "type": "drawer",
         "count": 2
       },
       {
+        "type": "display_group",
+        "count": 95
+      },
+      {
+        "type": "drawer",
+        "count": 1
+      },
+      {
         "type": "image",
-        "count": 8
+        "count": 10
       },
       {
         "type": "items",
         "count": 27
+      },
+      {
+        "type": "lottie_animation",
+        "count": 2
       },
       {
         "type": "navigation_bar",
@@ -67,23 +71,19 @@
       },
       {
         "type": "radio_button_grid",
-        "count": 4
+        "count": 8
       },
       {
         "type": "round_button",
-        "count": 27
+        "count": 30
       },
       {
         "type": "select_text",
         "count": 1
       },
       {
-        "type": "set_field",
-        "count": 1
-      },
-      {
         "type": "set_variable",
-        "count": 667
+        "count": 655
       },
       {
         "type": "simple_checkbox",
@@ -91,7 +91,7 @@
       },
       {
         "type": "task_card",
-        "count": 2
+        "count": 3
       },
       {
         "type": "task_progress_bar",
@@ -99,11 +99,15 @@
       },
       {
         "type": "template",
-        "count": 206
+        "count": 150
+      },
+      {
+        "type": "test",
+        "count": 1
       },
       {
         "type": "text",
-        "count": 143
+        "count": 163
       },
       {
         "type": "text_area",
@@ -111,15 +115,15 @@
       },
       {
         "type": "text_box",
-        "count": 22
+        "count": 24
       },
       {
         "type": "title",
-        "count": 37
+        "count": 33
       },
       {
         "type": "toggle_bar",
-        "count": 3
+        "count": 7
       },
       {
         "type": "update_action_list",
@@ -135,7 +139,7 @@
     "data": [
       {
         "type": "add_data",
-        "count": 4
+        "count": 5
       },
       {
         "type": "app_update",
@@ -143,7 +147,7 @@
       },
       {
         "type": "emit: completed",
-        "count": 19
+        "count": 32
       },
       {
         "type": "emit: force_reload",
@@ -167,7 +171,7 @@
       },
       {
         "type": "emit: uncompleted",
-        "count": 72
+        "count": 79
       },
       {
         "type": "feedback",
@@ -175,7 +179,7 @@
       },
       {
         "type": "go_to",
-        "count": 36
+        "count": 35
       },
       {
         "type": "nav_stack",
@@ -183,7 +187,7 @@
       },
       {
         "type": "pop_up",
-        "count": 9
+        "count": 10
       },
       {
         "type": "reset_app",
@@ -191,11 +195,11 @@
       },
       {
         "type": "save_to_device",
-        "count": 3
+        "count": 4
       },
       {
         "type": "set_data",
-        "count": 15
+        "count": 19
       },
       {
         "type": "set_field",
@@ -203,11 +207,11 @@
       },
       {
         "type": "set_item",
-        "count": 8
+        "count": 10
       },
       {
         "type": "set_local",
-        "count": 19
+        "count": 23
       },
       {
         "type": "share",
@@ -223,13 +227,13 @@
     "data": [
       {
         "assets": "total",
-        "KB": "5326 KB",
-        "MB": "5.3 MB"
+        "KB": "10818 KB",
+        "MB": "10.8 MB"
       },
       {
         "assets": "unused",
-        "KB": "967 KB",
-        "MB": "1 MB"
+        "KB": "1245 KB",
+        "MB": "1.2 MB"
       }
     ]
   },
@@ -253,7 +257,7 @@
       },
       {
         "path": "images/Message.png",
-        "size_kb": 1.3
+        "size_kb": 10.4
       },
       {
         "path": "images/Message.svg",
@@ -262,6 +266,10 @@
       {
         "path": "images/backgrounds/library_bottom_left.svg",
         "size_kb": 2.3
+      },
+      {
+        "path": "images/backgrounds/report_edit.svg",
+        "size_kb": 0.2
       },
       {
         "path": "images/flags/my.svg",
@@ -306,6 +314,10 @@
       {
         "path": "images/icons/person_cog.png",
         "size_kb": 0.8
+      },
+      {
+        "path": "images/icons/person_white.svg",
+        "size_kb": 1.5
       },
       {
         "path": "images/icons/reader_blue.svg",
@@ -368,10 +380,6 @@
         "size_kb": 2.1
       },
       {
-        "path": "images/logos/bird_white.svg",
-        "size_kb": 1.9
-      },
-      {
         "path": "images/logos/lego.png",
         "size_kb": 10.4
       },
@@ -390,6 +398,10 @@
       {
         "path": "odk_forms/eplh_pilot_facilitator_weekly_survey_combined.json",
         "size_kb": 209.4
+      },
+      {
+        "path": "pdf/module_3_guide.pdf",
+        "size_kb": 269
       }
     ]
   },
@@ -401,13 +413,38 @@
         "missing": true
       },
       {
+        "path": "@data.pdf",
+        "count": 3,
+        "missing": true
+      },
+      {
+        "path": "images/icons/cog_white.svg",
+        "count": 2,
+        "missing": true
+      },
+      {
         "path": "images/icons/in_progress.svg",
+        "count": 1,
+        "missing": true
+      },
+      {
+        "path": "images/icons/library_white.svg",
         "count": 1,
         "missing": true
       },
       {
         "path": "images/icons/tick.svg",
         "count": 1,
+        "missing": true
+      },
+      {
+        "path": "images/message.png",
+        "count": 1,
+        "missing": true
+      },
+      {
+        "path": "lottie/gift_box.json",
+        "count": 2,
         "missing": true
       }
     ]
@@ -430,11 +467,6 @@
         "size_kb": 2.4
       },
       {
-        "path": "images/backgrounds/report_edit.svg",
-        "count": 2,
-        "size_kb": 0.2
-      },
-      {
         "path": "images/backgrounds/reports_top_right.svg",
         "count": 1,
         "size_kb": 2
@@ -451,17 +483,17 @@
       },
       {
         "path": "images/day_1_introduction.svg",
-        "count": 2,
+        "count": 1,
         "size_kb": 6.7
       },
       {
         "path": "images/day_3_check_in.svg",
-        "count": 2,
+        "count": 1,
         "size_kb": 6.5
       },
       {
         "path": "images/day_3_mh_stress_self_talk.svg",
-        "count": 4,
+        "count": 2,
         "size_kb": 5.4
       },
       {
@@ -560,6 +592,11 @@
         "size_kb": 13.5
       },
       {
+        "path": "images/house_of_support.png",
+        "count": 1,
+        "size_kb": 815.4
+      },
+      {
         "path": "images/how_to_chat_session.svg",
         "count": 2,
         "size_kb": 11
@@ -578,6 +615,11 @@
         "path": "images/icons/add_circle.svg",
         "count": 2,
         "size_kb": 1
+      },
+      {
+        "path": "images/icons/archive.svg",
+        "count": 1,
+        "size_kb": 0.9
       },
       {
         "path": "images/icons/arrow_back.svg",
@@ -616,7 +658,7 @@
       },
       {
         "path": "images/icons/download.svg",
-        "count": 1,
+        "count": 2,
         "size_kb": 0.7
       },
       {
@@ -641,7 +683,7 @@
       },
       {
         "path": "images/icons/home_white.svg",
-        "count": 2,
+        "count": 1,
         "size_kb": 1.7
       },
       {
@@ -651,12 +693,12 @@
       },
       {
         "path": "images/icons/library.png",
-        "count": 3,
+        "count": 2,
         "size_kb": 1.5
       },
       {
         "path": "images/icons/pencil_white.svg",
-        "count": 2,
+        "count": 1,
         "size_kb": 1.4
       },
       {
@@ -666,17 +708,12 @@
       },
       {
         "path": "images/icons/person_cog.svg",
-        "count": 2,
+        "count": 1,
         "size_kb": 2.9
       },
       {
         "path": "images/icons/person_remove.svg",
         "count": 1,
-        "size_kb": 1.5
-      },
-      {
-        "path": "images/icons/person_white.svg",
-        "count": 2,
         "size_kb": 1.5
       },
       {
@@ -701,8 +738,13 @@
       },
       {
         "path": "images/icons/share.svg",
-        "count": 1,
+        "count": 2,
         "size_kb": 2.3
+      },
+      {
+        "path": "images/icons/unarchive.svg",
+        "count": 1,
+        "size_kb": 1.1
       },
       {
         "path": "images/icons/visibility.svg",
@@ -738,6 +780,11 @@
         "path": "images/logos/bird_on_light.svg",
         "count": 1,
         "size_kb": 2
+      },
+      {
+        "path": "images/logos/bird_white.svg",
+        "count": 1,
+        "size_kb": 1.9
       },
       {
         "path": "images/logos/nip.png",
@@ -795,6 +842,21 @@
         "size_kb": 1047
       },
       {
+        "path": "pdf/module_1_deliver.pdf",
+        "count": 1,
+        "size_kb": 2718.4
+      },
+      {
+        "path": "pdf/module_1_prepare.pdf",
+        "count": 1,
+        "size_kb": 179
+      },
+      {
+        "path": "pdf/module_2_guide.pdf",
+        "count": 1,
+        "size_kb": 1777.1
+      },
+      {
         "path": "pdf/overview_guide_study.pdf",
         "count": 1,
         "size_kb": 2252.6
@@ -846,12 +908,12 @@
       {
         "type": "data_pipe",
         "subtype": "generated",
-        "total": 42
+        "total": 38
       },
       {
         "type": "generator",
         "subtype": null,
-        "total": 11
+        "total": 9
       },
       {
         "type": "global",
@@ -866,12 +928,12 @@
       {
         "type": "template",
         "subtype": null,
-        "total": 69
+        "total": 71
       },
       {
         "type": "template",
         "subtype": "generated",
-        "total": 162
+        "total": 109
       },
       {
         "type": "template",

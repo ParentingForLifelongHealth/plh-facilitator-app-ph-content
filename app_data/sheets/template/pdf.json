@@ -79,70 +79,126 @@
       }
     },
     {
-      "type": "display_group",
-      "name": "top",
-      "parameter_list": {
-        "style": "column"
-      },
+      "type": "template",
+      "name": "header",
+      "value": "section_header",
+      "action_list": [
+        {
+          "trigger": "uncompleted",
+          "action_id": "emit",
+          "args": [
+            "uncompleted"
+          ],
+          "_raw": "uncompleted | emit: uncompleted",
+          "_cleaned": "uncompleted | emit: uncompleted"
+        }
+      ],
       "rows": [
         {
-          "type": "template",
-          "name": "header",
-          "value": "download_header",
-          "rows": [
+          "name": "title",
+          "value": "@local.pdf_data.title",
+          "_translations": {
+            "value": {}
+          },
+          "style_list": true,
+          "type": "set_variable",
+          "_nested_name": "header.title",
+          "_dynamicFields": {
+            "value": [
+              {
+                "fullExpression": "@local.pdf_data.title",
+                "matchedExpression": "@local.pdf_data.title",
+                "type": "local",
+                "fieldName": "pdf_data"
+              }
+            ]
+          },
+          "_dynamicDependencies": {
+            "@local.pdf_data.title": [
+              "value"
+            ]
+          }
+        }
+      ],
+      "_nested_name": "header"
+    },
+    {
+      "type": "display_group",
+      "rows": [
+        {
+          "type": "text",
+          "name": "spacer",
+          "value": "",
+          "_translations": {
+            "value": {}
+          },
+          "style_list": [
+            "flex: 1"
+          ],
+          "_nested_name": "display_group_8.spacer"
+        },
+        {
+          "type": "round_button",
+          "name": "download",
+          "parameter_list": {
+            "variant": "no-background",
+            "icon_src": "images/icons/download.svg"
+          },
+          "action_list": [
             {
-              "name": "title",
-              "value": "@local.pdf_data.title",
-              "_translations": {
-                "value": {}
-              },
-              "type": "set_variable",
-              "_nested_name": "top.header.title",
-              "_dynamicFields": {
-                "value": [
+              "trigger": "click",
+              "action_id": "save_to_device",
+              "args": [
+                "@local.pdf_data.pdf_asset"
+              ],
+              "_raw": "click | save_to_device: @local.pdf_data.pdf_asset",
+              "_cleaned": "click | save_to_device: @local.pdf_data.pdf_asset"
+            }
+          ],
+          "_nested_name": "display_group_8.download",
+          "_dynamicFields": {
+            "action_list": {
+              "0": {
+                "args": {
+                  "0": [
+                    {
+                      "fullExpression": "@local.pdf_data.pdf_asset",
+                      "matchedExpression": "@local.pdf_data.pdf_asset",
+                      "type": "local",
+                      "fieldName": "pdf_data"
+                    }
+                  ]
+                },
+                "_raw": [
                   {
-                    "fullExpression": "@local.pdf_data.title",
-                    "matchedExpression": "@local.pdf_data.title",
+                    "fullExpression": "click | save_to_device: @local.pdf_data.pdf_asset",
+                    "matchedExpression": "@local.pdf_data.pdf_asset",
                     "type": "local",
                     "fieldName": "pdf_data"
                   }
-                ]
-              },
-              "_dynamicDependencies": {
-                "@local.pdf_data.title": [
-                  "value"
-                ]
-              }
-            },
-            {
-              "name": "asset",
-              "value": "@local.pdf_data.pdf_asset",
-              "_translations": {
-                "value": {}
-              },
-              "type": "set_variable",
-              "_nested_name": "top.header.asset",
-              "_dynamicFields": {
-                "value": [
+                ],
+                "_cleaned": [
                   {
-                    "fullExpression": "@local.pdf_data.pdf_asset",
+                    "fullExpression": "click | save_to_device: @local.pdf_data.pdf_asset",
                     "matchedExpression": "@local.pdf_data.pdf_asset",
                     "type": "local",
                     "fieldName": "pdf_data"
                   }
                 ]
-              },
-              "_dynamicDependencies": {
-                "@local.pdf_data.pdf_asset": [
-                  "value"
-                ]
               }
             }
-          ],
-          "_nested_name": "top.header"
+          },
+          "_dynamicDependencies": {
+            "@local.pdf_data.pdf_asset": [
+              "action_list.0.args.0",
+              "action_list.0._raw",
+              "action_list.0._cleaned"
+            ]
+          }
         }
       ],
-      "_nested_name": "top"
+      "name": "display_group_8",
+      "_nested_name": "display_group_8"
     },
     {
       "type": "pdf",

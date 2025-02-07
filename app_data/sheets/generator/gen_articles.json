@@ -26,117 +26,97 @@
   "_xlsxPath": "templates/menu_sub_tasks.xlsx",
   "_output_flows": [
     {
-      "flow_name": "articles_onboarding_day_chat",
+      "flow_name": "articles_week_1_session",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
     {
-      "flow_name": "articles_onboarding_day_chat_2",
+      "flow_name": "articles_week_1_session_2",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
     {
-      "flow_name": "articles_onboarding_day_chat_3",
+      "flow_name": "articles_week_1_session_3",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
     {
-      "flow_name": "articles_onboarding_day_chat_4",
+      "flow_name": "articles_week_1_session_4",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
     {
-      "flow_name": "articles_day_3_mh_stress",
+      "flow_name": "articles_week_1_session_5",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
     {
-      "flow_name": "articles_day_3_mh_stress_2",
+      "flow_name": "articles_week_1_session_6",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
     {
-      "flow_name": "articles_day_3_mh_stress_3",
+      "flow_name": "articles_module_2_feelings",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
     {
-      "flow_name": "articles_day_3_mh_stress_4",
+      "flow_name": "articles_module_2_feelings_2",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
     {
-      "flow_name": "articles_day_3_mh_stress_5",
+      "flow_name": "articles_module_2_feelings_3",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
     {
-      "flow_name": "articles_day_3_mh_stress_6",
+      "flow_name": "articles_module_2_feelings_4",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
     {
-      "flow_name": "articles_day_5_final_chat_session_5ux",
+      "flow_name": "articles_module_2_feelings_5",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
     {
-      "flow_name": "articles_day_5_final_chat_session_5ux_2",
+      "flow_name": "articles_module_2_feelings_6",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
     {
-      "flow_name": "articles_day_5_final_chat_session_5ux_3",
+      "flow_name": "articles_module_2_feelings_7",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
     {
-      "flow_name": "articles_day_5_final_chat_session_5ux_4",
+      "flow_name": "articles_module_2_feelings_8",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
     {
-      "flow_name": "articles_day_5_final_chat_session_5ux_5",
+      "flow_name": "articles_module_2_feelings_9",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
     {
-      "flow_name": "articles_before_chat",
+      "flow_name": "articles_module_2_feelings_10",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
     {
-      "flow_name": "articles_before_chat_2",
+      "flow_name": "articles_module_2_feelings_11",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
     {
-      "flow_name": "articles_week_1_chat",
+      "flow_name": "articles_module_2_feelings_12",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
     {
-      "flow_name": "articles_week_1_chat_2",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    {
-      "flow_name": "articles_week_1_chat_3",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    {
-      "flow_name": "articles_week_1_chat_4",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    {
-      "flow_name": "articles_week_1_chat_5",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    {
-      "flow_name": "articles_week_1_chat_6",
+      "flow_name": "articles_module_2_feelings_13",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
@@ -176,32 +156,32 @@
       "flow_type": "template"
     },
     {
-      "flow_name": "articles_week_3_chat",
+      "flow_name": "articles_week_3_session",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
     {
-      "flow_name": "articles_week_3_chat_2",
+      "flow_name": "articles_week_3_session_2",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
     {
-      "flow_name": "articles_week_3_chat_3",
+      "flow_name": "articles_week_3_session_3",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
     {
-      "flow_name": "articles_week_3_chat_4",
+      "flow_name": "articles_week_3_session_4",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
     {
-      "flow_name": "articles_week_3_chat_5",
+      "flow_name": "articles_week_3_session_5",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
     {
-      "flow_name": "articles_week_3_chat_6",
+      "flow_name": "articles_week_3_session_6",
       "flow_subtype": "generated",
       "flow_type": "template"
     },

@@ -147,6 +147,85 @@
       "_translations": {
         "value": {}
       }
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "use_module_image",
+      "value": false,
+      "exclude_from_translation": true
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "minutes",
+      "value": "minutes",
+      "_translations": {
+        "value": {}
+      }
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "add_group_icon",
+      "value": "images/icons/person_cog.svg",
+      "_translations": {
+        "value": {}
+      },
+      "exclude_from_translation": true
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "active_group_title",
+      "value": "Your Active Groups",
+      "_translations": {
+        "value": {}
+      }
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "archived_group_title",
+      "value": "Your Archived Groups",
+      "_translations": {
+        "value": {}
+      }
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "module_complete",
+      "value": "You successfully completed this session!",
+      "_translations": {
+        "value": {}
+      }
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "module_rep_complete",
+      "value": "You successfully completed the report for this session!",
+      "_translations": {
+        "value": {}
+      }
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "review_report",
+      "value": "Review Report",
+      "_translations": {
+        "value": {}
+      }
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "submit_report",
+      "value": "Submit Report",
+      "_translations": {
+        "value": {}
+      }
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "support_button",
+      "value": "Frequently Asked Questions",
+      "_translations": {
+        "value": {}
+      }
     }
   ],
   "_xlsxPath": "data/deployment_data_ph.xlsx"

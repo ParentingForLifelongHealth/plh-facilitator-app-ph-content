@@ -9,6 +9,7 @@
       "_translations": {
         "value": {}
       },
+      "exclude_from_translation": true,
       "type": "set_variable",
       "_nested_name": "article_id"
     },
@@ -112,6 +113,7 @@
               "_translations": {
                 "value": {}
               },
+              "exclude_from_translation": true,
               "type": "set_variable",
               "_nested_name": "items_3.display_group_1.final_page",
               "_dynamicFields": {

@@ -1,0 +1,26 @@
+{
+  "flow_name": "articles_module_2_feelings",
+  "flow_subtype": "generated",
+  "flow_type": "template",
+  "rows": [
+    {
+      "type": "template",
+      "name": "article_story",
+      "value": "article_story",
+      "exclude_from_translation": true,
+      "rows": [
+        {
+          "name": "article_id",
+          "value": "module_2_feelings",
+          "_translations": {
+            "value": {}
+          },
+          "exclude_from_translation": true,
+          "type": "set_variable",
+          "_nested_name": "article_story.article_id"
+        }
+      ],
+      "_nested_name": "article_story"
+    }
+  ]
+}

@@ -41,27 +41,12 @@
   "_xlsxPath": "templates/menu_sub_tasks.xlsx",
   "_output_flows": [
     {
-      "flow_name": "sub_item_onboarding_day_chat",
+      "flow_name": "sub_item_week_1_session",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
     {
-      "flow_name": "sub_item_day_3_mh_stress",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    {
-      "flow_name": "sub_item_day_5_final_chat_session_5ux",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    {
-      "flow_name": "sub_item_before_chat",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    {
-      "flow_name": "sub_item_week_1_chat",
+      "flow_name": "sub_item_module_2_feelings",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
@@ -71,7 +56,7 @@
       "flow_type": "template"
     },
     {
-      "flow_name": "sub_item_week_3_chat",
+      "flow_name": "sub_item_week_3_session",
       "flow_subtype": "generated",
       "flow_type": "template"
     },

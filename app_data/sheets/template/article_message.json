@@ -100,6 +100,30 @@
                   "value"
                 ]
               }
+            },
+            {
+              "name": "asset",
+              "value": "@item.asset_type",
+              "_translations": {
+                "value": {}
+              },
+              "type": "set_variable",
+              "_nested_name": "loop_messages.message_element.asset",
+              "_dynamicFields": {
+                "value": [
+                  {
+                    "fullExpression": "@item.asset_type",
+                    "matchedExpression": "@item.asset_type",
+                    "type": "item",
+                    "fieldName": "asset_type"
+                  }
+                ]
+              },
+              "_dynamicDependencies": {
+                "@item.asset_type": [
+                  "value"
+                ]
+              }
             }
           ],
           "_nested_name": "loop_messages.message_element",

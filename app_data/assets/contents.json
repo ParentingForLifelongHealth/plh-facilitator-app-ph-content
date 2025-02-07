@@ -16,8 +16,8 @@
     "size_kb": 290.4
   },
   "images/Message.png": {
-    "md5Checksum": "f2c7b9e7f8a158c6a9f4bf7b680a7e11",
-    "size_kb": 1.3
+    "md5Checksum": "479defd46917f22869e6ec7435c72092",
+    "size_kb": 10.4
   },
   "images/Message.svg": {
     "md5Checksum": "3216df1581701cb24c813dd207c37f9a",
@@ -159,6 +159,10 @@
     "md5Checksum": "4a38a010daa3bf9f20cc6cf19261186f",
     "size_kb": 13.5
   },
+  "images/house_of_support.png": {
+    "md5Checksum": "8dfe20cd760ab00f31c27d448d084e52",
+    "size_kb": 815.4
+  },
   "images/how_to_chat_session.svg": {
     "md5Checksum": "ba6e2f12a3176f7d3fa502e49a3e8260",
     "size_kb": 11
@@ -174,6 +178,10 @@
   "images/icons/add_circle.svg": {
     "md5Checksum": "304eca731886658ad743dbbd0841b592",
     "size_kb": 1
+  },
+  "images/icons/archive.svg": {
+    "md5Checksum": "af60ad3a4a7e515373ef65cabb4af297",
+    "size_kb": 0.9
   },
   "images/icons/arrow_back.svg": {
     "md5Checksum": "878951da30fb77058b77d74964ba9f18",
@@ -343,6 +351,10 @@
     "md5Checksum": "ed14afd874c2212606b57454c707a6c6",
     "size_kb": 2.4
   },
+  "images/icons/unarchive.svg": {
+    "md5Checksum": "e186966d46ba49f948c6e945acc8073c",
+    "size_kb": 1.1
+  },
   "images/icons/visibility.svg": {
     "md5Checksum": "02bc1e4bc182806b6d6d2d9430366a1f",
     "size_kb": 1.9
@@ -458,6 +470,22 @@
   "pdf/manual_study.pdf": {
     "md5Checksum": "150ff71569a822bda0f3a02786ccfd0a",
     "size_kb": 1047
+  },
+  "pdf/module_1_deliver.pdf": {
+    "md5Checksum": "a4024d0915c74dcbea21154533e97fdf",
+    "size_kb": 2718.4
+  },
+  "pdf/module_1_prepare.pdf": {
+    "md5Checksum": "c4bfd80e52d36256bdd5b9e78937e541",
+    "size_kb": 179
+  },
+  "pdf/module_2_guide.pdf": {
+    "md5Checksum": "bc77b5695c16f2d0bfe6a0b6733df325",
+    "size_kb": 1777.1
+  },
+  "pdf/module_3_guide.pdf": {
+    "md5Checksum": "fca7861ef2c2b3e4076942c9682dca0c",
+    "size_kb": 269
   },
   "pdf/overview_guide_study.pdf": {
     "md5Checksum": "fbb4961d36ae4a2897f123e6f585e59d",

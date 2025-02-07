@@ -5,10 +5,6 @@
   "rows": [
     {
       "name": "section_id",
-      "value": "data_collection",
-      "_translations": {
-        "value": {}
-      },
       "type": "set_variable",
       "_nested_name": "section_id"
     },
@@ -85,6 +81,30 @@
       "_nested_name": "show_back"
     },
     {
+      "name": "title",
+      "value": "@local.app_section_data.title",
+      "_translations": {
+        "value": {}
+      },
+      "type": "set_variable",
+      "_nested_name": "title",
+      "_dynamicFields": {
+        "value": [
+          {
+            "fullExpression": "@local.app_section_data.title",
+            "matchedExpression": "@local.app_section_data.title",
+            "type": "local",
+            "fieldName": "app_section_data"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@local.app_section_data.title": [
+          "value"
+        ]
+      }
+    },
+    {
       "type": "display_group",
       "name": "dg_header",
       "rows": [
@@ -126,28 +146,40 @@
         },
         {
           "type": "title",
-          "name": "title",
-          "value": "@local.app_section_data.title",
+          "name": "print_title",
+          "value": "@local.title",
           "_translations": {
             "value": {}
           },
           "style_list": [
             "flex:1"
           ],
-          "_nested_name": "dg_header.title",
+          "condition": "!!@local.title",
+          "_nested_name": "dg_header.print_title",
           "_dynamicFields": {
             "value": [
               {
-                "fullExpression": "@local.app_section_data.title",
-                "matchedExpression": "@local.app_section_data.title",
+                "fullExpression": "@local.title",
+                "matchedExpression": "@local.title",
                 "type": "local",
-                "fieldName": "app_section_data"
+                "fieldName": "title"
+              }
+            ],
+            "condition": [
+              {
+                "fullExpression": "!!@local.title",
+                "matchedExpression": "!@local.title",
+                "type": "local",
+                "fieldName": "title"
               }
             ]
           },
           "_dynamicDependencies": {
-            "@local.app_section_data.title": [
+            "@local.title": [
               "value"
+            ],
+            "!@local.title": [
+              "condition"
             ]
           }
         }

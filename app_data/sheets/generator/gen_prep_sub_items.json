@@ -37,117 +37,97 @@
   "_xlsxPath": "templates/menu_sub_tasks.xlsx",
   "_output_flows": [
     {
-      "flow_name": "prep_onboarding_day_chat_sub_items",
+      "flow_name": "prep_week_1_session_sub_items",
       "flow_subtype": "generated",
       "flow_type": "data_pipe"
     },
     {
-      "flow_name": "prep_onboarding_day_chat_2_sub_items",
+      "flow_name": "prep_week_1_session_2_sub_items",
       "flow_subtype": "generated",
       "flow_type": "data_pipe"
     },
     {
-      "flow_name": "prep_onboarding_day_chat_3_sub_items",
+      "flow_name": "prep_week_1_session_3_sub_items",
       "flow_subtype": "generated",
       "flow_type": "data_pipe"
     },
     {
-      "flow_name": "prep_onboarding_day_chat_4_sub_items",
+      "flow_name": "prep_week_1_session_4_sub_items",
       "flow_subtype": "generated",
       "flow_type": "data_pipe"
     },
     {
-      "flow_name": "prep_day_3_mh_stress_sub_items",
+      "flow_name": "prep_week_1_session_5_sub_items",
       "flow_subtype": "generated",
       "flow_type": "data_pipe"
     },
     {
-      "flow_name": "prep_day_3_mh_stress_2_sub_items",
+      "flow_name": "prep_week_1_session_6_sub_items",
       "flow_subtype": "generated",
       "flow_type": "data_pipe"
     },
     {
-      "flow_name": "prep_day_3_mh_stress_3_sub_items",
+      "flow_name": "prep_module_2_feelings_sub_items",
       "flow_subtype": "generated",
       "flow_type": "data_pipe"
     },
     {
-      "flow_name": "prep_day_3_mh_stress_4_sub_items",
+      "flow_name": "prep_module_2_feelings_2_sub_items",
       "flow_subtype": "generated",
       "flow_type": "data_pipe"
     },
     {
-      "flow_name": "prep_day_3_mh_stress_5_sub_items",
+      "flow_name": "prep_module_2_feelings_3_sub_items",
       "flow_subtype": "generated",
       "flow_type": "data_pipe"
     },
     {
-      "flow_name": "prep_day_3_mh_stress_6_sub_items",
+      "flow_name": "prep_module_2_feelings_4_sub_items",
       "flow_subtype": "generated",
       "flow_type": "data_pipe"
     },
     {
-      "flow_name": "prep_day_5_final_chat_session_5ux_sub_items",
+      "flow_name": "prep_module_2_feelings_5_sub_items",
       "flow_subtype": "generated",
       "flow_type": "data_pipe"
     },
     {
-      "flow_name": "prep_day_5_final_chat_session_5ux_2_sub_items",
+      "flow_name": "prep_module_2_feelings_6_sub_items",
       "flow_subtype": "generated",
       "flow_type": "data_pipe"
     },
     {
-      "flow_name": "prep_day_5_final_chat_session_5ux_3_sub_items",
+      "flow_name": "prep_module_2_feelings_7_sub_items",
       "flow_subtype": "generated",
       "flow_type": "data_pipe"
     },
     {
-      "flow_name": "prep_day_5_final_chat_session_5ux_4_sub_items",
+      "flow_name": "prep_module_2_feelings_8_sub_items",
       "flow_subtype": "generated",
       "flow_type": "data_pipe"
     },
     {
-      "flow_name": "prep_day_5_final_chat_session_5ux_5_sub_items",
+      "flow_name": "prep_module_2_feelings_9_sub_items",
       "flow_subtype": "generated",
       "flow_type": "data_pipe"
     },
     {
-      "flow_name": "prep_before_chat_sub_items",
+      "flow_name": "prep_module_2_feelings_10_sub_items",
       "flow_subtype": "generated",
       "flow_type": "data_pipe"
     },
     {
-      "flow_name": "prep_before_chat_2_sub_items",
+      "flow_name": "prep_module_2_feelings_11_sub_items",
       "flow_subtype": "generated",
       "flow_type": "data_pipe"
     },
     {
-      "flow_name": "prep_week_1_chat_sub_items",
+      "flow_name": "prep_module_2_feelings_12_sub_items",
       "flow_subtype": "generated",
       "flow_type": "data_pipe"
     },
     {
-      "flow_name": "prep_week_1_chat_2_sub_items",
-      "flow_subtype": "generated",
-      "flow_type": "data_pipe"
-    },
-    {
-      "flow_name": "prep_week_1_chat_3_sub_items",
-      "flow_subtype": "generated",
-      "flow_type": "data_pipe"
-    },
-    {
-      "flow_name": "prep_week_1_chat_4_sub_items",
-      "flow_subtype": "generated",
-      "flow_type": "data_pipe"
-    },
-    {
-      "flow_name": "prep_week_1_chat_5_sub_items",
-      "flow_subtype": "generated",
-      "flow_type": "data_pipe"
-    },
-    {
-      "flow_name": "prep_week_1_chat_6_sub_items",
+      "flow_name": "prep_module_2_feelings_13_sub_items",
       "flow_subtype": "generated",
       "flow_type": "data_pipe"
     },
@@ -187,32 +167,32 @@
       "flow_type": "data_pipe"
     },
     {
-      "flow_name": "prep_week_3_chat_sub_items",
+      "flow_name": "prep_week_3_session_sub_items",
       "flow_subtype": "generated",
       "flow_type": "data_pipe"
     },
     {
-      "flow_name": "prep_week_3_chat_2_sub_items",
+      "flow_name": "prep_week_3_session_2_sub_items",
       "flow_subtype": "generated",
       "flow_type": "data_pipe"
     },
     {
-      "flow_name": "prep_week_3_chat_3_sub_items",
+      "flow_name": "prep_week_3_session_3_sub_items",
       "flow_subtype": "generated",
       "flow_type": "data_pipe"
     },
     {
-      "flow_name": "prep_week_3_chat_4_sub_items",
+      "flow_name": "prep_week_3_session_4_sub_items",
       "flow_subtype": "generated",
       "flow_type": "data_pipe"
     },
     {
-      "flow_name": "prep_week_3_chat_5_sub_items",
+      "flow_name": "prep_week_3_session_5_sub_items",
       "flow_subtype": "generated",
       "flow_type": "data_pipe"
     },
     {
-      "flow_name": "prep_week_3_chat_6_sub_items",
+      "flow_name": "prep_week_3_session_6_sub_items",
       "flow_subtype": "generated",
       "flow_type": "data_pipe"
     },

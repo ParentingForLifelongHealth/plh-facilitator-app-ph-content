@@ -35,6 +35,9 @@
               "_translations": {
                 "value": {}
               },
+              "parameter_list": {
+                "variant": "page_banner"
+              },
               "exclude_from_translation": false,
               "name": "title_1",
               "_nested_name": "dg_top.dg_top_column.title_1"
@@ -56,8 +59,23 @@
                 {
                   "type": "combo_box",
                   "name": "report_group",
+                  "value": "@fields.current_group_no",
+                  "action_list": [
+                    {
+                      "trigger": "changed",
+                      "action_id": "set_field",
+                      "args": [
+                        "current_group_no",
+                        "this.value"
+                      ],
+                      "_raw": "changed | set_field: current_group_no: this.value",
+                      "_cleaned": "changed | set_field: current_group_no: this.value"
+                    }
+                  ],
                   "parameter_list": {
-                    "placeholder": "Select Parent Group"
+                    "placeholder": "@global.select_group",
+                    "disabled_text": "@global.no_groups",
+                    "variant": "dropdown"
                   },
                   "style_list": [
                     "flex: 4"
@@ -91,7 +109,46 @@
                       }
                     }
                   ],
-                  "_nested_name": "dg_top.dg_top_column.dg_top_row.report_group"
+                  "_nested_name": "dg_top.dg_top_column.dg_top_row.report_group",
+                  "_dynamicFields": {
+                    "value": [
+                      {
+                        "fullExpression": "@fields.current_group_no",
+                        "matchedExpression": "@fields.current_group_no",
+                        "type": "fields",
+                        "fieldName": "current_group_no"
+                      }
+                    ],
+                    "parameter_list": {
+                      "placeholder": [
+                        {
+                          "fullExpression": "@global.select_group",
+                          "matchedExpression": "@global.select_group",
+                          "type": "global",
+                          "fieldName": "select_group"
+                        }
+                      ],
+                      "disabled_text": [
+                        {
+                          "fullExpression": "@global.no_groups",
+                          "matchedExpression": "@global.no_groups",
+                          "type": "global",
+                          "fieldName": "no_groups"
+                        }
+                      ]
+                    }
+                  },
+                  "_dynamicDependencies": {
+                    "@fields.current_group_no": [
+                      "value"
+                    ],
+                    "@global.select_group": [
+                      "parameter_list.placeholder"
+                    ],
+                    "@global.no_groups": [
+                      "parameter_list.disabled_text"
+                    ]
+                  }
                 },
                 {
                   "type": "round_button",
@@ -109,12 +166,29 @@
                   ],
                   "parameter_list": {
                     "variant": "no-background",
-                    "icon_src": "images/icons/person_cog.svg"
+                    "icon_src": "@global.add_group_icon"
                   },
                   "style_list": [
                     "flex: 1"
                   ],
-                  "_nested_name": "dg_top.dg_top_column.dg_top_row.groups_go_to"
+                  "_nested_name": "dg_top.dg_top_column.dg_top_row.groups_go_to",
+                  "_dynamicFields": {
+                    "parameter_list": {
+                      "icon_src": [
+                        {
+                          "fullExpression": "@global.add_group_icon",
+                          "matchedExpression": "@global.add_group_icon",
+                          "type": "global",
+                          "fieldName": "add_group_icon"
+                        }
+                      ]
+                    }
+                  },
+                  "_dynamicDependencies": {
+                    "@global.add_group_icon": [
+                      "parameter_list.icon_src"
+                    ]
+                  }
                 }
               ],
               "_nested_name": "dg_top.dg_top_column.dg_top_row"
@@ -132,6 +206,7 @@
         "value": {}
       },
       "condition": false,
+      "exclude_from_translation": true,
       "name": "text_4",
       "_nested_name": "text_4",
       "_dynamicFields": {
@@ -409,6 +484,30 @@
                   },
                   "_dynamicDependencies": {
                     "@item.title": [
+                      "value"
+                    ]
+                  }
+                },
+                {
+                  "name": "report_id",
+                  "value": "@item.report_id",
+                  "_translations": {
+                    "value": {}
+                  },
+                  "type": "set_variable",
+                  "_nested_name": "display_group_5.items_1.report_card.report_id",
+                  "_dynamicFields": {
+                    "value": [
+                      {
+                        "fullExpression": "@item.report_id",
+                        "matchedExpression": "@item.report_id",
+                        "type": "item",
+                        "fieldName": "report_id"
+                      }
+                    ]
+                  },
+                  "_dynamicDependencies": {
+                    "@item.report_id": [
                       "value"
                     ]
                   }
