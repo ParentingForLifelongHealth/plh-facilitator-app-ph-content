@@ -18,13 +18,13 @@
     },
     {
       "id": "sessions",
-      "title": "Chat Sessions",
+      "title": "Review Modules",
       "_translations": {
         "title": {}
       },
       "_translatedFields": {
         "title": {
-          "eng": "Chat Sessions"
+          "eng": "Review Modules"
         }
       }
     },

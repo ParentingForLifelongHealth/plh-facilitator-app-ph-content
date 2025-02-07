@@ -163,6 +163,9 @@
       "_metadata": {
         "archived": {
           "type": "boolean"
+        },
+        "hidden": {
+          "type": "boolean"
         }
       }
     },
@@ -217,12 +220,7 @@
       "flow_type": "data_list",
       "flow_name": "related",
       "data_list_name": "related",
-      "_xlsxPath": "data/modules_sub_items_ph.xlsx",
-      "_metadata": {
-        "ignore": {
-          "type": "number"
-        }
-      }
+      "_xlsxPath": "data/modules_sub_items_ph.xlsx"
     },
     "report_answers": {
       "flow_type": "data_list",
@@ -304,8 +302,8 @@
         }
       ]
     },
-    "prep_before_chat_2_sub_items": {
-      "flow_name": "prep_before_chat_2_sub_items",
+    "prep_module_2_feelings_10_sub_items": {
+      "flow_name": "prep_module_2_feelings_10_sub_items",
       "flow_subtype": "generated",
       "flow_type": "data_pipe",
       "_output_flows": [
@@ -326,8 +324,8 @@
         }
       ]
     },
-    "prep_before_chat_sub_items": {
-      "flow_name": "prep_before_chat_sub_items",
+    "prep_module_2_feelings_11_sub_items": {
+      "flow_name": "prep_module_2_feelings_11_sub_items",
       "flow_subtype": "generated",
       "flow_type": "data_pipe",
       "_output_flows": [
@@ -348,8 +346,8 @@
         }
       ]
     },
-    "prep_day_3_mh_stress_2_sub_items": {
-      "flow_name": "prep_day_3_mh_stress_2_sub_items",
+    "prep_module_2_feelings_12_sub_items": {
+      "flow_name": "prep_module_2_feelings_12_sub_items",
       "flow_subtype": "generated",
       "flow_type": "data_pipe",
       "_output_flows": [
@@ -370,8 +368,8 @@
         }
       ]
     },
-    "prep_day_3_mh_stress_3_sub_items": {
-      "flow_name": "prep_day_3_mh_stress_3_sub_items",
+    "prep_module_2_feelings_13_sub_items": {
+      "flow_name": "prep_module_2_feelings_13_sub_items",
       "flow_subtype": "generated",
       "flow_type": "data_pipe",
       "_output_flows": [
@@ -392,8 +390,8 @@
         }
       ]
     },
-    "prep_day_3_mh_stress_4_sub_items": {
-      "flow_name": "prep_day_3_mh_stress_4_sub_items",
+    "prep_module_2_feelings_2_sub_items": {
+      "flow_name": "prep_module_2_feelings_2_sub_items",
       "flow_subtype": "generated",
       "flow_type": "data_pipe",
       "_output_flows": [
@@ -414,8 +412,8 @@
         }
       ]
     },
-    "prep_day_3_mh_stress_5_sub_items": {
-      "flow_name": "prep_day_3_mh_stress_5_sub_items",
+    "prep_module_2_feelings_3_sub_items": {
+      "flow_name": "prep_module_2_feelings_3_sub_items",
       "flow_subtype": "generated",
       "flow_type": "data_pipe",
       "_output_flows": [
@@ -436,8 +434,8 @@
         }
       ]
     },
-    "prep_day_3_mh_stress_6_sub_items": {
-      "flow_name": "prep_day_3_mh_stress_6_sub_items",
+    "prep_module_2_feelings_4_sub_items": {
+      "flow_name": "prep_module_2_feelings_4_sub_items",
       "flow_subtype": "generated",
       "flow_type": "data_pipe",
       "_output_flows": [
@@ -458,8 +456,8 @@
         }
       ]
     },
-    "prep_day_3_mh_stress_sub_items": {
-      "flow_name": "prep_day_3_mh_stress_sub_items",
+    "prep_module_2_feelings_5_sub_items": {
+      "flow_name": "prep_module_2_feelings_5_sub_items",
       "flow_subtype": "generated",
       "flow_type": "data_pipe",
       "_output_flows": [
@@ -480,8 +478,8 @@
         }
       ]
     },
-    "prep_day_5_final_chat_session_5ux_2_sub_items": {
-      "flow_name": "prep_day_5_final_chat_session_5ux_2_sub_items",
+    "prep_module_2_feelings_6_sub_items": {
+      "flow_name": "prep_module_2_feelings_6_sub_items",
       "flow_subtype": "generated",
       "flow_type": "data_pipe",
       "_output_flows": [
@@ -502,8 +500,8 @@
         }
       ]
     },
-    "prep_day_5_final_chat_session_5ux_3_sub_items": {
-      "flow_name": "prep_day_5_final_chat_session_5ux_3_sub_items",
+    "prep_module_2_feelings_7_sub_items": {
+      "flow_name": "prep_module_2_feelings_7_sub_items",
       "flow_subtype": "generated",
       "flow_type": "data_pipe",
       "_output_flows": [
@@ -524,8 +522,8 @@
         }
       ]
     },
-    "prep_day_5_final_chat_session_5ux_4_sub_items": {
-      "flow_name": "prep_day_5_final_chat_session_5ux_4_sub_items",
+    "prep_module_2_feelings_8_sub_items": {
+      "flow_name": "prep_module_2_feelings_8_sub_items",
       "flow_subtype": "generated",
       "flow_type": "data_pipe",
       "_output_flows": [
@@ -546,8 +544,8 @@
         }
       ]
     },
-    "prep_day_5_final_chat_session_5ux_5_sub_items": {
-      "flow_name": "prep_day_5_final_chat_session_5ux_5_sub_items",
+    "prep_module_2_feelings_9_sub_items": {
+      "flow_name": "prep_module_2_feelings_9_sub_items",
       "flow_subtype": "generated",
       "flow_type": "data_pipe",
       "_output_flows": [
@@ -568,8 +566,8 @@
         }
       ]
     },
-    "prep_day_5_final_chat_session_5ux_sub_items": {
-      "flow_name": "prep_day_5_final_chat_session_5ux_sub_items",
+    "prep_module_2_feelings_sub_items": {
+      "flow_name": "prep_module_2_feelings_sub_items",
       "flow_subtype": "generated",
       "flow_type": "data_pipe",
       "_output_flows": [
@@ -590,8 +588,8 @@
         }
       ]
     },
-    "prep_onboarding_day_chat_2_sub_items": {
-      "flow_name": "prep_onboarding_day_chat_2_sub_items",
+    "prep_week_1_session_2_sub_items": {
+      "flow_name": "prep_week_1_session_2_sub_items",
       "flow_subtype": "generated",
       "flow_type": "data_pipe",
       "_output_flows": [
@@ -612,8 +610,8 @@
         }
       ]
     },
-    "prep_onboarding_day_chat_3_sub_items": {
-      "flow_name": "prep_onboarding_day_chat_3_sub_items",
+    "prep_week_1_session_3_sub_items": {
+      "flow_name": "prep_week_1_session_3_sub_items",
       "flow_subtype": "generated",
       "flow_type": "data_pipe",
       "_output_flows": [
@@ -634,8 +632,8 @@
         }
       ]
     },
-    "prep_onboarding_day_chat_4_sub_items": {
-      "flow_name": "prep_onboarding_day_chat_4_sub_items",
+    "prep_week_1_session_4_sub_items": {
+      "flow_name": "prep_week_1_session_4_sub_items",
       "flow_subtype": "generated",
       "flow_type": "data_pipe",
       "_output_flows": [
@@ -656,8 +654,8 @@
         }
       ]
     },
-    "prep_onboarding_day_chat_sub_items": {
-      "flow_name": "prep_onboarding_day_chat_sub_items",
+    "prep_week_1_session_5_sub_items": {
+      "flow_name": "prep_week_1_session_5_sub_items",
       "flow_subtype": "generated",
       "flow_type": "data_pipe",
       "_output_flows": [
@@ -678,8 +676,8 @@
         }
       ]
     },
-    "prep_week_1_chat_2_sub_items": {
-      "flow_name": "prep_week_1_chat_2_sub_items",
+    "prep_week_1_session_6_sub_items": {
+      "flow_name": "prep_week_1_session_6_sub_items",
       "flow_subtype": "generated",
       "flow_type": "data_pipe",
       "_output_flows": [
@@ -700,96 +698,8 @@
         }
       ]
     },
-    "prep_week_1_chat_3_sub_items": {
-      "flow_name": "prep_week_1_chat_3_sub_items",
-      "flow_subtype": "generated",
-      "flow_type": "data_pipe",
-      "_output_flows": [
-        {
-          "flow_name": "article_loops",
-          "flow_subtype": "generated",
-          "flow_type": "data_list"
-        },
-        {
-          "flow_name": "articles",
-          "flow_subtype": "generated",
-          "flow_type": "data_list"
-        },
-        {
-          "flow_name": "menus",
-          "flow_subtype": "generated",
-          "flow_type": "data_list"
-        }
-      ]
-    },
-    "prep_week_1_chat_4_sub_items": {
-      "flow_name": "prep_week_1_chat_4_sub_items",
-      "flow_subtype": "generated",
-      "flow_type": "data_pipe",
-      "_output_flows": [
-        {
-          "flow_name": "article_loops",
-          "flow_subtype": "generated",
-          "flow_type": "data_list"
-        },
-        {
-          "flow_name": "articles",
-          "flow_subtype": "generated",
-          "flow_type": "data_list"
-        },
-        {
-          "flow_name": "menus",
-          "flow_subtype": "generated",
-          "flow_type": "data_list"
-        }
-      ]
-    },
-    "prep_week_1_chat_5_sub_items": {
-      "flow_name": "prep_week_1_chat_5_sub_items",
-      "flow_subtype": "generated",
-      "flow_type": "data_pipe",
-      "_output_flows": [
-        {
-          "flow_name": "article_loops",
-          "flow_subtype": "generated",
-          "flow_type": "data_list"
-        },
-        {
-          "flow_name": "articles",
-          "flow_subtype": "generated",
-          "flow_type": "data_list"
-        },
-        {
-          "flow_name": "menus",
-          "flow_subtype": "generated",
-          "flow_type": "data_list"
-        }
-      ]
-    },
-    "prep_week_1_chat_6_sub_items": {
-      "flow_name": "prep_week_1_chat_6_sub_items",
-      "flow_subtype": "generated",
-      "flow_type": "data_pipe",
-      "_output_flows": [
-        {
-          "flow_name": "article_loops",
-          "flow_subtype": "generated",
-          "flow_type": "data_list"
-        },
-        {
-          "flow_name": "articles",
-          "flow_subtype": "generated",
-          "flow_type": "data_list"
-        },
-        {
-          "flow_name": "menus",
-          "flow_subtype": "generated",
-          "flow_type": "data_list"
-        }
-      ]
-    },
-    "prep_week_1_chat_sub_items": {
-      "flow_name": "prep_week_1_chat_sub_items",
+    "prep_week_1_session_sub_items": {
+      "flow_name": "prep_week_1_session_sub_items",
       "flow_subtype": "generated",
       "flow_type": "data_pipe",
       "_output_flows": [
@@ -964,8 +874,8 @@
         }
       ]
     },
-    "prep_week_3_chat_2_sub_items": {
-      "flow_name": "prep_week_3_chat_2_sub_items",
+    "prep_week_3_session_2_sub_items": {
+      "flow_name": "prep_week_3_session_2_sub_items",
       "flow_subtype": "generated",
       "flow_type": "data_pipe",
       "_output_flows": [
@@ -986,8 +896,8 @@
         }
       ]
     },
-    "prep_week_3_chat_3_sub_items": {
-      "flow_name": "prep_week_3_chat_3_sub_items",
+    "prep_week_3_session_3_sub_items": {
+      "flow_name": "prep_week_3_session_3_sub_items",
       "flow_subtype": "generated",
       "flow_type": "data_pipe",
       "_output_flows": [
@@ -1008,8 +918,8 @@
         }
       ]
     },
-    "prep_week_3_chat_4_sub_items": {
-      "flow_name": "prep_week_3_chat_4_sub_items",
+    "prep_week_3_session_4_sub_items": {
+      "flow_name": "prep_week_3_session_4_sub_items",
       "flow_subtype": "generated",
       "flow_type": "data_pipe",
       "_output_flows": [
@@ -1030,8 +940,8 @@
         }
       ]
     },
-    "prep_week_3_chat_5_sub_items": {
-      "flow_name": "prep_week_3_chat_5_sub_items",
+    "prep_week_3_session_5_sub_items": {
+      "flow_name": "prep_week_3_session_5_sub_items",
       "flow_subtype": "generated",
       "flow_type": "data_pipe",
       "_output_flows": [
@@ -1052,8 +962,8 @@
         }
       ]
     },
-    "prep_week_3_chat_6_sub_items": {
-      "flow_name": "prep_week_3_chat_6_sub_items",
+    "prep_week_3_session_6_sub_items": {
+      "flow_name": "prep_week_3_session_6_sub_items",
       "flow_subtype": "generated",
       "flow_type": "data_pipe",
       "_output_flows": [
@@ -1074,8 +984,8 @@
         }
       ]
     },
-    "prep_week_3_chat_sub_items": {
-      "flow_name": "prep_week_3_chat_sub_items",
+    "prep_week_3_session_sub_items": {
+      "flow_name": "prep_week_3_session_sub_items",
       "flow_subtype": "generated",
       "flow_type": "data_pipe",
       "_output_flows": [
@@ -1230,254 +1140,6 @@
     }
   },
   "generator": {
-    "article_generator": {
-      "flow_type": "generator",
-      "flow_name": "article_generator",
-      "parameter_list": {
-        "input_data_list": "article_data",
-        "output_flow_name": "article_@gen.id",
-        "output_flow_type": "template",
-        "output_flow_subtype": "generated"
-      },
-      "_xlsxPath": "templates/article.xlsx",
-      "_output_flows": [
-        {
-          "flow_name": "article_what_is_safeguarding",
-          "flow_subtype": "generated",
-          "flow_type": "template"
-        },
-        {
-          "flow_name": "article_during_disclosed_abuse",
-          "flow_subtype": "generated",
-          "flow_type": "template"
-        },
-        {
-          "flow_name": "article_after_disclosed_abuse",
-          "flow_subtype": "generated",
-          "flow_type": "template"
-        },
-        {
-          "flow_name": "article_how_to_report_abuse",
-          "flow_subtype": "generated",
-          "flow_type": "template"
-        },
-        {
-          "flow_name": "article_contact_for_reporting_abuse",
-          "flow_subtype": "generated",
-          "flow_type": "template"
-        },
-        {
-          "flow_name": "article_crisis_hotlines",
-          "flow_subtype": "generated",
-          "flow_type": "template"
-        },
-        {
-          "flow_name": "article_onboarding_day_chat",
-          "flow_subtype": "generated",
-          "flow_type": "template"
-        },
-        {
-          "flow_name": "article_day_3_mh_stress_self_talk",
-          "flow_subtype": "generated",
-          "flow_type": "template"
-        },
-        {
-          "flow_name": "article_day_5_final_chat_sessions_5ux",
-          "flow_subtype": "generated",
-          "flow_type": "template"
-        },
-        {
-          "flow_name": "article_before_chat",
-          "flow_subtype": "generated",
-          "flow_type": "template"
-        },
-        {
-          "flow_name": "article_week_1_chat",
-          "flow_subtype": "generated",
-          "flow_type": "template"
-        },
-        {
-          "flow_name": "article_week_2_chat",
-          "flow_subtype": "generated",
-          "flow_type": "template"
-        },
-        {
-          "flow_name": "article_week_3_chat",
-          "flow_subtype": "generated",
-          "flow_type": "template"
-        },
-        {
-          "flow_name": "article_week_4_chat",
-          "flow_subtype": "generated",
-          "flow_type": "template"
-        },
-        {
-          "flow_name": "article_faq_text_support",
-          "flow_subtype": "generated",
-          "flow_type": "template"
-        },
-        {
-          "flow_name": "article_faq_ground_rules",
-          "flow_subtype": "generated",
-          "flow_type": "template"
-        },
-        {
-          "flow_name": "article_faq_misbehaviour",
-          "flow_subtype": "generated",
-          "flow_type": "template"
-        },
-        {
-          "flow_name": "article_faq_no_participation_general",
-          "flow_subtype": "generated",
-          "flow_type": "template"
-        },
-        {
-          "flow_name": "article_faq_small_group_active",
-          "flow_subtype": "generated",
-          "flow_type": "template"
-        },
-        {
-          "flow_name": "article_faq_h_no_understand_connection",
-          "flow_subtype": "generated",
-          "flow_type": "template"
-        },
-        {
-          "flow_name": "article_faq_h_no_thoughts",
-          "flow_subtype": "generated",
-          "flow_type": "template"
-        },
-        {
-          "flow_name": "article_faq_h_parents_insult",
-          "flow_subtype": "generated",
-          "flow_type": "template"
-        },
-        {
-          "flow_name": "article_faq_h_self_harm",
-          "flow_subtype": "generated",
-          "flow_type": "template"
-        },
-        {
-          "flow_name": "article_faq_h_no_neg_to_pos",
-          "flow_subtype": "generated",
-          "flow_type": "template"
-        },
-        {
-          "flow_name": "article_faq_h_no_strengths",
-          "flow_subtype": "generated",
-          "flow_type": "template"
-        },
-        {
-          "flow_name": "article_faq_h_after_group_ended",
-          "flow_subtype": "generated",
-          "flow_type": "template"
-        },
-        {
-          "flow_name": "article_faq_h_still_struggling",
-          "flow_subtype": "generated",
-          "flow_type": "template"
-        },
-        {
-          "flow_name": "article_faq_h_sad_to_end",
-          "flow_subtype": "generated",
-          "flow_type": "template"
-        },
-        {
-          "flow_name": "article_onboarding_cc_scale",
-          "flow_subtype": "generated",
-          "flow_type": "template"
-        },
-        {
-          "flow_name": "article_how_to_chat_session_scale",
-          "flow_subtype": "generated",
-          "flow_type": "template"
-        },
-        {
-          "flow_name": "article_overview_cc_study",
-          "flow_subtype": "generated",
-          "flow_type": "template"
-        },
-        {
-          "flow_name": "article_onboarding_cc_study",
-          "flow_subtype": "generated",
-          "flow_type": "template"
-        },
-        {
-          "flow_name": "article_how_to_chat_session_study",
-          "flow_subtype": "generated",
-          "flow_type": "template"
-        },
-        {
-          "flow_name": "article_how_to_report",
-          "flow_subtype": "generated",
-          "flow_type": "template"
-        },
-        {
-          "flow_name": "article_coach_overview",
-          "flow_subtype": "generated",
-          "flow_type": "template"
-        },
-        {
-          "flow_name": "article_group_admin_onboarding",
-          "flow_subtype": "generated",
-          "flow_type": "template"
-        },
-        {
-          "flow_name": "article_faq_h_prompts",
-          "flow_subtype": "generated",
-          "flow_type": "template"
-        },
-        {
-          "flow_name": "article_faq_h_no_volunteers",
-          "flow_subtype": "generated",
-          "flow_type": "template"
-        },
-        {
-          "flow_name": "article_one_on_one_challenges",
-          "flow_subtype": "generated",
-          "flow_type": "template"
-        },
-        {
-          "flow_name": "article_praise_challenges",
-          "flow_subtype": "generated",
-          "flow_type": "template"
-        },
-        {
-          "flow_name": "article_talk_feelings_challenges",
-          "flow_subtype": "generated",
-          "flow_type": "template"
-        },
-        {
-          "flow_name": "article_routine_challenges",
-          "flow_subtype": "generated",
-          "flow_type": "template"
-        },
-        {
-          "flow_name": "article_learning_challenges",
-          "flow_subtype": "generated",
-          "flow_type": "template"
-        },
-        {
-          "flow_name": "article_structure_challenges",
-          "flow_subtype": "generated",
-          "flow_type": "template"
-        },
-        {
-          "flow_name": "article_behave_challenges",
-          "flow_subtype": "generated",
-          "flow_type": "template"
-        },
-        {
-          "flow_name": "article_safety_challenges",
-          "flow_subtype": "generated",
-          "flow_type": "template"
-        },
-        {
-          "flow_name": "article_week_4_chat",
-          "flow_subtype": "generated",
-          "flow_type": "template"
-        }
-      ]
-    },
     "gen_article_loops": {
       "flow_type": "generator",
       "flow_name": "gen_article_loops",
@@ -1490,27 +1152,12 @@
       "_xlsxPath": "templates/menu_sub_tasks.xlsx",
       "_output_flows": [
         {
-          "flow_name": "sub_item_onboarding_day_chat",
+          "flow_name": "sub_item_week_1_session",
           "flow_subtype": "generated",
           "flow_type": "template"
         },
         {
-          "flow_name": "sub_item_day_3_mh_stress",
-          "flow_subtype": "generated",
-          "flow_type": "template"
-        },
-        {
-          "flow_name": "sub_item_day_5_final_chat_session_5ux",
-          "flow_subtype": "generated",
-          "flow_type": "template"
-        },
-        {
-          "flow_name": "sub_item_before_chat",
-          "flow_subtype": "generated",
-          "flow_type": "template"
-        },
-        {
-          "flow_name": "sub_item_week_1_chat",
+          "flow_name": "sub_item_module_2_feelings",
           "flow_subtype": "generated",
           "flow_type": "template"
         },
@@ -1520,7 +1167,7 @@
           "flow_type": "template"
         },
         {
-          "flow_name": "sub_item_week_3_chat",
+          "flow_name": "sub_item_week_3_session",
           "flow_subtype": "generated",
           "flow_type": "template"
         },
@@ -1543,117 +1190,97 @@
       "_xlsxPath": "templates/menu_sub_tasks.xlsx",
       "_output_flows": [
         {
-          "flow_name": "articles_onboarding_day_chat",
+          "flow_name": "articles_week_1_session",
           "flow_subtype": "generated",
           "flow_type": "template"
         },
         {
-          "flow_name": "articles_onboarding_day_chat_2",
+          "flow_name": "articles_week_1_session_2",
           "flow_subtype": "generated",
           "flow_type": "template"
         },
         {
-          "flow_name": "articles_onboarding_day_chat_3",
+          "flow_name": "articles_week_1_session_3",
           "flow_subtype": "generated",
           "flow_type": "template"
         },
         {
-          "flow_name": "articles_onboarding_day_chat_4",
+          "flow_name": "articles_week_1_session_4",
           "flow_subtype": "generated",
           "flow_type": "template"
         },
         {
-          "flow_name": "articles_day_3_mh_stress",
+          "flow_name": "articles_week_1_session_5",
           "flow_subtype": "generated",
           "flow_type": "template"
         },
         {
-          "flow_name": "articles_day_3_mh_stress_2",
+          "flow_name": "articles_week_1_session_6",
           "flow_subtype": "generated",
           "flow_type": "template"
         },
         {
-          "flow_name": "articles_day_3_mh_stress_3",
+          "flow_name": "articles_module_2_feelings",
           "flow_subtype": "generated",
           "flow_type": "template"
         },
         {
-          "flow_name": "articles_day_3_mh_stress_4",
+          "flow_name": "articles_module_2_feelings_2",
           "flow_subtype": "generated",
           "flow_type": "template"
         },
         {
-          "flow_name": "articles_day_3_mh_stress_5",
+          "flow_name": "articles_module_2_feelings_3",
           "flow_subtype": "generated",
           "flow_type": "template"
         },
         {
-          "flow_name": "articles_day_3_mh_stress_6",
+          "flow_name": "articles_module_2_feelings_4",
           "flow_subtype": "generated",
           "flow_type": "template"
         },
         {
-          "flow_name": "articles_day_5_final_chat_session_5ux",
+          "flow_name": "articles_module_2_feelings_5",
           "flow_subtype": "generated",
           "flow_type": "template"
         },
         {
-          "flow_name": "articles_day_5_final_chat_session_5ux_2",
+          "flow_name": "articles_module_2_feelings_6",
           "flow_subtype": "generated",
           "flow_type": "template"
         },
         {
-          "flow_name": "articles_day_5_final_chat_session_5ux_3",
+          "flow_name": "articles_module_2_feelings_7",
           "flow_subtype": "generated",
           "flow_type": "template"
         },
         {
-          "flow_name": "articles_day_5_final_chat_session_5ux_4",
+          "flow_name": "articles_module_2_feelings_8",
           "flow_subtype": "generated",
           "flow_type": "template"
         },
         {
-          "flow_name": "articles_day_5_final_chat_session_5ux_5",
+          "flow_name": "articles_module_2_feelings_9",
           "flow_subtype": "generated",
           "flow_type": "template"
         },
         {
-          "flow_name": "articles_before_chat",
+          "flow_name": "articles_module_2_feelings_10",
           "flow_subtype": "generated",
           "flow_type": "template"
         },
         {
-          "flow_name": "articles_before_chat_2",
+          "flow_name": "articles_module_2_feelings_11",
           "flow_subtype": "generated",
           "flow_type": "template"
         },
         {
-          "flow_name": "articles_week_1_chat",
+          "flow_name": "articles_module_2_feelings_12",
           "flow_subtype": "generated",
           "flow_type": "template"
         },
         {
-          "flow_name": "articles_week_1_chat_2",
-          "flow_subtype": "generated",
-          "flow_type": "template"
-        },
-        {
-          "flow_name": "articles_week_1_chat_3",
-          "flow_subtype": "generated",
-          "flow_type": "template"
-        },
-        {
-          "flow_name": "articles_week_1_chat_4",
-          "flow_subtype": "generated",
-          "flow_type": "template"
-        },
-        {
-          "flow_name": "articles_week_1_chat_5",
-          "flow_subtype": "generated",
-          "flow_type": "template"
-        },
-        {
-          "flow_name": "articles_week_1_chat_6",
+          "flow_name": "articles_module_2_feelings_13",
           "flow_subtype": "generated",
           "flow_type": "template"
         },
@@ -1693,32 +1320,32 @@
           "flow_type": "template"
         },
         {
-          "flow_name": "articles_week_3_chat",
+          "flow_name": "articles_week_3_session",
           "flow_subtype": "generated",
           "flow_type": "template"
         },
         {
-          "flow_name": "articles_week_3_chat_2",
+          "flow_name": "articles_week_3_session_2",
           "flow_subtype": "generated",
           "flow_type": "template"
         },
         {
-          "flow_name": "articles_week_3_chat_3",
+          "flow_name": "articles_week_3_session_3",
           "flow_subtype": "generated",
           "flow_type": "template"
         },
         {
-          "flow_name": "articles_week_3_chat_4",
+          "flow_name": "articles_week_3_session_4",
           "flow_subtype": "generated",
           "flow_type": "template"
         },
         {
-          "flow_name": "articles_week_3_chat_5",
+          "flow_name": "articles_week_3_session_5",
           "flow_subtype": "generated",
           "flow_type": "template"
         },
         {
-          "flow_name": "articles_week_3_chat_6",
+          "flow_name": "articles_week_3_session_6",
           "flow_subtype": "generated",
           "flow_type": "template"
         },
@@ -1765,6 +1392,11 @@
       },
       "_xlsxPath": "templates/library.xlsx",
       "_output_flows": [
+        {
+          "flow_name": "library_article_Module 2: Talking about Feelings",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
         {
           "flow_name": "library_article_what_is_safeguarding",
           "flow_subtype": "generated",
@@ -2040,18 +1672,6 @@
         }
       ]
     },
-    "gen_menus": {
-      "flow_type": "generator",
-      "flow_name": "gen_menus",
-      "parameter_list": {
-        "input_data_list": "menus",
-        "output_flow_name": "sub_item_{@gen.loop_id}",
-        "output_flow_type": "template",
-        "output_flow_subtype": "generated"
-      },
-      "_xlsxPath": "templates/menu_sub_tasks.xlsx",
-      "_output_flows": []
-    },
     "gen_prep_sub_items": {
       "flow_type": "generator",
       "flow_name": "gen_prep_sub_items",
@@ -2064,117 +1684,97 @@
       "_xlsxPath": "templates/menu_sub_tasks.xlsx",
       "_output_flows": [
         {
-          "flow_name": "prep_onboarding_day_chat_sub_items",
+          "flow_name": "prep_week_1_session_sub_items",
           "flow_subtype": "generated",
           "flow_type": "data_pipe"
         },
         {
-          "flow_name": "prep_onboarding_day_chat_2_sub_items",
+          "flow_name": "prep_week_1_session_2_sub_items",
           "flow_subtype": "generated",
           "flow_type": "data_pipe"
         },
         {
-          "flow_name": "prep_onboarding_day_chat_3_sub_items",
+          "flow_name": "prep_week_1_session_3_sub_items",
           "flow_subtype": "generated",
           "flow_type": "data_pipe"
         },
         {
-          "flow_name": "prep_onboarding_day_chat_4_sub_items",
+          "flow_name": "prep_week_1_session_4_sub_items",
           "flow_subtype": "generated",
           "flow_type": "data_pipe"
         },
         {
-          "flow_name": "prep_day_3_mh_stress_sub_items",
+          "flow_name": "prep_week_1_session_5_sub_items",
           "flow_subtype": "generated",
           "flow_type": "data_pipe"
         },
         {
-          "flow_name": "prep_day_3_mh_stress_2_sub_items",
+          "flow_name": "prep_week_1_session_6_sub_items",
           "flow_subtype": "generated",
           "flow_type": "data_pipe"
         },
         {
-          "flow_name": "prep_day_3_mh_stress_3_sub_items",
+          "flow_name": "prep_module_2_feelings_sub_items",
           "flow_subtype": "generated",
           "flow_type": "data_pipe"
         },
         {
-          "flow_name": "prep_day_3_mh_stress_4_sub_items",
+          "flow_name": "prep_module_2_feelings_2_sub_items",
           "flow_subtype": "generated",
           "flow_type": "data_pipe"
         },
         {
-          "flow_name": "prep_day_3_mh_stress_5_sub_items",
+          "flow_name": "prep_module_2_feelings_3_sub_items",
           "flow_subtype": "generated",
           "flow_type": "data_pipe"
         },
         {
-          "flow_name": "prep_day_3_mh_stress_6_sub_items",
+          "flow_name": "prep_module_2_feelings_4_sub_items",
           "flow_subtype": "generated",
           "flow_type": "data_pipe"
         },
         {
-          "flow_name": "prep_day_5_final_chat_session_5ux_sub_items",
+          "flow_name": "prep_module_2_feelings_5_sub_items",
           "flow_subtype": "generated",
           "flow_type": "data_pipe"
         },
         {
-          "flow_name": "prep_day_5_final_chat_session_5ux_2_sub_items",
+          "flow_name": "prep_module_2_feelings_6_sub_items",
           "flow_subtype": "generated",
           "flow_type": "data_pipe"
         },
         {
-          "flow_name": "prep_day_5_final_chat_session_5ux_3_sub_items",
+          "flow_name": "prep_module_2_feelings_7_sub_items",
           "flow_subtype": "generated",
           "flow_type": "data_pipe"
         },
         {
-          "flow_name": "prep_day_5_final_chat_session_5ux_4_sub_items",
+          "flow_name": "prep_module_2_feelings_8_sub_items",
           "flow_subtype": "generated",
           "flow_type": "data_pipe"
         },
         {
-          "flow_name": "prep_day_5_final_chat_session_5ux_5_sub_items",
+          "flow_name": "prep_module_2_feelings_9_sub_items",
           "flow_subtype": "generated",
           "flow_type": "data_pipe"
         },
         {
-          "flow_name": "prep_before_chat_sub_items",
+          "flow_name": "prep_module_2_feelings_10_sub_items",
           "flow_subtype": "generated",
           "flow_type": "data_pipe"
         },
         {
-          "flow_name": "prep_before_chat_2_sub_items",
+          "flow_name": "prep_module_2_feelings_11_sub_items",
           "flow_subtype": "generated",
           "flow_type": "data_pipe"
         },
         {
-          "flow_name": "prep_week_1_chat_sub_items",
+          "flow_name": "prep_module_2_feelings_12_sub_items",
           "flow_subtype": "generated",
           "flow_type": "data_pipe"
         },
         {
-          "flow_name": "prep_week_1_chat_2_sub_items",
-          "flow_subtype": "generated",
-          "flow_type": "data_pipe"
-        },
-        {
-          "flow_name": "prep_week_1_chat_3_sub_items",
-          "flow_subtype": "generated",
-          "flow_type": "data_pipe"
-        },
-        {
-          "flow_name": "prep_week_1_chat_4_sub_items",
-          "flow_subtype": "generated",
-          "flow_type": "data_pipe"
-        },
-        {
-          "flow_name": "prep_week_1_chat_5_sub_items",
-          "flow_subtype": "generated",
-          "flow_type": "data_pipe"
-        },
-        {
-          "flow_name": "prep_week_1_chat_6_sub_items",
+          "flow_name": "prep_module_2_feelings_13_sub_items",
           "flow_subtype": "generated",
           "flow_type": "data_pipe"
         },
@@ -2214,32 +1814,32 @@
           "flow_type": "data_pipe"
         },
         {
-          "flow_name": "prep_week_3_chat_sub_items",
+          "flow_name": "prep_week_3_session_sub_items",
           "flow_subtype": "generated",
           "flow_type": "data_pipe"
         },
         {
-          "flow_name": "prep_week_3_chat_2_sub_items",
+          "flow_name": "prep_week_3_session_2_sub_items",
           "flow_subtype": "generated",
           "flow_type": "data_pipe"
         },
         {
-          "flow_name": "prep_week_3_chat_3_sub_items",
+          "flow_name": "prep_week_3_session_3_sub_items",
           "flow_subtype": "generated",
           "flow_type": "data_pipe"
         },
         {
-          "flow_name": "prep_week_3_chat_4_sub_items",
+          "flow_name": "prep_week_3_session_4_sub_items",
           "flow_subtype": "generated",
           "flow_type": "data_pipe"
         },
         {
-          "flow_name": "prep_week_3_chat_5_sub_items",
+          "flow_name": "prep_week_3_session_5_sub_items",
           "flow_subtype": "generated",
           "flow_type": "data_pipe"
         },
         {
-          "flow_name": "prep_week_3_chat_6_sub_items",
+          "flow_name": "prep_week_3_session_6_sub_items",
           "flow_subtype": "generated",
           "flow_type": "data_pipe"
         },
@@ -2287,22 +1887,22 @@
       "_xlsxPath": "templates/help.xlsx",
       "_output_flows": [
         {
-          "flow_name": "help_data_collection",
-          "flow_subtype": "generated",
-          "flow_type": "template"
-        },
-        {
           "flow_name": "help_home",
           "flow_subtype": "generated",
           "flow_type": "template"
         },
         {
-          "flow_name": "help_profile",
+          "flow_name": "help_reports",
           "flow_subtype": "generated",
           "flow_type": "template"
         },
         {
           "flow_name": "help_library",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "help_settings",
           "flow_subtype": "generated",
           "flow_type": "template"
         }
@@ -2488,6 +2088,11 @@
       "flow_name": "add_group_button",
       "_xlsxPath": "templates/profile.xlsx"
     },
+    "add_in_person": {
+      "flow_type": "template",
+      "flow_name": "add_in_person",
+      "_xlsxPath": "templates/reports.xlsx"
+    },
     "add_parent": {
       "flow_type": "template",
       "flow_name": "add_parent",
@@ -2497,6 +2102,11 @@
       "flow_type": "template",
       "flow_name": "add_parent_group",
       "_xlsxPath": "templates/profile.xlsx"
+    },
+    "add_remote": {
+      "flow_type": "template",
+      "flow_name": "add_remote",
+      "_xlsxPath": "templates/reports.xlsx"
     },
     "add_report": {
       "flow_type": "template",
@@ -2518,20 +2128,15 @@
       "flow_name": "app_update_complete",
       "_xlsxPath": "templates/app_launch.xlsx"
     },
-    "article": {
+    "archive_group": {
       "flow_type": "template",
-      "flow_name": "article",
-      "_xlsxPath": "templates/article.xlsx"
+      "flow_name": "archive_group",
+      "_xlsxPath": "templates/profile.xlsx"
     },
     "article_intro": {
       "flow_type": "template",
       "flow_name": "article_intro",
       "_xlsxPath": "templates/menu_sub_tasks.xlsx"
-    },
-    "article_launch_history": {
-      "flow_type": "template",
-      "flow_name": "article_launch_history",
-      "_xlsxPath": "templates/article.xlsx"
     },
     "article_loop": {
       "flow_type": "template",
@@ -2578,6 +2183,11 @@
       "flow_name": "download_header",
       "_xlsxPath": "templates/media.xlsx"
     },
+    "edit_in_person": {
+      "flow_type": "template",
+      "flow_name": "edit_in_person",
+      "_xlsxPath": "templates/reports.xlsx"
+    },
     "edit_parent": {
       "flow_type": "template",
       "flow_name": "edit_parent",
@@ -2587,6 +2197,11 @@
       "flow_type": "template",
       "flow_name": "edit_parent_group",
       "_xlsxPath": "templates/profile.xlsx"
+    },
+    "edit_remote": {
+      "flow_type": "template",
+      "flow_name": "edit_remote",
+      "_xlsxPath": "templates/reports.xlsx"
     },
     "edit_report": {
       "flow_type": "template",
@@ -2636,348 +2251,98 @@
       "override_condition": "@fields._deployment_name == \"plh_facilitator_ph\"",
       "_xlsxPath": "templates/footer_ph.xlsx"
     },
-    "article_after_disclosed_abuse": {
-      "flow_name": "article_after_disclosed_abuse",
+    "articles_module_2_feelings": {
+      "flow_name": "articles_module_2_feelings",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
-    "article_before_chat": {
-      "flow_name": "article_before_chat",
+    "articles_module_2_feelings_10": {
+      "flow_name": "articles_module_2_feelings_10",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
-    "article_behave_challenges": {
-      "flow_name": "article_behave_challenges",
+    "articles_module_2_feelings_11": {
+      "flow_name": "articles_module_2_feelings_11",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
-    "article_coach_overview": {
-      "flow_name": "article_coach_overview",
+    "articles_module_2_feelings_12": {
+      "flow_name": "articles_module_2_feelings_12",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
-    "article_contact_for_reporting_abuse": {
-      "flow_name": "article_contact_for_reporting_abuse",
+    "articles_module_2_feelings_13": {
+      "flow_name": "articles_module_2_feelings_13",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
-    "article_crisis_hotlines": {
-      "flow_name": "article_crisis_hotlines",
+    "articles_module_2_feelings_2": {
+      "flow_name": "articles_module_2_feelings_2",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
-    "article_day_3_mh_stress_self_talk": {
-      "flow_name": "article_day_3_mh_stress_self_talk",
+    "articles_module_2_feelings_3": {
+      "flow_name": "articles_module_2_feelings_3",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
-    "article_day_5_final_chat_sessions_5ux": {
-      "flow_name": "article_day_5_final_chat_sessions_5ux",
+    "articles_module_2_feelings_4": {
+      "flow_name": "articles_module_2_feelings_4",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
-    "article_during_disclosed_abuse": {
-      "flow_name": "article_during_disclosed_abuse",
+    "articles_module_2_feelings_5": {
+      "flow_name": "articles_module_2_feelings_5",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
-    "article_faq_ground_rules": {
-      "flow_name": "article_faq_ground_rules",
+    "articles_module_2_feelings_6": {
+      "flow_name": "articles_module_2_feelings_6",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
-    "article_faq_h_after_group_ended": {
-      "flow_name": "article_faq_h_after_group_ended",
+    "articles_module_2_feelings_7": {
+      "flow_name": "articles_module_2_feelings_7",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
-    "article_faq_h_no_neg_to_pos": {
-      "flow_name": "article_faq_h_no_neg_to_pos",
+    "articles_module_2_feelings_8": {
+      "flow_name": "articles_module_2_feelings_8",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
-    "article_faq_h_no_strengths": {
-      "flow_name": "article_faq_h_no_strengths",
+    "articles_module_2_feelings_9": {
+      "flow_name": "articles_module_2_feelings_9",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
-    "article_faq_h_no_thoughts": {
-      "flow_name": "article_faq_h_no_thoughts",
+    "articles_week_1_session": {
+      "flow_name": "articles_week_1_session",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
-    "article_faq_h_no_understand_connection": {
-      "flow_name": "article_faq_h_no_understand_connection",
+    "articles_week_1_session_2": {
+      "flow_name": "articles_week_1_session_2",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
-    "article_faq_h_no_volunteers": {
-      "flow_name": "article_faq_h_no_volunteers",
+    "articles_week_1_session_3": {
+      "flow_name": "articles_week_1_session_3",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
-    "article_faq_h_parents_insult": {
-      "flow_name": "article_faq_h_parents_insult",
+    "articles_week_1_session_4": {
+      "flow_name": "articles_week_1_session_4",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
-    "article_faq_h_prompts": {
-      "flow_name": "article_faq_h_prompts",
+    "articles_week_1_session_5": {
+      "flow_name": "articles_week_1_session_5",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
-    "article_faq_h_sad_to_end": {
-      "flow_name": "article_faq_h_sad_to_end",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    "article_faq_h_self_harm": {
-      "flow_name": "article_faq_h_self_harm",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    "article_faq_h_still_struggling": {
-      "flow_name": "article_faq_h_still_struggling",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    "article_faq_misbehaviour": {
-      "flow_name": "article_faq_misbehaviour",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    "article_faq_no_participation_general": {
-      "flow_name": "article_faq_no_participation_general",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    "article_faq_small_group_active": {
-      "flow_name": "article_faq_small_group_active",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    "article_faq_text_support": {
-      "flow_name": "article_faq_text_support",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    "article_group_admin_onboarding": {
-      "flow_name": "article_group_admin_onboarding",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    "article_how_to_chat_session_scale": {
-      "flow_name": "article_how_to_chat_session_scale",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    "article_how_to_chat_session_study": {
-      "flow_name": "article_how_to_chat_session_study",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    "article_how_to_report": {
-      "flow_name": "article_how_to_report",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    "article_how_to_report_abuse": {
-      "flow_name": "article_how_to_report_abuse",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    "article_learning_challenges": {
-      "flow_name": "article_learning_challenges",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    "article_onboarding_cc_scale": {
-      "flow_name": "article_onboarding_cc_scale",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    "article_onboarding_cc_study": {
-      "flow_name": "article_onboarding_cc_study",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    "article_onboarding_day_chat": {
-      "flow_name": "article_onboarding_day_chat",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    "article_one_on_one_challenges": {
-      "flow_name": "article_one_on_one_challenges",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    "article_overview_cc_study": {
-      "flow_name": "article_overview_cc_study",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    "article_praise_challenges": {
-      "flow_name": "article_praise_challenges",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    "article_routine_challenges": {
-      "flow_name": "article_routine_challenges",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    "article_safety_challenges": {
-      "flow_name": "article_safety_challenges",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    "article_structure_challenges": {
-      "flow_name": "article_structure_challenges",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    "article_talk_feelings_challenges": {
-      "flow_name": "article_talk_feelings_challenges",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    "article_week_1_chat": {
-      "flow_name": "article_week_1_chat",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    "article_week_2_chat": {
-      "flow_name": "article_week_2_chat",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    "article_week_3_chat": {
-      "flow_name": "article_week_3_chat",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    "article_week_4_chat": {
-      "flow_name": "article_week_4_chat",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    "article_what_is_safeguarding": {
-      "flow_name": "article_what_is_safeguarding",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    "articles_before_chat": {
-      "flow_name": "articles_before_chat",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    "articles_before_chat_2": {
-      "flow_name": "articles_before_chat_2",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    "articles_day_3_mh_stress": {
-      "flow_name": "articles_day_3_mh_stress",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    "articles_day_3_mh_stress_2": {
-      "flow_name": "articles_day_3_mh_stress_2",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    "articles_day_3_mh_stress_3": {
-      "flow_name": "articles_day_3_mh_stress_3",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    "articles_day_3_mh_stress_4": {
-      "flow_name": "articles_day_3_mh_stress_4",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    "articles_day_3_mh_stress_5": {
-      "flow_name": "articles_day_3_mh_stress_5",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    "articles_day_3_mh_stress_6": {
-      "flow_name": "articles_day_3_mh_stress_6",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    "articles_day_5_final_chat_session_5ux": {
-      "flow_name": "articles_day_5_final_chat_session_5ux",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    "articles_day_5_final_chat_session_5ux_2": {
-      "flow_name": "articles_day_5_final_chat_session_5ux_2",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    "articles_day_5_final_chat_session_5ux_3": {
-      "flow_name": "articles_day_5_final_chat_session_5ux_3",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    "articles_day_5_final_chat_session_5ux_4": {
-      "flow_name": "articles_day_5_final_chat_session_5ux_4",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    "articles_day_5_final_chat_session_5ux_5": {
-      "flow_name": "articles_day_5_final_chat_session_5ux_5",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    "articles_onboarding_day_chat": {
-      "flow_name": "articles_onboarding_day_chat",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    "articles_onboarding_day_chat_2": {
-      "flow_name": "articles_onboarding_day_chat_2",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    "articles_onboarding_day_chat_3": {
-      "flow_name": "articles_onboarding_day_chat_3",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    "articles_onboarding_day_chat_4": {
-      "flow_name": "articles_onboarding_day_chat_4",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    "articles_week_1_chat": {
-      "flow_name": "articles_week_1_chat",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    "articles_week_1_chat_2": {
-      "flow_name": "articles_week_1_chat_2",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    "articles_week_1_chat_3": {
-      "flow_name": "articles_week_1_chat_3",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    "articles_week_1_chat_4": {
-      "flow_name": "articles_week_1_chat_4",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    "articles_week_1_chat_5": {
-      "flow_name": "articles_week_1_chat_5",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    "articles_week_1_chat_6": {
-      "flow_name": "articles_week_1_chat_6",
+    "articles_week_1_session_6": {
+      "flow_name": "articles_week_1_session_6",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
@@ -3016,33 +2381,33 @@
       "flow_subtype": "generated",
       "flow_type": "template"
     },
-    "articles_week_3_chat": {
-      "flow_name": "articles_week_3_chat",
+    "articles_week_3_session": {
+      "flow_name": "articles_week_3_session",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
-    "articles_week_3_chat_2": {
-      "flow_name": "articles_week_3_chat_2",
+    "articles_week_3_session_2": {
+      "flow_name": "articles_week_3_session_2",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
-    "articles_week_3_chat_3": {
-      "flow_name": "articles_week_3_chat_3",
+    "articles_week_3_session_3": {
+      "flow_name": "articles_week_3_session_3",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
-    "articles_week_3_chat_4": {
-      "flow_name": "articles_week_3_chat_4",
+    "articles_week_3_session_4": {
+      "flow_name": "articles_week_3_session_4",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
-    "articles_week_3_chat_5": {
-      "flow_name": "articles_week_3_chat_5",
+    "articles_week_3_session_5": {
+      "flow_name": "articles_week_3_session_5",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
-    "articles_week_3_chat_6": {
-      "flow_name": "articles_week_3_chat_6",
+    "articles_week_3_session_6": {
+      "flow_name": "articles_week_3_session_6",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
@@ -3081,11 +2446,6 @@
       "flow_subtype": "generated",
       "flow_type": "template"
     },
-    "help_data_collection": {
-      "flow_name": "help_data_collection",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
     "help_group": {
       "flow_name": "help_group",
       "flow_subtype": "generated",
@@ -3111,8 +2471,13 @@
       "flow_subtype": "generated",
       "flow_type": "template"
     },
-    "help_profile": {
-      "flow_name": "help_profile",
+    "help_reports": {
+      "flow_name": "help_reports",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "help_settings": {
+      "flow_name": "help_settings",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
@@ -3406,28 +2771,13 @@
       "flow_subtype": "generated",
       "flow_type": "template"
     },
-    "sub_item_before_chat": {
-      "flow_name": "sub_item_before_chat",
+    "sub_item_module_2_feelings": {
+      "flow_name": "sub_item_module_2_feelings",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
-    "sub_item_day_3_mh_stress": {
-      "flow_name": "sub_item_day_3_mh_stress",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    "sub_item_day_5_final_chat_session_5ux": {
-      "flow_name": "sub_item_day_5_final_chat_session_5ux",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    "sub_item_onboarding_day_chat": {
-      "flow_name": "sub_item_onboarding_day_chat",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    "sub_item_week_1_chat": {
-      "flow_name": "sub_item_week_1_chat",
+    "sub_item_week_1_session": {
+      "flow_name": "sub_item_week_1_session",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
@@ -3436,8 +2786,8 @@
       "flow_subtype": "generated",
       "flow_type": "template"
     },
-    "sub_item_week_3_chat": {
-      "flow_name": "sub_item_week_3_chat",
+    "sub_item_week_3_session": {
+      "flow_name": "sub_item_week_3_session",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
@@ -3563,11 +2913,6 @@
       "flow_name": "menu_task_card",
       "_xlsxPath": "templates/menu_multi_run_task_flow.xlsx"
     },
-    "message_box": {
-      "flow_type": "template",
-      "flow_name": "message_box",
-      "_xlsxPath": "templates/article.xlsx"
-    },
     "message_element": {
       "flow_type": "template",
       "flow_name": "message_element",
@@ -3616,6 +2961,13 @@
     "profile": {
       "flow_type": "template",
       "flow_name": "profile",
+      "parameter_list": {
+        "app_config": {
+          "LAYOUT": {
+            "page_padding": "24px 0"
+          }
+        }
+      },
       "_xlsxPath": "templates/profile.xlsx"
     },
     "profile_about": {

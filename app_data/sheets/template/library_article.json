@@ -142,30 +142,6 @@
       "value": "intro_element",
       "rows": [
         {
-          "name": "image",
-          "value": "@local.article_data.icon_asset",
-          "_translations": {
-            "value": {}
-          },
-          "type": "set_variable",
-          "_nested_name": "intro_element.image",
-          "_dynamicFields": {
-            "value": [
-              {
-                "fullExpression": "@local.article_data.icon_asset",
-                "matchedExpression": "@local.article_data.icon_asset",
-                "type": "local",
-                "fieldName": "article_data"
-              }
-            ]
-          },
-          "_dynamicDependencies": {
-            "@local.article_data.icon_asset": [
-              "value"
-            ]
-          }
-        },
-        {
           "name": "text",
           "value": "@local.article_data.introduction",
           "_translations": {
@@ -185,6 +161,54 @@
           },
           "_dynamicDependencies": {
             "@local.article_data.introduction": [
+              "value"
+            ]
+          }
+        },
+        {
+          "name": "image",
+          "value": "@local.article_data.introduction_image",
+          "_translations": {
+            "value": {}
+          },
+          "type": "set_variable",
+          "_nested_name": "intro_element.image",
+          "_dynamicFields": {
+            "value": [
+              {
+                "fullExpression": "@local.article_data.introduction_image",
+                "matchedExpression": "@local.article_data.introduction_image",
+                "type": "local",
+                "fieldName": "article_data"
+              }
+            ]
+          },
+          "_dynamicDependencies": {
+            "@local.article_data.introduction_image": [
+              "value"
+            ]
+          }
+        },
+        {
+          "name": "text_2",
+          "value": "@local.article_data.introduction_2",
+          "_translations": {
+            "value": {}
+          },
+          "type": "set_variable",
+          "_nested_name": "intro_element.text_2",
+          "_dynamicFields": {
+            "value": [
+              {
+                "fullExpression": "@local.article_data.introduction_2",
+                "matchedExpression": "@local.article_data.introduction_2",
+                "type": "local",
+                "fieldName": "article_data"
+              }
+            ]
+          },
+          "_dynamicDependencies": {
+            "@local.article_data.introduction_2": [
               "value"
             ]
           }
@@ -797,6 +821,30 @@
           }
         },
         {
+          "name": "message_asset_no",
+          "value": "message_asset_@item.id",
+          "_translations": {
+            "value": {}
+          },
+          "type": "set_variable",
+          "_nested_name": "items_16.message_asset_no",
+          "_dynamicFields": {
+            "value": [
+              {
+                "fullExpression": "message_asset_@item.id",
+                "matchedExpression": "@item.id",
+                "type": "item",
+                "fieldName": "id"
+              }
+            ]
+          },
+          "_dynamicDependencies": {
+            "@item.id": [
+              "value"
+            ]
+          }
+        },
+        {
           "name": "concat_message_title",
           "value": "@local.concat_article_id.@local.message_title_no",
           "_translations": {
@@ -896,6 +944,39 @@
           }
         },
         {
+          "name": "concat_message_asset",
+          "value": "@local.concat_article_id.@local.message_asset_no",
+          "_translations": {
+            "value": {}
+          },
+          "type": "set_variable",
+          "_nested_name": "items_16.concat_message_asset",
+          "_dynamicFields": {
+            "value": [
+              {
+                "fullExpression": "@local.concat_article_id.@local.message_asset_no",
+                "matchedExpression": "@local.concat_article_id",
+                "type": "local",
+                "fieldName": "concat_article_id"
+              },
+              {
+                "fullExpression": "@local.concat_article_id.@local.message_asset_no",
+                "matchedExpression": "@local.message_asset_no",
+                "type": "local",
+                "fieldName": "message_asset_no"
+              }
+            ]
+          },
+          "_dynamicDependencies": {
+            "@local.concat_article_id": [
+              "value"
+            ],
+            "@local.message_asset_no": [
+              "value"
+            ]
+          }
+        },
+        {
           "name": "message_title",
           "value": "@data.@local.concat_message_title",
           "_translations": {
@@ -963,6 +1044,30 @@
           },
           "_dynamicDependencies": {
             "@local.concat_message_guidance": [
+              "value"
+            ]
+          }
+        },
+        {
+          "name": "message_asset",
+          "value": "@data.@local.concat_message_asset",
+          "_translations": {
+            "value": {}
+          },
+          "type": "set_variable",
+          "_nested_name": "items_16.message_asset",
+          "_dynamicFields": {
+            "value": [
+              {
+                "fullExpression": "@data.@local.concat_message_asset",
+                "matchedExpression": "@local.concat_message_asset",
+                "type": "local",
+                "fieldName": "concat_message_asset"
+              }
+            ]
+          },
+          "_dynamicDependencies": {
+            "@local.concat_message_asset": [
               "value"
             ]
           }
@@ -1074,6 +1179,30 @@
                 "@local.message_guidance": [
                   "value",
                   "condition"
+                ]
+              }
+            },
+            {
+              "name": "asset",
+              "value": "@local.message_asset",
+              "_translations": {
+                "value": {}
+              },
+              "type": "set_variable",
+              "_nested_name": "items_16.message_element.asset",
+              "_dynamicFields": {
+                "value": [
+                  {
+                    "fullExpression": "@local.message_asset",
+                    "matchedExpression": "@local.message_asset",
+                    "type": "local",
+                    "fieldName": "message_asset"
+                  }
+                ]
+              },
+              "_dynamicDependencies": {
+                "@local.message_asset": [
+                  "value"
                 ]
               }
             }

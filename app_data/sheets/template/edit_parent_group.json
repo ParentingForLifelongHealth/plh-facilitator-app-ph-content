@@ -4,6 +4,12 @@
   "status": "released",
   "rows": [
     {
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "name": "set_variable_2",
+      "_nested_name": "set_variable_2"
+    },
+    {
       "name": "title_label",
       "value": "Edit Parent Group",
       "_translations": {
@@ -13,14 +19,21 @@
       "_nested_name": "title_label"
     },
     {
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "name": "set_variable_4",
+      "_nested_name": "set_variable_4"
+    },
+    {
       "type": "text",
       "value": "group number: @fields.current_group_no",
       "_translations": {
         "value": {}
       },
       "condition": false,
-      "name": "text_4",
-      "_nested_name": "text_4",
+      "exclude_from_translation": true,
+      "name": "text_5",
+      "_nested_name": "text_5",
       "_dynamicFields": {
         "value": [
           {
@@ -52,6 +65,7 @@
           "_cleaned": "uncompleted | emit: uncompleted"
         }
       ],
+      "exclude_from_translation": true,
       "rows": [
         {
           "name": "title",
@@ -59,6 +73,7 @@
           "_translations": {
             "value": {}
           },
+          "exclude_from_translation": true,
           "type": "set_variable",
           "_nested_name": "header.title",
           "_dynamicFields": {
@@ -81,6 +96,12 @@
       "_nested_name": "header"
     },
     {
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "name": "set_variable_8",
+      "_nested_name": "set_variable_8"
+    },
+    {
       "type": "text",
       "name": "text_group_name",
       "value": "Group Name",
@@ -90,7 +111,6 @@
       "parameter_list": {
         "style": "emphasised"
       },
-      "exclude_from_translation": false,
       "_nested_name": "text_group_name"
     },
     {
@@ -100,8 +120,9 @@
         "value": {}
       },
       "condition": false,
-      "name": "text_8",
-      "_nested_name": "text_8",
+      "exclude_from_translation": true,
+      "name": "text_10",
+      "_nested_name": "text_10",
       "_dynamicFields": {
         "value": [
           {
@@ -119,6 +140,36 @@
       }
     },
     {
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "name": "set_variable_11",
+      "_nested_name": "set_variable_11"
+    },
+    {
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "name": "set_variable_12",
+      "_nested_name": "set_variable_12"
+    },
+    {
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "name": "set_variable_13",
+      "_nested_name": "set_variable_13"
+    },
+    {
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "name": "set_variable_14",
+      "_nested_name": "set_variable_14"
+    },
+    {
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "name": "set_variable_15",
+      "_nested_name": "set_variable_15"
+    },
+    {
       "type": "text_box",
       "name": "text_box",
       "value": "@fields.current_group_name",
@@ -126,8 +177,9 @@
         "value": {}
       },
       "parameter_list": {
-        "placeholder": "Group Name"
+        "placeholder": "@local.text_group_name"
       },
+      "exclude_from_translation": true,
       "_nested_name": "text_box",
       "_dynamicFields": {
         "value": [
@@ -137,11 +189,24 @@
             "type": "fields",
             "fieldName": "current_group_name"
           }
-        ]
+        ],
+        "parameter_list": {
+          "placeholder": [
+            {
+              "fullExpression": "@local.text_group_name",
+              "matchedExpression": "@local.text_group_name",
+              "type": "local",
+              "fieldName": "text_group_name"
+            }
+          ]
+        }
       },
       "_dynamicDependencies": {
         "@fields.current_group_name": [
           "value"
+        ],
+        "@local.text_group_name": [
+          "parameter_list.placeholder"
         ]
       }
     },
@@ -149,6 +214,7 @@
       "type": "template",
       "name": "parent_list",
       "value": "parent_list",
+      "exclude_from_translation": true,
       "rows": [],
       "_nested_name": "parent_list"
     },
@@ -161,6 +227,7 @@
         "padding: 12px 24px"
       ],
       "condition": "@fields.current_group_no <> \"new\"",
+      "exclude_from_translation": true,
       "rows": [
         {
           "type": "button",
@@ -195,7 +262,7 @@
           "parameter_list": {
             "variant": "card"
           },
-          "_nested_name": "display_group_12.save",
+          "_nested_name": "display_group_19.save",
           "_dynamicFields": {
             "action_list": {
               "0": {
@@ -262,8 +329,8 @@
           }
         }
       ],
-      "name": "display_group_12",
-      "_nested_name": "display_group_12",
+      "name": "display_group_19",
+      "_nested_name": "display_group_19",
       "_dynamicFields": {
         "condition": [
           {

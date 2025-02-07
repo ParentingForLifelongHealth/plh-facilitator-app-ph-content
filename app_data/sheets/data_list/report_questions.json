@@ -5,23 +5,55 @@
   "rows": [
     {
       "id": "question_1",
+      "type": "text",
       "question": "How many minutes did it take you to prepare for this session?",
-      "type": "text"
+      "_translations": {
+        "question": {}
+      },
+      "_translatedFields": {
+        "question": {
+          "eng": "How many minutes did it take you to prepare for this session?"
+        }
+      }
     },
     {
       "id": "question_2",
+      "type": "text",
       "question": "How many minutes did it take you to travel to the location where the session was delivered?",
-      "type": "text"
+      "_translations": {
+        "question": {}
+      },
+      "_translatedFields": {
+        "question": {
+          "eng": "How many minutes did it take you to travel to the location where the session was delivered?"
+        }
+      }
     },
     {
       "id": "question_3",
+      "type": "text",
       "question": "How many minutes did it take you to deliver the sessions?",
-      "type": "text"
+      "_translations": {
+        "question": {}
+      },
+      "_translatedFields": {
+        "question": {
+          "eng": "How many minutes did it take you to deliver the sessions?"
+        }
+      }
     },
     {
       "id": "question_4",
+      "type": "select",
       "question": "Which of the parents in this group attended your in-person session?",
-      "type": "select"
+      "_translations": {
+        "question": {}
+      },
+      "_translatedFields": {
+        "question": {
+          "eng": "Which of the parents in this group attended your in-person session?"
+        }
+      }
     }
   ],
   "_xlsxPath": "templates/reports.xlsx"

@@ -37,6 +37,11 @@
   "_xlsxPath": "templates/library.xlsx",
   "_output_flows": [
     {
+      "flow_name": "library_article_Module 2: Talking about Feelings",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
       "flow_name": "library_article_what_is_safeguarding",
       "flow_subtype": "generated",
       "flow_type": "template"

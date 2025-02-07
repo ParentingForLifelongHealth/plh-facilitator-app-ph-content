@@ -16,6 +16,7 @@
     {
       "name": "stack_navigation",
       "value": true,
+      "exclude_from_translation": true,
       "type": "set_variable",
       "_nested_name": "stack_navigation"
     },
@@ -26,6 +27,7 @@
         "value": {}
       },
       "condition": false,
+      "exclude_from_translation": true,
       "name": "text_4",
       "_nested_name": "text_4",
       "_dynamicFields": {
@@ -46,40 +48,9 @@
     },
     {
       "type": "template",
-      "name": "article_intro",
-      "value": "article_intro",
-      "rows": [
-        {
-          "name": "article_id",
-          "value": "@local.article_id",
-          "_translations": {
-            "value": {}
-          },
-          "type": "set_variable",
-          "_nested_name": "article_intro.article_id",
-          "_dynamicFields": {
-            "value": [
-              {
-                "fullExpression": "@local.article_id",
-                "matchedExpression": "@local.article_id",
-                "type": "local",
-                "fieldName": "article_id"
-              }
-            ]
-          },
-          "_dynamicDependencies": {
-            "@local.article_id": [
-              "value"
-            ]
-          }
-        }
-      ],
-      "_nested_name": "article_intro"
-    },
-    {
-      "type": "template",
       "name": "a_article_section",
       "value": "a_article_section",
+      "exclude_from_translation": true,
       "rows": [
         {
           "name": "article_id",
@@ -87,6 +58,7 @@
           "_translations": {
             "value": {}
           },
+          "exclude_from_translation": true,
           "type": "set_variable",
           "_nested_name": "a_article_section.article_id",
           "_dynamicFields": {
@@ -112,6 +84,7 @@
       "type": "template",
       "name": "article_message",
       "value": "article_message",
+      "exclude_from_translation": true,
       "rows": [
         {
           "name": "article_id",
@@ -119,6 +92,7 @@
           "_translations": {
             "value": {}
           },
+          "exclude_from_translation": true,
           "type": "set_variable",
           "_nested_name": "article_message.article_id",
           "_dynamicFields": {
@@ -144,6 +118,7 @@
       "type": "template",
       "name": "article_related",
       "value": "article_related",
+      "exclude_from_translation": true,
       "rows": [
         {
           "name": "article_id",
@@ -151,6 +126,7 @@
           "_translations": {
             "value": {}
           },
+          "exclude_from_translation": true,
           "type": "set_variable",
           "_nested_name": "article_related.article_id",
           "_dynamicFields": {
@@ -171,6 +147,40 @@
         }
       ],
       "_nested_name": "article_related"
+    },
+    {
+      "type": "template",
+      "name": "article_intro",
+      "value": "article_intro",
+      "exclude_from_translation": true,
+      "rows": [
+        {
+          "name": "article_id",
+          "value": "@local.article_id",
+          "_translations": {
+            "value": {}
+          },
+          "exclude_from_translation": true,
+          "type": "set_variable",
+          "_nested_name": "article_intro.article_id",
+          "_dynamicFields": {
+            "value": [
+              {
+                "fullExpression": "@local.article_id",
+                "matchedExpression": "@local.article_id",
+                "type": "local",
+                "fieldName": "article_id"
+              }
+            ]
+          },
+          "_dynamicDependencies": {
+            "@local.article_id": [
+              "value"
+            ]
+          }
+        }
+      ],
+      "_nested_name": "article_intro"
     }
   ],
   "_xlsxPath": "templates/menu_sub_tasks.xlsx"

@@ -8,12 +8,16 @@
       "id": "text_field",
       "name": "text_field",
       "text": "text_field",
-      "archived": true
+      "archived": true,
+      "hidden": false
     }
   ],
   "_xlsxPath": "data/profile_data.xlsx",
   "_metadata": {
     "archived": {
+      "type": "boolean"
+    },
+    "hidden": {
       "type": "boolean"
     }
   }

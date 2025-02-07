@@ -6,16 +6,19 @@
     {
       "name": "condition",
       "value": false,
+      "exclude_from_translation": true,
       "type": "set_variable",
       "_nested_name": "condition"
     },
     {
       "type": "data_items",
       "value": "@data.sub_items",
+      "exclude_from_translation": true,
       "rows": [
         {
           "name": "condition",
           "value": true,
+          "exclude_from_translation": true,
           "type": "set_variable",
           "_nested_name": "data_items_3.condition"
         },
@@ -26,6 +29,7 @@
           "_translations": {
             "value": {}
           },
+          "exclude_from_translation": true,
           "_nested_name": "data_items_3.show_value",
           "_dynamicFields": {
             "value": [
@@ -50,6 +54,7 @@
           "_translations": {
             "value": {}
           },
+          "exclude_from_translation": true,
           "condition": "@local.condition == TRUE",
           "_nested_name": "data_items_3.condition_true",
           "_dynamicFields": {
@@ -75,6 +80,7 @@
           "_translations": {
             "value": {}
           },
+          "exclude_from_translation": true,
           "condition": "!@local.condition",
           "_nested_name": "data_items_3.condition_false",
           "_dynamicFields": {
