@@ -151,7 +151,7 @@
     {
       "type": "declare_global_constant",
       "name": "use_module_image",
-      "value": false,
+      "value": true,
       "exclude_from_translation": true
     },
     {

@@ -181,6 +181,40 @@
         }
       ],
       "_nested_name": "article_intro"
+    },
+    {
+      "type": "template",
+      "name": "article_resource",
+      "value": "article_resource",
+      "exclude_from_translation": true,
+      "rows": [
+        {
+          "name": "article_id",
+          "value": "@local.article_id",
+          "_translations": {
+            "value": {}
+          },
+          "exclude_from_translation": true,
+          "type": "set_variable",
+          "_nested_name": "article_resource.article_id",
+          "_dynamicFields": {
+            "value": [
+              {
+                "fullExpression": "@local.article_id",
+                "matchedExpression": "@local.article_id",
+                "type": "local",
+                "fieldName": "article_id"
+              }
+            ]
+          },
+          "_dynamicDependencies": {
+            "@local.article_id": [
+              "value"
+            ]
+          }
+        }
+      ],
+      "_nested_name": "article_resource"
     }
   ],
   "_xlsxPath": "templates/menu_sub_tasks.xlsx"

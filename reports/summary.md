@@ -9,7 +9,7 @@
 | button | 72 |
 | carousel | 2 |
 | combo_box | 3 |
-| data_items | 26 |
+| data_items | 27 |
 | debug_toggle | 1 |
 | display_grid | 2 |
 | display_group | 95 |
@@ -23,11 +23,11 @@
 | radio_button_grid | 8 |
 | round_button | 30 |
 | select_text | 1 |
-| set_variable | 670 |
+| set_variable | 674 |
 | simple_checkbox | 2 |
 | task_card | 3 |
 | task_progress_bar | 2 |
-| template | 154 |
+| template | 156 |
 | test | 1 |
 | text | 163 |
 | text_area | 2 |
@@ -246,7 +246,7 @@ Assets that are used within sheets and also can be found in the synced asset dat
 
 | type | subtype | total |
 | --- | --- | --- |
-| data_list |  | 23 |
+| data_list |  | 24 |
 | data_list | app_config_language_list | 1 |
 | data_list | generated | 5 |
 | data_list | legal_terms | 2 |
@@ -256,7 +256,7 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | generator |  | 9 |
 | global |  | 11 |
 | global | legal_terms | 1 |
-| template |  | 71 |
+| template |  | 72 |
 | template | generated | 113 |
 | template | legal_terms | 4 |
 | template | menu | 1 |

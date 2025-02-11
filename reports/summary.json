@@ -27,7 +27,7 @@
       },
       {
         "type": "data_items",
-        "count": 26
+        "count": 27
       },
       {
         "type": "debug_toggle",
@@ -83,7 +83,7 @@
       },
       {
         "type": "set_variable",
-        "count": 670
+        "count": 674
       },
       {
         "type": "simple_checkbox",
@@ -99,7 +99,7 @@
       },
       {
         "type": "template",
-        "count": 154
+        "count": 156
       },
       {
         "type": "test",
@@ -909,7 +909,7 @@
       {
         "type": "data_list",
         "subtype": null,
-        "total": 23
+        "total": 24
       },
       {
         "type": "data_list",
@@ -959,7 +959,7 @@
       {
         "type": "template",
         "subtype": null,
-        "total": 71
+        "total": 72
       },
       {
         "type": "template",

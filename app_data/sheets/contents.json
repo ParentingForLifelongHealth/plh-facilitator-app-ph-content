@@ -249,6 +249,12 @@
       "flow_name": "report_questions",
       "_xlsxPath": "templates/reports.xlsx"
     },
+    "resources": {
+      "flow_type": "data_list",
+      "flow_name": "resources",
+      "data_list_name": "resources",
+      "_xlsxPath": "data/modules_sub_items_ph.xlsx"
+    },
     "state": {
       "flow_type": "data_list",
       "flow_name": "state",
@@ -2090,6 +2096,11 @@
     "article_related": {
       "flow_type": "template",
       "flow_name": "article_related",
+      "_xlsxPath": "templates/menu_sub_tasks.xlsx"
+    },
+    "article_resource": {
+      "flow_type": "template",
+      "flow_name": "article_resource",
       "_xlsxPath": "templates/menu_sub_tasks.xlsx"
     },
     "article_story": {
