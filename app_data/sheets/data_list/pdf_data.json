@@ -68,6 +68,45 @@
           "eng": "Reporting Abuse from Programme Partners"
         }
       }
+    },
+    {
+      "id": "module_1_prepare",
+      "pdf_asset": "pdf/module_1_prepare.pdf",
+      "title": "Review the building blocks",
+      "_translations": {
+        "title": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Review the building blocks"
+        }
+      }
+    },
+    {
+      "id": "module_1_deliver",
+      "pdf_asset": "pdf/module_1_deliver.pdf",
+      "title": "Module 1 Facilitator Guide",
+      "_translations": {
+        "title": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Module 1 Facilitator Guide"
+        }
+      }
+    },
+    {
+      "id": "module_2_prepare",
+      "pdf_asset": "pdf/module_2_guide.pdf",
+      "title": "Review the building blocks",
+      "_translations": {
+        "title": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Review the building blocks"
+        }
+      }
     }
   ],
   "_xlsxPath": "data/FacilitatorApp PH articles.xlsx"

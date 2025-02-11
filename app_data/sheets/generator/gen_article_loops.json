@@ -46,17 +46,27 @@
       "flow_type": "template"
     },
     {
-      "flow_name": "sub_item_module_2_feelings",
+      "flow_name": "sub_item_week_1_1_reminder",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
     {
-      "flow_name": "sub_item_week_2_chat",
+      "flow_name": "sub_item_week_1_2_reminder",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
     {
-      "flow_name": "sub_item_week_3_session",
+      "flow_name": "sub_item_week_2_session",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "sub_item_week_2_1_reminder",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "sub_item_week_2_2_reminder",
       "flow_subtype": "generated",
       "flow_type": "template"
     },

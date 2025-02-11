@@ -83,7 +83,7 @@
       },
       {
         "type": "set_variable",
-        "count": 655
+        "count": 670
       },
       {
         "type": "simple_checkbox",
@@ -99,7 +99,7 @@
       },
       {
         "type": "template",
-        "count": 150
+        "count": 154
       },
       {
         "type": "test",
@@ -147,7 +147,7 @@
       },
       {
         "type": "emit: completed",
-        "count": 32
+        "count": 37
       },
       {
         "type": "emit: force_reload",
@@ -171,7 +171,7 @@
       },
       {
         "type": "emit: uncompleted",
-        "count": 79
+        "count": 84
       },
       {
         "type": "feedback",
@@ -227,13 +227,13 @@
     "data": [
       {
         "assets": "total",
-        "KB": "10818 KB",
-        "MB": "10.8 MB"
+        "KB": "55798 KB",
+        "MB": "55.8 MB"
       },
       {
         "assets": "unused",
-        "KB": "1245 KB",
-        "MB": "1.2 MB"
+        "KB": "10321 KB",
+        "MB": "10.3 MB"
       }
     ]
   },
@@ -328,14 +328,6 @@
         "size_kb": 2
       },
       {
-        "path": "images/icons/task_1.png",
-        "size_kb": 1
-      },
-      {
-        "path": "images/icons/task_2.png",
-        "size_kb": 1.9
-      },
-      {
         "path": "images/icons/task_3.png",
         "size_kb": 2
       },
@@ -402,6 +394,10 @@
       {
         "path": "pdf/module_3_guide.pdf",
         "size_kb": 269
+      },
+      {
+        "path": "videos/body_scan.mp4",
+        "size_kb": 9079.2
       }
     ]
   },
@@ -438,13 +434,18 @@
         "missing": true
       },
       {
-        "path": "images/message.png",
+        "path": "lottie/gift_box.json",
+        "count": 2,
+        "missing": true
+      },
+      {
+        "path": "videos/add_parent.mp4",
         "count": 1,
         "missing": true
       },
       {
-        "path": "lottie/gift_box.json",
-        "count": 2,
+        "path": "videos/onboard_caregivers.mp4",
+        "count": 1,
         "missing": true
       }
     ]
@@ -472,6 +473,16 @@
         "size_kb": 2
       },
       {
+        "path": "images/comics/module_2_teen.png",
+        "count": 1,
+        "size_kb": 554.2
+      },
+      {
+        "path": "images/comics/module_2_yc.png",
+        "count": 1,
+        "size_kb": 666.1
+      },
+      {
         "path": "images/contact_for_reporting_abuse.svg",
         "count": 1,
         "size_kb": 6.3
@@ -493,17 +504,17 @@
       },
       {
         "path": "images/day_3_mh_stress_self_talk.svg",
-        "count": 2,
+        "count": 1,
         "size_kb": 5.4
       },
       {
         "path": "images/day_4_check_in.svg",
-        "count": 3,
+        "count": 1,
         "size_kb": 11.3
       },
       {
         "path": "images/day_5_goodbye.svg",
-        "count": 2,
+        "count": 1,
         "size_kb": 19.4
       },
       {
@@ -722,6 +733,11 @@
         "size_kb": 7.4
       },
       {
+        "path": "images/icons/reminder.png",
+        "count": 4,
+        "size_kb": 10.4
+      },
+      {
         "path": "images/icons/report.png",
         "count": 1,
         "size_kb": 1.1
@@ -740,6 +756,16 @@
         "path": "images/icons/share.svg",
         "count": 2,
         "size_kb": 2.3
+      },
+      {
+        "path": "images/icons/task_1.png",
+        "count": 1,
+        "size_kb": 1
+      },
+      {
+        "path": "images/icons/task_2.png",
+        "count": 1,
+        "size_kb": 1.9
       },
       {
         "path": "images/icons/unarchive.svg",
@@ -870,6 +896,11 @@
         "path": "pdf/programme_details.pdf",
         "count": 1,
         "size_kb": 123
+      },
+      {
+        "path": "videos/feelings_yc.mp4",
+        "count": 1,
+        "size_kb": 43746.5
       }
     ]
   },
@@ -908,7 +939,7 @@
       {
         "type": "data_pipe",
         "subtype": "generated",
-        "total": 38
+        "total": 35
       },
       {
         "type": "generator",
@@ -933,7 +964,7 @@
       {
         "type": "template",
         "subtype": "generated",
-        "total": 109
+        "total": 113
       },
       {
         "type": "template",

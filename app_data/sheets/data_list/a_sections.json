@@ -66,9 +66,9 @@
     },
     {
       "id": "section_3",
-      "foreign_key": "module_2_feelings",
+      "foreign_key": "week_2_session",
       "ignore": 3,
-      "ignore_2": "module_2_feelings_1",
+      "ignore_2": "week_2_session_1",
       "title": "Review the chat",
       "_translations": {
         "title": {},
@@ -96,9 +96,9 @@
     },
     {
       "id": "section_4",
-      "foreign_key": "module_2_feelings_3",
+      "foreign_key": "week_2_session_3",
       "ignore": 4,
-      "ignore_2": "module_2_feelings_3",
+      "ignore_2": "week_2_session_3",
       "title": "Outline for Day One",
       "_translations": {
         "title": {},
@@ -111,7 +111,7 @@
           "eng": "Outline for Day One"
         },
         "text": {
-          "eng": "1 – Greetings & Welcome\n2 – Discussion: Burial Work\n3 – Sharing Success\n4 – Sharing the Challenge\n5 – Discussion: Challenges & Solutions\n6 – Introducing MaPa Skill: Talking About Feelings\n7 – Comics: Conversation About Feelings (Children)\n8 – Discussion About Comics\n9 – Comics: Talking About Feelings (Teenage Son)\n10 – Discussion About Comics\n11 – Discussion: Considering the Child’s Age in Conversations\n12 – Discussion: Reasons for Talking About Feelings\n13 – Setting a Home Activity or Homework\n14 – Clarification Video: MaPa Skill Reminder\n15 – Audio Reminder: Pause for a Moment\n16 – Gratitude & Closing"
+          "eng": "1: Greetings & Welcome\n2: Discussion: Burial Work\n3: Sharing Success\n4: Sharing the Challenge\n5: Discussion: Challenges & Solutions\n6: Introducing MaPa Skill: Talking About Feelings\n7: Comics: Conversation About Feelings (Children)\n8: Discussion About Comics\n9: Comics: Talking About Feelings (Teenage Son)\n10: Discussion About Comics\n11: Discussion: Considering the Child’s Age in Conversations\n12: Discussion: Reasons for Talking About Feelings\n13: Setting a Home Activity or Homework\n14: Clarification Video: MaPa Skill Reminder\n15: Audio Reminder: Pause for a Moment\n16: Gratitude & Closing"
         },
         "button_text": {
           "eng": ""
@@ -120,15 +120,15 @@
           "eng": ""
         }
       },
-      "text": "1 – Greetings & Welcome\n2 – Discussion: Burial Work\n3 – Sharing Success\n4 – Sharing the Challenge\n5 – Discussion: Challenges & Solutions\n6 – Introducing MaPa Skill: Talking About Feelings\n7 – Comics: Conversation About Feelings (Children)\n8 – Discussion About Comics\n9 – Comics: Talking About Feelings (Teenage Son)\n10 – Discussion About Comics\n11 – Discussion: Considering the Child’s Age in Conversations\n12 – Discussion: Reasons for Talking About Feelings\n13 – Setting a Home Activity or Homework\n14 – Clarification Video: MaPa Skill Reminder\n15 – Audio Reminder: Pause for a Moment\n16 – Gratitude & Closing",
+      "text": "1: Greetings & Welcome\n2: Discussion: Burial Work\n3: Sharing Success\n4: Sharing the Challenge\n5: Discussion: Challenges & Solutions\n6: Introducing MaPa Skill: Talking About Feelings\n7: Comics: Conversation About Feelings (Children)\n8: Discussion About Comics\n9: Comics: Talking About Feelings (Teenage Son)\n10: Discussion About Comics\n11: Discussion: Considering the Child’s Age in Conversations\n12: Discussion: Reasons for Talking About Feelings\n13: Setting a Home Activity or Homework\n14: Clarification Video: MaPa Skill Reminder\n15: Audio Reminder: Pause for a Moment\n16: Gratitude & Closing",
       "button_text": "",
       "extra_text": ""
     },
     {
       "id": "section_5",
-      "foreign_key": "module_2_feelings_5",
+      "foreign_key": "week_2_session_5",
       "ignore": 5,
-      "ignore_2": "module_2_feelings_5",
+      "ignore_2": "week_2_session_5",
       "title": "Building Blocks of Module 1: One-on-one time",
       "_translations": {
         "title": {},
@@ -141,7 +141,7 @@
           "eng": "Building Blocks of Module 1: One-on-one time"
         },
         "text": {
-          "eng": "Write building block here"
+          "eng": "1️⃣ DAY- Try to do this every day.\nSet aside 5 minutes (or more!) each day for One-on-One Time with your child.\n\n2️⃣ GAME- Let them choose what to do.\nTell your child that you have time for One-on-One Time with them, and they can\nchoose what they want to do or what they want to talk about. They may be hesitant at\nfirst, but eventually they will look forward to spending time with you!\n\n3️⃣ ATTENTION- Give your child your full attention.\nTurn off the TV and put away the cell phone. Look at your child. Nod or say “I see” to\nshow that you are paying full attention. Show interest in his story and accept what he\nsays without judgment."
         },
         "button_text": {
           "eng": ""
@@ -150,15 +150,15 @@
           "eng": ""
         }
       },
-      "text": "Write building block here",
+      "text": "1️⃣ DAY- Try to do this every day.\nSet aside 5 minutes (or more!) each day for One-on-One Time with your child.\n\n2️⃣ GAME- Let them choose what to do.\nTell your child that you have time for One-on-One Time with them, and they can\nchoose what they want to do or what they want to talk about. They may be hesitant at\nfirst, but eventually they will look forward to spending time with you!\n\n3️⃣ ATTENTION- Give your child your full attention.\nTurn off the TV and put away the cell phone. Look at your child. Nod or say “I see” to\nshow that you are paying full attention. Show interest in his story and accept what he\nsays without judgment.",
       "button_text": "",
       "extra_text": ""
     },
     {
       "id": "section_6",
-      "foreign_key": "module_2_feelings_6",
+      "foreign_key": "week_2_session_6",
       "ignore": 6,
-      "ignore_2": "module_2_feelings_6",
+      "ignore_2": "week_2_session_6",
       "title": "Building Blocks of Module 1: One-on-one time",
       "_translations": {
         "title": {},
@@ -171,7 +171,7 @@
           "eng": "Building Blocks of Module 1: One-on-one time"
         },
         "text": {
-          "eng": "Write building block here"
+          "eng": "1️⃣ DAY- Try to do this every day.\nSet aside 5 minutes (or more!) each day for One-on-One Time with your child.\n\n2️⃣ GAME- Let them choose what to do.\nTell your child that you have time for One-on-One Time with them, and they can\nchoose what they want to do or what they want to talk about. They may be hesitant at\nfirst, but eventually they will look forward to spending time with you!\n\n3️⃣ ATTENTION- Give your child your full attention.\nTurn off the TV and put away the cell phone. Look at your child. Nod or say “I see” to\nshow that you are paying full attention. Show interest in his story and accept what he\nsays without judgment."
         },
         "button_text": {
           "eng": ""
@@ -180,15 +180,15 @@
           "eng": ""
         }
       },
-      "text": "Write building block here",
+      "text": "1️⃣ DAY- Try to do this every day.\nSet aside 5 minutes (or more!) each day for One-on-One Time with your child.\n\n2️⃣ GAME- Let them choose what to do.\nTell your child that you have time for One-on-One Time with them, and they can\nchoose what they want to do or what they want to talk about. They may be hesitant at\nfirst, but eventually they will look forward to spending time with you!\n\n3️⃣ ATTENTION- Give your child your full attention.\nTurn off the TV and put away the cell phone. Look at your child. Nod or say “I see” to\nshow that you are paying full attention. Show interest in his story and accept what he\nsays without judgment.",
       "button_text": "",
       "extra_text": ""
     },
     {
       "id": "section_7",
-      "foreign_key": "module_2_feelings_11",
+      "foreign_key": "week_2_session_11",
       "ignore": 7,
-      "ignore_2": "module_2_feelings_11",
+      "ignore_2": "week_2_session_11",
       "title": "Building Blocks of Module 2: Talking about feelings",
       "_translations": {
         "title": {},
@@ -201,7 +201,7 @@
           "eng": "Building Blocks of Module 2: Talking about feelings"
         },
         "text": {
-          "eng": "Write building block here"
+          "eng": "1️⃣ BREATHE  -  Breathe  before  you  start  to  calm  yourself  down. \n2️⃣ SHARE  -  Share  your  feelings. \n3️⃣ LISTEN  -  Listen  to  your  child  or  teenager. \n4️⃣ PAINFUL  -  Concerned  for  them. \n5️⃣ FIND  -  Find  the  positive  `"
         },
         "button_text": {
           "eng": ""
@@ -210,15 +210,105 @@
           "eng": ""
         }
       },
-      "text": "Write building block here",
+      "text": "1️⃣ BREATHE  -  Breathe  before  you  start  to  calm  yourself  down. \n2️⃣ SHARE  -  Share  your  feelings. \n3️⃣ LISTEN  -  Listen  to  your  child  or  teenager. \n4️⃣ PAINFUL  -  Concerned  for  them. \n5️⃣ FIND  -  Find  the  positive  `",
       "button_text": "",
       "extra_text": ""
     },
     {
       "id": "section_8",
-      "foreign_key": "module_2_feelings_12",
+      "foreign_key": "week_2_session_12",
       "ignore": 8,
-      "ignore_2": "module_2_feelings_12",
+      "ignore_2": "week_2_session_12",
+      "title": "Possible answers from parents",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "button_text": {},
+        "extra_text": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Possible answers from parents"
+        },
+        "text": {
+          "eng": "Grandma  noticed  Jun-Jun's  feelings  by  saying,  \"\"I  see.\"\" that  you  are  sad\"\". •\n\nUse  words  to  describe  emotions.  \n\nRepeated  what  Jun-Jun  said,  “This  is  not  easy”. \nThe  child  was  comforted. \n\nShares  own  feelings  about  the  situation  by  saying “I'm  happy  to  be  with  you  today,  Jun-Jun”. \n\nLooked  for  a  solution."
+        },
+        "button_text": {
+          "eng": ""
+        },
+        "extra_text": {
+          "eng": ""
+        }
+      },
+      "text": "Grandma  noticed  Jun-Jun's  feelings  by  saying,  \"\"I  see.\"\" that  you  are  sad\"\". •\n\nUse  words  to  describe  emotions.  \n\nRepeated  what  Jun-Jun  said,  “This  is  not  easy”. \nThe  child  was  comforted. \n\nShares  own  feelings  about  the  situation  by  saying “I'm  happy  to  be  with  you  today,  Jun-Jun”. \n\nLooked  for  a  solution.",
+      "button_text": "",
+      "extra_text": ""
+    },
+    {
+      "id": "section_9",
+      "foreign_key": "week_2_session_14",
+      "ignore": 9,
+      "ignore_2": "week_2_session_14",
+      "title": "Possible answers from parents",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "button_text": {},
+        "extra_text": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Possible answers from parents"
+        },
+        "text": {
+          "eng": "The parent remains calm.\n\nThe parent accepts the emotion (fear) – even if it is negative.\n\nThe parent explains his feelings.\n\nThe parent notices that their child is anxious and tries to calm them down\n\nHe explained it by saying, “It’s normal to feel this way.”\n\nThe parent showed sympathy and support using words to\n\nLet the teenager know that he is there for them.\n\nThe parent pays attention to how their child feels\nteenager\n\nThe parent and the teenager worked together to find a solution – which\ndoesn't mean there is an answer to everything!"
+        },
+        "button_text": {
+          "eng": ""
+        },
+        "extra_text": {
+          "eng": ""
+        }
+      },
+      "text": "The parent remains calm.\n\nThe parent accepts the emotion (fear) – even if it is negative.\n\nThe parent explains his feelings.\n\nThe parent notices that their child is anxious and tries to calm them down\n\nHe explained it by saying, “It’s normal to feel this way.”\n\nThe parent showed sympathy and support using words to\n\nLet the teenager know that he is there for them.\n\nThe parent pays attention to how their child feels\nteenager\n\nThe parent and the teenager worked together to find a solution – which\ndoesn't mean there is an answer to everything!",
+      "button_text": "",
+      "extra_text": ""
+    },
+    {
+      "id": "section_10",
+      "foreign_key": "week_2_session_16",
+      "ignore": 10,
+      "ignore_2": "week_2_session_16",
+      "title": "Possible answers from parents",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "button_text": {},
+        "extra_text": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Possible answers from parents"
+        },
+        "text": {
+          "eng": "Teaches children to share their feelings.\n\nHelps the child connect emotions with actions and body\nlanguage.\n\nThe child learns that all emotions are acceptable.\n\nParents can see and learn about their child's feelings\nchild.\n\nTeaches children to recognize other people's emotions.\n\nGives the child the opportunity to change their behavior."
+        },
+        "button_text": {
+          "eng": ""
+        },
+        "extra_text": {
+          "eng": ""
+        }
+      },
+      "text": "Teaches children to share their feelings.\n\nHelps the child connect emotions with actions and body\nlanguage.\n\nThe child learns that all emotions are acceptable.\n\nParents can see and learn about their child's feelings\nchild.\n\nTeaches children to recognize other people's emotions.\n\nGives the child the opportunity to change their behavior.",
+      "button_text": "",
+      "extra_text": ""
+    },
+    {
+      "id": "section_11",
+      "foreign_key": "week_2_session_18",
+      "ignore": 11,
+      "ignore_2": "week_2_session_18",
       "title": "Building Blocks of Module 2: Talking about feelings",
       "_translations": {
         "title": {},
@@ -231,7 +321,7 @@
           "eng": "Building Blocks of Module 2: Talking about feelings"
         },
         "text": {
-          "eng": "Write building block here"
+          "eng": "1️⃣ BREATHE  -  Breathe  before  you  start  to  calm  yourself  down. \n2️⃣ SHARE  -  Share  your  feelings. \n3️⃣ LISTEN  -  Listen  to  your  child  or  teenager. \n4️⃣ PAINFUL  -  Concerned  for  them. \n5️⃣ FIND  -  Find  the  positive  `"
         },
         "button_text": {
           "eng": ""
@@ -240,7 +330,67 @@
           "eng": ""
         }
       },
-      "text": "Write building block here",
+      "text": "1️⃣ BREATHE  -  Breathe  before  you  start  to  calm  yourself  down. \n2️⃣ SHARE  -  Share  your  feelings. \n3️⃣ LISTEN  -  Listen  to  your  child  or  teenager. \n4️⃣ PAINFUL  -  Concerned  for  them. \n5️⃣ FIND  -  Find  the  positive  `",
+      "button_text": "",
+      "extra_text": ""
+    },
+    {
+      "id": "section_12",
+      "foreign_key": "week_2_session_12",
+      "ignore": 12,
+      "ignore_2": "week_2_session_12",
+      "title": "Building Blocks of Module 2: Talking about feelings",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "button_text": {},
+        "extra_text": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Building Blocks of Module 2: Talking about feelings"
+        },
+        "text": {
+          "eng": "1️⃣ BREATHE  -  Breathe  before  you  start  to  calm  yourself  down. \n2️⃣ SHARE  -  Share  your  feelings. \n3️⃣ LISTEN  -  Listen  to  your  child  or  teenager. \n4️⃣ PAINFUL  -  Concerned  for  them. \n5️⃣ FIND  -  Find  the  positive  `"
+        },
+        "button_text": {
+          "eng": ""
+        },
+        "extra_text": {
+          "eng": ""
+        }
+      },
+      "text": "1️⃣ BREATHE  -  Breathe  before  you  start  to  calm  yourself  down. \n2️⃣ SHARE  -  Share  your  feelings. \n3️⃣ LISTEN  -  Listen  to  your  child  or  teenager. \n4️⃣ PAINFUL  -  Concerned  for  them. \n5️⃣ FIND  -  Find  the  positive  `",
+      "button_text": "",
+      "extra_text": ""
+    },
+    {
+      "id": "section_13",
+      "foreign_key": "week_2_session_14",
+      "ignore": 13,
+      "ignore_2": "week_2_session_14",
+      "title": "Building Blocks of Module 2: Talking about feelings",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "button_text": {},
+        "extra_text": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Building Blocks of Module 2: Talking about feelings"
+        },
+        "text": {
+          "eng": "1️⃣ BREATHE  -  Breathe  before  you  start  to  calm  yourself  down. \n2️⃣ SHARE  -  Share  your  feelings. \n3️⃣ LISTEN  -  Listen  to  your  child  or  teenager. \n4️⃣ PAINFUL  -  Concerned  for  them. \n5️⃣ FIND  -  Find  the  positive  `"
+        },
+        "button_text": {
+          "eng": ""
+        },
+        "extra_text": {
+          "eng": ""
+        }
+      },
+      "text": "1️⃣ BREATHE  -  Breathe  before  you  start  to  calm  yourself  down. \n2️⃣ SHARE  -  Share  your  feelings. \n3️⃣ LISTEN  -  Listen  to  your  child  or  teenager. \n4️⃣ PAINFUL  -  Concerned  for  them. \n5️⃣ FIND  -  Find  the  positive  `",
       "button_text": "",
       "extra_text": ""
     }

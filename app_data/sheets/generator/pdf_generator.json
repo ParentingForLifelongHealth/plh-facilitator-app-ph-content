@@ -74,6 +74,21 @@
       "flow_name": "pdf_peas",
       "flow_subtype": "generated",
       "flow_type": "template"
+    },
+    {
+      "flow_name": "pdf_module_1_prepare",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "pdf_module_1_deliver",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "pdf_module_2_prepare",
+      "flow_subtype": "generated",
+      "flow_type": "template"
     }
   ]
 }

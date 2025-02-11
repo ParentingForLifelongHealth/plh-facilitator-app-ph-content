@@ -41,6 +41,33 @@
         }
       },
       "introduction": "In this video, learn how to add a parent and co-parent in the app."
+    },
+    {
+      "id": "module_2_skill",
+      "type": "video",
+      "media_asset": "videos/feelings_yc.mp4",
+      "title": "Module 2 Skill",
+      "_translations": {
+        "title": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Module 2 Skill"
+        }
+      }
+    },
+    {
+      "id": "body_scan",
+      "type": "video",
+      "title": "Body Scan",
+      "_translations": {
+        "title": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Body Scan"
+        }
+      }
     }
   ],
   "_xlsxPath": "data/FacilitatorApp PH articles.xlsx"
