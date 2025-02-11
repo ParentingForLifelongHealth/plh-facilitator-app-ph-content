@@ -7,7 +7,6 @@
     {
       "id": "message_1",
       "foreign_key": "week_1_session_2",
-      "asset_type": "",
       "asset": "",
       "ignore": 1,
       "title": "Day One: Module Reminder",
@@ -33,7 +32,6 @@
     {
       "id": "message_2",
       "foreign_key": "week_1_session_4",
-      "asset_type": "",
       "asset": "",
       "ignore": 2,
       "title": "After the Session: Thanking Participants and Reminding Them to Practise",
@@ -59,7 +57,6 @@
     {
       "id": "message_3",
       "foreign_key": "week_1_1_reminder",
-      "asset_type": "",
       "asset": "",
       "ignore": 3,
       "title": "Day Three: Support Reminder",
@@ -85,7 +82,6 @@
     {
       "id": "message_4",
       "foreign_key": "week_1_2_reminder",
-      "asset_type": "",
       "asset": "",
       "ignore": 4,
       "title": "One Day Before the Next Online Session: Reminder for\nthe Next Session",
@@ -111,8 +107,7 @@
     {
       "id": "message_5",
       "foreign_key": "week_2_session_2",
-      "asset_type": "images/house_of_support.png",
-      "asset": "",
+      "asset": "images/house_of_support.png",
       "ignore": 5,
       "title": "Day One: Module Reminder",
       "_translations": {
@@ -137,7 +132,6 @@
     {
       "id": "message_6",
       "foreign_key": "week_2_session_4",
-      "asset_type": "",
       "asset": "",
       "ignore": 6,
       "title": "Message 1: Greetings",
@@ -163,7 +157,6 @@
     {
       "id": "message_7",
       "foreign_key": "week_2_session_5",
-      "asset_type": "",
       "asset": "",
       "ignore": 7,
       "title": "Message 2: Discussion about Home Activity",
@@ -189,7 +182,6 @@
     {
       "id": "message_8",
       "foreign_key": "week_2_session_6",
-      "asset_type": "",
       "asset": "",
       "ignore": 8,
       "title": "Message 3: Sharing Success",
@@ -215,8 +207,7 @@
     {
       "id": "message_9",
       "foreign_key": "week_2_session_7",
-      "asset_type": "",
-      "asset": "Example challenges",
+      "asset": "",
       "ignore": 9,
       "title": "Message 4: Discuss Challenge",
       "_translations": {
@@ -241,8 +232,7 @@
     {
       "id": "message_10",
       "foreign_key": "week_2_session_8",
-      "asset_type": "",
-      "asset": "Example challenges",
+      "asset": "",
       "ignore": 10,
       "title": "Message 5: Discussion about challenge & solution",
       "_translations": {
@@ -267,7 +257,6 @@
     {
       "id": "message_11",
       "foreign_key": "week_2_session_9",
-      "asset_type": "",
       "asset": "",
       "ignore": 11,
       "title": "Message ??",
@@ -293,7 +282,6 @@
     {
       "id": "message_12",
       "foreign_key": "week_2_session_10",
-      "asset_type": "",
       "asset": "",
       "ignore": 12,
       "title": "Message 6: Introducing MaPa Skill",
@@ -319,8 +307,7 @@
     {
       "id": "message_13",
       "foreign_key": "week_2_session_11",
-      "asset_type": "images/comics/module_2_yc.png",
-      "asset": "",
+      "asset": "images/comics/module_2_yc.png",
       "ignore": 13,
       "title": "Message 7: Comic about young child",
       "_translations": {
@@ -345,7 +332,6 @@
     {
       "id": "message_14",
       "foreign_key": "week_2_session_12",
-      "asset_type": "",
       "asset": "",
       "ignore": 14,
       "title": "Messgae 8: Discussion about the Comic",
@@ -371,8 +357,7 @@
     {
       "id": "message_15",
       "foreign_key": "week_2_session_13",
-      "asset_type": "images/comics/module_2_teen.png",
-      "asset": "",
+      "asset": "images/comics/module_2_teen.png",
       "ignore": 15,
       "title": "Message 9: Comic about a Teenage Child: Talking about Feelings",
       "_translations": {
@@ -397,7 +382,6 @@
     {
       "id": "message_16",
       "foreign_key": "week_2_session_14",
-      "asset_type": "",
       "asset": "",
       "ignore": 16,
       "title": "Message 10: Discussion about Comics",
@@ -423,7 +407,6 @@
     {
       "id": "message_17",
       "foreign_key": "week_2_session_15",
-      "asset_type": "",
       "asset": "",
       "ignore": 17,
       "title": "Message 11: Discussion about Comics: Think about the Age of the Child",
@@ -449,7 +432,6 @@
     {
       "id": "message_18",
       "foreign_key": "week_2_session_16",
-      "asset_type": "",
       "asset": "",
       "ignore": 18,
       "title": "Message 12: Discussion about Reasons for Talking About Feelings",
@@ -475,7 +457,6 @@
     {
       "id": "message_19",
       "foreign_key": "week_2_session_17",
-      "asset_type": "",
       "asset": "",
       "ignore": 19,
       "title": "Message 13: Setting a Home Activity",
@@ -501,7 +482,6 @@
     {
       "id": "message_20",
       "foreign_key": "week_2_session_18",
-      "asset_type": "",
       "asset": "",
       "ignore": 20,
       "title": "Message 14: Clarification",
@@ -527,8 +507,7 @@
     {
       "id": "message_21",
       "foreign_key": "week_2_session_19",
-      "asset_type": "module_2_skill",
-      "asset": "",
+      "asset": "module_2_skill",
       "ignore": 21,
       "title": "Message 15 –Video: MaPa Skill Reminder",
       "_translations": {
@@ -553,8 +532,7 @@
     {
       "id": "message_22",
       "foreign_key": "week_2_session_20",
-      "asset_type": "body_scan",
-      "asset": "",
+      "asset": "body_scan",
       "ignore": 22,
       "title": "Message 16 – Audio: Pause for a Moment",
       "_translations": {
@@ -579,7 +557,6 @@
     {
       "id": "message_23",
       "foreign_key": "week_2_session_21",
-      "asset_type": "",
       "asset": "",
       "ignore": 23,
       "title": "Message 17 – Gratitude",
@@ -605,7 +582,6 @@
     {
       "id": "message_24",
       "foreign_key": "week_2_1_reminder",
-      "asset_type": "",
       "asset": "",
       "ignore": 24,
       "title": "Day Three: Reminder to Practise",
@@ -631,7 +607,6 @@
     {
       "id": "message_25",
       "foreign_key": "week_2_2_reminder_2",
-      "asset_type": "",
       "asset": "",
       "ignore": 25,
       "title": "Day Five: Feedback",
@@ -657,7 +632,6 @@
     {
       "id": "message_26",
       "foreign_key": "week_4_chat_2",
-      "asset_type": "",
       "asset": "",
       "ignore": 26,
       "title": "Message 1: Welcome and Check-in",
@@ -683,7 +657,6 @@
     {
       "id": "message_27",
       "foreign_key": "week_4_chat_3",
-      "asset_type": "",
       "asset": "",
       "ignore": 27,
       "title": "Message 2: Pleasant time with your girl, boy or teen",
@@ -709,7 +682,6 @@
     {
       "id": "message_28",
       "foreign_key": "week_4_chat_4",
-      "asset_type": "",
       "asset": "",
       "ignore": 28,
       "title": "Message 3: Pleasant emotions",
@@ -735,7 +707,6 @@
     {
       "id": "message_29",
       "foreign_key": "week_4_chat_5",
-      "asset_type": "",
       "asset": "",
       "ignore": 29,
       "title": "Message 4: Three Good Things and Group Admin",
@@ -761,7 +732,6 @@
     {
       "id": "message_30",
       "foreign_key": "week_4_chat_6",
-      "asset_type": "",
       "asset": "",
       "ignore": 30,
       "title": "Message 5: Goodbye",

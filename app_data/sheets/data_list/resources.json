@@ -1,0 +1,54 @@
+{
+  "flow_type": "data_list",
+  "flow_name": "resources",
+  "status": "released",
+  "data_list_name": "resources",
+  "rows": [
+    {
+      "id": "resource_1",
+      "foreign_key": "week_1_session",
+      "media_type": "pdf",
+      "media_asset": "module_1_prepare",
+      "media_title": "Review the building blocks",
+      "_translations": {
+        "media_title": {}
+      },
+      "_translatedFields": {
+        "media_title": {
+          "eng": "Review the building blocks"
+        }
+      }
+    },
+    {
+      "id": "resource_2",
+      "foreign_key": "week_1_session_3",
+      "media_type": "pdf",
+      "media_asset": "module_1_deliver",
+      "media_title": "Module 1 Facilitator Guide",
+      "_translations": {
+        "media_title": {}
+      },
+      "_translatedFields": {
+        "media_title": {
+          "eng": "Module 1 Facilitator Guide"
+        }
+      }
+    },
+    {
+      "id": "resource_3",
+      "foreign_key": "week_2_session",
+      "media_type": "pdf",
+      "media_asset": "module_2_prepare",
+      "media_title": "Review building block & messages",
+      "_translations": {
+        "media_title": {}
+      },
+      "_translatedFields": {
+        "media_title": {
+          "eng": "Review building block & messages"
+        }
+      }
+    }
+  ],
+  "_xlsxPath": "data/modules_sub_items_ph.xlsx"
+}
