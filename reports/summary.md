@@ -23,11 +23,11 @@
 | radio_button_grid | 8 |
 | round_button | 30 |
 | select_text | 1 |
-| set_variable | 655 |
+| set_variable | 670 |
 | simple_checkbox | 2 |
 | task_card | 3 |
 | task_progress_bar | 2 |
-| template | 150 |
+| template | 154 |
 | test | 1 |
 | text | 163 |
 | text_area | 2 |
@@ -45,13 +45,13 @@
 | --- | --- |
 | add_data | 5 |
 | app_update | 1 |
-| emit: completed | 32 |
+| emit: completed | 37 |
 | emit: force_reload | 4 |
 | emit: force_reprocess | 9 |
 | emit: force_restart | 3 |
 | emit: server_sync | 4 |
 | emit: set_language | 1 |
-| emit: uncompleted | 79 |
+| emit: uncompleted | 84 |
 | feedback | 13 |
 | go_to | 35 |
 | nav_stack | 4 |
@@ -71,8 +71,8 @@
 
 | assets | KB | MB |
 | --- | --- | --- |
-| total | 10818 KB | 10.8 MB |
-| unused | 1245 KB | 1.2 MB |
+| total | 55798 KB | 55.8 MB |
+| unused | 10321 KB | 10.3 MB |
 </details>
 
 <details open>
@@ -104,8 +104,6 @@ Assets that appear in app-data but do not have references within sheets
 | images/icons/person_white.svg | 1.5 |
 | images/icons/reader_blue.svg | 1.4 |
 | images/icons/task_0.png | 2 |
-| images/icons/task_1.png | 1 |
-| images/icons/task_2.png | 1.9 |
 | images/icons/task_3.png | 2 |
 | images/icons/task_4.png | 1.4 |
 | images/icons/task_5.png | 1.8 |
@@ -123,6 +121,7 @@ Assets that appear in app-data but do not have references within sheets
 | images/person_cog.png | 0.8 |
 | odk_forms/eplh_pilot_facilitator_weekly_survey_combined.json | 209.4 |
 | pdf/module_3_guide.pdf | 269 |
+| videos/body_scan.mp4 | 9079.2 |
 </details>
 
 <details open>
@@ -138,8 +137,9 @@ Assets that have references within sheets but do not appear in app-data
 | images/icons/in_progress.svg | 1 |
 | images/icons/library_white.svg | 1 |
 | images/icons/tick.svg | 1 |
-| images/message.png | 1 |
 | lottie/gift_box.json | 2 |
+| videos/add_parent.mp4 | 1 |
+| videos/onboard_caregivers.mp4 | 1 |
 </details>
 
 <details >
@@ -153,13 +153,15 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | images/backgrounds/home_bottom_right.svg | 2.3 | 1 |
 | images/backgrounds/home_top_left.svg | 2.4 | 2 |
 | images/backgrounds/reports_top_right.svg | 2 | 1 |
+| images/comics/module_2_teen.png | 554.2 | 1 |
+| images/comics/module_2_yc.png | 666.1 | 1 |
 | images/contact_for_reporting_abuse.svg | 6.3 | 1 |
 | images/crisis_hotlines.svg | 12.6 | 1 |
 | images/day_1_introduction.svg | 6.7 | 1 |
 | images/day_3_check_in.svg | 6.5 | 1 |
-| images/day_3_mh_stress_self_talk.svg | 5.4 | 2 |
-| images/day_4_check_in.svg | 11.3 | 3 |
-| images/day_5_goodbye.svg | 19.4 | 2 |
+| images/day_3_mh_stress_self_talk.svg | 5.4 | 1 |
+| images/day_4_check_in.svg | 11.3 | 1 |
+| images/day_5_goodbye.svg | 19.4 | 1 |
 | images/during_disclosed_abuse.svg | 7.7 | 2 |
 | images/faq_ground_rules.svg | 12.1 | 2 |
 | images/faq_h_after_group_ended.svg | 19.8 | 2 |
@@ -203,10 +205,13 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | images/icons/person_cog.svg | 2.9 | 1 |
 | images/icons/person_remove.svg | 1.5 | 1 |
 | images/icons/profile_card.svg | 7.4 | 1 |
+| images/icons/reminder.png | 10.4 | 4 |
 | images/icons/report.png | 1.1 | 1 |
 | images/icons/sessions.png | 1.3 | 1 |
 | images/icons/settings.png | 1.1 | 1 |
 | images/icons/share.svg | 2.3 | 2 |
+| images/icons/task_1.png | 1 | 1 |
+| images/icons/task_2.png | 1.9 | 1 |
 | images/icons/unarchive.svg | 1.1 | 1 |
 | images/icons/visibility.svg | 1.9 | 1 |
 | images/icons/world.svg | 6.2 | 1 |
@@ -233,6 +238,7 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | pdf/overview_guide_study.pdf | 2252.6 | 1 |
 | pdf/peas.pdf | 590.3 | 1 |
 | pdf/programme_details.pdf | 123 | 1 |
+| videos/feelings_yc.mp4 | 43746.5 | 1 |
 </details>
 
 <details >
@@ -246,12 +252,12 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | data_list | legal_terms | 2 |
 | data_list | lifecycle_actions | 1 |
 | data_pipe |  | 2 |
-| data_pipe | generated | 38 |
+| data_pipe | generated | 35 |
 | generator |  | 9 |
 | global |  | 11 |
 | global | legal_terms | 1 |
 | template |  | 71 |
-| template | generated | 109 |
+| template | generated | 113 |
 | template | legal_terms | 4 |
 | template | menu | 1 |
 </details>

@@ -47,6 +47,14 @@
     "md5Checksum": "4e2e277101d4b49b034466abe2242b6d",
     "size_kb": 2
   },
+  "images/comics/module_2_teen.png": {
+    "md5Checksum": "a85c7843b2f4ed2e870f569dcc133a5a",
+    "size_kb": 554.2
+  },
+  "images/comics/module_2_yc.png": {
+    "md5Checksum": "18764da0ae6142fcad407e6bfdb670d8",
+    "size_kb": 666.1
+  },
   "images/contact_for_reporting_abuse.svg": {
     "md5Checksum": "c679f71748e3404da92acda6ca85bdcd",
     "size_kb": 6.3
@@ -299,6 +307,10 @@
     "md5Checksum": "841a27e6e013d797d2bcf20391632cee",
     "size_kb": 1.4
   },
+  "images/icons/reminder.png": {
+    "md5Checksum": "85fd4606c803ce911da8a04d56af18d7",
+    "size_kb": 10.4
+  },
   "images/icons/report.png": {
     "md5Checksum": "b6af464babccaa28c69db41675c70be5",
     "size_kb": 1.1
@@ -498,5 +510,13 @@
   "pdf/programme_details.pdf": {
     "md5Checksum": "d7f88e6bc4851b986b223a9b536e0e18",
     "size_kb": 123
+  },
+  "videos/body_scan.mp4": {
+    "md5Checksum": "c8c9e45cc548c3cadd1058f76d355594",
+    "size_kb": 9079.2
+  },
+  "videos/feelings_yc.mp4": {
+    "md5Checksum": "5fe17ceb759ea24bbcf0a02241277177",
+    "size_kb": 43746.5
   }
 }
