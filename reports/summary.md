@@ -12,7 +12,7 @@
 | data_items | 27 |
 | debug_toggle | 1 |
 | display_grid | 2 |
-| display_group | 95 |
+| display_group | 96 |
 | drawer | 1 |
 | image | 10 |
 | items | 27 |
@@ -36,6 +36,7 @@
 | toggle_bar | 7 |
 | update_action_list | 2 |
 | video | 2 |
+| youtube | 1 |
 </details>
 
 <details >
@@ -53,9 +54,9 @@
 | emit: set_language | 1 |
 | emit: uncompleted | 84 |
 | feedback | 13 |
-| go_to | 35 |
+| go_to | 33 |
 | nav_stack | 4 |
-| pop_up | 10 |
+| pop_up | 12 |
 | reset_app | 1 |
 | save_to_device | 4 |
 | set_data | 19 |

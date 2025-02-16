@@ -21,6 +21,21 @@
     },
     {
       "id": "resource_2",
+      "foreign_key": "week_1_session_2",
+      "media_type": "youtube",
+      "media_asset": "https://www.youtube.com/watch?v=0oOAGrStVGI",
+      "media_title": "Youtube video",
+      "_translations": {
+        "media_title": {}
+      },
+      "_translatedFields": {
+        "media_title": {
+          "eng": "Youtube video"
+        }
+      }
+    },
+    {
+      "id": "resource_3",
       "foreign_key": "week_1_session_3",
       "media_type": "pdf",
       "media_asset": "module_1_deliver",
@@ -35,7 +50,7 @@
       }
     },
     {
-      "id": "resource_3",
+      "id": "resource_4",
       "foreign_key": "week_2_session",
       "media_type": "pdf",
       "media_asset": "module_2_prepare",

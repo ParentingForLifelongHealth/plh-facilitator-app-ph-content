@@ -20,9 +20,9 @@
       "foreign_key": "week_1_session_2",
       "image_asset": "",
       "text": "Send this message to parents via SMS/text messaging as a reminder for the first session",
-      "media_type": "",
-      "media_title": "",
-      "media_asset": "",
+      "media_type": "youtube",
+      "media_title": "Youtube video",
+      "media_asset": "https://www.youtube.com/watch?v=0oOAGrStVGI",
       "media_transcript": "",
       "ignore": 2
     },
