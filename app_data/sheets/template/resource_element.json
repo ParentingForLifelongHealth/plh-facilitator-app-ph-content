@@ -102,12 +102,15 @@
                   "action_list": [
                     {
                       "trigger": "click",
-                      "action_id": "go_to",
+                      "action_id": "pop_up",
                       "args": [
                         "pdf_@local.resource_id"
                       ],
-                      "_raw": "click | go_to: pdf_@local.resource_id",
-                      "_cleaned": "click | go_to: pdf_@local.resource_id"
+                      "_raw": "click | pop_up : pdf_@local.resource_id | fullscreen: true",
+                      "_cleaned": "click | pop_up : pdf_@local.resource_id | fullscreen: true",
+                      "params": {
+                        "fullscreen": true
+                      }
                     }
                   ],
                   "parameter_list": {
@@ -131,7 +134,7 @@
                         },
                         "_raw": [
                           {
-                            "fullExpression": "click | go_to: pdf_@local.resource_id",
+                            "fullExpression": "click | pop_up : pdf_@local.resource_id | fullscreen: true",
                             "matchedExpression": "@local.resource_id",
                             "type": "local",
                             "fieldName": "resource_id"
@@ -139,7 +142,7 @@
                         ],
                         "_cleaned": [
                           {
-                            "fullExpression": "click | go_to: pdf_@local.resource_id",
+                            "fullExpression": "click | pop_up : pdf_@local.resource_id | fullscreen: true",
                             "matchedExpression": "@local.resource_id",
                             "type": "local",
                             "fieldName": "resource_id"
@@ -190,12 +193,15 @@
                   "action_list": [
                     {
                       "trigger": "click",
-                      "action_id": "go_to",
+                      "action_id": "pop_up",
                       "args": [
                         "pdf_@local.resource_id"
                       ],
-                      "_raw": "click | go_to: pdf_@local.resource_id",
-                      "_cleaned": "click | go_to: pdf_@local.resource_id"
+                      "_raw": "click | pop_up : pdf_@local.resource_id | fullscreen: true",
+                      "_cleaned": "click | pop_up : pdf_@local.resource_id | fullscreen: true",
+                      "params": {
+                        "fullscreen": true
+                      }
                     }
                   ],
                   "parameter_list": {
@@ -219,7 +225,7 @@
                         },
                         "_raw": [
                           {
-                            "fullExpression": "click | go_to: pdf_@local.resource_id",
+                            "fullExpression": "click | pop_up : pdf_@local.resource_id | fullscreen: true",
                             "matchedExpression": "@local.resource_id",
                             "type": "local",
                             "fieldName": "resource_id"
@@ -227,7 +233,7 @@
                         ],
                         "_cleaned": [
                           {
-                            "fullExpression": "click | go_to: pdf_@local.resource_id",
+                            "fullExpression": "click | pop_up : pdf_@local.resource_id | fullscreen: true",
                             "matchedExpression": "@local.resource_id",
                             "type": "local",
                             "fieldName": "resource_id"
@@ -583,7 +589,56 @@
           "condition"
         ]
       }
+    },
+    {
+      "type": "display_group",
+      "condition": "@local.resource_type == \"youtube\"",
+      "exclude_from_translation": true,
+      "rows": [
+        {
+          "type": "youtube",
+          "name": "youtube",
+          "value": "@local.resource_id",
+          "_translations": {
+            "value": {}
+          },
+          "exclude_from_translation": true,
+          "_nested_name": "display_group_12.youtube",
+          "_dynamicFields": {
+            "value": [
+              {
+                "fullExpression": "@local.resource_id",
+                "matchedExpression": "@local.resource_id",
+                "type": "local",
+                "fieldName": "resource_id"
+              }
+            ]
+          },
+          "_dynamicDependencies": {
+            "@local.resource_id": [
+              "value"
+            ]
+          }
+        }
+      ],
+      "name": "display_group_12",
+      "_nested_name": "display_group_12",
+      "_dynamicFields": {
+        "condition": [
+          {
+            "fullExpression": "@local.resource_type == \"youtube\"",
+            "matchedExpression": "@local.resource_type",
+            "type": "local",
+            "fieldName": "resource_type"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@local.resource_type": [
+          "condition"
+        ]
+      }
     }
   ],
-  "_xlsxPath": "templates/article_elements.xlsx"
+  "_xlsxPath": "templates/article_elements_override.xlsx"
 }

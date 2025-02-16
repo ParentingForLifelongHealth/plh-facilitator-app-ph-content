@@ -39,7 +39,7 @@
       },
       {
         "type": "display_group",
-        "count": 95
+        "count": 96
       },
       {
         "type": "drawer",
@@ -132,6 +132,10 @@
       {
         "type": "video",
         "count": 2
+      },
+      {
+        "type": "youtube",
+        "count": 1
       }
     ]
   },
@@ -179,7 +183,7 @@
       },
       {
         "type": "go_to",
-        "count": 35
+        "count": 33
       },
       {
         "type": "nav_stack",
@@ -187,7 +191,7 @@
       },
       {
         "type": "pop_up",
-        "count": 10
+        "count": 12
       },
       {
         "type": "reset_app",
