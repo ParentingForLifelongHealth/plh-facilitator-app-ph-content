@@ -151,6 +151,10 @@
     "md5Checksum": "c1d190c31dd3f86046d695f0aeedcd34",
     "size_kb": 1.4
   },
+  "images/flags/ph.svg": {
+    "md5Checksum": "95093d7ffd9da1a9d9f591b44540f8dc",
+    "size_kb": 0.9
+  },
   "images/flags/tz.svg": {
     "md5Checksum": "4cba6f3545595d585cf1c89394955c71",
     "size_kb": 0.5
@@ -379,21 +383,9 @@
     "md5Checksum": "dd7be17e1082bfc5fb5800ac17754d0c",
     "size_kb": 84.6
   },
-  "images/logos/KEMAS.png": {
-    "md5Checksum": "d8773c5833873defd1b4886bc3ba6226",
-    "size_kb": 5.6
-  },
-  "images/logos/LPPKN.png": {
-    "md5Checksum": "d0aceacf65f2ba798d2e6fc1b25da1ce",
-    "size_kb": 41.2
-  },
   "images/logos/MaPa_logo.png": {
     "md5Checksum": "1a449224641966789d55d9a473df21a2",
     "size_kb": 112.5
-  },
-  "images/logos/Oxford.png": {
-    "md5Checksum": "00a1436451ee162a52919aed4127bb9a",
-    "size_kb": 50
   },
   "images/logos/PLH.png": {
     "md5Checksum": "6ca42a4ea6df3c39ea9d19024ab5f9b2",
@@ -402,10 +394,6 @@
   "images/logos/UNICEF.jpg": {
     "md5Checksum": "2e2ca2e57984a0108b0435540df07eba",
     "size_kb": 27.7
-  },
-  "images/logos/UPM.png": {
-    "md5Checksum": "45484deed688ed9d0a8e328039402c89",
-    "size_kb": 120.8
   },
   "images/logos/bird_on_dark.svg": {
     "md5Checksum": "4a91fc4a3adaffed384acef462e9ee0b",
@@ -419,21 +407,9 @@
     "md5Checksum": "5c3a85cb1e38c02348a6b42b92f7c06a",
     "size_kb": 1.9
   },
-  "images/logos/lego.png": {
-    "md5Checksum": "573d6506d6597a7e8c95c64724e34518",
-    "size_kb": 10.4
-  },
-  "images/logos/masw.png": {
-    "md5Checksum": "11804b9025653042bb57786188c1d573",
-    "size_kb": 7.1
-  },
   "images/logos/nip.png": {
     "md5Checksum": "88bae191d1fc9f29ee49c1721e46f181",
     "size_kb": 11.9
-  },
-  "images/logos/thsn.png": {
-    "md5Checksum": "d982884da389684da2937e4c10b16d2b",
-    "size_kb": 35.5
   },
   "images/no_group_selected.svg": {
     "md5Checksum": "82767136bb58f06e6402ca136d3df590",
@@ -470,10 +446,6 @@
   "images/what_is_safeguarding.svg": {
     "md5Checksum": "720cf48f780d84ba2d4810c4befeee45",
     "size_kb": 5.6
-  },
-  "odk_forms/eplh_pilot_facilitator_weekly_survey_combined.json": {
-    "md5Checksum": "50b917f456001fbc0cb4d693931f3051",
-    "size_kb": 209.4
   },
   "pdf/manual.pdf": {
     "md5Checksum": "9188c320eec37ad742fb641aef69006f",

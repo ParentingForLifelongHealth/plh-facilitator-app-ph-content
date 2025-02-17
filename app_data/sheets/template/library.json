@@ -46,7 +46,7 @@
                 }
               ],
               "parameter_list": {
-                "variant": "solid_secondary",
+                "variant": "box_secondary_alt",
                 "style": "column"
               },
               "rows": [

@@ -6,15 +6,15 @@
   "flow_subtype": "app_config_language_list",
   "rows": [
     {
-      "id": "mx_es",
-      "country_code": "mx",
-      "country_label": "México",
-      "country_icon": "images/flags/mx.svg",
-      "language_code": "es",
-      "language_label": "Español",
-      "name": "mx_es",
-      "text": "Español",
-      "image": "images/flags/mx.svg"
+      "id": "ph_fil",
+      "country_code": "ph",
+      "country_label": "Philippines",
+      "country_icon": "images/flags/ph.svg",
+      "language_code": "fil",
+      "language_label": "Filipino",
+      "name": "ph_fil",
+      "text": "Filipino",
+      "image": "images/flags/ph.svg"
     },
     {
       "id": "gb_en",

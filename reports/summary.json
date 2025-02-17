@@ -27,7 +27,7 @@
       },
       {
         "type": "data_items",
-        "count": 27
+        "count": 28
       },
       {
         "type": "debug_toggle",
@@ -39,7 +39,7 @@
       },
       {
         "type": "display_group",
-        "count": 96
+        "count": 97
       },
       {
         "type": "drawer",
@@ -75,7 +75,7 @@
       },
       {
         "type": "round_button",
-        "count": 30
+        "count": 32
       },
       {
         "type": "select_text",
@@ -119,7 +119,7 @@
       },
       {
         "type": "title",
-        "count": 33
+        "count": 34
       },
       {
         "type": "toggle_bar",
@@ -151,7 +151,7 @@
       },
       {
         "type": "emit: completed",
-        "count": 37
+        "count": 38
       },
       {
         "type": "emit: force_reload",
@@ -187,7 +187,7 @@
       },
       {
         "type": "nav_stack",
-        "count": 4
+        "count": 6
       },
       {
         "type": "pop_up",
@@ -231,13 +231,13 @@
     "data": [
       {
         "assets": "total",
-        "KB": "55798 KB",
-        "MB": "55.8 MB"
+        "KB": "55707 KB",
+        "MB": "55.7 MB"
       },
       {
         "assets": "unused",
-        "KB": "10321 KB",
-        "MB": "10.3 MB"
+        "KB": "9933 KB",
+        "MB": "9.9 MB"
       }
     ]
   },
@@ -274,6 +274,10 @@
       {
         "path": "images/backgrounds/report_edit.svg",
         "size_kb": 0.2
+      },
+      {
+        "path": "images/flags/mx.svg",
+        "size_kb": 91.3
       },
       {
         "path": "images/flags/my.svg",
@@ -356,44 +360,12 @@
         "size_kb": 2.4
       },
       {
-        "path": "images/logos/KEMAS.png",
-        "size_kb": 5.6
-      },
-      {
-        "path": "images/logos/LPPKN.png",
-        "size_kb": 41.2
-      },
-      {
-        "path": "images/logos/Oxford.png",
-        "size_kb": 50
-      },
-      {
-        "path": "images/logos/UPM.png",
-        "size_kb": 120.8
-      },
-      {
         "path": "images/logos/bird_on_dark.svg",
         "size_kb": 2.1
       },
       {
-        "path": "images/logos/lego.png",
-        "size_kb": 10.4
-      },
-      {
-        "path": "images/logos/masw.png",
-        "size_kb": 7.1
-      },
-      {
-        "path": "images/logos/thsn.png",
-        "size_kb": 35.5
-      },
-      {
         "path": "images/person_cog.png",
         "size_kb": 0.8
-      },
-      {
-        "path": "odk_forms/eplh_pilot_facilitator_weekly_survey_combined.json",
-        "size_kb": 209.4
       },
       {
         "path": "pdf/module_3_guide.pdf",
@@ -435,11 +407,6 @@
       {
         "path": "images/icons/tick.svg",
         "count": 1,
-        "missing": true
-      },
-      {
-        "path": "lottie/gift_box.json",
-        "count": 2,
         "missing": true
       },
       {
@@ -597,9 +564,9 @@
         "size_kb": 0.5
       },
       {
-        "path": "images/flags/mx.svg",
+        "path": "images/flags/ph.svg",
         "count": 2,
-        "size_kb": 91.3
+        "size_kb": 0.9
       },
       {
         "path": "images/group_admin_onboarding.svg",
@@ -643,12 +610,12 @@
       },
       {
         "path": "images/icons/arrow_forward.svg",
-        "count": 2,
+        "count": 3,
         "size_kb": 0.4
       },
       {
         "path": "images/icons/cancel.svg",
-        "count": 1,
+        "count": 2,
         "size_kb": 1.7
       },
       {

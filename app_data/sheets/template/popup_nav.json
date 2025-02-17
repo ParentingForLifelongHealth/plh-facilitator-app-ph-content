@@ -192,20 +192,82 @@
               "parameter_list": {
                 "icon_src": "images/icons/arrow_forward.svg"
               },
-              "condition": "!@item.next_article",
+              "condition": "!@item.next_article && @item.previous_article",
               "_nested_name": "items_3.display_group_1.report",
               "_dynamicFields": {
                 "condition": [
                   {
-                    "fullExpression": "!@item.next_article",
+                    "fullExpression": "!@item.next_article && @item.previous_article",
                     "matchedExpression": "!@item.next_article",
                     "type": "item",
                     "fieldName": "next_article"
+                  },
+                  {
+                    "fullExpression": "!@item.next_article && @item.previous_article",
+                    "matchedExpression": "@item.previous_article",
+                    "type": "item",
+                    "fieldName": "previous_article"
                   }
                 ]
               },
               "_dynamicDependencies": {
                 "!@item.next_article": [
+                  "condition"
+                ],
+                "@item.previous_article": [
+                  "condition"
+                ]
+              }
+            },
+            {
+              "type": "round_button",
+              "name": "report",
+              "action_list": [
+                {
+                  "trigger": "click",
+                  "action_id": "nav_stack",
+                  "args": [
+                    "close_all"
+                  ],
+                  "_raw": "nav_stack: close_all",
+                  "_cleaned": "click | nav_stack: close_all"
+                },
+                {
+                  "trigger": "click",
+                  "action_id": "emit",
+                  "args": [
+                    "completed"
+                  ],
+                  "_raw": "click | emit:completed",
+                  "_cleaned": "click | emit:completed"
+                }
+              ],
+              "parameter_list": {
+                "icon_src": "images/icons/arrow_forward.svg"
+              },
+              "condition": "!@item.next_article && !@item.previous_article",
+              "_nested_name": "items_3.display_group_1.report",
+              "_dynamicFields": {
+                "condition": [
+                  {
+                    "fullExpression": "!@item.next_article && !@item.previous_article",
+                    "matchedExpression": "!@item.next_article",
+                    "type": "item",
+                    "fieldName": "next_article"
+                  },
+                  {
+                    "fullExpression": "!@item.next_article && !@item.previous_article",
+                    "matchedExpression": "!@item.previous_article",
+                    "type": "item",
+                    "fieldName": "previous_article"
+                  }
+                ]
+              },
+              "_dynamicDependencies": {
+                "!@item.next_article": [
+                  "condition"
+                ],
+                "!@item.previous_article": [
                   "condition"
                 ]
               }
@@ -258,5 +320,5 @@
       }
     }
   ],
-  "_xlsxPath": "templates/menu_sub_tasks.xlsx"
+  "_xlsxPath": "templates/article_loop_override.xlsx"
 }
