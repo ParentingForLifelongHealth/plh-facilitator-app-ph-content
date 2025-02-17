@@ -192,11 +192,12 @@
                 {
                   "trigger": "click",
                   "action_id": "share",
-                  "args": [
-                    "@local.message_text"
-                  ],
-                  "_raw": "click | share: @local.message_text",
-                  "_cleaned": "click | share: @local.message_text"
+                  "args": [],
+                  "_raw": "click | share | text: @local.message_text",
+                  "_cleaned": "click | share | text: @local.message_text",
+                  "params": {
+                    "text": "@local.message_text"
+                  }
                 }
               ],
               "condition": "@local.asset == \"\"",
@@ -207,19 +208,9 @@
               "_dynamicFields": {
                 "action_list": {
                   "0": {
-                    "args": {
-                      "0": [
-                        {
-                          "fullExpression": "@local.message_text",
-                          "matchedExpression": "@local.message_text",
-                          "type": "local",
-                          "fieldName": "message_text"
-                        }
-                      ]
-                    },
                     "_raw": [
                       {
-                        "fullExpression": "click | share: @local.message_text",
+                        "fullExpression": "click | share | text: @local.message_text",
                         "matchedExpression": "@local.message_text",
                         "type": "local",
                         "fieldName": "message_text"
@@ -227,12 +218,22 @@
                     ],
                     "_cleaned": [
                       {
-                        "fullExpression": "click | share: @local.message_text",
+                        "fullExpression": "click | share | text: @local.message_text",
                         "matchedExpression": "@local.message_text",
                         "type": "local",
                         "fieldName": "message_text"
                       }
-                    ]
+                    ],
+                    "params": {
+                      "text": [
+                        {
+                          "fullExpression": "@local.message_text",
+                          "matchedExpression": "@local.message_text",
+                          "type": "local",
+                          "fieldName": "message_text"
+                        }
+                      ]
+                    }
                   }
                 },
                 "condition": [
@@ -246,9 +247,9 @@
               },
               "_dynamicDependencies": {
                 "@local.message_text": [
-                  "action_list.0.args.0",
                   "action_list.0._raw",
-                  "action_list.0._cleaned"
+                  "action_list.0._cleaned",
+                  "action_list.0.params.text"
                 ],
                 "@local.asset": [
                   "condition"

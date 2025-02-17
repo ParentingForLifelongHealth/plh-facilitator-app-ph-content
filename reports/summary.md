@@ -9,10 +9,10 @@
 | button | 72 |
 | carousel | 2 |
 | combo_box | 3 |
-| data_items | 27 |
+| data_items | 28 |
 | debug_toggle | 1 |
 | display_grid | 2 |
-| display_group | 96 |
+| display_group | 97 |
 | drawer | 1 |
 | image | 10 |
 | items | 27 |
@@ -21,7 +21,7 @@
 | pdf | 1 |
 | qr_code | 1 |
 | radio_button_grid | 8 |
-| round_button | 30 |
+| round_button | 32 |
 | select_text | 1 |
 | set_variable | 674 |
 | simple_checkbox | 2 |
@@ -32,7 +32,7 @@
 | text | 163 |
 | text_area | 2 |
 | text_box | 24 |
-| title | 33 |
+| title | 34 |
 | toggle_bar | 7 |
 | update_action_list | 2 |
 | video | 2 |
@@ -46,7 +46,7 @@
 | --- | --- |
 | add_data | 5 |
 | app_update | 1 |
-| emit: completed | 37 |
+| emit: completed | 38 |
 | emit: force_reload | 4 |
 | emit: force_reprocess | 9 |
 | emit: force_restart | 3 |
@@ -55,7 +55,7 @@
 | emit: uncompleted | 84 |
 | feedback | 13 |
 | go_to | 33 |
-| nav_stack | 4 |
+| nav_stack | 6 |
 | pop_up | 12 |
 | reset_app | 1 |
 | save_to_device | 4 |
@@ -72,8 +72,8 @@
 
 | assets | KB | MB |
 | --- | --- | --- |
-| total | 55798 KB | 55.8 MB |
-| unused | 10321 KB | 10.3 MB |
+| total | 55707 KB | 55.7 MB |
+| unused | 9933 KB | 9.9 MB |
 </details>
 
 <details open>
@@ -91,6 +91,7 @@ Assets that appear in app-data but do not have references within sheets
 | images/Message.svg | 0.7 |
 | images/backgrounds/library_bottom_left.svg | 2.3 |
 | images/backgrounds/report_edit.svg | 0.2 |
+| images/flags/mx.svg | 91.3 |
 | images/flags/my.svg | 1.4 |
 | images/flags/tz.svg | 0.5 |
 | images/flags/ug.svg | 3.9 |
@@ -111,16 +112,8 @@ Assets that appear in app-data but do not have references within sheets
 | images/icons/task_6.png | 2.2 |
 | images/icons/task_7.png | 1.5 |
 | images/icons/task_8.png | 2.4 |
-| images/logos/KEMAS.png | 5.6 |
-| images/logos/LPPKN.png | 41.2 |
-| images/logos/Oxford.png | 50 |
-| images/logos/UPM.png | 120.8 |
 | images/logos/bird_on_dark.svg | 2.1 |
-| images/logos/lego.png | 10.4 |
-| images/logos/masw.png | 7.1 |
-| images/logos/thsn.png | 35.5 |
 | images/person_cog.png | 0.8 |
-| odk_forms/eplh_pilot_facilitator_weekly_survey_combined.json | 209.4 |
 | pdf/module_3_guide.pdf | 269 |
 | videos/body_scan.mp4 | 9079.2 |
 </details>
@@ -138,7 +131,6 @@ Assets that have references within sheets but do not appear in app-data
 | images/icons/in_progress.svg | 1 |
 | images/icons/library_white.svg | 1 |
 | images/icons/tick.svg | 1 |
-| lottie/gift_box.json | 2 |
 | videos/add_parent.mp4 | 1 |
 | videos/onboard_caregivers.mp4 | 1 |
 </details>
@@ -178,7 +170,7 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | images/faq_small_group_active.svg | 8.1 | 1 |
 | images/faq_text_support.svg | 6.8 | 1 |
 | images/flags/gb.svg | 0.5 | 2 |
-| images/flags/mx.svg | 91.3 | 2 |
+| images/flags/ph.svg | 0.9 | 2 |
 | images/group_admin_onboarding.svg | 13.5 | 1 |
 | images/house_of_support.png | 815.4 | 1 |
 | images/how_to_chat_session.svg | 11 | 2 |
@@ -187,8 +179,8 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | images/icons/add_circle.svg | 1 | 2 |
 | images/icons/archive.svg | 0.9 | 1 |
 | images/icons/arrow_back.svg | 0.5 | 1 |
-| images/icons/arrow_forward.svg | 0.4 | 2 |
-| images/icons/cancel.svg | 1.7 | 1 |
+| images/icons/arrow_forward.svg | 0.4 | 3 |
+| images/icons/cancel.svg | 1.7 | 2 |
 | images/icons/check_circle.png | 0.6 | 1 |
 | images/icons/content.svg | 7.2 | 1 |
 | images/icons/delete.svg | 0.8 | 3 |
