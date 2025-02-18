@@ -225,7 +225,7 @@
     "report_answers": {
       "flow_type": "data_list",
       "flow_name": "report_answers",
-      "_xlsxPath": "templates/reports.xlsx",
+      "_xlsxPath": "templates/report_override.xlsx",
       "_metadata": {
         "archived": {
           "type": "boolean"
@@ -2036,7 +2036,7 @@
     "add_in_person": {
       "flow_type": "template",
       "flow_name": "add_in_person",
-      "_xlsxPath": "templates/reports.xlsx"
+      "_xlsxPath": "templates/report_override.xlsx"
     },
     "add_parent": {
       "flow_type": "template",
@@ -2136,7 +2136,7 @@
     "edit_in_person": {
       "flow_type": "template",
       "flow_name": "edit_in_person",
-      "_xlsxPath": "templates/reports.xlsx"
+      "_xlsxPath": "templates/report_override.xlsx"
     },
     "edit_parent": {
       "flow_type": "template",
@@ -2963,7 +2963,7 @@
     "related_element": {
       "flow_type": "template",
       "flow_name": "related_element",
-      "_xlsxPath": "templates/article_elements.xlsx"
+      "_xlsxPath": "templates/article_elements_override.xlsx"
     },
     "report_card": {
       "flow_type": "template",

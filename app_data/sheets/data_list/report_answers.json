@@ -12,10 +12,16 @@
       "question_1": "text",
       "question_2": "text",
       "question_3": "text",
-      "dynamic_question": "{}"
+      "question_4": "text",
+      "question_5": "text",
+      "question_6": "text",
+      "question_7": "text",
+      "question_8": "text",
+      "question_9": "text",
+      "question_10": "text"
     }
   ],
-  "_xlsxPath": "templates/reports.xlsx",
+  "_xlsxPath": "templates/report_override.xlsx",
   "_metadata": {
     "archived": {
       "type": "boolean"
