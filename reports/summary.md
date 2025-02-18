@@ -12,28 +12,28 @@
 | data_items | 28 |
 | debug_toggle | 1 |
 | display_grid | 2 |
-| display_group | 97 |
+| display_group | 99 |
 | drawer | 1 |
 | image | 10 |
-| items | 27 |
+| items | 25 |
 | lottie_animation | 2 |
 | navigation_bar | 2 |
 | pdf | 1 |
 | qr_code | 1 |
-| radio_button_grid | 8 |
+| radio_button_grid | 16 |
 | round_button | 32 |
 | select_text | 1 |
-| set_variable | 674 |
+| set_variable | 687 |
 | simple_checkbox | 2 |
 | task_card | 3 |
 | task_progress_bar | 2 |
 | template | 156 |
 | test | 1 |
-| text | 163 |
+| text | 173 |
 | text_area | 2 |
-| text_box | 24 |
+| text_box | 30 |
 | title | 34 |
-| toggle_bar | 7 |
+| toggle_bar | 5 |
 | update_action_list | 2 |
 | video | 2 |
 | youtube | 1 |
@@ -54,15 +54,15 @@
 | emit: set_language | 1 |
 | emit: uncompleted | 84 |
 | feedback | 13 |
-| go_to | 33 |
+| go_to | 32 |
 | nav_stack | 6 |
-| pop_up | 12 |
+| pop_up | 13 |
 | reset_app | 1 |
 | save_to_device | 4 |
 | set_data | 19 |
 | set_field | 54 |
 | set_item | 10 |
-| set_local | 23 |
+| set_local | 29 |
 | share | 2 |
 | user | 1 |
 </details>
