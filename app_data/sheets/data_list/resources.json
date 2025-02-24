@@ -21,21 +21,6 @@
     },
     {
       "id": "resource_2",
-      "foreign_key": "week_1_session_2",
-      "media_type": "youtube",
-      "media_asset": "https://www.youtube.com/watch?v=0oOAGrStVGI",
-      "media_title": "Youtube video",
-      "_translations": {
-        "media_title": {}
-      },
-      "_translatedFields": {
-        "media_title": {
-          "eng": "Youtube video"
-        }
-      }
-    },
-    {
-      "id": "resource_3",
       "foreign_key": "week_1_session_3",
       "media_type": "pdf",
       "media_asset": "module_1_deliver",
@@ -50,7 +35,7 @@
       }
     },
     {
-      "id": "resource_4",
+      "id": "resource_3",
       "foreign_key": "week_2_session",
       "media_type": "pdf",
       "media_asset": "module_2_prepare",
@@ -61,6 +46,36 @@
       "_translatedFields": {
         "media_title": {
           "eng": "Review building block & messages"
+        }
+      }
+    },
+    {
+      "id": "resource_4",
+      "foreign_key": "week_2_session_7",
+      "media_type": "pdf",
+      "media_asset": "pdf/module_1_troubleshooting.pdf",
+      "media_title": "One-on-one time: Common Challenges & Solutions",
+      "_translations": {
+        "media_title": {}
+      },
+      "_translatedFields": {
+        "media_title": {
+          "eng": "One-on-one time: Common Challenges & Solutions"
+        }
+      }
+    },
+    {
+      "id": "resource_5",
+      "foreign_key": "week_2_session_8",
+      "media_type": "pdf",
+      "media_asset": "pdf/module_1_troubleshooting.pdf",
+      "media_title": "One-on-one time: Common Challenges & Solutions",
+      "_translations": {
+        "media_title": {}
+      },
+      "_translatedFields": {
+        "media_title": {
+          "eng": "One-on-one time: Common Challenges & Solutions"
         }
       }
     }

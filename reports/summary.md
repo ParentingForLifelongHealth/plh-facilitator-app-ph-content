@@ -23,13 +23,13 @@
 | radio_button_grid | 16 |
 | round_button | 32 |
 | select_text | 1 |
-| set_variable | 687 |
+| set_variable | 679 |
 | simple_checkbox | 2 |
 | task_card | 3 |
 | task_progress_bar | 2 |
-| template | 156 |
+| template | 150 |
 | test | 1 |
-| text | 173 |
+| text | 174 |
 | text_area | 2 |
 | text_box | 30 |
 | title | 34 |
@@ -46,13 +46,13 @@
 | --- | --- |
 | add_data | 5 |
 | app_update | 1 |
-| emit: completed | 38 |
+| emit: completed | 39 |
 | emit: force_reload | 4 |
 | emit: force_reprocess | 9 |
 | emit: force_restart | 3 |
 | emit: server_sync | 4 |
 | emit: set_language | 1 |
-| emit: uncompleted | 84 |
+| emit: uncompleted | 85 |
 | feedback | 13 |
 | go_to | 32 |
 | nav_stack | 6 |
@@ -72,7 +72,7 @@
 
 | assets | KB | MB |
 | --- | --- | --- |
-| total | 55707 KB | 55.7 MB |
+| total | 55930 KB | 55.9 MB |
 | unused | 9933 KB | 9.9 MB |
 </details>
 
@@ -216,7 +216,7 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | images/logos/bird_white.svg | 1.9 | 1 |
 | images/logos/nip.png | 11.9 | 1 |
 | images/no_group_selected.svg | 3.5 | 1 |
-| images/onboarding_cc.svg | 19.3 | 5 |
+| images/onboarding_cc.svg | 19.3 | 3 |
 | images/one_on_one_challenges.svg | 13.1 | 1 |
 | images/overview_cc.svg | 7.8 | 1 |
 | images/praise_challenges.svg | 20.6 | 1 |
@@ -227,6 +227,7 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | pdf/manual_study.pdf | 1047 | 1 |
 | pdf/module_1_deliver.pdf | 2718.4 | 1 |
 | pdf/module_1_prepare.pdf | 179 | 1 |
+| pdf/module_1_troubleshooting.pdf | 222.4 | 3 |
 | pdf/module_2_guide.pdf | 1777.1 | 1 |
 | pdf/overview_guide_study.pdf | 2252.6 | 1 |
 | pdf/peas.pdf | 590.3 | 1 |
@@ -245,12 +246,12 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | data_list | legal_terms | 2 |
 | data_list | lifecycle_actions | 1 |
 | data_pipe |  | 2 |
-| data_pipe | generated | 35 |
+| data_pipe | generated | 29 |
 | generator |  | 9 |
 | global |  | 11 |
 | global | legal_terms | 1 |
 | template |  | 72 |
-| template | generated | 113 |
+| template | generated | 107 |
 | template | legal_terms | 4 |
 | template | menu | 1 |
 </details>

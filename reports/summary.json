@@ -83,7 +83,7 @@
       },
       {
         "type": "set_variable",
-        "count": 687
+        "count": 679
       },
       {
         "type": "simple_checkbox",
@@ -99,7 +99,7 @@
       },
       {
         "type": "template",
-        "count": 156
+        "count": 150
       },
       {
         "type": "test",
@@ -107,7 +107,7 @@
       },
       {
         "type": "text",
-        "count": 173
+        "count": 174
       },
       {
         "type": "text_area",
@@ -151,7 +151,7 @@
       },
       {
         "type": "emit: completed",
-        "count": 38
+        "count": 39
       },
       {
         "type": "emit: force_reload",
@@ -175,7 +175,7 @@
       },
       {
         "type": "emit: uncompleted",
-        "count": 84
+        "count": 85
       },
       {
         "type": "feedback",
@@ -231,8 +231,8 @@
     "data": [
       {
         "assets": "total",
-        "KB": "55707 KB",
-        "MB": "55.7 MB"
+        "KB": "55930 KB",
+        "MB": "55.9 MB"
       },
       {
         "assets": "unused",
@@ -795,7 +795,7 @@
       },
       {
         "path": "images/onboarding_cc.svg",
-        "count": 5,
+        "count": 3,
         "size_kb": 19.3
       },
       {
@@ -847,6 +847,11 @@
         "path": "pdf/module_1_prepare.pdf",
         "count": 1,
         "size_kb": 179
+      },
+      {
+        "path": "pdf/module_1_troubleshooting.pdf",
+        "count": 3,
+        "size_kb": 222.4
       },
       {
         "path": "pdf/module_2_guide.pdf",
@@ -910,7 +915,7 @@
       {
         "type": "data_pipe",
         "subtype": "generated",
-        "total": 35
+        "total": 29
       },
       {
         "type": "generator",
@@ -935,7 +940,7 @@
       {
         "type": "template",
         "subtype": "generated",
-        "total": 113
+        "total": 107
       },
       {
         "type": "template",

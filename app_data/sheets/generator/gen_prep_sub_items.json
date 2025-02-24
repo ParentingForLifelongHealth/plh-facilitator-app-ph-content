@@ -180,36 +180,6 @@
       "flow_name": "prep_week_2_2_reminder_2_sub_items",
       "flow_subtype": "generated",
       "flow_type": "data_pipe"
-    },
-    {
-      "flow_name": "prep_week_4_chat_sub_items",
-      "flow_subtype": "generated",
-      "flow_type": "data_pipe"
-    },
-    {
-      "flow_name": "prep_week_4_chat_2_sub_items",
-      "flow_subtype": "generated",
-      "flow_type": "data_pipe"
-    },
-    {
-      "flow_name": "prep_week_4_chat_3_sub_items",
-      "flow_subtype": "generated",
-      "flow_type": "data_pipe"
-    },
-    {
-      "flow_name": "prep_week_4_chat_4_sub_items",
-      "flow_subtype": "generated",
-      "flow_type": "data_pipe"
-    },
-    {
-      "flow_name": "prep_week_4_chat_5_sub_items",
-      "flow_subtype": "generated",
-      "flow_type": "data_pipe"
-    },
-    {
-      "flow_name": "prep_week_4_chat_6_sub_items",
-      "flow_subtype": "generated",
-      "flow_type": "data_pipe"
     }
   ]
 }

@@ -74,18 +74,6 @@
       "previous_article": "",
       "test": "week_2_2_reminder",
       "create_loop": "create"
-    },
-    {
-      "ignore": 30,
-      "id": "week_4_chat",
-      "completed": false,
-      "loop_id": "week_4_chat",
-      "foreign_key": "week_4_chat",
-      "type": "article",
-      "next_article": "week_4_chat_2",
-      "previous_article": "",
-      "test": "week_4_chat",
-      "create_loop": "create"
     }
   ],
   "_metadata": {
