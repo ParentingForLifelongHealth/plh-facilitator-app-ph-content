@@ -7,7 +7,7 @@
     {
       "id": "message_1",
       "foreign_key": "week_1_session_2",
-      "asset": "",
+      "asset_type": "",
       "ignore": 1,
       "title": "Day One: Module Reminder",
       "_translations": {
@@ -32,7 +32,7 @@
     {
       "id": "message_2",
       "foreign_key": "week_1_session_4",
-      "asset": "",
+      "asset_type": "",
       "ignore": 2,
       "title": "After the Session: Thanking Participants and Reminding Them to Practise",
       "_translations": {
@@ -57,7 +57,7 @@
     {
       "id": "message_3",
       "foreign_key": "week_1_1_reminder",
-      "asset": "",
+      "asset_type": "",
       "ignore": 3,
       "title": "Day Three: Support Reminder",
       "_translations": {
@@ -70,19 +70,19 @@
           "eng": "Day Three: Support Reminder"
         },
         "text": {
-          "eng": "Hi! How is your practice of the homework assignment going? I understand that\nyou may have some challenges with this module. Feel free to text me if you have any questions.Thank you!"
+          "eng": "Hi! How is your practice of the homework assignment going? I understand that you may have some challenges with this module. Feel free to text me if you have any questions.Thank you!"
         },
         "guidance": {
           "eng": ""
         }
       },
-      "text": "Hi! How is your practice of the homework assignment going? I understand that\nyou may have some challenges with this module. Feel free to text me if you have any questions.Thank you!",
+      "text": "Hi! How is your practice of the homework assignment going? I understand that you may have some challenges with this module. Feel free to text me if you have any questions.Thank you!",
       "guidance": ""
     },
     {
       "id": "message_4",
       "foreign_key": "week_1_2_reminder",
-      "asset": "",
+      "asset_type": "",
       "ignore": 4,
       "title": "One Day Before the Next Online Session: Reminder for\nthe Next Session",
       "_translations": {
@@ -107,7 +107,7 @@
     {
       "id": "message_5",
       "foreign_key": "week_2_session_2",
-      "asset": "images/house_of_support.png",
+      "asset_type": "images/house_of_support.png",
       "ignore": 5,
       "title": "Day One: Module Reminder",
       "_translations": {
@@ -132,7 +132,7 @@
     {
       "id": "message_6",
       "foreign_key": "week_2_session_4",
-      "asset": "",
+      "asset_type": "",
       "ignore": 6,
       "title": "Message 1: Greetings",
       "_translations": {
@@ -145,19 +145,19 @@
           "eng": "Message 1: Greetings"
         },
         "text": {
-          "eng": "Greetings  and  Greetings Welcome  to  Module  2  of  our  MaPaChat!  How  are  you  all?  Are  you  happy? Stressed?  Angry?  Annoyed?  Calm?  Whatever  emotion  you  are  feeling feeling...it's  okay!  Let's  type  what  we're  feeling today"
+          "eng": "Greetings  and  Greetings! Welcome  to  Module  2  of  our  MaPaChat!  How  are  you  all?  Are  you  happy? Stressed?  Angry?  Annoyed?  Calm?  Whatever  emotion  you  are  feeling...it's  okay!  Let's  type  what  we're  feeling today"
         },
         "guidance": {
           "eng": "Give parents a moment to share how they feel. Also, share your own feelings. For example, “I’m happy to be part of our MaPaChat session today"
         }
       },
-      "text": "Greetings  and  Greetings Welcome  to  Module  2  of  our  MaPaChat!  How  are  you  all?  Are  you  happy? Stressed?  Angry?  Annoyed?  Calm?  Whatever  emotion  you  are  feeling feeling...it's  okay!  Let's  type  what  we're  feeling today",
+      "text": "Greetings  and  Greetings! Welcome  to  Module  2  of  our  MaPaChat!  How  are  you  all?  Are  you  happy? Stressed?  Angry?  Annoyed?  Calm?  Whatever  emotion  you  are  feeling...it's  okay!  Let's  type  what  we're  feeling today",
       "guidance": "Give parents a moment to share how they feel. Also, share your own feelings. For example, “I’m happy to be part of our MaPaChat session today"
     },
     {
       "id": "message_7",
       "foreign_key": "week_2_session_5",
-      "asset": "",
+      "asset_type": "",
       "ignore": 7,
       "title": "Message 2: Discussion about Home Activity",
       "_translations": {
@@ -182,7 +182,7 @@
     {
       "id": "message_8",
       "foreign_key": "week_2_session_6",
-      "asset": "",
+      "asset_type": "",
       "ignore": 8,
       "title": "Message 3: Sharing Success",
       "_translations": {
@@ -195,19 +195,19 @@
           "eng": "Message 3: Sharing Success"
         },
         "text": {
-          "eng": "One  of  the  successes  you  shared  last  week. You  did  One-on-One  Time  and  [describe  the  success]. You  did  a  great  job  [attributing  success  to]building block]."
+          "eng": "One  of  the  successes  you  shared  last  week. You  did  One-on-One  Time  and  [describe  the  success]. You  did  a  great  job  [attributing  success  to building block]."
         },
         "guidance": {
           "eng": "Share a success from what the parents have shared."
         }
       },
-      "text": "One  of  the  successes  you  shared  last  week. You  did  One-on-One  Time  and  [describe  the  success]. You  did  a  great  job  [attributing  success  to]building block].",
+      "text": "One  of  the  successes  you  shared  last  week. You  did  One-on-One  Time  and  [describe  the  success]. You  did  a  great  job  [attributing  success  to building block].",
       "guidance": "Share a success from what the parents have shared."
     },
     {
       "id": "message_9",
       "foreign_key": "week_2_session_7",
-      "asset": "",
+      "asset_type": "",
       "ignore": 9,
       "title": "Message 4: Discuss Challenge",
       "_translations": {
@@ -223,16 +223,16 @@
           "eng": "Now  we  will  discuss  a  shared  challenge  about  [describe  the  challenge  from  the  feedback  module]."
         },
         "guidance": {
-          "eng": "If no one shared a challenge last week, send the example challenges one by one in the chat below."
+          "eng": "If no one shared a challenge last week, send the example challenges one by one from the pdf."
         }
       },
       "text": "Now  we  will  discuss  a  shared  challenge  about  [describe  the  challenge  from  the  feedback  module].",
-      "guidance": "If no one shared a challenge last week, send the example challenges one by one in the chat below."
+      "guidance": "If no one shared a challenge last week, send the example challenges one by one from the pdf."
     },
     {
       "id": "message_10",
       "foreign_key": "week_2_session_8",
-      "asset": "",
+      "asset_type": "",
       "ignore": 10,
       "title": "Message 5: Discussion about challenge & solution",
       "_translations": {
@@ -248,18 +248,18 @@
           "eng": "Can  we  work  together  to  come  up  with  a  positive  solution  to  [describe  the  challenge]?  What  might  a  parent  in  that  situation  do?"
         },
         "guidance": {
-          "eng": "Encourage parents to think of positive solutions. Here are some examples of challenges and solutions:"
+          "eng": "Encourage parents to think of positive solutions. You will find some examples of challenges and solutions in the pdf."
         }
       },
       "text": "Can  we  work  together  to  come  up  with  a  positive  solution  to  [describe  the  challenge]?  What  might  a  parent  in  that  situation  do?",
-      "guidance": "Encourage parents to think of positive solutions. Here are some examples of challenges and solutions:"
+      "guidance": "Encourage parents to think of positive solutions. You will find some examples of challenges and solutions in the pdf."
     },
     {
       "id": "message_11",
       "foreign_key": "week_2_session_9",
-      "asset": "",
+      "asset_type": "",
       "ignore": 11,
-      "title": "Message ??",
+      "title": "Message 6",
       "_translations": {
         "title": {},
         "text": {},
@@ -267,7 +267,7 @@
       },
       "_translatedFields": {
         "title": {
-          "eng": "Message ??"
+          "eng": "Message 6"
         },
         "text": {
           "eng": "Thank  you  so  much  for  your  ideas.  Now  that  you  know  how  to  use  One-on-One  Time  with  your  child,  you  can  also  try  it  with  other  members  of  your  family—like  your  spouse,  parents,  in-laws,  or  even  grandchildren!"
@@ -282,9 +282,9 @@
     {
       "id": "message_12",
       "foreign_key": "week_2_session_10",
-      "asset": "",
+      "asset_type": "",
       "ignore": 12,
-      "title": "Message 6: Introducing MaPa Skill",
+      "title": "Message 7: Introducing MaPa Skill",
       "_translations": {
         "title": {},
         "text": {},
@@ -292,7 +292,7 @@
       },
       "_translatedFields": {
         "title": {
-          "eng": "Message 6: Introducing MaPa Skill"
+          "eng": "Message 7: Introducing MaPa Skill"
         },
         "text": {
           "eng": "Today  we're  going  to  talk  about  MaPa  Skill:  helping  children  manage  their  emotions.  Here  are  five  foundations  for  talking  to  children  about  emotions. \n1.  BREATHE  -  Breathe  before  you  start  to  calm  yourself  down. \n2.  SHARE  -  Share  your  feelings. \n3.  LISTEN  -  Listen  to  your  child  or  teenager. \n4.  PAINFUL  -  Concerned  for  them. \n5.  FIND  -  Find  the  positive"
@@ -307,9 +307,9 @@
     {
       "id": "message_13",
       "foreign_key": "week_2_session_11",
-      "asset": "images/comics/module_2_yc.png",
+      "asset_type": "images/comics/module_2_yc.png",
       "ignore": 13,
-      "title": "Message 7: Comic about young child",
+      "title": "Message 8: Comic about young child",
       "_translations": {
         "title": {},
         "text": {},
@@ -317,7 +317,7 @@
       },
       "_translatedFields": {
         "title": {
-          "eng": "Message 7: Comic about young child"
+          "eng": "Message 8: Comic about young child"
         },
         "text": {
           "eng": "Here is a comic showing how a child talked about their feelings with their grandmother during One-on-One Time."
@@ -332,9 +332,9 @@
     {
       "id": "message_14",
       "foreign_key": "week_2_session_12",
-      "asset": "",
+      "asset_type": "",
       "ignore": 14,
-      "title": "Messgae 8: Discussion about the Comic",
+      "title": "Messgae 9: Discussion about the Comic",
       "_translations": {
         "title": {},
         "text": {},
@@ -342,7 +342,7 @@
       },
       "_translatedFields": {
         "title": {
-          "eng": "Messgae 8: Discussion about the Comic"
+          "eng": "Messgae 9: Discussion about the Comic"
         },
         "text": {
           "eng": "How  did  you  see  any  of  the  five  foundations  of  Talking  About  Feelings  in  this  comic?"
@@ -357,9 +357,9 @@
     {
       "id": "message_15",
       "foreign_key": "week_2_session_13",
-      "asset": "images/comics/module_2_teen.png",
+      "asset_type": "images/comics/module_2_teen.png",
       "ignore": 15,
-      "title": "Message 9: Comic about a Teenage Child: Talking about Feelings",
+      "title": "Message 10: Comic about a Teenage Child: Talking about Feelings",
       "_translations": {
         "title": {},
         "text": {},
@@ -367,7 +367,7 @@
       },
       "_translatedFields": {
         "title": {
-          "eng": "Message 9: Comic about a Teenage Child: Talking about Feelings"
+          "eng": "Message 10: Comic about a Teenage Child: Talking about Feelings"
         },
         "text": {
           "eng": "Here's another comic where Dad Jose talks about difficult emotions with his teenage son, Pablo"
@@ -382,9 +382,9 @@
     {
       "id": "message_16",
       "foreign_key": "week_2_session_14",
-      "asset": "",
+      "asset_type": "",
       "ignore": 16,
-      "title": "Message 10: Discussion about Comics",
+      "title": "Message 11: Discussion about Comics",
       "_translations": {
         "title": {},
         "text": {},
@@ -392,7 +392,7 @@
       },
       "_translatedFields": {
         "title": {
-          "eng": "Message 10: Discussion about Comics"
+          "eng": "Message 11: Discussion about Comics"
         },
         "text": {
           "eng": "Let's also chat about this comic. What did you notice about how Tatay Jose spoke to his son?\nWhich of the foundations did you see?"
@@ -407,9 +407,9 @@
     {
       "id": "message_17",
       "foreign_key": "week_2_session_15",
-      "asset": "",
+      "asset_type": "",
       "ignore": 17,
-      "title": "Message 11: Discussion about Comics: Think about the Age of the Child",
+      "title": "Message 12: Discussion about Comics: Think about the Age of the Child",
       "_translations": {
         "title": {},
         "text": {},
@@ -417,7 +417,7 @@
       },
       "_translatedFields": {
         "title": {
-          "eng": "Message 11: Discussion about Comics: Think about the Age of the Child"
+          "eng": "Message 12: Discussion about Comics: Think about the Age of the Child"
         },
         "text": {
           "eng": "How would the story in the comic change if Dad was talking about his feelings to a young child\ninstead of a teenager?"
@@ -432,9 +432,9 @@
     {
       "id": "message_18",
       "foreign_key": "week_2_session_16",
-      "asset": "",
+      "asset_type": "",
       "ignore": 18,
-      "title": "Message 12: Discussion about Reasons for Talking About Feelings",
+      "title": "Message 13: Discussion about Reasons for Talking About Feelings",
       "_translations": {
         "title": {},
         "text": {},
@@ -442,7 +442,7 @@
       },
       "_translatedFields": {
         "title": {
-          "eng": "Message 12: Discussion about Reasons for Talking About Feelings"
+          "eng": "Message 13: Discussion about Reasons for Talking About Feelings"
         },
         "text": {
           "eng": "Why is it helpful to encourage a young child or teenager to share their feelings?"
@@ -457,9 +457,9 @@
     {
       "id": "message_19",
       "foreign_key": "week_2_session_17",
-      "asset": "",
+      "asset_type": "",
       "ignore": 19,
-      "title": "Message 13: Setting a Home Activity",
+      "title": "Message 14: Setting a Home Activity",
       "_translations": {
         "title": {},
         "text": {},
@@ -467,7 +467,7 @@
       },
       "_translatedFields": {
         "title": {
-          "eng": "Message 13: Setting a Home Activity"
+          "eng": "Message 14: Setting a Home Activity"
         },
         "text": {
           "eng": "Thank you for sharing your ideas. For this week's homework, practice talking about feelings with your child during your One-on-One time and at other times.\nAlso try to pay attention to your own feelings as your day goes by."
@@ -482,9 +482,9 @@
     {
       "id": "message_20",
       "foreign_key": "week_2_session_18",
-      "asset": "",
+      "asset_type": "",
       "ignore": 20,
-      "title": "Message 14: Clarification",
+      "title": "Message 15: Clarification",
       "_translations": {
         "title": {},
         "text": {},
@@ -492,7 +492,7 @@
       },
       "_translatedFields": {
         "title": {
-          "eng": "Message 14: Clarification"
+          "eng": "Message 15: Clarification"
         },
         "text": {
           "eng": "Do you have any more questions about talking about feelings?"
@@ -507,9 +507,9 @@
     {
       "id": "message_21",
       "foreign_key": "week_2_session_19",
-      "asset": "module_2_skill",
+      "asset_type": "module_2_skill",
       "ignore": 21,
-      "title": "Message 15 –Video: MaPa Skill Reminder",
+      "title": "Message 16 –Video: MaPa Skill Reminder",
       "_translations": {
         "title": {},
         "text": {},
@@ -517,7 +517,7 @@
       },
       "_translatedFields": {
         "title": {
-          "eng": "Message 15 –Video: MaPa Skill Reminder"
+          "eng": "Message 16 –Video: MaPa Skill Reminder"
         },
         "text": {
           "eng": "Here is a short video on how to talk about feelings with your child. It is a reminder of the foundations:"
@@ -532,9 +532,9 @@
     {
       "id": "message_22",
       "foreign_key": "week_2_session_20",
-      "asset": "body_scan",
+      "asset_type": "body_scan",
       "ignore": 22,
-      "title": "Message 16 – Audio: Pause for a Moment",
+      "title": "Message 17 – Video: Pause for a Moment",
       "_translations": {
         "title": {},
         "text": {},
@@ -542,7 +542,7 @@
       },
       "_translatedFields": {
         "title": {
-          "eng": "Message 16 – Audio: Pause for a Moment"
+          "eng": "Message 17 – Video: Pause for a Moment"
         },
         "text": {
           "eng": "Before we end today's chat session, we will do a Pause for a Moment.\nRemember that you can also do this if you feel like it.\nstress."
@@ -557,9 +557,9 @@
     {
       "id": "message_23",
       "foreign_key": "week_2_session_21",
-      "asset": "",
+      "asset_type": "",
       "ignore": 23,
-      "title": "Message 17 – Gratitude",
+      "title": "Message 18 – Gratitude",
       "_translations": {
         "title": {},
         "text": {},
@@ -567,22 +567,22 @@
       },
       "_translatedFields": {
         "title": {
-          "eng": "Message 17 – Gratitude"
+          "eng": "Message 18 – Gratitude"
         },
         "text": {
-          "eng": "Thank you. What you did today was difficult but also very important. It will help you manage\nyour stress and give your child the skills to manage their stress. Have a great day!"
+          "eng": "Thank you. What you did today was difficult but also very important. It will help you manage your stress and give your child the skills to manage their stress. Have a great day!"
         },
         "guidance": {
           "eng": ""
         }
       },
-      "text": "Thank you. What you did today was difficult but also very important. It will help you manage\nyour stress and give your child the skills to manage their stress. Have a great day!",
+      "text": "Thank you. What you did today was difficult but also very important. It will help you manage your stress and give your child the skills to manage their stress. Have a great day!",
       "guidance": ""
     },
     {
       "id": "message_24",
       "foreign_key": "week_2_1_reminder",
-      "asset": "",
+      "asset_type": "",
       "ignore": 24,
       "title": "Day Three: Reminder to Practise",
       "_translations": {
@@ -607,7 +607,7 @@
     {
       "id": "message_25",
       "foreign_key": "week_2_2_reminder_2",
-      "asset": "",
+      "asset_type": "",
       "ignore": 25,
       "title": "Day Five: Feedback",
       "_translations": {
@@ -628,131 +628,6 @@
       },
       "text": "Hi! Could you share something positive that happened when you talked to your child about feelings?\nHave you experienced any challenges while trying to do this? Could be creative!\nSend stories, voice messages, and pictures. I'd love to hear how your week was when we\nmeet again on [INSERT DATE HERE].",
       "guidance": "Accept submissions by parents for giving thumbs up, emoji, or compliments. Be sure to pick up one or two successes and challenges that can be discussed at the beginning of the next module."
-    },
-    {
-      "id": "message_26",
-      "foreign_key": "week_4_chat_2",
-      "asset": "",
-      "ignore": 26,
-      "title": "Message 1: Welcome and Check-in",
-      "_translations": {
-        "title": {},
-        "text": {},
-        "guidance": {}
-      },
-      "_translatedFields": {
-        "title": {
-          "eng": "Message 1: Welcome and Check-in"
-        },
-        "text": {
-          "eng": "Hello, everyone! 😃\n\nWelcome to our final chat session! \n\nToday, we are wrapping up our conversation about building blocks for mental wellbeing. So far, we’ve identified the relationship between thoughts, feelings, and behaviours, learned about positive self talk, and relying on our character strengths. Great job!\n\nCongratulations on completing the Crianza con Conciencia+ Programme! You can continue to complete the course on the CC+.\n\n✨ Take a moment to think back to the beginning of the programme. You should be so proud of yourself. How was your experience in Crianza con Conciencia+?"
-        },
-        "guidance": {
-          "eng": "Allow caregivers to share their experience during the programme. You can give brief words of encouragement like “Wonderful!” or “I am happy to hear that!” or even share celebration emojis like 🎉 or ⭐."
-        }
-      },
-      "text": "Hello, everyone! 😃\n\nWelcome to our final chat session! \n\nToday, we are wrapping up our conversation about building blocks for mental wellbeing. So far, we’ve identified the relationship between thoughts, feelings, and behaviours, learned about positive self talk, and relying on our character strengths. Great job!\n\nCongratulations on completing the Crianza con Conciencia+ Programme! You can continue to complete the course on the CC+.\n\n✨ Take a moment to think back to the beginning of the programme. You should be so proud of yourself. How was your experience in Crianza con Conciencia+?",
-      "guidance": "Allow caregivers to share their experience during the programme. You can give brief words of encouragement like “Wonderful!” or “I am happy to hear that!” or even share celebration emojis like 🎉 or ⭐."
-    },
-    {
-      "id": "message_27",
-      "foreign_key": "week_4_chat_3",
-      "asset": "",
-      "ignore": 27,
-      "title": "Message 2: Pleasant time with your girl, boy or teen",
-      "_translations": {
-        "title": {},
-        "text": {},
-        "guidance": {}
-      },
-      "_translatedFields": {
-        "title": {
-          "eng": "Message 2: Pleasant time with your girl, boy or teen"
-        },
-        "text": {
-          "eng": "Thank you for sharing your experiences. \n\nNow, let’s think back to a time when you and your girl, boy or teen did something together that made you feel really good. \n\nHow did it make you feel? Did it make you feel joy, love, pride or inspired? What were you doing? \n\nIf you feel comfortable, you can tell us about it in the chat. We would love to hear your story!"
-        },
-        "guidance": {
-          "eng": "Allow time for caregivers to share stories. If needed, feel free to share an example: \n\nMy teen and I cooked dinner together, and we had such a great time. I felt so joyful doing a fun activity together. He is learning all the best recipes from me:)."
-        }
-      },
-      "text": "Thank you for sharing your experiences. \n\nNow, let’s think back to a time when you and your girl, boy or teen did something together that made you feel really good. \n\nHow did it make you feel? Did it make you feel joy, love, pride or inspired? What were you doing? \n\nIf you feel comfortable, you can tell us about it in the chat. We would love to hear your story!",
-      "guidance": "Allow time for caregivers to share stories. If needed, feel free to share an example: \n\nMy teen and I cooked dinner together, and we had such a great time. I felt so joyful doing a fun activity together. He is learning all the best recipes from me:)."
-    },
-    {
-      "id": "message_28",
-      "foreign_key": "week_4_chat_4",
-      "asset": "",
-      "ignore": 28,
-      "title": "Message 3: Pleasant emotions",
-      "_translations": {
-        "title": {},
-        "text": {},
-        "guidance": {}
-      },
-      "_translatedFields": {
-        "title": {
-          "eng": "Message 3: Pleasant emotions"
-        },
-        "text": {
-          "eng": "Thank you for sharing! \n\nWe all experience pleasant emotions throughout our lives, but did you know that you can boost your well-being by boosting pleasant emotions and thoughts? This works for you and your child or teen! \n\nSome ways we have talked about in our chat sessions are: \nThinking of three good things that happened during the day. \nRemember our chat last time about positive qualities? You and your girl, boy or teen could do activities together that brings out the positive qualities in both of you. \nWhen you feel pleasant emotions and share it with your girl, boy, or teen, they feel it too! \n\nWhen your well-being needs a boost, start by trying these activities. \n\nWhich of these do you think you can continue doing even after the programme has ended?"
-        },
-        "guidance": {
-          "eng": "Allow caregivers to respond. You can reply to the parents with an emoji ⭐ or words of encouragement, like “That sounds great!” or “Don’t worry, you can always plan to try it later this week.”"
-        }
-      },
-      "text": "Thank you for sharing! \n\nWe all experience pleasant emotions throughout our lives, but did you know that you can boost your well-being by boosting pleasant emotions and thoughts? This works for you and your child or teen! \n\nSome ways we have talked about in our chat sessions are: \nThinking of three good things that happened during the day. \nRemember our chat last time about positive qualities? You and your girl, boy or teen could do activities together that brings out the positive qualities in both of you. \nWhen you feel pleasant emotions and share it with your girl, boy, or teen, they feel it too! \n\nWhen your well-being needs a boost, start by trying these activities. \n\nWhich of these do you think you can continue doing even after the programme has ended?",
-      "guidance": "Allow caregivers to respond. You can reply to the parents with an emoji ⭐ or words of encouragement, like “That sounds great!” or “Don’t worry, you can always plan to try it later this week.”"
-    },
-    {
-      "id": "message_29",
-      "foreign_key": "week_4_chat_5",
-      "asset": "",
-      "ignore": 29,
-      "title": "Message 4: Three Good Things and Group Admin",
-      "_translations": {
-        "title": {},
-        "text": {},
-        "guidance": {}
-      },
-      "_translatedFields": {
-        "title": {
-          "eng": "Message 4: Three Good Things and Group Admin"
-        },
-        "text": {
-          "eng": "Thank you for sharing. 🏅\n\nBefore we close, let’s share our three good things from this week all together.  \n\nRemember, they can be personal, work-related, or family-related. The more detailed, the better! You can keep this up after I leave the WhatsApp Group.\n\nAlthough this is my last chat session with you, you are in good hands with your new chat group admin: [INSERT NAMES OF MODERATORS] 💙"
-        },
-        "guidance": {
-          "eng": ""
-        }
-      },
-      "text": "Thank you for sharing. 🏅\n\nBefore we close, let’s share our three good things from this week all together.  \n\nRemember, they can be personal, work-related, or family-related. The more detailed, the better! You can keep this up after I leave the WhatsApp Group.\n\nAlthough this is my last chat session with you, you are in good hands with your new chat group admin: [INSERT NAMES OF MODERATORS] 💙",
-      "guidance": ""
-    },
-    {
-      "id": "message_30",
-      "foreign_key": "week_4_chat_6",
-      "asset": "",
-      "ignore": 30,
-      "title": "Message 5: Goodbye",
-      "_translations": {
-        "title": {},
-        "text": {},
-        "guidance": {}
-      },
-      "_translatedFields": {
-        "title": {
-          "eng": "Message 5: Goodbye"
-        },
-        "text": {
-          "eng": "It's been wonderful being part of this amazing parent program with all of you! Saying goodbye makes me a bit sad. \n\nAs I shared with you during the onboarding session, I will now be exiting this WhatsApp Group. 👋\n\nYou are the best parents to your girls, boys and teens.  *You can still complete your final Crianza con Conciencia+ lessons if you have not done so yet*. 🌱\n\nWe all face difficult situations sometimes, and these final parts of @global.programme_name will help you and your girl, boy or teen to get through them well. \n\nYou’ve got this! ⭐You are doing a wonderful job as a caregiver. It has been a pleasure to be on this journey with you!"
-        },
-        "guidance": {
-          "eng": ""
-        }
-      },
-      "text": "It's been wonderful being part of this amazing parent program with all of you! Saying goodbye makes me a bit sad. \n\nAs I shared with you during the onboarding session, I will now be exiting this WhatsApp Group. 👋\n\nYou are the best parents to your girls, boys and teens.  *You can still complete your final Crianza con Conciencia+ lessons if you have not done so yet*. 🌱\n\nWe all face difficult situations sometimes, and these final parts of @global.programme_name will help you and your girl, boy or teen to get through them well. \n\nYou’ve got this! ⭐You are doing a wonderful job as a caregiver. It has been a pleasure to be on this journey with you!",
-      "guidance": ""
     }
   ],
   "_xlsxPath": "data/modules_sub_items_ph.xlsx",

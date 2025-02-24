@@ -169,36 +169,6 @@
       "flow_name": "articles_week_2_2_reminder_2",
       "flow_subtype": "generated",
       "flow_type": "template"
-    },
-    {
-      "flow_name": "articles_week_4_chat",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    {
-      "flow_name": "articles_week_4_chat_2",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    {
-      "flow_name": "articles_week_4_chat_3",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    {
-      "flow_name": "articles_week_4_chat_4",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    {
-      "flow_name": "articles_week_4_chat_5",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    {
-      "flow_name": "articles_week_4_chat_6",
-      "flow_subtype": "generated",
-      "flow_type": "template"
     }
   ]
 }

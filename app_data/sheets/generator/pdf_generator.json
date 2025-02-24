@@ -89,6 +89,11 @@
       "flow_name": "pdf_module_2_prepare",
       "flow_subtype": "generated",
       "flow_type": "template"
+    },
+    {
+      "flow_name": "pdf_module_1_troubleshooting",
+      "flow_subtype": "generated",
+      "flow_type": "template"
     }
   ]
 }

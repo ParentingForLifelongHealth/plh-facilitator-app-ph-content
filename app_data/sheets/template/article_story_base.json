@@ -48,40 +48,6 @@
     },
     {
       "type": "template",
-      "name": "a_article_section",
-      "value": "a_article_section",
-      "exclude_from_translation": true,
-      "rows": [
-        {
-          "name": "article_id",
-          "value": "@local.article_id",
-          "_translations": {
-            "value": {}
-          },
-          "exclude_from_translation": true,
-          "type": "set_variable",
-          "_nested_name": "a_article_section.article_id",
-          "_dynamicFields": {
-            "value": [
-              {
-                "fullExpression": "@local.article_id",
-                "matchedExpression": "@local.article_id",
-                "type": "local",
-                "fieldName": "article_id"
-              }
-            ]
-          },
-          "_dynamicDependencies": {
-            "@local.article_id": [
-              "value"
-            ]
-          }
-        }
-      ],
-      "_nested_name": "a_article_section"
-    },
-    {
-      "type": "template",
       "name": "article_message",
       "value": "article_message",
       "exclude_from_translation": true,
@@ -113,6 +79,40 @@
         }
       ],
       "_nested_name": "article_message"
+    },
+    {
+      "type": "template",
+      "name": "a_article_section",
+      "value": "a_article_section",
+      "exclude_from_translation": true,
+      "rows": [
+        {
+          "name": "article_id",
+          "value": "@local.article_id",
+          "_translations": {
+            "value": {}
+          },
+          "exclude_from_translation": true,
+          "type": "set_variable",
+          "_nested_name": "a_article_section.article_id",
+          "_dynamicFields": {
+            "value": [
+              {
+                "fullExpression": "@local.article_id",
+                "matchedExpression": "@local.article_id",
+                "type": "local",
+                "fieldName": "article_id"
+              }
+            ]
+          },
+          "_dynamicDependencies": {
+            "@local.article_id": [
+              "value"
+            ]
+          }
+        }
+      ],
+      "_nested_name": "a_article_section"
     },
     {
       "type": "template",
@@ -217,5 +217,5 @@
       "_nested_name": "article_resource"
     }
   ],
-  "_xlsxPath": "templates/menu_sub_tasks.xlsx"
+  "_xlsxPath": "templates/article_loop_override.xlsx"
 }

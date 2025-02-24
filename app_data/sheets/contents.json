@@ -945,138 +945,6 @@
           "flow_type": "data_list"
         }
       ]
-    },
-    "prep_week_4_chat_2_sub_items": {
-      "flow_name": "prep_week_4_chat_2_sub_items",
-      "flow_subtype": "generated",
-      "flow_type": "data_pipe",
-      "_output_flows": [
-        {
-          "flow_name": "article_loops",
-          "flow_subtype": "generated",
-          "flow_type": "data_list"
-        },
-        {
-          "flow_name": "articles",
-          "flow_subtype": "generated",
-          "flow_type": "data_list"
-        },
-        {
-          "flow_name": "menus",
-          "flow_subtype": "generated",
-          "flow_type": "data_list"
-        }
-      ]
-    },
-    "prep_week_4_chat_3_sub_items": {
-      "flow_name": "prep_week_4_chat_3_sub_items",
-      "flow_subtype": "generated",
-      "flow_type": "data_pipe",
-      "_output_flows": [
-        {
-          "flow_name": "article_loops",
-          "flow_subtype": "generated",
-          "flow_type": "data_list"
-        },
-        {
-          "flow_name": "articles",
-          "flow_subtype": "generated",
-          "flow_type": "data_list"
-        },
-        {
-          "flow_name": "menus",
-          "flow_subtype": "generated",
-          "flow_type": "data_list"
-        }
-      ]
-    },
-    "prep_week_4_chat_4_sub_items": {
-      "flow_name": "prep_week_4_chat_4_sub_items",
-      "flow_subtype": "generated",
-      "flow_type": "data_pipe",
-      "_output_flows": [
-        {
-          "flow_name": "article_loops",
-          "flow_subtype": "generated",
-          "flow_type": "data_list"
-        },
-        {
-          "flow_name": "articles",
-          "flow_subtype": "generated",
-          "flow_type": "data_list"
-        },
-        {
-          "flow_name": "menus",
-          "flow_subtype": "generated",
-          "flow_type": "data_list"
-        }
-      ]
-    },
-    "prep_week_4_chat_5_sub_items": {
-      "flow_name": "prep_week_4_chat_5_sub_items",
-      "flow_subtype": "generated",
-      "flow_type": "data_pipe",
-      "_output_flows": [
-        {
-          "flow_name": "article_loops",
-          "flow_subtype": "generated",
-          "flow_type": "data_list"
-        },
-        {
-          "flow_name": "articles",
-          "flow_subtype": "generated",
-          "flow_type": "data_list"
-        },
-        {
-          "flow_name": "menus",
-          "flow_subtype": "generated",
-          "flow_type": "data_list"
-        }
-      ]
-    },
-    "prep_week_4_chat_6_sub_items": {
-      "flow_name": "prep_week_4_chat_6_sub_items",
-      "flow_subtype": "generated",
-      "flow_type": "data_pipe",
-      "_output_flows": [
-        {
-          "flow_name": "article_loops",
-          "flow_subtype": "generated",
-          "flow_type": "data_list"
-        },
-        {
-          "flow_name": "articles",
-          "flow_subtype": "generated",
-          "flow_type": "data_list"
-        },
-        {
-          "flow_name": "menus",
-          "flow_subtype": "generated",
-          "flow_type": "data_list"
-        }
-      ]
-    },
-    "prep_week_4_chat_sub_items": {
-      "flow_name": "prep_week_4_chat_sub_items",
-      "flow_subtype": "generated",
-      "flow_type": "data_pipe",
-      "_output_flows": [
-        {
-          "flow_name": "article_loops",
-          "flow_subtype": "generated",
-          "flow_type": "data_list"
-        },
-        {
-          "flow_name": "articles",
-          "flow_subtype": "generated",
-          "flow_type": "data_list"
-        },
-        {
-          "flow_name": "menus",
-          "flow_subtype": "generated",
-          "flow_type": "data_list"
-        }
-      ]
     }
   },
   "generator": {
@@ -1118,11 +986,6 @@
         },
         {
           "flow_name": "sub_item_week_2_2_reminder",
-          "flow_subtype": "generated",
-          "flow_type": "template"
-        },
-        {
-          "flow_name": "sub_item_week_4_chat",
           "flow_subtype": "generated",
           "flow_type": "template"
         }
@@ -1281,36 +1144,6 @@
         },
         {
           "flow_name": "articles_week_2_2_reminder_2",
-          "flow_subtype": "generated",
-          "flow_type": "template"
-        },
-        {
-          "flow_name": "articles_week_4_chat",
-          "flow_subtype": "generated",
-          "flow_type": "template"
-        },
-        {
-          "flow_name": "articles_week_4_chat_2",
-          "flow_subtype": "generated",
-          "flow_type": "template"
-        },
-        {
-          "flow_name": "articles_week_4_chat_3",
-          "flow_subtype": "generated",
-          "flow_type": "template"
-        },
-        {
-          "flow_name": "articles_week_4_chat_4",
-          "flow_subtype": "generated",
-          "flow_type": "template"
-        },
-        {
-          "flow_name": "articles_week_4_chat_5",
-          "flow_subtype": "generated",
-          "flow_type": "template"
-        },
-        {
-          "flow_name": "articles_week_4_chat_6",
           "flow_subtype": "generated",
           "flow_type": "template"
         }
@@ -1762,36 +1595,6 @@
           "flow_name": "prep_week_2_2_reminder_2_sub_items",
           "flow_subtype": "generated",
           "flow_type": "data_pipe"
-        },
-        {
-          "flow_name": "prep_week_4_chat_sub_items",
-          "flow_subtype": "generated",
-          "flow_type": "data_pipe"
-        },
-        {
-          "flow_name": "prep_week_4_chat_2_sub_items",
-          "flow_subtype": "generated",
-          "flow_type": "data_pipe"
-        },
-        {
-          "flow_name": "prep_week_4_chat_3_sub_items",
-          "flow_subtype": "generated",
-          "flow_type": "data_pipe"
-        },
-        {
-          "flow_name": "prep_week_4_chat_4_sub_items",
-          "flow_subtype": "generated",
-          "flow_type": "data_pipe"
-        },
-        {
-          "flow_name": "prep_week_4_chat_5_sub_items",
-          "flow_subtype": "generated",
-          "flow_type": "data_pipe"
-        },
-        {
-          "flow_name": "prep_week_4_chat_6_sub_items",
-          "flow_subtype": "generated",
-          "flow_type": "data_pipe"
         }
       ]
     },
@@ -1942,6 +1745,11 @@
         },
         {
           "flow_name": "pdf_module_2_prepare",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "pdf_module_1_troubleshooting",
           "flow_subtype": "generated",
           "flow_type": "template"
         }
@@ -2111,7 +1919,7 @@
     "article_story_base": {
       "flow_type": "template",
       "flow_name": "article_story_base",
-      "_xlsxPath": "templates/menu_sub_tasks.xlsx"
+      "_xlsxPath": "templates/article_loop_override.xlsx"
     },
     "delete_group": {
       "flow_type": "template",
@@ -2343,36 +2151,6 @@
     },
     "articles_week_2_session_9": {
       "flow_name": "articles_week_2_session_9",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    "articles_week_4_chat": {
-      "flow_name": "articles_week_4_chat",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    "articles_week_4_chat_2": {
-      "flow_name": "articles_week_4_chat_2",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    "articles_week_4_chat_3": {
-      "flow_name": "articles_week_4_chat_3",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    "articles_week_4_chat_4": {
-      "flow_name": "articles_week_4_chat_4",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    "articles_week_4_chat_5": {
-      "flow_name": "articles_week_4_chat_5",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    "articles_week_4_chat_6": {
-      "flow_name": "articles_week_4_chat_6",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
@@ -2701,6 +2479,11 @@
       "flow_subtype": "generated",
       "flow_type": "template"
     },
+    "pdf_module_1_troubleshooting": {
+      "flow_name": "pdf_module_1_troubleshooting",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
     "pdf_module_2_prepare": {
       "flow_name": "pdf_module_2_prepare",
       "flow_subtype": "generated",
@@ -2758,11 +2541,6 @@
     },
     "sub_item_week_2_session": {
       "flow_name": "sub_item_week_2_session",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    "sub_item_week_4_chat": {
-      "flow_name": "sub_item_week_4_chat",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
@@ -2983,7 +2761,7 @@
     "section_element": {
       "flow_type": "template",
       "flow_name": "section_element",
-      "_xlsxPath": "templates/article_elements.xlsx"
+      "_xlsxPath": "templates/article_elements_override.xlsx"
     },
     "section_header": {
       "flow_type": "template",

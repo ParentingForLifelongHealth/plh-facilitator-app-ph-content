@@ -69,11 +69,6 @@
       "flow_name": "sub_item_week_2_2_reminder",
       "flow_subtype": "generated",
       "flow_type": "template"
-    },
-    {
-      "flow_name": "sub_item_week_4_chat",
-      "flow_subtype": "generated",
-      "flow_type": "template"
     }
   ]
 }
