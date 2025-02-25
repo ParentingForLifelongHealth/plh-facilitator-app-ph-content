@@ -9,7 +9,7 @@
       "foreign_key": "week_1_session_2",
       "ignore": 1,
       "ignore_2": "week_1_session_2",
-      "title": "Good day! This is a reminder that the first MaPa Chat module will start [SET TIME] later. I'm excited to start the program with you! We'll start building a Happy Home with a simple yet effective tip: doing One-on-One Time. You will see what it can do for your family! Let's meet!",
+      "title": "Day One: Module Reminder",
       "_translations": {
         "title": {},
         "text": {},
@@ -18,20 +18,20 @@
       },
       "_translatedFields": {
         "title": {
-          "eng": "Good day! This is a reminder that the first MaPa Chat module will start [SET TIME] later. I'm excited to start the program with you! We'll start building a Happy Home with a simple yet effective tip: doing One-on-One Time. You will see what it can do for your family! Let's meet!"
+          "eng": "Day One: Module Reminder"
         },
         "text": {
-          "eng": "Replace [SET Time] with your session time before sending the message."
+          "eng": "Good day! This is a reminder that the first MaPa Chat module will start [SET TIME] later. I'm excited to start the program with you! We'll start building a Happy Home with a simple yet effective tip: doing One-on-One Time. You will see what it can do for your family! Let's meet!"
         },
         "button_text": {
-          "eng": ""
+          "eng": "Replace [SET Time] with your session time before sending the message."
         },
         "extra_text": {
           "eng": ""
         }
       },
-      "text": "Replace [SET Time] with your session time before sending the message.",
-      "button_text": "",
+      "text": "Good day! This is a reminder that the first MaPa Chat module will start [SET TIME] later. I'm excited to start the program with you! We'll start building a Happy Home with a simple yet effective tip: doing One-on-One Time. You will see what it can do for your family! Let's meet!",
+      "button_text": "Replace [SET Time] with your session time before sending the message.",
       "extra_text": ""
     },
     {
@@ -39,7 +39,7 @@
       "foreign_key": "week_1_session_4",
       "ignore": 2,
       "ignore_2": "week_1_session_4",
-      "title": "Hello! Thank you for attending our session! Remember, our main activity this week is One-on-One Time with your child. Even just 5 minutes can go a long way! You can do this!",
+      "title": "After the Session: Thanking Participants and Reminding Them to Practise",
       "_translations": {
         "title": {},
         "text": {},
@@ -48,10 +48,10 @@
       },
       "_translatedFields": {
         "title": {
-          "eng": "Hello! Thank you for attending our session! Remember, our main activity this week is One-on-One Time with your child. Even just 5 minutes can go a long way! You can do this!"
+          "eng": "After the Session: Thanking Participants and Reminding Them to Practise"
         },
         "text": {
-          "eng": ""
+          "eng": "Hello! Thank you for attending our session! Remember, our main activity this week is One-on-One Time with your child. Even just 5 minutes can go a long way! You can do this!"
         },
         "button_text": {
           "eng": ""
@@ -60,7 +60,7 @@
           "eng": ""
         }
       },
-      "text": "",
+      "text": "Hello! Thank you for attending our session! Remember, our main activity this week is One-on-One Time with your child. Even just 5 minutes can go a long way! You can do this!",
       "button_text": "",
       "extra_text": ""
     },
@@ -69,7 +69,7 @@
       "foreign_key": "week_1_1_reminder",
       "ignore": 3,
       "ignore_2": "week_1_1_reminder_1",
-      "title": "Hi! How is your practice of the homework assignment going? I understand that you may have some challenges with this module. Feel free to text me if you have any questions.Thank you!",
+      "title": "Day Three: Support Reminder",
       "_translations": {
         "title": {},
         "text": {},
@@ -78,10 +78,10 @@
       },
       "_translatedFields": {
         "title": {
-          "eng": "Hi! How is your practice of the homework assignment going? I understand that you may have some challenges with this module. Feel free to text me if you have any questions.Thank you!"
+          "eng": "Day Three: Support Reminder"
         },
         "text": {
-          "eng": ""
+          "eng": "Hi! How is your practice of the homework assignment going? I understand that you may have some challenges with this module. Feel free to text me if you have any questions.Thank you!"
         },
         "button_text": {
           "eng": ""
@@ -90,7 +90,7 @@
           "eng": ""
         }
       },
-      "text": "",
+      "text": "Hi! How is your practice of the homework assignment going? I understand that you may have some challenges with this module. Feel free to text me if you have any questions.Thank you!",
       "button_text": "",
       "extra_text": ""
     },
@@ -369,7 +369,7 @@
       "foreign_key": "week_1_session",
       "ignore": 13,
       "ignore_2": "week_1_session_1",
-      "title": "Before your session, discuss with your co-facilitator",
+      "title": "",
       "_translations": {
         "title": {},
         "text": {},
@@ -378,20 +378,20 @@
       },
       "_translatedFields": {
         "title": {
-          "eng": "Before your session, discuss with your co-facilitator"
+          "eng": ""
         },
         "text": {
-          "eng": "1. Read the module for the session carefully and make sure you are clear about the objectives for your discussion.\n\n2. Write down notes that will help you conduct the session.\n\n3. It may be helpful to write down different ways of asking questions to participants. T\n\n4. You can also practice conducting or discussing some parts of the session with your co-facilitator!\n\n5. Decide who among you and the co-facilitator will lead the activities and who will provide support.\n\n6. Review each participant's documents to see their progress in the program and to note who needs additional support. \n\n7. Divide the time according to the needs of the group. \n\n8. Arrive early to prepare the space to be used."
+          "eng": "Before your session, discuss with your co-facilitator"
         },
         "button_text": {
-          "eng": ""
+          "eng": "1. Read the module for the session carefully and make sure you are clear about the objectives for your discussion.\n\n2. Write down notes that will help you conduct the session.\n\n3. It may be helpful to write down different ways of asking questions to participants. T\n\n4. You can also practice conducting or discussing some parts of the session with your co-facilitator!\n\n5. Decide who among you and the co-facilitator will lead the activities and who will provide support.\n\n6. Review each participant's documents to see their progress in the program and to note who needs additional support. \n\n7. Divide the time according to the needs of the group. \n\n8. Arrive early to prepare the space to be used."
         },
         "extra_text": {
           "eng": ""
         }
       },
-      "text": "1. Read the module for the session carefully and make sure you are clear about the objectives for your discussion.\n\n2. Write down notes that will help you conduct the session.\n\n3. It may be helpful to write down different ways of asking questions to participants. T\n\n4. You can also practice conducting or discussing some parts of the session with your co-facilitator!\n\n5. Decide who among you and the co-facilitator will lead the activities and who will provide support.\n\n6. Review each participant's documents to see their progress in the program and to note who needs additional support. \n\n7. Divide the time according to the needs of the group. \n\n8. Arrive early to prepare the space to be used.",
-      "button_text": "",
+      "text": "Before your session, discuss with your co-facilitator",
+      "button_text": "1. Read the module for the session carefully and make sure you are clear about the objectives for your discussion.\n\n2. Write down notes that will help you conduct the session.\n\n3. It may be helpful to write down different ways of asking questions to participants. T\n\n4. You can also practice conducting or discussing some parts of the session with your co-facilitator!\n\n5. Decide who among you and the co-facilitator will lead the activities and who will provide support.\n\n6. Review each participant's documents to see their progress in the program and to note who needs additional support. \n\n7. Divide the time according to the needs of the group. \n\n8. Arrive early to prepare the space to be used.",
       "extra_text": ""
     },
     {
@@ -399,7 +399,7 @@
       "foreign_key": "week_1_session_3",
       "ignore": 14,
       "ignore_2": "week_1_session_3",
-      "title": "Materials required for the session",
+      "title": "",
       "_translations": {
         "title": {},
         "text": {},
@@ -408,20 +408,20 @@
       },
       "_translatedFields": {
         "title": {
-          "eng": "Materials required for the session"
+          "eng": ""
         },
         "text": {
-          "eng": "**The materials listed should be sufficient for 15 participants**\n\nPencils, bond paper, ballpoint pen, pentel pen, scotch tape, name tags\n\nComic posters and handouts\n\n\nSnack for the break\n\n**Other materials are for the whole group**\n\nFlipchart for participants' ideas\n\nVideo camera if you will be recording the session\n\nSome things that MaPa Staff will determine are:\n\nReimbursement for transportation, attendance list, and other forms required by MaPa\n\nFlashcards (6 pieces for parents) or Projector + Section 2.1"
+          "eng": "Materials required for the session"
         },
         "button_text": {
-          "eng": ""
+          "eng": "**The materials listed should be sufficient for 15 participants**\n\nPencils, bond paper, ballpoint pen, pentel pen, scotch tape, name tags\n\nComic posters and handouts\n\n\nSnack for the break\n\n**Other materials are for the whole group**\n\nFlipchart for participants' ideas\n\nVideo camera if you will be recording the session\n\nSome things that MaPa Staff will determine are:\n\nReimbursement for transportation, attendance list, and other forms required by MaPa\n\nFlashcards (6 pieces for parents) or Projector + Section 2.1"
         },
         "extra_text": {
           "eng": ""
         }
       },
-      "text": "**The materials listed should be sufficient for 15 participants**\n\nPencils, bond paper, ballpoint pen, pentel pen, scotch tape, name tags\n\nComic posters and handouts\n\n\nSnack for the break\n\n**Other materials are for the whole group**\n\nFlipchart for participants' ideas\n\nVideo camera if you will be recording the session\n\nSome things that MaPa Staff will determine are:\n\nReimbursement for transportation, attendance list, and other forms required by MaPa\n\nFlashcards (6 pieces for parents) or Projector + Section 2.1",
-      "button_text": "",
+      "text": "Materials required for the session",
+      "button_text": "**The materials listed should be sufficient for 15 participants**\n\nPencils, bond paper, ballpoint pen, pentel pen, scotch tape, name tags\n\nComic posters and handouts\n\n\nSnack for the break\n\n**Other materials are for the whole group**\n\nFlipchart for participants' ideas\n\nVideo camera if you will be recording the session\n\nSome things that MaPa Staff will determine are:\n\nReimbursement for transportation, attendance list, and other forms required by MaPa\n\nFlashcards (6 pieces for parents) or Projector + Section 2.1",
       "extra_text": ""
     },
     {
@@ -489,7 +489,7 @@
       "foreign_key": "week_1_session",
       "ignore": 17,
       "ignore_2": "week_1_session_1",
-      "title": "https://docs.google.com/document/d/1nGs2Enfg5Gg8sp7Xrj6zit_Jx2RjXGxm2S6vqKIU62s",
+      "title": "",
       "_translations": {
         "title": {},
         "text": {},
@@ -498,10 +498,10 @@
       },
       "_translatedFields": {
         "title": {
-          "eng": "https://docs.google.com/document/d/1nGs2Enfg5Gg8sp7Xrj6zit_Jx2RjXGxm2S6vqKIU62s"
+          "eng": ""
         },
         "text": {
-          "eng": ""
+          "eng": "https://docs.google.com/document/d/1nGs2Enfg5Gg8sp7Xrj6zit_Jx2RjXGxm2S6vqKIU62s"
         },
         "button_text": {
           "eng": ""
@@ -510,7 +510,7 @@
           "eng": ""
         }
       },
-      "text": "",
+      "text": "https://docs.google.com/document/d/1nGs2Enfg5Gg8sp7Xrj6zit_Jx2RjXGxm2S6vqKIU62s",
       "button_text": "",
       "extra_text": ""
     }
