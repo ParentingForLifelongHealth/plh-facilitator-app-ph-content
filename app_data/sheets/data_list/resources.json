@@ -7,30 +7,30 @@
     {
       "id": "resource_1",
       "foreign_key": "week_1_session",
-      "media_type": "pdf",
-      "media_asset": "module_1_prepare",
-      "media_title": "Review the building blocks",
+      "media_type": "Review the building blocks",
+      "media_asset": "",
+      "media_title": "module_1_prepare",
       "_translations": {
         "media_title": {}
       },
       "_translatedFields": {
         "media_title": {
-          "eng": "Review the building blocks"
+          "eng": "module_1_prepare"
         }
       }
     },
     {
       "id": "resource_2",
       "foreign_key": "week_1_session_3",
-      "media_type": "pdf",
-      "media_asset": "module_1_deliver",
-      "media_title": "Module 1 Facilitator Guide",
+      "media_type": "Module 1 Facilitator Guide",
+      "media_asset": "",
+      "media_title": "module_1_deliver",
       "_translations": {
         "media_title": {}
       },
       "_translatedFields": {
         "media_title": {
-          "eng": "Module 1 Facilitator Guide"
+          "eng": "module_1_deliver"
         }
       }
     },

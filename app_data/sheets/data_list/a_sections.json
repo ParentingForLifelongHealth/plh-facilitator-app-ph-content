@@ -6,10 +6,10 @@
   "rows": [
     {
       "id": "section_1",
-      "foreign_key": "week_1_session",
+      "foreign_key": "week_1_session_2",
       "ignore": 1,
-      "ignore_2": "week_1_session_1",
-      "title": "Before your session, discuss with your co-facilitator",
+      "ignore_2": "week_1_session_2",
+      "title": "Good day! This is a reminder that the first MaPa Chat module will start [SET TIME] later. I'm excited to start the program with you! We'll start building a Happy Home with a simple yet effective tip: doing One-on-One Time. You will see what it can do for your family! Let's meet!",
       "_translations": {
         "title": {},
         "text": {},
@@ -18,10 +18,10 @@
       },
       "_translatedFields": {
         "title": {
-          "eng": "Before your session, discuss with your co-facilitator"
+          "eng": "Good day! This is a reminder that the first MaPa Chat module will start [SET TIME] later. I'm excited to start the program with you! We'll start building a Happy Home with a simple yet effective tip: doing One-on-One Time. You will see what it can do for your family! Let's meet!"
         },
         "text": {
-          "eng": "1. Read the module for the session carefully and make sure you are clear about the objectives for your discussion.\n\n2. Write down notes that will help you conduct the session.\n\n3. It may be helpful to write down different ways of asking questions to participants. T\n\n4. You can also practice conducting or discussing some parts of the session with your co-facilitator!\n\n5. Decide who among you and the co-facilitator will lead the activities and who will provide support.\n\n6. Review each participant's documents to see their progress in the program and to note who needs additional support. \n\n7. Divide the time according to the needs of the group. \n\n8. Arrive early to prepare the space to be used."
+          "eng": "Replace [SET Time] with your session time before sending the message."
         },
         "button_text": {
           "eng": ""
@@ -30,16 +30,16 @@
           "eng": ""
         }
       },
-      "text": "1. Read the module for the session carefully and make sure you are clear about the objectives for your discussion.\n\n2. Write down notes that will help you conduct the session.\n\n3. It may be helpful to write down different ways of asking questions to participants. T\n\n4. You can also practice conducting or discussing some parts of the session with your co-facilitator!\n\n5. Decide who among you and the co-facilitator will lead the activities and who will provide support.\n\n6. Review each participant's documents to see their progress in the program and to note who needs additional support. \n\n7. Divide the time according to the needs of the group. \n\n8. Arrive early to prepare the space to be used.",
+      "text": "Replace [SET Time] with your session time before sending the message.",
       "button_text": "",
       "extra_text": ""
     },
     {
       "id": "section_2",
-      "foreign_key": "week_1_session_3",
+      "foreign_key": "week_1_session_4",
       "ignore": 2,
-      "ignore_2": "week_1_session_3",
-      "title": "Materials required for the session",
+      "ignore_2": "week_1_session_4",
+      "title": "Hello! Thank you for attending our session! Remember, our main activity this week is One-on-One Time with your child. Even just 5 minutes can go a long way! You can do this!",
       "_translations": {
         "title": {},
         "text": {},
@@ -48,26 +48,56 @@
       },
       "_translatedFields": {
         "title": {
-          "eng": "Materials required for the session"
+          "eng": "Hello! Thank you for attending our session! Remember, our main activity this week is One-on-One Time with your child. Even just 5 minutes can go a long way! You can do this!"
         },
         "text": {
-          "eng": "**The materials listed should be sufficient for 15 participants**\n\nPencils, bond paper, ballpoint pen, pentel pen, scotch tape, name tags\n\nComic posters and handouts\n\n\nSnack for the break\n\n**Other materials are for the whole group**\n\nFlipchart for participants' ideas\n\nVideo camera if you will be recording the session\n\nSome things that MaPa Staff will determine are:\n\nReimbursement for transportation, attendance list, and other forms required by MaPa"
+          "eng": ""
         },
         "button_text": {
-          "eng": "Additional material for this session"
+          "eng": ""
         },
         "extra_text": {
-          "eng": "Flashcards (6 pieces for parents) or Projector + Section 2.1"
+          "eng": ""
         }
       },
-      "text": "**The materials listed should be sufficient for 15 participants**\n\nPencils, bond paper, ballpoint pen, pentel pen, scotch tape, name tags\n\nComic posters and handouts\n\n\nSnack for the break\n\n**Other materials are for the whole group**\n\nFlipchart for participants' ideas\n\nVideo camera if you will be recording the session\n\nSome things that MaPa Staff will determine are:\n\nReimbursement for transportation, attendance list, and other forms required by MaPa",
-      "button_text": "Additional material for this session",
-      "extra_text": "Flashcards (6 pieces for parents) or Projector + Section 2.1"
+      "text": "",
+      "button_text": "",
+      "extra_text": ""
     },
     {
       "id": "section_3",
-      "foreign_key": "week_2_session",
+      "foreign_key": "week_1_1_reminder",
       "ignore": 3,
+      "ignore_2": "week_1_1_reminder_1",
+      "title": "Hi! How is your practice of the homework assignment going? I understand that you may have some challenges with this module. Feel free to text me if you have any questions.Thank you!",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "button_text": {},
+        "extra_text": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Hi! How is your practice of the homework assignment going? I understand that you may have some challenges with this module. Feel free to text me if you have any questions.Thank you!"
+        },
+        "text": {
+          "eng": ""
+        },
+        "button_text": {
+          "eng": ""
+        },
+        "extra_text": {
+          "eng": ""
+        }
+      },
+      "text": "",
+      "button_text": "",
+      "extra_text": ""
+    },
+    {
+      "id": "section_4",
+      "foreign_key": "week_2_session",
+      "ignore": 4,
       "ignore_2": "week_2_session_1",
       "title": "Review the chat",
       "_translations": {
@@ -95,9 +125,9 @@
       "extra_text": ""
     },
     {
-      "id": "section_4",
+      "id": "section_5",
       "foreign_key": "week_2_session_3",
-      "ignore": 4,
+      "ignore": 5,
       "ignore_2": "week_2_session_3",
       "title": "Outline for Day One",
       "_translations": {
@@ -125,9 +155,9 @@
       "extra_text": ""
     },
     {
-      "id": "section_5",
+      "id": "section_6",
       "foreign_key": "week_2_session_5",
-      "ignore": 5,
+      "ignore": 6,
       "ignore_2": "week_2_session_5",
       "title": "Building Blocks of Module 1: One-on-one time",
       "_translations": {
@@ -155,9 +185,9 @@
       "extra_text": ""
     },
     {
-      "id": "section_6",
+      "id": "section_7",
       "foreign_key": "week_2_session_6",
-      "ignore": 6,
+      "ignore": 7,
       "ignore_2": "week_2_session_6",
       "title": "Building Blocks of Module 1: One-on-one time",
       "_translations": {
@@ -185,9 +215,9 @@
       "extra_text": ""
     },
     {
-      "id": "section_7",
+      "id": "section_8",
       "foreign_key": "week_2_session_11",
-      "ignore": 7,
+      "ignore": 8,
       "ignore_2": "week_2_session_11",
       "title": "Building Blocks of Module 2: Talking about feelings",
       "_translations": {
@@ -215,9 +245,9 @@
       "extra_text": ""
     },
     {
-      "id": "section_8",
+      "id": "section_9",
       "foreign_key": "week_2_session_12",
-      "ignore": 8,
+      "ignore": 9,
       "ignore_2": "week_2_session_12",
       "title": "Possible answers from parents",
       "_translations": {
@@ -245,9 +275,9 @@
       "extra_text": ""
     },
     {
-      "id": "section_9",
+      "id": "section_10",
       "foreign_key": "week_2_session_14",
-      "ignore": 9,
+      "ignore": 10,
       "ignore_2": "week_2_session_14",
       "title": "Possible answers from parents",
       "_translations": {
@@ -275,9 +305,9 @@
       "extra_text": ""
     },
     {
-      "id": "section_10",
+      "id": "section_11",
       "foreign_key": "week_2_session_16",
-      "ignore": 10,
+      "ignore": 11,
       "ignore_2": "week_2_session_16",
       "title": "Possible answers from parents",
       "_translations": {
@@ -305,9 +335,9 @@
       "extra_text": ""
     },
     {
-      "id": "section_11",
+      "id": "section_12",
       "foreign_key": "week_2_session_18",
-      "ignore": 11,
+      "ignore": 12,
       "ignore_2": "week_2_session_18",
       "title": "Building Blocks of Module 2: Talking about feelings",
       "_translations": {
@@ -335,9 +365,69 @@
       "extra_text": ""
     },
     {
-      "id": "section_12",
+      "id": "section_13",
+      "foreign_key": "week_1_session",
+      "ignore": 13,
+      "ignore_2": "week_1_session_1",
+      "title": "Before your session, discuss with your co-facilitator",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "button_text": {},
+        "extra_text": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Before your session, discuss with your co-facilitator"
+        },
+        "text": {
+          "eng": "1. Read the module for the session carefully and make sure you are clear about the objectives for your discussion.\n\n2. Write down notes that will help you conduct the session.\n\n3. It may be helpful to write down different ways of asking questions to participants. T\n\n4. You can also practice conducting or discussing some parts of the session with your co-facilitator!\n\n5. Decide who among you and the co-facilitator will lead the activities and who will provide support.\n\n6. Review each participant's documents to see their progress in the program and to note who needs additional support. \n\n7. Divide the time according to the needs of the group. \n\n8. Arrive early to prepare the space to be used."
+        },
+        "button_text": {
+          "eng": ""
+        },
+        "extra_text": {
+          "eng": ""
+        }
+      },
+      "text": "1. Read the module for the session carefully and make sure you are clear about the objectives for your discussion.\n\n2. Write down notes that will help you conduct the session.\n\n3. It may be helpful to write down different ways of asking questions to participants. T\n\n4. You can also practice conducting or discussing some parts of the session with your co-facilitator!\n\n5. Decide who among you and the co-facilitator will lead the activities and who will provide support.\n\n6. Review each participant's documents to see their progress in the program and to note who needs additional support. \n\n7. Divide the time according to the needs of the group. \n\n8. Arrive early to prepare the space to be used.",
+      "button_text": "",
+      "extra_text": ""
+    },
+    {
+      "id": "section_14",
+      "foreign_key": "week_1_session_3",
+      "ignore": 14,
+      "ignore_2": "week_1_session_3",
+      "title": "Materials required for the session",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "button_text": {},
+        "extra_text": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Materials required for the session"
+        },
+        "text": {
+          "eng": "**The materials listed should be sufficient for 15 participants**\n\nPencils, bond paper, ballpoint pen, pentel pen, scotch tape, name tags\n\nComic posters and handouts\n\n\nSnack for the break\n\n**Other materials are for the whole group**\n\nFlipchart for participants' ideas\n\nVideo camera if you will be recording the session\n\nSome things that MaPa Staff will determine are:\n\nReimbursement for transportation, attendance list, and other forms required by MaPa\n\nFlashcards (6 pieces for parents) or Projector + Section 2.1"
+        },
+        "button_text": {
+          "eng": ""
+        },
+        "extra_text": {
+          "eng": ""
+        }
+      },
+      "text": "**The materials listed should be sufficient for 15 participants**\n\nPencils, bond paper, ballpoint pen, pentel pen, scotch tape, name tags\n\nComic posters and handouts\n\n\nSnack for the break\n\n**Other materials are for the whole group**\n\nFlipchart for participants' ideas\n\nVideo camera if you will be recording the session\n\nSome things that MaPa Staff will determine are:\n\nReimbursement for transportation, attendance list, and other forms required by MaPa\n\nFlashcards (6 pieces for parents) or Projector + Section 2.1",
+      "button_text": "",
+      "extra_text": ""
+    },
+    {
+      "id": "section_15",
       "foreign_key": "week_2_session_12",
-      "ignore": 12,
+      "ignore": 15,
       "ignore_2": "week_2_session_12",
       "title": "Building Blocks of Module 2: Talking about feelings",
       "_translations": {
@@ -365,9 +455,9 @@
       "extra_text": ""
     },
     {
-      "id": "section_13",
+      "id": "section_16",
       "foreign_key": "week_2_session_14",
-      "ignore": 13,
+      "ignore": 16,
       "ignore_2": "week_2_session_14",
       "title": "Building Blocks of Module 2: Talking about feelings",
       "_translations": {
@@ -391,6 +481,36 @@
         }
       },
       "text": "1️⃣ BREATHE  -  Breathe  before  you  start  to  calm  yourself  down. \n2️⃣ SHARE  -  Share  your  feelings. \n3️⃣ LISTEN  -  Listen  to  your  child  or  teenager. \n4️⃣ PAINFUL  -  Concerned  for  them. \n5️⃣ FIND  -  Find  the  positive",
+      "button_text": "",
+      "extra_text": ""
+    },
+    {
+      "id": "section_17",
+      "foreign_key": "week_1_session",
+      "ignore": 17,
+      "ignore_2": "week_1_session_1",
+      "title": "https://docs.google.com/document/d/1nGs2Enfg5Gg8sp7Xrj6zit_Jx2RjXGxm2S6vqKIU62s",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "button_text": {},
+        "extra_text": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "https://docs.google.com/document/d/1nGs2Enfg5Gg8sp7Xrj6zit_Jx2RjXGxm2S6vqKIU62s"
+        },
+        "text": {
+          "eng": ""
+        },
+        "button_text": {
+          "eng": ""
+        },
+        "extra_text": {
+          "eng": ""
+        }
+      },
+      "text": "",
       "button_text": "",
       "extra_text": ""
     }

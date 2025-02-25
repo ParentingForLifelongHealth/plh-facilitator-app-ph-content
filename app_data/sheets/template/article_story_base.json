@@ -48,6 +48,40 @@
     },
     {
       "type": "template",
+      "name": "article_intro",
+      "value": "article_intro",
+      "exclude_from_translation": true,
+      "rows": [
+        {
+          "name": "article_id",
+          "value": "@local.article_id",
+          "_translations": {
+            "value": {}
+          },
+          "exclude_from_translation": true,
+          "type": "set_variable",
+          "_nested_name": "article_intro.article_id",
+          "_dynamicFields": {
+            "value": [
+              {
+                "fullExpression": "@local.article_id",
+                "matchedExpression": "@local.article_id",
+                "type": "local",
+                "fieldName": "article_id"
+              }
+            ]
+          },
+          "_dynamicDependencies": {
+            "@local.article_id": [
+              "value"
+            ]
+          }
+        }
+      ],
+      "_nested_name": "article_intro"
+    },
+    {
+      "type": "template",
       "name": "article_message",
       "value": "article_message",
       "exclude_from_translation": true,
@@ -147,40 +181,6 @@
         }
       ],
       "_nested_name": "article_related"
-    },
-    {
-      "type": "template",
-      "name": "article_intro",
-      "value": "article_intro",
-      "exclude_from_translation": true,
-      "rows": [
-        {
-          "name": "article_id",
-          "value": "@local.article_id",
-          "_translations": {
-            "value": {}
-          },
-          "exclude_from_translation": true,
-          "type": "set_variable",
-          "_nested_name": "article_intro.article_id",
-          "_dynamicFields": {
-            "value": [
-              {
-                "fullExpression": "@local.article_id",
-                "matchedExpression": "@local.article_id",
-                "type": "local",
-                "fieldName": "article_id"
-              }
-            ]
-          },
-          "_dynamicDependencies": {
-            "@local.article_id": [
-              "value"
-            ]
-          }
-        }
-      ],
-      "_nested_name": "article_intro"
     },
     {
       "type": "template",

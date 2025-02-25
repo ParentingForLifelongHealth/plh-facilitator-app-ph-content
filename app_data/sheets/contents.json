@@ -1899,7 +1899,7 @@
     "article_message": {
       "flow_type": "template",
       "flow_name": "article_message",
-      "_xlsxPath": "templates/menu_sub_tasks.xlsx"
+      "_xlsxPath": "templates/article_loop_override.xlsx"
     },
     "article_related": {
       "flow_type": "template",
@@ -2664,7 +2664,7 @@
     "message_element": {
       "flow_type": "template",
       "flow_name": "message_element",
-      "_xlsxPath": "templates/article_elements.xlsx"
+      "_xlsxPath": "templates/article_elements_override.xlsx"
     },
     "module_final": {
       "flow_type": "template",

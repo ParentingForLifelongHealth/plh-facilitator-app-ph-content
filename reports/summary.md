@@ -5,14 +5,14 @@
 | --- | --- |
 | accordion | 1 |
 | accordion_section | 1 |
-| audio | 2 |
+| audio | 3 |
 | button | 72 |
 | carousel | 2 |
 | combo_box | 3 |
-| data_items | 28 |
+| data_items | 29 |
 | debug_toggle | 1 |
 | display_grid | 2 |
-| display_group | 99 |
+| display_group | 101 |
 | drawer | 1 |
 | image | 10 |
 | items | 25 |
@@ -23,7 +23,7 @@
 | radio_button_grid | 16 |
 | round_button | 32 |
 | select_text | 1 |
-| set_variable | 679 |
+| set_variable | 683 |
 | simple_checkbox | 2 |
 | task_card | 3 |
 | task_progress_bar | 2 |
@@ -35,8 +35,8 @@
 | title | 34 |
 | toggle_bar | 5 |
 | update_action_list | 2 |
-| video | 2 |
-| youtube | 1 |
+| video | 3 |
+| youtube | 2 |
 </details>
 
 <details >
@@ -72,8 +72,8 @@
 
 | assets | KB | MB |
 | --- | --- | --- |
-| total | 55930 KB | 55.9 MB |
-| unused | 9933 KB | 9.9 MB |
+| total | 65020 KB | 65 MB |
+| unused | 842 KB | 0.8 MB |
 </details>
 
 <details open>
@@ -106,16 +106,9 @@ Assets that appear in app-data but do not have references within sheets
 | images/icons/person_white.svg | 1.5 |
 | images/icons/reader_blue.svg | 1.4 |
 | images/icons/task_0.png | 2 |
-| images/icons/task_3.png | 2 |
-| images/icons/task_4.png | 1.4 |
-| images/icons/task_5.png | 1.8 |
-| images/icons/task_6.png | 2.2 |
-| images/icons/task_7.png | 1.5 |
-| images/icons/task_8.png | 2.4 |
 | images/logos/bird_on_dark.svg | 2.1 |
 | images/person_cog.png | 0.8 |
 | pdf/module_3_guide.pdf | 269 |
-| videos/body_scan.mp4 | 9079.2 |
 </details>
 
 <details open>
@@ -198,13 +191,19 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | images/icons/person_cog.svg | 2.9 | 1 |
 | images/icons/person_remove.svg | 1.5 | 1 |
 | images/icons/profile_card.svg | 7.4 | 1 |
-| images/icons/reminder.png | 10.4 | 4 |
+| images/icons/reminder.png | 10.4 | 16 |
 | images/icons/report.png | 1.1 | 1 |
 | images/icons/sessions.png | 1.3 | 1 |
 | images/icons/settings.png | 1.1 | 1 |
 | images/icons/share.svg | 2.3 | 2 |
 | images/icons/task_1.png | 1 | 1 |
 | images/icons/task_2.png | 1.9 | 1 |
+| images/icons/task_3.png | 2 | 1 |
+| images/icons/task_4.png | 1.4 | 1 |
+| images/icons/task_5.png | 1.8 | 1 |
+| images/icons/task_6.png | 2.2 | 1 |
+| images/icons/task_7.png | 1.5 | 1 |
+| images/icons/task_8.png | 2.4 | 1 |
 | images/icons/unarchive.svg | 1.1 | 1 |
 | images/icons/visibility.svg | 1.9 | 1 |
 | images/icons/world.svg | 6.2 | 1 |
@@ -232,6 +231,7 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | pdf/overview_guide_study.pdf | 2252.6 | 1 |
 | pdf/peas.pdf | 590.3 | 1 |
 | pdf/programme_details.pdf | 123 | 1 |
+| videos/body_scan.mp4 | 9079.2 | 1 |
 | videos/feelings_yc.mp4 | 43746.5 | 1 |
 </details>
 
