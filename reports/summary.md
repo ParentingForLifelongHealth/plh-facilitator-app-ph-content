@@ -226,7 +226,7 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | pdf/manual_study.pdf | 1047 | 1 |
 | pdf/module_1_deliver.pdf | 2718.4 | 1 |
 | pdf/module_1_prepare.pdf | 179 | 1 |
-| pdf/module_1_troubleshooting.pdf | 222.4 | 3 |
+| pdf/module_1_troubleshooting.pdf | 222.4 | 5 |
 | pdf/module_2_guide.pdf | 1777.1 | 1 |
 | pdf/overview_guide_study.pdf | 2252.6 | 1 |
 | pdf/peas.pdf | 590.3 | 1 |

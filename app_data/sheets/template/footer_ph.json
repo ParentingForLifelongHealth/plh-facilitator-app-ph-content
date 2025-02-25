@@ -22,7 +22,7 @@
         },
         {
           "image": "images/icons/settings.png",
-          "target_template": "@data.app_section.profile.template"
+          "target_template": "profile"
         }
       ],
       "type": "set_variable",
@@ -48,16 +48,6 @@
                 "fieldName": "app_section"
               }
             ]
-          },
-          "3": {
-            "target_template": [
-              {
-                "fullExpression": "@data.app_section.profile.template",
-                "matchedExpression": "@data.app_section.profile.template",
-                "type": "data",
-                "fieldName": "app_section"
-              }
-            ]
           }
         }
       },
@@ -67,9 +57,6 @@
         ],
         "@data.app_section.library.template": [
           "value.2.target_template"
-        ],
-        "@data.app_section.profile.template": [
-          "value.3.target_template"
         ]
       }
     },
