@@ -103,12 +103,36 @@
             },
             {
               "name": "asset",
-              "value": "@item.asset_type",
+              "value": "@item.asset",
               "_translations": {
                 "value": {}
               },
               "type": "set_variable",
               "_nested_name": "loop_messages.message_element.asset",
+              "_dynamicFields": {
+                "value": [
+                  {
+                    "fullExpression": "@item.asset",
+                    "matchedExpression": "@item.asset",
+                    "type": "item",
+                    "fieldName": "asset"
+                  }
+                ]
+              },
+              "_dynamicDependencies": {
+                "@item.asset": [
+                  "value"
+                ]
+              }
+            },
+            {
+              "name": "asset_type",
+              "value": "@item.asset_type",
+              "_translations": {
+                "value": {}
+              },
+              "type": "set_variable",
+              "_nested_name": "loop_messages.message_element.asset_type",
               "_dynamicFields": {
                 "value": [
                   {
@@ -171,5 +195,5 @@
       }
     }
   ],
-  "_xlsxPath": "templates/menu_sub_tasks.xlsx"
+  "_xlsxPath": "templates/article_loop_override.xlsx"
 }

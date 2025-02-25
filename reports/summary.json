@@ -11,7 +11,7 @@
       },
       {
         "type": "audio",
-        "count": 2
+        "count": 3
       },
       {
         "type": "button",
@@ -27,7 +27,7 @@
       },
       {
         "type": "data_items",
-        "count": 28
+        "count": 29
       },
       {
         "type": "debug_toggle",
@@ -39,7 +39,7 @@
       },
       {
         "type": "display_group",
-        "count": 99
+        "count": 101
       },
       {
         "type": "drawer",
@@ -83,7 +83,7 @@
       },
       {
         "type": "set_variable",
-        "count": 679
+        "count": 683
       },
       {
         "type": "simple_checkbox",
@@ -131,11 +131,11 @@
       },
       {
         "type": "video",
-        "count": 2
+        "count": 3
       },
       {
         "type": "youtube",
-        "count": 1
+        "count": 2
       }
     ]
   },
@@ -231,13 +231,13 @@
     "data": [
       {
         "assets": "total",
-        "KB": "55930 KB",
-        "MB": "55.9 MB"
+        "KB": "65020 KB",
+        "MB": "65 MB"
       },
       {
         "assets": "unused",
-        "KB": "9933 KB",
-        "MB": "9.9 MB"
+        "KB": "842 KB",
+        "MB": "0.8 MB"
       }
     ]
   },
@@ -336,30 +336,6 @@
         "size_kb": 2
       },
       {
-        "path": "images/icons/task_3.png",
-        "size_kb": 2
-      },
-      {
-        "path": "images/icons/task_4.png",
-        "size_kb": 1.4
-      },
-      {
-        "path": "images/icons/task_5.png",
-        "size_kb": 1.8
-      },
-      {
-        "path": "images/icons/task_6.png",
-        "size_kb": 2.2
-      },
-      {
-        "path": "images/icons/task_7.png",
-        "size_kb": 1.5
-      },
-      {
-        "path": "images/icons/task_8.png",
-        "size_kb": 2.4
-      },
-      {
         "path": "images/logos/bird_on_dark.svg",
         "size_kb": 2.1
       },
@@ -370,10 +346,6 @@
       {
         "path": "pdf/module_3_guide.pdf",
         "size_kb": 269
-      },
-      {
-        "path": "videos/body_scan.mp4",
-        "size_kb": 9079.2
       }
     ]
   },
@@ -705,7 +677,7 @@
       },
       {
         "path": "images/icons/reminder.png",
-        "count": 4,
+        "count": 16,
         "size_kb": 10.4
       },
       {
@@ -737,6 +709,36 @@
         "path": "images/icons/task_2.png",
         "count": 1,
         "size_kb": 1.9
+      },
+      {
+        "path": "images/icons/task_3.png",
+        "count": 1,
+        "size_kb": 2
+      },
+      {
+        "path": "images/icons/task_4.png",
+        "count": 1,
+        "size_kb": 1.4
+      },
+      {
+        "path": "images/icons/task_5.png",
+        "count": 1,
+        "size_kb": 1.8
+      },
+      {
+        "path": "images/icons/task_6.png",
+        "count": 1,
+        "size_kb": 2.2
+      },
+      {
+        "path": "images/icons/task_7.png",
+        "count": 1,
+        "size_kb": 1.5
+      },
+      {
+        "path": "images/icons/task_8.png",
+        "count": 1,
+        "size_kb": 2.4
       },
       {
         "path": "images/icons/unarchive.svg",
@@ -872,6 +874,11 @@
         "path": "pdf/programme_details.pdf",
         "count": 1,
         "size_kb": 123
+      },
+      {
+        "path": "videos/body_scan.mp4",
+        "count": 1,
+        "size_kb": 9079.2
       },
       {
         "path": "videos/feelings_yc.mp4",
