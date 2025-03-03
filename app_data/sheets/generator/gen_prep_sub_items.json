@@ -57,12 +57,12 @@
       "flow_type": "data_pipe"
     },
     {
-      "flow_name": "prep_week_1_1_reminder_sub_items",
+      "flow_name": "prep_week_1_reminder_sub_items",
       "flow_subtype": "generated",
       "flow_type": "data_pipe"
     },
     {
-      "flow_name": "prep_week_1_2_reminder_sub_items",
+      "flow_name": "prep_week_1_reminder_2_sub_items",
       "flow_subtype": "generated",
       "flow_type": "data_pipe"
     },
@@ -172,12 +172,27 @@
       "flow_type": "data_pipe"
     },
     {
-      "flow_name": "prep_week_2_1_reminder_sub_items",
+      "flow_name": "prep_week_2_reminder_sub_items",
       "flow_subtype": "generated",
       "flow_type": "data_pipe"
     },
     {
-      "flow_name": "prep_week_2_2_reminder_2_sub_items",
+      "flow_name": "prep_week_2_reminder_2_sub_items",
+      "flow_subtype": "generated",
+      "flow_type": "data_pipe"
+    },
+    {
+      "flow_name": "prep_test_viber_share_sub_items",
+      "flow_subtype": "generated",
+      "flow_type": "data_pipe"
+    },
+    {
+      "flow_name": "prep_test_viber_share_2_sub_items",
+      "flow_subtype": "generated",
+      "flow_type": "data_pipe"
+    },
+    {
+      "flow_name": "prep_test_viber_share_3_sub_items",
       "flow_subtype": "generated",
       "flow_type": "data_pipe"
     }

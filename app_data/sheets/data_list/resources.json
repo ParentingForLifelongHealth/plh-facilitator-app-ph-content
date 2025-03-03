@@ -8,14 +8,14 @@
       "id": "resource_1",
       "foreign_key": "week_1_session",
       "media_type": "pdf",
-      "media_asset": "module_1_prepare",
-      "media_title": "Review the building blocks",
+      "media_asset": "",
+      "media_title": "module_1_prepare",
       "_translations": {
         "media_title": {}
       },
       "_translatedFields": {
         "media_title": {
-          "eng": "Review the building blocks"
+          "eng": "module_1_prepare"
         }
       }
     },
@@ -23,14 +23,14 @@
       "id": "resource_2",
       "foreign_key": "week_1_session_3",
       "media_type": "pdf",
-      "media_asset": "module_1_deliver",
-      "media_title": "Module 1 Facilitator Guide",
+      "media_asset": "",
+      "media_title": "module_1_deliver",
       "_translations": {
         "media_title": {}
       },
       "_translatedFields": {
         "media_title": {
-          "eng": "Module 1 Facilitator Guide"
+          "eng": "module_1_deliver"
         }
       }
     },
@@ -38,14 +38,14 @@
       "id": "resource_3",
       "foreign_key": "week_2_session",
       "media_type": "pdf",
-      "media_asset": "module_2_prepare",
-      "media_title": "Review building block & messages",
+      "media_asset": "",
+      "media_title": "module_2_prepare",
       "_translations": {
         "media_title": {}
       },
       "_translatedFields": {
         "media_title": {
-          "eng": "Review building block & messages"
+          "eng": "module_2_prepare"
         }
       }
     },
@@ -53,14 +53,14 @@
       "id": "resource_4",
       "foreign_key": "week_2_session_7",
       "media_type": "pdf",
-      "media_asset": "pdf/module_1_troubleshooting.pdf",
-      "media_title": "One-on-one time: Common Challenges & Solutions",
+      "media_asset": "Message 4: Discuss Challenge",
+      "media_title": "pdf/module_1_troubleshooting.pdf",
       "_translations": {
         "media_title": {}
       },
       "_translatedFields": {
         "media_title": {
-          "eng": "One-on-one time: Common Challenges & Solutions"
+          "eng": "pdf/module_1_troubleshooting.pdf"
         }
       }
     },
@@ -68,14 +68,14 @@
       "id": "resource_5",
       "foreign_key": "week_2_session_8",
       "media_type": "pdf",
-      "media_asset": "pdf/module_1_troubleshooting.pdf",
-      "media_title": "One-on-one time: Common Challenges & Solutions",
+      "media_asset": "Message 5: Discussion about challenge & solution",
+      "media_title": "pdf/module_1_troubleshooting.pdf",
       "_translations": {
         "media_title": {}
       },
       "_translatedFields": {
         "media_title": {
-          "eng": "One-on-one time: Common Challenges & Solutions"
+          "eng": "pdf/module_1_troubleshooting.pdf"
         }
       }
     }

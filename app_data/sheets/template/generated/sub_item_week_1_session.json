@@ -28,26 +28,6 @@
           "exclude_from_translation": true,
           "type": "set_variable",
           "_nested_name": "article_loop.foreign_key"
-        },
-        {
-          "name": "next_article",
-          "value": "week_1_session_2",
-          "_translations": {
-            "value": {}
-          },
-          "exclude_from_translation": true,
-          "type": "set_variable",
-          "_nested_name": "article_loop.next_article"
-        },
-        {
-          "name": "previous_article",
-          "value": "",
-          "_translations": {
-            "value": {}
-          },
-          "exclude_from_translation": true,
-          "type": "set_variable",
-          "_nested_name": "article_loop.previous_article"
         }
       ],
       "_nested_name": "article_loop"

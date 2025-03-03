@@ -6,10 +6,88 @@
   "rows": [
     {
       "id": "message_1",
-      "foreign_key": "week_1_2_reminder",
+      "foreign_key": "week_1_session_2",
       "asset_type": "",
       "asset": "",
       "ignore": 1,
+      "title": "Day One: Module Reminder",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "guidance": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Day One: Module Reminder"
+        },
+        "text": {
+          "eng": "Good day! This is a reminder that the first MaPa Chat module will start [SET TIME] later. I'm excited to start the program with you! We'll start building a Happy Home with a simple yet effective tip: doing One-on-One Time. You will see what it can do for your family! Let's meet!"
+        },
+        "guidance": {
+          "eng": "Replace [SET Time] with your session time before sending the message."
+        }
+      },
+      "text": "Good day! This is a reminder that the first MaPa Chat module will start [SET TIME] later. I'm excited to start the program with you! We'll start building a Happy Home with a simple yet effective tip: doing One-on-One Time. You will see what it can do for your family! Let's meet!",
+      "guidance": "Replace [SET Time] with your session time before sending the message."
+    },
+    {
+      "id": "message_2",
+      "foreign_key": "week_1_session_4",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 2,
+      "title": "After the Session: Thanking Participants and Reminding Them to Practise",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "guidance": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "After the Session: Thanking Participants and Reminding Them to Practise"
+        },
+        "text": {
+          "eng": "Hello! Thank you for attending our session! Remember, our main activity this week is One-on-One Time with your child. Even just 5 minutes can go a long way! You can do this!"
+        },
+        "guidance": {
+          "eng": ""
+        }
+      },
+      "text": "Hello! Thank you for attending our session! Remember, our main activity this week is One-on-One Time with your child. Even just 5 minutes can go a long way! You can do this!",
+      "guidance": ""
+    },
+    {
+      "id": "message_3",
+      "foreign_key": "week_1_reminder",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 3,
+      "title": "Day Three: Support Reminder",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "guidance": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Day Three: Support Reminder"
+        },
+        "text": {
+          "eng": "Hi! How is your practice of the homework assignment going? I understand that you may have some challenges with this module. Feel free to text me if you have any questions.Thank you!"
+        },
+        "guidance": {
+          "eng": ""
+        }
+      },
+      "text": "Hi! How is your practice of the homework assignment going? I understand that you may have some challenges with this module. Feel free to text me if you have any questions.Thank you!",
+      "guidance": ""
+    },
+    {
+      "id": "message_4",
+      "foreign_key": "week_1_reminder_2",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 4,
       "title": "One Day Before the Next Online Session: Reminder for\nthe Next Session",
       "_translations": {
         "title": {},
@@ -31,11 +109,11 @@
       "guidance": "Insert the date for the next session before sending the message"
     },
     {
-      "id": "message_2",
+      "id": "message_5",
       "foreign_key": "week_2_session_2",
       "asset_type": "image",
       "asset": "images/house_of_support.png",
-      "ignore": 2,
+      "ignore": 5,
       "title": "Day One: Module Reminder",
       "_translations": {
         "title": {},
@@ -57,11 +135,11 @@
       "guidance": "Replace [SET Time] with your session time, then send the message along with this image"
     },
     {
-      "id": "message_3",
+      "id": "message_6",
       "foreign_key": "week_2_session_4",
       "asset_type": "",
       "asset": "",
-      "ignore": 3,
+      "ignore": 6,
       "title": "Message 1: Greetings",
       "_translations": {
         "title": {},
@@ -83,11 +161,11 @@
       "guidance": "Give parents a moment to share how they feel. Also, share your own feelings. For example, “I’m happy to be part of our MaPaChat session today"
     },
     {
-      "id": "message_4",
+      "id": "message_7",
       "foreign_key": "week_2_session_5",
       "asset_type": "",
       "asset": "",
-      "ignore": 4,
+      "ignore": 7,
       "title": "Message 2: Discussion about Home Activity",
       "_translations": {
         "title": {},
@@ -109,11 +187,11 @@
       "guidance": "Accept the experience that parents will share."
     },
     {
-      "id": "message_5",
+      "id": "message_8",
       "foreign_key": "week_2_session_6",
-      "asset_type": "",
-      "asset": "",
-      "ignore": 5,
+      "asset_type": "pdf",
+      "asset": "module_1_troubleshooting",
+      "ignore": 8,
       "title": "Message 3: Sharing Success",
       "_translations": {
         "title": {},
@@ -135,11 +213,11 @@
       "guidance": "Share a success from what the parents have shared."
     },
     {
-      "id": "message_6",
+      "id": "message_9",
       "foreign_key": "week_2_session_7",
-      "asset_type": "",
-      "asset": "",
-      "ignore": 6,
+      "asset_type": "pdf",
+      "asset": "module_1_troubleshooting",
+      "ignore": 9,
       "title": "Message 4: Discuss Challenge",
       "_translations": {
         "title": {},
@@ -161,11 +239,11 @@
       "guidance": "If no one shared a challenge last week, send the example challenges one by one from the pdf."
     },
     {
-      "id": "message_7",
+      "id": "message_10",
       "foreign_key": "week_2_session_8",
-      "asset_type": "",
-      "asset": "",
-      "ignore": 7,
+      "asset_type": "pdf",
+      "asset": "module_1_troubleshooting",
+      "ignore": 10,
       "title": "Message 5: Discussion about challenge & solution",
       "_translations": {
         "title": {},
@@ -187,11 +265,11 @@
       "guidance": "Encourage parents to think of positive solutions. You will find some examples of challenges and solutions in the pdf."
     },
     {
-      "id": "message_8",
+      "id": "message_11",
       "foreign_key": "week_2_session_9",
       "asset_type": "",
       "asset": "",
-      "ignore": 8,
+      "ignore": 11,
       "title": "Message 6",
       "_translations": {
         "title": {},
@@ -213,11 +291,11 @@
       "guidance": ""
     },
     {
-      "id": "message_9",
+      "id": "message_12",
       "foreign_key": "week_2_session_10",
       "asset_type": "",
       "asset": "",
-      "ignore": 9,
+      "ignore": 12,
       "title": "Message 7: Introducing MaPa Skill",
       "_translations": {
         "title": {},
@@ -239,11 +317,11 @@
       "guidance": ""
     },
     {
-      "id": "message_10",
+      "id": "message_13",
       "foreign_key": "week_2_session_11",
       "asset_type": "image",
       "asset": "images/comics/module_2_yc.png",
-      "ignore": 10,
+      "ignore": 13,
       "title": "Message 8: Comic about young child",
       "_translations": {
         "title": {},
@@ -265,11 +343,11 @@
       "guidance": ""
     },
     {
-      "id": "message_11",
+      "id": "message_14",
       "foreign_key": "week_2_session_12",
       "asset_type": "",
       "asset": "",
-      "ignore": 11,
+      "ignore": 14,
       "title": "Messgae 9: Discussion about the Comic",
       "_translations": {
         "title": {},
@@ -291,11 +369,11 @@
       "guidance": "Give parents time to answer before moving on to the comic"
     },
     {
-      "id": "message_12",
+      "id": "message_15",
       "foreign_key": "week_2_session_13",
       "asset_type": "image",
       "asset": "images/comics/module_2_teen.png",
-      "ignore": 12,
+      "ignore": 15,
       "title": "Message 10: Comic about a Teenage Child: Talking about Feelings",
       "_translations": {
         "title": {},
@@ -317,11 +395,11 @@
       "guidance": ""
     },
     {
-      "id": "message_13",
+      "id": "message_16",
       "foreign_key": "week_2_session_14",
       "asset_type": "",
       "asset": "",
-      "ignore": 13,
+      "ignore": 16,
       "title": "Message 11: Discussion about Comics",
       "_translations": {
         "title": {},
@@ -343,11 +421,11 @@
       "guidance": "Give parents a chance to answer the first question before moving onto the next question"
     },
     {
-      "id": "message_14",
+      "id": "message_17",
       "foreign_key": "week_2_session_15",
       "asset_type": "",
       "asset": "",
-      "ignore": 14,
+      "ignore": 17,
       "title": "Message 12: Discussion about Comics: Think about the Age of the Child",
       "_translations": {
         "title": {},
@@ -369,11 +447,11 @@
       "guidance": "Give parents opportunity to share their ideas"
     },
     {
-      "id": "message_15",
+      "id": "message_18",
       "foreign_key": "week_2_session_16",
       "asset_type": "",
       "asset": "",
-      "ignore": 15,
+      "ignore": 18,
       "title": "Message 13: Discussion about Reasons for Talking About Feelings",
       "_translations": {
         "title": {},
@@ -395,11 +473,11 @@
       "guidance": "Give parents opportunity to share their ideas"
     },
     {
-      "id": "message_16",
+      "id": "message_19",
       "foreign_key": "week_2_session_17",
       "asset_type": "",
       "asset": "",
-      "ignore": 16,
+      "ignore": 19,
       "title": "Message 14: Setting a Home Activity",
       "_translations": {
         "title": {},
@@ -421,11 +499,11 @@
       "guidance": ""
     },
     {
-      "id": "message_17",
+      "id": "message_20",
       "foreign_key": "week_2_session_18",
       "asset_type": "",
       "asset": "",
-      "ignore": 17,
+      "ignore": 20,
       "title": "Message 15: Clarification",
       "_translations": {
         "title": {},
@@ -447,11 +525,11 @@
       "guidance": "Allow a few minutes for parents to ask questions. Remember to thank parents for their questions. Before you give your own answer, give the group a chance to think about it and respond by saying \"That's a good question! What do others think could be an answer or solution to that?\""
     },
     {
-      "id": "message_18",
+      "id": "message_21",
       "foreign_key": "week_2_session_19",
       "asset_type": "youtube",
       "asset": "https://www.youtube.com/watch?v=4TfzAgl9hLY",
-      "ignore": 18,
+      "ignore": 21,
       "title": "Message 16 –Video: MaPa Skill Reminder",
       "_translations": {
         "title": {},
@@ -473,11 +551,11 @@
       "guidance": ""
     },
     {
-      "id": "message_19",
+      "id": "message_22",
       "foreign_key": "week_2_session_20",
       "asset_type": "youtube",
       "asset": "https://www.youtube.com/watch?v=h5Iw10f9mEI",
-      "ignore": 19,
+      "ignore": 22,
       "title": "Message 17 – Video: Pause for a Moment",
       "_translations": {
         "title": {},
@@ -499,11 +577,11 @@
       "guidance": ""
     },
     {
-      "id": "message_20",
+      "id": "message_23",
       "foreign_key": "week_2_session_21",
       "asset_type": "",
       "asset": "",
-      "ignore": 20,
+      "ignore": 23,
       "title": "Message 18 – Gratitude",
       "_translations": {
         "title": {},
@@ -525,11 +603,11 @@
       "guidance": ""
     },
     {
-      "id": "message_21",
-      "foreign_key": "week_2_1_reminder",
+      "id": "message_24",
+      "foreign_key": "week_2_reminder",
       "asset_type": "",
       "asset": "",
-      "ignore": 21,
+      "ignore": 24,
       "title": "Day Three: Reminder to Practise",
       "_translations": {
         "title": {},
@@ -551,11 +629,11 @@
       "guidance": ""
     },
     {
-      "id": "message_22",
-      "foreign_key": "week_2_2_reminder_2",
+      "id": "message_25",
+      "foreign_key": "week_2_reminder_2",
       "asset_type": "",
       "asset": "",
-      "ignore": 22,
+      "ignore": 25,
       "title": "Day Five: Feedback",
       "_translations": {
         "title": {},
@@ -575,6 +653,84 @@
       },
       "text": "Hi! Could you share something positive that happened when you talked to your child about feelings?\nHave you experienced any challenges while trying to do this? Could be creative!\nSend stories, voice messages, and pictures. I'd love to hear how your week was when we\nmeet again on [INSERT DATE HERE].",
       "guidance": "Accept submissions by parents for giving thumbs up, emoji, or compliments. Be sure to pick up one or two successes and challenges that can be discussed at the beginning of the next module."
+    },
+    {
+      "id": "message_26",
+      "foreign_key": "test_viber_share",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 26,
+      "title": "Day One: Module Reminder",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "guidance": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Day One: Module Reminder"
+        },
+        "text": {
+          "eng": "It's  been  a  whole  week!  Our  next  chat  session  is  [SET  TIME]  later.  We'll  talk  about  the  benefits  of  talking  about  feelings  with  your  child—and  add  a  second  foundation  to  the  walls  of  our  Happy  Home.  Let's  chat!"
+        },
+        "guidance": {
+          "eng": "1️⃣ Download the image on the screen.\n2️⃣ Update the message by replacing [SET TIME] with your session time.\n3️⃣ Share both the image and the message with your group."
+        }
+      },
+      "text": "It's  been  a  whole  week!  Our  next  chat  session  is  [SET  TIME]  later.  We'll  talk  about  the  benefits  of  talking  about  feelings  with  your  child—and  add  a  second  foundation  to  the  walls  of  our  Happy  Home.  Let's  chat!",
+      "guidance": "1️⃣ Download the image on the screen.\n2️⃣ Update the message by replacing [SET TIME] with your session time.\n3️⃣ Share both the image and the message with your group."
+    },
+    {
+      "id": "message_27",
+      "foreign_key": "test_viber_share_2",
+      "asset_type": "image",
+      "asset": "images/house_of_support.png",
+      "ignore": 27,
+      "title": "Day One: Module Reminder",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "guidance": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Day One: Module Reminder"
+        },
+        "text": {
+          "eng": ""
+        },
+        "guidance": {
+          "eng": "Share the image with the group"
+        }
+      },
+      "text": "",
+      "guidance": "Share the image with the group"
+    },
+    {
+      "id": "message_28",
+      "foreign_key": "test_viber_share_3",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 28,
+      "title": "Day One: Module Reminder",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "guidance": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Day One: Module Reminder"
+        },
+        "text": {
+          "eng": "It's  been  a  whole  week!  Our  next  chat  session  is  [SET  TIME]  later.  We'll  talk  about  the  benefits  of  talking  about  feelings  with  your  child—and  add  a  second  foundation  to  the  walls  of  our  Happy  Home.  Let's  chat!"
+        },
+        "guidance": {
+          "eng": "Copy the message & eeplace [SET Time] with your session time beforing hitting send."
+        }
+      },
+      "text": "It's  been  a  whole  week!  Our  next  chat  session  is  [SET  TIME]  later.  We'll  talk  about  the  benefits  of  talking  about  feelings  with  your  child—and  add  a  second  foundation  to  the  walls  of  our  Happy  Home.  Let's  chat!",
+      "guidance": "Copy the message & eeplace [SET Time] with your session time beforing hitting send."
     }
   ],
   "_xlsxPath": "data/modules_sub_items_ph.xlsx",

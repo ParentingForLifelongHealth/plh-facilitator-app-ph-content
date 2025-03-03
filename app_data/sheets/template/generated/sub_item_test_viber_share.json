@@ -1,5 +1,5 @@
 {
-  "flow_name": "sub_item_week_1_1_reminder",
+  "flow_name": "sub_item_test_viber_share",
   "flow_subtype": "generated",
   "flow_type": "template",
   "rows": [
@@ -11,7 +11,7 @@
       "rows": [
         {
           "name": "article_id",
-          "value": "week_1_1_reminder",
+          "value": "test_viber_share",
           "_translations": {
             "value": {}
           },
@@ -21,33 +21,13 @@
         },
         {
           "name": "foreign_key",
-          "value": "week_1_1_reminder",
+          "value": "test_viber_share",
           "_translations": {
             "value": {}
           },
           "exclude_from_translation": true,
           "type": "set_variable",
           "_nested_name": "article_loop.foreign_key"
-        },
-        {
-          "name": "next_article",
-          "value": "",
-          "_translations": {
-            "value": {}
-          },
-          "exclude_from_translation": true,
-          "type": "set_variable",
-          "_nested_name": "article_loop.next_article"
-        },
-        {
-          "name": "previous_article",
-          "value": "",
-          "_translations": {
-            "value": {}
-          },
-          "exclude_from_translation": true,
-          "type": "set_variable",
-          "_nested_name": "article_loop.previous_article"
         }
       ],
       "_nested_name": "article_loop"

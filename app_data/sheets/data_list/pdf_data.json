@@ -120,6 +120,19 @@
           "eng": "One-on-one time: Common Challenges & Solutions"
         }
       }
+    },
+    {
+      "id": "module_1_building_block",
+      "pdf_asset": "pdf/module_1_building_block.pdf",
+      "title": "Review the building blocks",
+      "_translations": {
+        "title": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Review the building blocks"
+        }
+      }
     }
   ],
   "_xlsxPath": "data/FacilitatorApp PH articles.xlsx"
