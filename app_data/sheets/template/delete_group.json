@@ -138,6 +138,16 @@
             },
             {
               "trigger": "click",
+              "action_id": "set_field",
+              "args": [
+                "current_group_no",
+                "NULL"
+              ],
+              "_raw": "click | set_field: current_group_no: NULL",
+              "_cleaned": "click | set_field: current_group_no: NULL"
+            },
+            {
+              "trigger": "click",
               "action_id": "emit",
               "args": [
                 "completed"

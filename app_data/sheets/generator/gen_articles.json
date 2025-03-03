@@ -46,12 +46,12 @@
       "flow_type": "template"
     },
     {
-      "flow_name": "articles_week_1_1_reminder",
+      "flow_name": "articles_week_1_reminder",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
     {
-      "flow_name": "articles_week_1_2_reminder",
+      "flow_name": "articles_week_1_reminder_2",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
@@ -161,12 +161,27 @@
       "flow_type": "template"
     },
     {
-      "flow_name": "articles_week_2_1_reminder",
+      "flow_name": "articles_week_2_reminder",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
     {
-      "flow_name": "articles_week_2_2_reminder_2",
+      "flow_name": "articles_week_2_reminder_2",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "articles_test_viber_share",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "articles_test_viber_share_2",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "articles_test_viber_share_3",
       "flow_subtype": "generated",
       "flow_type": "template"
     }

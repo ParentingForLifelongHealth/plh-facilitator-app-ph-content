@@ -454,6 +454,19 @@
         }
       },
       "description": "week_8"
+    },
+    {
+      "id": "test_viber_share",
+      "image_asset": "images/icons/reminder.png",
+      "title": "Viber Share Mockup (For Testing)",
+      "_translations": {
+        "title": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Viber Share Mockup (For Testing)"
+        }
+      }
     }
   ],
   "_xlsxPath": "data/modules_sub_items_ph.xlsx"

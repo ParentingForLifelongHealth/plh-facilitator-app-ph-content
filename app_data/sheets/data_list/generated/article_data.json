@@ -14,8 +14,7 @@
       "title": "Module 2: Talking about Feelings",
       "_translations": {
         "title": {},
-        "introduction": {},
-        "resource_title_1": {}
+        "introduction": {}
       },
       "_translatedFields": {
         "title": {
@@ -23,13 +22,9 @@
         },
         "introduction": {
           "eng": "\"**Welcome to Module 2: Talking about feelings! ** \n\nThe main goal is for parents to learn  and  practice  talking  about  their  own  feelings  and  their  child's  feelings.\n\nParents will also learn: \n1️⃣the  importance  of  accepting,  naming,  and  recognizing  the  different  emotions  their  child  is  feeling\n2️⃣ ways  and  skills  that  can  help  with  this.\""
-        },
-        "resource_title_1": {
-          "eng": "Module 2 Foundations & Messages"
         }
       },
-      "introduction": "\"**Welcome to Module 2: Talking about feelings! ** \n\nThe main goal is for parents to learn  and  practice  talking  about  their  own  feelings  and  their  child's  feelings.\n\nParents will also learn: \n1️⃣the  importance  of  accepting,  naming,  and  recognizing  the  different  emotions  their  child  is  feeling\n2️⃣ ways  and  skills  that  can  help  with  this.\"",
-      "resource_title_1": "Module 2 Foundations & Messages"
+      "introduction": "\"**Welcome to Module 2: Talking about feelings! ** \n\nThe main goal is for parents to learn  and  practice  talking  about  their  own  feelings  and  their  child's  feelings.\n\nParents will also learn: \n1️⃣the  importance  of  accepting,  naming,  and  recognizing  the  different  emotions  their  child  is  feeling\n2️⃣ ways  and  skills  that  can  help  with  this.\""
     },
     {
       "id": "what_is_safeguarding",
@@ -43,7 +38,6 @@
       "_translations": {
         "title": {},
         "introduction": {},
-        "resource_title_1": {},
         "related_articles_title": {}
       },
       "_translatedFields": {
@@ -53,15 +47,11 @@
         "introduction": {
           "eng": "It is important to know the following guidelines for handling disclosures of abuse, neglect, and violence from participants:\n\n1️⃣ **Understand abuse, neglect and exploitation.**\n\n❗ **Abuse** refers to a deliberate act of maltreatment that can damage a boy or girl’s security, wellbeing, dignity and development. Abuse includes all forms of physical, sexual, psychological and emotional maltreatment. (Save the Children definition)\n\n❗ **Violence** against girls and boys is defined as forms of physical or mental violence, damage and abuse, neglect or neglectful treatment or maltreatment or exploitation, including sexual abuse. (Office of the High Commissioner for Human Rights, 1990,\nArticle 19)\n\n❗ **Child exploitation** refers to using girls and boys for economic or sexual benefit, gratification or profit, often resulting in unjust, cruel and harmful treatment of the girl or boy. (Save the Children definition)\n\n2️⃣ **Know your organisation’s child safeguarding policies and referral procedures.**\n\n📖 All organisations should have or develop child rights safeguarding policies and referral procedures, including details on how to respond appropriately when a caregiver, other adults, girl or boy discloses abuse. \n\n📝 You should have accurate knowledge of all protocols and response plans. These will tell you what to do within your organisation if a caregiver or girl or boy reports abuse (e.g. who to report to, internal resources for supporting the girl or boy), as well as how to engage outside resources (e.g. local referral pathways, when to engage with authorities). \n\n🔑 It is your responsibility to act regardless of whether you are responding to disclosures of past and/or present abuse. However, you are not responsible for resolving the situation on your own. It is important that you discuss the situation with your supervisor to agree on what steps to take next.\n\n3️⃣ **Ensure parents know that you are someone who can help.**\n\n🌷Parents participating in your sessions need to know that they can come to you for help, regardless of when the abuse occurred. \n\n👂You should make sure that they know that they can trust you and that you will listen and support them without judgement or any further harm."
         },
-        "resource_title_1": {
-          "eng": "Reporting Abuse from Programme Partners"
-        },
         "related_articles_title": {
           "eng": "Additional Safeguarding Resources"
         }
       },
       "introduction": "It is important to know the following guidelines for handling disclosures of abuse, neglect, and violence from participants:\n\n1️⃣ **Understand abuse, neglect and exploitation.**\n\n❗ **Abuse** refers to a deliberate act of maltreatment that can damage a boy or girl’s security, wellbeing, dignity and development. Abuse includes all forms of physical, sexual, psychological and emotional maltreatment. (Save the Children definition)\n\n❗ **Violence** against girls and boys is defined as forms of physical or mental violence, damage and abuse, neglect or neglectful treatment or maltreatment or exploitation, including sexual abuse. (Office of the High Commissioner for Human Rights, 1990,\nArticle 19)\n\n❗ **Child exploitation** refers to using girls and boys for economic or sexual benefit, gratification or profit, often resulting in unjust, cruel and harmful treatment of the girl or boy. (Save the Children definition)\n\n2️⃣ **Know your organisation’s child safeguarding policies and referral procedures.**\n\n📖 All organisations should have or develop child rights safeguarding policies and referral procedures, including details on how to respond appropriately when a caregiver, other adults, girl or boy discloses abuse. \n\n📝 You should have accurate knowledge of all protocols and response plans. These will tell you what to do within your organisation if a caregiver or girl or boy reports abuse (e.g. who to report to, internal resources for supporting the girl or boy), as well as how to engage outside resources (e.g. local referral pathways, when to engage with authorities). \n\n🔑 It is your responsibility to act regardless of whether you are responding to disclosures of past and/or present abuse. However, you are not responsible for resolving the situation on your own. It is important that you discuss the situation with your supervisor to agree on what steps to take next.\n\n3️⃣ **Ensure parents know that you are someone who can help.**\n\n🌷Parents participating in your sessions need to know that they can come to you for help, regardless of when the abuse occurred. \n\n👂You should make sure that they know that they can trust you and that you will listen and support them without judgement or any further harm.",
-      "resource_title_1": "Reporting Abuse from Programme Partners",
       "introduction_image": "images/what_is_safeguarding.svg",
       "related_article_id_1": "during_disclosed_abuse",
       "related_article_id_2": "after_disclosed_abuse",
@@ -111,7 +101,6 @@
       "_translations": {
         "title": {},
         "introduction": {},
-        "resource_title_1": {},
         "related_articles_title": {}
       },
       "_translatedFields": {
@@ -121,15 +110,11 @@
         "introduction": {
           "eng": "**After disclosure:**\n\n❌ Avoid engaging with the alleged abuser – that may make things worse and make next steps difficult. It could also jeopardise future legal proceedings.\n\n🌷 You are not alone. Get help from your supervisor to agree on the next steps."
         },
-        "resource_title_1": {
-          "eng": "Reporting Abuse from Programme Partners"
-        },
         "related_articles_title": {
           "eng": "Additional Safeguarding Resources"
         }
       },
       "introduction": "**After disclosure:**\n\n❌ Avoid engaging with the alleged abuser – that may make things worse and make next steps difficult. It could also jeopardise future legal proceedings.\n\n🌷 You are not alone. Get help from your supervisor to agree on the next steps.",
-      "resource_title_1": "Reporting Abuse from Programme Partners",
       "introduction_image": "images/after_disclosed_abuse.svg",
       "related_article_id_1": "how_to_report_abuse",
       "related_article_id_2": "contact_for_reporting_abuse",
@@ -148,7 +133,6 @@
       "_translations": {
         "title": {},
         "introduction": {},
-        "resource_title_1": {},
         "related_articles_title": {}
       },
       "_translatedFields": {
@@ -158,15 +142,11 @@
         "introduction": {
           "eng": "✅ Follow your organisation’s protocol.\n\n📝 If your organisation needs assistance in developing or improving its policies and procedures, please refer to the following resources:\n\n**Mexican resources**\n1️⃣ [National Inter-institutional Coordination Protocol for the Protection of Girls, Boys and Adolescent Victims of Violence](https://www.gob.mx/sipinna/documentos/protocolo-nacional-de-coordinacion-interinstitucional-para-la-proteccion-de-ninas-ninos-y-adolescentes-victimas-de-violencia) \n\n2️⃣ [National System for the Protection of Girls, Boys, and Adolescents](https://www.gob.mx/sipinna)\n\n3️⃣ [National Human Rights Commission of Mexico](https://www.cndh.org.mx/pagina/tematicas-y-talleres) \n\n4️⃣[Inter-ministerial Commission to prevent, punish and eradicate crimes related to trafficking in persons.](https://www.gob.mx/segob/acciones-y-programas/comision-intersecretarial-para-prevenir-sancionar-y-erradicar-los-delitos-en-materia-de-trata-de-personas)\n\n**International resources**\n1️⃣ [World Health Organization Guidelines Responding to Girls, Boys, and Adolescents who have Been Sexually Abused](https://iris.paho.org/handle/10665.2/52043) \n\n2️⃣ [Keeping Girls and Boys Safe](https://www.keepingchildrensafe.global/)\n\n3️⃣ [Caring for Child Survivors of Sexual Abuse](https://www.unicef.org/documents/caring-child-survivors-sexual-abuse) \n\n4️⃣ [Strengthening Linkages between Clinical and Social Services for Girls, Boys, and Adolescents who have Experienced Sexual Violence: A Companion Guide](https://www.togetherforgirls.org/en/resources/strengthening-linkages-between-clinical-and-social-community-services-for-children-and-adolescents-who-have-experienced-sexual-violence-a-companion-guide) \n\n5️⃣ [Together for Girls: Every Hour Matters](https://www.togetherforgirls.org/en/campaigns/every-hour-matters)"
         },
-        "resource_title_1": {
-          "eng": "Reporting Abuse from Programme Partners"
-        },
         "related_articles_title": {
           "eng": "Additional Safeguarding Resources"
         }
       },
       "introduction": "✅ Follow your organisation’s protocol.\n\n📝 If your organisation needs assistance in developing or improving its policies and procedures, please refer to the following resources:\n\n**Mexican resources**\n1️⃣ [National Inter-institutional Coordination Protocol for the Protection of Girls, Boys and Adolescent Victims of Violence](https://www.gob.mx/sipinna/documentos/protocolo-nacional-de-coordinacion-interinstitucional-para-la-proteccion-de-ninas-ninos-y-adolescentes-victimas-de-violencia) \n\n2️⃣ [National System for the Protection of Girls, Boys, and Adolescents](https://www.gob.mx/sipinna)\n\n3️⃣ [National Human Rights Commission of Mexico](https://www.cndh.org.mx/pagina/tematicas-y-talleres) \n\n4️⃣[Inter-ministerial Commission to prevent, punish and eradicate crimes related to trafficking in persons.](https://www.gob.mx/segob/acciones-y-programas/comision-intersecretarial-para-prevenir-sancionar-y-erradicar-los-delitos-en-materia-de-trata-de-personas)\n\n**International resources**\n1️⃣ [World Health Organization Guidelines Responding to Girls, Boys, and Adolescents who have Been Sexually Abused](https://iris.paho.org/handle/10665.2/52043) \n\n2️⃣ [Keeping Girls and Boys Safe](https://www.keepingchildrensafe.global/)\n\n3️⃣ [Caring for Child Survivors of Sexual Abuse](https://www.unicef.org/documents/caring-child-survivors-sexual-abuse) \n\n4️⃣ [Strengthening Linkages between Clinical and Social Services for Girls, Boys, and Adolescents who have Experienced Sexual Violence: A Companion Guide](https://www.togetherforgirls.org/en/resources/strengthening-linkages-between-clinical-and-social-community-services-for-children-and-adolescents-who-have-experienced-sexual-violence-a-companion-guide) \n\n5️⃣ [Together for Girls: Every Hour Matters](https://www.togetherforgirls.org/en/campaigns/every-hour-matters)",
-      "resource_title_1": "Reporting Abuse from Programme Partners",
       "introduction_image": "images/how_to_report_abuse.svg",
       "related_article_id_1": "contact_for_reporting_abuse",
       "related_article_id_2": "crisis_hotlines",
@@ -1375,7 +1355,6 @@
       "_translations": {
         "title": {},
         "introduction": {},
-        "resource_title_1": {},
         "section_title_1": {},
         "section_text_1": {},
         "section_title_2": {},
@@ -1403,13 +1382,9 @@
         },
         "section_text_2": {
           "eng": "- Download the PowerPoint slide to your laptop \n\n- Download the videos embedded in the slides to your laptop \n\n- Go through your PowerPoint slides and videos to make sure everything is working smoothly"
-        },
-        "resource_title_1": {
-          "eng": "Onboarding Guide"
         }
       },
       "introduction": "The Onboarding Session sets the tone for the entire @global.programme_name programme. It is important to create a welcoming and safe space for the participants to feel at ease and familiarise themselves with the programme.",
-      "resource_title_1": "Onboarding Guide",
       "introduction_image": "images/onboarding_cc.svg",
       "section_title_1": "1 week before your session",
       "section_text_1": "- Read the Facilitator Guide on Formando Conciencia+ \n\n- Practise the onboarding session with a peer or supervisor",
@@ -1508,7 +1483,6 @@
       "_translations": {
         "title": {},
         "introduction": {},
-        "resource_title_1": {},
         "related_articles_title": {},
         "section_title_1": {},
         "section_text_1": {},
@@ -1518,8 +1492,7 @@
         "section_title_3": {},
         "section_text_3": {},
         "section_title_4": {},
-        "section_text_4": {},
-        "resource_title_2": {}
+        "section_text_4": {}
       },
       "_translatedFields": {
         "title": {
@@ -1555,18 +1528,11 @@
         "section_text_4": {
           "eng": "Just as we say to the parents, “It is what you do at home that makes the difference,” the same thing applies to you: “It is how you interact with the parents in your group that makes the difference.” \n\nIf you take the time to deliver a session before it begins, you will be more confident. If there is anything that you cannot remember or feel unsure of, contact another facilitator to practise with. \n\nAccess the Facilitator Guide for your group by clicking on the icon above."
         },
-        "resource_title_1": {
-          "eng": "Overview Guide"
-        },
-        "resource_title_2": {
-          "eng": "Know more about the programme"
-        },
         "related_articles_title": {
           "eng": "Additional Information"
         }
       },
       "introduction": "Welcome to the @global.programme_name Positive Parenting Programme! \n\nThank you for your commitment and dedication to supporting girls, boys, teens and families in your community. \nYou are a shining star!",
-      "resource_title_1": "Overview Guide",
       "introduction_image": "images/overview_cc.svg",
       "related_article_id_1": "onboarding_cc_study",
       "related_article_id_2": "how_to_chat_session_study",
@@ -1588,8 +1554,7 @@
       "section_title_4": "⭐Remember",
       "section_text_4": "Just as we say to the parents, “It is what you do at home that makes the difference,” the same thing applies to you: “It is how you interact with the parents in your group that makes the difference.” \n\nIf you take the time to deliver a session before it begins, you will be more confident. If there is anything that you cannot remember or feel unsure of, contact another facilitator to practise with. \n\nAccess the Facilitator Guide for your group by clicking on the icon above.",
       "resource_data_2": "pdf",
-      "resource_id_2": "more_info",
-      "resource_title_2": "Know more about the programme"
+      "resource_id_2": "more_info"
     },
     {
       "id": "onboarding_cc_study",
@@ -1603,13 +1568,11 @@
       "_translations": {
         "title": {},
         "introduction": {},
-        "resource_title_1": {},
         "section_title_1": {},
         "section_text_1": {},
         "section_title_2": {},
         "section_text_2": {},
-        "sections_title": {},
-        "resource_title_2": {}
+        "sections_title": {}
       },
       "_translatedFields": {
         "title": {
@@ -1632,16 +1595,9 @@
         },
         "section_text_2": {
           "eng": "Type ID in the chatbot"
-        },
-        "resource_title_1": {
-          "eng": "Onboarding Guide"
-        },
-        "resource_title_2": {
-          "eng": "How to onboard caregivers to the course"
         }
       },
       "introduction": "The Onboarding Session sets the tone for the entire @global.programme_name programme. It is important to create an empathetic, welcoming and safe space for the participants to feel at ease and familiarise themselves with the programme.",
-      "resource_title_1": "Onboarding Guide",
       "introduction_image": "images/onboarding_cc.svg",
       "section_title_1": "To start the chatbot in WhatsApp",
       "section_text_1": "Parents can type: \nAFECTIVA to start the programme, if you are in Chihuahua state. \n\nFORMANDO to start the programme, for all other states.",
@@ -1655,8 +1611,7 @@
       "section_text_2": "Type ID in the chatbot",
       "sections_title": "Trigger Words",
       "resource_data_2": "media",
-      "resource_id_2": "onboard_caregiver",
-      "resource_title_2": "How to onboard caregivers to the course"
+      "resource_id_2": "onboard_caregiver"
     },
     {
       "id": "how_to_chat_session_study",
@@ -1749,7 +1704,6 @@
       "_translations": {
         "title": {},
         "introduction": {},
-        "resource_title_1": {},
         "section_title_1": {},
         "section_text_1": {},
         "section_title_2": {},
@@ -1801,13 +1755,9 @@
         },
         "section_text_5": {
           "eng": "Only edit an attendance report if you have made a mistake.\n\nSelect the pencil icon from the bottom of the navigation bar. \n\nSelect whether you want to edit an in-person or WhatsApp session. \n\nSelect the session that you want to edit.\n\nYour previous selections will appear. You can now edit your selections and select “Save”"
-        },
-        "resource_title_1": {
-          "eng": "Add a Parent and Co-Parent"
         }
       },
       "introduction": "The Formando Conciencia+ also makes reporting on the delivery of @global.programme_name much easier than paper forms.\n\nAfter adding each parent’s name to the App, you will be able to report on their participation during in-person and WhatsApp group sessions.\n\nYou will also report on your own experience, including the time spent conducting each session and whether you were able to do all the activities in the session. Be honest with the information, we are really interested in knowing your experience",
-      "resource_title_1": "Add a Parent and Co-Parent",
       "introduction_image": "images/how_to_report.svg",
       "section_title_1": "Set up your profile",
       "section_text_1": "Select the profile icon from the bottom navigation bar. \n\nChoose “About you” \n\nType your name under “Your name” \n\nSelect your state from the dropdown menu \n\nTap Save",

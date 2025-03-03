@@ -68,6 +68,12 @@
       "name": "has_multiple_languages",
       "value": false,
       "exclude_from_translation": true
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "has_optional_login",
+      "value": true,
+      "exclude_from_translation": true
     }
   ],
   "_xlsxPath": "data/deployment_data.xlsx"

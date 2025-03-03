@@ -6,15 +6,16 @@
 | accordion | 1 |
 | accordion_section | 1 |
 | audio | 3 |
-| button | 72 |
+| button | 80 |
 | carousel | 2 |
 | combo_box | 3 |
-| data_items | 29 |
+| data_items | 34 |
 | debug_toggle | 1 |
 | display_grid | 2 |
-| display_group | 101 |
+| display_group | 102 |
 | drawer | 1 |
-| image | 10 |
+| google_sign_in_button | 2 |
+| image | 11 |
 | items | 25 |
 | lottie_animation | 2 |
 | navigation_bar | 2 |
@@ -23,16 +24,16 @@
 | radio_button_grid | 16 |
 | round_button | 32 |
 | select_text | 1 |
-| set_variable | 683 |
+| set_variable | 662 |
 | simple_checkbox | 2 |
 | task_card | 3 |
 | task_progress_bar | 2 |
 | template | 150 |
 | test | 1 |
-| text | 174 |
+| text | 166 |
 | text_area | 2 |
 | text_box | 30 |
-| title | 34 |
+| title | 36 |
 | toggle_bar | 5 |
 | update_action_list | 2 |
 | video | 3 |
@@ -46,25 +47,26 @@
 | --- | --- |
 | add_data | 5 |
 | app_update | 1 |
-| emit: completed | 39 |
+| auth | 2 |
+| emit: completed | 42 |
 | emit: force_reload | 4 |
-| emit: force_reprocess | 9 |
-| emit: force_restart | 3 |
+| emit: force_reprocess | 13 |
+| emit: force_restart | 5 |
 | emit: server_sync | 4 |
 | emit: set_language | 1 |
-| emit: uncompleted | 85 |
+| emit: uncompleted | 87 |
 | feedback | 13 |
 | go_to | 32 |
 | nav_stack | 6 |
-| pop_up | 13 |
+| pop_up | 15 |
 | reset_app | 1 |
 | save_to_device | 4 |
 | set_data | 19 |
-| set_field | 54 |
-| set_item | 10 |
-| set_local | 29 |
+| set_field | 57 |
+| set_item | 6 |
+| set_local | 30 |
 | share | 2 |
-| user | 1 |
+| user | 3 |
 </details>
 
 <details open>
@@ -124,6 +126,7 @@ Assets that have references within sheets but do not appear in app-data
 | images/icons/in_progress.svg | 1 |
 | images/icons/library_white.svg | 1 |
 | images/icons/tick.svg | 1 |
+| pdf/module_1_building_block.pdf | 1 |
 | videos/add_parent.mp4 | 1 |
 | videos/onboard_caregivers.mp4 | 1 |
 </details>
@@ -165,7 +168,7 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | images/flags/gb.svg | 0.5 | 2 |
 | images/flags/ph.svg | 0.9 | 2 |
 | images/group_admin_onboarding.svg | 13.5 | 1 |
-| images/house_of_support.png | 815.4 | 1 |
+| images/house_of_support.png | 815.4 | 3 |
 | images/how_to_chat_session.svg | 11 | 2 |
 | images/how_to_report.svg | 5.8 | 1 |
 | images/how_to_report_abuse.svg | 12.2 | 1 |
@@ -184,14 +187,14 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | images/icons/group_add_dark.svg | 2.3 | 1 |
 | images/icons/help.svg | 2.6 | 1 |
 | images/icons/home_white.svg | 1.7 | 1 |
-| images/icons/key.svg | 5.5 | 1 |
+| images/icons/key.svg | 5.5 | 2 |
 | images/icons/library.png | 1.5 | 2 |
 | images/icons/pencil_white.svg | 1.4 | 1 |
 | images/icons/people_network.svg | 6.9 | 1 |
 | images/icons/person_cog.svg | 2.9 | 1 |
 | images/icons/person_remove.svg | 1.5 | 1 |
 | images/icons/profile_card.svg | 7.4 | 1 |
-| images/icons/reminder.png | 10.4 | 16 |
+| images/icons/reminder.png | 10.4 | 17 |
 | images/icons/report.png | 1.1 | 1 |
 | images/icons/sessions.png | 1.3 | 1 |
 | images/icons/settings.png | 1.1 | 1 |
@@ -246,12 +249,12 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | data_list | legal_terms | 2 |
 | data_list | lifecycle_actions | 1 |
 | data_pipe |  | 2 |
-| data_pipe | generated | 29 |
+| data_pipe | generated | 32 |
 | generator |  | 9 |
 | global |  | 11 |
 | global | legal_terms | 1 |
-| template |  | 72 |
-| template | generated | 107 |
+| template |  | 74 |
+| template | generated | 110 |
 | template | legal_terms | 4 |
 | template | menu | 1 |
 </details>

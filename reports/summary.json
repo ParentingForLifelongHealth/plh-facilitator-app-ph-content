@@ -15,7 +15,7 @@
       },
       {
         "type": "button",
-        "count": 72
+        "count": 80
       },
       {
         "type": "carousel",
@@ -27,7 +27,7 @@
       },
       {
         "type": "data_items",
-        "count": 29
+        "count": 34
       },
       {
         "type": "debug_toggle",
@@ -39,15 +39,19 @@
       },
       {
         "type": "display_group",
-        "count": 101
+        "count": 102
       },
       {
         "type": "drawer",
         "count": 1
       },
       {
+        "type": "google_sign_in_button",
+        "count": 2
+      },
+      {
         "type": "image",
-        "count": 10
+        "count": 11
       },
       {
         "type": "items",
@@ -83,7 +87,7 @@
       },
       {
         "type": "set_variable",
-        "count": 683
+        "count": 662
       },
       {
         "type": "simple_checkbox",
@@ -107,7 +111,7 @@
       },
       {
         "type": "text",
-        "count": 174
+        "count": 166
       },
       {
         "type": "text_area",
@@ -119,7 +123,7 @@
       },
       {
         "type": "title",
-        "count": 34
+        "count": 36
       },
       {
         "type": "toggle_bar",
@@ -150,8 +154,12 @@
         "count": 1
       },
       {
+        "type": "auth",
+        "count": 2
+      },
+      {
         "type": "emit: completed",
-        "count": 39
+        "count": 42
       },
       {
         "type": "emit: force_reload",
@@ -159,11 +167,11 @@
       },
       {
         "type": "emit: force_reprocess",
-        "count": 9
+        "count": 13
       },
       {
         "type": "emit: force_restart",
-        "count": 3
+        "count": 5
       },
       {
         "type": "emit: server_sync",
@@ -175,7 +183,7 @@
       },
       {
         "type": "emit: uncompleted",
-        "count": 85
+        "count": 87
       },
       {
         "type": "feedback",
@@ -191,7 +199,7 @@
       },
       {
         "type": "pop_up",
-        "count": 13
+        "count": 15
       },
       {
         "type": "reset_app",
@@ -207,15 +215,15 @@
       },
       {
         "type": "set_field",
-        "count": 54
+        "count": 57
       },
       {
         "type": "set_item",
-        "count": 10
+        "count": 6
       },
       {
         "type": "set_local",
-        "count": 29
+        "count": 30
       },
       {
         "type": "share",
@@ -223,7 +231,7 @@
       },
       {
         "type": "user",
-        "count": 1
+        "count": 3
       }
     ]
   },
@@ -378,6 +386,11 @@
       },
       {
         "path": "images/icons/tick.svg",
+        "count": 1,
+        "missing": true
+      },
+      {
+        "path": "pdf/module_1_building_block.pdf",
         "count": 1,
         "missing": true
       },
@@ -547,7 +560,7 @@
       },
       {
         "path": "images/house_of_support.png",
-        "count": 1,
+        "count": 3,
         "size_kb": 815.4
       },
       {
@@ -642,7 +655,7 @@
       },
       {
         "path": "images/icons/key.svg",
-        "count": 1,
+        "count": 2,
         "size_kb": 5.5
       },
       {
@@ -677,7 +690,7 @@
       },
       {
         "path": "images/icons/reminder.png",
-        "count": 16,
+        "count": 17,
         "size_kb": 10.4
       },
       {
@@ -922,7 +935,7 @@
       {
         "type": "data_pipe",
         "subtype": "generated",
-        "total": 29
+        "total": 32
       },
       {
         "type": "generator",
@@ -942,12 +955,12 @@
       {
         "type": "template",
         "subtype": null,
-        "total": 72
+        "total": 74
       },
       {
         "type": "template",
         "subtype": "generated",
-        "total": 107
+        "total": 110
       },
       {
         "type": "template",
