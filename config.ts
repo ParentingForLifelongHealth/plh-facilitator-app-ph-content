@@ -1,4 +1,5 @@
 import { generateDeploymentConfig } from "scripts";
+import { loadEncryptedConfig} from "scripts";
 const config = generateDeploymentConfig("plh_facilitator_ph");
 /**
  * The default config should ideally be a superset of any extended configs
@@ -18,8 +19,16 @@ config.google_drive.assets_folder_ids = [
 
 config.git = {
   content_repo: "https://github.com/IDEMSInternational/plh-facilitator-app-ph-content.git",
-  content_tag_latest: "1.1.20",
+  content_tag_latest: "1.1.21",
 };
+
+config.firebase = {
+  config: loadEncryptedConfig('firebase.json')
+}
+
+config.auth = {
+  provider: 'firebase',
+}
 
 config.api.db_name = "plh_facilitator_ph"
 config.app_data.output_path = "./app_data";
