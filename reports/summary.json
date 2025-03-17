@@ -27,7 +27,7 @@
       },
       {
         "type": "data_items",
-        "count": 34
+        "count": 35
       },
       {
         "type": "debug_toggle",
@@ -39,7 +39,7 @@
       },
       {
         "type": "display_group",
-        "count": 102
+        "count": 104
       },
       {
         "type": "drawer",
@@ -87,7 +87,7 @@
       },
       {
         "type": "set_variable",
-        "count": 662
+        "count": 670
       },
       {
         "type": "simple_checkbox",
@@ -103,7 +103,7 @@
       },
       {
         "type": "template",
-        "count": 150
+        "count": 146
       },
       {
         "type": "test",
@@ -131,7 +131,7 @@
       },
       {
         "type": "update_action_list",
-        "count": 2
+        "count": 3
       },
       {
         "type": "video",
@@ -163,7 +163,7 @@
       },
       {
         "type": "emit: force_reload",
-        "count": 4
+        "count": 5
       },
       {
         "type": "emit: force_reprocess",
@@ -175,7 +175,7 @@
       },
       {
         "type": "emit: server_sync",
-        "count": 4
+        "count": 10
       },
       {
         "type": "emit: set_language",
@@ -183,7 +183,7 @@
       },
       {
         "type": "emit: uncompleted",
-        "count": 87
+        "count": 83
       },
       {
         "type": "feedback",
@@ -191,7 +191,7 @@
       },
       {
         "type": "go_to",
-        "count": 32
+        "count": 33
       },
       {
         "type": "nav_stack",
@@ -215,7 +215,7 @@
       },
       {
         "type": "set_field",
-        "count": 57
+        "count": 59
       },
       {
         "type": "set_item",
@@ -223,7 +223,7 @@
       },
       {
         "type": "set_local",
-        "count": 30
+        "count": 32
       },
       {
         "type": "share",
@@ -565,7 +565,7 @@
       },
       {
         "path": "images/how_to_chat_session.svg",
-        "count": 2,
+        "count": 1,
         "size_kb": 11
       },
       {
@@ -810,7 +810,7 @@
       },
       {
         "path": "images/onboarding_cc.svg",
-        "count": 3,
+        "count": 2,
         "size_kb": 19.3
       },
       {
@@ -960,7 +960,7 @@
       {
         "type": "template",
         "subtype": "generated",
-        "total": 110
+        "total": 106
       },
       {
         "type": "template",
