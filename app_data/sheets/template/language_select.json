@@ -4,71 +4,37 @@
   "status": "released",
   "rows": [
     {
-      "type": "template",
-      "name": "header",
-      "value": "section_header",
-      "action_list": [
-        {
-          "trigger": "uncompleted",
-          "action_id": "emit",
-          "args": [
-            "uncompleted"
-          ],
-          "_raw": "uncompleted | emit: uncompleted",
-          "_cleaned": "uncompleted | emit: uncompleted"
-        }
-      ],
-      "rows": [
-        {
-          "name": "show_back",
-          "value": "@fields.splash_screens_completed",
-          "_translations": {
-            "value": {}
-          },
-          "type": "set_variable",
-          "_nested_name": "header.show_back",
-          "_dynamicFields": {
-            "value": [
-              {
-                "fullExpression": "@fields.splash_screens_completed",
-                "matchedExpression": "@fields.splash_screens_completed",
-                "type": "fields",
-                "fieldName": "splash_screens_completed"
-              }
-            ]
-          },
-          "_dynamicDependencies": {
-            "@fields.splash_screens_completed": [
-              "value"
-            ]
+      "type": "image",
+      "value": "images/backgrounds/MaPa_logo_with_background.png",
+      "_translations": {
+        "value": {}
+      },
+      "name": "image_2",
+      "_nested_name": "image_2"
+    },
+    {
+      "type": "title",
+      "name": "title",
+      "value": "@global.language",
+      "_translations": {
+        "value": {}
+      },
+      "_nested_name": "title",
+      "_dynamicFields": {
+        "value": [
+          {
+            "fullExpression": "@global.language",
+            "matchedExpression": "@global.language",
+            "type": "global",
+            "fieldName": "language"
           }
-        },
-        {
-          "name": "title",
-          "value": "@global.language",
-          "_translations": {
-            "value": {}
-          },
-          "type": "set_variable",
-          "_nested_name": "header.title",
-          "_dynamicFields": {
-            "value": [
-              {
-                "fullExpression": "@global.language",
-                "matchedExpression": "@global.language",
-                "type": "global",
-                "fieldName": "language"
-              }
-            ]
-          },
-          "_dynamicDependencies": {
-            "@global.language": [
-              "value"
-            ]
-          }
-        }
-      ],
-      "_nested_name": "header"
+        ]
+      },
+      "_dynamicDependencies": {
+        "@global.language": [
+          "value"
+        ]
+      }
     },
     {
       "name": "language_select_options",
@@ -124,7 +90,9 @@
       ],
       "parameter_list": {
         "answer_list": "@local.language_select_options",
-        "item_width": "50px"
+        "grid_width": "100%",
+        "variant": "flex",
+        "item_width 400px": "true"
       },
       "_nested_name": "language_select",
       "_dynamicFields": {
@@ -181,51 +149,38 @@
       }
     },
     {
-      "type": "display_group",
-      "name": "dg_bottom",
-      "parameter_list": {
-        "sticky": "bottom"
+      "type": "button",
+      "name": "button_completed",
+      "value": "Continue",
+      "_translations": {
+        "value": {}
       },
-      "style_list": [
-        "padding: 12px 24px"
-      ],
-      "rows": [
+      "action_list": [
         {
-          "type": "button",
-          "name": "button_completed",
-          "value": "Continue",
-          "_translations": {
-            "value": {}
-          },
-          "action_list": [
-            {
-              "trigger": "click",
-              "action_id": "set_field",
-              "args": [
-                "language_selected",
-                true
-              ],
-              "_raw": "click | set_field: language_selected: TRUE",
-              "_cleaned": "click | set_field: language_selected: TRUE"
-            },
-            {
-              "trigger": "click",
-              "action_id": "emit",
-              "args": [
-                "force_restart"
-              ],
-              "_raw": "click | emit: force_restart",
-              "_cleaned": "click | emit: force_restart"
-            }
+          "trigger": "click",
+          "action_id": "emit",
+          "args": [
+            "completed"
           ],
-          "parameter_list": {
-            "variant": "card"
-          },
-          "_nested_name": "dg_bottom.button_completed"
+          "_raw": "click | emit: completed",
+          "_cleaned": "click | emit: completed"
+        },
+        {
+          "trigger": "click",
+          "action_id": "set_field",
+          "args": [
+            "language_selected",
+            true
+          ],
+          "_raw": "click | set_field: language_selected: TRUE",
+          "_cleaned": "click | set_field: language_selected: TRUE"
         }
       ],
-      "_nested_name": "dg_bottom"
+      "parameter_list": {
+        "style": "navigation"
+      },
+      "_nested_name": "button_completed"
     }
   ],
-  "_xlsxPath": "templates/PH app_launch.xlsx"
+  "_xlsxPath": "templates/app_launch_override.xlsx"
 }

@@ -257,6 +257,15 @@
               ],
               "_raw": "click | emit: completed",
               "_cleaned": "click | emit: completed"
+            },
+            {
+              "trigger": "click",
+              "action_id": "emit",
+              "args": [
+                "server_sync"
+              ],
+              "_raw": "click | emit: server_sync",
+              "_cleaned": "click | emit: server_sync"
             }
           ],
           "parameter_list": {

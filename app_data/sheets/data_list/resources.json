@@ -78,6 +78,66 @@
           "eng": "pdf/module_1_troubleshooting.pdf"
         }
       }
+    },
+    {
+      "id": "resource_6",
+      "foreign_key": "test_viber_share",
+      "media_type": "image",
+      "media_asset": "Day One: Module Reminder",
+      "media_title": "images/house_of_support.png",
+      "_translations": {
+        "media_title": {}
+      },
+      "_translatedFields": {
+        "media_title": {
+          "eng": "images/house_of_support.png"
+        }
+      }
+    },
+    {
+      "id": "resource_7",
+      "foreign_key": "demo",
+      "media_type": "pdf",
+      "media_asset": "",
+      "media_title": "module_2_prepare",
+      "_translations": {
+        "media_title": {}
+      },
+      "_translatedFields": {
+        "media_title": {
+          "eng": "module_2_prepare"
+        }
+      }
+    },
+    {
+      "id": "resource_8",
+      "foreign_key": "demo_7",
+      "media_type": "pdf",
+      "media_asset": "Message 4: Discuss Challenge",
+      "media_title": "module_1_troubleshooting",
+      "_translations": {
+        "media_title": {}
+      },
+      "_translatedFields": {
+        "media_title": {
+          "eng": "module_1_troubleshooting"
+        }
+      }
+    },
+    {
+      "id": "resource_9",
+      "foreign_key": "demo_8",
+      "media_type": "pdf",
+      "media_asset": "Message 5: Discussion about challenge & solution",
+      "media_title": "module_1_troubleshooting",
+      "_translations": {
+        "media_title": {}
+      },
+      "_translatedFields": {
+        "media_title": {
+          "eng": "module_1_troubleshooting"
+        }
+      }
     }
   ],
   "_xlsxPath": "data/modules_sub_items_ph.xlsx"

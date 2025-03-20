@@ -70,6 +70,11 @@
     },
     {
       "type": "declare_global_constant",
+      "name": "has_optional_login",
+      "value": true
+    },
+    {
+      "type": "declare_global_constant",
       "name": "deployment_terms_field",
       "value": "terms_v20231214_accepted",
       "_translations": {
@@ -223,6 +228,14 @@
       "type": "declare_global_constant",
       "name": "support_button",
       "value": "Frequently Asked Questions",
+      "_translations": {
+        "value": {}
+      }
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "language",
+      "value": "Choose a language:",
       "_translations": {
         "value": {}
       }

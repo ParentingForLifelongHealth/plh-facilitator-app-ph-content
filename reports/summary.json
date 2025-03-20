@@ -27,7 +27,7 @@
       },
       {
         "type": "data_items",
-        "count": 34
+        "count": 35
       },
       {
         "type": "debug_toggle",
@@ -39,7 +39,7 @@
       },
       {
         "type": "display_group",
-        "count": 102
+        "count": 103
       },
       {
         "type": "drawer",
@@ -51,7 +51,7 @@
       },
       {
         "type": "image",
-        "count": 11
+        "count": 12
       },
       {
         "type": "items",
@@ -87,7 +87,7 @@
       },
       {
         "type": "set_variable",
-        "count": 662
+        "count": 692
       },
       {
         "type": "simple_checkbox",
@@ -103,7 +103,7 @@
       },
       {
         "type": "template",
-        "count": 150
+        "count": 167
       },
       {
         "type": "test",
@@ -111,7 +111,7 @@
       },
       {
         "type": "text",
-        "count": 166
+        "count": 167
       },
       {
         "type": "text_area",
@@ -123,7 +123,7 @@
       },
       {
         "type": "title",
-        "count": 36
+        "count": 37
       },
       {
         "type": "toggle_bar",
@@ -131,7 +131,7 @@
       },
       {
         "type": "update_action_list",
-        "count": 2
+        "count": 3
       },
       {
         "type": "video",
@@ -159,11 +159,11 @@
       },
       {
         "type": "emit: completed",
-        "count": 42
+        "count": 43
       },
       {
         "type": "emit: force_reload",
-        "count": 4
+        "count": 5
       },
       {
         "type": "emit: force_reprocess",
@@ -171,11 +171,11 @@
       },
       {
         "type": "emit: force_restart",
-        "count": 5
+        "count": 4
       },
       {
         "type": "emit: server_sync",
-        "count": 4
+        "count": 10
       },
       {
         "type": "emit: set_language",
@@ -183,7 +183,7 @@
       },
       {
         "type": "emit: uncompleted",
-        "count": 87
+        "count": 82
       },
       {
         "type": "feedback",
@@ -191,7 +191,7 @@
       },
       {
         "type": "go_to",
-        "count": 32
+        "count": 33
       },
       {
         "type": "nav_stack",
@@ -215,7 +215,7 @@
       },
       {
         "type": "set_field",
-        "count": 57
+        "count": 59
       },
       {
         "type": "set_item",
@@ -223,7 +223,7 @@
       },
       {
         "type": "set_local",
-        "count": 30
+        "count": 32
       },
       {
         "type": "share",
@@ -239,12 +239,12 @@
     "data": [
       {
         "assets": "total",
-        "KB": "65020 KB",
-        "MB": "65 MB"
+        "KB": "67933 KB",
+        "MB": "67.9 MB"
       },
       {
         "assets": "unused",
-        "KB": "842 KB",
+        "KB": "844 KB",
         "MB": "0.8 MB"
       }
     ]
@@ -278,6 +278,10 @@
       {
         "path": "images/backgrounds/library_bottom_left.svg",
         "size_kb": 2.3
+      },
+      {
+        "path": "images/backgrounds/report_edit.png",
+        "size_kb": 1.7
       },
       {
         "path": "images/backgrounds/report_edit.svg",
@@ -409,9 +413,29 @@
   "asset_summary": {
     "data": [
       {
+        "path": "cw_demo/comic_1.png",
+        "count": 1,
+        "size_kb": 982.3
+      },
+      {
+        "path": "cw_demo/comic_2.png",
+        "count": 1,
+        "size_kb": 795.3
+      },
+      {
+        "path": "cw_demo/house_of_support.png",
+        "count": 1,
+        "size_kb": 944.5
+      },
+      {
         "path": "images/after_disclosed_abuse.svg",
         "count": 2,
         "size_kb": 4.7
+      },
+      {
+        "path": "images/backgrounds/MaPa_logo_with_background.png",
+        "count": 1,
+        "size_kb": 190.6
       },
       {
         "path": "images/backgrounds/home_bottom_right.svg",
@@ -560,12 +584,12 @@
       },
       {
         "path": "images/house_of_support.png",
-        "count": 3,
+        "count": 5,
         "size_kb": 815.4
       },
       {
         "path": "images/how_to_chat_session.svg",
-        "count": 2,
+        "count": 1,
         "size_kb": 11
       },
       {
@@ -715,7 +739,7 @@
       },
       {
         "path": "images/icons/task_1.png",
-        "count": 1,
+        "count": 2,
         "size_kb": 1
       },
       {
@@ -810,7 +834,7 @@
       },
       {
         "path": "images/onboarding_cc.svg",
-        "count": 3,
+        "count": 2,
         "size_kb": 19.3
       },
       {
@@ -935,7 +959,7 @@
       {
         "type": "data_pipe",
         "subtype": "generated",
-        "total": 32
+        "total": 53
       },
       {
         "type": "generator",
@@ -945,7 +969,7 @@
       {
         "type": "global",
         "subtype": null,
-        "total": 11
+        "total": 12
       },
       {
         "type": "global",
@@ -955,22 +979,17 @@
       {
         "type": "template",
         "subtype": null,
-        "total": 74
+        "total": 75
       },
       {
         "type": "template",
         "subtype": "generated",
-        "total": 110
+        "total": 128
       },
       {
         "type": "template",
         "subtype": "legal_terms",
         "total": 4
-      },
-      {
-        "type": "template",
-        "subtype": "menu",
-        "total": 1
       }
     ]
   }
