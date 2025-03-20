@@ -5,11 +5,27 @@
   "data_list_name": "modules",
   "rows": [
     {
+      "id": "demo",
+      "image_asset": "images/icons/task_1.png",
+      "report_id": "week_1",
+      "status": "released",
+      "title": "Curaçao Demo",
+      "_translations": {
+        "title": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Curaçao Demo"
+        }
+      }
+    },
+    {
       "id": "week_1_session",
       "image_asset": "images/icons/task_1.png",
       "report_id": "week_1",
       "related_article_id_1": "faq_h_no_understand_connection",
       "related_article_id_2": "faq_h_no_thoughts",
+      "status": "released",
       "title": "Module 1 Session: One-on-one time",
       "_translations": {
         "title": {},
@@ -27,6 +43,7 @@
     },
     {
       "id": "week_1_1_reminder",
+      "status": "released",
       "image_asset": "images/icons/reminder.png",
       "title": "Day 3: Module 1 Reminder",
       "_translations": {
@@ -45,6 +62,7 @@
     },
     {
       "id": "week_1_2_reminder",
+      "status": "released",
       "image_asset": "images/icons/reminder.png",
       "title": "Day 5: Module 1 Reminder",
       "_translations": {
@@ -68,6 +86,7 @@
       "related_article_id_1": "faq_text_support",
       "related_article_id_2": "faq_ground_rules",
       "related_article_id_3": "faq_misbehaviour",
+      "status": "released",
       "title": "Module 2 Session: Talking about Feelings",
       "_translations": {
         "title": {},
@@ -88,6 +107,7 @@
       "related_article_id_1": "faq_h_no_strengths",
       "related_article_id_2": "faq_h_no_volunteers",
       "related_article_id_3": "group_admin_onboarding",
+      "status": "released",
       "image_asset": "images/icons/reminder.png",
       "title": "Day 3: Module 2 Reminder",
       "_translations": {
@@ -109,6 +129,7 @@
       "related_article_id_1": "faq_h_parents_insult",
       "related_article_id_2": "faq_h_self_harm",
       "related_article_id_3": "faq_h_no_neg_to_pos",
+      "status": "released",
       "image_asset": "images/icons/reminder.png",
       "title": "Day 5: Module 2 Reminder",
       "_translations": {
@@ -127,6 +148,7 @@
     },
     {
       "id": "week_3_session",
+      "status": "draft",
       "image_asset": "images/icons/task_3.png",
       "report_id": "week_3",
       "title": "Module 3 Session",
@@ -146,6 +168,7 @@
     },
     {
       "id": "week_3_1_reminder",
+      "status": "draft",
       "image_asset": "images/icons/reminder.png",
       "title": "Day 3: Module 3 Reminder",
       "_translations": {
@@ -164,6 +187,7 @@
     },
     {
       "id": "week_3_2_reminder",
+      "status": "draft",
       "image_asset": "images/icons/reminder.png",
       "title": "Day 5: Module 3 Reminder",
       "_translations": {
@@ -182,6 +206,7 @@
     },
     {
       "id": "week_4_session",
+      "status": "draft",
       "image_asset": "images/icons/task_4.png",
       "report_id": "week_4",
       "title": "Module 4 Session",
@@ -201,6 +226,7 @@
     },
     {
       "id": "week_4_1_reminder",
+      "status": "draft",
       "image_asset": "images/icons/reminder.png",
       "title": "Day 3: Module 4 Reminder",
       "_translations": {
@@ -219,6 +245,7 @@
     },
     {
       "id": "week_4_2_reminder",
+      "status": "draft",
       "image_asset": "images/icons/reminder.png",
       "title": "Day 5: Module 4 Reminder",
       "_translations": {
@@ -237,6 +264,7 @@
     },
     {
       "id": "week_5_session",
+      "status": "draft",
       "image_asset": "images/icons/task_5.png",
       "report_id": "week_5",
       "title": "Module 5 Session",
@@ -256,6 +284,7 @@
     },
     {
       "id": "week_5_1_reminder",
+      "status": "draft",
       "image_asset": "images/icons/reminder.png",
       "title": "Day 3: Module 5 Reminder",
       "_translations": {
@@ -274,6 +303,7 @@
     },
     {
       "id": "week_5_2_reminder",
+      "status": "draft",
       "image_asset": "images/icons/reminder.png",
       "title": "Day 5: Module 5 Reminder",
       "_translations": {
@@ -292,6 +322,7 @@
     },
     {
       "id": "week_6_session",
+      "status": "draft",
       "image_asset": "images/icons/task_6.png",
       "report_id": "week_6",
       "title": "Module 6 Session",
@@ -311,6 +342,7 @@
     },
     {
       "id": "week_6_1_reminder",
+      "status": "draft",
       "image_asset": "images/icons/reminder.png",
       "title": "Day 3: Module 6 Reminder",
       "_translations": {
@@ -329,6 +361,7 @@
     },
     {
       "id": "week_6_2_reminder",
+      "status": "draft",
       "image_asset": "images/icons/reminder.png",
       "title": "Day 5: Module 6 Reminder",
       "_translations": {
@@ -347,6 +380,7 @@
     },
     {
       "id": "week_7_session",
+      "status": "draft",
       "image_asset": "images/icons/task_7.png",
       "report_id": "week_7",
       "title": "Module 7 Session",
@@ -366,6 +400,7 @@
     },
     {
       "id": "week_7_1_reminder",
+      "status": "draft",
       "image_asset": "images/icons/reminder.png",
       "title": "Day 3: Module 7 Reminder",
       "_translations": {
@@ -384,6 +419,7 @@
     },
     {
       "id": "week_7_2_reminder",
+      "status": "draft",
       "image_asset": "images/icons/reminder.png",
       "title": "Day 5: Module 7 Reminder",
       "_translations": {
@@ -402,6 +438,7 @@
     },
     {
       "id": "week_8_session",
+      "status": "draft",
       "image_asset": "images/icons/task_8.png",
       "report_id": "week_8",
       "title": "Module 8 Session",
@@ -421,6 +458,7 @@
     },
     {
       "id": "week_8_1_reminder",
+      "status": "draft",
       "image_asset": "images/icons/reminder.png",
       "title": "Day 3: Module 8 Reminder",
       "_translations": {
@@ -439,6 +477,7 @@
     },
     {
       "id": "week_8_2_reminder",
+      "status": "draft",
       "image_asset": "images/icons/reminder.png",
       "title": "Day 5: Module 8 Reminder",
       "_translations": {
@@ -457,6 +496,7 @@
     },
     {
       "id": "test_viber_share",
+      "status": "draft",
       "image_asset": "images/icons/reminder.png",
       "title": "Viber Share Mockup (For Testing)",
       "_translations": {

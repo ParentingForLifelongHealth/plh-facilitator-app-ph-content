@@ -54,6 +54,11 @@
       "flow_name": "sub_item_test_viber_share",
       "flow_subtype": "generated",
       "flow_type": "template"
+    },
+    {
+      "flow_name": "sub_item_demo",
+      "flow_subtype": "generated",
+      "flow_type": "template"
     }
   ]
 }

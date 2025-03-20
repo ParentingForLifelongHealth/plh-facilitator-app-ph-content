@@ -69,6 +69,28 @@
       "media_asset": "Day One: Module Reminder",
       "media_transcript": "It's  been  a  whole  week!  Our  next  chat  session  is  [SET  TIME]  later.  We'll  talk  about  the  benefits  of  talking  about  feelings  with  your  child—and  add  a  second  foundation  to  the  walls  of  our  Happy  Home.  Let's  chat!",
       "ignore": 6
+    },
+    {
+      "id": "intro_7",
+      "foreign_key": "demo",
+      "image_asset": "",
+      "text": "Welcome to Module 2: Talking about feelings! \n\nThe main goal is for parents to learn  and  practice  talking  about  their  own  feelings  and  their  child's  feelings.\n\nParents will also learn: \n1️⃣ the  importance  of  accepting,  naming,  and  recognizing  the  different  emotions  their  child  is  feeling\n2️⃣ ways  and  skills  that  can  help  with  this.",
+      "media_type": "pdf",
+      "media_title": "module_2_prepare",
+      "media_asset": "",
+      "media_transcript": "",
+      "ignore": 7
+    },
+    {
+      "id": "intro_8",
+      "foreign_key": "demo_3",
+      "image_asset": "",
+      "text": "**Day One: Group Chat Session**\n\nEstimate: One hour \n\nThis  is  a  group  discussion  that  you  are  leading.  Remember  to  pause  after  each  step  to  provide  parents  with opportunity  to  respond  or  talk  to  group  members  if  comfortable them  to  do  this.",
+      "media_type": "",
+      "media_title": "",
+      "media_asset": "",
+      "media_transcript": "",
+      "ignore": 8
     }
   ],
   "_xlsxPath": "data/modules_sub_items_ph.xlsx",

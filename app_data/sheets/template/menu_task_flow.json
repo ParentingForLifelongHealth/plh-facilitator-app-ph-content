@@ -2,7 +2,6 @@
   "flow_type": "template",
   "flow_name": "menu_task_flow",
   "status": "released",
-  "flow_subtype": "menu",
   "rows": [
     {
       "name": "completed_prefix",
@@ -764,14 +763,61 @@
               }
             },
             {
+              "name": "condition_package",
+              "value": false,
+              "condition": "@item.status == \"draft\"",
+              "type": "set_variable",
+              "_nested_name": "display_group_16.items_1.condition_package",
+              "_dynamicFields": {
+                "condition": [
+                  {
+                    "fullExpression": "@item.status == \"draft\"",
+                    "matchedExpression": "@item.status",
+                    "type": "item",
+                    "fieldName": "status"
+                  }
+                ]
+              },
+              "_dynamicDependencies": {
+                "@item.status": [
+                  "condition"
+                ]
+              }
+            },
+            {
+              "type": "text",
+              "value": "@item.status",
+              "_translations": {
+                "value": {}
+              },
+              "condition": false,
+              "name": "text_7",
+              "_nested_name": "display_group_16.items_1.text_7",
+              "_dynamicFields": {
+                "value": [
+                  {
+                    "fullExpression": "@item.status",
+                    "matchedExpression": "@item.status",
+                    "type": "item",
+                    "fieldName": "status"
+                  }
+                ]
+              },
+              "_dynamicDependencies": {
+                "@item.status": [
+                  "value"
+                ]
+              }
+            },
+            {
               "type": "text",
               "value": "@local.image_prefix@local.image_count@local.image_postfix",
               "_translations": {
                 "value": {}
               },
               "condition": false,
-              "name": "text_6",
-              "_nested_name": "display_group_16.items_1.text_6",
+              "name": "text_8",
+              "_nested_name": "display_group_16.items_1.text_8",
               "_dynamicFields": {
                 "value": [
                   {
@@ -1191,5 +1237,5 @@
       }
     }
   ],
-  "_xlsxPath": "templates/menu_multi_run_task_flow.xlsx"
+  "_xlsxPath": "templates/menu_override.xlsx"
 }

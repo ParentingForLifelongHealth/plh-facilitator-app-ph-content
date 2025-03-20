@@ -15,6 +15,18 @@
     "md5Checksum": "5c2cf4dfa421bce1c99eabf15ad660b8",
     "size_kb": 290.4
   },
+  "cw_demo/comic_1.png": {
+    "md5Checksum": "a256f0c4da9d62161625bdb453f4f15d",
+    "size_kb": 982.3
+  },
+  "cw_demo/comic_2.png": {
+    "md5Checksum": "352acda99227883f21bda71fba880ecc",
+    "size_kb": 795.3
+  },
+  "cw_demo/house_of_support.png": {
+    "md5Checksum": "ef5e79e983bd30b9c22f5de4c51ee954",
+    "size_kb": 944.5
+  },
   "images/Message.png": {
     "md5Checksum": "479defd46917f22869e6ec7435c72092",
     "size_kb": 10.4
@@ -27,6 +39,10 @@
     "md5Checksum": "68e4168e8a69c3f751831cf00ccbd22c",
     "size_kb": 4.7
   },
+  "images/backgrounds/MaPa_logo_with_background.png": {
+    "md5Checksum": "8f070969ee64561b3cac214e63245ad1",
+    "size_kb": 190.6
+  },
   "images/backgrounds/home_bottom_right.svg": {
     "md5Checksum": "d1e5c20120116837424d9a646f8ee10e",
     "size_kb": 2.3
@@ -38,6 +54,10 @@
   "images/backgrounds/library_bottom_left.svg": {
     "md5Checksum": "a59168c9e9ce9f722cda2c54f3eae369",
     "size_kb": 2.3
+  },
+  "images/backgrounds/report_edit.png": {
+    "md5Checksum": "c7c6dffe196f54bfe36c2b8cc973cd64",
+    "size_kb": 1.7
   },
   "images/backgrounds/report_edit.svg": {
     "md5Checksum": "3e4a45f91225fc7b3abcc9ada2961143",

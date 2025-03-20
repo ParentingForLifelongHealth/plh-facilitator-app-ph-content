@@ -731,6 +731,500 @@
       },
       "text": "It's  been  a  whole  week!  Our  next  chat  session  is  [SET  TIME]  later.  We'll  talk  about  the  benefits  of  talking  about  feelings  with  your  child—and  add  a  second  foundation  to  the  walls  of  our  Happy  Home.  Let's  chat!",
       "guidance": "Copy the message & eeplace [SET Time] with your session time beforing hitting send."
+    },
+    {
+      "id": "message_29",
+      "foreign_key": "demo_2",
+      "asset_type": "image",
+      "asset": "cw_demo/house_of_support.png",
+      "ignore": 29,
+      "title": "Day One: Module Reminder",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "guidance": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Day One: Module Reminder"
+        },
+        "text": {
+          "eng": "It's  been  a  whole  week!  Our  next  chat  session  is  [SET  TIME]  later.  We'll  talk  about  the  benefits  of  talking  about  feelings  with  your  child—and  add  a  second  foundation  to  the  walls  of  our  Happy  Home.  Let's  chat!"
+        },
+        "guidance": {
+          "eng": "Replace [SET Time] with your session time, then send the message along with this image"
+        }
+      },
+      "text": "It's  been  a  whole  week!  Our  next  chat  session  is  [SET  TIME]  later.  We'll  talk  about  the  benefits  of  talking  about  feelings  with  your  child—and  add  a  second  foundation  to  the  walls  of  our  Happy  Home.  Let's  chat!",
+      "guidance": "Replace [SET Time] with your session time, then send the message along with this image"
+    },
+    {
+      "id": "message_30",
+      "foreign_key": "demo_4",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 30,
+      "title": "Message 1: Greetings",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "guidance": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Message 1: Greetings"
+        },
+        "text": {
+          "eng": "Greetings  and  Greetings! Welcome  to  Module  2  of  our  MaPaChat!  How  are  you  all?  Are  you  happy? Stressed?  Angry?  Annoyed?  Calm?  Whatever  emotion  you  are  feeling...it's  okay!  Let's  type  what  we're  feeling today"
+        },
+        "guidance": {
+          "eng": "Give parents a moment to share how they feel. Also, share your own feelings. For example, “I’m happy to be part of our MaPaChat session today"
+        }
+      },
+      "text": "Greetings  and  Greetings! Welcome  to  Module  2  of  our  MaPaChat!  How  are  you  all?  Are  you  happy? Stressed?  Angry?  Annoyed?  Calm?  Whatever  emotion  you  are  feeling...it's  okay!  Let's  type  what  we're  feeling today",
+      "guidance": "Give parents a moment to share how they feel. Also, share your own feelings. For example, “I’m happy to be part of our MaPaChat session today"
+    },
+    {
+      "id": "message_31",
+      "foreign_key": "demo_5",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 31,
+      "title": "Message 2: Discussion about Home Activity",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "guidance": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Message 2: Discussion about Home Activity"
+        },
+        "text": {
+          "eng": "Last week,  we  talked  about  One-on-One  Time. with  the  child.  Today,  we  will  look  at  one  of  the  other  ways  of using  One-on-One  Time—talking  about  feelings with  the  child.  But  first,  let's  chat  about  your  home  activities or  homework.  How  is  your  One-on-One  Time  going?"
+        },
+        "guidance": {
+          "eng": "Accept the experience that parents will share."
+        }
+      },
+      "text": "Last week,  we  talked  about  One-on-One  Time. with  the  child.  Today,  we  will  look  at  one  of  the  other  ways  of using  One-on-One  Time—talking  about  feelings with  the  child.  But  first,  let's  chat  about  your  home  activities or  homework.  How  is  your  One-on-One  Time  going?",
+      "guidance": "Accept the experience that parents will share."
+    },
+    {
+      "id": "message_32",
+      "foreign_key": "demo_6",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 32,
+      "title": "Message 3: Sharing Success",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "guidance": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Message 3: Sharing Success"
+        },
+        "text": {
+          "eng": "One  of  the  successes  you  shared  last  week. You  did  One-on-One  Time  and  [describe  the  success]. You  did  a  great  job  [attributing  success  to building block]."
+        },
+        "guidance": {
+          "eng": "Share a success from what the parents have shared."
+        }
+      },
+      "text": "One  of  the  successes  you  shared  last  week. You  did  One-on-One  Time  and  [describe  the  success]. You  did  a  great  job  [attributing  success  to building block].",
+      "guidance": "Share a success from what the parents have shared."
+    },
+    {
+      "id": "message_33",
+      "foreign_key": "demo_7",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 33,
+      "title": "Message 4: Discuss Challenge",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "guidance": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Message 4: Discuss Challenge"
+        },
+        "text": {
+          "eng": "Now  we  will  discuss  a  shared  challenge  about  [describe  the  challenge  from  the  feedback  module]."
+        },
+        "guidance": {
+          "eng": "If no one shared a challenge last week, send the example challenges one by one from the pdf."
+        }
+      },
+      "text": "Now  we  will  discuss  a  shared  challenge  about  [describe  the  challenge  from  the  feedback  module].",
+      "guidance": "If no one shared a challenge last week, send the example challenges one by one from the pdf."
+    },
+    {
+      "id": "message_34",
+      "foreign_key": "demo_8",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 34,
+      "title": "Message 5: Discussion about challenge & solution",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "guidance": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Message 5: Discussion about challenge & solution"
+        },
+        "text": {
+          "eng": "Can  we  work  together  to  come  up  with  a  positive  solution  to  [describe  the  challenge]?  What  might  a  parent  in  that  situation  do?"
+        },
+        "guidance": {
+          "eng": "Encourage parents to think of positive solutions. You will find some examples of challenges and solutions in the pdf."
+        }
+      },
+      "text": "Can  we  work  together  to  come  up  with  a  positive  solution  to  [describe  the  challenge]?  What  might  a  parent  in  that  situation  do?",
+      "guidance": "Encourage parents to think of positive solutions. You will find some examples of challenges and solutions in the pdf."
+    },
+    {
+      "id": "message_35",
+      "foreign_key": "demo_9",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 35,
+      "title": "Message 6",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "guidance": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Message 6"
+        },
+        "text": {
+          "eng": "Thank  you  so  much  for  your  ideas.  Now  that  you  know  how  to  use  One-on-One  Time  with  your  child,  you  can  also  try  it  with  other  members  of  your  family—like  your  spouse,  parents,  in-laws,  or  even  grandchildren!"
+        },
+        "guidance": {
+          "eng": ""
+        }
+      },
+      "text": "Thank  you  so  much  for  your  ideas.  Now  that  you  know  how  to  use  One-on-One  Time  with  your  child,  you  can  also  try  it  with  other  members  of  your  family—like  your  spouse,  parents,  in-laws,  or  even  grandchildren!",
+      "guidance": ""
+    },
+    {
+      "id": "message_36",
+      "foreign_key": "demo_10",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 36,
+      "title": "Message 7: Introducing MaPa Skill",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "guidance": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Message 7: Introducing MaPa Skill"
+        },
+        "text": {
+          "eng": "Today  we're  going  to  talk  about  MaPa  Skill:  helping  children  manage  their  emotions.  Here  are  five  foundations  for  talking  to  children  about  emotions. \n1.  BREATHE  -  Breathe  before  you  start  to  calm  yourself  down. \n2.  SHARE  -  Share  your  feelings. \n3.  LISTEN  -  Listen  to  your  child  or  teenager. \n4.  PAINFUL  -  Concerned  for  them. \n5.  FIND  -  Find  the  positive"
+        },
+        "guidance": {
+          "eng": ""
+        }
+      },
+      "text": "Today  we're  going  to  talk  about  MaPa  Skill:  helping  children  manage  their  emotions.  Here  are  five  foundations  for  talking  to  children  about  emotions. \n1.  BREATHE  -  Breathe  before  you  start  to  calm  yourself  down. \n2.  SHARE  -  Share  your  feelings. \n3.  LISTEN  -  Listen  to  your  child  or  teenager. \n4.  PAINFUL  -  Concerned  for  them. \n5.  FIND  -  Find  the  positive",
+      "guidance": ""
+    },
+    {
+      "id": "message_37",
+      "foreign_key": "demo_11",
+      "asset_type": "image",
+      "asset": "cw_demo/comic_1.png",
+      "ignore": 37,
+      "title": "Message 8: Comic about young child",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "guidance": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Message 8: Comic about young child"
+        },
+        "text": {
+          "eng": "Here is a comic showing how a child talked about their feelings with their grandmother during One-on-One Time."
+        },
+        "guidance": {
+          "eng": ""
+        }
+      },
+      "text": "Here is a comic showing how a child talked about their feelings with their grandmother during One-on-One Time.",
+      "guidance": ""
+    },
+    {
+      "id": "message_38",
+      "foreign_key": "demo_12",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 38,
+      "title": "Messgae 9: Discussion about the Comic",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "guidance": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Messgae 9: Discussion about the Comic"
+        },
+        "text": {
+          "eng": "How  did  you  see  any  of  the  five  foundations  of  Talking  About  Feelings  in  this  comic?"
+        },
+        "guidance": {
+          "eng": "Give parents time to answer before moving on to the comic"
+        }
+      },
+      "text": "How  did  you  see  any  of  the  five  foundations  of  Talking  About  Feelings  in  this  comic?",
+      "guidance": "Give parents time to answer before moving on to the comic"
+    },
+    {
+      "id": "message_39",
+      "foreign_key": "demo_13",
+      "asset_type": "image",
+      "asset": "cw_demo/comic_2.png",
+      "ignore": 39,
+      "title": "Message 10: Comic about a Teenage Child: Talking about Feelings",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "guidance": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Message 10: Comic about a Teenage Child: Talking about Feelings"
+        },
+        "text": {
+          "eng": "Here's another comic where Dad Jose talks about difficult emotions with his teenage son, Pablo"
+        },
+        "guidance": {
+          "eng": ""
+        }
+      },
+      "text": "Here's another comic where Dad Jose talks about difficult emotions with his teenage son, Pablo",
+      "guidance": ""
+    },
+    {
+      "id": "message_40",
+      "foreign_key": "demo_14",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 40,
+      "title": "Message 11: Discussion about Comics",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "guidance": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Message 11: Discussion about Comics"
+        },
+        "text": {
+          "eng": "Let's also chat about this comic. What did you notice about how Tatay Jose spoke to his son?\nWhich of the foundations did you see?"
+        },
+        "guidance": {
+          "eng": "Give parents a chance to answer the first question before moving onto the next question"
+        }
+      },
+      "text": "Let's also chat about this comic. What did you notice about how Tatay Jose spoke to his son?\nWhich of the foundations did you see?",
+      "guidance": "Give parents a chance to answer the first question before moving onto the next question"
+    },
+    {
+      "id": "message_41",
+      "foreign_key": "demo_15",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 41,
+      "title": "Message 12: Discussion about Comics: Think about the Age of the Child",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "guidance": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Message 12: Discussion about Comics: Think about the Age of the Child"
+        },
+        "text": {
+          "eng": "How would the story in the comic change if Dad was talking about his feelings to a young child\ninstead of a teenager?"
+        },
+        "guidance": {
+          "eng": "Give parents opportunity to share their ideas"
+        }
+      },
+      "text": "How would the story in the comic change if Dad was talking about his feelings to a young child\ninstead of a teenager?",
+      "guidance": "Give parents opportunity to share their ideas"
+    },
+    {
+      "id": "message_42",
+      "foreign_key": "demo_16",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 42,
+      "title": "Message 13: Discussion about Reasons for Talking About Feelings",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "guidance": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Message 13: Discussion about Reasons for Talking About Feelings"
+        },
+        "text": {
+          "eng": "Why is it helpful to encourage a young child or teenager to share their feelings?"
+        },
+        "guidance": {
+          "eng": "Give parents opportunity to share their ideas"
+        }
+      },
+      "text": "Why is it helpful to encourage a young child or teenager to share their feelings?",
+      "guidance": "Give parents opportunity to share their ideas"
+    },
+    {
+      "id": "message_43",
+      "foreign_key": "demo_17",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 43,
+      "title": "Message 14: Setting a Home Activity",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "guidance": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Message 14: Setting a Home Activity"
+        },
+        "text": {
+          "eng": "Thank you for sharing your ideas. For this week's homework, practice talking about feelings with your child during your One-on-One time and at other times.\nAlso try to pay attention to your own feelings as your day goes by."
+        },
+        "guidance": {
+          "eng": ""
+        }
+      },
+      "text": "Thank you for sharing your ideas. For this week's homework, practice talking about feelings with your child during your One-on-One time and at other times.\nAlso try to pay attention to your own feelings as your day goes by.",
+      "guidance": ""
+    },
+    {
+      "id": "message_44",
+      "foreign_key": "demo_18",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 44,
+      "title": "Message 15: Clarification",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "guidance": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Message 15: Clarification"
+        },
+        "text": {
+          "eng": "Do you have any more questions about talking about feelings?"
+        },
+        "guidance": {
+          "eng": "Allow a few minutes for parents to ask questions. Remember to thank parents for their questions. Before you give your own answer, give the group a chance to think about it and respond by saying \"That's a good question! What do others think could be an answer or solution to that?\""
+        }
+      },
+      "text": "Do you have any more questions about talking about feelings?",
+      "guidance": "Allow a few minutes for parents to ask questions. Remember to thank parents for their questions. Before you give your own answer, give the group a chance to think about it and respond by saying \"That's a good question! What do others think could be an answer or solution to that?\""
+    },
+    {
+      "id": "message_45",
+      "foreign_key": "demo_19",
+      "asset_type": "youtube",
+      "asset": "https://www.youtube.com/watch?v=4TfzAgl9hLY",
+      "ignore": 45,
+      "title": "Message 16 –Video: MaPa Skill Reminder",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "guidance": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Message 16 –Video: MaPa Skill Reminder"
+        },
+        "text": {
+          "eng": "Here is a short video on how to talk about feelings with your child. It is a reminder of the foundations:"
+        },
+        "guidance": {
+          "eng": ""
+        }
+      },
+      "text": "Here is a short video on how to talk about feelings with your child. It is a reminder of the foundations:",
+      "guidance": ""
+    },
+    {
+      "id": "message_46",
+      "foreign_key": "demo_20",
+      "asset_type": "youtube",
+      "asset": "https://www.youtube.com/watch?v=h5Iw10f9mEI",
+      "ignore": 46,
+      "title": "Message 17 – Video: Pause for a Moment",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "guidance": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Message 17 – Video: Pause for a Moment"
+        },
+        "text": {
+          "eng": "Before we end today's chat session, we will do a Pause for a Moment.\nRemember that you can also do this if you feel like it.\nstress."
+        },
+        "guidance": {
+          "eng": ""
+        }
+      },
+      "text": "Before we end today's chat session, we will do a Pause for a Moment.\nRemember that you can also do this if you feel like it.\nstress.",
+      "guidance": ""
+    },
+    {
+      "id": "message_47",
+      "foreign_key": "demo_21",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 47,
+      "title": "Message 18 – Gratitude",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "guidance": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Message 18 – Gratitude"
+        },
+        "text": {
+          "eng": "Thank you. What you did today was difficult but also very important. It will help you manage your stress and give your child the skills to manage their stress. Have a great day!"
+        },
+        "guidance": {
+          "eng": ""
+        }
+      },
+      "text": "Thank you. What you did today was difficult but also very important. It will help you manage your stress and give your child the skills to manage their stress. Have a great day!",
+      "guidance": ""
     }
   ],
   "_xlsxPath": "data/modules_sub_items_ph.xlsx",

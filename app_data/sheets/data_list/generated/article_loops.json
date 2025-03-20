@@ -62,6 +62,18 @@
       "previous_article": "",
       "test": "test_viber_share",
       "create_loop": "create"
+    },
+    {
+      "ignore": 33,
+      "id": "demo",
+      "completed": false,
+      "loop_id": "demo",
+      "foreign_key": "demo",
+      "type": "article",
+      "next_article": "demo_2",
+      "previous_article": "",
+      "test": "demo",
+      "create_loop": "create"
     }
   ],
   "_metadata": {

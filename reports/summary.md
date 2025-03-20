@@ -9,13 +9,13 @@
 | button | 80 |
 | carousel | 2 |
 | combo_box | 3 |
-| data_items | 34 |
+| data_items | 35 |
 | debug_toggle | 1 |
 | display_grid | 2 |
-| display_group | 102 |
+| display_group | 103 |
 | drawer | 1 |
 | google_sign_in_button | 2 |
-| image | 11 |
+| image | 12 |
 | items | 25 |
 | lottie_animation | 2 |
 | navigation_bar | 2 |
@@ -24,18 +24,18 @@
 | radio_button_grid | 16 |
 | round_button | 32 |
 | select_text | 1 |
-| set_variable | 662 |
+| set_variable | 692 |
 | simple_checkbox | 2 |
 | task_card | 3 |
 | task_progress_bar | 2 |
-| template | 150 |
+| template | 167 |
 | test | 1 |
-| text | 166 |
+| text | 167 |
 | text_area | 2 |
 | text_box | 30 |
-| title | 36 |
+| title | 37 |
 | toggle_bar | 5 |
-| update_action_list | 2 |
+| update_action_list | 3 |
 | video | 3 |
 | youtube | 2 |
 </details>
@@ -48,23 +48,23 @@
 | add_data | 5 |
 | app_update | 1 |
 | auth | 2 |
-| emit: completed | 42 |
-| emit: force_reload | 4 |
+| emit: completed | 43 |
+| emit: force_reload | 5 |
 | emit: force_reprocess | 13 |
-| emit: force_restart | 5 |
-| emit: server_sync | 4 |
+| emit: force_restart | 4 |
+| emit: server_sync | 10 |
 | emit: set_language | 1 |
-| emit: uncompleted | 87 |
+| emit: uncompleted | 82 |
 | feedback | 13 |
-| go_to | 32 |
+| go_to | 33 |
 | nav_stack | 6 |
 | pop_up | 15 |
 | reset_app | 1 |
 | save_to_device | 4 |
 | set_data | 19 |
-| set_field | 57 |
+| set_field | 59 |
 | set_item | 6 |
-| set_local | 30 |
+| set_local | 32 |
 | share | 2 |
 | user | 3 |
 </details>
@@ -74,8 +74,8 @@
 
 | assets | KB | MB |
 | --- | --- | --- |
-| total | 65020 KB | 65 MB |
-| unused | 842 KB | 0.8 MB |
+| total | 67933 KB | 67.9 MB |
+| unused | 844 KB | 0.8 MB |
 </details>
 
 <details open>
@@ -92,6 +92,7 @@ Assets that appear in app-data but do not have references within sheets
 | images/Message.png | 10.4 |
 | images/Message.svg | 0.7 |
 | images/backgrounds/library_bottom_left.svg | 2.3 |
+| images/backgrounds/report_edit.png | 1.7 |
 | images/backgrounds/report_edit.svg | 0.2 |
 | images/flags/mx.svg | 91.3 |
 | images/flags/my.svg | 1.4 |
@@ -138,7 +139,11 @@ Assets that are used within sheets and also can be found in the synced asset dat
 
 | path | size_kb | count |
 | --- | --- | --- |
+| cw_demo/comic_1.png | 982.3 | 1 |
+| cw_demo/comic_2.png | 795.3 | 1 |
+| cw_demo/house_of_support.png | 944.5 | 1 |
 | images/after_disclosed_abuse.svg | 4.7 | 2 |
+| images/backgrounds/MaPa_logo_with_background.png | 190.6 | 1 |
 | images/backgrounds/home_bottom_right.svg | 2.3 | 1 |
 | images/backgrounds/home_top_left.svg | 2.4 | 2 |
 | images/backgrounds/reports_top_right.svg | 2 | 1 |
@@ -168,8 +173,8 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | images/flags/gb.svg | 0.5 | 2 |
 | images/flags/ph.svg | 0.9 | 2 |
 | images/group_admin_onboarding.svg | 13.5 | 1 |
-| images/house_of_support.png | 815.4 | 3 |
-| images/how_to_chat_session.svg | 11 | 2 |
+| images/house_of_support.png | 815.4 | 5 |
+| images/how_to_chat_session.svg | 11 | 1 |
 | images/how_to_report.svg | 5.8 | 1 |
 | images/how_to_report_abuse.svg | 12.2 | 1 |
 | images/icons/add_circle.svg | 1 | 2 |
@@ -199,7 +204,7 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | images/icons/sessions.png | 1.3 | 1 |
 | images/icons/settings.png | 1.1 | 1 |
 | images/icons/share.svg | 2.3 | 2 |
-| images/icons/task_1.png | 1 | 1 |
+| images/icons/task_1.png | 1 | 2 |
 | images/icons/task_2.png | 1.9 | 1 |
 | images/icons/task_3.png | 2 | 1 |
 | images/icons/task_4.png | 1.4 | 1 |
@@ -218,7 +223,7 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | images/logos/bird_white.svg | 1.9 | 1 |
 | images/logos/nip.png | 11.9 | 1 |
 | images/no_group_selected.svg | 3.5 | 1 |
-| images/onboarding_cc.svg | 19.3 | 3 |
+| images/onboarding_cc.svg | 19.3 | 2 |
 | images/one_on_one_challenges.svg | 13.1 | 1 |
 | images/overview_cc.svg | 7.8 | 1 |
 | images/praise_challenges.svg | 20.6 | 1 |
@@ -249,12 +254,11 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | data_list | legal_terms | 2 |
 | data_list | lifecycle_actions | 1 |
 | data_pipe |  | 2 |
-| data_pipe | generated | 32 |
+| data_pipe | generated | 53 |
 | generator |  | 9 |
-| global |  | 11 |
+| global |  | 12 |
 | global | legal_terms | 1 |
-| template |  | 74 |
-| template | generated | 110 |
+| template |  | 75 |
+| template | generated | 128 |
 | template | legal_terms | 4 |
-| template | menu | 1 |
 </details>
