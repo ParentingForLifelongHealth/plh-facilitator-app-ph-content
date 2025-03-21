@@ -87,7 +87,7 @@
       },
       {
         "type": "set_variable",
-        "count": 692
+        "count": 693
       },
       {
         "type": "simple_checkbox",
@@ -239,13 +239,13 @@
     "data": [
       {
         "assets": "total",
-        "KB": "67933 KB",
-        "MB": "67.9 MB"
+        "KB": "67952 KB",
+        "MB": "68 MB"
       },
       {
         "assets": "unused",
-        "KB": "844 KB",
-        "MB": "0.8 MB"
+        "KB": "6552 KB",
+        "MB": "6.6 MB"
       }
     ]
   },
@@ -266,6 +266,10 @@
       {
         "path": "android/splash.png",
         "size_kb": 290.4
+      },
+      {
+        "path": "images/01_mod1_masayangtahanan.jpg.jpg",
+        "size_kb": 839.7
       },
       {
         "path": "images/Message.png",
@@ -356,6 +360,50 @@
         "size_kb": 0.8
       },
       {
+        "path": "pdf/01_mod1_intro.pdf.pdf",
+        "size_kb": 650.7
+      },
+      {
+        "path": "pdf/01_mod1_layunin.pdf.pdf",
+        "size_kb": 513.8
+      },
+      {
+        "path": "pdf/01_mod1_mapa_skill.pdf.pdf",
+        "size_kb": 1819.1
+      },
+      {
+        "path": "pdf/01_mod1_pabaong_gawain.pdf.pdf",
+        "size_kb": 132.7
+      },
+      {
+        "path": "pdf/01_mod1_pagtatapos.pdf.pdf",
+        "size_kb": 128.1
+      },
+      {
+        "path": "pdf/01_mod1_panimulang_gawain.pdf.pdf",
+        "size_kb": 489.2
+      },
+      {
+        "path": "pdf/01_mod1_session_structure.pdf.pdf",
+        "size_kb": 123.5
+      },
+      {
+        "path": "pdf/02_mod2_intro.pdf.pdf",
+        "size_kb": 506.5
+      },
+      {
+        "path": "pdf/02_mod2_talakayan_ng_pabaong_gawain.pdf.pdf",
+        "size_kb": 62.2
+      },
+      {
+        "path": "pdf/03_mod3_intro.pdf.pdf",
+        "size_kb": 377.9
+      },
+      {
+        "path": "pdf/03_mod3_talakayan_ng_pabaong_gawain.pdf.pdf",
+        "size_kb": 64.7
+      },
+      {
         "path": "pdf/module_3_guide.pdf",
         "size_kb": 269
       }
@@ -426,6 +474,11 @@
         "path": "cw_demo/house_of_support.png",
         "count": 1,
         "size_kb": 944.5
+      },
+      {
+        "path": "cw_demo/talk_feelings_challenges.svg",
+        "count": 1,
+        "size_kb": 19.3
       },
       {
         "path": "images/after_disclosed_abuse.svg",
@@ -584,7 +637,7 @@
       },
       {
         "path": "images/house_of_support.png",
-        "count": 5,
+        "count": 3,
         "size_kb": 815.4
       },
       {
@@ -889,7 +942,7 @@
       },
       {
         "path": "pdf/module_1_troubleshooting.pdf",
-        "count": 5,
+        "count": 3,
         "size_kb": 222.4
       },
       {

@@ -27,6 +27,14 @@
     "md5Checksum": "ef5e79e983bd30b9c22f5de4c51ee954",
     "size_kb": 944.5
   },
+  "cw_demo/talk_feelings_challenges.svg": {
+    "md5Checksum": "694bc272bb2cc36de45efd3e3b259918",
+    "size_kb": 19.3
+  },
+  "images/01_mod1_masayangtahanan.jpg.jpg": {
+    "md5Checksum": "1b3206af01d3c6fc365d62ea56d4ff78",
+    "size_kb": 839.7
+  },
   "images/Message.png": {
     "md5Checksum": "479defd46917f22869e6ec7435c72092",
     "size_kb": 10.4
@@ -466,6 +474,50 @@
   "images/what_is_safeguarding.svg": {
     "md5Checksum": "720cf48f780d84ba2d4810c4befeee45",
     "size_kb": 5.6
+  },
+  "pdf/01_mod1_intro.pdf.pdf": {
+    "md5Checksum": "a70c772c3f472f138f51ed20034accf4",
+    "size_kb": 650.7
+  },
+  "pdf/01_mod1_layunin.pdf.pdf": {
+    "md5Checksum": "b6f08fe4e4c1bfc3c20b3cf3b0f5ba6e",
+    "size_kb": 513.8
+  },
+  "pdf/01_mod1_mapa_skill.pdf.pdf": {
+    "md5Checksum": "306eb89656d3a30ab4e6e51f31a26139",
+    "size_kb": 1819.1
+  },
+  "pdf/01_mod1_pabaong_gawain.pdf.pdf": {
+    "md5Checksum": "c98495c64fbe0d6b4dcdc0e49078151b",
+    "size_kb": 132.7
+  },
+  "pdf/01_mod1_pagtatapos.pdf.pdf": {
+    "md5Checksum": "80609d7d5a16b937e4fe2477b42213ad",
+    "size_kb": 128.1
+  },
+  "pdf/01_mod1_panimulang_gawain.pdf.pdf": {
+    "md5Checksum": "9c351c6f80b68c9d8772fa7fdd549542",
+    "size_kb": 489.2
+  },
+  "pdf/01_mod1_session_structure.pdf.pdf": {
+    "md5Checksum": "fc2b6f16351faee3687bb3e0184e89e0",
+    "size_kb": 123.5
+  },
+  "pdf/02_mod2_intro.pdf.pdf": {
+    "md5Checksum": "7e23068976993d3d1e49140f18d0397a",
+    "size_kb": 506.5
+  },
+  "pdf/02_mod2_talakayan_ng_pabaong_gawain.pdf.pdf": {
+    "md5Checksum": "3a58496b9a00c22fa9d90bbdaaa2f080",
+    "size_kb": 62.2
+  },
+  "pdf/03_mod3_intro.pdf.pdf": {
+    "md5Checksum": "f0f3362af5e20e75abbbb8812ab82f9b",
+    "size_kb": 377.9
+  },
+  "pdf/03_mod3_talakayan_ng_pabaong_gawain.pdf.pdf": {
+    "md5Checksum": "d96f6aa2282a0640e7a061330e7916e6",
+    "size_kb": 64.7
   },
   "pdf/manual.pdf": {
     "md5Checksum": "9188c320eec37ad742fb641aef69006f",

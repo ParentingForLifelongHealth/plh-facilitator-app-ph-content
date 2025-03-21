@@ -8,89 +8,197 @@
       "id": "intro_1",
       "foreign_key": "week_1_session",
       "image_asset": "",
+      "text_2": "",
+      "ignore": 1,
       "text": "Welcome to Module 1: One-on-one time with your child!\n\nIn Module 1, as a facilitator, you need to achieve four things:\n\n1️⃣ Introduce the MaPaChat program to families.\n2️⃣ Establish rules.\n3️⃣ Help parents think about and describe their goals for the family.\n4️⃣ Discuss and practice One-on-One Time with participants.",
-      "media_type": "pdf",
-      "media_title": "module_1_prepare",
-      "media_asset": "",
-      "media_transcript": "",
-      "ignore": 1
+      "_translations": {
+        "text": {}
+      },
+      "_translatedFields": {
+        "text": {
+          "eng": "Welcome to Module 1: One-on-one time with your child!\n\nIn Module 1, as a facilitator, you need to achieve four things:\n\n1️⃣ Introduce the MaPaChat program to families.\n2️⃣ Establish rules.\n3️⃣ Help parents think about and describe their goals for the family.\n4️⃣ Discuss and practice One-on-One Time with participants."
+        }
+      }
     },
     {
       "id": "intro_2",
       "foreign_key": "week_1_session_2",
       "image_asset": "",
+      "text_2": "",
+      "ignore": 2,
       "text": "Send this message to parents via SMS/text messaging as a reminder for the first session",
-      "media_type": "",
-      "media_title": "",
-      "media_asset": "Day One: Module Reminder",
-      "media_transcript": "Good day! This is a reminder that the first MaPa Chat module will start [SET TIME] later. I'm excited to start the program with you! We'll start building a Happy Home with a simple yet effective tip: doing One-on-One Time. You will see what it can do for your family! Let's meet!",
-      "ignore": 2
+      "_translations": {
+        "text": {}
+      },
+      "_translatedFields": {
+        "text": {
+          "eng": "Send this message to parents via SMS/text messaging as a reminder for the first session"
+        }
+      }
     },
     {
       "id": "intro_3",
       "foreign_key": "week_1_session_3",
       "image_asset": "",
+      "text_2": "",
+      "ignore": 3,
       "text": "Deliver Module 1 using the Facilitator Guide below:",
-      "media_type": "pdf",
-      "media_title": "module_1_deliver",
-      "media_asset": "",
-      "media_transcript": "",
-      "ignore": 3
+      "_translations": {
+        "text": {}
+      },
+      "_translatedFields": {
+        "text": {
+          "eng": "Deliver Module 1 using the Facilitator Guide below:"
+        }
+      }
     },
     {
       "id": "intro_4",
       "foreign_key": "week_2_session",
       "image_asset": "",
+      "text_2": "",
+      "ignore": 4,
       "text": "Welcome to Module 2: Talking about feelings! \n\nThe main goal is for parents to learn  and  practice  talking  about  their  own  feelings  and  their  child's  feelings.\n\nParents will also learn: \n1️⃣ the  importance  of  accepting,  naming,  and  recognizing  the  different  emotions  their  child  is  feeling\n2️⃣ ways  and  skills  that  can  help  with  this.",
-      "media_type": "pdf",
-      "media_title": "module_2_prepare",
-      "media_asset": "",
-      "media_transcript": "",
-      "ignore": 4
+      "_translations": {
+        "text": {}
+      },
+      "_translatedFields": {
+        "text": {
+          "eng": "Welcome to Module 2: Talking about feelings! \n\nThe main goal is for parents to learn  and  practice  talking  about  their  own  feelings  and  their  child's  feelings.\n\nParents will also learn: \n1️⃣ the  importance  of  accepting,  naming,  and  recognizing  the  different  emotions  their  child  is  feeling\n2️⃣ ways  and  skills  that  can  help  with  this."
+        }
+      }
     },
     {
       "id": "intro_5",
       "foreign_key": "week_2_session_3",
       "image_asset": "",
+      "text_2": "",
+      "ignore": 5,
       "text": "**Day One: Group Chat Session**\n\nEstimate: One hour \n\nThis  is  a  group  discussion  that  you  are  leading.  Remember  to  pause  after  each  step  to  provide  parents  with opportunity  to  respond  or  talk  to  group  members  if  comfortable them  to  do  this.",
-      "media_type": "",
-      "media_title": "",
-      "media_asset": "",
-      "media_transcript": "",
-      "ignore": 5
+      "_translations": {
+        "text": {}
+      },
+      "_translatedFields": {
+        "text": {
+          "eng": "**Day One: Group Chat Session**\n\nEstimate: One hour \n\nThis  is  a  group  discussion  that  you  are  leading.  Remember  to  pause  after  each  step  to  provide  parents  with opportunity  to  respond  or  talk  to  group  members  if  comfortable them  to  do  this."
+        }
+      }
     },
     {
       "id": "intro_6",
       "foreign_key": "test_viber_share",
       "image_asset": "",
+      "text_2": "",
+      "ignore": 6,
       "text": "",
-      "media_type": "image",
-      "media_title": "images/house_of_support.png",
-      "media_asset": "Day One: Module Reminder",
-      "media_transcript": "It's  been  a  whole  week!  Our  next  chat  session  is  [SET  TIME]  later.  We'll  talk  about  the  benefits  of  talking  about  feelings  with  your  child—and  add  a  second  foundation  to  the  walls  of  our  Happy  Home.  Let's  chat!",
-      "ignore": 6
+      "_translations": {
+        "text": {}
+      },
+      "_translatedFields": {
+        "text": {
+          "eng": ""
+        }
+      }
     },
     {
       "id": "intro_7",
       "foreign_key": "demo",
-      "image_asset": "",
-      "text": "Welcome to Module 2: Talking about feelings! \n\nThe main goal is for parents to learn  and  practice  talking  about  their  own  feelings  and  their  child's  feelings.\n\nParents will also learn: \n1️⃣ the  importance  of  accepting,  naming,  and  recognizing  the  different  emotions  their  child  is  feeling\n2️⃣ ways  and  skills  that  can  help  with  this.",
-      "media_type": "pdf",
-      "media_title": "module_2_prepare",
-      "media_asset": "",
-      "media_transcript": "",
-      "ignore": 7
+      "image_asset": "cw_demo/talk_feelings_challenges.svg",
+      "text_2": "**Before You Get Started**\n\n1️⃣ Review messages from your previous chat. Take note of parents who may need additional support.\n\n2️⃣ Review the feedback from the previous module. Select a success that can be linked to the foundations in the live chat.\n\n3️⃣ Choose a challenge that the group can work together to solve in the live chat.",
+      "ignore": 7,
+      "text": "Welcome to Module 2: Talking about feelings! \n\nThe main goal is to help parents talk about their own feelings and their child's feelings.  \n\nParents will also learn:  \n\n1️⃣ How to notice, name, and accept their child's feelings.  \n2️⃣ Simple skills to help with this.",
+      "_translations": {
+        "text": {}
+      },
+      "_translatedFields": {
+        "text": {
+          "eng": "Welcome to Module 2: Talking about feelings! \n\nThe main goal is to help parents talk about their own feelings and their child's feelings.  \n\nParents will also learn:  \n\n1️⃣ How to notice, name, and accept their child's feelings.  \n2️⃣ Simple skills to help with this."
+        }
+      }
     },
     {
       "id": "intro_8",
-      "foreign_key": "demo_3",
+      "foreign_key": "demo_4",
       "image_asset": "",
-      "text": "**Day One: Group Chat Session**\n\nEstimate: One hour \n\nThis  is  a  group  discussion  that  you  are  leading.  Remember  to  pause  after  each  step  to  provide  parents  with opportunity  to  respond  or  talk  to  group  members  if  comfortable them  to  do  this.",
-      "media_type": "",
-      "media_title": "",
-      "media_asset": "",
-      "media_transcript": "",
-      "ignore": 8
+      "text_2": "**Chat Session Outline**\n\n1: Greetings & Welcome\n2: Discussion: Burial Work\n3: Sharing Success\n4: Sharing the Challenge\n5: Discussion: Challenges & Solutions\n6: Introducing MaPa Skill: Talking About Feelings\n7: Comics: Conversation About Feelings (Children)\n8: Discussion About Comics\n9: Comics: Talking About Feelings (Teenage Son)\n10: Discussion About Comics\n11: Discussion: Considering the Child’s Age in Conversations\n12: Discussion: Reasons for Talking About Feelings\n13: Setting a Home Activity or Homework\n14: Clarification Video: MaPa Skill Reminder\n15: Audio Reminder: Pause for a Moment\n16: Gratitude & Closing",
+      "ignore": 8,
+      "text": "**Day 1: Group Chat Session**\n\n⏲️: One hour \n⏸️: Pause  after  each  message shared  to  provide  parents  with opportunity  to  respond  or  talk  to  other group  members.",
+      "_translations": {
+        "text": {}
+      },
+      "_translatedFields": {
+        "text": {
+          "eng": "**Day 1: Group Chat Session**\n\n⏲️: One hour \n⏸️: Pause  after  each  message shared  to  provide  parents  with opportunity  to  respond  or  talk  to  other group  members."
+        }
+      }
+    },
+    {
+      "id": "intro_9",
+      "foreign_key": "demo_6",
+      "image_asset": "",
+      "text_2": "",
+      "ignore": 9,
+      "text": "**Memory Refresh**\n\nIn the last module, you taught parents how to establish One-on-One time with their children with these building blocks: \n\n1️⃣ DAY- Try to do this every day.\nSet aside 5 minutes (or more!) each day for One-on-One Time with your child.\n\n2️⃣ PLAY - Let them choose what to do.\nTell your child that you have time for One-on-One Time with them, and they can choose what they want to do or what they want to talk about. They may be hesitant at first, but eventually they will look forward to spending time with you!\n\n3️⃣ STAY- Give your child your full attention.\nTurn off the TV and put away the cell phone. Look at your child. Nod or say “I see” to show that you are paying full attention. Show interest in his story and accept what he says without judgment.",
+      "_translations": {
+        "text": {}
+      },
+      "_translatedFields": {
+        "text": {
+          "eng": "**Memory Refresh**\n\nIn the last module, you taught parents how to establish One-on-One time with their children with these building blocks: \n\n1️⃣ DAY- Try to do this every day.\nSet aside 5 minutes (or more!) each day for One-on-One Time with your child.\n\n2️⃣ PLAY - Let them choose what to do.\nTell your child that you have time for One-on-One Time with them, and they can choose what they want to do or what they want to talk about. They may be hesitant at first, but eventually they will look forward to spending time with you!\n\n3️⃣ STAY- Give your child your full attention.\nTurn off the TV and put away the cell phone. Look at your child. Nod or say “I see” to show that you are paying full attention. Show interest in his story and accept what he says without judgment."
+        }
+      }
+    },
+    {
+      "image_asset": "",
+      "text_2": "",
+      "text": "",
+      "_translations": {
+        "text": {}
+      },
+      "_translatedFields": {
+        "text": {
+          "eng": ""
+        }
+      }
+    },
+    {
+      "image_asset": "",
+      "text_2": "",
+      "text": "",
+      "_translations": {
+        "text": {}
+      },
+      "_translatedFields": {
+        "text": {
+          "eng": ""
+        }
+      }
+    },
+    {
+      "image_asset": "",
+      "text_2": "",
+      "text": "",
+      "_translations": {
+        "text": {}
+      },
+      "_translatedFields": {
+        "text": {
+          "eng": ""
+        }
+      }
+    },
+    {
+      "image_asset": "",
+      "text_2": "",
+      "text": "",
+      "_translations": {
+        "text": {}
+      },
+      "_translatedFields": {
+        "text": {
+          "eng": ""
+        }
+      }
     }
   ],
   "_xlsxPath": "data/modules_sub_items_ph.xlsx",
