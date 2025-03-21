@@ -70,6 +70,30 @@
                   "value"
                 ]
               }
+            },
+            {
+              "name": "text_2",
+              "value": "@item.text_2",
+              "_translations": {
+                "value": {}
+              },
+              "type": "set_variable",
+              "_nested_name": "loop_intros.intro_element.text_2",
+              "_dynamicFields": {
+                "value": [
+                  {
+                    "fullExpression": "@item.text_2",
+                    "matchedExpression": "@item.text_2",
+                    "type": "item",
+                    "fieldName": "text_2"
+                  }
+                ]
+              },
+              "_dynamicDependencies": {
+                "@item.text_2": [
+                  "value"
+                ]
+              }
             }
           ],
           "_nested_name": "loop_intros.intro_element",

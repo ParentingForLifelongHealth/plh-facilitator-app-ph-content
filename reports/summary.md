@@ -24,7 +24,7 @@
 | radio_button_grid | 16 |
 | round_button | 32 |
 | select_text | 1 |
-| set_variable | 692 |
+| set_variable | 693 |
 | simple_checkbox | 2 |
 | task_card | 3 |
 | task_progress_bar | 2 |
@@ -74,8 +74,8 @@
 
 | assets | KB | MB |
 | --- | --- | --- |
-| total | 67933 KB | 67.9 MB |
-| unused | 844 KB | 0.8 MB |
+| total | 67952 KB | 68 MB |
+| unused | 6552 KB | 6.6 MB |
 </details>
 
 <details open>
@@ -89,6 +89,7 @@ Assets that appear in app-data but do not have references within sheets
 | android/icon-foreground.png | 31.1 |
 | android/icon.png | 108.2 |
 | android/splash.png | 290.4 |
+| images/01_mod1_masayangtahanan.jpg.jpg | 839.7 |
 | images/Message.png | 10.4 |
 | images/Message.svg | 0.7 |
 | images/backgrounds/library_bottom_left.svg | 2.3 |
@@ -111,6 +112,17 @@ Assets that appear in app-data but do not have references within sheets
 | images/icons/task_0.png | 2 |
 | images/logos/bird_on_dark.svg | 2.1 |
 | images/person_cog.png | 0.8 |
+| pdf/01_mod1_intro.pdf.pdf | 650.7 |
+| pdf/01_mod1_layunin.pdf.pdf | 513.8 |
+| pdf/01_mod1_mapa_skill.pdf.pdf | 1819.1 |
+| pdf/01_mod1_pabaong_gawain.pdf.pdf | 132.7 |
+| pdf/01_mod1_pagtatapos.pdf.pdf | 128.1 |
+| pdf/01_mod1_panimulang_gawain.pdf.pdf | 489.2 |
+| pdf/01_mod1_session_structure.pdf.pdf | 123.5 |
+| pdf/02_mod2_intro.pdf.pdf | 506.5 |
+| pdf/02_mod2_talakayan_ng_pabaong_gawain.pdf.pdf | 62.2 |
+| pdf/03_mod3_intro.pdf.pdf | 377.9 |
+| pdf/03_mod3_talakayan_ng_pabaong_gawain.pdf.pdf | 64.7 |
 | pdf/module_3_guide.pdf | 269 |
 </details>
 
@@ -142,6 +154,7 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | cw_demo/comic_1.png | 982.3 | 1 |
 | cw_demo/comic_2.png | 795.3 | 1 |
 | cw_demo/house_of_support.png | 944.5 | 1 |
+| cw_demo/talk_feelings_challenges.svg | 19.3 | 1 |
 | images/after_disclosed_abuse.svg | 4.7 | 2 |
 | images/backgrounds/MaPa_logo_with_background.png | 190.6 | 1 |
 | images/backgrounds/home_bottom_right.svg | 2.3 | 1 |
@@ -173,7 +186,7 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | images/flags/gb.svg | 0.5 | 2 |
 | images/flags/ph.svg | 0.9 | 2 |
 | images/group_admin_onboarding.svg | 13.5 | 1 |
-| images/house_of_support.png | 815.4 | 5 |
+| images/house_of_support.png | 815.4 | 3 |
 | images/how_to_chat_session.svg | 11 | 1 |
 | images/how_to_report.svg | 5.8 | 1 |
 | images/how_to_report_abuse.svg | 12.2 | 1 |
@@ -234,7 +247,7 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | pdf/manual_study.pdf | 1047 | 1 |
 | pdf/module_1_deliver.pdf | 2718.4 | 1 |
 | pdf/module_1_prepare.pdf | 179 | 1 |
-| pdf/module_1_troubleshooting.pdf | 222.4 | 5 |
+| pdf/module_1_troubleshooting.pdf | 222.4 | 3 |
 | pdf/module_2_guide.pdf | 1777.1 | 1 |
 | pdf/overview_guide_study.pdf | 2252.6 | 1 |
 | pdf/peas.pdf | 590.3 | 1 |
