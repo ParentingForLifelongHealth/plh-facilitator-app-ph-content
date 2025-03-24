@@ -24,11 +24,11 @@
 | radio_button_grid | 16 |
 | round_button | 32 |
 | select_text | 1 |
-| set_variable | 693 |
+| set_variable | 695 |
 | simple_checkbox | 2 |
 | task_card | 3 |
 | task_progress_bar | 2 |
-| template | 167 |
+| template | 169 |
 | test | 1 |
 | text | 167 |
 | text_area | 2 |
@@ -75,7 +75,7 @@
 | assets | KB | MB |
 | --- | --- | --- |
 | total | 67952 KB | 68 MB |
-| unused | 6552 KB | 6.6 MB |
+| unused | 6288 KB | 6.3 MB |
 </details>
 
 <details open>
@@ -89,7 +89,9 @@ Assets that appear in app-data but do not have references within sheets
 | android/icon-foreground.png | 31.1 |
 | android/icon.png | 108.2 |
 | android/splash.png | 290.4 |
-| images/01_mod1_masayangtahanan.jpg.jpg | 839.7 |
+| images/01_masayang_tahanan.jpg | 185.8 |
+| images/02_masayang_tahanan.jpg | 191.5 |
+| images/04_masayang_tahanan.jpg | 198.8 |
 | images/Message.png | 10.4 |
 | images/Message.svg | 0.7 |
 | images/backgrounds/library_bottom_left.svg | 2.3 |
@@ -267,11 +269,11 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | data_list | legal_terms | 2 |
 | data_list | lifecycle_actions | 1 |
 | data_pipe |  | 2 |
-| data_pipe | generated | 53 |
+| data_pipe | generated | 55 |
 | generator |  | 9 |
 | global |  | 12 |
 | global | legal_terms | 1 |
 | template |  | 75 |
-| template | generated | 128 |
+| template | generated | 130 |
 | template | legal_terms | 4 |
 </details>
