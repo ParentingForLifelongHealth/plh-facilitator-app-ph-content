@@ -226,49 +226,49 @@
     },
     {
       "id": "section_12",
-      "foreign_key": "demo_12",
+      "foreign_key": "demo_11",
       "ignore": 12,
-      "ignore_2": "demo_12",
-      "title": "Building Blocks of Module 2: Talking about feelings",
+      "ignore_2": "demo_11",
+      "title": "Building blocks of talking about feelings",
       "_translations": {
         "title": {},
         "text": {}
       },
       "_translatedFields": {
         "title": {
-          "eng": "Building Blocks of Module 2: Talking about feelings"
+          "eng": "Building blocks of talking about feelings"
         },
         "text": {
-          "eng": "1️⃣ BREATHE  -  Breathe  before  you  start  to  calm  yourself  down. \n2️⃣ SHARE  -  Share  your  feelings. \n3️⃣ LISTEN  -  Listen  to  your  child  or  teenager. \n4️⃣ PAINFUL  -  Concerned  for  them. \n5️⃣ FIND  -  Find  the  positive  `"
+          "eng": "1️⃣ BREATHE to calm yourself before you start.\n2️⃣ SHARE how you feel.\n3️⃣ LISTEN to your child or teen.\n4️⃣ SHOW them you care.\n5️⃣ SEEK the positive."
         }
       },
-      "text": "1️⃣ BREATHE  -  Breathe  before  you  start  to  calm  yourself  down. \n2️⃣ SHARE  -  Share  your  feelings. \n3️⃣ LISTEN  -  Listen  to  your  child  or  teenager. \n4️⃣ PAINFUL  -  Concerned  for  them. \n5️⃣ FIND  -  Find  the  positive  `"
+      "text": "1️⃣ BREATHE to calm yourself before you start.\n2️⃣ SHARE how you feel.\n3️⃣ LISTEN to your child or teen.\n4️⃣ SHOW them you care.\n5️⃣ SEEK the positive."
     },
     {
       "id": "section_13",
-      "foreign_key": "demo_13",
+      "foreign_key": "demo_12",
       "ignore": 13,
-      "ignore_2": "demo_13",
-      "title": "Building Blocks of Module 2: Talking about feelings",
+      "ignore_2": "demo_12",
+      "title": "Building blocks of talking about feelings",
       "_translations": {
         "title": {},
         "text": {}
       },
       "_translatedFields": {
         "title": {
-          "eng": "Building Blocks of Module 2: Talking about feelings"
+          "eng": "Building blocks of talking about feelings"
         },
         "text": {
-          "eng": "1️⃣ BREATHE  -  Breathe  before  you  start  to  calm  yourself  down. \n2️⃣ SHARE  -  Share  your  feelings. \n3️⃣ LISTEN  -  Listen  to  your  child  or  teenager. \n4️⃣ PAINFUL  -  Concerned  for  them. \n5️⃣ FIND  -  Find  the  positive  `"
+          "eng": "1️⃣ BREATHE to calm yourself before you start.\n2️⃣ SHARE how you feel.\n3️⃣ LISTEN to your child or teen.\n4️⃣ SHOW them you care.\n5️⃣ SEEK the positive."
         }
       },
-      "text": "1️⃣ BREATHE  -  Breathe  before  you  start  to  calm  yourself  down. \n2️⃣ SHARE  -  Share  your  feelings. \n3️⃣ LISTEN  -  Listen  to  your  child  or  teenager. \n4️⃣ PAINFUL  -  Concerned  for  them. \n5️⃣ FIND  -  Find  the  positive  `"
+      "text": "1️⃣ BREATHE to calm yourself before you start.\n2️⃣ SHARE how you feel.\n3️⃣ LISTEN to your child or teen.\n4️⃣ SHOW them you care.\n5️⃣ SEEK the positive."
     },
     {
       "id": "section_14",
-      "foreign_key": "demo_14",
+      "foreign_key": "demo_13",
       "ignore": 14,
-      "ignore_2": "demo_14",
+      "ignore_2": "demo_13",
       "title": "Possible answers from parents",
       "_translations": {
         "title": {},
@@ -279,16 +279,16 @@
           "eng": "Possible answers from parents"
         },
         "text": {
-          "eng": "Grandma  noticed  Jun-Jun's  feelings  by  saying,  \"\"I  see.\"\" that  you  are  sad\"\". •\n\nUse  words  to  describe  emotions.  \n\nRepeated  what  Jun-Jun  said,  “This  is  not  easy”. \nThe  child  was  comforted. \n\nShares  own  feelings  about  the  situation  by  saying “I'm  happy  to  be  with  you  today,  Jun-Jun”. \n\nLooked  for  a  solution."
+          "eng": "Parent notices how child is feeling by saying “I can see that you are upset”.\n\nUsing words to describe the emotion.\n\nParent reflects back what the child has said when she said, “It’s not easy to throw a ball.”\n\nResponds in a compassionate way.\n\nParent shares their own feelings about the situation when the mother said, “I am very happy”.\n\nExplores a solution."
         }
       },
-      "text": "Grandma  noticed  Jun-Jun's  feelings  by  saying,  \"\"I  see.\"\" that  you  are  sad\"\". •\n\nUse  words  to  describe  emotions.  \n\nRepeated  what  Jun-Jun  said,  “This  is  not  easy”. \nThe  child  was  comforted. \n\nShares  own  feelings  about  the  situation  by  saying “I'm  happy  to  be  with  you  today,  Jun-Jun”. \n\nLooked  for  a  solution."
+      "text": "Parent notices how child is feeling by saying “I can see that you are upset”.\n\nUsing words to describe the emotion.\n\nParent reflects back what the child has said when she said, “It’s not easy to throw a ball.”\n\nResponds in a compassionate way.\n\nParent shares their own feelings about the situation when the mother said, “I am very happy”.\n\nExplores a solution."
     },
     {
       "id": "section_15",
-      "foreign_key": "demo_17",
+      "foreign_key": "demo_16",
       "ignore": 15,
-      "ignore_2": "demo_17",
+      "ignore_2": "demo_16",
       "title": "Possible answers from parents",
       "_translations": {
         "title": {},
@@ -299,16 +299,16 @@
           "eng": "Possible answers from parents"
         },
         "text": {
-          "eng": "The parent remains calm.\n\nThe parent accepts the emotion (fear) – even if it is negative.\n\nThe parent explains his feelings.\n\nThe parent notices that their child is anxious and tries to calm them down\n\nHe explained it by saying, “It’s normal to feel this way.”\n\nThe parent showed sympathy and support using words to\n\nLet the teenager know that he is there for them.\n\nThe parent pays attention to how their child feels\nteenager\n\nThe parent and the teenager worked together to find a solution – which\ndoesn't mean there is an answer to everything!"
+          "eng": "Parent remains calm.\n\nParent accepts that the feeling is okay – even if it is a negative one (to feel scared).\n\nParent explains how he is feeling: “I had a difficult day”\n\nParent notices that his child is also feeling upset and reassures him by saying “it’s okay”\n\nParent uses compassionate verbal support and puts his arm around his teen, so the teen knows they are there for them.\n\nParent notices how their teen feels.\n\nParent and teen explore solutions together – which doesn’t mean having all the answers!"
         }
       },
-      "text": "The parent remains calm.\n\nThe parent accepts the emotion (fear) – even if it is negative.\n\nThe parent explains his feelings.\n\nThe parent notices that their child is anxious and tries to calm them down\n\nHe explained it by saying, “It’s normal to feel this way.”\n\nThe parent showed sympathy and support using words to\n\nLet the teenager know that he is there for them.\n\nThe parent pays attention to how their child feels\nteenager\n\nThe parent and the teenager worked together to find a solution – which\ndoesn't mean there is an answer to everything!"
+      "text": "Parent remains calm.\n\nParent accepts that the feeling is okay – even if it is a negative one (to feel scared).\n\nParent explains how he is feeling: “I had a difficult day”\n\nParent notices that his child is also feeling upset and reassures him by saying “it’s okay”\n\nParent uses compassionate verbal support and puts his arm around his teen, so the teen knows they are there for them.\n\nParent notices how their teen feels.\n\nParent and teen explore solutions together – which doesn’t mean having all the answers!"
     },
     {
       "id": "section_16",
-      "foreign_key": "demo_19",
+      "foreign_key": "demo_18",
       "ignore": 16,
-      "ignore_2": "demo_19",
+      "ignore_2": "demo_18",
       "title": "Possible answers from parents",
       "_translations": {
         "title": {},
@@ -319,30 +319,30 @@
           "eng": "Possible answers from parents"
         },
         "text": {
-          "eng": "Teaches children to share their feelings.\n\nHelps the child connect emotions with actions and body\nlanguage.\n\nThe child learns that all emotions are acceptable.\n\nParents can see and learn about their child's feelings\nchild.\n\nTeaches children to recognize other people's emotions.\n\nGives the child the opportunity to change their behavior."
+          "eng": "It helps children learn to communicate about their feelings.\n\nIt helps children connect feelings to actions and body language.\n\nChildren learn that all feelings are okay.\n\nParents/caregivers can see and learn about their child’s feelings.\n\nIt helps children recognize other people’s feelings.\n\nIt gives them choices about how to behave."
         }
       },
-      "text": "Teaches children to share their feelings.\n\nHelps the child connect emotions with actions and body\nlanguage.\n\nThe child learns that all emotions are acceptable.\n\nParents can see and learn about their child's feelings\nchild.\n\nTeaches children to recognize other people's emotions.\n\nGives the child the opportunity to change their behavior."
+      "text": "It helps children learn to communicate about their feelings.\n\nIt helps children connect feelings to actions and body language.\n\nChildren learn that all feelings are okay.\n\nParents/caregivers can see and learn about their child’s feelings.\n\nIt helps children recognize other people’s feelings.\n\nIt gives them choices about how to behave."
     },
     {
       "id": "section_17",
-      "foreign_key": "demo_21",
+      "foreign_key": "demo_20",
       "ignore": 17,
-      "ignore_2": "demo_21",
-      "title": "Building Blocks of Module 2: Talking about feelings",
+      "ignore_2": "demo_20",
+      "title": "Building blocks of talking about feelings",
       "_translations": {
         "title": {},
         "text": {}
       },
       "_translatedFields": {
         "title": {
-          "eng": "Building Blocks of Module 2: Talking about feelings"
+          "eng": "Building blocks of talking about feelings"
         },
         "text": {
-          "eng": "1️⃣ BREATHE  -  Breathe  before  you  start  to  calm  yourself  down. \n2️⃣ SHARE  -  Share  your  feelings. \n3️⃣ LISTEN  -  Listen  to  your  child  or  teenager. \n4️⃣ PAINFUL  -  Concerned  for  them. \n5️⃣ FIND  -  Find  the  positive  `"
+          "eng": "1️⃣ BREATHE to calm yourself before you start.\n2️⃣ SHARE how you feel.\n3️⃣ LISTEN to your child or teen.\n4️⃣ SHOW them you care.\n5️⃣ SEEK the positive."
         }
       },
-      "text": "1️⃣ BREATHE  -  Breathe  before  you  start  to  calm  yourself  down. \n2️⃣ SHARE  -  Share  your  feelings. \n3️⃣ LISTEN  -  Listen  to  your  child  or  teenager. \n4️⃣ PAINFUL  -  Concerned  for  them. \n5️⃣ FIND  -  Find  the  positive  `"
+      "text": "1️⃣ BREATHE to calm yourself before you start.\n2️⃣ SHARE how you feel.\n3️⃣ LISTEN to your child or teen.\n4️⃣ SHOW them you care.\n5️⃣ SEEK the positive."
     },
     {
       "id": "section_18",
@@ -386,43 +386,43 @@
     },
     {
       "id": "section_20",
-      "foreign_key": "demo_14",
+      "foreign_key": "demo_13",
       "ignore": 20,
-      "ignore_2": "demo_14",
-      "title": "Building Blocks of Module 2: Talking about feelings",
+      "ignore_2": "demo_13",
+      "title": "Building blocks of talking about feelings",
       "_translations": {
         "title": {},
         "text": {}
       },
       "_translatedFields": {
         "title": {
-          "eng": "Building Blocks of Module 2: Talking about feelings"
+          "eng": "Building blocks of talking about feelings"
         },
         "text": {
-          "eng": "1️⃣ BREATHE  -  Breathe  before  you  start  to  calm  yourself  down. \n2️⃣ SHARE  -  Share  your  feelings. \n3️⃣ LISTEN  -  Listen  to  your  child  or  teenager. \n4️⃣ PAINFUL  -  Concerned  for  them. \n5️⃣ FIND  -  Find  the  positive"
+          "eng": "1️⃣ BREATHE to calm yourself before you start.\n2️⃣ SHARE how you feel.\n3️⃣ LISTEN to your child or teen.\n4️⃣ SHOW them you care.\n5️⃣ SEEK the positive."
         }
       },
-      "text": "1️⃣ BREATHE  -  Breathe  before  you  start  to  calm  yourself  down. \n2️⃣ SHARE  -  Share  your  feelings. \n3️⃣ LISTEN  -  Listen  to  your  child  or  teenager. \n4️⃣ PAINFUL  -  Concerned  for  them. \n5️⃣ FIND  -  Find  the  positive"
+      "text": "1️⃣ BREATHE to calm yourself before you start.\n2️⃣ SHARE how you feel.\n3️⃣ LISTEN to your child or teen.\n4️⃣ SHOW them you care.\n5️⃣ SEEK the positive."
     },
     {
       "id": "section_21",
-      "foreign_key": "demo_17",
+      "foreign_key": "demo_16",
       "ignore": 21,
-      "ignore_2": "demo_17",
-      "title": "Building Blocks of Module 2: Talking about feelings",
+      "ignore_2": "demo_16",
+      "title": "Building blocks of talking about feelings",
       "_translations": {
         "title": {},
         "text": {}
       },
       "_translatedFields": {
         "title": {
-          "eng": "Building Blocks of Module 2: Talking about feelings"
+          "eng": "Building blocks of talking about feelings"
         },
         "text": {
-          "eng": "1️⃣ BREATHE  -  Breathe  before  you  start  to  calm  yourself  down. \n2️⃣ SHARE  -  Share  your  feelings. \n3️⃣ LISTEN  -  Listen  to  your  child  or  teenager. \n4️⃣ PAINFUL  -  Concerned  for  them. \n5️⃣ FIND  -  Find  the  positive"
+          "eng": "1️⃣ BREATHE to calm yourself before you start.\n2️⃣ SHARE how you feel.\n3️⃣ LISTEN to your child or teen.\n4️⃣ SHOW them you care.\n5️⃣ SEEK the positive."
         }
       },
-      "text": "1️⃣ BREATHE  -  Breathe  before  you  start  to  calm  yourself  down. \n2️⃣ SHARE  -  Share  your  feelings. \n3️⃣ LISTEN  -  Listen  to  your  child  or  teenager. \n4️⃣ PAINFUL  -  Concerned  for  them. \n5️⃣ FIND  -  Find  the  positive"
+      "text": "1️⃣ BREATHE to calm yourself before you start.\n2️⃣ SHARE how you feel.\n3️⃣ LISTEN to your child or teen.\n4️⃣ SHOW them you care.\n5️⃣ SEEK the positive."
     }
   ],
   "_xlsxPath": "data/modules_sub_items_ph.xlsx",

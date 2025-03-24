@@ -87,7 +87,7 @@
       },
       {
         "type": "set_variable",
-        "count": 693
+        "count": 695
       },
       {
         "type": "simple_checkbox",
@@ -103,7 +103,7 @@
       },
       {
         "type": "template",
-        "count": 167
+        "count": 169
       },
       {
         "type": "test",
@@ -244,8 +244,8 @@
       },
       {
         "assets": "unused",
-        "KB": "6552 KB",
-        "MB": "6.6 MB"
+        "KB": "6288 KB",
+        "MB": "6.3 MB"
       }
     ]
   },
@@ -268,8 +268,16 @@
         "size_kb": 290.4
       },
       {
-        "path": "images/01_mod1_masayangtahanan.jpg.jpg",
-        "size_kb": 839.7
+        "path": "images/01_masayang_tahanan.jpg",
+        "size_kb": 185.8
+      },
+      {
+        "path": "images/02_masayang_tahanan.jpg",
+        "size_kb": 191.5
+      },
+      {
+        "path": "images/04_masayang_tahanan.jpg",
+        "size_kb": 198.8
       },
       {
         "path": "images/Message.png",
@@ -1012,7 +1020,7 @@
       {
         "type": "data_pipe",
         "subtype": "generated",
-        "total": 53
+        "total": 55
       },
       {
         "type": "generator",
@@ -1037,7 +1045,7 @@
       {
         "type": "template",
         "subtype": "generated",
-        "total": 128
+        "total": 130
       },
       {
         "type": "template",
