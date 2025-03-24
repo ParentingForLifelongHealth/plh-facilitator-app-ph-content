@@ -289,6 +289,16 @@
       "flow_name": "articles_demo_21",
       "flow_subtype": "generated",
       "flow_type": "template"
+    },
+    {
+      "flow_name": "articles_demo_22",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "articles_demo_23",
+      "flow_subtype": "generated",
+      "flow_type": "template"
     }
   ]
 }
