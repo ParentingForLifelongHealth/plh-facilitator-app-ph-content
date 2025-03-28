@@ -1,0 +1,60 @@
+{
+  "flow_type": "data_list",
+  "flow_name": "gender",
+  "status": "released",
+  "rows": [
+    {
+      "id": "woman",
+      "name": "woman",
+      "text": "Woman",
+      "_translations": {
+        "text": {}
+      },
+      "_translatedFields": {
+        "text": {
+          "eng": "Woman"
+        }
+      }
+    },
+    {
+      "id": "man",
+      "name": "man",
+      "text": "Man",
+      "_translations": {
+        "text": {}
+      },
+      "_translatedFields": {
+        "text": {
+          "eng": "Man"
+        }
+      }
+    },
+    {
+      "id": "opt_out",
+      "name": "opt_out",
+      "text": "Prefer not to say",
+      "_translations": {
+        "text": {}
+      },
+      "_translatedFields": {
+        "text": {
+          "eng": "Prefer not to say"
+        }
+      }
+    },
+    {
+      "id": "other",
+      "name": "other",
+      "text": "Other",
+      "_translations": {
+        "text": {}
+      },
+      "_translatedFields": {
+        "text": {
+          "eng": "Other"
+        }
+      }
+    }
+  ],
+  "_xlsxPath": "templates/profile_override.xlsx"
+}

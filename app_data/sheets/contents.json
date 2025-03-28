@@ -42,6 +42,11 @@
       "data_list_name": "app_section",
       "_xlsxPath": "data/navigation_data.xlsx"
     },
+    "gender": {
+      "flow_type": "data_list",
+      "flow_name": "gender",
+      "_xlsxPath": "templates/profile_override.xlsx"
+    },
     "article_data": {
       "flow_name": "article_data",
       "flow_subtype": "generated",
@@ -2610,7 +2615,7 @@
     "profile_global": {
       "flow_type": "global",
       "flow_name": "profile_global",
-      "_xlsxPath": "data/profile_data.xlsx"
+      "_xlsxPath": "data/deployment_data_ph.xlsx"
     },
     "programme_name": {
       "flow_type": "global",
@@ -2666,7 +2671,7 @@
     "add_parent": {
       "flow_type": "template",
       "flow_name": "add_parent",
-      "_xlsxPath": "templates/profile.xlsx"
+      "_xlsxPath": "templates/profile_override.xlsx"
     },
     "add_parent_group": {
       "flow_type": "template",
@@ -2766,7 +2771,7 @@
     "edit_parent": {
       "flow_type": "template",
       "flow_name": "edit_parent",
-      "_xlsxPath": "templates/profile.xlsx"
+      "_xlsxPath": "templates/profile_override.xlsx"
     },
     "edit_parent_group": {
       "flow_type": "template",
@@ -3625,7 +3630,7 @@
     "parent_list": {
       "flow_type": "template",
       "flow_name": "parent_list",
-      "_xlsxPath": "templates/profile.xlsx"
+      "_xlsxPath": "templates/profile_override.xlsx"
     },
     "parent_profile": {
       "flow_type": "template",

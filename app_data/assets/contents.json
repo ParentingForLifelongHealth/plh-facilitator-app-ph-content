@@ -39,9 +39,29 @@
     "md5Checksum": "33e1c2232034ab9891984af9f97cd9b6",
     "size_kb": 191.5
   },
+  "images/03_masayang_tahanan.jpg": {
+    "md5Checksum": "69366595d40fefefce6ccb684c32139b",
+    "size_kb": 195.3
+  },
   "images/04_masayang_tahanan.jpg": {
     "md5Checksum": "6b6542f4fa1a4adca2fb25aec9934efb",
     "size_kb": 198.8
+  },
+  "images/05_masayang_tahanan.jpg": {
+    "md5Checksum": "7b60cb35ec1e2442600a21289a8366a7",
+    "size_kb": 197
+  },
+  "images/06_masayang_tahanan.jpg": {
+    "md5Checksum": "5a93b0c2db77fb00f83d341f9f8d81b7",
+    "size_kb": 379.5
+  },
+  "images/07_masayang_tahanan.jpg": {
+    "md5Checksum": "aa9b5e27ce72e9c99356822dd6446f84",
+    "size_kb": 455.5
+  },
+  "images/08_masayang_tahanan.jpg": {
+    "md5Checksum": "aa9b5e27ce72e9c99356822dd6446f84",
+    "size_kb": 455.5
   },
   "images/Message.png": {
     "md5Checksum": "479defd46917f22869e6ec7435c72092",
@@ -82,6 +102,274 @@
   "images/backgrounds/reports_top_right.svg": {
     "md5Checksum": "4e2e277101d4b49b034466abe2242b6d",
     "size_kb": 2
+  },
+  "images/comics/02_comics1_panel1.png": {
+    "md5Checksum": "2026ed25515ff297d447a7895f297643",
+    "size_kb": 1324.6
+  },
+  "images/comics/02_comics1_panel2.png": {
+    "md5Checksum": "b8bcfb6344a24376cc5cf34470e2979a",
+    "size_kb": 1320.2
+  },
+  "images/comics/02_comics1_panel3.png": {
+    "md5Checksum": "63719c71f5f2144bb8ddbb2e112dfdd2",
+    "size_kb": 1377.6
+  },
+  "images/comics/02_comics1_panel4.png": {
+    "md5Checksum": "4ea4fedb4a5d877f455e7cf7590112bd",
+    "size_kb": 989.3
+  },
+  "images/comics/02_comics2_panel1.png": {
+    "md5Checksum": "fc7d90be8cf1ab13e730e05d15623788",
+    "size_kb": 652.8
+  },
+  "images/comics/02_comics2_panel2.png": {
+    "md5Checksum": "97051e2e971bde2ee122ced92c28dafb",
+    "size_kb": 1120.1
+  },
+  "images/comics/02_comics2_panel3.png": {
+    "md5Checksum": "167900644763a7290a126918cc0cbca5",
+    "size_kb": 1177.2
+  },
+  "images/comics/02_comics2_panel4.png": {
+    "md5Checksum": "a316d2174f239d6be4693b56e75adb3c",
+    "size_kb": 887.1
+  },
+  "images/comics/03_comics1_panel1.jpg": {
+    "md5Checksum": "2827261706c222a839a52d6b360c6ba9",
+    "size_kb": 268.8
+  },
+  "images/comics/03_comics1_panel2.jpg": {
+    "md5Checksum": "044a62ef33ce5e6166fc336b2a4d9116",
+    "size_kb": 177.9
+  },
+  "images/comics/03_comics1_panel3.jpg": {
+    "md5Checksum": "ea68e39a9f400e85bc14f2e6a36ff168",
+    "size_kb": 236.7
+  },
+  "images/comics/03_comics1_panel4.jpg": {
+    "md5Checksum": "f12a75013caf859c3d185af824c81875",
+    "size_kb": 189.5
+  },
+  "images/comics/03_comics2_panel1.png": {
+    "md5Checksum": "57224493f1a756ced1c3f864d056f95c",
+    "size_kb": 984.3
+  },
+  "images/comics/03_comics2_panel2.png": {
+    "md5Checksum": "3045de6ab893255b0d9d66841b1329af",
+    "size_kb": 937.6
+  },
+  "images/comics/03_comics2_panel3.png": {
+    "md5Checksum": "7d4c864165720096be643c4718750f13",
+    "size_kb": 2019.8
+  },
+  "images/comics/04_comics1_panel1.jpg": {
+    "md5Checksum": "ec19e4acb4c2cde0494a48aea7592166",
+    "size_kb": 239.4
+  },
+  "images/comics/04_comics1_panel2.jpg": {
+    "md5Checksum": "e7e4addf1fbc105a761ba2123ae5c27d",
+    "size_kb": 224.4
+  },
+  "images/comics/04_comics1_panel3.jpg": {
+    "md5Checksum": "7a503c464b290428896241be2364a37e",
+    "size_kb": 241
+  },
+  "images/comics/04_comics1_panel4.jpg": {
+    "md5Checksum": "dd7fd0d886f5324c599afb45600caa7f",
+    "size_kb": 268.2
+  },
+  "images/comics/04_comics2_panel1.jpg": {
+    "md5Checksum": "049a689be4d860ebb93c4dfd795686ad",
+    "size_kb": 272
+  },
+  "images/comics/04_comics2_panel2.jpg": {
+    "md5Checksum": "7865d51d932ae047508c56c347e723d7",
+    "size_kb": 256.8
+  },
+  "images/comics/04_comics2_panel3.jpg": {
+    "md5Checksum": "833c82ae33ca71d3483137f396f00c18",
+    "size_kb": 268.6
+  },
+  "images/comics/04_comics2_panel4.jpg": {
+    "md5Checksum": "10f5d5180844d3403f112d7b7e8209bd",
+    "size_kb": 176.8
+  },
+  "images/comics/04_comics2_panel5.jpg": {
+    "md5Checksum": "8b2a77dd0797ec668a001525ca9087ae",
+    "size_kb": 246.1
+  },
+  "images/comics/05_comics1_panel1.jpg": {
+    "md5Checksum": "619b060cf3c1e39349d4165aa66f6c45",
+    "size_kb": 235.6
+  },
+  "images/comics/05_comics1_panel2.jpg": {
+    "md5Checksum": "4eae601bc78609dd2ef7d711e2d6d93f",
+    "size_kb": 239.3
+  },
+  "images/comics/05_comics1_panel3.jpg": {
+    "md5Checksum": "6876185081f4ba4cc74d41b2941b35f7",
+    "size_kb": 241
+  },
+  "images/comics/05_comics1_panel4.jpg": {
+    "md5Checksum": "bc8878ce409a55cc1c3c7a5436e5c6fc",
+    "size_kb": 234.8
+  },
+  "images/comics/05_comics2_panel1.jpg": {
+    "md5Checksum": "d8af85b3ba072087eb00be6561a3f90f",
+    "size_kb": 199.6
+  },
+  "images/comics/05_comics2_panel2.jpg": {
+    "md5Checksum": "2f7dc04b3ebe185dfdc1d1fafbf202e1",
+    "size_kb": 184.4
+  },
+  "images/comics/05_comics2_panel3.jpg": {
+    "md5Checksum": "474863290c62f0369e49dc5da2016737",
+    "size_kb": 185.3
+  },
+  "images/comics/05_comics2_panel4.jpg": {
+    "md5Checksum": "7d7d9b8c560e268f418df80a09e0dd9a",
+    "size_kb": 208.6
+  },
+  "images/comics/05_comics2_panel5.jpg": {
+    "md5Checksum": "b760edde52c98aaa6bd64290ca7214f0",
+    "size_kb": 214.1
+  },
+  "images/comics/06_comics1_panel1.jpg": {
+    "md5Checksum": "12a96470a6e8b9817f8fdc957098bf5e",
+    "size_kb": 208.8
+  },
+  "images/comics/06_comics1_panel2.jpg": {
+    "md5Checksum": "25721fc48d4dbb36ea89151e4c8a7038",
+    "size_kb": 238.4
+  },
+  "images/comics/06_comics1_panel3.jpg": {
+    "md5Checksum": "4f04e26e5817085af5ef13b194c14aeb",
+    "size_kb": 232.3
+  },
+  "images/comics/06_comics1_panel4.jpg": {
+    "md5Checksum": "f26ab16ccbb14b374f330b82dba90a7f",
+    "size_kb": 225.3
+  },
+  "images/comics/06_comics1_panel5.jpg": {
+    "md5Checksum": "04d18dbc4d9e0dfc67bd159ee43b2114",
+    "size_kb": 236.4
+  },
+  "images/comics/06_comics2_panel1.jpg": {
+    "md5Checksum": "efa9e69916df7c21f12747e586c1036e",
+    "size_kb": 253.3
+  },
+  "images/comics/06_comics2_panel2.jpg": {
+    "md5Checksum": "98f4cd3783eabdb9a59c5d416bbfa141",
+    "size_kb": 235.1
+  },
+  "images/comics/06_comics2_panel3.jpg": {
+    "md5Checksum": "0a36418c5586fcc33e7e398dfd0c7c1a",
+    "size_kb": 258.4
+  },
+  "images/comics/06_comics2_panel4.jpg": {
+    "md5Checksum": "cf6243c878d7602940a17e15d3f3dbac",
+    "size_kb": 207
+  },
+  "images/comics/06_comics2_panel5.jpg": {
+    "md5Checksum": "722fe23e312ce223c499dfd1a19208e3",
+    "size_kb": 214.1
+  },
+  "images/comics/06_comics3_panel1.jpg": {
+    "md5Checksum": "88c65902b20464d5d8e591bf817a4a34",
+    "size_kb": 238.4
+  },
+  "images/comics/06_comics3_panel2.jpg": {
+    "md5Checksum": "a0c75b90bf57749cdb54a00c6891949b",
+    "size_kb": 228.2
+  },
+  "images/comics/06_comics3_panel3.jpg": {
+    "md5Checksum": "c99bf915f4e2736a82b8503d5af03513",
+    "size_kb": 229.1
+  },
+  "images/comics/06_comics3_panel4.jpg": {
+    "md5Checksum": "5478f5babef146b79ea58585c52efc98",
+    "size_kb": 207.8
+  },
+  "images/comics/07_budgeting_plan.jpg": {
+    "md5Checksum": "b76a16ebf99ce519820591a757fa58ba",
+    "size_kb": 323.7
+  },
+  "images/comics/07_budgeting_step1.jpg": {
+    "md5Checksum": "6e1016156a32b0c3b683ab26e9a75bc8",
+    "size_kb": 324.5
+  },
+  "images/comics/07_budgeting_step2.jpg": {
+    "md5Checksum": "4915a01e013eb3bfa6b333182ee9cccf",
+    "size_kb": 366.8
+  },
+  "images/comics/07_budgeting_step3.jpg": {
+    "md5Checksum": "c0eb985636a6019c08ba216866eeba4f",
+    "size_kb": 362.8
+  },
+  "images/comics/07_budgeting_step4.jpg": {
+    "md5Checksum": "d2045dec73cfd1d3e4d4f02a51a92928",
+    "size_kb": 399.8
+  },
+  "images/comics/07_lola_emergencies.jpg": {
+    "md5Checksum": "2a5733b3dcaee2ff1b1a803d9d9dc630",
+    "size_kb": 188.7
+  },
+  "images/comics/07_lola_goals.jpg": {
+    "md5Checksum": "cfaeed46f46a06f1ce15a4622dbbe269",
+    "size_kb": 755.7
+  },
+  "images/comics/08_comics1_panel1.jpg": {
+    "md5Checksum": "e7184a8146c7813b5fc9bb4bab73aaee",
+    "size_kb": 176.6
+  },
+  "images/comics/08_comics1_panel2.jpg": {
+    "md5Checksum": "25fccf140fbc125ae3c11f487e23ebb8",
+    "size_kb": 229.5
+  },
+  "images/comics/08_comics1_panel3.jpg": {
+    "md5Checksum": "61ab4432c69344072ca3d3a13bb4895f",
+    "size_kb": 206.1
+  },
+  "images/comics/08_comics1_panel4.jpg": {
+    "md5Checksum": "80abb8c012ba264f9ec3d07c57edcc77",
+    "size_kb": 230.3
+  },
+  "images/comics/08_comics1_panel5.jpg": {
+    "md5Checksum": "580c7ec64b0541312cfa3ededce9b383",
+    "size_kb": 216.2
+  },
+  "images/comics/08_comics2_panel1.jpg": {
+    "md5Checksum": "20e68a5b3ed623bf85c20f57dd93a5b2",
+    "size_kb": 210.8
+  },
+  "images/comics/08_comics2_panel2.jpg": {
+    "md5Checksum": "669c63caa8b87e1a541b3d1de25faf31",
+    "size_kb": 199
+  },
+  "images/comics/08_comics2_panel3.jpg": {
+    "md5Checksum": "0b35cf4bd9f018db49e7e2450a677105",
+    "size_kb": 228.2
+  },
+  "images/comics/08_comics2_panel4.jpg": {
+    "md5Checksum": "ba7ec040c338247e75906fb8f03df245",
+    "size_kb": 235.1
+  },
+  "images/comics/08_comics2_panel5.jpg": {
+    "md5Checksum": "11d52f525b24430da5d00a9e3db417f8",
+    "size_kb": 210.4
+  },
+  "images/comics/08_comics2_panel6.jpg": {
+    "md5Checksum": "4099e9381bfca883b78b58d53e50f184",
+    "size_kb": 252
+  },
+  "images/comics/08_comics2_panel7.jpg": {
+    "md5Checksum": "ffe165ad870c0d94e491a0dba21fb6d3",
+    "size_kb": 237
+  },
+  "images/comics/08_comics2_panel8.jpg": {
+    "md5Checksum": "201de92768c06f28a0d2d65ee8ee2d36",
+    "size_kb": 234.3
   },
   "images/comics/module_2_teen.png": {
     "md5Checksum": "a85c7843b2f4ed2e870f569dcc133a5a",
@@ -483,49 +771,125 @@
     "md5Checksum": "720cf48f780d84ba2d4810c4befeee45",
     "size_kb": 5.6
   },
-  "pdf/01_mod1_intro.pdf.pdf": {
+  "pdf/01_mod1_intro.pdf": {
     "md5Checksum": "a70c772c3f472f138f51ed20034accf4",
     "size_kb": 650.7
   },
-  "pdf/01_mod1_layunin.pdf.pdf": {
+  "pdf/01_mod1_layunin.pdf": {
     "md5Checksum": "b6f08fe4e4c1bfc3c20b3cf3b0f5ba6e",
     "size_kb": 513.8
   },
-  "pdf/01_mod1_mapa_skill.pdf.pdf": {
+  "pdf/01_mod1_mapa_skill.pdf": {
     "md5Checksum": "306eb89656d3a30ab4e6e51f31a26139",
     "size_kb": 1819.1
   },
-  "pdf/01_mod1_pabaong_gawain.pdf.pdf": {
+  "pdf/01_mod1_pabaong_gawain.pdf": {
     "md5Checksum": "c98495c64fbe0d6b4dcdc0e49078151b",
     "size_kb": 132.7
   },
-  "pdf/01_mod1_pagtatapos.pdf.pdf": {
+  "pdf/01_mod1_pagtatapos.pdf": {
     "md5Checksum": "80609d7d5a16b937e4fe2477b42213ad",
     "size_kb": 128.1
   },
-  "pdf/01_mod1_panimulang_gawain.pdf.pdf": {
+  "pdf/01_mod1_panimulang_gawain.pdf": {
     "md5Checksum": "9c351c6f80b68c9d8772fa7fdd549542",
     "size_kb": 489.2
   },
-  "pdf/01_mod1_session_structure.pdf.pdf": {
+  "pdf/01_mod1_session_structure.pdf": {
     "md5Checksum": "fc2b6f16351faee3687bb3e0184e89e0",
     "size_kb": 123.5
   },
-  "pdf/02_mod2_intro.pdf.pdf": {
+  "pdf/02_mod2_intro.pdf": {
     "md5Checksum": "7e23068976993d3d1e49140f18d0397a",
     "size_kb": 506.5
   },
-  "pdf/02_mod2_talakayan_ng_pabaong_gawain.pdf.pdf": {
+  "pdf/02_mod2_talakayan_ng_pabaong_gawain.pdf": {
     "md5Checksum": "3a58496b9a00c22fa9d90bbdaaa2f080",
     "size_kb": 62.2
   },
-  "pdf/03_mod3_intro.pdf.pdf": {
+  "pdf/03_mod3_intro.pdf": {
     "md5Checksum": "f0f3362af5e20e75abbbb8812ab82f9b",
     "size_kb": 377.9
   },
-  "pdf/03_mod3_talakayan_ng_pabaong_gawain.pdf.pdf": {
+  "pdf/03_mod3_talakayan_ng_pabaong_gawain.pdf": {
     "md5Checksum": "d96f6aa2282a0640e7a061330e7916e6",
     "size_kb": 64.7
+  },
+  "pdf/04_mod4_intro.pdf": {
+    "md5Checksum": "5eb5779ff7779623ebdcd62d0aa74d56",
+    "size_kb": 495.3
+  },
+  "pdf/04_mod4_talakayan_ng_pabaong_gawain.pdf": {
+    "md5Checksum": "46cc39ff945a988a77558e8a73ab7c0b",
+    "size_kb": 67.8
+  },
+  "pdf/05_mod5_intro.pdf": {
+    "md5Checksum": "b3e86e0b04902d808e667dcdab36b661",
+    "size_kb": 275.9
+  },
+  "pdf/05_mod5_mapa_skill.pdf": {
+    "md5Checksum": "e42b000566c9badb1da57e37ca95f8a2",
+    "size_kb": 1827.5
+  },
+  "pdf/05_mod5_pabaong_gawain.pdf": {
+    "md5Checksum": "acad5dcd9fb82c615e9ee911daa2b1bf",
+    "size_kb": 63.6
+  },
+  "pdf/05_mod5_pagtatapos.pdf": {
+    "md5Checksum": "1354fc70828aeae4e762e79057567269",
+    "size_kb": 65.7
+  },
+  "pdf/05_mod5_panimulang_gawain.pdf": {
+    "md5Checksum": "4151524df6a884568d76f74072556a15",
+    "size_kb": 77.7
+  },
+  "pdf/05_mod5_session_structure.pdf": {
+    "md5Checksum": "3ddf0eab877bb5da2dc122bc53307263",
+    "size_kb": 80.5
+  },
+  "pdf/05_mod5_talakayan_ng_pabaong_gawain.pdf": {
+    "md5Checksum": "6c432447da52155f5edc7ab2e125b5b2",
+    "size_kb": 286.4
+  },
+  "pdf/06_mod6_intro.pdf": {
+    "md5Checksum": "9ea5987dd186069ba371bcdf7bfd2fb6",
+    "size_kb": 657.2
+  },
+  "pdf/06_mod6_talakayan_ng_pabaong_gawain.pdf": {
+    "md5Checksum": "3bdeabd0619bb1b9ee945c02d8fad8bb",
+    "size_kb": 117.4
+  },
+  "pdf/07_mod7_intro.pdf": {
+    "md5Checksum": "39cfc4c35c0095806e14402a27c33b22",
+    "size_kb": 756.6
+  },
+  "pdf/08_mod8_intro.pdf": {
+    "md5Checksum": "5566a100d3343e73da48626891a87c69",
+    "size_kb": 708.2
+  },
+  "pdf/08_mod8_mapa_skill.pdf": {
+    "md5Checksum": "7e939e5f5c1db3850e67ee770fc97950",
+    "size_kb": 2394.2
+  },
+  "pdf/08_mod8_pabaong_gawain.pdf": {
+    "md5Checksum": "6c573ac71b2e846026d1cde9187d3db6",
+    "size_kb": 288.7
+  },
+  "pdf/08_mod8_pagdiriwang.pdf": {
+    "md5Checksum": "6b0a61ae5697ce3afe63126f0fd42b46",
+    "size_kb": 413.2
+  },
+  "pdf/08_mod8_pagtatapos.pdf": {
+    "md5Checksum": "c00b58c4e15a1fa4eda4c33de8300b61",
+    "size_kb": 684.7
+  },
+  "pdf/08_mod8_panimulang_gawain.pdf": {
+    "md5Checksum": "e9b461fee70444cf454364ee3d4dc1f8",
+    "size_kb": 75.9
+  },
+  "pdf/08_mod8_session_structure.pdf": {
+    "md5Checksum": "fc1e2167644863fb45a309c9d94f3196",
+    "size_kb": 80.3
   },
   "pdf/manual.pdf": {
     "md5Checksum": "9188c320eec37ad742fb641aef69006f",
