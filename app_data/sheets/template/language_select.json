@@ -4,18 +4,24 @@
   "status": "released",
   "rows": [
     {
-      "type": "image",
-      "value": "images/backgrounds/MaPa_logo_with_background.png",
-      "_translations": {
-        "value": {}
+      "type": "display_group",
+      "name": "dg_top",
+      "parameter_list": {
+        "sticky": "top",
+        "background_image_asset": "images/backgrounds/MaPa_logo_with_background.png",
+        "background_image_position": "top"
       },
-      "name": "image_2",
-      "_nested_name": "image_2"
+      "style_list": [
+        "min-height: 192px",
+        "width: 100%"
+      ],
+      "rows": [],
+      "_nested_name": "dg_top"
     },
     {
       "type": "title",
       "name": "title",
-      "value": "@global.language",
+      "value": "@global.language_prompt",
       "_translations": {
         "value": {}
       },
@@ -23,15 +29,15 @@
       "_dynamicFields": {
         "value": [
           {
-            "fullExpression": "@global.language",
-            "matchedExpression": "@global.language",
+            "fullExpression": "@global.language_prompt",
+            "matchedExpression": "@global.language_prompt",
             "type": "global",
-            "fieldName": "language"
+            "fieldName": "language_prompt"
           }
         ]
       },
       "_dynamicDependencies": {
-        "@global.language": [
+        "@global.language_prompt": [
           "value"
         ]
       }

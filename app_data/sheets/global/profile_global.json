@@ -5,99 +5,348 @@
   "rows": [
     {
       "type": "declare_global_constant",
-      "name": "user_name_question",
-      "value": "Your name",
+      "name": "label_first_name",
+      "value": "First Name",
       "_translations": {
         "value": {}
       }
     },
     {
       "type": "declare_global_constant",
-      "name": "user_name_default",
-      "value": "[INSERT NAME]",
-      "_translations": {
-        "value": {}
-      }
-    },
-    {
-      "type": "declare_field_default",
-      "name": "user_name",
-      "value": "@global.user_name_default",
+      "name": "label_last_name",
+      "value": "Last Name",
       "_translations": {
         "value": {}
       }
     },
     {
       "type": "declare_global_constant",
-      "name": "state_question",
-      "value": "Which state do you live in?",
+      "name": "label_number",
+      "value": "Contact Number",
       "_translations": {
         "value": {}
       }
     },
     {
       "type": "declare_global_constant",
-      "name": "region_question",
-      "value": "Which region of @global.deployment_country do you live in?",
+      "name": "label_age",
+      "value": "Age",
       "_translations": {
         "value": {}
       }
     },
     {
-      "type": "declare_field_default",
-      "name": "first_unused_parent_no",
-      "value": 1
-    },
-    {
-      "type": "declare_field_default",
-      "name": "no_of_parent_groups",
-      "value": 1
-    },
-    {
-      "type": "declare_field_default",
-      "name": "parent_data",
-      "value": "{}",
+      "type": "declare_global_constant",
+      "name": "label_sex",
+      "value": "Sex",
       "_translations": {
         "value": {}
-      },
-      "exclude_from_translation": true
+      }
     },
     {
-      "type": "declare_field_default",
-      "name": "archived_parent_data",
-      "value": "{}",
+      "type": "declare_global_constant",
+      "name": "label_about_child",
+      "value": "About the child",
       "_translations": {
         "value": {}
-      },
-      "exclude_from_translation": true
+      }
     },
     {
-      "type": "declare_field_default",
-      "name": "attendance_data",
-      "value": "{}",
+      "type": "declare_global_constant",
+      "name": "label_child_name",
+      "value": "Name",
       "_translations": {
         "value": {}
-      },
-      "exclude_from_translation": true
+      }
     },
     {
-      "type": "declare_field_default",
-      "name": "family_data",
-      "value": "[]",
+      "type": "declare_global_constant",
+      "name": "label_child_age",
+      "value": "Age",
       "_translations": {
         "value": {}
-      },
-      "exclude_from_translation": true
+      }
     },
     {
-      "type": "declare_field_default",
-      "name": "group_data",
-      "value": "{}",
+      "type": "declare_global_constant",
+      "name": "label_child_sex",
+      "value": "Sex",
       "_translations": {
         "value": {}
-      },
-      "exclude_from_translation": true
+      }
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "label_relationship",
+      "value": "Relationship",
+      "_translations": {
+        "value": {}
+      }
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "label_about_family",
+      "value": "About the family",
+      "_translations": {
+        "value": {}
+      }
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "label_members",
+      "value": "How many family members are they",
+      "_translations": {
+        "value": {}
+      }
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "label_childcare",
+      "value": "Who else is taking car of the child",
+      "_translations": {
+        "value": {}
+      }
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "label_goal",
+      "value": "Parents goal",
+      "_translations": {
+        "value": {}
+      }
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "label_other_notes",
+      "value": "Other notes",
+      "_translations": {
+        "value": {}
+      }
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "label_consoltation",
+      "value": "Date of Consultation",
+      "_translations": {
+        "value": {}
+      }
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "edit_first_name",
+      "value": "First Name",
+      "_translations": {
+        "value": {}
+      }
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "edit_last_name",
+      "value": "Last Name",
+      "_translations": {
+        "value": {}
+      }
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "edit_number",
+      "value": "Contact Number",
+      "_translations": {
+        "value": {}
+      }
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "edit_age",
+      "value": "Age",
+      "_translations": {
+        "value": {}
+      }
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "edit_sex",
+      "value": "Sex",
+      "_translations": {
+        "value": {}
+      }
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "edit_child_name",
+      "value": "Name",
+      "_translations": {
+        "value": {}
+      }
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "edit_child_age",
+      "value": "Age",
+      "_translations": {
+        "value": {}
+      }
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "edit_child_sex",
+      "value": "Sex",
+      "_translations": {
+        "value": {}
+      }
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "edit_relationship",
+      "value": "Relationship",
+      "_translations": {
+        "value": {}
+      }
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "edit_members",
+      "value": "How many family members are they",
+      "_translations": {
+        "value": {}
+      }
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "edit_childcare",
+      "value": "Who else is taking car of the child",
+      "_translations": {
+        "value": {}
+      }
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "edit_goal",
+      "value": "Parents goal",
+      "_translations": {
+        "value": {}
+      }
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "edit_other_notes",
+      "value": "Other notes",
+      "_translations": {
+        "value": {}
+      }
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "edit_consoltation",
+      "value": "Date of Consultation",
+      "_translations": {
+        "value": {}
+      }
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "error_first_name",
+      "value": "Please enter a valid name using only letters. It must be at least 2 characters long.",
+      "_translations": {
+        "value": {}
+      }
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "error_last_name",
+      "value": "Please enter a valid name using only letters. It must be at least 2 characters long.",
+      "_translations": {
+        "value": {}
+      }
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "error_number",
+      "value": "Please enter a valid phone number starting with + followed by the country code.",
+      "_translations": {
+        "value": {}
+      }
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "error_age",
+      "value": "Please enter a valid age between x and 99.",
+      "_translations": {
+        "value": {}
+      }
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "error_sex",
+      "value": "Please select a gender",
+      "_translations": {
+        "value": {}
+      }
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "error_child_name",
+      "value": "Please enter a valid name using only letters. It must be at least 2 characters long.",
+      "_translations": {
+        "value": {}
+      }
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "error_child_age",
+      "value": "Please enter an age between 2 and 17.",
+      "_translations": {
+        "value": {}
+      }
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "error_child_sex",
+      "value": "Please select a gender",
+      "_translations": {
+        "value": {}
+      }
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "error_relationship",
+      "value": "Please provide a valid response using only letters.",
+      "_translations": {
+        "value": {}
+      }
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "error_members",
+      "value": "Please enter a valid number to indicate the total family members (including the program participant).",
+      "_translations": {
+        "value": {}
+      }
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "error_childcare",
+      "value": "Please enter a valid response using only letters, spaces, commas, or hyphens (e.g., ‘Grandmother, Aunt’ or ‘Daycare Provider’).",
+      "_translations": {
+        "value": {}
+      }
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "error_goal",
+      "value": "Please enter a specific and realistic goal.",
+      "_translations": {
+        "value": {}
+      }
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "error_consoltation",
+      "value": "Please enter a date.",
+      "_translations": {
+        "value": {}
+      }
     }
   ],
-  "_xlsxPath": "data/profile_data.xlsx"
+  "_xlsxPath": "data/deployment_data_ph.xlsx"
 }

@@ -23,11 +23,11 @@
       },
       {
         "type": "combo_box",
-        "count": 3
+        "count": 7
       },
       {
         "type": "data_items",
-        "count": 35
+        "count": 34
       },
       {
         "type": "debug_toggle",
@@ -39,7 +39,7 @@
       },
       {
         "type": "display_group",
-        "count": 103
+        "count": 104
       },
       {
         "type": "drawer",
@@ -51,7 +51,7 @@
       },
       {
         "type": "image",
-        "count": 12
+        "count": 11
       },
       {
         "type": "items",
@@ -79,7 +79,7 @@
       },
       {
         "type": "round_button",
-        "count": 32
+        "count": 30
       },
       {
         "type": "select_text",
@@ -87,7 +87,7 @@
       },
       {
         "type": "set_variable",
-        "count": 695
+        "count": 766
       },
       {
         "type": "simple_checkbox",
@@ -111,7 +111,7 @@
       },
       {
         "type": "text",
-        "count": 167
+        "count": 236
       },
       {
         "type": "text_area",
@@ -119,7 +119,7 @@
       },
       {
         "type": "text_box",
-        "count": 30
+        "count": 48
       },
       {
         "type": "title",
@@ -175,7 +175,7 @@
       },
       {
         "type": "emit: server_sync",
-        "count": 10
+        "count": 11
       },
       {
         "type": "emit: set_language",
@@ -199,7 +199,7 @@
       },
       {
         "type": "pop_up",
-        "count": 15
+        "count": 14
       },
       {
         "type": "reset_app",
@@ -211,11 +211,11 @@
       },
       {
         "type": "set_data",
-        "count": 19
+        "count": 17
       },
       {
         "type": "set_field",
-        "count": 59
+        "count": 54
       },
       {
         "type": "set_item",
@@ -223,7 +223,7 @@
       },
       {
         "type": "set_local",
-        "count": 32
+        "count": 73
       },
       {
         "type": "share",
@@ -239,13 +239,13 @@
     "data": [
       {
         "assets": "total",
-        "KB": "67952 KB",
-        "MB": "68 MB"
+        "KB": "67949 KB",
+        "MB": "67.9 MB"
       },
       {
         "assets": "unused",
-        "KB": "6288 KB",
-        "MB": "6.3 MB"
+        "KB": "43991 KB",
+        "MB": "44 MB"
       }
     ]
   },
@@ -276,8 +276,28 @@
         "size_kb": 191.5
       },
       {
+        "path": "images/03_masayang_tahanan.jpg",
+        "size_kb": 195.3
+      },
+      {
         "path": "images/04_masayang_tahanan.jpg",
         "size_kb": 198.8
+      },
+      {
+        "path": "images/05_masayang_tahanan.jpg",
+        "size_kb": 197
+      },
+      {
+        "path": "images/06_masayang_tahanan.jpg",
+        "size_kb": 379.5
+      },
+      {
+        "path": "images/07_masayang_tahanan.jpg",
+        "size_kb": 455.5
+      },
+      {
+        "path": "images/08_masayang_tahanan.jpg",
+        "size_kb": 455.5
       },
       {
         "path": "images/Message.png",
@@ -298,6 +318,274 @@
       {
         "path": "images/backgrounds/report_edit.svg",
         "size_kb": 0.2
+      },
+      {
+        "path": "images/comics/02_comics1_panel1.png",
+        "size_kb": 1324.6
+      },
+      {
+        "path": "images/comics/02_comics1_panel2.png",
+        "size_kb": 1320.2
+      },
+      {
+        "path": "images/comics/02_comics1_panel3.png",
+        "size_kb": 1377.6
+      },
+      {
+        "path": "images/comics/02_comics1_panel4.png",
+        "size_kb": 989.3
+      },
+      {
+        "path": "images/comics/02_comics2_panel1.png",
+        "size_kb": 652.8
+      },
+      {
+        "path": "images/comics/02_comics2_panel2.png",
+        "size_kb": 1120.1
+      },
+      {
+        "path": "images/comics/02_comics2_panel3.png",
+        "size_kb": 1177.2
+      },
+      {
+        "path": "images/comics/02_comics2_panel4.png",
+        "size_kb": 887.1
+      },
+      {
+        "path": "images/comics/03_comics1_panel1.jpg",
+        "size_kb": 268.8
+      },
+      {
+        "path": "images/comics/03_comics1_panel2.jpg",
+        "size_kb": 177.9
+      },
+      {
+        "path": "images/comics/03_comics1_panel3.jpg",
+        "size_kb": 236.7
+      },
+      {
+        "path": "images/comics/03_comics1_panel4.jpg",
+        "size_kb": 189.5
+      },
+      {
+        "path": "images/comics/03_comics2_panel1.png",
+        "size_kb": 984.3
+      },
+      {
+        "path": "images/comics/03_comics2_panel2.png",
+        "size_kb": 937.6
+      },
+      {
+        "path": "images/comics/03_comics2_panel3.png",
+        "size_kb": 2019.8
+      },
+      {
+        "path": "images/comics/04_comics1_panel1.jpg",
+        "size_kb": 239.4
+      },
+      {
+        "path": "images/comics/04_comics1_panel2.jpg",
+        "size_kb": 224.4
+      },
+      {
+        "path": "images/comics/04_comics1_panel3.jpg",
+        "size_kb": 241
+      },
+      {
+        "path": "images/comics/04_comics1_panel4.jpg",
+        "size_kb": 268.2
+      },
+      {
+        "path": "images/comics/04_comics2_panel1.jpg",
+        "size_kb": 272
+      },
+      {
+        "path": "images/comics/04_comics2_panel2.jpg",
+        "size_kb": 256.8
+      },
+      {
+        "path": "images/comics/04_comics2_panel3.jpg",
+        "size_kb": 268.6
+      },
+      {
+        "path": "images/comics/04_comics2_panel4.jpg",
+        "size_kb": 176.8
+      },
+      {
+        "path": "images/comics/04_comics2_panel5.jpg",
+        "size_kb": 246.1
+      },
+      {
+        "path": "images/comics/05_comics1_panel1.jpg",
+        "size_kb": 235.6
+      },
+      {
+        "path": "images/comics/05_comics1_panel2.jpg",
+        "size_kb": 239.3
+      },
+      {
+        "path": "images/comics/05_comics1_panel3.jpg",
+        "size_kb": 241
+      },
+      {
+        "path": "images/comics/05_comics1_panel4.jpg",
+        "size_kb": 234.8
+      },
+      {
+        "path": "images/comics/05_comics2_panel1.jpg",
+        "size_kb": 199.6
+      },
+      {
+        "path": "images/comics/05_comics2_panel2.jpg",
+        "size_kb": 184.4
+      },
+      {
+        "path": "images/comics/05_comics2_panel3.jpg",
+        "size_kb": 185.3
+      },
+      {
+        "path": "images/comics/05_comics2_panel4.jpg",
+        "size_kb": 208.6
+      },
+      {
+        "path": "images/comics/05_comics2_panel5.jpg",
+        "size_kb": 214.1
+      },
+      {
+        "path": "images/comics/06_comics1_panel1.jpg",
+        "size_kb": 208.8
+      },
+      {
+        "path": "images/comics/06_comics1_panel2.jpg",
+        "size_kb": 238.4
+      },
+      {
+        "path": "images/comics/06_comics1_panel3.jpg",
+        "size_kb": 232.3
+      },
+      {
+        "path": "images/comics/06_comics1_panel4.jpg",
+        "size_kb": 225.3
+      },
+      {
+        "path": "images/comics/06_comics1_panel5.jpg",
+        "size_kb": 236.4
+      },
+      {
+        "path": "images/comics/06_comics2_panel1.jpg",
+        "size_kb": 253.3
+      },
+      {
+        "path": "images/comics/06_comics2_panel2.jpg",
+        "size_kb": 235.1
+      },
+      {
+        "path": "images/comics/06_comics2_panel3.jpg",
+        "size_kb": 258.4
+      },
+      {
+        "path": "images/comics/06_comics2_panel4.jpg",
+        "size_kb": 207
+      },
+      {
+        "path": "images/comics/06_comics2_panel5.jpg",
+        "size_kb": 214.1
+      },
+      {
+        "path": "images/comics/06_comics3_panel1.jpg",
+        "size_kb": 238.4
+      },
+      {
+        "path": "images/comics/06_comics3_panel2.jpg",
+        "size_kb": 228.2
+      },
+      {
+        "path": "images/comics/06_comics3_panel3.jpg",
+        "size_kb": 229.1
+      },
+      {
+        "path": "images/comics/06_comics3_panel4.jpg",
+        "size_kb": 207.8
+      },
+      {
+        "path": "images/comics/07_budgeting_plan.jpg",
+        "size_kb": 323.7
+      },
+      {
+        "path": "images/comics/07_budgeting_step1.jpg",
+        "size_kb": 324.5
+      },
+      {
+        "path": "images/comics/07_budgeting_step2.jpg",
+        "size_kb": 366.8
+      },
+      {
+        "path": "images/comics/07_budgeting_step3.jpg",
+        "size_kb": 362.8
+      },
+      {
+        "path": "images/comics/07_budgeting_step4.jpg",
+        "size_kb": 399.8
+      },
+      {
+        "path": "images/comics/07_lola_emergencies.jpg",
+        "size_kb": 188.7
+      },
+      {
+        "path": "images/comics/07_lola_goals.jpg",
+        "size_kb": 755.7
+      },
+      {
+        "path": "images/comics/08_comics1_panel1.jpg",
+        "size_kb": 176.6
+      },
+      {
+        "path": "images/comics/08_comics1_panel2.jpg",
+        "size_kb": 229.5
+      },
+      {
+        "path": "images/comics/08_comics1_panel3.jpg",
+        "size_kb": 206.1
+      },
+      {
+        "path": "images/comics/08_comics1_panel4.jpg",
+        "size_kb": 230.3
+      },
+      {
+        "path": "images/comics/08_comics1_panel5.jpg",
+        "size_kb": 216.2
+      },
+      {
+        "path": "images/comics/08_comics2_panel1.jpg",
+        "size_kb": 210.8
+      },
+      {
+        "path": "images/comics/08_comics2_panel2.jpg",
+        "size_kb": 199
+      },
+      {
+        "path": "images/comics/08_comics2_panel3.jpg",
+        "size_kb": 228.2
+      },
+      {
+        "path": "images/comics/08_comics2_panel4.jpg",
+        "size_kb": 235.1
+      },
+      {
+        "path": "images/comics/08_comics2_panel5.jpg",
+        "size_kb": 210.4
+      },
+      {
+        "path": "images/comics/08_comics2_panel6.jpg",
+        "size_kb": 252
+      },
+      {
+        "path": "images/comics/08_comics2_panel7.jpg",
+        "size_kb": 237
+      },
+      {
+        "path": "images/comics/08_comics2_panel8.jpg",
+        "size_kb": 234.3
       },
       {
         "path": "images/flags/mx.svg",
@@ -340,12 +628,20 @@
         "size_kb": 2.2
       },
       {
+        "path": "images/icons/group_add_dark.svg",
+        "size_kb": 2.3
+      },
+      {
         "path": "images/icons/paper_plane_white.svg",
         "size_kb": 1.4
       },
       {
         "path": "images/icons/person_cog.png",
         "size_kb": 0.8
+      },
+      {
+        "path": "images/icons/person_remove.svg",
+        "size_kb": 1.5
       },
       {
         "path": "images/icons/person_white.svg",
@@ -368,48 +664,124 @@
         "size_kb": 0.8
       },
       {
-        "path": "pdf/01_mod1_intro.pdf.pdf",
+        "path": "pdf/01_mod1_intro.pdf",
         "size_kb": 650.7
       },
       {
-        "path": "pdf/01_mod1_layunin.pdf.pdf",
+        "path": "pdf/01_mod1_layunin.pdf",
         "size_kb": 513.8
       },
       {
-        "path": "pdf/01_mod1_mapa_skill.pdf.pdf",
+        "path": "pdf/01_mod1_mapa_skill.pdf",
         "size_kb": 1819.1
       },
       {
-        "path": "pdf/01_mod1_pabaong_gawain.pdf.pdf",
+        "path": "pdf/01_mod1_pabaong_gawain.pdf",
         "size_kb": 132.7
       },
       {
-        "path": "pdf/01_mod1_pagtatapos.pdf.pdf",
+        "path": "pdf/01_mod1_pagtatapos.pdf",
         "size_kb": 128.1
       },
       {
-        "path": "pdf/01_mod1_panimulang_gawain.pdf.pdf",
+        "path": "pdf/01_mod1_panimulang_gawain.pdf",
         "size_kb": 489.2
       },
       {
-        "path": "pdf/01_mod1_session_structure.pdf.pdf",
+        "path": "pdf/01_mod1_session_structure.pdf",
         "size_kb": 123.5
       },
       {
-        "path": "pdf/02_mod2_intro.pdf.pdf",
+        "path": "pdf/02_mod2_intro.pdf",
         "size_kb": 506.5
       },
       {
-        "path": "pdf/02_mod2_talakayan_ng_pabaong_gawain.pdf.pdf",
+        "path": "pdf/02_mod2_talakayan_ng_pabaong_gawain.pdf",
         "size_kb": 62.2
       },
       {
-        "path": "pdf/03_mod3_intro.pdf.pdf",
+        "path": "pdf/03_mod3_intro.pdf",
         "size_kb": 377.9
       },
       {
-        "path": "pdf/03_mod3_talakayan_ng_pabaong_gawain.pdf.pdf",
+        "path": "pdf/03_mod3_talakayan_ng_pabaong_gawain.pdf",
         "size_kb": 64.7
+      },
+      {
+        "path": "pdf/04_mod4_intro.pdf",
+        "size_kb": 495.3
+      },
+      {
+        "path": "pdf/04_mod4_talakayan_ng_pabaong_gawain.pdf",
+        "size_kb": 67.8
+      },
+      {
+        "path": "pdf/05_mod5_intro.pdf",
+        "size_kb": 275.9
+      },
+      {
+        "path": "pdf/05_mod5_mapa_skill.pdf",
+        "size_kb": 1827.5
+      },
+      {
+        "path": "pdf/05_mod5_pabaong_gawain.pdf",
+        "size_kb": 63.6
+      },
+      {
+        "path": "pdf/05_mod5_pagtatapos.pdf",
+        "size_kb": 65.7
+      },
+      {
+        "path": "pdf/05_mod5_panimulang_gawain.pdf",
+        "size_kb": 77.7
+      },
+      {
+        "path": "pdf/05_mod5_session_structure.pdf",
+        "size_kb": 80.5
+      },
+      {
+        "path": "pdf/05_mod5_talakayan_ng_pabaong_gawain.pdf",
+        "size_kb": 286.4
+      },
+      {
+        "path": "pdf/06_mod6_intro.pdf",
+        "size_kb": 657.2
+      },
+      {
+        "path": "pdf/06_mod6_talakayan_ng_pabaong_gawain.pdf",
+        "size_kb": 117.4
+      },
+      {
+        "path": "pdf/07_mod7_intro.pdf",
+        "size_kb": 756.6
+      },
+      {
+        "path": "pdf/08_mod8_intro.pdf",
+        "size_kb": 708.2
+      },
+      {
+        "path": "pdf/08_mod8_mapa_skill.pdf",
+        "size_kb": 2394.2
+      },
+      {
+        "path": "pdf/08_mod8_pabaong_gawain.pdf",
+        "size_kb": 288.7
+      },
+      {
+        "path": "pdf/08_mod8_pagdiriwang.pdf",
+        "size_kb": 413.2
+      },
+      {
+        "path": "pdf/08_mod8_pagtatapos.pdf",
+        "size_kb": 684.7
+      },
+      {
+        "path": "pdf/08_mod8_panimulang_gawain.pdf",
+        "size_kb": 75.9
+      },
+      {
+        "path": "pdf/08_mod8_session_structure.pdf",
+        "size_kb": 80.3
       },
       {
         "path": "pdf/module_3_guide.pdf",
@@ -724,11 +1096,6 @@
         "size_kb": 0.9
       },
       {
-        "path": "images/icons/group_add_dark.svg",
-        "count": 1,
-        "size_kb": 2.3
-      },
-      {
         "path": "images/icons/help.svg",
         "count": 1,
         "size_kb": 2.6
@@ -762,11 +1129,6 @@
         "path": "images/icons/person_cog.svg",
         "count": 1,
         "size_kb": 2.9
-      },
-      {
-        "path": "images/icons/person_remove.svg",
-        "count": 1,
-        "size_kb": 1.5
       },
       {
         "path": "images/icons/profile_card.svg",
@@ -990,7 +1352,7 @@
       {
         "type": "data_list",
         "subtype": null,
-        "total": 24
+        "total": 25
       },
       {
         "type": "data_list",

@@ -235,6 +235,14 @@
     {
       "type": "declare_global_constant",
       "name": "language",
+      "value": "Language",
+      "_translations": {
+        "value": {}
+      }
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "language_prompt",
       "value": "Choose a language:",
       "_translations": {
         "value": {}
