@@ -10,12 +10,16 @@
         "count": 1
       },
       {
+        "type": "apple_sign_in_button",
+        "count": 1
+      },
+      {
         "type": "audio",
         "count": 3
       },
       {
         "type": "button",
-        "count": 80
+        "count": 88
       },
       {
         "type": "carousel",
@@ -23,11 +27,11 @@
       },
       {
         "type": "combo_box",
-        "count": 7
+        "count": 12
       },
       {
         "type": "data_items",
-        "count": 34
+        "count": 39
       },
       {
         "type": "debug_toggle",
@@ -39,7 +43,7 @@
       },
       {
         "type": "display_group",
-        "count": 104
+        "count": 115
       },
       {
         "type": "drawer",
@@ -47,11 +51,11 @@
       },
       {
         "type": "google_sign_in_button",
-        "count": 2
+        "count": 3
       },
       {
         "type": "image",
-        "count": 11
+        "count": 12
       },
       {
         "type": "items",
@@ -79,7 +83,7 @@
       },
       {
         "type": "round_button",
-        "count": 30
+        "count": 32
       },
       {
         "type": "select_text",
@@ -87,7 +91,7 @@
       },
       {
         "type": "set_variable",
-        "count": 766
+        "count": 777
       },
       {
         "type": "simple_checkbox",
@@ -99,11 +103,11 @@
       },
       {
         "type": "task_progress_bar",
-        "count": 2
+        "count": 3
       },
       {
         "type": "template",
-        "count": 169
+        "count": 172
       },
       {
         "type": "test",
@@ -111,7 +115,7 @@
       },
       {
         "type": "text",
-        "count": 236
+        "count": 248
       },
       {
         "type": "text_area",
@@ -123,7 +127,7 @@
       },
       {
         "type": "title",
-        "count": 37
+        "count": 41
       },
       {
         "type": "toggle_bar",
@@ -155,11 +159,11 @@
       },
       {
         "type": "auth",
-        "count": 2
+        "count": 3
       },
       {
         "type": "emit: completed",
-        "count": 43
+        "count": 44
       },
       {
         "type": "emit: force_reload",
@@ -167,11 +171,11 @@
       },
       {
         "type": "emit: force_reprocess",
-        "count": 13
+        "count": 16
       },
       {
         "type": "emit: force_restart",
-        "count": 4
+        "count": 5
       },
       {
         "type": "emit: server_sync",
@@ -194,12 +198,16 @@
         "count": 33
       },
       {
+        "type": "height",
+        "count": 1
+      },
+      {
         "type": "nav_stack",
         "count": 6
       },
       {
         "type": "pop_up",
-        "count": 14
+        "count": 16
       },
       {
         "type": "reset_app",
@@ -211,11 +219,11 @@
       },
       {
         "type": "set_data",
-        "count": 17
+        "count": 20
       },
       {
         "type": "set_field",
-        "count": 54
+        "count": 61
       },
       {
         "type": "set_item",
@@ -223,7 +231,7 @@
       },
       {
         "type": "set_local",
-        "count": 73
+        "count": 74
       },
       {
         "type": "share",
@@ -231,7 +239,11 @@
       },
       {
         "type": "user",
-        "count": 3
+        "count": 4
+      },
+      {
+        "type": "width",
+        "count": 1
       }
     ]
   },
@@ -239,12 +251,12 @@
     "data": [
       {
         "assets": "total",
-        "KB": "67949 KB",
-        "MB": "67.9 MB"
+        "KB": "67960 KB",
+        "MB": "68 MB"
       },
       {
         "assets": "unused",
-        "KB": "43991 KB",
+        "KB": "43998 KB",
         "MB": "44 MB"
       }
     ]
@@ -310,6 +322,10 @@
       {
         "path": "images/backgrounds/library_bottom_left.svg",
         "size_kb": 2.3
+      },
+      {
+        "path": "images/backgrounds/library_top_right.svg",
+        "size_kb": 0.3
       },
       {
         "path": "images/backgrounds/report_edit.png",
@@ -632,6 +648,14 @@
         "size_kb": 2.3
       },
       {
+        "path": "images/icons/house_white.svg",
+        "size_kb": 0.4
+      },
+      {
+        "path": "images/icons/library.svg",
+        "size_kb": 1.7
+      },
+      {
         "path": "images/icons/paper_plane_white.svg",
         "size_kb": 1.4
       },
@@ -648,8 +672,24 @@
         "size_kb": 1.5
       },
       {
+        "path": "images/icons/plus_emoji.svg",
+        "size_kb": 0.9
+      },
+      {
         "path": "images/icons/reader_blue.svg",
         "size_kb": 1.4
+      },
+      {
+        "path": "images/icons/red_plus.svg",
+        "size_kb": 0.6
+      },
+      {
+        "path": "images/icons/report.svg",
+        "size_kb": 0.8
+      },
+      {
+        "path": "images/icons/settings.svg",
+        "size_kb": 2.4
       },
       {
         "path": "images/icons/task_0.png",
@@ -802,17 +842,12 @@
         "missing": true
       },
       {
-        "path": "images/icons/cog_white.svg",
-        "count": 2,
-        "missing": true
-      },
-      {
-        "path": "images/icons/in_progress.svg",
+        "path": "images/backgrounds/MaPa_logo.png",
         "count": 1,
         "missing": true
       },
       {
-        "path": "images/icons/library_white.svg",
+        "path": "images/icons/in_progress.svg",
         "count": 1,
         "missing": true
       },
@@ -868,7 +903,7 @@
       {
         "path": "images/backgrounds/MaPa_logo_with_background.png",
         "count": 1,
-        "size_kb": 190.6
+        "size_kb": 195.5
       },
       {
         "path": "images/backgrounds/home_bottom_right.svg",
@@ -1037,7 +1072,7 @@
       },
       {
         "path": "images/icons/add_circle.svg",
-        "count": 2,
+        "count": 3,
         "size_kb": 1
       },
       {
@@ -1066,13 +1101,18 @@
         "size_kb": 0.6
       },
       {
+        "path": "images/icons/cog_white.svg",
+        "count": 2,
+        "size_kb": 3.6
+      },
+      {
         "path": "images/icons/content.svg",
         "count": 1,
         "size_kb": 7.2
       },
       {
         "path": "images/icons/delete.svg",
-        "count": 3,
+        "count": 4,
         "size_kb": 0.8
       },
       {
@@ -1116,9 +1156,14 @@
         "size_kb": 1.5
       },
       {
+        "path": "images/icons/library_white.svg",
+        "count": 1,
+        "size_kb": 2.8
+      },
+      {
         "path": "images/icons/pencil_white.svg",
         "count": 1,
-        "size_kb": 1.4
+        "size_kb": 2
       },
       {
         "path": "images/icons/people_network.svg",
@@ -1352,7 +1397,7 @@
       {
         "type": "data_list",
         "subtype": null,
-        "total": 25
+        "total": 31
       },
       {
         "type": "data_list",
@@ -1402,7 +1447,7 @@
       {
         "type": "template",
         "subtype": null,
-        "total": 75
+        "total": 78
       },
       {
         "type": "template",

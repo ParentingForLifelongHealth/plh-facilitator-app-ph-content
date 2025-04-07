@@ -239,14 +239,6 @@
       "_translations": {
         "value": {}
       }
-    },
-    {
-      "type": "declare_global_constant",
-      "name": "language_prompt",
-      "value": "Choose a language:",
-      "_translations": {
-        "value": {}
-      }
     }
   ],
   "_xlsxPath": "data/deployment_data_ph.xlsx"

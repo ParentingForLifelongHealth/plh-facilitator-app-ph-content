@@ -1,0 +1,26 @@
+{
+  "flow_type": "data_list",
+  "flow_name": "user_config",
+  "status": "released",
+  "data_list_name": "user_config",
+  "rows": [
+    {
+      "id": "page_1",
+      "completed": false
+    },
+    {
+      "id": "page_2",
+      "completed": false
+    },
+    {
+      "id": "page_3",
+      "completed": false
+    }
+  ],
+  "_xlsxPath": "templates/app_launch_override.xlsx",
+  "_metadata": {
+    "completed": {
+      "type": "boolean"
+    }
+  }
+}

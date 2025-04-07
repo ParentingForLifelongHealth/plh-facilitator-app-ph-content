@@ -76,8 +76,8 @@
     "size_kb": 4.7
   },
   "images/backgrounds/MaPa_logo_with_background.png": {
-    "md5Checksum": "8f070969ee64561b3cac214e63245ad1",
-    "size_kb": 190.6
+    "md5Checksum": "be9ced4cc53df1a897299cf247cfcd27",
+    "size_kb": 195.5
   },
   "images/backgrounds/home_bottom_right.svg": {
     "md5Checksum": "d1e5c20120116837424d9a646f8ee10e",
@@ -90,6 +90,10 @@
   "images/backgrounds/library_bottom_left.svg": {
     "md5Checksum": "a59168c9e9ce9f722cda2c54f3eae369",
     "size_kb": 2.3
+  },
+  "images/backgrounds/library_top_right.svg": {
+    "md5Checksum": "2a8f32d264768ab0036997f6026883df",
+    "size_kb": 0.3
   },
   "images/backgrounds/report_edit.png": {
     "md5Checksum": "c7c6dffe196f54bfe36c2b8cc973cd64",
@@ -547,6 +551,10 @@
     "md5Checksum": "1be7ee8ef948e4080cae2badd9cdfe74",
     "size_kb": 1.2
   },
+  "images/icons/cog_white.svg": {
+    "md5Checksum": "8d4f5938ab8dcdac16104e688fbce50e",
+    "size_kb": 3.6
+  },
   "images/icons/content.svg": {
     "md5Checksum": "be5b6579df10ff99b930cc87494a3945",
     "size_kb": 7.2
@@ -591,6 +599,10 @@
     "md5Checksum": "8295155017de0dbe37fac5b29cbbf75b",
     "size_kb": 1.7
   },
+  "images/icons/house_white.svg": {
+    "md5Checksum": "d0558943ea920f94b2c1b44a7038e006",
+    "size_kb": 0.4
+  },
   "images/icons/key.svg": {
     "md5Checksum": "4562489152bfb97bcac63e5398cf6a31",
     "size_kb": 5.5
@@ -599,13 +611,21 @@
     "md5Checksum": "90469558432e9eb51d9e4931951e0d6c",
     "size_kb": 1.5
   },
+  "images/icons/library.svg": {
+    "md5Checksum": "77214391fe0224be8bd644c24649878d",
+    "size_kb": 1.7
+  },
+  "images/icons/library_white.svg": {
+    "md5Checksum": "750f9dbe40645067e953df8f92b51598",
+    "size_kb": 2.8
+  },
   "images/icons/paper_plane_white.svg": {
     "md5Checksum": "2543ae3bac7582aa96103aadc372e175",
     "size_kb": 1.4
   },
   "images/icons/pencil_white.svg": {
-    "md5Checksum": "cb11de3cf5b5f3341d9a4df5378595e3",
-    "size_kb": 1.4
+    "md5Checksum": "6f305fc6dd7551f39387cb49b8a37299",
+    "size_kb": 2
   },
   "images/icons/people_network.svg": {
     "md5Checksum": "c14d8d94530073424cbf99515095e932",
@@ -627,6 +647,10 @@
     "md5Checksum": "d7d788336585562ba8a3574ff152bbb5",
     "size_kb": 1.5
   },
+  "images/icons/plus_emoji.svg": {
+    "md5Checksum": "4506997aad103fa0c02efe8a4f47c18c",
+    "size_kb": 0.9
+  },
   "images/icons/profile_card.svg": {
     "md5Checksum": "a876c58133c1701508f960074b70376b",
     "size_kb": 7.4
@@ -634,6 +658,10 @@
   "images/icons/reader_blue.svg": {
     "md5Checksum": "841a27e6e013d797d2bcf20391632cee",
     "size_kb": 1.4
+  },
+  "images/icons/red_plus.svg": {
+    "md5Checksum": "d212c773a5395b510dd60ee80b62caa6",
+    "size_kb": 0.6
   },
   "images/icons/reminder.png": {
     "md5Checksum": "85fd4606c803ce911da8a04d56af18d7",
@@ -643,6 +671,10 @@
     "md5Checksum": "b6af464babccaa28c69db41675c70be5",
     "size_kb": 1.1
   },
+  "images/icons/report.svg": {
+    "md5Checksum": "3ec22ef6d82b1b3a87590b4a19ddf93e",
+    "size_kb": 0.8
+  },
   "images/icons/sessions.png": {
     "md5Checksum": "ffa16ffa4f697bf9d81d5933e78058f4",
     "size_kb": 1.3
@@ -650,6 +682,10 @@
   "images/icons/settings.png": {
     "md5Checksum": "171008694d663cee3a923e739e755c78",
     "size_kb": 1.1
+  },
+  "images/icons/settings.svg": {
+    "md5Checksum": "32f77811e7ac8128c04e0c9cc63df1b7",
+    "size_kb": 2.4
   },
   "images/icons/share.svg": {
     "md5Checksum": "97cf4442204e48f1592e0cca9d58623b",

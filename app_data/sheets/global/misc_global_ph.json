@@ -5,78 +5,6 @@
   "rows": [
     {
       "type": "declare_global_constant",
-      "name": "login",
-      "value": "Sign in",
-      "_translations": {
-        "value": {}
-      }
-    },
-    {
-      "type": "declare_global_constant",
-      "name": "login_google",
-      "value": "Sign in with Google",
-      "_translations": {
-        "value": {}
-      }
-    },
-    {
-      "type": "declare_global_constant",
-      "name": "logout",
-      "value": "Sign out",
-      "_translations": {
-        "value": {}
-      }
-    },
-    {
-      "type": "declare_global_constant",
-      "name": "create_an_account",
-      "value": "Create an account",
-      "_translations": {
-        "value": {}
-      }
-    },
-    {
-      "type": "declare_global_constant",
-      "name": "create_account_question",
-      "value": "Creating an account allows you to save your progress across devices. It is optional.",
-      "_translations": {
-        "value": {}
-      }
-    },
-    {
-      "type": "declare_global_constant",
-      "name": "skip",
-      "value": "Skip",
-      "_translations": {
-        "value": {}
-      }
-    },
-    {
-      "type": "declare_global_constant",
-      "name": "skip_login",
-      "value": "Continue without an account",
-      "_translations": {
-        "value": {}
-      }
-    },
-    {
-      "type": "declare_global_constant",
-      "name": "logged_in_splash",
-      "value": "Excited to have you here! Let’s keep going.",
-      "_translations": {
-        "value": {}
-      }
-    },
-    {
-      "type": "declare_global_constant",
-      "name": "logged_in_splash_user",
-      "value": "Excited to have you here @fields._auth_user_given_name! Let’s keep going.",
-      "_translations": {
-        "value": {}
-      }
-    },
-    {
-      "type": "declare_global_constant",
       "name": "logged_in",
       "value": "You are signed in.",
       "_translations": {
@@ -111,6 +39,174 @@
       "type": "declare_global_constant",
       "name": "continue",
       "value": "Continue",
+      "_translations": {
+        "value": {}
+      }
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "next",
+      "value": "Next",
+      "_translations": {
+        "value": {}
+      }
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "save",
+      "value": "Save",
+      "_translations": {
+        "value": {}
+      }
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "language_prompt",
+      "value": "Choose a language:",
+      "_translations": {
+        "value": {}
+      }
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "welcome_message",
+      "value": "Welcome to FacilitatorApp 2.0",
+      "_translations": {
+        "value": {}
+      }
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "login",
+      "value": "Login or Sign up",
+      "_translations": {
+        "value": {}
+      }
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "login_google",
+      "value": "Sign in with Google",
+      "_translations": {
+        "value": {}
+      }
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "login_apple",
+      "value": "Sign in with Apple",
+      "_translations": {
+        "value": {}
+      }
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "agree_terms",
+      "value": "By continuing, you agree to our **Terms and Conditions** and **Privacy Policy**.",
+      "_translations": {
+        "value": {}
+      }
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "logged_in_splash",
+      "value": "Welcome!",
+      "_translations": {
+        "value": {}
+      }
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "logged_in_splash_user",
+      "value": "Welcome @fields._auth_user_given_name!",
+      "_translations": {
+        "value": {}
+      }
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "logged_in_text",
+      "value": "Before we begin, tell us about yourself.",
+      "_translations": {
+        "value": {}
+      }
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "choose_role",
+      "value": "Choose your role:",
+      "_translations": {
+        "value": {}
+      }
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "select_response",
+      "value": "Select a response",
+      "_translations": {
+        "value": {}
+      }
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "choose_organisation",
+      "value": "Choose your organisation:",
+      "_translations": {
+        "value": {}
+      }
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "choose_region",
+      "value": "Choose your region:",
+      "_translations": {
+        "value": {}
+      }
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "no_region",
+      "value": "First select your region",
+      "_translations": {
+        "value": {}
+      }
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "choose_province",
+      "value": "Choose your province:",
+      "_translations": {
+        "value": {}
+      }
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "no_province",
+      "value": "First select your province",
+      "_translations": {
+        "value": {}
+      }
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "choose_city",
+      "value": "Choose your city/municipality:",
+      "_translations": {
+        "value": {}
+      }
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "finish_profile_title",
+      "value": "You're all set!",
+      "_translations": {
+        "value": {}
+      }
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "finish_profile_text",
+      "value": "Your profile is complete, and you're ready to begin!",
       "_translations": {
         "value": {}
       }

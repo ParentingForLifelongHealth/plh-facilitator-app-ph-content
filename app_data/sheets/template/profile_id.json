@@ -293,6 +293,80 @@
       }
     },
     {
+      "type": "template",
+      "name": "message_element",
+      "value": "message_element",
+      "rows": [
+        {
+          "name": "title",
+          "value": "@global.co_facilitator_share_title",
+          "_translations": {
+            "value": {}
+          },
+          "type": "set_variable",
+          "_nested_name": "message_element.title",
+          "_dynamicFields": {
+            "value": [
+              {
+                "fullExpression": "@global.co_facilitator_share_title",
+                "matchedExpression": "@global.co_facilitator_share_title",
+                "type": "global",
+                "fieldName": "co_facilitator_share_title"
+              }
+            ]
+          },
+          "_dynamicDependencies": {
+            "@global.co_facilitator_share_title": [
+              "value"
+            ]
+          }
+        },
+        {
+          "name": "message_text",
+          "value": "@global.co_facilitator_share_start @local.user_id @global.co_facilitator_share_end",
+          "_translations": {
+            "value": {}
+          },
+          "type": "set_variable",
+          "_nested_name": "message_element.message_text",
+          "_dynamicFields": {
+            "value": [
+              {
+                "fullExpression": "@global.co_facilitator_share_start @local.user_id @global.co_facilitator_share_end",
+                "matchedExpression": "@global.co_facilitator_share_start",
+                "type": "global",
+                "fieldName": "co_facilitator_share_start"
+              },
+              {
+                "fullExpression": "@global.co_facilitator_share_start @local.user_id @global.co_facilitator_share_end",
+                "matchedExpression": "@local.user_id",
+                "type": "local",
+                "fieldName": "user_id"
+              },
+              {
+                "fullExpression": "@global.co_facilitator_share_start @local.user_id @global.co_facilitator_share_end",
+                "matchedExpression": "@global.co_facilitator_share_end",
+                "type": "global",
+                "fieldName": "co_facilitator_share_end"
+              }
+            ]
+          },
+          "_dynamicDependencies": {
+            "@global.co_facilitator_share_start": [
+              "value"
+            ],
+            "@local.user_id": [
+              "value"
+            ],
+            "@global.co_facilitator_share_end": [
+              "value"
+            ]
+          }
+        }
+      ],
+      "_nested_name": "message_element"
+    },
+    {
       "type": "display_group",
       "name": "dg_bottom",
       "parameter_list": {
@@ -509,5 +583,5 @@
       "_nested_name": "dg_bottom"
     }
   ],
-  "_xlsxPath": "templates/profile.xlsx"
+  "_xlsxPath": "templates/profile_override.xlsx"
 }

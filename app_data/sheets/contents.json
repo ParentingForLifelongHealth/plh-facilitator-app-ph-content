@@ -285,6 +285,47 @@
       "flow_name": "tag_data",
       "data_list_name": "tag",
       "_xlsxPath": "data/FacilitatorApp PH articles.xlsx"
+    },
+    "user_city": {
+      "flow_type": "data_list",
+      "flow_name": "user_city",
+      "data_list_name": "user_city",
+      "_xlsxPath": "templates/app_launch_override.xlsx"
+    },
+    "user_config": {
+      "flow_type": "data_list",
+      "flow_name": "user_config",
+      "data_list_name": "user_config",
+      "_xlsxPath": "templates/app_launch_override.xlsx",
+      "_metadata": {
+        "completed": {
+          "type": "boolean"
+        }
+      }
+    },
+    "user_organisation": {
+      "flow_type": "data_list",
+      "flow_name": "user_organisation",
+      "data_list_name": "user_organisation",
+      "_xlsxPath": "templates/app_launch_override.xlsx"
+    },
+    "user_province": {
+      "flow_type": "data_list",
+      "flow_name": "user_province",
+      "data_list_name": "user_province",
+      "_xlsxPath": "templates/app_launch_override.xlsx"
+    },
+    "user_region": {
+      "flow_type": "data_list",
+      "flow_name": "user_region",
+      "data_list_name": "user_region",
+      "_xlsxPath": "templates/app_launch_override.xlsx"
+    },
+    "user_type": {
+      "flow_type": "data_list",
+      "flow_name": "user_type",
+      "data_list_name": "user_type",
+      "_xlsxPath": "templates/app_launch_override.xlsx"
     }
   },
   "data_pipe": {
@@ -2676,7 +2717,7 @@
     "add_parent_group": {
       "flow_type": "template",
       "flow_name": "add_parent_group",
-      "_xlsxPath": "templates/profile.xlsx"
+      "_xlsxPath": "templates/profile_override.xlsx"
     },
     "add_remote": {
       "flow_type": "template",
@@ -2743,6 +2784,11 @@
       "flow_name": "article_story_base",
       "_xlsxPath": "templates/article_loop_override.xlsx"
     },
+    "co_facilitator": {
+      "flow_type": "template",
+      "flow_name": "co_facilitator",
+      "_xlsxPath": "templates/profile_override.xlsx"
+    },
     "delete_group": {
       "flow_type": "template",
       "flow_name": "delete_group",
@@ -2776,7 +2822,7 @@
     "edit_parent_group": {
       "flow_type": "template",
       "flow_name": "edit_parent_group",
-      "_xlsxPath": "templates/profile.xlsx"
+      "_xlsxPath": "templates/profile_override.xlsx"
     },
     "edit_remote": {
       "flow_type": "template",
@@ -3572,6 +3618,11 @@
       "flow_name": "login",
       "_xlsxPath": "templates/app_launch.xlsx"
     },
+    "login_terms": {
+      "flow_type": "template",
+      "flow_name": "login_terms",
+      "_xlsxPath": "templates/app_launch_override.xlsx"
+    },
     "loop_issues": {
       "flow_type": "template",
       "flow_name": "loop_issues",
@@ -3650,14 +3701,7 @@
     "profile": {
       "flow_type": "template",
       "flow_name": "profile",
-      "parameter_list": {
-        "app_config": {
-          "LAYOUT": {
-            "page_padding": "24px 0"
-          }
-        }
-      },
-      "_xlsxPath": "templates/profile.xlsx"
+      "_xlsxPath": "templates/profile_override.xlsx"
     },
     "profile_about": {
       "flow_type": "template",
@@ -3677,7 +3721,7 @@
     "profile_id": {
       "flow_type": "template",
       "flow_name": "profile_id",
-      "_xlsxPath": "templates/profile.xlsx"
+      "_xlsxPath": "templates/profile_override.xlsx"
     },
     "profile_login": {
       "flow_type": "template",
@@ -3713,6 +3757,11 @@
       "flow_type": "template",
       "flow_name": "section_header",
       "_xlsxPath": "templates/navigation.xlsx"
+    },
+    "user_config_splash": {
+      "flow_type": "template",
+      "flow_name": "user_config_splash",
+      "_xlsxPath": "templates/app_launch_override.xlsx"
     },
     "virtual_form": {
       "flow_type": "template",

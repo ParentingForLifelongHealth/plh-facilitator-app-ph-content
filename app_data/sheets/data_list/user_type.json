@@ -1,0 +1,74 @@
+{
+  "flow_type": "data_list",
+  "flow_name": "user_type",
+  "status": "released",
+  "data_list_name": "user_type",
+  "rows": [
+    {
+      "id": "facilitator",
+      "name": "facilitator",
+      "text": "Facilitator/Co-facilitator",
+      "_translations": {
+        "text": {}
+      },
+      "_translatedFields": {
+        "text": {
+          "eng": "Facilitator/Co-facilitator"
+        }
+      }
+    },
+    {
+      "id": "coach",
+      "name": "coach",
+      "text": "Coach/Trainer",
+      "_translations": {
+        "text": {}
+      },
+      "_translatedFields": {
+        "text": {
+          "eng": "Coach/Trainer"
+        }
+      }
+    },
+    {
+      "id": "gov_ngo",
+      "name": "gov_ngo",
+      "text": "Government/NGO Admin",
+      "_translations": {
+        "text": {}
+      },
+      "_translatedFields": {
+        "text": {
+          "eng": "Government/NGO Admin"
+        }
+      }
+    },
+    {
+      "id": "tester",
+      "name": "tester",
+      "text": "System tester",
+      "_translations": {
+        "text": {}
+      },
+      "_translatedFields": {
+        "text": {
+          "eng": "System tester"
+        }
+      }
+    },
+    {
+      "id": "other",
+      "name": "other",
+      "text": "None of the above",
+      "_translations": {
+        "text": {}
+      },
+      "_translatedFields": {
+        "text": {
+          "eng": "None of the above"
+        }
+      }
+    }
+  ],
+  "_xlsxPath": "templates/app_launch_override.xlsx"
+}
