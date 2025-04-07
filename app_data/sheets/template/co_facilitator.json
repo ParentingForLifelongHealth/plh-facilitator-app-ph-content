@@ -1,0 +1,89 @@
+{
+  "flow_type": "template",
+  "flow_name": "co_facilitator",
+  "status": "released",
+  "rows": [
+    {
+      "type": "display_group",
+      "rows": [
+        {
+          "type": "text",
+          "value": "Add Co-Facilitator",
+          "_translations": {
+            "value": {}
+          },
+          "style_list": [
+            "color: #74777C"
+          ],
+          "name": "text_1",
+          "_nested_name": "display_group_2.text_1"
+        },
+        {
+          "type": "round_button",
+          "parameter_list": {
+            "variant": "no-background",
+            "icon_src": "images/icons/add_circle.svg"
+          },
+          "name": "round_button_2",
+          "_nested_name": "display_group_2.round_button_2"
+        }
+      ],
+      "name": "display_group_2",
+      "_nested_name": "display_group_2"
+    },
+    {
+      "type": "display_group",
+      "rows": [
+        {
+          "type": "text",
+          "value": "4a49aac8-6bd9-48eb-ad50-4a66a1",
+          "_translations": {
+            "value": {}
+          },
+          "style_list": [
+            "flex: 1"
+          ],
+          "name": "text_1",
+          "_nested_name": "display_group_4.text_1"
+        },
+        {
+          "type": "round_button",
+          "name": "button_delete_@item.id",
+          "parameter_list": {
+            "variant": "no-background",
+            "icon_src": "images/icons/delete.svg"
+          },
+          "condition": true,
+          "_nested_name": "display_group_4.button_delete_@item.id",
+          "_dynamicFields": {
+            "name": [
+              {
+                "fullExpression": "button_delete_@item.id",
+                "matchedExpression": "@item.id",
+                "type": "item",
+                "fieldName": "id"
+              }
+            ],
+            "_nested_name": [
+              {
+                "fullExpression": "display_group_4.button_delete_@item.id",
+                "matchedExpression": "@item.id",
+                "type": "item",
+                "fieldName": "id"
+              }
+            ]
+          },
+          "_dynamicDependencies": {
+            "@item.id": [
+              "name",
+              "_nested_name"
+            ]
+          }
+        }
+      ],
+      "name": "display_group_4",
+      "_nested_name": "display_group_4"
+    }
+  ],
+  "_xlsxPath": "templates/profile_override.xlsx"
+}

@@ -1050,7 +1050,7 @@
       "asset_type": "",
       "asset": "",
       "ignore": 41,
-      "title": "Comic about a Teenage Child: Talking about Feelings",
+      "title": "Comic for Teens (Sharing Our Own Emotions)",
       "_translations": {
         "title": {},
         "text": {},
@@ -1058,7 +1058,7 @@
       },
       "_translatedFields": {
         "title": {
-          "eng": "Comic about a Teenage Child: Talking about Feelings"
+          "eng": "Comic for Teens (Sharing Our Own Emotions)"
         },
         "text": {
           "eng": "Here is another comic of parents talking about a difficult emotion with their teen:"
@@ -1194,11 +1194,11 @@
           "eng": "Any other questions about talking about emotions?"
         },
         "guidance": {
-          "eng": "Allow about a minute for parents to raise any questions. Remember\nto thank parents for their questions. Before giving your own answer, give the group a\nchance to come up with ideas by asking, “That’s a great question, what does everyone\nthink?”"
+          "eng": "Allow about a minute for parents to raise any questions. Remember to thank parents for their questions. Before giving your own answer, give the group a chance to come up with ideas by asking, “That’s a great question, what does everyone think?”"
         }
       },
       "text": "Any other questions about talking about emotions?",
-      "guidance": "Allow about a minute for parents to raise any questions. Remember\nto thank parents for their questions. Before giving your own answer, give the group a\nchance to come up with ideas by asking, “That’s a great question, what does everyone\nthink?”"
+      "guidance": "Allow about a minute for parents to raise any questions. Remember to thank parents for their questions. Before giving your own answer, give the group a chance to come up with ideas by asking, “That’s a great question, what does everyone think?”"
     },
     {
       "id": "message_47",

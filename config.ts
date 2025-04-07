@@ -19,7 +19,7 @@ config.google_drive.assets_folder_ids = [
 
 config.git = {
   content_repo: "https://github.com/IDEMSInternational/plh-facilitator-app-ph-content.git",
-  content_tag_latest: "1.1.28",
+  content_tag_latest: "1.1.29",
 };
 
 config.firebase = {

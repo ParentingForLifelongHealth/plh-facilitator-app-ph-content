@@ -346,6 +346,30 @@
       "_translations": {
         "value": {}
       }
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "co_facilitator_share_title",
+      "value": "Send this message to the Facilitator who runs the group",
+      "_translations": {
+        "value": {}
+      }
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "co_facilitator_share_start",
+      "value": "Hello, \nPlease add me as a co-facilitator!\nHere's how:\n1. Open the Facilitator App.\n2. Click on 'Your Parent Groups'\n3. Select EDIT on the Group.\n4. Click 'Add Co-Facilitator'\n5. Enter this ID:",
+      "_translations": {
+        "value": {}
+      }
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "co_facilitator_share_end",
+      "value": "Excited to be on board!",
+      "_translations": {
+        "value": {}
+      }
     }
   ],
   "_xlsxPath": "data/deployment_data_ph.xlsx"

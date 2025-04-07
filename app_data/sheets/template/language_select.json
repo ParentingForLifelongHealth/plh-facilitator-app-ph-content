@@ -12,7 +12,7 @@
         "background_image_position": "top"
       },
       "style_list": [
-        "min-height: 192px",
+        "min-height: 300px",
         "width: 100%"
       ],
       "rows": [],
@@ -24,6 +24,9 @@
       "value": "@global.language_prompt",
       "_translations": {
         "value": {}
+      },
+      "parameter_list": {
+        "variant": "header"
       },
       "_nested_name": "title",
       "_dynamicFields": {

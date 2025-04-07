@@ -1,0 +1,94 @@
+{
+  "flow_type": "data_list",
+  "flow_name": "user_region",
+  "status": "released",
+  "data_list_name": "user_region",
+  "rows": [
+    {
+      "id": "ilocos_region",
+      "name": "ilocos_region",
+      "text": "Ilocos Region (Region I)"
+    },
+    {
+      "id": "cagayan_valley",
+      "name": "cagayan_valley",
+      "text": "Cagayan Valley (Region II)"
+    },
+    {
+      "id": "central_luzon",
+      "name": "central_luzon",
+      "text": "Central Luzon (Region III)"
+    },
+    {
+      "id": "calabarzon",
+      "name": "calabarzon",
+      "text": "Calabarzon (Region IV-A)"
+    },
+    {
+      "id": "mimaropa",
+      "name": "mimaropa",
+      "text": "Mimaropa (Region IV-B)"
+    },
+    {
+      "id": "bicol_region",
+      "name": "bicol_region",
+      "text": "Bicol Region (Region V)"
+    },
+    {
+      "id": "national_capital_region",
+      "name": "national_capital_region",
+      "text": "National Capital Region (NCR)"
+    },
+    {
+      "id": "cordillera_administrative_region",
+      "name": "cordillera_administrative_region",
+      "text": "Cordillera Administrative Region (CAR)"
+    },
+    {
+      "id": "western_visayas",
+      "name": "western_visayas",
+      "text": "Western Visayas (Region VI)"
+    },
+    {
+      "id": "central_visayas",
+      "name": "central_visayas",
+      "text": "Central Visayas (Region VII)"
+    },
+    {
+      "id": "eastern_visayas",
+      "name": "eastern_visayas",
+      "text": "Eastern Visayas (Region VIII)"
+    },
+    {
+      "id": "zamboanga_peninsula",
+      "name": "zamboanga_peninsula",
+      "text": "Zamboanga Peninsula (Region IX)"
+    },
+    {
+      "id": "northern_mindanao",
+      "name": "northern_mindanao",
+      "text": "Northern Mindanao (Region X)"
+    },
+    {
+      "id": "davao_region",
+      "name": "davao_region",
+      "text": "Davao Region (Region XI)"
+    },
+    {
+      "id": "soccsksargen",
+      "name": "soccsksargen",
+      "text": "Soccsksargen (Region XII)"
+    },
+    {
+      "id": "caraga",
+      "name": "caraga",
+      "text": "Caraga (Region XIII)"
+    },
+    {
+      "id": "bangsamoro_autonomous_region_in_muslim_mindanao",
+      "name": "bangsamoro_autonomous_region_in_muslim_mindanao",
+      "text": "Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)"
+    }
+  ],
+  "_xlsxPath": "templates/app_launch_override.xlsx"
+}
