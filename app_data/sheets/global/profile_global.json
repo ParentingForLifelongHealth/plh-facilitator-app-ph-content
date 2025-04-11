@@ -134,7 +134,7 @@
     {
       "type": "declare_global_constant",
       "name": "edit_first_name",
-      "value": "First Name",
+      "value": "Enter First Name",
       "_translations": {
         "value": {}
       }
@@ -142,7 +142,7 @@
     {
       "type": "declare_global_constant",
       "name": "edit_last_name",
-      "value": "Last Name",
+      "value": "Enter Last Name",
       "_translations": {
         "value": {}
       }
@@ -150,7 +150,7 @@
     {
       "type": "declare_global_constant",
       "name": "edit_number",
-      "value": "Contact Number",
+      "value": "Enter Contact Number",
       "_translations": {
         "value": {}
       }
@@ -158,7 +158,7 @@
     {
       "type": "declare_global_constant",
       "name": "edit_age",
-      "value": "Age",
+      "value": "Enter Age",
       "_translations": {
         "value": {}
       }
@@ -166,7 +166,7 @@
     {
       "type": "declare_global_constant",
       "name": "edit_sex",
-      "value": "Sex",
+      "value": "Enter Sex",
       "_translations": {
         "value": {}
       }
@@ -174,7 +174,7 @@
     {
       "type": "declare_global_constant",
       "name": "edit_child_name",
-      "value": "Name",
+      "value": "Enter Name",
       "_translations": {
         "value": {}
       }
@@ -182,7 +182,7 @@
     {
       "type": "declare_global_constant",
       "name": "edit_child_age",
-      "value": "Age",
+      "value": "Enter Age",
       "_translations": {
         "value": {}
       }
@@ -190,7 +190,7 @@
     {
       "type": "declare_global_constant",
       "name": "edit_child_sex",
-      "value": "Sex",
+      "value": "Enter Sex",
       "_translations": {
         "value": {}
       }
@@ -198,7 +198,7 @@
     {
       "type": "declare_global_constant",
       "name": "edit_relationship",
-      "value": "Relationship",
+      "value": "Enter Relationship",
       "_translations": {
         "value": {}
       }
@@ -206,7 +206,7 @@
     {
       "type": "declare_global_constant",
       "name": "edit_members",
-      "value": "How many family members are they",
+      "value": "Enter How many family members are they",
       "_translations": {
         "value": {}
       }
@@ -214,7 +214,7 @@
     {
       "type": "declare_global_constant",
       "name": "edit_childcare",
-      "value": "Who else is taking car of the child",
+      "value": "Enter Who else is taking car of the child",
       "_translations": {
         "value": {}
       }
@@ -222,7 +222,7 @@
     {
       "type": "declare_global_constant",
       "name": "edit_goal",
-      "value": "Parents goal",
+      "value": "Enter Parents goal",
       "_translations": {
         "value": {}
       }
@@ -230,7 +230,7 @@
     {
       "type": "declare_global_constant",
       "name": "edit_other_notes",
-      "value": "Other notes",
+      "value": "Enter Other notes",
       "_translations": {
         "value": {}
       }
@@ -238,7 +238,7 @@
     {
       "type": "declare_global_constant",
       "name": "edit_consoltation",
-      "value": "Date of Consultation",
+      "value": "Enter Date of Consultation",
       "_translations": {
         "value": {}
       }

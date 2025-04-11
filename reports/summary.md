@@ -7,34 +7,34 @@
 | accordion_section | 1 |
 | apple_sign_in_button | 1 |
 | audio | 3 |
-| button | 88 |
+| button | 89 |
 | carousel | 2 |
 | combo_box | 12 |
 | data_items | 39 |
 | debug_toggle | 1 |
 | display_grid | 2 |
-| display_group | 115 |
+| display_group | 118 |
 | drawer | 1 |
 | google_sign_in_button | 3 |
-| image | 12 |
+| image | 13 |
 | items | 25 |
 | lottie_animation | 2 |
 | navigation_bar | 2 |
 | pdf | 1 |
 | qr_code | 1 |
 | radio_button_grid | 16 |
-| round_button | 32 |
+| round_button | 38 |
 | select_text | 1 |
-| set_variable | 777 |
+| set_variable | 780 |
 | simple_checkbox | 2 |
 | task_card | 3 |
 | task_progress_bar | 3 |
 | template | 172 |
 | test | 1 |
-| text | 248 |
+| text | 250 |
 | text_area | 2 |
 | text_box | 48 |
-| title | 41 |
+| title | 42 |
 | toggle_bar | 5 |
 | update_action_list | 3 |
 | video | 3 |
@@ -46,7 +46,7 @@
 
 | type | count |
 | --- | --- |
-| add_data | 5 |
+| add_data | 6 |
 | app_update | 1 |
 | auth | 3 |
 | emit: completed | 44 |
@@ -60,14 +60,14 @@
 | go_to | 33 |
 | height | 1 |
 | nav_stack | 6 |
-| pop_up | 16 |
+| pop_up | 19 |
 | reset_app | 1 |
 | save_to_device | 4 |
 | set_data | 20 |
 | set_field | 61 |
 | set_item | 6 |
-| set_local | 74 |
-| share | 2 |
+| set_local | 76 |
+| share | 4 |
 | user | 4 |
 | width | 1 |
 </details>
@@ -77,8 +77,8 @@
 
 | assets | KB | MB |
 | --- | --- | --- |
-| total | 67960 KB | 68 MB |
-| unused | 43998 KB | 44 MB |
+| total | 67962 KB | 68 MB |
+| unused | 43996 KB | 44 MB |
 </details>
 
 <details open>
@@ -100,7 +100,6 @@ Assets that appear in app-data but do not have references within sheets
 | images/06_masayang_tahanan.jpg | 379.5 |
 | images/07_masayang_tahanan.jpg | 455.5 |
 | images/08_masayang_tahanan.jpg | 455.5 |
-| images/Message.png | 10.4 |
 | images/Message.svg | 0.7 |
 | images/backgrounds/library_bottom_left.svg | 2.3 |
 | images/backgrounds/library_top_right.svg | 0.3 |
@@ -184,7 +183,7 @@ Assets that appear in app-data but do not have references within sheets
 | images/icons/globe_blue.svg | 3.9 |
 | images/icons/group_add.svg | 2.2 |
 | images/icons/group_add_dark.svg | 2.3 |
-| images/icons/house_white.svg | 0.4 |
+| images/icons/library.png | 1.5 |
 | images/icons/library.svg | 1.7 |
 | images/icons/paper_plane_white.svg | 1.4 |
 | images/icons/person_cog.png | 0.8 |
@@ -193,10 +192,15 @@ Assets that appear in app-data but do not have references within sheets
 | images/icons/plus_emoji.svg | 0.9 |
 | images/icons/reader_blue.svg | 1.4 |
 | images/icons/red_plus.svg | 0.6 |
+| images/icons/report.png | 1.1 |
 | images/icons/report.svg | 0.8 |
+| images/icons/sessions.png | 1.3 |
+| images/icons/settings.png | 1.1 |
 | images/icons/settings.svg | 2.4 |
 | images/icons/task_0.png | 2 |
 | images/logos/bird_on_dark.svg | 2.1 |
+| images/logos/bird_white.svg | 1.9 |
+| images/message.png | 1.3 |
 | images/person_cog.png | 0.8 |
 | pdf/01_mod1_intro.pdf | 650.7 |
 | pdf/01_mod1_layunin.pdf | 513.8 |
@@ -240,7 +244,6 @@ Assets that have references within sheets but do not appear in app-data
 | --- | --- |
 | .png | 1 |
 | @data.pdf | 3 |
-| images/backgrounds/MaPa_logo.png | 1 |
 | images/icons/in_progress.svg | 1 |
 | images/icons/tick.svg | 1 |
 | pdf/module_1_building_block.pdf | 1 |
@@ -300,27 +303,27 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | images/icons/arrow_forward.svg | 0.4 | 3 |
 | images/icons/cancel.svg | 1.7 | 2 |
 | images/icons/check_circle.png | 0.6 | 1 |
-| images/icons/cog_white.svg | 3.6 | 2 |
-| images/icons/content.svg | 7.2 | 1 |
+| images/icons/cog_white.svg | 3.6 | 1 |
+| images/icons/content.svg | 7.2 | 2 |
+| images/icons/copy-outline.svg | 0.4 | 2 |
 | images/icons/delete.svg | 0.8 | 4 |
 | images/icons/docs.svg | 0.7 | 1 |
 | images/icons/download.svg | 0.7 | 2 |
 | images/icons/download_white.svg | 0.7 | 1 |
 | images/icons/edit.svg | 0.9 | 5 |
+| images/icons/feather.svg | 4.6 | 1 |
 | images/icons/help.svg | 2.6 | 1 |
 | images/icons/home_white.svg | 1.7 | 1 |
+| images/icons/house_white.svg | 0.4 | 1 |
 | images/icons/key.svg | 5.5 | 2 |
-| images/icons/library.png | 1.5 | 2 |
 | images/icons/library_white.svg | 2.8 | 1 |
+| images/icons/magnify_glass.svg | 3 | 1 |
 | images/icons/pencil_white.svg | 2 | 1 |
 | images/icons/people_network.svg | 6.9 | 1 |
 | images/icons/person_cog.svg | 2.9 | 1 |
 | images/icons/profile_card.svg | 7.4 | 1 |
 | images/icons/reminder.png | 10.4 | 17 |
-| images/icons/report.png | 1.1 | 1 |
-| images/icons/sessions.png | 1.3 | 1 |
-| images/icons/settings.png | 1.1 | 1 |
-| images/icons/share.svg | 2.3 | 2 |
+| images/icons/share.svg | 2.3 | 4 |
 | images/icons/task_1.png | 1 | 2 |
 | images/icons/task_2.png | 1.9 | 1 |
 | images/icons/task_3.png | 2 | 1 |
@@ -333,11 +336,10 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | images/icons/visibility.svg | 1.9 | 1 |
 | images/icons/world.svg | 6.2 | 1 |
 | images/logos/IDEMS.png | 84.6 | 1 |
-| images/logos/MaPa_logo.png | 112.5 | 1 |
+| images/logos/MaPa_logo.png | 112.5 | 2 |
 | images/logos/PLH.png | 26.6 | 1 |
 | images/logos/UNICEF.jpg | 27.7 | 1 |
 | images/logos/bird_on_light.svg | 2 | 1 |
-| images/logos/bird_white.svg | 1.9 | 1 |
 | images/logos/nip.png | 11.9 | 1 |
 | images/no_group_selected.svg | 3.5 | 1 |
 | images/onboarding_cc.svg | 19.3 | 2 |
@@ -365,7 +367,7 @@ Assets that are used within sheets and also can be found in the synced asset dat
 
 | type | subtype | total |
 | --- | --- | --- |
-| data_list |  | 31 |
+| data_list |  | 32 |
 | data_list | app_config_language_list | 1 |
 | data_list | generated | 5 |
 | data_list | legal_terms | 2 |

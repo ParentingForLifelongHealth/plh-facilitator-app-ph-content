@@ -9,20 +9,24 @@
       "name": "button_list",
       "value": [
         {
-          "image": "images/icons/sessions.png",
-          "target_template": "@data.app_section.home.template"
+          "image": "@data.app_section.home.icon_asset",
+          "target_template": "@data.app_section.home.template",
+          "text": "@data.app_section.home.title"
         },
         {
-          "image": "images/icons/report.png",
-          "target_template": "reports"
+          "image": "@data.app_section.reports.icon_asset",
+          "target_template": "@data.app_section.reports.template",
+          "text": "@data.app_section.reports.title"
         },
         {
-          "image": "images/icons/library.png",
-          "target_template": "@data.app_section.library.template"
+          "image": "@data.app_section.library.icon_asset",
+          "target_template": "@data.app_section.library.template",
+          "text": "@data.app_section.library.title"
         },
         {
-          "image": "images/icons/settings.png",
-          "target_template": "profile"
+          "image": "@data.app_section.settings.icon_asset",
+          "target_template": "@data.app_section.settings.template",
+          "text": "@data.app_section.settings.title"
         }
       ],
       "type": "set_variable",
@@ -30,6 +34,14 @@
       "_dynamicFields": {
         "value": {
           "0": {
+            "image": [
+              {
+                "fullExpression": "@data.app_section.home.icon_asset",
+                "matchedExpression": "@data.app_section.home.icon_asset",
+                "type": "data",
+                "fieldName": "app_section"
+              }
+            ],
             "target_template": [
               {
                 "fullExpression": "@data.app_section.home.template",
@@ -37,13 +49,89 @@
                 "type": "data",
                 "fieldName": "app_section"
               }
+            ],
+            "text": [
+              {
+                "fullExpression": "@data.app_section.home.title",
+                "matchedExpression": "@data.app_section.home.title",
+                "type": "data",
+                "fieldName": "app_section"
+              }
+            ]
+          },
+          "1": {
+            "image": [
+              {
+                "fullExpression": "@data.app_section.reports.icon_asset",
+                "matchedExpression": "@data.app_section.reports.icon_asset",
+                "type": "data",
+                "fieldName": "app_section"
+              }
+            ],
+            "target_template": [
+              {
+                "fullExpression": "@data.app_section.reports.template",
+                "matchedExpression": "@data.app_section.reports.template",
+                "type": "data",
+                "fieldName": "app_section"
+              }
+            ],
+            "text": [
+              {
+                "fullExpression": "@data.app_section.reports.title",
+                "matchedExpression": "@data.app_section.reports.title",
+                "type": "data",
+                "fieldName": "app_section"
+              }
             ]
           },
           "2": {
+            "image": [
+              {
+                "fullExpression": "@data.app_section.library.icon_asset",
+                "matchedExpression": "@data.app_section.library.icon_asset",
+                "type": "data",
+                "fieldName": "app_section"
+              }
+            ],
             "target_template": [
               {
                 "fullExpression": "@data.app_section.library.template",
                 "matchedExpression": "@data.app_section.library.template",
+                "type": "data",
+                "fieldName": "app_section"
+              }
+            ],
+            "text": [
+              {
+                "fullExpression": "@data.app_section.library.title",
+                "matchedExpression": "@data.app_section.library.title",
+                "type": "data",
+                "fieldName": "app_section"
+              }
+            ]
+          },
+          "3": {
+            "image": [
+              {
+                "fullExpression": "@data.app_section.settings.icon_asset",
+                "matchedExpression": "@data.app_section.settings.icon_asset",
+                "type": "data",
+                "fieldName": "app_section"
+              }
+            ],
+            "target_template": [
+              {
+                "fullExpression": "@data.app_section.settings.template",
+                "matchedExpression": "@data.app_section.settings.template",
+                "type": "data",
+                "fieldName": "app_section"
+              }
+            ],
+            "text": [
+              {
+                "fullExpression": "@data.app_section.settings.title",
+                "matchedExpression": "@data.app_section.settings.title",
                 "type": "data",
                 "fieldName": "app_section"
               }
@@ -52,11 +140,41 @@
         }
       },
       "_dynamicDependencies": {
+        "@data.app_section.home.icon_asset": [
+          "value.0.image"
+        ],
         "@data.app_section.home.template": [
           "value.0.target_template"
         ],
+        "@data.app_section.home.title": [
+          "value.0.text"
+        ],
+        "@data.app_section.reports.icon_asset": [
+          "value.1.image"
+        ],
+        "@data.app_section.reports.template": [
+          "value.1.target_template"
+        ],
+        "@data.app_section.reports.title": [
+          "value.1.text"
+        ],
+        "@data.app_section.library.icon_asset": [
+          "value.2.image"
+        ],
         "@data.app_section.library.template": [
           "value.2.target_template"
+        ],
+        "@data.app_section.library.title": [
+          "value.2.text"
+        ],
+        "@data.app_section.settings.icon_asset": [
+          "value.3.image"
+        ],
+        "@data.app_section.settings.template": [
+          "value.3.target_template"
+        ],
+        "@data.app_section.settings.title": [
+          "value.3.text"
         ]
       }
     },

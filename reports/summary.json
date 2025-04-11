@@ -19,7 +19,7 @@
       },
       {
         "type": "button",
-        "count": 88
+        "count": 89
       },
       {
         "type": "carousel",
@@ -43,7 +43,7 @@
       },
       {
         "type": "display_group",
-        "count": 115
+        "count": 118
       },
       {
         "type": "drawer",
@@ -55,7 +55,7 @@
       },
       {
         "type": "image",
-        "count": 12
+        "count": 13
       },
       {
         "type": "items",
@@ -83,7 +83,7 @@
       },
       {
         "type": "round_button",
-        "count": 32
+        "count": 38
       },
       {
         "type": "select_text",
@@ -91,7 +91,7 @@
       },
       {
         "type": "set_variable",
-        "count": 777
+        "count": 780
       },
       {
         "type": "simple_checkbox",
@@ -115,7 +115,7 @@
       },
       {
         "type": "text",
-        "count": 248
+        "count": 250
       },
       {
         "type": "text_area",
@@ -127,7 +127,7 @@
       },
       {
         "type": "title",
-        "count": 41
+        "count": 42
       },
       {
         "type": "toggle_bar",
@@ -151,7 +151,7 @@
     "data": [
       {
         "type": "add_data",
-        "count": 5
+        "count": 6
       },
       {
         "type": "app_update",
@@ -207,7 +207,7 @@
       },
       {
         "type": "pop_up",
-        "count": 16
+        "count": 19
       },
       {
         "type": "reset_app",
@@ -231,11 +231,11 @@
       },
       {
         "type": "set_local",
-        "count": 74
+        "count": 76
       },
       {
         "type": "share",
-        "count": 2
+        "count": 4
       },
       {
         "type": "user",
@@ -251,12 +251,12 @@
     "data": [
       {
         "assets": "total",
-        "KB": "67960 KB",
+        "KB": "67962 KB",
         "MB": "68 MB"
       },
       {
         "assets": "unused",
-        "KB": "43998 KB",
+        "KB": "43996 KB",
         "MB": "44 MB"
       }
     ]
@@ -310,10 +310,6 @@
       {
         "path": "images/08_masayang_tahanan.jpg",
         "size_kb": 455.5
-      },
-      {
-        "path": "images/Message.png",
-        "size_kb": 10.4
       },
       {
         "path": "images/Message.svg",
@@ -648,8 +644,8 @@
         "size_kb": 2.3
       },
       {
-        "path": "images/icons/house_white.svg",
-        "size_kb": 0.4
+        "path": "images/icons/library.png",
+        "size_kb": 1.5
       },
       {
         "path": "images/icons/library.svg",
@@ -684,8 +680,20 @@
         "size_kb": 0.6
       },
       {
+        "path": "images/icons/report.png",
+        "size_kb": 1.1
+      },
+      {
         "path": "images/icons/report.svg",
         "size_kb": 0.8
+      },
+      {
+        "path": "images/icons/sessions.png",
+        "size_kb": 1.3
+      },
+      {
+        "path": "images/icons/settings.png",
+        "size_kb": 1.1
       },
       {
         "path": "images/icons/settings.svg",
@@ -698,6 +706,14 @@
       {
         "path": "images/logos/bird_on_dark.svg",
         "size_kb": 2.1
+      },
+      {
+        "path": "images/logos/bird_white.svg",
+        "size_kb": 1.9
+      },
+      {
+        "path": "images/message.png",
+        "size_kb": 1.3
       },
       {
         "path": "images/person_cog.png",
@@ -839,11 +855,6 @@
       {
         "path": "@data.pdf",
         "count": 3,
-        "missing": true
-      },
-      {
-        "path": "images/backgrounds/MaPa_logo.png",
-        "count": 1,
         "missing": true
       },
       {
@@ -1102,13 +1113,18 @@
       },
       {
         "path": "images/icons/cog_white.svg",
-        "count": 2,
+        "count": 1,
         "size_kb": 3.6
       },
       {
         "path": "images/icons/content.svg",
-        "count": 1,
+        "count": 2,
         "size_kb": 7.2
+      },
+      {
+        "path": "images/icons/copy-outline.svg",
+        "count": 2,
+        "size_kb": 0.4
       },
       {
         "path": "images/icons/delete.svg",
@@ -1136,6 +1152,11 @@
         "size_kb": 0.9
       },
       {
+        "path": "images/icons/feather.svg",
+        "count": 1,
+        "size_kb": 4.6
+      },
+      {
         "path": "images/icons/help.svg",
         "count": 1,
         "size_kb": 2.6
@@ -1146,19 +1167,24 @@
         "size_kb": 1.7
       },
       {
+        "path": "images/icons/house_white.svg",
+        "count": 1,
+        "size_kb": 0.4
+      },
+      {
         "path": "images/icons/key.svg",
         "count": 2,
         "size_kb": 5.5
       },
       {
-        "path": "images/icons/library.png",
-        "count": 2,
-        "size_kb": 1.5
-      },
-      {
         "path": "images/icons/library_white.svg",
         "count": 1,
         "size_kb": 2.8
+      },
+      {
+        "path": "images/icons/magnify_glass.svg",
+        "count": 1,
+        "size_kb": 3
       },
       {
         "path": "images/icons/pencil_white.svg",
@@ -1186,23 +1212,8 @@
         "size_kb": 10.4
       },
       {
-        "path": "images/icons/report.png",
-        "count": 1,
-        "size_kb": 1.1
-      },
-      {
-        "path": "images/icons/sessions.png",
-        "count": 1,
-        "size_kb": 1.3
-      },
-      {
-        "path": "images/icons/settings.png",
-        "count": 1,
-        "size_kb": 1.1
-      },
-      {
         "path": "images/icons/share.svg",
-        "count": 2,
+        "count": 4,
         "size_kb": 2.3
       },
       {
@@ -1267,7 +1278,7 @@
       },
       {
         "path": "images/logos/MaPa_logo.png",
-        "count": 1,
+        "count": 2,
         "size_kb": 112.5
       },
       {
@@ -1284,11 +1295,6 @@
         "path": "images/logos/bird_on_light.svg",
         "count": 1,
         "size_kb": 2
-      },
-      {
-        "path": "images/logos/bird_white.svg",
-        "count": 1,
-        "size_kb": 1.9
       },
       {
         "path": "images/logos/nip.png",
@@ -1397,7 +1403,7 @@
       {
         "type": "data_list",
         "subtype": null,
-        "total": 31
+        "total": 32
       },
       {
         "type": "data_list",

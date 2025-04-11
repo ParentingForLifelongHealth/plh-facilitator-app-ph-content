@@ -235,6 +235,7 @@
         {
           "type": "items",
           "value": "@data.modules",
+          "exclude_from_translation": true,
           "rows": [
             {
               "name": "packages",

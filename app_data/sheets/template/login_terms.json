@@ -33,15 +33,25 @@
       "condition": "!@local.is_user_signed_in",
       "parameter_list": {
         "sticky": "top",
-        "background_image_asset": "images/backgrounds/MaPa_logo.png",
-        "background_image_position": "center"
+        "variant": "inline_padding"
       },
       "style_list": [
-        "background-color: var(--ion-color-primary-100)",
-        "padding-block: 6px",
-        "min-height: 200px"
+        "background-color: var(--ion-color-primary-100)"
       ],
-      "rows": [],
+      "rows": [
+        {
+          "type": "image",
+          "name": "logo",
+          "value": "images/logos/MaPa_logo.png",
+          "_translations": {
+            "value": {}
+          },
+          "style_list": [
+            "height: 200px"
+          ],
+          "_nested_name": "dg_top.logo"
+        }
+      ],
       "_nested_name": "dg_top",
       "_dynamicFields": {
         "condition": [
@@ -77,9 +87,6 @@
           "parameter_list": {
             "variant": "header"
           },
-          "style_list": [
-            "align-items: center"
-          ],
           "_nested_name": "before_login.title",
           "_dynamicFields": {
             "value": [

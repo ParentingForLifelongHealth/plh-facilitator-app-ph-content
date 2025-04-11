@@ -40,7 +40,7 @@
       "flow_type": "data_list",
       "flow_name": "app_section_data",
       "data_list_name": "app_section",
-      "_xlsxPath": "data/navigation_data.xlsx"
+      "_xlsxPath": "templates/footer_ph.xlsx"
     },
     "gender": {
       "flow_type": "data_list",
@@ -135,6 +135,11 @@
       "flow_name": "media_data",
       "data_list_name": "media",
       "_xlsxPath": "data/FacilitatorApp PH articles.xlsx"
+    },
+    "message_log": {
+      "flow_type": "data_list",
+      "flow_name": "message_log",
+      "_xlsxPath": "templates/article_elements_override.xlsx"
     },
     "modules": {
       "flow_type": "data_list",
@@ -3701,6 +3706,13 @@
     "profile": {
       "flow_type": "template",
       "flow_name": "profile",
+      "parameter_list": {
+        "app_config": {
+          "LAYOUT": {
+            "page_padding": "24px 0"
+          }
+        }
+      },
       "_xlsxPath": "templates/profile_override.xlsx"
     },
     "profile_about": {
