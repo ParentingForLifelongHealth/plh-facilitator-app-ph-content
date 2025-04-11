@@ -98,7 +98,8 @@
                 "value": {}
               },
               "style_list": [
-                "max-width: 72px"
+                "max-width: 72px",
+                "margin-block: -12px"
               ],
               "_nested_name": "dg_top.dg_top_column.logo",
               "_dynamicFields": {
@@ -472,6 +473,7 @@
     {
       "type": "text",
       "name": "spacer",
+      "condition": false,
       "style_list": [
         "margin-top: 24px"
       ],

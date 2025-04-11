@@ -2,6 +2,13 @@
   "flow_type": "template",
   "flow_name": "profile",
   "status": "released",
+  "parameter_list": {
+    "app_config": {
+      "LAYOUT": {
+        "page_padding": "24px 0"
+      }
+    }
+  },
   "rows": [
     {
       "type": "update_action_list",
@@ -583,6 +590,203 @@
         }
       ],
       "_nested_name": "dg_parent"
+    },
+    {
+      "type": "title",
+      "name": "terms",
+      "value": "App Details & Terms",
+      "_translations": {
+        "value": {}
+      },
+      "parameter_list": {
+        "variant": "section_banner"
+      },
+      "_nested_name": "terms"
+    },
+    {
+      "type": "display_group",
+      "name": "dg_account",
+      "parameter_list": {
+        "variant": "inline_padding",
+        "style": "column"
+      },
+      "rows": [
+        {
+          "type": "button",
+          "name": "button_about",
+          "value": "@global.about_this_app",
+          "_translations": {
+            "value": {}
+          },
+          "parameter_list": {
+            "variant": "card",
+            "icon": "images/icons/magnify_glass.svg",
+            "icon_secondary_asset": "@local.next_icon_asset",
+            "style": "no-background",
+            "text_align": "left"
+          },
+          "action_list": [
+            {
+              "trigger": "click",
+              "action_id": "pop_up",
+              "args": [
+                "app_about"
+              ],
+              "_raw": "click | pop_up: app_about | fullscreen: true",
+              "_cleaned": "click | pop_up: app_about | fullscreen: true",
+              "params": {
+                "fullscreen": true
+              }
+            }
+          ],
+          "_nested_name": "dg_account.button_about",
+          "_dynamicFields": {
+            "value": [
+              {
+                "fullExpression": "@global.about_this_app",
+                "matchedExpression": "@global.about_this_app",
+                "type": "global",
+                "fieldName": "about_this_app"
+              }
+            ],
+            "parameter_list": {
+              "icon_secondary_asset": [
+                {
+                  "fullExpression": "@local.next_icon_asset",
+                  "matchedExpression": "@local.next_icon_asset",
+                  "type": "local",
+                  "fieldName": "next_icon_asset"
+                }
+              ]
+            }
+          },
+          "_dynamicDependencies": {
+            "@global.about_this_app": [
+              "value"
+            ],
+            "@local.next_icon_asset": [
+              "parameter_list.icon_secondary_asset"
+            ]
+          }
+        },
+        {
+          "type": "button",
+          "name": "button_terms",
+          "value": "@global.terms_and_conditions",
+          "_translations": {
+            "value": {}
+          },
+          "parameter_list": {
+            "variant": "card",
+            "icon": "images/icons/feather.svg",
+            "icon_secondary_asset": "@local.next_icon_asset",
+            "style": "no-background",
+            "text_align": "left"
+          },
+          "action_list": [
+            {
+              "trigger": "click",
+              "action_id": "pop_up",
+              "args": [
+                "app_menu_terms"
+              ],
+              "_raw": "click | pop_up: app_menu_terms | fullscreen: true",
+              "_cleaned": "click | pop_up: app_menu_terms | fullscreen: true",
+              "params": {
+                "fullscreen": true
+              }
+            }
+          ],
+          "_nested_name": "dg_account.button_terms",
+          "_dynamicFields": {
+            "value": [
+              {
+                "fullExpression": "@global.terms_and_conditions",
+                "matchedExpression": "@global.terms_and_conditions",
+                "type": "global",
+                "fieldName": "terms_and_conditions"
+              }
+            ],
+            "parameter_list": {
+              "icon_secondary_asset": [
+                {
+                  "fullExpression": "@local.next_icon_asset",
+                  "matchedExpression": "@local.next_icon_asset",
+                  "type": "local",
+                  "fieldName": "next_icon_asset"
+                }
+              ]
+            }
+          },
+          "_dynamicDependencies": {
+            "@global.terms_and_conditions": [
+              "value"
+            ],
+            "@local.next_icon_asset": [
+              "parameter_list.icon_secondary_asset"
+            ]
+          }
+        },
+        {
+          "type": "button",
+          "name": "button_privacy",
+          "value": "@global.privacy_policy",
+          "_translations": {
+            "value": {}
+          },
+          "parameter_list": {
+            "variant": "card",
+            "icon": "images/icons/content.svg",
+            "icon_secondary_asset": "@local.next_icon_asset",
+            "style": "no-background",
+            "text_align": "left"
+          },
+          "action_list": [
+            {
+              "trigger": "click",
+              "action_id": "pop_up",
+              "args": [
+                "app_menu_privacy_policy"
+              ],
+              "_raw": "click | pop_up: app_menu_privacy_policy | fullscreen: true",
+              "_cleaned": "click | pop_up: app_menu_privacy_policy | fullscreen: true",
+              "params": {
+                "fullscreen": true
+              }
+            }
+          ],
+          "_nested_name": "dg_account.button_privacy",
+          "_dynamicFields": {
+            "value": [
+              {
+                "fullExpression": "@global.privacy_policy",
+                "matchedExpression": "@global.privacy_policy",
+                "type": "global",
+                "fieldName": "privacy_policy"
+              }
+            ],
+            "parameter_list": {
+              "icon_secondary_asset": [
+                {
+                  "fullExpression": "@local.next_icon_asset",
+                  "matchedExpression": "@local.next_icon_asset",
+                  "type": "local",
+                  "fieldName": "next_icon_asset"
+                }
+              ]
+            }
+          },
+          "_dynamicDependencies": {
+            "@global.privacy_policy": [
+              "value"
+            ],
+            "@local.next_icon_asset": [
+              "parameter_list.icon_secondary_asset"
+            ]
+          }
+        }
+      ],
+      "_nested_name": "dg_account"
     }
   ],
   "_xlsxPath": "templates/profile_override.xlsx"

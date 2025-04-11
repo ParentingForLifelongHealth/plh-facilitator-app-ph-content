@@ -41,6 +41,13 @@
       "_nested_name": "asset_type"
     },
     {
+      "name": "log_time",
+      "value": true,
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "_nested_name": "log_time"
+    },
+    {
       "type": "display_group",
       "name": "dg_box",
       "style_list": [
@@ -439,177 +446,569 @@
               }
             },
             {
-              "type": "button",
-              "name": "button",
-              "value": "Share",
-              "_translations": {
-                "value": {}
-              },
-              "action_list": [
+              "type": "display_group",
+              "name": "log_buttons",
+              "condition": "@local.log_time",
+              "rows": [
                 {
-                  "trigger": "click",
-                  "action_id": "share",
-                  "args": [],
-                  "_raw": "click | share | text: @local.share_message",
-                  "_cleaned": "click | share | text: @local.share_message",
-                  "params": {
-                    "text": "@local.share_message"
+                  "type": "text",
+                  "name": "spacer",
+                  "value": "",
+                  "_translations": {
+                    "value": {}
+                  },
+                  "style_list": [
+                    "flex: 1"
+                  ],
+                  "_nested_name": "dg_box.dg_bottom.log_buttons.spacer"
+                },
+                {
+                  "type": "round_button",
+                  "name": "copy",
+                  "action_list": [
+                    {
+                      "trigger": "click",
+                      "action_id": "add_data",
+                      "args": [],
+                      "_raw": "click | add_data | \n_list_id: message_log,\ngroup_id: @fields.current_group_no,\nmodule: @fields.current_module_no,\nmessage: @local.title,\ndate: @calc(now())",
+                      "_cleaned": "click | add_data | \n_list_id: message_log,\ngroup_id: @fields.current_group_no,\nmodule: @fields.current_module_no,\nmessage: @local.title,\ndate: @calc(now())",
+                      "params": {
+                        "_list_id": "message_log",
+                        "group_id": "@fields.current_group_no",
+                        "module": "@fields.current_module_no",
+                        "message": "@local.title",
+                        "date": "@calc(now())"
+                      }
+                    }
+                  ],
+                  "parameter_list": {
+                    "icon_src": "images/icons/copy-outline.svg"
+                  },
+                  "_nested_name": "dg_box.dg_bottom.log_buttons.copy",
+                  "_dynamicFields": {
+                    "action_list": {
+                      "0": {
+                        "_raw": [
+                          {
+                            "fullExpression": "click | add_data | \n_list_id: message_log,\ngroup_id: @fields.current_group_no,\nmodule: @fields.current_module_no,\nmessage: @local.title,\ndate: @calc(now())",
+                            "matchedExpression": "@fields.current_group_no",
+                            "type": "fields",
+                            "fieldName": "current_group_no"
+                          },
+                          {
+                            "fullExpression": "click | add_data | \n_list_id: message_log,\ngroup_id: @fields.current_group_no,\nmodule: @fields.current_module_no,\nmessage: @local.title,\ndate: @calc(now())",
+                            "matchedExpression": "@fields.current_module_no",
+                            "type": "fields",
+                            "fieldName": "current_module_no"
+                          },
+                          {
+                            "fullExpression": "click | add_data | \n_list_id: message_log,\ngroup_id: @fields.current_group_no,\nmodule: @fields.current_module_no,\nmessage: @local.title,\ndate: @calc(now())",
+                            "matchedExpression": "@local.title",
+                            "type": "local",
+                            "fieldName": "title"
+                          },
+                          {
+                            "fullExpression": "click | add_data | \n_list_id: message_log,\ngroup_id: @fields.current_group_no,\nmodule: @fields.current_module_no,\nmessage: @local.title,\ndate: @calc(now())",
+                            "matchedExpression": "@calc(now())",
+                            "type": "calc",
+                            "fieldName": "now()"
+                          }
+                        ],
+                        "_cleaned": [
+                          {
+                            "fullExpression": "click | add_data | \n_list_id: message_log,\ngroup_id: @fields.current_group_no,\nmodule: @fields.current_module_no,\nmessage: @local.title,\ndate: @calc(now())",
+                            "matchedExpression": "@fields.current_group_no",
+                            "type": "fields",
+                            "fieldName": "current_group_no"
+                          },
+                          {
+                            "fullExpression": "click | add_data | \n_list_id: message_log,\ngroup_id: @fields.current_group_no,\nmodule: @fields.current_module_no,\nmessage: @local.title,\ndate: @calc(now())",
+                            "matchedExpression": "@fields.current_module_no",
+                            "type": "fields",
+                            "fieldName": "current_module_no"
+                          },
+                          {
+                            "fullExpression": "click | add_data | \n_list_id: message_log,\ngroup_id: @fields.current_group_no,\nmodule: @fields.current_module_no,\nmessage: @local.title,\ndate: @calc(now())",
+                            "matchedExpression": "@local.title",
+                            "type": "local",
+                            "fieldName": "title"
+                          },
+                          {
+                            "fullExpression": "click | add_data | \n_list_id: message_log,\ngroup_id: @fields.current_group_no,\nmodule: @fields.current_module_no,\nmessage: @local.title,\ndate: @calc(now())",
+                            "matchedExpression": "@calc(now())",
+                            "type": "calc",
+                            "fieldName": "now()"
+                          }
+                        ],
+                        "params": {
+                          "group_id": [
+                            {
+                              "fullExpression": "@fields.current_group_no",
+                              "matchedExpression": "@fields.current_group_no",
+                              "type": "fields",
+                              "fieldName": "current_group_no"
+                            }
+                          ],
+                          "module": [
+                            {
+                              "fullExpression": "@fields.current_module_no",
+                              "matchedExpression": "@fields.current_module_no",
+                              "type": "fields",
+                              "fieldName": "current_module_no"
+                            }
+                          ],
+                          "message": [
+                            {
+                              "fullExpression": "@local.title",
+                              "matchedExpression": "@local.title",
+                              "type": "local",
+                              "fieldName": "title"
+                            }
+                          ],
+                          "date": [
+                            {
+                              "fullExpression": "@calc(now())",
+                              "matchedExpression": "@calc(now())",
+                              "type": "calc",
+                              "fieldName": "now()"
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  },
+                  "_dynamicDependencies": {
+                    "@fields.current_group_no": [
+                      "action_list.0._raw",
+                      "action_list.0._cleaned",
+                      "action_list.0.params.group_id"
+                    ],
+                    "@fields.current_module_no": [
+                      "action_list.0._raw",
+                      "action_list.0._cleaned",
+                      "action_list.0.params.module"
+                    ],
+                    "@local.title": [
+                      "action_list.0._raw",
+                      "action_list.0._cleaned",
+                      "action_list.0.params.message"
+                    ],
+                    "@calc(now())": [
+                      "action_list.0._raw",
+                      "action_list.0._cleaned",
+                      "action_list.0.params.date"
+                    ]
+                  }
+                },
+                {
+                  "type": "round_button",
+                  "name": "button",
+                  "value": "Share",
+                  "_translations": {
+                    "value": {}
+                  },
+                  "action_list": [
+                    {
+                      "trigger": "click",
+                      "action_id": "share",
+                      "args": [],
+                      "_raw": "click | share | text: @local.share_message",
+                      "_cleaned": "click | share | text: @local.share_message",
+                      "params": {
+                        "text": "@local.share_message"
+                      }
+                    }
+                  ],
+                  "condition": "@local.asset_type !== \"image\"",
+                  "parameter_list": {
+                    "icon_src": "images/icons/share.svg"
+                  },
+                  "_nested_name": "dg_box.dg_bottom.log_buttons.button",
+                  "_dynamicFields": {
+                    "action_list": {
+                      "0": {
+                        "_raw": [
+                          {
+                            "fullExpression": "click | share | text: @local.share_message",
+                            "matchedExpression": "@local.share_message",
+                            "type": "local",
+                            "fieldName": "share_message"
+                          }
+                        ],
+                        "_cleaned": [
+                          {
+                            "fullExpression": "click | share | text: @local.share_message",
+                            "matchedExpression": "@local.share_message",
+                            "type": "local",
+                            "fieldName": "share_message"
+                          }
+                        ],
+                        "params": {
+                          "text": [
+                            {
+                              "fullExpression": "@local.share_message",
+                              "matchedExpression": "@local.share_message",
+                              "type": "local",
+                              "fieldName": "share_message"
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    "condition": [
+                      {
+                        "fullExpression": "@local.asset_type !== \"image\"",
+                        "matchedExpression": "@local.asset_type",
+                        "type": "local",
+                        "fieldName": "asset_type"
+                      }
+                    ]
+                  },
+                  "_dynamicDependencies": {
+                    "@local.share_message": [
+                      "action_list.0._raw",
+                      "action_list.0._cleaned",
+                      "action_list.0.params.text"
+                    ],
+                    "@local.asset_type": [
+                      "condition"
+                    ]
+                  }
+                },
+                {
+                  "type": "round_button",
+                  "name": "button",
+                  "value": "Share",
+                  "_translations": {
+                    "value": {}
+                  },
+                  "action_list": [
+                    {
+                      "trigger": "click",
+                      "action_id": "share",
+                      "args": [],
+                      "_raw": "click | share |\ntext: @local.message_text,\nfile: @local.asset",
+                      "_cleaned": "click | share |\ntext: @local.message_text,\nfile: @local.asset",
+                      "params": {
+                        "text": "@local.message_text",
+                        "file": "@local.asset"
+                      }
+                    }
+                  ],
+                  "condition": "@local.asset_type == \"image\"",
+                  "parameter_list": {
+                    "icon_src": "images/icons/share.svg"
+                  },
+                  "_nested_name": "dg_box.dg_bottom.log_buttons.button",
+                  "_dynamicFields": {
+                    "action_list": {
+                      "0": {
+                        "_raw": [
+                          {
+                            "fullExpression": "click | share |\ntext: @local.message_text,\nfile: @local.asset",
+                            "matchedExpression": "@local.message_text",
+                            "type": "local",
+                            "fieldName": "message_text"
+                          },
+                          {
+                            "fullExpression": "click | share |\ntext: @local.message_text,\nfile: @local.asset",
+                            "matchedExpression": "@local.asset",
+                            "type": "local",
+                            "fieldName": "asset"
+                          }
+                        ],
+                        "_cleaned": [
+                          {
+                            "fullExpression": "click | share |\ntext: @local.message_text,\nfile: @local.asset",
+                            "matchedExpression": "@local.message_text",
+                            "type": "local",
+                            "fieldName": "message_text"
+                          },
+                          {
+                            "fullExpression": "click | share |\ntext: @local.message_text,\nfile: @local.asset",
+                            "matchedExpression": "@local.asset",
+                            "type": "local",
+                            "fieldName": "asset"
+                          }
+                        ],
+                        "params": {
+                          "text": [
+                            {
+                              "fullExpression": "@local.message_text",
+                              "matchedExpression": "@local.message_text",
+                              "type": "local",
+                              "fieldName": "message_text"
+                            }
+                          ],
+                          "file": [
+                            {
+                              "fullExpression": "@local.asset",
+                              "matchedExpression": "@local.asset",
+                              "type": "local",
+                              "fieldName": "asset"
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    "condition": [
+                      {
+                        "fullExpression": "@local.asset_type == \"image\"",
+                        "matchedExpression": "@local.asset_type",
+                        "type": "local",
+                        "fieldName": "asset_type"
+                      }
+                    ]
+                  },
+                  "_dynamicDependencies": {
+                    "@local.message_text": [
+                      "action_list.0._raw",
+                      "action_list.0._cleaned",
+                      "action_list.0.params.text"
+                    ],
+                    "@local.asset": [
+                      "action_list.0._raw",
+                      "action_list.0._cleaned",
+                      "action_list.0.params.file"
+                    ],
+                    "@local.asset_type": [
+                      "condition"
+                    ]
                   }
                 }
               ],
-              "condition": "@local.asset_type !== \"image\"",
-              "parameter_list": {
-                "icon_secondary_asset": "images/icons/share.svg"
-              },
-              "_nested_name": "dg_box.dg_bottom.button",
+              "_nested_name": "dg_box.dg_bottom.log_buttons",
               "_dynamicFields": {
-                "action_list": {
-                  "0": {
-                    "_raw": [
-                      {
-                        "fullExpression": "click | share | text: @local.share_message",
-                        "matchedExpression": "@local.share_message",
-                        "type": "local",
-                        "fieldName": "share_message"
-                      }
-                    ],
-                    "_cleaned": [
-                      {
-                        "fullExpression": "click | share | text: @local.share_message",
-                        "matchedExpression": "@local.share_message",
-                        "type": "local",
-                        "fieldName": "share_message"
-                      }
-                    ],
-                    "params": {
-                      "text": [
-                        {
-                          "fullExpression": "@local.share_message",
-                          "matchedExpression": "@local.share_message",
-                          "type": "local",
-                          "fieldName": "share_message"
-                        }
-                      ]
-                    }
-                  }
-                },
                 "condition": [
                   {
-                    "fullExpression": "@local.asset_type !== \"image\"",
-                    "matchedExpression": "@local.asset_type",
+                    "fullExpression": "@local.log_time",
+                    "matchedExpression": "@local.log_time",
                     "type": "local",
-                    "fieldName": "asset_type"
+                    "fieldName": "log_time"
                   }
                 ]
               },
               "_dynamicDependencies": {
-                "@local.share_message": [
-                  "action_list.0._raw",
-                  "action_list.0._cleaned",
-                  "action_list.0.params.text"
-                ],
-                "@local.asset_type": [
+                "@local.log_time": [
                   "condition"
                 ]
               }
             },
             {
-              "type": "button",
-              "name": "button",
-              "value": "Share",
-              "_translations": {
-                "value": {}
-              },
-              "action_list": [
+              "type": "display_group",
+              "name": "no_log_buttons",
+              "condition": "!@local.log_time",
+              "rows": [
                 {
-                  "trigger": "click",
-                  "action_id": "share",
-                  "args": [],
-                  "_raw": "click | share |\ntext: @local.message_text,\nfile: @local.asset",
-                  "_cleaned": "click | share |\ntext: @local.message_text,\nfile: @local.asset",
-                  "params": {
-                    "text": "@local.message_text",
-                    "file": "@local.asset"
+                  "type": "text",
+                  "name": "spacer",
+                  "value": "",
+                  "_translations": {
+                    "value": {}
+                  },
+                  "style_list": [
+                    "flex: 1"
+                  ],
+                  "_nested_name": "dg_box.dg_bottom.no_log_buttons.spacer"
+                },
+                {
+                  "type": "round_button",
+                  "name": "copy",
+                  "parameter_list": {
+                    "icon_src": "images/icons/copy-outline.svg"
+                  },
+                  "_nested_name": "dg_box.dg_bottom.no_log_buttons.copy"
+                },
+                {
+                  "type": "round_button",
+                  "name": "button",
+                  "value": "Share",
+                  "_translations": {
+                    "value": {}
+                  },
+                  "action_list": [
+                    {
+                      "trigger": "click",
+                      "action_id": "share",
+                      "args": [],
+                      "_raw": "click | share | text: @local.share_message",
+                      "_cleaned": "click | share | text: @local.share_message",
+                      "params": {
+                        "text": "@local.share_message"
+                      }
+                    }
+                  ],
+                  "condition": "@local.asset_type !== \"image\"",
+                  "parameter_list": {
+                    "icon_src": "images/icons/share.svg"
+                  },
+                  "_nested_name": "dg_box.dg_bottom.no_log_buttons.button",
+                  "_dynamicFields": {
+                    "action_list": {
+                      "0": {
+                        "_raw": [
+                          {
+                            "fullExpression": "click | share | text: @local.share_message",
+                            "matchedExpression": "@local.share_message",
+                            "type": "local",
+                            "fieldName": "share_message"
+                          }
+                        ],
+                        "_cleaned": [
+                          {
+                            "fullExpression": "click | share | text: @local.share_message",
+                            "matchedExpression": "@local.share_message",
+                            "type": "local",
+                            "fieldName": "share_message"
+                          }
+                        ],
+                        "params": {
+                          "text": [
+                            {
+                              "fullExpression": "@local.share_message",
+                              "matchedExpression": "@local.share_message",
+                              "type": "local",
+                              "fieldName": "share_message"
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    "condition": [
+                      {
+                        "fullExpression": "@local.asset_type !== \"image\"",
+                        "matchedExpression": "@local.asset_type",
+                        "type": "local",
+                        "fieldName": "asset_type"
+                      }
+                    ]
+                  },
+                  "_dynamicDependencies": {
+                    "@local.share_message": [
+                      "action_list.0._raw",
+                      "action_list.0._cleaned",
+                      "action_list.0.params.text"
+                    ],
+                    "@local.asset_type": [
+                      "condition"
+                    ]
+                  }
+                },
+                {
+                  "type": "round_button",
+                  "name": "button",
+                  "value": "Share",
+                  "_translations": {
+                    "value": {}
+                  },
+                  "action_list": [
+                    {
+                      "trigger": "click",
+                      "action_id": "share",
+                      "args": [],
+                      "_raw": "click | share |\ntext: @local.message_text,\nfile: @local.asset",
+                      "_cleaned": "click | share |\ntext: @local.message_text,\nfile: @local.asset",
+                      "params": {
+                        "text": "@local.message_text",
+                        "file": "@local.asset"
+                      }
+                    }
+                  ],
+                  "condition": "@local.asset_type == \"image\"",
+                  "parameter_list": {
+                    "icon_src": "images/icons/share.svg"
+                  },
+                  "_nested_name": "dg_box.dg_bottom.no_log_buttons.button",
+                  "_dynamicFields": {
+                    "action_list": {
+                      "0": {
+                        "_raw": [
+                          {
+                            "fullExpression": "click | share |\ntext: @local.message_text,\nfile: @local.asset",
+                            "matchedExpression": "@local.message_text",
+                            "type": "local",
+                            "fieldName": "message_text"
+                          },
+                          {
+                            "fullExpression": "click | share |\ntext: @local.message_text,\nfile: @local.asset",
+                            "matchedExpression": "@local.asset",
+                            "type": "local",
+                            "fieldName": "asset"
+                          }
+                        ],
+                        "_cleaned": [
+                          {
+                            "fullExpression": "click | share |\ntext: @local.message_text,\nfile: @local.asset",
+                            "matchedExpression": "@local.message_text",
+                            "type": "local",
+                            "fieldName": "message_text"
+                          },
+                          {
+                            "fullExpression": "click | share |\ntext: @local.message_text,\nfile: @local.asset",
+                            "matchedExpression": "@local.asset",
+                            "type": "local",
+                            "fieldName": "asset"
+                          }
+                        ],
+                        "params": {
+                          "text": [
+                            {
+                              "fullExpression": "@local.message_text",
+                              "matchedExpression": "@local.message_text",
+                              "type": "local",
+                              "fieldName": "message_text"
+                            }
+                          ],
+                          "file": [
+                            {
+                              "fullExpression": "@local.asset",
+                              "matchedExpression": "@local.asset",
+                              "type": "local",
+                              "fieldName": "asset"
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    "condition": [
+                      {
+                        "fullExpression": "@local.asset_type == \"image\"",
+                        "matchedExpression": "@local.asset_type",
+                        "type": "local",
+                        "fieldName": "asset_type"
+                      }
+                    ]
+                  },
+                  "_dynamicDependencies": {
+                    "@local.message_text": [
+                      "action_list.0._raw",
+                      "action_list.0._cleaned",
+                      "action_list.0.params.text"
+                    ],
+                    "@local.asset": [
+                      "action_list.0._raw",
+                      "action_list.0._cleaned",
+                      "action_list.0.params.file"
+                    ],
+                    "@local.asset_type": [
+                      "condition"
+                    ]
                   }
                 }
               ],
-              "condition": "@local.asset_type == \"image\"",
-              "parameter_list": {
-                "icon_secondary_asset": "images/icons/share.svg"
-              },
-              "_nested_name": "dg_box.dg_bottom.button",
+              "_nested_name": "dg_box.dg_bottom.no_log_buttons",
               "_dynamicFields": {
-                "action_list": {
-                  "0": {
-                    "_raw": [
-                      {
-                        "fullExpression": "click | share |\ntext: @local.message_text,\nfile: @local.asset",
-                        "matchedExpression": "@local.message_text",
-                        "type": "local",
-                        "fieldName": "message_text"
-                      },
-                      {
-                        "fullExpression": "click | share |\ntext: @local.message_text,\nfile: @local.asset",
-                        "matchedExpression": "@local.asset",
-                        "type": "local",
-                        "fieldName": "asset"
-                      }
-                    ],
-                    "_cleaned": [
-                      {
-                        "fullExpression": "click | share |\ntext: @local.message_text,\nfile: @local.asset",
-                        "matchedExpression": "@local.message_text",
-                        "type": "local",
-                        "fieldName": "message_text"
-                      },
-                      {
-                        "fullExpression": "click | share |\ntext: @local.message_text,\nfile: @local.asset",
-                        "matchedExpression": "@local.asset",
-                        "type": "local",
-                        "fieldName": "asset"
-                      }
-                    ],
-                    "params": {
-                      "text": [
-                        {
-                          "fullExpression": "@local.message_text",
-                          "matchedExpression": "@local.message_text",
-                          "type": "local",
-                          "fieldName": "message_text"
-                        }
-                      ],
-                      "file": [
-                        {
-                          "fullExpression": "@local.asset",
-                          "matchedExpression": "@local.asset",
-                          "type": "local",
-                          "fieldName": "asset"
-                        }
-                      ]
-                    }
-                  }
-                },
                 "condition": [
                   {
-                    "fullExpression": "@local.asset_type == \"image\"",
-                    "matchedExpression": "@local.asset_type",
+                    "fullExpression": "!@local.log_time",
+                    "matchedExpression": "!@local.log_time",
                     "type": "local",
-                    "fieldName": "asset_type"
+                    "fieldName": "log_time"
                   }
                 ]
               },
               "_dynamicDependencies": {
-                "@local.message_text": [
-                  "action_list.0._raw",
-                  "action_list.0._cleaned",
-                  "action_list.0.params.text"
-                ],
-                "@local.asset": [
-                  "action_list.0._raw",
-                  "action_list.0._cleaned",
-                  "action_list.0.params.file"
-                ],
-                "@local.asset_type": [
+                "!@local.log_time": [
                   "condition"
                 ]
               }
