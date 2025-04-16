@@ -7,7 +7,7 @@
 | accordion_section | 1 |
 | apple_sign_in_button | 1 |
 | audio | 3 |
-| button | 89 |
+| button | 87 |
 | carousel | 2 |
 | combo_box | 12 |
 | data_items | 39 |
@@ -57,7 +57,7 @@
 | emit: set_language | 1 |
 | emit: uncompleted | 82 |
 | feedback | 13 |
-| go_to | 33 |
+| go_to | 31 |
 | height | 1 |
 | nav_stack | 6 |
 | pop_up | 19 |
@@ -77,8 +77,8 @@
 
 | assets | KB | MB |
 | --- | --- | --- |
-| total | 67962 KB | 68 MB |
-| unused | 43996 KB | 44 MB |
+| total | 67906 KB | 67.9 MB |
+| unused | 44001 KB | 44 MB |
 </details>
 
 <details open>
@@ -198,9 +198,7 @@ Assets that appear in app-data but do not have references within sheets
 | images/icons/settings.png | 1.1 |
 | images/icons/settings.svg | 2.4 |
 | images/icons/task_0.png | 2 |
-| images/logos/bird_on_dark.svg | 2.1 |
-| images/logos/bird_white.svg | 1.9 |
-| images/message.png | 1.3 |
+| images/message.png | 10.4 |
 | images/person_cog.png | 0.8 |
 | pdf/01_mod1_intro.pdf | 650.7 |
 | pdf/01_mod1_layunin.pdf | 513.8 |
@@ -246,6 +244,8 @@ Assets that have references within sheets but do not appear in app-data
 | @data.pdf | 3 |
 | images/icons/in_progress.svg | 1 |
 | images/icons/tick.svg | 1 |
+| images/logos/bird_on_light.svg | 1 |
+| images/logos/nip.png | 1 |
 | pdf/module_1_building_block.pdf | 1 |
 | videos/add_parent.mp4 | 1 |
 | videos/onboard_caregivers.mp4 | 1 |
@@ -336,11 +336,9 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | images/icons/visibility.svg | 1.9 | 1 |
 | images/icons/world.svg | 6.2 | 1 |
 | images/logos/IDEMS.png | 84.6 | 1 |
-| images/logos/MaPa_logo.png | 112.5 | 2 |
+| images/logos/MaPa_logo.png | 70.6 | 2 |
 | images/logos/PLH.png | 26.6 | 1 |
 | images/logos/UNICEF.jpg | 27.7 | 1 |
-| images/logos/bird_on_light.svg | 2 | 1 |
-| images/logos/nip.png | 11.9 | 1 |
 | images/no_group_selected.svg | 3.5 | 1 |
 | images/onboarding_cc.svg | 19.3 | 2 |
 | images/one_on_one_challenges.svg | 13.1 | 1 |
