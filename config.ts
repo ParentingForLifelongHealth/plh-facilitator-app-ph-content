@@ -19,7 +19,7 @@ config.google_drive.assets_folder_ids = [
 
 config.git = {
   content_repo: "https://github.com/IDEMSInternational/plh-facilitator-app-ph-content.git",
-  content_tag_latest: "1.1.30",
+  content_tag_latest: "1.1.31",
 };
 
 config.firebase = {
@@ -29,6 +29,8 @@ config.firebase = {
 config.auth = {
   provider: 'firebase',
 }
+
+config.web.favicon_asset = "images/logos/MaPa_logo.png";
 
 config.api.db_name = "plh_facilitator_ph"
 config.app_data.output_path = "./app_data";
