@@ -4,43 +4,25 @@
   "status": "released",
   "rows": [
     {
-      "type": "display_group",
-      "name": "dg_top",
-      "parameter_list": {
-        "sticky": "top",
-        "background_image_asset": "images/backgrounds/MaPa_logo_with_background.png",
-        "background_image_position": "top"
-      },
-      "style_list": [
-        "min-height: 300px",
-        "width: 100%"
-      ],
-      "rows": [],
-      "_nested_name": "dg_top"
-    },
-    {
       "type": "title",
       "name": "title",
-      "value": "@global.language_prompt",
+      "value": "@global.language",
       "_translations": {
         "value": {}
-      },
-      "parameter_list": {
-        "variant": "header"
       },
       "_nested_name": "title",
       "_dynamicFields": {
         "value": [
           {
-            "fullExpression": "@global.language_prompt",
-            "matchedExpression": "@global.language_prompt",
+            "fullExpression": "@global.language",
+            "matchedExpression": "@global.language",
             "type": "global",
-            "fieldName": "language_prompt"
+            "fieldName": "language"
           }
         ]
       },
       "_dynamicDependencies": {
-        "@global.language_prompt": [
+        "@global.language": [
           "value"
         ]
       }
@@ -99,9 +81,7 @@
       ],
       "parameter_list": {
         "answer_list": "@local.language_select_options",
-        "grid_width": "100%",
-        "variant": "flex",
-        "item_width 400px": "true"
+        "item_width": "50px"
       },
       "_nested_name": "language_select",
       "_dynamicFields": {
@@ -191,5 +171,5 @@
       "_nested_name": "button_completed"
     }
   ],
-  "_xlsxPath": "templates/app_launch_override.xlsx"
+  "_xlsxPath": "templates/app_launch.xlsx"
 }

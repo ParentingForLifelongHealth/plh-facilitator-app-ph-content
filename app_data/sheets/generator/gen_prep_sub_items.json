@@ -57,6 +57,31 @@
       "flow_type": "data_pipe"
     },
     {
+      "flow_name": "prep_week_1_session_5_sub_items",
+      "flow_subtype": "generated",
+      "flow_type": "data_pipe"
+    },
+    {
+      "flow_name": "prep_week_1_session_6_sub_items",
+      "flow_subtype": "generated",
+      "flow_type": "data_pipe"
+    },
+    {
+      "flow_name": "prep_week_1_session_7_sub_items",
+      "flow_subtype": "generated",
+      "flow_type": "data_pipe"
+    },
+    {
+      "flow_name": "prep_week_1_session_8_sub_items",
+      "flow_subtype": "generated",
+      "flow_type": "data_pipe"
+    },
+    {
+      "flow_name": "prep_week_1_session_9_sub_items",
+      "flow_subtype": "generated",
+      "flow_type": "data_pipe"
+    },
+    {
       "flow_name": "prep_week_1_reminder_sub_items",
       "flow_subtype": "generated",
       "flow_type": "data_pipe"
@@ -172,27 +197,62 @@
       "flow_type": "data_pipe"
     },
     {
+      "flow_name": "prep_week_2_session_22_sub_items",
+      "flow_subtype": "generated",
+      "flow_type": "data_pipe"
+    },
+    {
+      "flow_name": "prep_week_2_session_23_sub_items",
+      "flow_subtype": "generated",
+      "flow_type": "data_pipe"
+    },
+    {
+      "flow_name": "prep_week_2_session_24_sub_items",
+      "flow_subtype": "generated",
+      "flow_type": "data_pipe"
+    },
+    {
+      "flow_name": "prep_week_2_session_25_sub_items",
+      "flow_subtype": "generated",
+      "flow_type": "data_pipe"
+    },
+    {
+      "flow_name": "prep_week_2_session_26_sub_items",
+      "flow_subtype": "generated",
+      "flow_type": "data_pipe"
+    },
+    {
+      "flow_name": "prep_week_2_session_27_sub_items",
+      "flow_subtype": "generated",
+      "flow_type": "data_pipe"
+    },
+    {
+      "flow_name": "prep_week_2_session_28_sub_items",
+      "flow_subtype": "generated",
+      "flow_type": "data_pipe"
+    },
+    {
+      "flow_name": "prep_week_2_session_29_sub_items",
+      "flow_subtype": "generated",
+      "flow_type": "data_pipe"
+    },
+    {
+      "flow_name": "prep_week_2_session_30_sub_items",
+      "flow_subtype": "generated",
+      "flow_type": "data_pipe"
+    },
+    {
+      "flow_name": "prep_week_2_session_31_sub_items",
+      "flow_subtype": "generated",
+      "flow_type": "data_pipe"
+    },
+    {
       "flow_name": "prep_week_2_reminder_sub_items",
       "flow_subtype": "generated",
       "flow_type": "data_pipe"
     },
     {
       "flow_name": "prep_week_2_reminder_2_sub_items",
-      "flow_subtype": "generated",
-      "flow_type": "data_pipe"
-    },
-    {
-      "flow_name": "prep_test_viber_share_sub_items",
-      "flow_subtype": "generated",
-      "flow_type": "data_pipe"
-    },
-    {
-      "flow_name": "prep_test_viber_share_2_sub_items",
-      "flow_subtype": "generated",
-      "flow_type": "data_pipe"
-    },
-    {
-      "flow_name": "prep_test_viber_share_3_sub_items",
       "flow_subtype": "generated",
       "flow_type": "data_pipe"
     },

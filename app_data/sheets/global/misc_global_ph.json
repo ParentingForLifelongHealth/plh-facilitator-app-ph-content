@@ -86,7 +86,7 @@
     {
       "type": "declare_global_constant",
       "name": "login_google",
-      "value": "Sign in with Google",
+      "value": "Continue with Google",
       "_translations": {
         "value": {}
       }
@@ -94,7 +94,7 @@
     {
       "type": "declare_global_constant",
       "name": "login_apple",
-      "value": "Sign in with Apple",
+      "value": "Continue with Apple",
       "_translations": {
         "value": {}
       }
@@ -102,14 +102,30 @@
     {
       "type": "declare_global_constant",
       "name": "agree_terms",
-      "value": "By continuing, you agree to our **Terms and Conditions** and **Privacy Policy**.",
+      "value": "By continuing, you agree to our:",
       "_translations": {
         "value": {}
       }
     },
     {
       "type": "declare_global_constant",
-      "name": "logged_in_splash",
+      "name": "logged_in_existing",
+      "value": "Welcome back!",
+      "_translations": {
+        "value": {}
+      }
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "logged_in_existing_user",
+      "value": "Welcome back, @fields._auth_user_given_name!",
+      "_translations": {
+        "value": {}
+      }
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "logged_in_new",
       "value": "Welcome!",
       "_translations": {
         "value": {}
@@ -117,8 +133,8 @@
     },
     {
       "type": "declare_global_constant",
-      "name": "logged_in_splash_user",
-      "value": "Welcome @fields._auth_user_given_name!",
+      "name": "logged_in_new_user",
+      "value": "Welcome, @fields._auth_user_given_name!",
       "_translations": {
         "value": {}
       }
@@ -207,6 +223,14 @@
       "type": "declare_global_constant",
       "name": "finish_profile_text",
       "value": "Your profile is complete, and you're ready to begin!",
+      "_translations": {
+        "value": {}
+      }
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "logout",
+      "value": "Sign out",
       "_translations": {
         "value": {}
       }

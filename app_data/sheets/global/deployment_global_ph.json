@@ -148,7 +148,7 @@
     {
       "type": "declare_global_constant",
       "name": "main_logo",
-      "value": "images/logos/MaPa_logo.png",
+      "value": "images/logos/app_logo.png",
       "_translations": {
         "value": {}
       }

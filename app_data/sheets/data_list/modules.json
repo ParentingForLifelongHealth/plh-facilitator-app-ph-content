@@ -23,8 +23,6 @@
       "id": "week_1_session",
       "image_asset": "images/icons/task_1.png",
       "report_id": "week_1",
-      "related_article_id_1": "faq_h_no_understand_connection",
-      "related_article_id_2": "faq_h_no_thoughts",
       "status": "released",
       "title": "Module 1 Session: One-on-one time",
       "_translations": {
@@ -83,9 +81,6 @@
       "id": "week_2_session",
       "image_asset": "images/icons/task_2.png",
       "report_id": "week_2",
-      "related_article_id_1": "faq_text_support",
-      "related_article_id_2": "faq_ground_rules",
-      "related_article_id_3": "faq_misbehaviour",
       "status": "released",
       "title": "Module 2 Session: Talking about Feelings",
       "_translations": {
@@ -104,9 +99,6 @@
     },
     {
       "id": "week_2_1_reminder",
-      "related_article_id_1": "faq_h_no_strengths",
-      "related_article_id_2": "faq_h_no_volunteers",
-      "related_article_id_3": "group_admin_onboarding",
       "status": "released",
       "image_asset": "images/icons/reminder.png",
       "title": "Day 3: Module 2 Reminder",
@@ -126,9 +118,6 @@
     },
     {
       "id": "week_2_2_reminder",
-      "related_article_id_1": "faq_h_parents_insult",
-      "related_article_id_2": "faq_h_self_harm",
-      "related_article_id_3": "faq_h_no_neg_to_pos",
       "status": "released",
       "image_asset": "images/icons/reminder.png",
       "title": "Day 5: Module 2 Reminder",
@@ -148,9 +137,9 @@
     },
     {
       "id": "week_3_session",
-      "status": "draft",
       "image_asset": "images/icons/task_3.png",
       "report_id": "week_3",
+      "status": "released",
       "title": "Module 3 Session",
       "_translations": {
         "title": {},
@@ -168,7 +157,7 @@
     },
     {
       "id": "week_3_1_reminder",
-      "status": "draft",
+      "status": "released",
       "image_asset": "images/icons/reminder.png",
       "title": "Day 3: Module 3 Reminder",
       "_translations": {
@@ -187,7 +176,7 @@
     },
     {
       "id": "week_3_2_reminder",
-      "status": "draft",
+      "status": "released",
       "image_asset": "images/icons/reminder.png",
       "title": "Day 5: Module 3 Reminder",
       "_translations": {
@@ -206,9 +195,9 @@
     },
     {
       "id": "week_4_session",
-      "status": "draft",
       "image_asset": "images/icons/task_4.png",
       "report_id": "week_4",
+      "status": "released",
       "title": "Module 4 Session",
       "_translations": {
         "title": {},
@@ -226,7 +215,7 @@
     },
     {
       "id": "week_4_1_reminder",
-      "status": "draft",
+      "status": "released",
       "image_asset": "images/icons/reminder.png",
       "title": "Day 3: Module 4 Reminder",
       "_translations": {
@@ -245,7 +234,7 @@
     },
     {
       "id": "week_4_2_reminder",
-      "status": "draft",
+      "status": "released",
       "image_asset": "images/icons/reminder.png",
       "title": "Day 5: Module 4 Reminder",
       "_translations": {
@@ -264,9 +253,9 @@
     },
     {
       "id": "week_5_session",
-      "status": "draft",
       "image_asset": "images/icons/task_5.png",
       "report_id": "week_5",
+      "status": "released",
       "title": "Module 5 Session",
       "_translations": {
         "title": {},
@@ -284,7 +273,7 @@
     },
     {
       "id": "week_5_1_reminder",
-      "status": "draft",
+      "status": "released",
       "image_asset": "images/icons/reminder.png",
       "title": "Day 3: Module 5 Reminder",
       "_translations": {
@@ -303,7 +292,7 @@
     },
     {
       "id": "week_5_2_reminder",
-      "status": "draft",
+      "status": "released",
       "image_asset": "images/icons/reminder.png",
       "title": "Day 5: Module 5 Reminder",
       "_translations": {
@@ -322,9 +311,9 @@
     },
     {
       "id": "week_6_session",
-      "status": "draft",
       "image_asset": "images/icons/task_6.png",
       "report_id": "week_6",
+      "status": "released",
       "title": "Module 6 Session",
       "_translations": {
         "title": {},
@@ -342,7 +331,7 @@
     },
     {
       "id": "week_6_1_reminder",
-      "status": "draft",
+      "status": "released",
       "image_asset": "images/icons/reminder.png",
       "title": "Day 3: Module 6 Reminder",
       "_translations": {
@@ -361,7 +350,7 @@
     },
     {
       "id": "week_6_2_reminder",
-      "status": "draft",
+      "status": "released",
       "image_asset": "images/icons/reminder.png",
       "title": "Day 5: Module 6 Reminder",
       "_translations": {
@@ -380,9 +369,9 @@
     },
     {
       "id": "week_7_session",
-      "status": "draft",
       "image_asset": "images/icons/task_7.png",
       "report_id": "week_7",
+      "status": "released",
       "title": "Module 7 Session",
       "_translations": {
         "title": {},
@@ -400,7 +389,7 @@
     },
     {
       "id": "week_7_1_reminder",
-      "status": "draft",
+      "status": "released",
       "image_asset": "images/icons/reminder.png",
       "title": "Day 3: Module 7 Reminder",
       "_translations": {
@@ -419,7 +408,7 @@
     },
     {
       "id": "week_7_2_reminder",
-      "status": "draft",
+      "status": "released",
       "image_asset": "images/icons/reminder.png",
       "title": "Day 5: Module 7 Reminder",
       "_translations": {
@@ -438,9 +427,9 @@
     },
     {
       "id": "week_8_session",
-      "status": "draft",
       "image_asset": "images/icons/task_8.png",
       "report_id": "week_8",
+      "status": "released",
       "title": "Module 8 Session",
       "_translations": {
         "title": {},
@@ -455,58 +444,6 @@
         }
       },
       "description": "week_8"
-    },
-    {
-      "id": "week_8_1_reminder",
-      "status": "draft",
-      "image_asset": "images/icons/reminder.png",
-      "title": "Day 3: Module 8 Reminder",
-      "_translations": {
-        "title": {},
-        "description": {}
-      },
-      "_translatedFields": {
-        "title": {
-          "eng": "Day 3: Module 8 Reminder"
-        },
-        "description": {
-          "eng": "week_8"
-        }
-      },
-      "description": "week_8"
-    },
-    {
-      "id": "week_8_2_reminder",
-      "status": "draft",
-      "image_asset": "images/icons/reminder.png",
-      "title": "Day 5: Module 8 Reminder",
-      "_translations": {
-        "title": {},
-        "description": {}
-      },
-      "_translatedFields": {
-        "title": {
-          "eng": "Day 5: Module 8 Reminder"
-        },
-        "description": {
-          "eng": "week_8"
-        }
-      },
-      "description": "week_8"
-    },
-    {
-      "id": "test_viber_share",
-      "status": "draft",
-      "image_asset": "images/icons/reminder.png",
-      "title": "Viber Share Mockup (For Testing)",
-      "_translations": {
-        "title": {}
-      },
-      "_translatedFields": {
-        "title": {
-          "eng": "Viber Share Mockup (For Testing)"
-        }
-      }
     }
   ],
   "_xlsxPath": "data/modules_sub_items_ph.xlsx"
