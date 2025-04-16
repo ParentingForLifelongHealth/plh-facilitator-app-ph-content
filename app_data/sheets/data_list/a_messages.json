@@ -10,7 +10,7 @@
       "asset_type": "",
       "asset": "",
       "ignore": 1,
-      "title": "Day One: Module Reminder",
+      "title": "Reminder Para sa Unang Sesyon",
       "_translations": {
         "title": {},
         "text": {},
@@ -18,25 +18,25 @@
       },
       "_translatedFields": {
         "title": {
-          "eng": "Day One: Module Reminder"
+          "eng": "Reminder Para sa Unang Sesyon"
         },
         "text": {
-          "eng": "Good day! This is a reminder that the first MaPa Chat module will start [SET TIME] later. I'm excited to start the program with you! We'll start building a Happy Home with a simple yet effective tip: doing One-on-One Time. You will see what it can do for your family! Let's meet!"
+          "eng": "Magandang araw! Paalala lamang na ang ating MaPa Chat Hybrid Program ay magsisimula na mamayang [ORAS] sa [VENUE]. Excited na kaming makasama kayo! Sisimulan natin ang pagbuo ng Masayang Tahanan sa isang simple at epektibong parenting skill: ang pakikipag-**One-on-One Time sa inyong Anak!** Malalaman ninyo mamaya ano ang magagawa nito sa inyong pamilya! Kita kits!"
         },
         "guidance": {
-          "eng": "Replace [SET Time] with your session time before sending the message."
+          "eng": "Ipadala ang mensaheng ito sa mga magulang sa pamamagitan ng SMS/text messaging bilang paalala para sa unang sesyon. Palitan ang [ORAS] at [VENUE] ng iyong sesyon bago ipadala ang mensahe."
         }
       },
-      "text": "Good day! This is a reminder that the first MaPa Chat module will start [SET TIME] later. I'm excited to start the program with you! We'll start building a Happy Home with a simple yet effective tip: doing One-on-One Time. You will see what it can do for your family! Let's meet!",
-      "guidance": "Replace [SET Time] with your session time before sending the message."
+      "text": "Magandang araw! Paalala lamang na ang ating MaPa Chat Hybrid Program ay magsisimula na mamayang [ORAS] sa [VENUE]. Excited na kaming makasama kayo! Sisimulan natin ang pagbuo ng Masayang Tahanan sa isang simple at epektibong parenting skill: ang pakikipag-**One-on-One Time sa inyong Anak!** Malalaman ninyo mamaya ano ang magagawa nito sa inyong pamilya! Kita kits!",
+      "guidance": "Ipadala ang mensaheng ito sa mga magulang sa pamamagitan ng SMS/text messaging bilang paalala para sa unang sesyon. Palitan ang [ORAS] at [VENUE] ng iyong sesyon bago ipadala ang mensahe."
     },
     {
       "id": "message_2",
-      "foreign_key": "week_1_session_4",
+      "foreign_key": "week_1_session_9",
       "asset_type": "",
       "asset": "",
       "ignore": 2,
-      "title": "After the Session: Thanking Participants and Reminding Them to Practise",
+      "title": "Pagkatapos ng Sesyon: Pasasalamat sa Kalahok at Pagpapaalala na Magpraktis",
       "_translations": {
         "title": {},
         "text": {},
@@ -44,16 +44,16 @@
       },
       "_translatedFields": {
         "title": {
-          "eng": "After the Session: Thanking Participants and Reminding Them to Practise"
+          "eng": "Pagkatapos ng Sesyon: Pasasalamat sa Kalahok at Pagpapaalala na Magpraktis"
         },
         "text": {
-          "eng": "Hello! Thank you for attending our session! Remember, our main activity this week is One-on-One Time with your child. Even just 5 minutes can go a long way! You can do this!"
+          "eng": "Hello! Salamat sa pagdalo sa ating sesyon! Tandaan, ang ating pabaong gawain ngayong linggo ay ang pagkikipag-One-on-One Time kasama ang iyong anak. Kahit 5 minuto lang, malaki ang magagawa! Kaya mo ito!"
         },
         "guidance": {
           "eng": ""
         }
       },
-      "text": "Hello! Thank you for attending our session! Remember, our main activity this week is One-on-One Time with your child. Even just 5 minutes can go a long way! You can do this!",
+      "text": "Hello! Salamat sa pagdalo sa ating sesyon! Tandaan, ang ating pabaong gawain ngayong linggo ay ang pagkikipag-One-on-One Time kasama ang iyong anak. Kahit 5 minuto lang, malaki ang magagawa! Kaya mo ito!",
       "guidance": ""
     },
     {
@@ -62,7 +62,7 @@
       "asset_type": "",
       "asset": "",
       "ignore": 3,
-      "title": "Day Three: Support Reminder",
+      "title": "Mensahe 1 - Pagpapaalala ng Suporta",
       "_translations": {
         "title": {},
         "text": {},
@@ -70,16 +70,16 @@
       },
       "_translatedFields": {
         "title": {
-          "eng": "Day Three: Support Reminder"
+          "eng": "Mensahe 1 - Pagpapaalala ng Suporta"
         },
         "text": {
-          "eng": "Hi! How is your practice of the homework assignment going? I understand that you may have some challenges with this module. Feel free to text me if you have any questions.Thank you!"
+          "eng": "Hi! Kumusta ang inyong pagpraktis ng pabaong gawain? Naiintindihan ko na baka may mga hamon kayo sa modyul na ito. Huwag mag-atubili na mag-text sa akin kung may mga tanong kayo. Salamat!"
         },
         "guidance": {
           "eng": ""
         }
       },
-      "text": "Hi! How is your practice of the homework assignment going? I understand that you may have some challenges with this module. Feel free to text me if you have any questions.Thank you!",
+      "text": "Hi! Kumusta ang inyong pagpraktis ng pabaong gawain? Naiintindihan ko na baka may mga hamon kayo sa modyul na ito. Huwag mag-atubili na mag-text sa akin kung may mga tanong kayo. Salamat!",
       "guidance": ""
     },
     {
@@ -88,7 +88,7 @@
       "asset_type": "",
       "asset": "",
       "ignore": 4,
-      "title": "One Day Before the Next Online Session: Reminder for\nthe Next Session",
+      "title": "Mensahe 1 - Paalala para sa Susunod na Sesyon",
       "_translations": {
         "title": {},
         "text": {},
@@ -96,25 +96,25 @@
       },
       "_translatedFields": {
         "title": {
-          "eng": "One Day Before the Next Online Session: Reminder for\nthe Next Session"
+          "eng": "Mensahe 1 - Paalala para sa Susunod na Sesyon"
         },
         "text": {
-          "eng": "Good morning! We've reached the end of the week.\nHow is One-on-One Time with your children?\nShare your successes and challenges! Feel free to be creative in sharing: send stories, voice messages, or pictures. I'd love to hear how your week was at our next session on [INSERT DATE HERE]."
+          "eng": "Magandang araw! Nakarating na tayo sa dulo ng linggo. Kamusta ang pag-wa-One-on-One Time kasama ang iyong mga anak? Ikwento ang inyong mga naging tagumpay at hamon! Maaaring maging malikhain sa pagbabahagi: magpadala ng mga kwento, voice message, o kaya picture. Natutuwa akong marinig kung kumusta ang inyong linggo sa ating sunod na sesyon sa [ITAKDA ANG PETSA DITO]."
         },
         "guidance": {
-          "eng": "Insert the date for the next session before sending the message"
+          "eng": "Ilagay ang petsa ng susunod na sesyon bago ipadala ang mensahe."
         }
       },
-      "text": "Good morning! We've reached the end of the week.\nHow is One-on-One Time with your children?\nShare your successes and challenges! Feel free to be creative in sharing: send stories, voice messages, or pictures. I'd love to hear how your week was at our next session on [INSERT DATE HERE].",
-      "guidance": "Insert the date for the next session before sending the message"
+      "text": "Magandang araw! Nakarating na tayo sa dulo ng linggo. Kamusta ang pag-wa-One-on-One Time kasama ang iyong mga anak? Ikwento ang inyong mga naging tagumpay at hamon! Maaaring maging malikhain sa pagbabahagi: magpadala ng mga kwento, voice message, o kaya picture. Natutuwa akong marinig kung kumusta ang inyong linggo sa ating sunod na sesyon sa [ITAKDA ANG PETSA DITO].",
+      "guidance": "Ilagay ang petsa ng susunod na sesyon bago ipadala ang mensahe."
     },
     {
       "id": "message_5",
       "foreign_key": "week_2_session_2",
       "asset_type": "image",
-      "asset": "images/house_of_support.png",
+      "asset": "02_masayang_tahanan",
       "ignore": 5,
-      "title": "Day One: Module Reminder",
+      "title": "Unang Araw: Paalala sa Modyul",
       "_translations": {
         "title": {},
         "text": {},
@@ -122,25 +122,25 @@
       },
       "_translatedFields": {
         "title": {
-          "eng": "Day One: Module Reminder"
+          "eng": "Unang Araw: Paalala sa Modyul"
         },
         "text": {
-          "eng": "It's  been  a  whole  week!  Our  next  chat  session  is  [SET  TIME]  later.  We'll  talk  about  the  benefits  of  talking  about  feelings  with  your  child—and  add  a  second  foundation  to  the  walls  of  our  Happy  Home.  Let's  chat!"
+          "eng": ""
         },
         "guidance": {
-          "eng": "Replace [SET Time] with your session time, then send the message along with this image"
+          "eng": "Ipadala ang picture na ito bago ang susunod na mensahe."
         }
       },
-      "text": "It's  been  a  whole  week!  Our  next  chat  session  is  [SET  TIME]  later.  We'll  talk  about  the  benefits  of  talking  about  feelings  with  your  child—and  add  a  second  foundation  to  the  walls  of  our  Happy  Home.  Let's  chat!",
-      "guidance": "Replace [SET Time] with your session time, then send the message along with this image"
+      "text": "",
+      "guidance": "Ipadala ang picture na ito bago ang susunod na mensahe."
     },
     {
       "id": "message_6",
-      "foreign_key": "week_2_session_4",
+      "foreign_key": "week_2_session_3",
       "asset_type": "",
       "asset": "",
       "ignore": 6,
-      "title": "Message 1: Greetings",
+      "title": "Unang Araw: Paalala sa Modyul",
       "_translations": {
         "title": {},
         "text": {},
@@ -148,17 +148,17 @@
       },
       "_translatedFields": {
         "title": {
-          "eng": "Message 1: Greetings"
+          "eng": "Unang Araw: Paalala sa Modyul"
         },
         "text": {
-          "eng": "Greetings  and  Greetings! Welcome  to  Module  2  of  our  MaPaChat!  How  are  you  all?  Are  you  happy? Stressed?  Angry?  Annoyed?  Calm?  Whatever  emotion  you  are  feeling...it's  okay!  Let's  type  what  we're  feeling today"
+          "eng": "Isang buong linggo na pala ang nakalipas! Ang susunod nating chat session ay [ITAKDA ANG ORAS] mamaya. Pag-uusapan natin ang benepisyo ng pakikipag-usap tungkol sa damdamin kasama ang anak—at madadagdagan rin ng ikalawang pundasyon ang dingding ng ating Masayang Tahanan. Mag-chat tayo!"
         },
         "guidance": {
-          "eng": "Give parents a moment to share how they feel. Also, share your own feelings. For example, “I’m happy to be part of our MaPaChat session today"
+          "eng": "Palitan ang [ITAKDA ANG ORAS] ng oras ng iyong session. Siguraduhing naipadala na ang larawan ng Masayang Tahanan bago ang mensaheng ito."
         }
       },
-      "text": "Greetings  and  Greetings! Welcome  to  Module  2  of  our  MaPaChat!  How  are  you  all?  Are  you  happy? Stressed?  Angry?  Annoyed?  Calm?  Whatever  emotion  you  are  feeling...it's  okay!  Let's  type  what  we're  feeling today",
-      "guidance": "Give parents a moment to share how they feel. Also, share your own feelings. For example, “I’m happy to be part of our MaPaChat session today"
+      "text": "Isang buong linggo na pala ang nakalipas! Ang susunod nating chat session ay [ITAKDA ANG ORAS] mamaya. Pag-uusapan natin ang benepisyo ng pakikipag-usap tungkol sa damdamin kasama ang anak—at madadagdagan rin ng ikalawang pundasyon ang dingding ng ating Masayang Tahanan. Mag-chat tayo!",
+      "guidance": "Palitan ang [ITAKDA ANG ORAS] ng oras ng iyong session. Siguraduhing naipadala na ang larawan ng Masayang Tahanan bago ang mensaheng ito."
     },
     {
       "id": "message_7",
@@ -166,7 +166,7 @@
       "asset_type": "",
       "asset": "",
       "ignore": 7,
-      "title": "Message 2: Discussion about Home Activity",
+      "title": "Mensahe 1 - Pagbati ang Pangangamusta",
       "_translations": {
         "title": {},
         "text": {},
@@ -174,25 +174,25 @@
       },
       "_translatedFields": {
         "title": {
-          "eng": "Message 2: Discussion about Home Activity"
+          "eng": "Mensahe 1 - Pagbati ang Pangangamusta"
         },
         "text": {
-          "eng": "Last week,  we  talked  about  One-on-One  Time. with  the  child.  Today,  we  will  look  at  one  of  the  other  ways  of using  One-on-One  Time—talking  about  feelings with  the  child.  But  first,  let's  chat  about  your  home  activities or  homework.  How  is  your  One-on-One  Time  going?"
+          "eng": "Welcome sa Modyul 2 ng ating MaPaChat! Kamusta po kayo lahat? Masaya? Stressed? Galit? Inis? Kalmado? Anumang emosyon ang inyong nararamdaman…okay lang ito! I-type po natin kung ano ang nararamdaman natin\nngayong araw."
         },
         "guidance": {
-          "eng": "Accept the experience that parents will share."
+          "eng": "Bigyan ng sandali ang mga magulang na magbahagi ng kanilang nararamdaman. Ibahagi rin ang iyong nararamdaman. Halimbawa, “Masaya akong maging parte ng MaPa Chat session natin ngayong araw.”"
         }
       },
-      "text": "Last week,  we  talked  about  One-on-One  Time. with  the  child.  Today,  we  will  look  at  one  of  the  other  ways  of using  One-on-One  Time—talking  about  feelings with  the  child.  But  first,  let's  chat  about  your  home  activities or  homework.  How  is  your  One-on-One  Time  going?",
-      "guidance": "Accept the experience that parents will share."
+      "text": "Welcome sa Modyul 2 ng ating MaPaChat! Kamusta po kayo lahat? Masaya? Stressed? Galit? Inis? Kalmado? Anumang emosyon ang inyong nararamdaman…okay lang ito! I-type po natin kung ano ang nararamdaman natin\nngayong araw.",
+      "guidance": "Bigyan ng sandali ang mga magulang na magbahagi ng kanilang nararamdaman. Ibahagi rin ang iyong nararamdaman. Halimbawa, “Masaya akong maging parte ng MaPa Chat session natin ngayong araw.”"
     },
     {
       "id": "message_8",
       "foreign_key": "week_2_session_6",
-      "asset_type": "pdf",
-      "asset": "module_1_troubleshooting",
+      "asset_type": "",
+      "asset": "",
       "ignore": 8,
-      "title": "Message 3: Sharing Success",
+      "title": "Mensahe 2 - Talakayan Tungkol sa Pabaong Gawain",
       "_translations": {
         "title": {},
         "text": {},
@@ -200,25 +200,25 @@
       },
       "_translatedFields": {
         "title": {
-          "eng": "Message 3: Sharing Success"
+          "eng": "Mensahe 2 - Talakayan Tungkol sa Pabaong Gawain"
         },
         "text": {
-          "eng": "One  of  the  successes  you  shared  last  week. You  did  One-on-One  Time  and  [describe  the  success]. You  did  a  great  job  [attributing  success  to building block]."
+          "eng": "Noong nakaraang linggo, pinag-usapan natin ang pakikipag-One-on-One Time kasama ang anak. Ngayong araw, titingnan natin ang isa sa iba pang paraan ng paggamit ng One-on-One Time—ang pakikipag-usap tungkol sa damdamin kasama ang anak. Pero una,  mag-chat muna tayo tungkol sa inyong home activity o pabaong gawain. Kamusta ang pag-One-on-One Time ninyo?"
         },
         "guidance": {
-          "eng": "Share a success from what the parents have shared."
+          "eng": "Tanggapin ang mga karanasan na ibabahagi ng mga magulang. Magbahagi ng isang tagumpay at isang hamon mula sa mga ibinahagi ng mga magulang."
         }
       },
-      "text": "One  of  the  successes  you  shared  last  week. You  did  One-on-One  Time  and  [describe  the  success]. You  did  a  great  job  [attributing  success  to building block].",
-      "guidance": "Share a success from what the parents have shared."
+      "text": "Noong nakaraang linggo, pinag-usapan natin ang pakikipag-One-on-One Time kasama ang anak. Ngayong araw, titingnan natin ang isa sa iba pang paraan ng paggamit ng One-on-One Time—ang pakikipag-usap tungkol sa damdamin kasama ang anak. Pero una,  mag-chat muna tayo tungkol sa inyong home activity o pabaong gawain. Kamusta ang pag-One-on-One Time ninyo?",
+      "guidance": "Tanggapin ang mga karanasan na ibabahagi ng mga magulang. Magbahagi ng isang tagumpay at isang hamon mula sa mga ibinahagi ng mga magulang."
     },
     {
       "id": "message_9",
       "foreign_key": "week_2_session_7",
-      "asset_type": "pdf",
-      "asset": "module_1_troubleshooting",
+      "asset_type": "",
+      "asset": "",
       "ignore": 9,
-      "title": "Message 4: Discuss Challenge",
+      "title": "Mensahe 3 - Pagbabahagi ng Tagumpay",
       "_translations": {
         "title": {},
         "text": {},
@@ -226,25 +226,25 @@
       },
       "_translatedFields": {
         "title": {
-          "eng": "Message 4: Discuss Challenge"
+          "eng": "Mensahe 3 - Pagbabahagi ng Tagumpay"
         },
         "text": {
-          "eng": "Now  we  will  discuss  a  shared  challenge  about  [describe  the  challenge  from  the  feedback  module]."
+          "eng": "Isa sa mga tagumpay na binahagi ninyo noong nag-One-on-One Time kayo ay [ilarawan ang tagumpay]. Mahusay na nagawa ninyo na [iugnay ang tagumpay sa\npundasyon]."
         },
         "guidance": {
-          "eng": "If no one shared a challenge last week, send the example challenges one by one from the pdf."
+          "eng": "Palitan ang [ilarawan ang tagumpay] at [iugnay ang tagumpay sa pundasyon] base sa mga sagot ng magulang sa huling mensahe."
         }
       },
-      "text": "Now  we  will  discuss  a  shared  challenge  about  [describe  the  challenge  from  the  feedback  module].",
-      "guidance": "If no one shared a challenge last week, send the example challenges one by one from the pdf."
+      "text": "Isa sa mga tagumpay na binahagi ninyo noong nag-One-on-One Time kayo ay [ilarawan ang tagumpay]. Mahusay na nagawa ninyo na [iugnay ang tagumpay sa\npundasyon].",
+      "guidance": "Palitan ang [ilarawan ang tagumpay] at [iugnay ang tagumpay sa pundasyon] base sa mga sagot ng magulang sa huling mensahe."
     },
     {
       "id": "message_10",
       "foreign_key": "week_2_session_8",
-      "asset_type": "pdf",
-      "asset": "module_1_troubleshooting",
+      "asset_type": "",
+      "asset": "",
       "ignore": 10,
-      "title": "Message 5: Discussion about challenge & solution",
+      "title": "Mensahe 4 - Pagbabahagi ng Hamon",
       "_translations": {
         "title": {},
         "text": {},
@@ -252,17 +252,17 @@
       },
       "_translatedFields": {
         "title": {
-          "eng": "Message 5: Discussion about challenge & solution"
+          "eng": "Mensahe 4 - Pagbabahagi ng Hamon"
         },
         "text": {
-          "eng": "Can  we  work  together  to  come  up  with  a  positive  solution  to  [describe  the  challenge]?  What  might  a  parent  in  that  situation  do?"
+          "eng": "Ngayon naman ay pag-uusapan natin ang isang binahaging hamon tungkol sa [ilarawan ang hamon mula sa feedback modyul]."
         },
         "guidance": {
-          "eng": "Encourage parents to think of positive solutions. You will find some examples of challenges and solutions in the pdf."
+          "eng": "Palitan ang [ilarawan ang hamon mula sa feedback modyul] base sa mga naibahagi ng mga magulang na hamon.\n\nKung walang nagbahagi ng hamon sa nakaraang linggo, ipadala sa chat ang mga halimbawa ng mga posibleng hamon na nasa susunod na mensahe. Hayaan ang mga magulang na sumagot, at pumili ng isang hamon na maaaring pag-isipan ng buong grupo."
         }
       },
-      "text": "Can  we  work  together  to  come  up  with  a  positive  solution  to  [describe  the  challenge]?  What  might  a  parent  in  that  situation  do?",
-      "guidance": "Encourage parents to think of positive solutions. You will find some examples of challenges and solutions in the pdf."
+      "text": "Ngayon naman ay pag-uusapan natin ang isang binahaging hamon tungkol sa [ilarawan ang hamon mula sa feedback modyul].",
+      "guidance": "Palitan ang [ilarawan ang hamon mula sa feedback modyul] base sa mga naibahagi ng mga magulang na hamon.\n\nKung walang nagbahagi ng hamon sa nakaraang linggo, ipadala sa chat ang mga halimbawa ng mga posibleng hamon na nasa susunod na mensahe. Hayaan ang mga magulang na sumagot, at pumili ng isang hamon na maaaring pag-isipan ng buong grupo."
     },
     {
       "id": "message_11",
@@ -270,7 +270,7 @@
       "asset_type": "",
       "asset": "",
       "ignore": 11,
-      "title": "Message 6",
+      "title": "Mensahe 4 - Pagbabahagi ng Hamon",
       "_translations": {
         "title": {},
         "text": {},
@@ -278,17 +278,17 @@
       },
       "_translatedFields": {
         "title": {
-          "eng": "Message 6"
+          "eng": "Mensahe 4 - Pagbabahagi ng Hamon"
         },
         "text": {
-          "eng": "Thank  you  so  much  for  your  ideas.  Now  that  you  know  how  to  use  One-on-One  Time  with  your  child,  you  can  also  try  it  with  other  members  of  your  family—like  your  spouse,  parents,  in-laws,  or  even  grandchildren!"
+          "eng": "Nauunawaan kong mahirap mag-isip ng hamon. Narito ang ilang sa mga halimbawa ng mga hamon sa One-on-One time na ibinahagi ng ibang magulang:\nWala akong sapat na oras\nAyaw ng anak kong makipag-One-on-One Time\nHindi ako komportable sa mga gustong gawin ng anak ko\n\nMay mga nakaranas din ba ng mga hamong ito? Mag-react po tayo sa mga hamon na nakalista kapag ito ay naranasan niyo rin!"
         },
         "guidance": {
-          "eng": ""
+          "eng": "Maaaring gawing **poll** sa Viber ang mensahe na ito para makapili ang mga magulang ng isang hamon. Hayaan ang mga magulang na sumagot, at pumili ng isang hamon na maaaring pag-isipan ng buong grupo."
         }
       },
-      "text": "Thank  you  so  much  for  your  ideas.  Now  that  you  know  how  to  use  One-on-One  Time  with  your  child,  you  can  also  try  it  with  other  members  of  your  family—like  your  spouse,  parents,  in-laws,  or  even  grandchildren!",
-      "guidance": ""
+      "text": "Nauunawaan kong mahirap mag-isip ng hamon. Narito ang ilang sa mga halimbawa ng mga hamon sa One-on-One time na ibinahagi ng ibang magulang:\nWala akong sapat na oras\nAyaw ng anak kong makipag-One-on-One Time\nHindi ako komportable sa mga gustong gawin ng anak ko\n\nMay mga nakaranas din ba ng mga hamong ito? Mag-react po tayo sa mga hamon na nakalista kapag ito ay naranasan niyo rin!",
+      "guidance": "Maaaring gawing **poll** sa Viber ang mensahe na ito para makapili ang mga magulang ng isang hamon. Hayaan ang mga magulang na sumagot, at pumili ng isang hamon na maaaring pag-isipan ng buong grupo."
     },
     {
       "id": "message_12",
@@ -296,7 +296,7 @@
       "asset_type": "",
       "asset": "",
       "ignore": 12,
-      "title": "Message 7: Introducing MaPa Skill",
+      "title": "Mensahe 5 - Talakayan Tungkol sa Hamon at mga Solusyon",
       "_translations": {
         "title": {},
         "text": {},
@@ -304,25 +304,25 @@
       },
       "_translatedFields": {
         "title": {
-          "eng": "Message 7: Introducing MaPa Skill"
+          "eng": "Mensahe 5 - Talakayan Tungkol sa Hamon at mga Solusyon"
         },
         "text": {
-          "eng": "Today  we're  going  to  talk  about  MaPa  Skill:  helping  children  manage  their  emotions.  Here  are  five  foundations  for  talking  to  children  about  emotions. \n1.  BREATHE  -  Breathe  before  you  start  to  calm  yourself  down. \n2.  SHARE  -  Share  your  feelings. \n3.  LISTEN  -  Listen  to  your  child  or  teenager. \n4.  PAINFUL  -  Concerned  for  them. \n5.  FIND  -  Find  the  positive"
+          "eng": "Maaari ba nating pagtulungan na isipan ng positibong solusyon ang [ilarawan ang hamon]? Ano kaya ang pwedeng gawin ng magulang na nasa sitwasyon na iyon?"
         },
         "guidance": {
-          "eng": ""
+          "eng": "Palitan ang [ilarawan ang hamon] base sa tugon ng mga magulang. Himukin ang mga magulang na mag-isip ng mga positibong solusyon. Makikita ang mga halimbawa sa pdf."
         }
       },
-      "text": "Today  we're  going  to  talk  about  MaPa  Skill:  helping  children  manage  their  emotions.  Here  are  five  foundations  for  talking  to  children  about  emotions. \n1.  BREATHE  -  Breathe  before  you  start  to  calm  yourself  down. \n2.  SHARE  -  Share  your  feelings. \n3.  LISTEN  -  Listen  to  your  child  or  teenager. \n4.  PAINFUL  -  Concerned  for  them. \n5.  FIND  -  Find  the  positive",
-      "guidance": ""
+      "text": "Maaari ba nating pagtulungan na isipan ng positibong solusyon ang [ilarawan ang hamon]? Ano kaya ang pwedeng gawin ng magulang na nasa sitwasyon na iyon?",
+      "guidance": "Palitan ang [ilarawan ang hamon] base sa tugon ng mga magulang. Himukin ang mga magulang na mag-isip ng mga positibong solusyon. Makikita ang mga halimbawa sa pdf."
     },
     {
       "id": "message_13",
       "foreign_key": "week_2_session_11",
-      "asset_type": "image",
-      "asset": "images/comics/module_2_yc.png",
+      "asset_type": "",
+      "asset": "",
       "ignore": 13,
-      "title": "Message 8: Comic about young child",
+      "title": "Mensahe 6 - Pagtatapos ng Talakayan sa Pabaong Gawain",
       "_translations": {
         "title": {},
         "text": {},
@@ -330,16 +330,16 @@
       },
       "_translatedFields": {
         "title": {
-          "eng": "Message 8: Comic about young child"
+          "eng": "Mensahe 6 - Pagtatapos ng Talakayan sa Pabaong Gawain"
         },
         "text": {
-          "eng": "Here is a comic showing how a child talked about their feelings with their grandmother during One-on-One Time."
+          "eng": "Maraming salamat sa inyong mga ideya. Ngayon na alam ninyo paano gamitin ang One-on-One Time kasama ang anak, pwede ninyo rin ito subukan gawin kasama ang ibang miyembro ng inyong pamilya—tulad ng inyong asawa, magulang, biyenan, o kaya apo!"
         },
         "guidance": {
           "eng": ""
         }
       },
-      "text": "Here is a comic showing how a child talked about their feelings with their grandmother during One-on-One Time.",
+      "text": "Maraming salamat sa inyong mga ideya. Ngayon na alam ninyo paano gamitin ang One-on-One Time kasama ang anak, pwede ninyo rin ito subukan gawin kasama ang ibang miyembro ng inyong pamilya—tulad ng inyong asawa, magulang, biyenan, o kaya apo!",
       "guidance": ""
     },
     {
@@ -348,7 +348,7 @@
       "asset_type": "",
       "asset": "",
       "ignore": 14,
-      "title": "Messgae 9: Discussion about the Comic",
+      "title": "Mensahe 7 - Pagpapakilala ng MaPa Skill: Pakikipag-usap Tungkol sa Damdamin",
       "_translations": {
         "title": {},
         "text": {},
@@ -356,51 +356,51 @@
       },
       "_translatedFields": {
         "title": {
-          "eng": "Messgae 9: Discussion about the Comic"
+          "eng": "Mensahe 7 - Pagpapakilala ng MaPa Skill: Pakikipag-usap Tungkol sa Damdamin"
         },
         "text": {
-          "eng": "How  did  you  see  any  of  the  five  foundations  of  Talking  About  Feelings  in  this  comic?"
-        },
-        "guidance": {
-          "eng": "Give parents time to answer before moving on to the comic"
-        }
-      },
-      "text": "How  did  you  see  any  of  the  five  foundations  of  Talking  About  Feelings  in  this  comic?",
-      "guidance": "Give parents time to answer before moving on to the comic"
-    },
-    {
-      "id": "message_15",
-      "foreign_key": "week_2_session_13",
-      "asset_type": "image",
-      "asset": "images/comics/module_2_teen.png",
-      "ignore": 15,
-      "title": "Message 10: Comic about a Teenage Child: Talking about Feelings",
-      "_translations": {
-        "title": {},
-        "text": {},
-        "guidance": {}
-      },
-      "_translatedFields": {
-        "title": {
-          "eng": "Message 10: Comic about a Teenage Child: Talking about Feelings"
-        },
-        "text": {
-          "eng": "Here's another comic where Dad Jose talks about difficult emotions with his teenage son, Pablo"
+          "eng": "Pag-uusapan na natin ang **MaPa Parenting Skill** ngayong araw: ang pagtulong sa anak pangasiwaan ang kanilang mga damdamin. Heto ang mga **pundasyon** para makausap ang anak tungkol sa damdamin.\n\n1️⃣ **HUMINGA** - Huminga bago magsimula para mapakalma ang sarili.\n2️⃣ **IBAHAGI** - Ibahagi ang nararamdaman. \n3️⃣ **MAKINIG** - Makinig sa iyong anak na bata o tinedyer. \n4️⃣ **MALASAKIT** - Malasakit para sa kanila. \n5️⃣ **MAGHANAP** - Maghanap ng positibo."
         },
         "guidance": {
           "eng": ""
         }
       },
-      "text": "Here's another comic where Dad Jose talks about difficult emotions with his teenage son, Pablo",
+      "text": "Pag-uusapan na natin ang **MaPa Parenting Skill** ngayong araw: ang pagtulong sa anak pangasiwaan ang kanilang mga damdamin. Heto ang mga **pundasyon** para makausap ang anak tungkol sa damdamin.\n\n1️⃣ **HUMINGA** - Huminga bago magsimula para mapakalma ang sarili.\n2️⃣ **IBAHAGI** - Ibahagi ang nararamdaman. \n3️⃣ **MAKINIG** - Makinig sa iyong anak na bata o tinedyer. \n4️⃣ **MALASAKIT** - Malasakit para sa kanila. \n5️⃣ **MAGHANAP** - Maghanap ng positibo.",
+      "guidance": ""
+    },
+    {
+      "id": "message_15",
+      "foreign_key": "week_2_session_13",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 15,
+      "title": "Mensahe 8 - Komiks Tungkol sa Batang Anak",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "guidance": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Mensahe 8 - Komiks Tungkol sa Batang Anak"
+        },
+        "text": {
+          "eng": "Narito ang komiks na nagpapakita kung paano nakipag-usap ang anak tungkol sa kanyang damdamin sa kanyang Lola habang nag-wa-One-on-One Time."
+        },
+        "guidance": {
+          "eng": ""
+        }
+      },
+      "text": "Narito ang komiks na nagpapakita kung paano nakipag-usap ang anak tungkol sa kanyang damdamin sa kanyang Lola habang nag-wa-One-on-One Time.",
       "guidance": ""
     },
     {
       "id": "message_16",
       "foreign_key": "week_2_session_14",
-      "asset_type": "",
-      "asset": "",
+      "asset_type": "image",
+      "asset": "02_comics1_panel1",
       "ignore": 16,
-      "title": "Message 11: Discussion about Comics",
+      "title": "Mensahe 8 - Komiks Tungkol sa Batang Anak",
       "_translations": {
         "title": {},
         "text": {},
@@ -408,25 +408,25 @@
       },
       "_translatedFields": {
         "title": {
-          "eng": "Message 11: Discussion about Comics"
+          "eng": "Mensahe 8 - Komiks Tungkol sa Batang Anak"
         },
         "text": {
-          "eng": "Let's also chat about this comic. What did you notice about how Tatay Jose spoke to his son?\nWhich of the foundations did you see?"
+          "eng": ""
         },
         "guidance": {
-          "eng": "Give parents a chance to answer the first question before moving onto the next question"
+          "eng": "Ipadala ang unang panel ng komiks."
         }
       },
-      "text": "Let's also chat about this comic. What did you notice about how Tatay Jose spoke to his son?\nWhich of the foundations did you see?",
-      "guidance": "Give parents a chance to answer the first question before moving onto the next question"
+      "text": "",
+      "guidance": "Ipadala ang unang panel ng komiks."
     },
     {
       "id": "message_17",
       "foreign_key": "week_2_session_15",
-      "asset_type": "",
-      "asset": "",
+      "asset_type": "image",
+      "asset": "02_comics1_panel2",
       "ignore": 17,
-      "title": "Message 12: Discussion about Comics: Think about the Age of the Child",
+      "title": "Mensahe 8 - Komiks Tungkol sa Batang Anak",
       "_translations": {
         "title": {},
         "text": {},
@@ -434,25 +434,25 @@
       },
       "_translatedFields": {
         "title": {
-          "eng": "Message 12: Discussion about Comics: Think about the Age of the Child"
+          "eng": "Mensahe 8 - Komiks Tungkol sa Batang Anak"
         },
         "text": {
-          "eng": "How would the story in the comic change if Dad was talking about his feelings to a young child\ninstead of a teenager?"
+          "eng": ""
         },
         "guidance": {
-          "eng": "Give parents opportunity to share their ideas"
+          "eng": "Ipadala ang pangalawang panel ng komiks"
         }
       },
-      "text": "How would the story in the comic change if Dad was talking about his feelings to a young child\ninstead of a teenager?",
-      "guidance": "Give parents opportunity to share their ideas"
+      "text": "",
+      "guidance": "Ipadala ang pangalawang panel ng komiks"
     },
     {
       "id": "message_18",
       "foreign_key": "week_2_session_16",
-      "asset_type": "",
-      "asset": "",
+      "asset_type": "image",
+      "asset": "02_comics1_panel3",
       "ignore": 18,
-      "title": "Message 13: Discussion about Reasons for Talking About Feelings",
+      "title": "Mensahe 8 - Komiks Tungkol sa Batang Anak",
       "_translations": {
         "title": {},
         "text": {},
@@ -460,25 +460,25 @@
       },
       "_translatedFields": {
         "title": {
-          "eng": "Message 13: Discussion about Reasons for Talking About Feelings"
+          "eng": "Mensahe 8 - Komiks Tungkol sa Batang Anak"
         },
         "text": {
-          "eng": "Why is it helpful to encourage a young child or teenager to share their feelings?"
+          "eng": ""
         },
         "guidance": {
-          "eng": "Give parents opportunity to share their ideas"
+          "eng": "Ipadala ang pangatlong panel ng komiks."
         }
       },
-      "text": "Why is it helpful to encourage a young child or teenager to share their feelings?",
-      "guidance": "Give parents opportunity to share their ideas"
+      "text": "",
+      "guidance": "Ipadala ang pangatlong panel ng komiks."
     },
     {
       "id": "message_19",
       "foreign_key": "week_2_session_17",
-      "asset_type": "",
-      "asset": "",
+      "asset_type": "image",
+      "asset": "02_comics1_panel4",
       "ignore": 19,
-      "title": "Message 14: Setting a Home Activity",
+      "title": "Mensahe 8 - Komiks Tungkol sa Batang Anak",
       "_translations": {
         "title": {},
         "text": {},
@@ -486,17 +486,17 @@
       },
       "_translatedFields": {
         "title": {
-          "eng": "Message 14: Setting a Home Activity"
+          "eng": "Mensahe 8 - Komiks Tungkol sa Batang Anak"
         },
         "text": {
-          "eng": "Thank you for sharing your ideas. For this week's homework, practice talking about feelings with your child during your One-on-One time and at other times.\nAlso try to pay attention to your own feelings as your day goes by."
+          "eng": ""
         },
         "guidance": {
-          "eng": ""
+          "eng": "Ipadala ang pang-apat na panel ng komiks."
         }
       },
-      "text": "Thank you for sharing your ideas. For this week's homework, practice talking about feelings with your child during your One-on-One time and at other times.\nAlso try to pay attention to your own feelings as your day goes by.",
-      "guidance": ""
+      "text": "",
+      "guidance": "Ipadala ang pang-apat na panel ng komiks."
     },
     {
       "id": "message_20",
@@ -504,7 +504,7 @@
       "asset_type": "",
       "asset": "",
       "ignore": 20,
-      "title": "Message 15: Clarification",
+      "title": "Mensahe 9 - Talakayan Tungkol sa Komiks",
       "_translations": {
         "title": {},
         "text": {},
@@ -512,25 +512,25 @@
       },
       "_translatedFields": {
         "title": {
-          "eng": "Message 15: Clarification"
+          "eng": "Mensahe 9 - Talakayan Tungkol sa Komiks"
         },
         "text": {
-          "eng": "Do you have any more questions about talking about feelings?"
+          "eng": "Paano ninyo nakita ang kahit na alin sa limang pundasyon sa Pakikipag-usap tungkol sa Damdamin dito sa komiks?"
         },
         "guidance": {
-          "eng": "Allow a few minutes for parents to ask questions. Remember to thank parents for their questions. Before you give your own answer, give the group a chance to think about it and respond by saying \"That's a good question! What do others think could be an answer or solution to that?\""
+          "eng": "Bigyan ang mga magulang ng oras para makasagot bago pumunta sa sunod na komiks."
         }
       },
-      "text": "Do you have any more questions about talking about feelings?",
-      "guidance": "Allow a few minutes for parents to ask questions. Remember to thank parents for their questions. Before you give your own answer, give the group a chance to think about it and respond by saying \"That's a good question! What do others think could be an answer or solution to that?\""
+      "text": "Paano ninyo nakita ang kahit na alin sa limang pundasyon sa Pakikipag-usap tungkol sa Damdamin dito sa komiks?",
+      "guidance": "Bigyan ang mga magulang ng oras para makasagot bago pumunta sa sunod na komiks."
     },
     {
       "id": "message_21",
       "foreign_key": "week_2_session_19",
-      "asset_type": "youtube",
-      "asset": "https://www.youtube.com/watch?v=4TfzAgl9hLY",
+      "asset_type": "",
+      "asset": "",
       "ignore": 21,
-      "title": "Message 16 –Video: MaPa Skill Reminder",
+      "title": "Mensahe 10 - Komiks Tungkol sa Anak na Tinedyer: Pakikipag-usap Tungkol sa Damdamin",
       "_translations": {
         "title": {},
         "text": {},
@@ -538,25 +538,25 @@
       },
       "_translatedFields": {
         "title": {
-          "eng": "Message 16 –Video: MaPa Skill Reminder"
+          "eng": "Mensahe 10 - Komiks Tungkol sa Anak na Tinedyer: Pakikipag-usap Tungkol sa Damdamin"
         },
         "text": {
-          "eng": "Here is a short video on how to talk about feelings with your child. It is a reminder of the foundations:"
+          "eng": "Narito ang isang komiks kung saan makikipag-usap si Tatay Jose tungkol sa mahirap na emosyon sa kanyang tinedyer na anak, si Pablo."
         },
         "guidance": {
           "eng": ""
         }
       },
-      "text": "Here is a short video on how to talk about feelings with your child. It is a reminder of the foundations:",
+      "text": "Narito ang isang komiks kung saan makikipag-usap si Tatay Jose tungkol sa mahirap na emosyon sa kanyang tinedyer na anak, si Pablo.",
       "guidance": ""
     },
     {
       "id": "message_22",
       "foreign_key": "week_2_session_20",
-      "asset_type": "youtube",
-      "asset": "https://www.youtube.com/watch?v=h5Iw10f9mEI",
+      "asset_type": "image",
+      "asset": "02_comics2_panel1",
       "ignore": 22,
-      "title": "Message 17 – Video: Pause for a Moment",
+      "title": "Mensahe 10 - Komiks Tungkol sa Anak na Tinedyer: Pakikipag-usap Tungkol sa Damdamin",
       "_translations": {
         "title": {},
         "text": {},
@@ -564,129 +564,25 @@
       },
       "_translatedFields": {
         "title": {
-          "eng": "Message 17 – Video: Pause for a Moment"
+          "eng": "Mensahe 10 - Komiks Tungkol sa Anak na Tinedyer: Pakikipag-usap Tungkol sa Damdamin"
         },
         "text": {
-          "eng": "Before we end today's chat session, we will do a Pause for a Moment.\nRemember that you can also do this if you feel like it.\nstress."
+          "eng": ""
         },
         "guidance": {
-          "eng": ""
+          "eng": "Ipadala ang unang panel ng komiks."
         }
       },
-      "text": "Before we end today's chat session, we will do a Pause for a Moment.\nRemember that you can also do this if you feel like it.\nstress.",
-      "guidance": ""
+      "text": "",
+      "guidance": "Ipadala ang unang panel ng komiks."
     },
     {
       "id": "message_23",
       "foreign_key": "week_2_session_21",
-      "asset_type": "",
-      "asset": "",
-      "ignore": 23,
-      "title": "Message 18 – Gratitude",
-      "_translations": {
-        "title": {},
-        "text": {},
-        "guidance": {}
-      },
-      "_translatedFields": {
-        "title": {
-          "eng": "Message 18 – Gratitude"
-        },
-        "text": {
-          "eng": "Thank you. What you did today was difficult but also very important. It will help you manage your stress and give your child the skills to manage their stress. Have a great day!"
-        },
-        "guidance": {
-          "eng": ""
-        }
-      },
-      "text": "Thank you. What you did today was difficult but also very important. It will help you manage your stress and give your child the skills to manage their stress. Have a great day!",
-      "guidance": ""
-    },
-    {
-      "id": "message_24",
-      "foreign_key": "week_2_reminder",
-      "asset_type": "",
-      "asset": "",
-      "ignore": 24,
-      "title": "Day Three: Reminder to Practise",
-      "_translations": {
-        "title": {},
-        "text": {},
-        "guidance": {}
-      },
-      "_translatedFields": {
-        "title": {
-          "eng": "Day Three: Reminder to Practise"
-        },
-        "text": {
-          "eng": "Hello! Remember that the main activity for this week is to talk about feelings in your One-on-One time and at\nother times. Talking about\nfeelings isn’t easy at first– especially if it’s new to you and your child– so remember to practice.\nGood job on your attempt!"
-        },
-        "guidance": {
-          "eng": ""
-        }
-      },
-      "text": "Hello! Remember that the main activity for this week is to talk about feelings in your One-on-One time and at\nother times. Talking about\nfeelings isn’t easy at first– especially if it’s new to you and your child– so remember to practice.\nGood job on your attempt!",
-      "guidance": ""
-    },
-    {
-      "id": "message_25",
-      "foreign_key": "week_2_reminder_2",
-      "asset_type": "",
-      "asset": "",
-      "ignore": 25,
-      "title": "Day Five: Feedback",
-      "_translations": {
-        "title": {},
-        "text": {},
-        "guidance": {}
-      },
-      "_translatedFields": {
-        "title": {
-          "eng": "Day Five: Feedback"
-        },
-        "text": {
-          "eng": "Hi! Could you share something positive that happened when you talked to your child about feelings?\nHave you experienced any challenges while trying to do this? Could be creative!\nSend stories, voice messages, and pictures. I'd love to hear how your week was when we\nmeet again on [INSERT DATE HERE]."
-        },
-        "guidance": {
-          "eng": "Accept submissions by parents for giving thumbs up, emoji, or compliments. Be sure to pick up one or two successes and challenges that can be discussed at the beginning of the next module."
-        }
-      },
-      "text": "Hi! Could you share something positive that happened when you talked to your child about feelings?\nHave you experienced any challenges while trying to do this? Could be creative!\nSend stories, voice messages, and pictures. I'd love to hear how your week was when we\nmeet again on [INSERT DATE HERE].",
-      "guidance": "Accept submissions by parents for giving thumbs up, emoji, or compliments. Be sure to pick up one or two successes and challenges that can be discussed at the beginning of the next module."
-    },
-    {
-      "id": "message_26",
-      "foreign_key": "test_viber_share",
-      "asset_type": "",
-      "asset": "",
-      "ignore": 26,
-      "title": "Day One: Module Reminder",
-      "_translations": {
-        "title": {},
-        "text": {},
-        "guidance": {}
-      },
-      "_translatedFields": {
-        "title": {
-          "eng": "Day One: Module Reminder"
-        },
-        "text": {
-          "eng": "It's  been  a  whole  week!  Our  next  chat  session  is  [SET  TIME]  later.  We'll  talk  about  the  benefits  of  talking  about  feelings  with  your  child—and  add  a  second  foundation  to  the  walls  of  our  Happy  Home.  Let's  chat!"
-        },
-        "guidance": {
-          "eng": "1️⃣ Download the image on the screen.\n2️⃣ Update the message by replacing [SET TIME] with your session time.\n3️⃣ Share both the image and the message with your group."
-        }
-      },
-      "text": "It's  been  a  whole  week!  Our  next  chat  session  is  [SET  TIME]  later.  We'll  talk  about  the  benefits  of  talking  about  feelings  with  your  child—and  add  a  second  foundation  to  the  walls  of  our  Happy  Home.  Let's  chat!",
-      "guidance": "1️⃣ Download the image on the screen.\n2️⃣ Update the message by replacing [SET TIME] with your session time.\n3️⃣ Share both the image and the message with your group."
-    },
-    {
-      "id": "message_27",
-      "foreign_key": "test_viber_share_2",
       "asset_type": "image",
-      "asset": "images/house_of_support.png",
-      "ignore": 27,
-      "title": "Day One: Module Reminder",
+      "asset": "02_comics2_panel2",
+      "ignore": 23,
+      "title": "Mensahe 10 - Komiks Tungkol sa Anak na Tinedyer: Pakikipag-usap Tungkol sa Damdamin",
       "_translations": {
         "title": {},
         "text": {},
@@ -694,25 +590,25 @@
       },
       "_translatedFields": {
         "title": {
-          "eng": "Day One: Module Reminder"
+          "eng": "Mensahe 10 - Komiks Tungkol sa Anak na Tinedyer: Pakikipag-usap Tungkol sa Damdamin"
         },
         "text": {
           "eng": ""
         },
         "guidance": {
-          "eng": "Share the image with the group"
+          "eng": "Ipadala ang pangalawang panel ng komiks."
         }
       },
       "text": "",
-      "guidance": "Share the image with the group"
+      "guidance": "Ipadala ang pangalawang panel ng komiks."
     },
     {
-      "id": "message_28",
-      "foreign_key": "test_viber_share_3",
-      "asset_type": "",
-      "asset": "",
-      "ignore": 28,
-      "title": "Day One: Module Reminder",
+      "id": "message_24",
+      "foreign_key": "week_2_session_22",
+      "asset_type": "image",
+      "asset": "02_comics2_panel3",
+      "ignore": 24,
+      "title": "Mensahe 10 - Komiks Tungkol sa Anak na Tinedyer: Pakikipag-usap Tungkol sa Damdamin",
       "_translations": {
         "title": {},
         "text": {},
@@ -720,24 +616,310 @@
       },
       "_translatedFields": {
         "title": {
-          "eng": "Day One: Module Reminder"
+          "eng": "Mensahe 10 - Komiks Tungkol sa Anak na Tinedyer: Pakikipag-usap Tungkol sa Damdamin"
         },
         "text": {
-          "eng": "It's  been  a  whole  week!  Our  next  chat  session  is  [SET  TIME]  later.  We'll  talk  about  the  benefits  of  talking  about  feelings  with  your  child—and  add  a  second  foundation  to  the  walls  of  our  Happy  Home.  Let's  chat!"
+          "eng": ""
         },
         "guidance": {
-          "eng": "Copy the message & eeplace [SET Time] with your session time beforing hitting send."
+          "eng": "Ipadala ang pangatlong panel ng komiks."
         }
       },
-      "text": "It's  been  a  whole  week!  Our  next  chat  session  is  [SET  TIME]  later.  We'll  talk  about  the  benefits  of  talking  about  feelings  with  your  child—and  add  a  second  foundation  to  the  walls  of  our  Happy  Home.  Let's  chat!",
-      "guidance": "Copy the message & eeplace [SET Time] with your session time beforing hitting send."
+      "text": "",
+      "guidance": "Ipadala ang pangatlong panel ng komiks."
+    },
+    {
+      "id": "message_25",
+      "foreign_key": "week_2_session_23",
+      "asset_type": "image",
+      "asset": "02_comics2_panel4",
+      "ignore": 25,
+      "title": "Mensahe 10 - Komiks Tungkol sa Anak na Tinedyer: Pakikipag-usap Tungkol sa Damdamin",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "guidance": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Mensahe 10 - Komiks Tungkol sa Anak na Tinedyer: Pakikipag-usap Tungkol sa Damdamin"
+        },
+        "text": {
+          "eng": ""
+        },
+        "guidance": {
+          "eng": "Ipadala ang pang-apat na panel ng komiks."
+        }
+      },
+      "text": "",
+      "guidance": "Ipadala ang pang-apat na panel ng komiks."
+    },
+    {
+      "id": "message_26",
+      "foreign_key": "week_2_session_24",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 26,
+      "title": "Mensahe 11 - Talakayan Tungkol sa Komiks",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "guidance": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Mensahe 11 - Talakayan Tungkol sa Komiks"
+        },
+        "text": {
+          "eng": "Mag-chat din tayo tungkol sa komiks na ito. Anong napansin ninyo sa kung paano kinausap ni Tatay Jose ang kanyang anak? Alin sa mga **pundasyon** ang nakita ninyo?"
+        },
+        "guidance": {
+          "eng": "Bigyan ang mga magulang ng pagkakataon para sagutin ang unang tanong bago pumunta sa susunod na tanong."
+        }
+      },
+      "text": "Mag-chat din tayo tungkol sa komiks na ito. Anong napansin ninyo sa kung paano kinausap ni Tatay Jose ang kanyang anak? Alin sa mga **pundasyon** ang nakita ninyo?",
+      "guidance": "Bigyan ang mga magulang ng pagkakataon para sagutin ang unang tanong bago pumunta sa susunod na tanong."
+    },
+    {
+      "id": "message_27",
+      "foreign_key": "week_2_session_25",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 27,
+      "title": "Mensahe 12 - Talakayan tungkol sa Komiks: Isipin ang Edad ng Anak",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "guidance": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Mensahe 12 - Talakayan tungkol sa Komiks: Isipin ang Edad ng Anak"
+        },
+        "text": {
+          "eng": "Paano kaya magbabago ang kwento sa komiks kung batang anak imbes na tinedyer ang kausap ni Tatay tungkol sa kanyang damdamin?"
+        },
+        "guidance": {
+          "eng": "Bigyan ang mga magulang ng pagkakataong magbahagi ng kanilang mga ideya."
+        }
+      },
+      "text": "Paano kaya magbabago ang kwento sa komiks kung batang anak imbes na tinedyer ang kausap ni Tatay tungkol sa kanyang damdamin?",
+      "guidance": "Bigyan ang mga magulang ng pagkakataong magbahagi ng kanilang mga ideya."
+    },
+    {
+      "id": "message_28",
+      "foreign_key": "week_2_session_26",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 28,
+      "title": "Mensahe 13 - Talakayan tungkol sa mga Rason sa Pakikipag-usap tungkol sa Damdamin",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "guidance": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Mensahe 13 - Talakayan tungkol sa mga Rason sa Pakikipag-usap tungkol sa Damdamin"
+        },
+        "text": {
+          "eng": "Bakit makakatulong ang paghikayat sa batang anak o tinedyer na ibahagi ang kanilang nararamdaman na emosyon?"
+        },
+        "guidance": {
+          "eng": "Bigyan ang mga magulang ng pagkakataong magbahagi ng kanilang mga ideya."
+        }
+      },
+      "text": "Bakit makakatulong ang paghikayat sa batang anak o tinedyer na ibahagi ang kanilang nararamdaman na emosyon?",
+      "guidance": "Bigyan ang mga magulang ng pagkakataong magbahagi ng kanilang mga ideya."
     },
     {
       "id": "message_29",
+      "foreign_key": "week_2_session_27",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 29,
+      "title": "Mensahe 13 - Pagtakda ng Home Activity o Pabaong Gawain",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "guidance": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Mensahe 13 - Pagtakda ng Home Activity o Pabaong Gawain"
+        },
+        "text": {
+          "eng": "Maraming salamat sa pagbabahagi ng inyong mga ideya. Para sa homework ngayong linggo, ipraktis sa inyong anak ang pakikipag-usap tungkol sa damdamin sa inyong One-on-One time at maging sa ibang pagkakataon. Subukan ninyo ring pansinin ang inyong sariling damdamin habang nagdadaan ang inyong araw."
+        },
+        "guidance": {
+          "eng": ""
+        }
+      },
+      "text": "Maraming salamat sa pagbabahagi ng inyong mga ideya. Para sa homework ngayong linggo, ipraktis sa inyong anak ang pakikipag-usap tungkol sa damdamin sa inyong One-on-One time at maging sa ibang pagkakataon. Subukan ninyo ring pansinin ang inyong sariling damdamin habang nagdadaan ang inyong araw.",
+      "guidance": ""
+    },
+    {
+      "id": "message_30",
+      "foreign_key": "week_2_session_28",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 30,
+      "title": "Mensahe 14 - Paglilinaw",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "guidance": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Mensahe 14 - Paglilinaw"
+        },
+        "text": {
+          "eng": "May tanong pa ba tungkol sa pakikipag-usap tungkol sa damdamin?"
+        },
+        "guidance": {
+          "eng": "Magbigay ng ilang minuto para makapagtanong ang mga magulang. Alalahaning magpasalamat sa mga magulang sa kanilang mga katanungan. Bago mo ibigay ang iyong sariling sagot, bigyan ang grupo ng pagkakataong pag-isipan ito at sumagot sa pamamagitan ng pagsabi “Magandang tanong iyan! Ano po sa tingin ng iba ang pwedeng isagot o solusyon diyan?”"
+        }
+      },
+      "text": "May tanong pa ba tungkol sa pakikipag-usap tungkol sa damdamin?",
+      "guidance": "Magbigay ng ilang minuto para makapagtanong ang mga magulang. Alalahaning magpasalamat sa mga magulang sa kanilang mga katanungan. Bago mo ibigay ang iyong sariling sagot, bigyan ang grupo ng pagkakataong pag-isipan ito at sumagot sa pamamagitan ng pagsabi “Magandang tanong iyan! Ano po sa tingin ng iba ang pwedeng isagot o solusyon diyan?”"
+    },
+    {
+      "id": "message_31",
+      "foreign_key": "week_2_session_29",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 31,
+      "title": "Message 15 - Video: MaPa Skill Reminder",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "guidance": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Message 15 - Video: MaPa Skill Reminder"
+        },
+        "text": {
+          "eng": "Narito ang isang maikling video kung paano makipag-usap tungkol sa damdamin kasama ang anak. Ito ay paalala ng mga pundasyon:\n\n1️⃣ **HUMINGA** - Huminga bago magsimula para mapakalma ang sarili.\n2️⃣ **IBAHAGI** - Ibahagi ang nararamdaman. \n3️⃣ **MAKINIG** - Makinig sa iyong anak na bata o tinedyer. \n4️⃣ **MALASAKIT** - Malasakit para sa kanila. \n5️⃣ **MAGHANAP** - Maghanap ng positibo."
+        },
+        "guidance": {
+          "eng": ""
+        }
+      },
+      "text": "Narito ang isang maikling video kung paano makipag-usap tungkol sa damdamin kasama ang anak. Ito ay paalala ng mga pundasyon:\n\n1️⃣ **HUMINGA** - Huminga bago magsimula para mapakalma ang sarili.\n2️⃣ **IBAHAGI** - Ibahagi ang nararamdaman. \n3️⃣ **MAKINIG** - Makinig sa iyong anak na bata o tinedyer. \n4️⃣ **MALASAKIT** - Malasakit para sa kanila. \n5️⃣ **MAGHANAP** - Maghanap ng positibo.",
+      "guidance": ""
+    },
+    {
+      "id": "message_32",
+      "foreign_key": "week_2_session_30",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 32,
+      "title": "Mensahe 16 - Audio: Tumigil nang Sandali",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "guidance": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Mensahe 16 - Audio: Tumigil nang Sandali"
+        },
+        "text": {
+          "eng": "Bago natin tapusin ang chat session ngayong araw, gagawin natin ang Tumigil nang Sandali. Tandaan na pwede po ninyong gawin din ito kapag kayo ay nakakaramdam ng stress."
+        },
+        "guidance": {
+          "eng": "Ipadala ang audio message ng Pagtigil nang Sandali."
+        }
+      },
+      "text": "Bago natin tapusin ang chat session ngayong araw, gagawin natin ang Tumigil nang Sandali. Tandaan na pwede po ninyong gawin din ito kapag kayo ay nakakaramdam ng stress.",
+      "guidance": "Ipadala ang audio message ng Pagtigil nang Sandali."
+    },
+    {
+      "id": "message_33",
+      "foreign_key": "week_2_session_31",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 33,
+      "title": "Mensahe 17 - Pagpapasalamat",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "guidance": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Mensahe 17 - Pagpapasalamat"
+        },
+        "text": {
+          "eng": "Salamat sa inyo. Mahirap ang ginawa ninyo ngayong araw pero napaka-importante rin. Makakatulong ito para pangasiwaan ninyo ang inyong stress at mabigyan ang inyong anak ng kakayahan upang pangasiwaan ang kanilang stress. Magandang araw!"
+        },
+        "guidance": {
+          "eng": ""
+        }
+      },
+      "text": "Salamat sa inyo. Mahirap ang ginawa ninyo ngayong araw pero napaka-importante rin. Makakatulong ito para pangasiwaan ninyo ang inyong stress at mabigyan ang inyong anak ng kakayahan upang pangasiwaan ang kanilang stress. Magandang araw!",
+      "guidance": ""
+    },
+    {
+      "id": "message_34",
+      "foreign_key": "week_2_reminder",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 34,
+      "title": "Mensahe 1 – Pagpapaalala ng Kasanayan",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "guidance": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Mensahe 1 – Pagpapaalala ng Kasanayan"
+        },
+        "text": {
+          "eng": "Hello! Tandaan na ang pabaong gawain para sa linggo na ito ay ang **pakikipag-usap tungkol sa damdamin** sa inyong One-on-One time at maging sa ibang pagkakataon. Ang pakikipag-usap tungkol sa damdamin ay hindi madali sa una – lalo na kung bago ito sa iyo at sa inyong anak– kaya tandaang magpraktis. Good job sa iyong pagsubok!"
+        },
+        "guidance": {
+          "eng": "Ipadala ang mensahe na ito at hikayatin ang mga magulang na magpraktis ng MaPa Skill!"
+        }
+      },
+      "text": "Hello! Tandaan na ang pabaong gawain para sa linggo na ito ay ang **pakikipag-usap tungkol sa damdamin** sa inyong One-on-One time at maging sa ibang pagkakataon. Ang pakikipag-usap tungkol sa damdamin ay hindi madali sa una – lalo na kung bago ito sa iyo at sa inyong anak– kaya tandaang magpraktis. Good job sa iyong pagsubok!",
+      "guidance": "Ipadala ang mensahe na ito at hikayatin ang mga magulang na magpraktis ng MaPa Skill!"
+    },
+    {
+      "id": "message_35",
+      "foreign_key": "week_2_reminder_2",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 35,
+      "title": "Mensahe 1 - Pagtanong sa Feedback",
+      "_translations": {
+        "title": {},
+        "text": {},
+        "guidance": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Mensahe 1 - Pagtanong sa Feedback"
+        },
+        "text": {
+          "eng": "Hi! Maaaring magbahagi ng isang positibong bagay na nangyari noong nakipag-usap ka sa iyong anak tungkol sa damdamin. Meron bang nakaranas ng hamon habang sinusubukan nila gawin ito? Maaaring maging malikhain! Magpadala ng mga kwento, voice message, at mga picture. Natutuwa akong marinig kung kumusta ang inyong linggo sa ating sunod na pagkikita sa [ITAKDA ANG PETSA DITO]."
+        },
+        "guidance": {
+          "eng": "Tanggapin ang mga ipapadala ng mga magulang sa pagbibigay ng thumbs up, emoji, o mga papuri. Siguraduhing makakakuha ng isa o dalawang mga tagumpay at hamon na maaaring pag-usapan sa simula ng susunod na modyul.\n\nPalitan din ang **[ITAKDA ANG PETSA DITO]** depende sa schedule ng susunod na sesyon."
+        }
+      },
+      "text": "Hi! Maaaring magbahagi ng isang positibong bagay na nangyari noong nakipag-usap ka sa iyong anak tungkol sa damdamin. Meron bang nakaranas ng hamon habang sinusubukan nila gawin ito? Maaaring maging malikhain! Magpadala ng mga kwento, voice message, at mga picture. Natutuwa akong marinig kung kumusta ang inyong linggo sa ating sunod na pagkikita sa [ITAKDA ANG PETSA DITO].",
+      "guidance": "Tanggapin ang mga ipapadala ng mga magulang sa pagbibigay ng thumbs up, emoji, o mga papuri. Siguraduhing makakakuha ng isa o dalawang mga tagumpay at hamon na maaaring pag-usapan sa simula ng susunod na modyul.\n\nPalitan din ang **[ITAKDA ANG PETSA DITO]** depende sa schedule ng susunod na sesyon."
+    },
+    {
+      "id": "message_36",
       "foreign_key": "demo_2",
       "asset_type": "image",
       "asset": "cw_demo/house_of_support.png",
-      "ignore": 29,
+      "ignore": 36,
       "title": "Day 1 Reminder",
       "_translations": {
         "title": {},
@@ -759,11 +941,11 @@
       "guidance": "Send this image before sending the next message."
     },
     {
-      "id": "message_30",
+      "id": "message_37",
       "foreign_key": "demo_3",
       "asset_type": "",
       "asset": "",
-      "ignore": 30,
+      "ignore": 37,
       "title": "Day 1 Reminder",
       "_translations": {
         "title": {},
@@ -785,11 +967,11 @@
       "guidance": "Replace [SET Time] with your session time."
     },
     {
-      "id": "message_31",
+      "id": "message_38",
       "foreign_key": "demo_5",
       "asset_type": "",
       "asset": "",
-      "ignore": 31,
+      "ignore": 38,
       "title": "Greetings",
       "_translations": {
         "title": {},
@@ -811,11 +993,11 @@
       "guidance": "Allow time for parents to share how they are feeling. You should\nalso share how you are feeling. For example, “I am happy to be part of the chat today.”"
     },
     {
-      "id": "message_32",
+      "id": "message_39",
       "foreign_key": "demo_6",
       "asset_type": "",
       "asset": "",
-      "ignore": 32,
+      "ignore": 39,
       "title": "Discussion about Home Activity",
       "_translations": {
         "title": {},
@@ -837,11 +1019,11 @@
       "guidance": "Acknowledge the experiences participants share."
     },
     {
-      "id": "message_33",
+      "id": "message_40",
       "foreign_key": "demo_7",
       "asset_type": "",
       "asset": "",
-      "ignore": 33,
+      "ignore": 40,
       "title": "Sharing Success",
       "_translations": {
         "title": {},
@@ -863,11 +1045,11 @@
       "guidance": "Share one success that you selected from the feedback parents provided."
     },
     {
-      "id": "message_34",
+      "id": "message_41",
       "foreign_key": "demo_8",
       "asset_type": "",
       "asset": "",
-      "ignore": 34,
+      "ignore": 41,
       "title": "Sharing Challenge",
       "_translations": {
         "title": {},
@@ -889,11 +1071,11 @@
       "guidance": "If nobody shared a challenge during the week, then use the prompts from the pdf."
     },
     {
-      "id": "message_35",
+      "id": "message_42",
       "foreign_key": "demo_9",
       "asset_type": "",
       "asset": "",
-      "ignore": 35,
+      "ignore": 42,
       "title": "Discussing Challenges & Solutions",
       "_translations": {
         "title": {},
@@ -915,11 +1097,11 @@
       "guidance": "Encourage parents to work together to identify positive solutions. You will find some examples of challenges and solutions in the pdf."
     },
     {
-      "id": "message_36",
+      "id": "message_43",
       "foreign_key": "demo_10",
       "asset_type": "",
       "asset": "",
-      "ignore": 36,
+      "ignore": 43,
       "title": "Introducing the Parenting Tip: Talking about Emotions",
       "_translations": {
         "title": {},
@@ -941,11 +1123,11 @@
       "guidance": ""
     },
     {
-      "id": "message_37",
+      "id": "message_44",
       "foreign_key": "demo_11",
       "asset_type": "image",
       "asset": "cw_demo/comic_1.png",
-      "ignore": 37,
+      "ignore": 44,
       "title": "Comic for Kids: Talking about Emotions",
       "_translations": {
         "title": {},
@@ -967,11 +1149,11 @@
       "guidance": "Send this image before sending the next message"
     },
     {
-      "id": "message_38",
+      "id": "message_45",
       "foreign_key": "demo_12",
       "asset_type": "",
       "asset": "",
-      "ignore": 38,
+      "ignore": 45,
       "title": "Comic for Kids: Talking about Emotions",
       "_translations": {
         "title": {},
@@ -993,11 +1175,11 @@
       "guidance": ""
     },
     {
-      "id": "message_39",
+      "id": "message_46",
       "foreign_key": "demo_13",
       "asset_type": "",
       "asset": "",
-      "ignore": 39,
+      "ignore": 46,
       "title": "Discussion on Comic",
       "_translations": {
         "title": {},
@@ -1019,11 +1201,11 @@
       "guidance": "Give parents time to answer before moving on."
     },
     {
-      "id": "message_40",
+      "id": "message_47",
       "foreign_key": "demo_14",
       "asset_type": "image",
       "asset": "cw_demo/comic_2.png",
-      "ignore": 40,
+      "ignore": 47,
       "title": "Comic for Teens (Sharing Our Own Emotions)",
       "_translations": {
         "title": {},
@@ -1045,11 +1227,11 @@
       "guidance": "Send this image before sending the next message"
     },
     {
-      "id": "message_41",
+      "id": "message_48",
       "foreign_key": "demo_15",
       "asset_type": "",
       "asset": "",
-      "ignore": 41,
+      "ignore": 48,
       "title": "Comic for Teens (Sharing Our Own Emotions)",
       "_translations": {
         "title": {},
@@ -1071,11 +1253,11 @@
       "guidance": ""
     },
     {
-      "id": "message_42",
+      "id": "message_49",
       "foreign_key": "demo_16",
       "asset_type": "",
       "asset": "",
-      "ignore": 42,
+      "ignore": 49,
       "title": "Discussion about Comics",
       "_translations": {
         "title": {},
@@ -1097,11 +1279,11 @@
       "guidance": "Remember to give parents a chance to respond."
     },
     {
-      "id": "message_43",
+      "id": "message_50",
       "foreign_key": "demo_17",
       "asset_type": "",
       "asset": "",
-      "ignore": 43,
+      "ignore": 50,
       "title": "Discussion on Comic: Age prompt",
       "_translations": {
         "title": {},
@@ -1123,11 +1305,11 @@
       "guidance": "Give parents opportunity to share their ideas"
     },
     {
-      "id": "message_44",
+      "id": "message_51",
       "foreign_key": "demo_18",
       "asset_type": "",
       "asset": "",
-      "ignore": 44,
+      "ignore": 51,
       "title": "Reasons for Talking about Emotions with Your Children",
       "_translations": {
         "title": {},
@@ -1149,11 +1331,11 @@
       "guidance": "Give parents opportunity to share their ideas"
     },
     {
-      "id": "message_45",
+      "id": "message_52",
       "foreign_key": "demo_19",
       "asset_type": "",
       "asset": "",
-      "ignore": 45,
+      "ignore": 52,
       "title": "Assignment of Home Activity",
       "_translations": {
         "title": {},
@@ -1175,11 +1357,11 @@
       "guidance": ""
     },
     {
-      "id": "message_46",
+      "id": "message_53",
       "foreign_key": "demo_20",
       "asset_type": "",
       "asset": "",
-      "ignore": 46,
+      "ignore": 53,
       "title": "Offer for Questions",
       "_translations": {
         "title": {},
@@ -1201,11 +1383,11 @@
       "guidance": "Allow about a minute for parents to raise any questions. Remember to thank parents for their questions. Before giving your own answer, give the group a chance to come up with ideas by asking, “That’s a great question, what does everyone think?”"
     },
     {
-      "id": "message_47",
+      "id": "message_54",
       "foreign_key": "demo_21",
       "asset_type": "youtube",
       "asset": "https://www.youtube.com/watch?v=4TfzAgl9hLY",
-      "ignore": 47,
+      "ignore": 54,
       "title": "Video: Reminder of Parenting Tip",
       "_translations": {
         "title": {},
@@ -1227,11 +1409,11 @@
       "guidance": ""
     },
     {
-      "id": "message_48",
+      "id": "message_55",
       "foreign_key": "demo_22",
       "asset_type": "youtube",
       "asset": "https://www.youtube.com/watch?v=h5Iw10f9mEI",
-      "ignore": 48,
+      "ignore": 55,
       "title": "Audio: Take a Pause",
       "_translations": {
         "title": {},
@@ -1253,11 +1435,11 @@
       "guidance": ""
     },
     {
-      "id": "message_49",
+      "id": "message_56",
       "foreign_key": "demo_23",
       "asset_type": "",
       "asset": "",
-      "ignore": 49,
+      "ignore": 56,
       "title": "Thank you & Closing",
       "_translations": {
         "title": {},

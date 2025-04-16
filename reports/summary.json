@@ -43,7 +43,7 @@
       },
       {
         "type": "display_group",
-        "count": 118
+        "count": 119
       },
       {
         "type": "drawer",
@@ -63,7 +63,7 @@
       },
       {
         "type": "lottie_animation",
-        "count": 2
+        "count": 3
       },
       {
         "type": "navigation_bar",
@@ -83,7 +83,7 @@
       },
       {
         "type": "round_button",
-        "count": 38
+        "count": 39
       },
       {
         "type": "select_text",
@@ -91,7 +91,7 @@
       },
       {
         "type": "set_variable",
-        "count": 780
+        "count": 790
       },
       {
         "type": "simple_checkbox",
@@ -107,7 +107,7 @@
       },
       {
         "type": "template",
-        "count": 172
+        "count": 183
       },
       {
         "type": "test",
@@ -219,7 +219,7 @@
       },
       {
         "type": "set_data",
-        "count": 20
+        "count": 21
       },
       {
         "type": "set_field",
@@ -251,13 +251,13 @@
     "data": [
       {
         "assets": "total",
-        "KB": "67906 KB",
-        "MB": "67.9 MB"
+        "KB": "66057 KB",
+        "MB": "66.1 MB"
       },
       {
         "assets": "unused",
-        "KB": "44001 KB",
-        "MB": "44 MB"
+        "KB": "46037 KB",
+        "MB": "46 MB"
       }
     ]
   },
@@ -600,6 +600,14 @@
         "size_kb": 234.3
       },
       {
+        "path": "images/comics/module_2_teen.png",
+        "size_kb": 554.2
+      },
+      {
+        "path": "images/comics/module_2_yc.png",
+        "size_kb": 666.1
+      },
+      {
         "path": "images/flags/mx.svg",
         "size_kb": 91.3
       },
@@ -618,6 +626,10 @@
       {
         "path": "images/flags/zm.svg",
         "size_kb": 5.4
+      },
+      {
+        "path": "images/house_of_support.png",
+        "size_kb": 815.4
       },
       {
         "path": "images/icons/bar_chart_white.svg",
@@ -865,8 +877,8 @@
         "missing": true
       },
       {
-        "path": "images/logos/nip.png",
-        "count": 1,
+        "path": "lottie/gift_box.json",
+        "count": 2,
         "missing": true
       },
       {
@@ -932,16 +944,6 @@
         "path": "images/backgrounds/reports_top_right.svg",
         "count": 1,
         "size_kb": 2
-      },
-      {
-        "path": "images/comics/module_2_teen.png",
-        "count": 1,
-        "size_kb": 554.2
-      },
-      {
-        "path": "images/comics/module_2_yc.png",
-        "count": 1,
-        "size_kb": 666.1
       },
       {
         "path": "images/contact_for_reporting_abuse.svg",
@@ -1062,11 +1064,6 @@
         "path": "images/group_admin_onboarding.svg",
         "count": 1,
         "size_kb": 13.5
-      },
-      {
-        "path": "images/house_of_support.png",
-        "count": 3,
-        "size_kb": 815.4
       },
       {
         "path": "images/how_to_chat_session.svg",
@@ -1210,7 +1207,7 @@
       },
       {
         "path": "images/icons/reminder.png",
-        "count": 17,
+        "count": 14,
         "size_kb": 10.4
       },
       {
@@ -1280,8 +1277,8 @@
       },
       {
         "path": "images/logos/MaPa_logo.png",
-        "count": 2,
-        "size_kb": 70.6
+        "count": 1,
+        "size_kb": 157.3
       },
       {
         "path": "images/logos/PLH.png",
@@ -1292,6 +1289,16 @@
         "path": "images/logos/UNICEF.jpg",
         "count": 1,
         "size_kb": 27.7
+      },
+      {
+        "path": "images/logos/app_logo.png",
+        "count": 1,
+        "size_kb": 70.6
+      },
+      {
+        "path": "images/logos/nip.png",
+        "count": 1,
+        "size_kb": 11.9
       },
       {
         "path": "images/no_group_selected.svg",
@@ -1334,6 +1341,11 @@
         "size_kb": 5.6
       },
       {
+        "path": "lottie/checkmark_blue.json",
+        "count": 1,
+        "size_kb": 17
+      },
+      {
         "path": "pdf/manual.pdf",
         "count": 1,
         "size_kb": 470.3
@@ -1355,7 +1367,7 @@
       },
       {
         "path": "pdf/module_1_troubleshooting.pdf",
-        "count": 3,
+        "count": 1,
         "size_kb": 222.4
       },
       {
@@ -1425,7 +1437,7 @@
       {
         "type": "data_pipe",
         "subtype": "generated",
-        "total": 55
+        "total": 67
       },
       {
         "type": "generator",
@@ -1450,7 +1462,7 @@
       {
         "type": "template",
         "subtype": "generated",
-        "total": 130
+        "total": 141
       },
       {
         "type": "template",

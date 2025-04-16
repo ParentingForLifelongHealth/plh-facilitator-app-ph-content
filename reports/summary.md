@@ -13,23 +13,23 @@
 | data_items | 39 |
 | debug_toggle | 1 |
 | display_grid | 2 |
-| display_group | 118 |
+| display_group | 119 |
 | drawer | 1 |
 | google_sign_in_button | 3 |
 | image | 13 |
 | items | 25 |
-| lottie_animation | 2 |
+| lottie_animation | 3 |
 | navigation_bar | 2 |
 | pdf | 1 |
 | qr_code | 1 |
 | radio_button_grid | 16 |
-| round_button | 38 |
+| round_button | 39 |
 | select_text | 1 |
-| set_variable | 780 |
+| set_variable | 790 |
 | simple_checkbox | 2 |
 | task_card | 3 |
 | task_progress_bar | 3 |
-| template | 172 |
+| template | 183 |
 | test | 1 |
 | text | 250 |
 | text_area | 2 |
@@ -63,7 +63,7 @@
 | pop_up | 19 |
 | reset_app | 1 |
 | save_to_device | 4 |
-| set_data | 20 |
+| set_data | 21 |
 | set_field | 61 |
 | set_item | 6 |
 | set_local | 76 |
@@ -77,8 +77,8 @@
 
 | assets | KB | MB |
 | --- | --- | --- |
-| total | 67906 KB | 67.9 MB |
-| unused | 44001 KB | 44 MB |
+| total | 66057 KB | 66.1 MB |
+| unused | 46037 KB | 46 MB |
 </details>
 
 <details open>
@@ -172,11 +172,14 @@ Assets that appear in app-data but do not have references within sheets
 | images/comics/08_comics2_panel6.jpg | 252 |
 | images/comics/08_comics2_panel7.jpg | 237 |
 | images/comics/08_comics2_panel8.jpg | 234.3 |
+| images/comics/module_2_teen.png | 554.2 |
+| images/comics/module_2_yc.png | 666.1 |
 | images/flags/mx.svg | 91.3 |
 | images/flags/my.svg | 1.4 |
 | images/flags/tz.svg | 0.5 |
 | images/flags/ug.svg | 3.9 |
 | images/flags/zm.svg | 5.4 |
+| images/house_of_support.png | 815.4 |
 | images/icons/bar_chart_white.svg | 1.5 |
 | images/icons/book_white.svg | 1.5 |
 | images/icons/check_circle.svg | 1.2 |
@@ -245,7 +248,7 @@ Assets that have references within sheets but do not appear in app-data
 | images/icons/in_progress.svg | 1 |
 | images/icons/tick.svg | 1 |
 | images/logos/bird_on_light.svg | 1 |
-| images/logos/nip.png | 1 |
+| lottie/gift_box.json | 2 |
 | pdf/module_1_building_block.pdf | 1 |
 | videos/add_parent.mp4 | 1 |
 | videos/onboard_caregivers.mp4 | 1 |
@@ -267,8 +270,6 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | images/backgrounds/home_bottom_right.svg | 2.3 | 1 |
 | images/backgrounds/home_top_left.svg | 2.4 | 2 |
 | images/backgrounds/reports_top_right.svg | 2 | 1 |
-| images/comics/module_2_teen.png | 554.2 | 1 |
-| images/comics/module_2_yc.png | 666.1 | 1 |
 | images/contact_for_reporting_abuse.svg | 6.3 | 1 |
 | images/crisis_hotlines.svg | 12.6 | 1 |
 | images/day_1_introduction.svg | 6.7 | 1 |
@@ -293,7 +294,6 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | images/flags/gb.svg | 0.5 | 2 |
 | images/flags/ph.svg | 0.9 | 2 |
 | images/group_admin_onboarding.svg | 13.5 | 1 |
-| images/house_of_support.png | 815.4 | 3 |
 | images/how_to_chat_session.svg | 11 | 1 |
 | images/how_to_report.svg | 5.8 | 1 |
 | images/how_to_report_abuse.svg | 12.2 | 1 |
@@ -322,7 +322,7 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | images/icons/people_network.svg | 6.9 | 1 |
 | images/icons/person_cog.svg | 2.9 | 1 |
 | images/icons/profile_card.svg | 7.4 | 1 |
-| images/icons/reminder.png | 10.4 | 17 |
+| images/icons/reminder.png | 10.4 | 14 |
 | images/icons/share.svg | 2.3 | 4 |
 | images/icons/task_1.png | 1 | 2 |
 | images/icons/task_2.png | 1.9 | 1 |
@@ -336,9 +336,11 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | images/icons/visibility.svg | 1.9 | 1 |
 | images/icons/world.svg | 6.2 | 1 |
 | images/logos/IDEMS.png | 84.6 | 1 |
-| images/logos/MaPa_logo.png | 70.6 | 2 |
+| images/logos/MaPa_logo.png | 157.3 | 1 |
 | images/logos/PLH.png | 26.6 | 1 |
 | images/logos/UNICEF.jpg | 27.7 | 1 |
+| images/logos/app_logo.png | 70.6 | 1 |
+| images/logos/nip.png | 11.9 | 1 |
 | images/no_group_selected.svg | 3.5 | 1 |
 | images/onboarding_cc.svg | 19.3 | 2 |
 | images/one_on_one_challenges.svg | 13.1 | 1 |
@@ -347,11 +349,12 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | images/routine_challenges.svg | 20.5 | 1 |
 | images/talk_feelings_challenges.svg | 19.3 | 1 |
 | images/what_is_safeguarding.svg | 5.6 | 1 |
+| lottie/checkmark_blue.json | 17 | 1 |
 | pdf/manual.pdf | 470.3 | 1 |
 | pdf/manual_study.pdf | 1047 | 1 |
 | pdf/module_1_deliver.pdf | 2718.4 | 1 |
 | pdf/module_1_prepare.pdf | 179 | 1 |
-| pdf/module_1_troubleshooting.pdf | 222.4 | 3 |
+| pdf/module_1_troubleshooting.pdf | 222.4 | 1 |
 | pdf/module_2_guide.pdf | 1777.1 | 1 |
 | pdf/overview_guide_study.pdf | 2252.6 | 1 |
 | pdf/peas.pdf | 590.3 | 1 |
@@ -371,11 +374,11 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | data_list | legal_terms | 2 |
 | data_list | lifecycle_actions | 1 |
 | data_pipe |  | 2 |
-| data_pipe | generated | 55 |
+| data_pipe | generated | 67 |
 | generator |  | 9 |
 | global |  | 12 |
 | global | legal_terms | 1 |
 | template |  | 78 |
-| template | generated | 130 |
+| template | generated | 141 |
 | template | legal_terms | 4 |
 </details>

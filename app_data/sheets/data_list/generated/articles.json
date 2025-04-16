@@ -46,13 +46,73 @@
       "loop_id": "week_1_session",
       "foreign_key": "week_1_session",
       "type": "article",
-      "next_article": "",
+      "next_article": "week_1_session_5",
       "previous_article": "week_1_session_3",
       "test": "week_1_session",
       "create_loop": 0
     },
     {
       "ignore": 5,
+      "id": "week_1_session_5",
+      "completed": false,
+      "loop_id": "week_1_session",
+      "foreign_key": "week_1_session",
+      "type": "article",
+      "next_article": "week_1_session_6",
+      "previous_article": "week_1_session_4",
+      "test": "week_1_session",
+      "create_loop": 0
+    },
+    {
+      "ignore": 6,
+      "id": "week_1_session_6",
+      "completed": false,
+      "loop_id": "week_1_session",
+      "foreign_key": "week_1_session",
+      "type": "article",
+      "next_article": "week_1_session_7",
+      "previous_article": "week_1_session_5",
+      "test": "week_1_session",
+      "create_loop": 0
+    },
+    {
+      "ignore": 7,
+      "id": "week_1_session_7",
+      "completed": false,
+      "loop_id": "week_1_session",
+      "foreign_key": "week_1_session",
+      "type": "article",
+      "next_article": "week_1_session_8",
+      "previous_article": "week_1_session_6",
+      "test": "week_1_session",
+      "create_loop": 0
+    },
+    {
+      "ignore": 8,
+      "id": "week_1_session_8",
+      "completed": false,
+      "loop_id": "week_1_session",
+      "foreign_key": "week_1_session",
+      "type": "article",
+      "next_article": "week_1_session_9",
+      "previous_article": "week_1_session_7",
+      "test": "week_1_session",
+      "create_loop": 0
+    },
+    {
+      "ignore": 9,
+      "id": "week_1_session_9",
+      "completed": false,
+      "loop_id": "week_1_session",
+      "foreign_key": "week_1_session",
+      "type": "article",
+      "next_article": "",
+      "previous_article": "week_1_session_8",
+      "test": "week_1_session",
+      "create_loop": 0
+    },
+    {
+      "ignore": 10,
       "id": "week_1_reminder",
       "completed": false,
       "loop_id": "week_1_reminder",
@@ -64,7 +124,7 @@
       "create_loop": "create"
     },
     {
-      "ignore": 6,
+      "ignore": 11,
       "id": "week_1_reminder_2",
       "completed": false,
       "loop_id": "week_1_reminder",
@@ -76,7 +136,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 7,
+      "ignore": 12,
       "id": "week_2_session",
       "completed": false,
       "loop_id": "week_2_session",
@@ -88,7 +148,7 @@
       "create_loop": "create"
     },
     {
-      "ignore": 8,
+      "ignore": 13,
       "id": "week_2_session_2",
       "completed": false,
       "loop_id": "week_2_session",
@@ -100,7 +160,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 9,
+      "ignore": 14,
       "id": "week_2_session_3",
       "completed": false,
       "loop_id": "week_2_session",
@@ -112,7 +172,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 10,
+      "ignore": 15,
       "id": "week_2_session_4",
       "completed": false,
       "loop_id": "week_2_session",
@@ -124,7 +184,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 11,
+      "ignore": 16,
       "id": "week_2_session_5",
       "completed": false,
       "loop_id": "week_2_session",
@@ -136,7 +196,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 12,
+      "ignore": 17,
       "id": "week_2_session_6",
       "completed": false,
       "loop_id": "week_2_session",
@@ -148,7 +208,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 13,
+      "ignore": 18,
       "id": "week_2_session_7",
       "completed": false,
       "loop_id": "week_2_session",
@@ -160,7 +220,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 14,
+      "ignore": 19,
       "id": "week_2_session_8",
       "completed": false,
       "loop_id": "week_2_session",
@@ -172,7 +232,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 15,
+      "ignore": 20,
       "id": "week_2_session_9",
       "completed": false,
       "loop_id": "week_2_session",
@@ -184,7 +244,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 16,
+      "ignore": 21,
       "id": "week_2_session_10",
       "completed": false,
       "loop_id": "week_2_session",
@@ -196,7 +256,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 17,
+      "ignore": 22,
       "id": "week_2_session_11",
       "completed": false,
       "loop_id": "week_2_session",
@@ -208,7 +268,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 18,
+      "ignore": 23,
       "id": "week_2_session_12",
       "completed": false,
       "loop_id": "week_2_session",
@@ -220,7 +280,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 19,
+      "ignore": 24,
       "id": "week_2_session_13",
       "completed": false,
       "loop_id": "week_2_session",
@@ -232,7 +292,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 20,
+      "ignore": 25,
       "id": "week_2_session_14",
       "completed": false,
       "loop_id": "week_2_session",
@@ -244,7 +304,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 21,
+      "ignore": 26,
       "id": "week_2_session_15",
       "completed": false,
       "loop_id": "week_2_session",
@@ -256,7 +316,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 22,
+      "ignore": 27,
       "id": "week_2_session_16",
       "completed": false,
       "loop_id": "week_2_session",
@@ -268,7 +328,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 23,
+      "ignore": 28,
       "id": "week_2_session_17",
       "completed": false,
       "loop_id": "week_2_session",
@@ -280,7 +340,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 24,
+      "ignore": 29,
       "id": "week_2_session_18",
       "completed": false,
       "loop_id": "week_2_session",
@@ -292,7 +352,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 25,
+      "ignore": 30,
       "id": "week_2_session_19",
       "completed": false,
       "loop_id": "week_2_session",
@@ -304,7 +364,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 26,
+      "ignore": 31,
       "id": "week_2_session_20",
       "completed": false,
       "loop_id": "week_2_session",
@@ -316,19 +376,139 @@
       "create_loop": 0
     },
     {
-      "ignore": 27,
+      "ignore": 32,
       "id": "week_2_session_21",
       "completed": false,
       "loop_id": "week_2_session",
       "foreign_key": "week_2_session",
       "type": "article",
-      "next_article": "",
+      "next_article": "week_2_session_22",
       "previous_article": "week_2_session_20",
       "test": "week_2_session",
       "create_loop": 0
     },
     {
-      "ignore": 28,
+      "ignore": 33,
+      "id": "week_2_session_22",
+      "completed": false,
+      "loop_id": "week_2_session",
+      "foreign_key": "week_2_session",
+      "type": "article",
+      "next_article": "week_2_session_23",
+      "previous_article": "week_2_session_21",
+      "test": "week_2_session",
+      "create_loop": 0
+    },
+    {
+      "ignore": 34,
+      "id": "week_2_session_23",
+      "completed": false,
+      "loop_id": "week_2_session",
+      "foreign_key": "week_2_session",
+      "type": "article",
+      "next_article": "week_2_session_24",
+      "previous_article": "week_2_session_22",
+      "test": "week_2_session",
+      "create_loop": 0
+    },
+    {
+      "ignore": 35,
+      "id": "week_2_session_24",
+      "completed": false,
+      "loop_id": "week_2_session",
+      "foreign_key": "week_2_session",
+      "type": "article",
+      "next_article": "week_2_session_25",
+      "previous_article": "week_2_session_23",
+      "test": "week_2_session",
+      "create_loop": 0
+    },
+    {
+      "ignore": 36,
+      "id": "week_2_session_25",
+      "completed": false,
+      "loop_id": "week_2_session",
+      "foreign_key": "week_2_session",
+      "type": "article",
+      "next_article": "week_2_session_26",
+      "previous_article": "week_2_session_24",
+      "test": "week_2_session",
+      "create_loop": 0
+    },
+    {
+      "ignore": 37,
+      "id": "week_2_session_26",
+      "completed": false,
+      "loop_id": "week_2_session",
+      "foreign_key": "week_2_session",
+      "type": "article",
+      "next_article": "week_2_session_27",
+      "previous_article": "week_2_session_25",
+      "test": "week_2_session",
+      "create_loop": 0
+    },
+    {
+      "ignore": 38,
+      "id": "week_2_session_27",
+      "completed": false,
+      "loop_id": "week_2_session",
+      "foreign_key": "week_2_session",
+      "type": "article",
+      "next_article": "week_2_session_28",
+      "previous_article": "week_2_session_26",
+      "test": "week_2_session",
+      "create_loop": 0
+    },
+    {
+      "ignore": 39,
+      "id": "week_2_session_28",
+      "completed": false,
+      "loop_id": "week_2_session",
+      "foreign_key": "week_2_session",
+      "type": "article",
+      "next_article": "week_2_session_29",
+      "previous_article": "week_2_session_27",
+      "test": "week_2_session",
+      "create_loop": 0
+    },
+    {
+      "ignore": 40,
+      "id": "week_2_session_29",
+      "completed": false,
+      "loop_id": "week_2_session",
+      "foreign_key": "week_2_session",
+      "type": "article",
+      "next_article": "week_2_session_30",
+      "previous_article": "week_2_session_28",
+      "test": "week_2_session",
+      "create_loop": 0
+    },
+    {
+      "ignore": 41,
+      "id": "week_2_session_30",
+      "completed": false,
+      "loop_id": "week_2_session",
+      "foreign_key": "week_2_session",
+      "type": "article",
+      "next_article": "week_2_session_31",
+      "previous_article": "week_2_session_29",
+      "test": "week_2_session",
+      "create_loop": 0
+    },
+    {
+      "ignore": 42,
+      "id": "week_2_session_31",
+      "completed": false,
+      "loop_id": "week_2_session",
+      "foreign_key": "week_2_session",
+      "type": "article",
+      "next_article": "",
+      "previous_article": "week_2_session_30",
+      "test": "week_2_session",
+      "create_loop": 0
+    },
+    {
+      "ignore": 43,
       "id": "week_2_reminder",
       "completed": false,
       "loop_id": "week_2_reminder",
@@ -340,7 +520,7 @@
       "create_loop": "create"
     },
     {
-      "ignore": 29,
+      "ignore": 44,
       "id": "week_2_reminder_2",
       "completed": false,
       "loop_id": "week_2_reminder",
@@ -352,43 +532,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 30,
-      "id": "test_viber_share",
-      "completed": false,
-      "loop_id": "test_viber_share",
-      "foreign_key": "test_viber_share",
-      "type": "article",
-      "next_article": "test_viber_share_2",
-      "previous_article": "",
-      "test": "test_viber_share",
-      "create_loop": "create"
-    },
-    {
-      "ignore": 31,
-      "id": "test_viber_share_2",
-      "completed": false,
-      "loop_id": "test_viber_share",
-      "foreign_key": "test_viber_share",
-      "type": "article",
-      "next_article": "test_viber_share_3",
-      "previous_article": "test_viber_share",
-      "test": "test_viber_share",
-      "create_loop": 0
-    },
-    {
-      "ignore": 32,
-      "id": "test_viber_share_3",
-      "completed": false,
-      "loop_id": "test_viber_share",
-      "foreign_key": "test_viber_share",
-      "type": "article",
-      "next_article": "",
-      "previous_article": "test_viber_share_2",
-      "test": "test_viber_share",
-      "create_loop": 0
-    },
-    {
-      "ignore": 33,
+      "ignore": 45,
       "id": "demo",
       "completed": false,
       "loop_id": "demo",
@@ -400,7 +544,7 @@
       "create_loop": "create"
     },
     {
-      "ignore": 34,
+      "ignore": 46,
       "id": "demo_2",
       "completed": false,
       "loop_id": "demo",
@@ -412,7 +556,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 35,
+      "ignore": 47,
       "id": "demo_3",
       "completed": false,
       "loop_id": "demo",
@@ -424,7 +568,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 36,
+      "ignore": 48,
       "id": "demo_4",
       "completed": false,
       "loop_id": "demo",
@@ -436,7 +580,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 37,
+      "ignore": 49,
       "id": "demo_5",
       "completed": false,
       "loop_id": "demo",
@@ -448,7 +592,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 38,
+      "ignore": 50,
       "id": "demo_6",
       "completed": false,
       "loop_id": "demo",
@@ -460,7 +604,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 39,
+      "ignore": 51,
       "id": "demo_7",
       "completed": false,
       "loop_id": "demo",
@@ -472,7 +616,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 40,
+      "ignore": 52,
       "id": "demo_8",
       "completed": false,
       "loop_id": "demo",
@@ -484,7 +628,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 41,
+      "ignore": 53,
       "id": "demo_9",
       "completed": false,
       "loop_id": "demo",
@@ -496,7 +640,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 42,
+      "ignore": 54,
       "id": "demo_10",
       "completed": false,
       "loop_id": "demo",
@@ -508,7 +652,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 43,
+      "ignore": 55,
       "id": "demo_11",
       "completed": false,
       "loop_id": "demo",
@@ -520,7 +664,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 44,
+      "ignore": 56,
       "id": "demo_12",
       "completed": false,
       "loop_id": "demo",
@@ -532,7 +676,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 45,
+      "ignore": 57,
       "id": "demo_13",
       "completed": false,
       "loop_id": "demo",
@@ -544,7 +688,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 46,
+      "ignore": 58,
       "id": "demo_14",
       "completed": false,
       "loop_id": "demo",
@@ -556,7 +700,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 47,
+      "ignore": 59,
       "id": "demo_15",
       "completed": false,
       "loop_id": "demo",
@@ -568,7 +712,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 48,
+      "ignore": 60,
       "id": "demo_16",
       "completed": false,
       "loop_id": "demo",
@@ -580,7 +724,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 49,
+      "ignore": 61,
       "id": "demo_17",
       "completed": false,
       "loop_id": "demo",
@@ -592,7 +736,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 50,
+      "ignore": 62,
       "id": "demo_18",
       "completed": false,
       "loop_id": "demo",
@@ -604,7 +748,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 51,
+      "ignore": 63,
       "id": "demo_19",
       "completed": false,
       "loop_id": "demo",
@@ -616,7 +760,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 52,
+      "ignore": 64,
       "id": "demo_20",
       "completed": false,
       "loop_id": "demo",
@@ -628,7 +772,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 53,
+      "ignore": 65,
       "id": "demo_21",
       "completed": false,
       "loop_id": "demo",
@@ -640,7 +784,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 54,
+      "ignore": 66,
       "id": "demo_22",
       "completed": false,
       "loop_id": "demo",
@@ -652,7 +796,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 55,
+      "ignore": 67,
       "id": "demo_23",
       "completed": false,
       "loop_id": "demo",

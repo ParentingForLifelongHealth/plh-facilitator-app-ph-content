@@ -1,5 +1,5 @@
 {
-  "flow_name": "articles_test_viber_share_2",
+  "flow_name": "articles_week_2_session_23",
   "flow_subtype": "generated",
   "flow_type": "template",
   "rows": [
@@ -11,7 +11,7 @@
       "rows": [
         {
           "name": "article_id",
-          "value": "test_viber_share_2",
+          "value": "week_2_session_23",
           "_translations": {
             "value": {}
           },

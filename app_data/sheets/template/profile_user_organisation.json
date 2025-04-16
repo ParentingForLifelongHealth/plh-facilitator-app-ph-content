@@ -1,0 +1,207 @@
+{
+  "flow_type": "template",
+  "flow_name": "profile_user_organisation",
+  "status": "released",
+  "rows": [
+    {
+      "type": "text",
+      "name": "choose_org",
+      "value": "**@global.choose_organisation**",
+      "_translations": {
+        "value": {}
+      },
+      "_nested_name": "choose_org",
+      "_dynamicFields": {
+        "value": [
+          {
+            "fullExpression": "**@global.choose_organisation**",
+            "matchedExpression": "@global.choose_organisation",
+            "type": "global",
+            "fieldName": "choose_organisation"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@global.choose_organisation": [
+          "value"
+        ]
+      }
+    },
+    {
+      "type": "combo_box",
+      "name": "user_org_select",
+      "value": "@fields.user_organisation",
+      "_translations": {
+        "value": {}
+      },
+      "parameter_list": {
+        "answer_list": "@data.user_organisation",
+        "placeholder": "@global.select_response",
+        "variant": "dropdown"
+      },
+      "_nested_name": "user_org_select",
+      "_dynamicFields": {
+        "value": [
+          {
+            "fullExpression": "@fields.user_organisation",
+            "matchedExpression": "@fields.user_organisation",
+            "type": "fields",
+            "fieldName": "user_organisation"
+          }
+        ],
+        "parameter_list": {
+          "answer_list": [
+            {
+              "fullExpression": "@data.user_organisation",
+              "matchedExpression": "@data.user_organisation",
+              "type": "data",
+              "fieldName": "user_organisation"
+            }
+          ],
+          "placeholder": [
+            {
+              "fullExpression": "@global.select_response",
+              "matchedExpression": "@global.select_response",
+              "type": "global",
+              "fieldName": "select_response"
+            }
+          ]
+        }
+      },
+      "_dynamicDependencies": {
+        "@fields.user_organisation": [
+          "value"
+        ],
+        "@data.user_organisation": [
+          "parameter_list.answer_list"
+        ],
+        "@global.select_response": [
+          "parameter_list.placeholder"
+        ]
+      }
+    },
+    {
+      "name": "completed_enabled_2",
+      "value": "!!@local.user_org_select",
+      "_translations": {
+        "value": {}
+      },
+      "style_list": true,
+      "type": "set_variable",
+      "_nested_name": "completed_enabled_2",
+      "_dynamicFields": {
+        "value": [
+          {
+            "fullExpression": "!!@local.user_org_select",
+            "matchedExpression": "!@local.user_org_select",
+            "type": "local",
+            "fieldName": "user_org_select"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "!@local.user_org_select": [
+          "value"
+        ]
+      }
+    },
+    {
+      "type": "button",
+      "name": "button_completed_2",
+      "value": "@global.next",
+      "_translations": {
+        "value": {}
+      },
+      "action_list": [
+        {
+          "trigger": "click",
+          "action_id": "set_field",
+          "args": [
+            "user_organisation",
+            "@local.user_org_select"
+          ],
+          "_raw": "click | set_field: user_organisation: @local.user_org_select",
+          "_cleaned": "click | set_field: user_organisation: @local.user_org_select"
+        },
+        {
+          "trigger": "click",
+          "action_id": "emit",
+          "args": [
+            "completed"
+          ],
+          "_raw": "click | emit: completed",
+          "_cleaned": "click | emit: completed"
+        }
+      ],
+      "parameter_list": {
+        "style": "navigation",
+        "disabled": "!@local.completed_enabled_2"
+      },
+      "_nested_name": "button_completed_2",
+      "_dynamicFields": {
+        "value": [
+          {
+            "fullExpression": "@global.next",
+            "matchedExpression": "@global.next",
+            "type": "global",
+            "fieldName": "next"
+          }
+        ],
+        "action_list": {
+          "0": {
+            "args": {
+              "1": [
+                {
+                  "fullExpression": "@local.user_org_select",
+                  "matchedExpression": "@local.user_org_select",
+                  "type": "local",
+                  "fieldName": "user_org_select"
+                }
+              ]
+            },
+            "_raw": [
+              {
+                "fullExpression": "click | set_field: user_organisation: @local.user_org_select",
+                "matchedExpression": "@local.user_org_select",
+                "type": "local",
+                "fieldName": "user_org_select"
+              }
+            ],
+            "_cleaned": [
+              {
+                "fullExpression": "click | set_field: user_organisation: @local.user_org_select",
+                "matchedExpression": "@local.user_org_select",
+                "type": "local",
+                "fieldName": "user_org_select"
+              }
+            ]
+          }
+        },
+        "parameter_list": {
+          "disabled": [
+            {
+              "fullExpression": "!@local.completed_enabled_2",
+              "matchedExpression": "!@local.completed_enabled_2",
+              "type": "local",
+              "fieldName": "completed_enabled_2"
+            }
+          ]
+        }
+      },
+      "_dynamicDependencies": {
+        "@global.next": [
+          "value"
+        ],
+        "@local.user_org_select": [
+          "action_list.0.args.1",
+          "action_list.0._raw",
+          "action_list.0._cleaned"
+        ],
+        "!@local.completed_enabled_2": [
+          "parameter_list.disabled"
+        ]
+      }
+    }
+  ],
+  "_xlsxPath": "templates/app_launch_override.xlsx"
+}

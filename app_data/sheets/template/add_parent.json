@@ -534,29 +534,10 @@
           }
         },
         {
-          "type": "text",
-          "value": "test: @local.show_number_error",
-          "_translations": {
-            "value": {}
-          },
           "exclude_from_translation": true,
-          "name": "text_15",
-          "_nested_name": "display_group_14.text_15",
-          "_dynamicFields": {
-            "value": [
-              {
-                "fullExpression": "test: @local.show_number_error",
-                "matchedExpression": "@local.show_number_error",
-                "type": "local",
-                "fieldName": "show_number_error"
-              }
-            ]
-          },
-          "_dynamicDependencies": {
-            "@local.show_number_error": [
-              "value"
-            ]
-          }
+          "type": "set_variable",
+          "name": "set_variable_15",
+          "_nested_name": "display_group_14.set_variable_15"
         },
         {
           "type": "text",

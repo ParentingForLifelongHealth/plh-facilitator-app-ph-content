@@ -8,52 +8,70 @@
       "id": "resource_1",
       "foreign_key": "week_1_session",
       "media_type": "pdf",
-      "media_asset": "module_1_prepare"
+      "media_asset": "01_mod1_intro"
     },
     {
       "id": "resource_2",
       "foreign_key": "week_1_session_3",
       "media_type": "pdf",
-      "media_asset": "module_1_deliver"
+      "media_asset": "01_mod1_session_structure"
     },
     {
       "id": "resource_3",
-      "foreign_key": "week_2_session",
+      "foreign_key": "week_1_session_4",
       "media_type": "pdf",
-      "media_asset": "module_2_prepare"
+      "media_asset": "01_mod1_panimulang_gawain"
     },
     {
       "id": "resource_4",
-      "foreign_key": "week_2_session_7",
+      "foreign_key": "week_1_session_5",
       "media_type": "pdf",
-      "media_asset": "pdf/module_1_troubleshooting.pdf"
+      "media_asset": "01_mod1_layunin"
     },
     {
       "id": "resource_5",
-      "foreign_key": "week_2_session_8",
+      "foreign_key": "week_1_session_6",
       "media_type": "pdf",
-      "media_asset": "pdf/module_1_troubleshooting.pdf"
+      "media_asset": "01_mod1_mapa_skill"
     },
     {
       "id": "resource_6",
-      "foreign_key": "test_viber_share",
-      "media_type": "image",
-      "media_asset": "images/house_of_support.png"
+      "foreign_key": "week_1_session_7",
+      "media_type": "pdf",
+      "media_asset": "01_mod1_pabaong_gawain"
     },
     {
       "id": "resource_7",
+      "foreign_key": "week_1_session_8",
+      "media_type": "pdf",
+      "media_asset": "01_mod1_pagtatapos"
+    },
+    {
+      "id": "resource_8",
+      "foreign_key": "week_2_session",
+      "media_type": "pdf",
+      "media_asset": "02_mod2_intro"
+    },
+    {
+      "id": "resource_9",
+      "foreign_key": "week_2_session_10",
+      "media_type": "pdf",
+      "media_asset": "02_mod2_talakayan_ng_pabaong_gawain"
+    },
+    {
+      "id": "resource_10",
       "foreign_key": "demo",
       "media_type": "pdf",
       "media_asset": "module_2_prepare"
     },
     {
-      "id": "resource_8",
+      "id": "resource_11",
       "foreign_key": "demo_8",
       "media_type": "pdf",
       "media_asset": "module_1_troubleshooting"
     },
     {
-      "id": "resource_9",
+      "id": "resource_12",
       "foreign_key": "demo_9",
       "media_type": "pdf",
       "media_asset": "module_1_troubleshooting"

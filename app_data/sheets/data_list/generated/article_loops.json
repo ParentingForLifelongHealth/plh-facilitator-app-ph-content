@@ -16,7 +16,7 @@
       "create_loop": "create"
     },
     {
-      "ignore": 5,
+      "ignore": 10,
       "id": "week_1_reminder",
       "completed": false,
       "loop_id": "week_1_reminder",
@@ -28,7 +28,7 @@
       "create_loop": "create"
     },
     {
-      "ignore": 7,
+      "ignore": 12,
       "id": "week_2_session",
       "completed": false,
       "loop_id": "week_2_session",
@@ -40,7 +40,7 @@
       "create_loop": "create"
     },
     {
-      "ignore": 28,
+      "ignore": 43,
       "id": "week_2_reminder",
       "completed": false,
       "loop_id": "week_2_reminder",
@@ -52,19 +52,7 @@
       "create_loop": "create"
     },
     {
-      "ignore": 30,
-      "id": "test_viber_share",
-      "completed": false,
-      "loop_id": "test_viber_share",
-      "foreign_key": "test_viber_share",
-      "type": "article",
-      "next_article": "test_viber_share_2",
-      "previous_article": "",
-      "test": "test_viber_share",
-      "create_loop": "create"
-    },
-    {
-      "ignore": 33,
+      "ignore": 45,
       "id": "demo",
       "completed": false,
       "loop_id": "demo",
