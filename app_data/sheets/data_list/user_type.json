@@ -57,6 +57,19 @@
       }
     },
     {
+      "id": "coach_tester",
+      "name": "coach_tester",
+      "text": "System Tester (Coach)",
+      "_translations": {
+        "text": {}
+      },
+      "_translatedFields": {
+        "text": {
+          "eng": "System Tester (Coach)"
+        }
+      }
+    },
+    {
       "id": "other",
       "name": "other",
       "text": "None of the above",

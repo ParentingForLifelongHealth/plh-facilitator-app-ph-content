@@ -419,7 +419,30 @@
       "parameter_list": {
         "variant": "section_banner"
       },
-      "_nested_name": "parent"
+      "condition": "@fields.user_type == \"facilitator\" || @fields.user_type == \"tester\"",
+      "_nested_name": "parent",
+      "_dynamicFields": {
+        "condition": [
+          {
+            "fullExpression": "@fields.user_type == \"facilitator\" || @fields.user_type == \"tester\"",
+            "matchedExpression": "@fields.user_type",
+            "type": "fields",
+            "fieldName": "user_type"
+          },
+          {
+            "fullExpression": "@fields.user_type == \"facilitator\" || @fields.user_type == \"tester\"",
+            "matchedExpression": "@fields.user_type",
+            "type": "fields",
+            "fieldName": "user_type"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@fields.user_type": [
+          "condition",
+          "condition"
+        ]
+      }
     },
     {
       "type": "display_group",
@@ -428,6 +451,7 @@
         "variant": "inline_padding",
         "style": "column"
       },
+      "condition": "@fields.user_type == \"facilitator\" || @fields.user_type == \"tester\"",
       "rows": [
         {
           "type": "button",
@@ -485,7 +509,29 @@
           }
         }
       ],
-      "_nested_name": "dg_parent"
+      "_nested_name": "dg_parent",
+      "_dynamicFields": {
+        "condition": [
+          {
+            "fullExpression": "@fields.user_type == \"facilitator\" || @fields.user_type == \"tester\"",
+            "matchedExpression": "@fields.user_type",
+            "type": "fields",
+            "fieldName": "user_type"
+          },
+          {
+            "fullExpression": "@fields.user_type == \"facilitator\" || @fields.user_type == \"tester\"",
+            "matchedExpression": "@fields.user_type",
+            "type": "fields",
+            "fieldName": "user_type"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@fields.user_type": [
+          "condition",
+          "condition"
+        ]
+      }
     },
     {
       "type": "title",

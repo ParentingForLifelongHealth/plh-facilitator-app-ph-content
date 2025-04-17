@@ -3978,7 +3978,7 @@
     "home_screen": {
       "flow_type": "template",
       "flow_name": "home_screen",
-      "_xlsxPath": "templates/menu_overrides.xlsx"
+      "_xlsxPath": "templates/menu_override.xlsx"
     },
     "home_screen_carousel": {
       "flow_type": "template",
@@ -4070,6 +4070,11 @@
       "flow_type": "template",
       "flow_name": "media",
       "_xlsxPath": "templates/media.xlsx"
+    },
+    "menu_no_groups": {
+      "flow_type": "template",
+      "flow_name": "menu_no_groups",
+      "_xlsxPath": "templates/menu_override.xlsx"
     },
     "menu_sub_tasks": {
       "flow_type": "template",
