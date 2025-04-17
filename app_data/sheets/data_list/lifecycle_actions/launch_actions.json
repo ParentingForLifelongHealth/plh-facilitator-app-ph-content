@@ -28,7 +28,7 @@
       "id": "app_start_accept_terms",
       "priority": 2,
       "condition_list": [
-        "!@fields.login_passed && @fields.user_mode"
+        "!@fields.login_passed && !@fields._auth_user_id && @fields.user_mode"
       ],
       "action_list": [
         {
@@ -39,6 +39,29 @@
           ],
           "_raw": "pop_up: login_terms | fullscreen: true, showCloseButton: false",
           "_cleaned": "click | pop_up: login_terms | fullscreen: true, showCloseButton: false",
+          "params": {
+            "fullscreen": true,
+            "showCloseButton": false
+          }
+        }
+      ]
+    },
+    {
+      "lifecycle_event": "app_start",
+      "id": "app_start_profile",
+      "priority": 2,
+      "condition_list": [
+        "!@fields.profile_passed && @fields.user_mode"
+      ],
+      "action_list": [
+        {
+          "trigger": "click",
+          "action_id": "pop_up",
+          "args": [
+            "profile_sequence"
+          ],
+          "_raw": "pop_up: profile_sequence | fullscreen: true, showCloseButton: false",
+          "_cleaned": "click | pop_up: profile_sequence | fullscreen: true, showCloseButton: false",
           "params": {
             "fullscreen": true,
             "showCloseButton": false
@@ -63,7 +86,7 @@
       ]
     }
   ],
-  "_xlsxPath": "templates/app_launch_override.xlsx",
+  "_xlsxPath": "templates/PH app_launch.xlsx",
   "_metadata": {
     "priority": {
       "type": "number"

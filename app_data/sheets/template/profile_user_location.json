@@ -6,15 +6,18 @@
     {
       "type": "text",
       "name": "choose_region",
-      "value": "**@global.choose_region**",
+      "value": "@global.choose_region",
       "_translations": {
         "value": {}
+      },
+      "parameter_list": {
+        "style": "emphasised"
       },
       "_nested_name": "choose_region",
       "_dynamicFields": {
         "value": [
           {
-            "fullExpression": "**@global.choose_region**",
+            "fullExpression": "@global.choose_region",
             "matchedExpression": "@global.choose_region",
             "type": "global",
             "fieldName": "choose_region"
@@ -88,15 +91,18 @@
     {
       "type": "text",
       "name": "choose_province",
-      "value": "**@global.choose_province**",
+      "value": "@global.choose_province",
       "_translations": {
         "value": {}
+      },
+      "parameter_list": {
+        "style": "emphasised"
       },
       "_nested_name": "choose_province",
       "_dynamicFields": {
         "value": [
           {
-            "fullExpression": "**@global.choose_province**",
+            "fullExpression": "@global.choose_province",
             "matchedExpression": "@global.choose_province",
             "type": "global",
             "fieldName": "choose_province"
@@ -204,40 +210,19 @@
     },
     {
       "type": "text",
-      "name": "debug_province",
-      "value": "@local.user_province_select",
-      "_translations": {
-        "value": {}
-      },
-      "_nested_name": "debug_province",
-      "_dynamicFields": {
-        "value": [
-          {
-            "fullExpression": "@local.user_province_select",
-            "matchedExpression": "@local.user_province_select",
-            "type": "local",
-            "fieldName": "user_province_select"
-          }
-        ]
-      },
-      "_dynamicDependencies": {
-        "@local.user_province_select": [
-          "value"
-        ]
-      }
-    },
-    {
-      "type": "text",
       "name": "choose_city",
-      "value": "**@global.choose_city**",
+      "value": "@global.choose_city",
       "_translations": {
         "value": {}
+      },
+      "parameter_list": {
+        "style": "emphasised"
       },
       "_nested_name": "choose_city",
       "_dynamicFields": {
         "value": [
           {
-            "fullExpression": "**@global.choose_city**",
+            "fullExpression": "@global.choose_city",
             "matchedExpression": "@global.choose_city",
             "type": "global",
             "fieldName": "choose_city"
@@ -387,188 +372,201 @@
       }
     },
     {
-      "type": "button",
-      "name": "button_completed_3",
-      "value": "@global.save",
-      "_translations": {
-        "value": {}
+      "type": "display_group",
+      "name": "dg_footer",
+      "parameter_list": {
+        "sticky": "bottom"
       },
-      "action_list": [
+      "style_list": [
+        "padding: 12px 24px"
+      ],
+      "rows": [
         {
-          "trigger": "click",
-          "action_id": "set_field",
-          "args": [
-            "user_region",
-            "@local.user_region_select"
+          "type": "button",
+          "name": "button_completed_3",
+          "value": "@global.save",
+          "_translations": {
+            "value": {}
+          },
+          "action_list": [
+            {
+              "trigger": "click",
+              "action_id": "set_field",
+              "args": [
+                "user_region",
+                "@local.user_region_select"
+              ],
+              "_raw": "click | set_field: user_region: @local.user_region_select",
+              "_cleaned": "click | set_field: user_region: @local.user_region_select"
+            },
+            {
+              "trigger": "click",
+              "action_id": "set_field",
+              "args": [
+                "user_province",
+                "@local.user_province_select"
+              ],
+              "_raw": "click | set_field: user_province: @local.user_province_select",
+              "_cleaned": "click | set_field: user_province: @local.user_province_select"
+            },
+            {
+              "trigger": "click",
+              "action_id": "set_field",
+              "args": [
+                "user_city",
+                "@local.user_city_select"
+              ],
+              "_raw": "click | set_field: user_city: @local.user_city_select",
+              "_cleaned": "click | set_field: user_city: @local.user_city_select"
+            },
+            {
+              "trigger": "click",
+              "action_id": "emit",
+              "args": [
+                "completed"
+              ],
+              "_raw": "click | emit: completed",
+              "_cleaned": "click | emit: completed"
+            }
           ],
-          "_raw": "click | set_field: user_region: @local.user_region_select",
-          "_cleaned": "click | set_field: user_region: @local.user_region_select"
-        },
-        {
-          "trigger": "click",
-          "action_id": "set_field",
-          "args": [
-            "user_province",
-            "@local.user_province_select"
-          ],
-          "_raw": "click | set_field: user_province: @local.user_province_select",
-          "_cleaned": "click | set_field: user_province: @local.user_province_select"
-        },
-        {
-          "trigger": "click",
-          "action_id": "set_field",
-          "args": [
-            "user_city",
-            "@local.user_city_select"
-          ],
-          "_raw": "click | set_field: user_city: @local.user_city_select",
-          "_cleaned": "click | set_field: user_city: @local.user_city_select"
-        },
-        {
-          "trigger": "click",
-          "action_id": "emit",
-          "args": [
-            "completed"
-          ],
-          "_raw": "click | emit: completed",
-          "_cleaned": "click | emit: completed"
+          "parameter_list": {
+            "style": "navigation",
+            "disabled": "!@local.completed_enabled_3"
+          },
+          "_nested_name": "dg_footer.button_completed_3",
+          "_dynamicFields": {
+            "value": [
+              {
+                "fullExpression": "@global.save",
+                "matchedExpression": "@global.save",
+                "type": "global",
+                "fieldName": "save"
+              }
+            ],
+            "action_list": {
+              "0": {
+                "args": {
+                  "1": [
+                    {
+                      "fullExpression": "@local.user_region_select",
+                      "matchedExpression": "@local.user_region_select",
+                      "type": "local",
+                      "fieldName": "user_region_select"
+                    }
+                  ]
+                },
+                "_raw": [
+                  {
+                    "fullExpression": "click | set_field: user_region: @local.user_region_select",
+                    "matchedExpression": "@local.user_region_select",
+                    "type": "local",
+                    "fieldName": "user_region_select"
+                  }
+                ],
+                "_cleaned": [
+                  {
+                    "fullExpression": "click | set_field: user_region: @local.user_region_select",
+                    "matchedExpression": "@local.user_region_select",
+                    "type": "local",
+                    "fieldName": "user_region_select"
+                  }
+                ]
+              },
+              "1": {
+                "args": {
+                  "1": [
+                    {
+                      "fullExpression": "@local.user_province_select",
+                      "matchedExpression": "@local.user_province_select",
+                      "type": "local",
+                      "fieldName": "user_province_select"
+                    }
+                  ]
+                },
+                "_raw": [
+                  {
+                    "fullExpression": "click | set_field: user_province: @local.user_province_select",
+                    "matchedExpression": "@local.user_province_select",
+                    "type": "local",
+                    "fieldName": "user_province_select"
+                  }
+                ],
+                "_cleaned": [
+                  {
+                    "fullExpression": "click | set_field: user_province: @local.user_province_select",
+                    "matchedExpression": "@local.user_province_select",
+                    "type": "local",
+                    "fieldName": "user_province_select"
+                  }
+                ]
+              },
+              "2": {
+                "args": {
+                  "1": [
+                    {
+                      "fullExpression": "@local.user_city_select",
+                      "matchedExpression": "@local.user_city_select",
+                      "type": "local",
+                      "fieldName": "user_city_select"
+                    }
+                  ]
+                },
+                "_raw": [
+                  {
+                    "fullExpression": "click | set_field: user_city: @local.user_city_select",
+                    "matchedExpression": "@local.user_city_select",
+                    "type": "local",
+                    "fieldName": "user_city_select"
+                  }
+                ],
+                "_cleaned": [
+                  {
+                    "fullExpression": "click | set_field: user_city: @local.user_city_select",
+                    "matchedExpression": "@local.user_city_select",
+                    "type": "local",
+                    "fieldName": "user_city_select"
+                  }
+                ]
+              }
+            },
+            "parameter_list": {
+              "disabled": [
+                {
+                  "fullExpression": "!@local.completed_enabled_3",
+                  "matchedExpression": "!@local.completed_enabled_3",
+                  "type": "local",
+                  "fieldName": "completed_enabled_3"
+                }
+              ]
+            }
+          },
+          "_dynamicDependencies": {
+            "@global.save": [
+              "value"
+            ],
+            "@local.user_region_select": [
+              "action_list.0.args.1",
+              "action_list.0._raw",
+              "action_list.0._cleaned"
+            ],
+            "@local.user_province_select": [
+              "action_list.1.args.1",
+              "action_list.1._raw",
+              "action_list.1._cleaned"
+            ],
+            "@local.user_city_select": [
+              "action_list.2.args.1",
+              "action_list.2._raw",
+              "action_list.2._cleaned"
+            ],
+            "!@local.completed_enabled_3": [
+              "parameter_list.disabled"
+            ]
+          }
         }
       ],
-      "parameter_list": {
-        "style": "navigation",
-        "disabled": "!@local.completed_enabled_3"
-      },
-      "_nested_name": "button_completed_3",
-      "_dynamicFields": {
-        "value": [
-          {
-            "fullExpression": "@global.save",
-            "matchedExpression": "@global.save",
-            "type": "global",
-            "fieldName": "save"
-          }
-        ],
-        "action_list": {
-          "0": {
-            "args": {
-              "1": [
-                {
-                  "fullExpression": "@local.user_region_select",
-                  "matchedExpression": "@local.user_region_select",
-                  "type": "local",
-                  "fieldName": "user_region_select"
-                }
-              ]
-            },
-            "_raw": [
-              {
-                "fullExpression": "click | set_field: user_region: @local.user_region_select",
-                "matchedExpression": "@local.user_region_select",
-                "type": "local",
-                "fieldName": "user_region_select"
-              }
-            ],
-            "_cleaned": [
-              {
-                "fullExpression": "click | set_field: user_region: @local.user_region_select",
-                "matchedExpression": "@local.user_region_select",
-                "type": "local",
-                "fieldName": "user_region_select"
-              }
-            ]
-          },
-          "1": {
-            "args": {
-              "1": [
-                {
-                  "fullExpression": "@local.user_province_select",
-                  "matchedExpression": "@local.user_province_select",
-                  "type": "local",
-                  "fieldName": "user_province_select"
-                }
-              ]
-            },
-            "_raw": [
-              {
-                "fullExpression": "click | set_field: user_province: @local.user_province_select",
-                "matchedExpression": "@local.user_province_select",
-                "type": "local",
-                "fieldName": "user_province_select"
-              }
-            ],
-            "_cleaned": [
-              {
-                "fullExpression": "click | set_field: user_province: @local.user_province_select",
-                "matchedExpression": "@local.user_province_select",
-                "type": "local",
-                "fieldName": "user_province_select"
-              }
-            ]
-          },
-          "2": {
-            "args": {
-              "1": [
-                {
-                  "fullExpression": "@local.user_city_select",
-                  "matchedExpression": "@local.user_city_select",
-                  "type": "local",
-                  "fieldName": "user_city_select"
-                }
-              ]
-            },
-            "_raw": [
-              {
-                "fullExpression": "click | set_field: user_city: @local.user_city_select",
-                "matchedExpression": "@local.user_city_select",
-                "type": "local",
-                "fieldName": "user_city_select"
-              }
-            ],
-            "_cleaned": [
-              {
-                "fullExpression": "click | set_field: user_city: @local.user_city_select",
-                "matchedExpression": "@local.user_city_select",
-                "type": "local",
-                "fieldName": "user_city_select"
-              }
-            ]
-          }
-        },
-        "parameter_list": {
-          "disabled": [
-            {
-              "fullExpression": "!@local.completed_enabled_3",
-              "matchedExpression": "!@local.completed_enabled_3",
-              "type": "local",
-              "fieldName": "completed_enabled_3"
-            }
-          ]
-        }
-      },
-      "_dynamicDependencies": {
-        "@global.save": [
-          "value"
-        ],
-        "@local.user_region_select": [
-          "action_list.0.args.1",
-          "action_list.0._raw",
-          "action_list.0._cleaned"
-        ],
-        "@local.user_province_select": [
-          "action_list.1.args.1",
-          "action_list.1._raw",
-          "action_list.1._cleaned"
-        ],
-        "@local.user_city_select": [
-          "action_list.2.args.1",
-          "action_list.2._raw",
-          "action_list.2._cleaned"
-        ],
-        "!@local.completed_enabled_3": [
-          "parameter_list.disabled"
-        ]
-      }
+      "_nested_name": "dg_footer"
     }
   ],
-  "_xlsxPath": "templates/app_launch_override.xlsx"
+  "_xlsxPath": "templates/PH app_launch.xlsx"
 }

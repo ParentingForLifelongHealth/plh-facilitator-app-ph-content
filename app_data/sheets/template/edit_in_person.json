@@ -212,7 +212,7 @@
     {
       "type": "text",
       "name": "question_1",
-      "value": "What was your role in the session",
+      "value": "What was your role in the session?",
       "_translations": {
         "value": {}
       },
@@ -329,318 +329,1094 @@
       "parameter_list": {
         "style": "column"
       },
-      "condition": "@local.answer_1 == \"lead\"",
+      "condition": "@local.answer_1 == \"lead\" || @local.answer_1 == \"support\"",
       "rows": [
         {
-          "type": "text",
-          "name": "question_2",
-          "value": "Date of Session Delivery",
-          "_translations": {
-            "value": {}
-          },
-          "_nested_name": "display_group_21.question_2"
-        },
-        {
-          "type": "text_box",
-          "name": "answer_2",
-          "value": "@local.current_answer_2",
-          "_translations": {
-            "value": {}
-          },
+          "type": "display_group",
           "parameter_list": {
-            "date_input": "true"
+            "style": "column"
           },
-          "_nested_name": "display_group_21.answer_2",
-          "_dynamicFields": {
-            "value": [
-              {
-                "fullExpression": "@local.current_answer_2",
-                "matchedExpression": "@local.current_answer_2",
-                "type": "local",
-                "fieldName": "current_answer_2"
-              }
-            ]
-          },
-          "_dynamicDependencies": {
-            "@local.current_answer_2": [
-              "value"
-            ]
-          }
-        },
-        {
-          "type": "text",
-          "name": "question_3",
-          "value": "How long did the session last?",
-          "_translations": {
-            "value": {}
-          },
-          "_nested_name": "display_group_21.question_3"
-        },
-        {
-          "type": "text_box",
-          "name": "answer_3",
-          "value": "@local.current_answer_3",
-          "_translations": {
-            "value": {}
-          },
-          "parameter_list": {
-            "number_input": "true",
-            "placeholder": "@global.minutes",
-            "max_length": "3"
-          },
-          "_nested_name": "display_group_21.answer_3",
-          "_dynamicFields": {
-            "value": [
-              {
-                "fullExpression": "@local.current_answer_3",
-                "matchedExpression": "@local.current_answer_3",
-                "type": "local",
-                "fieldName": "current_answer_3"
-              }
-            ],
-            "parameter_list": {
-              "placeholder": [
-                {
-                  "fullExpression": "@global.minutes",
-                  "matchedExpression": "@global.minutes",
-                  "type": "global",
-                  "fieldName": "minutes"
-                }
-              ]
-            }
-          },
-          "_dynamicDependencies": {
-            "@local.current_answer_3": [
-              "value"
-            ],
-            "@global.minutes": [
-              "parameter_list.placeholder"
-            ]
-          }
-        },
-        {
-          "type": "text",
-          "name": "question_4",
-          "value": "How much time did you spend on preparing for the session?",
-          "_translations": {
-            "value": {}
-          },
-          "_nested_name": "display_group_21.question_4"
-        },
-        {
-          "type": "text_box",
-          "name": "answer_4",
-          "value": "@local.current_answer_4",
-          "_translations": {
-            "value": {}
-          },
-          "parameter_list": {
-            "number_input": "true",
-            "placeholder": "@global.minutes",
-            "max_length": "3"
-          },
-          "_nested_name": "display_group_21.answer_4",
-          "_dynamicFields": {
-            "value": [
-              {
-                "fullExpression": "@local.current_answer_4",
-                "matchedExpression": "@local.current_answer_4",
-                "type": "local",
-                "fieldName": "current_answer_4"
-              }
-            ],
-            "parameter_list": {
-              "placeholder": [
-                {
-                  "fullExpression": "@global.minutes",
-                  "matchedExpression": "@global.minutes",
-                  "type": "global",
-                  "fieldName": "minutes"
-                }
-              ]
-            }
-          },
-          "_dynamicDependencies": {
-            "@local.current_answer_4": [
-              "value"
-            ],
-            "@global.minutes": [
-              "parameter_list.placeholder"
-            ]
-          }
-        },
-        {
-          "type": "text",
-          "name": "question_5",
-          "value": "Were you able to complete all the activities?",
-          "_translations": {
-            "value": {}
-          },
-          "_nested_name": "display_group_21.question_5"
-        },
-        {
-          "name": "yes",
-          "value": "Yes",
-          "_translations": {
-            "value": {}
-          },
-          "type": "set_variable",
-          "_nested_name": "display_group_21.yes"
-        },
-        {
-          "name": "no",
-          "value": "No",
-          "_translations": {
-            "value": {}
-          },
-          "type": "set_variable",
-          "_nested_name": "display_group_21.no"
-        },
-        {
-          "name": "answer_list_5",
-          "value": [
+          "condition": "@local.answer_1 == \"lead\"",
+          "rows": [
             {
-              "name": "yes",
-              "text": "@local.yes"
+              "type": "text",
+              "name": "question_2",
+              "value": "Date of Session Delivery?",
+              "_translations": {
+                "value": {}
+              },
+              "_nested_name": "display_group_21.display_group_1.question_2"
             },
             {
-              "name": "no",
-              "text": "@local.no"
-            }
-          ],
-          "type": "set_variable",
-          "_nested_name": "display_group_21.answer_list_5",
-          "_dynamicFields": {
-            "value": {
-              "0": {
-                "text": [
+              "type": "text_box",
+              "name": "answer_2",
+              "value": "@local.current_answer_2",
+              "_translations": {
+                "value": {}
+              },
+              "parameter_list": {
+                "date_input": "true"
+              },
+              "_nested_name": "display_group_21.display_group_1.answer_2",
+              "_dynamicFields": {
+                "value": [
                   {
-                    "fullExpression": "@local.yes",
-                    "matchedExpression": "@local.yes",
+                    "fullExpression": "@local.current_answer_2",
+                    "matchedExpression": "@local.current_answer_2",
                     "type": "local",
-                    "fieldName": "yes"
+                    "fieldName": "current_answer_2"
                   }
                 ]
               },
-              "1": {
-                "text": [
+              "_dynamicDependencies": {
+                "@local.current_answer_2": [
+                  "value"
+                ]
+              }
+            },
+            {
+              "type": "text",
+              "name": "question_3",
+              "value": "How long did the session last?",
+              "_translations": {
+                "value": {}
+              },
+              "_nested_name": "display_group_21.display_group_1.question_3"
+            },
+            {
+              "type": "text_box",
+              "name": "answer_3",
+              "value": "@local.current_answer_3",
+              "_translations": {
+                "value": {}
+              },
+              "parameter_list": {
+                "number_input": "true",
+                "placeholder": "@global.minutes",
+                "max_length": "3"
+              },
+              "_nested_name": "display_group_21.display_group_1.answer_3",
+              "_dynamicFields": {
+                "value": [
                   {
-                    "fullExpression": "@local.no",
-                    "matchedExpression": "@local.no",
+                    "fullExpression": "@local.current_answer_3",
+                    "matchedExpression": "@local.current_answer_3",
                     "type": "local",
-                    "fieldName": "no"
+                    "fieldName": "current_answer_3"
                   }
+                ],
+                "parameter_list": {
+                  "placeholder": [
+                    {
+                      "fullExpression": "@global.minutes",
+                      "matchedExpression": "@global.minutes",
+                      "type": "global",
+                      "fieldName": "minutes"
+                    }
+                  ]
+                }
+              },
+              "_dynamicDependencies": {
+                "@local.current_answer_3": [
+                  "value"
+                ],
+                "@global.minutes": [
+                  "parameter_list.placeholder"
+                ]
+              }
+            },
+            {
+              "type": "text",
+              "name": "question_4",
+              "value": "How much time did you spend on preparing for the session?",
+              "_translations": {
+                "value": {}
+              },
+              "_nested_name": "display_group_21.display_group_1.question_4"
+            },
+            {
+              "type": "text_box",
+              "name": "answer_4",
+              "value": "@local.current_answer_4",
+              "_translations": {
+                "value": {}
+              },
+              "parameter_list": {
+                "number_input": "true",
+                "placeholder": "@global.minutes",
+                "max_length": "3"
+              },
+              "_nested_name": "display_group_21.display_group_1.answer_4",
+              "_dynamicFields": {
+                "value": [
+                  {
+                    "fullExpression": "@local.current_answer_4",
+                    "matchedExpression": "@local.current_answer_4",
+                    "type": "local",
+                    "fieldName": "current_answer_4"
+                  }
+                ],
+                "parameter_list": {
+                  "placeholder": [
+                    {
+                      "fullExpression": "@global.minutes",
+                      "matchedExpression": "@global.minutes",
+                      "type": "global",
+                      "fieldName": "minutes"
+                    }
+                  ]
+                }
+              },
+              "_dynamicDependencies": {
+                "@local.current_answer_4": [
+                  "value"
+                ],
+                "@global.minutes": [
+                  "parameter_list.placeholder"
+                ]
+              }
+            },
+            {
+              "type": "text",
+              "name": "question_5",
+              "value": "Were you able to complete all the activities?",
+              "_translations": {
+                "value": {}
+              },
+              "_nested_name": "display_group_21.display_group_1.question_5"
+            },
+            {
+              "name": "yes",
+              "value": "Yes",
+              "_translations": {
+                "value": {}
+              },
+              "type": "set_variable",
+              "_nested_name": "display_group_21.display_group_1.yes"
+            },
+            {
+              "name": "no",
+              "value": "No",
+              "_translations": {
+                "value": {}
+              },
+              "type": "set_variable",
+              "_nested_name": "display_group_21.display_group_1.no"
+            },
+            {
+              "name": "answer_list_5",
+              "value": [
+                {
+                  "name": "yes",
+                  "text": "@local.yes"
+                },
+                {
+                  "name": "no",
+                  "text": "@local.no"
+                }
+              ],
+              "type": "set_variable",
+              "_nested_name": "display_group_21.display_group_1.answer_list_5",
+              "_dynamicFields": {
+                "value": {
+                  "0": {
+                    "text": [
+                      {
+                        "fullExpression": "@local.yes",
+                        "matchedExpression": "@local.yes",
+                        "type": "local",
+                        "fieldName": "yes"
+                      }
+                    ]
+                  },
+                  "1": {
+                    "text": [
+                      {
+                        "fullExpression": "@local.no",
+                        "matchedExpression": "@local.no",
+                        "type": "local",
+                        "fieldName": "no"
+                      }
+                    ]
+                  }
+                }
+              },
+              "_dynamicDependencies": {
+                "@local.yes": [
+                  "value.0.text"
+                ],
+                "@local.no": [
+                  "value.1.text"
+                ]
+              }
+            },
+            {
+              "type": "radio_button_grid",
+              "name": "answer_5",
+              "value": "@local.current_answer_5",
+              "_translations": {
+                "value": {}
+              },
+              "parameter_list": {
+                "item_width": "100%",
+                "answer_list": "@local.answer_list_5"
+              },
+              "_nested_name": "display_group_21.display_group_1.answer_5",
+              "_dynamicFields": {
+                "value": [
+                  {
+                    "fullExpression": "@local.current_answer_5",
+                    "matchedExpression": "@local.current_answer_5",
+                    "type": "local",
+                    "fieldName": "current_answer_5"
+                  }
+                ],
+                "parameter_list": {
+                  "answer_list": [
+                    {
+                      "fullExpression": "@local.answer_list_5",
+                      "matchedExpression": "@local.answer_list_5",
+                      "type": "local",
+                      "fieldName": "answer_list_5"
+                    }
+                  ]
+                }
+              },
+              "_dynamicDependencies": {
+                "@local.current_answer_5": [
+                  "value"
+                ],
+                "@local.answer_list_5": [
+                  "parameter_list.answer_list"
+                ]
+              }
+            },
+            {
+              "type": "text",
+              "name": "question_6",
+              "value": "What activities were you not able to complete? Why?",
+              "_translations": {
+                "value": {}
+              },
+              "condition": "@local.answer_5 == \"no\"",
+              "_nested_name": "display_group_21.display_group_1.question_6",
+              "_dynamicFields": {
+                "condition": [
+                  {
+                    "fullExpression": "@local.answer_5 == \"no\"",
+                    "matchedExpression": "@local.answer_5",
+                    "type": "local",
+                    "fieldName": "answer_5"
+                  }
+                ]
+              },
+              "_dynamicDependencies": {
+                "@local.answer_5": [
+                  "condition"
+                ]
+              }
+            },
+            {
+              "type": "text_box",
+              "name": "answer_6",
+              "value": "@local.current_answer_6",
+              "_translations": {
+                "value": {}
+              },
+              "condition": "@local.answer_5 == \"no\"",
+              "_nested_name": "display_group_21.display_group_1.answer_6",
+              "_dynamicFields": {
+                "value": [
+                  {
+                    "fullExpression": "@local.current_answer_6",
+                    "matchedExpression": "@local.current_answer_6",
+                    "type": "local",
+                    "fieldName": "current_answer_6"
+                  }
+                ],
+                "condition": [
+                  {
+                    "fullExpression": "@local.answer_5 == \"no\"",
+                    "matchedExpression": "@local.answer_5",
+                    "type": "local",
+                    "fieldName": "answer_5"
+                  }
+                ]
+              },
+              "_dynamicDependencies": {
+                "@local.current_answer_6": [
+                  "value"
+                ],
+                "@local.answer_5": [
+                  "condition"
                 ]
               }
             }
-          },
-          "_dynamicDependencies": {
-            "@local.yes": [
-              "value.0.text"
-            ],
-            "@local.no": [
-              "value.1.text"
-            ]
-          }
-        },
-        {
-          "type": "radio_button_grid",
-          "name": "answer_5",
-          "value": "@local.current_answer_5",
-          "_translations": {
-            "value": {}
-          },
-          "parameter_list": {
-            "item_width": "100%",
-            "answer_list": "@local.answer_list_5"
-          },
-          "_nested_name": "display_group_21.answer_5",
-          "_dynamicFields": {
-            "value": [
-              {
-                "fullExpression": "@local.current_answer_5",
-                "matchedExpression": "@local.current_answer_5",
-                "type": "local",
-                "fieldName": "current_answer_5"
-              }
-            ],
-            "parameter_list": {
-              "answer_list": [
-                {
-                  "fullExpression": "@local.answer_list_5",
-                  "matchedExpression": "@local.answer_list_5",
-                  "type": "local",
-                  "fieldName": "answer_list_5"
-                }
-              ]
-            }
-          },
-          "_dynamicDependencies": {
-            "@local.current_answer_5": [
-              "value"
-            ],
-            "@local.answer_list_5": [
-              "parameter_list.answer_list"
-            ]
-          }
-        },
-        {
-          "type": "text",
-          "name": "question_6",
-          "value": "What activities were you not able to complete? Why?",
-          "_translations": {
-            "value": {}
-          },
-          "condition": "@local.answer_5 == \"no\"",
-          "_nested_name": "display_group_21.question_6",
+          ],
+          "name": "display_group_1",
+          "_nested_name": "display_group_21.display_group_1",
           "_dynamicFields": {
             "condition": [
               {
-                "fullExpression": "@local.answer_5 == \"no\"",
-                "matchedExpression": "@local.answer_5",
+                "fullExpression": "@local.answer_1 == \"lead\"",
+                "matchedExpression": "@local.answer_1",
                 "type": "local",
-                "fieldName": "answer_5"
+                "fieldName": "answer_1"
               }
             ]
           },
           "_dynamicDependencies": {
-            "@local.answer_5": [
+            "@local.answer_1": [
               "condition"
             ]
           }
         },
         {
-          "type": "text_box",
-          "name": "answer_6",
-          "value": "@local.current_answer_6",
-          "_translations": {
-            "value": {}
+          "type": "display_group",
+          "parameter_list": {
+            "style": "column"
           },
-          "condition": "@local.answer_5 == \"no\"",
-          "_nested_name": "display_group_21.answer_6",
-          "_dynamicFields": {
-            "value": [
-              {
-                "fullExpression": "@local.current_answer_6",
-                "matchedExpression": "@local.current_answer_6",
-                "type": "local",
-                "fieldName": "current_answer_6"
+          "condition": "@local.answer_5 == \"no\" || @local.answer_5 == \"yes\" || @local.answer_1 == \"support\"",
+          "rows": [
+            {
+              "type": "text",
+              "name": "confidence_header",
+              "value": "How confident are you in the following?",
+              "_translations": {
+                "value": {}
+              },
+              "parameter_list": {
+                "style": "emphasised"
+              },
+              "_nested_name": "display_group_21.display_group_2.confidence_header"
+            },
+            {
+              "name": "none",
+              "value": "I have no confidence",
+              "_translations": {
+                "value": {}
+              },
+              "type": "set_variable",
+              "_nested_name": "display_group_21.display_group_2.none"
+            },
+            {
+              "name": "low",
+              "value": "My confidence is low",
+              "_translations": {
+                "value": {}
+              },
+              "type": "set_variable",
+              "_nested_name": "display_group_21.display_group_2.low"
+            },
+            {
+              "name": "moderate",
+              "value": "My confidence is moderate",
+              "_translations": {
+                "value": {}
+              },
+              "type": "set_variable",
+              "_nested_name": "display_group_21.display_group_2.moderate"
+            },
+            {
+              "name": "high",
+              "value": "My confidence is high",
+              "_translations": {
+                "value": {}
+              },
+              "type": "set_variable",
+              "_nested_name": "display_group_21.display_group_2.high"
+            },
+            {
+              "name": "very_high",
+              "value": "My confidence is very high",
+              "_translations": {
+                "value": {}
+              },
+              "type": "set_variable",
+              "_nested_name": "display_group_21.display_group_2.very_high"
+            },
+            {
+              "name": "answer_list_confidence",
+              "value": [
+                {
+                  "name": "none",
+                  "text": "@local.none"
+                },
+                {
+                  "name": "low",
+                  "text": "@local.low"
+                },
+                {
+                  "name": "moderate",
+                  "text": "@local.moderate"
+                },
+                {
+                  "name": "high",
+                  "text": "@local.high"
+                },
+                {
+                  "name": "very_high",
+                  "text": "@local.very_high"
+                }
+              ],
+              "type": "set_variable",
+              "_nested_name": "display_group_21.display_group_2.answer_list_confidence",
+              "_dynamicFields": {
+                "value": {
+                  "0": {
+                    "text": [
+                      {
+                        "fullExpression": "@local.none",
+                        "matchedExpression": "@local.none",
+                        "type": "local",
+                        "fieldName": "none"
+                      }
+                    ]
+                  },
+                  "1": {
+                    "text": [
+                      {
+                        "fullExpression": "@local.low",
+                        "matchedExpression": "@local.low",
+                        "type": "local",
+                        "fieldName": "low"
+                      }
+                    ]
+                  },
+                  "2": {
+                    "text": [
+                      {
+                        "fullExpression": "@local.moderate",
+                        "matchedExpression": "@local.moderate",
+                        "type": "local",
+                        "fieldName": "moderate"
+                      }
+                    ]
+                  },
+                  "3": {
+                    "text": [
+                      {
+                        "fullExpression": "@local.high",
+                        "matchedExpression": "@local.high",
+                        "type": "local",
+                        "fieldName": "high"
+                      }
+                    ]
+                  },
+                  "4": {
+                    "text": [
+                      {
+                        "fullExpression": "@local.very_high",
+                        "matchedExpression": "@local.very_high",
+                        "type": "local",
+                        "fieldName": "very_high"
+                      }
+                    ]
+                  }
+                }
+              },
+              "_dynamicDependencies": {
+                "@local.none": [
+                  "value.0.text"
+                ],
+                "@local.low": [
+                  "value.1.text"
+                ],
+                "@local.moderate": [
+                  "value.2.text"
+                ],
+                "@local.high": [
+                  "value.3.text"
+                ],
+                "@local.very_high": [
+                  "value.4.text"
+                ]
               }
-            ],
+            },
+            {
+              "type": "text",
+              "name": "question_7",
+              "value": "On your knowledge about Talking about Feelings",
+              "_translations": {
+                "value": {}
+              },
+              "_nested_name": "display_group_21.display_group_2.question_7"
+            },
+            {
+              "type": "radio_button_grid",
+              "name": "answer_7",
+              "value": "@local.current_answer_7",
+              "_translations": {
+                "value": {}
+              },
+              "parameter_list": {
+                "item_width": "100%",
+                "answer_list": "@local.answer_list_confidence"
+              },
+              "_nested_name": "display_group_21.display_group_2.answer_7",
+              "_dynamicFields": {
+                "value": [
+                  {
+                    "fullExpression": "@local.current_answer_7",
+                    "matchedExpression": "@local.current_answer_7",
+                    "type": "local",
+                    "fieldName": "current_answer_7"
+                  }
+                ],
+                "parameter_list": {
+                  "answer_list": [
+                    {
+                      "fullExpression": "@local.answer_list_confidence",
+                      "matchedExpression": "@local.answer_list_confidence",
+                      "type": "local",
+                      "fieldName": "answer_list_confidence"
+                    }
+                  ]
+                }
+              },
+              "_dynamicDependencies": {
+                "@local.current_answer_7": [
+                  "value"
+                ],
+                "@local.answer_list_confidence": [
+                  "parameter_list.answer_list"
+                ]
+              }
+            },
+            {
+              "type": "text",
+              "name": "question_8",
+              "value": "On your facilitation skills for Talking about Feelings",
+              "_translations": {
+                "value": {}
+              },
+              "_nested_name": "display_group_21.display_group_2.question_8"
+            },
+            {
+              "type": "radio_button_grid",
+              "name": "answer_8",
+              "value": "@local.current_answer_8",
+              "_translations": {
+                "value": {}
+              },
+              "parameter_list": {
+                "item_width": "100%",
+                "answer_list": "@local.answer_list_confidence"
+              },
+              "_nested_name": "display_group_21.display_group_2.answer_8",
+              "_dynamicFields": {
+                "value": [
+                  {
+                    "fullExpression": "@local.current_answer_8",
+                    "matchedExpression": "@local.current_answer_8",
+                    "type": "local",
+                    "fieldName": "current_answer_8"
+                  }
+                ],
+                "parameter_list": {
+                  "answer_list": [
+                    {
+                      "fullExpression": "@local.answer_list_confidence",
+                      "matchedExpression": "@local.answer_list_confidence",
+                      "type": "local",
+                      "fieldName": "answer_list_confidence"
+                    }
+                  ]
+                }
+              },
+              "_dynamicDependencies": {
+                "@local.current_answer_8": [
+                  "value"
+                ],
+                "@local.answer_list_confidence": [
+                  "parameter_list.answer_list"
+                ]
+              }
+            },
+            {
+              "type": "text",
+              "name": "question_9",
+              "value": "What challenges did you face in delivering the module that you would like to discuss in the coaching session? Be specific.",
+              "_translations": {
+                "value": {}
+              },
+              "_nested_name": "display_group_21.display_group_2.question_9"
+            },
+            {
+              "type": "text_box",
+              "name": "answer_9",
+              "value": "@local.current_answer_9",
+              "_translations": {
+                "value": {}
+              },
+              "_nested_name": "display_group_21.display_group_2.answer_9",
+              "_dynamicFields": {
+                "value": [
+                  {
+                    "fullExpression": "@local.current_answer_9",
+                    "matchedExpression": "@local.current_answer_9",
+                    "type": "local",
+                    "fieldName": "current_answer_9"
+                  }
+                ]
+              },
+              "_dynamicDependencies": {
+                "@local.current_answer_9": [
+                  "value"
+                ]
+              }
+            },
+            {
+              "type": "text",
+              "name": "question_10",
+              "value": "What is your goal or what do you want to achieve or learn from the coaching session?",
+              "_translations": {
+                "value": {}
+              },
+              "_nested_name": "display_group_21.display_group_2.question_10"
+            },
+            {
+              "type": "text_box",
+              "name": "answer_10",
+              "value": "@local.current_answer_10",
+              "_translations": {
+                "value": {}
+              },
+              "_nested_name": "display_group_21.display_group_2.answer_10",
+              "_dynamicFields": {
+                "value": [
+                  {
+                    "fullExpression": "@local.current_answer_10",
+                    "matchedExpression": "@local.current_answer_10",
+                    "type": "local",
+                    "fieldName": "current_answer_10"
+                  }
+                ]
+              },
+              "_dynamicDependencies": {
+                "@local.current_answer_10": [
+                  "value"
+                ]
+              }
+            },
+            {
+              "name": "parent_count",
+              "exclude_from_translation": true,
+              "type": "set_variable",
+              "_nested_name": "display_group_21.display_group_2.parent_count"
+            },
+            {
+              "type": "data_items",
+              "value": "@data.parents",
+              "_translations": {
+                "value": {}
+              },
+              "action_list": [
+                {
+                  "trigger": "data_changed",
+                  "action_id": "set_local",
+                  "args": [
+                    "parent_count",
+                    "@items.length"
+                  ],
+                  "_raw": "data_changed | set_local : parent_count : @items.length",
+                  "_cleaned": "data_changed | set_local : parent_count : @items.length"
+                }
+              ],
+              "parameter_list": {
+                "filter": "filter"
+              },
+              "condition": true,
+              "exclude_from_translation": true,
+              "name": "data_items_17",
+              "_nested_name": "display_group_21.display_group_2.data_items_17",
+              "_dynamicFields": {
+                "value": [
+                  {
+                    "fullExpression": "@data.parents",
+                    "matchedExpression": "@data.parents",
+                    "type": "data",
+                    "fieldName": "parents"
+                  }
+                ]
+              },
+              "_dynamicDependencies": {
+                "@data.parents": [
+                  "value"
+                ]
+              }
+            },
+            {
+              "type": "display_group",
+              "condition": "@local.answer_1 == \"lead\" && @local.report_count == 0",
+              "exclude_from_translation": true,
+              "rows": [
+                {
+                  "type": "text",
+                  "value": "No parents have been added to this group yet",
+                  "_translations": {
+                    "value": {}
+                  },
+                  "exclude_from_translation": false,
+                  "name": "text_1",
+                  "_nested_name": "display_group_21.display_group_2.display_group_18.text_1"
+                }
+              ],
+              "name": "display_group_18",
+              "_nested_name": "display_group_21.display_group_2.display_group_18",
+              "_dynamicFields": {
+                "condition": [
+                  {
+                    "fullExpression": "@local.answer_1 == \"lead\" && @local.report_count == 0",
+                    "matchedExpression": "@local.answer_1",
+                    "type": "local",
+                    "fieldName": "answer_1"
+                  },
+                  {
+                    "fullExpression": "@local.answer_1 == \"lead\" && @local.report_count == 0",
+                    "matchedExpression": "@local.report_count",
+                    "type": "local",
+                    "fieldName": "report_count"
+                  }
+                ]
+              },
+              "_dynamicDependencies": {
+                "@local.answer_1": [
+                  "condition"
+                ],
+                "@local.report_count": [
+                  "condition"
+                ]
+              }
+            },
+            {
+              "type": "text",
+              "name": "question_11",
+              "value": "Which of the parents in this group attended your in-person session?",
+              "_translations": {
+                "value": {}
+              },
+              "condition": "@local.answer_1 == \"lead\" && @local.report_count > 1",
+              "_nested_name": "display_group_21.display_group_2.question_11",
+              "_dynamicFields": {
+                "condition": [
+                  {
+                    "fullExpression": "@local.answer_1 == \"lead\" && @local.report_count > 1",
+                    "matchedExpression": "@local.answer_1",
+                    "type": "local",
+                    "fieldName": "answer_1"
+                  },
+                  {
+                    "fullExpression": "@local.answer_1 == \"lead\" && @local.report_count > 1",
+                    "matchedExpression": "@local.report_count",
+                    "type": "local",
+                    "fieldName": "report_count"
+                  }
+                ]
+              },
+              "_dynamicDependencies": {
+                "@local.answer_1": [
+                  "condition"
+                ],
+                "@local.report_count": [
+                  "condition"
+                ]
+              }
+            },
+            {
+              "type": "data_items",
+              "value": "parents",
+              "parameter_list": {
+                "filter": "@item.group_id == @field.current_group_no && @item.archived == false"
+              },
+              "condition": "@local.answer_1 == \"lead\" && @local.report_count > 0",
+              "rows": [
+                {
+                  "type": "display_group",
+                  "rows": [
+                    {
+                      "name": "first_name",
+                      "value": "",
+                      "_translations": {
+                        "value": {}
+                      },
+                      "exclude_from_translation": true,
+                      "type": "set_variable",
+                      "_nested_name": "display_group_21.display_group_2.data_items_20.display_group_1.first_name"
+                    },
+                    {
+                      "name": "last_name",
+                      "value": "",
+                      "_translations": {
+                        "value": {}
+                      },
+                      "exclude_from_translation": true,
+                      "type": "set_variable",
+                      "_nested_name": "display_group_21.display_group_2.data_items_20.display_group_1.last_name"
+                    },
+                    {
+                      "name": "first_name",
+                      "value": "@item.first_name",
+                      "_translations": {
+                        "value": {}
+                      },
+                      "condition": "@item.first_name",
+                      "exclude_from_translation": true,
+                      "type": "set_variable",
+                      "_nested_name": "display_group_21.display_group_2.data_items_20.display_group_1.first_name",
+                      "_dynamicFields": {
+                        "value": [
+                          {
+                            "fullExpression": "@item.first_name",
+                            "matchedExpression": "@item.first_name",
+                            "type": "item",
+                            "fieldName": "first_name"
+                          }
+                        ],
+                        "condition": [
+                          {
+                            "fullExpression": "@item.first_name",
+                            "matchedExpression": "@item.first_name",
+                            "type": "item",
+                            "fieldName": "first_name"
+                          }
+                        ]
+                      },
+                      "_dynamicDependencies": {
+                        "@item.first_name": [
+                          "value",
+                          "condition"
+                        ]
+                      }
+                    },
+                    {
+                      "name": "last_name",
+                      "value": "@item.last_name",
+                      "_translations": {
+                        "value": {}
+                      },
+                      "condition": "@item.last_name",
+                      "exclude_from_translation": true,
+                      "type": "set_variable",
+                      "_nested_name": "display_group_21.display_group_2.data_items_20.display_group_1.last_name",
+                      "_dynamicFields": {
+                        "value": [
+                          {
+                            "fullExpression": "@item.last_name",
+                            "matchedExpression": "@item.last_name",
+                            "type": "item",
+                            "fieldName": "last_name"
+                          }
+                        ],
+                        "condition": [
+                          {
+                            "fullExpression": "@item.last_name",
+                            "matchedExpression": "@item.last_name",
+                            "type": "item",
+                            "fieldName": "last_name"
+                          }
+                        ]
+                      },
+                      "_dynamicDependencies": {
+                        "@item.last_name": [
+                          "value",
+                          "condition"
+                        ]
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "value": "@local.first_name @local.last_name",
+                      "_translations": {
+                        "value": {}
+                      },
+                      "exclude_from_translation": true,
+                      "style_list": [
+                        "flex: 1"
+                      ],
+                      "name": "text_5",
+                      "_nested_name": "display_group_21.display_group_2.data_items_20.display_group_1.text_5",
+                      "_dynamicFields": {
+                        "value": [
+                          {
+                            "fullExpression": "@local.first_name @local.last_name",
+                            "matchedExpression": "@local.first_name",
+                            "type": "local",
+                            "fieldName": "first_name"
+                          },
+                          {
+                            "fullExpression": "@local.first_name @local.last_name",
+                            "matchedExpression": "@local.last_name",
+                            "type": "local",
+                            "fieldName": "last_name"
+                          }
+                        ]
+                      },
+                      "_dynamicDependencies": {
+                        "@local.first_name": [
+                          "value"
+                        ],
+                        "@local.last_name": [
+                          "value"
+                        ]
+                      }
+                    },
+                    {
+                      "type": "toggle_bar",
+                      "value": "@item.@fields.current_module_no",
+                      "_translations": {
+                        "value": {}
+                      },
+                      "action_list": [
+                        {
+                          "trigger": "changed",
+                          "action_id": "set_item",
+                          "args": [],
+                          "_raw": "changed | set_item| @fields.current_module_no: this.value",
+                          "_cleaned": "changed | set_item| @fields.current_module_no: this.value",
+                          "params": {
+                            "@fields.current_module_no": "this.value"
+                          }
+                        }
+                      ],
+                      "parameter_list": {
+                        "show_icons": "false",
+                        "variant": "ios"
+                      },
+                      "name": "toggle_bar_6",
+                      "_nested_name": "display_group_21.display_group_2.data_items_20.display_group_1.toggle_bar_6",
+                      "_dynamicFields": {
+                        "value": [
+                          {
+                            "fullExpression": "@item.@fields.current_module_no",
+                            "matchedExpression": "@fields.current_module_no",
+                            "type": "fields",
+                            "fieldName": "current_module_no"
+                          }
+                        ],
+                        "action_list": {
+                          "0": {
+                            "_raw": [
+                              {
+                                "fullExpression": "changed | set_item| @fields.current_module_no: this.value",
+                                "matchedExpression": "@fields.current_module_no",
+                                "type": "fields",
+                                "fieldName": "current_module_no"
+                              }
+                            ],
+                            "_cleaned": [
+                              {
+                                "fullExpression": "changed | set_item| @fields.current_module_no: this.value",
+                                "matchedExpression": "@fields.current_module_no",
+                                "type": "fields",
+                                "fieldName": "current_module_no"
+                              }
+                            ]
+                          }
+                        }
+                      },
+                      "_dynamicDependencies": {
+                        "@fields.current_module_no": [
+                          "value",
+                          "action_list.0._raw",
+                          "action_list.0._cleaned"
+                        ]
+                      }
+                    }
+                  ],
+                  "name": "display_group_1",
+                  "_nested_name": "display_group_21.display_group_2.data_items_20.display_group_1"
+                }
+              ],
+              "name": "data_items_20",
+              "_nested_name": "display_group_21.display_group_2.data_items_20",
+              "_dynamicFields": {
+                "parameter_list": {
+                  "filter": [
+                    {
+                      "fullExpression": "@item.group_id == @field.current_group_no && @item.archived == false",
+                      "matchedExpression": "@item.group_id",
+                      "type": "item",
+                      "fieldName": "group_id"
+                    },
+                    {
+                      "fullExpression": "@item.group_id == @field.current_group_no && @item.archived == false",
+                      "matchedExpression": "@field.current_group_no",
+                      "type": "field",
+                      "fieldName": "current_group_no"
+                    },
+                    {
+                      "fullExpression": "@item.group_id == @field.current_group_no && @item.archived == false",
+                      "matchedExpression": "@item.archived",
+                      "type": "item",
+                      "fieldName": "archived"
+                    }
+                  ]
+                },
+                "condition": [
+                  {
+                    "fullExpression": "@local.answer_1 == \"lead\" && @local.report_count > 0",
+                    "matchedExpression": "@local.answer_1",
+                    "type": "local",
+                    "fieldName": "answer_1"
+                  },
+                  {
+                    "fullExpression": "@local.answer_1 == \"lead\" && @local.report_count > 0",
+                    "matchedExpression": "@local.report_count",
+                    "type": "local",
+                    "fieldName": "report_count"
+                  }
+                ]
+              },
+              "_dynamicDependencies": {
+                "@item.group_id": [
+                  "parameter_list.filter"
+                ],
+                "@field.current_group_no": [
+                  "parameter_list.filter"
+                ],
+                "@item.archived": [
+                  "parameter_list.filter"
+                ],
+                "@local.answer_1": [
+                  "condition"
+                ],
+                "@local.report_count": [
+                  "condition"
+                ]
+              }
+            }
+          ],
+          "name": "display_group_2",
+          "_nested_name": "display_group_21.display_group_2",
+          "_dynamicFields": {
             "condition": [
               {
-                "fullExpression": "@local.answer_5 == \"no\"",
+                "fullExpression": "@local.answer_5 == \"no\" || @local.answer_5 == \"yes\" || @local.answer_1 == \"support\"",
                 "matchedExpression": "@local.answer_5",
                 "type": "local",
                 "fieldName": "answer_5"
+              },
+              {
+                "fullExpression": "@local.answer_5 == \"no\" || @local.answer_5 == \"yes\" || @local.answer_1 == \"support\"",
+                "matchedExpression": "@local.answer_5",
+                "type": "local",
+                "fieldName": "answer_5"
+              },
+              {
+                "fullExpression": "@local.answer_5 == \"no\" || @local.answer_5 == \"yes\" || @local.answer_1 == \"support\"",
+                "matchedExpression": "@local.answer_1",
+                "type": "local",
+                "fieldName": "answer_1"
               }
             ]
           },
           "_dynamicDependencies": {
-            "@local.current_answer_6": [
-              "value"
-            ],
             "@local.answer_5": [
+              "condition",
+              "condition"
+            ],
+            "@local.answer_1": [
               "condition"
             ]
           }
@@ -651,7 +1427,13 @@
       "_dynamicFields": {
         "condition": [
           {
-            "fullExpression": "@local.answer_1 == \"lead\"",
+            "fullExpression": "@local.answer_1 == \"lead\" || @local.answer_1 == \"support\"",
+            "matchedExpression": "@local.answer_1",
+            "type": "local",
+            "fieldName": "answer_1"
+          },
+          {
+            "fullExpression": "@local.answer_1 == \"lead\" || @local.answer_1 == \"support\"",
             "matchedExpression": "@local.answer_1",
             "type": "local",
             "fieldName": "answer_1"
@@ -660,632 +1442,7 @@
       },
       "_dynamicDependencies": {
         "@local.answer_1": [
-          "condition"
-        ]
-      }
-    },
-    {
-      "type": "text",
-      "name": "confidence_header",
-      "value": "How confident are you in the following?",
-      "_translations": {
-        "value": {}
-      },
-      "parameter_list": {
-        "style": "emphasised"
-      },
-      "_nested_name": "confidence_header"
-    },
-    {
-      "name": "none",
-      "value": "I have no confidence",
-      "_translations": {
-        "value": {}
-      },
-      "type": "set_variable",
-      "_nested_name": "none"
-    },
-    {
-      "name": "low",
-      "value": "My confidence is low",
-      "_translations": {
-        "value": {}
-      },
-      "type": "set_variable",
-      "_nested_name": "low"
-    },
-    {
-      "name": "moderate",
-      "value": "My confidence is moderate",
-      "_translations": {
-        "value": {}
-      },
-      "type": "set_variable",
-      "_nested_name": "moderate"
-    },
-    {
-      "name": "high",
-      "value": "My confidence is high",
-      "_translations": {
-        "value": {}
-      },
-      "type": "set_variable",
-      "_nested_name": "high"
-    },
-    {
-      "name": "very_high",
-      "value": "My confidence is very high",
-      "_translations": {
-        "value": {}
-      },
-      "type": "set_variable",
-      "_nested_name": "very_high"
-    },
-    {
-      "name": "answer_list_confidence",
-      "value": [
-        {
-          "name": "none",
-          "text": "@local.none"
-        },
-        {
-          "name": "low",
-          "text": "@local.low"
-        },
-        {
-          "name": "moderate",
-          "text": "@local.moderate"
-        },
-        {
-          "name": "high",
-          "text": "@local.high"
-        },
-        {
-          "name": "very_high",
-          "text": "@local.very_high"
-        }
-      ],
-      "type": "set_variable",
-      "_nested_name": "answer_list_confidence",
-      "_dynamicFields": {
-        "value": {
-          "0": {
-            "text": [
-              {
-                "fullExpression": "@local.none",
-                "matchedExpression": "@local.none",
-                "type": "local",
-                "fieldName": "none"
-              }
-            ]
-          },
-          "1": {
-            "text": [
-              {
-                "fullExpression": "@local.low",
-                "matchedExpression": "@local.low",
-                "type": "local",
-                "fieldName": "low"
-              }
-            ]
-          },
-          "2": {
-            "text": [
-              {
-                "fullExpression": "@local.moderate",
-                "matchedExpression": "@local.moderate",
-                "type": "local",
-                "fieldName": "moderate"
-              }
-            ]
-          },
-          "3": {
-            "text": [
-              {
-                "fullExpression": "@local.high",
-                "matchedExpression": "@local.high",
-                "type": "local",
-                "fieldName": "high"
-              }
-            ]
-          },
-          "4": {
-            "text": [
-              {
-                "fullExpression": "@local.very_high",
-                "matchedExpression": "@local.very_high",
-                "type": "local",
-                "fieldName": "very_high"
-              }
-            ]
-          }
-        }
-      },
-      "_dynamicDependencies": {
-        "@local.none": [
-          "value.0.text"
-        ],
-        "@local.low": [
-          "value.1.text"
-        ],
-        "@local.moderate": [
-          "value.2.text"
-        ],
-        "@local.high": [
-          "value.3.text"
-        ],
-        "@local.very_high": [
-          "value.4.text"
-        ]
-      }
-    },
-    {
-      "type": "text",
-      "name": "question_7",
-      "value": "On your knowledge about Talking about Feelings",
-      "_translations": {
-        "value": {}
-      },
-      "_nested_name": "question_7"
-    },
-    {
-      "type": "radio_button_grid",
-      "name": "answer_7",
-      "value": "@local.current_answer_7",
-      "_translations": {
-        "value": {}
-      },
-      "parameter_list": {
-        "item_width": "100%",
-        "answer_list": "@local.answer_list_confidence"
-      },
-      "_nested_name": "answer_7",
-      "_dynamicFields": {
-        "value": [
-          {
-            "fullExpression": "@local.current_answer_7",
-            "matchedExpression": "@local.current_answer_7",
-            "type": "local",
-            "fieldName": "current_answer_7"
-          }
-        ],
-        "parameter_list": {
-          "answer_list": [
-            {
-              "fullExpression": "@local.answer_list_confidence",
-              "matchedExpression": "@local.answer_list_confidence",
-              "type": "local",
-              "fieldName": "answer_list_confidence"
-            }
-          ]
-        }
-      },
-      "_dynamicDependencies": {
-        "@local.current_answer_7": [
-          "value"
-        ],
-        "@local.answer_list_confidence": [
-          "parameter_list.answer_list"
-        ]
-      }
-    },
-    {
-      "type": "text",
-      "name": "question_8",
-      "value": "On your facilitation skills for Talking about Feelings",
-      "_translations": {
-        "value": {}
-      },
-      "_nested_name": "question_8"
-    },
-    {
-      "type": "radio_button_grid",
-      "name": "answer_8",
-      "value": "@local.current_answer_8",
-      "_translations": {
-        "value": {}
-      },
-      "parameter_list": {
-        "item_width": "100%",
-        "answer_list": "@local.answer_list_confidence"
-      },
-      "_nested_name": "answer_8",
-      "_dynamicFields": {
-        "value": [
-          {
-            "fullExpression": "@local.current_answer_8",
-            "matchedExpression": "@local.current_answer_8",
-            "type": "local",
-            "fieldName": "current_answer_8"
-          }
-        ],
-        "parameter_list": {
-          "answer_list": [
-            {
-              "fullExpression": "@local.answer_list_confidence",
-              "matchedExpression": "@local.answer_list_confidence",
-              "type": "local",
-              "fieldName": "answer_list_confidence"
-            }
-          ]
-        }
-      },
-      "_dynamicDependencies": {
-        "@local.current_answer_8": [
-          "value"
-        ],
-        "@local.answer_list_confidence": [
-          "parameter_list.answer_list"
-        ]
-      }
-    },
-    {
-      "type": "display_group",
-      "parameter_list": {
-        "style": "column"
-      },
-      "condition": "@local.answer_1 == \"support\"",
-      "rows": [
-        {
-          "type": "text",
-          "name": "question_9",
-          "value": "What challenges did you face in delivering the module that you would like to discuss in the coaching session? Be specific.",
-          "_translations": {
-            "value": {}
-          },
-          "_nested_name": "display_group_34.question_9"
-        },
-        {
-          "type": "text_box",
-          "name": "answer_9",
-          "value": "@local.current_answer_9",
-          "_translations": {
-            "value": {}
-          },
-          "_nested_name": "display_group_34.answer_9",
-          "_dynamicFields": {
-            "value": [
-              {
-                "fullExpression": "@local.current_answer_9",
-                "matchedExpression": "@local.current_answer_9",
-                "type": "local",
-                "fieldName": "current_answer_9"
-              }
-            ]
-          },
-          "_dynamicDependencies": {
-            "@local.current_answer_9": [
-              "value"
-            ]
-          }
-        },
-        {
-          "type": "text",
-          "name": "question_10",
-          "value": "What is your goal or what do you want to achieve or learn from the coaching session?",
-          "_translations": {
-            "value": {}
-          },
-          "_nested_name": "display_group_34.question_10"
-        },
-        {
-          "type": "text_box",
-          "name": "answer_10",
-          "value": "@local.current_answer_10",
-          "_translations": {
-            "value": {}
-          },
-          "_nested_name": "display_group_34.answer_10",
-          "_dynamicFields": {
-            "value": [
-              {
-                "fullExpression": "@local.current_answer_10",
-                "matchedExpression": "@local.current_answer_10",
-                "type": "local",
-                "fieldName": "current_answer_10"
-              }
-            ]
-          },
-          "_dynamicDependencies": {
-            "@local.current_answer_10": [
-              "value"
-            ]
-          }
-        }
-      ],
-      "name": "display_group_34",
-      "_nested_name": "display_group_34",
-      "_dynamicFields": {
-        "condition": [
-          {
-            "fullExpression": "@local.answer_1 == \"support\"",
-            "matchedExpression": "@local.answer_1",
-            "type": "local",
-            "fieldName": "answer_1"
-          }
-        ]
-      },
-      "_dynamicDependencies": {
-        "@local.answer_1": [
-          "condition"
-        ]
-      }
-    },
-    {
-      "type": "text",
-      "name": "question_11",
-      "value": "Which of the parents in this group attended your in-person session?",
-      "_translations": {
-        "value": {}
-      },
-      "condition": "@local.answer_1 == \"lead\"",
-      "_nested_name": "question_11",
-      "_dynamicFields": {
-        "condition": [
-          {
-            "fullExpression": "@local.answer_1 == \"lead\"",
-            "matchedExpression": "@local.answer_1",
-            "type": "local",
-            "fieldName": "answer_1"
-          }
-        ]
-      },
-      "_dynamicDependencies": {
-        "@local.answer_1": [
-          "condition"
-        ]
-      }
-    },
-    {
-      "type": "data_items",
-      "value": "parents",
-      "parameter_list": {
-        "filter": "@item.group_id == @field.current_group_no && @item.archived == false"
-      },
-      "condition": "@local.answer_1 == \"lead\"",
-      "rows": [
-        {
-          "type": "display_group",
-          "rows": [
-            {
-              "name": "first_name",
-              "value": "",
-              "_translations": {
-                "value": {}
-              },
-              "exclude_from_translation": true,
-              "type": "set_variable",
-              "_nested_name": "data_items_37.display_group_1.first_name"
-            },
-            {
-              "name": "last_name",
-              "value": "",
-              "_translations": {
-                "value": {}
-              },
-              "exclude_from_translation": true,
-              "type": "set_variable",
-              "_nested_name": "data_items_37.display_group_1.last_name"
-            },
-            {
-              "name": "first_name",
-              "value": "@item.first_name",
-              "_translations": {
-                "value": {}
-              },
-              "condition": "@item.first_name",
-              "exclude_from_translation": true,
-              "type": "set_variable",
-              "_nested_name": "data_items_37.display_group_1.first_name",
-              "_dynamicFields": {
-                "value": [
-                  {
-                    "fullExpression": "@item.first_name",
-                    "matchedExpression": "@item.first_name",
-                    "type": "item",
-                    "fieldName": "first_name"
-                  }
-                ],
-                "condition": [
-                  {
-                    "fullExpression": "@item.first_name",
-                    "matchedExpression": "@item.first_name",
-                    "type": "item",
-                    "fieldName": "first_name"
-                  }
-                ]
-              },
-              "_dynamicDependencies": {
-                "@item.first_name": [
-                  "value",
-                  "condition"
-                ]
-              }
-            },
-            {
-              "name": "last_name",
-              "value": "@item.last_name",
-              "_translations": {
-                "value": {}
-              },
-              "condition": "@item.last_name",
-              "exclude_from_translation": true,
-              "type": "set_variable",
-              "_nested_name": "data_items_37.display_group_1.last_name",
-              "_dynamicFields": {
-                "value": [
-                  {
-                    "fullExpression": "@item.last_name",
-                    "matchedExpression": "@item.last_name",
-                    "type": "item",
-                    "fieldName": "last_name"
-                  }
-                ],
-                "condition": [
-                  {
-                    "fullExpression": "@item.last_name",
-                    "matchedExpression": "@item.last_name",
-                    "type": "item",
-                    "fieldName": "last_name"
-                  }
-                ]
-              },
-              "_dynamicDependencies": {
-                "@item.last_name": [
-                  "value",
-                  "condition"
-                ]
-              }
-            },
-            {
-              "type": "text",
-              "value": "@local.first_name @local.last_name",
-              "_translations": {
-                "value": {}
-              },
-              "exclude_from_translation": true,
-              "style_list": [
-                "flex: 1"
-              ],
-              "name": "text_5",
-              "_nested_name": "data_items_37.display_group_1.text_5",
-              "_dynamicFields": {
-                "value": [
-                  {
-                    "fullExpression": "@local.first_name @local.last_name",
-                    "matchedExpression": "@local.first_name",
-                    "type": "local",
-                    "fieldName": "first_name"
-                  },
-                  {
-                    "fullExpression": "@local.first_name @local.last_name",
-                    "matchedExpression": "@local.last_name",
-                    "type": "local",
-                    "fieldName": "last_name"
-                  }
-                ]
-              },
-              "_dynamicDependencies": {
-                "@local.first_name": [
-                  "value"
-                ],
-                "@local.last_name": [
-                  "value"
-                ]
-              }
-            },
-            {
-              "type": "toggle_bar",
-              "value": "@item.@fields.current_module_no",
-              "_translations": {
-                "value": {}
-              },
-              "action_list": [
-                {
-                  "trigger": "changed",
-                  "action_id": "set_item",
-                  "args": [],
-                  "_raw": "changed | set_item| @fields.current_module_no: this.value",
-                  "_cleaned": "changed | set_item| @fields.current_module_no: this.value",
-                  "params": {
-                    "@fields.current_module_no": "this.value"
-                  }
-                }
-              ],
-              "parameter_list": {
-                "show_icons": "false",
-                "variant": "ios"
-              },
-              "name": "toggle_bar_6",
-              "_nested_name": "data_items_37.display_group_1.toggle_bar_6",
-              "_dynamicFields": {
-                "value": [
-                  {
-                    "fullExpression": "@item.@fields.current_module_no",
-                    "matchedExpression": "@fields.current_module_no",
-                    "type": "fields",
-                    "fieldName": "current_module_no"
-                  }
-                ],
-                "action_list": {
-                  "0": {
-                    "_raw": [
-                      {
-                        "fullExpression": "changed | set_item| @fields.current_module_no: this.value",
-                        "matchedExpression": "@fields.current_module_no",
-                        "type": "fields",
-                        "fieldName": "current_module_no"
-                      }
-                    ],
-                    "_cleaned": [
-                      {
-                        "fullExpression": "changed | set_item| @fields.current_module_no: this.value",
-                        "matchedExpression": "@fields.current_module_no",
-                        "type": "fields",
-                        "fieldName": "current_module_no"
-                      }
-                    ]
-                  }
-                }
-              },
-              "_dynamicDependencies": {
-                "@fields.current_module_no": [
-                  "value",
-                  "action_list.0._raw",
-                  "action_list.0._cleaned"
-                ]
-              }
-            }
-          ],
-          "name": "display_group_1",
-          "_nested_name": "data_items_37.display_group_1"
-        }
-      ],
-      "name": "data_items_37",
-      "_nested_name": "data_items_37",
-      "_dynamicFields": {
-        "parameter_list": {
-          "filter": [
-            {
-              "fullExpression": "@item.group_id == @field.current_group_no && @item.archived == false",
-              "matchedExpression": "@item.group_id",
-              "type": "item",
-              "fieldName": "group_id"
-            },
-            {
-              "fullExpression": "@item.group_id == @field.current_group_no && @item.archived == false",
-              "matchedExpression": "@field.current_group_no",
-              "type": "field",
-              "fieldName": "current_group_no"
-            },
-            {
-              "fullExpression": "@item.group_id == @field.current_group_no && @item.archived == false",
-              "matchedExpression": "@item.archived",
-              "type": "item",
-              "fieldName": "archived"
-            }
-          ]
-        },
-        "condition": [
-          {
-            "fullExpression": "@local.answer_1 == \"lead\"",
-            "matchedExpression": "@local.answer_1",
-            "type": "local",
-            "fieldName": "answer_1"
-          }
-        ]
-      },
-      "_dynamicDependencies": {
-        "@item.group_id": [
-          "parameter_list.filter"
-        ],
-        "@field.current_group_no": [
-          "parameter_list.filter"
-        ],
-        "@item.archived": [
-          "parameter_list.filter"
-        ],
-        "@local.answer_1": [
+          "condition",
           "condition"
         ]
       }
@@ -1338,7 +1495,7 @@
               "_cleaned": "click | emit: completed"
             }
           ],
-          "_nested_name": "display_group_39.save",
+          "_nested_name": "display_group_23.save",
           "_dynamicFields": {
             "action_list": {
               "0": {
@@ -1630,8 +1787,8 @@
           }
         }
       ],
-      "name": "display_group_39",
-      "_nested_name": "display_group_39"
+      "name": "display_group_23",
+      "_nested_name": "display_group_23"
     }
   ],
   "_xlsxPath": "templates/report_override.xlsx"

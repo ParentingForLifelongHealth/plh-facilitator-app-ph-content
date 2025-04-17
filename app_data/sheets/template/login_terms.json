@@ -33,25 +33,14 @@
       "condition": "!@local.is_user_signed_in",
       "parameter_list": {
         "sticky": "top",
-        "variant": "inline_padding"
+        "background_image_asset": "images/backgrounds/MaPa_logo_with_background.png",
+        "background_image_position": "top"
       },
       "style_list": [
-        "background-color: var(--ion-color-primary-100)"
+        "width: 100%",
+        "min-height: 230px"
       ],
-      "rows": [
-        {
-          "type": "image",
-          "name": "logo",
-          "value": "images/logos/MaPa_logo.png",
-          "_translations": {
-            "value": {}
-          },
-          "style_list": [
-            "height: 200px"
-          ],
-          "_nested_name": "dg_top.logo"
-        }
-      ],
+      "rows": [],
       "_nested_name": "dg_top",
       "_dynamicFields": {
         "condition": [
@@ -76,6 +65,9 @@
       "parameter_list": {
         "style": "column"
       },
+      "style_list": [
+        "align-items: center"
+      ],
       "rows": [
         {
           "type": "title",
@@ -100,34 +92,6 @@
           },
           "_dynamicDependencies": {
             "@global.welcome_message": [
-              "value"
-            ]
-          }
-        },
-        {
-          "type": "text",
-          "name": "subtitle",
-          "value": "@global.login",
-          "_translations": {
-            "value": {}
-          },
-          "parameter_list": {
-            "text_align": "center",
-            "style": "emphasised"
-          },
-          "_nested_name": "before_login.subtitle",
-          "_dynamicFields": {
-            "value": [
-              {
-                "fullExpression": "@global.login",
-                "matchedExpression": "@global.login",
-                "type": "global",
-                "fieldName": "login"
-              }
-            ]
-          },
-          "_dynamicDependencies": {
-            "@global.login": [
               "value"
             ]
           }
@@ -242,96 +206,106 @@
           }
         },
         {
-          "type": "button",
-          "name": "button_terms",
-          "value": "<u>@global.terms_and_conditions</u>",
-          "_translations": {
-            "value": {}
+          "type": "display_group",
+          "name": "dg_buttons_terms",
+          "parameter_list": {
+            "style": "column"
           },
-          "action_list": [
+          "rows": [
             {
-              "trigger": "click",
-              "action_id": "pop_up",
-              "args": [
-                "app_menu_terms"
+              "type": "button",
+              "name": "button_terms",
+              "value": "<u>@global.terms_and_conditions</u>",
+              "_translations": {
+                "value": {}
+              },
+              "action_list": [
+                {
+                  "trigger": "click",
+                  "action_id": "pop_up",
+                  "args": [
+                    "app_menu_terms"
+                  ],
+                  "_raw": "click | pop_up: app_menu_terms | fullscreen: true",
+                  "_cleaned": "click | pop_up: app_menu_terms | fullscreen: true",
+                  "params": {
+                    "fullscreen": true
+                  }
+                }
               ],
-              "_raw": "click | pop_up: app_menu_terms | fullscreen: true",
-              "_cleaned": "click | pop_up: app_menu_terms | fullscreen: true",
-              "params": {
-                "fullscreen": true
+              "parameter_list": {
+                "variant": "card",
+                "style": "no-background"
+              },
+              "style_list": [
+                "margin-block: -12px"
+              ],
+              "exclude_from_translation": true,
+              "_nested_name": "before_login.dg_buttons_terms.button_terms",
+              "_dynamicFields": {
+                "value": [
+                  {
+                    "fullExpression": "<u>@global.terms_and_conditions</u>",
+                    "matchedExpression": "@global.terms_and_conditions",
+                    "type": "global",
+                    "fieldName": "terms_and_conditions"
+                  }
+                ]
+              },
+              "_dynamicDependencies": {
+                "@global.terms_and_conditions": [
+                  "value"
+                ]
+              }
+            },
+            {
+              "type": "button",
+              "name": "button_privacy",
+              "value": "<u>@global.privacy_policy</u>",
+              "_translations": {
+                "value": {}
+              },
+              "action_list": [
+                {
+                  "trigger": "click",
+                  "action_id": "pop_up",
+                  "args": [
+                    "app_menu_privacy_policy"
+                  ],
+                  "_raw": "click | pop_up: app_menu_privacy_policy| fullscreen: true",
+                  "_cleaned": "click | pop_up: app_menu_privacy_policy| fullscreen: true",
+                  "params": {
+                    "fullscreen": true
+                  }
+                }
+              ],
+              "parameter_list": {
+                "variant": "card",
+                "style": "no-background"
+              },
+              "style_list": [
+                "margin-block: -12px"
+              ],
+              "exclude_from_translation": true,
+              "_nested_name": "before_login.dg_buttons_terms.button_privacy",
+              "_dynamicFields": {
+                "value": [
+                  {
+                    "fullExpression": "<u>@global.privacy_policy</u>",
+                    "matchedExpression": "@global.privacy_policy",
+                    "type": "global",
+                    "fieldName": "privacy_policy"
+                  }
+                ]
+              },
+              "_dynamicDependencies": {
+                "@global.privacy_policy": [
+                  "value"
+                ]
               }
             }
           ],
-          "parameter_list": {
-            "variant": "card",
-            "style": "no-background"
-          },
-          "style_list": [
-            "margin-block: -24px"
-          ],
-          "exclude_from_translation": true,
-          "_nested_name": "before_login.button_terms",
-          "_dynamicFields": {
-            "value": [
-              {
-                "fullExpression": "<u>@global.terms_and_conditions</u>",
-                "matchedExpression": "@global.terms_and_conditions",
-                "type": "global",
-                "fieldName": "terms_and_conditions"
-              }
-            ]
-          },
-          "_dynamicDependencies": {
-            "@global.terms_and_conditions": [
-              "value"
-            ]
-          }
-        },
-        {
-          "type": "button",
-          "name": "button_privacy",
-          "value": "<u>@global.privacy_policy</u>",
-          "_translations": {
-            "value": {}
-          },
-          "action_list": [
-            {
-              "trigger": "click",
-              "action_id": "pop_up",
-              "args": [
-                "app_menu_privacy_policy"
-              ],
-              "_raw": "click | pop_up: app_menu_privacy_policy| fullscreen: true",
-              "_cleaned": "click | pop_up: app_menu_privacy_policy| fullscreen: true",
-              "params": {
-                "fullscreen": true
-              }
-            }
-          ],
-          "parameter_list": {
-            "variant": "card",
-            "style": "no-background"
-          },
-          "style_list": [
-            "margin-block: -24px"
-          ],
-          "exclude_from_translation": true,
-          "_nested_name": "before_login.button_privacy",
-          "_dynamicFields": {
-            "value": [
-              {
-                "fullExpression": "<u>@global.privacy_policy</u>",
-                "matchedExpression": "@global.privacy_policy",
-                "type": "global",
-                "fieldName": "privacy_policy"
-              }
-            ]
-          },
-          "_dynamicDependencies": {
-            "@global.privacy_policy": [
-              "value"
-            ]
-          }
+          "_nested_name": "before_login.dg_buttons_terms"
         }
       ],
       "_nested_name": "before_login",
@@ -365,19 +339,21 @@
         {
           "type": "data_items",
           "value": "_auth_profiles",
+          "_translations": {
+            "value": {}
+          },
           "action_list": [
             {
               "trigger": "data_changed",
               "action_id": "set_field",
               "args": [
-                "exists_previous_auth_id",
-                "!(@items.length === 0)"
+                "no_previous_auth_id",
+                "@items.length === 0"
               ],
-              "_raw": "data_changed | set_field : exists_previous_auth_id : !(@items.length === 0)",
-              "_cleaned": "data_changed | set_field : exists_previous_auth_id : !(@items.length === 0)"
+              "_raw": "data_changed | set_field : no_previous_auth_id : @items.length === 0",
+              "_cleaned": "data_changed | set_field : no_previous_auth_id : @items.length === 0"
             }
           ],
-          "rows": [],
           "name": "data_items_1",
           "_nested_name": "after_login.data_items_1"
         },
@@ -390,6 +366,250 @@
             "reverse": "true",
             "limit": "1"
           },
+          "rows": [
+            {
+              "type": "display_group",
+              "name": "dg_welcome_existing",
+              "parameter_list": {
+                "style": "column"
+              },
+              "style_list": [
+                "align-items: center"
+              ],
+              "rows": [
+                {
+                  "type": "image",
+                  "name": "img_user",
+                  "value": "@fields._auth_user_picture",
+                  "_translations": {
+                    "value": {}
+                  },
+                  "condition": "!!@fields._auth_user_picture",
+                  "parameter_list": {
+                    "style": "rounded_corners"
+                  },
+                  "style_list": [
+                    "width: 96px",
+                    "height: 96px"
+                  ],
+                  "_nested_name": "after_login.find_last_synced_id.dg_welcome_existing.img_user",
+                  "_dynamicFields": {
+                    "value": [
+                      {
+                        "fullExpression": "@fields._auth_user_picture",
+                        "matchedExpression": "@fields._auth_user_picture",
+                        "type": "fields",
+                        "fieldName": "_auth_user_picture"
+                      }
+                    ],
+                    "condition": [
+                      {
+                        "fullExpression": "!!@fields._auth_user_picture",
+                        "matchedExpression": "!@fields._auth_user_picture",
+                        "type": "fields",
+                        "fieldName": "_auth_user_picture"
+                      }
+                    ]
+                  },
+                  "_dynamicDependencies": {
+                    "@fields._auth_user_picture": [
+                      "value"
+                    ],
+                    "!@fields._auth_user_picture": [
+                      "condition"
+                    ]
+                  }
+                },
+                {
+                  "type": "title",
+                  "name": "welcome_title",
+                  "value": "@global.logged_in_existing_user",
+                  "_translations": {
+                    "value": {}
+                  },
+                  "condition": "!!@fields._auth_user_given_name",
+                  "parameter_list": {
+                    "variant": "header"
+                  },
+                  "_nested_name": "after_login.find_last_synced_id.dg_welcome_existing.welcome_title",
+                  "_dynamicFields": {
+                    "value": [
+                      {
+                        "fullExpression": "@global.logged_in_existing_user",
+                        "matchedExpression": "@global.logged_in_existing_user",
+                        "type": "global",
+                        "fieldName": "logged_in_existing_user"
+                      }
+                    ],
+                    "condition": [
+                      {
+                        "fullExpression": "!!@fields._auth_user_given_name",
+                        "matchedExpression": "!@fields._auth_user_given_name",
+                        "type": "fields",
+                        "fieldName": "_auth_user_given_name"
+                      }
+                    ]
+                  },
+                  "_dynamicDependencies": {
+                    "@global.logged_in_existing_user": [
+                      "value"
+                    ],
+                    "!@fields._auth_user_given_name": [
+                      "condition"
+                    ]
+                  }
+                },
+                {
+                  "type": "title",
+                  "name": "welcome_title",
+                  "value": "@global.logged_in_existing",
+                  "_translations": {
+                    "value": {}
+                  },
+                  "condition": "!@fields._auth_user_given_name",
+                  "parameter_list": {
+                    "variant": "header"
+                  },
+                  "_nested_name": "after_login.find_last_synced_id.dg_welcome_existing.welcome_title",
+                  "_dynamicFields": {
+                    "value": [
+                      {
+                        "fullExpression": "@global.logged_in_existing",
+                        "matchedExpression": "@global.logged_in_existing",
+                        "type": "global",
+                        "fieldName": "logged_in_existing"
+                      }
+                    ],
+                    "condition": [
+                      {
+                        "fullExpression": "!@fields._auth_user_given_name",
+                        "matchedExpression": "!@fields._auth_user_given_name",
+                        "type": "fields",
+                        "fieldName": "_auth_user_given_name"
+                      }
+                    ]
+                  },
+                  "_dynamicDependencies": {
+                    "@global.logged_in_existing": [
+                      "value"
+                    ],
+                    "!@fields._auth_user_given_name": [
+                      "condition"
+                    ]
+                  }
+                },
+                {
+                  "type": "display_group",
+                  "name": "dg_footer",
+                  "parameter_list": {
+                    "sticky": "bottom"
+                  },
+                  "style_list": [
+                    "padding: 12px 24px"
+                  ],
+                  "rows": [
+                    {
+                      "type": "button",
+                      "name": "button_import",
+                      "value": "@global.continue",
+                      "_translations": {
+                        "value": {}
+                      },
+                      "action_list": [
+                        {
+                          "trigger": "click",
+                          "action_id": "user",
+                          "args": [
+                            "import",
+                            "@item.id"
+                          ],
+                          "_raw": "click | user: import: @item.id",
+                          "_cleaned": "click | user: import: @item.id"
+                        },
+                        {
+                          "trigger": "click",
+                          "action_id": "emit",
+                          "args": [
+                            "force_restart"
+                          ],
+                          "_raw": "click | emit: force_restart",
+                          "_cleaned": "click | emit: force_restart"
+                        }
+                      ],
+                      "parameter_list": {
+                        "style": "navigation"
+                      },
+                      "_nested_name": "after_login.find_last_synced_id.dg_welcome_existing.dg_footer.button_import",
+                      "_dynamicFields": {
+                        "value": [
+                          {
+                            "fullExpression": "@global.continue",
+                            "matchedExpression": "@global.continue",
+                            "type": "global",
+                            "fieldName": "continue"
+                          }
+                        ],
+                        "action_list": {
+                          "0": {
+                            "args": {
+                              "1": [
+                                {
+                                  "fullExpression": "@item.id",
+                                  "matchedExpression": "@item.id",
+                                  "type": "item",
+                                  "fieldName": "id"
+                                }
+                              ]
+                            },
+                            "_raw": [
+                              {
+                                "fullExpression": "click | user: import: @item.id",
+                                "matchedExpression": "@item.id",
+                                "type": "item",
+                                "fieldName": "id"
+                              }
+                            ],
+                            "_cleaned": [
+                              {
+                                "fullExpression": "click | user: import: @item.id",
+                                "matchedExpression": "@item.id",
+                                "type": "item",
+                                "fieldName": "id"
+                              }
+                            ]
+                          }
+                        }
+                      },
+                      "_dynamicDependencies": {
+                        "@global.continue": [
+                          "value"
+                        ],
+                        "@item.id": [
+                          "action_list.0.args.1",
+                          "action_list.0._raw",
+                          "action_list.0._cleaned"
+                        ]
+                      }
+                    }
+                  ],
+                  "_nested_name": "after_login.find_last_synced_id.dg_welcome_existing.dg_footer"
+                }
+              ],
+              "_nested_name": "after_login.find_last_synced_id.dg_welcome_existing"
+            }
+          ],
+          "_nested_name": "after_login.find_last_synced_id"
+        },
+        {
+          "type": "display_group",
+          "name": "dg_welcome_new",
+          "condition": "!!@fields.no_previous_auth_id",
+          "parameter_list": {
+            "style": "column"
+          },
+          "style_list": [
+            "align-items: center"
+          ],
           "rows": [
             {
               "type": "image",
@@ -406,8 +626,7 @@
                 "width: 96px",
                 "height: 96px"
               ],
-              "exclude_from_translation": "image",
-              "_nested_name": "after_login.find_last_synced_id.img_user",
+              "_nested_name": "after_login.dg_welcome_new.img_user",
               "_dynamicFields": {
                 "value": [
                   {
@@ -438,7 +657,7 @@
             {
               "type": "title",
               "name": "welcome_title",
-              "value": "@global.logged_in_existing_user",
+              "value": "@global.logged_in_new_user",
               "_translations": {
                 "value": {}
               },
@@ -446,14 +665,14 @@
               "parameter_list": {
                 "variant": "header"
               },
-              "_nested_name": "after_login.find_last_synced_id.welcome_title",
+              "_nested_name": "after_login.dg_welcome_new.welcome_title",
               "_dynamicFields": {
                 "value": [
                   {
-                    "fullExpression": "@global.logged_in_existing_user",
-                    "matchedExpression": "@global.logged_in_existing_user",
+                    "fullExpression": "@global.logged_in_new_user",
+                    "matchedExpression": "@global.logged_in_new_user",
                     "type": "global",
-                    "fieldName": "logged_in_existing_user"
+                    "fieldName": "logged_in_new_user"
                   }
                 ],
                 "condition": [
@@ -466,7 +685,7 @@
                 ]
               },
               "_dynamicDependencies": {
-                "@global.logged_in_existing_user": [
+                "@global.logged_in_new_user": [
                   "value"
                 ],
                 "!@fields._auth_user_given_name": [
@@ -477,7 +696,7 @@
             {
               "type": "title",
               "name": "welcome_title",
-              "value": "@global.logged_in_existing",
+              "value": "@global.logged_in_new",
               "_translations": {
                 "value": {}
               },
@@ -485,14 +704,14 @@
               "parameter_list": {
                 "variant": "header"
               },
-              "_nested_name": "after_login.find_last_synced_id.welcome_title",
+              "_nested_name": "after_login.dg_welcome_new.welcome_title",
               "_dynamicFields": {
                 "value": [
                   {
-                    "fullExpression": "@global.logged_in_existing",
-                    "matchedExpression": "@global.logged_in_existing",
+                    "fullExpression": "@global.logged_in_new",
+                    "matchedExpression": "@global.logged_in_new",
                     "type": "global",
-                    "fieldName": "logged_in_existing"
+                    "fieldName": "logged_in_new"
                   }
                 ],
                 "condition": [
@@ -505,7 +724,7 @@
                 ]
               },
               "_dynamicDependencies": {
-                "@global.logged_in_existing": [
+                "@global.logged_in_new": [
                   "value"
                 ],
                 "!@fields._auth_user_given_name": [
@@ -514,157 +733,80 @@
               }
             },
             {
-              "type": "button",
-              "name": "button_import",
-              "value": "@global.continue",
-              "_translations": {
-                "value": {}
-              },
-              "action_list": [
-                {
-                  "trigger": "click",
-                  "action_id": "user",
-                  "args": [
-                    "import",
-                    "@item.id"
-                  ],
-                  "_raw": "click | user: import: @item.id",
-                  "_cleaned": "click | user: import: @item.id"
-                },
-                {
-                  "trigger": "click",
-                  "action_id": "set_field",
-                  "args": [
-                    "login_passed",
-                    true
-                  ],
-                  "_raw": "click | set_field: login_passed: true",
-                  "_cleaned": "click | set_field: login_passed: true"
-                },
-                {
-                  "trigger": "click",
-                  "action_id": "emit",
-                  "args": [
-                    "force_restart"
-                  ],
-                  "_raw": "click | emit: force_restart",
-                  "_cleaned": "click | emit: force_restart"
-                }
-              ],
+              "type": "display_group",
+              "name": "dg_footer",
               "parameter_list": {
-                "style": "navigation"
+                "sticky": "bottom"
               },
-              "_nested_name": "after_login.find_last_synced_id.button_import",
-              "_dynamicFields": {
-                "value": [
-                  {
-                    "fullExpression": "@global.continue",
-                    "matchedExpression": "@global.continue",
-                    "type": "global",
-                    "fieldName": "continue"
-                  }
-                ],
-                "action_list": {
-                  "0": {
-                    "args": {
-                      "1": [
-                        {
-                          "fullExpression": "@item.id",
-                          "matchedExpression": "@item.id",
-                          "type": "item",
-                          "fieldName": "id"
-                        }
-                      ]
+              "style_list": [
+                "padding: 12px 24px"
+              ],
+              "rows": [
+                {
+                  "type": "button",
+                  "name": "button_completed",
+                  "value": "@global.continue",
+                  "_translations": {
+                    "value": {}
+                  },
+                  "action_list": [
+                    {
+                      "trigger": "click",
+                      "action_id": "set_field",
+                      "args": [
+                        "login_passed",
+                        true
+                      ],
+                      "_raw": "click | set_field: login_passed: true",
+                      "_cleaned": "click | set_field: login_passed: true"
                     },
-                    "_raw": [
+                    {
+                      "trigger": "click",
+                      "action_id": "emit",
+                      "args": [
+                        "completed"
+                      ],
+                      "_raw": "click | emit: completed",
+                      "_cleaned": "click | emit: completed"
+                    }
+                  ],
+                  "parameter_list": {
+                    "style": "navigation"
+                  },
+                  "_nested_name": "after_login.dg_welcome_new.dg_footer.button_completed",
+                  "_dynamicFields": {
+                    "value": [
                       {
-                        "fullExpression": "click | user: import: @item.id",
-                        "matchedExpression": "@item.id",
-                        "type": "item",
-                        "fieldName": "id"
+                        "fullExpression": "@global.continue",
+                        "matchedExpression": "@global.continue",
+                        "type": "global",
+                        "fieldName": "continue"
                       }
-                    ],
-                    "_cleaned": [
-                      {
-                        "fullExpression": "click | user: import: @item.id",
-                        "matchedExpression": "@item.id",
-                        "type": "item",
-                        "fieldName": "id"
-                      }
+                    ]
+                  },
+                  "_dynamicDependencies": {
+                    "@global.continue": [
+                      "value"
                     ]
                   }
                 }
-              },
-              "_dynamicDependencies": {
-                "@global.continue": [
-                  "value"
-                ],
-                "@item.id": [
-                  "action_list.0.args.1",
-                  "action_list.0._raw",
-                  "action_list.0._cleaned"
-                ]
-              }
+              ],
+              "_nested_name": "after_login.dg_welcome_new.dg_footer"
             }
           ],
-          "_nested_name": "after_login.find_last_synced_id"
-        },
-        {
-          "type": "button",
-          "name": "button_completed",
-          "value": "@global.continue",
-          "_translations": {
-            "value": {}
-          },
-          "action_list": [
-            {
-              "trigger": "click",
-              "action_id": "emit",
-              "args": [
-                "completed"
-              ],
-              "_raw": "click | emit: completed",
-              "_cleaned": "click | emit: completed"
-            },
-            {
-              "trigger": "click",
-              "action_id": "set_field",
-              "args": [
-                "login_passed",
-                true
-              ],
-              "_raw": "click | set_field: login_passed: true",
-              "_cleaned": "click | set_field: login_passed: true"
-            }
-          ],
-          "condition": "!@fields.exists_previous_auth_id",
-          "parameter_list": {
-            "style": "navigation"
-          },
-          "_nested_name": "after_login.button_completed",
+          "_nested_name": "after_login.dg_welcome_new",
           "_dynamicFields": {
-            "value": [
-              {
-                "fullExpression": "@global.continue",
-                "matchedExpression": "@global.continue",
-                "type": "global",
-                "fieldName": "continue"
-              }
-            ],
             "condition": [
               {
-                "fullExpression": "!@fields.exists_previous_auth_id",
-                "matchedExpression": "!@fields.exists_previous_auth_id",
+                "fullExpression": "!!@fields.no_previous_auth_id",
+                "matchedExpression": "!@fields.no_previous_auth_id",
                 "type": "fields",
-                "fieldName": "exists_previous_auth_id"
+                "fieldName": "no_previous_auth_id"
               }
             ]
           },
           "_dynamicDependencies": {
-            "@global.continue": [
-              "value"
-            ],
-            "!@fields.exists_previous_auth_id": [
+            "!@fields.no_previous_auth_id": [
               "condition"
             ]
           }
@@ -688,5 +830,5 @@
       }
     }
   ],
-  "_xlsxPath": "templates/app_launch_override.xlsx"
+  "_xlsxPath": "templates/PH app_launch.xlsx"
 }
