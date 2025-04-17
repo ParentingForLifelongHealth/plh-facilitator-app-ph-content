@@ -69,10 +69,10 @@
       "_nested_name": "last_name"
     },
     {
+      "name": "parent_count",
       "exclude_from_translation": true,
       "type": "set_variable",
-      "name": "set_variable_7",
-      "_nested_name": "set_variable_7"
+      "_nested_name": "parent_count"
     },
     {
       "type": "text",
@@ -187,6 +187,7 @@
     },
     {
       "type": "display_group",
+      "name": "q1_answered",
       "parameter_list": {
         "style": "column"
       },
@@ -195,6 +196,7 @@
       "rows": [
         {
           "type": "display_group",
+          "name": "is_lead",
           "parameter_list": {
             "style": "column"
           },
@@ -209,7 +211,7 @@
                 "value": {}
               },
               "exclude_from_translation": false,
-              "_nested_name": "display_group_14.display_group_1.question_2"
+              "_nested_name": "q1_answered.is_lead.question_2"
             },
             {
               "type": "text_box",
@@ -218,7 +220,7 @@
                 "date_input": "true"
               },
               "exclude_from_translation": true,
-              "_nested_name": "display_group_14.display_group_1.answer_2"
+              "_nested_name": "q1_answered.is_lead.answer_2"
             },
             {
               "type": "text",
@@ -228,7 +230,7 @@
                 "value": {}
               },
               "exclude_from_translation": false,
-              "_nested_name": "display_group_14.display_group_1.question_3"
+              "_nested_name": "q1_answered.is_lead.question_3"
             },
             {
               "type": "text_box",
@@ -239,7 +241,7 @@
                 "max_length": "3"
               },
               "exclude_from_translation": true,
-              "_nested_name": "display_group_14.display_group_1.answer_3",
+              "_nested_name": "q1_answered.is_lead.answer_3",
               "_dynamicFields": {
                 "parameter_list": {
                   "placeholder": [
@@ -266,7 +268,7 @@
                 "value": {}
               },
               "exclude_from_translation": false,
-              "_nested_name": "display_group_14.display_group_1.question_4"
+              "_nested_name": "q1_answered.is_lead.question_4"
             },
             {
               "type": "text_box",
@@ -277,7 +279,7 @@
                 "max_length": "3"
               },
               "exclude_from_translation": true,
-              "_nested_name": "display_group_14.display_group_1.answer_4",
+              "_nested_name": "q1_answered.is_lead.answer_4",
               "_dynamicFields": {
                 "parameter_list": {
                   "placeholder": [
@@ -304,7 +306,7 @@
                 "value": {}
               },
               "exclude_from_translation": false,
-              "_nested_name": "display_group_14.display_group_1.question_5"
+              "_nested_name": "q1_answered.is_lead.question_5"
             },
             {
               "name": "yes",
@@ -314,7 +316,7 @@
               },
               "exclude_from_translation": false,
               "type": "set_variable",
-              "_nested_name": "display_group_14.display_group_1.yes"
+              "_nested_name": "q1_answered.is_lead.yes"
             },
             {
               "name": "no",
@@ -324,7 +326,7 @@
               },
               "exclude_from_translation": false,
               "type": "set_variable",
-              "_nested_name": "display_group_14.display_group_1.no"
+              "_nested_name": "q1_answered.is_lead.no"
             },
             {
               "name": "answer_list_5",
@@ -340,7 +342,7 @@
               ],
               "exclude_from_translation": true,
               "type": "set_variable",
-              "_nested_name": "display_group_14.display_group_1.answer_list_5",
+              "_nested_name": "q1_answered.is_lead.answer_list_5",
               "_dynamicFields": {
                 "value": {
                   "0": {
@@ -382,7 +384,7 @@
                 "answer_list": "@local.answer_list_5"
               },
               "exclude_from_translation": true,
-              "_nested_name": "display_group_14.display_group_1.answer_5",
+              "_nested_name": "q1_answered.is_lead.answer_5",
               "_dynamicFields": {
                 "parameter_list": {
                   "answer_list": [
@@ -410,7 +412,7 @@
               },
               "condition": "@local.answer_5 == \"no\"",
               "exclude_from_translation": false,
-              "_nested_name": "display_group_14.display_group_1.question_6",
+              "_nested_name": "q1_answered.is_lead.question_6",
               "_dynamicFields": {
                 "condition": [
                   {
@@ -432,7 +434,7 @@
               "name": "answer_6",
               "condition": "@local.answer_5 == \"no\"",
               "exclude_from_translation": true,
-              "_nested_name": "display_group_14.display_group_1.answer_6",
+              "_nested_name": "q1_answered.is_lead.answer_6",
               "_dynamicFields": {
                 "condition": [
                   {
@@ -450,8 +452,7 @@
               }
             }
           ],
-          "name": "display_group_1",
-          "_nested_name": "display_group_14.display_group_1",
+          "_nested_name": "q1_answered.is_lead",
           "_dynamicFields": {
             "condition": [
               {
@@ -470,6 +471,7 @@
         },
         {
           "type": "display_group",
+          "name": "confidence_group",
           "parameter_list": {
             "style": "column"
           },
@@ -486,7 +488,7 @@
                 "style": "emphasised"
               },
               "exclude_from_translation": false,
-              "_nested_name": "display_group_14.display_group_2.confidence_header"
+              "_nested_name": "q1_answered.confidence_group.confidence_header"
             },
             {
               "name": "none",
@@ -496,7 +498,7 @@
               },
               "exclude_from_translation": false,
               "type": "set_variable",
-              "_nested_name": "display_group_14.display_group_2.none"
+              "_nested_name": "q1_answered.confidence_group.none"
             },
             {
               "name": "low",
@@ -506,7 +508,7 @@
               },
               "exclude_from_translation": false,
               "type": "set_variable",
-              "_nested_name": "display_group_14.display_group_2.low"
+              "_nested_name": "q1_answered.confidence_group.low"
             },
             {
               "name": "moderate",
@@ -516,7 +518,7 @@
               },
               "exclude_from_translation": false,
               "type": "set_variable",
-              "_nested_name": "display_group_14.display_group_2.moderate"
+              "_nested_name": "q1_answered.confidence_group.moderate"
             },
             {
               "name": "high",
@@ -526,7 +528,7 @@
               },
               "exclude_from_translation": false,
               "type": "set_variable",
-              "_nested_name": "display_group_14.display_group_2.high"
+              "_nested_name": "q1_answered.confidence_group.high"
             },
             {
               "name": "very_high",
@@ -536,7 +538,7 @@
               },
               "exclude_from_translation": false,
               "type": "set_variable",
-              "_nested_name": "display_group_14.display_group_2.very_high"
+              "_nested_name": "q1_answered.confidence_group.very_high"
             },
             {
               "name": "answer_list_confidence",
@@ -564,7 +566,7 @@
               ],
               "exclude_from_translation": true,
               "type": "set_variable",
-              "_nested_name": "display_group_14.display_group_2.answer_list_confidence",
+              "_nested_name": "q1_answered.confidence_group.answer_list_confidence",
               "_dynamicFields": {
                 "value": {
                   "0": {
@@ -645,7 +647,7 @@
                 "value": {}
               },
               "exclude_from_translation": false,
-              "_nested_name": "display_group_14.display_group_2.question_7"
+              "_nested_name": "q1_answered.confidence_group.question_7"
             },
             {
               "type": "radio_button_grid",
@@ -655,7 +657,7 @@
                 "answer_list": "@local.answer_list_confidence"
               },
               "exclude_from_translation": true,
-              "_nested_name": "display_group_14.display_group_2.answer_7",
+              "_nested_name": "q1_answered.confidence_group.answer_7",
               "_dynamicFields": {
                 "parameter_list": {
                   "answer_list": [
@@ -682,7 +684,7 @@
                 "value": {}
               },
               "exclude_from_translation": false,
-              "_nested_name": "display_group_14.display_group_2.question_8"
+              "_nested_name": "q1_answered.confidence_group.question_8"
             },
             {
               "type": "radio_button_grid",
@@ -692,7 +694,7 @@
                 "answer_list": "@local.answer_list_confidence"
               },
               "exclude_from_translation": true,
-              "_nested_name": "display_group_14.display_group_2.answer_8",
+              "_nested_name": "q1_answered.confidence_group.answer_8",
               "_dynamicFields": {
                 "parameter_list": {
                   "answer_list": [
@@ -719,13 +721,13 @@
                 "value": {}
               },
               "exclude_from_translation": false,
-              "_nested_name": "display_group_14.display_group_2.question_9"
+              "_nested_name": "q1_answered.confidence_group.question_9"
             },
             {
               "type": "text_box",
               "name": "answer_9",
               "exclude_from_translation": true,
-              "_nested_name": "display_group_14.display_group_2.answer_9"
+              "_nested_name": "q1_answered.confidence_group.answer_9"
             },
             {
               "type": "text",
@@ -735,31 +737,13 @@
                 "value": {}
               },
               "exclude_from_translation": false,
-              "_nested_name": "display_group_14.display_group_2.question_10"
+              "_nested_name": "q1_answered.confidence_group.question_10"
             },
             {
               "type": "text_box",
               "name": "answer_10",
               "exclude_from_translation": true,
-              "_nested_name": "display_group_14.display_group_2.answer_10"
-            },
-            {
-              "exclude_from_translation": true,
-              "type": "set_variable",
-              "name": "set_variable_16",
-              "_nested_name": "display_group_14.display_group_2.set_variable_16"
-            },
-            {
-              "exclude_from_translation": true,
-              "type": "set_variable",
-              "name": "set_variable_17",
-              "_nested_name": "display_group_14.display_group_2.set_variable_17"
-            },
-            {
-              "name": "parent_count",
-              "exclude_from_translation": true,
-              "type": "set_variable",
-              "_nested_name": "display_group_14.display_group_2.parent_count"
+              "_nested_name": "q1_answered.confidence_group.answer_10"
             },
             {
               "type": "data_items",
@@ -775,17 +759,16 @@
                     "parent_count",
                     "@items.length"
                   ],
-                  "_raw": "data_changed | set_local : parent_count : @items.length",
-                  "_cleaned": "data_changed | set_local : parent_count : @items.length"
+                  "_raw": "data_changed | set_local : parent_count: @items.length",
+                  "_cleaned": "data_changed | set_local : parent_count: @items.length"
                 }
               ],
               "parameter_list": {
-                "filter": "filter"
+                "filter": "@item.group_id == @field.current_group_no && @item.archived == false"
               },
-              "condition": true,
               "exclude_from_translation": true,
-              "name": "data_items_19",
-              "_nested_name": "display_group_14.display_group_2.data_items_19",
+              "name": "data_items_16",
+              "_nested_name": "q1_answered.confidence_group.data_items_16",
               "_dynamicFields": {
                 "value": [
                   {
@@ -794,17 +777,48 @@
                     "type": "data",
                     "fieldName": "parents"
                   }
-                ]
+                ],
+                "parameter_list": {
+                  "filter": [
+                    {
+                      "fullExpression": "@item.group_id == @field.current_group_no && @item.archived == false",
+                      "matchedExpression": "@item.group_id",
+                      "type": "item",
+                      "fieldName": "group_id"
+                    },
+                    {
+                      "fullExpression": "@item.group_id == @field.current_group_no && @item.archived == false",
+                      "matchedExpression": "@field.current_group_no",
+                      "type": "field",
+                      "fieldName": "current_group_no"
+                    },
+                    {
+                      "fullExpression": "@item.group_id == @field.current_group_no && @item.archived == false",
+                      "matchedExpression": "@item.archived",
+                      "type": "item",
+                      "fieldName": "archived"
+                    }
+                  ]
+                }
               },
               "_dynamicDependencies": {
                 "@data.parents": [
                   "value"
+                ],
+                "@item.group_id": [
+                  "parameter_list.filter"
+                ],
+                "@field.current_group_no": [
+                  "parameter_list.filter"
+                ],
+                "@item.archived": [
+                  "parameter_list.filter"
                 ]
               }
             },
             {
               "type": "display_group",
-              "condition": "@local.answer_1 == \"lead\" && @local.report_count == 0",
+              "condition": "@local.answer_1 == \"lead\" && @local.parent_count == 0",
               "exclude_from_translation": true,
               "rows": [
                 {
@@ -815,24 +829,24 @@
                   },
                   "exclude_from_translation": false,
                   "name": "text_1",
-                  "_nested_name": "display_group_14.display_group_2.display_group_20.text_1"
+                  "_nested_name": "q1_answered.confidence_group.display_group_17.text_1"
                 }
               ],
-              "name": "display_group_20",
-              "_nested_name": "display_group_14.display_group_2.display_group_20",
+              "name": "display_group_17",
+              "_nested_name": "q1_answered.confidence_group.display_group_17",
               "_dynamicFields": {
                 "condition": [
                   {
-                    "fullExpression": "@local.answer_1 == \"lead\" && @local.report_count == 0",
+                    "fullExpression": "@local.answer_1 == \"lead\" && @local.parent_count == 0",
                     "matchedExpression": "@local.answer_1",
                     "type": "local",
                     "fieldName": "answer_1"
                   },
                   {
-                    "fullExpression": "@local.answer_1 == \"lead\" && @local.report_count == 0",
-                    "matchedExpression": "@local.report_count",
+                    "fullExpression": "@local.answer_1 == \"lead\" && @local.parent_count == 0",
+                    "matchedExpression": "@local.parent_count",
                     "type": "local",
-                    "fieldName": "report_count"
+                    "fieldName": "parent_count"
                   }
                 ]
               },
@@ -840,7 +854,7 @@
                 "@local.answer_1": [
                   "condition"
                 ],
-                "@local.report_count": [
+                "@local.parent_count": [
                   "condition"
                 ]
               }
@@ -852,22 +866,22 @@
               "_translations": {
                 "value": {}
               },
-              "condition": "@local.answer_1 == \"lead\" && @local.report_count > 1",
+              "condition": "@local.answer_1 == \"lead\" && @local.parent_count> 1",
               "exclude_from_translation": false,
-              "_nested_name": "display_group_14.display_group_2.question_11",
+              "_nested_name": "q1_answered.confidence_group.question_11",
               "_dynamicFields": {
                 "condition": [
                   {
-                    "fullExpression": "@local.answer_1 == \"lead\" && @local.report_count > 1",
+                    "fullExpression": "@local.answer_1 == \"lead\" && @local.parent_count> 1",
                     "matchedExpression": "@local.answer_1",
                     "type": "local",
                     "fieldName": "answer_1"
                   },
                   {
-                    "fullExpression": "@local.answer_1 == \"lead\" && @local.report_count > 1",
-                    "matchedExpression": "@local.report_count",
+                    "fullExpression": "@local.answer_1 == \"lead\" && @local.parent_count> 1",
+                    "matchedExpression": "@local.parent_count",
                     "type": "local",
-                    "fieldName": "report_count"
+                    "fieldName": "parent_count"
                   }
                 ]
               },
@@ -875,7 +889,7 @@
                 "@local.answer_1": [
                   "condition"
                 ],
-                "@local.report_count": [
+                "@local.parent_count": [
                   "condition"
                 ]
               }
@@ -886,7 +900,7 @@
               "parameter_list": {
                 "filter": "@item.group_id == @field.current_group_no && @item.archived == false"
               },
-              "condition": "@local.answer_1 == \"lead\" && @local.report_count > 0",
+              "condition": "@local.answer_1 == \"lead\" && @local.parent_count > 0",
               "exclude_from_translation": true,
               "rows": [
                 {
@@ -901,7 +915,7 @@
                       },
                       "exclude_from_translation": true,
                       "type": "set_variable",
-                      "_nested_name": "display_group_14.display_group_2.data_items_22.display_group_1.first_name"
+                      "_nested_name": "q1_answered.confidence_group.data_items_19.display_group_1.first_name"
                     },
                     {
                       "name": "last_name",
@@ -911,7 +925,7 @@
                       },
                       "exclude_from_translation": true,
                       "type": "set_variable",
-                      "_nested_name": "display_group_14.display_group_2.data_items_22.display_group_1.last_name"
+                      "_nested_name": "q1_answered.confidence_group.data_items_19.display_group_1.last_name"
                     },
                     {
                       "name": "first_name",
@@ -922,7 +936,7 @@
                       "condition": "@item.first_name",
                       "exclude_from_translation": true,
                       "type": "set_variable",
-                      "_nested_name": "display_group_14.display_group_2.data_items_22.display_group_1.first_name",
+                      "_nested_name": "q1_answered.confidence_group.data_items_19.display_group_1.first_name",
                       "_dynamicFields": {
                         "value": [
                           {
@@ -957,7 +971,7 @@
                       "condition": "@item.last_name",
                       "exclude_from_translation": true,
                       "type": "set_variable",
-                      "_nested_name": "display_group_14.display_group_2.data_items_22.display_group_1.last_name",
+                      "_nested_name": "q1_answered.confidence_group.data_items_19.display_group_1.last_name",
                       "_dynamicFields": {
                         "value": [
                           {
@@ -994,7 +1008,7 @@
                         "flex: 1"
                       ],
                       "name": "text_5",
-                      "_nested_name": "display_group_14.display_group_2.data_items_22.display_group_1.text_5",
+                      "_nested_name": "q1_answered.confidence_group.data_items_19.display_group_1.text_5",
                       "_dynamicFields": {
                         "value": [
                           {
@@ -1044,7 +1058,7 @@
                       },
                       "exclude_from_translation": true,
                       "name": "toggle_bar_6",
-                      "_nested_name": "display_group_14.display_group_2.data_items_22.display_group_1.toggle_bar_6",
+                      "_nested_name": "q1_answered.confidence_group.data_items_19.display_group_1.toggle_bar_6",
                       "_dynamicFields": {
                         "value": [
                           {
@@ -1085,11 +1099,11 @@
                     }
                   ],
                   "name": "display_group_1",
-                  "_nested_name": "display_group_14.display_group_2.data_items_22.display_group_1"
+                  "_nested_name": "q1_answered.confidence_group.data_items_19.display_group_1"
                 }
               ],
-              "name": "data_items_22",
-              "_nested_name": "display_group_14.display_group_2.data_items_22",
+              "name": "data_items_19",
+              "_nested_name": "q1_answered.confidence_group.data_items_19",
               "_dynamicFields": {
                 "parameter_list": {
                   "filter": [
@@ -1115,16 +1129,16 @@
                 },
                 "condition": [
                   {
-                    "fullExpression": "@local.answer_1 == \"lead\" && @local.report_count > 0",
+                    "fullExpression": "@local.answer_1 == \"lead\" && @local.parent_count > 0",
                     "matchedExpression": "@local.answer_1",
                     "type": "local",
                     "fieldName": "answer_1"
                   },
                   {
-                    "fullExpression": "@local.answer_1 == \"lead\" && @local.report_count > 0",
-                    "matchedExpression": "@local.report_count",
+                    "fullExpression": "@local.answer_1 == \"lead\" && @local.parent_count > 0",
+                    "matchedExpression": "@local.parent_count",
                     "type": "local",
-                    "fieldName": "report_count"
+                    "fieldName": "parent_count"
                   }
                 ]
               },
@@ -1141,14 +1155,13 @@
                 "@local.answer_1": [
                   "condition"
                 ],
-                "@local.report_count": [
+                "@local.parent_count": [
                   "condition"
                 ]
               }
             }
           ],
-          "name": "display_group_2",
-          "_nested_name": "display_group_14.display_group_2",
+          "_nested_name": "q1_answered.confidence_group",
           "_dynamicFields": {
             "condition": [
               {
@@ -1182,8 +1195,7 @@
           }
         }
       ],
-      "name": "display_group_14",
-      "_nested_name": "display_group_14",
+      "_nested_name": "q1_answered",
       "_dynamicFields": {
         "condition": [
           {

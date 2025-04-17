@@ -9,8 +9,8 @@
 | audio | 3 |
 | button | 86 |
 | carousel | 2 |
-| combo_box | 12 |
-| data_items | 41 |
+| combo_box | 16 |
+| data_items | 43 |
 | debug_toggle | 1 |
 | display_grid | 2 |
 | display_group | 133 |
@@ -25,15 +25,15 @@
 | radio_button_grid | 16 |
 | round_button | 39 |
 | select_text | 1 |
-| set_variable | 801 |
+| set_variable | 810 |
 | simple_checkbox | 2 |
 | task_card | 3 |
 | task_progress_bar | 3 |
 | template | 187 |
 | test | 1 |
-| text | 251 |
+| text | 256 |
 | text_area | 2 |
-| text_box | 48 |
+| text_box | 46 |
 | title | 44 |
 | toggle_bar | 5 |
 | update_action_list | 3 |
@@ -53,7 +53,7 @@
 | emit: force_reload | 5 |
 | emit: force_reprocess | 18 |
 | emit: force_restart | 5 |
-| emit: server_sync | 11 |
+| emit: server_sync | 13 |
 | emit: set_language | 1 |
 | emit: uncompleted | 83 |
 | feedback | 13 |
@@ -63,7 +63,7 @@
 | reset_app | 1 |
 | save_to_device | 4 |
 | set_data | 21 |
-| set_field | 62 |
+| set_field | 66 |
 | set_item | 6 |
 | set_local | 79 |
 | share | 4 |
