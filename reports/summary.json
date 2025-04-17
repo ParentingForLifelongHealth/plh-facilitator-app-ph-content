@@ -11,7 +11,7 @@
       },
       {
         "type": "apple_sign_in_button",
-        "count": 1
+        "count": 3
       },
       {
         "type": "audio",
@@ -19,7 +19,7 @@
       },
       {
         "type": "button",
-        "count": 87
+        "count": 86
       },
       {
         "type": "carousel",
@@ -31,7 +31,7 @@
       },
       {
         "type": "data_items",
-        "count": 39
+        "count": 41
       },
       {
         "type": "debug_toggle",
@@ -43,7 +43,7 @@
       },
       {
         "type": "display_group",
-        "count": 119
+        "count": 133
       },
       {
         "type": "drawer",
@@ -51,11 +51,11 @@
       },
       {
         "type": "google_sign_in_button",
-        "count": 3
+        "count": 4
       },
       {
         "type": "image",
-        "count": 13
+        "count": 14
       },
       {
         "type": "items",
@@ -91,7 +91,7 @@
       },
       {
         "type": "set_variable",
-        "count": 790
+        "count": 801
       },
       {
         "type": "simple_checkbox",
@@ -107,7 +107,7 @@
       },
       {
         "type": "template",
-        "count": 183
+        "count": 187
       },
       {
         "type": "test",
@@ -115,7 +115,7 @@
       },
       {
         "type": "text",
-        "count": 250
+        "count": 251
       },
       {
         "type": "text_area",
@@ -127,7 +127,7 @@
       },
       {
         "type": "title",
-        "count": 42
+        "count": 44
       },
       {
         "type": "toggle_bar",
@@ -159,11 +159,11 @@
       },
       {
         "type": "auth",
-        "count": 3
+        "count": 2
       },
       {
         "type": "emit: completed",
-        "count": 44
+        "count": 48
       },
       {
         "type": "emit: force_reload",
@@ -171,7 +171,7 @@
       },
       {
         "type": "emit: force_reprocess",
-        "count": 16
+        "count": 18
       },
       {
         "type": "emit: force_restart",
@@ -187,7 +187,7 @@
       },
       {
         "type": "emit: uncompleted",
-        "count": 82
+        "count": 83
       },
       {
         "type": "feedback",
@@ -195,11 +195,7 @@
       },
       {
         "type": "go_to",
-        "count": 31
-      },
-      {
-        "type": "height",
-        "count": 1
+        "count": 32
       },
       {
         "type": "nav_stack",
@@ -207,7 +203,7 @@
       },
       {
         "type": "pop_up",
-        "count": 19
+        "count": 18
       },
       {
         "type": "reset_app",
@@ -223,7 +219,7 @@
       },
       {
         "type": "set_field",
-        "count": 61
+        "count": 62
       },
       {
         "type": "set_item",
@@ -231,7 +227,7 @@
       },
       {
         "type": "set_local",
-        "count": 76
+        "count": 79
       },
       {
         "type": "share",
@@ -240,10 +236,6 @@
       {
         "type": "user",
         "count": 4
-      },
-      {
-        "type": "width",
-        "count": 1
       }
     ]
   },
@@ -251,13 +243,13 @@
     "data": [
       {
         "assets": "total",
-        "KB": "66057 KB",
-        "MB": "66.1 MB"
+        "KB": "65806 KB",
+        "MB": "65.8 MB"
       },
       {
         "assets": "unused",
-        "KB": "46037 KB",
-        "MB": "46 MB"
+        "KB": "46194 KB",
+        "MB": "46.2 MB"
       }
     ]
   },
@@ -716,6 +708,10 @@
         "size_kb": 2
       },
       {
+        "path": "images/logos/MaPa_logo.png",
+        "size_kb": 157.3
+      },
+      {
         "path": "images/message.png",
         "size_kb": 10.4
       },
@@ -928,7 +924,7 @@
       {
         "path": "images/backgrounds/MaPa_logo_with_background.png",
         "count": 1,
-        "size_kb": 195.5
+        "size_kb": 102
       },
       {
         "path": "images/backgrounds/home_bottom_right.svg",
@@ -1276,11 +1272,6 @@
         "size_kb": 84.6
       },
       {
-        "path": "images/logos/MaPa_logo.png",
-        "count": 1,
-        "size_kb": 157.3
-      },
-      {
         "path": "images/logos/PLH.png",
         "count": 1,
         "size_kb": 26.6
@@ -1457,7 +1448,7 @@
       {
         "type": "template",
         "subtype": null,
-        "total": 78
+        "total": 82
       },
       {
         "type": "template",

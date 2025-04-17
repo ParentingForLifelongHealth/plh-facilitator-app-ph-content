@@ -1,8 +1,8 @@
 {
   "flow_type": "data_list",
-  "flow_name": "user_config",
+  "flow_name": "profile_pages",
   "status": "released",
-  "data_list_name": "user_config",
+  "data_list_name": "profile_pages",
   "rows": [
     {
       "id": "page_1",
@@ -17,7 +17,7 @@
       "completed": false
     }
   ],
-  "_xlsxPath": "templates/app_launch_override.xlsx",
+  "_xlsxPath": "templates/PH app_launch.xlsx",
   "_metadata": {
     "completed": {
       "type": "boolean"

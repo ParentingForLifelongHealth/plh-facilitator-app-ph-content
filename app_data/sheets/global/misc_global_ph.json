@@ -70,7 +70,7 @@
     {
       "type": "declare_global_constant",
       "name": "welcome_message",
-      "value": "Welcome to FacilitatorApp 2.0",
+      "value": "Welcome to @global.app_name",
       "_translations": {
         "value": {}
       }

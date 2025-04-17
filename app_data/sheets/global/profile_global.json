@@ -370,6 +370,14 @@
       "_translations": {
         "value": {}
       }
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "label_about_parent",
+      "value": "About parent",
+      "_translations": {
+        "value": {}
+      }
     }
   ],
   "_xlsxPath": "data/deployment_data_ph.xlsx"

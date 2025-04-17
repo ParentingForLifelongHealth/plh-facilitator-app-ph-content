@@ -26,7 +26,7 @@
     {
       "type": "declare_global_constant",
       "name": "share_medium",
-      "value": "WhatsApp",
+      "value": "Viber",
       "_translations": {
         "value": {}
       },
@@ -35,7 +35,7 @@
     {
       "type": "declare_global_constant",
       "name": "virtual_session_platform",
-      "value": "WhatsApp",
+      "value": "Viber",
       "_translations": {
         "value": {}
       }

@@ -1,11 +1,11 @@
 {
   "flow_type": "template",
-  "flow_name": "user_config_splash",
+  "flow_name": "profile_sequence",
   "status": "released",
   "rows": [
     {
       "name": "task_group",
-      "value": "user_config",
+      "value": "profile_pages",
       "_translations": {
         "value": {}
       },
@@ -20,7 +20,7 @@
     {
       "type": "data_items",
       "name": "compute_completed_count",
-      "value": "@data.user_config",
+      "value": "@data.profile_pages",
       "_translations": {
         "value": {}
       },
@@ -43,10 +43,10 @@
       "_dynamicFields": {
         "value": [
           {
-            "fullExpression": "@data.user_config",
-            "matchedExpression": "@data.user_config",
+            "fullExpression": "@data.profile_pages",
+            "matchedExpression": "@data.profile_pages",
             "type": "data",
-            "fieldName": "user_config"
+            "fieldName": "profile_pages"
           }
         ],
         "parameter_list": {
@@ -61,7 +61,7 @@
         }
       },
       "_dynamicDependencies": {
-        "@data.user_config": [
+        "@data.profile_pages": [
           "value"
         ],
         "@item.completed": [
@@ -106,10 +106,10 @@
               "trigger": "click",
               "action_id": "set_data",
               "args": [],
-              "_raw": "click | set_data | \n\n_list_id: user_config,\n_id: page_@local.completed_count,\ncompleted: false",
-              "_cleaned": "click | set_data | \n\n_list_id: user_config,\n_id: page_@local.completed_count,\ncompleted: false",
+              "_raw": "click | set_data | \n\n_list_id: profile_pages,\n_id: page_@local.completed_count,\ncompleted: false",
+              "_cleaned": "click | set_data | \n\n_list_id: profile_pages,\n_id: page_@local.completed_count,\ncompleted: false",
               "params": {
-                "_list_id": "user_config",
+                "_list_id": "profile_pages",
                 "_id": "page_@local.completed_count",
                 "completed": false
               }
@@ -127,7 +127,7 @@
               "0": {
                 "_raw": [
                   {
-                    "fullExpression": "click | set_data | \n\n_list_id: user_config,\n_id: page_@local.completed_count,\ncompleted: false",
+                    "fullExpression": "click | set_data | \n\n_list_id: profile_pages,\n_id: page_@local.completed_count,\ncompleted: false",
                     "matchedExpression": "@local.completed_count",
                     "type": "local",
                     "fieldName": "completed_count"
@@ -135,7 +135,7 @@
                 ],
                 "_cleaned": [
                   {
-                    "fullExpression": "click | set_data | \n\n_list_id: user_config,\n_id: page_@local.completed_count,\ncompleted: false",
+                    "fullExpression": "click | set_data | \n\n_list_id: profile_pages,\n_id: page_@local.completed_count,\ncompleted: false",
                     "matchedExpression": "@local.completed_count",
                     "type": "local",
                     "fieldName": "completed_count"
@@ -231,165 +231,28 @@
           "hidden": "@local.completed_count != 0",
           "rows": [
             {
-              "type": "display_group",
-              "name": "dg_welcome",
-              "parameter_list": {
-                "style": "column"
+              "type": "text",
+              "name": "welcome_text",
+              "value": "@global.logged_in_text",
+              "_translations": {
+                "value": {}
               },
-              "style_list": [
-                "align-items: center"
-              ],
-              "rows": [
-                {
-                  "type": "image",
-                  "name": "img_user",
-                  "value": "@fields._auth_user_picture",
-                  "_translations": {
-                    "value": {}
-                  },
-                  "parameter_list": {
-                    "style": "rounded_corners"
-                  },
-                  "condition": "!!@fields._auth_user_picture",
-                  "style_list": [
-                    "width: 96px",
-                    "height: 96px"
-                  ],
-                  "_nested_name": "await_data_loop_evaluation.page_1.dg_welcome.img_user",
-                  "_dynamicFields": {
-                    "value": [
-                      {
-                        "fullExpression": "@fields._auth_user_picture",
-                        "matchedExpression": "@fields._auth_user_picture",
-                        "type": "fields",
-                        "fieldName": "_auth_user_picture"
-                      }
-                    ],
-                    "condition": [
-                      {
-                        "fullExpression": "!!@fields._auth_user_picture",
-                        "matchedExpression": "!@fields._auth_user_picture",
-                        "type": "fields",
-                        "fieldName": "_auth_user_picture"
-                      }
-                    ]
-                  },
-                  "_dynamicDependencies": {
-                    "@fields._auth_user_picture": [
-                      "value"
-                    ],
-                    "!@fields._auth_user_picture": [
-                      "condition"
-                    ]
+              "_nested_name": "await_data_loop_evaluation.page_1.welcome_text",
+              "_dynamicFields": {
+                "value": [
+                  {
+                    "fullExpression": "@global.logged_in_text",
+                    "matchedExpression": "@global.logged_in_text",
+                    "type": "global",
+                    "fieldName": "logged_in_text"
                   }
-                },
-                {
-                  "type": "title",
-                  "name": "welcome_title",
-                  "value": "@global.logged_in_new_user",
-                  "_translations": {
-                    "value": {}
-                  },
-                  "parameter_list": {
-                    "variant": "header"
-                  },
-                  "condition": "!!@fields._auth_user_given_name",
-                  "_nested_name": "await_data_loop_evaluation.page_1.dg_welcome.welcome_title",
-                  "_dynamicFields": {
-                    "value": [
-                      {
-                        "fullExpression": "@global.logged_in_new_user",
-                        "matchedExpression": "@global.logged_in_new_user",
-                        "type": "global",
-                        "fieldName": "logged_in_new_user"
-                      }
-                    ],
-                    "condition": [
-                      {
-                        "fullExpression": "!!@fields._auth_user_given_name",
-                        "matchedExpression": "!@fields._auth_user_given_name",
-                        "type": "fields",
-                        "fieldName": "_auth_user_given_name"
-                      }
-                    ]
-                  },
-                  "_dynamicDependencies": {
-                    "@global.logged_in_new_user": [
-                      "value"
-                    ],
-                    "!@fields._auth_user_given_name": [
-                      "condition"
-                    ]
-                  }
-                },
-                {
-                  "type": "title",
-                  "name": "welcome_title",
-                  "value": "@global.logged_in_new",
-                  "_translations": {
-                    "value": {}
-                  },
-                  "parameter_list": {
-                    "variant": "header"
-                  },
-                  "condition": "!@fields._auth_user_given_name",
-                  "_nested_name": "await_data_loop_evaluation.page_1.dg_welcome.welcome_title",
-                  "_dynamicFields": {
-                    "value": [
-                      {
-                        "fullExpression": "@global.logged_in_new",
-                        "matchedExpression": "@global.logged_in_new",
-                        "type": "global",
-                        "fieldName": "logged_in_new"
-                      }
-                    ],
-                    "condition": [
-                      {
-                        "fullExpression": "!@fields._auth_user_given_name",
-                        "matchedExpression": "!@fields._auth_user_given_name",
-                        "type": "fields",
-                        "fieldName": "_auth_user_given_name"
-                      }
-                    ]
-                  },
-                  "_dynamicDependencies": {
-                    "@global.logged_in_new": [
-                      "value"
-                    ],
-                    "!@fields._auth_user_given_name": [
-                      "condition"
-                    ]
-                  }
-                },
-                {
-                  "type": "text",
-                  "name": "welcome_text",
-                  "value": "@global.logged_in_text",
-                  "_translations": {
-                    "value": {}
-                  },
-                  "parameter_list": {
-                    "text_align": "center"
-                  },
-                  "_nested_name": "await_data_loop_evaluation.page_1.dg_welcome.welcome_text",
-                  "_dynamicFields": {
-                    "value": [
-                      {
-                        "fullExpression": "@global.logged_in_text",
-                        "matchedExpression": "@global.logged_in_text",
-                        "type": "global",
-                        "fieldName": "logged_in_text"
-                      }
-                    ]
-                  },
-                  "_dynamicDependencies": {
-                    "@global.logged_in_text": [
-                      "value"
-                    ]
-                  }
-                }
-              ],
-              "_nested_name": "await_data_loop_evaluation.page_1.dg_welcome"
+                ]
+              },
+              "_dynamicDependencies": {
+                "@global.logged_in_text": [
+                  "value"
+                ]
+              }
             },
             {
               "type": "template",
@@ -400,10 +263,10 @@
                   "trigger": "completed",
                   "action_id": "set_data",
                   "args": [],
-                  "_raw": "completed | set_data | \n\n_list_id: user_config,\n_id: page_1,\ncompleted: true",
-                  "_cleaned": "completed | set_data | \n\n_list_id: user_config,\n_id: page_1,\ncompleted: true",
+                  "_raw": "completed | set_data | \n\n_list_id: profile_pages,\n_id: page_1,\ncompleted: true",
+                  "_cleaned": "completed | set_data | \n\n_list_id: profile_pages,\n_id: page_1,\ncompleted: true",
                   "params": {
-                    "_list_id": "user_config",
+                    "_list_id": "profile_pages",
                     "_id": "page_1",
                     "completed": true
                   }
@@ -450,10 +313,10 @@
                   "trigger": "completed",
                   "action_id": "set_data",
                   "args": [],
-                  "_raw": "completed | set_data | \n\n_list_id: user_config,\n_id: page_2,\ncompleted: true",
-                  "_cleaned": "completed | set_data | \n\n_list_id: user_config,\n_id: page_2,\ncompleted: true",
+                  "_raw": "completed | set_data | \n\n_list_id: profile_pages,\n_id: page_2,\ncompleted: true",
+                  "_cleaned": "completed | set_data | \n\n_list_id: profile_pages,\n_id: page_2,\ncompleted: true",
                   "params": {
-                    "_list_id": "user_config",
+                    "_list_id": "profile_pages",
                     "_id": "page_2",
                     "completed": true
                   }
@@ -500,10 +363,10 @@
                   "trigger": "completed",
                   "action_id": "set_data",
                   "args": [],
-                  "_raw": "completed | set_data |\n\n_list_id: user_config,\n_id: page_3,\ncompleted: true",
-                  "_cleaned": "completed | set_data |\n\n_list_id: user_config,\n_id: page_3,\ncompleted: true",
+                  "_raw": "completed | set_data |\n\n_list_id: profile_pages,\n_id: page_3,\ncompleted: true",
+                  "_cleaned": "completed | set_data |\n\n_list_id: profile_pages,\n_id: page_3,\ncompleted: true",
                   "params": {
-                    "_list_id": "user_config",
+                    "_list_id": "profile_pages",
                     "_id": "page_3",
                     "completed": true
                   }
@@ -605,42 +468,74 @@
               }
             },
             {
-              "type": "button",
-              "name": "button_completed_3",
-              "value": "@global.continue",
-              "_translations": {
-                "value": {}
+              "type": "display_group",
+              "name": "dg_footer",
+              "parameter_list": {
+                "sticky": "bottom"
               },
-              "action_list": [
+              "style_list": [
+                "padding: 12px 24px"
+              ],
+              "rows": [
                 {
-                  "trigger": "click",
-                  "action_id": "emit",
-                  "args": [
-                    "completed"
+                  "type": "button",
+                  "name": "button_completed_3",
+                  "value": "@global.continue",
+                  "_translations": {
+                    "value": {}
+                  },
+                  "action_list": [
+                    {
+                      "trigger": "click",
+                      "action_id": "set_field",
+                      "args": [
+                        "profile_passed",
+                        true
+                      ],
+                      "_raw": "click | set_field: profile_passed: true",
+                      "_cleaned": "click | set_field: profile_passed: true"
+                    },
+                    {
+                      "trigger": "click",
+                      "action_id": "emit",
+                      "args": [
+                        "completed"
+                      ],
+                      "_raw": "click | emit: completed",
+                      "_cleaned": "click | emit: completed"
+                    },
+                    {
+                      "trigger": "click",
+                      "action_id": "emit",
+                      "args": [
+                        "server_sync"
+                      ],
+                      "_raw": "click | emit: server_sync",
+                      "_cleaned": "click | emit: server_sync"
+                    }
                   ],
-                  "_raw": "click | emit: completed",
-                  "_cleaned": "click | emit: completed"
+                  "parameter_list": {
+                    "style": "navigation"
+                  },
+                  "_nested_name": "await_data_loop_evaluation.page_finished.dg_footer.button_completed_3",
+                  "_dynamicFields": {
+                    "value": [
+                      {
+                        "fullExpression": "@global.continue",
+                        "matchedExpression": "@global.continue",
+                        "type": "global",
+                        "fieldName": "continue"
+                      }
+                    ]
+                  },
+                  "_dynamicDependencies": {
+                    "@global.continue": [
+                      "value"
+                    ]
+                  }
                 }
               ],
-              "parameter_list": {
-                "style": "navigation"
-              },
-              "_nested_name": "await_data_loop_evaluation.page_finished.button_completed_3",
-              "_dynamicFields": {
-                "value": [
-                  {
-                    "fullExpression": "@global.continue",
-                    "matchedExpression": "@global.continue",
-                    "type": "global",
-                    "fieldName": "continue"
-                  }
-                ]
-              },
-              "_dynamicDependencies": {
-                "@global.continue": [
-                  "value"
-                ]
-              }
+              "_nested_name": "await_data_loop_evaluation.page_finished.dg_footer"
             }
           ],
           "_nested_name": "await_data_loop_evaluation.page_finished",
@@ -679,5 +574,5 @@
       }
     }
   ],
-  "_xlsxPath": "templates/app_launch_override.xlsx"
+  "_xlsxPath": "templates/PH app_launch.xlsx"
 }
