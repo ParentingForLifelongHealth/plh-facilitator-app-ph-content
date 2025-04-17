@@ -7,9 +7,62 @@
       "type": "template",
       "name": "menu_task_flow",
       "value": "menu_task_flow",
+      "condition": "@fields.user_type == \"facilitator\" || @fields.user_type == \"tester\"",
       "rows": [],
-      "_nested_name": "menu_task_flow"
+      "_nested_name": "menu_task_flow",
+      "_dynamicFields": {
+        "condition": [
+          {
+            "fullExpression": "@fields.user_type == \"facilitator\" || @fields.user_type == \"tester\"",
+            "matchedExpression": "@fields.user_type",
+            "type": "fields",
+            "fieldName": "user_type"
+          },
+          {
+            "fullExpression": "@fields.user_type == \"facilitator\" || @fields.user_type == \"tester\"",
+            "matchedExpression": "@fields.user_type",
+            "type": "fields",
+            "fieldName": "user_type"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@fields.user_type": [
+          "condition",
+          "condition"
+        ]
+      }
+    },
+    {
+      "type": "template",
+      "name": "menu_no_groups",
+      "value": "menu_no_groups",
+      "condition": "!(@fields.user_type == \"facilitator\" || @fields.user_type == \"tester\")",
+      "rows": [],
+      "_nested_name": "menu_no_groups",
+      "_dynamicFields": {
+        "condition": [
+          {
+            "fullExpression": "!(@fields.user_type == \"facilitator\" || @fields.user_type == \"tester\")",
+            "matchedExpression": "@fields.user_type",
+            "type": "fields",
+            "fieldName": "user_type"
+          },
+          {
+            "fullExpression": "!(@fields.user_type == \"facilitator\" || @fields.user_type == \"tester\")",
+            "matchedExpression": "@fields.user_type",
+            "type": "fields",
+            "fieldName": "user_type"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@fields.user_type": [
+          "condition",
+          "condition"
+        ]
+      }
     }
   ],
-  "_xlsxPath": "templates/menu_overrides.xlsx"
+  "_xlsxPath": "templates/menu_override.xlsx"
 }

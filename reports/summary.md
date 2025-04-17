@@ -13,11 +13,11 @@
 | data_items | 43 |
 | debug_toggle | 1 |
 | display_grid | 2 |
-| display_group | 133 |
+| display_group | 136 |
 | drawer | 1 |
 | google_sign_in_button | 4 |
-| image | 14 |
-| items | 25 |
+| image | 15 |
+| items | 26 |
 | lottie_animation | 3 |
 | navigation_bar | 2 |
 | pdf | 1 |
@@ -25,16 +25,16 @@
 | radio_button_grid | 16 |
 | round_button | 39 |
 | select_text | 1 |
-| set_variable | 810 |
+| set_variable | 832 |
 | simple_checkbox | 2 |
 | task_card | 3 |
 | task_progress_bar | 3 |
-| template | 187 |
+| template | 189 |
 | test | 1 |
-| text | 256 |
+| text | 261 |
 | text_area | 2 |
 | text_box | 46 |
-| title | 44 |
+| title | 45 |
 | toggle_bar | 5 |
 | update_action_list | 3 |
 | video | 3 |
@@ -76,7 +76,7 @@
 | assets | KB | MB |
 | --- | --- | --- |
 | total | 65806 KB | 65.8 MB |
-| unused | 46194 KB | 46.2 MB |
+| unused | 46185 KB | 46.2 MB |
 </details>
 
 <details open>
@@ -200,7 +200,7 @@ Assets that appear in app-data but do not have references within sheets
 | images/icons/settings.svg | 2.4 |
 | images/icons/task_0.png | 2 |
 | images/logos/MaPa_logo.png | 157.3 |
-| images/message.png | 10.4 |
+| images/message.png | 1.3 |
 | images/person_cog.png | 0.8 |
 | pdf/01_mod1_intro.pdf | 650.7 |
 | pdf/01_mod1_layunin.pdf | 513.8 |
@@ -242,7 +242,7 @@ Assets that have references within sheets but do not appear in app-data
 
 | path | count |
 | --- | --- |
-| .png | 1 |
+| .png | 2 |
 | @data.pdf | 3 |
 | images/icons/in_progress.svg | 1 |
 | images/icons/tick.svg | 1 |
@@ -267,7 +267,7 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | images/after_disclosed_abuse.svg | 4.7 | 2 |
 | images/backgrounds/MaPa_logo_with_background.png | 102 | 1 |
 | images/backgrounds/home_bottom_right.svg | 2.3 | 1 |
-| images/backgrounds/home_top_left.svg | 2.4 | 2 |
+| images/backgrounds/home_top_left.svg | 2.4 | 3 |
 | images/backgrounds/reports_top_right.svg | 2 | 1 |
 | images/contact_for_reporting_abuse.svg | 6.3 | 1 |
 | images/crisis_hotlines.svg | 12.6 | 1 |
@@ -376,7 +376,7 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | generator |  | 9 |
 | global |  | 12 |
 | global | legal_terms | 1 |
-| template |  | 82 |
+| template |  | 83 |
 | template | generated | 141 |
 | template | legal_terms | 4 |
 </details>
