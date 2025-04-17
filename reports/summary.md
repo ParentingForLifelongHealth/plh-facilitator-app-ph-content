@@ -246,7 +246,6 @@ Assets that have references within sheets but do not appear in app-data
 | @data.pdf | 3 |
 | images/icons/in_progress.svg | 1 |
 | images/icons/tick.svg | 1 |
-| images/logos/bird_on_light.svg | 1 |
 | lottie/gift_box.json | 2 |
 | pdf/module_1_building_block.pdf | 1 |
 | videos/add_parent.mp4 | 1 |
@@ -337,7 +336,7 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | images/logos/IDEMS.png | 84.6 | 1 |
 | images/logos/PLH.png | 26.6 | 1 |
 | images/logos/UNICEF.jpg | 27.7 | 1 |
-| images/logos/app_logo.png | 70.6 | 1 |
+| images/logos/app_logo.png | 70.6 | 2 |
 | images/logos/nip.png | 11.9 | 1 |
 | images/no_group_selected.svg | 3.5 | 1 |
 | images/onboarding_cc.svg | 19.3 | 2 |

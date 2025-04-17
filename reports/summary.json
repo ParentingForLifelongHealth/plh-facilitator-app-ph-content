@@ -868,11 +868,6 @@
         "missing": true
       },
       {
-        "path": "images/logos/bird_on_light.svg",
-        "count": 1,
-        "missing": true
-      },
-      {
         "path": "lottie/gift_box.json",
         "count": 2,
         "missing": true
@@ -1283,7 +1278,7 @@
       },
       {
         "path": "images/logos/app_logo.png",
-        "count": 1,
+        "count": 2,
         "size_kb": 70.6
       },
       {

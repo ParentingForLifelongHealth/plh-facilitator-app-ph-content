@@ -75,7 +75,7 @@
         {
           "type": "image",
           "name": "logo",
-          "value": "images/logos/bird_on_light.svg",
+          "value": "images/logos/app_logo.png",
           "_translations": {
             "value": {}
           },
@@ -392,7 +392,7 @@
         "style": "column"
       },
       "exclude_from_translation": true,
-      "condition": "@fields.current_report_id !== \"empty\"",
+      "condition": "@fields.current_report_id !== \"empty\" && (@fields.user_type == \"facilitator\" || @fields.user_type == \"tester\")",
       "rows": [
         {
           "type": "display_group",
@@ -641,15 +641,31 @@
       "_dynamicFields": {
         "condition": [
           {
-            "fullExpression": "@fields.current_report_id !== \"empty\"",
+            "fullExpression": "@fields.current_report_id !== \"empty\" && (@fields.user_type == \"facilitator\" || @fields.user_type == \"tester\")",
             "matchedExpression": "@fields.current_report_id",
             "type": "fields",
             "fieldName": "current_report_id"
+          },
+          {
+            "fullExpression": "@fields.current_report_id !== \"empty\" && (@fields.user_type == \"facilitator\" || @fields.user_type == \"tester\")",
+            "matchedExpression": "@fields.user_type",
+            "type": "fields",
+            "fieldName": "user_type"
+          },
+          {
+            "fullExpression": "@fields.current_report_id !== \"empty\" && (@fields.user_type == \"facilitator\" || @fields.user_type == \"tester\")",
+            "matchedExpression": "@fields.user_type",
+            "type": "fields",
+            "fieldName": "user_type"
           }
         ]
       },
       "_dynamicDependencies": {
         "@fields.current_report_id": [
+          "condition"
+        ],
+        "@fields.user_type": [
+          "condition",
           "condition"
         ]
       }
@@ -724,5 +740,5 @@
       }
     }
   ],
-  "_xlsxPath": "templates/menu_sub_tasks.xlsx"
+  "_xlsxPath": "templates/article_loop_override.xlsx"
 }
