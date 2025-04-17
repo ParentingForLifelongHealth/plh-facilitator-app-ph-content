@@ -27,11 +27,11 @@
       },
       {
         "type": "combo_box",
-        "count": 12
+        "count": 16
       },
       {
         "type": "data_items",
-        "count": 41
+        "count": 43
       },
       {
         "type": "debug_toggle",
@@ -91,7 +91,7 @@
       },
       {
         "type": "set_variable",
-        "count": 801
+        "count": 810
       },
       {
         "type": "simple_checkbox",
@@ -115,7 +115,7 @@
       },
       {
         "type": "text",
-        "count": 251
+        "count": 256
       },
       {
         "type": "text_area",
@@ -123,7 +123,7 @@
       },
       {
         "type": "text_box",
-        "count": 48
+        "count": 46
       },
       {
         "type": "title",
@@ -179,7 +179,7 @@
       },
       {
         "type": "emit: server_sync",
-        "count": 11
+        "count": 13
       },
       {
         "type": "emit: set_language",
@@ -219,7 +219,7 @@
       },
       {
         "type": "set_field",
-        "count": 62
+        "count": 66
       },
       {
         "type": "set_item",
