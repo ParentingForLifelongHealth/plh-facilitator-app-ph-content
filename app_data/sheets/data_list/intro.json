@@ -7,329 +7,161 @@
     {
       "id": "intro_1",
       "foreign_key": "week_1_session",
+      "text": "Welcome sa **Modyul 1: One-on-One Time Kasama ang Iyong Anak!**\n\nSa Modyul 1, bilang facilitator, kailangan mong makamit ang apat na bagay:\n\n1️⃣ Ipakilala ang programa ng MaPaChat sa mga pamilya\n2️⃣ Magtatag ng mga patakaran\n3️⃣ Tulungan ang mga magulang na pag-isipan at ilarawan ang kanilang mga layunin para sa pamilya\n4️⃣ Talakayin at i-praktis ang One-on-One Time kasama ang mga kalahok",
       "image_asset": "",
       "text_2": "",
-      "ignore": 1,
-      "text": "Welcome sa **Modyul 1: One-on-One Time Kasama ang Iyong Anak!**\n\nSa Modyul 1, bilang facilitator, kailangan mong makamit ang apat na bagay:\n\n1️⃣ Ipakilala ang programa ng MaPaChat sa mga pamilya\n2️⃣ Magtatag ng mga patakaran\n3️⃣ Tulungan ang mga magulang na pag-isipan at ilarawan ang kanilang mga layunin para sa pamilya\n4️⃣ Talakayin at i-praktis ang One-on-One Time kasama ang mga kalahok",
-      "_translations": {
-        "text": {}
-      },
-      "_translatedFields": {
-        "text": {
-          "eng": "Welcome sa **Modyul 1: One-on-One Time Kasama ang Iyong Anak!**\n\nSa Modyul 1, bilang facilitator, kailangan mong makamit ang apat na bagay:\n\n1️⃣ Ipakilala ang programa ng MaPaChat sa mga pamilya\n2️⃣ Magtatag ng mga patakaran\n3️⃣ Tulungan ang mga magulang na pag-isipan at ilarawan ang kanilang mga layunin para sa pamilya\n4️⃣ Talakayin at i-praktis ang One-on-One Time kasama ang mga kalahok"
-        }
-      }
+      "ignore": 1
     },
     {
       "id": "intro_2",
       "foreign_key": "week_1_session_3",
+      "text": "**ISTRUKTURA NG SESYON**\n\nI-review ang istruktura ng sesyon para sa Modyul 1.",
       "image_asset": "",
       "text_2": "",
-      "ignore": 2,
-      "text": "**ISTRUKTURA NG SESYON**\n\nI-review ang istruktura ng sesyon para sa Modyul 1.",
-      "_translations": {
-        "text": {}
-      },
-      "_translatedFields": {
-        "text": {
-          "eng": "**ISTRUKTURA NG SESYON**\n\nI-review ang istruktura ng sesyon para sa Modyul 1."
-        }
-      }
+      "ignore": 2
     },
     {
       "id": "intro_3",
       "foreign_key": "week_1_session_4",
+      "text": "**1 | PANIMULANG GAWAIN**\n\nI-deliver ang **Panimulang Gawain** gamit ang Facilitator Guide sa ibaba:",
       "image_asset": "",
       "text_2": "",
-      "ignore": 3,
-      "text": "**1 | PANIMULANG GAWAIN**\n\nI-deliver ang **Panimulang Gawain** gamit ang Facilitator Guide sa ibaba:",
-      "_translations": {
-        "text": {}
-      },
-      "_translatedFields": {
-        "text": {
-          "eng": "**1 | PANIMULANG GAWAIN**\n\nI-deliver ang **Panimulang Gawain** gamit ang Facilitator Guide sa ibaba:"
-        }
-      }
+      "ignore": 3
     },
     {
       "id": "intro_4",
       "foreign_key": "week_1_session_5",
+      "text": "**2 | PAGBUO NG LAYUNIN**\n\nI-deliver ang **Pagbuo ng Layunin** gamit ang Facilitator Guide sa ibaba:",
       "image_asset": "",
       "text_2": "",
-      "ignore": 4,
-      "text": "**2 | PAGBUO NG LAYUNIN**\n\nI-deliver ang **Pagbuo ng Layunin** gamit ang Facilitator Guide sa ibaba:",
-      "_translations": {
-        "text": {}
-      },
-      "_translatedFields": {
-        "text": {
-          "eng": "**2 | PAGBUO NG LAYUNIN**\n\nI-deliver ang **Pagbuo ng Layunin** gamit ang Facilitator Guide sa ibaba:"
-        }
-      }
+      "ignore": 4
     },
     {
       "id": "intro_5",
       "foreign_key": "week_1_session_6",
+      "text": "**3 | MAPA SKILL: ONE-ON-ONE TIME**\n\nI-deliver ang **MaPa Skill: One-on-One Time** gamit ang Facilitator Guide sa ibaba:",
       "image_asset": "",
       "text_2": "",
-      "ignore": 5,
-      "text": "**3 | MAPA SKILL: ONE-ON-ONE TIME**\n\nI-deliver ang **MaPa Skill: One-on-One Time** gamit ang Facilitator Guide sa ibaba:",
-      "_translations": {
-        "text": {}
-      },
-      "_translatedFields": {
-        "text": {
-          "eng": "**3 | MAPA SKILL: ONE-ON-ONE TIME**\n\nI-deliver ang **MaPa Skill: One-on-One Time** gamit ang Facilitator Guide sa ibaba:"
-        }
-      }
+      "ignore": 5
     },
     {
       "id": "intro_6",
       "foreign_key": "week_1_session_7",
+      "text": "**4 | PABAONG GAWAIN**\n\nI-deliver ang **Pabaong Gawain** gamit ang Facilitator Guide sa ibaba:",
       "image_asset": "",
       "text_2": "",
-      "ignore": 6,
-      "text": "**4 | PABAONG GAWAIN**\n\nI-deliver ang **Pabaong Gawain** gamit ang Facilitator Guide sa ibaba:",
-      "_translations": {
-        "text": {}
-      },
-      "_translatedFields": {
-        "text": {
-          "eng": "**4 | PABAONG GAWAIN**\n\nI-deliver ang **Pabaong Gawain** gamit ang Facilitator Guide sa ibaba:"
-        }
-      }
+      "ignore": 6
     },
     {
       "id": "intro_7",
       "foreign_key": "week_1_session_8",
+      "text": "**5 | PAGTATAPOS**\n\nI-deliver ang **Pagtatapos** gamit ang Facilitator Guide sa ibaba:",
       "image_asset": "",
       "text_2": "",
-      "ignore": 7,
-      "text": "**5 | PAGTATAPOS**\n\nI-deliver ang **Pagtatapos** gamit ang Facilitator Guide sa ibaba:",
-      "_translations": {
-        "text": {}
-      },
-      "_translatedFields": {
-        "text": {
-          "eng": "**5 | PAGTATAPOS**\n\nI-deliver ang **Pagtatapos** gamit ang Facilitator Guide sa ibaba:"
-        }
-      }
+      "ignore": 7
     },
     {
       "id": "intro_8",
       "foreign_key": "week_1_session_9",
+      "text": "**6 | MENSAHE NG PAGPAPAALALA**",
       "image_asset": "",
       "text_2": "",
-      "ignore": 8,
-      "text": "**6 | MENSAHE NG PAGPAPAALALA**",
-      "_translations": {
-        "text": {}
-      },
-      "_translatedFields": {
-        "text": {
-          "eng": "**6 | MENSAHE NG PAGPAPAALALA**"
-        }
-      }
+      "ignore": 8
     },
     {
       "id": "intro_9",
       "foreign_key": "week_1_reminder",
+      "text": "Pangatlong Araw: Pagpapaalala ng Suporta",
       "image_asset": "",
       "text_2": "",
-      "ignore": 9,
-      "text": "Pangatlong Araw: Pagpapaalala ng Suporta",
-      "_translations": {
-        "text": {}
-      },
-      "_translatedFields": {
-        "text": {
-          "eng": "Pangatlong Araw: Pagpapaalala ng Suporta"
-        }
-      }
+      "ignore": 9
     },
     {
       "id": "intro_10",
       "foreign_key": "week_1_reminder_2",
+      "text": "Isang Araw Bago ang Susunod na Online na Sesyon: Paalala para sa Susunod na Sesyon",
       "image_asset": "",
       "text_2": "",
-      "ignore": 10,
-      "text": "Isang Araw Bago ang Susunod na Online na Sesyon: Paalala para sa Susunod na Sesyon",
-      "_translations": {
-        "text": {}
-      },
-      "_translatedFields": {
-        "text": {
-          "eng": "Isang Araw Bago ang Susunod na Online na Sesyon: Paalala para sa Susunod na Sesyon"
-        }
-      }
+      "ignore": 10
     },
     {
       "id": "intro_11",
       "foreign_key": "week_2_session",
+      "text": "Welcome sa **Modyul 2: Pakikipag-usap Tungkol sa Damdamin!**\n\nAng pangunahing layunin ay matutunan at maisagawa ng mga magulang ang pag-usap tungkol sa kanilang sariling nararamdaman at nararamdaman ng kanilang anak.\n\nMatututo rin ang mga magulang ng:\n1️⃣ ang kahalagahan ng pagtanggap, pagtukoy, at pagkilala sa iba't ibang emosyon na nararamdaman ng kanilang anak\n2️⃣ mga paraan at kasanayan na makakatulong dito.",
       "image_asset": "",
       "text_2": "",
-      "ignore": 11,
-      "text": "Welcome sa **Modyul 2: Pakikipag-usap Tungkol sa Damdamin!**\n\nAng pangunahing layunin ay matutunan at maisagawa ng mga magulang ang pag-usap tungkol sa kanilang sariling nararamdaman at nararamdaman ng kanilang anak.\n\nMatututo rin ang mga magulang ng:\n1️⃣ ang kahalagahan ng pagtanggap, pagtukoy, at pagkilala sa iba't ibang emosyon na nararamdaman ng kanilang anak\n2️⃣ mga paraan at kasanayan na makakatulong dito.",
-      "_translations": {
-        "text": {}
-      },
-      "_translatedFields": {
-        "text": {
-          "eng": "Welcome sa **Modyul 2: Pakikipag-usap Tungkol sa Damdamin!**\n\nAng pangunahing layunin ay matutunan at maisagawa ng mga magulang ang pag-usap tungkol sa kanilang sariling nararamdaman at nararamdaman ng kanilang anak.\n\nMatututo rin ang mga magulang ng:\n1️⃣ ang kahalagahan ng pagtanggap, pagtukoy, at pagkilala sa iba't ibang emosyon na nararamdaman ng kanilang anak\n2️⃣ mga paraan at kasanayan na makakatulong dito."
-        }
-      }
+      "ignore": 11
     },
     {
       "id": "intro_12",
       "foreign_key": "week_2_session_4",
+      "text": "Unang Araw: Group Chat Session\n\n**Tinatantyang tatagal ng isang oras ang sesyon.**\n\nIto ay isang talakayan ng grupo na ikaw bilang facilitator ang nangunguna. Tandaan na mag-pause pagkatapos ng bawat hakbang upang bigyan ang mga magulang ng pagkakataon na magbigay ng tugon o makipag-usap sa mga miyembro ng grupo kung komportable sila na gawin ito.",
       "image_asset": "",
       "text_2": "",
-      "ignore": 12,
-      "text": "Unang Araw: Group Chat Session\n\n**Tinatantyang tatagal ng isang oras ang sesyon.**\n\nIto ay isang talakayan ng grupo na ikaw bilang facilitator ang nangunguna. Tandaan na mag-pause pagkatapos ng bawat hakbang upang bigyan ang mga magulang ng pagkakataon na magbigay ng tugon o makipag-usap sa mga miyembro ng grupo kung komportable sila na gawin ito.",
-      "_translations": {
-        "text": {}
-      },
-      "_translatedFields": {
-        "text": {
-          "eng": "Unang Araw: Group Chat Session\n\n**Tinatantyang tatagal ng isang oras ang sesyon.**\n\nIto ay isang talakayan ng grupo na ikaw bilang facilitator ang nangunguna. Tandaan na mag-pause pagkatapos ng bawat hakbang upang bigyan ang mga magulang ng pagkakataon na magbigay ng tugon o makipag-usap sa mga miyembro ng grupo kung komportable sila na gawin ito."
-        }
-      }
+      "ignore": 12
     },
     {
       "id": "intro_13",
       "foreign_key": "week_2_session_9",
+      "text": "Laktawan ang mensaheng ito kung may ibinahaging hamon ang mga magulang na dapat pag-usapan",
       "image_asset": "",
       "text_2": "",
-      "ignore": 13,
-      "text": "Laktawan ang mensaheng ito kung may ibinahaging hamon ang mga magulang na dapat pag-usapan",
-      "_translations": {
-        "text": {}
-      },
-      "_translatedFields": {
-        "text": {
-          "eng": "Laktawan ang mensaheng ito kung may ibinahaging hamon ang mga magulang na dapat pag-usapan"
-        }
-      }
+      "ignore": 13
     },
     {
       "id": "intro_14",
       "foreign_key": "week_2_reminder",
+      "text": "Pangatlong Araw: Pagpapaalala na Magpraktis",
       "image_asset": "",
       "text_2": "",
-      "ignore": 14,
-      "text": "Pangatlong Araw: Pagpapaalala na Magpraktis",
-      "_translations": {
-        "text": {}
-      },
-      "_translatedFields": {
-        "text": {
-          "eng": "Pangatlong Araw: Pagpapaalala na Magpraktis"
-        }
-      }
+      "ignore": 14
     },
     {
       "id": "intro_15",
       "foreign_key": "week_2_reminder_2",
+      "text": "Panglimang Araw: Feedback",
       "image_asset": "",
       "text_2": "",
-      "ignore": 15,
-      "text": "Panglimang Araw: Feedback",
-      "_translations": {
-        "text": {}
-      },
-      "_translatedFields": {
-        "text": {
-          "eng": "Panglimang Araw: Feedback"
-        }
-      }
+      "ignore": 15
     },
     {
       "id": "intro_16",
       "foreign_key": "demo",
+      "text": "**Welcome to Module 2: Talking about feelings!** \n\nThe main goal is to help parents talk about their own feelings and their child's feelings.",
       "image_asset": "cw_demo/talk_feelings_challenges.svg",
       "text_2": "**Before You Get Started**\n\n1️⃣ Review messages from your previous chat. Take note of parents who may need additional support.\n\n2️⃣ Review the feedback from the previous module. Select a success that can be linked to the foundations in the live chat.\n\n3️⃣ Choose a challenge that the group can work together to solve in the live chat.",
-      "ignore": 16,
-      "text": "**Welcome to Module 2: Talking about feelings!** \n\nThe main goal is to help parents talk about their own feelings and their child's feelings.",
-      "_translations": {
-        "text": {}
-      },
-      "_translatedFields": {
-        "text": {
-          "eng": "**Welcome to Module 2: Talking about feelings!** \n\nThe main goal is to help parents talk about their own feelings and their child's feelings."
-        }
-      }
+      "ignore": 16
     },
     {
       "id": "intro_17",
       "foreign_key": "demo_4",
+      "text": "**Day 1: Group Chat Session**\n\n⏲️: One hour \n⏸️: Pause  after  each  message shared  to  provide  parents  with opportunity  to  respond  or  talk  to  other group  members.",
       "image_asset": "",
       "text_2": "** Chat Session Outline** \n\nGreetings\nDiscussion about Home Activity \nSharing Success\nSharing Challenge\nDiscussing Challenges & Solutions\nIntroducing the Parenting Tip: Talking about Emotions\nComic for Kids: Talking about Emotions\nDiscussion on Comic\nComic for Teens (Sharing Our Own Emotions)\nDiscussion about Comics\nDiscussion on Comic: Age prompt\nReasons for Talking about Emotions with Your Children\nAssignment of Home Activity\nOffer for Questions\nVideo: Reminder of Parenting Tip\nAudio: Take a Pause\nThank you & Closing",
-      "ignore": 17,
-      "text": "**Day 1: Group Chat Session**\n\n⏲️: One hour \n⏸️: Pause  after  each  message shared  to  provide  parents  with opportunity  to  respond  or  talk  to  other group  members.",
-      "_translations": {
-        "text": {}
-      },
-      "_translatedFields": {
-        "text": {
-          "eng": "**Day 1: Group Chat Session**\n\n⏲️: One hour \n⏸️: Pause  after  each  message shared  to  provide  parents  with opportunity  to  respond  or  talk  to  other group  members."
-        }
-      }
+      "ignore": 17
     },
     {
       "id": "intro_18",
       "foreign_key": "demo_6",
-      "image_asset": "",
-      "text_2": "",
-      "ignore": 18,
       "text": "**Memory Refresh**\n\nIn the last module, you taught parents how to establish One-on-One time with their children with these building blocks: \n\n1️⃣ DAY- Try to do this every day.\nSet aside 5 minutes (or more!) each day for One-on-One Time with your child.\n\n2️⃣ PLAY - Let them choose what to do.\nTell your child that you have time for One-on-One Time with them, and they can choose what they want to do or what they want to talk about. They may be hesitant at first, but eventually they will look forward to spending time with you!\n\n3️⃣ STAY- Give your child your full attention.\nTurn off the TV and put away the cell phone. Look at your child. Nod or say “I see” to show that you are paying full attention. Show interest in his story and accept what he says without judgment.",
-      "_translations": {
-        "text": {}
-      },
-      "_translatedFields": {
-        "text": {
-          "eng": "**Memory Refresh**\n\nIn the last module, you taught parents how to establish One-on-One time with their children with these building blocks: \n\n1️⃣ DAY- Try to do this every day.\nSet aside 5 minutes (or more!) each day for One-on-One Time with your child.\n\n2️⃣ PLAY - Let them choose what to do.\nTell your child that you have time for One-on-One Time with them, and they can choose what they want to do or what they want to talk about. They may be hesitant at first, but eventually they will look forward to spending time with you!\n\n3️⃣ STAY- Give your child your full attention.\nTurn off the TV and put away the cell phone. Look at your child. Nod or say “I see” to show that you are paying full attention. Show interest in his story and accept what he says without judgment."
-        }
-      }
-    },
-    {
       "image_asset": "",
       "text_2": "",
-      "text": "",
-      "_translations": {
-        "text": {}
-      },
-      "_translatedFields": {
-        "text": {
-          "eng": ""
-        }
-      }
+      "ignore": 18
     },
     {
-      "image_asset": "",
-      "text_2": "",
       "text": "",
-      "_translations": {
-        "text": {}
-      },
-      "_translatedFields": {
-        "text": {
-          "eng": ""
-        }
-      }
+      "image_asset": "",
+      "text_2": ""
     },
     {
-      "image_asset": "",
-      "text_2": "",
       "text": "",
-      "_translations": {
-        "text": {}
-      },
-      "_translatedFields": {
-        "text": {
-          "eng": ""
-        }
-      }
+      "image_asset": "",
+      "text_2": ""
+    },
+    {
+      "text": "",
+      "image_asset": "",
+      "text_2": ""
     }
   ],
   "_xlsxPath": "data/modules_sub_items_ph.xlsx",
