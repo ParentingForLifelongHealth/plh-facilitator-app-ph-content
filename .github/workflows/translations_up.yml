@@ -83,10 +83,16 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: update idems_translation packages
+      - name: Ensure package.json exists
         working-directory: idems_translation
-        run: 
-          npm ci || true
+        run: |
+          [ -f package.json ] || npm init -y
+      
+      - name: Install dependencies using npm ci
+        working-directory: idems_translation
+        run: |
+          rm -rf node_modules
+          npm ci
 
       - name: List contents of current directory
         run: ls -l
