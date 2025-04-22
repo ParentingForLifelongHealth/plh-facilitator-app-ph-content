@@ -7,582 +7,234 @@
     {
       "id": "section_1",
       "foreign_key": "week_1_session",
-      "ignore": 1,
-      "ignore_2": "week_1_session_1",
       "title": "Bago ang sesyon, pag-usapan ang mga susunod kasama ang iyong co-facilitator:",
-      "_translations": {
-        "title": {},
-        "text": {}
-      },
-      "_translatedFields": {
-        "title": {
-          "eng": "Bago ang sesyon, pag-usapan ang mga susunod kasama ang iyong co-facilitator:"
-        },
-        "text": {
-          "eng": "1️⃣ Basahin ang modyul at siguraduhin klaro para sa inyo ang mga layunin sa inyong talakayan\n\n2️⃣ Magsulat ng mga notes na makakatulong sa inyo sa pagpapadaloy ng sesyon\n\n3️⃣ Maaaring makatulong na isulat ang iba't ibang paraan ng pagtatanong sa mga kalahok\n\n4️⃣ Maaari mo ring pagsanayan o i-praktis ang pagsasagawa o pagtalakay ng ilang bahagi ng sesyon kasama ang iyong co-facilitator!\n\n5️⃣ Magdesisyon kung sino sa inyo at sa co-facilitator ang mangunguna sa mga aktibidad at kung sino ang magbibigay ng suporta\n\n6️⃣ Suriin ang mga dokumento ng bawat participant upang makita ang kanilang progreso sa programa at upang tandaan kung sino ang nangangailangan ng karagdagang suporta\n\n7️⃣ Hatiin ang oras ayon sa pangangailangan ng grupo\n\n8️⃣ Dumating ng maaga upang ihanda ang espasyo na gagamitin"
-        }
-      },
-      "text": "1️⃣ Basahin ang modyul at siguraduhin klaro para sa inyo ang mga layunin sa inyong talakayan\n\n2️⃣ Magsulat ng mga notes na makakatulong sa inyo sa pagpapadaloy ng sesyon\n\n3️⃣ Maaaring makatulong na isulat ang iba't ibang paraan ng pagtatanong sa mga kalahok\n\n4️⃣ Maaari mo ring pagsanayan o i-praktis ang pagsasagawa o pagtalakay ng ilang bahagi ng sesyon kasama ang iyong co-facilitator!\n\n5️⃣ Magdesisyon kung sino sa inyo at sa co-facilitator ang mangunguna sa mga aktibidad at kung sino ang magbibigay ng suporta\n\n6️⃣ Suriin ang mga dokumento ng bawat participant upang makita ang kanilang progreso sa programa at upang tandaan kung sino ang nangangailangan ng karagdagang suporta\n\n7️⃣ Hatiin ang oras ayon sa pangangailangan ng grupo\n\n8️⃣ Dumating ng maaga upang ihanda ang espasyo na gagamitin"
+      "text": "1️⃣ Basahin ang modyul at siguraduhin klaro para sa inyo ang mga layunin sa inyong talakayan\n\n2️⃣ Magsulat ng mga notes na makakatulong sa inyo sa pagpapadaloy ng sesyon\n\n3️⃣ Maaaring makatulong na isulat ang iba't ibang paraan ng pagtatanong sa mga kalahok\n\n4️⃣ Maaari mo ring pagsanayan o i-praktis ang pagsasagawa o pagtalakay ng ilang bahagi ng sesyon kasama ang iyong co-facilitator!\n\n5️⃣ Magdesisyon kung sino sa inyo at sa co-facilitator ang mangunguna sa mga aktibidad at kung sino ang magbibigay ng suporta\n\n6️⃣ Suriin ang mga dokumento ng bawat participant upang makita ang kanilang progreso sa programa at upang tandaan kung sino ang nangangailangan ng karagdagang suporta\n\n7️⃣ Hatiin ang oras ayon sa pangangailangan ng grupo\n\n8️⃣ Dumating ng maaga upang ihanda ang espasyo na gagamitin",
+      "ignore": 1,
+      "ignore_2": "week_1_session_1"
     },
     {
       "id": "section_2",
       "foreign_key": "week_1_session_6",
-      "ignore": 2,
-      "ignore_2": "week_1_session_6",
       "title": "Pundasyon ng Modyul 1: One-on-One Time",
-      "_translations": {
-        "title": {},
-        "text": {}
-      },
-      "_translatedFields": {
-        "title": {
-          "eng": "Pundasyon ng Modyul 1: One-on-One Time"
-        },
-        "text": {
-          "eng": "1️⃣ **ARAW** - Gawin ito araw-araw. \n\n2️⃣ **LARO** - Hayaan ang iyong anak na pumili ng gagawin\n\n3️⃣ **ATENSYON** - Ibigay ang buong atensyon sa iyong anak."
-        }
-      },
-      "text": "1️⃣ **ARAW** - Gawin ito araw-araw. \n\n2️⃣ **LARO** - Hayaan ang iyong anak na pumili ng gagawin\n\n3️⃣ **ATENSYON** - Ibigay ang buong atensyon sa iyong anak."
+      "text": "1️⃣ **ARAW** - Gawin ito araw-araw. \n\n2️⃣ **LARO** - Hayaan ang iyong anak na pumili ng gagawin\n\n3️⃣ **ATENSYON** - Ibigay ang buong atensyon sa iyong anak.",
+      "ignore": 2,
+      "ignore_2": "week_1_session_6"
     },
     {
       "id": "section_3",
       "foreign_key": "week_1_session_7",
-      "ignore": 3,
-      "ignore_2": "week_1_session_7",
       "title": "Pundasyon ng Modyul 1: One-on-One Time",
-      "_translations": {
-        "title": {},
-        "text": {}
-      },
-      "_translatedFields": {
-        "title": {
-          "eng": "Pundasyon ng Modyul 1: One-on-One Time"
-        },
-        "text": {
-          "eng": "1️⃣ **ARAW** - Gawin ito araw-araw. \n\n2️⃣ **LARO** - Hayaan ang iyong anak na pumili ng gagawin\n\n3️⃣ **ATENSYON** - Ibigay ang buong atensyon sa iyong anak."
-        }
-      },
-      "text": "1️⃣ **ARAW** - Gawin ito araw-araw. \n\n2️⃣ **LARO** - Hayaan ang iyong anak na pumili ng gagawin\n\n3️⃣ **ATENSYON** - Ibigay ang buong atensyon sa iyong anak."
+      "text": "1️⃣ **ARAW** - Gawin ito araw-araw. \n\n2️⃣ **LARO** - Hayaan ang iyong anak na pumili ng gagawin\n\n3️⃣ **ATENSYON** - Ibigay ang buong atensyon sa iyong anak.",
+      "ignore": 3,
+      "ignore_2": "week_1_session_7"
     },
     {
       "id": "section_4",
       "foreign_key": "week_2_session",
-      "ignore": 4,
-      "ignore_2": "week_2_session_1",
       "title": "Paghahanda Para sa Modyul 2",
-      "_translations": {
-        "title": {},
-        "text": {}
-      },
-      "_translatedFields": {
-        "title": {
-          "eng": "Paghahanda Para sa Modyul 2"
-        },
-        "text": {
-          "eng": "Bago magsimula, siguraduhing nakahanda na ang lahat!\n\n1️⃣ I-review ang mga mensahe ng nakaraang modyul. Tandaan ang mga magulang na kailangan ng karagdagang suporta.\n\n2️⃣ I-review ang feedback ng nakaraang modyul. Pumili ng isang tagumpay na maaaring iugnay sa mga pundasyon sa live chat. Pumili ng isang hamon na pwedeng pagtulungan na masolusyonan ng grupo sa live chat.\n\n3️⃣ I-review ang mga pundasyon at mga mensahe para sa Modyul 2."
-        }
-      },
-      "text": "Bago magsimula, siguraduhing nakahanda na ang lahat!\n\n1️⃣ I-review ang mga mensahe ng nakaraang modyul. Tandaan ang mga magulang na kailangan ng karagdagang suporta.\n\n2️⃣ I-review ang feedback ng nakaraang modyul. Pumili ng isang tagumpay na maaaring iugnay sa mga pundasyon sa live chat. Pumili ng isang hamon na pwedeng pagtulungan na masolusyonan ng grupo sa live chat.\n\n3️⃣ I-review ang mga pundasyon at mga mensahe para sa Modyul 2."
+      "text": "Bago magsimula, siguraduhing nakahanda na ang lahat!\n\n1️⃣ I-review ang mga mensahe ng nakaraang modyul. Tandaan ang mga magulang na kailangan ng karagdagang suporta.\n\n2️⃣ I-review ang feedback ng nakaraang modyul. Pumili ng isang tagumpay na maaaring iugnay sa mga pundasyon sa live chat. Pumili ng isang hamon na pwedeng pagtulungan na masolusyonan ng grupo sa live chat.\n\n3️⃣ I-review ang mga pundasyon at mga mensahe para sa Modyul 2.",
+      "ignore": 4,
+      "ignore_2": "week_2_session_1"
     },
     {
       "id": "section_5",
       "foreign_key": "week_2_session_4",
-      "ignore": 5,
-      "ignore_2": "week_2_session_4",
       "title": "Balangkas ng Live Chat Sesyon",
-      "_translations": {
-        "title": {},
-        "text": {}
-      },
-      "_translatedFields": {
-        "title": {
-          "eng": "Balangkas ng Live Chat Sesyon"
-        },
-        "text": {
-          "eng": "Mensahe 1: Pagbati at Pangangamusta\n\nMensahe 2: Talakayan Tungkol sa Pabaong Gawain\n\nMensahe 3: Pagbabahagi ng Tagumpay\n\nMensahe 4: Pagbabahagi ng Hamon\n\nMensahe 5: Talakayan Tungkol sa Hamon at mga Solusyon\nMensahe 6: Pagpapakilala ng MaPa Skill: Pakikipag-usap Tungkol sa Damdamin\n\nMensahe 7: Komiks Tungkol sa Batang Anak\n\nMensahe 8: Talakayan Tungkol sa Komiks\n\nMensahe 9: Komiks Tungkol sa Anak na Tinedyer\n\nMensahe 10: Talakayan Tungkol sa Komiks\n\nMensahe 11: Talakayan Tungkol sa Komiks: Isipin ang Edad ng Anak\n\nMensahe 12: Talakayan Tungkol sa mga Rason sa Pakikipag-usap Tungkol sa Damdamin\n\nMensahe 13: Pagtakda ng Home Activity o Pabaong Gawain\n\nMensahe 14: Paglilinaw\n\nMensahe 15: Video: Pagpapaalala ng MaPa Skill\n\nMensahe 16: Audio: Tumigil nang Sandali at Pagtatapos\n\nMensahe 17 - Pagpapasalamat"
-        }
-      },
-      "text": "Mensahe 1: Pagbati at Pangangamusta\n\nMensahe 2: Talakayan Tungkol sa Pabaong Gawain\n\nMensahe 3: Pagbabahagi ng Tagumpay\n\nMensahe 4: Pagbabahagi ng Hamon\n\nMensahe 5: Talakayan Tungkol sa Hamon at mga Solusyon\nMensahe 6: Pagpapakilala ng MaPa Skill: Pakikipag-usap Tungkol sa Damdamin\n\nMensahe 7: Komiks Tungkol sa Batang Anak\n\nMensahe 8: Talakayan Tungkol sa Komiks\n\nMensahe 9: Komiks Tungkol sa Anak na Tinedyer\n\nMensahe 10: Talakayan Tungkol sa Komiks\n\nMensahe 11: Talakayan Tungkol sa Komiks: Isipin ang Edad ng Anak\n\nMensahe 12: Talakayan Tungkol sa mga Rason sa Pakikipag-usap Tungkol sa Damdamin\n\nMensahe 13: Pagtakda ng Home Activity o Pabaong Gawain\n\nMensahe 14: Paglilinaw\n\nMensahe 15: Video: Pagpapaalala ng MaPa Skill\n\nMensahe 16: Audio: Tumigil nang Sandali at Pagtatapos\n\nMensahe 17 - Pagpapasalamat"
+      "text": "Mensahe 1: Pagbati at Pangangamusta\n\nMensahe 2: Talakayan Tungkol sa Pabaong Gawain\n\nMensahe 3: Pagbabahagi ng Tagumpay\n\nMensahe 4: Pagbabahagi ng Hamon\n\nMensahe 5: Talakayan Tungkol sa Hamon at mga Solusyon\nMensahe 6: Pagpapakilala ng MaPa Skill: Pakikipag-usap Tungkol sa Damdamin\n\nMensahe 7: Komiks Tungkol sa Batang Anak\n\nMensahe 8: Talakayan Tungkol sa Komiks\n\nMensahe 9: Komiks Tungkol sa Anak na Tinedyer\n\nMensahe 10: Talakayan Tungkol sa Komiks\n\nMensahe 11: Talakayan Tungkol sa Komiks: Isipin ang Edad ng Anak\n\nMensahe 12: Talakayan Tungkol sa mga Rason sa Pakikipag-usap Tungkol sa Damdamin\n\nMensahe 13: Pagtakda ng Home Activity o Pabaong Gawain\n\nMensahe 14: Paglilinaw\n\nMensahe 15: Video: Pagpapaalala ng MaPa Skill\n\nMensahe 16: Audio: Tumigil nang Sandali at Pagtatapos\n\nMensahe 17 - Pagpapasalamat",
+      "ignore": 5,
+      "ignore_2": "week_2_session_4"
     },
     {
       "id": "section_6",
       "foreign_key": "week_2_session_6",
-      "ignore": 6,
-      "ignore_2": "week_2_session_6",
       "title": "Pundasyon ng Modyul 1: One-on-One Time",
-      "_translations": {
-        "title": {},
-        "text": {}
-      },
-      "_translatedFields": {
-        "title": {
-          "eng": "Pundasyon ng Modyul 1: One-on-One Time"
-        },
-        "text": {
-          "eng": "1️⃣ **ARAW** - Gawin ito araw-araw. \n\n2️⃣ **LARO** - Hayaan ang iyong anak na pumili ng gagawin\n\n3️⃣ **ATENSYON** - Ibigay ang buong atensyon sa iyong anak."
-        }
-      },
-      "text": "1️⃣ **ARAW** - Gawin ito araw-araw. \n\n2️⃣ **LARO** - Hayaan ang iyong anak na pumili ng gagawin\n\n3️⃣ **ATENSYON** - Ibigay ang buong atensyon sa iyong anak."
+      "text": "1️⃣ **ARAW** - Gawin ito araw-araw. \n\n2️⃣ **LARO** - Hayaan ang iyong anak na pumili ng gagawin\n\n3️⃣ **ATENSYON** - Ibigay ang buong atensyon sa iyong anak.",
+      "ignore": 6,
+      "ignore_2": "week_2_session_6"
     },
     {
       "id": "section_7",
       "foreign_key": "week_2_session_7",
-      "ignore": 7,
-      "ignore_2": "week_2_session_7",
       "title": "Pundasyon ng Modyul 1: One-on-One Time",
-      "_translations": {
-        "title": {},
-        "text": {}
-      },
-      "_translatedFields": {
-        "title": {
-          "eng": "Pundasyon ng Modyul 1: One-on-One Time"
-        },
-        "text": {
-          "eng": "1️⃣ **ARAW** - Gawin ito araw-araw. \n\n2️⃣ **LARO** - Hayaan ang iyong anak na pumili ng gagawin\n\n3️⃣ **ATENSYON** - Ibigay ang buong atensyon sa iyong anak."
-        }
-      },
-      "text": "1️⃣ **ARAW** - Gawin ito araw-araw. \n\n2️⃣ **LARO** - Hayaan ang iyong anak na pumili ng gagawin\n\n3️⃣ **ATENSYON** - Ibigay ang buong atensyon sa iyong anak."
+      "text": "1️⃣ **ARAW** - Gawin ito araw-araw. \n\n2️⃣ **LARO** - Hayaan ang iyong anak na pumili ng gagawin\n\n3️⃣ **ATENSYON** - Ibigay ang buong atensyon sa iyong anak.",
+      "ignore": 7,
+      "ignore_2": "week_2_session_7"
     },
     {
       "id": "section_8",
       "foreign_key": "week_2_session_8",
-      "ignore": 8,
-      "ignore_2": "week_2_session_8",
       "title": "Pundasyon ng Modyul 1: One-on-One Time",
-      "_translations": {
-        "title": {},
-        "text": {}
-      },
-      "_translatedFields": {
-        "title": {
-          "eng": "Pundasyon ng Modyul 1: One-on-One Time"
-        },
-        "text": {
-          "eng": "1️⃣ **ARAW** - Gawin ito araw-araw. \n\n2️⃣ **LARO** - Hayaan ang iyong anak na pumili ng gagawin\n\n3️⃣ **ATENSYON** - Ibigay ang buong atensyon sa iyong anak."
-        }
-      },
-      "text": "1️⃣ **ARAW** - Gawin ito araw-araw. \n\n2️⃣ **LARO** - Hayaan ang iyong anak na pumili ng gagawin\n\n3️⃣ **ATENSYON** - Ibigay ang buong atensyon sa iyong anak."
+      "text": "1️⃣ **ARAW** - Gawin ito araw-araw. \n\n2️⃣ **LARO** - Hayaan ang iyong anak na pumili ng gagawin\n\n3️⃣ **ATENSYON** - Ibigay ang buong atensyon sa iyong anak.",
+      "ignore": 8,
+      "ignore_2": "week_2_session_8"
     },
     {
       "id": "section_9",
       "foreign_key": "week_2_session_9",
-      "ignore": 9,
-      "ignore_2": "week_2_session_9",
       "title": "Pundasyon ng Modyul 1: One-on-One Time",
-      "_translations": {
-        "title": {},
-        "text": {}
-      },
-      "_translatedFields": {
-        "title": {
-          "eng": "Pundasyon ng Modyul 1: One-on-One Time"
-        },
-        "text": {
-          "eng": "1️⃣ **ARAW** - Gawin ito araw-araw. \n\n2️⃣ **LARO** - Hayaan ang iyong anak na pumili ng gagawin\n\n3️⃣ **ATENSYON** - Ibigay ang buong atensyon sa iyong anak."
-        }
-      },
-      "text": "1️⃣ **ARAW** - Gawin ito araw-araw. \n\n2️⃣ **LARO** - Hayaan ang iyong anak na pumili ng gagawin\n\n3️⃣ **ATENSYON** - Ibigay ang buong atensyon sa iyong anak."
+      "text": "1️⃣ **ARAW** - Gawin ito araw-araw. \n\n2️⃣ **LARO** - Hayaan ang iyong anak na pumili ng gagawin\n\n3️⃣ **ATENSYON** - Ibigay ang buong atensyon sa iyong anak.",
+      "ignore": 9,
+      "ignore_2": "week_2_session_9"
     },
     {
       "id": "section_10",
       "foreign_key": "week_2_session_10",
-      "ignore": 10,
-      "ignore_2": "week_2_session_10",
       "title": "Pundasyon ng Modyul 1: One-on-One Time",
-      "_translations": {
-        "title": {},
-        "text": {}
-      },
-      "_translatedFields": {
-        "title": {
-          "eng": "Pundasyon ng Modyul 1: One-on-One Time"
-        },
-        "text": {
-          "eng": "1️⃣ **ARAW** - Gawin ito araw-araw. \n\n2️⃣ **LARO** - Hayaan ang iyong anak na pumili ng gagawin\n\n3️⃣ **ATENSYON** - Ibigay ang buong atensyon sa iyong anak."
-        }
-      },
-      "text": "1️⃣ **ARAW** - Gawin ito araw-araw. \n\n2️⃣ **LARO** - Hayaan ang iyong anak na pumili ng gagawin\n\n3️⃣ **ATENSYON** - Ibigay ang buong atensyon sa iyong anak."
+      "text": "1️⃣ **ARAW** - Gawin ito araw-araw. \n\n2️⃣ **LARO** - Hayaan ang iyong anak na pumili ng gagawin\n\n3️⃣ **ATENSYON** - Ibigay ang buong atensyon sa iyong anak.",
+      "ignore": 10,
+      "ignore_2": "week_2_session_10"
     },
     {
       "id": "section_11",
       "foreign_key": "week_2_session_13",
-      "ignore": 11,
-      "ignore_2": "week_2_session_13",
       "title": "Pundasyon ng Modyul 2: Pakikipag-usap Tungkol sa Damdamin",
-      "_translations": {
-        "title": {},
-        "text": {}
-      },
-      "_translatedFields": {
-        "title": {
-          "eng": "Pundasyon ng Modyul 2: Pakikipag-usap Tungkol sa Damdamin"
-        },
-        "text": {
-          "eng": "1️⃣ **HUMINGA** - Huminga bago magsimula para mapakalma ang sarili.\n2️⃣ **IBAHAGI** - Ibahagi ang nararamdaman. \n3️⃣ **MAKINIG** - Makinig sa iyong anak na bata o tinedyer. \n4️⃣ **MALASAKIT** - Malasakit para sa kanila. \n5️⃣ **MAGHANAP** - Maghanap ng positibo."
-        }
-      },
-      "text": "1️⃣ **HUMINGA** - Huminga bago magsimula para mapakalma ang sarili.\n2️⃣ **IBAHAGI** - Ibahagi ang nararamdaman. \n3️⃣ **MAKINIG** - Makinig sa iyong anak na bata o tinedyer. \n4️⃣ **MALASAKIT** - Malasakit para sa kanila. \n5️⃣ **MAGHANAP** - Maghanap ng positibo."
+      "text": "1️⃣ **HUMINGA** - Huminga bago magsimula para mapakalma ang sarili.\n2️⃣ **IBAHAGI** - Ibahagi ang nararamdaman. \n3️⃣ **MAKINIG** - Makinig sa iyong anak na bata o tinedyer. \n4️⃣ **MALASAKIT** - Malasakit para sa kanila. \n5️⃣ **MAGHANAP** - Maghanap ng positibo.",
+      "ignore": 11,
+      "ignore_2": "week_2_session_13"
     },
     {
       "id": "section_12",
       "foreign_key": "week_2_session_18",
-      "ignore": 12,
-      "ignore_2": "week_2_session_18",
       "title": "Mga Posibleng Sagot ng mga Magulang",
-      "_translations": {
-        "title": {},
-        "text": {}
-      },
-      "_translatedFields": {
-        "title": {
-          "eng": "Mga Posibleng Sagot ng mga Magulang"
-        },
-        "text": {
-          "eng": "Pinansin ni Lola ang nararamdaman ni Jun-Jun sa pagsabi ng “Nakikita ko na malungkot ka”.\nGumamit ng salita upang ilarawan ang emosyon.\nInulit ang sinabi ni Jun-Jun, “Hindi ito madali”.\nDinamayan ang anak.\nBinahagi ang sariling damdamin tungkol sa sitwasyon sa pagsabi ng “Masaya akong nakasama kita ngayon, Jun-Jun”.\nNaghanap ng solusyon."
-        }
-      },
-      "text": "Pinansin ni Lola ang nararamdaman ni Jun-Jun sa pagsabi ng “Nakikita ko na malungkot ka”.\nGumamit ng salita upang ilarawan ang emosyon.\nInulit ang sinabi ni Jun-Jun, “Hindi ito madali”.\nDinamayan ang anak.\nBinahagi ang sariling damdamin tungkol sa sitwasyon sa pagsabi ng “Masaya akong nakasama kita ngayon, Jun-Jun”.\nNaghanap ng solusyon."
+      "text": "Pinansin ni Lola ang nararamdaman ni Jun-Jun sa pagsabi ng “Nakikita ko na malungkot ka”.\nGumamit ng salita upang ilarawan ang emosyon.\nInulit ang sinabi ni Jun-Jun, “Hindi ito madali”.\nDinamayan ang anak.\nBinahagi ang sariling damdamin tungkol sa sitwasyon sa pagsabi ng “Masaya akong nakasama kita ngayon, Jun-Jun”.\nNaghanap ng solusyon.",
+      "ignore": 12,
+      "ignore_2": "week_2_session_18"
     },
     {
       "id": "section_13",
       "foreign_key": "week_2_session_24",
-      "ignore": 13,
-      "ignore_2": "week_2_session_24",
       "title": "Mga Posibleng Sagot ng Magulang",
-      "_translations": {
-        "title": {},
-        "text": {}
-      },
-      "_translatedFields": {
-        "title": {
-          "eng": "Mga Posibleng Sagot ng Magulang"
-        },
-        "text": {
-          "eng": "Nananatiling kalmado ang magulang.\nTinatanggap ng magulang ang emosyon (takot) – kahit na negatibo ito.\nPinapaliwanag ng magulang ang kanyang nararamdaman.\nPinapansin ng magulang na ang kanyang anak ay balisa at pinapanatag niya ito sa pagsasabi ng, “Normal makaramdam nito.”\nNagpakita ang magulang ng pagdamay at suporta gamit ang salita upang malaman ng tinedyer na nandoon siya para sa kanila.\nPinapansin ng magulang kung ano ang nararamdaman ng kanyang tinedyer\nMagkasamang naghanap ng solusyon ang magulang at ang tinedyer – na hindi nangangahulugang may kasagutan sa lahat!"
-        }
-      },
-      "text": "Nananatiling kalmado ang magulang.\nTinatanggap ng magulang ang emosyon (takot) – kahit na negatibo ito.\nPinapaliwanag ng magulang ang kanyang nararamdaman.\nPinapansin ng magulang na ang kanyang anak ay balisa at pinapanatag niya ito sa pagsasabi ng, “Normal makaramdam nito.”\nNagpakita ang magulang ng pagdamay at suporta gamit ang salita upang malaman ng tinedyer na nandoon siya para sa kanila.\nPinapansin ng magulang kung ano ang nararamdaman ng kanyang tinedyer\nMagkasamang naghanap ng solusyon ang magulang at ang tinedyer – na hindi nangangahulugang may kasagutan sa lahat!"
+      "text": "Nananatiling kalmado ang magulang.\nTinatanggap ng magulang ang emosyon (takot) – kahit na negatibo ito.\nPinapaliwanag ng magulang ang kanyang nararamdaman.\nPinapansin ng magulang na ang kanyang anak ay balisa at pinapanatag niya ito sa pagsasabi ng, “Normal makaramdam nito.”\nNagpakita ang magulang ng pagdamay at suporta gamit ang salita upang malaman ng tinedyer na nandoon siya para sa kanila.\nPinapansin ng magulang kung ano ang nararamdaman ng kanyang tinedyer\nMagkasamang naghanap ng solusyon ang magulang at ang tinedyer – na hindi nangangahulugang may kasagutan sa lahat!",
+      "ignore": 13,
+      "ignore_2": "week_2_session_24"
     },
     {
       "id": "section_14",
       "foreign_key": "week_2_session_26",
-      "ignore": 14,
-      "ignore_2": "week_2_session_26",
       "title": "Mga posibleng sagot ng mga magulang:",
-      "_translations": {
-        "title": {},
-        "text": {}
-      },
-      "_translatedFields": {
-        "title": {
-          "eng": "Mga posibleng sagot ng mga magulang:"
-        },
-        "text": {
-          "eng": "Tinuturuan ang anak magbahagi ng kanilang damdamin.\nTinutulungan ang anak pag-ugnayin ang emosyon sa kilos at body language.\nNatututunan ng anak na lahat ng emosyon ay katanggap-tanggap.\nMakikita at matututunan ng mga magulang ang damdamin ng kanilang anak.\nTinuturuan ang anak kilalanin ang emosyon ng ibang tao.\nBinibigyan ang anak ng pagkakataon baguhin ang kanilang kilos."
-        }
-      },
-      "text": "Tinuturuan ang anak magbahagi ng kanilang damdamin.\nTinutulungan ang anak pag-ugnayin ang emosyon sa kilos at body language.\nNatututunan ng anak na lahat ng emosyon ay katanggap-tanggap.\nMakikita at matututunan ng mga magulang ang damdamin ng kanilang anak.\nTinuturuan ang anak kilalanin ang emosyon ng ibang tao.\nBinibigyan ang anak ng pagkakataon baguhin ang kanilang kilos."
+      "text": "Tinuturuan ang anak magbahagi ng kanilang damdamin.\nTinutulungan ang anak pag-ugnayin ang emosyon sa kilos at body language.\nNatututunan ng anak na lahat ng emosyon ay katanggap-tanggap.\nMakikita at matututunan ng mga magulang ang damdamin ng kanilang anak.\nTinuturuan ang anak kilalanin ang emosyon ng ibang tao.\nBinibigyan ang anak ng pagkakataon baguhin ang kanilang kilos.",
+      "ignore": 14,
+      "ignore_2": "week_2_session_26"
     },
     {
       "id": "section_15",
       "foreign_key": "week_2_session_28",
-      "ignore": 15,
-      "ignore_2": "week_2_session_28",
       "title": "Pundasyon ng Modyul 2: Pakikipag-Usap Tungkol sa Damdamin",
-      "_translations": {
-        "title": {},
-        "text": {}
-      },
-      "_translatedFields": {
-        "title": {
-          "eng": "Pundasyon ng Modyul 2: Pakikipag-Usap Tungkol sa Damdamin"
-        },
-        "text": {
-          "eng": "1️⃣ **HUMINGA** - Huminga bago magsimula para mapakalma ang sarili.\n2️⃣ **IBAHAGI** - Ibahagi ang nararamdaman. \n3️⃣ **MAKINIG** - Makinig sa iyong anak na bata o tinedyer. \n4️⃣ **MALASAKIT** - Malasakit para sa kanila. \n5️⃣ **MAGHANAP** - Maghanap ng positibo."
-        }
-      },
-      "text": "1️⃣ **HUMINGA** - Huminga bago magsimula para mapakalma ang sarili.\n2️⃣ **IBAHAGI** - Ibahagi ang nararamdaman. \n3️⃣ **MAKINIG** - Makinig sa iyong anak na bata o tinedyer. \n4️⃣ **MALASAKIT** - Malasakit para sa kanila. \n5️⃣ **MAGHANAP** - Maghanap ng positibo."
+      "text": "1️⃣ **HUMINGA** - Huminga bago magsimula para mapakalma ang sarili.\n2️⃣ **IBAHAGI** - Ibahagi ang nararamdaman. \n3️⃣ **MAKINIG** - Makinig sa iyong anak na bata o tinedyer. \n4️⃣ **MALASAKIT** - Malasakit para sa kanila. \n5️⃣ **MAGHANAP** - Maghanap ng positibo.",
+      "ignore": 15,
+      "ignore_2": "week_2_session_28"
     },
     {
       "id": "section_16",
       "foreign_key": "demo_11",
-      "ignore": 16,
-      "ignore_2": "demo_11",
       "title": "Building blocks of talking about feelings",
-      "_translations": {
-        "title": {},
-        "text": {}
-      },
-      "_translatedFields": {
-        "title": {
-          "eng": "Building blocks of talking about feelings"
-        },
-        "text": {
-          "eng": "1️⃣ BREATHE to calm yourself before you start.\n2️⃣ SHARE how you feel.\n3️⃣ LISTEN to your child or teen.\n4️⃣ SHOW them you care.\n5️⃣ SEEK the positive."
-        }
-      },
-      "text": "1️⃣ BREATHE to calm yourself before you start.\n2️⃣ SHARE how you feel.\n3️⃣ LISTEN to your child or teen.\n4️⃣ SHOW them you care.\n5️⃣ SEEK the positive."
+      "text": "1️⃣ BREATHE to calm yourself before you start.\n2️⃣ SHARE how you feel.\n3️⃣ LISTEN to your child or teen.\n4️⃣ SHOW them you care.\n5️⃣ SEEK the positive.",
+      "ignore": 16,
+      "ignore_2": "demo_11"
     },
     {
       "id": "section_17",
       "foreign_key": "demo_12",
-      "ignore": 17,
-      "ignore_2": "demo_12",
       "title": "Building blocks of talking about feelings",
-      "_translations": {
-        "title": {},
-        "text": {}
-      },
-      "_translatedFields": {
-        "title": {
-          "eng": "Building blocks of talking about feelings"
-        },
-        "text": {
-          "eng": "1️⃣ BREATHE to calm yourself before you start.\n2️⃣ SHARE how you feel.\n3️⃣ LISTEN to your child or teen.\n4️⃣ SHOW them you care.\n5️⃣ SEEK the positive."
-        }
-      },
-      "text": "1️⃣ BREATHE to calm yourself before you start.\n2️⃣ SHARE how you feel.\n3️⃣ LISTEN to your child or teen.\n4️⃣ SHOW them you care.\n5️⃣ SEEK the positive."
+      "text": "1️⃣ BREATHE to calm yourself before you start.\n2️⃣ SHARE how you feel.\n3️⃣ LISTEN to your child or teen.\n4️⃣ SHOW them you care.\n5️⃣ SEEK the positive.",
+      "ignore": 17,
+      "ignore_2": "demo_12"
     },
     {
       "id": "section_18",
       "foreign_key": "demo_13",
-      "ignore": 18,
-      "ignore_2": "demo_13",
       "title": "Possible answers from parents",
-      "_translations": {
-        "title": {},
-        "text": {}
-      },
-      "_translatedFields": {
-        "title": {
-          "eng": "Possible answers from parents"
-        },
-        "text": {
-          "eng": "Parent notices how child is feeling by saying “I can see that you are upset”.\n\nUsing words to describe the emotion.\n\nParent reflects back what the child has said when she said, “It’s not easy to throw a ball.”\n\nResponds in a compassionate way.\n\nParent shares their own feelings about the situation when the mother said, “I am very happy”.\n\nExplores a solution."
-        }
-      },
-      "text": "Parent notices how child is feeling by saying “I can see that you are upset”.\n\nUsing words to describe the emotion.\n\nParent reflects back what the child has said when she said, “It’s not easy to throw a ball.”\n\nResponds in a compassionate way.\n\nParent shares their own feelings about the situation when the mother said, “I am very happy”.\n\nExplores a solution."
+      "text": "Parent notices how child is feeling by saying “I can see that you are upset”.\n\nUsing words to describe the emotion.\n\nParent reflects back what the child has said when she said, “It’s not easy to throw a ball.”\n\nResponds in a compassionate way.\n\nParent shares their own feelings about the situation when the mother said, “I am very happy”.\n\nExplores a solution.",
+      "ignore": 18,
+      "ignore_2": "demo_13"
     },
     {
       "id": "section_19",
       "foreign_key": "demo_16",
-      "ignore": 19,
-      "ignore_2": "demo_16",
       "title": "Possible answers from parents",
-      "_translations": {
-        "title": {},
-        "text": {}
-      },
-      "_translatedFields": {
-        "title": {
-          "eng": "Possible answers from parents"
-        },
-        "text": {
-          "eng": "Parent remains calm.\n\nParent accepts that the feeling is okay – even if it is a negative one (to feel scared).\n\nParent explains how he is feeling: “I had a difficult day”\n\nParent notices that his child is also feeling upset and reassures him by saying “it’s okay”\n\nParent uses compassionate verbal support and puts his arm around his teen, so the teen knows they are there for them.\n\nParent notices how their teen feels.\n\nParent and teen explore solutions together – which doesn’t mean having all the answers!"
-        }
-      },
-      "text": "Parent remains calm.\n\nParent accepts that the feeling is okay – even if it is a negative one (to feel scared).\n\nParent explains how he is feeling: “I had a difficult day”\n\nParent notices that his child is also feeling upset and reassures him by saying “it’s okay”\n\nParent uses compassionate verbal support and puts his arm around his teen, so the teen knows they are there for them.\n\nParent notices how their teen feels.\n\nParent and teen explore solutions together – which doesn’t mean having all the answers!"
+      "text": "Parent remains calm.\n\nParent accepts that the feeling is okay – even if it is a negative one (to feel scared).\n\nParent explains how he is feeling: “I had a difficult day”\n\nParent notices that his child is also feeling upset and reassures him by saying “it’s okay”\n\nParent uses compassionate verbal support and puts his arm around his teen, so the teen knows they are there for them.\n\nParent notices how their teen feels.\n\nParent and teen explore solutions together – which doesn’t mean having all the answers!",
+      "ignore": 19,
+      "ignore_2": "demo_16"
     },
     {
       "id": "section_20",
       "foreign_key": "demo_18",
-      "ignore": 20,
-      "ignore_2": "demo_18",
       "title": "Possible answers from parents",
-      "_translations": {
-        "title": {},
-        "text": {}
-      },
-      "_translatedFields": {
-        "title": {
-          "eng": "Possible answers from parents"
-        },
-        "text": {
-          "eng": "It helps children learn to communicate about their feelings.\n\nIt helps children connect feelings to actions and body language.\n\nChildren learn that all feelings are okay.\n\nParents/caregivers can see and learn about their child’s feelings.\n\nIt helps children recognize other people’s feelings.\n\nIt gives them choices about how to behave."
-        }
-      },
-      "text": "It helps children learn to communicate about their feelings.\n\nIt helps children connect feelings to actions and body language.\n\nChildren learn that all feelings are okay.\n\nParents/caregivers can see and learn about their child’s feelings.\n\nIt helps children recognize other people’s feelings.\n\nIt gives them choices about how to behave."
+      "text": "It helps children learn to communicate about their feelings.\n\nIt helps children connect feelings to actions and body language.\n\nChildren learn that all feelings are okay.\n\nParents/caregivers can see and learn about their child’s feelings.\n\nIt helps children recognize other people’s feelings.\n\nIt gives them choices about how to behave.",
+      "ignore": 20,
+      "ignore_2": "demo_18"
     },
     {
       "id": "section_21",
       "foreign_key": "demo_20",
-      "ignore": 21,
-      "ignore_2": "demo_20",
       "title": "Building blocks of talking about feelings",
-      "_translations": {
-        "title": {},
-        "text": {}
-      },
-      "_translatedFields": {
-        "title": {
-          "eng": "Building blocks of talking about feelings"
-        },
-        "text": {
-          "eng": "1️⃣ BREATHE to calm yourself before you start.\n2️⃣ SHARE how you feel.\n3️⃣ LISTEN to your child or teen.\n4️⃣ SHOW them you care.\n5️⃣ SEEK the positive."
-        }
-      },
-      "text": "1️⃣ BREATHE to calm yourself before you start.\n2️⃣ SHARE how you feel.\n3️⃣ LISTEN to your child or teen.\n4️⃣ SHOW them you care.\n5️⃣ SEEK the positive."
+      "text": "1️⃣ BREATHE to calm yourself before you start.\n2️⃣ SHARE how you feel.\n3️⃣ LISTEN to your child or teen.\n4️⃣ SHOW them you care.\n5️⃣ SEEK the positive.",
+      "ignore": 21,
+      "ignore_2": "demo_20"
     },
     {
       "id": "section_22",
       "foreign_key": "week_1_session",
-      "ignore": 22,
-      "ignore_2": "week_1_session_1",
       "title": "Mga Importanteng Paalala Para sa Unang Sesyon:",
-      "_translations": {
-        "title": {},
-        "text": {}
-      },
-      "_translatedFields": {
-        "title": {
-          "eng": "Mga Importanteng Paalala Para sa Unang Sesyon:"
-        },
-        "text": {
-          "eng": "1️⃣ Sa unang sesyon, importante na magkaroon ng ligtas at malugod na lugar para sa lahat.\n\n2️⃣ Pag-usapan kasama ang buong grupo ng mga magulang ang mga patakaran sa simula ng programa. Kailangang sumasang-ayon ang lahat.\n\n3️⃣ Maaaring nahihiya pa ang mga magulang dahil ito ang unang sesyon, bigyan sila ng papuri at pasasalamat para sa kanilang pagbabahagi sa unang araw.\n\n4️⃣ Siguraduhing paalalahan ang mga magulang na walang perpektong tahanan. Lahat ay problema at mga hamon - regular na purihin ang mga magulang sa pagsali sa programa.\n\n5️⃣Paalalahanan ang mga magulang na kung ano man ang pag-uusapan o ibabahagi sa grupo, mananatili ito sa grupo! Importante na sa simula pa lamang ay klaro na kung ano ang mga maaaring ibahagi sa labas ng grupo at kung ano ang hindi."
-        }
-      },
-      "text": "1️⃣ Sa unang sesyon, importante na magkaroon ng ligtas at malugod na lugar para sa lahat.\n\n2️⃣ Pag-usapan kasama ang buong grupo ng mga magulang ang mga patakaran sa simula ng programa. Kailangang sumasang-ayon ang lahat.\n\n3️⃣ Maaaring nahihiya pa ang mga magulang dahil ito ang unang sesyon, bigyan sila ng papuri at pasasalamat para sa kanilang pagbabahagi sa unang araw.\n\n4️⃣ Siguraduhing paalalahan ang mga magulang na walang perpektong tahanan. Lahat ay problema at mga hamon - regular na purihin ang mga magulang sa pagsali sa programa.\n\n5️⃣Paalalahanan ang mga magulang na kung ano man ang pag-uusapan o ibabahagi sa grupo, mananatili ito sa grupo! Importante na sa simula pa lamang ay klaro na kung ano ang mga maaaring ibahagi sa labas ng grupo at kung ano ang hindi."
+      "text": "1️⃣ Sa unang sesyon, importante na magkaroon ng ligtas at malugod na lugar para sa lahat.\n\n2️⃣ Pag-usapan kasama ang buong grupo ng mga magulang ang mga patakaran sa simula ng programa. Kailangang sumasang-ayon ang lahat.\n\n3️⃣ Maaaring nahihiya pa ang mga magulang dahil ito ang unang sesyon, bigyan sila ng papuri at pasasalamat para sa kanilang pagbabahagi sa unang araw.\n\n4️⃣ Siguraduhing paalalahan ang mga magulang na walang perpektong tahanan. Lahat ay problema at mga hamon - regular na purihin ang mga magulang sa pagsali sa programa.\n\n5️⃣Paalalahanan ang mga magulang na kung ano man ang pag-uusapan o ibabahagi sa grupo, mananatili ito sa grupo! Importante na sa simula pa lamang ay klaro na kung ano ang mga maaaring ibahagi sa labas ng grupo at kung ano ang hindi.",
+      "ignore": 22,
+      "ignore_2": "week_1_session_1"
     },
     {
       "id": "section_23",
       "foreign_key": "week_2_session",
-      "ignore": 23,
-      "ignore_2": "week_2_session_1",
       "title": "Pundasyon ng Modyul 2: Pakikipag-usap Tungkol sa Damdamin",
-      "_translations": {
-        "title": {},
-        "text": {}
-      },
-      "_translatedFields": {
-        "title": {
-          "eng": "Pundasyon ng Modyul 2: Pakikipag-usap Tungkol sa Damdamin"
-        },
-        "text": {
-          "eng": "1️⃣ **HUMINGA** - Huminga bago magsimula para mapakalma ang sarili.\n2️⃣ **IBAHAGI** - Ibahagi ang nararamdaman. \n3️⃣ **MAKINIG** - Makinig sa iyong anak na bata o tinedyer. \n4️⃣ **MALASAKIT** - Malasakit para sa kanila. \n5️⃣ **MAGHANAP** - Maghanap ng positibo."
-        }
-      },
-      "text": "1️⃣ **HUMINGA** - Huminga bago magsimula para mapakalma ang sarili.\n2️⃣ **IBAHAGI** - Ibahagi ang nararamdaman. \n3️⃣ **MAKINIG** - Makinig sa iyong anak na bata o tinedyer. \n4️⃣ **MALASAKIT** - Malasakit para sa kanila. \n5️⃣ **MAGHANAP** - Maghanap ng positibo."
+      "text": "1️⃣ **HUMINGA** - Huminga bago magsimula para mapakalma ang sarili.\n2️⃣ **IBAHAGI** - Ibahagi ang nararamdaman. \n3️⃣ **MAKINIG** - Makinig sa iyong anak na bata o tinedyer. \n4️⃣ **MALASAKIT** - Malasakit para sa kanila. \n5️⃣ **MAGHANAP** - Maghanap ng positibo.",
+      "ignore": 23,
+      "ignore_2": "week_2_session_1"
     },
     {
       "id": "section_24",
       "foreign_key": "week_2_session_18",
-      "ignore": 24,
-      "ignore_2": "week_2_session_18",
       "title": "Pundasyon ng Modyul 2: Pakikipag-Usap Tungkol sa Damdamin",
-      "_translations": {
-        "title": {},
-        "text": {}
-      },
-      "_translatedFields": {
-        "title": {
-          "eng": "Pundasyon ng Modyul 2: Pakikipag-Usap Tungkol sa Damdamin"
-        },
-        "text": {
-          "eng": "1️⃣ **HUMINGA** - Huminga bago magsimula para mapakalma ang sarili.\n2️⃣ **IBAHAGI** - Ibahagi ang nararamdaman. \n3️⃣ **MAKINIG** - Makinig sa iyong anak na bata o tinedyer. \n4️⃣ **MALASAKIT** - Malasakit para sa kanila. \n5️⃣ **MAGHANAP** - Maghanap ng positibo."
-        }
-      },
-      "text": "1️⃣ **HUMINGA** - Huminga bago magsimula para mapakalma ang sarili.\n2️⃣ **IBAHAGI** - Ibahagi ang nararamdaman. \n3️⃣ **MAKINIG** - Makinig sa iyong anak na bata o tinedyer. \n4️⃣ **MALASAKIT** - Malasakit para sa kanila. \n5️⃣ **MAGHANAP** - Maghanap ng positibo."
+      "text": "1️⃣ **HUMINGA** - Huminga bago magsimula para mapakalma ang sarili.\n2️⃣ **IBAHAGI** - Ibahagi ang nararamdaman. \n3️⃣ **MAKINIG** - Makinig sa iyong anak na bata o tinedyer. \n4️⃣ **MALASAKIT** - Malasakit para sa kanila. \n5️⃣ **MAGHANAP** - Maghanap ng positibo.",
+      "ignore": 24,
+      "ignore_2": "week_2_session_18"
     },
     {
       "id": "section_25",
       "foreign_key": "week_2_session_24",
-      "ignore": 25,
-      "ignore_2": "week_2_session_24",
       "title": "Pundasyon ng Modyul 2: Pakikipag-Usap Tungkol sa Damdamin",
-      "_translations": {
-        "title": {},
-        "text": {}
-      },
-      "_translatedFields": {
-        "title": {
-          "eng": "Pundasyon ng Modyul 2: Pakikipag-Usap Tungkol sa Damdamin"
-        },
-        "text": {
-          "eng": "1️⃣ **HUMINGA** - Huminga bago magsimula para mapakalma ang sarili.\n2️⃣ **IBAHAGI** - Ibahagi ang nararamdaman. \n3️⃣ **MAKINIG** - Makinig sa iyong anak na bata o tinedyer. \n4️⃣ **MALASAKIT** - Malasakit para sa kanila. \n5️⃣ **MAGHANAP** - Maghanap ng positibo."
-        }
-      },
-      "text": "1️⃣ **HUMINGA** - Huminga bago magsimula para mapakalma ang sarili.\n2️⃣ **IBAHAGI** - Ibahagi ang nararamdaman. \n3️⃣ **MAKINIG** - Makinig sa iyong anak na bata o tinedyer. \n4️⃣ **MALASAKIT** - Malasakit para sa kanila. \n5️⃣ **MAGHANAP** - Maghanap ng positibo."
+      "text": "1️⃣ **HUMINGA** - Huminga bago magsimula para mapakalma ang sarili.\n2️⃣ **IBAHAGI** - Ibahagi ang nararamdaman. \n3️⃣ **MAKINIG** - Makinig sa iyong anak na bata o tinedyer. \n4️⃣ **MALASAKIT** - Malasakit para sa kanila. \n5️⃣ **MAGHANAP** - Maghanap ng positibo.",
+      "ignore": 25,
+      "ignore_2": "week_2_session_24"
     },
     {
       "id": "section_26",
       "foreign_key": "demo_13",
-      "ignore": 26,
-      "ignore_2": "demo_13",
       "title": "Building blocks of talking about feelings",
-      "_translations": {
-        "title": {},
-        "text": {}
-      },
-      "_translatedFields": {
-        "title": {
-          "eng": "Building blocks of talking about feelings"
-        },
-        "text": {
-          "eng": "1️⃣ BREATHE to calm yourself before you start.\n2️⃣ SHARE how you feel.\n3️⃣ LISTEN to your child or teen.\n4️⃣ SHOW them you care.\n5️⃣ SEEK the positive."
-        }
-      },
-      "text": "1️⃣ BREATHE to calm yourself before you start.\n2️⃣ SHARE how you feel.\n3️⃣ LISTEN to your child or teen.\n4️⃣ SHOW them you care.\n5️⃣ SEEK the positive."
+      "text": "1️⃣ BREATHE to calm yourself before you start.\n2️⃣ SHARE how you feel.\n3️⃣ LISTEN to your child or teen.\n4️⃣ SHOW them you care.\n5️⃣ SEEK the positive.",
+      "ignore": 26,
+      "ignore_2": "demo_13"
     },
     {
       "id": "section_27",
       "foreign_key": "demo_16",
-      "ignore": 27,
-      "ignore_2": "demo_16",
       "title": "Building blocks of talking about feelings",
-      "_translations": {
-        "title": {},
-        "text": {}
-      },
-      "_translatedFields": {
-        "title": {
-          "eng": "Building blocks of talking about feelings"
-        },
-        "text": {
-          "eng": "1️⃣ BREATHE to calm yourself before you start.\n2️⃣ SHARE how you feel.\n3️⃣ LISTEN to your child or teen.\n4️⃣ SHOW them you care.\n5️⃣ SEEK the positive."
-        }
-      },
-      "text": "1️⃣ BREATHE to calm yourself before you start.\n2️⃣ SHARE how you feel.\n3️⃣ LISTEN to your child or teen.\n4️⃣ SHOW them you care.\n5️⃣ SEEK the positive."
+      "text": "1️⃣ BREATHE to calm yourself before you start.\n2️⃣ SHARE how you feel.\n3️⃣ LISTEN to your child or teen.\n4️⃣ SHOW them you care.\n5️⃣ SEEK the positive.",
+      "ignore": 27,
+      "ignore_2": "demo_16"
     },
     {
       "id": "section_28",
       "foreign_key": "week_1_session",
-      "ignore": 28,
-      "ignore_2": "week_1_session_1",
       "title": "Mga materials para sa 15 participants:\n✅ Pencils\n✅ Crayons\n✅ Bond papers\n✅ Ballpen\n✅ Name tags\n✅ Snacks\n\nIba pang materials para sa buong grupo:\n✅ Comic posters and handouts\n✅ Manila paper\n✅ Permanent markers\n✅ Projector\n✅ Video camera (kung irerecord ang sesyon)",
-      "_translations": {
-        "title": {},
-        "text": {}
-      },
-      "_translatedFields": {
-        "title": {
-          "eng": "Mga materials para sa 15 participants:\n✅ Pencils\n✅ Crayons\n✅ Bond papers\n✅ Ballpen\n✅ Name tags\n✅ Snacks\n\nIba pang materials para sa buong grupo:\n✅ Comic posters and handouts\n✅ Manila paper\n✅ Permanent markers\n✅ Projector\n✅ Video camera (kung irerecord ang sesyon)"
-        },
-        "text": {
-          "eng": "Pundasyon ng Modyul 1: One-on-One Time"
-        }
-      },
-      "text": "Pundasyon ng Modyul 1: One-on-One Time"
+      "text": "Pundasyon ng Modyul 1: One-on-One Time",
+      "ignore": 28,
+      "ignore_2": "week_1_session_1"
     },
     {
       "id": "section_29",
       "foreign_key": "week_1_session",
-      "ignore": 29,
-      "ignore_2": "week_1_session_1",
       "title": "https://docs.google.com/document/d/1gI1UoEoaZleoB4alcgyiZ9mIn7eai5QrvEPKopYr63U",
-      "_translations": {
-        "title": {},
-        "text": {}
-      },
-      "_translatedFields": {
-        "title": {
-          "eng": "https://docs.google.com/document/d/1gI1UoEoaZleoB4alcgyiZ9mIn7eai5QrvEPKopYr63U"
-        },
-        "text": {
-          "eng": ""
-        }
-      },
-      "text": ""
+      "text": "",
+      "ignore": 29,
+      "ignore_2": "week_1_session_1"
     }
   ],
   "_xlsxPath": "data/modules_sub_items_ph.xlsx",

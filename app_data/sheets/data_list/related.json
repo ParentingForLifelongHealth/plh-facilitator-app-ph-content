@@ -7,18 +7,10 @@
     {
       "id": "test",
       "foreign_key": "test",
+      "title": "test",
       "related_article_id": "test",
       "ignore": "test",
-      "ignore_2": "test",
-      "title": "test",
-      "_translations": {
-        "title": {}
-      },
-      "_translatedFields": {
-        "title": {
-          "eng": "test"
-        }
-      }
+      "ignore_2": "test"
     }
   ],
   "_xlsxPath": "data/modules_sub_items_ph.xlsx"

@@ -6,133 +6,53 @@
   "rows": [
     {
       "id": "onboard_guide",
-      "pdf_asset": "pdf/manual.pdf",
       "title": "Onboarding Guide",
-      "_translations": {
-        "title": {}
-      },
-      "_translatedFields": {
-        "title": {
-          "eng": "Onboarding Guide"
-        }
-      }
+      "pdf_asset": "pdf/manual.pdf"
     },
     {
       "id": "onboard_guide_study",
-      "pdf_asset": "pdf/manual_study.pdf",
       "title": "Onboarding Guide",
-      "_translations": {
-        "title": {}
-      },
-      "_translatedFields": {
-        "title": {
-          "eng": "Onboarding Guide"
-        }
-      }
+      "pdf_asset": "pdf/manual_study.pdf"
     },
     {
       "id": "more_info",
-      "pdf_asset": "pdf/programme_details.pdf",
       "title": "Programme Details",
-      "_translations": {
-        "title": {}
-      },
-      "_translatedFields": {
-        "title": {
-          "eng": "Programme Details"
-        }
-      }
+      "pdf_asset": "pdf/programme_details.pdf"
     },
     {
       "id": "overview_study",
-      "pdf_asset": "pdf/overview_guide_study.pdf",
       "title": "Overview Guide",
-      "_translations": {
-        "title": {}
-      },
-      "_translatedFields": {
-        "title": {
-          "eng": "Overview Guide"
-        }
-      }
+      "pdf_asset": "pdf/overview_guide_study.pdf"
     },
     {
       "id": "peas",
-      "pdf_asset": "pdf/peas.pdf",
       "title": "Reporting Abuse from Programme Partners",
-      "_translations": {
-        "title": {}
-      },
-      "_translatedFields": {
-        "title": {
-          "eng": "Reporting Abuse from Programme Partners"
-        }
-      }
+      "pdf_asset": "pdf/peas.pdf"
     },
     {
       "id": "module_1_prepare",
-      "pdf_asset": "pdf/module_1_prepare.pdf",
       "title": "Review the building blocks",
-      "_translations": {
-        "title": {}
-      },
-      "_translatedFields": {
-        "title": {
-          "eng": "Review the building blocks"
-        }
-      }
+      "pdf_asset": "pdf/module_1_prepare.pdf"
     },
     {
       "id": "module_1_deliver",
-      "pdf_asset": "pdf/module_1_deliver.pdf",
       "title": "Module 1 Facilitator Guide",
-      "_translations": {
-        "title": {}
-      },
-      "_translatedFields": {
-        "title": {
-          "eng": "Module 1 Facilitator Guide"
-        }
-      }
+      "pdf_asset": "pdf/module_1_deliver.pdf"
     },
     {
       "id": "module_2_prepare",
-      "pdf_asset": "pdf/module_2_guide.pdf",
       "title": "Review the building blocks",
-      "_translations": {
-        "title": {}
-      },
-      "_translatedFields": {
-        "title": {
-          "eng": "Review the building blocks"
-        }
-      }
+      "pdf_asset": "pdf/module_2_guide.pdf"
     },
     {
       "id": "module_1_troubleshooting",
-      "pdf_asset": "pdf/module_1_troubleshooting.pdf",
       "title": "One-on-one time: Common Challenges & Solutions",
-      "_translations": {
-        "title": {}
-      },
-      "_translatedFields": {
-        "title": {
-          "eng": "One-on-one time: Common Challenges & Solutions"
-        }
-      }
+      "pdf_asset": "pdf/module_1_troubleshooting.pdf"
     },
     {
       "id": "module_1_building_block",
-      "pdf_asset": "pdf/module_1_building_block.pdf",
       "title": "Review the building blocks",
-      "_translations": {
-        "title": {}
-      },
-      "_translatedFields": {
-        "title": {
-          "eng": "Review the building blocks"
-        }
-      }
+      "pdf_asset": "pdf/module_1_building_block.pdf"
     }
   ],
   "_xlsxPath": "data/FacilitatorApp PH articles.xlsx"

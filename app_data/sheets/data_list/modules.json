@@ -6,444 +6,172 @@
   "rows": [
     {
       "id": "demo",
+      "title": "Curaçao Demo",
       "image_asset": "images/icons/task_1.png",
       "report_id": "week_1",
-      "status": "released",
-      "title": "Curaçao Demo",
-      "_translations": {
-        "title": {}
-      },
-      "_translatedFields": {
-        "title": {
-          "eng": "Curaçao Demo"
-        }
-      }
+      "status": "released"
     },
     {
       "id": "week_1_session",
+      "title": "Module 1 Session: One-on-one time",
+      "description": "week_1",
       "image_asset": "images/icons/task_1.png",
       "report_id": "week_1",
-      "status": "released",
-      "title": "Module 1 Session: One-on-one time",
-      "_translations": {
-        "title": {},
-        "description": {}
-      },
-      "_translatedFields": {
-        "title": {
-          "eng": "Module 1 Session: One-on-one time"
-        },
-        "description": {
-          "eng": "week_1"
-        }
-      },
-      "description": "week_1"
+      "status": "released"
     },
     {
       "id": "week_1_1_reminder",
-      "status": "released",
-      "image_asset": "images/icons/reminder.png",
       "title": "Day 3: Module 1 Reminder",
-      "_translations": {
-        "title": {},
-        "description": {}
-      },
-      "_translatedFields": {
-        "title": {
-          "eng": "Day 3: Module 1 Reminder"
-        },
-        "description": {
-          "eng": "week_1"
-        }
-      },
-      "description": "week_1"
+      "description": "week_1",
+      "status": "released",
+      "image_asset": "images/icons/reminder.png"
     },
     {
       "id": "week_1_2_reminder",
-      "status": "released",
-      "image_asset": "images/icons/reminder.png",
       "title": "Day 5: Module 1 Reminder",
-      "_translations": {
-        "title": {},
-        "description": {}
-      },
-      "_translatedFields": {
-        "title": {
-          "eng": "Day 5: Module 1 Reminder"
-        },
-        "description": {
-          "eng": "week_1"
-        }
-      },
-      "description": "week_1"
+      "description": "week_1",
+      "status": "released",
+      "image_asset": "images/icons/reminder.png"
     },
     {
       "id": "week_2_session",
+      "title": "Module 2 Session: Talking about Feelings",
+      "description": "week_2",
       "image_asset": "images/icons/task_2.png",
       "report_id": "week_2",
-      "status": "released",
-      "title": "Module 2 Session: Talking about Feelings",
-      "_translations": {
-        "title": {},
-        "description": {}
-      },
-      "_translatedFields": {
-        "title": {
-          "eng": "Module 2 Session: Talking about Feelings"
-        },
-        "description": {
-          "eng": "week_2"
-        }
-      },
-      "description": "week_2"
+      "status": "released"
     },
     {
       "id": "week_2_1_reminder",
-      "status": "released",
-      "image_asset": "images/icons/reminder.png",
       "title": "Day 3: Module 2 Reminder",
-      "_translations": {
-        "title": {},
-        "description": {}
-      },
-      "_translatedFields": {
-        "title": {
-          "eng": "Day 3: Module 2 Reminder"
-        },
-        "description": {
-          "eng": "week_2"
-        }
-      },
-      "description": "week_2"
+      "description": "week_2",
+      "status": "released",
+      "image_asset": "images/icons/reminder.png"
     },
     {
       "id": "week_2_2_reminder",
-      "status": "released",
-      "image_asset": "images/icons/reminder.png",
       "title": "Day 5: Module 2 Reminder",
-      "_translations": {
-        "title": {},
-        "description": {}
-      },
-      "_translatedFields": {
-        "title": {
-          "eng": "Day 5: Module 2 Reminder"
-        },
-        "description": {
-          "eng": "week_2"
-        }
-      },
-      "description": "week_2"
+      "description": "week_2",
+      "status": "released",
+      "image_asset": "images/icons/reminder.png"
     },
     {
       "id": "week_3_session",
+      "title": "Module 3 Session",
+      "description": "week_3",
       "image_asset": "images/icons/task_3.png",
       "report_id": "week_3",
-      "status": "released",
-      "title": "Module 3 Session",
-      "_translations": {
-        "title": {},
-        "description": {}
-      },
-      "_translatedFields": {
-        "title": {
-          "eng": "Module 3 Session"
-        },
-        "description": {
-          "eng": "week_3"
-        }
-      },
-      "description": "week_3"
+      "status": "released"
     },
     {
       "id": "week_3_1_reminder",
-      "status": "released",
-      "image_asset": "images/icons/reminder.png",
       "title": "Day 3: Module 3 Reminder",
-      "_translations": {
-        "title": {},
-        "description": {}
-      },
-      "_translatedFields": {
-        "title": {
-          "eng": "Day 3: Module 3 Reminder"
-        },
-        "description": {
-          "eng": "week_3"
-        }
-      },
-      "description": "week_3"
+      "description": "week_3",
+      "status": "released",
+      "image_asset": "images/icons/reminder.png"
     },
     {
       "id": "week_3_2_reminder",
-      "status": "released",
-      "image_asset": "images/icons/reminder.png",
       "title": "Day 5: Module 3 Reminder",
-      "_translations": {
-        "title": {},
-        "description": {}
-      },
-      "_translatedFields": {
-        "title": {
-          "eng": "Day 5: Module 3 Reminder"
-        },
-        "description": {
-          "eng": "week_3"
-        }
-      },
-      "description": "week_3"
+      "description": "week_3",
+      "status": "released",
+      "image_asset": "images/icons/reminder.png"
     },
     {
       "id": "week_4_session",
+      "title": "Module 4 Session",
+      "description": "week_4",
       "image_asset": "images/icons/task_4.png",
       "report_id": "week_4",
-      "status": "released",
-      "title": "Module 4 Session",
-      "_translations": {
-        "title": {},
-        "description": {}
-      },
-      "_translatedFields": {
-        "title": {
-          "eng": "Module 4 Session"
-        },
-        "description": {
-          "eng": "week_4"
-        }
-      },
-      "description": "week_4"
+      "status": "released"
     },
     {
       "id": "week_4_1_reminder",
-      "status": "released",
-      "image_asset": "images/icons/reminder.png",
       "title": "Day 3: Module 4 Reminder",
-      "_translations": {
-        "title": {},
-        "description": {}
-      },
-      "_translatedFields": {
-        "title": {
-          "eng": "Day 3: Module 4 Reminder"
-        },
-        "description": {
-          "eng": "week_4"
-        }
-      },
-      "description": "week_4"
+      "description": "week_4",
+      "status": "released",
+      "image_asset": "images/icons/reminder.png"
     },
     {
       "id": "week_4_2_reminder",
-      "status": "released",
-      "image_asset": "images/icons/reminder.png",
       "title": "Day 5: Module 4 Reminder",
-      "_translations": {
-        "title": {},
-        "description": {}
-      },
-      "_translatedFields": {
-        "title": {
-          "eng": "Day 5: Module 4 Reminder"
-        },
-        "description": {
-          "eng": "week_4"
-        }
-      },
-      "description": "week_4"
+      "description": "week_4",
+      "status": "released",
+      "image_asset": "images/icons/reminder.png"
     },
     {
       "id": "week_5_session",
+      "title": "Module 5 Session",
+      "description": "week_5",
       "image_asset": "images/icons/task_5.png",
       "report_id": "week_5",
-      "status": "released",
-      "title": "Module 5 Session",
-      "_translations": {
-        "title": {},
-        "description": {}
-      },
-      "_translatedFields": {
-        "title": {
-          "eng": "Module 5 Session"
-        },
-        "description": {
-          "eng": "week_5"
-        }
-      },
-      "description": "week_5"
+      "status": "released"
     },
     {
       "id": "week_5_1_reminder",
-      "status": "released",
-      "image_asset": "images/icons/reminder.png",
       "title": "Day 3: Module 5 Reminder",
-      "_translations": {
-        "title": {},
-        "description": {}
-      },
-      "_translatedFields": {
-        "title": {
-          "eng": "Day 3: Module 5 Reminder"
-        },
-        "description": {
-          "eng": "week_5"
-        }
-      },
-      "description": "week_5"
+      "description": "week_5",
+      "status": "released",
+      "image_asset": "images/icons/reminder.png"
     },
     {
       "id": "week_5_2_reminder",
-      "status": "released",
-      "image_asset": "images/icons/reminder.png",
       "title": "Day 5: Module 5 Reminder",
-      "_translations": {
-        "title": {},
-        "description": {}
-      },
-      "_translatedFields": {
-        "title": {
-          "eng": "Day 5: Module 5 Reminder"
-        },
-        "description": {
-          "eng": "week_5"
-        }
-      },
-      "description": "week_5"
+      "description": "week_5",
+      "status": "released",
+      "image_asset": "images/icons/reminder.png"
     },
     {
       "id": "week_6_session",
+      "title": "Module 6 Session",
+      "description": "week_6",
       "image_asset": "images/icons/task_6.png",
       "report_id": "week_6",
-      "status": "released",
-      "title": "Module 6 Session",
-      "_translations": {
-        "title": {},
-        "description": {}
-      },
-      "_translatedFields": {
-        "title": {
-          "eng": "Module 6 Session"
-        },
-        "description": {
-          "eng": "week_6"
-        }
-      },
-      "description": "week_6"
+      "status": "released"
     },
     {
       "id": "week_6_1_reminder",
-      "status": "released",
-      "image_asset": "images/icons/reminder.png",
       "title": "Day 3: Module 6 Reminder",
-      "_translations": {
-        "title": {},
-        "description": {}
-      },
-      "_translatedFields": {
-        "title": {
-          "eng": "Day 3: Module 6 Reminder"
-        },
-        "description": {
-          "eng": "week_6"
-        }
-      },
-      "description": "week_6"
+      "description": "week_6",
+      "status": "released",
+      "image_asset": "images/icons/reminder.png"
     },
     {
       "id": "week_6_2_reminder",
-      "status": "released",
-      "image_asset": "images/icons/reminder.png",
       "title": "Day 5: Module 6 Reminder",
-      "_translations": {
-        "title": {},
-        "description": {}
-      },
-      "_translatedFields": {
-        "title": {
-          "eng": "Day 5: Module 6 Reminder"
-        },
-        "description": {
-          "eng": "week_6"
-        }
-      },
-      "description": "week_6"
+      "description": "week_6",
+      "status": "released",
+      "image_asset": "images/icons/reminder.png"
     },
     {
       "id": "week_7_session",
+      "title": "Module 7 Session",
+      "description": "week_7",
       "image_asset": "images/icons/task_7.png",
       "report_id": "week_7",
-      "status": "released",
-      "title": "Module 7 Session",
-      "_translations": {
-        "title": {},
-        "description": {}
-      },
-      "_translatedFields": {
-        "title": {
-          "eng": "Module 7 Session"
-        },
-        "description": {
-          "eng": "week_7"
-        }
-      },
-      "description": "week_7"
+      "status": "released"
     },
     {
       "id": "week_7_1_reminder",
-      "status": "released",
-      "image_asset": "images/icons/reminder.png",
       "title": "Day 3: Module 7 Reminder",
-      "_translations": {
-        "title": {},
-        "description": {}
-      },
-      "_translatedFields": {
-        "title": {
-          "eng": "Day 3: Module 7 Reminder"
-        },
-        "description": {
-          "eng": "week_7"
-        }
-      },
-      "description": "week_7"
+      "description": "week_7",
+      "status": "released",
+      "image_asset": "images/icons/reminder.png"
     },
     {
       "id": "week_7_2_reminder",
-      "status": "released",
-      "image_asset": "images/icons/reminder.png",
       "title": "Day 5: Module 7 Reminder",
-      "_translations": {
-        "title": {},
-        "description": {}
-      },
-      "_translatedFields": {
-        "title": {
-          "eng": "Day 5: Module 7 Reminder"
-        },
-        "description": {
-          "eng": "week_7"
-        }
-      },
-      "description": "week_7"
+      "description": "week_7",
+      "status": "released",
+      "image_asset": "images/icons/reminder.png"
     },
     {
       "id": "week_8_session",
+      "title": "Module 8 Session",
+      "description": "week_8",
       "image_asset": "images/icons/task_8.png",
       "report_id": "week_8",
-      "status": "released",
-      "title": "Module 8 Session",
-      "_translations": {
-        "title": {},
-        "description": {}
-      },
-      "_translatedFields": {
-        "title": {
-          "eng": "Module 8 Session"
-        },
-        "description": {
-          "eng": "week_8"
-        }
-      },
-      "description": "week_8"
+      "status": "released"
     }
   ],
   "_xlsxPath": "data/modules_sub_items_ph.xlsx"
