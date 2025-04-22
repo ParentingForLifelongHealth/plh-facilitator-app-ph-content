@@ -139,4 +139,3 @@ jobs:
           title: ${{ inputs.pr-title }}
           # The body of the pull request.
           body: ${{ inputs.pr-body }}
-          labels: test - preview
