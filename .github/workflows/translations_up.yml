@@ -82,17 +82,10 @@ jobs:
         uses: actions/setup-python@v5.0.0        
         with:
           python-version: '3.12'
-
-      - name: Ensure package.json exists
-        working-directory: idems_translation
-        run: |
-          [ -f package.json ] || npm init -y
       
       - name: Install dependencies using npm ci
-        working-directory: idems_translation
-        run: |
-          rm -rf node_modules
-          npm ci
+        working-directory: idems_translation/common_tools
+        run: npm ci
 
       - name: List contents of current directory
         run: ls -l
