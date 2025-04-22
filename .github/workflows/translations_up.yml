@@ -93,28 +93,28 @@ jobs:
       - name: Check out app code
         uses: actions/checkout@v3
         with:
-          repository: "IDEMSInternational/parenting-app-ui.git"
+          repository: "IDEMSInternational/open-app-builder.git"
           ref: ${{env.APP_CODE_BRANCH}}
-          path: "parenting-app-ui"
+          path: "open-app-builder"
       
 
       - name: Checkout parent repo if needed
         if: env.PARENT_DEPLOYMENT_REPO != ''
         uses: actions/checkout@v3
         with:
-          path: "parenting-app-ui/.idems_app/deployments/${{env.PARENT_DEPLOYMENT_NAME}}"
+          path: "open-app-builder/.idems_app/deployments/${{env.PARENT_DEPLOYMENT_NAME}}"
           repository: ${{env.PARENT_DEPLOYMENT_REPO}}
           ref: ${{env.PARENT_DEPLOYMENT_BRANCH}}
 
       - name: Checkout deployment
         uses: actions/checkout@v3
         with:          
-          path: "parenting-app-ui/.idems_app/deployments/${{env.DEPLOYMENT_NAME}}"
+          path: "open-app-builder/.idems_app/deployments/${{env.DEPLOYMENT_NAME}}"
 
         
       - name: Run script to create translation files
         working-directory: idems_translation
-        run: python app/scripts/prepare_for_translation.py ../parenting-app-ui/.idems_app/deployments/${{env.DEPLOYMENT_NAME}}/translator_settings.json
+        run: python app/scripts/prepare_for_translation.py ../open-app-builder/.idems_app/deployments/${{env.DEPLOYMENT_NAME}}/translator_settings.json
 
       
       
