@@ -116,7 +116,9 @@ jobs:
         working-directory: idems_translation
         run: python app/scripts/prepare_for_translation.py ../open-app-builder/.idems_app/deployments/${{env.DEPLOYMENT_NAME}}/translator_settings.json
 
-      
+      - name: Move files
+        run: |
+          mv idems_translation/app/3_ready_for_translators/* plh-digital-content/translations/ 
       
       - name: Commit changes
         working-directory: plh-digital-content
