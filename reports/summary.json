@@ -31,7 +31,7 @@
       },
       {
         "type": "data_items",
-        "count": 43
+        "count": 44
       },
       {
         "type": "debug_toggle",
@@ -43,7 +43,7 @@
       },
       {
         "type": "display_group",
-        "count": 136
+        "count": 134
       },
       {
         "type": "drawer",
@@ -59,7 +59,7 @@
       },
       {
         "type": "items",
-        "count": 26
+        "count": 25
       },
       {
         "type": "lottie_animation",
@@ -91,7 +91,7 @@
       },
       {
         "type": "set_variable",
-        "count": 832
+        "count": 836
       },
       {
         "type": "simple_checkbox",
@@ -151,7 +151,7 @@
     "data": [
       {
         "type": "add_data",
-        "count": 6
+        "count": 8
       },
       {
         "type": "app_update",
@@ -159,6 +159,10 @@
       },
       {
         "type": "auth",
+        "count": 2
+      },
+      {
+        "type": "copy",
         "count": 2
       },
       {
@@ -227,7 +231,7 @@
       },
       {
         "type": "set_local",
-        "count": 79
+        "count": 83
       },
       {
         "type": "share",

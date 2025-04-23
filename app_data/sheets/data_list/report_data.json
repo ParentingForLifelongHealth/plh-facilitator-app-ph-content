@@ -16,6 +16,58 @@
           "eng": "Onboarding"
         }
       }
+    },
+    {
+      "id": "week_1",
+      "type": "in_person",
+      "name": "Week 1: Thoughts, Feelings, and Actions",
+      "_translations": {
+        "name": {}
+      },
+      "_translatedFields": {
+        "name": {
+          "eng": "Week 1: Thoughts, Feelings, and Actions"
+        }
+      }
+    },
+    {
+      "id": "week_2",
+      "type": "in_person",
+      "name": "Week 2: Self-Talk",
+      "_translations": {
+        "name": {}
+      },
+      "_translatedFields": {
+        "name": {
+          "eng": "Week 2: Self-Talk"
+        }
+      }
+    },
+    {
+      "id": "week_3",
+      "type": "in_person",
+      "name": "Week 3: Character Strengths",
+      "_translations": {
+        "name": {}
+      },
+      "_translatedFields": {
+        "name": {
+          "eng": "Week 3: Character Strengths"
+        }
+      }
+    },
+    {
+      "id": "week_4",
+      "type": "in_person",
+      "name": "Week 4: Building Pleasant Emotions",
+      "_translations": {
+        "name": {}
+      },
+      "_translatedFields": {
+        "name": {
+          "eng": "Week 4: Building Pleasant Emotions"
+        }
+      }
     }
   ],
   "_xlsxPath": "data/FacilitatorApp PH articles.xlsx"

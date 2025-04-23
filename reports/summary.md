@@ -10,14 +10,14 @@
 | button | 86 |
 | carousel | 2 |
 | combo_box | 16 |
-| data_items | 43 |
+| data_items | 44 |
 | debug_toggle | 1 |
 | display_grid | 2 |
-| display_group | 136 |
+| display_group | 134 |
 | drawer | 1 |
 | google_sign_in_button | 4 |
 | image | 15 |
-| items | 26 |
+| items | 25 |
 | lottie_animation | 3 |
 | navigation_bar | 2 |
 | pdf | 1 |
@@ -25,7 +25,7 @@
 | radio_button_grid | 16 |
 | round_button | 39 |
 | select_text | 1 |
-| set_variable | 832 |
+| set_variable | 836 |
 | simple_checkbox | 2 |
 | task_card | 3 |
 | task_progress_bar | 3 |
@@ -46,9 +46,10 @@
 
 | type | count |
 | --- | --- |
-| add_data | 6 |
+| add_data | 8 |
 | app_update | 1 |
 | auth | 2 |
+| copy | 2 |
 | emit: completed | 48 |
 | emit: force_reload | 5 |
 | emit: force_reprocess | 18 |
@@ -65,7 +66,7 @@
 | set_data | 21 |
 | set_field | 66 |
 | set_item | 6 |
-| set_local | 79 |
+| set_local | 83 |
 | share | 4 |
 | user | 4 |
 </details>
