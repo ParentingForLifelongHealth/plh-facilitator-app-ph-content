@@ -13,10 +13,10 @@
 | data_items | 44 |
 | debug_toggle | 1 |
 | display_grid | 2 |
-| display_group | 134 |
+| display_group | 135 |
 | drawer | 1 |
 | google_sign_in_button | 4 |
-| image | 15 |
+| image | 16 |
 | items | 25 |
 | lottie_animation | 3 |
 | navigation_bar | 2 |
@@ -25,7 +25,7 @@
 | radio_button_grid | 16 |
 | round_button | 39 |
 | select_text | 1 |
-| set_variable | 836 |
+| set_variable | 835 |
 | simple_checkbox | 2 |
 | task_card | 3 |
 | task_progress_bar | 3 |
@@ -76,8 +76,8 @@
 
 | assets | KB | MB |
 | --- | --- | --- |
-| total | 65806 KB | 65.8 MB |
-| unused | 46194 KB | 46.2 MB |
+| total | 65807 KB | 65.8 MB |
+| unused | 46185 KB | 46.2 MB |
 </details>
 
 <details open>
@@ -201,7 +201,7 @@ Assets that appear in app-data but do not have references within sheets
 | images/icons/settings.svg | 2.4 |
 | images/icons/task_0.png | 2 |
 | images/logos/MaPa_logo.png | 157.3 |
-| images/message.png | 10.4 |
+| images/message.png | 1.3 |
 | images/person_cog.png | 0.8 |
 | pdf/01_mod1_intro.pdf | 650.7 |
 | pdf/01_mod1_layunin.pdf | 513.8 |
@@ -314,6 +314,7 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | images/icons/help.svg | 2.6 | 1 |
 | images/icons/home_white.svg | 1.7 | 1 |
 | images/icons/house_white.svg | 0.4 | 1 |
+| images/icons/incomplete.svg | 0.7 | 1 |
 | images/icons/key.svg | 5.5 | 2 |
 | images/icons/library_white.svg | 2.8 | 1 |
 | images/icons/magnify_glass.svg | 3 | 1 |
