@@ -11,6 +11,7 @@
 | carousel | 2 |
 | combo_box | 16 |
 | data_items | 44 |
+| date_time_picker | 4 |
 | debug_toggle | 1 |
 | display_grid | 2 |
 | display_group | 135 |
@@ -33,7 +34,7 @@
 | test | 1 |
 | text | 261 |
 | text_area | 2 |
-| text_box | 46 |
+| text_box | 42 |
 | title | 45 |
 | toggle_bar | 5 |
 | update_action_list | 3 |
@@ -77,7 +78,7 @@
 | assets | KB | MB |
 | --- | --- | --- |
 | total | 65807 KB | 65.8 MB |
-| unused | 46185 KB | 46.2 MB |
+| unused | 46194 KB | 46.2 MB |
 </details>
 
 <details open>
@@ -201,7 +202,7 @@ Assets that appear in app-data but do not have references within sheets
 | images/icons/settings.svg | 2.4 |
 | images/icons/task_0.png | 2 |
 | images/logos/MaPa_logo.png | 157.3 |
-| images/message.png | 1.3 |
+| images/message.png | 10.4 |
 | images/person_cog.png | 0.8 |
 | pdf/01_mod1_intro.pdf | 650.7 |
 | pdf/01_mod1_layunin.pdf | 513.8 |
