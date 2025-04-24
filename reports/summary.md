@@ -26,10 +26,10 @@
 | radio_button_grid | 16 |
 | round_button | 39 |
 | select_text | 1 |
-| set_variable | 835 |
+| set_variable | 834 |
 | simple_checkbox | 2 |
 | task_card | 3 |
-| task_progress_bar | 3 |
+| task_progress_bar | 4 |
 | template | 189 |
 | test | 1 |
 | text | 261 |
@@ -78,7 +78,7 @@
 | assets | KB | MB |
 | --- | --- | --- |
 | total | 65807 KB | 65.8 MB |
-| unused | 46194 KB | 46.2 MB |
+| unused | 49472 KB | 49.5 MB |
 </details>
 
 <details open>
@@ -103,6 +103,7 @@ Assets that appear in app-data but do not have references within sheets
 | images/Message.svg | 0.7 |
 | images/backgrounds/library_bottom_left.svg | 2.3 |
 | images/backgrounds/library_top_right.svg | 0.3 |
+| images/backgrounds/onboarding_grandma_boy.png | 3287.2 |
 | images/backgrounds/report_edit.png | 1.7 |
 | images/backgrounds/report_edit.svg | 0.2 |
 | images/comics/02_comics1_panel1.png | 1324.6 |
@@ -202,7 +203,7 @@ Assets that appear in app-data but do not have references within sheets
 | images/icons/settings.svg | 2.4 |
 | images/icons/task_0.png | 2 |
 | images/logos/MaPa_logo.png | 157.3 |
-| images/message.png | 10.4 |
+| images/message.png | 1.3 |
 | images/person_cog.png | 0.8 |
 | pdf/01_mod1_intro.pdf | 650.7 |
 | pdf/01_mod1_layunin.pdf | 513.8 |
