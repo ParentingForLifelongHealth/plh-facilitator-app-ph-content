@@ -78,7 +78,7 @@
 | assets | KB | MB |
 | --- | --- | --- |
 | total | 65807 KB | 65.8 MB |
-| unused | 49472 KB | 49.5 MB |
+| unused | 49481 KB | 49.5 MB |
 </details>
 
 <details open>
@@ -203,7 +203,7 @@ Assets that appear in app-data but do not have references within sheets
 | images/icons/settings.svg | 2.4 |
 | images/icons/task_0.png | 2 |
 | images/logos/MaPa_logo.png | 157.3 |
-| images/message.png | 1.3 |
+| images/message.png | 10.4 |
 | images/person_cog.png | 0.8 |
 | pdf/01_mod1_intro.pdf | 650.7 |
 | pdf/01_mod1_layunin.pdf | 513.8 |

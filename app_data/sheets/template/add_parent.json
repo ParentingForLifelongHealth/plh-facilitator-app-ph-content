@@ -3323,11 +3323,11 @@
               "trigger": "click",
               "action_id": "set_local",
               "args": [
-                "date",
+                "consoltation",
                 ""
               ],
-              "_raw": "click | set_local: date:",
-              "_cleaned": "click | set_local: date:"
+              "_raw": "click | set_local: consoltation:",
+              "_cleaned": "click | set_local: consoltation:"
             },
             {
               "trigger": "click",
