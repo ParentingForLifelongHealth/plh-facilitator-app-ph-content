@@ -10,11 +10,11 @@
 | button | 86 |
 | carousel | 2 |
 | combo_box | 16 |
-| data_items | 44 |
+| data_items | 46 |
 | date_time_picker | 4 |
 | debug_toggle | 1 |
 | display_grid | 2 |
-| display_group | 135 |
+| display_group | 139 |
 | drawer | 1 |
 | google_sign_in_button | 4 |
 | image | 16 |
@@ -26,15 +26,15 @@
 | radio_button_grid | 16 |
 | round_button | 39 |
 | select_text | 1 |
-| set_variable | 834 |
+| set_variable | 840 |
 | simple_checkbox | 2 |
 | task_card | 3 |
 | task_progress_bar | 4 |
 | template | 189 |
 | test | 1 |
-| text | 261 |
+| text | 264 |
 | text_area | 2 |
-| text_box | 42 |
+| text_box | 44 |
 | title | 45 |
 | toggle_bar | 5 |
 | update_action_list | 3 |
@@ -66,8 +66,8 @@
 | save_to_device | 4 |
 | set_data | 21 |
 | set_field | 66 |
-| set_item | 6 |
-| set_local | 83 |
+| set_item | 8 |
+| set_local | 85 |
 | share | 4 |
 | user | 4 |
 </details>
