@@ -375,10 +375,52 @@
       "_nested_name": "set_variable_19"
     },
     {
+      "type": "task_progress_bar",
+      "name": "task_progress_bar",
+      "parameter_list": {
+        "task_group_data": "sub_items",
+        "completed_field": "completed",
+        "filter": "@task_item.foreign_key == \"@fields.current_module_no\"",
+        "variant": "wheel"
+      },
       "exclude_from_translation": true,
-      "type": "set_variable",
-      "name": "set_variable_20",
-      "_nested_name": "set_variable_20"
+      "condition": "!(@fields.user_type == \"facilitator\" || @fields.user_type == \"tester\")",
+      "_nested_name": "task_progress_bar",
+      "_dynamicFields": {
+        "parameter_list": {
+          "filter": [
+            {
+              "fullExpression": "@task_item.foreign_key == \"@fields.current_module_no\"",
+              "matchedExpression": "@fields.current_module_no",
+              "type": "fields",
+              "fieldName": "current_module_no"
+            }
+          ]
+        },
+        "condition": [
+          {
+            "fullExpression": "!(@fields.user_type == \"facilitator\" || @fields.user_type == \"tester\")",
+            "matchedExpression": "@fields.user_type",
+            "type": "fields",
+            "fieldName": "user_type"
+          },
+          {
+            "fullExpression": "!(@fields.user_type == \"facilitator\" || @fields.user_type == \"tester\")",
+            "matchedExpression": "@fields.user_type",
+            "type": "fields",
+            "fieldName": "user_type"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@fields.current_module_no": [
+          "parameter_list.filter"
+        ],
+        "@fields.user_type": [
+          "condition",
+          "condition"
+        ]
+      }
     },
     {
       "exclude_from_translation": true,
