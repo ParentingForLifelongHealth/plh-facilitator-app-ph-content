@@ -353,14 +353,14 @@
               "_nested_name": "display_group_22.display_group_1.question_2"
             },
             {
-              "type": "text_box",
+              "type": "date_time_picker",
               "name": "answer_2",
               "value": "@local.current_answer_2",
               "_translations": {
                 "value": {}
               },
               "parameter_list": {
-                "date_input": "true"
+                "type": "date"
               },
               "_nested_name": "display_group_22.display_group_1.answer_2",
               "_dynamicFields": {

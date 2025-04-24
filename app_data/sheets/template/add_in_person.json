@@ -214,10 +214,10 @@
               "_nested_name": "q1_answered.is_lead.question_2"
             },
             {
-              "type": "text_box",
+              "type": "date_time_picker",
               "name": "answer_2",
               "parameter_list": {
-                "date_input": "true"
+                "type": "date"
               },
               "exclude_from_translation": true,
               "_nested_name": "q1_answered.is_lead.answer_2"
