@@ -13,7 +13,7 @@
     },
     {
       "id": "week_1_session",
-      "title": "Module 1 Session: One-on-one time",
+      "title": "Module 1 Session",
       "description": "week_1",
       "image_asset": "images/icons/task_1.png",
       "report_id": "week_1",
@@ -35,7 +35,7 @@
     },
     {
       "id": "week_2_session",
-      "title": "Module 2 Session: Talking about Feelings",
+      "title": "Module 2 Session",
       "description": "week_2",
       "image_asset": "images/icons/task_2.png",
       "report_id": "week_2",

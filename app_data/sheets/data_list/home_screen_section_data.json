@@ -6,25 +6,25 @@
   "rows": [
     {
       "id": "programme",
-      "title": "Facilitator Guide",
+      "title": "MaPaChat Hybrid Program",
       "_translations": {
         "title": {}
       },
       "_translatedFields": {
         "title": {
-          "eng": "Facilitator Guide"
+          "eng": "MaPaChat Hybrid Program"
         }
       }
     },
     {
-      "id": "sessions",
-      "title": "Review Modules",
+      "id": "guide",
+      "title": "Gabay Para sa Facilitator",
       "_translations": {
         "title": {}
       },
       "_translatedFields": {
         "title": {
-          "eng": "Review Modules"
+          "eng": "Gabay Para sa Facilitator"
         }
       }
     },
@@ -42,27 +42,18 @@
     },
     {
       "id": "safeguarding",
-      "title": "Safeguarding",
+      "title": "Pag-Iingat, Pagka-Kumpidensyal, at Pagbubunyag",
       "_translations": {
         "title": {}
       },
       "_translatedFields": {
         "title": {
-          "eng": "Safeguarding"
+          "eng": "Pag-Iingat, Pagka-Kumpidensyal, at Pagbubunyag"
         }
       }
     },
     {
-      "id": "challenges",
-      "title": "Common Challenges",
-      "_translations": {
-        "title": {}
-      },
-      "_translatedFields": {
-        "title": {
-          "eng": "Common Challenges"
-        }
-      }
+      "id": "challenges"
     }
   ],
   "_xlsxPath": "data/FacilitatorApp PH articles.xlsx"
