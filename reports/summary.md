@@ -78,7 +78,7 @@
 | assets | KB | MB |
 | --- | --- | --- |
 | total | 65807 KB | 65.8 MB |
-| unused | 49481 KB | 49.5 MB |
+| unused | 49472 KB | 49.5 MB |
 </details>
 
 <details open>
@@ -203,7 +203,7 @@ Assets that appear in app-data but do not have references within sheets
 | images/icons/settings.svg | 2.4 |
 | images/icons/task_0.png | 2 |
 | images/logos/MaPa_logo.png | 157.3 |
-| images/message.png | 10.4 |
+| images/message.png | 1.3 |
 | images/person_cog.png | 0.8 |
 | pdf/01_mod1_intro.pdf | 650.7 |
 | pdf/01_mod1_layunin.pdf | 513.8 |
@@ -293,7 +293,7 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | images/faq_small_group_active.svg | 8.1 | 1 |
 | images/faq_text_support.svg | 6.8 | 1 |
 | images/flags/gb.svg | 0.5 | 2 |
-| images/flags/ph.svg | 0.9 | 2 |
+| images/flags/ph.svg | 1.3 | 2 |
 | images/group_admin_onboarding.svg | 13.5 | 1 |
 | images/how_to_chat_session.svg | 11 | 1 |
 | images/how_to_report.svg | 5.8 | 1 |
@@ -316,7 +316,7 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | images/icons/help.svg | 2.6 | 1 |
 | images/icons/home_white.svg | 1.7 | 1 |
 | images/icons/house_white.svg | 0.4 | 1 |
-| images/icons/incomplete.svg | 0.7 | 1 |
+| images/icons/incomplete.svg | 0.4 | 1 |
 | images/icons/key.svg | 5.5 | 2 |
 | images/icons/library_white.svg | 2.8 | 1 |
 | images/icons/magnify_glass.svg | 3 | 1 |
