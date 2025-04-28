@@ -679,7 +679,7 @@
         },
         {
           "name": "age_valid",
-          "value": "@calc((/^\\d{2}$/.test(@local.age) && @local.age>= 10 && @local.age<= 99) || @local.age == '' || !@local.age)",
+          "value": "@calc((/^\\d{2}$/.test(@local.age) && @local.age>= 16 && @local.age<= 99) || @local.age == '' || !@local.age)",
           "_translations": {
             "value": {}
           },
@@ -689,40 +689,40 @@
           "_dynamicFields": {
             "value": [
               {
-                "fullExpression": "@calc((/^\\d{2}$/.test(@local.age) && @local.age>= 10 && @local.age<= 99) || @local.age == '' || !@local.age)",
+                "fullExpression": "@calc((/^\\d{2}$/.test(@local.age) && @local.age>= 16 && @local.age<= 99) || @local.age == '' || !@local.age)",
                 "matchedExpression": "@local.age",
                 "type": "local",
                 "fieldName": "age"
               },
               {
-                "fullExpression": "@calc((/^\\d{2}$/.test(@local.age) && @local.age>= 10 && @local.age<= 99) || @local.age == '' || !@local.age)",
+                "fullExpression": "@calc((/^\\d{2}$/.test(@local.age) && @local.age>= 16 && @local.age<= 99) || @local.age == '' || !@local.age)",
                 "matchedExpression": "@local.age",
                 "type": "local",
                 "fieldName": "age"
               },
               {
-                "fullExpression": "@calc((/^\\d{2}$/.test(@local.age) && @local.age>= 10 && @local.age<= 99) || @local.age == '' || !@local.age)",
+                "fullExpression": "@calc((/^\\d{2}$/.test(@local.age) && @local.age>= 16 && @local.age<= 99) || @local.age == '' || !@local.age)",
                 "matchedExpression": "@local.age",
                 "type": "local",
                 "fieldName": "age"
               },
               {
-                "fullExpression": "@calc((/^\\d{2}$/.test(@local.age) && @local.age>= 10 && @local.age<= 99) || @local.age == '' || !@local.age)",
+                "fullExpression": "@calc((/^\\d{2}$/.test(@local.age) && @local.age>= 16 && @local.age<= 99) || @local.age == '' || !@local.age)",
                 "matchedExpression": "@local.age",
                 "type": "local",
                 "fieldName": "age"
               },
               {
-                "fullExpression": "@calc((/^\\d{2}$/.test(@local.age) && @local.age>= 10 && @local.age<= 99) || @local.age == '' || !@local.age)",
+                "fullExpression": "@calc((/^\\d{2}$/.test(@local.age) && @local.age>= 16 && @local.age<= 99) || @local.age == '' || !@local.age)",
                 "matchedExpression": "!@local.age",
                 "type": "local",
                 "fieldName": "age"
               },
               {
-                "fullExpression": "@calc((/^\\d{2}$/.test(@local.age) && @local.age>= 10 && @local.age<= 99) || @local.age == '' || !@local.age)",
-                "matchedExpression": "@calc((/^\\d{2}$/.test(@local.age) && @local.age>= 10 && @local.age<= 99) || @local.age == '' || !@local.age)",
+                "fullExpression": "@calc((/^\\d{2}$/.test(@local.age) && @local.age>= 16 && @local.age<= 99) || @local.age == '' || !@local.age)",
+                "matchedExpression": "@calc((/^\\d{2}$/.test(@local.age) && @local.age>= 16 && @local.age<= 99) || @local.age == '' || !@local.age)",
                 "type": "calc",
-                "fieldName": "(/^\\d{2}$/.test(@local.age) && @local.age>= 10 && @local.age<= 99) || @local.age == '' || !@local.age"
+                "fieldName": "(/^\\d{2}$/.test(@local.age) && @local.age>= 16 && @local.age<= 99) || @local.age == '' || !@local.age"
               }
             ]
           },
@@ -736,7 +736,7 @@
             "!@local.age": [
               "value"
             ],
-            "@calc((/^\\d{2}$/.test(@local.age) && @local.age>= 10 && @local.age<= 99) || @local.age == '' || !@local.age)": [
+            "@calc((/^\\d{2}$/.test(@local.age) && @local.age>= 16 && @local.age<= 99) || @local.age == '' || !@local.age)": [
               "value"
             ]
           }

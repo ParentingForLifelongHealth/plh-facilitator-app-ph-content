@@ -325,7 +325,8 @@
                         "value": {}
                       },
                       "style_list": [
-                        "max-width: 52px"
+                        "max-width: 32px",
+                        "margin-left: -10px"
                       ],
                       "condition": "!@item.number || !@item.age || !@item.sex || !@item.child_name || !@item.child_age || !@item.child_sex || !@item.relationship || !@item.members || !@item.childcare || !@item.goal || !@item.consoltation",
                       "exclude_from_translation": true,

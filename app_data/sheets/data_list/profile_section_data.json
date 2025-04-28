@@ -27,14 +27,14 @@
       "id": "id",
       "template": "id",
       "show": true,
-      "title": "Your Facilitator ID",
+      "title": "Your @global.app_name Code",
       "_translations": {
         "title": {},
         "description": {}
       },
       "_translatedFields": {
         "title": {
-          "eng": "Your Facilitator ID"
+          "eng": "Your @global.app_name Code"
         },
         "description": {
           "eng": "Here you can find your unique code. You may be asked to share this code with people who will support your @global.app_name journey."
@@ -81,5 +81,5 @@
       "description": "See and edit the lists of parents attending your groups."
     }
   ],
-  "_xlsxPath": "data/profile_data.xlsx"
+  "_xlsxPath": "templates/footer_ph.xlsx"
 }

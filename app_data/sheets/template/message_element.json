@@ -516,6 +516,7 @@
                       }
                     }
                   ],
+                  "condition": "@local.asset_type !== \"image\"",
                   "parameter_list": {
                     "icon_src": "images/icons/copy-outline.svg"
                   },
@@ -638,7 +639,15 @@
                           ]
                         }
                       }
-                    }
+                    },
+                    "condition": [
+                      {
+                        "fullExpression": "@local.asset_type !== \"image\"",
+                        "matchedExpression": "@local.asset_type",
+                        "type": "local",
+                        "fieldName": "asset_type"
+                      }
+                    ]
                   },
                   "_dynamicDependencies": {
                     "@fields.current_group_no": [
@@ -665,6 +674,9 @@
                       "action_list.1._raw",
                       "action_list.1._cleaned",
                       "action_list.1.params.text"
+                    ],
+                    "@local.asset_type": [
+                      "condition"
                     ]
                   }
                 },

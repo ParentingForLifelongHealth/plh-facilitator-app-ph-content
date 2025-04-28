@@ -256,7 +256,7 @@
       },
       {
         "assets": "unused",
-        "KB": "49481 KB",
+        "KB": "49472 KB",
         "MB": "49.5 MB"
       }
     ]
@@ -725,7 +725,7 @@
       },
       {
         "path": "images/message.png",
-        "size_kb": 10.4
+        "size_kb": 1.3
       },
       {
         "path": "images/person_cog.png",
@@ -1061,7 +1061,7 @@
       {
         "path": "images/flags/ph.svg",
         "count": 2,
-        "size_kb": 0.9
+        "size_kb": 1.3
       },
       {
         "path": "images/group_admin_onboarding.svg",
@@ -1176,7 +1176,7 @@
       {
         "path": "images/icons/incomplete.svg",
         "count": 1,
-        "size_kb": 0.7
+        "size_kb": 0.4
       },
       {
         "path": "images/icons/key.svg",

@@ -298,7 +298,7 @@
         {
           "type": "button",
           "name": "button_user_id",
-          "value": "Your Facilitator Code",
+          "value": "Your @global.app_name Code",
           "_translations": {
             "value": {}
           },
@@ -322,6 +322,14 @@
           ],
           "_nested_name": "dg_account.button_user_id",
           "_dynamicFields": {
+            "value": [
+              {
+                "fullExpression": "Your @global.app_name Code",
+                "matchedExpression": "@global.app_name",
+                "type": "global",
+                "fieldName": "app_name"
+              }
+            ],
             "parameter_list": {
               "icon": [
                 {
@@ -342,6 +350,9 @@
             }
           },
           "_dynamicDependencies": {
+            "@global.app_name": [
+              "value"
+            ],
             "@local.user_id_icon": [
               "parameter_list.icon"
             ],

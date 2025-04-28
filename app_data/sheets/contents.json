@@ -240,7 +240,7 @@
       "flow_type": "data_list",
       "flow_name": "profile_section_data",
       "data_list_name": "profile_section",
-      "_xlsxPath": "data/profile_data.xlsx"
+      "_xlsxPath": "templates/footer_ph.xlsx"
     },
     "related": {
       "flow_type": "data_list",
