@@ -8,7 +8,7 @@
     {
       "type": "declare_global_constant",
       "name": "app_name",
-      "value": "MaPa App",
+      "value": "MaPa Faci App",
       "_translations": {
         "value": {}
       },

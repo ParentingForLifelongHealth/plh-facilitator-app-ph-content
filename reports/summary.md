@@ -26,11 +26,11 @@
 | radio_button_grid | 16 |
 | round_button | 39 |
 | select_text | 1 |
-| set_variable | 840 |
+| set_variable | 842 |
 | simple_checkbox | 2 |
 | task_card | 3 |
 | task_progress_bar | 4 |
-| template | 189 |
+| template | 190 |
 | test | 1 |
 | text | 264 |
 | text_area | 2 |
@@ -51,13 +51,13 @@
 | app_update | 1 |
 | auth | 2 |
 | copy | 2 |
-| emit: completed | 48 |
+| emit: completed | 49 |
 | emit: force_reload | 5 |
 | emit: force_reprocess | 18 |
 | emit: force_restart | 5 |
 | emit: server_sync | 13 |
 | emit: set_language | 1 |
-| emit: uncompleted | 83 |
+| emit: uncompleted | 84 |
 | feedback | 13 |
 | go_to | 32 |
 | nav_stack | 6 |
@@ -77,8 +77,8 @@
 
 | assets | KB | MB |
 | --- | --- | --- |
-| total | 65807 KB | 65.8 MB |
-| unused | 49472 KB | 49.5 MB |
+| total | 66458 KB | 66.5 MB |
+| unused | 48830 KB | 48.8 MB |
 </details>
 
 <details open>
@@ -203,9 +203,8 @@ Assets that appear in app-data but do not have references within sheets
 | images/icons/settings.svg | 2.4 |
 | images/icons/task_0.png | 2 |
 | images/logos/MaPa_logo.png | 157.3 |
-| images/message.png | 1.3 |
+| images/message.png | 10.4 |
 | images/person_cog.png | 0.8 |
-| pdf/01_mod1_intro.pdf | 650.7 |
 | pdf/01_mod1_layunin.pdf | 513.8 |
 | pdf/01_mod1_mapa_skill.pdf | 1819.1 |
 | pdf/01_mod1_pabaong_gawain.pdf | 132.7 |
@@ -316,7 +315,7 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | images/icons/help.svg | 2.6 | 1 |
 | images/icons/home_white.svg | 1.7 | 1 |
 | images/icons/house_white.svg | 0.4 | 1 |
-| images/icons/incomplete.svg | 0.4 | 1 |
+| images/icons/incomplete.svg | 0.8 | 1 |
 | images/icons/key.svg | 5.5 | 2 |
 | images/icons/library_white.svg | 2.8 | 1 |
 | images/icons/magnify_glass.svg | 3 | 1 |
@@ -351,6 +350,7 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | images/talk_feelings_challenges.svg | 19.3 | 1 |
 | images/what_is_safeguarding.svg | 5.6 | 1 |
 | lottie/checkmark_blue.json | 17 | 1 |
+| pdf/01_mod1_intro.pdf | 650.7 | 1 |
 | pdf/manual.pdf | 470.3 | 1 |
 | pdf/manual_study.pdf | 1047 | 1 |
 | pdf/module_1_deliver.pdf | 2718.4 | 1 |
@@ -380,6 +380,6 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | global |  | 12 |
 | global | legal_terms | 1 |
 | template |  | 83 |
-| template | generated | 141 |
+| template | generated | 142 |
 | template | legal_terms | 4 |
 </details>
