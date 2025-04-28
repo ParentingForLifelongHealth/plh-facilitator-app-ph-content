@@ -223,16 +223,16 @@
     {
       "id": "section_28",
       "foreign_key": "week_1_session",
-      "title": "Mga materials para sa 15 participants:\n✅ Pencils\n✅ Crayons\n✅ Bond papers\n✅ Ballpen\n✅ Name tags\n✅ Snacks\n\nIba pang materials para sa buong grupo:\n✅ Comic posters and handouts\n✅ Manila paper\n✅ Permanent markers\n✅ Projector\n✅ Video camera (kung irerecord ang sesyon)",
-      "text": "Pundasyon ng Modyul 1: One-on-One Time",
+      "title": "Mga Materials na Kailangan Para sa Sesyon",
+      "text": "Mga materials para sa 15 participants:\n✅ Pencils\n✅ Crayons\n✅ Bond papers\n✅ Ballpen\n✅ Name tags\n✅ Snacks\n\nIba pang materials para sa buong grupo:\n✅ Comic posters and handouts\n✅ Manila paper\n✅ Permanent markers\n✅ Projector\n✅ Video camera (kung irerecord ang sesyon)",
       "ignore": 28,
       "ignore_2": "week_1_session_1"
     },
     {
       "id": "section_29",
       "foreign_key": "week_1_session",
-      "title": "https://docs.google.com/document/d/1gI1UoEoaZleoB4alcgyiZ9mIn7eai5QrvEPKopYr63U",
-      "text": "",
+      "title": "Pundasyon ng Modyul 1: One-on-One Time",
+      "text": "1️⃣ **ARAW** - Gawin ito araw-araw. \n\n2️⃣ **LARO** - Hayaan ang iyong anak na pumili ng gagawin\n\n3️⃣ **ATENSYON** - Ibigay ang buong atensyon sa iyong anak.",
       "ignore": 29,
       "ignore_2": "week_1_session_1"
     }

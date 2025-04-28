@@ -53,6 +53,11 @@
       "id": "module_1_building_block",
       "title": "Review the building blocks",
       "pdf_asset": "pdf/module_1_building_block.pdf"
+    },
+    {
+      "id": "01_mod1_intro",
+      "title": "Write title here in Filipino",
+      "pdf_asset": "pdf/01_mod1_intro.pdf"
     }
   ],
   "_xlsxPath": "data/FacilitatorApp PH articles.xlsx"

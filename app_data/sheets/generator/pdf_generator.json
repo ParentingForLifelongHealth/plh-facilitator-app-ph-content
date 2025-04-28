@@ -99,6 +99,11 @@
       "flow_name": "pdf_module_1_building_block",
       "flow_subtype": "generated",
       "flow_type": "template"
+    },
+    {
+      "flow_name": "pdf_01_mod1_intro",
+      "flow_subtype": "generated",
+      "flow_type": "template"
     }
   ]
 }

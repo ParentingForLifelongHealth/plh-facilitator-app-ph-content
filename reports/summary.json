@@ -95,7 +95,7 @@
       },
       {
         "type": "set_variable",
-        "count": 840
+        "count": 842
       },
       {
         "type": "simple_checkbox",
@@ -111,7 +111,7 @@
       },
       {
         "type": "template",
-        "count": 189
+        "count": 190
       },
       {
         "type": "test",
@@ -171,7 +171,7 @@
       },
       {
         "type": "emit: completed",
-        "count": 48
+        "count": 49
       },
       {
         "type": "emit: force_reload",
@@ -195,7 +195,7 @@
       },
       {
         "type": "emit: uncompleted",
-        "count": 83
+        "count": 84
       },
       {
         "type": "feedback",
@@ -251,13 +251,13 @@
     "data": [
       {
         "assets": "total",
-        "KB": "65807 KB",
-        "MB": "65.8 MB"
+        "KB": "66458 KB",
+        "MB": "66.5 MB"
       },
       {
         "assets": "unused",
-        "KB": "49472 KB",
-        "MB": "49.5 MB"
+        "KB": "48830 KB",
+        "MB": "48.8 MB"
       }
     ]
   },
@@ -725,15 +725,11 @@
       },
       {
         "path": "images/message.png",
-        "size_kb": 1.3
+        "size_kb": 10.4
       },
       {
         "path": "images/person_cog.png",
         "size_kb": 0.8
-      },
-      {
-        "path": "pdf/01_mod1_intro.pdf",
-        "size_kb": 650.7
       },
       {
         "path": "pdf/01_mod1_layunin.pdf",
@@ -1176,7 +1172,7 @@
       {
         "path": "images/icons/incomplete.svg",
         "count": 1,
-        "size_kb": 0.4
+        "size_kb": 0.8
       },
       {
         "path": "images/icons/key.svg",
@@ -1349,6 +1345,11 @@
         "size_kb": 17
       },
       {
+        "path": "pdf/01_mod1_intro.pdf",
+        "count": 1,
+        "size_kb": 650.7
+      },
+      {
         "path": "pdf/manual.pdf",
         "count": 1,
         "size_kb": 470.3
@@ -1465,7 +1466,7 @@
       {
         "type": "template",
         "subtype": "generated",
-        "total": 141
+        "total": 142
       },
       {
         "type": "template",
