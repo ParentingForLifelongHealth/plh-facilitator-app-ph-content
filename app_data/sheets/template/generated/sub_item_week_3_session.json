@@ -1,0 +1,36 @@
+{
+  "flow_name": "sub_item_week_3_session",
+  "flow_subtype": "generated",
+  "flow_type": "template",
+  "rows": [
+    {
+      "type": "template",
+      "name": "article_loop",
+      "value": "article_loop",
+      "exclude_from_translation": true,
+      "rows": [
+        {
+          "name": "article_id",
+          "value": "week_3_session",
+          "_translations": {
+            "value": {}
+          },
+          "exclude_from_translation": true,
+          "type": "set_variable",
+          "_nested_name": "article_loop.article_id"
+        },
+        {
+          "name": "foreign_key",
+          "value": "week_3_session",
+          "_translations": {
+            "value": {}
+          },
+          "exclude_from_translation": true,
+          "type": "set_variable",
+          "_nested_name": "article_loop.foreign_key"
+        }
+      ],
+      "_nested_name": "article_loop"
+    }
+  ]
+}

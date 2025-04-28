@@ -1,0 +1,48 @@
+{
+  "flow_name": "prep_week_3_session_16_sub_items",
+  "flow_subtype": "generated",
+  "flow_type": "data_pipe",
+  "rows": [
+    {
+      "operation": "filter",
+      "args_list": [
+        "type == \"article\" && create_loop == \"create\""
+      ],
+      "input_source": "sub_items",
+      "output_target": "article_loops"
+    },
+    {
+      "operation": "filter",
+      "args_list": [
+        "type == \"article\""
+      ],
+      "input_source": "sub_items",
+      "output_target": "articles"
+    },
+    {
+      "operation": "filter",
+      "args_list": [
+        "type == \"menu\""
+      ],
+      "input_source": "sub_items",
+      "output_target": "menus"
+    }
+  ],
+  "_output_flows": [
+    {
+      "flow_name": "article_loops",
+      "flow_subtype": "generated",
+      "flow_type": "data_list"
+    },
+    {
+      "flow_name": "articles",
+      "flow_subtype": "generated",
+      "flow_type": "data_list"
+    },
+    {
+      "flow_name": "menus",
+      "flow_subtype": "generated",
+      "flow_type": "data_list"
+    }
+  ]
+}

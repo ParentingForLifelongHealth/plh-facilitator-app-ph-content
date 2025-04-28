@@ -36,7 +36,12 @@
       "flow_type": "template"
     },
     {
-      "flow_name": "sub_item_week_1_reminder",
+      "flow_name": "sub_item_week_1_1_reminder",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "sub_item_week_1_2_reminder",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
@@ -46,7 +51,92 @@
       "flow_type": "template"
     },
     {
-      "flow_name": "sub_item_week_2_reminder",
+      "flow_name": "sub_item_week_2_1_reminder",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "sub_item_week_2_2_reminder",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "sub_item_week_3_session",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "sub_item_week_3_1_reminder",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "sub_item_week_3_2_reminder",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "sub_item_week_4_session",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "sub_item_week_4_1_reminder",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "sub_item_week_4_2_reminder",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "sub_item_week_5_session",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "sub_item_week_5_1_reminder",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "sub_item_week_5_2_reminder",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "sub_item_week_6_session",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "sub_item_week_6_1_reminder",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "sub_item_week_6_2_reminder",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "sub_item_week_7_session",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "sub_item_week_7_1_reminder",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "sub_item_week_7_2_reminder",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
+      "flow_name": "sub_item_week_8_session",
       "flow_subtype": "generated",
       "flow_type": "template"
     },

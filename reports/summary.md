@@ -26,11 +26,11 @@
 | radio_button_grid | 16 |
 | round_button | 39 |
 | select_text | 1 |
-| set_variable | 842 |
+| set_variable | 1020 |
 | simple_checkbox | 2 |
 | task_card | 3 |
 | task_progress_bar | 4 |
-| template | 190 |
+| template | 350 |
 | test | 1 |
 | text | 264 |
 | text_area | 2 |
@@ -57,7 +57,7 @@
 | emit: force_restart | 5 |
 | emit: server_sync | 13 |
 | emit: set_language | 1 |
-| emit: uncompleted | 84 |
+| emit: uncompleted | 51 |
 | feedback | 13 |
 | go_to | 32 |
 | nav_stack | 6 |
@@ -77,8 +77,8 @@
 
 | assets | KB | MB |
 | --- | --- | --- |
-| total | 66458 KB | 66.5 MB |
-| unused | 48830 KB | 48.8 MB |
+| total | 66047 KB | 66 MB |
+| unused | 49241 KB | 49.2 MB |
 </details>
 
 <details open>
@@ -101,6 +101,7 @@ Assets that appear in app-data but do not have references within sheets
 | images/07_masayang_tahanan.jpg | 455.5 |
 | images/08_masayang_tahanan.jpg | 455.5 |
 | images/Message.svg | 0.7 |
+| images/after_disclosed_abuse.svg | 4.7 |
 | images/backgrounds/library_bottom_left.svg | 2.3 |
 | images/backgrounds/library_top_right.svg | 0.3 |
 | images/backgrounds/onboarding_grandma_boy.png | 3287.2 |
@@ -175,12 +176,37 @@ Assets that appear in app-data but do not have references within sheets
 | images/comics/08_comics2_panel8.jpg | 234.3 |
 | images/comics/module_2_teen.png | 554.2 |
 | images/comics/module_2_yc.png | 666.1 |
+| images/contact_for_reporting_abuse.svg | 6.3 |
+| images/crisis_hotlines.svg | 12.6 |
+| images/day_1_introduction.svg | 6.7 |
+| images/day_3_check_in.svg | 6.5 |
+| images/day_3_mh_stress_self_talk.svg | 5.4 |
+| images/day_4_check_in.svg | 11.3 |
+| images/day_5_goodbye.svg | 19.4 |
+| images/during_disclosed_abuse.svg | 7.7 |
+| images/faq_ground_rules.svg | 12.1 |
+| images/faq_h_after_group_ended.svg | 19.8 |
+| images/faq_h_no_neg_to_pos.svg | 7.4 |
+| images/faq_h_no_volunteers.svg | 19.6 |
+| images/faq_h_parents_insult.svg | 12.5 |
+| images/faq_h_prompts.svg | 19.6 |
+| images/faq_h_sad_to_end.svg | 9.2 |
+| images/faq_h_self_harm.svg | 14.9 |
+| images/faq_h_still_struggling.svg | 23.2 |
+| images/faq_misbehaviour.svg | 7.8 |
+| images/faq_no_participation_general.svg | 20.3 |
+| images/faq_small_group_active.svg | 8.1 |
+| images/faq_text_support.svg | 6.8 |
 | images/flags/mx.svg | 91.3 |
 | images/flags/my.svg | 1.4 |
 | images/flags/tz.svg | 0.5 |
 | images/flags/ug.svg | 3.9 |
 | images/flags/zm.svg | 5.4 |
+| images/group_admin_onboarding.svg | 13.5 |
 | images/house_of_support.png | 815.4 |
+| images/how_to_chat_session.svg | 11 |
+| images/how_to_report.svg | 5.8 |
+| images/how_to_report_abuse.svg | 12.2 |
 | images/icons/bar_chart_white.svg | 1.5 |
 | images/icons/book_white.svg | 1.5 |
 | images/icons/check_circle.svg | 1.2 |
@@ -204,7 +230,14 @@ Assets that appear in app-data but do not have references within sheets
 | images/icons/task_0.png | 2 |
 | images/logos/MaPa_logo.png | 157.3 |
 | images/message.png | 10.4 |
+| images/onboarding_cc.svg | 19.3 |
+| images/one_on_one_challenges.svg | 13.1 |
+| images/overview_cc.svg | 7.8 |
 | images/person_cog.png | 0.8 |
+| images/praise_challenges.svg | 20.6 |
+| images/routine_challenges.svg | 20.5 |
+| images/talk_feelings_challenges.svg | 19.3 |
+| images/what_is_safeguarding.svg | 5.6 |
 | pdf/01_mod1_layunin.pdf | 513.8 |
 | pdf/01_mod1_mapa_skill.pdf | 1819.1 |
 | pdf/01_mod1_pabaong_gawain.pdf | 132.7 |
@@ -265,38 +298,12 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | cw_demo/comic_2.png | 795.3 | 1 |
 | cw_demo/house_of_support.png | 944.5 | 1 |
 | cw_demo/talk_feelings_challenges.svg | 19.3 | 1 |
-| images/after_disclosed_abuse.svg | 4.7 | 2 |
 | images/backgrounds/MaPa_logo_with_background.png | 102 | 1 |
 | images/backgrounds/home_bottom_right.svg | 2.3 | 1 |
 | images/backgrounds/home_top_left.svg | 2.4 | 3 |
 | images/backgrounds/reports_top_right.svg | 2 | 1 |
-| images/contact_for_reporting_abuse.svg | 6.3 | 1 |
-| images/crisis_hotlines.svg | 12.6 | 1 |
-| images/day_1_introduction.svg | 6.7 | 1 |
-| images/day_3_check_in.svg | 6.5 | 1 |
-| images/day_3_mh_stress_self_talk.svg | 5.4 | 1 |
-| images/day_4_check_in.svg | 11.3 | 1 |
-| images/day_5_goodbye.svg | 19.4 | 1 |
-| images/during_disclosed_abuse.svg | 7.7 | 2 |
-| images/faq_ground_rules.svg | 12.1 | 2 |
-| images/faq_h_after_group_ended.svg | 19.8 | 2 |
-| images/faq_h_no_neg_to_pos.svg | 7.4 | 2 |
-| images/faq_h_no_volunteers.svg | 19.6 | 1 |
-| images/faq_h_parents_insult.svg | 12.5 | 2 |
-| images/faq_h_prompts.svg | 19.6 | 2 |
-| images/faq_h_sad_to_end.svg | 9.2 | 2 |
-| images/faq_h_self_harm.svg | 14.9 | 1 |
-| images/faq_h_still_struggling.svg | 23.2 | 1 |
-| images/faq_misbehaviour.svg | 7.8 | 1 |
-| images/faq_no_participation_general.svg | 20.3 | 1 |
-| images/faq_small_group_active.svg | 8.1 | 1 |
-| images/faq_text_support.svg | 6.8 | 1 |
 | images/flags/gb.svg | 0.5 | 2 |
 | images/flags/ph.svg | 1.3 | 2 |
-| images/group_admin_onboarding.svg | 13.5 | 1 |
-| images/how_to_chat_session.svg | 11 | 1 |
-| images/how_to_report.svg | 5.8 | 1 |
-| images/how_to_report_abuse.svg | 12.2 | 1 |
 | images/icons/add_circle.svg | 1 | 3 |
 | images/icons/archive.svg | 0.9 | 1 |
 | images/icons/arrow_back.svg | 0.5 | 1 |
@@ -342,13 +349,6 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | images/logos/app_logo.png | 70.6 | 2 |
 | images/logos/nip.png | 11.9 | 1 |
 | images/no_group_selected.svg | 3.5 | 1 |
-| images/onboarding_cc.svg | 19.3 | 2 |
-| images/one_on_one_challenges.svg | 13.1 | 1 |
-| images/overview_cc.svg | 7.8 | 1 |
-| images/praise_challenges.svg | 20.6 | 1 |
-| images/routine_challenges.svg | 20.5 | 1 |
-| images/talk_feelings_challenges.svg | 19.3 | 1 |
-| images/what_is_safeguarding.svg | 5.6 | 1 |
 | lottie/checkmark_blue.json | 17 | 1 |
 | pdf/01_mod1_intro.pdf | 650.7 | 1 |
 | pdf/manual.pdf | 470.3 | 1 |
@@ -375,11 +375,11 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | data_list | legal_terms | 2 |
 | data_list | lifecycle_actions | 1 |
 | data_pipe |  | 2 |
-| data_pipe | generated | 67 |
+| data_pipe | generated | 242 |
 | generator |  | 9 |
 | global |  | 12 |
 | global | legal_terms | 1 |
 | template |  | 83 |
-| template | generated | 142 |
+| template | generated | 302 |
 | template | legal_terms | 4 |
 </details>
