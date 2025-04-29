@@ -52,7 +52,7 @@
       "create_loop": "create"
     },
     {
-      "ignore": 43,
+      "ignore": 42,
       "id": "week_2_1_reminder",
       "completed": false,
       "loop_id": "week_2_1_reminder",
@@ -64,7 +64,7 @@
       "create_loop": "create"
     },
     {
-      "ignore": 44,
+      "ignore": 43,
       "id": "week_2_2_reminder",
       "completed": false,
       "loop_id": "week_2_2_reminder",
@@ -76,7 +76,7 @@
       "create_loop": "create"
     },
     {
-      "ignore": 45,
+      "ignore": 44,
       "id": "week_3_session",
       "completed": false,
       "loop_id": "week_3_session",
@@ -88,7 +88,7 @@
       "create_loop": "create"
     },
     {
-      "ignore": 80,
+      "ignore": 79,
       "id": "week_3_1_reminder",
       "completed": false,
       "loop_id": "week_3_1_reminder",
@@ -100,7 +100,7 @@
       "create_loop": "create"
     },
     {
-      "ignore": 81,
+      "ignore": 80,
       "id": "week_3_2_reminder",
       "completed": false,
       "loop_id": "week_3_2_reminder",
@@ -112,7 +112,7 @@
       "create_loop": "create"
     },
     {
-      "ignore": 82,
+      "ignore": 81,
       "id": "week_4_session",
       "completed": false,
       "loop_id": "week_4_session",
@@ -124,7 +124,7 @@
       "create_loop": "create"
     },
     {
-      "ignore": 117,
+      "ignore": 116,
       "id": "week_4_1_reminder",
       "completed": false,
       "loop_id": "week_4_1_reminder",
@@ -136,7 +136,7 @@
       "create_loop": "create"
     },
     {
-      "ignore": 118,
+      "ignore": 117,
       "id": "week_4_2_reminder",
       "completed": false,
       "loop_id": "week_4_2_reminder",
@@ -148,7 +148,7 @@
       "create_loop": "create"
     },
     {
-      "ignore": 119,
+      "ignore": 118,
       "id": "week_5_session",
       "completed": false,
       "loop_id": "week_5_session",
@@ -160,7 +160,7 @@
       "create_loop": "create"
     },
     {
-      "ignore": 128,
+      "ignore": 127,
       "id": "week_5_1_reminder",
       "completed": false,
       "loop_id": "week_5_1_reminder",
@@ -172,7 +172,7 @@
       "create_loop": "create"
     },
     {
-      "ignore": 131,
+      "ignore": 130,
       "id": "week_5_2_reminder",
       "completed": false,
       "loop_id": "week_5_2_reminder",
@@ -184,7 +184,7 @@
       "create_loop": "create"
     },
     {
-      "ignore": 132,
+      "ignore": 131,
       "id": "week_6_session",
       "completed": false,
       "loop_id": "week_6_session",
@@ -196,7 +196,7 @@
       "create_loop": "create"
     },
     {
-      "ignore": 172,
+      "ignore": 171,
       "id": "week_6_1_reminder",
       "completed": false,
       "loop_id": "week_6_1_reminder",
@@ -208,7 +208,7 @@
       "create_loop": "create"
     },
     {
-      "ignore": 173,
+      "ignore": 172,
       "id": "week_6_2_reminder",
       "completed": false,
       "loop_id": "week_6_2_reminder",
@@ -220,7 +220,7 @@
       "create_loop": "create"
     },
     {
-      "ignore": 174,
+      "ignore": 173,
       "id": "week_7_session",
       "completed": false,
       "loop_id": "week_7_session",
@@ -232,7 +232,7 @@
       "create_loop": "create"
     },
     {
-      "ignore": 210,
+      "ignore": 209,
       "id": "week_7_1_reminder",
       "completed": false,
       "loop_id": "week_7_1_reminder",
@@ -244,7 +244,7 @@
       "create_loop": "create"
     },
     {
-      "ignore": 211,
+      "ignore": 210,
       "id": "week_7_2_reminder",
       "completed": false,
       "loop_id": "week_7_2_reminder",
@@ -256,7 +256,7 @@
       "create_loop": "create"
     },
     {
-      "ignore": 212,
+      "ignore": 211,
       "id": "week_8_session",
       "completed": false,
       "loop_id": "week_8_session",
@@ -268,7 +268,7 @@
       "create_loop": "create"
     },
     {
-      "ignore": 220,
+      "ignore": 219,
       "id": "demo",
       "completed": false,
       "loop_id": "demo",

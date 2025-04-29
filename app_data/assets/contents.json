@@ -91,10 +91,6 @@
     "md5Checksum": "2a8f32d264768ab0036997f6026883df",
     "size_kb": 0.3
   },
-  "images/backgrounds/onboarding_grandma_boy.png": {
-    "md5Checksum": "65eb224376ba8eed35fe740ef36ffdb0",
-    "size_kb": 3287.2
-  },
   "images/backgrounds/report_edit.png": {
     "md5Checksum": "c7c6dffe196f54bfe36c2b8cc973cd64",
     "size_kb": 1.7
@@ -383,90 +379,6 @@
     "md5Checksum": "18764da0ae6142fcad407e6bfdb670d8",
     "size_kb": 666.1
   },
-  "images/contact_for_reporting_abuse.svg": {
-    "md5Checksum": "c679f71748e3404da92acda6ca85bdcd",
-    "size_kb": 6.3
-  },
-  "images/crisis_hotlines.svg": {
-    "md5Checksum": "efc36ee797be0478022d1da51217fe61",
-    "size_kb": 12.6
-  },
-  "images/day_1_introduction.svg": {
-    "md5Checksum": "a2d5ce4f538b73b2fcb45c13ed911611",
-    "size_kb": 6.7
-  },
-  "images/day_3_check_in.svg": {
-    "md5Checksum": "41d7c6fdcad96c6a57780183401b2b21",
-    "size_kb": 6.5
-  },
-  "images/day_3_mh_stress_self_talk.svg": {
-    "md5Checksum": "b89b1e4cbf640e038d370c022fb1c4df",
-    "size_kb": 5.4
-  },
-  "images/day_4_check_in.svg": {
-    "md5Checksum": "7cec0bce2a62fb6665cdcda4589ef0af",
-    "size_kb": 11.3
-  },
-  "images/day_5_goodbye.svg": {
-    "md5Checksum": "9741b4fdea85d0394f55d8060f5445f0",
-    "size_kb": 19.4
-  },
-  "images/during_disclosed_abuse.svg": {
-    "md5Checksum": "a4ed81af183ae82dce99a16c1c64da24",
-    "size_kb": 7.7
-  },
-  "images/faq_ground_rules.svg": {
-    "md5Checksum": "7b8c46181700f51a682f84114bdfc2b9",
-    "size_kb": 12.1
-  },
-  "images/faq_h_after_group_ended.svg": {
-    "md5Checksum": "42fddd52b74b02630b18575d5cf1f4b2",
-    "size_kb": 19.8
-  },
-  "images/faq_h_no_neg_to_pos.svg": {
-    "md5Checksum": "a17c81ede156e953c0dd50cc8f848844",
-    "size_kb": 7.4
-  },
-  "images/faq_h_no_volunteers.svg": {
-    "md5Checksum": "377fc5776cd3b53cb10ad560b727006a",
-    "size_kb": 19.6
-  },
-  "images/faq_h_parents_insult.svg": {
-    "md5Checksum": "a2cbeb95ae78fc30b81ac1a7987380c5",
-    "size_kb": 12.5
-  },
-  "images/faq_h_prompts.svg": {
-    "md5Checksum": "9ec84d3021b439dfaf15ed3bfbc459c4",
-    "size_kb": 19.6
-  },
-  "images/faq_h_sad_to_end.svg": {
-    "md5Checksum": "5f896851ca70caf538be20822724993b",
-    "size_kb": 9.2
-  },
-  "images/faq_h_self_harm.svg": {
-    "md5Checksum": "09b1665f2abe0b4e2ee66b2bdb31728b",
-    "size_kb": 14.9
-  },
-  "images/faq_h_still_struggling.svg": {
-    "md5Checksum": "5f01ae5906b1999f33246d3c81321f5c",
-    "size_kb": 23.2
-  },
-  "images/faq_misbehaviour.svg": {
-    "md5Checksum": "9c398c3443ea19add74edb464160dc84",
-    "size_kb": 7.8
-  },
-  "images/faq_no_participation_general.svg": {
-    "md5Checksum": "977ba51e3fe8221361b16e98d3c2f03f",
-    "size_kb": 20.3
-  },
-  "images/faq_small_group_active.svg": {
-    "md5Checksum": "ba80cc612728892cb9de47e3a97e709d",
-    "size_kb": 8.1
-  },
-  "images/faq_text_support.svg": {
-    "md5Checksum": "011cba4a569e5baacbc1ade40907c519",
-    "size_kb": 6.8
-  },
   "images/flags/gb.svg": {
     "md5Checksum": "fcfef6780b36bef537381474df9d0be9",
     "size_kb": 0.5
@@ -494,26 +406,6 @@
   "images/flags/zm.svg": {
     "md5Checksum": "8d658b4d10c327c9d9c74cb524806d60",
     "size_kb": 5.4
-  },
-  "images/group_admin_onboarding.svg": {
-    "md5Checksum": "4a38a010daa3bf9f20cc6cf19261186f",
-    "size_kb": 13.5
-  },
-  "images/house_of_support.png": {
-    "md5Checksum": "8dfe20cd760ab00f31c27d448d084e52",
-    "size_kb": 815.4
-  },
-  "images/how_to_chat_session.svg": {
-    "md5Checksum": "ba6e2f12a3176f7d3fa502e49a3e8260",
-    "size_kb": 11
-  },
-  "images/how_to_report.svg": {
-    "md5Checksum": "b7366cb6518ae016225bfdcae1b2ddb3",
-    "size_kb": 5.8
-  },
-  "images/how_to_report_abuse.svg": {
-    "md5Checksum": "7b4343c61608a8e7e504d005b64017ab",
-    "size_kb": 12.2
   },
   "images/icons/add_circle.svg": {
     "md5Checksum": "304eca731886658ad743dbbd0841b592",
@@ -775,10 +667,6 @@
     "md5Checksum": "1bf5b17d939d6b147dd9a3924176460b",
     "size_kb": 70.6
   },
-  "images/logos/nip.png": {
-    "md5Checksum": "88bae191d1fc9f29ee49c1721e46f181",
-    "size_kb": 11.9
-  },
   "images/message.png": {
     "md5Checksum": "479defd46917f22869e6ec7435c72092",
     "size_kb": 10.4
@@ -787,37 +675,9 @@
     "md5Checksum": "82767136bb58f06e6402ca136d3df590",
     "size_kb": 3.5
   },
-  "images/onboarding_cc.svg": {
-    "md5Checksum": "9138c7de0fc8bf002f3881b10e6fc1a1",
-    "size_kb": 19.3
-  },
-  "images/one_on_one_challenges.svg": {
-    "md5Checksum": "ee0f30adf77121b1b9f320888a0c3ad5",
-    "size_kb": 13.1
-  },
-  "images/overview_cc.svg": {
-    "md5Checksum": "1cd1bacd9b44006fdcd822cc5b9795c7",
-    "size_kb": 7.8
-  },
   "images/person_cog.png": {
     "md5Checksum": "61b9b963c98b98e1ad6d14693b982f69",
     "size_kb": 0.8
-  },
-  "images/praise_challenges.svg": {
-    "md5Checksum": "f2a115bc8e556f0326e9d9c09452a06e",
-    "size_kb": 20.6
-  },
-  "images/routine_challenges.svg": {
-    "md5Checksum": "d7e305f3a52bcf0e3d71a083dfa039ce",
-    "size_kb": 20.5
-  },
-  "images/talk_feelings_challenges.svg": {
-    "md5Checksum": "694bc272bb2cc36de45efd3e3b259918",
-    "size_kb": 19.3
-  },
-  "images/what_is_safeguarding.svg": {
-    "md5Checksum": "720cf48f780d84ba2d4810c4befeee45",
-    "size_kb": 5.6
   },
   "lottie/checkmark_blue.json": {
     "md5Checksum": "8a2142347e0031620e14807839f439d5",
@@ -915,6 +775,10 @@
     "md5Checksum": "39cfc4c35c0095806e14402a27c33b22",
     "size_kb": 756.6
   },
+  "pdf/07_mod7_talakayan_ng_pabaong_gawain.pdf": {
+    "md5Checksum": "932ee960e818b5ac12eb15ced113f054",
+    "size_kb": 114.4
+  },
   "pdf/08_mod8_intro.pdf": {
     "md5Checksum": "5566a100d3343e73da48626891a87c69",
     "size_kb": 708.2
@@ -942,53 +806,5 @@
   "pdf/08_mod8_session_structure.pdf": {
     "md5Checksum": "fc1e2167644863fb45a309c9d94f3196",
     "size_kb": 80.3
-  },
-  "pdf/manual.pdf": {
-    "md5Checksum": "9188c320eec37ad742fb641aef69006f",
-    "size_kb": 470.3
-  },
-  "pdf/manual_study.pdf": {
-    "md5Checksum": "150ff71569a822bda0f3a02786ccfd0a",
-    "size_kb": 1047
-  },
-  "pdf/module_1_deliver.pdf": {
-    "md5Checksum": "a4024d0915c74dcbea21154533e97fdf",
-    "size_kb": 2718.4
-  },
-  "pdf/module_1_prepare.pdf": {
-    "md5Checksum": "c4bfd80e52d36256bdd5b9e78937e541",
-    "size_kb": 179
-  },
-  "pdf/module_1_troubleshooting.pdf": {
-    "md5Checksum": "87aaac3902d1c130f47df80f201dbf78",
-    "size_kb": 222.4
-  },
-  "pdf/module_2_guide.pdf": {
-    "md5Checksum": "bc77b5695c16f2d0bfe6a0b6733df325",
-    "size_kb": 1777.1
-  },
-  "pdf/module_3_guide.pdf": {
-    "md5Checksum": "fca7861ef2c2b3e4076942c9682dca0c",
-    "size_kb": 269
-  },
-  "pdf/overview_guide_study.pdf": {
-    "md5Checksum": "fbb4961d36ae4a2897f123e6f585e59d",
-    "size_kb": 2252.6
-  },
-  "pdf/peas.pdf": {
-    "md5Checksum": "fa25d1dc22744b9a9ee5987b74ccc1c7",
-    "size_kb": 590.3
-  },
-  "pdf/programme_details.pdf": {
-    "md5Checksum": "d7f88e6bc4851b986b223a9b536e0e18",
-    "size_kb": 123
-  },
-  "videos/body_scan.mp4": {
-    "md5Checksum": "c8c9e45cc548c3cadd1058f76d355594",
-    "size_kb": 9079.2
-  },
-  "videos/feelings_yc.mp4": {
-    "md5Checksum": "5fe17ceb759ea24bbcf0a02241277177",
-    "size_kb": 43746.5
   }
 }

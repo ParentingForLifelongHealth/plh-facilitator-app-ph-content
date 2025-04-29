@@ -490,25 +490,13 @@
       "loop_id": "week_2_session",
       "foreign_key": "week_2_session",
       "type": "article",
-      "next_article": "week_2_session_31",
+      "next_article": "",
       "previous_article": "week_2_session_29",
       "test": "week_2_session",
       "create_loop": 0
     },
     {
       "ignore": 42,
-      "id": "week_2_session_31",
-      "completed": false,
-      "loop_id": "week_2_session",
-      "foreign_key": "week_2_session",
-      "type": "article",
-      "next_article": "",
-      "previous_article": "week_2_session_30",
-      "test": "week_2_session",
-      "create_loop": 0
-    },
-    {
-      "ignore": 43,
       "id": "week_2_1_reminder",
       "completed": false,
       "loop_id": "week_2_1_reminder",
@@ -520,7 +508,7 @@
       "create_loop": "create"
     },
     {
-      "ignore": 44,
+      "ignore": 43,
       "id": "week_2_2_reminder",
       "completed": false,
       "loop_id": "week_2_2_reminder",
@@ -532,7 +520,7 @@
       "create_loop": "create"
     },
     {
-      "ignore": 45,
+      "ignore": 44,
       "id": "week_3_session",
       "completed": false,
       "loop_id": "week_3_session",
@@ -544,7 +532,7 @@
       "create_loop": "create"
     },
     {
-      "ignore": 46,
+      "ignore": 45,
       "id": "week_3_session_2",
       "completed": false,
       "loop_id": "week_3_session",
@@ -556,7 +544,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 47,
+      "ignore": 46,
       "id": "week_3_session_3",
       "completed": false,
       "loop_id": "week_3_session",
@@ -568,7 +556,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 48,
+      "ignore": 47,
       "id": "week_3_session_4",
       "completed": false,
       "loop_id": "week_3_session",
@@ -580,7 +568,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 49,
+      "ignore": 48,
       "id": "week_3_session_5",
       "completed": false,
       "loop_id": "week_3_session",
@@ -592,7 +580,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 50,
+      "ignore": 49,
       "id": "week_3_session_6",
       "completed": false,
       "loop_id": "week_3_session",
@@ -604,7 +592,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 51,
+      "ignore": 50,
       "id": "week_3_session_7",
       "completed": false,
       "loop_id": "week_3_session",
@@ -616,7 +604,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 52,
+      "ignore": 51,
       "id": "week_3_session_8",
       "completed": false,
       "loop_id": "week_3_session",
@@ -628,7 +616,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 53,
+      "ignore": 52,
       "id": "week_3_session_9",
       "completed": false,
       "loop_id": "week_3_session",
@@ -640,7 +628,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 54,
+      "ignore": 53,
       "id": "week_3_session_10",
       "completed": false,
       "loop_id": "week_3_session",
@@ -652,7 +640,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 55,
+      "ignore": 54,
       "id": "week_3_session_11",
       "completed": false,
       "loop_id": "week_3_session",
@@ -664,7 +652,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 56,
+      "ignore": 55,
       "id": "week_3_session_12",
       "completed": false,
       "loop_id": "week_3_session",
@@ -676,7 +664,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 57,
+      "ignore": 56,
       "id": "week_3_session_13",
       "completed": false,
       "loop_id": "week_3_session",
@@ -688,7 +676,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 58,
+      "ignore": 57,
       "id": "week_3_session_14",
       "completed": false,
       "loop_id": "week_3_session",
@@ -700,7 +688,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 59,
+      "ignore": 58,
       "id": "week_3_session_15",
       "completed": false,
       "loop_id": "week_3_session",
@@ -712,7 +700,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 60,
+      "ignore": 59,
       "id": "week_3_session_16",
       "completed": false,
       "loop_id": "week_3_session",
@@ -724,7 +712,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 61,
+      "ignore": 60,
       "id": "week_3_session_17",
       "completed": false,
       "loop_id": "week_3_session",
@@ -736,7 +724,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 62,
+      "ignore": 61,
       "id": "week_3_session_18",
       "completed": false,
       "loop_id": "week_3_session",
@@ -748,7 +736,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 63,
+      "ignore": 62,
       "id": "week_3_session_19",
       "completed": false,
       "loop_id": "week_3_session",
@@ -760,7 +748,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 64,
+      "ignore": 63,
       "id": "week_3_session_20",
       "completed": false,
       "loop_id": "week_3_session",
@@ -772,7 +760,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 65,
+      "ignore": 64,
       "id": "week_3_session_21",
       "completed": false,
       "loop_id": "week_3_session",
@@ -784,7 +772,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 66,
+      "ignore": 65,
       "id": "week_3_session_22",
       "completed": false,
       "loop_id": "week_3_session",
@@ -796,7 +784,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 67,
+      "ignore": 66,
       "id": "week_3_session_23",
       "completed": false,
       "loop_id": "week_3_session",
@@ -808,7 +796,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 68,
+      "ignore": 67,
       "id": "week_3_session_24",
       "completed": false,
       "loop_id": "week_3_session",
@@ -820,7 +808,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 69,
+      "ignore": 68,
       "id": "week_3_session_25",
       "completed": false,
       "loop_id": "week_3_session",
@@ -832,7 +820,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 70,
+      "ignore": 69,
       "id": "week_3_session_26",
       "completed": false,
       "loop_id": "week_3_session",
@@ -844,7 +832,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 71,
+      "ignore": 70,
       "id": "week_3_session_27",
       "completed": false,
       "loop_id": "week_3_session",
@@ -856,7 +844,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 72,
+      "ignore": 71,
       "id": "week_3_session_28",
       "completed": false,
       "loop_id": "week_3_session",
@@ -868,7 +856,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 73,
+      "ignore": 72,
       "id": "week_3_session_29",
       "completed": false,
       "loop_id": "week_3_session",
@@ -880,7 +868,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 74,
+      "ignore": 73,
       "id": "week_3_session_30",
       "completed": false,
       "loop_id": "week_3_session",
@@ -892,7 +880,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 75,
+      "ignore": 74,
       "id": "week_3_session_31",
       "completed": false,
       "loop_id": "week_3_session",
@@ -904,7 +892,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 76,
+      "ignore": 75,
       "id": "week_3_session_32",
       "completed": false,
       "loop_id": "week_3_session",
@@ -916,7 +904,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 77,
+      "ignore": 76,
       "id": "week_3_session_33",
       "completed": false,
       "loop_id": "week_3_session",
@@ -928,7 +916,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 78,
+      "ignore": 77,
       "id": "week_3_session_34",
       "completed": false,
       "loop_id": "week_3_session",
@@ -940,7 +928,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 79,
+      "ignore": 78,
       "id": "week_3_session_35",
       "completed": false,
       "loop_id": "week_3_session",
@@ -952,7 +940,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 80,
+      "ignore": 79,
       "id": "week_3_1_reminder",
       "completed": false,
       "loop_id": "week_3_1_reminder",
@@ -964,7 +952,7 @@
       "create_loop": "create"
     },
     {
-      "ignore": 81,
+      "ignore": 80,
       "id": "week_3_2_reminder",
       "completed": false,
       "loop_id": "week_3_2_reminder",
@@ -976,7 +964,7 @@
       "create_loop": "create"
     },
     {
-      "ignore": 82,
+      "ignore": 81,
       "id": "week_4_session",
       "completed": false,
       "loop_id": "week_4_session",
@@ -988,7 +976,7 @@
       "create_loop": "create"
     },
     {
-      "ignore": 83,
+      "ignore": 82,
       "id": "week_4_session_2",
       "completed": false,
       "loop_id": "week_4_session",
@@ -1000,7 +988,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 84,
+      "ignore": 83,
       "id": "week_4_session_3",
       "completed": false,
       "loop_id": "week_4_session",
@@ -1012,7 +1000,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 85,
+      "ignore": 84,
       "id": "week_4_session_4",
       "completed": false,
       "loop_id": "week_4_session",
@@ -1024,7 +1012,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 86,
+      "ignore": 85,
       "id": "week_4_session_5",
       "completed": false,
       "loop_id": "week_4_session",
@@ -1036,7 +1024,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 87,
+      "ignore": 86,
       "id": "week_4_session_6",
       "completed": false,
       "loop_id": "week_4_session",
@@ -1048,7 +1036,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 88,
+      "ignore": 87,
       "id": "week_4_session_7",
       "completed": false,
       "loop_id": "week_4_session",
@@ -1060,7 +1048,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 89,
+      "ignore": 88,
       "id": "week_4_session_8",
       "completed": false,
       "loop_id": "week_4_session",
@@ -1072,7 +1060,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 90,
+      "ignore": 89,
       "id": "week_4_session_9",
       "completed": false,
       "loop_id": "week_4_session",
@@ -1084,7 +1072,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 91,
+      "ignore": 90,
       "id": "week_4_session_10",
       "completed": false,
       "loop_id": "week_4_session",
@@ -1096,7 +1084,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 92,
+      "ignore": 91,
       "id": "week_4_session_11",
       "completed": false,
       "loop_id": "week_4_session",
@@ -1108,7 +1096,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 93,
+      "ignore": 92,
       "id": "week_4_session_12",
       "completed": false,
       "loop_id": "week_4_session",
@@ -1120,7 +1108,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 94,
+      "ignore": 93,
       "id": "week_4_session_13",
       "completed": false,
       "loop_id": "week_4_session",
@@ -1132,7 +1120,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 95,
+      "ignore": 94,
       "id": "week_4_session_14",
       "completed": false,
       "loop_id": "week_4_session",
@@ -1144,7 +1132,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 96,
+      "ignore": 95,
       "id": "week_4_session_15",
       "completed": false,
       "loop_id": "week_4_session",
@@ -1156,7 +1144,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 97,
+      "ignore": 96,
       "id": "week_4_session_16",
       "completed": false,
       "loop_id": "week_4_session",
@@ -1168,7 +1156,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 98,
+      "ignore": 97,
       "id": "week_4_session_17",
       "completed": false,
       "loop_id": "week_4_session",
@@ -1180,7 +1168,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 99,
+      "ignore": 98,
       "id": "week_4_session_18",
       "completed": false,
       "loop_id": "week_4_session",
@@ -1192,7 +1180,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 100,
+      "ignore": 99,
       "id": "week_4_session_19",
       "completed": false,
       "loop_id": "week_4_session",
@@ -1204,7 +1192,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 101,
+      "ignore": 100,
       "id": "week_4_session_20",
       "completed": false,
       "loop_id": "week_4_session",
@@ -1216,7 +1204,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 102,
+      "ignore": 101,
       "id": "week_4_session_21",
       "completed": false,
       "loop_id": "week_4_session",
@@ -1228,7 +1216,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 103,
+      "ignore": 102,
       "id": "week_4_session_22",
       "completed": false,
       "loop_id": "week_4_session",
@@ -1240,7 +1228,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 104,
+      "ignore": 103,
       "id": "week_4_session_23",
       "completed": false,
       "loop_id": "week_4_session",
@@ -1252,7 +1240,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 105,
+      "ignore": 104,
       "id": "week_4_session_24",
       "completed": false,
       "loop_id": "week_4_session",
@@ -1264,7 +1252,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 106,
+      "ignore": 105,
       "id": "week_4_session_25",
       "completed": false,
       "loop_id": "week_4_session",
@@ -1276,7 +1264,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 107,
+      "ignore": 106,
       "id": "week_4_session_26",
       "completed": false,
       "loop_id": "week_4_session",
@@ -1288,7 +1276,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 108,
+      "ignore": 107,
       "id": "week_4_session_27",
       "completed": false,
       "loop_id": "week_4_session",
@@ -1300,7 +1288,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 109,
+      "ignore": 108,
       "id": "week_4_session_28",
       "completed": false,
       "loop_id": "week_4_session",
@@ -1312,7 +1300,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 110,
+      "ignore": 109,
       "id": "week_4_session_29",
       "completed": false,
       "loop_id": "week_4_session",
@@ -1324,7 +1312,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 111,
+      "ignore": 110,
       "id": "week_4_session_30",
       "completed": false,
       "loop_id": "week_4_session",
@@ -1336,7 +1324,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 112,
+      "ignore": 111,
       "id": "week_4_session_31",
       "completed": false,
       "loop_id": "week_4_session",
@@ -1348,7 +1336,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 113,
+      "ignore": 112,
       "id": "week_4_session_32",
       "completed": false,
       "loop_id": "week_4_session",
@@ -1360,7 +1348,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 114,
+      "ignore": 113,
       "id": "week_4_session_33",
       "completed": false,
       "loop_id": "week_4_session",
@@ -1372,7 +1360,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 115,
+      "ignore": 114,
       "id": "week_4_session_34",
       "completed": false,
       "loop_id": "week_4_session",
@@ -1384,7 +1372,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 116,
+      "ignore": 115,
       "id": "week_4_session_35",
       "completed": false,
       "loop_id": "week_4_session",
@@ -1396,7 +1384,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 117,
+      "ignore": 116,
       "id": "week_4_1_reminder",
       "completed": false,
       "loop_id": "week_4_1_reminder",
@@ -1408,7 +1396,7 @@
       "create_loop": "create"
     },
     {
-      "ignore": 118,
+      "ignore": 117,
       "id": "week_4_2_reminder",
       "completed": false,
       "loop_id": "week_4_2_reminder",
@@ -1420,7 +1408,7 @@
       "create_loop": "create"
     },
     {
-      "ignore": 119,
+      "ignore": 118,
       "id": "week_5_session",
       "completed": false,
       "loop_id": "week_5_session",
@@ -1432,7 +1420,7 @@
       "create_loop": "create"
     },
     {
-      "ignore": 120,
+      "ignore": 119,
       "id": "week_5_session_2",
       "completed": false,
       "loop_id": "week_5_session",
@@ -1444,7 +1432,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 121,
+      "ignore": 120,
       "id": "week_5_session_3",
       "completed": false,
       "loop_id": "week_5_session",
@@ -1456,7 +1444,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 122,
+      "ignore": 121,
       "id": "week_5_session_4",
       "completed": false,
       "loop_id": "week_5_session",
@@ -1468,7 +1456,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 123,
+      "ignore": 122,
       "id": "week_5_session_5",
       "completed": false,
       "loop_id": "week_5_session",
@@ -1480,7 +1468,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 124,
+      "ignore": 123,
       "id": "week_5_session_6",
       "completed": false,
       "loop_id": "week_5_session",
@@ -1492,7 +1480,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 125,
+      "ignore": 124,
       "id": "week_5_session_7",
       "completed": false,
       "loop_id": "week_5_session",
@@ -1504,7 +1492,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 126,
+      "ignore": 125,
       "id": "week_5_session_8",
       "completed": false,
       "loop_id": "week_5_session",
@@ -1516,7 +1504,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 127,
+      "ignore": 126,
       "id": "week_5_session_9",
       "completed": false,
       "loop_id": "week_5_session",
@@ -1528,7 +1516,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 128,
+      "ignore": 127,
       "id": "week_5_1_reminder",
       "completed": false,
       "loop_id": "week_5_1_reminder",
@@ -1540,7 +1528,7 @@
       "create_loop": "create"
     },
     {
-      "ignore": 129,
+      "ignore": 128,
       "id": "week_5_1_reminder_2",
       "completed": false,
       "loop_id": "week_5_1_reminder",
@@ -1552,7 +1540,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 130,
+      "ignore": 129,
       "id": "week_5_1_reminder_3",
       "completed": false,
       "loop_id": "week_5_1_reminder",
@@ -1564,7 +1552,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 131,
+      "ignore": 130,
       "id": "week_5_2_reminder",
       "completed": false,
       "loop_id": "week_5_2_reminder",
@@ -1576,7 +1564,7 @@
       "create_loop": "create"
     },
     {
-      "ignore": 132,
+      "ignore": 131,
       "id": "week_6_session",
       "completed": false,
       "loop_id": "week_6_session",
@@ -1588,7 +1576,7 @@
       "create_loop": "create"
     },
     {
-      "ignore": 133,
+      "ignore": 132,
       "id": "week_6_session_2",
       "completed": false,
       "loop_id": "week_6_session",
@@ -1600,7 +1588,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 134,
+      "ignore": 133,
       "id": "week_6_session_3",
       "completed": false,
       "loop_id": "week_6_session",
@@ -1612,7 +1600,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 135,
+      "ignore": 134,
       "id": "week_6_session_4",
       "completed": false,
       "loop_id": "week_6_session",
@@ -1624,7 +1612,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 136,
+      "ignore": 135,
       "id": "week_6_session_5",
       "completed": false,
       "loop_id": "week_6_session",
@@ -1636,7 +1624,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 137,
+      "ignore": 136,
       "id": "week_6_session_6",
       "completed": false,
       "loop_id": "week_6_session",
@@ -1648,7 +1636,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 138,
+      "ignore": 137,
       "id": "week_6_session_7",
       "completed": false,
       "loop_id": "week_6_session",
@@ -1660,7 +1648,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 139,
+      "ignore": 138,
       "id": "week_6_session_8",
       "completed": false,
       "loop_id": "week_6_session",
@@ -1672,7 +1660,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 140,
+      "ignore": 139,
       "id": "week_6_session_9",
       "completed": false,
       "loop_id": "week_6_session",
@@ -1684,7 +1672,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 141,
+      "ignore": 140,
       "id": "week_6_session_10",
       "completed": false,
       "loop_id": "week_6_session",
@@ -1696,7 +1684,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 142,
+      "ignore": 141,
       "id": "week_6_session_11",
       "completed": false,
       "loop_id": "week_6_session",
@@ -1708,7 +1696,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 143,
+      "ignore": 142,
       "id": "week_6_session_12",
       "completed": false,
       "loop_id": "week_6_session",
@@ -1720,7 +1708,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 144,
+      "ignore": 143,
       "id": "week_6_session_13",
       "completed": false,
       "loop_id": "week_6_session",
@@ -1732,7 +1720,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 145,
+      "ignore": 144,
       "id": "week_6_session_14",
       "completed": false,
       "loop_id": "week_6_session",
@@ -1744,7 +1732,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 146,
+      "ignore": 145,
       "id": "week_6_session_15",
       "completed": false,
       "loop_id": "week_6_session",
@@ -1756,7 +1744,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 147,
+      "ignore": 146,
       "id": "week_6_session_16",
       "completed": false,
       "loop_id": "week_6_session",
@@ -1768,7 +1756,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 148,
+      "ignore": 147,
       "id": "week_6_session_17",
       "completed": false,
       "loop_id": "week_6_session",
@@ -1780,7 +1768,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 149,
+      "ignore": 148,
       "id": "week_6_session_18",
       "completed": false,
       "loop_id": "week_6_session",
@@ -1792,7 +1780,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 150,
+      "ignore": 149,
       "id": "week_6_session_19",
       "completed": false,
       "loop_id": "week_6_session",
@@ -1804,7 +1792,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 151,
+      "ignore": 150,
       "id": "week_6_session_20",
       "completed": false,
       "loop_id": "week_6_session",
@@ -1816,7 +1804,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 152,
+      "ignore": 151,
       "id": "week_6_session_21",
       "completed": false,
       "loop_id": "week_6_session",
@@ -1828,7 +1816,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 153,
+      "ignore": 152,
       "id": "week_6_session_22",
       "completed": false,
       "loop_id": "week_6_session",
@@ -1840,7 +1828,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 154,
+      "ignore": 153,
       "id": "week_6_session_23",
       "completed": false,
       "loop_id": "week_6_session",
@@ -1852,7 +1840,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 155,
+      "ignore": 154,
       "id": "week_6_session_24",
       "completed": false,
       "loop_id": "week_6_session",
@@ -1864,7 +1852,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 156,
+      "ignore": 155,
       "id": "week_6_session_25",
       "completed": false,
       "loop_id": "week_6_session",
@@ -1876,7 +1864,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 157,
+      "ignore": 156,
       "id": "week_6_session_26",
       "completed": false,
       "loop_id": "week_6_session",
@@ -1888,7 +1876,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 158,
+      "ignore": 157,
       "id": "week_6_session_27",
       "completed": false,
       "loop_id": "week_6_session",
@@ -1900,7 +1888,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 159,
+      "ignore": 158,
       "id": "week_6_session_28",
       "completed": false,
       "loop_id": "week_6_session",
@@ -1912,7 +1900,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 160,
+      "ignore": 159,
       "id": "week_6_session_29",
       "completed": false,
       "loop_id": "week_6_session",
@@ -1924,7 +1912,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 161,
+      "ignore": 160,
       "id": "week_6_session_30",
       "completed": false,
       "loop_id": "week_6_session",
@@ -1936,7 +1924,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 162,
+      "ignore": 161,
       "id": "week_6_session_31",
       "completed": false,
       "loop_id": "week_6_session",
@@ -1948,7 +1936,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 163,
+      "ignore": 162,
       "id": "week_6_session_32",
       "completed": false,
       "loop_id": "week_6_session",
@@ -1960,7 +1948,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 164,
+      "ignore": 163,
       "id": "week_6_session_33",
       "completed": false,
       "loop_id": "week_6_session",
@@ -1972,7 +1960,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 165,
+      "ignore": 164,
       "id": "week_6_session_34",
       "completed": false,
       "loop_id": "week_6_session",
@@ -1984,7 +1972,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 166,
+      "ignore": 165,
       "id": "week_6_session_35",
       "completed": false,
       "loop_id": "week_6_session",
@@ -1996,7 +1984,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 167,
+      "ignore": 166,
       "id": "week_6_session_36",
       "completed": false,
       "loop_id": "week_6_session",
@@ -2008,7 +1996,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 168,
+      "ignore": 167,
       "id": "week_6_session_37",
       "completed": false,
       "loop_id": "week_6_session",
@@ -2020,7 +2008,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 169,
+      "ignore": 168,
       "id": "week_6_session_38",
       "completed": false,
       "loop_id": "week_6_session",
@@ -2032,7 +2020,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 170,
+      "ignore": 169,
       "id": "week_6_session_39",
       "completed": false,
       "loop_id": "week_6_session",
@@ -2044,7 +2032,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 171,
+      "ignore": 170,
       "id": "week_6_session_40",
       "completed": false,
       "loop_id": "week_6_session",
@@ -2056,7 +2044,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 172,
+      "ignore": 171,
       "id": "week_6_1_reminder",
       "completed": false,
       "loop_id": "week_6_1_reminder",
@@ -2068,7 +2056,7 @@
       "create_loop": "create"
     },
     {
-      "ignore": 173,
+      "ignore": 172,
       "id": "week_6_2_reminder",
       "completed": false,
       "loop_id": "week_6_2_reminder",
@@ -2080,7 +2068,7 @@
       "create_loop": "create"
     },
     {
-      "ignore": 174,
+      "ignore": 173,
       "id": "week_7_session",
       "completed": false,
       "loop_id": "week_7_session",
@@ -2092,7 +2080,7 @@
       "create_loop": "create"
     },
     {
-      "ignore": 175,
+      "ignore": 174,
       "id": "week_7_session_2",
       "completed": false,
       "loop_id": "week_7_session",
@@ -2104,7 +2092,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 176,
+      "ignore": 175,
       "id": "week_7_session_3",
       "completed": false,
       "loop_id": "week_7_session",
@@ -2116,7 +2104,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 177,
+      "ignore": 176,
       "id": "week_7_session_4",
       "completed": false,
       "loop_id": "week_7_session",
@@ -2128,7 +2116,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 178,
+      "ignore": 177,
       "id": "week_7_session_5",
       "completed": false,
       "loop_id": "week_7_session",
@@ -2140,7 +2128,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 179,
+      "ignore": 178,
       "id": "week_7_session_6",
       "completed": false,
       "loop_id": "week_7_session",
@@ -2152,7 +2140,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 180,
+      "ignore": 179,
       "id": "week_7_session_7",
       "completed": false,
       "loop_id": "week_7_session",
@@ -2164,7 +2152,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 181,
+      "ignore": 180,
       "id": "week_7_session_8",
       "completed": false,
       "loop_id": "week_7_session",
@@ -2176,7 +2164,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 182,
+      "ignore": 181,
       "id": "week_7_session_9",
       "completed": false,
       "loop_id": "week_7_session",
@@ -2188,7 +2176,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 183,
+      "ignore": 182,
       "id": "week_7_session_10",
       "completed": false,
       "loop_id": "week_7_session",
@@ -2200,7 +2188,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 184,
+      "ignore": 183,
       "id": "week_7_session_11",
       "completed": false,
       "loop_id": "week_7_session",
@@ -2212,7 +2200,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 185,
+      "ignore": 184,
       "id": "week_7_session_12",
       "completed": false,
       "loop_id": "week_7_session",
@@ -2224,7 +2212,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 186,
+      "ignore": 185,
       "id": "week_7_session_13",
       "completed": false,
       "loop_id": "week_7_session",
@@ -2236,7 +2224,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 187,
+      "ignore": 186,
       "id": "week_7_session_14",
       "completed": false,
       "loop_id": "week_7_session",
@@ -2248,7 +2236,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 188,
+      "ignore": 187,
       "id": "week_7_session_15",
       "completed": false,
       "loop_id": "week_7_session",
@@ -2260,7 +2248,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 189,
+      "ignore": 188,
       "id": "week_7_session_16",
       "completed": false,
       "loop_id": "week_7_session",
@@ -2272,7 +2260,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 190,
+      "ignore": 189,
       "id": "week_7_session_17",
       "completed": false,
       "loop_id": "week_7_session",
@@ -2284,7 +2272,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 191,
+      "ignore": 190,
       "id": "week_7_session_18",
       "completed": false,
       "loop_id": "week_7_session",
@@ -2296,7 +2284,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 192,
+      "ignore": 191,
       "id": "week_7_session_19",
       "completed": false,
       "loop_id": "week_7_session",
@@ -2308,7 +2296,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 193,
+      "ignore": 192,
       "id": "week_7_session_20",
       "completed": false,
       "loop_id": "week_7_session",
@@ -2320,7 +2308,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 194,
+      "ignore": 193,
       "id": "week_7_session_21",
       "completed": false,
       "loop_id": "week_7_session",
@@ -2332,7 +2320,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 195,
+      "ignore": 194,
       "id": "week_7_session_22",
       "completed": false,
       "loop_id": "week_7_session",
@@ -2344,7 +2332,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 196,
+      "ignore": 195,
       "id": "week_7_session_23",
       "completed": false,
       "loop_id": "week_7_session",
@@ -2356,7 +2344,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 197,
+      "ignore": 196,
       "id": "week_7_session_24",
       "completed": false,
       "loop_id": "week_7_session",
@@ -2368,7 +2356,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 198,
+      "ignore": 197,
       "id": "week_7_session_25",
       "completed": false,
       "loop_id": "week_7_session",
@@ -2380,7 +2368,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 199,
+      "ignore": 198,
       "id": "week_7_session_26",
       "completed": false,
       "loop_id": "week_7_session",
@@ -2392,7 +2380,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 200,
+      "ignore": 199,
       "id": "week_7_session_27",
       "completed": false,
       "loop_id": "week_7_session",
@@ -2404,7 +2392,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 201,
+      "ignore": 200,
       "id": "week_7_session_28",
       "completed": false,
       "loop_id": "week_7_session",
@@ -2416,7 +2404,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 202,
+      "ignore": 201,
       "id": "week_7_session_29",
       "completed": false,
       "loop_id": "week_7_session",
@@ -2428,7 +2416,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 203,
+      "ignore": 202,
       "id": "week_7_session_30",
       "completed": false,
       "loop_id": "week_7_session",
@@ -2440,7 +2428,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 204,
+      "ignore": 203,
       "id": "week_7_session_31",
       "completed": false,
       "loop_id": "week_7_session",
@@ -2452,7 +2440,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 205,
+      "ignore": 204,
       "id": "week_7_session_32",
       "completed": false,
       "loop_id": "week_7_session",
@@ -2464,7 +2452,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 206,
+      "ignore": 205,
       "id": "week_7_session_33",
       "completed": false,
       "loop_id": "week_7_session",
@@ -2476,7 +2464,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 207,
+      "ignore": 206,
       "id": "week_7_session_34",
       "completed": false,
       "loop_id": "week_7_session",
@@ -2488,7 +2476,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 208,
+      "ignore": 207,
       "id": "week_7_session_35",
       "completed": false,
       "loop_id": "week_7_session",
@@ -2500,7 +2488,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 209,
+      "ignore": 208,
       "id": "week_7_session_36",
       "completed": false,
       "loop_id": "week_7_session",
@@ -2512,7 +2500,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 210,
+      "ignore": 209,
       "id": "week_7_1_reminder",
       "completed": false,
       "loop_id": "week_7_1_reminder",
@@ -2524,7 +2512,7 @@
       "create_loop": "create"
     },
     {
-      "ignore": 211,
+      "ignore": 210,
       "id": "week_7_2_reminder",
       "completed": false,
       "loop_id": "week_7_2_reminder",
@@ -2536,7 +2524,7 @@
       "create_loop": "create"
     },
     {
-      "ignore": 212,
+      "ignore": 211,
       "id": "week_8_session",
       "completed": false,
       "loop_id": "week_8_session",
@@ -2548,7 +2536,7 @@
       "create_loop": "create"
     },
     {
-      "ignore": 213,
+      "ignore": 212,
       "id": "week_8_session_2",
       "completed": false,
       "loop_id": "week_8_session",
@@ -2560,7 +2548,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 214,
+      "ignore": 213,
       "id": "week_8_session_3",
       "completed": false,
       "loop_id": "week_8_session",
@@ -2572,7 +2560,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 215,
+      "ignore": 214,
       "id": "week_8_session_4",
       "completed": false,
       "loop_id": "week_8_session",
@@ -2584,7 +2572,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 216,
+      "ignore": 215,
       "id": "week_8_session_5",
       "completed": false,
       "loop_id": "week_8_session",
@@ -2596,7 +2584,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 217,
+      "ignore": 216,
       "id": "week_8_session_6",
       "completed": false,
       "loop_id": "week_8_session",
@@ -2608,7 +2596,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 218,
+      "ignore": 217,
       "id": "week_8_session_7",
       "completed": false,
       "loop_id": "week_8_session",
@@ -2620,7 +2608,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 219,
+      "ignore": 218,
       "id": "week_8_session_8",
       "completed": false,
       "loop_id": "week_8_session",
@@ -2632,7 +2620,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 220,
+      "ignore": 219,
       "id": "demo",
       "completed": false,
       "loop_id": "demo",
@@ -2644,7 +2632,7 @@
       "create_loop": "create"
     },
     {
-      "ignore": 221,
+      "ignore": 220,
       "id": "demo_2",
       "completed": false,
       "loop_id": "demo",
@@ -2656,7 +2644,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 222,
+      "ignore": 221,
       "id": "demo_3",
       "completed": false,
       "loop_id": "demo",
@@ -2668,7 +2656,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 223,
+      "ignore": 222,
       "id": "demo_4",
       "completed": false,
       "loop_id": "demo",
@@ -2680,7 +2668,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 224,
+      "ignore": 223,
       "id": "demo_5",
       "completed": false,
       "loop_id": "demo",
@@ -2692,7 +2680,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 225,
+      "ignore": 224,
       "id": "demo_6",
       "completed": false,
       "loop_id": "demo",
@@ -2704,7 +2692,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 226,
+      "ignore": 225,
       "id": "demo_7",
       "completed": false,
       "loop_id": "demo",
@@ -2716,7 +2704,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 227,
+      "ignore": 226,
       "id": "demo_8",
       "completed": false,
       "loop_id": "demo",
@@ -2728,7 +2716,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 228,
+      "ignore": 227,
       "id": "demo_9",
       "completed": false,
       "loop_id": "demo",
@@ -2740,7 +2728,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 229,
+      "ignore": 228,
       "id": "demo_10",
       "completed": false,
       "loop_id": "demo",
@@ -2752,7 +2740,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 230,
+      "ignore": 229,
       "id": "demo_11",
       "completed": false,
       "loop_id": "demo",
@@ -2764,7 +2752,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 231,
+      "ignore": 230,
       "id": "demo_12",
       "completed": false,
       "loop_id": "demo",
@@ -2776,7 +2764,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 232,
+      "ignore": 231,
       "id": "demo_13",
       "completed": false,
       "loop_id": "demo",
@@ -2788,7 +2776,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 233,
+      "ignore": 232,
       "id": "demo_14",
       "completed": false,
       "loop_id": "demo",
@@ -2800,7 +2788,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 234,
+      "ignore": 233,
       "id": "demo_15",
       "completed": false,
       "loop_id": "demo",
@@ -2812,7 +2800,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 235,
+      "ignore": 234,
       "id": "demo_16",
       "completed": false,
       "loop_id": "demo",
@@ -2824,7 +2812,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 236,
+      "ignore": 235,
       "id": "demo_17",
       "completed": false,
       "loop_id": "demo",
@@ -2836,7 +2824,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 237,
+      "ignore": 236,
       "id": "demo_18",
       "completed": false,
       "loop_id": "demo",
@@ -2848,7 +2836,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 238,
+      "ignore": 237,
       "id": "demo_19",
       "completed": false,
       "loop_id": "demo",
@@ -2860,7 +2848,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 239,
+      "ignore": 238,
       "id": "demo_20",
       "completed": false,
       "loop_id": "demo",
@@ -2872,7 +2860,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 240,
+      "ignore": 239,
       "id": "demo_21",
       "completed": false,
       "loop_id": "demo",
@@ -2884,7 +2872,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 241,
+      "ignore": 240,
       "id": "demo_22",
       "completed": false,
       "loop_id": "demo",
@@ -2896,7 +2884,7 @@
       "create_loop": 0
     },
     {
-      "ignore": 242,
+      "ignore": 241,
       "id": "demo_23",
       "completed": false,
       "loop_id": "demo",

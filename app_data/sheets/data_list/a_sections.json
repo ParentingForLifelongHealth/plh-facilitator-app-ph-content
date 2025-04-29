@@ -246,107 +246,107 @@
     },
     {
       "id": "section_31",
-      "foreign_key": "week_4_session_6",
-      "title": "Pundasyon ng Modyul 3: Pagbibigay ng **Positibong Direksyon**",
-      "text": "1️⃣ **MAGING POSITIBO** - Ngumiti at tingnan sa mata ang iyong anak. Gumamit ng mga positibong salita kapag nagbibigay ng direksyon.\n\n2️⃣ **MAGING ESPESIPIKO** - Sabihin ang mismong kilos na nais makita sa pinaka-klarong paraan.\n\n3️⃣ **MAGING MAKATOTOHANAN** - Siguraduhing kaya ng anak gawin ang pinapagawa. Kung kinakailangan, himayin ang malalaking gawain sa mas maliliit at paisa-isang hakbang.",
-      "ignore": 31,
-      "ignore_2": "week_4_session_6"
-    },
-    {
-      "id": "section_32",
       "foreign_key": "week_4_session_7",
       "title": "Pundasyon ng Modyul 3: Pagbibigay ng **Positibong Direksyon**",
       "text": "1️⃣ **MAGING POSITIBO** - Ngumiti at tingnan sa mata ang iyong anak. Gumamit ng mga positibong salita kapag nagbibigay ng direksyon.\n\n2️⃣ **MAGING ESPESIPIKO** - Sabihin ang mismong kilos na nais makita sa pinaka-klarong paraan.\n\n3️⃣ **MAGING MAKATOTOHANAN** - Siguraduhing kaya ng anak gawin ang pinapagawa. Kung kinakailangan, himayin ang malalaking gawain sa mas maliliit at paisa-isang hakbang.",
-      "ignore": 32,
+      "ignore": 31,
       "ignore_2": "week_4_session_7"
     },
     {
-      "id": "section_33",
+      "id": "section_32",
       "foreign_key": "week_4_session_8",
       "title": "Pundasyon ng Modyul 3: Pagbibigay ng **Positibong Direksyon**",
       "text": "1️⃣ **MAGING POSITIBO** - Ngumiti at tingnan sa mata ang iyong anak. Gumamit ng mga positibong salita kapag nagbibigay ng direksyon.\n\n2️⃣ **MAGING ESPESIPIKO** - Sabihin ang mismong kilos na nais makita sa pinaka-klarong paraan.\n\n3️⃣ **MAGING MAKATOTOHANAN** - Siguraduhing kaya ng anak gawin ang pinapagawa. Kung kinakailangan, himayin ang malalaking gawain sa mas maliliit at paisa-isang hakbang.",
-      "ignore": 33,
+      "ignore": 32,
       "ignore_2": "week_4_session_8"
     },
     {
-      "id": "section_34",
+      "id": "section_33",
       "foreign_key": "week_4_session_9",
       "title": "Pundasyon ng Modyul 3: Pagbibigay ng **Positibong Direksyon**",
       "text": "1️⃣ **MAGING POSITIBO** - Ngumiti at tingnan sa mata ang iyong anak. Gumamit ng mga positibong salita kapag nagbibigay ng direksyon.\n\n2️⃣ **MAGING ESPESIPIKO** - Sabihin ang mismong kilos na nais makita sa pinaka-klarong paraan.\n\n3️⃣ **MAGING MAKATOTOHANAN** - Siguraduhing kaya ng anak gawin ang pinapagawa. Kung kinakailangan, himayin ang malalaking gawain sa mas maliliit at paisa-isang hakbang.",
-      "ignore": 34,
+      "ignore": 33,
       "ignore_2": "week_4_session_9"
     },
     {
-      "id": "section_35",
+      "id": "section_34",
       "foreign_key": "week_4_session_10",
       "title": "Pundasyon ng Modyul 3: Pagbibigay ng **Positibong Direksyon**",
       "text": "1️⃣ **MAGING POSITIBO** - Ngumiti at tingnan sa mata ang iyong anak. Gumamit ng mga positibong salita kapag nagbibigay ng direksyon.\n\n2️⃣ **MAGING ESPESIPIKO** - Sabihin ang mismong kilos na nais makita sa pinaka-klarong paraan.\n\n3️⃣ **MAGING MAKATOTOHANAN** - Siguraduhing kaya ng anak gawin ang pinapagawa. Kung kinakailangan, himayin ang malalaking gawain sa mas maliliit at paisa-isang hakbang.",
-      "ignore": 35,
+      "ignore": 34,
       "ignore_2": "week_4_session_10"
     },
     {
+      "id": "section_35",
+      "foreign_key": "week_4_session_11",
+      "title": "Pundasyon ng Modyul 3: Pagbibigay ng **Positibong Direksyon**",
+      "text": "1️⃣ **MAGING POSITIBO** - Ngumiti at tingnan sa mata ang iyong anak. Gumamit ng mga positibong salita kapag nagbibigay ng direksyon.\n\n2️⃣ **MAGING ESPESIPIKO** - Sabihin ang mismong kilos na nais makita sa pinaka-klarong paraan.\n\n3️⃣ **MAGING MAKATOTOHANAN** - Siguraduhing kaya ng anak gawin ang pinapagawa. Kung kinakailangan, himayin ang malalaking gawain sa mas maliliit at paisa-isang hakbang.",
+      "ignore": 35,
+      "ignore_2": "week_4_session_11"
+    },
+    {
       "id": "section_36",
-      "foreign_key": "week_4_session_17",
+      "foreign_key": "week_4_session_18",
       "title": "Mga Posibleng Sagot ng mga Magulang",
       "text": "Ipinaliwanag ng magulang ang kahalagahan ng pagtatag ng patakaran.\nIsinali ng magulang ang kanyang anak sa pagtatag ng patakaran.\nKinausap ng magulang ang kanyang anak noong pareho silang mahinahon.\nAng patakaran ay klaro at espesipiko.\nAng patakaran ay naglalarawan ng positibong kilos.",
       "ignore": 36,
-      "ignore_2": "week_4_session_17"
+      "ignore_2": "week_4_session_18"
     },
     {
       "id": "section_37",
-      "foreign_key": "week_4_session_26",
+      "foreign_key": "week_4_session_27",
       "title": "Mga posibleng sagot ng mga magulang:",
       "text": "Nagsalitan at nagtulungan sila sa pag-aalaga ng kanilang mga anak.\nMerong oras para sa paglalaro, pagkain, at paggawa ng gawain sa eskwela.\nNagbigay sila ng oras para sa kanilang anak bago matulog.\nPinuri nila ang kanilang anak noong nasunod nito ang routine o regular na gawain.",
       "ignore": 37,
-      "ignore_2": "week_4_session_26"
-    },
-    {
-      "id": "section_38",
-      "foreign_key": "week_4_session_27",
-      "title": "Mga posibleng sagot ng mga magulang:",
-      "text": "Nagbigay ang mga magulang ng oras para sa sarili nilang One-on-One time.\nPinuri nila ang isa’t isa sa kanilang pagtutulungan",
-      "ignore": 38,
       "ignore_2": "week_4_session_27"
     },
     {
-      "id": "section_39",
+      "id": "section_38",
       "foreign_key": "week_4_session_28",
-      "title": "Narito ang ilang mga suhistiyong pwede mong ibigay kapag nakasagot na sila:",
-      "text": "Regular na gawain sa pagtulog\nPaggawa ng gawain sa eskwela\nGawaing bahay\nRegular na gawain bago kumain o sa hapagkainan\nPaglalaro o libreng oras\nPanonood ng TV o paggamit ng gadget\nOras ng pagbasa o kwentuhan\nOne-on-One Time",
-      "ignore": 39,
+      "title": "Mga posibleng sagot ng mga magulang:",
+      "text": "Nagbigay ang mga magulang ng oras para sa sarili nilang One-on-One time.\nPinuri nila ang isa’t isa sa kanilang pagtutulungan",
+      "ignore": 38,
       "ignore_2": "week_4_session_28"
     },
     {
-      "id": "section_40",
+      "id": "section_39",
       "foreign_key": "week_4_session_29",
-      "title": "Mga posibleng sagot ng mga magulang:",
-      "text": "Nakatutulong ang mga patakaran na mapanatiling ligtas ang mga miyembro ng pamilya at nahihimok nitong tumulong ang lahat sa bahay.\nNakatutulong ang mga regular na gawain sa pagpapanatiling ligtas ang tahanan.\nNakakabawas ng stress ang mga regular na gawain.\nNakatutulong ang mga regular na gawain sa pagkakaroon ng malusog na pagkain, maayos na pagtulog, at sa paggawa ng takdang-aralin.\nMas susundin ng mga batang anak ang mga patakaran kung sila ay isinasama sa pagtatag nila.\nMararamdaman ng mga batang anak na sila’y pinakikinggan at nirerespeto kung sila ang isinasama sa pagtatag nila.\nMatututo lalo ng responsibilidad ang mga tinedyer at malalaman nila kung ano ang mga kilos na inaasahan sa kanila.",
-      "ignore": 40,
+      "title": "Narito ang ilang mga suhistiyong pwede mong ibigay kapag nakasagot na sila:",
+      "text": "Regular na gawain sa pagtulog\nPaggawa ng gawain sa eskwela\nGawaing bahay\nRegular na gawain bago kumain o sa hapagkainan\nPaglalaro o libreng oras\nPanonood ng TV o paggamit ng gadget\nOras ng pagbasa o kwentuhan\nOne-on-One Time",
+      "ignore": 39,
       "ignore_2": "week_4_session_29"
     },
     {
+      "id": "section_40",
+      "foreign_key": "week_4_session_30",
+      "title": "Mga posibleng sagot ng mga magulang:",
+      "text": "Nakatutulong ang mga patakaran na mapanatiling ligtas ang mga miyembro ng pamilya at nahihimok nitong tumulong ang lahat sa bahay.\nNakatutulong ang mga regular na gawain sa pagpapanatiling ligtas ang tahanan.\nNakakabawas ng stress ang mga regular na gawain.\nNakatutulong ang mga regular na gawain sa pagkakaroon ng malusog na pagkain, maayos na pagtulog, at sa paggawa ng takdang-aralin.\nMas susundin ng mga batang anak ang mga patakaran kung sila ay isinasama sa pagtatag nila.\nMararamdaman ng mga batang anak na sila’y pinakikinggan at nirerespeto kung sila ang isinasama sa pagtatag nila.\nMatututo lalo ng responsibilidad ang mga tinedyer at malalaman nila kung ano ang mga kilos na inaasahan sa kanila.",
+      "ignore": 40,
+      "ignore_2": "week_4_session_30"
+    },
+    {
       "id": "section_41",
-      "foreign_key": "",
+      "foreign_key": "week_5_session",
       "title": "Bago ang sesyon, pag-usapan ang mga susunod kasama ang iyong co-facilitator:",
       "text": "1️⃣ Basahin ang modyul at siguraduhin klaro para sa inyo ang mga layunin sa inyong talakayan.\n\n2️⃣ Magsulat ng mga notes na makakatulong sa inyo sa pagpapadaloy ng sesyon.\n\n3️⃣ Maaaring makatulong na isulat ang iba't ibang paraan ng pagtatanong sa mga kalahok.\n\n4️⃣  Maaari mo ring pagsanayan o i-praktis ang pagsasagawa o pagtalakay ng ilang bahagi ng sesyon kasama ang iyong co-facilitator!\n\n5️⃣ Magdesisyon kung sino sa inyo at sa co-facilitator ang mangunguna sa mga aktibidad at kung sino ang magbibigay ng suporta.\n\n6️⃣ Suriin ang mga dokumento ng bawat participant upang makita ang kanilang progreso sa programa at upang tandaan kung sino ang nangangailangan ng karagdagang suporta.\n\n7️⃣ Hatiin ang oras ayon sa pangangailangan ng grupo.\n\n8️⃣ Dumating ng maaga upang ihanda ang espasyo na gagamitin.",
       "ignore": 41,
-      "ignore_2": ""
+      "ignore_2": "week_5_session_1"
     },
     {
       "id": "section_42",
-      "foreign_key": "week_5_session_4",
+      "foreign_key": "week_5_session_5",
       "title": "Pundasyon ng Modyul 4: Pagpapanatiling Ligtas ang Anak Gamit ang Patakaran at Regular na Gawain",
       "text": "1️⃣ **MAGING ISANG GRUPO** - Isama ang iyong batang anak o tinedyer sa pagtatag ng mga patakaran.\n2️⃣ **MAGING MAKATOTOHANAN** - Gumawa ng patakaran base sa kung ano ang kayang gawin ng batang anak at tinedyer. Maging klaro at espesipiko para alam nila ang kilos na inaasahan mula sa kanila.\n3️⃣ **GAWIN ITO PALAGI** - Ang regular na gawain ay nakatutulong sa ating anak para makaramdam ng kapanatagan at pagiging ligtas.\n4️⃣ **GUMAMIT NG PAPURI** - Purihin ang iyong batang anak o tinedyer sa paggawa ng patakaran kasama mo. Purihin din siya kapag nasunod niya ito!",
       "ignore": 42,
-      "ignore_2": "week_5_session_4"
+      "ignore_2": "week_5_session_5"
     },
     {
       "id": "section_43",
-      "foreign_key": "week_5_session_5",
+      "foreign_key": "week_5_session_6",
       "title": "Pundasyon ng Modyul 5: Pangangasiwa Ng Negatibong Kilos: Pagbaling Ng Atensyon At Paggamit Ng Konsekwensya",
       "text": "1️⃣ **MANATILING MAHINAHON** - Pinakamahalagang parte sa pagdidisiplina ng anak ay ang pagiging mahinahon ng magulang. Huminga nang malalim. Pwede ring lumabas nang sandali kung kailangan. Pagkatapos gawin ang mga ito, kausapin nang klaro at mahinahon ang anak. \n\n2️⃣ **MANATILING PATAS O MAKATARUNGAN** - Bigyan ang iyong anak ng pagkakataong sumunod sa utos o patakaran bago siya bigyan ng konsekwensya. Kausapin ang iyong batang anak o tinedyer na anak tungkol sa bagong patakaran sa bahay at siguruhing makatarungan ang konsekwensya kapag hindi nasunod ang patakaran. Siguruhin ding kaya mong ibigay ang konsekwensya.\n\n3️⃣ **MANATILING POSITIBO** -Alalahanin ang Sinag ng Atensyon at Aruga! Subukang iwasan ang pagbibigay ng konsekwensya sa pamamagitan ng paunang paggamit ng pagbaling ng atensyon at ang pagbibigay ng positibong atensyon at papuri para sa mga kilos ng iyong anak na gusto mong mangyari nang mas madalas. Siguruhing isama ang iyong anak sa isang positibong gawain pagkatapos mo siyang bigyan o patawan ng konsekwensya.",
       "ignore": 43,
-      "ignore_2": "week_5_session_5"
+      "ignore_2": "week_5_session_6"
     },
     {
       "id": "section_44",
@@ -654,75 +654,75 @@
     },
     {
       "id": "section_82",
-      "foreign_key": "week_4_session_6",
-      "title": "Pundasyon ng Modyul 3: **Pagbibigay ng Papuri**",
-      "text": "1️⃣ **​​PANSININ** - Pansinin ang mga maayos o magandang kilos ng iyong anak at purihin agad sila.\n\n2️⃣ **SABIHIN** - Maging magiliw at espesipiko sa pagsasabi ng papuri!\n\n3️⃣ **ULITIN** - Maghanap ng mga bagay na pupurihin sa iyong mga anak sa araw-araw.",
-      "ignore": 82,
-      "ignore_2": "week_4_session_6"
-    },
-    {
-      "id": "section_83",
       "foreign_key": "week_4_session_7",
       "title": "Pundasyon ng Modyul 3: **Pagbibigay ng Papuri**",
       "text": "1️⃣ **​​PANSININ** - Pansinin ang mga maayos o magandang kilos ng iyong anak at purihin agad sila.\n\n2️⃣ **SABIHIN** - Maging magiliw at espesipiko sa pagsasabi ng papuri!\n\n3️⃣ **ULITIN** - Maghanap ng mga bagay na pupurihin sa iyong mga anak sa araw-araw.",
-      "ignore": 83,
+      "ignore": 82,
       "ignore_2": "week_4_session_7"
     },
     {
-      "id": "section_84",
+      "id": "section_83",
       "foreign_key": "week_4_session_8",
       "title": "Pundasyon ng Modyul 3: **Pagbibigay ng Papuri**",
       "text": "1️⃣ **​​PANSININ** - Pansinin ang mga maayos o magandang kilos ng iyong anak at purihin agad sila.\n\n2️⃣ **SABIHIN** - Maging magiliw at espesipiko sa pagsasabi ng papuri!\n\n3️⃣ **ULITIN** - Maghanap ng mga bagay na pupurihin sa iyong mga anak sa araw-araw.",
-      "ignore": 84,
+      "ignore": 83,
       "ignore_2": "week_4_session_8"
     },
     {
-      "id": "section_85",
+      "id": "section_84",
       "foreign_key": "week_4_session_9",
       "title": "Pundasyon ng Modyul 3: **Pagbibigay ng Papuri**",
       "text": "1️⃣ **​​PANSININ** - Pansinin ang mga maayos o magandang kilos ng iyong anak at purihin agad sila.\n\n2️⃣ **SABIHIN** - Maging magiliw at espesipiko sa pagsasabi ng papuri!\n\n3️⃣ **ULITIN** - Maghanap ng mga bagay na pupurihin sa iyong mga anak sa araw-araw.",
-      "ignore": 85,
+      "ignore": 84,
       "ignore_2": "week_4_session_9"
     },
     {
-      "id": "section_86",
+      "id": "section_85",
       "foreign_key": "week_4_session_10",
       "title": "Pundasyon ng Modyul 3: **Pagbibigay ng Papuri**",
       "text": "1️⃣ **​​PANSININ** - Pansinin ang mga maayos o magandang kilos ng iyong anak at purihin agad sila.\n\n2️⃣ **SABIHIN** - Maging magiliw at espesipiko sa pagsasabi ng papuri!\n\n3️⃣ **ULITIN** - Maghanap ng mga bagay na pupurihin sa iyong mga anak sa araw-araw.",
-      "ignore": 86,
+      "ignore": 85,
       "ignore_2": "week_4_session_10"
     },
     {
+      "id": "section_86",
+      "foreign_key": "week_4_session_11",
+      "title": "Pundasyon ng Modyul 3: **Pagbibigay ng Papuri**",
+      "text": "1️⃣ **​​PANSININ** - Pansinin ang mga maayos o magandang kilos ng iyong anak at purihin agad sila.\n\n2️⃣ **SABIHIN** - Maging magiliw at espesipiko sa pagsasabi ng papuri!\n\n3️⃣ **ULITIN** - Maghanap ng mga bagay na pupurihin sa iyong mga anak sa araw-araw.",
+      "ignore": 86,
+      "ignore_2": "week_4_session_11"
+    },
+    {
       "id": "section_87",
-      "foreign_key": "week_4_session_17",
+      "foreign_key": "week_4_session_18",
       "title": "Pundasyon ng Modyul 4: Pagpapanatiling Ligtas ang Anak Gamit ang Patakaran at Regular na Gawain",
       "text": "1️⃣ **MAGING ISANG GRUPO** - Isama ang iyong batang anak o tinedyer sa pagtatag ng mga patakaran.\n\n2️⃣ **MAGING MAKATOTOHANAN** - Gumawa ng patakaran base sa kung ano ang kayang gawin ng batang anak at tinedyer. Maging klaro at espesipiko para alam nila ang kilos na inaasahan mula sa kanila.\n\n3️⃣ **GAWIN ITO PALAGI** - Ang regular na gawain ay nakatutulong sa ating anak para makaramdam ng kapanatagan at pagiging ligtas.\n\n4️⃣ **GUMAMIT NG PAPURI** - Purihin ang iyong batang anak o tinedyer sa paggawa ng patakaran kasama mo. Purihin din siya kapag nasunod niya ito!",
       "ignore": 87,
-      "ignore_2": "week_4_session_17"
+      "ignore_2": "week_4_session_18"
     },
     {
       "id": "section_88",
-      "foreign_key": "week_4_session_26",
-      "title": "Pundasyon ng Modyul 4: Pagpapanatiling Ligtas ang Anak Gamit ang Patakaran at Regular na Gawain",
-      "text": "1️⃣ **MAGING ISANG GRUPO** - Isama ang iyong batang anak o tinedyer sa pagtatag ng mga patakaran.\n\n2️⃣ **MAGING MAKATOTOHANAN** - Gumawa ng patakaran base sa kung ano ang kayang gawin ng batang anak at tinedyer. Maging klaro at espesipiko para alam nila ang kilos na inaasahan mula sa kanila.\n\n3️⃣ **GAWIN ITO PALAGI** - Ang regular na gawain ay nakatutulong sa ating anak para makaramdam ng kapanatagan at pagiging ligtas.\n\n4️⃣ **GUMAMIT NG PAPURI** - Purihin ang iyong batang anak o tinedyer sa paggawa ng patakaran kasama mo. Purihin din siya kapag nasunod niya ito!",
-      "ignore": 88,
-      "ignore_2": "week_4_session_26"
-    },
-    {
-      "id": "section_89",
       "foreign_key": "week_4_session_27",
       "title": "Pundasyon ng Modyul 4: Pagpapanatiling Ligtas ang Anak Gamit ang Patakaran at Regular na Gawain",
       "text": "1️⃣ **MAGING ISANG GRUPO** - Isama ang iyong batang anak o tinedyer sa pagtatag ng mga patakaran.\n\n2️⃣ **MAGING MAKATOTOHANAN** - Gumawa ng patakaran base sa kung ano ang kayang gawin ng batang anak at tinedyer. Maging klaro at espesipiko para alam nila ang kilos na inaasahan mula sa kanila.\n\n3️⃣ **GAWIN ITO PALAGI** - Ang regular na gawain ay nakatutulong sa ating anak para makaramdam ng kapanatagan at pagiging ligtas.\n\n4️⃣ **GUMAMIT NG PAPURI** - Purihin ang iyong batang anak o tinedyer sa paggawa ng patakaran kasama mo. Purihin din siya kapag nasunod niya ito!",
-      "ignore": 89,
+      "ignore": 88,
       "ignore_2": "week_4_session_27"
     },
     {
+      "id": "section_89",
+      "foreign_key": "week_4_session_28",
+      "title": "Pundasyon ng Modyul 4: Pagpapanatiling Ligtas ang Anak Gamit ang Patakaran at Regular na Gawain",
+      "text": "1️⃣ **MAGING ISANG GRUPO** - Isama ang iyong batang anak o tinedyer sa pagtatag ng mga patakaran.\n\n2️⃣ **MAGING MAKATOTOHANAN** - Gumawa ng patakaran base sa kung ano ang kayang gawin ng batang anak at tinedyer. Maging klaro at espesipiko para alam nila ang kilos na inaasahan mula sa kanila.\n\n3️⃣ **GAWIN ITO PALAGI** - Ang regular na gawain ay nakatutulong sa ating anak para makaramdam ng kapanatagan at pagiging ligtas.\n\n4️⃣ **GUMAMIT NG PAPURI** - Purihin ang iyong batang anak o tinedyer sa paggawa ng patakaran kasama mo. Purihin din siya kapag nasunod niya ito!",
+      "ignore": 89,
+      "ignore_2": "week_4_session_28"
+    },
+    {
       "id": "section_90",
-      "foreign_key": "",
+      "foreign_key": "week_5_session",
       "title": "Mga Materials na Kailangan Para sa Sesyon",
       "text": "Mga materials para sa 15 participants:\n✅ Pencils\n✅ Crayons\n✅ Bond papers\n✅ Ballpen\n✅ Name tags\n✅ Snacks\n\nIba pang materials para sa buong grupo:\n✅ Comic posters and handouts\n✅ Manila paper\n✅ Permanent markers\n✅ Projector\n✅ Video camera (kung irerecord ang sesyon)",
       "ignore": 90,
-      "ignore_2": ""
+      "ignore_2": "week_5_session_1"
     },
     {
       "id": "section_91",
@@ -814,11 +814,11 @@
     },
     {
       "id": "section_102",
-      "foreign_key": "",
+      "foreign_key": "week_5_session",
       "title": "Pundasyon ng Modyul 5: Pangangasiwa Ng Negatibong Kilos: Pagbaling Ng Atensyon At Paggamit Ng Konsekwensya",
       "text": "1️⃣ **MANATILING MAHINAHON** - Pinakamahalagang parte sa pagdidisiplina ng anak ay ang pagiging mahinahon ng magulang. Huminga nang malalim. Pwede ring lumabas nang sandali kung kailangan. Pagkatapos gawin ang mga ito, kausapin nang klaro at mahinahon ang anak. \n\n2️⃣ **MANATILING PATAS O MAKATARUNGAN** - Bigyan ang iyong anak ng pagkakataong sumunod sa utos o patakaran bago siya bigyan ng konsekwensya. Kausapin ang iyong batang anak o tinedyer na anak tungkol sa bagong patakaran sa bahay at siguruhing makatarungan ang konsekwensya kapag hindi nasunod ang patakaran. Siguruhin ding kaya mong ibigay ang konsekwensya.\n\n3️⃣ **MANATILING POSITIBO** -Alalahanin ang Sinag ng Atensyon at Aruga! Subukang iwasan ang pagbibigay ng konsekwensya sa pamamagitan ng paunang paggamit ng pagbaling ng atensyon at ang pagbibigay ng positibong atensyon at papuri para sa mga kilos ng iyong anak na gusto mong mangyari nang mas madalas. Siguruhing isama ang iyong anak sa isang positibong gawain pagkatapos mo siyang bigyan o patawan ng konsekwensya.",
       "ignore": 102,
-      "ignore_2": ""
+      "ignore_2": "week_5_session_1"
     },
     {
       "id": "section_103",

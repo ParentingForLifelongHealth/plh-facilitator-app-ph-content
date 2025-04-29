@@ -68,6 +68,58 @@
           "eng": "Week 4: Building Pleasant Emotions"
         }
       }
+    },
+    {
+      "id": "week_5",
+      "type": "in_person",
+      "name": "Week 5",
+      "_translations": {
+        "name": {}
+      },
+      "_translatedFields": {
+        "name": {
+          "eng": "Week 5"
+        }
+      }
+    },
+    {
+      "id": "week_6",
+      "type": "in_person",
+      "name": "Week 6",
+      "_translations": {
+        "name": {}
+      },
+      "_translatedFields": {
+        "name": {
+          "eng": "Week 6"
+        }
+      }
+    },
+    {
+      "id": "week_7",
+      "type": "in_person",
+      "name": "Week 7",
+      "_translations": {
+        "name": {}
+      },
+      "_translatedFields": {
+        "name": {
+          "eng": "Week 7"
+        }
+      }
+    },
+    {
+      "id": "week_8",
+      "type": "in_person",
+      "name": "Week 8",
+      "_translations": {
+        "name": {}
+      },
+      "_translatedFields": {
+        "name": {
+          "eng": "Week 8"
+        }
+      }
     }
   ],
   "_xlsxPath": "data/FacilitatorApp PH articles.xlsx"

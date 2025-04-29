@@ -5,59 +5,114 @@
   "data_list_name": "pdf",
   "rows": [
     {
-      "id": "onboard_guide",
-      "title": "Onboarding Guide",
-      "pdf_asset": "pdf/manual.pdf"
-    },
-    {
-      "id": "onboard_guide_study",
-      "title": "Onboarding Guide",
-      "pdf_asset": "pdf/manual_study.pdf"
-    },
-    {
-      "id": "more_info",
-      "title": "Programme Details",
-      "pdf_asset": "pdf/programme_details.pdf"
-    },
-    {
-      "id": "overview_study",
-      "title": "Overview Guide",
-      "pdf_asset": "pdf/overview_guide_study.pdf"
-    },
-    {
-      "id": "peas",
-      "title": "Reporting Abuse from Programme Partners",
-      "pdf_asset": "pdf/peas.pdf"
-    },
-    {
-      "id": "module_1_prepare",
-      "title": "Review the building blocks",
-      "pdf_asset": "pdf/module_1_prepare.pdf"
-    },
-    {
-      "id": "module_1_deliver",
-      "title": "Module 1 Facilitator Guide",
-      "pdf_asset": "pdf/module_1_deliver.pdf"
-    },
-    {
-      "id": "module_2_prepare",
-      "title": "Review the building blocks",
-      "pdf_asset": "pdf/module_2_guide.pdf"
-    },
-    {
-      "id": "module_1_troubleshooting",
-      "title": "One-on-one time: Common Challenges & Solutions",
-      "pdf_asset": "pdf/module_1_troubleshooting.pdf"
-    },
-    {
-      "id": "module_1_building_block",
-      "title": "Review the building blocks",
-      "pdf_asset": "pdf/module_1_building_block.pdf"
-    },
-    {
       "id": "01_mod1_intro",
-      "title": "Write title here in Filipino",
+      "title": "Introduksyon sa Modyul",
       "pdf_asset": "pdf/01_mod1_intro.pdf"
+    },
+    {
+      "id": "01_mod1_session_structure",
+      "title": "Istruktura ng Sesyon",
+      "pdf_asset": "pdf/01_mod1_session_structure.pdf"
+    },
+    {
+      "id": "01_mod1_panimulang_gawain",
+      "title": "Panimulang Gawain",
+      "pdf_asset": "pdf/01_mod1_panimulang_gawain.pdf"
+    },
+    {
+      "id": "01_mod1_layunin",
+      "title": "Pagbuo ng Layunin",
+      "pdf_asset": "pdf/01_mod1_layunin.pdf"
+    },
+    {
+      "id": "01_mod1_mapa_skill",
+      "title": "Pagtalakay ng MaPa Skill",
+      "pdf_asset": "pdf/01_mod1_mapa_skill.pdf"
+    },
+    {
+      "id": "01_mod1_pabaong_gawain",
+      "title": "Pabaong Gawain",
+      "pdf_asset": "pdf/01_mod1_pabaong_gawain.pdf"
+    },
+    {
+      "id": "01_mod1_pagtatapos",
+      "title": "Pagtatapos",
+      "pdf_asset": "pdf/01_mod1_pagtatapos.pdf"
+    },
+    {
+      "id": "02_mod2_intro",
+      "title": "Introduksyon sa Modyul",
+      "pdf_asset": "pdf/02_mod2_intro.pdf"
+    },
+    {
+      "id": "02_mod2_talakayan_ng_pabaong_gawain",
+      "title": "Talakayan Tungkol sa Nakaraang Pabaong Gawain",
+      "pdf_asset": "pdf/02_mod2_talakayan_ng_pabaong_gawain.pdf"
+    },
+    {
+      "id": "03_mod3_intro",
+      "title": "Introduksyon sa Modyul",
+      "pdf_asset": "pdf/03_mod3_intro.pdf"
+    },
+    {
+      "id": "03_mod3_talakayan_ng_pabaong_gawain",
+      "title": "Talakayan Tungkol sa Nakaraang Pabaong Gawain",
+      "pdf_asset": "pdf/03_mod3_talakayan_ng_pabaong_gawain.pdf"
+    },
+    {
+      "id": "04_mod4_intro",
+      "title": "Introduksyon sa Modyul",
+      "pdf_asset": "pdf/04_mod4_intro.pdf"
+    },
+    {
+      "id": "04_mod4_talakayan_ng_pabaong_gawain",
+      "title": "Talakayan Tungkol sa Nakaraang Pabaong Gawain",
+      "pdf_asset": "pdf/04_mod4_talakayan_ng_pabaong_gawain.pdf"
+    },
+    {
+      "id": "05_mod5_intro",
+      "title": "Introduksyon sa Modyul",
+      "pdf_asset": "pdf/05_mod5_intro.pdf"
+    },
+    {
+      "id": "05_mod5_session_structure",
+      "title": "Istruktura ng Sesyon",
+      "pdf_asset": "pdf/05_mod5_session_structure.pdf"
+    },
+    {
+      "id": "05_mod5_panimulang_gawain",
+      "title": "Panimulang Gawain",
+      "pdf_asset": "pdf/05_mod5_panimulang_gawain.pdf"
+    },
+    {
+      "id": "05_mod5_talakayan_ng_pabaong_gawain",
+      "title": "Talakayan Tungkol sa Nakaraang Pabaong Gawain",
+      "pdf_asset": "pdf/05_mod5_talakayan_ng_pabaong_gawain.pdf"
+    },
+    {
+      "id": "05_mod5_mapa_skill",
+      "title": "Pagtalakay ng MaPa Skill",
+      "pdf_asset": "pdf/05_mod5_mapa_skill.pdf"
+    },
+    {
+      "id": "05_mod5_pabaong_gawain",
+      "title": "Pabaong Gawain",
+      "pdf_asset": "pdf/05_mod5_pabaong_gawain.pdf"
+    },
+    {
+      "id": "05_mod5_pagtatapos",
+      "title": "Pagtatapos",
+      "pdf_asset": "pdf/05_mod5_pagtatapos.pdf"
+    },
+    {
+      "id": "06_mod6_intro",
+      "title": "Introduksyon sa Modyul",
+      "pdf_asset": "pdf/06_mod6_intro.pdf"
+    },
+    {
+      "id": "06_mod6_talakayan_ng_pabaong_gawain",
+      "title": "Talakayan Tungkol sa Nakaraang Pabaong Gawain",
+      "pdf_asset": "pdf/06_mod6_talakayan_ng_pabaong_gawain.pdf"
     }
   ],
   "_xlsxPath": "data/FacilitatorApp PH articles.xlsx"
