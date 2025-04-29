@@ -19,7 +19,7 @@
       },
       {
         "type": "button",
-        "count": 86
+        "count": 85
       },
       {
         "type": "carousel",
@@ -47,7 +47,7 @@
       },
       {
         "type": "display_group",
-        "count": 139
+        "count": 138
       },
       {
         "type": "drawer",
@@ -63,7 +63,7 @@
       },
       {
         "type": "items",
-        "count": 25
+        "count": 24
       },
       {
         "type": "lottie_animation",
@@ -87,7 +87,7 @@
       },
       {
         "type": "round_button",
-        "count": 39
+        "count": 38
       },
       {
         "type": "select_text",
@@ -95,7 +95,7 @@
       },
       {
         "type": "set_variable",
-        "count": 1033
+        "count": 1042
       },
       {
         "type": "simple_checkbox",
@@ -119,7 +119,7 @@
       },
       {
         "type": "text",
-        "count": 264
+        "count": 267
       },
       {
         "type": "text_area",
@@ -131,7 +131,7 @@
       },
       {
         "type": "title",
-        "count": 45
+        "count": 44
       },
       {
         "type": "toggle_bar",
@@ -203,11 +203,11 @@
       },
       {
         "type": "go_to",
-        "count": 32
+        "count": 31
       },
       {
         "type": "nav_stack",
-        "count": 6
+        "count": 4
       },
       {
         "type": "pop_up",
@@ -235,7 +235,7 @@
       },
       {
         "type": "set_local",
-        "count": 85
+        "count": 90
       },
       {
         "type": "share",
@@ -256,7 +256,7 @@
       },
       {
         "assets": "unused",
-        "KB": "22969 KB",
+        "KB": "22960 KB",
         "MB": "23 MB"
       }
     ]
@@ -665,7 +665,7 @@
       },
       {
         "path": "images/message.png",
-        "size_kb": 10.4
+        "size_kb": 1.3
       },
       {
         "path": "images/person_cog.png",
@@ -952,7 +952,7 @@
       },
       {
         "path": "images/icons/cancel.svg",
-        "count": 2,
+        "count": 1,
         "size_kb": 1.7
       },
       {
