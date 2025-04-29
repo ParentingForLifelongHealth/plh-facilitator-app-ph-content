@@ -7,35 +7,35 @@
 | accordion_section | 1 |
 | apple_sign_in_button | 3 |
 | audio | 3 |
-| button | 86 |
+| button | 85 |
 | carousel | 2 |
 | combo_box | 16 |
 | data_items | 46 |
 | date_time_picker | 4 |
 | debug_toggle | 1 |
 | display_grid | 2 |
-| display_group | 139 |
+| display_group | 138 |
 | drawer | 1 |
 | google_sign_in_button | 4 |
 | image | 16 |
-| items | 25 |
+| items | 24 |
 | lottie_animation | 3 |
 | navigation_bar | 2 |
 | pdf | 1 |
 | qr_code | 1 |
 | radio_button_grid | 16 |
-| round_button | 39 |
+| round_button | 38 |
 | select_text | 1 |
-| set_variable | 1033 |
+| set_variable | 1042 |
 | simple_checkbox | 2 |
 | task_card | 3 |
 | task_progress_bar | 4 |
 | template | 356 |
 | test | 1 |
-| text | 264 |
+| text | 267 |
 | text_area | 2 |
 | text_box | 44 |
-| title | 45 |
+| title | 44 |
 | toggle_bar | 5 |
 | update_action_list | 3 |
 | video | 3 |
@@ -59,15 +59,15 @@
 | emit: set_language | 1 |
 | emit: uncompleted | 58 |
 | feedback | 13 |
-| go_to | 32 |
-| nav_stack | 6 |
+| go_to | 31 |
+| nav_stack | 4 |
 | pop_up | 18 |
 | reset_app | 1 |
 | save_to_device | 4 |
 | set_data | 21 |
 | set_field | 66 |
 | set_item | 8 |
-| set_local | 85 |
+| set_local | 90 |
 | share | 4 |
 | user | 4 |
 </details>
@@ -78,7 +78,7 @@
 | assets | KB | MB |
 | --- | --- | --- |
 | total | 25438 KB | 25.4 MB |
-| unused | 22969 KB | 23 MB |
+| unused | 22960 KB | 23 MB |
 </details>
 
 <details open>
@@ -188,7 +188,7 @@ Assets that appear in app-data but do not have references within sheets
 | images/icons/settings.svg | 2.4 |
 | images/icons/task_0.png | 2 |
 | images/logos/MaPa_logo.png | 157.3 |
-| images/message.png | 10.4 |
+| images/message.png | 1.3 |
 | images/person_cog.png | 0.8 |
 | pdf/07_mod7_intro.pdf | 756.6 |
 | pdf/07_mod7_talakayan_ng_pabaong_gawain.pdf | 114.4 |
@@ -264,7 +264,7 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | images/icons/archive.svg | 0.9 | 1 |
 | images/icons/arrow_back.svg | 0.5 | 1 |
 | images/icons/arrow_forward.svg | 0.4 | 3 |
-| images/icons/cancel.svg | 1.7 | 2 |
+| images/icons/cancel.svg | 1.7 | 1 |
 | images/icons/check_circle.png | 0.6 | 1 |
 | images/icons/cog_white.svg | 3.6 | 1 |
 | images/icons/content.svg | 7.2 | 2 |
