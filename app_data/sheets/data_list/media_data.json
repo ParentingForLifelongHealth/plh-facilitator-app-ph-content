@@ -3,31 +3,6 @@
   "flow_name": "media_data",
   "status": "released",
   "data_list_name": "media",
-  "rows": [
-    {
-      "id": "onboard_caregiver",
-      "type": "video",
-      "title": "Onboarding Caregivers into the Course",
-      "media_asset": "videos/onboard_caregivers.mp4"
-    },
-    {
-      "id": "add_parent",
-      "type": "video",
-      "title": "Add a Parent or Co-Parent",
-      "media_asset": "videos/add_parent.mp4"
-    },
-    {
-      "id": "module_2_skill",
-      "type": "video",
-      "title": "Module 2 Skill",
-      "media_asset": "videos/feelings_yc.mp4"
-    },
-    {
-      "id": "body_scan",
-      "type": "youtube",
-      "title": "Body Scan",
-      "media_asset": "videos/body_scan.mp4"
-    }
-  ],
+  "rows": [],
   "_xlsxPath": "data/FacilitatorApp PH articles.xlsx"
 }

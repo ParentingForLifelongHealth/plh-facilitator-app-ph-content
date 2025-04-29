@@ -95,7 +95,7 @@
       },
       {
         "type": "set_variable",
-        "count": 1020
+        "count": 1033
       },
       {
         "type": "simple_checkbox",
@@ -111,7 +111,7 @@
       },
       {
         "type": "template",
-        "count": 350
+        "count": 356
       },
       {
         "type": "test",
@@ -171,7 +171,7 @@
       },
       {
         "type": "emit: completed",
-        "count": 49
+        "count": 56
       },
       {
         "type": "emit: force_reload",
@@ -195,7 +195,7 @@
       },
       {
         "type": "emit: uncompleted",
-        "count": 51
+        "count": 58
       },
       {
         "type": "feedback",
@@ -251,13 +251,13 @@
     "data": [
       {
         "assets": "total",
-        "KB": "66047 KB",
-        "MB": "66 MB"
+        "KB": "25438 KB",
+        "MB": "25.4 MB"
       },
       {
         "assets": "unused",
-        "KB": "49241 KB",
-        "MB": "49.2 MB"
+        "KB": "22969 KB",
+        "MB": "23 MB"
       }
     ]
   },
@@ -282,18 +282,6 @@
       {
         "path": "images/01_masayang_tahanan.jpg",
         "size_kb": 185.8
-      },
-      {
-        "path": "images/02_masayang_tahanan.jpg",
-        "size_kb": 191.5
-      },
-      {
-        "path": "images/03_masayang_tahanan.jpg",
-        "size_kb": 195.3
-      },
-      {
-        "path": "images/04_masayang_tahanan.jpg",
-        "size_kb": 198.8
       },
       {
         "path": "images/05_masayang_tahanan.jpg",
@@ -328,48 +316,12 @@
         "size_kb": 0.3
       },
       {
-        "path": "images/backgrounds/onboarding_grandma_boy.png",
-        "size_kb": 3287.2
-      },
-      {
         "path": "images/backgrounds/report_edit.png",
         "size_kb": 1.7
       },
       {
         "path": "images/backgrounds/report_edit.svg",
         "size_kb": 0.2
-      },
-      {
-        "path": "images/comics/02_comics1_panel1.png",
-        "size_kb": 1324.6
-      },
-      {
-        "path": "images/comics/02_comics1_panel2.png",
-        "size_kb": 1320.2
-      },
-      {
-        "path": "images/comics/02_comics1_panel3.png",
-        "size_kb": 1377.6
-      },
-      {
-        "path": "images/comics/02_comics1_panel4.png",
-        "size_kb": 989.3
-      },
-      {
-        "path": "images/comics/02_comics2_panel1.png",
-        "size_kb": 652.8
-      },
-      {
-        "path": "images/comics/02_comics2_panel2.png",
-        "size_kb": 1120.1
-      },
-      {
-        "path": "images/comics/02_comics2_panel3.png",
-        "size_kb": 1177.2
-      },
-      {
-        "path": "images/comics/02_comics2_panel4.png",
-        "size_kb": 887.1
       },
       {
         "path": "images/comics/03_comics1_panel1.jpg",
@@ -386,18 +338,6 @@
       {
         "path": "images/comics/03_comics1_panel4.jpg",
         "size_kb": 189.5
-      },
-      {
-        "path": "images/comics/03_comics2_panel1.png",
-        "size_kb": 984.3
-      },
-      {
-        "path": "images/comics/03_comics2_panel2.png",
-        "size_kb": 937.6
-      },
-      {
-        "path": "images/comics/03_comics2_panel3.png",
-        "size_kb": 2019.8
       },
       {
         "path": "images/comics/04_comics1_panel1.jpg",
@@ -616,90 +556,6 @@
         "size_kb": 666.1
       },
       {
-        "path": "images/contact_for_reporting_abuse.svg",
-        "size_kb": 6.3
-      },
-      {
-        "path": "images/crisis_hotlines.svg",
-        "size_kb": 12.6
-      },
-      {
-        "path": "images/day_1_introduction.svg",
-        "size_kb": 6.7
-      },
-      {
-        "path": "images/day_3_check_in.svg",
-        "size_kb": 6.5
-      },
-      {
-        "path": "images/day_3_mh_stress_self_talk.svg",
-        "size_kb": 5.4
-      },
-      {
-        "path": "images/day_4_check_in.svg",
-        "size_kb": 11.3
-      },
-      {
-        "path": "images/day_5_goodbye.svg",
-        "size_kb": 19.4
-      },
-      {
-        "path": "images/during_disclosed_abuse.svg",
-        "size_kb": 7.7
-      },
-      {
-        "path": "images/faq_ground_rules.svg",
-        "size_kb": 12.1
-      },
-      {
-        "path": "images/faq_h_after_group_ended.svg",
-        "size_kb": 19.8
-      },
-      {
-        "path": "images/faq_h_no_neg_to_pos.svg",
-        "size_kb": 7.4
-      },
-      {
-        "path": "images/faq_h_no_volunteers.svg",
-        "size_kb": 19.6
-      },
-      {
-        "path": "images/faq_h_parents_insult.svg",
-        "size_kb": 12.5
-      },
-      {
-        "path": "images/faq_h_prompts.svg",
-        "size_kb": 19.6
-      },
-      {
-        "path": "images/faq_h_sad_to_end.svg",
-        "size_kb": 9.2
-      },
-      {
-        "path": "images/faq_h_self_harm.svg",
-        "size_kb": 14.9
-      },
-      {
-        "path": "images/faq_h_still_struggling.svg",
-        "size_kb": 23.2
-      },
-      {
-        "path": "images/faq_misbehaviour.svg",
-        "size_kb": 7.8
-      },
-      {
-        "path": "images/faq_no_participation_general.svg",
-        "size_kb": 20.3
-      },
-      {
-        "path": "images/faq_small_group_active.svg",
-        "size_kb": 8.1
-      },
-      {
-        "path": "images/faq_text_support.svg",
-        "size_kb": 6.8
-      },
-      {
         "path": "images/flags/mx.svg",
         "size_kb": 91.3
       },
@@ -718,26 +574,6 @@
       {
         "path": "images/flags/zm.svg",
         "size_kb": 5.4
-      },
-      {
-        "path": "images/group_admin_onboarding.svg",
-        "size_kb": 13.5
-      },
-      {
-        "path": "images/house_of_support.png",
-        "size_kb": 815.4
-      },
-      {
-        "path": "images/how_to_chat_session.svg",
-        "size_kb": 11
-      },
-      {
-        "path": "images/how_to_report.svg",
-        "size_kb": 5.8
-      },
-      {
-        "path": "images/how_to_report_abuse.svg",
-        "size_kb": 12.2
       },
       {
         "path": "images/icons/bar_chart_white.svg",
@@ -832,124 +668,16 @@
         "size_kb": 10.4
       },
       {
-        "path": "images/onboarding_cc.svg",
-        "size_kb": 19.3
-      },
-      {
-        "path": "images/one_on_one_challenges.svg",
-        "size_kb": 13.1
-      },
-      {
-        "path": "images/overview_cc.svg",
-        "size_kb": 7.8
-      },
-      {
         "path": "images/person_cog.png",
         "size_kb": 0.8
       },
       {
-        "path": "images/praise_challenges.svg",
-        "size_kb": 20.6
-      },
-      {
-        "path": "images/routine_challenges.svg",
-        "size_kb": 20.5
-      },
-      {
-        "path": "images/talk_feelings_challenges.svg",
-        "size_kb": 19.3
-      },
-      {
-        "path": "images/what_is_safeguarding.svg",
-        "size_kb": 5.6
-      },
-      {
-        "path": "pdf/01_mod1_layunin.pdf",
-        "size_kb": 513.8
-      },
-      {
-        "path": "pdf/01_mod1_mapa_skill.pdf",
-        "size_kb": 1819.1
-      },
-      {
-        "path": "pdf/01_mod1_pabaong_gawain.pdf",
-        "size_kb": 132.7
-      },
-      {
-        "path": "pdf/01_mod1_pagtatapos.pdf",
-        "size_kb": 128.1
-      },
-      {
-        "path": "pdf/01_mod1_panimulang_gawain.pdf",
-        "size_kb": 489.2
-      },
-      {
-        "path": "pdf/01_mod1_session_structure.pdf",
-        "size_kb": 123.5
-      },
-      {
-        "path": "pdf/02_mod2_intro.pdf",
-        "size_kb": 506.5
-      },
-      {
-        "path": "pdf/02_mod2_talakayan_ng_pabaong_gawain.pdf",
-        "size_kb": 62.2
-      },
-      {
-        "path": "pdf/03_mod3_intro.pdf",
-        "size_kb": 377.9
-      },
-      {
-        "path": "pdf/03_mod3_talakayan_ng_pabaong_gawain.pdf",
-        "size_kb": 64.7
-      },
-      {
-        "path": "pdf/04_mod4_intro.pdf",
-        "size_kb": 495.3
-      },
-      {
-        "path": "pdf/04_mod4_talakayan_ng_pabaong_gawain.pdf",
-        "size_kb": 67.8
-      },
-      {
-        "path": "pdf/05_mod5_intro.pdf",
-        "size_kb": 275.9
-      },
-      {
-        "path": "pdf/05_mod5_mapa_skill.pdf",
-        "size_kb": 1827.5
-      },
-      {
-        "path": "pdf/05_mod5_pabaong_gawain.pdf",
-        "size_kb": 63.6
-      },
-      {
-        "path": "pdf/05_mod5_pagtatapos.pdf",
-        "size_kb": 65.7
-      },
-      {
-        "path": "pdf/05_mod5_panimulang_gawain.pdf",
-        "size_kb": 77.7
-      },
-      {
-        "path": "pdf/05_mod5_session_structure.pdf",
-        "size_kb": 80.5
-      },
-      {
-        "path": "pdf/05_mod5_talakayan_ng_pabaong_gawain.pdf",
-        "size_kb": 286.4
-      },
-      {
-        "path": "pdf/06_mod6_intro.pdf",
-        "size_kb": 657.2
-      },
-      {
-        "path": "pdf/06_mod6_talakayan_ng_pabaong_gawain.pdf",
-        "size_kb": 117.4
-      },
-      {
         "path": "pdf/07_mod7_intro.pdf",
         "size_kb": 756.6
+      },
+      {
+        "path": "pdf/07_mod7_talakayan_ng_pabaong_gawain.pdf",
+        "size_kb": 114.4
       },
       {
         "path": "pdf/08_mod8_intro.pdf",
@@ -978,10 +706,6 @@
       {
         "path": "pdf/08_mod8_session_structure.pdf",
         "size_kb": 80.3
-      },
-      {
-        "path": "pdf/module_3_guide.pdf",
-        "size_kb": 269
       }
     ]
   },
@@ -998,6 +722,71 @@
         "missing": true
       },
       {
+        "path": "images/comics/03_comics1_panel1.png",
+        "count": 1,
+        "missing": true
+      },
+      {
+        "path": "images/comics/03_comics1_panel2.png",
+        "count": 1,
+        "missing": true
+      },
+      {
+        "path": "images/comics/03_comics1_panel3.png",
+        "count": 1,
+        "missing": true
+      },
+      {
+        "path": "images/comics/03_comics1_panel4.png",
+        "count": 1,
+        "missing": true
+      },
+      {
+        "path": "images/comics04_comics1_panel1.png",
+        "count": 1,
+        "missing": true
+      },
+      {
+        "path": "images/comics04_comics1_panel2.png",
+        "count": 1,
+        "missing": true
+      },
+      {
+        "path": "images/comics04_comics1_panel3.png",
+        "count": 1,
+        "missing": true
+      },
+      {
+        "path": "images/comics04_comics1_panel4.png",
+        "count": 1,
+        "missing": true
+      },
+      {
+        "path": "images/comics04_comics2_panel1.png",
+        "count": 1,
+        "missing": true
+      },
+      {
+        "path": "images/comics04_comics2_panel2.png",
+        "count": 1,
+        "missing": true
+      },
+      {
+        "path": "images/comics04_comics2_panel3.png",
+        "count": 1,
+        "missing": true
+      },
+      {
+        "path": "images/comics04_comics2_panel4.png",
+        "count": 1,
+        "missing": true
+      },
+      {
+        "path": "images/comics04_comics2_panel5.png",
+        "count": 1,
+        "missing": true
+      },
+      {
         "path": "images/icons/in_progress.svg",
         "count": 1,
         "missing": true
@@ -1008,23 +797,13 @@
         "missing": true
       },
       {
+        "path": "images/logos/nip.png",
+        "count": 1,
+        "missing": true
+      },
+      {
         "path": "lottie/gift_box.json",
         "count": 2,
-        "missing": true
-      },
-      {
-        "path": "pdf/module_1_building_block.pdf",
-        "count": 1,
-        "missing": true
-      },
-      {
-        "path": "videos/add_parent.mp4",
-        "count": 1,
-        "missing": true
-      },
-      {
-        "path": "videos/onboard_caregivers.mp4",
-        "count": 1,
         "missing": true
       }
     ]
@@ -1052,6 +831,21 @@
         "size_kb": 19.3
       },
       {
+        "path": "images/02_masayang_tahanan.jpg",
+        "count": 1,
+        "size_kb": 191.5
+      },
+      {
+        "path": "images/03_masayang_tahanan.jpg",
+        "count": 1,
+        "size_kb": 195.3
+      },
+      {
+        "path": "images/04_masayang_tahanan.jpg",
+        "count": 1,
+        "size_kb": 198.8
+      },
+      {
         "path": "images/backgrounds/MaPa_logo_with_background.png",
         "count": 1,
         "size_kb": 102
@@ -1070,6 +864,61 @@
         "path": "images/backgrounds/reports_top_right.svg",
         "count": 1,
         "size_kb": 2
+      },
+      {
+        "path": "images/comics/02_comics1_panel1.png",
+        "count": 1,
+        "size_kb": 1324.6
+      },
+      {
+        "path": "images/comics/02_comics1_panel2.png",
+        "count": 1,
+        "size_kb": 1320.2
+      },
+      {
+        "path": "images/comics/02_comics1_panel3.png",
+        "count": 1,
+        "size_kb": 1377.6
+      },
+      {
+        "path": "images/comics/02_comics1_panel4.png",
+        "count": 1,
+        "size_kb": 989.3
+      },
+      {
+        "path": "images/comics/02_comics2_panel1.png",
+        "count": 1,
+        "size_kb": 652.8
+      },
+      {
+        "path": "images/comics/02_comics2_panel2.png",
+        "count": 1,
+        "size_kb": 1120.1
+      },
+      {
+        "path": "images/comics/02_comics2_panel3.png",
+        "count": 1,
+        "size_kb": 1177.2
+      },
+      {
+        "path": "images/comics/02_comics2_panel4.png",
+        "count": 1,
+        "size_kb": 887.1
+      },
+      {
+        "path": "images/comics/03_comics2_panel1.png",
+        "count": 1,
+        "size_kb": 984.3
+      },
+      {
+        "path": "images/comics/03_comics2_panel2.png",
+        "count": 1,
+        "size_kb": 937.6
+      },
+      {
+        "path": "images/comics/03_comics2_panel3.png",
+        "count": 1,
+        "size_kb": 2019.8
       },
       {
         "path": "images/flags/gb.svg",
@@ -1297,11 +1146,6 @@
         "size_kb": 70.6
       },
       {
-        "path": "images/logos/nip.png",
-        "count": 1,
-        "size_kb": 11.9
-      },
-      {
         "path": "images/no_group_selected.svg",
         "count": 1,
         "size_kb": 3.5
@@ -1317,59 +1161,109 @@
         "size_kb": 650.7
       },
       {
-        "path": "pdf/manual.pdf",
+        "path": "pdf/01_mod1_layunin.pdf",
         "count": 1,
-        "size_kb": 470.3
+        "size_kb": 513.8
       },
       {
-        "path": "pdf/manual_study.pdf",
+        "path": "pdf/01_mod1_mapa_skill.pdf",
         "count": 1,
-        "size_kb": 1047
+        "size_kb": 1819.1
       },
       {
-        "path": "pdf/module_1_deliver.pdf",
+        "path": "pdf/01_mod1_pabaong_gawain.pdf",
         "count": 1,
-        "size_kb": 2718.4
+        "size_kb": 132.7
       },
       {
-        "path": "pdf/module_1_prepare.pdf",
+        "path": "pdf/01_mod1_pagtatapos.pdf",
         "count": 1,
-        "size_kb": 179
+        "size_kb": 128.1
       },
       {
-        "path": "pdf/module_1_troubleshooting.pdf",
+        "path": "pdf/01_mod1_panimulang_gawain.pdf",
         "count": 1,
-        "size_kb": 222.4
+        "size_kb": 489.2
       },
       {
-        "path": "pdf/module_2_guide.pdf",
+        "path": "pdf/01_mod1_session_structure.pdf",
         "count": 1,
-        "size_kb": 1777.1
+        "size_kb": 123.5
       },
       {
-        "path": "pdf/overview_guide_study.pdf",
+        "path": "pdf/02_mod2_intro.pdf",
         "count": 1,
-        "size_kb": 2252.6
+        "size_kb": 506.5
       },
       {
-        "path": "pdf/peas.pdf",
+        "path": "pdf/02_mod2_talakayan_ng_pabaong_gawain.pdf",
         "count": 1,
-        "size_kb": 590.3
+        "size_kb": 62.2
       },
       {
-        "path": "pdf/programme_details.pdf",
+        "path": "pdf/03_mod3_intro.pdf",
         "count": 1,
-        "size_kb": 123
+        "size_kb": 377.9
       },
       {
-        "path": "videos/body_scan.mp4",
+        "path": "pdf/03_mod3_talakayan_ng_pabaong_gawain.pdf",
         "count": 1,
-        "size_kb": 9079.2
+        "size_kb": 64.7
       },
       {
-        "path": "videos/feelings_yc.mp4",
+        "path": "pdf/04_mod4_intro.pdf",
         "count": 1,
-        "size_kb": 43746.5
+        "size_kb": 495.3
+      },
+      {
+        "path": "pdf/04_mod4_talakayan_ng_pabaong_gawain.pdf",
+        "count": 1,
+        "size_kb": 67.8
+      },
+      {
+        "path": "pdf/05_mod5_intro.pdf",
+        "count": 1,
+        "size_kb": 275.9
+      },
+      {
+        "path": "pdf/05_mod5_mapa_skill.pdf",
+        "count": 1,
+        "size_kb": 1827.5
+      },
+      {
+        "path": "pdf/05_mod5_pabaong_gawain.pdf",
+        "count": 1,
+        "size_kb": 63.6
+      },
+      {
+        "path": "pdf/05_mod5_pagtatapos.pdf",
+        "count": 1,
+        "size_kb": 65.7
+      },
+      {
+        "path": "pdf/05_mod5_panimulang_gawain.pdf",
+        "count": 1,
+        "size_kb": 77.7
+      },
+      {
+        "path": "pdf/05_mod5_session_structure.pdf",
+        "count": 1,
+        "size_kb": 80.5
+      },
+      {
+        "path": "pdf/05_mod5_talakayan_ng_pabaong_gawain.pdf",
+        "count": 1,
+        "size_kb": 286.4
+      },
+      {
+        "path": "pdf/06_mod6_intro.pdf",
+        "count": 1,
+        "size_kb": 657.2
+      },
+      {
+        "path": "pdf/06_mod6_talakayan_ng_pabaong_gawain.pdf",
+        "count": 1,
+        "size_kb": 117.4
       }
     ]
   },
@@ -1408,7 +1302,7 @@
       {
         "type": "data_pipe",
         "subtype": "generated",
-        "total": 242
+        "total": 241
       },
       {
         "type": "generator",
@@ -1433,7 +1327,7 @@
       {
         "type": "template",
         "subtype": "generated",
-        "total": 302
+        "total": 308
       },
       {
         "type": "template",

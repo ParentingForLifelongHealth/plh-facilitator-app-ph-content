@@ -26,11 +26,11 @@
 | radio_button_grid | 16 |
 | round_button | 39 |
 | select_text | 1 |
-| set_variable | 1020 |
+| set_variable | 1033 |
 | simple_checkbox | 2 |
 | task_card | 3 |
 | task_progress_bar | 4 |
-| template | 350 |
+| template | 356 |
 | test | 1 |
 | text | 264 |
 | text_area | 2 |
@@ -51,13 +51,13 @@
 | app_update | 1 |
 | auth | 2 |
 | copy | 2 |
-| emit: completed | 49 |
+| emit: completed | 56 |
 | emit: force_reload | 5 |
 | emit: force_reprocess | 18 |
 | emit: force_restart | 5 |
 | emit: server_sync | 13 |
 | emit: set_language | 1 |
-| emit: uncompleted | 51 |
+| emit: uncompleted | 58 |
 | feedback | 13 |
 | go_to | 32 |
 | nav_stack | 6 |
@@ -77,8 +77,8 @@
 
 | assets | KB | MB |
 | --- | --- | --- |
-| total | 66047 KB | 66 MB |
-| unused | 49241 KB | 49.2 MB |
+| total | 25438 KB | 25.4 MB |
+| unused | 22969 KB | 23 MB |
 </details>
 
 <details open>
@@ -93,9 +93,6 @@ Assets that appear in app-data but do not have references within sheets
 | android/icon.png | 108.2 |
 | android/splash.png | 290.4 |
 | images/01_masayang_tahanan.jpg | 185.8 |
-| images/02_masayang_tahanan.jpg | 191.5 |
-| images/03_masayang_tahanan.jpg | 195.3 |
-| images/04_masayang_tahanan.jpg | 198.8 |
 | images/05_masayang_tahanan.jpg | 197 |
 | images/06_masayang_tahanan.jpg | 379.5 |
 | images/07_masayang_tahanan.jpg | 455.5 |
@@ -104,24 +101,12 @@ Assets that appear in app-data but do not have references within sheets
 | images/after_disclosed_abuse.svg | 4.7 |
 | images/backgrounds/library_bottom_left.svg | 2.3 |
 | images/backgrounds/library_top_right.svg | 0.3 |
-| images/backgrounds/onboarding_grandma_boy.png | 3287.2 |
 | images/backgrounds/report_edit.png | 1.7 |
 | images/backgrounds/report_edit.svg | 0.2 |
-| images/comics/02_comics1_panel1.png | 1324.6 |
-| images/comics/02_comics1_panel2.png | 1320.2 |
-| images/comics/02_comics1_panel3.png | 1377.6 |
-| images/comics/02_comics1_panel4.png | 989.3 |
-| images/comics/02_comics2_panel1.png | 652.8 |
-| images/comics/02_comics2_panel2.png | 1120.1 |
-| images/comics/02_comics2_panel3.png | 1177.2 |
-| images/comics/02_comics2_panel4.png | 887.1 |
 | images/comics/03_comics1_panel1.jpg | 268.8 |
 | images/comics/03_comics1_panel2.jpg | 177.9 |
 | images/comics/03_comics1_panel3.jpg | 236.7 |
 | images/comics/03_comics1_panel4.jpg | 189.5 |
-| images/comics/03_comics2_panel1.png | 984.3 |
-| images/comics/03_comics2_panel2.png | 937.6 |
-| images/comics/03_comics2_panel3.png | 2019.8 |
 | images/comics/04_comics1_panel1.jpg | 239.4 |
 | images/comics/04_comics1_panel2.jpg | 224.4 |
 | images/comics/04_comics1_panel3.jpg | 241 |
@@ -176,37 +161,11 @@ Assets that appear in app-data but do not have references within sheets
 | images/comics/08_comics2_panel8.jpg | 234.3 |
 | images/comics/module_2_teen.png | 554.2 |
 | images/comics/module_2_yc.png | 666.1 |
-| images/contact_for_reporting_abuse.svg | 6.3 |
-| images/crisis_hotlines.svg | 12.6 |
-| images/day_1_introduction.svg | 6.7 |
-| images/day_3_check_in.svg | 6.5 |
-| images/day_3_mh_stress_self_talk.svg | 5.4 |
-| images/day_4_check_in.svg | 11.3 |
-| images/day_5_goodbye.svg | 19.4 |
-| images/during_disclosed_abuse.svg | 7.7 |
-| images/faq_ground_rules.svg | 12.1 |
-| images/faq_h_after_group_ended.svg | 19.8 |
-| images/faq_h_no_neg_to_pos.svg | 7.4 |
-| images/faq_h_no_volunteers.svg | 19.6 |
-| images/faq_h_parents_insult.svg | 12.5 |
-| images/faq_h_prompts.svg | 19.6 |
-| images/faq_h_sad_to_end.svg | 9.2 |
-| images/faq_h_self_harm.svg | 14.9 |
-| images/faq_h_still_struggling.svg | 23.2 |
-| images/faq_misbehaviour.svg | 7.8 |
-| images/faq_no_participation_general.svg | 20.3 |
-| images/faq_small_group_active.svg | 8.1 |
-| images/faq_text_support.svg | 6.8 |
 | images/flags/mx.svg | 91.3 |
 | images/flags/my.svg | 1.4 |
 | images/flags/tz.svg | 0.5 |
 | images/flags/ug.svg | 3.9 |
 | images/flags/zm.svg | 5.4 |
-| images/group_admin_onboarding.svg | 13.5 |
-| images/house_of_support.png | 815.4 |
-| images/how_to_chat_session.svg | 11 |
-| images/how_to_report.svg | 5.8 |
-| images/how_to_report_abuse.svg | 12.2 |
 | images/icons/bar_chart_white.svg | 1.5 |
 | images/icons/book_white.svg | 1.5 |
 | images/icons/check_circle.svg | 1.2 |
@@ -230,36 +189,9 @@ Assets that appear in app-data but do not have references within sheets
 | images/icons/task_0.png | 2 |
 | images/logos/MaPa_logo.png | 157.3 |
 | images/message.png | 10.4 |
-| images/onboarding_cc.svg | 19.3 |
-| images/one_on_one_challenges.svg | 13.1 |
-| images/overview_cc.svg | 7.8 |
 | images/person_cog.png | 0.8 |
-| images/praise_challenges.svg | 20.6 |
-| images/routine_challenges.svg | 20.5 |
-| images/talk_feelings_challenges.svg | 19.3 |
-| images/what_is_safeguarding.svg | 5.6 |
-| pdf/01_mod1_layunin.pdf | 513.8 |
-| pdf/01_mod1_mapa_skill.pdf | 1819.1 |
-| pdf/01_mod1_pabaong_gawain.pdf | 132.7 |
-| pdf/01_mod1_pagtatapos.pdf | 128.1 |
-| pdf/01_mod1_panimulang_gawain.pdf | 489.2 |
-| pdf/01_mod1_session_structure.pdf | 123.5 |
-| pdf/02_mod2_intro.pdf | 506.5 |
-| pdf/02_mod2_talakayan_ng_pabaong_gawain.pdf | 62.2 |
-| pdf/03_mod3_intro.pdf | 377.9 |
-| pdf/03_mod3_talakayan_ng_pabaong_gawain.pdf | 64.7 |
-| pdf/04_mod4_intro.pdf | 495.3 |
-| pdf/04_mod4_talakayan_ng_pabaong_gawain.pdf | 67.8 |
-| pdf/05_mod5_intro.pdf | 275.9 |
-| pdf/05_mod5_mapa_skill.pdf | 1827.5 |
-| pdf/05_mod5_pabaong_gawain.pdf | 63.6 |
-| pdf/05_mod5_pagtatapos.pdf | 65.7 |
-| pdf/05_mod5_panimulang_gawain.pdf | 77.7 |
-| pdf/05_mod5_session_structure.pdf | 80.5 |
-| pdf/05_mod5_talakayan_ng_pabaong_gawain.pdf | 286.4 |
-| pdf/06_mod6_intro.pdf | 657.2 |
-| pdf/06_mod6_talakayan_ng_pabaong_gawain.pdf | 117.4 |
 | pdf/07_mod7_intro.pdf | 756.6 |
+| pdf/07_mod7_talakayan_ng_pabaong_gawain.pdf | 114.4 |
 | pdf/08_mod8_intro.pdf | 708.2 |
 | pdf/08_mod8_mapa_skill.pdf | 2394.2 |
 | pdf/08_mod8_pabaong_gawain.pdf | 288.7 |
@@ -267,7 +199,6 @@ Assets that appear in app-data but do not have references within sheets
 | pdf/08_mod8_pagtatapos.pdf | 684.7 |
 | pdf/08_mod8_panimulang_gawain.pdf | 75.9 |
 | pdf/08_mod8_session_structure.pdf | 80.3 |
-| pdf/module_3_guide.pdf | 269 |
 </details>
 
 <details open>
@@ -279,12 +210,23 @@ Assets that have references within sheets but do not appear in app-data
 | --- | --- |
 | .png | 2 |
 | @data.pdf | 3 |
+| images/comics/03_comics1_panel1.png | 1 |
+| images/comics/03_comics1_panel2.png | 1 |
+| images/comics/03_comics1_panel3.png | 1 |
+| images/comics/03_comics1_panel4.png | 1 |
+| images/comics04_comics1_panel1.png | 1 |
+| images/comics04_comics1_panel2.png | 1 |
+| images/comics04_comics1_panel3.png | 1 |
+| images/comics04_comics1_panel4.png | 1 |
+| images/comics04_comics2_panel1.png | 1 |
+| images/comics04_comics2_panel2.png | 1 |
+| images/comics04_comics2_panel3.png | 1 |
+| images/comics04_comics2_panel4.png | 1 |
+| images/comics04_comics2_panel5.png | 1 |
 | images/icons/in_progress.svg | 1 |
 | images/icons/tick.svg | 1 |
+| images/logos/nip.png | 1 |
 | lottie/gift_box.json | 2 |
-| pdf/module_1_building_block.pdf | 1 |
-| videos/add_parent.mp4 | 1 |
-| videos/onboard_caregivers.mp4 | 1 |
 </details>
 
 <details >
@@ -298,10 +240,24 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | cw_demo/comic_2.png | 795.3 | 1 |
 | cw_demo/house_of_support.png | 944.5 | 1 |
 | cw_demo/talk_feelings_challenges.svg | 19.3 | 1 |
+| images/02_masayang_tahanan.jpg | 191.5 | 1 |
+| images/03_masayang_tahanan.jpg | 195.3 | 1 |
+| images/04_masayang_tahanan.jpg | 198.8 | 1 |
 | images/backgrounds/MaPa_logo_with_background.png | 102 | 1 |
 | images/backgrounds/home_bottom_right.svg | 2.3 | 1 |
 | images/backgrounds/home_top_left.svg | 2.4 | 3 |
 | images/backgrounds/reports_top_right.svg | 2 | 1 |
+| images/comics/02_comics1_panel1.png | 1324.6 | 1 |
+| images/comics/02_comics1_panel2.png | 1320.2 | 1 |
+| images/comics/02_comics1_panel3.png | 1377.6 | 1 |
+| images/comics/02_comics1_panel4.png | 989.3 | 1 |
+| images/comics/02_comics2_panel1.png | 652.8 | 1 |
+| images/comics/02_comics2_panel2.png | 1120.1 | 1 |
+| images/comics/02_comics2_panel3.png | 1177.2 | 1 |
+| images/comics/02_comics2_panel4.png | 887.1 | 1 |
+| images/comics/03_comics2_panel1.png | 984.3 | 1 |
+| images/comics/03_comics2_panel2.png | 937.6 | 1 |
+| images/comics/03_comics2_panel3.png | 2019.8 | 1 |
 | images/flags/gb.svg | 0.5 | 2 |
 | images/flags/ph.svg | 1.3 | 2 |
 | images/icons/add_circle.svg | 1 | 3 |
@@ -347,21 +303,30 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | images/logos/PLH.png | 26.6 | 1 |
 | images/logos/UNICEF.jpg | 27.7 | 1 |
 | images/logos/app_logo.png | 70.6 | 2 |
-| images/logos/nip.png | 11.9 | 1 |
 | images/no_group_selected.svg | 3.5 | 1 |
 | lottie/checkmark_blue.json | 17 | 1 |
 | pdf/01_mod1_intro.pdf | 650.7 | 1 |
-| pdf/manual.pdf | 470.3 | 1 |
-| pdf/manual_study.pdf | 1047 | 1 |
-| pdf/module_1_deliver.pdf | 2718.4 | 1 |
-| pdf/module_1_prepare.pdf | 179 | 1 |
-| pdf/module_1_troubleshooting.pdf | 222.4 | 1 |
-| pdf/module_2_guide.pdf | 1777.1 | 1 |
-| pdf/overview_guide_study.pdf | 2252.6 | 1 |
-| pdf/peas.pdf | 590.3 | 1 |
-| pdf/programme_details.pdf | 123 | 1 |
-| videos/body_scan.mp4 | 9079.2 | 1 |
-| videos/feelings_yc.mp4 | 43746.5 | 1 |
+| pdf/01_mod1_layunin.pdf | 513.8 | 1 |
+| pdf/01_mod1_mapa_skill.pdf | 1819.1 | 1 |
+| pdf/01_mod1_pabaong_gawain.pdf | 132.7 | 1 |
+| pdf/01_mod1_pagtatapos.pdf | 128.1 | 1 |
+| pdf/01_mod1_panimulang_gawain.pdf | 489.2 | 1 |
+| pdf/01_mod1_session_structure.pdf | 123.5 | 1 |
+| pdf/02_mod2_intro.pdf | 506.5 | 1 |
+| pdf/02_mod2_talakayan_ng_pabaong_gawain.pdf | 62.2 | 1 |
+| pdf/03_mod3_intro.pdf | 377.9 | 1 |
+| pdf/03_mod3_talakayan_ng_pabaong_gawain.pdf | 64.7 | 1 |
+| pdf/04_mod4_intro.pdf | 495.3 | 1 |
+| pdf/04_mod4_talakayan_ng_pabaong_gawain.pdf | 67.8 | 1 |
+| pdf/05_mod5_intro.pdf | 275.9 | 1 |
+| pdf/05_mod5_mapa_skill.pdf | 1827.5 | 1 |
+| pdf/05_mod5_pabaong_gawain.pdf | 63.6 | 1 |
+| pdf/05_mod5_pagtatapos.pdf | 65.7 | 1 |
+| pdf/05_mod5_panimulang_gawain.pdf | 77.7 | 1 |
+| pdf/05_mod5_session_structure.pdf | 80.5 | 1 |
+| pdf/05_mod5_talakayan_ng_pabaong_gawain.pdf | 286.4 | 1 |
+| pdf/06_mod6_intro.pdf | 657.2 | 1 |
+| pdf/06_mod6_talakayan_ng_pabaong_gawain.pdf | 117.4 | 1 |
 </details>
 
 <details >
@@ -375,11 +340,11 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | data_list | legal_terms | 2 |
 | data_list | lifecycle_actions | 1 |
 | data_pipe |  | 2 |
-| data_pipe | generated | 242 |
+| data_pipe | generated | 241 |
 | generator |  | 9 |
 | global |  | 12 |
 | global | legal_terms | 1 |
 | template |  | 83 |
-| template | generated | 302 |
+| template | generated | 308 |
 | template | legal_terms | 4 |
 </details>

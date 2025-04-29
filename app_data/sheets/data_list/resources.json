@@ -78,49 +78,49 @@
     },
     {
       "id": "resource_13",
-      "foreign_key": "week_4_session_10",
+      "foreign_key": "week_4_session_11",
       "media_type": "pdf",
       "media_asset": "04_mod4_talakayan_ng_pabaong_gawain"
     },
     {
       "id": "resource_14",
-      "foreign_key": "",
+      "foreign_key": "week_5_session",
       "media_type": "pdf",
       "media_asset": "05_mod5_intro"
     },
     {
       "id": "resource_15",
-      "foreign_key": "week_5_session_2",
+      "foreign_key": "week_5_session_3",
       "media_type": "pdf",
       "media_asset": "05_mod5_session_structure"
     },
     {
       "id": "resource_16",
-      "foreign_key": "week_5_session_3",
+      "foreign_key": "week_5_session_4",
       "media_type": "pdf",
       "media_asset": "05_mod5_panimulang_gawain"
     },
     {
       "id": "resource_17",
-      "foreign_key": "week_5_session_4",
+      "foreign_key": "week_5_session_5",
       "media_type": "pdf",
       "media_asset": "05_mod5_talakayan_ng_pabaong_gawain"
     },
     {
       "id": "resource_18",
-      "foreign_key": "week_5_session_5",
+      "foreign_key": "week_5_session_6",
       "media_type": "pdf",
       "media_asset": "05_mod5_mapa_skill"
     },
     {
       "id": "resource_19",
-      "foreign_key": "week_5_session_6",
+      "foreign_key": "week_5_session_7",
       "media_type": "pdf",
       "media_asset": "05_mod5_pabaong_gawain"
     },
     {
       "id": "resource_20",
-      "foreign_key": "week_5_session_7",
+      "foreign_key": "week_5_session_8",
       "media_type": "pdf",
       "media_asset": "05_mod5_pagtatapos"
     },
