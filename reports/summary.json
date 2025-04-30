@@ -19,7 +19,7 @@
       },
       {
         "type": "button",
-        "count": 85
+        "count": 87
       },
       {
         "type": "carousel",
@@ -31,7 +31,7 @@
       },
       {
         "type": "data_items",
-        "count": 46
+        "count": 47
       },
       {
         "type": "date_time_picker",
@@ -47,7 +47,7 @@
       },
       {
         "type": "display_group",
-        "count": 138
+        "count": 139
       },
       {
         "type": "drawer",
@@ -59,7 +59,7 @@
       },
       {
         "type": "image",
-        "count": 16
+        "count": 17
       },
       {
         "type": "items",
@@ -95,7 +95,7 @@
       },
       {
         "type": "set_variable",
-        "count": 1042
+        "count": 1061
       },
       {
         "type": "simple_checkbox",
@@ -111,7 +111,7 @@
       },
       {
         "type": "template",
-        "count": 356
+        "count": 364
       },
       {
         "type": "test",
@@ -119,7 +119,7 @@
       },
       {
         "type": "text",
-        "count": 267
+        "count": 270
       },
       {
         "type": "text_area",
@@ -127,7 +127,7 @@
       },
       {
         "type": "text_box",
-        "count": 44
+        "count": 46
       },
       {
         "type": "title",
@@ -171,11 +171,11 @@
       },
       {
         "type": "emit: completed",
-        "count": 56
+        "count": 65
       },
       {
         "type": "emit: force_reload",
-        "count": 5
+        "count": 6
       },
       {
         "type": "emit: force_reprocess",
@@ -195,7 +195,7 @@
       },
       {
         "type": "emit: uncompleted",
-        "count": 58
+        "count": 67
       },
       {
         "type": "feedback",
@@ -210,8 +210,12 @@
         "count": 4
       },
       {
+        "type": "plh_parent_group",
+        "count": 9
+      },
+      {
         "type": "pop_up",
-        "count": 18
+        "count": 19
       },
       {
         "type": "reset_app",
@@ -227,11 +231,11 @@
       },
       {
         "type": "set_field",
-        "count": 66
+        "count": 67
       },
       {
         "type": "set_item",
-        "count": 8
+        "count": 9
       },
       {
         "type": "set_local",
@@ -251,13 +255,13 @@
     "data": [
       {
         "assets": "total",
-        "KB": "25438 KB",
-        "MB": "25.4 MB"
+        "KB": "28147 KB",
+        "MB": "28.1 MB"
       },
       {
         "assets": "unused",
-        "KB": "22960 KB",
-        "MB": "23 MB"
+        "KB": "20251 KB",
+        "MB": "20.3 MB"
       }
     ]
   },
@@ -672,40 +676,12 @@
         "size_kb": 0.8
       },
       {
-        "path": "pdf/07_mod7_intro.pdf",
-        "size_kb": 756.6
-      },
-      {
-        "path": "pdf/07_mod7_talakayan_ng_pabaong_gawain.pdf",
-        "size_kb": 114.4
-      },
-      {
-        "path": "pdf/08_mod8_intro.pdf",
-        "size_kb": 708.2
-      },
-      {
         "path": "pdf/08_mod8_mapa_skill.pdf",
         "size_kb": 2394.2
       },
       {
-        "path": "pdf/08_mod8_pabaong_gawain.pdf",
-        "size_kb": 288.7
-      },
-      {
         "path": "pdf/08_mod8_pagdiriwang.pdf",
         "size_kb": 413.2
-      },
-      {
-        "path": "pdf/08_mod8_pagtatapos.pdf",
-        "size_kb": 684.7
-      },
-      {
-        "path": "pdf/08_mod8_panimulang_gawain.pdf",
-        "size_kb": 75.9
-      },
-      {
-        "path": "pdf/08_mod8_session_structure.pdf",
-        "size_kb": 80.3
       }
     ]
   },
@@ -804,6 +780,11 @@
       {
         "path": "lottie/gift_box.json",
         "count": 2,
+        "missing": true
+      },
+      {
+        "path": "pdf/08_mapa_skill.pdf",
+        "count": 1,
         "missing": true
       }
     ]
@@ -1264,6 +1245,41 @@
         "path": "pdf/06_mod6_talakayan_ng_pabaong_gawain.pdf",
         "count": 1,
         "size_kb": 117.4
+      },
+      {
+        "path": "pdf/07_mod7_intro.pdf",
+        "count": 1,
+        "size_kb": 756.6
+      },
+      {
+        "path": "pdf/07_mod7_talakayan_ng_pabaong_gawain.pdf",
+        "count": 1,
+        "size_kb": 114.4
+      },
+      {
+        "path": "pdf/08_mod8_intro.pdf",
+        "count": 1,
+        "size_kb": 708.2
+      },
+      {
+        "path": "pdf/08_mod8_pabaong_gawain.pdf",
+        "count": 1,
+        "size_kb": 288.7
+      },
+      {
+        "path": "pdf/08_mod8_pagtatapos.pdf",
+        "count": 1,
+        "size_kb": 684.7
+      },
+      {
+        "path": "pdf/08_mod8_panimulang_gawain.pdf",
+        "count": 1,
+        "size_kb": 75.9
+      },
+      {
+        "path": "pdf/08_mod8_session_structure.pdf",
+        "count": 1,
+        "size_kb": 80.3
       }
     ]
   },
@@ -1322,12 +1338,12 @@
       {
         "type": "template",
         "subtype": null,
-        "total": 83
+        "total": 84
       },
       {
         "type": "template",
         "subtype": "generated",
-        "total": 308
+        "total": 316
       },
       {
         "type": "template",

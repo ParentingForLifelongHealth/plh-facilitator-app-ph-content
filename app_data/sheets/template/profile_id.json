@@ -323,7 +323,7 @@
         },
         {
           "name": "message_text",
-          "value": "@global.co_facilitator_share_start @local.user_id @global.co_facilitator_share_end",
+          "value": "@global.co_facilitator_share_start @fields._auth_user_id @global.co_facilitator_share_end",
           "_translations": {
             "value": {}
           },
@@ -332,19 +332,19 @@
           "_dynamicFields": {
             "value": [
               {
-                "fullExpression": "@global.co_facilitator_share_start @local.user_id @global.co_facilitator_share_end",
+                "fullExpression": "@global.co_facilitator_share_start @fields._auth_user_id @global.co_facilitator_share_end",
                 "matchedExpression": "@global.co_facilitator_share_start",
                 "type": "global",
                 "fieldName": "co_facilitator_share_start"
               },
               {
-                "fullExpression": "@global.co_facilitator_share_start @local.user_id @global.co_facilitator_share_end",
-                "matchedExpression": "@local.user_id",
-                "type": "local",
-                "fieldName": "user_id"
+                "fullExpression": "@global.co_facilitator_share_start @fields._auth_user_id @global.co_facilitator_share_end",
+                "matchedExpression": "@fields._auth_user_id",
+                "type": "fields",
+                "fieldName": "_auth_user_id"
               },
               {
-                "fullExpression": "@global.co_facilitator_share_start @local.user_id @global.co_facilitator_share_end",
+                "fullExpression": "@global.co_facilitator_share_start @fields._auth_user_id @global.co_facilitator_share_end",
                 "matchedExpression": "@global.co_facilitator_share_end",
                 "type": "global",
                 "fieldName": "co_facilitator_share_end"
@@ -355,7 +355,7 @@
             "@global.co_facilitator_share_start": [
               "value"
             ],
-            "@local.user_id": [
+            "@fields._auth_user_id": [
               "value"
             ],
             "@global.co_facilitator_share_end": [

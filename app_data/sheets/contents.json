@@ -251,7 +251,7 @@
     "report_answers": {
       "flow_type": "data_list",
       "flow_name": "report_answers",
-      "_xlsxPath": "templates/report_override.xlsx",
+      "_xlsxPath": "templates/report_PH.xlsx",
       "_metadata": {
         "archived": {
           "type": "boolean"
@@ -8520,6 +8520,46 @@
           "flow_name": "pdf_06_mod6_talakayan_ng_pabaong_gawain",
           "flow_subtype": "generated",
           "flow_type": "template"
+        },
+        {
+          "flow_name": "pdf_07_mod7_intro",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "pdf_07_mod7_talakayan_ng_pabaong_gawain",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "pdf_08_mod8_intro",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "pdf_08_mod8_session_structure",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "pdf_08_mod8_panimulang_gawain",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "pdf_08_mod8_pabaong_gawain",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "pdf_08_mapa_skill",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "pdf_08_mod8_pagtatapos",
+          "flow_subtype": "generated",
+          "flow_type": "template"
         }
       ]
     }
@@ -8604,6 +8644,11 @@
       "flow_name": "a_article_section",
       "_xlsxPath": "templates/menu_sub_tasks.xlsx"
     },
+    "add_cofacilitator": {
+      "flow_type": "template",
+      "flow_name": "add_cofacilitator",
+      "_xlsxPath": "templates/PH profile.xlsx"
+    },
     "add_coparent": {
       "flow_type": "template",
       "flow_name": "add_coparent",
@@ -8617,7 +8662,7 @@
     "add_in_person": {
       "flow_type": "template",
       "flow_name": "add_in_person",
-      "_xlsxPath": "templates/report_override.xlsx"
+      "_xlsxPath": "templates/report_PH.xlsx"
     },
     "add_parent": {
       "flow_type": "template",
@@ -8722,7 +8767,7 @@
     "edit_in_person": {
       "flow_type": "template",
       "flow_name": "edit_in_person",
-      "_xlsxPath": "templates/report_override.xlsx"
+      "_xlsxPath": "templates/report_PH.xlsx"
     },
     "edit_parent": {
       "flow_type": "template",
@@ -10212,6 +10257,46 @@
       "flow_subtype": "generated",
       "flow_type": "template"
     },
+    "pdf_07_mod7_intro": {
+      "flow_name": "pdf_07_mod7_intro",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "pdf_07_mod7_talakayan_ng_pabaong_gawain": {
+      "flow_name": "pdf_07_mod7_talakayan_ng_pabaong_gawain",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "pdf_08_mapa_skill": {
+      "flow_name": "pdf_08_mapa_skill",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "pdf_08_mod8_intro": {
+      "flow_name": "pdf_08_mod8_intro",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "pdf_08_mod8_pabaong_gawain": {
+      "flow_name": "pdf_08_mod8_pabaong_gawain",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "pdf_08_mod8_pagtatapos": {
+      "flow_name": "pdf_08_mod8_pagtatapos",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "pdf_08_mod8_panimulang_gawain": {
+      "flow_name": "pdf_08_mod8_panimulang_gawain",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "pdf_08_mod8_session_structure": {
+      "flow_name": "pdf_08_mod8_session_structure",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
     "sub_item_demo": {
       "flow_name": "sub_item_demo",
       "flow_subtype": "generated",
@@ -10481,7 +10566,7 @@
     "parent_group": {
       "flow_type": "template",
       "flow_name": "parent_group",
-      "_xlsxPath": "templates/profile.xlsx"
+      "_xlsxPath": "templates/PH profile.xlsx"
     },
     "parent_list": {
       "flow_type": "template",
@@ -10533,7 +10618,7 @@
     "profile_groups": {
       "flow_type": "template",
       "flow_name": "profile_groups",
-      "_xlsxPath": "templates/profile.xlsx"
+      "_xlsxPath": "templates/PH profile.xlsx"
     },
     "profile_id": {
       "flow_type": "template",

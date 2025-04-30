@@ -418,6 +418,20 @@
                   "action_list": [
                     {
                       "trigger": "click",
+                      "action_id": "plh_parent_group",
+                      "args": [
+                        "pull"
+                      ],
+                      "_raw": "click | plh_parent_group: pull | parent_groups_data_list: parent_groups, parents_data_list: parents, completion_tracking_data_list: sub_items",
+                      "_cleaned": "click | plh_parent_group: pull | parent_groups_data_list: parent_groups, parents_data_list: parents, completion_tracking_data_list: sub_items",
+                      "params": {
+                        "parent_groups_data_list": "parent_groups",
+                        "parents_data_list": "parents",
+                        "completion_tracking_data_list": "sub_items"
+                      }
+                    },
+                    {
+                      "trigger": "click",
                       "action_id": "go_to",
                       "args": [
                         "profile_groups"

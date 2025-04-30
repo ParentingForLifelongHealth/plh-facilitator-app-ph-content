@@ -19,7 +19,7 @@ config.google_drive.assets_folder_ids = [
 
 config.git = {
   content_repo: "https://github.com/IDEMSInternational/plh-facilitator-app-ph-content.git",
-  content_tag_latest: "1.1.49",
+  content_tag_latest: "1.1.50",
 };
 
 config.firebase = {
@@ -46,8 +46,8 @@ config.app_config.APP_THEMES.defaultThemeName = "professional";
 config.app_config.APP_UPDATES.enabled = true;
 config.app_config.APP_UPDATES.completeUpdateTemplate = "app_update_complete";
 config.app_config.APP_FOOTER_DEFAULTS.templateName = "footer";
-config.app_config.APP_THEMES.available = ["plh_facilitator_mx"];
-config.app_config.APP_THEMES.defaultThemeName = "plh_facilitator_mx";
+config.app_config.APP_THEMES.available = ["plh_facilitator_mapa"];
+config.app_config.APP_THEMES.defaultThemeName = "plh_facilitator_mapa";
 
 
 config.error_logging = { dsn: "https://ca84802206d44c49b553c7dfc68b5e0e@app.glitchtip.com/6093"};

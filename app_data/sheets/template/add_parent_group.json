@@ -178,23 +178,16 @@
       }
     },
     {
-      "type": "template",
-      "name": "co_facilitator",
-      "value": "co_facilitator",
-      "rows": [],
-      "_nested_name": "co_facilitator"
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "name": "set_variable_14",
+      "_nested_name": "set_variable_14"
     },
     {
       "exclude_from_translation": true,
       "type": "set_variable",
-      "name": "set_variable_16",
-      "_nested_name": "set_variable_16"
-    },
-    {
-      "exclude_from_translation": true,
-      "type": "set_variable",
-      "name": "set_variable_17",
-      "_nested_name": "set_variable_17"
+      "name": "set_variable_15",
+      "_nested_name": "set_variable_15"
     },
     {
       "type": "template",
@@ -203,6 +196,18 @@
       "exclude_from_translation": true,
       "rows": [],
       "_nested_name": "parent_list"
+    },
+    {
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "name": "set_variable_18",
+      "_nested_name": "set_variable_18"
+    },
+    {
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "name": "set_variable_19",
+      "_nested_name": "set_variable_19"
     },
     {
       "exclude_from_translation": true,
@@ -227,18 +232,6 @@
       "type": "set_variable",
       "name": "set_variable_23",
       "_nested_name": "set_variable_23"
-    },
-    {
-      "exclude_from_translation": true,
-      "type": "set_variable",
-      "name": "set_variable_24",
-      "_nested_name": "set_variable_24"
-    },
-    {
-      "exclude_from_translation": true,
-      "type": "set_variable",
-      "name": "set_variable_25",
-      "_nested_name": "set_variable_25"
     },
     {
       "type": "display_group",
@@ -275,7 +268,7 @@
               },
               "exclude_from_translation": true,
               "type": "set_variable",
-              "_nested_name": "display_group_26.add_group_button.name",
+              "_nested_name": "display_group_24.add_group_button.name",
               "_dynamicFields": {
                 "value": [
                   {
@@ -300,7 +293,7 @@
               },
               "exclude_from_translation": true,
               "type": "set_variable",
-              "_nested_name": "display_group_26.add_group_button.text",
+              "_nested_name": "display_group_24.add_group_button.text",
               "_dynamicFields": {
                 "value": [
                   {
@@ -318,17 +311,17 @@
               }
             }
           ],
-          "_nested_name": "display_group_26.add_group_button"
+          "_nested_name": "display_group_24.add_group_button"
         }
       ],
-      "name": "display_group_26",
-      "_nested_name": "display_group_26"
+      "name": "display_group_24",
+      "_nested_name": "display_group_24"
     },
     {
       "exclude_from_translation": true,
       "type": "set_variable",
-      "name": "set_variable_28",
-      "_nested_name": "set_variable_28"
+      "name": "set_variable_26",
+      "_nested_name": "set_variable_26"
     }
   ],
   "_xlsxPath": "templates/PH profile.xlsx"

@@ -214,8 +214,137 @@
       "type": "template",
       "name": "co_facilitator",
       "value": "co_facilitator",
+      "condition": "!@fields.current_group_readonly",
       "rows": [],
-      "_nested_name": "co_facilitator"
+      "_nested_name": "co_facilitator",
+      "_dynamicFields": {
+        "condition": [
+          {
+            "fullExpression": "!@fields.current_group_readonly",
+            "matchedExpression": "!@fields.current_group_readonly",
+            "type": "fields",
+            "fieldName": "current_group_readonly"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "!@fields.current_group_readonly": [
+          "condition"
+        ]
+      }
+    },
+    {
+      "type": "text",
+      "value": "Add Co-Facilitator",
+      "_translations": {
+        "value": {}
+      },
+      "style_list": [
+        "color: #74777C"
+      ],
+      "condition": false,
+      "name": "text_19",
+      "_nested_name": "text_19"
+    },
+    {
+      "type": "text_box",
+      "name": "co_facilitator_id",
+      "parameter_list": {
+        "placeholder": "Enter ID of proposed co-facilitator"
+      },
+      "condition": false,
+      "_nested_name": "co_facilitator_id"
+    },
+    {
+      "type": "button",
+      "value": "Add co-facilitator",
+      "_translations": {
+        "value": {}
+      },
+      "action_list": [
+        {
+          "trigger": "click",
+          "action_id": "plh_parent_group",
+          "args": [
+            "add_cofacilitator"
+          ],
+          "_raw": "click | plh_parent_group: add_cofacilitator | parent_group_id: @fields.current_group_id, auth_id: @local.co_facilitator_id, parent_groups_data_list: parent_groups, parents_data_list: parents",
+          "_cleaned": "click | plh_parent_group: add_cofacilitator | parent_group_id: @fields.current_group_id, auth_id: @local.co_facilitator_id, parent_groups_data_list: parent_groups, parents_data_list: parents",
+          "params": {
+            "parent_group_id": "@fields.current_group_id",
+            "auth_id": "@local.co_facilitator_id",
+            "parent_groups_data_list": "parent_groups",
+            "parents_data_list": "parents"
+          }
+        }
+      ],
+      "condition": false,
+      "name": "button_21",
+      "_nested_name": "button_21",
+      "_dynamicFields": {
+        "action_list": {
+          "0": {
+            "_raw": [
+              {
+                "fullExpression": "click | plh_parent_group: add_cofacilitator | parent_group_id: @fields.current_group_id, auth_id: @local.co_facilitator_id, parent_groups_data_list: parent_groups, parents_data_list: parents",
+                "matchedExpression": "@fields.current_group_id",
+                "type": "fields",
+                "fieldName": "current_group_id"
+              },
+              {
+                "fullExpression": "click | plh_parent_group: add_cofacilitator | parent_group_id: @fields.current_group_id, auth_id: @local.co_facilitator_id, parent_groups_data_list: parent_groups, parents_data_list: parents",
+                "matchedExpression": "@local.co_facilitator_id",
+                "type": "local",
+                "fieldName": "co_facilitator_id"
+              }
+            ],
+            "_cleaned": [
+              {
+                "fullExpression": "click | plh_parent_group: add_cofacilitator | parent_group_id: @fields.current_group_id, auth_id: @local.co_facilitator_id, parent_groups_data_list: parent_groups, parents_data_list: parents",
+                "matchedExpression": "@fields.current_group_id",
+                "type": "fields",
+                "fieldName": "current_group_id"
+              },
+              {
+                "fullExpression": "click | plh_parent_group: add_cofacilitator | parent_group_id: @fields.current_group_id, auth_id: @local.co_facilitator_id, parent_groups_data_list: parent_groups, parents_data_list: parents",
+                "matchedExpression": "@local.co_facilitator_id",
+                "type": "local",
+                "fieldName": "co_facilitator_id"
+              }
+            ],
+            "params": {
+              "parent_group_id": [
+                {
+                  "fullExpression": "@fields.current_group_id",
+                  "matchedExpression": "@fields.current_group_id",
+                  "type": "fields",
+                  "fieldName": "current_group_id"
+                }
+              ],
+              "auth_id": [
+                {
+                  "fullExpression": "@local.co_facilitator_id",
+                  "matchedExpression": "@local.co_facilitator_id",
+                  "type": "local",
+                  "fieldName": "co_facilitator_id"
+                }
+              ]
+            }
+          }
+        }
+      },
+      "_dynamicDependencies": {
+        "@fields.current_group_id": [
+          "action_list.0._raw",
+          "action_list.0._cleaned",
+          "action_list.0.params.parent_group_id"
+        ],
+        "@local.co_facilitator_id": [
+          "action_list.0._raw",
+          "action_list.0._cleaned",
+          "action_list.0.params.auth_id"
+        ]
+      }
     },
     {
       "type": "template",
@@ -258,6 +387,19 @@
             },
             {
               "trigger": "click",
+              "action_id": "plh_parent_group",
+              "args": [
+                "push"
+              ],
+              "_raw": "click | plh_parent_group: push | parent_groups_data_list: parent_groups, parents_data_list: parents",
+              "_cleaned": "click | plh_parent_group: push | parent_groups_data_list: parent_groups, parents_data_list: parents",
+              "params": {
+                "parent_groups_data_list": "parent_groups",
+                "parents_data_list": "parents"
+              }
+            },
+            {
+              "trigger": "click",
               "action_id": "emit",
               "args": [
                 "completed"
@@ -276,9 +418,10 @@
             }
           ],
           "parameter_list": {
+            "disabled": "@fields.current_group_readonly",
             "variant": "card"
           },
-          "_nested_name": "display_group_21.save",
+          "_nested_name": "display_group_24.save",
           "_dynamicFields": {
             "action_list": {
               "0": {
@@ -329,6 +472,16 @@
                   ]
                 }
               }
+            },
+            "parameter_list": {
+              "disabled": [
+                {
+                  "fullExpression": "@fields.current_group_readonly",
+                  "matchedExpression": "@fields.current_group_readonly",
+                  "type": "fields",
+                  "fieldName": "current_group_readonly"
+                }
+              ]
             }
           },
           "_dynamicDependencies": {
@@ -341,12 +494,15 @@
               "action_list.0._raw",
               "action_list.0._cleaned",
               "action_list.0.params.text"
+            ],
+            "@fields.current_group_readonly": [
+              "parameter_list.disabled"
             ]
           }
         }
       ],
-      "name": "display_group_21",
-      "_nested_name": "display_group_21",
+      "name": "display_group_24",
+      "_nested_name": "display_group_24",
       "_dynamicFields": {
         "condition": [
           {
