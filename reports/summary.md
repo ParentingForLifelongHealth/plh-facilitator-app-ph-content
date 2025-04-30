@@ -7,17 +7,17 @@
 | accordion_section | 1 |
 | apple_sign_in_button | 3 |
 | audio | 3 |
-| button | 85 |
+| button | 87 |
 | carousel | 2 |
 | combo_box | 16 |
-| data_items | 46 |
+| data_items | 47 |
 | date_time_picker | 4 |
 | debug_toggle | 1 |
 | display_grid | 2 |
-| display_group | 138 |
+| display_group | 139 |
 | drawer | 1 |
 | google_sign_in_button | 4 |
-| image | 16 |
+| image | 17 |
 | items | 24 |
 | lottie_animation | 3 |
 | navigation_bar | 2 |
@@ -26,15 +26,15 @@
 | radio_button_grid | 16 |
 | round_button | 38 |
 | select_text | 1 |
-| set_variable | 1042 |
+| set_variable | 1061 |
 | simple_checkbox | 2 |
 | task_card | 3 |
 | task_progress_bar | 4 |
-| template | 356 |
+| template | 364 |
 | test | 1 |
-| text | 267 |
+| text | 270 |
 | text_area | 2 |
-| text_box | 44 |
+| text_box | 46 |
 | title | 44 |
 | toggle_bar | 5 |
 | update_action_list | 3 |
@@ -51,22 +51,23 @@
 | app_update | 1 |
 | auth | 2 |
 | copy | 2 |
-| emit: completed | 56 |
-| emit: force_reload | 5 |
+| emit: completed | 65 |
+| emit: force_reload | 6 |
 | emit: force_reprocess | 18 |
 | emit: force_restart | 5 |
 | emit: server_sync | 13 |
 | emit: set_language | 1 |
-| emit: uncompleted | 58 |
+| emit: uncompleted | 67 |
 | feedback | 13 |
 | go_to | 31 |
 | nav_stack | 4 |
-| pop_up | 18 |
+| plh_parent_group | 9 |
+| pop_up | 19 |
 | reset_app | 1 |
 | save_to_device | 4 |
 | set_data | 21 |
-| set_field | 66 |
-| set_item | 8 |
+| set_field | 67 |
+| set_item | 9 |
 | set_local | 90 |
 | share | 4 |
 | user | 4 |
@@ -77,8 +78,8 @@
 
 | assets | KB | MB |
 | --- | --- | --- |
-| total | 25438 KB | 25.4 MB |
-| unused | 22960 KB | 23 MB |
+| total | 28147 KB | 28.1 MB |
+| unused | 20251 KB | 20.3 MB |
 </details>
 
 <details open>
@@ -190,15 +191,8 @@ Assets that appear in app-data but do not have references within sheets
 | images/logos/MaPa_logo.png | 157.3 |
 | images/message.png | 1.3 |
 | images/person_cog.png | 0.8 |
-| pdf/07_mod7_intro.pdf | 756.6 |
-| pdf/07_mod7_talakayan_ng_pabaong_gawain.pdf | 114.4 |
-| pdf/08_mod8_intro.pdf | 708.2 |
 | pdf/08_mod8_mapa_skill.pdf | 2394.2 |
-| pdf/08_mod8_pabaong_gawain.pdf | 288.7 |
 | pdf/08_mod8_pagdiriwang.pdf | 413.2 |
-| pdf/08_mod8_pagtatapos.pdf | 684.7 |
-| pdf/08_mod8_panimulang_gawain.pdf | 75.9 |
-| pdf/08_mod8_session_structure.pdf | 80.3 |
 </details>
 
 <details open>
@@ -227,6 +221,7 @@ Assets that have references within sheets but do not appear in app-data
 | images/icons/tick.svg | 1 |
 | images/logos/nip.png | 1 |
 | lottie/gift_box.json | 2 |
+| pdf/08_mapa_skill.pdf | 1 |
 </details>
 
 <details >
@@ -327,6 +322,13 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | pdf/05_mod5_talakayan_ng_pabaong_gawain.pdf | 286.4 | 1 |
 | pdf/06_mod6_intro.pdf | 657.2 | 1 |
 | pdf/06_mod6_talakayan_ng_pabaong_gawain.pdf | 117.4 | 1 |
+| pdf/07_mod7_intro.pdf | 756.6 | 1 |
+| pdf/07_mod7_talakayan_ng_pabaong_gawain.pdf | 114.4 | 1 |
+| pdf/08_mod8_intro.pdf | 708.2 | 1 |
+| pdf/08_mod8_pabaong_gawain.pdf | 288.7 | 1 |
+| pdf/08_mod8_pagtatapos.pdf | 684.7 | 1 |
+| pdf/08_mod8_panimulang_gawain.pdf | 75.9 | 1 |
+| pdf/08_mod8_session_structure.pdf | 80.3 | 1 |
 </details>
 
 <details >
@@ -344,7 +346,7 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | generator |  | 9 |
 | global |  | 12 |
 | global | legal_terms | 1 |
-| template |  | 83 |
-| template | generated | 308 |
+| template |  | 84 |
+| template | generated | 316 |
 | template | legal_terms | 4 |
 </details>

@@ -1,0 +1,156 @@
+{
+  "flow_type": "template",
+  "flow_name": "add_cofacilitator",
+  "status": "released",
+  "rows": [
+    {
+      "type": "template",
+      "name": "header",
+      "value": "section_header",
+      "action_list": [
+        {
+          "trigger": "uncompleted",
+          "action_id": "emit",
+          "args": [
+            "uncompleted"
+          ],
+          "_raw": "uncompleted | emit: uncompleted",
+          "_cleaned": "uncompleted | emit: uncompleted"
+        }
+      ],
+      "exclude_from_translation": true,
+      "rows": [
+        {
+          "name": "title",
+          "value": "Add Co-Facilitator",
+          "_translations": {
+            "value": {}
+          },
+          "type": "set_variable",
+          "_nested_name": "header.title"
+        }
+      ],
+      "_nested_name": "header"
+    },
+    {
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "name": "set_variable_4",
+      "_nested_name": "set_variable_4"
+    },
+    {
+      "type": "text",
+      "value": "Enter ID of proposed co-facilitator",
+      "_translations": {
+        "value": {}
+      },
+      "name": "text_5",
+      "_nested_name": "text_5"
+    },
+    {
+      "type": "text_box",
+      "name": "co_facilitator_id",
+      "_nested_name": "co_facilitator_id"
+    },
+    {
+      "type": "button",
+      "value": "Add co-facilitator",
+      "_translations": {
+        "value": {}
+      },
+      "action_list": [
+        {
+          "trigger": "click",
+          "action_id": "plh_parent_group",
+          "args": [
+            "add_cofacilitator"
+          ],
+          "_raw": "click | plh_parent_group: add_cofacilitator | parent_group_id: @fields.current_group_id, auth_id: @local.co_facilitator_id, parent_groups_data_list: parent_groups, parents_data_list: parents",
+          "_cleaned": "click | plh_parent_group: add_cofacilitator | parent_group_id: @fields.current_group_id, auth_id: @local.co_facilitator_id, parent_groups_data_list: parent_groups, parents_data_list: parents",
+          "params": {
+            "parent_group_id": "@fields.current_group_id",
+            "auth_id": "@local.co_facilitator_id",
+            "parent_groups_data_list": "parent_groups",
+            "parents_data_list": "parents"
+          }
+        },
+        {
+          "trigger": "click",
+          "action_id": "emit",
+          "args": [
+            "completed"
+          ],
+          "_raw": "click | emit: completed",
+          "_cleaned": "click | emit: completed"
+        }
+      ],
+      "name": "button_7",
+      "_nested_name": "button_7",
+      "_dynamicFields": {
+        "action_list": {
+          "0": {
+            "_raw": [
+              {
+                "fullExpression": "click | plh_parent_group: add_cofacilitator | parent_group_id: @fields.current_group_id, auth_id: @local.co_facilitator_id, parent_groups_data_list: parent_groups, parents_data_list: parents",
+                "matchedExpression": "@fields.current_group_id",
+                "type": "fields",
+                "fieldName": "current_group_id"
+              },
+              {
+                "fullExpression": "click | plh_parent_group: add_cofacilitator | parent_group_id: @fields.current_group_id, auth_id: @local.co_facilitator_id, parent_groups_data_list: parent_groups, parents_data_list: parents",
+                "matchedExpression": "@local.co_facilitator_id",
+                "type": "local",
+                "fieldName": "co_facilitator_id"
+              }
+            ],
+            "_cleaned": [
+              {
+                "fullExpression": "click | plh_parent_group: add_cofacilitator | parent_group_id: @fields.current_group_id, auth_id: @local.co_facilitator_id, parent_groups_data_list: parent_groups, parents_data_list: parents",
+                "matchedExpression": "@fields.current_group_id",
+                "type": "fields",
+                "fieldName": "current_group_id"
+              },
+              {
+                "fullExpression": "click | plh_parent_group: add_cofacilitator | parent_group_id: @fields.current_group_id, auth_id: @local.co_facilitator_id, parent_groups_data_list: parent_groups, parents_data_list: parents",
+                "matchedExpression": "@local.co_facilitator_id",
+                "type": "local",
+                "fieldName": "co_facilitator_id"
+              }
+            ],
+            "params": {
+              "parent_group_id": [
+                {
+                  "fullExpression": "@fields.current_group_id",
+                  "matchedExpression": "@fields.current_group_id",
+                  "type": "fields",
+                  "fieldName": "current_group_id"
+                }
+              ],
+              "auth_id": [
+                {
+                  "fullExpression": "@local.co_facilitator_id",
+                  "matchedExpression": "@local.co_facilitator_id",
+                  "type": "local",
+                  "fieldName": "co_facilitator_id"
+                }
+              ]
+            }
+          }
+        }
+      },
+      "_dynamicDependencies": {
+        "@fields.current_group_id": [
+          "action_list.0._raw",
+          "action_list.0._cleaned",
+          "action_list.0.params.parent_group_id"
+        ],
+        "@local.co_facilitator_id": [
+          "action_list.0._raw",
+          "action_list.0._cleaned",
+          "action_list.0.params.auth_id"
+        ]
+      }
+    }
+  ],
+  "_xlsxPath": "templates/PH profile.xlsx"
+}

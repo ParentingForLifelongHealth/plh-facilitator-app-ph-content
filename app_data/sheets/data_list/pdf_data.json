@@ -113,6 +113,46 @@
       "id": "06_mod6_talakayan_ng_pabaong_gawain",
       "title": "Talakayan Tungkol sa Nakaraang Pabaong Gawain",
       "pdf_asset": "pdf/06_mod6_talakayan_ng_pabaong_gawain.pdf"
+    },
+    {
+      "id": "07_mod7_intro",
+      "title": "Introduksyon sa Modyul",
+      "pdf_asset": "pdf/07_mod7_intro.pdf"
+    },
+    {
+      "id": "07_mod7_talakayan_ng_pabaong_gawain",
+      "title": "Talakayan Tungkol sa Nakaraang Pabaong Gawain",
+      "pdf_asset": "pdf/07_mod7_talakayan_ng_pabaong_gawain.pdf"
+    },
+    {
+      "id": "08_mod8_intro",
+      "title": "Introduksyon sa Modyul",
+      "pdf_asset": "pdf/08_mod8_intro.pdf"
+    },
+    {
+      "id": "08_mod8_session_structure",
+      "title": "Istruktura ng Sesyon",
+      "pdf_asset": "pdf/08_mod8_session_structure.pdf"
+    },
+    {
+      "id": "08_mod8_panimulang_gawain",
+      "title": "Panimulang Gawain",
+      "pdf_asset": "pdf/08_mod8_panimulang_gawain.pdf"
+    },
+    {
+      "id": "08_mod8_pabaong_gawain",
+      "title": "Talakayan Tungkol sa Nakaraang Pabaong Gawain",
+      "pdf_asset": "pdf/08_mod8_pabaong_gawain.pdf"
+    },
+    {
+      "id": "08_mapa_skill",
+      "title": "Pagtalakay ng MaPa Skill",
+      "pdf_asset": "pdf/08_mapa_skill.pdf"
+    },
+    {
+      "id": "08_mod8_pagtatapos",
+      "title": "Pagtatapos",
+      "pdf_asset": "pdf/08_mod8_pagtatapos.pdf"
     }
   ],
   "_xlsxPath": "data/FacilitatorApp PH articles.xlsx"

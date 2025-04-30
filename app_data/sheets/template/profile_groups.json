@@ -154,6 +154,30 @@
                   "value"
                 ]
               }
+            },
+            {
+              "name": "is_readonly",
+              "value": "@item.readonly",
+              "_translations": {
+                "value": {}
+              },
+              "type": "set_variable",
+              "_nested_name": "data_items_5.parent_group.is_readonly",
+              "_dynamicFields": {
+                "value": [
+                  {
+                    "fullExpression": "@item.readonly",
+                    "matchedExpression": "@item.readonly",
+                    "type": "item",
+                    "fieldName": "readonly"
+                  }
+                ]
+              },
+              "_dynamicDependencies": {
+                "@item.readonly": [
+                  "value"
+                ]
+              }
             }
           ],
           "_nested_name": "data_items_5.parent_group",
@@ -656,5 +680,5 @@
       "_nested_name": "display_group_15"
     }
   ],
-  "_xlsxPath": "templates/profile.xlsx"
+  "_xlsxPath": "templates/PH profile.xlsx"
 }
