@@ -260,7 +260,7 @@
       },
       {
         "assets": "unused",
-        "KB": "20251 KB",
+        "KB": "20260 KB",
         "MB": "20.3 MB"
       }
     ]
@@ -669,7 +669,7 @@
       },
       {
         "path": "images/message.png",
-        "size_kb": 1.3
+        "size_kb": 10.4
       },
       {
         "path": "images/person_cog.png",
