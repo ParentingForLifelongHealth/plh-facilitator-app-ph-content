@@ -84,7 +84,7 @@
               "rows": [
                 {
                   "type": "text",
-                  "value": "@item.shared_id",
+                  "value": "@item.cofacilitator_id",
                   "_translations": {
                     "value": {}
                   },
@@ -96,15 +96,15 @@
                   "_dynamicFields": {
                     "value": [
                       {
-                        "fullExpression": "@item.shared_id",
-                        "matchedExpression": "@item.shared_id",
+                        "fullExpression": "@item.cofacilitator_id",
+                        "matchedExpression": "@item.cofacilitator_id",
                         "type": "item",
-                        "fieldName": "shared_id"
+                        "fieldName": "cofacilitator_id"
                       }
                     ]
                   },
                   "_dynamicDependencies": {
-                    "@item.shared_id": [
+                    "@item.cofacilitator_id": [
                       "value"
                     ]
                   }

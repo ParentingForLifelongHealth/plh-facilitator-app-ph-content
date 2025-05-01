@@ -79,7 +79,7 @@
 | assets | KB | MB |
 | --- | --- | --- |
 | total | 28147 KB | 28.1 MB |
-| unused | 20251 KB | 20.3 MB |
+| unused | 20260 KB | 20.3 MB |
 </details>
 
 <details open>
@@ -189,7 +189,7 @@ Assets that appear in app-data but do not have references within sheets
 | images/icons/settings.svg | 2.4 |
 | images/icons/task_0.png | 2 |
 | images/logos/MaPa_logo.png | 157.3 |
-| images/message.png | 1.3 |
+| images/message.png | 10.4 |
 | images/person_cog.png | 0.8 |
 | pdf/08_mod8_mapa_skill.pdf | 2394.2 |
 | pdf/08_mod8_pagdiriwang.pdf | 413.2 |
