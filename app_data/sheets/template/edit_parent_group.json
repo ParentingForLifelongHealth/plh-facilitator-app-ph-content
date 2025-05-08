@@ -177,7 +177,8 @@
         "value": {}
       },
       "parameter_list": {
-        "placeholder": "@local.text_group_name"
+        "placeholder": "@local.text_group_name",
+        "disabled": "@fields.current_group_readonly"
       },
       "exclude_from_translation": true,
       "_nested_name": "text_box",
@@ -198,6 +199,14 @@
               "type": "local",
               "fieldName": "text_group_name"
             }
+          ],
+          "disabled": [
+            {
+              "fullExpression": "@fields.current_group_readonly",
+              "matchedExpression": "@fields.current_group_readonly",
+              "type": "fields",
+              "fieldName": "current_group_readonly"
+            }
           ]
         }
       },
@@ -207,6 +216,9 @@
         ],
         "@local.text_group_name": [
           "parameter_list.placeholder"
+        ],
+        "@fields.current_group_readonly": [
+          "parameter_list.disabled"
         ]
       }
     },
@@ -520,5 +532,6 @@
       }
     }
   ],
-  "_xlsxPath": "templates/PH profile.xlsx"
+  "_xlsxPath": "templates/PH profile.xlsx",
+  "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
 }

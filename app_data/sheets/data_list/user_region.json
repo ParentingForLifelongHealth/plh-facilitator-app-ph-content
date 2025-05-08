@@ -22,12 +22,12 @@
     {
       "id": "calabarzon",
       "name": "calabarzon",
-      "text": "Calabarzon (Region IV-A)"
+      "text": "CALABARZON (Region IV-A)"
     },
     {
       "id": "mimaropa",
       "name": "mimaropa",
-      "text": "Mimaropa (Region IV-B)"
+      "text": "MIMAROPA (Region IV-B)"
     },
     {
       "id": "bicol_region",
@@ -77,7 +77,7 @@
     {
       "id": "soccsksargen",
       "name": "soccsksargen",
-      "text": "Soccsksargen (Region XII)"
+      "text": "SOCCSKSARGEN (Region XII)"
     },
     {
       "id": "caraga",
@@ -90,5 +90,6 @@
       "text": "Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)"
     }
   ],
-  "_xlsxPath": "data/deployment_data_ph.xlsx"
+  "_xlsxPath": "data/deployment_data_ph.xlsx",
+  "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
 }

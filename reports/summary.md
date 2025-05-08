@@ -24,13 +24,13 @@
 | pdf | 1 |
 | qr_code | 1 |
 | radio_button_grid | 16 |
-| round_button | 38 |
+| round_button | 40 |
 | select_text | 1 |
-| set_variable | 1061 |
+| set_variable | 1075 |
 | simple_checkbox | 2 |
 | task_card | 3 |
 | task_progress_bar | 4 |
-| template | 364 |
+| template | 378 |
 | test | 1 |
 | text | 270 |
 | text_area | 2 |
@@ -57,16 +57,16 @@
 | emit: force_restart | 5 |
 | emit: server_sync | 13 |
 | emit: set_language | 1 |
-| emit: uncompleted | 67 |
+| emit: uncompleted | 81 |
 | feedback | 13 |
-| go_to | 31 |
+| go_to | 33 |
 | nav_stack | 4 |
 | plh_parent_group | 9 |
 | pop_up | 19 |
 | reset_app | 1 |
 | save_to_device | 4 |
 | set_data | 21 |
-| set_field | 67 |
+| set_field | 75 |
 | set_item | 9 |
 | set_local | 90 |
 | share | 4 |
@@ -78,8 +78,8 @@
 
 | assets | KB | MB |
 | --- | --- | --- |
-| total | 28147 KB | 28.1 MB |
-| unused | 20260 KB | 20.3 MB |
+| total | 28603 KB | 28.6 MB |
+| unused | 19805 KB | 19.8 MB |
 </details>
 
 <details open>
@@ -97,7 +97,6 @@ Assets that appear in app-data but do not have references within sheets
 | images/05_masayang_tahanan.jpg | 197 |
 | images/06_masayang_tahanan.jpg | 379.5 |
 | images/07_masayang_tahanan.jpg | 455.5 |
-| images/08_masayang_tahanan.jpg | 455.5 |
 | images/Message.svg | 0.7 |
 | images/after_disclosed_abuse.svg | 4.7 |
 | images/backgrounds/library_bottom_left.svg | 2.3 |
@@ -238,6 +237,7 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | images/02_masayang_tahanan.jpg | 191.5 | 1 |
 | images/03_masayang_tahanan.jpg | 195.3 | 1 |
 | images/04_masayang_tahanan.jpg | 198.8 | 1 |
+| images/08_masayang_tahanan.jpg | 455.5 | 1 |
 | images/backgrounds/MaPa_logo_with_background.png | 102 | 1 |
 | images/backgrounds/home_bottom_right.svg | 2.3 | 1 |
 | images/backgrounds/home_top_left.svg | 2.4 | 3 |
@@ -269,6 +269,7 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | images/icons/download.svg | 0.7 | 2 |
 | images/icons/download_white.svg | 0.7 | 1 |
 | images/icons/edit.svg | 0.9 | 5 |
+| images/icons/eye-outline.svg | 0.5 | 2 |
 | images/icons/feather.svg | 4.6 | 1 |
 | images/icons/help.svg | 2.6 | 1 |
 | images/icons/home_white.svg | 1.7 | 1 |
@@ -286,7 +287,7 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | images/icons/task_1.png | 1 | 2 |
 | images/icons/task_2.png | 1.9 | 1 |
 | images/icons/task_3.png | 2 | 1 |
-| images/icons/task_4.png | 1.4 | 1 |
+| images/icons/task_4.png | 1.5 | 1 |
 | images/icons/task_5.png | 1.8 | 1 |
 | images/icons/task_6.png | 2.2 | 1 |
 | images/icons/task_7.png | 1.5 | 1 |
@@ -347,6 +348,6 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | global |  | 12 |
 | global | legal_terms | 1 |
 | template |  | 84 |
-| template | generated | 316 |
+| template | generated | 330 |
 | template | legal_terms | 4 |
 </details>

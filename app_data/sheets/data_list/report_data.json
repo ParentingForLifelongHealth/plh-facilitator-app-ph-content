@@ -20,107 +20,108 @@
     {
       "id": "week_1",
       "type": "in_person",
-      "name": "Week 1: Thoughts, Feelings, and Actions",
+      "name": "Module 1 Session",
       "_translations": {
         "name": {}
       },
       "_translatedFields": {
         "name": {
-          "eng": "Week 1: Thoughts, Feelings, and Actions"
+          "eng": "Module 1 Session"
         }
       }
     },
     {
       "id": "week_2",
       "type": "in_person",
-      "name": "Week 2: Self-Talk",
+      "name": "Module 2 Session",
       "_translations": {
         "name": {}
       },
       "_translatedFields": {
         "name": {
-          "eng": "Week 2: Self-Talk"
+          "eng": "Module 2 Session"
         }
       }
     },
     {
       "id": "week_3",
       "type": "in_person",
-      "name": "Week 3: Character Strengths",
+      "name": "Module 3 Session",
       "_translations": {
         "name": {}
       },
       "_translatedFields": {
         "name": {
-          "eng": "Week 3: Character Strengths"
+          "eng": "Module 3 Session"
         }
       }
     },
     {
       "id": "week_4",
       "type": "in_person",
-      "name": "Week 4: Building Pleasant Emotions",
+      "name": "Module 4 Session",
       "_translations": {
         "name": {}
       },
       "_translatedFields": {
         "name": {
-          "eng": "Week 4: Building Pleasant Emotions"
+          "eng": "Module 4 Session"
         }
       }
     },
     {
       "id": "week_5",
       "type": "in_person",
-      "name": "Week 5",
+      "name": "Module 5 Session",
       "_translations": {
         "name": {}
       },
       "_translatedFields": {
         "name": {
-          "eng": "Week 5"
+          "eng": "Module 5 Session"
         }
       }
     },
     {
       "id": "week_6",
       "type": "in_person",
-      "name": "Week 6",
+      "name": "Module 6 Session",
       "_translations": {
         "name": {}
       },
       "_translatedFields": {
         "name": {
-          "eng": "Week 6"
+          "eng": "Module 6 Session"
         }
       }
     },
     {
       "id": "week_7",
       "type": "in_person",
-      "name": "Week 7",
+      "name": "Module 7 Session",
       "_translations": {
         "name": {}
       },
       "_translatedFields": {
         "name": {
-          "eng": "Week 7"
+          "eng": "Module 7 Session"
         }
       }
     },
     {
       "id": "week_8",
       "type": "in_person",
-      "name": "Week 8",
+      "name": "Module 8 Session",
       "_translations": {
         "name": {}
       },
       "_translatedFields": {
         "name": {
-          "eng": "Week 8"
+          "eng": "Module 8 Session"
         }
       }
     }
   ],
-  "_xlsxPath": "data/FacilitatorApp PH articles.xlsx"
+  "_xlsxPath": "data/FacilitatorApp PH articles.xlsx",
+  "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
 }
