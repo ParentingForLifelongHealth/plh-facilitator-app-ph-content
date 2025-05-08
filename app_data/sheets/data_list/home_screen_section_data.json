@@ -6,13 +6,13 @@
   "rows": [
     {
       "id": "programme",
-      "title": "MaPaChat Hybrid Program",
+      "title": "Tungkol sa MaPaChat Hybrid Program",
       "_translations": {
         "title": {}
       },
       "_translatedFields": {
         "title": {
-          "eng": "MaPaChat Hybrid Program"
+          "eng": "Tungkol sa MaPaChat Hybrid Program"
         }
       }
     },
@@ -30,13 +30,13 @@
     },
     {
       "id": "faq",
-      "title": "Frequently Asked Questions",
+      "title": "Mga Madalas Itanong",
       "_translations": {
         "title": {}
       },
       "_translatedFields": {
         "title": {
-          "eng": "Frequently Asked Questions"
+          "eng": "Mga Madalas Itanong"
         }
       }
     },
@@ -56,5 +56,6 @@
       "id": "challenges"
     }
   ],
-  "_xlsxPath": "data/FacilitatorApp PH articles.xlsx"
+  "_xlsxPath": "data/FacilitatorApp PH articles.xlsx",
+  "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
 }

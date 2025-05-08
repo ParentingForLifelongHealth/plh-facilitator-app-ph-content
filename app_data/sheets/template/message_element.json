@@ -713,7 +713,7 @@
                       }
                     }
                   ],
-                  "condition": "@local.asset_type !== \"image\"",
+                  "condition": false,
                   "parameter_list": {
                     "icon_src": "images/icons/share.svg"
                   },
@@ -836,15 +836,7 @@
                           ]
                         }
                       }
-                    },
-                    "condition": [
-                      {
-                        "fullExpression": "@local.asset_type !== \"image\"",
-                        "matchedExpression": "@local.asset_type",
-                        "type": "local",
-                        "fieldName": "asset_type"
-                      }
-                    ]
+                    }
                   },
                   "_dynamicDependencies": {
                     "@fields.current_group_no": [
@@ -871,9 +863,6 @@
                       "action_list.1._raw",
                       "action_list.1._cleaned",
                       "action_list.1.params.text"
-                    ],
-                    "@local.asset_type": [
-                      "condition"
                     ]
                   }
                 },
@@ -1395,5 +1384,6 @@
       "_nested_name": "dg_box"
     }
   ],
-  "_xlsxPath": "templates/article_elements_override.xlsx"
+  "_xlsxPath": "templates/article_elements_override.xlsx",
+  "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
 }

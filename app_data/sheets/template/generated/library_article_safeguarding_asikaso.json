@@ -1,5 +1,5 @@
 {
-  "flow_name": "library_article_ingat_kumpidensyal",
+  "flow_name": "library_article_safeguarding_asikaso",
   "flow_subtype": "generated",
   "flow_type": "template",
   "rows": [
@@ -22,7 +22,7 @@
       "rows": [
         {
           "name": "article_id",
-          "value": "ingat_kumpidensyal",
+          "value": "safeguarding_asikaso",
           "_translations": {
             "value": {}
           },

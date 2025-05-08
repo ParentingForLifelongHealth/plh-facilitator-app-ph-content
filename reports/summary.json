@@ -87,7 +87,7 @@
       },
       {
         "type": "round_button",
-        "count": 38
+        "count": 40
       },
       {
         "type": "select_text",
@@ -95,7 +95,7 @@
       },
       {
         "type": "set_variable",
-        "count": 1061
+        "count": 1075
       },
       {
         "type": "simple_checkbox",
@@ -111,7 +111,7 @@
       },
       {
         "type": "template",
-        "count": 364
+        "count": 378
       },
       {
         "type": "test",
@@ -195,7 +195,7 @@
       },
       {
         "type": "emit: uncompleted",
-        "count": 67
+        "count": 81
       },
       {
         "type": "feedback",
@@ -203,7 +203,7 @@
       },
       {
         "type": "go_to",
-        "count": 31
+        "count": 33
       },
       {
         "type": "nav_stack",
@@ -231,7 +231,7 @@
       },
       {
         "type": "set_field",
-        "count": 67
+        "count": 75
       },
       {
         "type": "set_item",
@@ -255,13 +255,13 @@
     "data": [
       {
         "assets": "total",
-        "KB": "28147 KB",
-        "MB": "28.1 MB"
+        "KB": "28603 KB",
+        "MB": "28.6 MB"
       },
       {
         "assets": "unused",
-        "KB": "20260 KB",
-        "MB": "20.3 MB"
+        "KB": "19805 KB",
+        "MB": "19.8 MB"
       }
     ]
   },
@@ -297,10 +297,6 @@
       },
       {
         "path": "images/07_masayang_tahanan.jpg",
-        "size_kb": 455.5
-      },
-      {
-        "path": "images/08_masayang_tahanan.jpg",
         "size_kb": 455.5
       },
       {
@@ -827,6 +823,11 @@
         "size_kb": 198.8
       },
       {
+        "path": "images/08_masayang_tahanan.jpg",
+        "count": 1,
+        "size_kb": 455.5
+      },
+      {
         "path": "images/backgrounds/MaPa_logo_with_background.png",
         "count": 1,
         "size_kb": 102
@@ -982,6 +983,11 @@
         "size_kb": 0.9
       },
       {
+        "path": "images/icons/eye-outline.svg",
+        "count": 2,
+        "size_kb": 0.5
+      },
+      {
         "path": "images/icons/feather.svg",
         "count": 1,
         "size_kb": 4.6
@@ -1069,7 +1075,7 @@
       {
         "path": "images/icons/task_4.png",
         "count": 1,
-        "size_kb": 1.4
+        "size_kb": 1.5
       },
       {
         "path": "images/icons/task_5.png",
@@ -1343,7 +1349,7 @@
       {
         "type": "template",
         "subtype": "generated",
-        "total": 316
+        "total": 330
       },
       {
         "type": "template",

@@ -102,7 +102,7 @@
     {
       "type": "declare_global_constant",
       "name": "label_childcare",
-      "value": "Who else is taking car of the child?",
+      "value": "Who else is taking care of the child?",
       "_translations": {
         "value": {}
       }
@@ -198,7 +198,7 @@
     {
       "type": "declare_global_constant",
       "name": "edit_relationship",
-      "value": "Enter the parent's relationship with the child",
+      "value": "e.g., Mother, Grandfather",
       "_translations": {
         "value": {}
       }
@@ -206,7 +206,7 @@
     {
       "type": "declare_global_constant",
       "name": "edit_members",
-      "value": "Enter the total number of family members",
+      "value": "e.g., 5",
       "_translations": {
         "value": {}
       }
@@ -214,7 +214,7 @@
     {
       "type": "declare_global_constant",
       "name": "edit_childcare",
-      "value": "Enter the person’s relationship to the child",
+      "value": "e.g., Aunt, Grandparent",
       "_translations": {
         "value": {}
       }
@@ -380,5 +380,6 @@
       }
     }
   ],
-  "_xlsxPath": "data/deployment_data_ph.xlsx"
+  "_xlsxPath": "data/deployment_data_ph.xlsx",
+  "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
 }

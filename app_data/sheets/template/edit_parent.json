@@ -210,7 +210,8 @@
           "type": "text_box",
           "name": "first_name",
           "parameter_list": {
-            "placeholder": "@global.edit_first_name"
+            "placeholder": "@global.edit_first_name",
+            "disabled": "@fields.current_group_readonly"
           },
           "exclude_from_translation": true,
           "_nested_name": "display_group_15.first_name",
@@ -223,12 +224,23 @@
                   "type": "global",
                   "fieldName": "edit_first_name"
                 }
+              ],
+              "disabled": [
+                {
+                  "fullExpression": "@fields.current_group_readonly",
+                  "matchedExpression": "@fields.current_group_readonly",
+                  "type": "fields",
+                  "fieldName": "current_group_readonly"
+                }
               ]
             }
           },
           "_dynamicDependencies": {
             "@global.edit_first_name": [
               "parameter_list.placeholder"
+            ],
+            "@fields.current_group_readonly": [
+              "parameter_list.disabled"
             ]
           }
         },
@@ -342,7 +354,8 @@
           "type": "text_box",
           "name": "last_name",
           "parameter_list": {
-            "placeholder": "@global.edit_last_name"
+            "placeholder": "@global.edit_last_name",
+            "disabled": "@fields.current_group_readonly"
           },
           "exclude_from_translation": true,
           "_nested_name": "display_group_15.last_name",
@@ -355,12 +368,23 @@
                   "type": "global",
                   "fieldName": "edit_last_name"
                 }
+              ],
+              "disabled": [
+                {
+                  "fullExpression": "@fields.current_group_readonly",
+                  "matchedExpression": "@fields.current_group_readonly",
+                  "type": "fields",
+                  "fieldName": "current_group_readonly"
+                }
               ]
             }
           },
           "_dynamicDependencies": {
             "@global.edit_last_name": [
               "parameter_list.placeholder"
+            ],
+            "@fields.current_group_readonly": [
+              "parameter_list.disabled"
             ]
           }
         },
@@ -486,7 +510,8 @@
             }
           ],
           "parameter_list": {
-            "placeholder": "@global.edit_number"
+            "placeholder": "@global.edit_number",
+            "disabled": "@fields.current_group_readonly"
           },
           "exclude_from_translation": true,
           "_nested_name": "display_group_15.number",
@@ -499,12 +524,23 @@
                   "type": "global",
                   "fieldName": "edit_number"
                 }
+              ],
+              "disabled": [
+                {
+                  "fullExpression": "@fields.current_group_readonly",
+                  "matchedExpression": "@fields.current_group_readonly",
+                  "type": "fields",
+                  "fieldName": "current_group_readonly"
+                }
               ]
             }
           },
           "_dynamicDependencies": {
             "@global.edit_number": [
               "parameter_list.placeholder"
+            ],
+            "@fields.current_group_readonly": [
+              "parameter_list.disabled"
             ]
           }
         },
@@ -655,7 +691,8 @@
             }
           ],
           "parameter_list": {
-            "placeholder": "@global.edit_age"
+            "placeholder": "@global.edit_age",
+            "disabled": "@fields.current_group_readonly"
           },
           "exclude_from_translation": true,
           "_nested_name": "display_group_15.age",
@@ -668,12 +705,23 @@
                   "type": "global",
                   "fieldName": "edit_age"
                 }
+              ],
+              "disabled": [
+                {
+                  "fullExpression": "@fields.current_group_readonly",
+                  "matchedExpression": "@fields.current_group_readonly",
+                  "type": "fields",
+                  "fieldName": "current_group_readonly"
+                }
               ]
             }
           },
           "_dynamicDependencies": {
             "@global.edit_age": [
               "parameter_list.placeholder"
+            ],
+            "@fields.current_group_readonly": [
+              "parameter_list.disabled"
             ]
           }
         },
@@ -839,7 +887,8 @@
           ],
           "parameter_list": {
             "placeholder": "@global.edit_sex",
-            "answer_list": "@local.gender_select_options"
+            "answer_list": "@local.gender_select_options",
+            "disabled": "@fields.current_group_readonly"
           },
           "condition": "answer_list: @local.gender_select_options",
           "exclude_from_translation": true,
@@ -861,6 +910,14 @@
                   "type": "local",
                   "fieldName": "gender_select_options"
                 }
+              ],
+              "disabled": [
+                {
+                  "fullExpression": "@fields.current_group_readonly",
+                  "matchedExpression": "@fields.current_group_readonly",
+                  "type": "fields",
+                  "fieldName": "current_group_readonly"
+                }
               ]
             },
             "condition": [
@@ -879,6 +936,9 @@
             "@local.gender_select_options": [
               "parameter_list.answer_list",
               "condition"
+            ],
+            "@fields.current_group_readonly": [
+              "parameter_list.disabled"
             ]
           }
         },
@@ -1008,7 +1068,8 @@
           "type": "text_box",
           "name": "child_name",
           "parameter_list": {
-            "placeholder": "@global.edit_child_name"
+            "placeholder": "@global.edit_child_name",
+            "disabled": "@fields.current_group_readonly"
           },
           "exclude_from_translation": true,
           "_nested_name": "display_group_15.child_name",
@@ -1021,12 +1082,23 @@
                   "type": "global",
                   "fieldName": "edit_child_name"
                 }
+              ],
+              "disabled": [
+                {
+                  "fullExpression": "@fields.current_group_readonly",
+                  "matchedExpression": "@fields.current_group_readonly",
+                  "type": "fields",
+                  "fieldName": "current_group_readonly"
+                }
               ]
             }
           },
           "_dynamicDependencies": {
             "@global.edit_child_name": [
               "parameter_list.placeholder"
+            ],
+            "@fields.current_group_readonly": [
+              "parameter_list.disabled"
             ]
           }
         },
@@ -1168,7 +1240,8 @@
             }
           ],
           "parameter_list": {
-            "placeholder": "@global.edit_child_age"
+            "placeholder": "@global.edit_child_age",
+            "disabled": "@fields.current_group_readonly"
           },
           "exclude_from_translation": true,
           "_nested_name": "display_group_15.child_age",
@@ -1181,12 +1254,23 @@
                   "type": "global",
                   "fieldName": "edit_child_age"
                 }
+              ],
+              "disabled": [
+                {
+                  "fullExpression": "@fields.current_group_readonly",
+                  "matchedExpression": "@fields.current_group_readonly",
+                  "type": "fields",
+                  "fieldName": "current_group_readonly"
+                }
               ]
             }
           },
           "_dynamicDependencies": {
             "@global.edit_child_age": [
               "parameter_list.placeholder"
+            ],
+            "@fields.current_group_readonly": [
+              "parameter_list.disabled"
             ]
           }
         },
@@ -1352,7 +1436,8 @@
           ],
           "parameter_list": {
             "placeholder": "@global.edit_child_sex",
-            "answer_list": "@local.child_gender_select_options"
+            "answer_list": "@local.child_gender_select_options",
+            "disabled": "@fields.current_group_readonly"
           },
           "exclude_from_translation": true,
           "_nested_name": "display_group_15.child_sex",
@@ -1373,6 +1458,14 @@
                   "type": "local",
                   "fieldName": "child_gender_select_options"
                 }
+              ],
+              "disabled": [
+                {
+                  "fullExpression": "@fields.current_group_readonly",
+                  "matchedExpression": "@fields.current_group_readonly",
+                  "type": "fields",
+                  "fieldName": "current_group_readonly"
+                }
               ]
             }
           },
@@ -1382,6 +1475,9 @@
             ],
             "@local.child_gender_select_options": [
               "parameter_list.answer_list"
+            ],
+            "@fields.current_group_readonly": [
+              "parameter_list.disabled"
             ]
           }
         },
@@ -1477,7 +1573,8 @@
           "type": "text_box",
           "name": "relationship",
           "parameter_list": {
-            "placeholder": "@global.edit_relationship"
+            "placeholder": "@global.edit_relationship",
+            "disabled": "@fields.current_group_readonly"
           },
           "exclude_from_translation": true,
           "_nested_name": "display_group_15.relationship",
@@ -1490,12 +1587,23 @@
                   "type": "global",
                   "fieldName": "edit_relationship"
                 }
+              ],
+              "disabled": [
+                {
+                  "fullExpression": "@fields.current_group_readonly",
+                  "matchedExpression": "@fields.current_group_readonly",
+                  "type": "fields",
+                  "fieldName": "current_group_readonly"
+                }
               ]
             }
           },
           "_dynamicDependencies": {
             "@global.edit_relationship": [
               "parameter_list.placeholder"
+            ],
+            "@fields.current_group_readonly": [
+              "parameter_list.disabled"
             ]
           }
         },
@@ -1671,7 +1779,8 @@
             }
           ],
           "parameter_list": {
-            "placeholder": "@global.edit_members"
+            "placeholder": "@global.edit_members",
+            "disabled": "@fields.current_group_readonly"
           },
           "exclude_from_translation": true,
           "_nested_name": "display_group_15.members",
@@ -1684,12 +1793,23 @@
                   "type": "global",
                   "fieldName": "edit_members"
                 }
+              ],
+              "disabled": [
+                {
+                  "fullExpression": "@fields.current_group_readonly",
+                  "matchedExpression": "@fields.current_group_readonly",
+                  "type": "fields",
+                  "fieldName": "current_group_readonly"
+                }
               ]
             }
           },
           "_dynamicDependencies": {
             "@global.edit_members": [
               "parameter_list.placeholder"
+            ],
+            "@fields.current_group_readonly": [
+              "parameter_list.disabled"
             ]
           }
         },
@@ -1835,7 +1955,8 @@
           "type": "text_box",
           "name": "childcare",
           "parameter_list": {
-            "placeholder": "@global.edit_childcare"
+            "placeholder": "@global.edit_childcare",
+            "disabled": "@fields.current_group_readonly"
           },
           "exclude_from_translation": true,
           "_nested_name": "display_group_15.childcare",
@@ -1848,12 +1969,23 @@
                   "type": "global",
                   "fieldName": "edit_childcare"
                 }
+              ],
+              "disabled": [
+                {
+                  "fullExpression": "@fields.current_group_readonly",
+                  "matchedExpression": "@fields.current_group_readonly",
+                  "type": "fields",
+                  "fieldName": "current_group_readonly"
+                }
               ]
             }
           },
           "_dynamicDependencies": {
             "@global.edit_childcare": [
               "parameter_list.placeholder"
+            ],
+            "@fields.current_group_readonly": [
+              "parameter_list.disabled"
             ]
           }
         },
@@ -2131,7 +2263,8 @@
           "type": "text_box",
           "name": "other",
           "parameter_list": {
-            "placeholder": "@global.edit_other_notes"
+            "placeholder": "@global.edit_other_notes",
+            "disabled": "@fields.current_group_readonly"
           },
           "exclude_from_translation": true,
           "_nested_name": "display_group_15.other",
@@ -2144,12 +2277,23 @@
                   "type": "global",
                   "fieldName": "edit_other_notes"
                 }
+              ],
+              "disabled": [
+                {
+                  "fullExpression": "@fields.current_group_readonly",
+                  "matchedExpression": "@fields.current_group_readonly",
+                  "type": "fields",
+                  "fieldName": "current_group_readonly"
+                }
               ]
             }
           },
           "_dynamicDependencies": {
             "@global.edit_other_notes": [
               "parameter_list.placeholder"
+            ],
+            "@fields.current_group_readonly": [
+              "parameter_list.disabled"
             ]
           }
         },
@@ -2188,10 +2332,28 @@
           "type": "date_time_picker",
           "name": "consoltation",
           "parameter_list": {
-            "type": "date"
+            "type": "date",
+            "disabled": "@fields.current_group_readonly"
           },
           "exclude_from_translation": true,
-          "_nested_name": "display_group_15.consoltation"
+          "_nested_name": "display_group_15.consoltation",
+          "_dynamicFields": {
+            "parameter_list": {
+              "disabled": [
+                {
+                  "fullExpression": "@fields.current_group_readonly",
+                  "matchedExpression": "@fields.current_group_readonly",
+                  "type": "fields",
+                  "fieldName": "current_group_readonly"
+                }
+              ]
+            }
+          },
+          "_dynamicDependencies": {
+            "@fields.current_group_readonly": [
+              "parameter_list.disabled"
+            ]
+          }
         },
         {
           "exclude_from_translation": true,
@@ -3368,5 +3530,6 @@
       }
     }
   ],
-  "_xlsxPath": "templates/PH profile.xlsx"
+  "_xlsxPath": "templates/PH profile.xlsx",
+  "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
 }

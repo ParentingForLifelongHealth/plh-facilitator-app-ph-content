@@ -475,6 +475,10 @@
     "md5Checksum": "8e798678adcd89011b7b48b2d07930b8",
     "size_kb": 0.9
   },
+  "images/icons/eye-outline.svg": {
+    "md5Checksum": "d70d55331b93d4e10ad66e5bf53b8223",
+    "size_kb": 0.5
+  },
   "images/icons/feather.svg": {
     "md5Checksum": "618dbb9e7b404e3d5c8da9e0ce605ab6",
     "size_kb": 4.6
@@ -600,39 +604,39 @@
     "size_kb": 2.3
   },
   "images/icons/task_0.png": {
-    "md5Checksum": "063aaf6dd242f94e424f27e1d1a32fdc",
+    "md5Checksum": "d091d24763ff4511f97d9aa0884561a2",
     "size_kb": 2
   },
   "images/icons/task_1.png": {
-    "md5Checksum": "8ec7f72c287deb6835dd020abd25fb6c",
+    "md5Checksum": "559c3b128a91336b002ca0815620dd1a",
     "size_kb": 1
   },
   "images/icons/task_2.png": {
-    "md5Checksum": "70a8ba5a10a8a172f6f3b922ada8e92b",
+    "md5Checksum": "b9aa4ac99ca09ef9e1c345f0f6f41fa7",
     "size_kb": 1.9
   },
   "images/icons/task_3.png": {
-    "md5Checksum": "448f20fe3d3cb2bdb48e981d7aa819c4",
+    "md5Checksum": "e08a0179104f8b38ecca08bc848c21d5",
     "size_kb": 2
   },
   "images/icons/task_4.png": {
-    "md5Checksum": "f21579290f44ad6b692d6b1b4893cc7c",
-    "size_kb": 1.4
+    "md5Checksum": "976fa5922c585b54cf3b2e17f2449eca",
+    "size_kb": 1.5
   },
   "images/icons/task_5.png": {
-    "md5Checksum": "cafe8199ac12af3cddedc40be6c7ecdc",
+    "md5Checksum": "a66a858794ab298777de25100657f6fe",
     "size_kb": 1.8
   },
   "images/icons/task_6.png": {
-    "md5Checksum": "335bfd710cf603e62bf68de8d6fd59e6",
+    "md5Checksum": "60a8a479076d7b0ed0d695747c497b4a",
     "size_kb": 2.2
   },
   "images/icons/task_7.png": {
-    "md5Checksum": "87925bec74d0c698945ee18be9294925",
+    "md5Checksum": "ee4c07a9347dbf888f13cba7704feb7c",
     "size_kb": 1.5
   },
   "images/icons/task_8.png": {
-    "md5Checksum": "ed14afd874c2212606b57454c707a6c6",
+    "md5Checksum": "ac226e440340ec3bbc0de46731e11763",
     "size_kb": 2.4
   },
   "images/icons/unarchive.svg": {
