@@ -10,7 +10,7 @@
 | button | 87 |
 | carousel | 2 |
 | combo_box | 16 |
-| data_items | 47 |
+| data_items | 48 |
 | date_time_picker | 4 |
 | debug_toggle | 1 |
 | display_grid | 2 |
@@ -26,11 +26,11 @@
 | radio_button_grid | 16 |
 | round_button | 40 |
 | select_text | 1 |
-| set_variable | 1075 |
+| set_variable | 1072 |
 | simple_checkbox | 2 |
 | task_card | 3 |
 | task_progress_bar | 4 |
-| template | 378 |
+| template | 377 |
 | test | 1 |
 | text | 270 |
 | text_area | 2 |
@@ -57,7 +57,7 @@
 | emit: force_restart | 5 |
 | emit: server_sync | 13 |
 | emit: set_language | 1 |
-| emit: uncompleted | 81 |
+| emit: uncompleted | 80 |
 | feedback | 13 |
 | go_to | 33 |
 | nav_stack | 4 |
@@ -65,10 +65,11 @@
 | pop_up | 19 |
 | reset_app | 1 |
 | save_to_device | 4 |
+| scroll | 1 |
 | set_data | 21 |
 | set_field | 75 |
 | set_item | 9 |
-| set_local | 90 |
+| set_local | 92 |
 | share | 4 |
 | user | 4 |
 </details>
@@ -348,6 +349,6 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | global |  | 12 |
 | global | legal_terms | 1 |
 | template |  | 84 |
-| template | generated | 330 |
+| template | generated | 329 |
 | template | legal_terms | 4 |
 </details>

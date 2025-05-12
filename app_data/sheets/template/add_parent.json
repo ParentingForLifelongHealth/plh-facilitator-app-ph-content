@@ -3423,6 +3423,13 @@
               ],
               "_raw": "click | emit: server_sync",
               "_cleaned": "click | emit: server_sync"
+            },
+            {
+              "trigger": "click",
+              "action_id": "scroll",
+              "args": [],
+              "_raw": "click | scroll",
+              "_cleaned": "click | scroll"
             }
           ],
           "parameter_list": {

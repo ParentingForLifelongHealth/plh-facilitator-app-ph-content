@@ -5,19 +5,6 @@
   "data_list_name": "report",
   "rows": [
     {
-      "id": "onboarding",
-      "type": "in_person",
-      "name": "Onboarding",
-      "_translations": {
-        "name": {}
-      },
-      "_translatedFields": {
-        "name": {
-          "eng": "Onboarding"
-        }
-      }
-    },
-    {
       "id": "week_1",
       "type": "in_person",
       "name": "Module 1 Session",

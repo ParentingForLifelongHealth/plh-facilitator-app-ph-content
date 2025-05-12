@@ -725,12 +725,153 @@
       "province_id": "aurora"
     },
     {
+      "id": "akbar",
+      "name": "akbar",
+      "text": "Akbar",
       "province_id": "basilan"
     },
     {
-      "id": "balanga",
-      "name": "balanga",
-      "text": "Balanga",
+      "id": "al_barka",
+      "name": "al_barka",
+      "text": "Al-Barka",
+      "province_id": "basilan"
+    },
+    {
+      "id": "hadji_mohammad_ajul",
+      "name": "hadji_mohammad_ajul",
+      "text": "Hadji Mohammad Ajul",
+      "province_id": "basilan"
+    },
+    {
+      "id": "hadji_muhtamad",
+      "name": "hadji_muhtamad",
+      "text": "Hadji Muhtamad",
+      "province_id": "basilan"
+    },
+    {
+      "id": "isabela city",
+      "name": "isabela city",
+      "text": "Isabela City",
+      "province_id": "basilan"
+    },
+    {
+      "id": "lamitan city",
+      "name": "lamitan city",
+      "text": "Lamitan City",
+      "province_id": "basilan"
+    },
+    {
+      "id": "lantawan",
+      "name": "lantawan",
+      "text": "Lantawan",
+      "province_id": "basilan"
+    },
+    {
+      "id": "maluso",
+      "name": "maluso",
+      "text": "Maluso",
+      "province_id": "basilan"
+    },
+    {
+      "id": "sumisip",
+      "name": "sumisip",
+      "text": "Sumisip",
+      "province_id": "basilan"
+    },
+    {
+      "id": "tabuan_lasa",
+      "name": "tabuan_lasa",
+      "text": "Tabuan-Lasa",
+      "province_id": "basilan"
+    },
+    {
+      "id": "tipo_tipo",
+      "name": "tipo_tipo",
+      "text": "Tipo-Tipo",
+      "province_id": "basilan"
+    },
+    {
+      "id": "tuburan",
+      "name": "tuburan",
+      "text": "Tuburan",
+      "province_id": "basilan"
+    },
+    {
+      "id": "ungkaya_pukan",
+      "name": "ungkaya_pukan",
+      "text": "Ungkaya Pukan",
+      "province_id": "basilan"
+    },
+    {
+      "id": "abucay",
+      "name": "abucay",
+      "text": "Abucay",
+      "province_id": "bataan"
+    },
+    {
+      "id": "bagac",
+      "name": "bagac",
+      "text": "Bagac",
+      "province_id": "bataan"
+    },
+    {
+      "id": "balanga_city",
+      "name": "balanga_city",
+      "text": "Balanga City",
+      "province_id": "bataan"
+    },
+    {
+      "id": "dinalupihan",
+      "name": "dinalupihan",
+      "text": "Dinalupihan",
+      "province_id": "bataan"
+    },
+    {
+      "id": "hermosa",
+      "name": "hermosa",
+      "text": "Hermosa",
+      "province_id": "bataan"
+    },
+    {
+      "id": "limay",
+      "name": "limay",
+      "text": "Limay",
+      "province_id": "bataan"
+    },
+    {
+      "id": "mariveles",
+      "name": "mariveles",
+      "text": "Mariveles",
+      "province_id": "bataan"
+    },
+    {
+      "id": "morong",
+      "name": "morong",
+      "text": "Morong",
+      "province_id": "bataan"
+    },
+    {
+      "id": "orani",
+      "name": "orani",
+      "text": "Orani",
+      "province_id": "bataan"
+    },
+    {
+      "id": "orion",
+      "name": "orion",
+      "text": "Orion",
+      "province_id": "bataan"
+    },
+    {
+      "id": "pilar",
+      "name": "pilar",
+      "text": "Pilar",
+      "province_id": "bataan"
+    },
+    {
+      "id": "samal",
+      "name": "samal",
+      "text": "Samal",
       "province_id": "bataan"
     },
     {
