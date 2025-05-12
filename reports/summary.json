@@ -31,7 +31,7 @@
       },
       {
         "type": "data_items",
-        "count": 47
+        "count": 48
       },
       {
         "type": "date_time_picker",
@@ -95,7 +95,7 @@
       },
       {
         "type": "set_variable",
-        "count": 1075
+        "count": 1072
       },
       {
         "type": "simple_checkbox",
@@ -111,7 +111,7 @@
       },
       {
         "type": "template",
-        "count": 378
+        "count": 377
       },
       {
         "type": "test",
@@ -195,7 +195,7 @@
       },
       {
         "type": "emit: uncompleted",
-        "count": 81
+        "count": 80
       },
       {
         "type": "feedback",
@@ -226,6 +226,10 @@
         "count": 4
       },
       {
+        "type": "scroll",
+        "count": 1
+      },
+      {
         "type": "set_data",
         "count": 21
       },
@@ -239,7 +243,7 @@
       },
       {
         "type": "set_local",
-        "count": 90
+        "count": 92
       },
       {
         "type": "share",
@@ -1349,7 +1353,7 @@
       {
         "type": "template",
         "subtype": "generated",
-        "total": 330
+        "total": 329
       },
       {
         "type": "template",

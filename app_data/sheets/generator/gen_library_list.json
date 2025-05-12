@@ -61,11 +61,6 @@
       "flow_name": "library_safeguarding",
       "flow_subtype": "generated",
       "flow_type": "template"
-    },
-    {
-      "flow_name": "library_challenges",
-      "flow_subtype": "generated",
-      "flow_type": "template"
     }
   ]
 }
