@@ -7,14 +7,14 @@
 | accordion_section | 1 |
 | apple_sign_in_button | 3 |
 | audio | 3 |
-| button | 87 |
+| button | 88 |
 | carousel | 2 |
 | combo_box | 16 |
-| data_items | 48 |
+| data_items | 49 |
 | date_time_picker | 4 |
 | debug_toggle | 1 |
 | display_grid | 2 |
-| display_group | 139 |
+| display_group | 143 |
 | drawer | 1 |
 | google_sign_in_button | 4 |
 | image | 17 |
@@ -24,15 +24,15 @@
 | pdf | 1 |
 | qr_code | 1 |
 | radio_button_grid | 16 |
-| round_button | 40 |
+| round_button | 42 |
 | select_text | 1 |
-| set_variable | 1072 |
+| set_variable | 1064 |
 | simple_checkbox | 2 |
 | task_card | 3 |
 | task_progress_bar | 4 |
-| template | 377 |
+| template | 378 |
 | test | 1 |
-| text | 270 |
+| text | 272 |
 | text_area | 2 |
 | text_box | 46 |
 | title | 44 |
@@ -47,29 +47,29 @@
 
 | type | count |
 | --- | --- |
-| add_data | 8 |
+| add_data | 10 |
 | app_update | 1 |
 | auth | 2 |
 | copy | 2 |
-| emit: completed | 65 |
-| emit: force_reload | 6 |
+| emit: completed | 67 |
+| emit: force_reload | 7 |
 | emit: force_reprocess | 18 |
 | emit: force_restart | 5 |
-| emit: server_sync | 13 |
+| emit: server_sync | 14 |
 | emit: set_language | 1 |
-| emit: uncompleted | 80 |
+| emit: uncompleted | 81 |
 | feedback | 13 |
 | go_to | 33 |
 | nav_stack | 4 |
 | plh_parent_group | 9 |
-| pop_up | 19 |
+| pop_up | 20 |
 | reset_app | 1 |
 | save_to_device | 4 |
 | scroll | 1 |
-| set_data | 21 |
-| set_field | 75 |
-| set_item | 9 |
-| set_local | 92 |
+| set_data | 22 |
+| set_field | 79 |
+| set_item | 10 |
+| set_local | 93 |
 | share | 4 |
 | user | 4 |
 </details>
@@ -80,7 +80,7 @@
 | assets | KB | MB |
 | --- | --- | --- |
 | total | 28603 KB | 28.6 MB |
-| unused | 19805 KB | 19.8 MB |
+| unused | 19796 KB | 19.8 MB |
 </details>
 
 <details open>
@@ -189,7 +189,7 @@ Assets that appear in app-data but do not have references within sheets
 | images/icons/settings.svg | 2.4 |
 | images/icons/task_0.png | 2 |
 | images/logos/MaPa_logo.png | 157.3 |
-| images/message.png | 10.4 |
+| images/message.png | 1.3 |
 | images/person_cog.png | 0.8 |
 | pdf/08_mod8_mapa_skill.pdf | 2394.2 |
 | pdf/08_mod8_pagdiriwang.pdf | 413.2 |
@@ -256,7 +256,7 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | images/comics/03_comics2_panel3.png | 2019.8 | 1 |
 | images/flags/gb.svg | 0.5 | 2 |
 | images/flags/ph.svg | 1.3 | 2 |
-| images/icons/add_circle.svg | 1 | 3 |
+| images/icons/add_circle.svg | 1 | 4 |
 | images/icons/archive.svg | 0.9 | 1 |
 | images/icons/arrow_back.svg | 0.5 | 1 |
 | images/icons/arrow_forward.svg | 0.4 | 3 |
@@ -265,7 +265,7 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | images/icons/cog_white.svg | 3.6 | 1 |
 | images/icons/content.svg | 7.2 | 2 |
 | images/icons/copy-outline.svg | 0.4 | 2 |
-| images/icons/delete.svg | 0.8 | 4 |
+| images/icons/delete.svg | 0.8 | 5 |
 | images/icons/docs.svg | 0.7 | 1 |
 | images/icons/download.svg | 0.7 | 2 |
 | images/icons/download_white.svg | 0.7 | 1 |
@@ -348,7 +348,7 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | generator |  | 9 |
 | global |  | 12 |
 | global | legal_terms | 1 |
-| template |  | 84 |
+| template |  | 85 |
 | template | generated | 329 |
 | template | legal_terms | 4 |
 </details>
