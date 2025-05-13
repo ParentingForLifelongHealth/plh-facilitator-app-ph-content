@@ -650,11 +650,18 @@
       }
     },
     {
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "name": "set_variable_27",
+      "_nested_name": "set_variable_27"
+    },
+    {
       "name": "current_id",
       "value": "@local.active_id",
       "_translations": {
         "value": {}
       },
+      "exclude_from_translation": true,
       "condition": "@local.active_index > -1",
       "type": "set_variable",
       "_nested_name": "current_id",
@@ -691,6 +698,7 @@
       "_translations": {
         "value": {}
       },
+      "exclude_from_translation": true,
       "condition": "@local.active_index > -1",
       "type": "set_variable",
       "_nested_name": "current_index",
@@ -725,6 +733,7 @@
       "_translations": {
         "value": {}
       },
+      "exclude_from_translation": true,
       "condition": "!!@local.first_not_complete_id && @local.active_index == -1",
       "type": "set_variable",
       "_nested_name": "current_id",
@@ -770,6 +779,7 @@
       "_translations": {
         "value": {}
       },
+      "exclude_from_translation": true,
       "condition": "!!@local.first_not_complete_id && @local.active_index == -1",
       "type": "set_variable",
       "_nested_name": "current_index",
@@ -815,6 +825,7 @@
       "_translations": {
         "value": {}
       },
+      "exclude_from_translation": true,
       "condition": "!@local.first_not_complete_id && @local.active_index == -1",
       "type": "set_variable",
       "_nested_name": "current_id",
@@ -860,6 +871,7 @@
       "_translations": {
         "value": {}
       },
+      "exclude_from_translation": true,
       "condition": "!@local.first_not_complete_id && @local.active_index == -1",
       "type": "set_variable",
       "_nested_name": "current_index",
@@ -900,11 +912,18 @@
       }
     },
     {
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "name": "set_variable_34",
+      "_nested_name": "set_variable_34"
+    },
+    {
       "name": "first",
       "value": "@calc(@local.current_index== @local.first_row_index)",
       "_translations": {
         "value": {}
       },
+      "exclude_from_translation": true,
       "type": "set_variable",
       "_nested_name": "first",
       "_dynamicFields": {
@@ -947,6 +966,7 @@
       "_translations": {
         "value": {}
       },
+      "exclude_from_translation": true,
       "type": "set_variable",
       "_nested_name": "last",
       "_dynamicFields": {
@@ -991,6 +1011,12 @@
           "value"
         ]
       }
+    },
+    {
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "name": "set_variable_37",
+      "_nested_name": "set_variable_37"
     },
     {
       "type": "display_group",
@@ -1169,11 +1195,18 @@
       }
     },
     {
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "name": "set_variable_42",
+      "_nested_name": "set_variable_42"
+    },
+    {
       "type": "data_items",
       "value": "@data.sub_items",
       "parameter_list": {
         "filter": "@item.id == @local.current_id"
       },
+      "exclude_from_translation": true,
       "rows": [
         {
           "type": "template",
@@ -1230,7 +1263,7 @@
                 "value": {}
               },
               "type": "set_variable",
-              "_nested_name": "data_items_39.popup_nav.show_previous",
+              "_nested_name": "data_items_43.popup_nav.show_previous",
               "_dynamicFields": {
                 "value": [
                   {
@@ -1254,7 +1287,7 @@
                 "value": {}
               },
               "type": "set_variable",
-              "_nested_name": "data_items_39.popup_nav.show_next",
+              "_nested_name": "data_items_43.popup_nav.show_next",
               "_dynamicFields": {
                 "value": [
                   {
@@ -1272,7 +1305,7 @@
               }
             }
           ],
-          "_nested_name": "data_items_39.popup_nav",
+          "_nested_name": "data_items_43.popup_nav",
           "_dynamicFields": {
             "action_list": {
               "1": {
@@ -1367,8 +1400,8 @@
           }
         }
       ],
-      "name": "data_items_39",
-      "_nested_name": "data_items_39",
+      "name": "data_items_43",
+      "_nested_name": "data_items_43",
       "_dynamicFields": {
         "value": [
           {
