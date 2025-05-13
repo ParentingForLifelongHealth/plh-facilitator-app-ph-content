@@ -26,7 +26,7 @@
 | radio_button_grid | 16 |
 | round_button | 42 |
 | select_text | 1 |
-| set_variable | 1064 |
+| set_variable | 1072 |
 | simple_checkbox | 2 |
 | task_card | 3 |
 | task_progress_bar | 4 |
@@ -80,7 +80,7 @@
 | assets | KB | MB |
 | --- | --- | --- |
 | total | 28603 KB | 28.6 MB |
-| unused | 19796 KB | 19.8 MB |
+| unused | 19805 KB | 19.8 MB |
 </details>
 
 <details open>
@@ -189,7 +189,7 @@ Assets that appear in app-data but do not have references within sheets
 | images/icons/settings.svg | 2.4 |
 | images/icons/task_0.png | 2 |
 | images/logos/MaPa_logo.png | 157.3 |
-| images/message.png | 1.3 |
+| images/message.png | 10.4 |
 | images/person_cog.png | 0.8 |
 | pdf/08_mod8_mapa_skill.pdf | 2394.2 |
 | pdf/08_mod8_pagdiriwang.pdf | 413.2 |
