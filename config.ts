@@ -19,7 +19,23 @@ config.google_drive.assets_folder_ids = [
 
 config.git = {
   content_repo: "https://github.com/IDEMSInternational/plh-facilitator-app-ph-content.git",
-  content_tag_latest: "1.1.55",
+  content_tag_latest: "1.1.56",
+};
+
+config.android = {
+  app_id:'international.idems.plh_facilitator_ph',
+  app_name:'MaPa Faci App',
+  splash_asset_path: "./app_data/assets/android/splash.png",
+  icon_asset_path: "./app_data/assets/android/icon.png",
+  icon_asset_foreground_path: "./app_data/assets/android/icon-foreground.png",
+  icon_asset_background_path: "./app_data/assets/android/icon-background.png",
+  zoom_enabled: true
+};
+
+config.ios = {
+  app_id:'international.idems.plh_facilitator_ph',
+  app_name:'MaPa Faci App',
+  zoom_enabled: true
 };
 
 config.firebase = {
