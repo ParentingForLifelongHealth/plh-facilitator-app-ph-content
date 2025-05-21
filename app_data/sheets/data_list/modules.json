@@ -5,15 +5,8 @@
   "data_list_name": "modules",
   "rows": [
     {
-      "id": "demo",
-      "title": "Curaçao Demo",
-      "image_asset": "images/icons/task_1.png",
-      "report_id": "week_1",
-      "status": "released"
-    },
-    {
       "id": "week_1_session",
-      "title": "Module 1 Session",
+      "title": "Module 1 Session\nOne-on-One Time Kasama ang Iyong Anak",
       "description": "week_1",
       "image_asset": "images/icons/task_1.png",
       "report_id": "week_1",
@@ -35,7 +28,7 @@
     },
     {
       "id": "week_2_session",
-      "title": "Module 2 Session",
+      "title": "Module 2 Session\nPakikipag-usap Tungkol sa Damdamin",
       "description": "week_2",
       "image_asset": "images/icons/task_2.png",
       "report_id": "week_2",
@@ -57,7 +50,7 @@
     },
     {
       "id": "week_3_session",
-      "title": "Module 3 Session:",
+      "title": "Module 3 Session\nPagbibigay ng Positibong Direksyon at Papuri",
       "description": "week_3",
       "image_asset": "images/icons/task_3.png",
       "report_id": "week_3",
@@ -79,7 +72,7 @@
     },
     {
       "id": "week_4_session",
-      "title": "Module 4 Session",
+      "title": "Module 4 Session\nPagpapanatiling Ligtas ang Anak Gamit ang Patakaran at Regular na Gawain",
       "description": "week_4",
       "image_asset": "images/icons/task_4.png",
       "report_id": "week_4",
@@ -101,7 +94,7 @@
     },
     {
       "id": "week_5_session",
-      "title": "Module 5 Session",
+      "title": "Module 5 Session\nPangangasiwa ng Negatibong Kilos: Pagbaling ng Atensyon at Paggamit ng Konsekwensya",
       "description": "week_5",
       "image_asset": "images/icons/task_5.png",
       "report_id": "week_5",
@@ -123,7 +116,7 @@
     },
     {
       "id": "week_6_session",
-      "title": "Module 6 Session",
+      "title": "Module 6 Session\nPagtugon sa Mahihirap na Isyu at Problema",
       "description": "week_6",
       "image_asset": "images/icons/task_6.png",
       "report_id": "week_6",
@@ -145,7 +138,7 @@
     },
     {
       "id": "week_7_session",
-      "title": "Module 7 Session",
+      "title": "Module 7 Session\nPagbadyet ng Pamilya at mga Paraan ng Pag-iipon",
       "description": "week_7",
       "image_asset": "images/icons/task_7.png",
       "report_id": "week_7",
@@ -167,7 +160,7 @@
     },
     {
       "id": "week_8_session",
-      "title": "Module 8 Session",
+      "title": "Module 8 Session\nPagharap sa Problema Bilang Pamilya at Pagninilay",
       "description": "week_8",
       "image_asset": "images/icons/task_8.png",
       "report_id": "week_8",

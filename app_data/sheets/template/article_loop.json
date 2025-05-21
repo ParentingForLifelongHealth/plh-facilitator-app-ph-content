@@ -1038,8 +1038,7 @@
           "parameter_list": {
             "task_group_data": "sub_items",
             "completed_field": "completed",
-            "filter": "@task_item.foreign_key == \"@local.foreign_key\"",
-            "variant": "wheel"
+            "filter": "@task_item.foreign_key == \"@local.foreign_key\""
           },
           "exclude_from_translation": true,
           "condition": "!!@local.current_id && !(@local.first && @local.last)",
@@ -1245,6 +1244,26 @@
             },
             {
               "trigger": "uncompleted",
+              "action_id": "set_item",
+              "args": [],
+              "_raw": "uncompleted | set_item | completed: false",
+              "_cleaned": "uncompleted | set_item | completed: false",
+              "params": {
+                "completed": false
+              }
+            },
+            {
+              "trigger": "uncompleted",
+              "action_id": "set_item",
+              "args": [],
+              "_raw": "uncompleted | set_item | @local.completed_field: false",
+              "_cleaned": "uncompleted | set_item | @local.completed_field: false",
+              "params": {
+                "@local.completed_field": false
+              }
+            },
+            {
+              "trigger": "uncompleted",
               "action_id": "set_local",
               "args": [
                 "active_index",
@@ -1354,7 +1373,25 @@
                   }
                 ]
               },
-              "3": {
+              "4": {
+                "_raw": [
+                  {
+                    "fullExpression": "uncompleted | set_item | @local.completed_field: false",
+                    "matchedExpression": "@local.completed_field",
+                    "type": "local",
+                    "fieldName": "completed_field"
+                  }
+                ],
+                "_cleaned": [
+                  {
+                    "fullExpression": "uncompleted | set_item | @local.completed_field: false",
+                    "matchedExpression": "@local.completed_field",
+                    "type": "local",
+                    "fieldName": "completed_field"
+                  }
+                ]
+              },
+              "5": {
                 "args": {
                   "1": [
                     {
@@ -1387,15 +1424,17 @@
           "_dynamicDependencies": {
             "@local.completed_field": [
               "action_list.1._raw",
-              "action_list.1._cleaned"
+              "action_list.1._cleaned",
+              "action_list.4._raw",
+              "action_list.4._cleaned"
             ],
             "@local.current_index": [
               "action_list.2.args.1",
               "action_list.2._raw",
               "action_list.2._cleaned",
-              "action_list.3.args.1",
-              "action_list.3._raw",
-              "action_list.3._cleaned"
+              "action_list.5.args.1",
+              "action_list.5._raw",
+              "action_list.5._cleaned"
             ]
           }
         }

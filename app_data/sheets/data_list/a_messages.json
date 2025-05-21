@@ -108,7 +108,7 @@
       "id": "message_11",
       "foreign_key": "week_2_session_9",
       "title": "Mensahe 4 - Pagbabahagi ng Hamon",
-      "text": "Nauunawaan kong mahirap mag-isip ng hamon. Narito ang ilang sa mga halimbawa ng mga hamon sa One-on-One time na ibinahagi ng ibang magulang:\nWala akong sapat na oras\nAyaw ng anak kong makipag-One-on-One Time\nHindi ako komportable sa mga gustong gawin ng anak ko\n\nMay mga nakaranas din ba ng mga hamong ito? Mag-react po tayo sa mga hamon na nakalista kapag ito ay naranasan niyo rin!",
+      "text": "Nauunawaan kong mahirap mag-isip ng hamon. Narito ang ilang sa mga halimbawa ng mga hamon sa One-on-One time na ibinahagi ng ibang magulang:\n- Wala akong sapat na oras\n- Ayaw ng anak kong makipag-One-on-One Time\n- Hindi ako komportable sa mga gustong gawin ng anak ko\n\nMay mga nakaranas din ba ng mga hamong ito? Mag-react po tayo sa mga hamon na nakalista kapag ito ay naranasan niyo rin!",
       "guidance": "Maaaring gawing **poll** sa Viber ang mensahe na ito para makapili ang mga magulang ng isang hamon. Hayaan ang mga magulang na sumagot, at pumili ng isang hamon na maaaring pag-isipan ng buong grupo.",
       "asset_type": "",
       "asset": "",
@@ -811,7 +811,7 @@
       "text": "",
       "guidance": "Ipadala ang unang panel ng komiks.",
       "asset_type": "image",
-      "asset": "images/comics04_comics1_panel1.png",
+      "asset": "images/comics/04_comics1_panel1.png",
       "ignore": 81
     },
     {
@@ -821,7 +821,7 @@
       "text": "",
       "guidance": "Ipadala ang pangalawang panel ng komiks.",
       "asset_type": "image",
-      "asset": "images/comics04_comics1_panel2.png",
+      "asset": "images/comics/04_comics1_panel2.png",
       "ignore": 82
     },
     {
@@ -831,7 +831,7 @@
       "text": "",
       "guidance": "Ipadala ang pangatlong panel ng komiks.",
       "asset_type": "image",
-      "asset": "images/comics04_comics1_panel3.png",
+      "asset": "images/comics/04_comics1_panel3.png",
       "ignore": 83
     },
     {
@@ -841,7 +841,7 @@
       "text": "",
       "guidance": "Ipadala ang pang-apat na panel ng komiks.",
       "asset_type": "image",
-      "asset": "images/comics04_comics1_panel4.png",
+      "asset": "images/comics/04_comics1_panel4.png",
       "ignore": 84
     },
     {
@@ -891,7 +891,7 @@
       "text": "",
       "guidance": "Ipadala ang unang panel ng komiks.",
       "asset_type": "image",
-      "asset": "images/comics04_comics2_panel1.png",
+      "asset": "images/comics/04_comics2_panel1.png",
       "ignore": 89
     },
     {
@@ -901,7 +901,7 @@
       "text": "",
       "guidance": "Ipadala ang pangalawang panel ng komiks.",
       "asset_type": "image",
-      "asset": "images/comics04_comics2_panel2.png",
+      "asset": "images/comics/04_comics2_panel2.png",
       "ignore": 90
     },
     {
@@ -911,7 +911,7 @@
       "text": "",
       "guidance": "Ipadala ang pangatlong panel ng komiks.",
       "asset_type": "image",
-      "asset": "images/comics04_comics2_panel3.png",
+      "asset": "images/comics/04_comics2_panel3.png",
       "ignore": 91
     },
     {
@@ -921,7 +921,7 @@
       "text": "",
       "guidance": "Ipadala ang pang-apat na panel ng komiks.",
       "asset_type": "image",
-      "asset": "images/comics04_comics2_panel4.png",
+      "asset": "images/comics/04_comics2_panel4.png",
       "ignore": 92
     },
     {
@@ -931,7 +931,7 @@
       "text": "",
       "guidance": "Ipadala ang panglimang panel ng komiks.",
       "asset_type": "image",
-      "asset": "images/comics04_comics2_panel5.png",
+      "asset": "images/comics/04_comics2_panel5.png",
       "ignore": 93
     },
     {
@@ -1873,216 +1873,6 @@
       "asset_type": "",
       "asset": "",
       "ignore": 187
-    },
-    {
-      "id": "message_188",
-      "foreign_key": "demo_2",
-      "title": "Day 1 Reminder",
-      "text": "",
-      "guidance": "Send this image before sending the next message.",
-      "asset_type": "image",
-      "asset": "cw_demo/house_of_support.png",
-      "ignore": 188
-    },
-    {
-      "id": "message_189",
-      "foreign_key": "demo_3",
-      "title": "Day 1 Reminder",
-      "text": "Can you believe it that a whole week has gone by? ⏳ Our next chat session will be later today at [INSERT TIME]. We will be learning about the benefits of talking about emotions with our children 💬. Chat soon! 😊",
-      "guidance": "Replace [SET Time] with your session time.",
-      "asset_type": "",
-      "asset": "",
-      "ignore": 189
-    },
-    {
-      "id": "message_190",
-      "foreign_key": "demo_5",
-      "title": "Greetings",
-      "text": "Greetings! Welcome to Module  2 of our ParentChat!  How are you all?  \n\n😀 Happy? \n😠 Stressed? Angry? Annoyed?  \n😌 Calm?  \n\n🌱 Whatever emotion you are feeling...it's  okay!",
-      "guidance": "Allow time for parents to share how they are feeling. You should\nalso share how you are feeling. For example, “I am happy to be part of the chat today.”",
-      "asset_type": "",
-      "asset": "",
-      "ignore": 190
-    },
-    {
-      "id": "message_191",
-      "foreign_key": "demo_6",
-      "title": "Discussion about Home Activity",
-      "text": "Last week we looked at spending One-on-One time with your child ❤️. Today we look at one of the ways we can use One-on-One time to talk about emotions with our children 💬.\n\nBut first, let’s chat about how home practice went. How did One-on-One Time go for you? 😊",
-      "guidance": "Acknowledge the experiences participants share.",
-      "asset_type": "",
-      "asset": "",
-      "ignore": 191
-    },
-    {
-      "id": "message_192",
-      "foreign_key": "demo_7",
-      "title": "Sharing Success",
-      "text": "One of the successes that came up for some of you during One-on-One time was [insert success] 🌟. It was great how you were able to [insert how success connects to building blocks] ❤️.",
-      "guidance": "Share one success that you selected from the feedback parents provided.",
-      "asset_type": "",
-      "asset": "",
-      "ignore": 192
-    },
-    {
-      "id": "message_193",
-      "foreign_key": "demo_8",
-      "title": "Sharing Challenge",
-      "text": "I want to discuss a challenge that was shared [Insert challenge from the group’s feedback module] 🤔.",
-      "guidance": "If nobody shared a challenge during the week, then use the prompts from the pdf.",
-      "asset_type": "",
-      "asset": "",
-      "ignore": 193
-    },
-    {
-      "id": "message_194",
-      "foreign_key": "demo_9",
-      "title": "Discussing Challenges & Solutions",
-      "text": "Can we work together to think of a positive solution to [name challenge]? 💡",
-      "guidance": "Encourage parents to work together to identify positive solutions. You will find some examples of challenges and solutions in the pdf.",
-      "asset_type": "",
-      "asset": "",
-      "ignore": 194
-    },
-    {
-      "id": "message_195",
-      "foreign_key": "demo_10",
-      "title": "Introducing the Parenting Tip: Talking about Emotions",
-      "text": "Thanks for all of your great ideas 👏. Now let’s move on to today’s parent tip: Helping your children to manage their feelings 💛. Here are 5 tips about how to talk about emotions with your children:\n1️⃣ BREATHE to calm yourself before you start.\n2️⃣ SHARE how you feel.\n3️⃣ LISTEN to your child or teen.\n4️⃣ SHOW them you care.\n5️⃣ SEEK the positive.",
-      "guidance": "",
-      "asset_type": "",
-      "asset": "",
-      "ignore": 195
-    },
-    {
-      "id": "message_196",
-      "foreign_key": "demo_11",
-      "title": "Comic for Kids: Talking about Emotions",
-      "text": "",
-      "guidance": "Send this image before sending the next message",
-      "asset_type": "image",
-      "asset": "cw_demo/comic_1.png",
-      "ignore": 196
-    },
-    {
-      "id": "message_197",
-      "foreign_key": "demo_12",
-      "title": "Comic for Kids: Talking about Emotions",
-      "text": "Here is a comic showing how a child talked about their feelings with their grandmother during One-on-One Time.",
-      "guidance": "",
-      "asset_type": "",
-      "asset": "",
-      "ignore": 197
-    },
-    {
-      "id": "message_198",
-      "foreign_key": "demo_13",
-      "title": "Discussion on Comic",
-      "text": "Can anybody identify any of the 5 steps for talking about emotions in this comic? 👀",
-      "guidance": "Give parents time to answer before moving on.",
-      "asset_type": "",
-      "asset": "",
-      "ignore": 198
-    },
-    {
-      "id": "message_199",
-      "foreign_key": "demo_14",
-      "title": "Comic for Teens (Sharing Our Own Emotions)",
-      "text": "",
-      "guidance": "Send this image before sending the next message",
-      "asset_type": "image",
-      "asset": "cw_demo/comic_2.png",
-      "ignore": 199
-    },
-    {
-      "id": "message_200",
-      "foreign_key": "demo_15",
-      "title": "Comic for Teens (Sharing Our Own Emotions)",
-      "text": "Here is another comic of parents talking about a difficult emotion with their teen:",
-      "guidance": "",
-      "asset_type": "",
-      "asset": "",
-      "ignore": 200
-    },
-    {
-      "id": "message_201",
-      "foreign_key": "demo_16",
-      "title": "Discussion about Comics",
-      "text": "Let’s chat about this one too 😊. How does the parent help the child to cope with their emotions in the comic? 💖 Are any of the 5 steps present? 🔍",
-      "guidance": "Remember to give parents a chance to respond.",
-      "asset_type": "",
-      "asset": "",
-      "ignore": 201
-    },
-    {
-      "id": "message_202",
-      "foreign_key": "demo_17",
-      "title": "Discussion on Comic: Age prompt",
-      "text": "How might kids and teens respond differently to the situations in these comics?",
-      "guidance": "Give parents opportunity to share their ideas",
-      "asset_type": "",
-      "asset": "",
-      "ignore": 202
-    },
-    {
-      "id": "message_203",
-      "foreign_key": "demo_18",
-      "title": "Reasons for Talking about Emotions with Your Children",
-      "text": "Why do you think helping your child share their emotions could be helpful for your child or teen?",
-      "guidance": "Give parents opportunity to share their ideas",
-      "asset_type": "",
-      "asset": "",
-      "ignore": 203
-    },
-    {
-      "id": "message_204",
-      "foreign_key": "demo_19",
-      "title": "Assignment of Home Activity",
-      "text": "Thanks for all your great ideas 👏. This week, practice talking to your children about their emotions during One-on-One Time ❤️ and at other times during the week. Try to become more aware of your own emotions as you go about your day, too! 💭",
-      "guidance": "",
-      "asset_type": "",
-      "asset": "",
-      "ignore": 204
-    },
-    {
-      "id": "message_205",
-      "foreign_key": "demo_20",
-      "title": "Offer for Questions",
-      "text": "Any other questions about talking about emotions?",
-      "guidance": "Allow about a minute for parents to raise any questions. Remember to thank parents for their questions. Before giving your own answer, give the group a chance to come up with ideas by asking, “That’s a great question, what does everyone think?”",
-      "asset_type": "",
-      "asset": "",
-      "ignore": 205
-    },
-    {
-      "id": "message_206",
-      "foreign_key": "demo_21",
-      "title": "Video: Reminder of Parenting Tip",
-      "text": "Here is a short video on how to talk about feelings with your child 🎥. It’s a reminder of the foundations.",
-      "guidance": "",
-      "asset_type": "youtube",
-      "asset": "https://www.youtube.com/watch?v=4TfzAgl9hLY",
-      "ignore": 206
-    },
-    {
-      "id": "message_207",
-      "foreign_key": "demo_22",
-      "title": "Audio: Take a Pause",
-      "text": "Before we end today’s chat session, let’s Take a Pause together ⏸️. Remember, this is something you can do whenever you’re feeling stressed, or your children are getting on your nerves 😌.",
-      "guidance": "",
-      "asset_type": "youtube",
-      "asset": "https://www.youtube.com/watch?v=h5Iw10f9mEI",
-      "ignore": 207
-    },
-    {
-      "id": "message_208",
-      "foreign_key": "demo_23",
-      "title": "Thank you & Closing",
-      "text": "Thank you 💛. The work you have done today is hard work – but it’s also very valuable work 🌟. It will help you manage your own stress and give your children the tools they need to manage theirs 💬. Have a peaceful and happy day! 🌼",
-      "guidance": "",
-      "asset_type": "",
-      "asset": "",
-      "ignore": 208
     }
   ],
   "_xlsxPath": "data/modules_sub_items_ph.xlsx",

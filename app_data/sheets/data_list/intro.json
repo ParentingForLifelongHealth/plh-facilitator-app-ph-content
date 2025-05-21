@@ -427,30 +427,6 @@
       "image_asset": "",
       "text_2": "",
       "ignore": 53
-    },
-    {
-      "id": "intro_54",
-      "foreign_key": "demo",
-      "text": "**Welcome to Module 2: Talking about feelings!** \n\nThe main goal is to help parents talk about their own feelings and their child's feelings.",
-      "image_asset": "cw_demo/talk_feelings_challenges.svg",
-      "text_2": "**Before You Get Started**\n\n1️⃣ Review messages from your previous chat. Take note of parents who may need additional support.\n\n2️⃣ Review the feedback from the previous module. Select a success that can be linked to the foundations in the live chat.\n\n3️⃣ Choose a challenge that the group can work together to solve in the live chat.",
-      "ignore": 54
-    },
-    {
-      "id": "intro_55",
-      "foreign_key": "demo_4",
-      "text": "**Day 1: Group Chat Session**\n\n⏲️: One hour \n⏸️: Pause  after  each  message shared  to  provide  parents  with opportunity  to  respond  or  talk  to  other group  members.",
-      "image_asset": "",
-      "text_2": "** Chat Session Outline** \n\nGreetings\nDiscussion about Home Activity \nSharing Success\nSharing Challenge\nDiscussing Challenges & Solutions\nIntroducing the Parenting Tip: Talking about Emotions\nComic for Kids: Talking about Emotions\nDiscussion on Comic\nComic for Teens (Sharing Our Own Emotions)\nDiscussion about Comics\nDiscussion on Comic: Age prompt\nReasons for Talking about Emotions with Your Children\nAssignment of Home Activity\nOffer for Questions\nVideo: Reminder of Parenting Tip\nAudio: Take a Pause\nThank you & Closing",
-      "ignore": 55
-    },
-    {
-      "id": "intro_56",
-      "foreign_key": "demo_6",
-      "text": "**Memory Refresh**\n\nIn the last module, you taught parents how to establish One-on-One time with their children with these building blocks: \n\n1️⃣ DAY- Try to do this every day.\nSet aside 5 minutes (or more!) each day for One-on-One Time with your child.\n\n2️⃣ PLAY - Let them choose what to do.\nTell your child that you have time for One-on-One Time with them, and they can choose what they want to do or what they want to talk about. They may be hesitant at first, but eventually they will look forward to spending time with you!\n\n3️⃣ STAY- Give your child your full attention.\nTurn off the TV and put away the cell phone. Look at your child. Nod or say “I see” to show that you are paying full attention. Show interest in his story and accept what he says without judgment.",
-      "image_asset": "",
-      "text_2": "",
-      "ignore": 56
     }
   ],
   "_xlsxPath": "data/modules_sub_items_ph.xlsx",

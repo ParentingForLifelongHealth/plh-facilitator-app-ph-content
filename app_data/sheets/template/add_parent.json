@@ -3426,10 +3426,10 @@
             },
             {
               "trigger": "click",
-              "action_id": "scroll",
+              "action_id": "scroll_top",
               "args": [],
-              "_raw": "click | scroll",
-              "_cleaned": "click | scroll"
+              "_raw": "click | scroll_top",
+              "_cleaned": "click | scroll_top"
             }
           ],
           "parameter_list": {
