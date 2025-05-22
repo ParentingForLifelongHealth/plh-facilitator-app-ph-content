@@ -264,7 +264,7 @@
       },
       {
         "assets": "unused",
-        "KB": "23283 KB",
+        "KB": "23284 KB",
         "MB": "23.3 MB"
       }
     ]
@@ -318,6 +318,10 @@
       {
         "path": "images/07_masayang_tahanan.jpg",
         "size_kb": 455.5
+      },
+      {
+        "path": "images/Message.png",
+        "size_kb": 1.3
       },
       {
         "path": "images/Message.svg",

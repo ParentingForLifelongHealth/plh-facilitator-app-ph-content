@@ -102,7 +102,8 @@
       "value": "Settings",
       "_translations": {
         "value": {
-          "fil_ph": true
+          "fil_ph": true,
+          "ph_fil": true
         }
       },
       "parameter_list": {
@@ -119,7 +120,8 @@
       "value": "Profile",
       "_translations": {
         "value": {
-          "fil_ph": true
+          "fil_ph": true,
+          "ph_fil": true
         }
       },
       "parameter_list": {
@@ -141,7 +143,8 @@
           "value": "Account",
           "_translations": {
             "value": {
-              "fil_ph": true
+              "fil_ph": true,
+              "ph_fil": true
             }
           },
           "parameter_list": {
@@ -202,7 +205,8 @@
           "value": "Profile",
           "_translations": {
             "value": {
-              "fil_ph": true
+              "fil_ph": true,
+              "ph_fil": true
             }
           },
           "parameter_list": {
@@ -259,7 +263,8 @@
           "value": "Switch language",
           "_translations": {
             "value": {
-              "fil_ph": true
+              "fil_ph": true,
+              "ph_fil": true
             }
           },
           "parameter_list": {
@@ -317,7 +322,8 @@
           "value": "Your @global.app_name Code",
           "_translations": {
             "value": {
-              "fil_ph": true
+              "fil_ph": true,
+              "ph_fil": true
             }
           },
           "parameter_list": {
@@ -385,7 +391,8 @@
           "value": "Your Content Package",
           "_translations": {
             "value": {
-              "fil_ph": true
+              "fil_ph": true,
+              "ph_fil": true
             }
           },
           "parameter_list": {
@@ -446,7 +453,8 @@
       "value": "Parent Actions",
       "_translations": {
         "value": {
-          "fil_ph": true
+          "fil_ph": true,
+          "ph_fil": true
         }
       },
       "parameter_list": {
@@ -492,7 +500,8 @@
           "value": "Your Parent Groups",
           "_translations": {
             "value": {
-              "fil_ph": true
+              "fil_ph": true,
+              "ph_fil": true
             }
           },
           "parameter_list": {
@@ -588,7 +597,8 @@
       "value": "App Details & Terms",
       "_translations": {
         "value": {
-          "fil_ph": true
+          "fil_ph": true,
+          "ph_fil": true
         }
       },
       "parameter_list": {

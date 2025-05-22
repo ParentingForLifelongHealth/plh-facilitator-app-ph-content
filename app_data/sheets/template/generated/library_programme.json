@@ -35,7 +35,8 @@
           "value": "Tungkol sa MaPaChat Hybrid Program",
           "_translations": {
             "value": {
-              "fil_ph": true
+              "fil_ph": true,
+              "ph_fil": true
             }
           },
           "exclude_from_translation": true,

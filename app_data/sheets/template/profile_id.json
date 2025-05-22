@@ -102,7 +102,8 @@
       "value": "Syncing...",
       "_translations": {
         "value": {
-          "fil_ph": true
+          "fil_ph": true,
+          "ph_fil": true
         }
       },
       "type": "set_variable",
@@ -120,7 +121,8 @@
       "value": "Copy code",
       "_translations": {
         "value": {
-          "fil_ph": true
+          "fil_ph": true,
+          "ph_fil": true
         }
       },
       "type": "set_variable",
@@ -131,7 +133,8 @@
       "value": "Copied!",
       "_translations": {
         "value": {
-          "fil_ph": true
+          "fil_ph": true,
+          "ph_fil": true
         }
       },
       "type": "set_variable",
@@ -227,7 +230,8 @@
           "value": "Last sync at: @local.sync_latest",
           "_translations": {
             "value": {
-              "fil_ph": true
+              "fil_ph": true,
+              "ph_fil": true
             }
           },
           "_nested_name": "has_ever_been_synced.last_sync_text",
@@ -279,7 +283,8 @@
           "value": "This device has never been synced. Sync to reveal your code.",
           "_translations": {
             "value": {
-              "fil_ph": true
+              "fil_ph": true,
+              "ph_fil": true
             }
           },
           "_nested_name": "has_never_been_synced.not_synced_text"
@@ -398,7 +403,8 @@
           "value": "Sync now",
           "_translations": {
             "value": {
-              "fil_ph": true
+              "fil_ph": true,
+              "ph_fil": true
             }
           },
           "action_list": [

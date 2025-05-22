@@ -686,7 +686,8 @@
                   "value": "Share",
                   "_translations": {
                     "value": {
-                      "fil_ph": true
+                      "fil_ph": true,
+                      "ph_fil": true
                     }
                   },
                   "action_list": [
@@ -874,7 +875,8 @@
                   "value": "Share",
                   "_translations": {
                     "value": {
-                      "fil_ph": true
+                      "fil_ph": true,
+                      "ph_fil": true
                     }
                   },
                   "action_list": [
@@ -1193,7 +1195,8 @@
                   "value": "Share",
                   "_translations": {
                     "value": {
-                      "fil_ph": true
+                      "fil_ph": true,
+                      "ph_fil": true
                     }
                   },
                   "action_list": [
@@ -1270,7 +1273,8 @@
                   "value": "Share",
                   "_translations": {
                     "value": {
-                      "fil_ph": true
+                      "fil_ph": true,
+                      "ph_fil": true
                     }
                   },
                   "action_list": [

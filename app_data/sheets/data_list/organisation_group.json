@@ -9,7 +9,8 @@
       "name": "Partners",
       "_translations": {
         "name": {
-          "fil_ph": true
+          "fil_ph": true,
+          "ph_fil": true
         }
       },
       "_translatedFields": {

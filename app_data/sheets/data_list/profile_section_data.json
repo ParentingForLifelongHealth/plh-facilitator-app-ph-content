@@ -11,10 +11,12 @@
       "title": "About you",
       "_translations": {
         "title": {
-          "fil_ph": true
+          "fil_ph": true,
+          "ph_fil": true
         },
         "description": {
-          "fil_ph": true
+          "fil_ph": true,
+          "ph_fil": true
         }
       },
       "_translatedFields": {
@@ -34,10 +36,12 @@
       "title": "Your @global.app_name Code",
       "_translations": {
         "title": {
-          "fil_ph": true
+          "fil_ph": true,
+          "ph_fil": true
         },
         "description": {
-          "fil_ph": true
+          "fil_ph": true,
+          "ph_fil": true
         }
       },
       "_translatedFields": {
@@ -57,10 +61,12 @@
       "title": "Your Parent Group",
       "_translations": {
         "title": {
-          "fil_ph": true
+          "fil_ph": true,
+          "ph_fil": true
         },
         "description": {
-          "fil_ph": true
+          "fil_ph": true,
+          "ph_fil": true
         }
       },
       "_translatedFields": {
@@ -80,10 +86,12 @@
       "title": "Your Parent Groups",
       "_translations": {
         "title": {
-          "fil_ph": true
+          "fil_ph": true,
+          "ph_fil": true
         },
         "description": {
-          "fil_ph": true
+          "fil_ph": true,
+          "ph_fil": true
         }
       },
       "_translatedFields": {

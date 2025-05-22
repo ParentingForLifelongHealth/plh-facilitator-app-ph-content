@@ -9,7 +9,8 @@
       "value": "We will use this to personalise the messages for sharing with your @global.share_groups.",
       "_translations": {
         "value": {
-          "fil_ph": true
+          "fil_ph": true,
+          "ph_fil": true
         }
       },
       "_nested_name": "text",

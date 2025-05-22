@@ -20,7 +20,8 @@
       "value": "New Parent Group",
       "_translations": {
         "value": {
-          "fil_ph": true
+          "fil_ph": true,
+          "ph_fil": true
         }
       },
       "type": "set_variable",
@@ -109,7 +110,8 @@
       "value": "Group Name",
       "_translations": {
         "value": {
-          "fil_ph": true
+          "fil_ph": true,
+          "ph_fil": true
         }
       },
       "parameter_list": {
@@ -201,7 +203,8 @@
               "value": "Add Co-Facilitator",
               "_translations": {
                 "value": {
-                  "fil_ph": true
+                  "fil_ph": true,
+                  "ph_fil": true
                 }
               },
               "style_list": [
@@ -468,7 +471,8 @@
           "value": "Save",
           "_translations": {
             "value": {
-              "fil_ph": true
+              "fil_ph": true,
+              "ph_fil": true
             }
           },
           "action_list": [

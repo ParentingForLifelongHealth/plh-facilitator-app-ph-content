@@ -25,7 +25,8 @@
           "value": "Add Co-Facilitator",
           "_translations": {
             "value": {
-              "fil_ph": true
+              "fil_ph": true,
+              "ph_fil": true
             }
           },
           "type": "set_variable",
@@ -45,7 +46,8 @@
       "value": "Enter ID of proposed co-facilitator",
       "_translations": {
         "value": {
-          "fil_ph": true
+          "fil_ph": true,
+          "ph_fil": true
         }
       },
       "name": "text_5",
@@ -61,7 +63,8 @@
       "value": "Add co-facilitator",
       "_translations": {
         "value": {
-          "fil_ph": true
+          "fil_ph": true,
+          "ph_fil": true
         }
       },
       "action_list": [

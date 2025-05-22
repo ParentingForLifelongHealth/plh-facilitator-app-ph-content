@@ -766,7 +766,8 @@
       "value": "minutes",
       "_translations": {
         "value": {
-          "fil_ph": true
+          "fil_ph": true,
+          "ph_fil": true
         }
       },
       "type": "set_variable",
@@ -778,7 +779,8 @@
       "value": "How many minutes did you spend facilitating your parent @global.share_medium group over the last week?",
       "_translations": {
         "value": {
-          "fil_ph": true
+          "fil_ph": true,
+          "ph_fil": true
         }
       },
       "parameter_list": {
@@ -911,7 +913,8 @@
       "value": "**Which of the parents in your group participated?**\n*Participation is defined as any parent who posts a comment, question, reply or reaction (such as a thumbs up) within the chat since you shared the first message from the weekly discussion.*",
       "_translations": {
         "value": {
-          "fil_ph": true
+          "fil_ph": true,
+          "ph_fil": true
         }
       },
       "_nested_name": "question_participants"
@@ -921,7 +924,8 @@
       "value": "Parent",
       "_translations": {
         "value": {
-          "fil_ph": true
+          "fil_ph": true,
+          "ph_fil": true
         }
       },
       "type": "set_variable",
@@ -1601,7 +1605,8 @@
       "value": "I was able to send...",
       "_translations": {
         "value": {
-          "fil_ph": true
+          "fil_ph": true,
+          "ph_fil": true
         }
       },
       "parameter_list": {
@@ -1614,7 +1619,8 @@
       "value": "All of the messages",
       "_translations": {
         "value": {
-          "fil_ph": true
+          "fil_ph": true,
+          "ph_fil": true
         }
       },
       "type": "set_variable",
@@ -1625,7 +1631,8 @@
       "value": "Some of the messages",
       "_translations": {
         "value": {
-          "fil_ph": true
+          "fil_ph": true,
+          "ph_fil": true
         }
       },
       "type": "set_variable",
@@ -1636,7 +1643,8 @@
       "value": "None of the messages",
       "_translations": {
         "value": {
-          "fil_ph": true
+          "fil_ph": true,
+          "ph_fil": true
         }
       },
       "type": "set_variable",
@@ -1814,7 +1822,8 @@
       "value": "How do you feel the session went?",
       "_translations": {
         "value": {
-          "fil_ph": true
+          "fil_ph": true,
+          "ph_fil": true
         }
       },
       "parameter_list": {
@@ -1827,7 +1836,8 @@
       "value": "Very well",
       "_translations": {
         "value": {
-          "fil_ph": true
+          "fil_ph": true,
+          "ph_fil": true
         }
       },
       "type": "set_variable",
@@ -1838,7 +1848,8 @@
       "value": "Well",
       "_translations": {
         "value": {
-          "fil_ph": true
+          "fil_ph": true,
+          "ph_fil": true
         }
       },
       "type": "set_variable",
@@ -1849,7 +1860,8 @@
       "value": "Acceptable / Okay",
       "_translations": {
         "value": {
-          "fil_ph": true
+          "fil_ph": true,
+          "ph_fil": true
         }
       },
       "type": "set_variable",
@@ -1860,7 +1872,8 @@
       "value": "Poorly",
       "_translations": {
         "value": {
-          "fil_ph": true
+          "fil_ph": true,
+          "ph_fil": true
         }
       },
       "type": "set_variable",
@@ -1871,7 +1884,8 @@
       "value": "Very poorly",
       "_translations": {
         "value": {
-          "fil_ph": true
+          "fil_ph": true,
+          "ph_fil": true
         }
       },
       "type": "set_variable",

@@ -11,7 +11,8 @@
       "title": "Sessions",
       "_translations": {
         "title": {
-          "fil_ph": true
+          "fil_ph": true,
+          "ph_fil": true
         }
       },
       "_translatedFields": {
@@ -27,7 +28,8 @@
       "title": "Report",
       "_translations": {
         "title": {
-          "fil_ph": true
+          "fil_ph": true,
+          "ph_fil": true
         }
       },
       "_translatedFields": {
@@ -43,7 +45,8 @@
       "title": "Library",
       "_translations": {
         "title": {
-          "fil_ph": true
+          "fil_ph": true,
+          "ph_fil": true
         }
       },
       "_translatedFields": {
@@ -59,7 +62,8 @@
       "title": "Settings",
       "_translations": {
         "title": {
-          "fil_ph": true
+          "fil_ph": true,
+          "ph_fil": true
         }
       },
       "_translatedFields": {

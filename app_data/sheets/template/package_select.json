@@ -81,7 +81,8 @@
       "value": "Choose which content you want to see.",
       "_translations": {
         "value": {
-          "fil_ph": true
+          "fil_ph": true,
+          "ph_fil": true
         }
       },
       "_nested_name": "text"
@@ -154,7 +155,8 @@
           "value": "Continue",
           "_translations": {
             "value": {
-              "fil_ph": true
+              "fil_ph": true,
+              "ph_fil": true
             }
           },
           "action_list": [

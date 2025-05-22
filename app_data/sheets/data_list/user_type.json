@@ -10,7 +10,8 @@
       "text": "Facilitator/Co-facilitator",
       "_translations": {
         "text": {
-          "fil_ph": true
+          "fil_ph": true,
+          "ph_fil": true
         }
       },
       "_translatedFields": {
@@ -25,7 +26,8 @@
       "text": "Coach/Trainer",
       "_translations": {
         "text": {
-          "fil_ph": true
+          "fil_ph": true,
+          "ph_fil": true
         }
       },
       "_translatedFields": {
@@ -40,7 +42,8 @@
       "text": "Government/NGO Admin",
       "_translations": {
         "text": {
-          "fil_ph": true
+          "fil_ph": true,
+          "ph_fil": true
         }
       },
       "_translatedFields": {
@@ -55,7 +58,8 @@
       "text": "System tester",
       "_translations": {
         "text": {
-          "fil_ph": true
+          "fil_ph": true,
+          "ph_fil": true
         }
       },
       "_translatedFields": {
@@ -70,7 +74,8 @@
       "text": "System Tester (Coach)",
       "_translations": {
         "text": {
-          "fil_ph": true
+          "fil_ph": true,
+          "ph_fil": true
         }
       },
       "_translatedFields": {
@@ -85,7 +90,8 @@
       "text": "None of the above",
       "_translations": {
         "text": {
-          "fil_ph": true
+          "fil_ph": true,
+          "ph_fil": true
         }
       },
       "_translatedFields": {

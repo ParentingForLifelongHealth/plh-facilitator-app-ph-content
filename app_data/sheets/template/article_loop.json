@@ -15,7 +15,8 @@
       "value": "test",
       "_translations": {
         "value": {
-          "fil_ph": true
+          "fil_ph": true,
+          "ph_fil": true
         }
       },
       "exclude_from_translation": true,
@@ -27,7 +28,8 @@
       "value": "test",
       "_translations": {
         "value": {
-          "fil_ph": true
+          "fil_ph": true,
+          "ph_fil": true
         }
       },
       "exclude_from_translation": true,

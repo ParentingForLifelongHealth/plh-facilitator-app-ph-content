@@ -1,4 +1,7 @@
 {
+  "fil_ph": {
+    "filename": "fil_ph/strings.json"
+  },
   "ph_fil": {
     "filename": "ph_fil/strings.json"
   }
