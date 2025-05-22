@@ -9,7 +9,9 @@
       "name": "mapa_1",
       "text": "MaPa Org., Inc.",
       "_translations": {
-        "text": {}
+        "text": {
+          "fil_ph": true
+        }
       },
       "_translatedFields": {
         "text": {
@@ -22,7 +24,9 @@
       "name": "mswdd_2",
       "text": "(MSWDD) Makati Social Welfare and Development Department",
       "_translations": {
-        "text": {}
+        "text": {
+          "fil_ph": true
+        }
       },
       "_translatedFields": {
         "text": {
@@ -35,7 +39,9 @@
       "name": "valcswdo_3",
       "text": "(VCSWDO) Valenzuela City Social Work Development Office",
       "_translations": {
-        "text": {}
+        "text": {
+          "fil_ph": true
+        }
       },
       "_translatedFields": {
         "text": {
@@ -48,7 +54,9 @@
       "name": "dswd_4",
       "text": "(DSWD) Department of Social Welfare and Development",
       "_translations": {
-        "text": {}
+        "text": {
+          "fil_ph": true
+        }
       },
       "_translatedFields": {
         "text": {
@@ -61,7 +69,9 @@
       "name": "jnf_5",
       "text": "Joy~Nostalg Foundation",
       "_translations": {
-        "text": {}
+        "text": {
+          "fil_ph": true
+        }
       },
       "_translatedFields": {
         "text": {
@@ -74,7 +84,9 @@
       "name": "other",
       "text": "None of the above",
       "_translations": {
-        "text": {}
+        "text": {
+          "fil_ph": true
+        }
       },
       "_translatedFields": {
         "text": {

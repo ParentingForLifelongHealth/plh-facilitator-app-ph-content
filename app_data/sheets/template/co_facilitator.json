@@ -21,7 +21,9 @@
                   "type": "text",
                   "value": "Add Co-Facilitator",
                   "_translations": {
-                    "value": {}
+                    "value": {
+                      "fil_ph": true
+                    }
                   },
                   "style_list": [
                     "color: #74777C"

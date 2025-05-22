@@ -10,7 +10,9 @@
       "template": "home_screen",
       "title": "Sessions",
       "_translations": {
-        "title": {}
+        "title": {
+          "fil_ph": true
+        }
       },
       "_translatedFields": {
         "title": {
@@ -24,7 +26,9 @@
       "template": "reports",
       "title": "Report",
       "_translations": {
-        "title": {}
+        "title": {
+          "fil_ph": true
+        }
       },
       "_translatedFields": {
         "title": {
@@ -38,7 +42,9 @@
       "template": "library",
       "title": "Library",
       "_translations": {
-        "title": {}
+        "title": {
+          "fil_ph": true
+        }
       },
       "_translatedFields": {
         "title": {
@@ -52,7 +58,9 @@
       "template": "profile",
       "title": "Settings",
       "_translations": {
-        "title": {}
+        "title": {
+          "fil_ph": true
+        }
       },
       "_translatedFields": {
         "title": {

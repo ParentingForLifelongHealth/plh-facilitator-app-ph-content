@@ -34,7 +34,9 @@
           "name": "display_title",
           "value": "Gabay Para sa Facilitator",
           "_translations": {
-            "value": {}
+            "value": {
+              "fil_ph": true
+            }
           },
           "exclude_from_translation": true,
           "type": "set_variable",

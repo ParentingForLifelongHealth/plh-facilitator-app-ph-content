@@ -56,7 +56,9 @@
           "name": "title",
           "value": "Account",
           "_translations": {
-            "value": {}
+            "value": {
+              "fil_ph": true
+            }
           },
           "type": "set_variable",
           "_nested_name": "header.title"

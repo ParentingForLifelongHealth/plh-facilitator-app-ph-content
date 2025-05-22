@@ -7,7 +7,9 @@
       "name": "report_name",
       "value": "test",
       "_translations": {
-        "value": {}
+        "value": {
+          "fil_ph": true
+        }
       },
       "exclude_from_translation": true,
       "type": "set_variable",
@@ -188,7 +190,9 @@
       "name": "question_1",
       "value": "What was your role in the session?",
       "_translations": {
-        "value": {}
+        "value": {
+          "fil_ph": true
+        }
       },
       "exclude_from_translation": false,
       "_nested_name": "question_1"
@@ -197,7 +201,9 @@
       "name": "lead",
       "value": "Lead",
       "_translations": {
-        "value": {}
+        "value": {
+          "fil_ph": true
+        }
       },
       "exclude_from_translation": false,
       "type": "set_variable",
@@ -207,7 +213,9 @@
       "name": "support",
       "value": "Support",
       "_translations": {
-        "value": {}
+        "value": {
+          "fil_ph": true
+        }
       },
       "exclude_from_translation": false,
       "type": "set_variable",
@@ -317,7 +325,9 @@
               "name": "question_2",
               "value": "Date of Session Delivery?",
               "_translations": {
-                "value": {}
+                "value": {
+                  "fil_ph": true
+                }
               },
               "exclude_from_translation": false,
               "_nested_name": "q1_answered.is_lead.question_2"
@@ -336,7 +346,9 @@
               "name": "question_3",
               "value": "How long did the session last?",
               "_translations": {
-                "value": {}
+                "value": {
+                  "fil_ph": true
+                }
               },
               "exclude_from_translation": false,
               "_nested_name": "q1_answered.is_lead.question_3"
@@ -374,7 +386,9 @@
               "name": "question_4",
               "value": "How much time did you spend on preparing for the session?",
               "_translations": {
-                "value": {}
+                "value": {
+                  "fil_ph": true
+                }
               },
               "exclude_from_translation": false,
               "_nested_name": "q1_answered.is_lead.question_4"
@@ -412,7 +426,9 @@
               "name": "question_5",
               "value": "Were you able to complete all the activities?",
               "_translations": {
-                "value": {}
+                "value": {
+                  "fil_ph": true
+                }
               },
               "exclude_from_translation": false,
               "_nested_name": "q1_answered.is_lead.question_5"
@@ -421,7 +437,9 @@
               "name": "yes",
               "value": "Yes",
               "_translations": {
-                "value": {}
+                "value": {
+                  "fil_ph": true
+                }
               },
               "exclude_from_translation": false,
               "type": "set_variable",
@@ -431,7 +449,9 @@
               "name": "no",
               "value": "No",
               "_translations": {
-                "value": {}
+                "value": {
+                  "fil_ph": true
+                }
               },
               "exclude_from_translation": false,
               "type": "set_variable",
@@ -517,7 +537,9 @@
               "name": "question_6",
               "value": "What activities were you not able to complete? Why?",
               "_translations": {
-                "value": {}
+                "value": {
+                  "fil_ph": true
+                }
               },
               "condition": "@local.answer_5 == \"no\"",
               "exclude_from_translation": false,
@@ -591,7 +613,9 @@
               "name": "confidence_header",
               "value": "How confident are you in the following?",
               "_translations": {
-                "value": {}
+                "value": {
+                  "fil_ph": true
+                }
               },
               "parameter_list": {
                 "style": "emphasised"
@@ -603,7 +627,9 @@
               "name": "none",
               "value": "I have no confidence",
               "_translations": {
-                "value": {}
+                "value": {
+                  "fil_ph": true
+                }
               },
               "exclude_from_translation": false,
               "type": "set_variable",
@@ -613,7 +639,9 @@
               "name": "low",
               "value": "My confidence is low",
               "_translations": {
-                "value": {}
+                "value": {
+                  "fil_ph": true
+                }
               },
               "exclude_from_translation": false,
               "type": "set_variable",
@@ -623,7 +651,9 @@
               "name": "moderate",
               "value": "My confidence is moderate",
               "_translations": {
-                "value": {}
+                "value": {
+                  "fil_ph": true
+                }
               },
               "exclude_from_translation": false,
               "type": "set_variable",
@@ -633,7 +663,9 @@
               "name": "high",
               "value": "My confidence is high",
               "_translations": {
-                "value": {}
+                "value": {
+                  "fil_ph": true
+                }
               },
               "exclude_from_translation": false,
               "type": "set_variable",
@@ -643,7 +675,9 @@
               "name": "very_high",
               "value": "My confidence is very high",
               "_translations": {
-                "value": {}
+                "value": {
+                  "fil_ph": true
+                }
               },
               "exclude_from_translation": false,
               "type": "set_variable",
@@ -753,7 +787,9 @@
               "name": "question_7",
               "value": "On your knowledge about Talking about Feelings",
               "_translations": {
-                "value": {}
+                "value": {
+                  "fil_ph": true
+                }
               },
               "exclude_from_translation": false,
               "_nested_name": "q1_answered.confidence_group.question_7"
@@ -790,7 +826,9 @@
               "name": "question_8",
               "value": "On your facilitation skills for Talking about Feelings",
               "_translations": {
-                "value": {}
+                "value": {
+                  "fil_ph": true
+                }
               },
               "exclude_from_translation": false,
               "_nested_name": "q1_answered.confidence_group.question_8"
@@ -827,7 +865,9 @@
               "name": "question_9",
               "value": "What challenges did you face in delivering the module that you would like to discuss in the coaching session? Be specific.",
               "_translations": {
-                "value": {}
+                "value": {
+                  "fil_ph": true
+                }
               },
               "exclude_from_translation": false,
               "_nested_name": "q1_answered.confidence_group.question_9"
@@ -843,7 +883,9 @@
               "name": "question_10",
               "value": "What is your goal or what do you want to achieve or learn from the coaching session?",
               "_translations": {
-                "value": {}
+                "value": {
+                  "fil_ph": true
+                }
               },
               "exclude_from_translation": false,
               "_nested_name": "q1_answered.confidence_group.question_10"
@@ -973,7 +1015,9 @@
               "name": "question_11",
               "value": "Which of the parents in this group attended your in-person session?",
               "_translations": {
-                "value": {}
+                "value": {
+                  "fil_ph": true
+                }
               },
               "condition": "@local.answer_1 == \"lead\" && @local.parent_count> 1",
               "exclude_from_translation": false,
@@ -1225,7 +1269,9 @@
                           "type": "text",
                           "value": "What challenges or successes did the parent experience during with their home activity for @local.module_name ? Were there any concerns?",
                           "_translations": {
-                            "value": {}
+                            "value": {
+                              "fil_ph": true
+                            }
                           },
                           "name": "text_1",
                           "_nested_name": "q1_answered.confidence_group.data_items_19.display_group_1.display_group_2.text_1",
@@ -1459,7 +1505,9 @@
           "name": "save",
           "value": "Save",
           "_translations": {
-            "value": {}
+            "value": {
+              "fil_ph": true
+            }
           },
           "action_list": [
             {

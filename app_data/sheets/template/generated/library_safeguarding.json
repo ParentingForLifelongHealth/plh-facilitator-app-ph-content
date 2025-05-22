@@ -34,7 +34,9 @@
           "name": "display_title",
           "value": "Pag-Iingat, Pagka-Kumpidensyal, at Pagbubunyag",
           "_translations": {
-            "value": {}
+            "value": {
+              "fil_ph": true
+            }
           },
           "exclude_from_translation": true,
           "type": "set_variable",

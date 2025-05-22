@@ -79,7 +79,7 @@
 
 | assets | KB | MB |
 | --- | --- | --- |
-| total | 25862 KB | 25.9 MB |
+| total | 26339 KB | 26.3 MB |
 | unused | 23284 KB | 23.3 MB |
 </details>
 
@@ -232,7 +232,6 @@ Assets that have references within sheets but do not appear in app-data
 | images/comics/04_comics2_panel5.png | 1 |
 | images/icons/in_progress.svg | 1 |
 | images/icons/tick.svg | 1 |
-| images/logos/nip.png | 1 |
 | lottie/gift_box.json | 2 |
 | pdf/08_mapa_skill.pdf | 1 |
 </details>
@@ -305,9 +304,11 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | images/icons/unarchive.svg | 1.1 | 1 |
 | images/icons/visibility.svg | 1.9 | 1 |
 | images/icons/world.svg | 6.2 | 1 |
+| images/logos/ADMU.jpg | 246.9 | 1 |
+| images/logos/GPI.jpg | 200.1 | 1 |
 | images/logos/IDEMS.png | 84.6 | 1 |
 | images/logos/PLH.png | 26.6 | 1 |
-| images/logos/UNICEF.jpg | 27.7 | 1 |
+| images/logos/UNICEF.jpg | 57.9 | 1 |
 | images/logos/app_logo.png | 70.6 | 2 |
 | images/no_group_selected.svg | 3.5 | 1 |
 | lottie/checkmark_blue.json | 17 | 1 |

@@ -259,8 +259,8 @@
     "data": [
       {
         "assets": "total",
-        "KB": "25862 KB",
-        "MB": "25.9 MB"
+        "KB": "26339 KB",
+        "MB": "26.3 MB"
       },
       {
         "assets": "unused",
@@ -829,11 +829,6 @@
         "missing": true
       },
       {
-        "path": "images/logos/nip.png",
-        "count": 1,
-        "missing": true
-      },
-      {
         "path": "lottie/gift_box.json",
         "count": 2,
         "missing": true
@@ -1153,6 +1148,16 @@
         "size_kb": 6.2
       },
       {
+        "path": "images/logos/ADMU.jpg",
+        "count": 1,
+        "size_kb": 246.9
+      },
+      {
+        "path": "images/logos/GPI.jpg",
+        "count": 1,
+        "size_kb": 200.1
+      },
+      {
         "path": "images/logos/IDEMS.png",
         "count": 1,
         "size_kb": 84.6
@@ -1165,7 +1170,7 @@
       {
         "path": "images/logos/UNICEF.jpg",
         "count": 1,
-        "size_kb": 27.7
+        "size_kb": 57.9
       },
       {
         "path": "images/logos/app_logo.png",

@@ -74,7 +74,9 @@
           "name": "button_cancel",
           "value": "Cancel",
           "_translations": {
-            "value": {}
+            "value": {
+              "fil_ph": true
+            }
           },
           "action_list": [
             {
@@ -95,7 +97,9 @@
           "name": "button_submit",
           "value": "Submit",
           "_translations": {
-            "value": {}
+            "value": {
+              "fil_ph": true
+            }
           },
           "action_list": [
             {

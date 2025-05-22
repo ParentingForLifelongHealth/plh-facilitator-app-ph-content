@@ -11,7 +11,9 @@
           "type": "text",
           "value": "Add Parent to Group",
           "_translations": {
-            "value": {}
+            "value": {
+              "fil_ph": true
+            }
           },
           "style_list": [
             "color: #74777C"
@@ -462,7 +464,9 @@
                   "type": "text",
                   "value": "Co-parent: @item.co_parent_name",
                   "_translations": {
-                    "value": {}
+                    "value": {
+                      "fil_ph": true
+                    }
                   },
                   "style_list": [
                     "font-size: 12px",

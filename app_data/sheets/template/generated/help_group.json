@@ -8,7 +8,9 @@
       "name": "text",
       "value": "See and edit the list of parents attending your groups.",
       "_translations": {
-        "value": {}
+        "value": {
+          "fil_ph": true
+        }
       },
       "_nested_name": "text"
     }

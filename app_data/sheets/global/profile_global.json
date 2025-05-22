@@ -8,7 +8,9 @@
       "name": "label_first_name",
       "value": "Parent's First Name",
       "_translations": {
-        "value": {}
+        "value": {
+          "fil_ph": true
+        }
       }
     },
     {
@@ -16,7 +18,9 @@
       "name": "label_last_name",
       "value": "Parent's Last Name",
       "_translations": {
-        "value": {}
+        "value": {
+          "fil_ph": true
+        }
       }
     },
     {
@@ -24,7 +28,9 @@
       "name": "label_number",
       "value": "Contact Number",
       "_translations": {
-        "value": {}
+        "value": {
+          "fil_ph": true
+        }
       }
     },
     {
@@ -32,7 +38,9 @@
       "name": "label_age",
       "value": "Parent's Age",
       "_translations": {
-        "value": {}
+        "value": {
+          "fil_ph": true
+        }
       }
     },
     {
@@ -40,7 +48,9 @@
       "name": "label_sex",
       "value": "Parent's Sex",
       "_translations": {
-        "value": {}
+        "value": {
+          "fil_ph": true
+        }
       }
     },
     {
@@ -48,7 +58,9 @@
       "name": "label_about_child",
       "value": "About the child",
       "_translations": {
-        "value": {}
+        "value": {
+          "fil_ph": true
+        }
       }
     },
     {
@@ -56,7 +68,9 @@
       "name": "label_child_name",
       "value": "Child's Name",
       "_translations": {
-        "value": {}
+        "value": {
+          "fil_ph": true
+        }
       }
     },
     {
@@ -64,7 +78,9 @@
       "name": "label_child_age",
       "value": "Child's Age",
       "_translations": {
-        "value": {}
+        "value": {
+          "fil_ph": true
+        }
       }
     },
     {
@@ -72,7 +88,9 @@
       "name": "label_child_sex",
       "value": "Child's Sex",
       "_translations": {
-        "value": {}
+        "value": {
+          "fil_ph": true
+        }
       }
     },
     {
@@ -80,7 +98,9 @@
       "name": "label_relationship",
       "value": "What is the parent's relationship with the child?",
       "_translations": {
-        "value": {}
+        "value": {
+          "fil_ph": true
+        }
       }
     },
     {
@@ -88,7 +108,9 @@
       "name": "label_about_family",
       "value": "About the family",
       "_translations": {
-        "value": {}
+        "value": {
+          "fil_ph": true
+        }
       }
     },
     {
@@ -96,7 +118,9 @@
       "name": "label_members",
       "value": "How many family members are there (including the program participant)?",
       "_translations": {
-        "value": {}
+        "value": {
+          "fil_ph": true
+        }
       }
     },
     {
@@ -104,7 +128,9 @@
       "name": "label_childcare",
       "value": "Who else is taking care of the child?",
       "_translations": {
-        "value": {}
+        "value": {
+          "fil_ph": true
+        }
       }
     },
     {
@@ -112,7 +138,9 @@
       "name": "label_goal",
       "value": "Parents goal",
       "_translations": {
-        "value": {}
+        "value": {
+          "fil_ph": true
+        }
       }
     },
     {
@@ -120,7 +148,9 @@
       "name": "label_other_notes",
       "value": "Other notes",
       "_translations": {
-        "value": {}
+        "value": {
+          "fil_ph": true
+        }
       }
     },
     {
@@ -128,7 +158,9 @@
       "name": "label_consoltation",
       "value": "Date of Consultation",
       "_translations": {
-        "value": {}
+        "value": {
+          "fil_ph": true
+        }
       }
     },
     {
@@ -136,7 +168,9 @@
       "name": "edit_first_name",
       "value": "Enter parent's first name",
       "_translations": {
-        "value": {}
+        "value": {
+          "fil_ph": true
+        }
       }
     },
     {
@@ -144,7 +178,9 @@
       "name": "edit_last_name",
       "value": "Enter parent's last name",
       "_translations": {
-        "value": {}
+        "value": {
+          "fil_ph": true
+        }
       }
     },
     {
@@ -152,7 +188,9 @@
       "name": "edit_number",
       "value": "Enter parent's contact number",
       "_translations": {
-        "value": {}
+        "value": {
+          "fil_ph": true
+        }
       }
     },
     {
@@ -160,7 +198,9 @@
       "name": "edit_age",
       "value": "Enter parent's age",
       "_translations": {
-        "value": {}
+        "value": {
+          "fil_ph": true
+        }
       }
     },
     {
@@ -168,7 +208,9 @@
       "name": "edit_sex",
       "value": "Enter parent's sex",
       "_translations": {
-        "value": {}
+        "value": {
+          "fil_ph": true
+        }
       }
     },
     {
@@ -176,7 +218,9 @@
       "name": "edit_child_name",
       "value": "Enter child's name",
       "_translations": {
-        "value": {}
+        "value": {
+          "fil_ph": true
+        }
       }
     },
     {
@@ -184,7 +228,9 @@
       "name": "edit_child_age",
       "value": "Enter child's age",
       "_translations": {
-        "value": {}
+        "value": {
+          "fil_ph": true
+        }
       }
     },
     {
@@ -192,7 +238,9 @@
       "name": "edit_child_sex",
       "value": "Enter child's sex",
       "_translations": {
-        "value": {}
+        "value": {
+          "fil_ph": true
+        }
       }
     },
     {
@@ -200,7 +248,9 @@
       "name": "edit_relationship",
       "value": "e.g., Mother, Grandfather",
       "_translations": {
-        "value": {}
+        "value": {
+          "fil_ph": true
+        }
       }
     },
     {
@@ -208,7 +258,9 @@
       "name": "edit_members",
       "value": "e.g., 5",
       "_translations": {
-        "value": {}
+        "value": {
+          "fil_ph": true
+        }
       }
     },
     {
@@ -216,7 +268,9 @@
       "name": "edit_childcare",
       "value": "e.g., Aunt, Grandparent",
       "_translations": {
-        "value": {}
+        "value": {
+          "fil_ph": true
+        }
       }
     },
     {
@@ -224,7 +278,9 @@
       "name": "edit_goal",
       "value": "Enter parent's goal",
       "_translations": {
-        "value": {}
+        "value": {
+          "fil_ph": true
+        }
       }
     },
     {
@@ -232,7 +288,9 @@
       "name": "edit_other_notes",
       "value": "Enter other notes",
       "_translations": {
-        "value": {}
+        "value": {
+          "fil_ph": true
+        }
       }
     },
     {
@@ -240,7 +298,9 @@
       "name": "edit_consoltation",
       "value": "Enter date of consultation",
       "_translations": {
-        "value": {}
+        "value": {
+          "fil_ph": true
+        }
       }
     },
     {
@@ -248,7 +308,9 @@
       "name": "error_first_name",
       "value": "Please enter a valid name using only letters. It must be at least 2 characters long.",
       "_translations": {
-        "value": {}
+        "value": {
+          "fil_ph": true
+        }
       }
     },
     {
@@ -256,7 +318,9 @@
       "name": "error_last_name",
       "value": "Please enter a valid name using only letters. It must be at least 2 characters long.",
       "_translations": {
-        "value": {}
+        "value": {
+          "fil_ph": true
+        }
       }
     },
     {
@@ -264,7 +328,9 @@
       "name": "error_number",
       "value": "Please enter a valid phone number starting with + followed by the country code.",
       "_translations": {
-        "value": {}
+        "value": {
+          "fil_ph": true
+        }
       }
     },
     {
@@ -272,7 +338,9 @@
       "name": "error_age",
       "value": "Please enter a valid age between 16 and 99.",
       "_translations": {
-        "value": {}
+        "value": {
+          "fil_ph": true
+        }
       }
     },
     {
@@ -280,7 +348,9 @@
       "name": "error_sex",
       "value": "Please select a gender",
       "_translations": {
-        "value": {}
+        "value": {
+          "fil_ph": true
+        }
       }
     },
     {
@@ -288,7 +358,9 @@
       "name": "error_child_name",
       "value": "Please enter a valid name using only letters. It must be at least 2 characters long.",
       "_translations": {
-        "value": {}
+        "value": {
+          "fil_ph": true
+        }
       }
     },
     {
@@ -296,7 +368,9 @@
       "name": "error_child_age",
       "value": "Please enter an age between 2 and 17.",
       "_translations": {
-        "value": {}
+        "value": {
+          "fil_ph": true
+        }
       }
     },
     {
@@ -304,7 +378,9 @@
       "name": "error_child_sex",
       "value": "Please select a gender",
       "_translations": {
-        "value": {}
+        "value": {
+          "fil_ph": true
+        }
       }
     },
     {
@@ -312,7 +388,9 @@
       "name": "error_relationship",
       "value": "Please provide a valid response using only letters.",
       "_translations": {
-        "value": {}
+        "value": {
+          "fil_ph": true
+        }
       }
     },
     {
@@ -320,7 +398,9 @@
       "name": "error_members",
       "value": "Please enter a valid number to indicate the total family members (including the program participant).",
       "_translations": {
-        "value": {}
+        "value": {
+          "fil_ph": true
+        }
       }
     },
     {
@@ -328,7 +408,9 @@
       "name": "error_childcare",
       "value": "Please enter a valid response using only letters, spaces, commas, or hyphens (e.g., ‘Grandmother, Aunt’ or ‘Daycare Provider’).",
       "_translations": {
-        "value": {}
+        "value": {
+          "fil_ph": true
+        }
       }
     },
     {
@@ -336,7 +418,9 @@
       "name": "error_goal",
       "value": "Please enter a specific and realistic goal.",
       "_translations": {
-        "value": {}
+        "value": {
+          "fil_ph": true
+        }
       }
     },
     {
@@ -344,7 +428,9 @@
       "name": "error_consoltation",
       "value": "Please enter a date.",
       "_translations": {
-        "value": {}
+        "value": {
+          "fil_ph": true
+        }
       }
     },
     {
@@ -352,7 +438,9 @@
       "name": "co_facilitator_share_title",
       "value": "Send this message to the Facilitator who runs the group",
       "_translations": {
-        "value": {}
+        "value": {
+          "fil_ph": true
+        }
       }
     },
     {
@@ -360,7 +448,9 @@
       "name": "co_facilitator_share_start",
       "value": "Hello, \nPlease add me as a co-facilitator!\nHere's how:\n1. Open the Facilitator App.\n2. Click on 'Your Parent Groups'\n3. Select EDIT on the Group.\n4. Click 'Add Co-Facilitator'\n5. Enter this ID:",
       "_translations": {
-        "value": {}
+        "value": {
+          "fil_ph": true
+        }
       }
     },
     {
@@ -368,7 +458,9 @@
       "name": "co_facilitator_share_end",
       "value": "Excited to be on board!",
       "_translations": {
-        "value": {}
+        "value": {
+          "fil_ph": true
+        }
       }
     },
     {
@@ -376,7 +468,9 @@
       "name": "label_about_parent",
       "value": "About parent",
       "_translations": {
-        "value": {}
+        "value": {
+          "fil_ph": true
+        }
       }
     }
   ],

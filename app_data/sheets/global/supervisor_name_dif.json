@@ -10,7 +10,9 @@
       "name": "supervisor_name",
       "value": "your DIF supervisor",
       "_translations": {
-        "value": {}
+        "value": {
+          "fil_ph": true
+        }
       }
     }
   ],

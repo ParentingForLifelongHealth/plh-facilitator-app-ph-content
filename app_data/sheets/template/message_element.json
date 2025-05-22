@@ -685,7 +685,9 @@
                   "name": "button",
                   "value": "Share",
                   "_translations": {
-                    "value": {}
+                    "value": {
+                      "fil_ph": true
+                    }
                   },
                   "action_list": [
                     {
@@ -871,7 +873,9 @@
                   "name": "button",
                   "value": "Share",
                   "_translations": {
-                    "value": {}
+                    "value": {
+                      "fil_ph": true
+                    }
                   },
                   "action_list": [
                     {
@@ -1188,7 +1192,9 @@
                   "name": "button",
                   "value": "Share",
                   "_translations": {
-                    "value": {}
+                    "value": {
+                      "fil_ph": true
+                    }
                   },
                   "action_list": [
                     {
@@ -1263,7 +1269,9 @@
                   "name": "button",
                   "value": "Share",
                   "_translations": {
-                    "value": {}
+                    "value": {
+                      "fil_ph": true
+                    }
                   },
                   "action_list": [
                     {
