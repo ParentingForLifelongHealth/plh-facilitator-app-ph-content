@@ -19,7 +19,7 @@ config.google_drive.assets_folder_ids = [
 
 config.git = {
   content_repo: "https://github.com/IDEMSInternational/plh-facilitator-app-ph-content.git",
-  content_tag_latest: "1.1.60",
+  content_tag_latest: "1.1.61",
 };
 
 config.android = {
@@ -51,7 +51,7 @@ config.web.favicon_asset = "images/logos/app_logo.png";
 config.api.db_name = "plh_facilitator_ph"
 config.app_data.output_path = "./app_data";
 
-config.app_config.APP_LANGUAGES.default = "fil_ph";
+config.app_config.APP_LANGUAGES.default = "ph_fil";
 config.app_config.APP_SIDEMENU_DEFAULTS.title = "Facilitator PH";
 config.app_config.APP_HEADER_DEFAULTS.title = "Facilitator PH";
 config.app_config.APP_HEADER_DEFAULTS.hidden = true;
