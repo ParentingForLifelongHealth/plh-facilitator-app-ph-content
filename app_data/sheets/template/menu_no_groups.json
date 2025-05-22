@@ -513,8 +513,8 @@
               },
               "condition": false,
               "exclude_from_translation": true,
-              "name": "text_7",
-              "_nested_name": "display_group_18.items_1.text_7",
+              "name": "text_7_@item.id",
+              "_nested_name": "display_group_18.items_1.text_7_@item.id",
               "_dynamicFields": {
                 "value": [
                   {
@@ -523,11 +523,31 @@
                     "type": "item",
                     "fieldName": "status"
                   }
+                ],
+                "name": [
+                  {
+                    "fullExpression": "text_7_@item.id",
+                    "matchedExpression": "@item.id",
+                    "type": "item",
+                    "fieldName": "id"
+                  }
+                ],
+                "_nested_name": [
+                  {
+                    "fullExpression": "display_group_18.items_1.text_7_@item.id",
+                    "matchedExpression": "@item.id",
+                    "type": "item",
+                    "fieldName": "id"
+                  }
                 ]
               },
               "_dynamicDependencies": {
                 "@item.status": [
                   "value"
+                ],
+                "@item.id": [
+                  "name",
+                  "_nested_name"
                 ]
               }
             },
@@ -539,8 +559,8 @@
               },
               "condition": false,
               "exclude_from_translation": true,
-              "name": "text_8",
-              "_nested_name": "display_group_18.items_1.text_8",
+              "name": "text_8_@item.id",
+              "_nested_name": "display_group_18.items_1.text_8_@item.id",
               "_dynamicFields": {
                 "value": [
                   {
@@ -561,6 +581,22 @@
                     "type": "local",
                     "fieldName": "image_postfix"
                   }
+                ],
+                "name": [
+                  {
+                    "fullExpression": "text_8_@item.id",
+                    "matchedExpression": "@item.id",
+                    "type": "item",
+                    "fieldName": "id"
+                  }
+                ],
+                "_nested_name": [
+                  {
+                    "fullExpression": "display_group_18.items_1.text_8_@item.id",
+                    "matchedExpression": "@item.id",
+                    "type": "item",
+                    "fieldName": "id"
+                  }
                 ]
               },
               "_dynamicDependencies": {
@@ -572,6 +608,10 @@
                 ],
                 "@local.image_postfix": [
                   "value"
+                ],
+                "@item.id": [
+                  "name",
+                  "_nested_name"
                 ]
               }
             },
