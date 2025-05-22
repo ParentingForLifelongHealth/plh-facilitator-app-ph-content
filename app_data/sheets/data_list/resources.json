@@ -189,24 +189,6 @@
       "foreign_key": "week_8_session_8",
       "media_type": "pdf",
       "media_asset": "08_mod8_pagdiriwang"
-    },
-    {
-      "id": "resource_32",
-      "foreign_key": "demo",
-      "media_type": "pdf",
-      "media_asset": "module_2_prepare"
-    },
-    {
-      "id": "resource_33",
-      "foreign_key": "demo_8",
-      "media_type": "pdf",
-      "media_asset": "module_1_troubleshooting"
-    },
-    {
-      "id": "resource_34",
-      "foreign_key": "demo_9",
-      "media_type": "pdf",
-      "media_asset": "module_1_troubleshooting"
     }
   ],
   "_xlsxPath": "data/modules_sub_items_ph.xlsx",

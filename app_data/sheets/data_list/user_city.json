@@ -197,8 +197,8 @@
       "province_id": "agusan_del_norte"
     },
     {
-      "id": "las nieves",
-      "name": "las nieves",
+      "id": "las_nieves",
+      "name": "las_nieves",
       "text": "Las Nieves",
       "province_id": "agusan_del_norte"
     },
@@ -491,8 +491,8 @@
       "province_id": "albay"
     },
     {
-      "id": "pio duran",
-      "name": "pio duran",
+      "id": "pio_duran",
+      "name": "pio_duran",
       "text": "Pio Duran",
       "province_id": "albay"
     },
@@ -749,14 +749,14 @@
       "province_id": "basilan"
     },
     {
-      "id": "isabela city",
-      "name": "isabela city",
+      "id": "isabela_city",
+      "name": "isabela_city",
       "text": "Isabela City",
       "province_id": "basilan"
     },
     {
-      "id": "lamitan city",
-      "name": "lamitan city",
+      "id": "lamitan_city",
+      "name": "lamitan_city",
       "text": "Lamitan City",
       "province_id": "basilan"
     },
@@ -875,87 +875,2769 @@
       "province_id": "bataan"
     },
     {
+      "id": "basco",
+      "name": "basco",
+      "text": "Basco",
       "province_id": "batanes"
     },
     {
+      "id": "itbayat",
+      "name": "itbayat",
+      "text": "Itbayat",
+      "province_id": "batanes"
+    },
+    {
+      "id": "ivana",
+      "name": "ivana",
+      "text": "Ivana",
+      "province_id": "batanes"
+    },
+    {
+      "id": "mahatao",
+      "name": "mahatao",
+      "text": "Mahatao",
+      "province_id": "batanes"
+    },
+    {
+      "id": "sabtang",
+      "name": "sabtang",
+      "text": "Sabtang",
+      "province_id": "batanes"
+    },
+    {
+      "id": "uyugan",
+      "name": "uyugan",
+      "text": "Uyugan",
+      "province_id": "batanes"
+    },
+    {
+      "id": "agoncillo",
+      "name": "agoncillo",
+      "text": "Agoncillo",
       "province_id": "batangas"
     },
     {
+      "id": "alitagtag",
+      "name": "alitagtag",
+      "text": "Alitagtag",
+      "province_id": "batangas"
+    },
+    {
+      "id": "balayan",
+      "name": "balayan",
+      "text": "Balayan",
+      "province_id": "batangas"
+    },
+    {
+      "id": "balete",
+      "name": "balete",
+      "text": "Balete",
+      "province_id": "batangas"
+    },
+    {
+      "id": "batangas_city",
+      "name": "batangas_city",
+      "text": "Batangas City",
+      "province_id": "batangas"
+    },
+    {
+      "id": "bauan",
+      "name": "bauan",
+      "text": "Bauan",
+      "province_id": "batangas"
+    },
+    {
+      "id": "calaca",
+      "name": "calaca",
+      "text": "Calaca",
+      "province_id": "batangas"
+    },
+    {
+      "id": "calatagan",
+      "name": "calatagan",
+      "text": "Calatagan",
+      "province_id": "batangas"
+    },
+    {
+      "id": "cuenca",
+      "name": "cuenca",
+      "text": "Cuenca",
+      "province_id": "batangas"
+    },
+    {
+      "id": "ibaan",
+      "name": "ibaan",
+      "text": "Ibaan",
+      "province_id": "batangas"
+    },
+    {
+      "id": "laurel",
+      "name": "laurel",
+      "text": "Laurel",
+      "province_id": "batangas"
+    },
+    {
+      "id": "lemery",
+      "name": "lemery",
+      "text": "Lemery",
+      "province_id": "batangas"
+    },
+    {
+      "id": "lian",
+      "name": "lian",
+      "text": "Lian",
+      "province_id": "batangas"
+    },
+    {
+      "id": "lipa_city",
+      "name": "lipa_city",
+      "text": "Lipa City",
+      "province_id": "batangas"
+    },
+    {
+      "id": "lobo",
+      "name": "lobo",
+      "text": "Lobo",
+      "province_id": "batangas"
+    },
+    {
+      "id": "mabini",
+      "name": "mabini",
+      "text": "Mabini",
+      "province_id": "batangas"
+    },
+    {
+      "id": "malvar",
+      "name": "malvar",
+      "text": "Malvar",
+      "province_id": "batangas"
+    },
+    {
+      "id": "mataasnakahoy",
+      "name": "mataasnakahoy",
+      "text": "Mataasnakahoy",
+      "province_id": "batangas"
+    },
+    {
+      "id": "nasugbu",
+      "name": "nasugbu",
+      "text": "Nasugbu",
+      "province_id": "batangas"
+    },
+    {
+      "id": "padre_garcia",
+      "name": "padre_garcia",
+      "text": "Padre Garcia",
+      "province_id": "batangas"
+    },
+    {
+      "id": "rosario",
+      "name": "rosario",
+      "text": "Rosario",
+      "province_id": "batangas"
+    },
+    {
+      "id": "san_jose",
+      "name": "san_jose",
+      "text": "San Jose",
+      "province_id": "batangas"
+    },
+    {
+      "id": "san_juan",
+      "name": "san_juan",
+      "text": "San Juan",
+      "province_id": "batangas"
+    },
+    {
+      "id": "san_luis",
+      "name": "san_luis",
+      "text": "San Luis",
+      "province_id": "batangas"
+    },
+    {
+      "id": "san_nicolas",
+      "name": "san_nicolas",
+      "text": "San Nicolas",
+      "province_id": "batangas"
+    },
+    {
+      "id": "san_pascual",
+      "name": "san_pascual",
+      "text": "San Pascual",
+      "province_id": "batangas"
+    },
+    {
+      "id": "santa_teresita",
+      "name": "santa_teresita",
+      "text": "Santa Teresita",
+      "province_id": "batangas"
+    },
+    {
+      "id": "santo_tomas_city",
+      "name": "santo_tomas_city",
+      "text": "Santo Tomas City",
+      "province_id": "batangas"
+    },
+    {
+      "id": "taal",
+      "name": "taal",
+      "text": "Taal",
+      "province_id": "batangas"
+    },
+    {
+      "id": "talisay",
+      "name": "talisay",
+      "text": "Talisay",
+      "province_id": "batangas"
+    },
+    {
+      "id": "tanauan_city",
+      "name": "tanauan_city",
+      "text": "Tanauan City",
+      "province_id": "batangas"
+    },
+    {
+      "id": "taysan",
+      "name": "taysan",
+      "text": "Taysan",
+      "province_id": "batangas"
+    },
+    {
+      "id": "tingloy",
+      "name": "tingloy",
+      "text": "Tingloy",
+      "province_id": "batangas"
+    },
+    {
+      "id": "tuy",
+      "name": "tuy",
+      "text": "Tuy",
+      "province_id": "batangas"
+    },
+    {
+      "id": "atok",
+      "name": "atok",
+      "text": "Atok",
       "province_id": "benguet"
     },
     {
+      "id": "baguio_city",
+      "name": "baguio_city",
+      "text": "Baguio City",
+      "province_id": "benguet"
+    },
+    {
+      "id": "bakun",
+      "name": "bakun",
+      "text": "Bakun",
+      "province_id": "benguet"
+    },
+    {
+      "id": "bokod",
+      "name": "bokod",
+      "text": "Bokod",
+      "province_id": "benguet"
+    },
+    {
+      "id": "buguias",
+      "name": "buguias",
+      "text": "Buguias",
+      "province_id": "benguet"
+    },
+    {
+      "id": "itogon",
+      "name": "itogon",
+      "text": "Itogon",
+      "province_id": "benguet"
+    },
+    {
+      "id": "kabayan",
+      "name": "kabayan",
+      "text": "Kabayan",
+      "province_id": "benguet"
+    },
+    {
+      "id": "kapangan",
+      "name": "kapangan",
+      "text": "Kapangan",
+      "province_id": "benguet"
+    },
+    {
+      "id": "kibungan",
+      "name": "kibungan",
+      "text": "Kibungan",
+      "province_id": "benguet"
+    },
+    {
+      "id": "la_trinidad",
+      "name": "la_trinidad",
+      "text": "La Trinidad",
+      "province_id": "benguet"
+    },
+    {
+      "id": "mankayan",
+      "name": "mankayan",
+      "text": "Mankayan",
+      "province_id": "benguet"
+    },
+    {
+      "id": "sablan",
+      "name": "sablan",
+      "text": "Sablan",
+      "province_id": "benguet"
+    },
+    {
+      "id": "tuba",
+      "name": "tuba",
+      "text": "Tuba",
+      "province_id": "benguet"
+    },
+    {
+      "id": "tublay",
+      "name": "tublay",
+      "text": "Tublay",
+      "province_id": "benguet"
+    },
+    {
+      "id": "almeria",
+      "name": "almeria",
+      "text": "Almeria",
       "province_id": "biliran"
     },
     {
+      "id": "biliran",
+      "name": "biliran",
+      "text": "Biliran",
+      "province_id": "biliran"
+    },
+    {
+      "id": "cabucgayan",
+      "name": "cabucgayan",
+      "text": "Cabucgayan",
+      "province_id": "biliran"
+    },
+    {
+      "id": "caibiran",
+      "name": "caibiran",
+      "text": "Caibiran",
+      "province_id": "biliran"
+    },
+    {
+      "id": "culaba",
+      "name": "culaba",
+      "text": "Culaba",
+      "province_id": "biliran"
+    },
+    {
+      "id": "kawayan",
+      "name": "kawayan",
+      "text": "Kawayan",
+      "province_id": "biliran"
+    },
+    {
+      "id": "maripipi",
+      "name": "maripipi",
+      "text": "Maripipi",
+      "province_id": "biliran"
+    },
+    {
+      "id": "naval",
+      "name": "naval",
+      "text": "Naval",
+      "province_id": "biliran"
+    },
+    {
+      "id": "alburquerque",
+      "name": "alburquerque",
+      "text": "Alburquerque",
       "province_id": "bohol"
     },
     {
+      "id": "alicia",
+      "name": "alicia",
+      "text": "Alicia",
+      "province_id": "bohol"
+    },
+    {
+      "id": "anda",
+      "name": "anda",
+      "text": "Anda",
+      "province_id": "bohol"
+    },
+    {
+      "id": "antequera",
+      "name": "antequera",
+      "text": "Antequera",
+      "province_id": "bohol"
+    },
+    {
+      "id": "baclayon",
+      "name": "baclayon",
+      "text": "Baclayon",
+      "province_id": "bohol"
+    },
+    {
+      "id": "balilihan",
+      "name": "balilihan",
+      "text": "Balilihan",
+      "province_id": "bohol"
+    },
+    {
+      "id": "batuan",
+      "name": "batuan",
+      "text": "Batuan",
+      "province_id": "bohol"
+    },
+    {
+      "id": "bien_unido",
+      "name": "bien_unido",
+      "text": "Bien Unido",
+      "province_id": "bohol"
+    },
+    {
+      "id": "bilar",
+      "name": "bilar",
+      "text": "Bilar",
+      "province_id": "bohol"
+    },
+    {
+      "id": "buenavista",
+      "name": "buenavista",
+      "text": "Buenavista",
+      "province_id": "bohol"
+    },
+    {
+      "id": "calape",
+      "name": "calape",
+      "text": "Calape",
+      "province_id": "bohol"
+    },
+    {
+      "id": "candijay",
+      "name": "candijay",
+      "text": "Candijay",
+      "province_id": "bohol"
+    },
+    {
+      "id": "carmen",
+      "name": "carmen",
+      "text": "Carmen",
+      "province_id": "bohol"
+    },
+    {
+      "id": "catigbian",
+      "name": "catigbian",
+      "text": "Catigbian",
+      "province_id": "bohol"
+    },
+    {
+      "id": "clarin",
+      "name": "clarin",
+      "text": "Clarin",
+      "province_id": "bohol"
+    },
+    {
+      "id": "corella",
+      "name": "corella",
+      "text": "Corella",
+      "province_id": "bohol"
+    },
+    {
+      "id": "cortes",
+      "name": "cortes",
+      "text": "Cortes",
+      "province_id": "bohol"
+    },
+    {
+      "id": "dagohoy",
+      "name": "dagohoy",
+      "text": "Dagohoy",
+      "province_id": "bohol"
+    },
+    {
+      "id": "danao",
+      "name": "danao",
+      "text": "Danao",
+      "province_id": "bohol"
+    },
+    {
+      "id": "dauis",
+      "name": "dauis",
+      "text": "Dauis",
+      "province_id": "bohol"
+    },
+    {
+      "id": "dimiao",
+      "name": "dimiao",
+      "text": "Dimiao",
+      "province_id": "bohol"
+    },
+    {
+      "id": "duero",
+      "name": "duero",
+      "text": "Duero",
+      "province_id": "bohol"
+    },
+    {
+      "id": "garcia_hernandez",
+      "name": "garcia_hernandez",
+      "text": "Garcia Hernandez",
+      "province_id": "bohol"
+    },
+    {
+      "id": "getafe",
+      "name": "getafe",
+      "text": "Getafe",
+      "province_id": "bohol"
+    },
+    {
+      "id": "guindulman",
+      "name": "guindulman",
+      "text": "Guindulman",
+      "province_id": "bohol"
+    },
+    {
+      "id": "inabanga",
+      "name": "inabanga",
+      "text": "Inabanga",
+      "province_id": "bohol"
+    },
+    {
+      "id": "jagna",
+      "name": "jagna",
+      "text": "Jagna",
+      "province_id": "bohol"
+    },
+    {
+      "id": "jetafe",
+      "name": "jetafe",
+      "text": "Jetafe",
+      "province_id": "bohol"
+    },
+    {
+      "id": "lila",
+      "name": "lila",
+      "text": "Lila",
+      "province_id": "bohol"
+    },
+    {
+      "id": "loay",
+      "name": "loay",
+      "text": "Loay",
+      "province_id": "bohol"
+    },
+    {
+      "id": "loboc",
+      "name": "loboc",
+      "text": "Loboc",
+      "province_id": "bohol"
+    },
+    {
+      "id": "loon",
+      "name": "loon",
+      "text": "Loon",
+      "province_id": "bohol"
+    },
+    {
+      "id": "mabini",
+      "name": "mabini",
+      "text": "Mabini",
+      "province_id": "bohol"
+    },
+    {
+      "id": "maribojoc",
+      "name": "maribojoc",
+      "text": "Maribojoc",
+      "province_id": "bohol"
+    },
+    {
+      "id": "panglao",
+      "name": "panglao",
+      "text": "Panglao",
+      "province_id": "bohol"
+    },
+    {
+      "id": "pilar",
+      "name": "pilar",
+      "text": "Pilar",
+      "province_id": "bohol"
+    },
+    {
+      "id": "president_carlos_p_garcia",
+      "name": "president_carlos_p_garcia",
+      "text": "President Carlos P. Garcia",
+      "province_id": "bohol"
+    },
+    {
+      "id": "sagbayan",
+      "name": "sagbayan",
+      "text": "Sagbayan",
+      "province_id": "bohol"
+    },
+    {
+      "id": "san_isidro",
+      "name": "san_isidro",
+      "text": "San Isidro",
+      "province_id": "bohol"
+    },
+    {
+      "id": "san_miguel",
+      "name": "san_miguel",
+      "text": "San Miguel",
+      "province_id": "bohol"
+    },
+    {
+      "id": "sevilla",
+      "name": "sevilla",
+      "text": "Sevilla",
+      "province_id": "bohol"
+    },
+    {
+      "id": "sierra_bullones",
+      "name": "sierra_bullones",
+      "text": "Sierra Bullones",
+      "province_id": "bohol"
+    },
+    {
+      "id": "sikatuna",
+      "name": "sikatuna",
+      "text": "Sikatuna",
+      "province_id": "bohol"
+    },
+    {
+      "id": "tagbilaran_city",
+      "name": "tagbilaran_city",
+      "text": "Tagbilaran City",
+      "province_id": "bohol"
+    },
+    {
+      "id": "talibon",
+      "name": "talibon",
+      "text": "Talibon",
+      "province_id": "bohol"
+    },
+    {
+      "id": "trinidad",
+      "name": "trinidad",
+      "text": "Trinidad",
+      "province_id": "bohol"
+    },
+    {
+      "id": "tubigon",
+      "name": "tubigon",
+      "text": "Tubigon",
+      "province_id": "bohol"
+    },
+    {
+      "id": "ubay",
+      "name": "ubay",
+      "text": "Ubay",
+      "province_id": "bohol"
+    },
+    {
+      "id": "valencia",
+      "name": "valencia",
+      "text": "Valencia",
+      "province_id": "bohol"
+    },
+    {
+      "id": "baungon",
+      "name": "baungon",
+      "text": "Baungon",
       "province_id": "bukidnon"
     },
     {
-      "id": "malolos",
-      "name": "malolos",
-      "text": "Malolos",
+      "id": "cabanglasan",
+      "name": "cabanglasan",
+      "text": "Cabanglasan",
+      "province_id": "bukidnon"
+    },
+    {
+      "id": "damulog",
+      "name": "damulog",
+      "text": "Damulog",
+      "province_id": "bukidnon"
+    },
+    {
+      "id": "dangcagan",
+      "name": "dangcagan",
+      "text": "Dangcagan",
+      "province_id": "bukidnon"
+    },
+    {
+      "id": "don_carlos",
+      "name": "don_carlos",
+      "text": "Don Carlos",
+      "province_id": "bukidnon"
+    },
+    {
+      "id": "impasug_ong",
+      "name": "impasug_ong",
+      "text": "Impasug-ong",
+      "province_id": "bukidnon"
+    },
+    {
+      "id": "kadingilan",
+      "name": "kadingilan",
+      "text": "Kadingilan",
+      "province_id": "bukidnon"
+    },
+    {
+      "id": "kalilangan",
+      "name": "kalilangan",
+      "text": "Kalilangan",
+      "province_id": "bukidnon"
+    },
+    {
+      "id": "kibawe",
+      "name": "kibawe",
+      "text": "Kibawe",
+      "province_id": "bukidnon"
+    },
+    {
+      "id": "kitaotao",
+      "name": "kitaotao",
+      "text": "Kitaotao",
+      "province_id": "bukidnon"
+    },
+    {
+      "id": "lantapan",
+      "name": "lantapan",
+      "text": "Lantapan",
+      "province_id": "bukidnon"
+    },
+    {
+      "id": "libona",
+      "name": "libona",
+      "text": "Libona",
+      "province_id": "bukidnon"
+    },
+    {
+      "id": "malaybalay_city",
+      "name": "malaybalay_city",
+      "text": "Malaybalay City",
+      "province_id": "bukidnon"
+    },
+    {
+      "id": "malitbog",
+      "name": "malitbog",
+      "text": "Malitbog",
+      "province_id": "bukidnon"
+    },
+    {
+      "id": "manolo_fortich",
+      "name": "manolo_fortich",
+      "text": "Manolo Fortich",
+      "province_id": "bukidnon"
+    },
+    {
+      "id": "maramag",
+      "name": "maramag",
+      "text": "Maramag",
+      "province_id": "bukidnon"
+    },
+    {
+      "id": "pangantucan",
+      "name": "pangantucan",
+      "text": "Pangantucan",
+      "province_id": "bukidnon"
+    },
+    {
+      "id": "quezon",
+      "name": "quezon",
+      "text": "Quezon",
+      "province_id": "bukidnon"
+    },
+    {
+      "id": "san_fernando",
+      "name": "san_fernando",
+      "text": "San Fernando",
+      "province_id": "bukidnon"
+    },
+    {
+      "id": "sumilao",
+      "name": "sumilao",
+      "text": "Sumilao",
+      "province_id": "bukidnon"
+    },
+    {
+      "id": "talakag",
+      "name": "talakag",
+      "text": "Talakag",
+      "province_id": "bukidnon"
+    },
+    {
+      "id": "valencia_city",
+      "name": "valencia_city",
+      "text": "Valencia City",
+      "province_id": "bukidnon"
+    },
+    {
+      "id": "angat",
+      "name": "angat",
+      "text": "Angat",
       "province_id": "bulacan"
     },
     {
-      "id": "san_jose_del_monte",
-      "name": "san_jose_del_monte",
-      "text": "San Jose del Monte",
+      "id": "balagtas",
+      "name": "balagtas",
+      "text": "Balagtas",
       "province_id": "bulacan"
     },
     {
+      "id": "baliuag",
+      "name": "baliuag",
+      "text": "Baliuag",
+      "province_id": "bulacan"
+    },
+    {
+      "id": "bocaue",
+      "name": "bocaue",
+      "text": "Bocaue",
+      "province_id": "bulacan"
+    },
+    {
+      "id": "bulacan",
+      "name": "bulacan",
+      "text": "Bulacan",
+      "province_id": "bulacan"
+    },
+    {
+      "id": "bustos",
+      "name": "bustos",
+      "text": "Bustos",
+      "province_id": "bulacan"
+    },
+    {
+      "id": "calumpit",
+      "name": "calumpit",
+      "text": "Calumpit",
+      "province_id": "bulacan"
+    },
+    {
+      "id": "doña_remedios_trinidad",
+      "name": "doña_remedios_trinidad",
+      "text": "Doña Remedios Trinidad",
+      "province_id": "bulacan"
+    },
+    {
+      "id": "guiguinto",
+      "name": "guiguinto",
+      "text": "Guiguinto",
+      "province_id": "bulacan"
+    },
+    {
+      "id": "hagonoy",
+      "name": "hagonoy",
+      "text": "Hagonoy",
+      "province_id": "bulacan"
+    },
+    {
+      "id": "malolos_city",
+      "name": "malolos_city",
+      "text": "Malolos City",
+      "province_id": "bulacan"
+    },
+    {
+      "id": "marilao",
+      "name": "marilao",
+      "text": "Marilao",
+      "province_id": "bulacan"
+    },
+    {
+      "id": "meycauayan_city",
+      "name": "meycauayan_city",
+      "text": "Meycauayan City",
+      "province_id": "bulacan"
+    },
+    {
+      "id": "norzagaray",
+      "name": "norzagaray",
+      "text": "Norzagaray",
+      "province_id": "bulacan"
+    },
+    {
+      "id": "obando",
+      "name": "obando",
+      "text": "Obando",
+      "province_id": "bulacan"
+    },
+    {
+      "id": "pandi",
+      "name": "pandi",
+      "text": "Pandi",
+      "province_id": "bulacan"
+    },
+    {
+      "id": "paombong",
+      "name": "paombong",
+      "text": "Paombong",
+      "province_id": "bulacan"
+    },
+    {
+      "id": "plaridel",
+      "name": "plaridel",
+      "text": "Plaridel",
+      "province_id": "bulacan"
+    },
+    {
+      "id": "pulilan",
+      "name": "pulilan",
+      "text": "Pulilan",
+      "province_id": "bulacan"
+    },
+    {
+      "id": "san_ildefonso",
+      "name": "san_ildefonso",
+      "text": "San Ildefonso",
+      "province_id": "bulacan"
+    },
+    {
+      "id": "san_jose_del_monte_city",
+      "name": "san_jose_del_monte_city",
+      "text": "San Jose del Monte City",
+      "province_id": "bulacan"
+    },
+    {
+      "id": "san_miguel",
+      "name": "san_miguel",
+      "text": "San Miguel",
+      "province_id": "bulacan"
+    },
+    {
+      "id": "san_rafael",
+      "name": "san_rafael",
+      "text": "San Rafael",
+      "province_id": "bulacan"
+    },
+    {
+      "id": "santa_maria",
+      "name": "santa_maria",
+      "text": "Santa Maria",
+      "province_id": "bulacan"
+    },
+    {
+      "id": "abulug",
+      "name": "abulug",
+      "text": "Abulug",
       "province_id": "cagayan"
     },
     {
+      "id": "alcala",
+      "name": "alcala",
+      "text": "Alcala",
+      "province_id": "cagayan"
+    },
+    {
+      "id": "allacapan",
+      "name": "allacapan",
+      "text": "Allacapan",
+      "province_id": "cagayan"
+    },
+    {
+      "id": "amulung",
+      "name": "amulung",
+      "text": "Amulung",
+      "province_id": "cagayan"
+    },
+    {
+      "id": "aparri",
+      "name": "aparri",
+      "text": "Aparri",
+      "province_id": "cagayan"
+    },
+    {
+      "id": "baggao",
+      "name": "baggao",
+      "text": "Baggao",
+      "province_id": "cagayan"
+    },
+    {
+      "id": "ballesteros",
+      "name": "ballesteros",
+      "text": "Ballesteros",
+      "province_id": "cagayan"
+    },
+    {
+      "id": "buguey",
+      "name": "buguey",
+      "text": "Buguey",
+      "province_id": "cagayan"
+    },
+    {
+      "id": "calayan",
+      "name": "calayan",
+      "text": "Calayan",
+      "province_id": "cagayan"
+    },
+    {
+      "id": "camalaniugan",
+      "name": "camalaniugan",
+      "text": "Camalaniugan",
+      "province_id": "cagayan"
+    },
+    {
+      "id": "claveria",
+      "name": "claveria",
+      "text": "Claveria",
+      "province_id": "cagayan"
+    },
+    {
+      "id": "enrile",
+      "name": "enrile",
+      "text": "Enrile",
+      "province_id": "cagayan"
+    },
+    {
+      "id": "gattaran",
+      "name": "gattaran",
+      "text": "Gattaran",
+      "province_id": "cagayan"
+    },
+    {
+      "id": "gonzaga",
+      "name": "gonzaga",
+      "text": "Gonzaga",
+      "province_id": "cagayan"
+    },
+    {
+      "id": "iguig",
+      "name": "iguig",
+      "text": "Iguig",
+      "province_id": "cagayan"
+    },
+    {
+      "id": "lal_lo",
+      "name": "lal_lo",
+      "text": "Lal-lo",
+      "province_id": "cagayan"
+    },
+    {
+      "id": "lasam",
+      "name": "lasam",
+      "text": "Lasam",
+      "province_id": "cagayan"
+    },
+    {
+      "id": "pamplona",
+      "name": "pamplona",
+      "text": "Pamplona",
+      "province_id": "cagayan"
+    },
+    {
+      "id": "peñablanca",
+      "name": "peñablanca",
+      "text": "Peñablanca",
+      "province_id": "cagayan"
+    },
+    {
+      "id": "piat",
+      "name": "piat",
+      "text": "Piat",
+      "province_id": "cagayan"
+    },
+    {
+      "id": "rizal",
+      "name": "rizal",
+      "text": "Rizal",
+      "province_id": "cagayan"
+    },
+    {
+      "id": "sanchez_mira",
+      "name": "sanchez_mira",
+      "text": "Sanchez-Mira",
+      "province_id": "cagayan"
+    },
+    {
+      "id": "santa_ana",
+      "name": "santa_ana",
+      "text": "Santa Ana",
+      "province_id": "cagayan"
+    },
+    {
+      "id": "santa_praxedes",
+      "name": "santa_praxedes",
+      "text": "Santa Praxedes",
+      "province_id": "cagayan"
+    },
+    {
+      "id": "santa_teresita",
+      "name": "santa_teresita",
+      "text": "Santa Teresita",
+      "province_id": "cagayan"
+    },
+    {
+      "id": "santo_niño",
+      "name": "santo_niño",
+      "text": "Santo Niño",
+      "province_id": "cagayan"
+    },
+    {
+      "id": "solana",
+      "name": "solana",
+      "text": "Solana",
+      "province_id": "cagayan"
+    },
+    {
+      "id": "tuao",
+      "name": "tuao",
+      "text": "Tuao",
+      "province_id": "cagayan"
+    },
+    {
+      "id": "tuguegarao_city",
+      "name": "tuguegarao_city",
+      "text": "Tuguegarao City",
+      "province_id": "cagayan"
+    },
+    {
+      "id": "basud",
+      "name": "basud",
+      "text": "Basud",
       "province_id": "camarines_norte"
     },
     {
+      "id": "capalonga",
+      "name": "capalonga",
+      "text": "Capalonga",
+      "province_id": "camarines_norte"
+    },
+    {
+      "id": "daet",
+      "name": "daet",
+      "text": "Daet",
+      "province_id": "camarines_norte"
+    },
+    {
+      "id": "jose_panganiban",
+      "name": "jose_panganiban",
+      "text": "Jose Panganiban",
+      "province_id": "camarines_norte"
+    },
+    {
+      "id": "labo",
+      "name": "labo",
+      "text": "Labo",
+      "province_id": "camarines_norte"
+    },
+    {
+      "id": "mercedes",
+      "name": "mercedes",
+      "text": "Mercedes",
+      "province_id": "camarines_norte"
+    },
+    {
+      "id": "paracale",
+      "name": "paracale",
+      "text": "Paracale",
+      "province_id": "camarines_norte"
+    },
+    {
+      "id": "san_lorenzo_ruiz",
+      "name": "san_lorenzo_ruiz",
+      "text": "San Lorenzo Ruiz",
+      "province_id": "camarines_norte"
+    },
+    {
+      "id": "san_vicente",
+      "name": "san_vicente",
+      "text": "San Vicente",
+      "province_id": "camarines_norte"
+    },
+    {
+      "id": "santa_elena",
+      "name": "santa_elena",
+      "text": "Santa Elena",
+      "province_id": "camarines_norte"
+    },
+    {
+      "id": "talisay",
+      "name": "talisay",
+      "text": "Talisay",
+      "province_id": "camarines_norte"
+    },
+    {
+      "id": "vinzons",
+      "name": "vinzons",
+      "text": "Vinzons",
+      "province_id": "camarines_norte"
+    },
+    {
+      "id": "baao",
+      "name": "baao",
+      "text": "Baao",
       "province_id": "camarines_sur"
     },
     {
+      "id": "balatan",
+      "name": "balatan",
+      "text": "Balatan",
+      "province_id": "camarines_sur"
+    },
+    {
+      "id": "bato",
+      "name": "bato",
+      "text": "Bato",
+      "province_id": "camarines_sur"
+    },
+    {
+      "id": "bombon",
+      "name": "bombon",
+      "text": "Bombon",
+      "province_id": "camarines_sur"
+    },
+    {
+      "id": "buhi",
+      "name": "buhi",
+      "text": "Buhi",
+      "province_id": "camarines_sur"
+    },
+    {
+      "id": "bula",
+      "name": "bula",
+      "text": "Bula",
+      "province_id": "camarines_sur"
+    },
+    {
+      "id": "cabusao",
+      "name": "cabusao",
+      "text": "Cabusao",
+      "province_id": "camarines_sur"
+    },
+    {
+      "id": "calabanga",
+      "name": "calabanga",
+      "text": "Calabanga",
+      "province_id": "camarines_sur"
+    },
+    {
+      "id": "camaligan",
+      "name": "camaligan",
+      "text": "Camaligan",
+      "province_id": "camarines_sur"
+    },
+    {
+      "id": "canaman",
+      "name": "canaman",
+      "text": "Canaman",
+      "province_id": "camarines_sur"
+    },
+    {
+      "id": "caramoan",
+      "name": "caramoan",
+      "text": "Caramoan",
+      "province_id": "camarines_sur"
+    },
+    {
+      "id": "del_gallego",
+      "name": "del_gallego",
+      "text": "Del Gallego",
+      "province_id": "camarines_sur"
+    },
+    {
+      "id": "gainza",
+      "name": "gainza",
+      "text": "Gainza",
+      "province_id": "camarines_sur"
+    },
+    {
+      "id": "garchitorena",
+      "name": "garchitorena",
+      "text": "Garchitorena",
+      "province_id": "camarines_sur"
+    },
+    {
+      "id": "goa",
+      "name": "goa",
+      "text": "Goa",
+      "province_id": "camarines_sur"
+    },
+    {
+      "id": "iriga_city",
+      "name": "iriga_city",
+      "text": "Iriga City",
+      "province_id": "camarines_sur"
+    },
+    {
+      "id": "lagonoy",
+      "name": "lagonoy",
+      "text": "Lagonoy",
+      "province_id": "camarines_sur"
+    },
+    {
+      "id": "libmanan",
+      "name": "libmanan",
+      "text": "Libmanan",
+      "province_id": "camarines_sur"
+    },
+    {
+      "id": "lupi",
+      "name": "lupi",
+      "text": "Lupi",
+      "province_id": "camarines_sur"
+    },
+    {
+      "id": "magarao",
+      "name": "magarao",
+      "text": "Magarao",
+      "province_id": "camarines_sur"
+    },
+    {
+      "id": "milaor",
+      "name": "milaor",
+      "text": "Milaor",
+      "province_id": "camarines_sur"
+    },
+    {
+      "id": "minalabac",
+      "name": "minalabac",
+      "text": "Minalabac",
+      "province_id": "camarines_sur"
+    },
+    {
+      "id": "nabua",
+      "name": "nabua",
+      "text": "Nabua",
+      "province_id": "camarines_sur"
+    },
+    {
+      "id": "naga_city",
+      "name": "naga_city",
+      "text": "Naga City",
+      "province_id": "camarines_sur"
+    },
+    {
+      "id": "ocampo",
+      "name": "ocampo",
+      "text": "Ocampo",
+      "province_id": "camarines_sur"
+    },
+    {
+      "id": "pamplona",
+      "name": "pamplona",
+      "text": "Pamplona",
+      "province_id": "camarines_sur"
+    },
+    {
+      "id": "pasacao",
+      "name": "pasacao",
+      "text": "Pasacao",
+      "province_id": "camarines_sur"
+    },
+    {
+      "id": "pili",
+      "name": "pili",
+      "text": "Pili",
+      "province_id": "camarines_sur"
+    },
+    {
+      "id": "presentacion",
+      "name": "presentacion",
+      "text": "Presentacion",
+      "province_id": "camarines_sur"
+    },
+    {
+      "id": "ragay",
+      "name": "ragay",
+      "text": "Ragay",
+      "province_id": "camarines_sur"
+    },
+    {
+      "id": "sagñay",
+      "name": "sagñay",
+      "text": "Sagñay",
+      "province_id": "camarines_sur"
+    },
+    {
+      "id": "san_fernando",
+      "name": "san_fernando",
+      "text": "San Fernando",
+      "province_id": "camarines_sur"
+    },
+    {
+      "id": "san_jose",
+      "name": "san_jose",
+      "text": "San Jose",
+      "province_id": "camarines_sur"
+    },
+    {
+      "id": "sipocot",
+      "name": "sipocot",
+      "text": "Sipocot",
+      "province_id": "camarines_sur"
+    },
+    {
+      "id": "siruma",
+      "name": "siruma",
+      "text": "Siruma",
+      "province_id": "camarines_sur"
+    },
+    {
+      "id": "tigaon",
+      "name": "tigaon",
+      "text": "Tigaon",
+      "province_id": "camarines_sur"
+    },
+    {
+      "id": "tinambac",
+      "name": "tinambac",
+      "text": "Tinambac",
+      "province_id": "camarines_sur"
+    },
+    {
+      "id": "catarman",
+      "name": "catarman",
+      "text": "Catarman",
       "province_id": "camiguin"
     },
     {
+      "id": "guinsiliban",
+      "name": "guinsiliban",
+      "text": "Guinsiliban",
+      "province_id": "camiguin"
+    },
+    {
+      "id": "mahinog",
+      "name": "mahinog",
+      "text": "Mahinog",
+      "province_id": "camiguin"
+    },
+    {
+      "id": "mambajao",
+      "name": "mambajao",
+      "text": "Mambajao",
+      "province_id": "camiguin"
+    },
+    {
+      "id": "sagay",
+      "name": "sagay",
+      "text": "Sagay",
+      "province_id": "camiguin"
+    },
+    {
+      "id": "cuartero",
+      "name": "cuartero",
+      "text": "Cuartero",
       "province_id": "capiz"
     },
     {
+      "id": "dao",
+      "name": "dao",
+      "text": "Dao",
+      "province_id": "capiz"
+    },
+    {
+      "id": "dumalag",
+      "name": "dumalag",
+      "text": "Dumalag",
+      "province_id": "capiz"
+    },
+    {
+      "id": "dumarao",
+      "name": "dumarao",
+      "text": "Dumarao",
+      "province_id": "capiz"
+    },
+    {
+      "id": "ivisan",
+      "name": "ivisan",
+      "text": "Ivisan",
+      "province_id": "capiz"
+    },
+    {
+      "id": "jamindan",
+      "name": "jamindan",
+      "text": "Jamindan",
+      "province_id": "capiz"
+    },
+    {
+      "id": "maayon",
+      "name": "maayon",
+      "text": "Maayon",
+      "province_id": "capiz"
+    },
+    {
+      "id": "mambusao",
+      "name": "mambusao",
+      "text": "Mambusao",
+      "province_id": "capiz"
+    },
+    {
+      "id": "panay",
+      "name": "panay",
+      "text": "Panay",
+      "province_id": "capiz"
+    },
+    {
+      "id": "panit_an",
+      "name": "panit_an",
+      "text": "Panit-an",
+      "province_id": "capiz"
+    },
+    {
+      "id": "pilar",
+      "name": "pilar",
+      "text": "Pilar",
+      "province_id": "capiz"
+    },
+    {
+      "id": "pontevedra",
+      "name": "pontevedra",
+      "text": "Pontevedra",
+      "province_id": "capiz"
+    },
+    {
+      "id": "president_roxas",
+      "name": "president_roxas",
+      "text": "President Roxas",
+      "province_id": "capiz"
+    },
+    {
+      "id": "roxas_city",
+      "name": "roxas_city",
+      "text": "Roxas City",
+      "province_id": "capiz"
+    },
+    {
+      "id": "sapian",
+      "name": "sapian",
+      "text": "Sapian",
+      "province_id": "capiz"
+    },
+    {
+      "id": "sigma",
+      "name": "sigma",
+      "text": "Sigma",
+      "province_id": "capiz"
+    },
+    {
+      "id": "tapaz",
+      "name": "tapaz",
+      "text": "Tapaz",
+      "province_id": "capiz"
+    },
+    {
+      "id": "bagamanoc",
+      "name": "bagamanoc",
+      "text": "Bagamanoc",
       "province_id": "catanduanes"
     },
     {
+      "id": "baras",
+      "name": "baras",
+      "text": "Baras",
+      "province_id": "catanduanes"
+    },
+    {
+      "id": "bato",
+      "name": "bato",
+      "text": "Bato",
+      "province_id": "catanduanes"
+    },
+    {
+      "id": "caramoran",
+      "name": "caramoran",
+      "text": "Caramoran",
+      "province_id": "catanduanes"
+    },
+    {
+      "id": "gigmoto",
+      "name": "gigmoto",
+      "text": "Gigmoto",
+      "province_id": "catanduanes"
+    },
+    {
+      "id": "pandan",
+      "name": "pandan",
+      "text": "Pandan",
+      "province_id": "catanduanes"
+    },
+    {
+      "id": "panganiban",
+      "name": "panganiban",
+      "text": "Panganiban",
+      "province_id": "catanduanes"
+    },
+    {
+      "id": "san_andres",
+      "name": "san_andres",
+      "text": "San Andres",
+      "province_id": "catanduanes"
+    },
+    {
+      "id": "san_miguel",
+      "name": "san_miguel",
+      "text": "San Miguel",
+      "province_id": "catanduanes"
+    },
+    {
+      "id": "viga",
+      "name": "viga",
+      "text": "Viga",
+      "province_id": "catanduanes"
+    },
+    {
+      "id": "virac",
+      "name": "virac",
+      "text": "Virac",
+      "province_id": "catanduanes"
+    },
+    {
+      "id": "alfonso",
+      "name": "alfonso",
+      "text": "Alfonso",
       "province_id": "cavite"
     },
     {
+      "id": "amadeo",
+      "name": "amadeo",
+      "text": "Amadeo",
+      "province_id": "cavite"
+    },
+    {
+      "id": "bacoor_city",
+      "name": "bacoor_city",
+      "text": "Bacoor City",
+      "province_id": "cavite"
+    },
+    {
+      "id": "carmona",
+      "name": "carmona",
+      "text": "Carmona",
+      "province_id": "cavite"
+    },
+    {
+      "id": "cavite_city",
+      "name": "cavite_city",
+      "text": "Cavite City",
+      "province_id": "cavite"
+    },
+    {
+      "id": "dasmariñas_city",
+      "name": "dasmariñas_city",
+      "text": "Dasmariñas City",
+      "province_id": "cavite"
+    },
+    {
+      "id": "general_emilio_aguinaldo",
+      "name": "general_emilio_aguinaldo",
+      "text": "General Emilio Aguinaldo",
+      "province_id": "cavite"
+    },
+    {
+      "id": "general_mariano_alvarez",
+      "name": "general_mariano_alvarez",
+      "text": "General Mariano Alvarez",
+      "province_id": "cavite"
+    },
+    {
+      "id": "general_trias_city",
+      "name": "general_trias_city",
+      "text": "General Trias City",
+      "province_id": "cavite"
+    },
+    {
+      "id": "imus_city",
+      "name": "imus_city",
+      "text": "Imus City",
+      "province_id": "cavite"
+    },
+    {
+      "id": "indang",
+      "name": "indang",
+      "text": "Indang",
+      "province_id": "cavite"
+    },
+    {
+      "id": "kawit",
+      "name": "kawit",
+      "text": "Kawit",
+      "province_id": "cavite"
+    },
+    {
+      "id": "magallanes",
+      "name": "magallanes",
+      "text": "Magallanes",
+      "province_id": "cavite"
+    },
+    {
+      "id": "maragondon",
+      "name": "maragondon",
+      "text": "Maragondon",
+      "province_id": "cavite"
+    },
+    {
+      "id": "mendez",
+      "name": "mendez",
+      "text": "Mendez",
+      "province_id": "cavite"
+    },
+    {
+      "id": "naic",
+      "name": "naic",
+      "text": "Naic",
+      "province_id": "cavite"
+    },
+    {
+      "id": "noveleta",
+      "name": "noveleta",
+      "text": "Noveleta",
+      "province_id": "cavite"
+    },
+    {
+      "id": "rosario",
+      "name": "rosario",
+      "text": "Rosario",
+      "province_id": "cavite"
+    },
+    {
+      "id": "silang",
+      "name": "silang",
+      "text": "Silang",
+      "province_id": "cavite"
+    },
+    {
+      "id": "tagaytay_city",
+      "name": "tagaytay_city",
+      "text": "Tagaytay City",
+      "province_id": "cavite"
+    },
+    {
+      "id": "tanza",
+      "name": "tanza",
+      "text": "Tanza",
+      "province_id": "cavite"
+    },
+    {
+      "id": "ternate",
+      "name": "ternate",
+      "text": "Ternate",
+      "province_id": "cavite"
+    },
+    {
+      "id": "trece_martires_city",
+      "name": "trece_martires_city",
+      "text": "Trece Martires City",
+      "province_id": "cavite"
+    },
+    {
+      "id": "alcantara",
+      "name": "alcantara",
+      "text": "Alcantara",
       "province_id": "cebu"
     },
     {
+      "id": "alcoy",
+      "name": "alcoy",
+      "text": "Alcoy",
+      "province_id": "cebu"
+    },
+    {
+      "id": "alegria",
+      "name": "alegria",
+      "text": "Alegria",
+      "province_id": "cebu"
+    },
+    {
+      "id": "aloguinsan",
+      "name": "aloguinsan",
+      "text": "Aloguinsan",
+      "province_id": "cebu"
+    },
+    {
+      "id": "argao",
+      "name": "argao",
+      "text": "Argao",
+      "province_id": "cebu"
+    },
+    {
+      "id": "asturias",
+      "name": "asturias",
+      "text": "Asturias",
+      "province_id": "cebu"
+    },
+    {
+      "id": "badian",
+      "name": "badian",
+      "text": "Badian",
+      "province_id": "cebu"
+    },
+    {
+      "id": "balamban",
+      "name": "balamban",
+      "text": "Balamban",
+      "province_id": "cebu"
+    },
+    {
+      "id": "bantayan",
+      "name": "bantayan",
+      "text": "Bantayan",
+      "province_id": "cebu"
+    },
+    {
+      "id": "barili",
+      "name": "barili",
+      "text": "Barili",
+      "province_id": "cebu"
+    },
+    {
+      "id": "bogo_city",
+      "name": "bogo_city",
+      "text": "Bogo City",
+      "province_id": "cebu"
+    },
+    {
+      "id": "boljoon",
+      "name": "boljoon",
+      "text": "Boljoon",
+      "province_id": "cebu"
+    },
+    {
+      "id": "borbon",
+      "name": "borbon",
+      "text": "Borbon",
+      "province_id": "cebu"
+    },
+    {
+      "id": "carcar_city",
+      "name": "carcar_city",
+      "text": "Carcar City",
+      "province_id": "cebu"
+    },
+    {
+      "id": "carmen",
+      "name": "carmen",
+      "text": "Carmen",
+      "province_id": "cebu"
+    },
+    {
+      "id": "catmon",
+      "name": "catmon",
+      "text": "Catmon",
+      "province_id": "cebu"
+    },
+    {
+      "id": "cebu_city",
+      "name": "cebu_city",
+      "text": "Cebu City",
+      "province_id": "cebu"
+    },
+    {
+      "id": "compostela",
+      "name": "compostela",
+      "text": "Compostela",
+      "province_id": "cebu"
+    },
+    {
+      "id": "consolacion",
+      "name": "consolacion",
+      "text": "Consolacion",
+      "province_id": "cebu"
+    },
+    {
+      "id": "cordova",
+      "name": "cordova",
+      "text": "Cordova",
+      "province_id": "cebu"
+    },
+    {
+      "id": "daanbantayan",
+      "name": "daanbantayan",
+      "text": "Daanbantayan",
+      "province_id": "cebu"
+    },
+    {
+      "id": "dalaguete",
+      "name": "dalaguete",
+      "text": "Dalaguete",
+      "province_id": "cebu"
+    },
+    {
+      "id": "danao_city",
+      "name": "danao_city",
+      "text": "Danao City",
+      "province_id": "cebu"
+    },
+    {
+      "id": "dumanjug",
+      "name": "dumanjug",
+      "text": "Dumanjug",
+      "province_id": "cebu"
+    },
+    {
+      "id": "ginatilan",
+      "name": "ginatilan",
+      "text": "Ginatilan",
+      "province_id": "cebu"
+    },
+    {
+      "id": "lapu_lapu_city",
+      "name": "lapu_lapu_city",
+      "text": "Lapu-Lapu City",
+      "province_id": "cebu"
+    },
+    {
+      "id": "liloan",
+      "name": "liloan",
+      "text": "Liloan",
+      "province_id": "cebu"
+    },
+    {
+      "id": "madridejos",
+      "name": "madridejos",
+      "text": "Madridejos",
+      "province_id": "cebu"
+    },
+    {
+      "id": "malabuyoc",
+      "name": "malabuyoc",
+      "text": "Malabuyoc",
+      "province_id": "cebu"
+    },
+    {
+      "id": "mandaue_city",
+      "name": "mandaue_city",
+      "text": "Mandaue City",
+      "province_id": "cebu"
+    },
+    {
+      "id": "medellin",
+      "name": "medellin",
+      "text": "Medellin",
+      "province_id": "cebu"
+    },
+    {
+      "id": "minglanilla",
+      "name": "minglanilla",
+      "text": "Minglanilla",
+      "province_id": "cebu"
+    },
+    {
+      "id": "moalboal",
+      "name": "moalboal",
+      "text": "Moalboal",
+      "province_id": "cebu"
+    },
+    {
+      "id": "naga_city",
+      "name": "naga_city",
+      "text": "Naga City",
+      "province_id": "cebu"
+    },
+    {
+      "id": "oslob",
+      "name": "oslob",
+      "text": "Oslob",
+      "province_id": "cebu"
+    },
+    {
+      "id": "pilar",
+      "name": "pilar",
+      "text": "Pilar",
+      "province_id": "cebu"
+    },
+    {
+      "id": "pinamungahan",
+      "name": "pinamungahan",
+      "text": "Pinamungahan",
+      "province_id": "cebu"
+    },
+    {
+      "id": "poro",
+      "name": "poro",
+      "text": "Poro",
+      "province_id": "cebu"
+    },
+    {
+      "id": "ronda",
+      "name": "ronda",
+      "text": "Ronda",
+      "province_id": "cebu"
+    },
+    {
+      "id": "samboan",
+      "name": "samboan",
+      "text": "Samboan",
+      "province_id": "cebu"
+    },
+    {
+      "id": "san_fernando",
+      "name": "san_fernando",
+      "text": "San Fernando",
+      "province_id": "cebu"
+    },
+    {
+      "id": "san_francisco",
+      "name": "san_francisco",
+      "text": "San Francisco",
+      "province_id": "cebu"
+    },
+    {
+      "id": "san_remigio",
+      "name": "san_remigio",
+      "text": "San Remigio",
+      "province_id": "cebu"
+    },
+    {
+      "id": "santa_fe",
+      "name": "santa_fe",
+      "text": "Santa Fe",
+      "province_id": "cebu"
+    },
+    {
+      "id": "santander",
+      "name": "santander",
+      "text": "Santander",
+      "province_id": "cebu"
+    },
+    {
+      "id": "sibonga",
+      "name": "sibonga",
+      "text": "Sibonga",
+      "province_id": "cebu"
+    },
+    {
+      "id": "sogod",
+      "name": "sogod",
+      "text": "Sogod",
+      "province_id": "cebu"
+    },
+    {
+      "id": "tabogon",
+      "name": "tabogon",
+      "text": "Tabogon",
+      "province_id": "cebu"
+    },
+    {
+      "id": "tabuelan",
+      "name": "tabuelan",
+      "text": "Tabuelan",
+      "province_id": "cebu"
+    },
+    {
+      "id": "talisay_city",
+      "name": "talisay_city",
+      "text": "Talisay City",
+      "province_id": "cebu"
+    },
+    {
+      "id": "toledo_city",
+      "name": "toledo_city",
+      "text": "Toledo City",
+      "province_id": "cebu"
+    },
+    {
+      "id": "tuburan",
+      "name": "tuburan",
+      "text": "Tuburan",
+      "province_id": "cebu"
+    },
+    {
+      "id": "tudela",
+      "name": "tudela",
+      "text": "Tudela",
+      "province_id": "cebu"
+    },
+    {
+      "id": "aleosan",
+      "name": "aleosan",
+      "text": "Aleosan",
       "province_id": "cotabato"
     },
     {
+      "id": "antipas",
+      "name": "antipas",
+      "text": "Antipas",
+      "province_id": "cotabato"
+    },
+    {
+      "id": "arakan",
+      "name": "arakan",
+      "text": "Arakan",
+      "province_id": "cotabato"
+    },
+    {
+      "id": "banisilan",
+      "name": "banisilan",
+      "text": "Banisilan",
+      "province_id": "cotabato"
+    },
+    {
+      "id": "carmen",
+      "name": "carmen",
+      "text": "Carmen",
+      "province_id": "cotabato"
+    },
+    {
+      "id": "kabacan",
+      "name": "kabacan",
+      "text": "Kabacan",
+      "province_id": "cotabato"
+    },
+    {
+      "id": "kidapawan_city",
+      "name": "kidapawan_city",
+      "text": "Kidapawan City",
+      "province_id": "cotabato"
+    },
+    {
+      "id": "libungan",
+      "name": "libungan",
+      "text": "Libungan",
+      "province_id": "cotabato"
+    },
+    {
+      "id": "m'lang",
+      "name": "m'lang",
+      "text": "M'lang",
+      "province_id": "cotabato"
+    },
+    {
+      "id": "magpet",
+      "name": "magpet",
+      "text": "Magpet",
+      "province_id": "cotabato"
+    },
+    {
+      "id": "makilala",
+      "name": "makilala",
+      "text": "Makilala",
+      "province_id": "cotabato"
+    },
+    {
+      "id": "matalam",
+      "name": "matalam",
+      "text": "Matalam",
+      "province_id": "cotabato"
+    },
+    {
+      "id": "midsayap",
+      "name": "midsayap",
+      "text": "Midsayap",
+      "province_id": "cotabato"
+    },
+    {
+      "id": "pigcawayan",
+      "name": "pigcawayan",
+      "text": "Pigcawayan",
+      "province_id": "cotabato"
+    },
+    {
+      "id": "pikit",
+      "name": "pikit",
+      "text": "Pikit",
+      "province_id": "cotabato"
+    },
+    {
+      "id": "president_roxas",
+      "name": "president_roxas",
+      "text": "President Roxas",
+      "province_id": "cotabato"
+    },
+    {
+      "id": "tulunan",
+      "name": "tulunan",
+      "text": "Tulunan",
+      "province_id": "cotabato"
+    },
+    {
+      "id": "compostela",
+      "name": "compostela",
+      "text": "Compostela",
       "province_id": "davao_de_oro"
     },
     {
+      "id": "laak",
+      "name": "laak",
+      "text": "Laak",
+      "province_id": "davao_de_oro"
+    },
+    {
+      "id": "mabini",
+      "name": "mabini",
+      "text": "Mabini",
+      "province_id": "davao_de_oro"
+    },
+    {
+      "id": "maco",
+      "name": "maco",
+      "text": "Maco",
+      "province_id": "davao_de_oro"
+    },
+    {
+      "id": "maragusan",
+      "name": "maragusan",
+      "text": "Maragusan",
+      "province_id": "davao_de_oro"
+    },
+    {
+      "id": "mawab",
+      "name": "mawab",
+      "text": "Mawab",
+      "province_id": "davao_de_oro"
+    },
+    {
+      "id": "monkayo",
+      "name": "monkayo",
+      "text": "Monkayo",
+      "province_id": "davao_de_oro"
+    },
+    {
+      "id": "montevista",
+      "name": "montevista",
+      "text": "Montevista",
+      "province_id": "davao_de_oro"
+    },
+    {
+      "id": "nabunturan",
+      "name": "nabunturan",
+      "text": "Nabunturan",
+      "province_id": "davao_de_oro"
+    },
+    {
+      "id": "new_bataan",
+      "name": "new_bataan",
+      "text": "New Bataan",
+      "province_id": "davao_de_oro"
+    },
+    {
+      "id": "pantukan",
+      "name": "pantukan",
+      "text": "Pantukan",
+      "province_id": "davao_de_oro"
+    },
+    {
+      "id": "asuncion",
+      "name": "asuncion",
+      "text": "Asuncion",
       "province_id": "davao_del_norte"
     },
     {
+      "id": "braulio_e_dujali",
+      "name": "braulio_e_dujali",
+      "text": "Braulio E. Dujali",
+      "province_id": "davao_del_norte"
+    },
+    {
+      "id": "carmen",
+      "name": "carmen",
+      "text": "Carmen",
+      "province_id": "davao_del_norte"
+    },
+    {
+      "id": "kapalong",
+      "name": "kapalong",
+      "text": "Kapalong",
+      "province_id": "davao_del_norte"
+    },
+    {
+      "id": "new_corella",
+      "name": "new_corella",
+      "text": "New Corella",
+      "province_id": "davao_del_norte"
+    },
+    {
+      "id": "panabo_city",
+      "name": "panabo_city",
+      "text": "Panabo City",
+      "province_id": "davao_del_norte"
+    },
+    {
+      "id": "samal_city",
+      "name": "samal_city",
+      "text": "Samal City",
+      "province_id": "davao_del_norte"
+    },
+    {
+      "id": "san_isidro",
+      "name": "san_isidro",
+      "text": "San Isidro",
+      "province_id": "davao_del_norte"
+    },
+    {
+      "id": "santo_tomas",
+      "name": "santo_tomas",
+      "text": "Santo Tomas",
+      "province_id": "davao_del_norte"
+    },
+    {
+      "id": "tagum_city",
+      "name": "tagum_city",
+      "text": "Tagum City",
+      "province_id": "davao_del_norte"
+    },
+    {
+      "id": "talaingod",
+      "name": "talaingod",
+      "text": "Talaingod",
+      "province_id": "davao_del_norte"
+    },
+    {
+      "id": "bansalan",
+      "name": "bansalan",
+      "text": "Bansalan",
       "province_id": "davao_del_sur"
     },
     {
+      "id": "davao_city",
+      "name": "davao_city",
+      "text": "Davao City",
+      "province_id": "davao_del_sur"
+    },
+    {
+      "id": "digos_city",
+      "name": "digos_city",
+      "text": "Digos City",
+      "province_id": "davao_del_sur"
+    },
+    {
+      "id": "don_marcelino",
+      "name": "don_marcelino",
+      "text": "Don Marcelino",
+      "province_id": "davao_del_sur"
+    },
+    {
+      "id": "hagonoy",
+      "name": "hagonoy",
+      "text": "Hagonoy",
+      "province_id": "davao_del_sur"
+    },
+    {
+      "id": "jose_abad_santos",
+      "name": "jose_abad_santos",
+      "text": "Jose Abad Santos",
+      "province_id": "davao_del_sur"
+    },
+    {
+      "id": "kiblawan",
+      "name": "kiblawan",
+      "text": "Kiblawan",
+      "province_id": "davao_del_sur"
+    },
+    {
+      "id": "magsaysay",
+      "name": "magsaysay",
+      "text": "Magsaysay",
+      "province_id": "davao_del_sur"
+    },
+    {
+      "id": "malalag",
+      "name": "malalag",
+      "text": "Malalag",
+      "province_id": "davao_del_sur"
+    },
+    {
+      "id": "malita",
+      "name": "malita",
+      "text": "Malita",
+      "province_id": "davao_del_sur"
+    },
+    {
+      "id": "matanao",
+      "name": "matanao",
+      "text": "Matanao",
+      "province_id": "davao_del_sur"
+    },
+    {
+      "id": "padada",
+      "name": "padada",
+      "text": "Padada",
+      "province_id": "davao_del_sur"
+    },
+    {
+      "id": "santa_cruz",
+      "name": "santa_cruz",
+      "text": "Santa Cruz",
+      "province_id": "davao_del_sur"
+    },
+    {
+      "id": "santa_maria",
+      "name": "santa_maria",
+      "text": "Santa Maria",
+      "province_id": "davao_del_sur"
+    },
+    {
+      "id": "sarangani",
+      "name": "sarangani",
+      "text": "Sarangani",
+      "province_id": "davao_del_sur"
+    },
+    {
+      "id": "sulop",
+      "name": "sulop",
+      "text": "Sulop",
+      "province_id": "davao_del_sur"
+    },
+    {
+      "id": "don_marcelino",
+      "name": "don_marcelino",
+      "text": "Don Marcelino",
       "province_id": "davao_occidental"
     },
     {
+      "id": "jose_abad_santos",
+      "name": "jose_abad_santos",
+      "text": "Jose Abad Santos",
+      "province_id": "davao_occidental"
+    },
+    {
+      "id": "malita",
+      "name": "malita",
+      "text": "Malita",
+      "province_id": "davao_occidental"
+    },
+    {
+      "id": "santa_maria",
+      "name": "santa_maria",
+      "text": "Santa Maria",
+      "province_id": "davao_occidental"
+    },
+    {
+      "id": "sarangani",
+      "name": "sarangani",
+      "text": "Sarangani",
+      "province_id": "davao_occidental"
+    },
+    {
+      "id": "baganga",
+      "name": "baganga",
+      "text": "Baganga",
       "province_id": "davao_oriental"
     },
     {
+      "id": "banaybanay",
+      "name": "banaybanay",
+      "text": "Banaybanay",
+      "province_id": "davao_oriental"
+    },
+    {
+      "id": "boston",
+      "name": "boston",
+      "text": "Boston",
+      "province_id": "davao_oriental"
+    },
+    {
+      "id": "caraga",
+      "name": "caraga",
+      "text": "Caraga",
+      "province_id": "davao_oriental"
+    },
+    {
+      "id": "cateel",
+      "name": "cateel",
+      "text": "Cateel",
+      "province_id": "davao_oriental"
+    },
+    {
+      "id": "governor_generoso",
+      "name": "governor_generoso",
+      "text": "Governor Generoso",
+      "province_id": "davao_oriental"
+    },
+    {
+      "id": "lupon",
+      "name": "lupon",
+      "text": "Lupon",
+      "province_id": "davao_oriental"
+    },
+    {
+      "id": "manay",
+      "name": "manay",
+      "text": "Manay",
+      "province_id": "davao_oriental"
+    },
+    {
+      "id": "mati_city",
+      "name": "mati_city",
+      "text": "Mati City",
+      "province_id": "davao_oriental"
+    },
+    {
+      "id": "san_isidro",
+      "name": "san_isidro",
+      "text": "San Isidro",
+      "province_id": "davao_oriental"
+    },
+    {
+      "id": "tarragona",
+      "name": "tarragona",
+      "text": "Tarragona",
+      "province_id": "davao_oriental"
+    },
+    {
+      "id": "basilisa",
+      "name": "basilisa",
+      "text": "Basilisa",
       "province_id": "dinagat_islands"
     },
     {
+      "id": "cagdianao",
+      "name": "cagdianao",
+      "text": "Cagdianao",
+      "province_id": "dinagat_islands"
+    },
+    {
+      "id": "dinagat",
+      "name": "dinagat",
+      "text": "Dinagat",
+      "province_id": "dinagat_islands"
+    },
+    {
+      "id": "libjo",
+      "name": "libjo",
+      "text": "Libjo",
+      "province_id": "dinagat_islands"
+    },
+    {
+      "id": "loreto",
+      "name": "loreto",
+      "text": "Loreto",
+      "province_id": "dinagat_islands"
+    },
+    {
+      "id": "san_jose",
+      "name": "san_jose",
+      "text": "San Jose",
+      "province_id": "dinagat_islands"
+    },
+    {
+      "id": "tubajon",
+      "name": "tubajon",
+      "text": "Tubajon",
+      "province_id": "dinagat_islands"
+    },
+    {
+      "id": "arteche",
+      "name": "arteche",
+      "text": "Arteche",
       "province_id": "eastern_samar"
     },
     {
+      "id": "balangiga",
+      "name": "balangiga",
+      "text": "Balangiga",
+      "province_id": "eastern_samar"
+    },
+    {
+      "id": "balangkayan",
+      "name": "balangkayan",
+      "text": "Balangkayan",
+      "province_id": "eastern_samar"
+    },
+    {
+      "id": "borongan_city",
+      "name": "borongan_city",
+      "text": "Borongan City",
+      "province_id": "eastern_samar"
+    },
+    {
+      "id": "can_avid",
+      "name": "can_avid",
+      "text": "Can-avid",
+      "province_id": "eastern_samar"
+    },
+    {
+      "id": "dolores",
+      "name": "dolores",
+      "text": "Dolores",
+      "province_id": "eastern_samar"
+    },
+    {
+      "id": "general_macarthur",
+      "name": "general_macarthur",
+      "text": "General MacArthur",
+      "province_id": "eastern_samar"
+    },
+    {
+      "id": "giporlos",
+      "name": "giporlos",
+      "text": "Giporlos",
+      "province_id": "eastern_samar"
+    },
+    {
+      "id": "guiuan",
+      "name": "guiuan",
+      "text": "Guiuan",
+      "province_id": "eastern_samar"
+    },
+    {
+      "id": "hernani",
+      "name": "hernani",
+      "text": "Hernani",
+      "province_id": "eastern_samar"
+    },
+    {
+      "id": "jipapad",
+      "name": "jipapad",
+      "text": "Jipapad",
+      "province_id": "eastern_samar"
+    },
+    {
+      "id": "lawaan",
+      "name": "lawaan",
+      "text": "Lawaan",
+      "province_id": "eastern_samar"
+    },
+    {
+      "id": "llorente",
+      "name": "llorente",
+      "text": "Llorente",
+      "province_id": "eastern_samar"
+    },
+    {
+      "id": "maslog",
+      "name": "maslog",
+      "text": "Maslog",
+      "province_id": "eastern_samar"
+    },
+    {
+      "id": "maydolong",
+      "name": "maydolong",
+      "text": "Maydolong",
+      "province_id": "eastern_samar"
+    },
+    {
+      "id": "mercedes",
+      "name": "mercedes",
+      "text": "Mercedes",
+      "province_id": "eastern_samar"
+    },
+    {
+      "id": "oras",
+      "name": "oras",
+      "text": "Oras",
+      "province_id": "eastern_samar"
+    },
+    {
+      "id": "quinapondan",
+      "name": "quinapondan",
+      "text": "Quinapondan",
+      "province_id": "eastern_samar"
+    },
+    {
+      "id": "salcedo",
+      "name": "salcedo",
+      "text": "Salcedo",
+      "province_id": "eastern_samar"
+    },
+    {
+      "id": "san_julian",
+      "name": "san_julian",
+      "text": "San Julian",
+      "province_id": "eastern_samar"
+    },
+    {
+      "id": "san_policarpo",
+      "name": "san_policarpo",
+      "text": "San Policarpo",
+      "province_id": "eastern_samar"
+    },
+    {
+      "id": "sulat",
+      "name": "sulat",
+      "text": "Sulat",
+      "province_id": "eastern_samar"
+    },
+    {
+      "id": "taft",
+      "name": "taft",
+      "text": "Taft",
+      "province_id": "eastern_samar"
+    },
+    {
+      "id": "buenavista",
+      "name": "buenavista",
+      "text": "Buenavista",
       "province_id": "guimaras"
     },
     {
+      "id": "jordan",
+      "name": "jordan",
+      "text": "Jordan",
+      "province_id": "guimaras"
+    },
+    {
+      "id": "nueva_valencia",
+      "name": "nueva_valencia",
+      "text": "Nueva Valencia",
+      "province_id": "guimaras"
+    },
+    {
+      "id": "san_lorenzo",
+      "name": "san_lorenzo",
+      "text": "San Lorenzo",
+      "province_id": "guimaras"
+    },
+    {
+      "id": "sibunag",
+      "name": "sibunag",
+      "text": "Sibunag",
+      "province_id": "guimaras"
+    },
+    {
+      "id": "aguinaldo",
+      "name": "aguinaldo",
+      "text": "Aguinaldo",
+      "province_id": "ifugao"
+    },
+    {
+      "id": "alfonso_lista",
+      "name": "alfonso_lista",
+      "text": "Alfonso Lista",
+      "province_id": "ifugao"
+    },
+    {
+      "id": "asipulo",
+      "name": "asipulo",
+      "text": "Asipulo",
+      "province_id": "ifugao"
+    },
+    {
+      "id": "banaue",
+      "name": "banaue",
+      "text": "Banaue",
+      "province_id": "ifugao"
+    },
+    {
+      "id": "hingyon",
+      "name": "hingyon",
+      "text": "Hingyon",
+      "province_id": "ifugao"
+    },
+    {
+      "id": "hungduan",
+      "name": "hungduan",
+      "text": "Hungduan",
+      "province_id": "ifugao"
+    },
+    {
+      "id": "kiangan",
+      "name": "kiangan",
+      "text": "Kiangan",
+      "province_id": "ifugao"
+    },
+    {
+      "id": "lagawe",
+      "name": "lagawe",
+      "text": "Lagawe",
+      "province_id": "ifugao"
+    },
+    {
+      "id": "lamut",
+      "name": "lamut",
+      "text": "Lamut",
+      "province_id": "ifugao"
+    },
+    {
+      "id": "mayoyao",
+      "name": "mayoyao",
+      "text": "Mayoyao",
+      "province_id": "ifugao"
+    },
+    {
+      "id": "tinoc",
+      "name": "tinoc",
+      "text": "Tinoc",
       "province_id": "ifugao"
     },
     {
@@ -1301,141 +3983,5733 @@
       "province_id": "ilocos_sur"
     },
     {
+      "id": "ajuy",
+      "name": "ajuy",
+      "text": "Ajuy",
       "province_id": "iloilo"
     },
     {
+      "id": "alimodian",
+      "name": "alimodian",
+      "text": "Alimodian",
+      "province_id": "iloilo"
+    },
+    {
+      "id": "anilao",
+      "name": "anilao",
+      "text": "Anilao",
+      "province_id": "iloilo"
+    },
+    {
+      "id": "badiangan",
+      "name": "badiangan",
+      "text": "Badiangan",
+      "province_id": "iloilo"
+    },
+    {
+      "id": "balasan",
+      "name": "balasan",
+      "text": "Balasan",
+      "province_id": "iloilo"
+    },
+    {
+      "id": "banate",
+      "name": "banate",
+      "text": "Banate",
+      "province_id": "iloilo"
+    },
+    {
+      "id": "barotac_nuevo",
+      "name": "barotac_nuevo",
+      "text": "Barotac Nuevo",
+      "province_id": "iloilo"
+    },
+    {
+      "id": "barotac_viejo",
+      "name": "barotac_viejo",
+      "text": "Barotac Viejo",
+      "province_id": "iloilo"
+    },
+    {
+      "id": "batad",
+      "name": "batad",
+      "text": "Batad",
+      "province_id": "iloilo"
+    },
+    {
+      "id": "bingawan",
+      "name": "bingawan",
+      "text": "Bingawan",
+      "province_id": "iloilo"
+    },
+    {
+      "id": "cabatuan",
+      "name": "cabatuan",
+      "text": "Cabatuan",
+      "province_id": "iloilo"
+    },
+    {
+      "id": "calinog",
+      "name": "calinog",
+      "text": "Calinog",
+      "province_id": "iloilo"
+    },
+    {
+      "id": "carles",
+      "name": "carles",
+      "text": "Carles",
+      "province_id": "iloilo"
+    },
+    {
+      "id": "concepcion",
+      "name": "concepcion",
+      "text": "Concepcion",
+      "province_id": "iloilo"
+    },
+    {
+      "id": "dingle",
+      "name": "dingle",
+      "text": "Dingle",
+      "province_id": "iloilo"
+    },
+    {
+      "id": "dueñas",
+      "name": "dueñas",
+      "text": "Dueñas",
+      "province_id": "iloilo"
+    },
+    {
+      "id": "dumangas",
+      "name": "dumangas",
+      "text": "Dumangas",
+      "province_id": "iloilo"
+    },
+    {
+      "id": "estancia",
+      "name": "estancia",
+      "text": "Estancia",
+      "province_id": "iloilo"
+    },
+    {
+      "id": "guimbal",
+      "name": "guimbal",
+      "text": "Guimbal",
+      "province_id": "iloilo"
+    },
+    {
+      "id": "igbaras",
+      "name": "igbaras",
+      "text": "Igbaras",
+      "province_id": "iloilo"
+    },
+    {
+      "id": "iloilo_city",
+      "name": "iloilo_city",
+      "text": "Iloilo City",
+      "province_id": "iloilo"
+    },
+    {
+      "id": "janiuay",
+      "name": "janiuay",
+      "text": "Janiuay",
+      "province_id": "iloilo"
+    },
+    {
+      "id": "lambunao",
+      "name": "lambunao",
+      "text": "Lambunao",
+      "province_id": "iloilo"
+    },
+    {
+      "id": "leganes",
+      "name": "leganes",
+      "text": "Leganes",
+      "province_id": "iloilo"
+    },
+    {
+      "id": "lemery",
+      "name": "lemery",
+      "text": "Lemery",
+      "province_id": "iloilo"
+    },
+    {
+      "id": "leon",
+      "name": "leon",
+      "text": "Leon",
+      "province_id": "iloilo"
+    },
+    {
+      "id": "maasin",
+      "name": "maasin",
+      "text": "Maasin",
+      "province_id": "iloilo"
+    },
+    {
+      "id": "miagao",
+      "name": "miagao",
+      "text": "Miagao",
+      "province_id": "iloilo"
+    },
+    {
+      "id": "mina",
+      "name": "mina",
+      "text": "Mina",
+      "province_id": "iloilo"
+    },
+    {
+      "id": "new_lucena",
+      "name": "new_lucena",
+      "text": "New Lucena",
+      "province_id": "iloilo"
+    },
+    {
+      "id": "oton",
+      "name": "oton",
+      "text": "Oton",
+      "province_id": "iloilo"
+    },
+    {
+      "id": "passi_city",
+      "name": "passi_city",
+      "text": "Passi City",
+      "province_id": "iloilo"
+    },
+    {
+      "id": "pavia",
+      "name": "pavia",
+      "text": "Pavia",
+      "province_id": "iloilo"
+    },
+    {
+      "id": "pototan",
+      "name": "pototan",
+      "text": "Pototan",
+      "province_id": "iloilo"
+    },
+    {
+      "id": "san_dionisio",
+      "name": "san_dionisio",
+      "text": "San Dionisio",
+      "province_id": "iloilo"
+    },
+    {
+      "id": "san_enrique",
+      "name": "san_enrique",
+      "text": "San Enrique",
+      "province_id": "iloilo"
+    },
+    {
+      "id": "san_joaquin",
+      "name": "san_joaquin",
+      "text": "San Joaquin",
+      "province_id": "iloilo"
+    },
+    {
+      "id": "san_miguel",
+      "name": "san_miguel",
+      "text": "San Miguel",
+      "province_id": "iloilo"
+    },
+    {
+      "id": "san_rafael",
+      "name": "san_rafael",
+      "text": "San Rafael",
+      "province_id": "iloilo"
+    },
+    {
+      "id": "santa_barbara",
+      "name": "santa_barbara",
+      "text": "Santa Barbara",
+      "province_id": "iloilo"
+    },
+    {
+      "id": "sara",
+      "name": "sara",
+      "text": "Sara",
+      "province_id": "iloilo"
+    },
+    {
+      "id": "tigbauan",
+      "name": "tigbauan",
+      "text": "Tigbauan",
+      "province_id": "iloilo"
+    },
+    {
+      "id": "tubungan",
+      "name": "tubungan",
+      "text": "Tubungan",
+      "province_id": "iloilo"
+    },
+    {
+      "id": "zarraga",
+      "name": "zarraga",
+      "text": "Zarraga",
+      "province_id": "iloilo"
+    },
+    {
+      "id": "alicia",
+      "name": "alicia",
+      "text": "Alicia",
       "province_id": "isabela"
     },
     {
+      "id": "angadanan",
+      "name": "angadanan",
+      "text": "Angadanan",
+      "province_id": "isabela"
+    },
+    {
+      "id": "aurora",
+      "name": "aurora",
+      "text": "Aurora",
+      "province_id": "isabela"
+    },
+    {
+      "id": "benito_soliven",
+      "name": "benito_soliven",
+      "text": "Benito Soliven",
+      "province_id": "isabela"
+    },
+    {
+      "id": "burgos",
+      "name": "burgos",
+      "text": "Burgos",
+      "province_id": "isabela"
+    },
+    {
+      "id": "cabagan",
+      "name": "cabagan",
+      "text": "Cabagan",
+      "province_id": "isabela"
+    },
+    {
+      "id": "cabatuan",
+      "name": "cabatuan",
+      "text": "Cabatuan",
+      "province_id": "isabela"
+    },
+    {
+      "id": "cauayan_city",
+      "name": "cauayan_city",
+      "text": "Cauayan City",
+      "province_id": "isabela"
+    },
+    {
+      "id": "cordon",
+      "name": "cordon",
+      "text": "Cordon",
+      "province_id": "isabela"
+    },
+    {
+      "id": "delfin_albano",
+      "name": "delfin_albano",
+      "text": "Delfin Albano",
+      "province_id": "isabela"
+    },
+    {
+      "id": "dinapigue",
+      "name": "dinapigue",
+      "text": "Dinapigue",
+      "province_id": "isabela"
+    },
+    {
+      "id": "divilacan",
+      "name": "divilacan",
+      "text": "Divilacan",
+      "province_id": "isabela"
+    },
+    {
+      "id": "echague",
+      "name": "echague",
+      "text": "Echague",
+      "province_id": "isabela"
+    },
+    {
+      "id": "gamu",
+      "name": "gamu",
+      "text": "Gamu",
+      "province_id": "isabela"
+    },
+    {
+      "id": "ilagan_city",
+      "name": "ilagan_city",
+      "text": "Ilagan City",
+      "province_id": "isabela"
+    },
+    {
+      "id": "jones",
+      "name": "jones",
+      "text": "Jones",
+      "province_id": "isabela"
+    },
+    {
+      "id": "luna",
+      "name": "luna",
+      "text": "Luna",
+      "province_id": "isabela"
+    },
+    {
+      "id": "maconacon",
+      "name": "maconacon",
+      "text": "Maconacon",
+      "province_id": "isabela"
+    },
+    {
+      "id": "mallig",
+      "name": "mallig",
+      "text": "Mallig",
+      "province_id": "isabela"
+    },
+    {
+      "id": "naguilian",
+      "name": "naguilian",
+      "text": "Naguilian",
+      "province_id": "isabela"
+    },
+    {
+      "id": "palanan",
+      "name": "palanan",
+      "text": "Palanan",
+      "province_id": "isabela"
+    },
+    {
+      "id": "quezon",
+      "name": "quezon",
+      "text": "Quezon",
+      "province_id": "isabela"
+    },
+    {
+      "id": "quirino",
+      "name": "quirino",
+      "text": "Quirino",
+      "province_id": "isabela"
+    },
+    {
+      "id": "ramon",
+      "name": "ramon",
+      "text": "Ramon",
+      "province_id": "isabela"
+    },
+    {
+      "id": "reina_mercedes",
+      "name": "reina_mercedes",
+      "text": "Reina Mercedes",
+      "province_id": "isabela"
+    },
+    {
+      "id": "roxas",
+      "name": "roxas",
+      "text": "Roxas",
+      "province_id": "isabela"
+    },
+    {
+      "id": "san_agustin",
+      "name": "san_agustin",
+      "text": "San Agustin",
+      "province_id": "isabela"
+    },
+    {
+      "id": "san_guillermo",
+      "name": "san_guillermo",
+      "text": "San Guillermo",
+      "province_id": "isabela"
+    },
+    {
+      "id": "san_isidro",
+      "name": "san_isidro",
+      "text": "San Isidro",
+      "province_id": "isabela"
+    },
+    {
+      "id": "san_manuel",
+      "name": "san_manuel",
+      "text": "San Manuel",
+      "province_id": "isabela"
+    },
+    {
+      "id": "san_mariano",
+      "name": "san_mariano",
+      "text": "San Mariano",
+      "province_id": "isabela"
+    },
+    {
+      "id": "san_mateo",
+      "name": "san_mateo",
+      "text": "San Mateo",
+      "province_id": "isabela"
+    },
+    {
+      "id": "san_pablo",
+      "name": "san_pablo",
+      "text": "San Pablo",
+      "province_id": "isabela"
+    },
+    {
+      "id": "santa_maria",
+      "name": "santa_maria",
+      "text": "Santa Maria",
+      "province_id": "isabela"
+    },
+    {
+      "id": "santiago_city",
+      "name": "santiago_city",
+      "text": "Santiago City",
+      "province_id": "isabela"
+    },
+    {
+      "id": "santo_tomas",
+      "name": "santo_tomas",
+      "text": "Santo Tomas",
+      "province_id": "isabela"
+    },
+    {
+      "id": "tumauini",
+      "name": "tumauini",
+      "text": "Tumauini",
+      "province_id": "isabela"
+    },
+    {
+      "id": "balbalan",
+      "name": "balbalan",
+      "text": "Balbalan",
       "province_id": "kalinga"
+    },
+    {
+      "id": "lubuagan",
+      "name": "lubuagan",
+      "text": "Lubuagan",
+      "province_id": "kalinga"
+    },
+    {
+      "id": "pasil",
+      "name": "pasil",
+      "text": "Pasil",
+      "province_id": "kalinga"
+    },
+    {
+      "id": "pinukpuk",
+      "name": "pinukpuk",
+      "text": "Pinukpuk",
+      "province_id": "kalinga"
+    },
+    {
+      "id": "rizal",
+      "name": "rizal",
+      "text": "Rizal",
+      "province_id": "kalinga"
+    },
+    {
+      "id": "tabuk_city",
+      "name": "tabuk_city",
+      "text": "Tabuk City",
+      "province_id": "kalinga"
+    },
+    {
+      "id": "tanudan",
+      "name": "tanudan",
+      "text": "Tanudan",
+      "province_id": "kalinga"
+    },
+    {
+      "id": "tinglayan",
+      "name": "tinglayan",
+      "text": "Tinglayan",
+      "province_id": "kalinga"
+    },
+    {
+      "id": "agoo",
+      "name": "agoo",
+      "text": "Agoo",
+      "province_id": "la_union"
+    },
+    {
+      "id": "aringay",
+      "name": "aringay",
+      "text": "Aringay",
+      "province_id": "la_union"
+    },
+    {
+      "id": "bacnotan",
+      "name": "bacnotan",
+      "text": "Bacnotan",
+      "province_id": "la_union"
+    },
+    {
+      "id": "bagulin",
+      "name": "bagulin",
+      "text": "Bagulin",
+      "province_id": "la_union"
+    },
+    {
+      "id": "balaoan",
+      "name": "balaoan",
+      "text": "Balaoan",
+      "province_id": "la_union"
+    },
+    {
+      "id": "bangar",
+      "name": "bangar",
+      "text": "Bangar",
+      "province_id": "la_union"
+    },
+    {
+      "id": "bauang",
+      "name": "bauang",
+      "text": "Bauang",
+      "province_id": "la_union"
+    },
+    {
+      "id": "burgos",
+      "name": "burgos",
+      "text": "Burgos",
+      "province_id": "la_union"
+    },
+    {
+      "id": "caba",
+      "name": "caba",
+      "text": "Caba",
+      "province_id": "la_union"
+    },
+    {
+      "id": "luna",
+      "name": "luna",
+      "text": "Luna",
+      "province_id": "la_union"
+    },
+    {
+      "id": "naguilian",
+      "name": "naguilian",
+      "text": "Naguilian",
+      "province_id": "la_union"
+    },
+    {
+      "id": "pugo",
+      "name": "pugo",
+      "text": "Pugo",
+      "province_id": "la_union"
+    },
+    {
+      "id": "rosario",
+      "name": "rosario",
+      "text": "Rosario",
+      "province_id": "la_union"
+    },
+    {
+      "id": "san_fernando_city",
+      "name": "san_fernando_city",
+      "text": "San Fernando City",
+      "province_id": "la_union"
+    },
+    {
+      "id": "san_gabriel",
+      "name": "san_gabriel",
+      "text": "San Gabriel",
+      "province_id": "la_union"
+    },
+    {
+      "id": "san_juan",
+      "name": "san_juan",
+      "text": "San Juan",
+      "province_id": "la_union"
+    },
+    {
+      "id": "santo_tomas",
+      "name": "santo_tomas",
+      "text": "Santo Tomas",
+      "province_id": "la_union"
+    },
+    {
+      "id": "santol",
+      "name": "santol",
+      "text": "Santol",
+      "province_id": "la_union"
+    },
+    {
+      "id": "sudipen",
+      "name": "sudipen",
+      "text": "Sudipen",
+      "province_id": "la_union"
+    },
+    {
+      "id": "tubao",
+      "name": "tubao",
+      "text": "Tubao",
+      "province_id": "la_union"
+    },
+    {
+      "id": "alaminos",
+      "name": "alaminos",
+      "text": "Alaminos",
+      "province_id": "laguna"
+    },
+    {
+      "id": "bay",
+      "name": "bay",
+      "text": "Bay",
+      "province_id": "laguna"
+    },
+    {
+      "id": "biñan_city",
+      "name": "biñan_city",
+      "text": "Biñan City",
+      "province_id": "laguna"
+    },
+    {
+      "id": "cabuyao_city",
+      "name": "cabuyao_city",
+      "text": "Cabuyao City",
+      "province_id": "laguna"
+    },
+    {
+      "id": "calamba_city",
+      "name": "calamba_city",
+      "text": "Calamba City",
+      "province_id": "laguna"
+    },
+    {
+      "id": "calauan",
+      "name": "calauan",
+      "text": "Calauan",
+      "province_id": "laguna"
+    },
+    {
+      "id": "cavinti",
+      "name": "cavinti",
+      "text": "Cavinti",
+      "province_id": "laguna"
+    },
+    {
+      "id": "famy",
+      "name": "famy",
+      "text": "Famy",
+      "province_id": "laguna"
+    },
+    {
+      "id": "kalayaan",
+      "name": "kalayaan",
+      "text": "Kalayaan",
+      "province_id": "laguna"
+    },
+    {
+      "id": "liliw",
+      "name": "liliw",
+      "text": "Liliw",
+      "province_id": "laguna"
+    },
+    {
+      "id": "los_baños",
+      "name": "los_baños",
+      "text": "Los Baños",
+      "province_id": "laguna"
+    },
+    {
+      "id": "luisiana",
+      "name": "luisiana",
+      "text": "Luisiana",
+      "province_id": "laguna"
+    },
+    {
+      "id": "lumban",
+      "name": "lumban",
+      "text": "Lumban",
+      "province_id": "laguna"
+    },
+    {
+      "id": "mabitac",
+      "name": "mabitac",
+      "text": "Mabitac",
+      "province_id": "laguna"
+    },
+    {
+      "id": "magdalena",
+      "name": "magdalena",
+      "text": "Magdalena",
+      "province_id": "laguna"
+    },
+    {
+      "id": "majayjay",
+      "name": "majayjay",
+      "text": "Majayjay",
+      "province_id": "laguna"
+    },
+    {
+      "id": "nagcarlan",
+      "name": "nagcarlan",
+      "text": "Nagcarlan",
+      "province_id": "laguna"
+    },
+    {
+      "id": "paete",
+      "name": "paete",
+      "text": "Paete",
+      "province_id": "laguna"
+    },
+    {
+      "id": "pagsanjan",
+      "name": "pagsanjan",
+      "text": "Pagsanjan",
+      "province_id": "laguna"
+    },
+    {
+      "id": "pakil",
+      "name": "pakil",
+      "text": "Pakil",
+      "province_id": "laguna"
+    },
+    {
+      "id": "pangil",
+      "name": "pangil",
+      "text": "Pangil",
+      "province_id": "laguna"
+    },
+    {
+      "id": "pila",
+      "name": "pila",
+      "text": "Pila",
+      "province_id": "laguna"
+    },
+    {
+      "id": "rizal",
+      "name": "rizal",
+      "text": "Rizal",
+      "province_id": "laguna"
+    },
+    {
+      "id": "san_pablo_city",
+      "name": "san_pablo_city",
+      "text": "San Pablo City",
+      "province_id": "laguna"
+    },
+    {
+      "id": "san_pedro_city",
+      "name": "san_pedro_city",
+      "text": "San Pedro City",
+      "province_id": "laguna"
+    },
+    {
+      "id": "santa_cruz",
+      "name": "santa_cruz",
+      "text": "Santa Cruz",
+      "province_id": "laguna"
+    },
+    {
+      "id": "santa_maria",
+      "name": "santa_maria",
+      "text": "Santa Maria",
+      "province_id": "laguna"
+    },
+    {
+      "id": "santa_rosa_city",
+      "name": "santa_rosa_city",
+      "text": "Santa Rosa City",
+      "province_id": "laguna"
+    },
+    {
+      "id": "siniloan",
+      "name": "siniloan",
+      "text": "Siniloan",
+      "province_id": "laguna"
+    },
+    {
+      "id": "victoria",
+      "name": "victoria",
+      "text": "Victoria",
+      "province_id": "laguna"
+    },
+    {
+      "id": "bacolod",
+      "name": "bacolod",
+      "text": "Bacolod",
+      "province_id": "lanao_del_norte"
+    },
+    {
+      "id": "baloi",
+      "name": "baloi",
+      "text": "Baloi",
+      "province_id": "lanao_del_norte"
+    },
+    {
+      "id": "baroy",
+      "name": "baroy",
+      "text": "Baroy",
+      "province_id": "lanao_del_norte"
+    },
+    {
+      "id": "kapatagan",
+      "name": "kapatagan",
+      "text": "Kapatagan",
+      "province_id": "lanao_del_norte"
+    },
+    {
+      "id": "kauswagan",
+      "name": "kauswagan",
+      "text": "Kauswagan",
+      "province_id": "lanao_del_norte"
+    },
+    {
+      "id": "kolambugan",
+      "name": "kolambugan",
+      "text": "Kolambugan",
+      "province_id": "lanao_del_norte"
+    },
+    {
+      "id": "lala",
+      "name": "lala",
+      "text": "Lala",
+      "province_id": "lanao_del_norte"
+    },
+    {
+      "id": "linamon",
+      "name": "linamon",
+      "text": "Linamon",
+      "province_id": "lanao_del_norte"
+    },
+    {
+      "id": "magsaysay",
+      "name": "magsaysay",
+      "text": "Magsaysay",
+      "province_id": "lanao_del_norte"
+    },
+    {
+      "id": "maigo",
+      "name": "maigo",
+      "text": "Maigo",
+      "province_id": "lanao_del_norte"
+    },
+    {
+      "id": "matungao",
+      "name": "matungao",
+      "text": "Matungao",
+      "province_id": "lanao_del_norte"
+    },
+    {
+      "id": "munai",
+      "name": "munai",
+      "text": "Munai",
+      "province_id": "lanao_del_norte"
+    },
+    {
+      "id": "nunungan",
+      "name": "nunungan",
+      "text": "Nunungan",
+      "province_id": "lanao_del_norte"
+    },
+    {
+      "id": "pantao_ragat",
+      "name": "pantao_ragat",
+      "text": "Pantao Ragat",
+      "province_id": "lanao_del_norte"
+    },
+    {
+      "id": "pantar",
+      "name": "pantar",
+      "text": "Pantar",
+      "province_id": "lanao_del_norte"
+    },
+    {
+      "id": "poona_piagapo",
+      "name": "poona_piagapo",
+      "text": "Poona Piagapo",
+      "province_id": "lanao_del_norte"
+    },
+    {
+      "id": "salvador",
+      "name": "salvador",
+      "text": "Salvador",
+      "province_id": "lanao_del_norte"
+    },
+    {
+      "id": "sapad",
+      "name": "sapad",
+      "text": "Sapad",
+      "province_id": "lanao_del_norte"
+    },
+    {
+      "id": "sultan_naga_dimaporo",
+      "name": "sultan_naga_dimaporo",
+      "text": "Sultan Naga Dimaporo",
+      "province_id": "lanao_del_norte"
+    },
+    {
+      "id": "tagoloan",
+      "name": "tagoloan",
+      "text": "Tagoloan",
+      "province_id": "lanao_del_norte"
+    },
+    {
+      "id": "tangcal",
+      "name": "tangcal",
+      "text": "Tangcal",
+      "province_id": "lanao_del_norte"
+    },
+    {
+      "id": "tubod",
+      "name": "tubod",
+      "text": "Tubod",
+      "province_id": "lanao_del_norte"
+    },
+    {
+      "id": "iligan_city",
+      "name": "iligan_city",
+      "text": "Iligan City",
+      "province_id": "lanao_del_norte"
+    },
+    {
+      "id": "amai_manabilang",
+      "name": "amai_manabilang",
+      "text": "Amai Manabilang",
+      "province_id": "lanao_del_sur"
+    },
+    {
+      "id": "bacolod_kalawi",
+      "name": "bacolod_kalawi",
+      "text": "Bacolod-Kalawi",
+      "province_id": "lanao_del_sur"
+    },
+    {
+      "id": "balabagan",
+      "name": "balabagan",
+      "text": "Balabagan",
+      "province_id": "lanao_del_sur"
+    },
+    {
+      "id": "balindong",
+      "name": "balindong",
+      "text": "Balindong",
+      "province_id": "lanao_del_sur"
+    },
+    {
+      "id": "bayang",
+      "name": "bayang",
+      "text": "Bayang",
+      "province_id": "lanao_del_sur"
+    },
+    {
+      "id": "binidayan",
+      "name": "binidayan",
+      "text": "Binidayan",
+      "province_id": "lanao_del_sur"
+    },
+    {
+      "id": "buadiposo_buntong",
+      "name": "buadiposo_buntong",
+      "text": "Buadiposo-Buntong",
+      "province_id": "lanao_del_sur"
+    },
+    {
+      "id": "bubong",
+      "name": "bubong",
+      "text": "Bubong",
+      "province_id": "lanao_del_sur"
+    },
+    {
+      "id": "butig",
+      "name": "butig",
+      "text": "Butig",
+      "province_id": "lanao_del_sur"
+    },
+    {
+      "id": "calanogas",
+      "name": "calanogas",
+      "text": "Calanogas",
+      "province_id": "lanao_del_sur"
+    },
+    {
+      "id": "ditsaan_ramain",
+      "name": "ditsaan_ramain",
+      "text": "Ditsaan-Ramain",
+      "province_id": "lanao_del_sur"
+    },
+    {
+      "id": "ganassi",
+      "name": "ganassi",
+      "text": "Ganassi",
+      "province_id": "lanao_del_sur"
+    },
+    {
+      "id": "kapai",
+      "name": "kapai",
+      "text": "Kapai",
+      "province_id": "lanao_del_sur"
+    },
+    {
+      "id": "kapatagan",
+      "name": "kapatagan",
+      "text": "Kapatagan",
+      "province_id": "lanao_del_sur"
+    },
+    {
+      "id": "lumba_bayabao",
+      "name": "lumba_bayabao",
+      "text": "Lumba-Bayabao",
+      "province_id": "lanao_del_sur"
+    },
+    {
+      "id": "lumbaca_unayan",
+      "name": "lumbaca_unayan",
+      "text": "Lumbaca-Unayan",
+      "province_id": "lanao_del_sur"
+    },
+    {
+      "id": "lumbatan",
+      "name": "lumbatan",
+      "text": "Lumbatan",
+      "province_id": "lanao_del_sur"
+    },
+    {
+      "id": "lumbayanague",
+      "name": "lumbayanague",
+      "text": "Lumbayanague",
+      "province_id": "lanao_del_sur"
+    },
+    {
+      "id": "madalum",
+      "name": "madalum",
+      "text": "Madalum",
+      "province_id": "lanao_del_sur"
+    },
+    {
+      "id": "madamba",
+      "name": "madamba",
+      "text": "Madamba",
+      "province_id": "lanao_del_sur"
+    },
+    {
+      "id": "maguing",
+      "name": "maguing",
+      "text": "Maguing",
+      "province_id": "lanao_del_sur"
+    },
+    {
+      "id": "malabang",
+      "name": "malabang",
+      "text": "Malabang",
+      "province_id": "lanao_del_sur"
+    },
+    {
+      "id": "marantao",
+      "name": "marantao",
+      "text": "Marantao",
+      "province_id": "lanao_del_sur"
+    },
+    {
+      "id": "marawi_city",
+      "name": "marawi_city",
+      "text": "Marawi City",
+      "province_id": "lanao_del_sur"
+    },
+    {
+      "id": "masiu",
+      "name": "masiu",
+      "text": "Masiu",
+      "province_id": "lanao_del_sur"
+    },
+    {
+      "id": "mulondo",
+      "name": "mulondo",
+      "text": "Mulondo",
+      "province_id": "lanao_del_sur"
+    },
+    {
+      "id": "pagayawan",
+      "name": "pagayawan",
+      "text": "Pagayawan",
+      "province_id": "lanao_del_sur"
+    },
+    {
+      "id": "piagapo",
+      "name": "piagapo",
+      "text": "Piagapo",
+      "province_id": "lanao_del_sur"
+    },
+    {
+      "id": "poona_bayabao",
+      "name": "poona_bayabao",
+      "text": "Poona Bayabao",
+      "province_id": "lanao_del_sur"
+    },
+    {
+      "id": "pualas",
+      "name": "pualas",
+      "text": "Pualas",
+      "province_id": "lanao_del_sur"
+    },
+    {
+      "id": "saguiaran",
+      "name": "saguiaran",
+      "text": "Saguiaran",
+      "province_id": "lanao_del_sur"
+    },
+    {
+      "id": "sultan_dumalondong",
+      "name": "sultan_dumalondong",
+      "text": "Sultan Dumalondong",
+      "province_id": "lanao_del_sur"
+    },
+    {
+      "id": "picong",
+      "name": "picong",
+      "text": "Picong",
+      "province_id": "lanao_del_sur"
+    },
+    {
+      "id": "tagoloan_ii",
+      "name": "tagoloan_ii",
+      "text": "Tagoloan II",
+      "province_id": "lanao_del_sur"
+    },
+    {
+      "id": "tamparan",
+      "name": "tamparan",
+      "text": "Tamparan",
+      "province_id": "lanao_del_sur"
+    },
+    {
+      "id": "taraka",
+      "name": "taraka",
+      "text": "Taraka",
+      "province_id": "lanao_del_sur"
+    },
+    {
+      "id": "tubaran",
+      "name": "tubaran",
+      "text": "Tubaran",
+      "province_id": "lanao_del_sur"
+    },
+    {
+      "id": "tugaya",
+      "name": "tugaya",
+      "text": "Tugaya",
+      "province_id": "lanao_del_sur"
+    },
+    {
+      "id": "wao",
+      "name": "wao",
+      "text": "Wao",
+      "province_id": "lanao_del_sur"
+    },
+    {
+      "id": "abuyog",
+      "name": "abuyog",
+      "text": "Abuyog",
+      "province_id": "leyte"
+    },
+    {
+      "id": "alangalang",
+      "name": "alangalang",
+      "text": "Alangalang",
+      "province_id": "leyte"
+    },
+    {
+      "id": "albuera",
+      "name": "albuera",
+      "text": "Albuera",
+      "province_id": "leyte"
+    },
+    {
+      "id": "babatngon",
+      "name": "babatngon",
+      "text": "Babatngon",
+      "province_id": "leyte"
+    },
+    {
+      "id": "barugo",
+      "name": "barugo",
+      "text": "Barugo",
+      "province_id": "leyte"
+    },
+    {
+      "id": "bato",
+      "name": "bato",
+      "text": "Bato",
+      "province_id": "leyte"
+    },
+    {
+      "id": "baybay_city",
+      "name": "baybay_city",
+      "text": "Baybay City",
+      "province_id": "leyte"
+    },
+    {
+      "id": "burauen",
+      "name": "burauen",
+      "text": "Burauen",
+      "province_id": "leyte"
+    },
+    {
+      "id": "calubian",
+      "name": "calubian",
+      "text": "Calubian",
+      "province_id": "leyte"
+    },
+    {
+      "id": "capoocan",
+      "name": "capoocan",
+      "text": "Capoocan",
+      "province_id": "leyte"
+    },
+    {
+      "id": "carigara",
+      "name": "carigara",
+      "text": "Carigara",
+      "province_id": "leyte"
+    },
+    {
+      "id": "dagami",
+      "name": "dagami",
+      "text": "Dagami",
+      "province_id": "leyte"
+    },
+    {
+      "id": "dulag",
+      "name": "dulag",
+      "text": "Dulag",
+      "province_id": "leyte"
+    },
+    {
+      "id": "hilongos",
+      "name": "hilongos",
+      "text": "Hilongos",
+      "province_id": "leyte"
+    },
+    {
+      "id": "hindang",
+      "name": "hindang",
+      "text": "Hindang",
+      "province_id": "leyte"
+    },
+    {
+      "id": "inopacan",
+      "name": "inopacan",
+      "text": "Inopacan",
+      "province_id": "leyte"
+    },
+    {
+      "id": "isabel",
+      "name": "isabel",
+      "text": "Isabel",
+      "province_id": "leyte"
+    },
+    {
+      "id": "jaro",
+      "name": "jaro",
+      "text": "Jaro",
+      "province_id": "leyte"
+    },
+    {
+      "id": "javier",
+      "name": "javier",
+      "text": "Javier",
+      "province_id": "leyte"
+    },
+    {
+      "id": "julita",
+      "name": "julita",
+      "text": "Julita",
+      "province_id": "leyte"
+    },
+    {
+      "id": "kananga",
+      "name": "kananga",
+      "text": "Kananga",
+      "province_id": "leyte"
+    },
+    {
+      "id": "la_paz",
+      "name": "la_paz",
+      "text": "La Paz",
+      "province_id": "leyte"
+    },
+    {
+      "id": "leyte",
+      "name": "leyte",
+      "text": "Leyte",
+      "province_id": "leyte"
+    },
+    {
+      "id": "macarthur",
+      "name": "macarthur",
+      "text": "MacArthur",
+      "province_id": "leyte"
+    },
+    {
+      "id": "mahaplag",
+      "name": "mahaplag",
+      "text": "Mahaplag",
+      "province_id": "leyte"
+    },
+    {
+      "id": "matag_ob",
+      "name": "matag_ob",
+      "text": "Matag-ob",
+      "province_id": "leyte"
+    },
+    {
+      "id": "matalom",
+      "name": "matalom",
+      "text": "Matalom",
+      "province_id": "leyte"
+    },
+    {
+      "id": "mayorga",
+      "name": "mayorga",
+      "text": "Mayorga",
+      "province_id": "leyte"
+    },
+    {
+      "id": "merida",
+      "name": "merida",
+      "text": "Merida",
+      "province_id": "leyte"
+    },
+    {
+      "id": "ormoc_city",
+      "name": "ormoc_city",
+      "text": "Ormoc City",
+      "province_id": "leyte"
+    },
+    {
+      "id": "palo",
+      "name": "palo",
+      "text": "Palo",
+      "province_id": "leyte"
+    },
+    {
+      "id": "palompon",
+      "name": "palompon",
+      "text": "Palompon",
+      "province_id": "leyte"
+    },
+    {
+      "id": "pastrana",
+      "name": "pastrana",
+      "text": "Pastrana",
+      "province_id": "leyte"
+    },
+    {
+      "id": "san_isidro",
+      "name": "san_isidro",
+      "text": "San Isidro",
+      "province_id": "leyte"
+    },
+    {
+      "id": "san_miguel",
+      "name": "san_miguel",
+      "text": "San Miguel",
+      "province_id": "leyte"
+    },
+    {
+      "id": "santa_fe",
+      "name": "santa_fe",
+      "text": "Santa Fe",
+      "province_id": "leyte"
+    },
+    {
+      "id": "tabango",
+      "name": "tabango",
+      "text": "Tabango",
+      "province_id": "leyte"
+    },
+    {
+      "id": "tabontabon",
+      "name": "tabontabon",
+      "text": "Tabontabon",
+      "province_id": "leyte"
+    },
+    {
+      "id": "tacloban_city",
+      "name": "tacloban_city",
+      "text": "Tacloban City",
+      "province_id": "leyte"
+    },
+    {
+      "id": "tanauan",
+      "name": "tanauan",
+      "text": "Tanauan",
+      "province_id": "leyte"
+    },
+    {
+      "id": "tolosa",
+      "name": "tolosa",
+      "text": "Tolosa",
+      "province_id": "leyte"
+    },
+    {
+      "id": "tunga",
+      "name": "tunga",
+      "text": "Tunga",
+      "province_id": "leyte"
+    },
+    {
+      "id": "villaba",
+      "name": "villaba",
+      "text": "Villaba",
+      "province_id": "leyte"
+    },
+    {
+      "id": "barira",
+      "name": "barira",
+      "text": "Barira",
+      "province_id": "maguindanao_del_norte"
+    },
+    {
+      "id": "buldon",
+      "name": "buldon",
+      "text": "Buldon",
+      "province_id": "maguindanao_del_norte"
+    },
+    {
+      "id": "cotabato_city",
+      "name": "cotabato_city",
+      "text": "Cotabato City",
+      "province_id": "maguindanao_del_norte"
+    },
+    {
+      "id": "datu_blah_t_sinsuat",
+      "name": "datu_blah_t_sinsuat",
+      "text": "Datu Blah T. Sinsuat",
+      "province_id": "maguindanao_del_norte"
+    },
+    {
+      "id": "datu_odin_sinsuat",
+      "name": "datu_odin_sinsuat",
+      "text": "Datu Odin Sinsuat",
+      "province_id": "maguindanao_del_norte"
+    },
+    {
+      "id": "kabuntalan",
+      "name": "kabuntalan",
+      "text": "Kabuntalan",
+      "province_id": "maguindanao_del_norte"
+    },
+    {
+      "id": "matanog",
+      "name": "matanog",
+      "text": "Matanog",
+      "province_id": "maguindanao_del_norte"
+    },
+    {
+      "id": "northern_kabuntalan",
+      "name": "northern_kabuntalan",
+      "text": "Northern Kabuntalan",
+      "province_id": "maguindanao_del_norte"
+    },
+    {
+      "id": "parang",
+      "name": "parang",
+      "text": "Parang",
+      "province_id": "maguindanao_del_norte"
+    },
+    {
+      "id": "sultan_kudarat",
+      "name": "sultan_kudarat",
+      "text": "Sultan Kudarat",
+      "province_id": "maguindanao_del_norte"
+    },
+    {
+      "id": "sultan_mastura",
+      "name": "sultan_mastura",
+      "text": "Sultan Mastura",
+      "province_id": "maguindanao_del_norte"
+    },
+    {
+      "id": "upi",
+      "name": "upi",
+      "text": "Upi",
+      "province_id": "maguindanao_del_norte"
+    },
+    {
+      "id": "ampatuan",
+      "name": "ampatuan",
+      "text": "Ampatuan",
+      "province_id": "maguindanao_del_sur"
+    },
+    {
+      "id": "barira",
+      "name": "barira",
+      "text": "Barira",
+      "province_id": "maguindanao_del_sur"
+    },
+    {
+      "id": "buluan",
+      "name": "buluan",
+      "text": "Buluan",
+      "province_id": "maguindanao_del_sur"
+    },
+    {
+      "id": "datu_abdullah_sangki",
+      "name": "datu_abdullah_sangki",
+      "text": "Datu Abdullah Sangki",
+      "province_id": "maguindanao_del_sur"
+    },
+    {
+      "id": "datu_anggal_midtimbang",
+      "name": "datu_anggal_midtimbang",
+      "text": "Datu Anggal Midtimbang",
+      "province_id": "maguindanao_del_sur"
+    },
+    {
+      "id": "datu_hoffer_ampatuan",
+      "name": "datu_hoffer_ampatuan",
+      "text": "Datu Hoffer Ampatuan",
+      "province_id": "maguindanao_del_sur"
+    },
+    {
+      "id": "datu_montawal",
+      "name": "datu_montawal",
+      "text": "Datu Montawal",
+      "province_id": "maguindanao_del_sur"
+    },
+    {
+      "id": "datu_paglas",
+      "name": "datu_paglas",
+      "text": "Datu Paglas",
+      "province_id": "maguindanao_del_sur"
+    },
+    {
+      "id": "datu_piang",
+      "name": "datu_piang",
+      "text": "Datu Piang",
+      "province_id": "maguindanao_del_sur"
+    },
+    {
+      "id": "datu_salibo",
+      "name": "datu_salibo",
+      "text": "Datu Salibo",
+      "province_id": "maguindanao_del_sur"
+    },
+    {
+      "id": "datu_saudi-ampatuan",
+      "name": "datu_saudi-ampatuan",
+      "text": "Datu Saudi-Ampatuan",
+      "province_id": "maguindanao_del_sur"
+    },
+    {
+      "id": "datu_unsay",
+      "name": "datu_unsay",
+      "text": "Datu Unsay",
+      "province_id": "maguindanao_del_sur"
+    },
+    {
+      "id": "general_salipada_k_pendatun",
+      "name": "general_salipada_k_pendatun",
+      "text": "General Salipada K. Pendatun",
+      "province_id": "maguindanao_del_sur"
+    },
+    {
+      "id": "guindulungan",
+      "name": "guindulungan",
+      "text": "Guindulungan",
+      "province_id": "maguindanao_del_sur"
+    },
+    {
+      "id": "mamasapano",
+      "name": "mamasapano",
+      "text": "Mamasapano",
+      "province_id": "maguindanao_del_sur"
+    },
+    {
+      "id": "mangudadatu",
+      "name": "mangudadatu",
+      "text": "Mangudadatu",
+      "province_id": "maguindanao_del_sur"
+    },
+    {
+      "id": "pagalungan",
+      "name": "pagalungan",
+      "text": "Pagalungan",
+      "province_id": "maguindanao_del_sur"
+    },
+    {
+      "id": "paglat",
+      "name": "paglat",
+      "text": "Paglat",
+      "province_id": "maguindanao_del_sur"
+    },
+    {
+      "id": "pandag",
+      "name": "pandag",
+      "text": "Pandag",
+      "province_id": "maguindanao_del_sur"
+    },
+    {
+      "id": "rajah_buayan",
+      "name": "rajah_buayan",
+      "text": "Rajah Buayan",
+      "province_id": "maguindanao_del_sur"
+    },
+    {
+      "id": "shariff_aguak",
+      "name": "shariff_aguak",
+      "text": "Shariff Aguak",
+      "province_id": "maguindanao_del_sur"
+    },
+    {
+      "id": "shariff_saydona_mustapha",
+      "name": "shariff_saydona_mustapha",
+      "text": "Shariff Saydona Mustapha",
+      "province_id": "maguindanao_del_sur"
+    },
+    {
+      "id": "south_upi",
+      "name": "south_upi",
+      "text": "South Upi",
+      "province_id": "maguindanao_del_sur"
+    },
+    {
+      "id": "sultan_sa_barongis",
+      "name": "sultan_sa_barongis",
+      "text": "Sultan Sa Barongis",
+      "province_id": "maguindanao_del_sur"
+    },
+    {
+      "id": "talayan",
+      "name": "talayan",
+      "text": "Talayan",
+      "province_id": "maguindanao_del_sur"
+    },
+    {
+      "id": "talitay",
+      "name": "talitay",
+      "text": "Talitay",
+      "province_id": "maguindanao_del_sur"
+    },
+    {
+      "id": "boac",
+      "name": "boac",
+      "text": "Boac",
+      "province_id": "marinduque"
+    },
+    {
+      "id": "buenavista",
+      "name": "buenavista",
+      "text": "Buenavista",
+      "province_id": "marinduque"
+    },
+    {
+      "id": "gasan",
+      "name": "gasan",
+      "text": "Gasan",
+      "province_id": "marinduque"
+    },
+    {
+      "id": "mogpog",
+      "name": "mogpog",
+      "text": "Mogpog",
+      "province_id": "marinduque"
+    },
+    {
+      "id": "santa_cruz",
+      "name": "santa_cruz",
+      "text": "Santa Cruz",
+      "province_id": "marinduque"
+    },
+    {
+      "id": "torrijos",
+      "name": "torrijos",
+      "text": "Torrijos",
+      "province_id": "marinduque"
+    },
+    {
+      "id": "aroroy",
+      "name": "aroroy",
+      "text": "Aroroy",
+      "province_id": "masbate"
+    },
+    {
+      "id": "baleno",
+      "name": "baleno",
+      "text": "Baleno",
+      "province_id": "masbate"
+    },
+    {
+      "id": "balud",
+      "name": "balud",
+      "text": "Balud",
+      "province_id": "masbate"
+    },
+    {
+      "id": "batuan",
+      "name": "batuan",
+      "text": "Batuan",
+      "province_id": "masbate"
+    },
+    {
+      "id": "cataingan",
+      "name": "cataingan",
+      "text": "Cataingan",
+      "province_id": "masbate"
+    },
+    {
+      "id": "cawayan",
+      "name": "cawayan",
+      "text": "Cawayan",
+      "province_id": "masbate"
+    },
+    {
+      "id": "claveria",
+      "name": "claveria",
+      "text": "Claveria",
+      "province_id": "masbate"
+    },
+    {
+      "id": "dimasalang",
+      "name": "dimasalang",
+      "text": "Dimasalang",
+      "province_id": "masbate"
+    },
+    {
+      "id": "esperanza",
+      "name": "esperanza",
+      "text": "Esperanza",
+      "province_id": "masbate"
+    },
+    {
+      "id": "mandaon",
+      "name": "mandaon",
+      "text": "Mandaon",
+      "province_id": "masbate"
+    },
+    {
+      "id": "masbate_city",
+      "name": "masbate_city",
+      "text": "Masbate City",
+      "province_id": "masbate"
+    },
+    {
+      "id": "milagros",
+      "name": "milagros",
+      "text": "Milagros",
+      "province_id": "masbate"
+    },
+    {
+      "id": "mobo",
+      "name": "mobo",
+      "text": "Mobo",
+      "province_id": "masbate"
+    },
+    {
+      "id": "monreal",
+      "name": "monreal",
+      "text": "Monreal",
+      "province_id": "masbate"
+    },
+    {
+      "id": "palanas",
+      "name": "palanas",
+      "text": "Palanas",
+      "province_id": "masbate"
+    },
+    {
+      "id": "pio_v_corpuz",
+      "name": "pio_v_corpuz",
+      "text": "Pio V. Corpuz",
+      "province_id": "masbate"
+    },
+    {
+      "id": "placer",
+      "name": "placer",
+      "text": "Placer",
+      "province_id": "masbate"
     },
     {
       "id": "san_fernando",
       "name": "san_fernando",
       "text": "San Fernando",
-      "province_id": "la_union"
-    },
-    {
-      "province_id": "laguna"
-    },
-    {
-      "province_id": "lanao_del_norte"
-    },
-    {
-      "province_id": "lanao_del_sur"
-    },
-    {
-      "province_id": "leyte"
-    },
-    {
-      "province_id": "maguindanao_del_norte"
-    },
-    {
-      "province_id": "maguindanao_del_sur"
-    },
-    {
-      "province_id": "marinduque"
-    },
-    {
       "province_id": "masbate"
     },
     {
+      "id": "san_jacinto",
+      "name": "san_jacinto",
+      "text": "San Jacinto",
+      "province_id": "masbate"
+    },
+    {
+      "id": "san_pascual",
+      "name": "san_pascual",
+      "text": "San Pascual",
+      "province_id": "masbate"
+    },
+    {
+      "id": "uson",
+      "name": "uson",
+      "text": "Uson",
+      "province_id": "masbate"
+    },
+    {
+      "id": "aloran",
+      "name": "aloran",
+      "text": "Aloran",
       "province_id": "misamis_occidental"
     },
     {
+      "id": "baliangao",
+      "name": "baliangao",
+      "text": "Baliangao",
+      "province_id": "misamis_occidental"
+    },
+    {
+      "id": "bonifacio",
+      "name": "bonifacio",
+      "text": "Bonifacio",
+      "province_id": "misamis_occidental"
+    },
+    {
+      "id": "calamba",
+      "name": "calamba",
+      "text": "Calamba",
+      "province_id": "misamis_occidental"
+    },
+    {
+      "id": "clarin",
+      "name": "clarin",
+      "text": "Clarin",
+      "province_id": "misamis_occidental"
+    },
+    {
+      "id": "concepcion",
+      "name": "concepcion",
+      "text": "Concepcion",
+      "province_id": "misamis_occidental"
+    },
+    {
+      "id": "don_victoriano_chiongbian",
+      "name": "don_victoriano_chiongbian",
+      "text": "Don Victoriano Chiongbian",
+      "province_id": "misamis_occidental"
+    },
+    {
+      "id": "jimenez",
+      "name": "jimenez",
+      "text": "Jimenez",
+      "province_id": "misamis_occidental"
+    },
+    {
+      "id": "lopez_jaena",
+      "name": "lopez_jaena",
+      "text": "Lopez Jaena",
+      "province_id": "misamis_occidental"
+    },
+    {
+      "id": "oroquieta_city",
+      "name": "oroquieta_city",
+      "text": "Oroquieta City",
+      "province_id": "misamis_occidental"
+    },
+    {
+      "id": "ozamiz_city",
+      "name": "ozamiz_city",
+      "text": "Ozamiz City",
+      "province_id": "misamis_occidental"
+    },
+    {
+      "id": "panaon",
+      "name": "panaon",
+      "text": "Panaon",
+      "province_id": "misamis_occidental"
+    },
+    {
+      "id": "plaridel",
+      "name": "plaridel",
+      "text": "Plaridel",
+      "province_id": "misamis_occidental"
+    },
+    {
+      "id": "sapang_dalaga",
+      "name": "sapang_dalaga",
+      "text": "Sapang Dalaga",
+      "province_id": "misamis_occidental"
+    },
+    {
+      "id": "sinacaban",
+      "name": "sinacaban",
+      "text": "Sinacaban",
+      "province_id": "misamis_occidental"
+    },
+    {
+      "id": "tangub_city",
+      "name": "tangub_city",
+      "text": "Tangub City",
+      "province_id": "misamis_occidental"
+    },
+    {
+      "id": "tudela",
+      "name": "tudela",
+      "text": "Tudela",
+      "province_id": "misamis_occidental"
+    },
+    {
+      "id": "alubijid",
+      "name": "alubijid",
+      "text": "Alubijid",
       "province_id": "misamis_oriental"
     },
     {
+      "id": "balingasag",
+      "name": "balingasag",
+      "text": "Balingasag",
+      "province_id": "misamis_oriental"
+    },
+    {
+      "id": "balingoan",
+      "name": "balingoan",
+      "text": "Balingoan",
+      "province_id": "misamis_oriental"
+    },
+    {
+      "id": "binuangan",
+      "name": "binuangan",
+      "text": "Binuangan",
+      "province_id": "misamis_oriental"
+    },
+    {
+      "id": "cagayan_de_oro_city",
+      "name": "cagayan_de_oro_city",
+      "text": "Cagayan de Oro City",
+      "province_id": "misamis_oriental"
+    },
+    {
+      "id": "claveria",
+      "name": "claveria",
+      "text": "Claveria",
+      "province_id": "misamis_oriental"
+    },
+    {
+      "id": "el_salvador_city",
+      "name": "el_salvador_city",
+      "text": "El Salvador City",
+      "province_id": "misamis_oriental"
+    },
+    {
+      "id": "gingoog_city",
+      "name": "gingoog_city",
+      "text": "Gingoog City",
+      "province_id": "misamis_oriental"
+    },
+    {
+      "id": "gitagum",
+      "name": "gitagum",
+      "text": "Gitagum",
+      "province_id": "misamis_oriental"
+    },
+    {
+      "id": "initao",
+      "name": "initao",
+      "text": "Initao",
+      "province_id": "misamis_oriental"
+    },
+    {
+      "id": "jasaan",
+      "name": "jasaan",
+      "text": "Jasaan",
+      "province_id": "misamis_oriental"
+    },
+    {
+      "id": "kinoguitan",
+      "name": "kinoguitan",
+      "text": "Kinoguitan",
+      "province_id": "misamis_oriental"
+    },
+    {
+      "id": "lagonglong",
+      "name": "lagonglong",
+      "text": "Lagonglong",
+      "province_id": "misamis_oriental"
+    },
+    {
+      "id": "laguindingan",
+      "name": "laguindingan",
+      "text": "Laguindingan",
+      "province_id": "misamis_oriental"
+    },
+    {
+      "id": "libertad",
+      "name": "libertad",
+      "text": "Libertad",
+      "province_id": "misamis_oriental"
+    },
+    {
+      "id": "lugait",
+      "name": "lugait",
+      "text": "Lugait",
+      "province_id": "misamis_oriental"
+    },
+    {
+      "id": "magsaysay",
+      "name": "magsaysay",
+      "text": "Magsaysay",
+      "province_id": "misamis_oriental"
+    },
+    {
+      "id": "manticao",
+      "name": "manticao",
+      "text": "Manticao",
+      "province_id": "misamis_oriental"
+    },
+    {
+      "id": "medina",
+      "name": "medina",
+      "text": "Medina",
+      "province_id": "misamis_oriental"
+    },
+    {
+      "id": "naawan",
+      "name": "naawan",
+      "text": "Naawan",
+      "province_id": "misamis_oriental"
+    },
+    {
+      "id": "opol",
+      "name": "opol",
+      "text": "Opol",
+      "province_id": "misamis_oriental"
+    },
+    {
+      "id": "salay",
+      "name": "salay",
+      "text": "Salay",
+      "province_id": "misamis_oriental"
+    },
+    {
+      "id": "sugbongcogon",
+      "name": "sugbongcogon",
+      "text": "Sugbongcogon",
+      "province_id": "misamis_oriental"
+    },
+    {
+      "id": "tagoloan",
+      "name": "tagoloan",
+      "text": "Tagoloan",
+      "province_id": "misamis_oriental"
+    },
+    {
+      "id": "talisayan",
+      "name": "talisayan",
+      "text": "Talisayan",
+      "province_id": "misamis_oriental"
+    },
+    {
+      "id": "villanueva",
+      "name": "villanueva",
+      "text": "Villanueva",
+      "province_id": "misamis_oriental"
+    },
+    {
+      "id": "barlig",
+      "name": "barlig",
+      "text": "Barlig",
       "province_id": "mountain_province"
     },
     {
+      "id": "bauko",
+      "name": "bauko",
+      "text": "Bauko",
+      "province_id": "mountain_province"
+    },
+    {
+      "id": "besao",
+      "name": "besao",
+      "text": "Besao",
+      "province_id": "mountain_province"
+    },
+    {
+      "id": "bontoc",
+      "name": "bontoc",
+      "text": "Bontoc",
+      "province_id": "mountain_province"
+    },
+    {
+      "id": "natonin",
+      "name": "natonin",
+      "text": "Natonin",
+      "province_id": "mountain_province"
+    },
+    {
+      "id": "paracelis",
+      "name": "paracelis",
+      "text": "Paracelis",
+      "province_id": "mountain_province"
+    },
+    {
+      "id": "sabangan",
+      "name": "sabangan",
+      "text": "Sabangan",
+      "province_id": "mountain_province"
+    },
+    {
+      "id": "sadanga",
+      "name": "sadanga",
+      "text": "Sadanga",
+      "province_id": "mountain_province"
+    },
+    {
+      "id": "sagada",
+      "name": "sagada",
+      "text": "Sagada",
+      "province_id": "mountain_province"
+    },
+    {
+      "id": "tadian",
+      "name": "tadian",
+      "text": "Tadian",
+      "province_id": "mountain_province"
+    },
+    {
+      "id": "bago_city",
+      "name": "bago_city",
+      "text": "Bago City",
       "province_id": "negros_occidental"
     },
     {
+      "id": "binalbagan",
+      "name": "binalbagan",
+      "text": "Binalbagan",
+      "province_id": "negros_occidental"
+    },
+    {
+      "id": "cadiz_city",
+      "name": "cadiz_city",
+      "text": "Cadiz City",
+      "province_id": "negros_occidental"
+    },
+    {
+      "id": "calatrava",
+      "name": "calatrava",
+      "text": "Calatrava",
+      "province_id": "negros_occidental"
+    },
+    {
+      "id": "candoni",
+      "name": "candoni",
+      "text": "Candoni",
+      "province_id": "negros_occidental"
+    },
+    {
+      "id": "cauayan",
+      "name": "cauayan",
+      "text": "Cauayan",
+      "province_id": "negros_occidental"
+    },
+    {
+      "id": "enrique_b_magalona",
+      "name": "enrique_b_magalona",
+      "text": "Enrique B. Magalona",
+      "province_id": "negros_occidental"
+    },
+    {
+      "id": "escalante_city",
+      "name": "escalante_city",
+      "text": "Escalante City",
+      "province_id": "negros_occidental"
+    },
+    {
+      "id": "himamaylan_city",
+      "name": "himamaylan_city",
+      "text": "Himamaylan City",
+      "province_id": "negros_occidental"
+    },
+    {
+      "id": "hinigaran",
+      "name": "hinigaran",
+      "text": "Hinigaran",
+      "province_id": "negros_occidental"
+    },
+    {
+      "id": "hinoba-an",
+      "name": "hinoba-an",
+      "text": "Hinoba-an",
+      "province_id": "negros_occidental"
+    },
+    {
+      "id": "ilog",
+      "name": "ilog",
+      "text": "Ilog",
+      "province_id": "negros_occidental"
+    },
+    {
+      "id": "isabela",
+      "name": "isabela",
+      "text": "Isabela",
+      "province_id": "negros_occidental"
+    },
+    {
+      "id": "kabankalan_city",
+      "name": "kabankalan_city",
+      "text": "Kabankalan City",
+      "province_id": "negros_occidental"
+    },
+    {
+      "id": "la_carlota_city",
+      "name": "la_carlota_city",
+      "text": "La Carlota City",
+      "province_id": "negros_occidental"
+    },
+    {
+      "id": "la_castellana",
+      "name": "la_castellana",
+      "text": "La Castellana",
+      "province_id": "negros_occidental"
+    },
+    {
+      "id": "manapla",
+      "name": "manapla",
+      "text": "Manapla",
+      "province_id": "negros_occidental"
+    },
+    {
+      "id": "moises_padilla",
+      "name": "moises_padilla",
+      "text": "Moises Padilla",
+      "province_id": "negros_occidental"
+    },
+    {
+      "id": "murcia",
+      "name": "murcia",
+      "text": "Murcia",
+      "province_id": "negros_occidental"
+    },
+    {
+      "id": "pontevedra",
+      "name": "pontevedra",
+      "text": "Pontevedra",
+      "province_id": "negros_occidental"
+    },
+    {
+      "id": "pulupandan",
+      "name": "pulupandan",
+      "text": "Pulupandan",
+      "province_id": "negros_occidental"
+    },
+    {
+      "id": "sagay_city",
+      "name": "sagay_city",
+      "text": "Sagay City",
+      "province_id": "negros_occidental"
+    },
+    {
+      "id": "salvador_benedicto",
+      "name": "salvador_benedicto",
+      "text": "Salvador Benedicto",
+      "province_id": "negros_occidental"
+    },
+    {
+      "id": "san_carlos_city",
+      "name": "san_carlos_city",
+      "text": "San Carlos City",
+      "province_id": "negros_occidental"
+    },
+    {
+      "id": "san_enrique",
+      "name": "san_enrique",
+      "text": "San Enrique",
+      "province_id": "negros_occidental"
+    },
+    {
+      "id": "silay_city",
+      "name": "silay_city",
+      "text": "Silay City",
+      "province_id": "negros_occidental"
+    },
+    {
+      "id": "sipalay_city",
+      "name": "sipalay_city",
+      "text": "Sipalay City",
+      "province_id": "negros_occidental"
+    },
+    {
+      "id": "talisay_city",
+      "name": "talisay_city",
+      "text": "Talisay City",
+      "province_id": "negros_occidental"
+    },
+    {
+      "id": "toboso",
+      "name": "toboso",
+      "text": "Toboso",
+      "province_id": "negros_occidental"
+    },
+    {
+      "id": "valladolid",
+      "name": "valladolid",
+      "text": "Valladolid",
+      "province_id": "negros_occidental"
+    },
+    {
+      "id": "victorias_city",
+      "name": "victorias_city",
+      "text": "Victorias City",
+      "province_id": "negros_occidental"
+    },
+    {
+      "id": "bacolod_city",
+      "name": "bacolod_city",
+      "text": "Bacolod City",
+      "province_id": "negros_occidental"
+    },
+    {
+      "id": "amlan",
+      "name": "amlan",
+      "text": "Amlan",
       "province_id": "negros_oriental"
     },
     {
+      "id": "ayungon",
+      "name": "ayungon",
+      "text": "Ayungon",
+      "province_id": "negros_oriental"
+    },
+    {
+      "id": "bacong",
+      "name": "bacong",
+      "text": "Bacong",
+      "province_id": "negros_oriental"
+    },
+    {
+      "id": "basay",
+      "name": "basay",
+      "text": "Basay",
+      "province_id": "negros_oriental"
+    },
+    {
+      "id": "bayawan_city",
+      "name": "bayawan_city",
+      "text": "Bayawan City",
+      "province_id": "negros_oriental"
+    },
+    {
+      "id": "bindoy",
+      "name": "bindoy",
+      "text": "Bindoy",
+      "province_id": "negros_oriental"
+    },
+    {
+      "id": "canlaon_city",
+      "name": "canlaon_city",
+      "text": "Canlaon City",
+      "province_id": "negros_oriental"
+    },
+    {
+      "id": "dauin",
+      "name": "dauin",
+      "text": "Dauin",
+      "province_id": "negros_oriental"
+    },
+    {
+      "id": "dumaguete_city",
+      "name": "dumaguete_city",
+      "text": "Dumaguete City",
+      "province_id": "negros_oriental"
+    },
+    {
+      "id": "guihulngan_city",
+      "name": "guihulngan_city",
+      "text": "Guihulngan City",
+      "province_id": "negros_oriental"
+    },
+    {
+      "id": "jimalalud",
+      "name": "jimalalud",
+      "text": "Jimalalud",
+      "province_id": "negros_oriental"
+    },
+    {
+      "id": "la_libertad",
+      "name": "la_libertad",
+      "text": "La Libertad",
+      "province_id": "negros_oriental"
+    },
+    {
+      "id": "mabinay",
+      "name": "mabinay",
+      "text": "Mabinay",
+      "province_id": "negros_oriental"
+    },
+    {
+      "id": "manjuyod",
+      "name": "manjuyod",
+      "text": "Manjuyod",
+      "province_id": "negros_oriental"
+    },
+    {
+      "id": "pamplona",
+      "name": "pamplona",
+      "text": "Pamplona",
+      "province_id": "negros_oriental"
+    },
+    {
+      "id": "san_jose",
+      "name": "san_jose",
+      "text": "San Jose",
+      "province_id": "negros_oriental"
+    },
+    {
+      "id": "santa_catalina",
+      "name": "santa_catalina",
+      "text": "Santa Catalina",
+      "province_id": "negros_oriental"
+    },
+    {
+      "id": "siaton",
+      "name": "siaton",
+      "text": "Siaton",
+      "province_id": "negros_oriental"
+    },
+    {
+      "id": "sibulan",
+      "name": "sibulan",
+      "text": "Sibulan",
+      "province_id": "negros_oriental"
+    },
+    {
+      "id": "tanjay_city",
+      "name": "tanjay_city",
+      "text": "Tanjay City",
+      "province_id": "negros_oriental"
+    },
+    {
+      "id": "tayasan",
+      "name": "tayasan",
+      "text": "Tayasan",
+      "province_id": "negros_oriental"
+    },
+    {
+      "id": "valencia",
+      "name": "valencia",
+      "text": "Valencia",
+      "province_id": "negros_oriental"
+    },
+    {
+      "id": "vallehermoso",
+      "name": "vallehermoso",
+      "text": "Vallehermoso",
+      "province_id": "negros_oriental"
+    },
+    {
+      "id": "zamboanguita",
+      "name": "zamboanguita",
+      "text": "Zamboanguita",
+      "province_id": "negros_oriental"
+    },
+    {
+      "id": "allen",
+      "name": "allen",
+      "text": "Allen",
       "province_id": "northen_samar"
     },
     {
+      "id": "biri",
+      "name": "biri",
+      "text": "Biri",
+      "province_id": "northen_samar"
+    },
+    {
+      "id": "bobon",
+      "name": "bobon",
+      "text": "Bobon",
+      "province_id": "northen_samar"
+    },
+    {
+      "id": "capul",
+      "name": "capul",
+      "text": "Capul",
+      "province_id": "northen_samar"
+    },
+    {
+      "id": "catarman",
+      "name": "catarman",
+      "text": "Catarman",
+      "province_id": "northen_samar"
+    },
+    {
+      "id": "catubig",
+      "name": "catubig",
+      "text": "Catubig",
+      "province_id": "northen_samar"
+    },
+    {
+      "id": "gamay",
+      "name": "gamay",
+      "text": "Gamay",
+      "province_id": "northen_samar"
+    },
+    {
+      "id": "laoang",
+      "name": "laoang",
+      "text": "Laoang",
+      "province_id": "northen_samar"
+    },
+    {
+      "id": "lapinig",
+      "name": "lapinig",
+      "text": "Lapinig",
+      "province_id": "northen_samar"
+    },
+    {
+      "id": "las_navas",
+      "name": "las_navas",
+      "text": "Las Navas",
+      "province_id": "northen_samar"
+    },
+    {
+      "id": "lavezares",
+      "name": "lavezares",
+      "text": "Lavezares",
+      "province_id": "northen_samar"
+    },
+    {
+      "id": "lope_de_vega",
+      "name": "lope_de_vega",
+      "text": "Lope de Vega",
+      "province_id": "northen_samar"
+    },
+    {
+      "id": "mapanas",
+      "name": "mapanas",
+      "text": "Mapanas",
+      "province_id": "northen_samar"
+    },
+    {
+      "id": "mondragon",
+      "name": "mondragon",
+      "text": "Mondragon",
+      "province_id": "northen_samar"
+    },
+    {
+      "id": "palapag",
+      "name": "palapag",
+      "text": "Palapag",
+      "province_id": "northen_samar"
+    },
+    {
+      "id": "pambujan",
+      "name": "pambujan",
+      "text": "Pambujan",
+      "province_id": "northen_samar"
+    },
+    {
+      "id": "rosario",
+      "name": "rosario",
+      "text": "Rosario",
+      "province_id": "northen_samar"
+    },
+    {
+      "id": "san_antonio",
+      "name": "san_antonio",
+      "text": "San Antonio",
+      "province_id": "northen_samar"
+    },
+    {
+      "id": "san_isidro",
+      "name": "san_isidro",
+      "text": "San Isidro",
+      "province_id": "northen_samar"
+    },
+    {
+      "id": "san_jose",
+      "name": "san_jose",
+      "text": "San Jose",
+      "province_id": "northen_samar"
+    },
+    {
+      "id": "san_roque",
+      "name": "san_roque",
+      "text": "San Roque",
+      "province_id": "northen_samar"
+    },
+    {
+      "id": "san_vicente",
+      "name": "san_vicente",
+      "text": "San Vicente",
+      "province_id": "northen_samar"
+    },
+    {
+      "id": "silvino_lobos",
+      "name": "silvino_lobos",
+      "text": "Silvino Lobos",
+      "province_id": "northen_samar"
+    },
+    {
+      "id": "victoria",
+      "name": "victoria",
+      "text": "Victoria",
+      "province_id": "northen_samar"
+    },
+    {
+      "id": "aliaga",
+      "name": "aliaga",
+      "text": "Aliaga",
       "province_id": "nueva_ecija"
     },
     {
+      "id": "bongabon",
+      "name": "bongabon",
+      "text": "Bongabon",
+      "province_id": "nueva_ecija"
+    },
+    {
+      "id": "cabanatuan_city",
+      "name": "cabanatuan_city",
+      "text": "Cabanatuan City",
+      "province_id": "nueva_ecija"
+    },
+    {
+      "id": "cabiao",
+      "name": "cabiao",
+      "text": "Cabiao",
+      "province_id": "nueva_ecija"
+    },
+    {
+      "id": "carranglan",
+      "name": "carranglan",
+      "text": "Carranglan",
+      "province_id": "nueva_ecija"
+    },
+    {
+      "id": "cuyapo",
+      "name": "cuyapo",
+      "text": "Cuyapo",
+      "province_id": "nueva_ecija"
+    },
+    {
+      "id": "gabaldon",
+      "name": "gabaldon",
+      "text": "Gabaldon",
+      "province_id": "nueva_ecija"
+    },
+    {
+      "id": "gapan_city",
+      "name": "gapan_city",
+      "text": "Gapan City",
+      "province_id": "nueva_ecija"
+    },
+    {
+      "id": "general_mamerto_natividad",
+      "name": "general_mamerto_natividad",
+      "text": "General Mamerto Natividad",
+      "province_id": "nueva_ecija"
+    },
+    {
+      "id": "general_tinio",
+      "name": "general_tinio",
+      "text": "General Tinio",
+      "province_id": "nueva_ecija"
+    },
+    {
+      "id": "guimba",
+      "name": "guimba",
+      "text": "Guimba",
+      "province_id": "nueva_ecija"
+    },
+    {
+      "id": "jaen",
+      "name": "jaen",
+      "text": "Jaen",
+      "province_id": "nueva_ecija"
+    },
+    {
+      "id": "laur",
+      "name": "laur",
+      "text": "Laur",
+      "province_id": "nueva_ecija"
+    },
+    {
+      "id": "licab",
+      "name": "licab",
+      "text": "Licab",
+      "province_id": "nueva_ecija"
+    },
+    {
+      "id": "llanera",
+      "name": "llanera",
+      "text": "Llanera",
+      "province_id": "nueva_ecija"
+    },
+    {
+      "id": "lupao",
+      "name": "lupao",
+      "text": "Lupao",
+      "province_id": "nueva_ecija"
+    },
+    {
+      "id": "muñoz_city",
+      "name": "muñoz_city",
+      "text": "Muñoz City",
+      "province_id": "nueva_ecija"
+    },
+    {
+      "id": "nampicuan",
+      "name": "nampicuan",
+      "text": "Nampicuan",
+      "province_id": "nueva_ecija"
+    },
+    {
+      "id": "palayan_city",
+      "name": "palayan_city",
+      "text": "Palayan City",
+      "province_id": "nueva_ecija"
+    },
+    {
+      "id": "pantabangan",
+      "name": "pantabangan",
+      "text": "Pantabangan",
+      "province_id": "nueva_ecija"
+    },
+    {
+      "id": "peñaranda",
+      "name": "peñaranda",
+      "text": "Peñaranda",
+      "province_id": "nueva_ecija"
+    },
+    {
+      "id": "quezon",
+      "name": "quezon",
+      "text": "Quezon",
+      "province_id": "nueva_ecija"
+    },
+    {
+      "id": "rizal",
+      "name": "rizal",
+      "text": "Rizal",
+      "province_id": "nueva_ecija"
+    },
+    {
+      "id": "san_antonio",
+      "name": "san_antonio",
+      "text": "San Antonio",
+      "province_id": "nueva_ecija"
+    },
+    {
+      "id": "san_isidro",
+      "name": "san_isidro",
+      "text": "San Isidro",
+      "province_id": "nueva_ecija"
+    },
+    {
+      "id": "san_jose_city",
+      "name": "san_jose_city",
+      "text": "San Jose City",
+      "province_id": "nueva_ecija"
+    },
+    {
+      "id": "san_leonardo",
+      "name": "san_leonardo",
+      "text": "San Leonardo",
+      "province_id": "nueva_ecija"
+    },
+    {
+      "id": "santa_rosa",
+      "name": "santa_rosa",
+      "text": "Santa Rosa",
+      "province_id": "nueva_ecija"
+    },
+    {
+      "id": "santo_domingo",
+      "name": "santo_domingo",
+      "text": "Santo Domingo",
+      "province_id": "nueva_ecija"
+    },
+    {
+      "id": "talavera",
+      "name": "talavera",
+      "text": "Talavera",
+      "province_id": "nueva_ecija"
+    },
+    {
+      "id": "talugtug",
+      "name": "talugtug",
+      "text": "Talugtug",
+      "province_id": "nueva_ecija"
+    },
+    {
+      "id": "zaragoza",
+      "name": "zaragoza",
+      "text": "Zaragoza",
+      "province_id": "nueva_ecija"
+    },
+    {
+      "id": "alfonso_castañeda",
+      "name": "alfonso_castañeda",
+      "text": "Alfonso Castañeda",
       "province_id": "nueva_vizcaya"
     },
     {
+      "id": "ambaguio",
+      "name": "ambaguio",
+      "text": "Ambaguio",
+      "province_id": "nueva_vizcaya"
+    },
+    {
+      "id": "aritao",
+      "name": "aritao",
+      "text": "Aritao",
+      "province_id": "nueva_vizcaya"
+    },
+    {
+      "id": "bagabag",
+      "name": "bagabag",
+      "text": "Bagabag",
+      "province_id": "nueva_vizcaya"
+    },
+    {
+      "id": "bambang",
+      "name": "bambang",
+      "text": "Bambang",
+      "province_id": "nueva_vizcaya"
+    },
+    {
+      "id": "bayombong",
+      "name": "bayombong",
+      "text": "Bayombong",
+      "province_id": "nueva_vizcaya"
+    },
+    {
+      "id": "diadi",
+      "name": "diadi",
+      "text": "Diadi",
+      "province_id": "nueva_vizcaya"
+    },
+    {
+      "id": "dupax_del_norte",
+      "name": "dupax_del_norte",
+      "text": "Dupax del Norte",
+      "province_id": "nueva_vizcaya"
+    },
+    {
+      "id": "dupax_del_sur",
+      "name": "dupax_del_sur",
+      "text": "Dupax del Sur",
+      "province_id": "nueva_vizcaya"
+    },
+    {
+      "id": "kasibu",
+      "name": "kasibu",
+      "text": "Kasibu",
+      "province_id": "nueva_vizcaya"
+    },
+    {
+      "id": "kayapa",
+      "name": "kayapa",
+      "text": "Kayapa",
+      "province_id": "nueva_vizcaya"
+    },
+    {
+      "id": "quezon",
+      "name": "quezon",
+      "text": "Quezon",
+      "province_id": "nueva_vizcaya"
+    },
+    {
+      "id": "santa_fe",
+      "name": "santa_fe",
+      "text": "Santa Fe",
+      "province_id": "nueva_vizcaya"
+    },
+    {
+      "id": "solano",
+      "name": "solano",
+      "text": "Solano",
+      "province_id": "nueva_vizcaya"
+    },
+    {
+      "id": "villaverde",
+      "name": "villaverde",
+      "text": "Villaverde",
+      "province_id": "nueva_vizcaya"
+    },
+    {
+      "id": "abra_de_ilog",
+      "name": "abra_de_ilog",
+      "text": "Abra de Ilog",
       "province_id": "occidental_mindoro"
     },
     {
+      "id": "calintaan",
+      "name": "calintaan",
+      "text": "Calintaan",
+      "province_id": "occidental_mindoro"
+    },
+    {
+      "id": "looc",
+      "name": "looc",
+      "text": "Looc",
+      "province_id": "occidental_mindoro"
+    },
+    {
+      "id": "lubang",
+      "name": "lubang",
+      "text": "Lubang",
+      "province_id": "occidental_mindoro"
+    },
+    {
+      "id": "magsaysay",
+      "name": "magsaysay",
+      "text": "Magsaysay",
+      "province_id": "occidental_mindoro"
+    },
+    {
+      "id": "mamburao",
+      "name": "mamburao",
+      "text": "Mamburao",
+      "province_id": "occidental_mindoro"
+    },
+    {
+      "id": "paluan",
+      "name": "paluan",
+      "text": "Paluan",
+      "province_id": "occidental_mindoro"
+    },
+    {
+      "id": "rizal",
+      "name": "rizal",
+      "text": "Rizal",
+      "province_id": "occidental_mindoro"
+    },
+    {
+      "id": "sablayan",
+      "name": "sablayan",
+      "text": "Sablayan",
+      "province_id": "occidental_mindoro"
+    },
+    {
+      "id": "san_jose",
+      "name": "san_jose",
+      "text": "San Jose",
+      "province_id": "occidental_mindoro"
+    },
+    {
+      "id": "santa_cruz",
+      "name": "santa_cruz",
+      "text": "Santa Cruz",
+      "province_id": "occidental_mindoro"
+    },
+    {
+      "id": "baco",
+      "name": "baco",
+      "text": "Baco",
       "province_id": "oriental_mindoro"
     },
     {
+      "id": "bansud",
+      "name": "bansud",
+      "text": "Bansud",
+      "province_id": "oriental_mindoro"
+    },
+    {
+      "id": "bongabong",
+      "name": "bongabong",
+      "text": "Bongabong",
+      "province_id": "oriental_mindoro"
+    },
+    {
+      "id": "bulalacao",
+      "name": "bulalacao",
+      "text": "Bulalacao",
+      "province_id": "oriental_mindoro"
+    },
+    {
+      "id": "calapan_city",
+      "name": "calapan_city",
+      "text": "Calapan City",
+      "province_id": "oriental_mindoro"
+    },
+    {
+      "id": "gloria",
+      "name": "gloria",
+      "text": "Gloria",
+      "province_id": "oriental_mindoro"
+    },
+    {
+      "id": "mansalay",
+      "name": "mansalay",
+      "text": "Mansalay",
+      "province_id": "oriental_mindoro"
+    },
+    {
+      "id": "naujan",
+      "name": "naujan",
+      "text": "Naujan",
+      "province_id": "oriental_mindoro"
+    },
+    {
+      "id": "pinamalayan",
+      "name": "pinamalayan",
+      "text": "Pinamalayan",
+      "province_id": "oriental_mindoro"
+    },
+    {
+      "id": "pola",
+      "name": "pola",
+      "text": "Pola",
+      "province_id": "oriental_mindoro"
+    },
+    {
+      "id": "puerto_galera",
+      "name": "puerto_galera",
+      "text": "Puerto Galera",
+      "province_id": "oriental_mindoro"
+    },
+    {
+      "id": "roxas",
+      "name": "roxas",
+      "text": "Roxas",
+      "province_id": "oriental_mindoro"
+    },
+    {
+      "id": "san_teodoro",
+      "name": "san_teodoro",
+      "text": "San Teodoro",
+      "province_id": "oriental_mindoro"
+    },
+    {
+      "id": "socorro",
+      "name": "socorro",
+      "text": "Socorro",
+      "province_id": "oriental_mindoro"
+    },
+    {
+      "id": "victoria",
+      "name": "victoria",
+      "text": "Victoria",
+      "province_id": "oriental_mindoro"
+    },
+    {
+      "id": "aborlan",
+      "name": "aborlan",
+      "text": "Aborlan",
       "province_id": "palawan"
     },
     {
+      "id": "agutaya",
+      "name": "agutaya",
+      "text": "Agutaya",
+      "province_id": "palawan"
+    },
+    {
+      "id": "araceli",
+      "name": "araceli",
+      "text": "Araceli",
+      "province_id": "palawan"
+    },
+    {
+      "id": "balabac",
+      "name": "balabac",
+      "text": "Balabac",
+      "province_id": "palawan"
+    },
+    {
+      "id": "bataraza",
+      "name": "bataraza",
+      "text": "Bataraza",
+      "province_id": "palawan"
+    },
+    {
+      "id": "brooke’s_point",
+      "name": "brooke’s_point",
+      "text": "Brooke’s Point",
+      "province_id": "palawan"
+    },
+    {
+      "id": "busuanga",
+      "name": "busuanga",
+      "text": "Busuanga",
+      "province_id": "palawan"
+    },
+    {
+      "id": "cagayancillo",
+      "name": "cagayancillo",
+      "text": "Cagayancillo",
+      "province_id": "palawan"
+    },
+    {
+      "id": "coron",
+      "name": "coron",
+      "text": "Coron",
+      "province_id": "palawan"
+    },
+    {
+      "id": "culion",
+      "name": "culion",
+      "text": "Culion",
+      "province_id": "palawan"
+    },
+    {
+      "id": "cuyo",
+      "name": "cuyo",
+      "text": "Cuyo",
+      "province_id": "palawan"
+    },
+    {
+      "id": "dumaran",
+      "name": "dumaran",
+      "text": "Dumaran",
+      "province_id": "palawan"
+    },
+    {
+      "id": "el_nido",
+      "name": "el_nido",
+      "text": "El Nido",
+      "province_id": "palawan"
+    },
+    {
+      "id": "kalayaan",
+      "name": "kalayaan",
+      "text": "Kalayaan",
+      "province_id": "palawan"
+    },
+    {
+      "id": "linapacan",
+      "name": "linapacan",
+      "text": "Linapacan",
+      "province_id": "palawan"
+    },
+    {
+      "id": "magsaysay",
+      "name": "magsaysay",
+      "text": "Magsaysay",
+      "province_id": "palawan"
+    },
+    {
+      "id": "narra",
+      "name": "narra",
+      "text": "Narra",
+      "province_id": "palawan"
+    },
+    {
+      "id": "puerto_princesa_city",
+      "name": "puerto_princesa_city",
+      "text": "Puerto Princesa City",
+      "province_id": "palawan"
+    },
+    {
+      "id": "quezon",
+      "name": "quezon",
+      "text": "Quezon",
+      "province_id": "palawan"
+    },
+    {
+      "id": "rizal",
+      "name": "rizal",
+      "text": "Rizal",
+      "province_id": "palawan"
+    },
+    {
+      "id": "roxas",
+      "name": "roxas",
+      "text": "Roxas",
+      "province_id": "palawan"
+    },
+    {
+      "id": "san_vicente",
+      "name": "san_vicente",
+      "text": "San Vicente",
+      "province_id": "palawan"
+    },
+    {
+      "id": "sofronio_española",
+      "name": "sofronio_española",
+      "text": "Sofronio Española",
+      "province_id": "palawan"
+    },
+    {
+      "id": "taytay",
+      "name": "taytay",
+      "text": "Taytay",
+      "province_id": "palawan"
+    },
+    {
+      "id": "angeles_city",
+      "name": "angeles_city",
+      "text": "Angeles City",
       "province_id": "pampanga"
     },
     {
+      "id": "apalit",
+      "name": "apalit",
+      "text": "Apalit",
+      "province_id": "pampanga"
+    },
+    {
+      "id": "arayat",
+      "name": "arayat",
+      "text": "Arayat",
+      "province_id": "pampanga"
+    },
+    {
+      "id": "bacolor",
+      "name": "bacolor",
+      "text": "Bacolor",
+      "province_id": "pampanga"
+    },
+    {
+      "id": "candaba",
+      "name": "candaba",
+      "text": "Candaba",
+      "province_id": "pampanga"
+    },
+    {
+      "id": "floridablanca",
+      "name": "floridablanca",
+      "text": "Floridablanca",
+      "province_id": "pampanga"
+    },
+    {
+      "id": "guagua",
+      "name": "guagua",
+      "text": "Guagua",
+      "province_id": "pampanga"
+    },
+    {
+      "id": "lubao",
+      "name": "lubao",
+      "text": "Lubao",
+      "province_id": "pampanga"
+    },
+    {
+      "id": "mabalacat_city",
+      "name": "mabalacat_city",
+      "text": "Mabalacat City",
+      "province_id": "pampanga"
+    },
+    {
+      "id": "macabebe",
+      "name": "macabebe",
+      "text": "Macabebe",
+      "province_id": "pampanga"
+    },
+    {
+      "id": "magalang",
+      "name": "magalang",
+      "text": "Magalang",
+      "province_id": "pampanga"
+    },
+    {
+      "id": "masantol",
+      "name": "masantol",
+      "text": "Masantol",
+      "province_id": "pampanga"
+    },
+    {
+      "id": "mexico",
+      "name": "mexico",
+      "text": "Mexico",
+      "province_id": "pampanga"
+    },
+    {
+      "id": "minalin",
+      "name": "minalin",
+      "text": "Minalin",
+      "province_id": "pampanga"
+    },
+    {
+      "id": "porac",
+      "name": "porac",
+      "text": "Porac",
+      "province_id": "pampanga"
+    },
+    {
+      "id": "san_fernando_city",
+      "name": "san_fernando_city",
+      "text": "San Fernando City",
+      "province_id": "pampanga"
+    },
+    {
+      "id": "san_luis",
+      "name": "san_luis",
+      "text": "San Luis",
+      "province_id": "pampanga"
+    },
+    {
+      "id": "san_simon",
+      "name": "san_simon",
+      "text": "San Simon",
+      "province_id": "pampanga"
+    },
+    {
+      "id": "santa_ana",
+      "name": "santa_ana",
+      "text": "Santa Ana",
+      "province_id": "pampanga"
+    },
+    {
+      "id": "santa_rita",
+      "name": "santa_rita",
+      "text": "Santa Rita",
+      "province_id": "pampanga"
+    },
+    {
+      "id": "santo_tomas",
+      "name": "santo_tomas",
+      "text": "Santo Tomas",
+      "province_id": "pampanga"
+    },
+    {
+      "id": "sasmuan",
+      "name": "sasmuan",
+      "text": "Sasmuan",
+      "province_id": "pampanga"
+    },
+    {
+      "id": "agno",
+      "name": "agno",
+      "text": "Agno",
       "province_id": "pangasinan"
     },
     {
+      "id": "aguilar",
+      "name": "aguilar",
+      "text": "Aguilar",
+      "province_id": "pangasinan"
+    },
+    {
+      "id": "alaminos_city",
+      "name": "alaminos_city",
+      "text": "Alaminos City",
+      "province_id": "pangasinan"
+    },
+    {
+      "id": "alcala",
+      "name": "alcala",
+      "text": "Alcala",
+      "province_id": "pangasinan"
+    },
+    {
+      "id": "anda",
+      "name": "anda",
+      "text": "Anda",
+      "province_id": "pangasinan"
+    },
+    {
+      "id": "asingan",
+      "name": "asingan",
+      "text": "Asingan",
+      "province_id": "pangasinan"
+    },
+    {
+      "id": "balungao",
+      "name": "balungao",
+      "text": "Balungao",
+      "province_id": "pangasinan"
+    },
+    {
+      "id": "bani",
+      "name": "bani",
+      "text": "Bani",
+      "province_id": "pangasinan"
+    },
+    {
+      "id": "basista",
+      "name": "basista",
+      "text": "Basista",
+      "province_id": "pangasinan"
+    },
+    {
+      "id": "bautista",
+      "name": "bautista",
+      "text": "Bautista",
+      "province_id": "pangasinan"
+    },
+    {
+      "id": "bayambang",
+      "name": "bayambang",
+      "text": "Bayambang",
+      "province_id": "pangasinan"
+    },
+    {
+      "id": "binalonan",
+      "name": "binalonan",
+      "text": "Binalonan",
+      "province_id": "pangasinan"
+    },
+    {
+      "id": "binmaley",
+      "name": "binmaley",
+      "text": "Binmaley",
+      "province_id": "pangasinan"
+    },
+    {
+      "id": "bolinao",
+      "name": "bolinao",
+      "text": "Bolinao",
+      "province_id": "pangasinan"
+    },
+    {
+      "id": "bugallon",
+      "name": "bugallon",
+      "text": "Bugallon",
+      "province_id": "pangasinan"
+    },
+    {
+      "id": "burgos",
+      "name": "burgos",
+      "text": "Burgos",
+      "province_id": "pangasinan"
+    },
+    {
+      "id": "calasiao",
+      "name": "calasiao",
+      "text": "Calasiao",
+      "province_id": "pangasinan"
+    },
+    {
+      "id": "dagupan_city",
+      "name": "dagupan_city",
+      "text": "Dagupan City",
+      "province_id": "pangasinan"
+    },
+    {
+      "id": "dasol",
+      "name": "dasol",
+      "text": "Dasol",
+      "province_id": "pangasinan"
+    },
+    {
+      "id": "infanta",
+      "name": "infanta",
+      "text": "Infanta",
+      "province_id": "pangasinan"
+    },
+    {
+      "id": "labrador",
+      "name": "labrador",
+      "text": "Labrador",
+      "province_id": "pangasinan"
+    },
+    {
+      "id": "laoac",
+      "name": "laoac",
+      "text": "Laoac",
+      "province_id": "pangasinan"
+    },
+    {
+      "id": "lingayen",
+      "name": "lingayen",
+      "text": "Lingayen",
+      "province_id": "pangasinan"
+    },
+    {
+      "id": "mabini",
+      "name": "mabini",
+      "text": "Mabini",
+      "province_id": "pangasinan"
+    },
+    {
+      "id": "malasiqui",
+      "name": "malasiqui",
+      "text": "Malasiqui",
+      "province_id": "pangasinan"
+    },
+    {
+      "id": "manaoag",
+      "name": "manaoag",
+      "text": "Manaoag",
+      "province_id": "pangasinan"
+    },
+    {
+      "id": "mangaldan",
+      "name": "mangaldan",
+      "text": "Mangaldan",
+      "province_id": "pangasinan"
+    },
+    {
+      "id": "mangatarem",
+      "name": "mangatarem",
+      "text": "Mangatarem",
+      "province_id": "pangasinan"
+    },
+    {
+      "id": "mapandan",
+      "name": "mapandan",
+      "text": "Mapandan",
+      "province_id": "pangasinan"
+    },
+    {
+      "id": "natividad",
+      "name": "natividad",
+      "text": "Natividad",
+      "province_id": "pangasinan"
+    },
+    {
+      "id": "pozorrubio",
+      "name": "pozorrubio",
+      "text": "Pozorrubio",
+      "province_id": "pangasinan"
+    },
+    {
+      "id": "rosales",
+      "name": "rosales",
+      "text": "Rosales",
+      "province_id": "pangasinan"
+    },
+    {
+      "id": "san_carlos_city",
+      "name": "san_carlos_city",
+      "text": "San Carlos City",
+      "province_id": "pangasinan"
+    },
+    {
+      "id": "san_fabian",
+      "name": "san_fabian",
+      "text": "San Fabian",
+      "province_id": "pangasinan"
+    },
+    {
+      "id": "san_jacinto",
+      "name": "san_jacinto",
+      "text": "San Jacinto",
+      "province_id": "pangasinan"
+    },
+    {
+      "id": "san_manuel",
+      "name": "san_manuel",
+      "text": "San Manuel",
+      "province_id": "pangasinan"
+    },
+    {
+      "id": "san_nicolas",
+      "name": "san_nicolas",
+      "text": "San Nicolas",
+      "province_id": "pangasinan"
+    },
+    {
+      "id": "san_quintin",
+      "name": "san_quintin",
+      "text": "San Quintin",
+      "province_id": "pangasinan"
+    },
+    {
+      "id": "santa_barbara",
+      "name": "santa_barbara",
+      "text": "Santa Barbara",
+      "province_id": "pangasinan"
+    },
+    {
+      "id": "santa_maria",
+      "name": "santa_maria",
+      "text": "Santa Maria",
+      "province_id": "pangasinan"
+    },
+    {
+      "id": "santo_tomas",
+      "name": "santo_tomas",
+      "text": "Santo Tomas",
+      "province_id": "pangasinan"
+    },
+    {
+      "id": "sison",
+      "name": "sison",
+      "text": "Sison",
+      "province_id": "pangasinan"
+    },
+    {
+      "id": "sual",
+      "name": "sual",
+      "text": "Sual",
+      "province_id": "pangasinan"
+    },
+    {
+      "id": "tayug",
+      "name": "tayug",
+      "text": "Tayug",
+      "province_id": "pangasinan"
+    },
+    {
+      "id": "umingan",
+      "name": "umingan",
+      "text": "Umingan",
+      "province_id": "pangasinan"
+    },
+    {
+      "id": "urbiztondo",
+      "name": "urbiztondo",
+      "text": "Urbiztondo",
+      "province_id": "pangasinan"
+    },
+    {
+      "id": "urdaneta_city",
+      "name": "urdaneta_city",
+      "text": "Urdaneta City",
+      "province_id": "pangasinan"
+    },
+    {
+      "id": "villasis",
+      "name": "villasis",
+      "text": "Villasis",
+      "province_id": "pangasinan"
+    },
+    {
+      "id": "agdangan",
+      "name": "agdangan",
+      "text": "Agdangan",
       "province_id": "quezon"
     },
     {
+      "id": "alabat",
+      "name": "alabat",
+      "text": "Alabat",
+      "province_id": "quezon"
+    },
+    {
+      "id": "atimonan",
+      "name": "atimonan",
+      "text": "Atimonan",
+      "province_id": "quezon"
+    },
+    {
+      "id": "buenavista",
+      "name": "buenavista",
+      "text": "Buenavista",
+      "province_id": "quezon"
+    },
+    {
+      "id": "burdeos",
+      "name": "burdeos",
+      "text": "Burdeos",
+      "province_id": "quezon"
+    },
+    {
+      "id": "calauag",
+      "name": "calauag",
+      "text": "Calauag",
+      "province_id": "quezon"
+    },
+    {
+      "id": "candelaria",
+      "name": "candelaria",
+      "text": "Candelaria",
+      "province_id": "quezon"
+    },
+    {
+      "id": "catanauan",
+      "name": "catanauan",
+      "text": "Catanauan",
+      "province_id": "quezon"
+    },
+    {
+      "id": "dolores",
+      "name": "dolores",
+      "text": "Dolores",
+      "province_id": "quezon"
+    },
+    {
+      "id": "general_luna",
+      "name": "general_luna",
+      "text": "General Luna",
+      "province_id": "quezon"
+    },
+    {
+      "id": "general_nakar",
+      "name": "general_nakar",
+      "text": "General Nakar",
+      "province_id": "quezon"
+    },
+    {
+      "id": "guinayangan",
+      "name": "guinayangan",
+      "text": "Guinayangan",
+      "province_id": "quezon"
+    },
+    {
+      "id": "gumaca",
+      "name": "gumaca",
+      "text": "Gumaca",
+      "province_id": "quezon"
+    },
+    {
+      "id": "infanta",
+      "name": "infanta",
+      "text": "Infanta",
+      "province_id": "quezon"
+    },
+    {
+      "id": "jomalig",
+      "name": "jomalig",
+      "text": "Jomalig",
+      "province_id": "quezon"
+    },
+    {
+      "id": "lopez",
+      "name": "lopez",
+      "text": "Lopez",
+      "province_id": "quezon"
+    },
+    {
+      "id": "lucban",
+      "name": "lucban",
+      "text": "Lucban",
+      "province_id": "quezon"
+    },
+    {
+      "id": "lucena_city",
+      "name": "lucena_city",
+      "text": "Lucena City",
+      "province_id": "quezon"
+    },
+    {
+      "id": "macalelon",
+      "name": "macalelon",
+      "text": "Macalelon",
+      "province_id": "quezon"
+    },
+    {
+      "id": "mauban",
+      "name": "mauban",
+      "text": "Mauban",
+      "province_id": "quezon"
+    },
+    {
+      "id": "mulanay",
+      "name": "mulanay",
+      "text": "Mulanay",
+      "province_id": "quezon"
+    },
+    {
+      "id": "padre_burgos",
+      "name": "padre_burgos",
+      "text": "Padre Burgos",
+      "province_id": "quezon"
+    },
+    {
+      "id": "pagbilao",
+      "name": "pagbilao",
+      "text": "Pagbilao",
+      "province_id": "quezon"
+    },
+    {
+      "id": "panukulan",
+      "name": "panukulan",
+      "text": "Panukulan",
+      "province_id": "quezon"
+    },
+    {
+      "id": "patnanungan",
+      "name": "patnanungan",
+      "text": "Patnanungan",
+      "province_id": "quezon"
+    },
+    {
+      "id": "perez",
+      "name": "perez",
+      "text": "Perez",
+      "province_id": "quezon"
+    },
+    {
+      "id": "pitogo",
+      "name": "pitogo",
+      "text": "Pitogo",
+      "province_id": "quezon"
+    },
+    {
+      "id": "plaridel",
+      "name": "plaridel",
+      "text": "Plaridel",
+      "province_id": "quezon"
+    },
+    {
+      "id": "polillo",
+      "name": "polillo",
+      "text": "Polillo",
+      "province_id": "quezon"
+    },
+    {
+      "id": "quezon",
+      "name": "quezon",
+      "text": "Quezon",
+      "province_id": "quezon"
+    },
+    {
+      "id": "real",
+      "name": "real",
+      "text": "Real",
+      "province_id": "quezon"
+    },
+    {
+      "id": "sampaloc",
+      "name": "sampaloc",
+      "text": "Sampaloc",
+      "province_id": "quezon"
+    },
+    {
+      "id": "san_andres",
+      "name": "san_andres",
+      "text": "San Andres",
+      "province_id": "quezon"
+    },
+    {
+      "id": "san_antonio",
+      "name": "san_antonio",
+      "text": "San Antonio",
+      "province_id": "quezon"
+    },
+    {
+      "id": "san_francisco",
+      "name": "san_francisco",
+      "text": "San Francisco",
+      "province_id": "quezon"
+    },
+    {
+      "id": "san_narciso",
+      "name": "san_narciso",
+      "text": "San Narciso",
+      "province_id": "quezon"
+    },
+    {
+      "id": "sariaya",
+      "name": "sariaya",
+      "text": "Sariaya",
+      "province_id": "quezon"
+    },
+    {
+      "id": "tagkawayan",
+      "name": "tagkawayan",
+      "text": "Tagkawayan",
+      "province_id": "quezon"
+    },
+    {
+      "id": "tayabas_city",
+      "name": "tayabas_city",
+      "text": "Tayabas City",
+      "province_id": "quezon"
+    },
+    {
+      "id": "tiaong",
+      "name": "tiaong",
+      "text": "Tiaong",
+      "province_id": "quezon"
+    },
+    {
+      "id": "unisan",
+      "name": "unisan",
+      "text": "Unisan",
+      "province_id": "quezon"
+    },
+    {
+      "id": "aglipay",
+      "name": "aglipay",
+      "text": "Aglipay",
       "province_id": "quirino"
     },
     {
+      "id": "cabarroguis",
+      "name": "cabarroguis",
+      "text": "Cabarroguis",
+      "province_id": "quirino"
+    },
+    {
+      "id": "diffun",
+      "name": "diffun",
+      "text": "Diffun",
+      "province_id": "quirino"
+    },
+    {
+      "id": "maddela",
+      "name": "maddela",
+      "text": "Maddela",
+      "province_id": "quirino"
+    },
+    {
+      "id": "nagtipunan",
+      "name": "nagtipunan",
+      "text": "Nagtipunan",
+      "province_id": "quirino"
+    },
+    {
+      "id": "saguday",
+      "name": "saguday",
+      "text": "Saguday",
+      "province_id": "quirino"
+    },
+    {
+      "id": "angono",
+      "name": "angono",
+      "text": "Angono",
       "province_id": "rizal"
     },
     {
+      "id": "antipolo_city",
+      "name": "antipolo_city",
+      "text": "Antipolo City",
+      "province_id": "rizal"
+    },
+    {
+      "id": "baras",
+      "name": "baras",
+      "text": "Baras",
+      "province_id": "rizal"
+    },
+    {
+      "id": "binangonan",
+      "name": "binangonan",
+      "text": "Binangonan",
+      "province_id": "rizal"
+    },
+    {
+      "id": "cainta",
+      "name": "cainta",
+      "text": "Cainta",
+      "province_id": "rizal"
+    },
+    {
+      "id": "cardona",
+      "name": "cardona",
+      "text": "Cardona",
+      "province_id": "rizal"
+    },
+    {
+      "id": "jala_jala",
+      "name": "jala_jala",
+      "text": "Jala-Jala",
+      "province_id": "rizal"
+    },
+    {
+      "id": "morong",
+      "name": "morong",
+      "text": "Morong",
+      "province_id": "rizal"
+    },
+    {
+      "id": "pililla",
+      "name": "pililla",
+      "text": "Pililla",
+      "province_id": "rizal"
+    },
+    {
+      "id": "rodriguez",
+      "name": "rodriguez",
+      "text": "Rodriguez",
+      "province_id": "rizal"
+    },
+    {
+      "id": "san_mateo",
+      "name": "san_mateo",
+      "text": "San Mateo",
+      "province_id": "rizal"
+    },
+    {
+      "id": "tanay",
+      "name": "tanay",
+      "text": "Tanay",
+      "province_id": "rizal"
+    },
+    {
+      "id": "taytay",
+      "name": "taytay",
+      "text": "Taytay",
+      "province_id": "rizal"
+    },
+    {
+      "id": "teresa",
+      "name": "teresa",
+      "text": "Teresa",
+      "province_id": "rizal"
+    },
+    {
+      "id": "alcantara",
+      "name": "alcantara",
+      "text": "Alcantara",
       "province_id": "romblon"
     },
     {
+      "id": "banton",
+      "name": "banton",
+      "text": "Banton",
+      "province_id": "romblon"
+    },
+    {
+      "id": "cajidiocan",
+      "name": "cajidiocan",
+      "text": "Cajidiocan",
+      "province_id": "romblon"
+    },
+    {
+      "id": "calatrava",
+      "name": "calatrava",
+      "text": "Calatrava",
+      "province_id": "romblon"
+    },
+    {
+      "id": "concepcion",
+      "name": "concepcion",
+      "text": "Concepcion",
+      "province_id": "romblon"
+    },
+    {
+      "id": "corcuera",
+      "name": "corcuera",
+      "text": "Corcuera",
+      "province_id": "romblon"
+    },
+    {
+      "id": "ferrol",
+      "name": "ferrol",
+      "text": "Ferrol",
+      "province_id": "romblon"
+    },
+    {
+      "id": "looc",
+      "name": "looc",
+      "text": "Looc",
+      "province_id": "romblon"
+    },
+    {
+      "id": "magdiwang",
+      "name": "magdiwang",
+      "text": "Magdiwang",
+      "province_id": "romblon"
+    },
+    {
+      "id": "odiongan",
+      "name": "odiongan",
+      "text": "Odiongan",
+      "province_id": "romblon"
+    },
+    {
+      "id": "romblon",
+      "name": "romblon",
+      "text": "Romblon",
+      "province_id": "romblon"
+    },
+    {
+      "id": "san_agustin",
+      "name": "san_agustin",
+      "text": "San Agustin",
+      "province_id": "romblon"
+    },
+    {
+      "id": "san_andres",
+      "name": "san_andres",
+      "text": "San Andres",
+      "province_id": "romblon"
+    },
+    {
+      "id": "san_fernando",
+      "name": "san_fernando",
+      "text": "San Fernando",
+      "province_id": "romblon"
+    },
+    {
+      "id": "san_jose",
+      "name": "san_jose",
+      "text": "San Jose",
+      "province_id": "romblon"
+    },
+    {
+      "id": "santa_fe",
+      "name": "santa_fe",
+      "text": "Santa Fe",
+      "province_id": "romblon"
+    },
+    {
+      "id": "santa_maria",
+      "name": "santa_maria",
+      "text": "Santa Maria",
+      "province_id": "romblon"
+    },
+    {
+      "id": "almagro",
+      "name": "almagro",
+      "text": "Almagro",
       "province_id": "samar"
     },
     {
+      "id": "basey",
+      "name": "basey",
+      "text": "Basey",
+      "province_id": "samar"
+    },
+    {
+      "id": "calbayog_city",
+      "name": "calbayog_city",
+      "text": "Calbayog City",
+      "province_id": "samar"
+    },
+    {
+      "id": "calbiga",
+      "name": "calbiga",
+      "text": "Calbiga",
+      "province_id": "samar"
+    },
+    {
+      "id": "catarman",
+      "name": "catarman",
+      "text": "Catarman",
+      "province_id": "samar"
+    },
+    {
+      "id": "daram",
+      "name": "daram",
+      "text": "Daram",
+      "province_id": "samar"
+    },
+    {
+      "id": "gandara",
+      "name": "gandara",
+      "text": "Gandara",
+      "province_id": "samar"
+    },
+    {
+      "id": "hinabangan",
+      "name": "hinabangan",
+      "text": "Hinabangan",
+      "province_id": "samar"
+    },
+    {
+      "id": "jiabong",
+      "name": "jiabong",
+      "text": "Jiabong",
+      "province_id": "samar"
+    },
+    {
+      "id": "marabut",
+      "name": "marabut",
+      "text": "Marabut",
+      "province_id": "samar"
+    },
+    {
+      "id": "matuguinao",
+      "name": "matuguinao",
+      "text": "Matuguinao",
+      "province_id": "samar"
+    },
+    {
+      "id": "motiong",
+      "name": "motiong",
+      "text": "Motiong",
+      "province_id": "samar"
+    },
+    {
+      "id": "pagsanghan",
+      "name": "pagsanghan",
+      "text": "Pagsanghan",
+      "province_id": "samar"
+    },
+    {
+      "id": "paranas",
+      "name": "paranas",
+      "text": "Paranas",
+      "province_id": "samar"
+    },
+    {
+      "id": "pinabacdao",
+      "name": "pinabacdao",
+      "text": "Pinabacdao",
+      "province_id": "samar"
+    },
+    {
+      "id": "san_jorge",
+      "name": "san_jorge",
+      "text": "San Jorge",
+      "province_id": "samar"
+    },
+    {
+      "id": "san_jose_de_buan",
+      "name": "san_jose_de_buan",
+      "text": "San Jose de Buan",
+      "province_id": "samar"
+    },
+    {
+      "id": "san_sebastian",
+      "name": "san_sebastian",
+      "text": "San Sebastian",
+      "province_id": "samar"
+    },
+    {
+      "id": "santa_margarita",
+      "name": "santa_margarita",
+      "text": "Santa Margarita",
+      "province_id": "samar"
+    },
+    {
+      "id": "santa_rita",
+      "name": "santa_rita",
+      "text": "Santa Rita",
+      "province_id": "samar"
+    },
+    {
+      "id": "santo_niño",
+      "name": "santo_niño",
+      "text": "Santo Niño",
+      "province_id": "samar"
+    },
+    {
+      "id": "tagapul-an",
+      "name": "tagapul-an",
+      "text": "Tagapul-an",
+      "province_id": "samar"
+    },
+    {
+      "id": "talalora",
+      "name": "talalora",
+      "text": "Talalora",
+      "province_id": "samar"
+    },
+    {
+      "id": "tarangnan",
+      "name": "tarangnan",
+      "text": "Tarangnan",
+      "province_id": "samar"
+    },
+    {
+      "id": "villareal",
+      "name": "villareal",
+      "text": "Villareal",
+      "province_id": "samar"
+    },
+    {
+      "id": "zumarraga",
+      "name": "zumarraga",
+      "text": "Zumarraga",
+      "province_id": "samar"
+    },
+    {
+      "id": "alabel",
+      "name": "alabel",
+      "text": "Alabel",
       "province_id": "sarangani"
     },
     {
+      "id": "glan",
+      "name": "glan",
+      "text": "Glan",
+      "province_id": "sarangani"
+    },
+    {
+      "id": "kiamba",
+      "name": "kiamba",
+      "text": "Kiamba",
+      "province_id": "sarangani"
+    },
+    {
+      "id": "maasim",
+      "name": "maasim",
+      "text": "Maasim",
+      "province_id": "sarangani"
+    },
+    {
+      "id": "maitum",
+      "name": "maitum",
+      "text": "Maitum",
+      "province_id": "sarangani"
+    },
+    {
+      "id": "malapatan",
+      "name": "malapatan",
+      "text": "Malapatan",
+      "province_id": "sarangani"
+    },
+    {
+      "id": "malungon",
+      "name": "malungon",
+      "text": "Malungon",
+      "province_id": "sarangani"
+    },
+    {
+      "id": "enrique_villanueva",
+      "name": "enrique_villanueva",
+      "text": "Enrique Villanueva",
       "province_id": "siquijor"
     },
     {
+      "id": "larena",
+      "name": "larena",
+      "text": "Larena",
+      "province_id": "siquijor"
+    },
+    {
+      "id": "lazi",
+      "name": "lazi",
+      "text": "Lazi",
+      "province_id": "siquijor"
+    },
+    {
+      "id": "maria",
+      "name": "maria",
+      "text": "Maria",
+      "province_id": "siquijor"
+    },
+    {
+      "id": "san_juan",
+      "name": "san_juan",
+      "text": "San Juan",
+      "province_id": "siquijor"
+    },
+    {
+      "id": "siquijor",
+      "name": "siquijor",
+      "text": "Siquijor",
+      "province_id": "siquijor"
+    },
+    {
+      "id": "barcelona",
+      "name": "barcelona",
+      "text": "Barcelona",
       "province_id": "sorsogon"
     },
     {
+      "id": "bulan",
+      "name": "bulan",
+      "text": "Bulan",
+      "province_id": "sorsogon"
+    },
+    {
+      "id": "bulusan",
+      "name": "bulusan",
+      "text": "Bulusan",
+      "province_id": "sorsogon"
+    },
+    {
+      "id": "casiguran",
+      "name": "casiguran",
+      "text": "Casiguran",
+      "province_id": "sorsogon"
+    },
+    {
+      "id": "castilla",
+      "name": "castilla",
+      "text": "Castilla",
+      "province_id": "sorsogon"
+    },
+    {
+      "id": "donsol",
+      "name": "donsol",
+      "text": "Donsol",
+      "province_id": "sorsogon"
+    },
+    {
+      "id": "gubat",
+      "name": "gubat",
+      "text": "Gubat",
+      "province_id": "sorsogon"
+    },
+    {
+      "id": "irosin",
+      "name": "irosin",
+      "text": "Irosin",
+      "province_id": "sorsogon"
+    },
+    {
+      "id": "juban",
+      "name": "juban",
+      "text": "Juban",
+      "province_id": "sorsogon"
+    },
+    {
+      "id": "magallanes",
+      "name": "magallanes",
+      "text": "Magallanes",
+      "province_id": "sorsogon"
+    },
+    {
+      "id": "matnog",
+      "name": "matnog",
+      "text": "Matnog",
+      "province_id": "sorsogon"
+    },
+    {
+      "id": "pilar",
+      "name": "pilar",
+      "text": "Pilar",
+      "province_id": "sorsogon"
+    },
+    {
+      "id": "prieto_diaz",
+      "name": "prieto_diaz",
+      "text": "Prieto Diaz",
+      "province_id": "sorsogon"
+    },
+    {
+      "id": "sorsogon_city",
+      "name": "sorsogon_city",
+      "text": "Sorsogon City",
+      "province_id": "sorsogon"
+    },
+    {
+      "id": "sta_magdalena",
+      "name": "sta_magdalena",
+      "text": "Sta. Magdalena",
+      "province_id": "sorsogon"
+    },
+    {
+      "id": "banga",
+      "name": "banga",
+      "text": "Banga",
       "province_id": "south_cotabato"
     },
     {
+      "id": "general_santos_city",
+      "name": "general_santos_city",
+      "text": "General Santos City",
+      "province_id": "south_cotabato"
+    },
+    {
+      "id": "koronadal_city",
+      "name": "koronadal_city",
+      "text": "Koronadal City",
+      "province_id": "south_cotabato"
+    },
+    {
+      "id": "lake_sebu",
+      "name": "lake_sebu",
+      "text": "Lake Sebu",
+      "province_id": "south_cotabato"
+    },
+    {
+      "id": "norala",
+      "name": "norala",
+      "text": "Norala",
+      "province_id": "south_cotabato"
+    },
+    {
+      "id": "polomolok",
+      "name": "polomolok",
+      "text": "Polomolok",
+      "province_id": "south_cotabato"
+    },
+    {
+      "id": "santo_niño",
+      "name": "santo_niño",
+      "text": "Santo Niño",
+      "province_id": "south_cotabato"
+    },
+    {
+      "id": "surallah",
+      "name": "surallah",
+      "text": "Surallah",
+      "province_id": "south_cotabato"
+    },
+    {
+      "id": "tampakan",
+      "name": "tampakan",
+      "text": "Tampakan",
+      "province_id": "south_cotabato"
+    },
+    {
+      "id": "tantangan",
+      "name": "tantangan",
+      "text": "Tantangan",
+      "province_id": "south_cotabato"
+    },
+    {
+      "id": "t_boli",
+      "name": "t_boli",
+      "text": "T’Boli",
+      "province_id": "south_cotabato"
+    },
+    {
+      "id": "tupi",
+      "name": "tupi",
+      "text": "Tupi",
+      "province_id": "south_cotabato"
+    },
+    {
+      "id": "anahawan",
+      "name": "anahawan",
+      "text": "Anahawan",
       "province_id": "southern_leyte"
     },
     {
+      "id": "bontoc",
+      "name": "bontoc",
+      "text": "Bontoc",
+      "province_id": "southern_leyte"
+    },
+    {
+      "id": "hinunangan",
+      "name": "hinunangan",
+      "text": "Hinunangan",
+      "province_id": "southern_leyte"
+    },
+    {
+      "id": "hinundayan",
+      "name": "hinundayan",
+      "text": "Hinundayan",
+      "province_id": "southern_leyte"
+    },
+    {
+      "id": "libagon",
+      "name": "libagon",
+      "text": "Libagon",
+      "province_id": "southern_leyte"
+    },
+    {
+      "id": "liloan",
+      "name": "liloan",
+      "text": "Liloan",
+      "province_id": "southern_leyte"
+    },
+    {
+      "id": "limasawa",
+      "name": "limasawa",
+      "text": "Limasawa",
+      "province_id": "southern_leyte"
+    },
+    {
+      "id": "maasin_city",
+      "name": "maasin_city",
+      "text": "Maasin City",
+      "province_id": "southern_leyte"
+    },
+    {
+      "id": "macrohon",
+      "name": "macrohon",
+      "text": "Macrohon",
+      "province_id": "southern_leyte"
+    },
+    {
+      "id": "malitbog",
+      "name": "malitbog",
+      "text": "Malitbog",
+      "province_id": "southern_leyte"
+    },
+    {
+      "id": "padre_burgos",
+      "name": "padre_burgos",
+      "text": "Padre Burgos",
+      "province_id": "southern_leyte"
+    },
+    {
+      "id": "pintuyan",
+      "name": "pintuyan",
+      "text": "Pintuyan",
+      "province_id": "southern_leyte"
+    },
+    {
+      "id": "saint_bernard",
+      "name": "saint_bernard",
+      "text": "Saint Bernard",
+      "province_id": "southern_leyte"
+    },
+    {
+      "id": "san_francisco",
+      "name": "san_francisco",
+      "text": "San Francisco",
+      "province_id": "southern_leyte"
+    },
+    {
+      "id": "san_juan",
+      "name": "san_juan",
+      "text": "San Juan",
+      "province_id": "southern_leyte"
+    },
+    {
+      "id": "san_ricardo",
+      "name": "san_ricardo",
+      "text": "San Ricardo",
+      "province_id": "southern_leyte"
+    },
+    {
+      "id": "silago",
+      "name": "silago",
+      "text": "Silago",
+      "province_id": "southern_leyte"
+    },
+    {
+      "id": "sogod",
+      "name": "sogod",
+      "text": "Sogod",
+      "province_id": "southern_leyte"
+    },
+    {
+      "id": "tomas_oppus",
+      "name": "tomas_oppus",
+      "text": "Tomas Oppus",
+      "province_id": "southern_leyte"
+    },
+    {
+      "id": "tongonan",
+      "name": "tongonan",
+      "text": "Tongonan",
+      "province_id": "southern_leyte"
+    },
+    {
+      "id": "bagumbayan",
+      "name": "bagumbayan",
+      "text": "Bagumbayan",
       "province_id": "sultan_kudarat"
     },
     {
+      "id": "columbio",
+      "name": "columbio",
+      "text": "Columbio",
+      "province_id": "sultan_kudarat"
+    },
+    {
+      "id": "esperanza",
+      "name": "esperanza",
+      "text": "Esperanza",
+      "province_id": "sultan_kudarat"
+    },
+    {
+      "id": "isulan",
+      "name": "isulan",
+      "text": "Isulan",
+      "province_id": "sultan_kudarat"
+    },
+    {
+      "id": "kalamansig",
+      "name": "kalamansig",
+      "text": "Kalamansig",
+      "province_id": "sultan_kudarat"
+    },
+    {
+      "id": "lambayong",
+      "name": "lambayong",
+      "text": "Lambayong",
+      "province_id": "sultan_kudarat"
+    },
+    {
+      "id": "lebak",
+      "name": "lebak",
+      "text": "Lebak",
+      "province_id": "sultan_kudarat"
+    },
+    {
+      "id": "lutayan",
+      "name": "lutayan",
+      "text": "Lutayan",
+      "province_id": "sultan_kudarat"
+    },
+    {
+      "id": "palimbang",
+      "name": "palimbang",
+      "text": "Palimbang",
+      "province_id": "sultan_kudarat"
+    },
+    {
+      "id": "president_quirino",
+      "name": "president_quirino",
+      "text": "President Quirino",
+      "province_id": "sultan_kudarat"
+    },
+    {
+      "id": "sen_ninoy_aquino",
+      "name": "sen_ninoy_aquino",
+      "text": "Sen. Ninoy Aquino",
+      "province_id": "sultan_kudarat"
+    },
+    {
+      "id": "tacurong_city",
+      "name": "tacurong_city",
+      "text": "Tacurong City",
+      "province_id": "sultan_kudarat"
+    },
+    {
+      "id": "tantangan",
+      "name": "tantangan",
+      "text": "Tantangan",
+      "province_id": "sultan_kudarat"
+    },
+    {
+      "id": "indanan",
+      "name": "indanan",
+      "text": "Indanan",
       "province_id": "sulu"
     },
     {
+      "id": "jolo",
+      "name": "jolo",
+      "text": "Jolo",
+      "province_id": "sulu"
+    },
+    {
+      "id": "kalingalan_caluang",
+      "name": "kalingalan_caluang",
+      "text": "Kalingalan Caluang",
+      "province_id": "sulu"
+    },
+    {
+      "id": "lugus",
+      "name": "lugus",
+      "text": "Lugus",
+      "province_id": "sulu"
+    },
+    {
+      "id": "luuk",
+      "name": "luuk",
+      "text": "Luuk",
+      "province_id": "sulu"
+    },
+    {
+      "id": "maimbung",
+      "name": "maimbung",
+      "text": "Maimbung",
+      "province_id": "sulu"
+    },
+    {
+      "id": "marunggas",
+      "name": "marunggas",
+      "text": "Marunggas",
+      "province_id": "sulu"
+    },
+    {
+      "id": "pandami",
+      "name": "pandami",
+      "text": "Pandami",
+      "province_id": "sulu"
+    },
+    {
+      "id": "panglima_estino",
+      "name": "panglima_estino",
+      "text": "Panglima Estino",
+      "province_id": "sulu"
+    },
+    {
+      "id": "pangutaran",
+      "name": "pangutaran",
+      "text": "Pangutaran",
+      "province_id": "sulu"
+    },
+    {
+      "id": "parang",
+      "name": "parang",
+      "text": "Parang",
+      "province_id": "sulu"
+    },
+    {
+      "id": "pata",
+      "name": "pata",
+      "text": "Pata",
+      "province_id": "sulu"
+    },
+    {
+      "id": "patikul",
+      "name": "patikul",
+      "text": "Patikul",
+      "province_id": "sulu"
+    },
+    {
+      "id": "siasi",
+      "name": "siasi",
+      "text": "Siasi",
+      "province_id": "sulu"
+    },
+    {
+      "id": "talipao",
+      "name": "talipao",
+      "text": "Talipao",
+      "province_id": "sulu"
+    },
+    {
+      "id": "tapul",
+      "name": "tapul",
+      "text": "Tapul",
+      "province_id": "sulu"
+    },
+    {
+      "id": "alegria",
+      "name": "alegria",
+      "text": "Alegria",
       "province_id": "surigao_del_norte"
     },
     {
+      "id": "bacuag",
+      "name": "bacuag",
+      "text": "Bacuag",
+      "province_id": "surigao_del_norte"
+    },
+    {
+      "id": "burgos",
+      "name": "burgos",
+      "text": "Burgos",
+      "province_id": "surigao_del_norte"
+    },
+    {
+      "id": "claver",
+      "name": "claver",
+      "text": "Claver",
+      "province_id": "surigao_del_norte"
+    },
+    {
+      "id": "dapa",
+      "name": "dapa",
+      "text": "Dapa",
+      "province_id": "surigao_del_norte"
+    },
+    {
+      "id": "del_carmen",
+      "name": "del_carmen",
+      "text": "Del Carmen",
+      "province_id": "surigao_del_norte"
+    },
+    {
+      "id": "general_luna",
+      "name": "general_luna",
+      "text": "General Luna",
+      "province_id": "surigao_del_norte"
+    },
+    {
+      "id": "gigaquit",
+      "name": "gigaquit",
+      "text": "Gigaquit",
+      "province_id": "surigao_del_norte"
+    },
+    {
+      "id": "mainit",
+      "name": "mainit",
+      "text": "Mainit",
+      "province_id": "surigao_del_norte"
+    },
+    {
+      "id": "malimono",
+      "name": "malimono",
+      "text": "Malimono",
+      "province_id": "surigao_del_norte"
+    },
+    {
+      "id": "pilar",
+      "name": "pilar",
+      "text": "Pilar",
+      "province_id": "surigao_del_norte"
+    },
+    {
+      "id": "placer",
+      "name": "placer",
+      "text": "Placer",
+      "province_id": "surigao_del_norte"
+    },
+    {
+      "id": "san_benito",
+      "name": "san_benito",
+      "text": "San Benito",
+      "province_id": "surigao_del_norte"
+    },
+    {
+      "id": "san_francisco",
+      "name": "san_francisco",
+      "text": "San Francisco",
+      "province_id": "surigao_del_norte"
+    },
+    {
+      "id": "san_isidro",
+      "name": "san_isidro",
+      "text": "San Isidro",
+      "province_id": "surigao_del_norte"
+    },
+    {
+      "id": "santa_monica",
+      "name": "santa_monica",
+      "text": "Santa Monica",
+      "province_id": "surigao_del_norte"
+    },
+    {
+      "id": "sison",
+      "name": "sison",
+      "text": "Sison",
+      "province_id": "surigao_del_norte"
+    },
+    {
+      "id": "socorro",
+      "name": "socorro",
+      "text": "Socorro",
+      "province_id": "surigao_del_norte"
+    },
+    {
+      "id": "surigao_city",
+      "name": "surigao_city",
+      "text": "Surigao City",
+      "province_id": "surigao_del_norte"
+    },
+    {
+      "id": "tagana-an",
+      "name": "tagana-an",
+      "text": "Tagana-an",
+      "province_id": "surigao_del_norte"
+    },
+    {
+      "id": "tubod",
+      "name": "tubod",
+      "text": "Tubod",
+      "province_id": "surigao_del_norte"
+    },
+    {
+      "id": "barobo",
+      "name": "barobo",
+      "text": "Barobo",
       "province_id": "surigao_del_sur"
     },
     {
+      "id": "bayabas",
+      "name": "bayabas",
+      "text": "Bayabas",
+      "province_id": "surigao_del_sur"
+    },
+    {
+      "id": "bislig_city",
+      "name": "bislig_city",
+      "text": "Bislig City",
+      "province_id": "surigao_del_sur"
+    },
+    {
+      "id": "cagwait",
+      "name": "cagwait",
+      "text": "Cagwait",
+      "province_id": "surigao_del_sur"
+    },
+    {
+      "id": "cantilan",
+      "name": "cantilan",
+      "text": "Cantilan",
+      "province_id": "surigao_del_sur"
+    },
+    {
+      "id": "carmen",
+      "name": "carmen",
+      "text": "Carmen",
+      "province_id": "surigao_del_sur"
+    },
+    {
+      "id": "carrascal",
+      "name": "carrascal",
+      "text": "Carrascal",
+      "province_id": "surigao_del_sur"
+    },
+    {
+      "id": "cortes",
+      "name": "cortes",
+      "text": "Cortes",
+      "province_id": "surigao_del_sur"
+    },
+    {
+      "id": "hinatuan",
+      "name": "hinatuan",
+      "text": "Hinatuan",
+      "province_id": "surigao_del_sur"
+    },
+    {
+      "id": "lanuza",
+      "name": "lanuza",
+      "text": "Lanuza",
+      "province_id": "surigao_del_sur"
+    },
+    {
+      "id": "lianga",
+      "name": "lianga",
+      "text": "Lianga",
+      "province_id": "surigao_del_sur"
+    },
+    {
+      "id": "lingig",
+      "name": "lingig",
+      "text": "Lingig",
+      "province_id": "surigao_del_sur"
+    },
+    {
+      "id": "madrid",
+      "name": "madrid",
+      "text": "Madrid",
+      "province_id": "surigao_del_sur"
+    },
+    {
+      "id": "marihatag",
+      "name": "marihatag",
+      "text": "Marihatag",
+      "province_id": "surigao_del_sur"
+    },
+    {
+      "id": "san_agustin",
+      "name": "san_agustin",
+      "text": "San Agustin",
+      "province_id": "surigao_del_sur"
+    },
+    {
+      "id": "san_miguel",
+      "name": "san_miguel",
+      "text": "San Miguel",
+      "province_id": "surigao_del_sur"
+    },
+    {
+      "id": "tagbina",
+      "name": "tagbina",
+      "text": "Tagbina",
+      "province_id": "surigao_del_sur"
+    },
+    {
+      "id": "tago",
+      "name": "tago",
+      "text": "Tago",
+      "province_id": "surigao_del_sur"
+    },
+    {
+      "id": "tandag_city",
+      "name": "tandag_city",
+      "text": "Tandag City",
+      "province_id": "surigao_del_sur"
+    },
+    {
+      "id": "anao",
+      "name": "anao",
+      "text": "Anao",
       "province_id": "tarlac"
     },
     {
+      "id": "bamban",
+      "name": "bamban",
+      "text": "Bamban",
+      "province_id": "tarlac"
+    },
+    {
+      "id": "camiling",
+      "name": "camiling",
+      "text": "Camiling",
+      "province_id": "tarlac"
+    },
+    {
+      "id": "capas",
+      "name": "capas",
+      "text": "Capas",
+      "province_id": "tarlac"
+    },
+    {
+      "id": "concepcion",
+      "name": "concepcion",
+      "text": "Concepcion",
+      "province_id": "tarlac"
+    },
+    {
+      "id": "gerona",
+      "name": "gerona",
+      "text": "Gerona",
+      "province_id": "tarlac"
+    },
+    {
+      "id": "la_paz",
+      "name": "la_paz",
+      "text": "La Paz",
+      "province_id": "tarlac"
+    },
+    {
+      "id": "mayantoc",
+      "name": "mayantoc",
+      "text": "Mayantoc",
+      "province_id": "tarlac"
+    },
+    {
+      "id": "moncada",
+      "name": "moncada",
+      "text": "Moncada",
+      "province_id": "tarlac"
+    },
+    {
+      "id": "paniqui",
+      "name": "paniqui",
+      "text": "Paniqui",
+      "province_id": "tarlac"
+    },
+    {
+      "id": "pura",
+      "name": "pura",
+      "text": "Pura",
+      "province_id": "tarlac"
+    },
+    {
+      "id": "ramos",
+      "name": "ramos",
+      "text": "Ramos",
+      "province_id": "tarlac"
+    },
+    {
+      "id": "san_clemente",
+      "name": "san_clemente",
+      "text": "San Clemente",
+      "province_id": "tarlac"
+    },
+    {
+      "id": "san_jose",
+      "name": "san_jose",
+      "text": "San Jose",
+      "province_id": "tarlac"
+    },
+    {
+      "id": "san_manuel",
+      "name": "san_manuel",
+      "text": "San Manuel",
+      "province_id": "tarlac"
+    },
+    {
+      "id": "santa_ignacia",
+      "name": "santa_ignacia",
+      "text": "Santa Ignacia",
+      "province_id": "tarlac"
+    },
+    {
+      "id": "tarlac_city",
+      "name": "tarlac_city",
+      "text": "Tarlac City",
+      "province_id": "tarlac"
+    },
+    {
+      "id": "victoria",
+      "name": "victoria",
+      "text": "Victoria",
+      "province_id": "tarlac"
+    },
+    {
+      "id": "bongao",
+      "name": "bongao",
+      "text": "Bongao",
       "province_id": "tawi_tawi"
     },
     {
+      "id": "languyan",
+      "name": "languyan",
+      "text": "Languyan",
+      "province_id": "tawi_tawi"
+    },
+    {
+      "id": "mapu",
+      "name": "mapu",
+      "text": "Mapu",
+      "province_id": "tawi_tawi"
+    },
+    {
+      "id": "panglima_sugala",
+      "name": "panglima_sugala",
+      "text": "Panglima Sugala",
+      "province_id": "tawi_tawi"
+    },
+    {
+      "id": "sapa_sapa",
+      "name": "sapa_sapa",
+      "text": "Sapa-Sapa",
+      "province_id": "tawi_tawi"
+    },
+    {
+      "id": "sibutu",
+      "name": "sibutu",
+      "text": "Sibutu",
+      "province_id": "tawi_tawi"
+    },
+    {
+      "id": "simunul",
+      "name": "simunul",
+      "text": "Simunul",
+      "province_id": "tawi_tawi"
+    },
+    {
+      "id": "sitangkai",
+      "name": "sitangkai",
+      "text": "Sitangkai",
+      "province_id": "tawi_tawi"
+    },
+    {
+      "id": "south_ubian",
+      "name": "south_ubian",
+      "text": "South Ubian",
+      "province_id": "tawi_tawi"
+    },
+    {
+      "id": "tandubas",
+      "name": "tandubas",
+      "text": "Tandubas",
+      "province_id": "tawi_tawi"
+    },
+    {
+      "id": "turtle_islands",
+      "name": "turtle_islands",
+      "text": "Turtle Islands",
+      "province_id": "tawi_tawi"
+    },
+    {
+      "id": "botolan",
+      "name": "botolan",
+      "text": "Botolan",
       "province_id": "zambales"
     },
     {
+      "id": "cabangan",
+      "name": "cabangan",
+      "text": "Cabangan",
+      "province_id": "zambales"
+    },
+    {
+      "id": "candelaria",
+      "name": "candelaria",
+      "text": "Candelaria",
+      "province_id": "zambales"
+    },
+    {
+      "id": "castillejos",
+      "name": "castillejos",
+      "text": "Castillejos",
+      "province_id": "zambales"
+    },
+    {
+      "id": "iba",
+      "name": "iba",
+      "text": "Iba",
+      "province_id": "zambales"
+    },
+    {
+      "id": "masinloc",
+      "name": "masinloc",
+      "text": "Masinloc",
+      "province_id": "zambales"
+    },
+    {
+      "id": "olongapo_city",
+      "name": "olongapo_city",
+      "text": "Olongapo City",
+      "province_id": "zambales"
+    },
+    {
+      "id": "palauig",
+      "name": "palauig",
+      "text": "Palauig",
+      "province_id": "zambales"
+    },
+    {
+      "id": "san_antonio",
+      "name": "san_antonio",
+      "text": "San Antonio",
+      "province_id": "zambales"
+    },
+    {
+      "id": "san_felipe",
+      "name": "san_felipe",
+      "text": "San Felipe",
+      "province_id": "zambales"
+    },
+    {
+      "id": "san_marcelino",
+      "name": "san_marcelino",
+      "text": "San Marcelino",
+      "province_id": "zambales"
+    },
+    {
+      "id": "san_narciso",
+      "name": "san_narciso",
+      "text": "San Narciso",
+      "province_id": "zambales"
+    },
+    {
+      "id": "santa_cruz_",
+      "name": "santa_cruz_",
+      "text": "Santa Cruz",
+      "province_id": "zambales"
+    },
+    {
+      "id": "subic",
+      "name": "subic",
+      "text": "Subic",
+      "province_id": "zambales"
+    },
+    {
+      "id": "baliguian",
+      "name": "baliguian",
+      "text": "Baliguian",
       "province_id": "zamboanga_del_norte"
     },
     {
+      "id": "dapitan_city",
+      "name": "dapitan_city",
+      "text": "Dapitan City",
+      "province_id": "zamboanga_del_norte"
+    },
+    {
+      "id": "dipolog_city",
+      "name": "dipolog_city",
+      "text": "Dipolog City",
+      "province_id": "zamboanga_del_norte"
+    },
+    {
+      "id": "godod",
+      "name": "godod",
+      "text": "Godod",
+      "province_id": "zamboanga_del_norte"
+    },
+    {
+      "id": "gutalac",
+      "name": "gutalac",
+      "text": "Gutalac",
+      "province_id": "zamboanga_del_norte"
+    },
+    {
+      "id": "jose_dalman",
+      "name": "jose_dalman",
+      "text": "Jose Dalman",
+      "province_id": "zamboanga_del_norte"
+    },
+    {
+      "id": "kalawit",
+      "name": "kalawit",
+      "text": "Kalawit",
+      "province_id": "zamboanga_del_norte"
+    },
+    {
+      "id": "katipunan",
+      "name": "katipunan",
+      "text": "Katipunan",
+      "province_id": "zamboanga_del_norte"
+    },
+    {
+      "id": "la_libertad",
+      "name": "la_libertad",
+      "text": "La Libertad",
+      "province_id": "zamboanga_del_norte"
+    },
+    {
+      "id": "labason",
+      "name": "labason",
+      "text": "Labason",
+      "province_id": "zamboanga_del_norte"
+    },
+    {
+      "id": "liloy",
+      "name": "liloy",
+      "text": "Liloy",
+      "province_id": "zamboanga_del_norte"
+    },
+    {
+      "id": "manukan",
+      "name": "manukan",
+      "text": "Manukan",
+      "province_id": "zamboanga_del_norte"
+    },
+    {
+      "id": "mutia",
+      "name": "mutia",
+      "text": "Mutia",
+      "province_id": "zamboanga_del_norte"
+    },
+    {
+      "id": "piñan",
+      "name": "piñan",
+      "text": "Piñan",
+      "province_id": "zamboanga_del_norte"
+    },
+    {
+      "id": "polanco",
+      "name": "polanco",
+      "text": "Polanco",
+      "province_id": "zamboanga_del_norte"
+    },
+    {
+      "id": "rizal",
+      "name": "rizal",
+      "text": "Rizal",
+      "province_id": "zamboanga_del_norte"
+    },
+    {
+      "id": "roxas",
+      "name": "roxas",
+      "text": "Roxas",
+      "province_id": "zamboanga_del_norte"
+    },
+    {
+      "id": "salug",
+      "name": "salug",
+      "text": "Salug",
+      "province_id": "zamboanga_del_norte"
+    },
+    {
+      "id": "sergio_osmeña_sr",
+      "name": "sergio_osmeña_sr",
+      "text": "Sergio Osmeña Sr.",
+      "province_id": "zamboanga_del_norte"
+    },
+    {
+      "id": "siayan",
+      "name": "siayan",
+      "text": "Siayan",
+      "province_id": "zamboanga_del_norte"
+    },
+    {
+      "id": "sibuco",
+      "name": "sibuco",
+      "text": "Sibuco",
+      "province_id": "zamboanga_del_norte"
+    },
+    {
+      "id": "sibutad",
+      "name": "sibutad",
+      "text": "Sibutad",
+      "province_id": "zamboanga_del_norte"
+    },
+    {
+      "id": "sindangan",
+      "name": "sindangan",
+      "text": "Sindangan",
+      "province_id": "zamboanga_del_norte"
+    },
+    {
+      "id": "siocon",
+      "name": "siocon",
+      "text": "Siocon",
+      "province_id": "zamboanga_del_norte"
+    },
+    {
+      "id": "sirawai",
+      "name": "sirawai",
+      "text": "Sirawai",
+      "province_id": "zamboanga_del_norte"
+    },
+    {
+      "id": "tampilisan",
+      "name": "tampilisan",
+      "text": "Tampilisan",
+      "province_id": "zamboanga_del_norte"
+    },
+    {
+      "id": "aurora",
+      "name": "aurora",
+      "text": "Aurora",
       "province_id": "zamboanga_del_sur"
     },
     {
+      "id": "bayog",
+      "name": "bayog",
+      "text": "Bayog",
+      "province_id": "zamboanga_del_sur"
+    },
+    {
+      "id": "dimataling",
+      "name": "dimataling",
+      "text": "Dimataling",
+      "province_id": "zamboanga_del_sur"
+    },
+    {
+      "id": "dinas",
+      "name": "dinas",
+      "text": "Dinas",
+      "province_id": "zamboanga_del_sur"
+    },
+    {
+      "id": "dumalinao",
+      "name": "dumalinao",
+      "text": "Dumalinao",
+      "province_id": "zamboanga_del_sur"
+    },
+    {
+      "id": "dumingag",
+      "name": "dumingag",
+      "text": "Dumingag",
+      "province_id": "zamboanga_del_sur"
+    },
+    {
+      "id": "guipos",
+      "name": "guipos",
+      "text": "Guipos",
+      "province_id": "zamboanga_del_sur"
+    },
+    {
+      "id": "josefina",
+      "name": "josefina",
+      "text": "Josefina",
+      "province_id": "zamboanga_del_sur"
+    },
+    {
+      "id": "kumalarang",
+      "name": "kumalarang",
+      "text": "Kumalarang",
+      "province_id": "zamboanga_del_sur"
+    },
+    {
+      "id": "labangan",
+      "name": "labangan",
+      "text": "Labangan",
+      "province_id": "zamboanga_del_sur"
+    },
+    {
+      "id": "lakewood",
+      "name": "lakewood",
+      "text": "Lakewood",
+      "province_id": "zamboanga_del_sur"
+    },
+    {
+      "id": "lapuyan",
+      "name": "lapuyan",
+      "text": "Lapuyan",
+      "province_id": "zamboanga_del_sur"
+    },
+    {
+      "id": "mahayag",
+      "name": "mahayag",
+      "text": "Mahayag",
+      "province_id": "zamboanga_del_sur"
+    },
+    {
+      "id": "margosatubig",
+      "name": "margosatubig",
+      "text": "Margosatubig",
+      "province_id": "zamboanga_del_sur"
+    },
+    {
+      "id": "midsalip",
+      "name": "midsalip",
+      "text": "Midsalip",
+      "province_id": "zamboanga_del_sur"
+    },
+    {
+      "id": "molave",
+      "name": "molave",
+      "text": "Molave",
+      "province_id": "zamboanga_del_sur"
+    },
+    {
+      "id": "pagadian_city",
+      "name": "pagadian_city",
+      "text": "Pagadian City",
+      "province_id": "zamboanga_del_sur"
+    },
+    {
+      "id": "pitogo",
+      "name": "pitogo",
+      "text": "Pitogo",
+      "province_id": "zamboanga_del_sur"
+    },
+    {
+      "id": "ramon_magsaysay",
+      "name": "ramon_magsaysay",
+      "text": "Ramon Magsaysay",
+      "province_id": "zamboanga_del_sur"
+    },
+    {
+      "id": "san_miguel",
+      "name": "san_miguel",
+      "text": "San Miguel",
+      "province_id": "zamboanga_del_sur"
+    },
+    {
+      "id": "san_pablo",
+      "name": "san_pablo",
+      "text": "San Pablo",
+      "province_id": "zamboanga_del_sur"
+    },
+    {
+      "id": "sominot",
+      "name": "sominot",
+      "text": "Sominot",
+      "province_id": "zamboanga_del_sur"
+    },
+    {
+      "id": "tabina",
+      "name": "tabina",
+      "text": "Tabina",
+      "province_id": "zamboanga_del_sur"
+    },
+    {
+      "id": "tambulig",
+      "name": "tambulig",
+      "text": "Tambulig",
+      "province_id": "zamboanga_del_sur"
+    },
+    {
+      "id": "tigbao",
+      "name": "tigbao",
+      "text": "Tigbao",
+      "province_id": "zamboanga_del_sur"
+    },
+    {
+      "id": "tukuran",
+      "name": "tukuran",
+      "text": "Tukuran",
+      "province_id": "zamboanga_del_sur"
+    },
+    {
+      "id": "vincenzo_a_sagun",
+      "name": "vincenzo_a_sagun",
+      "text": "Vincenzo A. Sagun",
+      "province_id": "zamboanga_del_sur"
+    },
+    {
+      "id": "zamboanga_city",
+      "name": "zamboanga_city",
+      "text": "Zamboanga City",
+      "province_id": "zamboanga_del_sur"
+    },
+    {
+      "id": "alicia",
+      "name": "alicia",
+      "text": "Alicia",
+      "province_id": "zamboanga_sibugay"
+    },
+    {
+      "id": "buug",
+      "name": "buug",
+      "text": "Buug",
+      "province_id": "zamboanga_sibugay"
+    },
+    {
+      "id": "diplahan",
+      "name": "diplahan",
+      "text": "Diplahan",
+      "province_id": "zamboanga_sibugay"
+    },
+    {
+      "id": "imelda",
+      "name": "imelda",
+      "text": "Imelda",
+      "province_id": "zamboanga_sibugay"
+    },
+    {
+      "id": "ipil",
+      "name": "ipil",
+      "text": "Ipil",
+      "province_id": "zamboanga_sibugay"
+    },
+    {
+      "id": "kabasalan",
+      "name": "kabasalan",
+      "text": "Kabasalan",
+      "province_id": "zamboanga_sibugay"
+    },
+    {
+      "id": "mabuhay",
+      "name": "mabuhay",
+      "text": "Mabuhay",
+      "province_id": "zamboanga_sibugay"
+    },
+    {
+      "id": "malangas",
+      "name": "malangas",
+      "text": "Malangas",
+      "province_id": "zamboanga_sibugay"
+    },
+    {
+      "id": "naga",
+      "name": "naga",
+      "text": "Naga",
+      "province_id": "zamboanga_sibugay"
+    },
+    {
+      "id": "olutanga",
+      "name": "olutanga",
+      "text": "Olutanga",
+      "province_id": "zamboanga_sibugay"
+    },
+    {
+      "id": "payao",
+      "name": "payao",
+      "text": "Payao",
+      "province_id": "zamboanga_sibugay"
+    },
+    {
+      "id": "roseller_lim",
+      "name": "roseller_lim",
+      "text": "Roseller Lim",
+      "province_id": "zamboanga_sibugay"
+    },
+    {
+      "id": "siay",
+      "name": "siay",
+      "text": "Siay",
+      "province_id": "zamboanga_sibugay"
+    },
+    {
+      "id": "talusan",
+      "name": "talusan",
+      "text": "Talusan",
+      "province_id": "zamboanga_sibugay"
+    },
+    {
+      "id": "titay",
+      "name": "titay",
+      "text": "Titay",
+      "province_id": "zamboanga_sibugay"
+    },
+    {
+      "id": "tungawan",
+      "name": "tungawan",
+      "text": "Tungawan",
       "province_id": "zamboanga_sibugay"
     }
   ],

@@ -140,11 +140,6 @@
       "flow_name": "sub_item_week_8_session",
       "flow_subtype": "generated",
       "flow_type": "template"
-    },
-    {
-      "flow_name": "sub_item_demo",
-      "flow_subtype": "generated",
-      "flow_type": "template"
     }
   ]
 }

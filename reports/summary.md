@@ -7,7 +7,7 @@
 | accordion_section | 1 |
 | apple_sign_in_button | 3 |
 | audio | 3 |
-| button | 88 |
+| button | 89 |
 | carousel | 2 |
 | combo_box | 16 |
 | data_items | 49 |
@@ -26,11 +26,11 @@
 | radio_button_grid | 16 |
 | round_button | 42 |
 | select_text | 1 |
-| set_variable | 1072 |
+| set_variable | 1047 |
 | simple_checkbox | 2 |
 | task_card | 3 |
 | task_progress_bar | 4 |
-| template | 378 |
+| template | 354 |
 | test | 1 |
 | text | 272 |
 | text_area | 2 |
@@ -59,16 +59,16 @@
 | emit: set_language | 1 |
 | emit: uncompleted | 81 |
 | feedback | 13 |
-| go_to | 33 |
-| nav_stack | 4 |
+| go_to | 34 |
+| nav_stack | 5 |
 | plh_parent_group | 9 |
 | pop_up | 20 |
 | reset_app | 1 |
 | save_to_device | 4 |
-| scroll | 1 |
+| scroll_top | 1 |
 | set_data | 22 |
 | set_field | 79 |
-| set_item | 10 |
+| set_item | 12 |
 | set_local | 93 |
 | share | 4 |
 | user | 4 |
@@ -79,8 +79,8 @@
 
 | assets | KB | MB |
 | --- | --- | --- |
-| total | 28603 KB | 28.6 MB |
-| unused | 19805 KB | 19.8 MB |
+| total | 25862 KB | 25.9 MB |
+| unused | 23284 KB | 23.3 MB |
 </details>
 
 <details open>
@@ -90,14 +90,19 @@ Assets that appear in app-data but do not have references within sheets
 
 | path | size_kb |
 | --- | --- |
-| android/icon-background.png | 7 |
-| android/icon-foreground.png | 31.1 |
-| android/icon.png | 108.2 |
-| android/splash.png | 290.4 |
+| android/icon-background.png | 27 |
+| android/icon-foreground.png | 49.9 |
+| android/icon.png | 47.7 |
+| android/splash.png | 182.5 |
+| cw_demo/comic_1.png | 982.3 |
+| cw_demo/comic_2.png | 795.3 |
+| cw_demo/house_of_support.png | 944.5 |
+| cw_demo/talk_feelings_challenges.svg | 19.3 |
 | images/01_masayang_tahanan.jpg | 185.8 |
 | images/05_masayang_tahanan.jpg | 197 |
 | images/06_masayang_tahanan.jpg | 379.5 |
 | images/07_masayang_tahanan.jpg | 455.5 |
+| images/Message.png | 1.3 |
 | images/Message.svg | 0.7 |
 | images/after_disclosed_abuse.svg | 4.7 |
 | images/backgrounds/library_bottom_left.svg | 2.3 |
@@ -188,6 +193,10 @@ Assets that appear in app-data but do not have references within sheets
 | images/icons/settings.png | 1.1 |
 | images/icons/settings.svg | 2.4 |
 | images/icons/task_0.png | 2 |
+| images/icons_1.png | 267.7 |
+| images/icons_2.png | 210 |
+| images/icons_3.png | 205.9 |
+| images/icons_4.png | 182.7 |
 | images/logos/MaPa_logo.png | 157.3 |
 | images/message.png | 10.4 |
 | images/person_cog.png | 0.8 |
@@ -204,19 +213,23 @@ Assets that have references within sheets but do not appear in app-data
 | --- | --- |
 | .png | 2 |
 | @data.pdf | 3 |
+| icons_1.png | 1 |
+| icons_2.png | 1 |
+| icons_3.png | 1 |
+| icons_4.png | 1 |
 | images/comics/03_comics1_panel1.png | 1 |
 | images/comics/03_comics1_panel2.png | 1 |
 | images/comics/03_comics1_panel3.png | 1 |
 | images/comics/03_comics1_panel4.png | 1 |
-| images/comics04_comics1_panel1.png | 1 |
-| images/comics04_comics1_panel2.png | 1 |
-| images/comics04_comics1_panel3.png | 1 |
-| images/comics04_comics1_panel4.png | 1 |
-| images/comics04_comics2_panel1.png | 1 |
-| images/comics04_comics2_panel2.png | 1 |
-| images/comics04_comics2_panel3.png | 1 |
-| images/comics04_comics2_panel4.png | 1 |
-| images/comics04_comics2_panel5.png | 1 |
+| images/comics/04_comics1_panel1.png | 1 |
+| images/comics/04_comics1_panel2.png | 1 |
+| images/comics/04_comics1_panel3.png | 1 |
+| images/comics/04_comics1_panel4.png | 1 |
+| images/comics/04_comics2_panel1.png | 1 |
+| images/comics/04_comics2_panel2.png | 1 |
+| images/comics/04_comics2_panel3.png | 1 |
+| images/comics/04_comics2_panel4.png | 1 |
+| images/comics/04_comics2_panel5.png | 1 |
 | images/icons/in_progress.svg | 1 |
 | images/icons/tick.svg | 1 |
 | images/logos/nip.png | 1 |
@@ -231,10 +244,6 @@ Assets that are used within sheets and also can be found in the synced asset dat
 
 | path | size_kb | count |
 | --- | --- | --- |
-| cw_demo/comic_1.png | 982.3 | 1 |
-| cw_demo/comic_2.png | 795.3 | 1 |
-| cw_demo/house_of_support.png | 944.5 | 1 |
-| cw_demo/talk_feelings_challenges.svg | 19.3 | 1 |
 | images/02_masayang_tahanan.jpg | 191.5 | 1 |
 | images/03_masayang_tahanan.jpg | 195.3 | 1 |
 | images/04_masayang_tahanan.jpg | 198.8 | 1 |
@@ -285,7 +294,7 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | images/icons/profile_card.svg | 7.4 | 1 |
 | images/icons/reminder.png | 10.4 | 14 |
 | images/icons/share.svg | 2.3 | 4 |
-| images/icons/task_1.png | 1 | 2 |
+| images/icons/task_1.png | 1 | 1 |
 | images/icons/task_2.png | 1.9 | 1 |
 | images/icons/task_3.png | 2 | 1 |
 | images/icons/task_4.png | 1.5 | 1 |
@@ -344,11 +353,11 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | data_list | legal_terms | 2 |
 | data_list | lifecycle_actions | 1 |
 | data_pipe |  | 2 |
-| data_pipe | generated | 241 |
+| data_pipe | generated | 218 |
 | generator |  | 9 |
 | global |  | 12 |
 | global | legal_terms | 1 |
 | template |  | 85 |
-| template | generated | 329 |
+| template | generated | 305 |
 | template | legal_terms | 4 |
 </details>
