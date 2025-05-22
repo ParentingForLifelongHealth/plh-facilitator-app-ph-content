@@ -2697,7 +2697,8 @@
           "value": "Save Profile",
           "_translations": {
             "value": {
-              "fil_ph": true
+              "fil_ph": true,
+              "ph_fil": true
             }
           },
           "action_list": [
@@ -3176,7 +3177,8 @@
           "value": "Save and Add New",
           "_translations": {
             "value": {
-              "fil_ph": true
+              "fil_ph": true,
+              "ph_fil": true
             }
           },
           "action_list": [

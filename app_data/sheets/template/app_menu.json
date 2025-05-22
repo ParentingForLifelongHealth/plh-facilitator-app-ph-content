@@ -22,7 +22,8 @@
           "value": "Templates",
           "_translations": {
             "value": {
-              "fil_ph": true
+              "fil_ph": true,
+              "ph_fil": true
             }
           },
           "action_list": [
@@ -44,7 +45,8 @@
           "value": "Dynamic data",
           "_translations": {
             "value": {
-              "fil_ph": true
+              "fil_ph": true,
+              "ph_fil": true
             }
           },
           "action_list": [
@@ -66,7 +68,8 @@
           "value": "Reset app",
           "_translations": {
             "value": {
-              "fil_ph": true
+              "fil_ph": true,
+              "ph_fil": true
             }
           },
           "action_list": [
@@ -86,7 +89,8 @@
           "value": "Open feedback",
           "_translations": {
             "value": {
-              "fil_ph": true
+              "fil_ph": true,
+              "ph_fil": true
             }
           },
           "action_list": [
@@ -133,7 +137,8 @@
           "value": "Close feedback",
           "_translations": {
             "value": {
-              "fil_ph": true
+              "fil_ph": true,
+              "ph_fil": true
             }
           },
           "action_list": [
@@ -180,7 +185,8 @@
           "value": "Import user",
           "_translations": {
             "value": {
-              "fil_ph": true
+              "fil_ph": true,
+              "ph_fil": true
             }
           },
           "action_list": [
@@ -202,7 +208,8 @@
           "value": "Themes",
           "_translations": {
             "value": {
-              "fil_ph": true
+              "fil_ph": true,
+              "ph_fil": true
             }
           },
           "action_list": [
@@ -242,7 +249,8 @@
       "value": "Developer mode",
       "_translations": {
         "value": {
-          "fil_ph": true
+          "fil_ph": true,
+          "ph_fil": true
         }
       },
       "action_list": [
@@ -280,7 +288,8 @@
       "value": "Exit developer mode",
       "_translations": {
         "value": {
-          "fil_ph": true
+          "fil_ph": true,
+          "ph_fil": true
         }
       },
       "action_list": [

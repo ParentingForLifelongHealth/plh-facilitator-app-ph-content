@@ -9,7 +9,8 @@
       "value": "Import user",
       "_translations": {
         "value": {
-          "fil_ph": true
+          "fil_ph": true,
+          "ph_fil": true
         }
       },
       "_nested_name": "title"
@@ -19,7 +20,8 @@
       "value": "Facilitator ID",
       "_translations": {
         "value": {
-          "fil_ph": true
+          "fil_ph": true,
+          "ph_fil": true
         }
       },
       "type": "set_variable",
@@ -31,7 +33,8 @@
       "value": "Paste the @local.facilitator_id of a user to import their account data.",
       "_translations": {
         "value": {
-          "fil_ph": true
+          "fil_ph": true,
+          "ph_fil": true
         }
       },
       "_nested_name": "text_instruction",
@@ -62,7 +65,8 @@
       "value": "Import data",
       "_translations": {
         "value": {
-          "fil_ph": true
+          "fil_ph": true,
+          "ph_fil": true
         }
       },
       "action_list": [
@@ -132,7 +136,8 @@
       "value": "Validation",
       "_translations": {
         "value": {
-          "fil_ph": true
+          "fil_ph": true,
+          "ph_fil": true
         }
       },
       "type": "set_variable",
@@ -143,7 +148,8 @@
       "value": "User name (on the current account)",
       "_translations": {
         "value": {
-          "fil_ph": true
+          "fil_ph": true,
+          "ph_fil": true
         }
       },
       "type": "set_variable",
@@ -214,7 +220,8 @@
       "value": "Clear user name",
       "_translations": {
         "value": {
-          "fil_ph": true
+          "fil_ph": true,
+          "ph_fil": true
         }
       },
       "action_list": [
@@ -246,7 +253,8 @@
       "value": "If you had set a user name on your old account and the data was imported succesfully, the user name above should update.",
       "_translations": {
         "value": {
-          "fil_ph": true
+          "fil_ph": true,
+          "ph_fil": true
         }
       },
       "_nested_name": "text"

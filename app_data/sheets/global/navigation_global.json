@@ -9,7 +9,8 @@
       "value": "Language",
       "_translations": {
         "value": {
-          "fil_ph": true
+          "fil_ph": true,
+          "ph_fil": true
         }
       }
     },
@@ -19,7 +20,8 @@
       "value": "Your Content Package",
       "_translations": {
         "value": {
-          "fil_ph": true
+          "fil_ph": true,
+          "ph_fil": true
         }
       }
     },
@@ -29,7 +31,8 @@
       "value": "parent groups",
       "_translations": {
         "value": {
-          "fil_ph": true
+          "fil_ph": true,
+          "ph_fil": true
         }
       }
     },
@@ -39,7 +42,8 @@
       "value": "Tap and type",
       "_translations": {
         "value": {
-          "fil_ph": true
+          "fil_ph": true,
+          "ph_fil": true
         }
       }
     },
@@ -49,7 +53,8 @@
       "value": "Tap and select",
       "_translations": {
         "value": {
-          "fil_ph": true
+          "fil_ph": true,
+          "ph_fil": true
         }
       }
     },
@@ -64,7 +69,8 @@
       "value": "About @global.app_name",
       "_translations": {
         "value": {
-          "fil_ph": true
+          "fil_ph": true,
+          "ph_fil": true
         }
       }
     },

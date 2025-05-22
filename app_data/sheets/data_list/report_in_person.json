@@ -10,7 +10,8 @@
       "text": "Welcome",
       "_translations": {
         "text": {
-          "fil_ph": true
+          "fil_ph": true,
+          "ph_fil": true
         }
       },
       "_translatedFields": {
@@ -25,7 +26,8 @@
       "text": "Getting to know each other",
       "_translations": {
         "text": {
-          "fil_ph": true
+          "fil_ph": true,
+          "ph_fil": true
         }
       },
       "_translatedFields": {
@@ -40,7 +42,8 @@
       "text": "Overview of the programme",
       "_translations": {
         "text": {
-          "fil_ph": true
+          "fil_ph": true,
+          "ph_fil": true
         }
       },
       "_translatedFields": {
@@ -55,7 +58,8 @@
       "text": "Getting Started with the chatbot",
       "_translations": {
         "text": {
-          "fil_ph": true
+          "fil_ph": true,
+          "ph_fil": true
         }
       },
       "_translatedFields": {
@@ -70,7 +74,8 @@
       "text": "Introduction to Phone Use",
       "_translations": {
         "text": {
-          "fil_ph": true
+          "fil_ph": true,
+          "ph_fil": true
         }
       },
       "_translatedFields": {
@@ -85,7 +90,8 @@
       "text": "Chatbot onboarding",
       "_translations": {
         "text": {
-          "fil_ph": true
+          "fil_ph": true,
+          "ph_fil": true
         }
       },
       "_translatedFields": {
@@ -100,7 +106,8 @@
       "text": "Resolving Challenges with the chatbot",
       "_translations": {
         "text": {
-          "fil_ph": true
+          "fil_ph": true,
+          "ph_fil": true
         }
       },
       "_translatedFields": {
@@ -115,7 +122,8 @@
       "text": "Moving forward",
       "_translations": {
         "text": {
-          "fil_ph": true
+          "fil_ph": true,
+          "ph_fil": true
         }
       },
       "_translatedFields": {
@@ -130,7 +138,8 @@
       "text": "Setting up Ground Rules",
       "_translations": {
         "text": {
-          "fil_ph": true
+          "fil_ph": true,
+          "ph_fil": true
         }
       },
       "_translatedFields": {
@@ -145,7 +154,8 @@
       "text": "Facilitator’s Role",
       "_translations": {
         "text": {
-          "fil_ph": true
+          "fil_ph": true,
+          "ph_fil": true
         }
       },
       "_translatedFields": {
@@ -160,7 +170,8 @@
       "text": "Questions",
       "_translations": {
         "text": {
-          "fil_ph": true
+          "fil_ph": true,
+          "ph_fil": true
         }
       },
       "_translatedFields": {
@@ -188,7 +199,8 @@
       "text": "Closing Activity",
       "_translations": {
         "text": {
-          "fil_ph": true
+          "fil_ph": true,
+          "ph_fil": true
         }
       },
       "_translatedFields": {

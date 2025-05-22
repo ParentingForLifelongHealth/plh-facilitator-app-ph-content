@@ -21,7 +21,8 @@
       "value": "Are you sure you want to delete @fields.current_parent_name?",
       "_translations": {
         "value": {
-          "fil_ph": true
+          "fil_ph": true,
+          "ph_fil": true
         }
       },
       "exclude_from_translation": false,
@@ -48,7 +49,8 @@
       "value": "This will delete all of @fields.current_parent_name parent data. The action cannot be undone.",
       "_translations": {
         "value": {
-          "fil_ph": true
+          "fil_ph": true,
+          "ph_fil": true
         }
       },
       "exclude_from_translation": false,
@@ -79,7 +81,8 @@
           "value": "Cancel",
           "_translations": {
             "value": {
-              "fil_ph": true
+              "fil_ph": true,
+              "ph_fil": true
             }
           },
           "action_list": [
@@ -108,7 +111,8 @@
           "value": "Delete",
           "_translations": {
             "value": {
-              "fil_ph": true
+              "fil_ph": true,
+              "ph_fil": true
             }
           },
           "action_list": [

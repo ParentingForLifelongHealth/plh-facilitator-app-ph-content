@@ -8,7 +8,8 @@
       "value": "Submit",
       "_translations": {
         "value": {
-          "fil_ph": true
+          "fil_ph": true,
+          "ph_fil": true
         }
       },
       "type": "set_variable",
@@ -19,7 +20,8 @@
       "value": "Tap and type",
       "_translations": {
         "value": {
-          "fil_ph": true
+          "fil_ph": true,
+          "ph_fil": true
         }
       },
       "exclude_from_translation": true,
@@ -38,7 +40,8 @@
       "value": "Enter developer mode",
       "_translations": {
         "value": {
-          "fil_ph": true
+          "fil_ph": true,
+          "ph_fil": true
         }
       },
       "_nested_name": "title"
@@ -49,7 +52,8 @@
       "value": "To launch the app in developer mode, enter your developer code in the box below and press @local.submit.",
       "_translations": {
         "value": {
-          "fil_ph": true
+          "fil_ph": true,
+          "ph_fil": true
         }
       },
       "_nested_name": "text_1",
@@ -276,7 +280,8 @@
           "value": "You have successfully entered developer mode.",
           "_translations": {
             "value": {
-              "fil_ph": true
+              "fil_ph": true,
+              "ph_fil": true
             }
           },
           "hidden": "@fields.user_mode",
@@ -303,7 +308,8 @@
           "value": "You have entered an incorrect code.",
           "_translations": {
             "value": {
-              "fil_ph": true
+              "fil_ph": true,
+              "ph_fil": true
             }
           },
           "hidden": "!@fields.user_mode",
