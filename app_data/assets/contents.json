@@ -671,6 +671,14 @@
     "md5Checksum": "9d19c1c442111668b35817991e720e70",
     "size_kb": 182.7
   },
+  "images/logos/ADMU.jpg": {
+    "md5Checksum": "f2a2ab87880f41d95332d71a36246b43",
+    "size_kb": 246.9
+  },
+  "images/logos/GPI.jpg": {
+    "md5Checksum": "1b069b6e59784d38dd80fe179d83090b",
+    "size_kb": 200.1
+  },
   "images/logos/IDEMS.png": {
     "md5Checksum": "dd7be17e1082bfc5fb5800ac17754d0c",
     "size_kb": 84.6
@@ -684,8 +692,8 @@
     "size_kb": 26.6
   },
   "images/logos/UNICEF.jpg": {
-    "md5Checksum": "2e2ca2e57984a0108b0435540df07eba",
-    "size_kb": 27.7
+    "md5Checksum": "551166fa76f616ac56f998718a650ed4",
+    "size_kb": 57.9
   },
   "images/logos/app_logo.png": {
     "md5Checksum": "1bf5b17d939d6b147dd9a3924176460b",

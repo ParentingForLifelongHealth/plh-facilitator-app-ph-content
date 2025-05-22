@@ -9,7 +9,9 @@
       "type": "in_person",
       "name": "Module 1 Session",
       "_translations": {
-        "name": {}
+        "name": {
+          "fil_ph": true
+        }
       },
       "_translatedFields": {
         "name": {
@@ -22,7 +24,9 @@
       "type": "in_person",
       "name": "Module 2 Session",
       "_translations": {
-        "name": {}
+        "name": {
+          "fil_ph": true
+        }
       },
       "_translatedFields": {
         "name": {
@@ -35,7 +39,9 @@
       "type": "in_person",
       "name": "Module 3 Session",
       "_translations": {
-        "name": {}
+        "name": {
+          "fil_ph": true
+        }
       },
       "_translatedFields": {
         "name": {
@@ -48,7 +54,9 @@
       "type": "in_person",
       "name": "Module 4 Session",
       "_translations": {
-        "name": {}
+        "name": {
+          "fil_ph": true
+        }
       },
       "_translatedFields": {
         "name": {
@@ -61,7 +69,9 @@
       "type": "in_person",
       "name": "Module 5 Session",
       "_translations": {
-        "name": {}
+        "name": {
+          "fil_ph": true
+        }
       },
       "_translatedFields": {
         "name": {
@@ -74,7 +84,9 @@
       "type": "in_person",
       "name": "Module 6 Session",
       "_translations": {
-        "name": {}
+        "name": {
+          "fil_ph": true
+        }
       },
       "_translatedFields": {
         "name": {
@@ -87,7 +99,9 @@
       "type": "in_person",
       "name": "Module 7 Session",
       "_translations": {
-        "name": {}
+        "name": {
+          "fil_ph": true
+        }
       },
       "_translatedFields": {
         "name": {
@@ -100,7 +114,9 @@
       "type": "in_person",
       "name": "Module 8 Session",
       "_translations": {
-        "name": {}
+        "name": {
+          "fil_ph": true
+        }
       },
       "_translatedFields": {
         "name": {

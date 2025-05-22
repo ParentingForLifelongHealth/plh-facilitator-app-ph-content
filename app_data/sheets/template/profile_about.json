@@ -638,7 +638,9 @@
           "name": "save",
           "value": "Save",
           "_translations": {
-            "value": {}
+            "value": {
+              "fil_ph": true
+            }
           },
           "action_list": [
             {

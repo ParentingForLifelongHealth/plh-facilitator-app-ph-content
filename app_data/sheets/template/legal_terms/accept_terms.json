@@ -166,7 +166,9 @@
       "name": "button_completed",
       "value": "Continue",
       "_translations": {
-        "value": {}
+        "value": {
+          "fil_ph": true
+        }
       },
       "action_list": [
         {
@@ -205,7 +207,9 @@
       "name": "button_completed",
       "value": "Continue",
       "_translations": {
-        "value": {}
+        "value": {
+          "fil_ph": true
+        }
       },
       "action_list": [
         {

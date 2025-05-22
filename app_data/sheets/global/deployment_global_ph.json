@@ -28,7 +28,9 @@
       "name": "share_medium",
       "value": "Viber",
       "_translations": {
-        "value": {}
+        "value": {
+          "fil_ph": true
+        }
       },
       "exclude_from_translation": true
     },
@@ -37,7 +39,9 @@
       "name": "virtual_session_platform",
       "value": "Viber",
       "_translations": {
-        "value": {}
+        "value": {
+          "fil_ph": true
+        }
       }
     },
     {
@@ -86,7 +90,9 @@
       "name": "deployment_terms_text",
       "value": "14 December 2023",
       "_translations": {
-        "value": {}
+        "value": {
+          "fil_ph": true
+        }
       }
     },
     {
@@ -94,7 +100,9 @@
       "name": "main_menu_title",
       "value": "Parent Group",
       "_translations": {
-        "value": {}
+        "value": {
+          "fil_ph": true
+        }
       }
     },
     {
@@ -102,7 +110,9 @@
       "name": "select_group",
       "value": "Select Parent Group",
       "_translations": {
-        "value": {}
+        "value": {
+          "fil_ph": true
+        }
       }
     },
     {
@@ -110,7 +120,9 @@
       "name": "no_groups",
       "value": "No Parent Groups",
       "_translations": {
-        "value": {}
+        "value": {
+          "fil_ph": true
+        }
       }
     },
     {
@@ -118,7 +130,9 @@
       "name": "sessions_no_groups",
       "value": "Chat Sessions will load after you select a parent group",
       "_translations": {
-        "value": {}
+        "value": {
+          "fil_ph": true
+        }
       }
     },
     {
@@ -126,7 +140,9 @@
       "name": "edit_first_name",
       "value": "Parent's first name",
       "_translations": {
-        "value": {}
+        "value": {
+          "fil_ph": true
+        }
       }
     },
     {
@@ -134,7 +150,9 @@
       "name": "edit_last_name",
       "value": "Parent's last name",
       "_translations": {
-        "value": {}
+        "value": {
+          "fil_ph": true
+        }
       }
     },
     {
@@ -142,7 +160,9 @@
       "name": "edit_text_id",
       "value": "Parent Text ID",
       "_translations": {
-        "value": {}
+        "value": {
+          "fil_ph": true
+        }
       }
     },
     {
@@ -164,7 +184,9 @@
       "name": "minutes",
       "value": "minutes",
       "_translations": {
-        "value": {}
+        "value": {
+          "fil_ph": true
+        }
       }
     },
     {
@@ -181,7 +203,9 @@
       "name": "active_group_title",
       "value": "Your Active Groups",
       "_translations": {
-        "value": {}
+        "value": {
+          "fil_ph": true
+        }
       }
     },
     {
@@ -189,7 +213,9 @@
       "name": "archived_group_title",
       "value": "Your Archived Groups",
       "_translations": {
-        "value": {}
+        "value": {
+          "fil_ph": true
+        }
       }
     },
     {
@@ -197,7 +223,9 @@
       "name": "module_complete",
       "value": "You successfully completed this session!",
       "_translations": {
-        "value": {}
+        "value": {
+          "fil_ph": true
+        }
       }
     },
     {
@@ -205,7 +233,9 @@
       "name": "module_rep_complete",
       "value": "You successfully completed the report for this session!",
       "_translations": {
-        "value": {}
+        "value": {
+          "fil_ph": true
+        }
       }
     },
     {
@@ -213,7 +243,9 @@
       "name": "review_report",
       "value": "Review Report",
       "_translations": {
-        "value": {}
+        "value": {
+          "fil_ph": true
+        }
       }
     },
     {
@@ -221,7 +253,9 @@
       "name": "submit_report",
       "value": "Submit Report",
       "_translations": {
-        "value": {}
+        "value": {
+          "fil_ph": true
+        }
       }
     },
     {
@@ -229,7 +263,9 @@
       "name": "support_button",
       "value": "Frequently Asked Questions",
       "_translations": {
-        "value": {}
+        "value": {
+          "fil_ph": true
+        }
       }
     },
     {
@@ -237,7 +273,9 @@
       "name": "language",
       "value": "Language",
       "_translations": {
-        "value": {}
+        "value": {
+          "fil_ph": true
+        }
       }
     }
   ],

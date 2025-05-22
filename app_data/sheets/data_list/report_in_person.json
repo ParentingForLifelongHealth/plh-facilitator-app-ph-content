@@ -9,7 +9,9 @@
       "type": "title",
       "text": "Welcome",
       "_translations": {
-        "text": {}
+        "text": {
+          "fil_ph": true
+        }
       },
       "_translatedFields": {
         "text": {
@@ -22,7 +24,9 @@
       "type": "toggle",
       "text": "Getting to know each other",
       "_translations": {
-        "text": {}
+        "text": {
+          "fil_ph": true
+        }
       },
       "_translatedFields": {
         "text": {
@@ -35,7 +39,9 @@
       "type": "toggle",
       "text": "Overview of the programme",
       "_translations": {
-        "text": {}
+        "text": {
+          "fil_ph": true
+        }
       },
       "_translatedFields": {
         "text": {
@@ -48,7 +54,9 @@
       "type": "title",
       "text": "Getting Started with the chatbot",
       "_translations": {
-        "text": {}
+        "text": {
+          "fil_ph": true
+        }
       },
       "_translatedFields": {
         "text": {
@@ -61,7 +69,9 @@
       "type": "toggle",
       "text": "Introduction to Phone Use",
       "_translations": {
-        "text": {}
+        "text": {
+          "fil_ph": true
+        }
       },
       "_translatedFields": {
         "text": {
@@ -74,7 +84,9 @@
       "type": "toggle",
       "text": "Chatbot onboarding",
       "_translations": {
-        "text": {}
+        "text": {
+          "fil_ph": true
+        }
       },
       "_translatedFields": {
         "text": {
@@ -87,7 +99,9 @@
       "type": "toggle",
       "text": "Resolving Challenges with the chatbot",
       "_translations": {
-        "text": {}
+        "text": {
+          "fil_ph": true
+        }
       },
       "_translatedFields": {
         "text": {
@@ -100,7 +114,9 @@
       "type": "title",
       "text": "Moving forward",
       "_translations": {
-        "text": {}
+        "text": {
+          "fil_ph": true
+        }
       },
       "_translatedFields": {
         "text": {
@@ -113,7 +129,9 @@
       "type": "toggle",
       "text": "Setting up Ground Rules",
       "_translations": {
-        "text": {}
+        "text": {
+          "fil_ph": true
+        }
       },
       "_translatedFields": {
         "text": {
@@ -126,7 +144,9 @@
       "type": "toggle",
       "text": "Facilitator’s Role",
       "_translations": {
-        "text": {}
+        "text": {
+          "fil_ph": true
+        }
       },
       "_translatedFields": {
         "text": {
@@ -139,7 +159,9 @@
       "type": "toggle",
       "text": "Questions",
       "_translations": {
-        "text": {}
+        "text": {
+          "fil_ph": true
+        }
       },
       "_translatedFields": {
         "text": {
@@ -165,7 +187,9 @@
       "type": "toggle",
       "text": "Closing Activity",
       "_translations": {
-        "text": {}
+        "text": {
+          "fil_ph": true
+        }
       },
       "_translatedFields": {
         "text": {

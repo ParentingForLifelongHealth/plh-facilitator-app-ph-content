@@ -14,7 +14,9 @@
       "type": "title",
       "value": "Library",
       "_translations": {
-        "value": {}
+        "value": {
+          "fil_ph": true
+        }
       },
       "parameter_list": {
         "variant": "page_banner"

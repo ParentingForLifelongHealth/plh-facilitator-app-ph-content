@@ -80,7 +80,9 @@
       "name": "text",
       "value": "Choose which content you want to see.",
       "_translations": {
-        "value": {}
+        "value": {
+          "fil_ph": true
+        }
       },
       "_nested_name": "text"
     },
@@ -151,7 +153,9 @@
           "name": "button_completed",
           "value": "Continue",
           "_translations": {
-            "value": {}
+            "value": {
+              "fil_ph": true
+            }
           },
           "action_list": [
             {

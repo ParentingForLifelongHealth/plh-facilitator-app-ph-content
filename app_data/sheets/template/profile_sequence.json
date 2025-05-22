@@ -74,7 +74,9 @@
       "name": "debug_completed_count",
       "value": "Completed count: @local.completed_count",
       "_translations": {
-        "value": {}
+        "value": {
+          "fil_ph": true
+        }
       },
       "condition": false,
       "_nested_name": "debug_completed_count",

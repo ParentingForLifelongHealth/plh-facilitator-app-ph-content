@@ -14,7 +14,9 @@
       "name": "article_id",
       "value": "test",
       "_translations": {
-        "value": {}
+        "value": {
+          "fil_ph": true
+        }
       },
       "exclude_from_translation": true,
       "type": "set_variable",
@@ -24,7 +26,9 @@
       "name": "foreign_key",
       "value": "test",
       "_translations": {
-        "value": {}
+        "value": {
+          "fil_ph": true
+        }
       },
       "exclude_from_translation": true,
       "type": "set_variable",

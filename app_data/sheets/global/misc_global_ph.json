@@ -8,7 +8,9 @@
       "name": "logged_in",
       "value": "You are signed in.",
       "_translations": {
-        "value": {}
+        "value": {
+          "fil_ph": true
+        }
       }
     },
     {
@@ -16,7 +18,9 @@
       "name": "previous_login",
       "value": "It looks like you've logged in on another device before. Would you like to continue from where you left off? \n\nIf you do, any progress made on this device will be lost.",
       "_translations": {
-        "value": {}
+        "value": {
+          "fil_ph": true
+        }
       }
     },
     {
@@ -24,7 +28,9 @@
       "name": "restore_data",
       "value": "Load saved progress",
       "_translations": {
-        "value": {}
+        "value": {
+          "fil_ph": true
+        }
       }
     },
     {
@@ -32,7 +38,9 @@
       "name": "welcome",
       "value": "Welcome",
       "_translations": {
-        "value": {}
+        "value": {
+          "fil_ph": true
+        }
       }
     },
     {
@@ -40,7 +48,9 @@
       "name": "continue",
       "value": "Continue",
       "_translations": {
-        "value": {}
+        "value": {
+          "fil_ph": true
+        }
       }
     },
     {
@@ -48,7 +58,9 @@
       "name": "next",
       "value": "Next",
       "_translations": {
-        "value": {}
+        "value": {
+          "fil_ph": true
+        }
       }
     },
     {
@@ -56,7 +68,9 @@
       "name": "save",
       "value": "Save",
       "_translations": {
-        "value": {}
+        "value": {
+          "fil_ph": true
+        }
       }
     },
     {
@@ -64,7 +78,9 @@
       "name": "language_prompt",
       "value": "Choose a language:",
       "_translations": {
-        "value": {}
+        "value": {
+          "fil_ph": true
+        }
       }
     },
     {
@@ -72,7 +88,9 @@
       "name": "welcome_message",
       "value": "Welcome to @global.app_name",
       "_translations": {
-        "value": {}
+        "value": {
+          "fil_ph": true
+        }
       }
     },
     {
@@ -80,7 +98,9 @@
       "name": "login",
       "value": "Login or Sign up",
       "_translations": {
-        "value": {}
+        "value": {
+          "fil_ph": true
+        }
       }
     },
     {
@@ -88,7 +108,9 @@
       "name": "login_google",
       "value": "Continue with Google",
       "_translations": {
-        "value": {}
+        "value": {
+          "fil_ph": true
+        }
       }
     },
     {
@@ -96,7 +118,9 @@
       "name": "login_apple",
       "value": "Continue with Apple",
       "_translations": {
-        "value": {}
+        "value": {
+          "fil_ph": true
+        }
       }
     },
     {
@@ -104,7 +128,9 @@
       "name": "agree_terms",
       "value": "By continuing, you agree to our:",
       "_translations": {
-        "value": {}
+        "value": {
+          "fil_ph": true
+        }
       }
     },
     {
@@ -112,7 +138,9 @@
       "name": "logged_in_existing",
       "value": "Welcome back!",
       "_translations": {
-        "value": {}
+        "value": {
+          "fil_ph": true
+        }
       }
     },
     {
@@ -120,7 +148,9 @@
       "name": "logged_in_existing_user",
       "value": "Welcome back, @fields._auth_user_given_name!",
       "_translations": {
-        "value": {}
+        "value": {
+          "fil_ph": true
+        }
       }
     },
     {
@@ -128,7 +158,9 @@
       "name": "logged_in_new",
       "value": "Welcome!",
       "_translations": {
-        "value": {}
+        "value": {
+          "fil_ph": true
+        }
       }
     },
     {
@@ -136,7 +168,9 @@
       "name": "logged_in_new_user",
       "value": "Welcome, @fields._auth_user_given_name!",
       "_translations": {
-        "value": {}
+        "value": {
+          "fil_ph": true
+        }
       }
     },
     {
@@ -144,7 +178,9 @@
       "name": "logged_in_text",
       "value": "Before we begin, tell us about yourself.",
       "_translations": {
-        "value": {}
+        "value": {
+          "fil_ph": true
+        }
       }
     },
     {
@@ -152,7 +188,9 @@
       "name": "choose_role",
       "value": "Choose your role:",
       "_translations": {
-        "value": {}
+        "value": {
+          "fil_ph": true
+        }
       }
     },
     {
@@ -160,7 +198,9 @@
       "name": "select_response",
       "value": "Select a response",
       "_translations": {
-        "value": {}
+        "value": {
+          "fil_ph": true
+        }
       }
     },
     {
@@ -168,7 +208,9 @@
       "name": "choose_organisation",
       "value": "Choose your organisation:",
       "_translations": {
-        "value": {}
+        "value": {
+          "fil_ph": true
+        }
       }
     },
     {
@@ -176,7 +218,9 @@
       "name": "choose_region",
       "value": "Choose your region:",
       "_translations": {
-        "value": {}
+        "value": {
+          "fil_ph": true
+        }
       }
     },
     {
@@ -184,7 +228,9 @@
       "name": "no_region",
       "value": "First select your region",
       "_translations": {
-        "value": {}
+        "value": {
+          "fil_ph": true
+        }
       }
     },
     {
@@ -192,7 +238,9 @@
       "name": "choose_province",
       "value": "Choose your province:",
       "_translations": {
-        "value": {}
+        "value": {
+          "fil_ph": true
+        }
       }
     },
     {
@@ -200,7 +248,9 @@
       "name": "no_province",
       "value": "First select your province",
       "_translations": {
-        "value": {}
+        "value": {
+          "fil_ph": true
+        }
       }
     },
     {
@@ -208,7 +258,9 @@
       "name": "choose_city",
       "value": "Choose your city/municipality:",
       "_translations": {
-        "value": {}
+        "value": {
+          "fil_ph": true
+        }
       }
     },
     {
@@ -216,7 +268,9 @@
       "name": "finish_profile_title",
       "value": "You're all set!",
       "_translations": {
-        "value": {}
+        "value": {
+          "fil_ph": true
+        }
       }
     },
     {
@@ -224,7 +278,9 @@
       "name": "finish_profile_text",
       "value": "Your profile is complete, and you're ready to begin!",
       "_translations": {
-        "value": {}
+        "value": {
+          "fil_ph": true
+        }
       }
     },
     {
@@ -232,7 +288,9 @@
       "name": "logout",
       "value": "Sign out",
       "_translations": {
-        "value": {}
+        "value": {
+          "fil_ph": true
+        }
       }
     }
   ],
