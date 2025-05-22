@@ -270,8 +270,8 @@
             "variant": "faq"
           },
           "condition": "@item.home_screen_section_list == @local.library_id && @local.condition_package",
-          "name": "button_5",
-          "_nested_name": "items_6.button_5",
+          "name": "button_5_@item.id",
+          "_nested_name": "items_6.button_5_@item.id",
           "_dynamicFields": {
             "value": [
               {
@@ -330,6 +330,22 @@
                 "type": "local",
                 "fieldName": "condition_package"
               }
+            ],
+            "name": [
+              {
+                "fullExpression": "button_5_@item.id",
+                "matchedExpression": "@item.id",
+                "type": "item",
+                "fieldName": "id"
+              }
+            ],
+            "_nested_name": [
+              {
+                "fullExpression": "items_6.button_5_@item.id",
+                "matchedExpression": "@item.id",
+                "type": "item",
+                "fieldName": "id"
+              }
             ]
           },
           "_dynamicDependencies": {
@@ -339,7 +355,9 @@
             "@item.id": [
               "action_list.0.args.0",
               "action_list.0._raw",
-              "action_list.0._cleaned"
+              "action_list.0._cleaned",
+              "name",
+              "_nested_name"
             ],
             "@item.home_screen_section_list": [
               "condition"
