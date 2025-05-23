@@ -212,6 +212,9 @@
           "parameter_list": {
             "placeholder": "@global.edit_first_name"
           },
+          "style_list": [
+            "margin-top: -10px"
+          ],
           "exclude_from_translation": true,
           "_nested_name": "display_group_15.first_name",
           "_dynamicFields": {
@@ -344,6 +347,9 @@
           "parameter_list": {
             "placeholder": "@global.edit_last_name"
           },
+          "style_list": [
+            "margin-top: -10px"
+          ],
           "exclude_from_translation": true,
           "_nested_name": "display_group_15.last_name",
           "_dynamicFields": {
@@ -488,6 +494,9 @@
           "parameter_list": {
             "placeholder": "@global.edit_number"
           },
+          "style_list": [
+            "margin-top: -10px"
+          ],
           "exclude_from_translation": true,
           "_nested_name": "display_group_15.number",
           "_dynamicFields": {
@@ -657,6 +666,9 @@
           "parameter_list": {
             "placeholder": "@global.edit_age"
           },
+          "style_list": [
+            "margin-top: -10px"
+          ],
           "exclude_from_translation": true,
           "_nested_name": "display_group_15.age",
           "_dynamicFields": {
@@ -841,6 +853,9 @@
             "placeholder": "@global.edit_sex",
             "answer_list": "@local.gender_select_options"
           },
+          "style_list": [
+            "margin-top: -10px"
+          ],
           "condition": "answer_list: @local.gender_select_options",
           "exclude_from_translation": true,
           "_nested_name": "display_group_15.sex",
@@ -1010,6 +1025,9 @@
           "parameter_list": {
             "placeholder": "@global.edit_child_name"
           },
+          "style_list": [
+            "margin-top: -10px"
+          ],
           "exclude_from_translation": true,
           "_nested_name": "display_group_15.child_name",
           "_dynamicFields": {
@@ -1170,6 +1188,9 @@
           "parameter_list": {
             "placeholder": "@global.edit_child_age"
           },
+          "style_list": [
+            "margin-top: -10px"
+          ],
           "exclude_from_translation": true,
           "_nested_name": "display_group_15.child_age",
           "_dynamicFields": {
@@ -1354,6 +1375,9 @@
             "placeholder": "@global.edit_child_sex",
             "answer_list": "@local.child_gender_select_options"
           },
+          "style_list": [
+            "margin-top: -10px"
+          ],
           "exclude_from_translation": true,
           "_nested_name": "display_group_15.child_sex",
           "_dynamicFields": {
@@ -1479,6 +1503,9 @@
           "parameter_list": {
             "placeholder": "@global.edit_relationship"
           },
+          "style_list": [
+            "margin-top: -10px"
+          ],
           "exclude_from_translation": true,
           "_nested_name": "display_group_15.relationship",
           "_dynamicFields": {
@@ -1673,6 +1700,9 @@
           "parameter_list": {
             "placeholder": "@global.edit_members"
           },
+          "style_list": [
+            "margin-top: -10px"
+          ],
           "exclude_from_translation": true,
           "_nested_name": "display_group_15.members",
           "_dynamicFields": {
@@ -1837,6 +1867,9 @@
           "parameter_list": {
             "placeholder": "@global.edit_childcare"
           },
+          "style_list": [
+            "margin-top: -10px"
+          ],
           "exclude_from_translation": true,
           "_nested_name": "display_group_15.childcare",
           "_dynamicFields": {
@@ -1985,6 +2018,9 @@
           "parameter_list": {
             "placeholder": "@global.edit_goal"
           },
+          "style_list": [
+            "margin-top: -10px"
+          ],
           "exclude_from_translation": true,
           "_nested_name": "display_group_15.goal",
           "_dynamicFields": {
@@ -2133,6 +2169,9 @@
           "parameter_list": {
             "placeholder": "@global.edit_other_notes"
           },
+          "style_list": [
+            "margin-top: -10px"
+          ],
           "exclude_from_translation": true,
           "_nested_name": "display_group_15.other",
           "_dynamicFields": {
@@ -2190,6 +2229,9 @@
           "parameter_list": {
             "type": "date"
           },
+          "style_list": [
+            "margin-top: 0px"
+          ],
           "exclude_from_translation": true,
           "_nested_name": "display_group_15.consoltation"
         },
@@ -3432,10 +3474,12 @@
             },
             {
               "trigger": "click",
-              "action_id": "scroll_top",
-              "args": [],
-              "_raw": "click | scroll_top",
-              "_cleaned": "click | scroll_top"
+              "action_id": "scroll",
+              "args": [
+                "top"
+              ],
+              "_raw": "click | scroll: top",
+              "_cleaned": "click | scroll: top"
             }
           ],
           "parameter_list": {

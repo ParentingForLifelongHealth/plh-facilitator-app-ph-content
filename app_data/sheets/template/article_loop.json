@@ -1044,7 +1044,8 @@
           "parameter_list": {
             "task_group_data": "sub_items",
             "completed_field": "completed",
-            "filter": "@task_item.foreign_key == \"@local.foreign_key\""
+            "filter": "@task_item.foreign_key == \"@local.foreign_key\"",
+            "variant": "wheel"
           },
           "exclude_from_translation": true,
           "condition": "!!@local.current_id && !(@local.first && @local.last)",

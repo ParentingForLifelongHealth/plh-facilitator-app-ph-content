@@ -10,7 +10,7 @@
 | button | 89 |
 | carousel | 2 |
 | combo_box | 16 |
-| data_items | 49 |
+| data_items | 51 |
 | date_time_picker | 4 |
 | debug_toggle | 1 |
 | display_grid | 2 |
@@ -18,7 +18,7 @@
 | drawer | 1 |
 | google_sign_in_button | 4 |
 | image | 17 |
-| items | 24 |
+| items | 23 |
 | lottie_animation | 3 |
 | navigation_bar | 2 |
 | pdf | 1 |
@@ -26,13 +26,13 @@
 | radio_button_grid | 16 |
 | round_button | 42 |
 | select_text | 1 |
-| set_variable | 1047 |
+| set_variable | 1045 |
 | simple_checkbox | 2 |
-| task_card | 3 |
-| task_progress_bar | 4 |
+| task_card | 5 |
+| task_progress_bar | 2 |
 | template | 354 |
 | test | 1 |
-| text | 272 |
+| text | 273 |
 | text_area | 2 |
 | text_box | 46 |
 | title | 44 |
@@ -52,24 +52,24 @@
 | auth | 2 |
 | copy | 2 |
 | emit: completed | 67 |
-| emit: force_reload | 7 |
+| emit: force_reload | 9 |
 | emit: force_reprocess | 18 |
 | emit: force_restart | 5 |
-| emit: server_sync | 14 |
+| emit: server_sync | 16 |
 | emit: set_language | 1 |
 | emit: uncompleted | 81 |
 | feedback | 13 |
-| go_to | 34 |
+| go_to | 36 |
 | nav_stack | 5 |
 | plh_parent_group | 9 |
 | pop_up | 20 |
 | reset_app | 1 |
 | save_to_device | 4 |
-| scroll_top | 1 |
-| set_data | 22 |
-| set_field | 79 |
+| scroll | 1 |
+| set_data | 24 |
+| set_field | 85 |
 | set_item | 12 |
-| set_local | 93 |
+| set_local | 95 |
 | share | 4 |
 | user | 4 |
 </details>
@@ -80,7 +80,7 @@
 | assets | KB | MB |
 | --- | --- | --- |
 | total | 26339 KB | 26.3 MB |
-| unused | 23284 KB | 23.3 MB |
+| unused | 23274 KB | 23.3 MB |
 </details>
 
 <details open>
@@ -102,7 +102,6 @@ Assets that appear in app-data but do not have references within sheets
 | images/05_masayang_tahanan.jpg | 197 |
 | images/06_masayang_tahanan.jpg | 379.5 |
 | images/07_masayang_tahanan.jpg | 455.5 |
-| images/Message.png | 1.3 |
 | images/Message.svg | 0.7 |
 | images/after_disclosed_abuse.svg | 4.7 |
 | images/backgrounds/library_bottom_left.svg | 2.3 |
@@ -198,7 +197,7 @@ Assets that appear in app-data but do not have references within sheets
 | images/icons_3.png | 205.9 |
 | images/icons_4.png | 182.7 |
 | images/logos/MaPa_logo.png | 157.3 |
-| images/message.png | 10.4 |
+| images/message.png | 1.3 |
 | images/person_cog.png | 0.8 |
 | pdf/08_mod8_mapa_skill.pdf | 2394.2 |
 | pdf/08_mod8_pagdiriwang.pdf | 413.2 |

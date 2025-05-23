@@ -296,6 +296,14 @@
           "ph_fil": true
         }
       }
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "go_to_start",
+      "value": "Go back to start",
+      "_translations": {
+        "value": {}
+      }
     }
   ],
   "_xlsxPath": "data/deployment_data_ph.xlsx",
