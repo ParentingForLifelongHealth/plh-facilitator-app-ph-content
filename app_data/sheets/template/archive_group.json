@@ -68,29 +68,11 @@
     {
       "type": "text",
       "name": "text_warning",
-      "value": "This will archive all of @fields.current_group_name group data.",
+      "value": "Archiving this group will remove it from your active list.\nYou can still view its data later if needed.",
       "_translations": {
-        "value": {
-          "fil_ph": true,
-          "ph_fil": true
-        }
+        "value": {}
       },
-      "_nested_name": "text_warning",
-      "_dynamicFields": {
-        "value": [
-          {
-            "fullExpression": "This will archive all of @fields.current_group_name group data.",
-            "matchedExpression": "@fields.current_group_name",
-            "type": "fields",
-            "fieldName": "current_group_name"
-          }
-        ]
-      },
-      "_dynamicDependencies": {
-        "@fields.current_group_name": [
-          "value"
-        ]
-      }
+      "_nested_name": "text_warning"
     },
     {
       "type": "display_group",
