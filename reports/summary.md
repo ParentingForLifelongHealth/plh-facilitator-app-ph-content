@@ -7,7 +7,7 @@
 | accordion_section | 1 |
 | apple_sign_in_button | 3 |
 | audio | 3 |
-| button | 89 |
+| button | 88 |
 | carousel | 2 |
 | combo_box | 16 |
 | data_items | 51 |
@@ -26,11 +26,11 @@
 | radio_button_grid | 16 |
 | round_button | 42 |
 | select_text | 1 |
-| set_variable | 1045 |
+| set_variable | 1046 |
 | simple_checkbox | 2 |
 | task_card | 5 |
 | task_progress_bar | 2 |
-| template | 354 |
+| template | 356 |
 | test | 1 |
 | text | 273 |
 | text_area | 2 |
@@ -57,7 +57,7 @@
 | emit: force_restart | 5 |
 | emit: server_sync | 16 |
 | emit: set_language | 1 |
-| emit: uncompleted | 81 |
+| emit: uncompleted | 83 |
 | feedback | 13 |
 | go_to | 36 |
 | nav_stack | 5 |
@@ -67,7 +67,7 @@
 | save_to_device | 4 |
 | scroll | 1 |
 | set_data | 24 |
-| set_field | 85 |
+| set_field | 84 |
 | set_item | 12 |
 | set_local | 95 |
 | share | 4 |
@@ -79,8 +79,8 @@
 
 | assets | KB | MB |
 | --- | --- | --- |
-| total | 26339 KB | 26.3 MB |
-| unused | 23283 KB | 23.3 MB |
+| total | 27619 KB | 27.6 MB |
+| unused | 21994 KB | 22 MB |
 </details>
 
 <details open>
@@ -192,15 +192,10 @@ Assets that appear in app-data but do not have references within sheets
 | images/icons/settings.png | 1.1 |
 | images/icons/settings.svg | 2.4 |
 | images/icons/task_0.png | 2 |
-| images/icons_1.png | 267.7 |
-| images/icons_2.png | 210 |
-| images/icons_3.png | 205.9 |
-| images/icons_4.png | 182.7 |
 | images/logos/MaPa_logo.png | 157.3 |
-| images/message.png | 10.4 |
+| images/message.png | 1.3 |
 | images/person_cog.png | 0.8 |
 | pdf/08_mod8_mapa_skill.pdf | 2394.2 |
-| pdf/08_mod8_pagdiriwang.pdf | 413.2 |
 </details>
 
 <details open>
@@ -212,10 +207,6 @@ Assets that have references within sheets but do not appear in app-data
 | --- | --- |
 | .png | 2 |
 | @data.pdf | 3 |
-| icons_1.png | 1 |
-| icons_2.png | 1 |
-| icons_3.png | 1 |
-| icons_4.png | 1 |
 | images/comics/03_comics1_panel1.png | 1 |
 | images/comics/03_comics1_panel2.png | 1 |
 | images/comics/03_comics1_panel3.png | 1 |
@@ -303,6 +294,10 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | images/icons/unarchive.svg | 1.1 | 1 |
 | images/icons/visibility.svg | 1.9 | 1 |
 | images/icons/world.svg | 6.2 | 1 |
+| images/icons_1.png | 267.7 | 1 |
+| images/icons_2.png | 210 | 1 |
+| images/icons_3.png | 205.9 | 1 |
+| images/icons_4.png | 182.7 | 1 |
 | images/logos/ADMU.jpg | 246.9 | 1 |
 | images/logos/GPI.jpg | 200.1 | 1 |
 | images/logos/IDEMS.png | 84.6 | 1 |
@@ -337,6 +332,7 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | pdf/07_mod7_talakayan_ng_pabaong_gawain.pdf | 114.4 | 1 |
 | pdf/08_mod8_intro.pdf | 708.2 | 1 |
 | pdf/08_mod8_pabaong_gawain.pdf | 288.7 | 1 |
+| pdf/08_mod8_pagdiriwang.pdf | 413.2 | 1 |
 | pdf/08_mod8_pagtatapos.pdf | 684.7 | 1 |
 | pdf/08_mod8_panimulang_gawain.pdf | 75.9 | 1 |
 | pdf/08_mod8_session_structure.pdf | 80.3 | 1 |
@@ -357,7 +353,7 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | generator |  | 9 |
 | global |  | 12 |
 | global | legal_terms | 1 |
-| template |  | 85 |
-| template | generated | 305 |
+| template |  | 84 |
+| template | generated | 308 |
 | template | legal_terms | 4 |
 </details>

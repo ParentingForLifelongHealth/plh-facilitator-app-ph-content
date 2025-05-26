@@ -9711,6 +9711,108 @@
       "name": "tungawan",
       "text": "Tungawan",
       "province_id": "zamboanga_sibugay"
+    },
+    {
+      "id": "caloocan",
+      "name": "caloocan",
+      "text": "Caloocan",
+      "province_id": "metro_manila"
+    },
+    {
+      "id": "malabon",
+      "name": "malabon",
+      "text": "Malabon",
+      "province_id": "metro_manila"
+    },
+    {
+      "id": "navotas",
+      "name": "navotas",
+      "text": "Navotas",
+      "province_id": "metro_manila"
+    },
+    {
+      "id": "valenzuela",
+      "name": "valenzuela",
+      "text": "Valenzuela",
+      "province_id": "metro_manila"
+    },
+    {
+      "id": "quezon_city",
+      "name": "quezon_city",
+      "text": "Quezon City",
+      "province_id": "metro_manila"
+    },
+    {
+      "id": "marikina",
+      "name": "marikina",
+      "text": "Marikina",
+      "province_id": "metro_manila"
+    },
+    {
+      "id": "pasig",
+      "name": "pasig",
+      "text": "Pasig",
+      "province_id": "metro_manila"
+    },
+    {
+      "id": "taguig",
+      "name": "taguig",
+      "text": "Taguig",
+      "province_id": "metro_manila"
+    },
+    {
+      "id": "makati",
+      "name": "makati",
+      "text": "Makati",
+      "province_id": "metro_manila"
+    },
+    {
+      "id": "manila",
+      "name": "manila",
+      "text": "Manila",
+      "province_id": "metro_manila"
+    },
+    {
+      "id": "mandaluyong",
+      "name": "mandaluyong",
+      "text": "Mandaluyong",
+      "province_id": "metro_manila"
+    },
+    {
+      "id": "san_juan",
+      "name": "san_juan",
+      "text": "San Juan",
+      "province_id": "metro_manila"
+    },
+    {
+      "id": "pasay",
+      "name": "pasay",
+      "text": "Pasay",
+      "province_id": "metro_manila"
+    },
+    {
+      "id": "pateros",
+      "name": "pateros",
+      "text": "Pateros",
+      "province_id": "metro_manila"
+    },
+    {
+      "id": "parañaque",
+      "name": "parañaque",
+      "text": "Parañaque",
+      "province_id": "metro_manila"
+    },
+    {
+      "id": "las_piñas",
+      "name": "las_piñas",
+      "text": "Las Piñas",
+      "province_id": "metro_manila"
+    },
+    {
+      "id": "muntinlupa",
+      "name": "muntinlupa",
+      "text": "Muntinlupa",
+      "province_id": "metro_manila"
     }
   ],
   "_xlsxPath": "data/deployment_data_ph.xlsx",

@@ -519,6 +519,60 @@
           "ph_fil": true
         }
       }
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "co_facilitator_add_header",
+      "value": "Add Co-Facilitator",
+      "_translations": {
+        "value": {
+          "fil_ph": true,
+          "ph_fil": true
+        }
+      }
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "co_facilitator_add_body",
+      "value": "Ask your co-facilitator for this parent group to share their @global.app_name code with you.\nPaste the code below to add them to the group.",
+      "_translations": {
+        "value": {}
+      }
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "co_facilitator_add_input_name",
+      "value": "Enter co-facilitator's name",
+      "_translations": {
+        "value": {}
+      }
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "co_facilitator_add_placeholder_code",
+      "value": "Enter co-facilitator’s code",
+      "_translations": {
+        "value": {}
+      }
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "co_facilitator_add_placeholder_name",
+      "value": "Enter co-facilitator's name",
+      "_translations": {
+        "value": {}
+      }
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "co_facilitator_add_button",
+      "value": "Add Co-Facilitator",
+      "_translations": {
+        "value": {
+          "fil_ph": true,
+          "ph_fil": true
+        }
+      }
     }
   ],
   "_xlsxPath": "data/deployment_data_ph.xlsx",

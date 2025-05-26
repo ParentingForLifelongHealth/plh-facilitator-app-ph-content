@@ -288,8 +288,8 @@
             "value": {}
           },
           "style_list": [
-            "font-size: 14px",
-            "color: #8f3d3c"
+            "color: #FF0000",
+            "font-size: 14px"
           ],
           "condition": "!@local.first_name_valid",
           "exclude_from_translation": true,
@@ -435,8 +435,8 @@
             "value": {}
           },
           "style_list": [
-            "font-size: 14px",
-            "color: red"
+            "color: #FF0000",
+            "font-size: 14px"
           ],
           "condition": "!@local.last_name_valid",
           "exclude_from_translation": true,
@@ -610,8 +610,8 @@
             "value": {}
           },
           "style_list": [
-            "font-size: 14px",
-            "color: red"
+            "color: #FF0000",
+            "font-size: 14px"
           ],
           "condition": "!@local.number_valid && @local.show_number_error",
           "exclude_from_translation": true,
@@ -808,8 +808,8 @@
             "value": {}
           },
           "style_list": [
-            "font-size: 14px",
-            "color: red"
+            "color: #FF0000",
+            "font-size: 14px"
           ],
           "condition": "!@local.age_valid && @local.show_age_error",
           "exclude_from_translation": true,
@@ -971,8 +971,8 @@
             "value": {}
           },
           "style_list": [
-            "font-size: 14px",
-            "color: red"
+            "color: #FF0000",
+            "font-size: 14px"
           ],
           "condition": "!@local.sex_valid && @local.show_sex_error",
           "exclude_from_translation": true,
@@ -1177,8 +1177,8 @@
             "value": {}
           },
           "style_list": [
-            "font-size: 14px",
-            "color: red"
+            "color: #FF0000",
+            "font-size: 14px"
           ],
           "condition": "!@local.child_name_valid",
           "exclude_from_translation": true,
@@ -1366,8 +1366,8 @@
             "value": {}
           },
           "style_list": [
-            "font-size: 14px",
-            "color: red"
+            "color: #FF0000",
+            "font-size: 14px"
           ],
           "condition": "!@local.child_age_valid && @local.show_child_age_error",
           "exclude_from_translation": true,
@@ -1519,8 +1519,8 @@
             "value": {}
           },
           "style_list": [
-            "font-size: 14px",
-            "color: red"
+            "color: #FF0000",
+            "font-size: 14px"
           ],
           "condition": "!@local.child_sex_valid && @local.show_child_sex_error",
           "exclude_from_translation": true,
@@ -1691,8 +1691,8 @@
             "value": {}
           },
           "style_list": [
-            "font-size: 14px",
-            "color: red"
+            "color: #FF0000",
+            "font-size: 14px"
           ],
           "condition": "!@local.relationship_valid",
           "exclude_from_translation": true,
@@ -1907,8 +1907,8 @@
             "value": {}
           },
           "style_list": [
-            "font-size: 14px",
-            "color: red"
+            "color: #FF0000",
+            "font-size: 14px"
           ],
           "condition": "!@local.members_valid && @local.show_members_error",
           "exclude_from_translation": true,
@@ -2079,8 +2079,8 @@
             "value": {}
           },
           "style_list": [
-            "font-size: 14px",
-            "color: red"
+            "color: #FF0000",
+            "font-size: 14px"
           ],
           "condition": "!@local.childcare_valid",
           "exclude_from_translation": true,
@@ -2230,8 +2230,8 @@
             "value": {}
           },
           "style_list": [
-            "font-size: 14px",
-            "color: red"
+            "color: #FF0000",
+            "font-size: 14px"
           ],
           "condition": "!@local.goal_valid",
           "exclude_from_translation": true,

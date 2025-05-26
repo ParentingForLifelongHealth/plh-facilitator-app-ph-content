@@ -6,7 +6,7 @@
   "rows": [
     {
       "id": "programme",
-      "image": "icons_1.png",
+      "image": "images/icons_1.png",
       "title": "Tungkol sa MaPaChat Hybrid Program",
       "_translations": {
         "title": {
@@ -22,7 +22,7 @@
     },
     {
       "id": "guide",
-      "image": "icons_2.png",
+      "image": "images/icons_2.png",
       "title": "Gabay Para sa Facilitator",
       "_translations": {
         "title": {
@@ -38,7 +38,7 @@
     },
     {
       "id": "faq",
-      "image": "icons_3.png",
+      "image": "images/icons_3.png",
       "title": "Mga Madalas Itanong",
       "_translations": {
         "title": {
@@ -54,7 +54,7 @@
     },
     {
       "id": "safeguarding",
-      "image": "icons_4.png",
+      "image": "images/icons_4.png",
       "title": "Pag-Iingat, Pagka-Kumpidensyal, at Pagbubunyag",
       "_translations": {
         "title": {
