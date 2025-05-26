@@ -200,6 +200,11 @@
       "flow_name": "pdf_08_mod8_pagtatapos",
       "flow_subtype": "generated",
       "flow_type": "template"
+    },
+    {
+      "flow_name": "pdf_08_mod8_pagdiriwang",
+      "flow_subtype": "generated",
+      "flow_type": "template"
     }
   ]
 }

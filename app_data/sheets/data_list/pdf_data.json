@@ -153,6 +153,11 @@
       "id": "08_mod8_pagtatapos",
       "title": "Pagtatapos",
       "pdf_asset": "pdf/08_mod8_pagtatapos.pdf"
+    },
+    {
+      "id": "08_mod8_pagdiriwang",
+      "title": "Pagdiriwang",
+      "pdf_asset": "pdf/08_mod8_pagdiriwang.pdf"
     }
   ],
   "_xlsxPath": "data/FacilitatorApp PH articles.xlsx",

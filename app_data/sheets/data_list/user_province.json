@@ -233,6 +233,12 @@
       "region_id": "cordillera_administrative_region"
     },
     {
+      "id": "metro_manila",
+      "name": "metro_manila",
+      "text": "Metro Manila",
+      "region_id": "national_capital_region"
+    },
+    {
       "id": "aklan",
       "name": "aklan",
       "text": "Aklan",

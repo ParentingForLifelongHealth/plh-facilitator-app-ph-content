@@ -6465,7 +6465,17 @@
           "flow_type": "template"
         },
         {
+          "flow_name": "library_article_aecp_sensitive",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
           "flow_name": "library_article_oryentasyon_magulang",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "library_article_viber_group",
           "flow_subtype": "generated",
           "flow_type": "template"
         },
@@ -7931,6 +7941,11 @@
           "flow_name": "pdf_08_mod8_pagtatapos",
           "flow_subtype": "generated",
           "flow_type": "template"
+        },
+        {
+          "flow_name": "pdf_08_mod8_pagdiriwang",
+          "flow_subtype": "generated",
+          "flow_type": "template"
         }
       ]
     }
@@ -9383,6 +9398,11 @@
       "flow_subtype": "generated",
       "flow_type": "template"
     },
+    "library_article_aecp_sensitive": {
+      "flow_name": "library_article_aecp_sensitive",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
     "library_article_aecp_skills": {
       "flow_name": "library_article_aecp_skills",
       "flow_subtype": "generated",
@@ -9495,6 +9515,11 @@
     },
     "library_article_viber_chat": {
       "flow_name": "library_article_viber_chat",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "library_article_viber_group": {
+      "flow_name": "library_article_viber_group",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
@@ -9650,6 +9675,11 @@
     },
     "pdf_08_mod8_pabaong_gawain": {
       "flow_name": "pdf_08_mod8_pabaong_gawain",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "pdf_08_mod8_pagdiriwang": {
+      "flow_name": "pdf_08_mod8_pagdiriwang",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
@@ -9950,12 +9980,6 @@
       "flow_name": "nav_buttons",
       "_xlsxPath": "templates/menu_sub_tasks.xlsx",
       "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1Jo1-q7KOE4gC2XRKEMcU9bXnrwB5oCRC"
-    },
-    "new_cofacilitator": {
-      "flow_type": "template",
-      "flow_name": "new_cofacilitator",
-      "_xlsxPath": "templates/PH profile.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
     },
     "package_select": {
       "flow_type": "template",

@@ -18,45 +18,146 @@
           "_cleaned": "uncompleted | emit: uncompleted"
         }
       ],
+      "parameter_list": {
+        "begin_template": "true"
+      },
       "exclude_from_translation": true,
       "rows": [
         {
           "name": "title",
-          "value": "Add Co-Facilitator",
+          "value": "@global.co_facilitator_add_header",
           "_translations": {
-            "value": {
-              "fil_ph": true,
-              "ph_fil": true
-            }
+            "value": {}
           },
+          "exclude_from_translation": true,
           "type": "set_variable",
-          "_nested_name": "header.title"
+          "_nested_name": "header.title",
+          "_dynamicFields": {
+            "value": [
+              {
+                "fullExpression": "@global.co_facilitator_add_header",
+                "matchedExpression": "@global.co_facilitator_add_header",
+                "type": "global",
+                "fieldName": "co_facilitator_add_header"
+              }
+            ]
+          },
+          "_dynamicDependencies": {
+            "@global.co_facilitator_add_header": [
+              "value"
+            ]
+          }
         }
       ],
       "_nested_name": "header"
     },
     {
-      "exclude_from_translation": true,
-      "type": "set_variable",
-      "name": "set_variable_4",
-      "_nested_name": "set_variable_4"
-    },
-    {
       "type": "text",
-      "value": "Enter ID of proposed co-facilitator",
+      "value": "@global.co_facilitator_add_body",
       "_translations": {
-        "value": {
-          "fil_ph": true,
-          "ph_fil": true
-        }
+        "value": {}
       },
-      "name": "text_5",
-      "_nested_name": "text_5"
+      "exclude_from_translation": true,
+      "name": "text_4",
+      "_nested_name": "text_4",
+      "_dynamicFields": {
+        "value": [
+          {
+            "fullExpression": "@global.co_facilitator_add_body",
+            "matchedExpression": "@global.co_facilitator_add_body",
+            "type": "global",
+            "fieldName": "co_facilitator_add_body"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@global.co_facilitator_add_body": [
+          "value"
+        ]
+      }
     },
     {
       "type": "text_box",
       "name": "co_facilitator_id",
-      "_nested_name": "co_facilitator_id"
+      "parameter_list": {
+        "placeholder": "@global.co_facilitator_add_placeholder_code"
+      },
+      "style_list": [
+        "margin-top: -10px"
+      ],
+      "exclude_from_translation": true,
+      "_nested_name": "co_facilitator_id",
+      "_dynamicFields": {
+        "parameter_list": {
+          "placeholder": [
+            {
+              "fullExpression": "@global.co_facilitator_add_placeholder_code",
+              "matchedExpression": "@global.co_facilitator_add_placeholder_code",
+              "type": "global",
+              "fieldName": "co_facilitator_add_placeholder_code"
+            }
+          ]
+        }
+      },
+      "_dynamicDependencies": {
+        "@global.co_facilitator_add_placeholder_code": [
+          "parameter_list.placeholder"
+        ]
+      }
+    },
+    {
+      "type": "text",
+      "value": "@global.co_facilitator_add_input_name",
+      "_translations": {
+        "value": {}
+      },
+      "exclude_from_translation": true,
+      "name": "text_6",
+      "_nested_name": "text_6",
+      "_dynamicFields": {
+        "value": [
+          {
+            "fullExpression": "@global.co_facilitator_add_input_name",
+            "matchedExpression": "@global.co_facilitator_add_input_name",
+            "type": "global",
+            "fieldName": "co_facilitator_add_input_name"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@global.co_facilitator_add_input_name": [
+          "value"
+        ]
+      }
+    },
+    {
+      "type": "text_box",
+      "name": "co_facilitator_name",
+      "parameter_list": {
+        "placeholder": "@global.co_facilitator_add_placeholder_name"
+      },
+      "style_list": [
+        "margin-top: -10px"
+      ],
+      "exclude_from_translation": true,
+      "_nested_name": "co_facilitator_name",
+      "_dynamicFields": {
+        "parameter_list": {
+          "placeholder": [
+            {
+              "fullExpression": "@global.co_facilitator_add_placeholder_name",
+              "matchedExpression": "@global.co_facilitator_add_placeholder_name",
+              "type": "global",
+              "fieldName": "co_facilitator_add_placeholder_name"
+            }
+          ]
+        }
+      },
+      "_dynamicDependencies": {
+        "@global.co_facilitator_add_placeholder_name": [
+          "parameter_list.placeholder"
+        ]
+      }
     },
     {
       "type": "button",
@@ -93,8 +194,12 @@
           "_cleaned": "click | emit: completed"
         }
       ],
-      "name": "button_7",
-      "_nested_name": "button_7",
+      "parameter_list": {
+        "button": "true"
+      },
+      "exclude_from_translation": true,
+      "name": "button_8",
+      "_nested_name": "button_8",
       "_dynamicFields": {
         "action_list": {
           "0": {
