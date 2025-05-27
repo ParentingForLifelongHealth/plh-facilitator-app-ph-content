@@ -63,6 +63,10 @@
     "md5Checksum": "aa9b5e27ce72e9c99356822dd6446f84",
     "size_kb": 455.5
   },
+  "images/Message.png": {
+    "md5Checksum": "f2c7b9e7f8a158c6a9f4bf7b680a7e11",
+    "size_kb": 1.3
+  },
   "images/Message.svg": {
     "md5Checksum": "3216df1581701cb24c813dd207c37f9a",
     "size_kb": 0.7
@@ -639,6 +643,10 @@
     "md5Checksum": "ac226e440340ec3bbc0de46731e11763",
     "size_kb": 2.4
   },
+  "images/icons/trophy.svg": {
+    "md5Checksum": "a963eaa12d6640a02c61f34e86093c9c",
+    "size_kb": 1
+  },
   "images/icons/unarchive.svg": {
     "md5Checksum": "e186966d46ba49f948c6e945acc8073c",
     "size_kb": 1.1
@@ -695,10 +703,6 @@
     "md5Checksum": "1bf5b17d939d6b147dd9a3924176460b",
     "size_kb": 70.6
   },
-  "images/message.png": {
-    "md5Checksum": "f2c7b9e7f8a158c6a9f4bf7b680a7e11",
-    "size_kb": 1.3
-  },
   "images/no_group_selected.svg": {
     "md5Checksum": "82767136bb58f06e6402ca136d3df590",
     "size_kb": 3.5
@@ -706,6 +710,14 @@
   "images/person_cog.png": {
     "md5Checksum": "61b9b963c98b98e1ad6d14693b982f69",
     "size_kb": 0.8
+  },
+  "images/progress_complete.png": {
+    "md5Checksum": "854d54d8d7896c1aa30112043fec00cf",
+    "size_kb": 0.7
+  },
+  "images/progress_uncomplete.png": {
+    "md5Checksum": "f6d59cdb4f3ae0b9e349d31decb8dc65",
+    "size_kb": 0.3
   },
   "lottie/checkmark_blue.json": {
     "md5Checksum": "8a2142347e0031620e14807839f439d5",

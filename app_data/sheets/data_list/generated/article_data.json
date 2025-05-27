@@ -293,6 +293,18 @@
       "home_screen_section_list": [
         "faq"
       ],
+      "title": "Nakakaramdam ng pag-aalala, stress, o lungkot ang mga magulang dahil sa pagtatapos ng programa.",
+      "introduction": "Normal lang na makaramdam ng lungkot o maging emosyonal ang mga magulang kapag natapos na ang programa. Ibig sabihin nito, naging makabuluhan para sa kanila ang mga MaPa session at nag-enjoy silang makibahagi. Ang ganda ng regalong naibigay mo sa kanila! Congratulations! 🎉\n\nPara matulungan sila sa pagbabagong ito, maaari mong ipadala ang mensaheng nasa ibaba.",
+      "attached_single_doc": "https://docs.google.com/document/d/1tsC8IqIV56NjH2MX4nJV57kP8ptFtofFU17PyOfy_mY/edit?tab=t.0#heading=h.n8fo4aq4xzbn",
+      "message_title_1": "Mensahe ng Pagsuporta",
+      "message_text_1": "Hello 👋\n\nSalamat sa pagbabahagi ng iyong nararamdaman.\nAyos lang na makaramdam ng takot o lungkot kapag may isang bagay na naging bahagi ng buhay mo ang nagtatapos.\n\nTandaan natin:\n\n1️⃣ Kahit pa magtapos na ang MaPa Chat Hybrid Program, tuloy pa rin ang iyong paglalakbay. May mga ⭐kahanga-hanga⭐ kang natutunang skills bilang magulang na madadala mo sa araw-araw.\n\n2️⃣Maaaring maging tuloy-tuloy na suporta ang Viber group kahit tapos na ang programa. Patuloy lang sa pagbabahagi ng iyong mga tagumpay at mga hamon sa group chat o sa mga kapwa magulang.\n\nMahusay ang iyong partisipasyon sa buong MaPa Chat Hybrid program! Salamat! 👏"
+    },
+    {
+      "id": "faq_h_prompts",
+      "status": "released",
+      "home_screen_section_list": [
+        "faq"
+      ],
       "title": "Chat Session Prompt Pra sa Bagong Group Admin",
       "introduction": "Matapos mong kausapin ang bagong group admin, maaari mong ibahagi ang mga prompt na ito upang suportahan sila sa pangunguna ng mga chat session.",
       "attached_single_doc": "https://docs.google.com/document/d/1tsC8IqIV56NjH2MX4nJV57kP8ptFtofFU17PyOfy_mY/edit?tab=t.0#heading=h.n8fo4aq4xzbn",
@@ -301,7 +313,7 @@
       "message_text_3": "💙 Welcome kayong mag-share dito sa Viber group chat ng mga tanong o karanasan nyo sa inyong MaPa journey. Baka hindi ako laging makasagot, pero grupo natin ito - magtulungan tayo para mahanap ang mga sagot na kailangan natin!"
     },
     {
-      "id": "faq_h_prompts",
+      "id": "faq_h_no_volunteers",
       "status": "released",
       "home_screen_section_list": [
         "faq"
@@ -311,11 +323,6 @@
       "attached_single_doc": "https://docs.google.com/document/d/1tsC8IqIV56NjH2MX4nJV57kP8ptFtofFU17PyOfy_mY/edit?tab=t.0#heading=h.n8fo4aq4xzbn",
       "message_title_1": "Alternatibong Mensahe sa Pagtatapos ng MaPa Chat",
       "message_text_1": "Salamat sa pagbabahagi ng inyong mga saloobin 💙\n\nDahil wala tayong boluntaryong gustong maging group admin, isasara ko na ang Viber Group na ito sa pagtatapos ng Programa.\n\nTandaan, pwede pa rin ninyong ipagpatuloy ang inyong MaPa journey kasama ang inyong pamilya!"
-    },
-    {
-      "id": "faq_h_no_volunteers",
-      "status": "released",
-      "attached_single_doc": "https://docs.google.com/document/d/1tsC8IqIV56NjH2MX4nJV57kP8ptFtofFU17PyOfy_mY/edit?tab=t.0#heading=h.n8fo4aq4xzbn"
     }
   ]
 }

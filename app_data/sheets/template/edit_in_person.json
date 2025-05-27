@@ -264,6 +264,54 @@
       }
     },
     {
+      "type": "text",
+      "value": "current: @local.current_answer_1",
+      "_translations": {
+        "value": {}
+      },
+      "name": "text_19",
+      "_nested_name": "text_19",
+      "_dynamicFields": {
+        "value": [
+          {
+            "fullExpression": "current: @local.current_answer_1",
+            "matchedExpression": "@local.current_answer_1",
+            "type": "local",
+            "fieldName": "current_answer_1"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@local.current_answer_1": [
+          "value"
+        ]
+      }
+    },
+    {
+      "type": "text",
+      "value": "answer: @local.answer_1",
+      "_translations": {
+        "value": {}
+      },
+      "name": "text_20",
+      "_nested_name": "text_20",
+      "_dynamicFields": {
+        "value": [
+          {
+            "fullExpression": "answer: @local.answer_1",
+            "matchedExpression": "@local.answer_1",
+            "type": "local",
+            "fieldName": "answer_1"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@local.answer_1": [
+          "value"
+        ]
+      }
+    },
+    {
       "type": "data_items",
       "value": "@data.report_data",
       "_translations": {
@@ -285,8 +333,8 @@
         "filter": "@item.id == @fields.current_report_id",
         "limit": "1"
       },
-      "name": "data_items_19",
-      "_nested_name": "data_items_19",
+      "name": "data_items_21",
+      "_nested_name": "data_items_21",
       "_dynamicFields": {
         "value": [
           {
@@ -473,7 +521,7 @@
                   "ph_fil": true
                 }
               },
-              "_nested_name": "display_group_25.display_group_1.question_2"
+              "_nested_name": "display_group_27.display_group_1.question_2"
             },
             {
               "type": "date_time_picker",
@@ -485,7 +533,7 @@
               "parameter_list": {
                 "type": "date"
               },
-              "_nested_name": "display_group_25.display_group_1.answer_2",
+              "_nested_name": "display_group_27.display_group_1.answer_2",
               "_dynamicFields": {
                 "value": [
                   {
@@ -512,7 +560,7 @@
                   "ph_fil": true
                 }
               },
-              "_nested_name": "display_group_25.display_group_1.question_3"
+              "_nested_name": "display_group_27.display_group_1.question_3"
             },
             {
               "type": "text_box",
@@ -526,7 +574,7 @@
                 "placeholder": "@global.minutes",
                 "max_length": "3"
               },
-              "_nested_name": "display_group_25.display_group_1.answer_3",
+              "_nested_name": "display_group_27.display_group_1.answer_3",
               "_dynamicFields": {
                 "value": [
                   {
@@ -557,6 +605,98 @@
               }
             },
             {
+              "name": "answer3_valid",
+              "value": "@calc((/^\\d+$/.test(@local.answer_3) && @local.answer_3>= 1 && @local.answer_3<= 1000) || @local.answer_3 == '' || !@local.answer_3)",
+              "_translations": {
+                "value": {}
+              },
+              "type": "set_variable",
+              "_nested_name": "display_group_27.display_group_1.answer3_valid",
+              "_dynamicFields": {
+                "value": [
+                  {
+                    "fullExpression": "@calc((/^\\d+$/.test(@local.answer_3) && @local.answer_3>= 1 && @local.answer_3<= 1000) || @local.answer_3 == '' || !@local.answer_3)",
+                    "matchedExpression": "@local.answer_3",
+                    "type": "local",
+                    "fieldName": "answer_3"
+                  },
+                  {
+                    "fullExpression": "@calc((/^\\d+$/.test(@local.answer_3) && @local.answer_3>= 1 && @local.answer_3<= 1000) || @local.answer_3 == '' || !@local.answer_3)",
+                    "matchedExpression": "@local.answer_3",
+                    "type": "local",
+                    "fieldName": "answer_3"
+                  },
+                  {
+                    "fullExpression": "@calc((/^\\d+$/.test(@local.answer_3) && @local.answer_3>= 1 && @local.answer_3<= 1000) || @local.answer_3 == '' || !@local.answer_3)",
+                    "matchedExpression": "@local.answer_3",
+                    "type": "local",
+                    "fieldName": "answer_3"
+                  },
+                  {
+                    "fullExpression": "@calc((/^\\d+$/.test(@local.answer_3) && @local.answer_3>= 1 && @local.answer_3<= 1000) || @local.answer_3 == '' || !@local.answer_3)",
+                    "matchedExpression": "@local.answer_3",
+                    "type": "local",
+                    "fieldName": "answer_3"
+                  },
+                  {
+                    "fullExpression": "@calc((/^\\d+$/.test(@local.answer_3) && @local.answer_3>= 1 && @local.answer_3<= 1000) || @local.answer_3 == '' || !@local.answer_3)",
+                    "matchedExpression": "!@local.answer_3",
+                    "type": "local",
+                    "fieldName": "answer_3"
+                  },
+                  {
+                    "fullExpression": "@calc((/^\\d+$/.test(@local.answer_3) && @local.answer_3>= 1 && @local.answer_3<= 1000) || @local.answer_3 == '' || !@local.answer_3)",
+                    "matchedExpression": "@calc((/^\\d+$/.test(@local.answer_3) && @local.answer_3>= 1 && @local.answer_3<= 1000) || @local.answer_3 == '' || !@local.answer_3)",
+                    "type": "calc",
+                    "fieldName": "(/^\\d+$/.test(@local.answer_3) && @local.answer_3>= 1 && @local.answer_3<= 1000) || @local.answer_3 == '' || !@local.answer_3"
+                  }
+                ]
+              },
+              "_dynamicDependencies": {
+                "@local.answer_3": [
+                  "value",
+                  "value",
+                  "value",
+                  "value"
+                ],
+                "!@local.answer_3": [
+                  "value"
+                ],
+                "@calc((/^\\d+$/.test(@local.answer_3) && @local.answer_3>= 1 && @local.answer_3<= 1000) || @local.answer_3 == '' || !@local.answer_3)": [
+                  "value"
+                ]
+              }
+            },
+            {
+              "type": "text",
+              "value": "Please enter a valid number between 1 and 999.",
+              "_translations": {
+                "value": {}
+              },
+              "condition": "!@local.answer3_valid",
+              "style_list": [
+                "color: #FF0000",
+                "font-size: 14px"
+              ],
+              "name": "text_6",
+              "_nested_name": "display_group_27.display_group_1.text_6",
+              "_dynamicFields": {
+                "condition": [
+                  {
+                    "fullExpression": "!@local.answer3_valid",
+                    "matchedExpression": "!@local.answer3_valid",
+                    "type": "local",
+                    "fieldName": "answer3_valid"
+                  }
+                ]
+              },
+              "_dynamicDependencies": {
+                "!@local.answer3_valid": [
+                  "condition"
+                ]
+              }
+            },
+            {
               "type": "text",
               "name": "question_4",
               "value": "How much time did you spend on preparing for the session?",
@@ -566,7 +706,7 @@
                   "ph_fil": true
                 }
               },
-              "_nested_name": "display_group_25.display_group_1.question_4"
+              "_nested_name": "display_group_27.display_group_1.question_4"
             },
             {
               "type": "text_box",
@@ -580,7 +720,7 @@
                 "placeholder": "@global.minutes",
                 "max_length": "3"
               },
-              "_nested_name": "display_group_25.display_group_1.answer_4",
+              "_nested_name": "display_group_27.display_group_1.answer_4",
               "_dynamicFields": {
                 "value": [
                   {
@@ -611,6 +751,98 @@
               }
             },
             {
+              "name": "answer4_valid",
+              "value": "@calc((/^\\d+$/.test(@local.answer_4) && @local.answer_4>= 1 && @local.answer_4<= 1000) || @local.answer_4 == '' || !@local.answer_4)",
+              "_translations": {
+                "value": {}
+              },
+              "type": "set_variable",
+              "_nested_name": "display_group_27.display_group_1.answer4_valid",
+              "_dynamicFields": {
+                "value": [
+                  {
+                    "fullExpression": "@calc((/^\\d+$/.test(@local.answer_4) && @local.answer_4>= 1 && @local.answer_4<= 1000) || @local.answer_4 == '' || !@local.answer_4)",
+                    "matchedExpression": "@local.answer_4",
+                    "type": "local",
+                    "fieldName": "answer_4"
+                  },
+                  {
+                    "fullExpression": "@calc((/^\\d+$/.test(@local.answer_4) && @local.answer_4>= 1 && @local.answer_4<= 1000) || @local.answer_4 == '' || !@local.answer_4)",
+                    "matchedExpression": "@local.answer_4",
+                    "type": "local",
+                    "fieldName": "answer_4"
+                  },
+                  {
+                    "fullExpression": "@calc((/^\\d+$/.test(@local.answer_4) && @local.answer_4>= 1 && @local.answer_4<= 1000) || @local.answer_4 == '' || !@local.answer_4)",
+                    "matchedExpression": "@local.answer_4",
+                    "type": "local",
+                    "fieldName": "answer_4"
+                  },
+                  {
+                    "fullExpression": "@calc((/^\\d+$/.test(@local.answer_4) && @local.answer_4>= 1 && @local.answer_4<= 1000) || @local.answer_4 == '' || !@local.answer_4)",
+                    "matchedExpression": "@local.answer_4",
+                    "type": "local",
+                    "fieldName": "answer_4"
+                  },
+                  {
+                    "fullExpression": "@calc((/^\\d+$/.test(@local.answer_4) && @local.answer_4>= 1 && @local.answer_4<= 1000) || @local.answer_4 == '' || !@local.answer_4)",
+                    "matchedExpression": "!@local.answer_4",
+                    "type": "local",
+                    "fieldName": "answer_4"
+                  },
+                  {
+                    "fullExpression": "@calc((/^\\d+$/.test(@local.answer_4) && @local.answer_4>= 1 && @local.answer_4<= 1000) || @local.answer_4 == '' || !@local.answer_4)",
+                    "matchedExpression": "@calc((/^\\d+$/.test(@local.answer_4) && @local.answer_4>= 1 && @local.answer_4<= 1000) || @local.answer_4 == '' || !@local.answer_4)",
+                    "type": "calc",
+                    "fieldName": "(/^\\d+$/.test(@local.answer_4) && @local.answer_4>= 1 && @local.answer_4<= 1000) || @local.answer_4 == '' || !@local.answer_4"
+                  }
+                ]
+              },
+              "_dynamicDependencies": {
+                "@local.answer_4": [
+                  "value",
+                  "value",
+                  "value",
+                  "value"
+                ],
+                "!@local.answer_4": [
+                  "value"
+                ],
+                "@calc((/^\\d+$/.test(@local.answer_4) && @local.answer_4>= 1 && @local.answer_4<= 1000) || @local.answer_4 == '' || !@local.answer_4)": [
+                  "value"
+                ]
+              }
+            },
+            {
+              "type": "text",
+              "value": "Please enter a valid number between 1 and 999.",
+              "_translations": {
+                "value": {}
+              },
+              "condition": "!@local.answer4_valid",
+              "style_list": [
+                "color: #FF0000",
+                "font-size: 14px"
+              ],
+              "name": "text_10",
+              "_nested_name": "display_group_27.display_group_1.text_10",
+              "_dynamicFields": {
+                "condition": [
+                  {
+                    "fullExpression": "!@local.answer4_valid",
+                    "matchedExpression": "!@local.answer4_valid",
+                    "type": "local",
+                    "fieldName": "answer4_valid"
+                  }
+                ]
+              },
+              "_dynamicDependencies": {
+                "!@local.answer4_valid": [
+                  "condition"
+                ]
+              }
+            },
+            {
               "type": "text",
               "name": "question_5",
               "value": "Were you able to complete all the activities?",
@@ -620,7 +852,7 @@
                   "ph_fil": true
                 }
               },
-              "_nested_name": "display_group_25.display_group_1.question_5"
+              "_nested_name": "display_group_27.display_group_1.question_5"
             },
             {
               "name": "yes",
@@ -632,7 +864,7 @@
                 }
               },
               "type": "set_variable",
-              "_nested_name": "display_group_25.display_group_1.yes"
+              "_nested_name": "display_group_27.display_group_1.yes"
             },
             {
               "name": "no",
@@ -644,7 +876,7 @@
                 }
               },
               "type": "set_variable",
-              "_nested_name": "display_group_25.display_group_1.no"
+              "_nested_name": "display_group_27.display_group_1.no"
             },
             {
               "name": "answer_list_5",
@@ -659,7 +891,7 @@
                 }
               ],
               "type": "set_variable",
-              "_nested_name": "display_group_25.display_group_1.answer_list_5",
+              "_nested_name": "display_group_27.display_group_1.answer_list_5",
               "_dynamicFields": {
                 "value": {
                   "0": {
@@ -704,7 +936,7 @@
                 "item_width": "100%",
                 "answer_list": "@local.answer_list_5"
               },
-              "_nested_name": "display_group_25.display_group_1.answer_5",
+              "_nested_name": "display_group_27.display_group_1.answer_5",
               "_dynamicFields": {
                 "value": [
                   {
@@ -745,7 +977,7 @@
                 }
               },
               "condition": "@local.answer_5 == \"no\"",
-              "_nested_name": "display_group_25.display_group_1.question_6",
+              "_nested_name": "display_group_27.display_group_1.question_6",
               "_dynamicFields": {
                 "condition": [
                   {
@@ -770,7 +1002,7 @@
                 "value": {}
               },
               "condition": "@local.answer_5 == \"no\"",
-              "_nested_name": "display_group_25.display_group_1.answer_6",
+              "_nested_name": "display_group_27.display_group_1.answer_6",
               "_dynamicFields": {
                 "value": [
                   {
@@ -800,7 +1032,7 @@
             }
           ],
           "name": "display_group_1",
-          "_nested_name": "display_group_25.display_group_1",
+          "_nested_name": "display_group_27.display_group_1",
           "_dynamicFields": {
             "condition": [
               {
@@ -837,7 +1069,7 @@
               "parameter_list": {
                 "style": "emphasised"
               },
-              "_nested_name": "display_group_25.display_group_2.confidence_header"
+              "_nested_name": "display_group_27.display_group_2.confidence_header"
             },
             {
               "name": "none",
@@ -849,7 +1081,7 @@
                 }
               },
               "type": "set_variable",
-              "_nested_name": "display_group_25.display_group_2.none"
+              "_nested_name": "display_group_27.display_group_2.none"
             },
             {
               "name": "low",
@@ -861,7 +1093,7 @@
                 }
               },
               "type": "set_variable",
-              "_nested_name": "display_group_25.display_group_2.low"
+              "_nested_name": "display_group_27.display_group_2.low"
             },
             {
               "name": "moderate",
@@ -873,7 +1105,7 @@
                 }
               },
               "type": "set_variable",
-              "_nested_name": "display_group_25.display_group_2.moderate"
+              "_nested_name": "display_group_27.display_group_2.moderate"
             },
             {
               "name": "high",
@@ -885,7 +1117,7 @@
                 }
               },
               "type": "set_variable",
-              "_nested_name": "display_group_25.display_group_2.high"
+              "_nested_name": "display_group_27.display_group_2.high"
             },
             {
               "name": "very_high",
@@ -897,7 +1129,7 @@
                 }
               },
               "type": "set_variable",
-              "_nested_name": "display_group_25.display_group_2.very_high"
+              "_nested_name": "display_group_27.display_group_2.very_high"
             },
             {
               "name": "answer_list_confidence",
@@ -924,7 +1156,7 @@
                 }
               ],
               "type": "set_variable",
-              "_nested_name": "display_group_25.display_group_2.answer_list_confidence",
+              "_nested_name": "display_group_27.display_group_2.answer_list_confidence",
               "_dynamicFields": {
                 "value": {
                   "0": {
@@ -1007,7 +1239,7 @@
                   "ph_fil": true
                 }
               },
-              "_nested_name": "display_group_25.display_group_2.question_7"
+              "_nested_name": "display_group_27.display_group_2.question_7"
             },
             {
               "type": "radio_button_grid",
@@ -1020,7 +1252,7 @@
                 "item_width": "100%",
                 "answer_list": "@local.answer_list_confidence"
               },
-              "_nested_name": "display_group_25.display_group_2.answer_7",
+              "_nested_name": "display_group_27.display_group_2.answer_7",
               "_dynamicFields": {
                 "value": [
                   {
@@ -1060,7 +1292,7 @@
                   "ph_fil": true
                 }
               },
-              "_nested_name": "display_group_25.display_group_2.question_8"
+              "_nested_name": "display_group_27.display_group_2.question_8"
             },
             {
               "type": "radio_button_grid",
@@ -1073,7 +1305,7 @@
                 "item_width": "100%",
                 "answer_list": "@local.answer_list_confidence"
               },
-              "_nested_name": "display_group_25.display_group_2.answer_8",
+              "_nested_name": "display_group_27.display_group_2.answer_8",
               "_dynamicFields": {
                 "value": [
                   {
@@ -1116,7 +1348,7 @@
               "parameter_list": {
                 "style": "emphasised"
               },
-              "_nested_name": "display_group_25.display_group_2.coaching_header"
+              "_nested_name": "display_group_27.display_group_2.coaching_header"
             },
             {
               "type": "text",
@@ -1128,7 +1360,7 @@
                   "ph_fil": true
                 }
               },
-              "_nested_name": "display_group_25.display_group_2.question_9"
+              "_nested_name": "display_group_27.display_group_2.question_9"
             },
             {
               "type": "text_box",
@@ -1137,7 +1369,7 @@
               "_translations": {
                 "value": {}
               },
-              "_nested_name": "display_group_25.display_group_2.answer_9",
+              "_nested_name": "display_group_27.display_group_2.answer_9",
               "_dynamicFields": {
                 "value": [
                   {
@@ -1164,7 +1396,7 @@
                   "ph_fil": true
                 }
               },
-              "_nested_name": "display_group_25.display_group_2.question_10"
+              "_nested_name": "display_group_27.display_group_2.question_10"
             },
             {
               "type": "text_box",
@@ -1173,7 +1405,7 @@
               "_translations": {
                 "value": {}
               },
-              "_nested_name": "display_group_25.display_group_2.answer_10",
+              "_nested_name": "display_group_27.display_group_2.answer_10",
               "_dynamicFields": {
                 "value": [
                   {
@@ -1194,7 +1426,7 @@
               "exclude_from_translation": true,
               "type": "set_variable",
               "name": "set_variable_17",
-              "_nested_name": "display_group_25.display_group_2.set_variable_17"
+              "_nested_name": "display_group_27.display_group_2.set_variable_17"
             },
             {
               "type": "data_items",
@@ -1220,7 +1452,7 @@
               "condition": true,
               "exclude_from_translation": true,
               "name": "data_items_18",
-              "_nested_name": "display_group_25.display_group_2.data_items_18",
+              "_nested_name": "display_group_27.display_group_2.data_items_18",
               "_dynamicFields": {
                 "value": [
                   {
@@ -1281,11 +1513,11 @@
                   },
                   "exclude_from_translation": false,
                   "name": "text_1",
-                  "_nested_name": "display_group_25.display_group_2.display_group_19.text_1"
+                  "_nested_name": "display_group_27.display_group_2.display_group_19.text_1"
                 }
               ],
               "name": "display_group_19",
-              "_nested_name": "display_group_25.display_group_2.display_group_19",
+              "_nested_name": "display_group_27.display_group_2.display_group_19",
               "_dynamicFields": {
                 "condition": [
                   {
@@ -1322,7 +1554,7 @@
                 }
               },
               "condition": "@local.answer_1 == \"lead\" && @local.parent_count > 1",
-              "_nested_name": "display_group_25.display_group_2.question_11",
+              "_nested_name": "display_group_27.display_group_2.question_11",
               "_dynamicFields": {
                 "condition": [
                   {
@@ -1373,7 +1605,7 @@
                           },
                           "exclude_from_translation": true,
                           "type": "set_variable",
-                          "_nested_name": "display_group_25.display_group_2.data_items_21.display_group_1.display_group_1.first_name"
+                          "_nested_name": "display_group_27.display_group_2.data_items_21.display_group_1.display_group_1.first_name"
                         },
                         {
                           "name": "last_name",
@@ -1383,7 +1615,7 @@
                           },
                           "exclude_from_translation": true,
                           "type": "set_variable",
-                          "_nested_name": "display_group_25.display_group_2.data_items_21.display_group_1.display_group_1.last_name"
+                          "_nested_name": "display_group_27.display_group_2.data_items_21.display_group_1.display_group_1.last_name"
                         },
                         {
                           "name": "first_name",
@@ -1394,7 +1626,7 @@
                           "condition": "@item.first_name",
                           "exclude_from_translation": true,
                           "type": "set_variable",
-                          "_nested_name": "display_group_25.display_group_2.data_items_21.display_group_1.display_group_1.first_name",
+                          "_nested_name": "display_group_27.display_group_2.data_items_21.display_group_1.display_group_1.first_name",
                           "_dynamicFields": {
                             "value": [
                               {
@@ -1429,7 +1661,7 @@
                           "condition": "@item.last_name",
                           "exclude_from_translation": true,
                           "type": "set_variable",
-                          "_nested_name": "display_group_25.display_group_2.data_items_21.display_group_1.display_group_1.last_name",
+                          "_nested_name": "display_group_27.display_group_2.data_items_21.display_group_1.display_group_1.last_name",
                           "_dynamicFields": {
                             "value": [
                               {
@@ -1466,7 +1698,7 @@
                             "flex: 1"
                           ],
                           "name": "text_5",
-                          "_nested_name": "display_group_25.display_group_2.data_items_21.display_group_1.display_group_1.text_5",
+                          "_nested_name": "display_group_27.display_group_2.data_items_21.display_group_1.display_group_1.text_5",
                           "_dynamicFields": {
                             "value": [
                               {
@@ -1515,7 +1747,7 @@
                             "show_icons": "false",
                             "variant": "ios"
                           },
-                          "_nested_name": "display_group_25.display_group_2.data_items_21.display_group_1.display_group_1.parent_attend",
+                          "_nested_name": "display_group_27.display_group_2.data_items_21.display_group_1.display_group_1.parent_attend",
                           "_dynamicFields": {
                             "value": [
                               {
@@ -1556,7 +1788,7 @@
                         }
                       ],
                       "name": "display_group_1",
-                      "_nested_name": "display_group_25.display_group_2.data_items_21.display_group_1.display_group_1"
+                      "_nested_name": "display_group_27.display_group_2.data_items_21.display_group_1.display_group_1"
                     },
                     {
                       "type": "display_group",
@@ -1575,7 +1807,7 @@
                             }
                           },
                           "name": "text_1",
-                          "_nested_name": "display_group_25.display_group_2.data_items_21.display_group_1.display_group_2.text_1",
+                          "_nested_name": "display_group_27.display_group_2.data_items_21.display_group_1.display_group_2.text_1",
                           "_dynamicFields": {
                             "value": [
                               {
@@ -1611,7 +1843,7 @@
                             }
                           ],
                           "name": "text_box_2",
-                          "_nested_name": "display_group_25.display_group_2.data_items_21.display_group_1.display_group_2.text_box_2",
+                          "_nested_name": "display_group_27.display_group_2.data_items_21.display_group_1.display_group_2.text_box_2",
                           "_dynamicFields": {
                             "value": [
                               {
@@ -1652,7 +1884,7 @@
                         }
                       ],
                       "name": "display_group_2",
-                      "_nested_name": "display_group_25.display_group_2.data_items_21.display_group_1.display_group_2",
+                      "_nested_name": "display_group_27.display_group_2.data_items_21.display_group_1.display_group_2",
                       "_dynamicFields": {
                         "condition": [
                           {
@@ -1671,11 +1903,11 @@
                     }
                   ],
                   "name": "display_group_1",
-                  "_nested_name": "display_group_25.display_group_2.data_items_21.display_group_1"
+                  "_nested_name": "display_group_27.display_group_2.data_items_21.display_group_1"
                 }
               ],
               "name": "data_items_21",
-              "_nested_name": "display_group_25.display_group_2.data_items_21",
+              "_nested_name": "display_group_27.display_group_2.data_items_21",
               "_dynamicFields": {
                 "parameter_list": {
                   "filter": [
@@ -1734,7 +1966,7 @@
             }
           ],
           "name": "display_group_2",
-          "_nested_name": "display_group_25.display_group_2",
+          "_nested_name": "display_group_27.display_group_2",
           "_dynamicFields": {
             "condition": [
               {
@@ -1768,8 +2000,8 @@
           }
         }
       ],
-      "name": "display_group_25",
-      "_nested_name": "display_group_25",
+      "name": "display_group_27",
+      "_nested_name": "display_group_27",
       "_dynamicFields": {
         "condition": [
           {
@@ -1790,6 +2022,39 @@
         "@local.answer_1": [
           "condition",
           "condition"
+        ]
+      }
+    },
+    {
+      "name": "valid",
+      "value": "@local.answer3_valid && @local.answer4_valid",
+      "_translations": {
+        "value": {}
+      },
+      "type": "set_variable",
+      "_nested_name": "valid",
+      "_dynamicFields": {
+        "value": [
+          {
+            "fullExpression": "@local.answer3_valid && @local.answer4_valid",
+            "matchedExpression": "@local.answer3_valid",
+            "type": "local",
+            "fieldName": "answer3_valid"
+          },
+          {
+            "fullExpression": "@local.answer3_valid && @local.answer4_valid",
+            "matchedExpression": "@local.answer4_valid",
+            "type": "local",
+            "fieldName": "answer4_valid"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@local.answer3_valid": [
+          "value"
+        ],
+        "@local.answer4_valid": [
+          "value"
         ]
       }
     },
@@ -1844,7 +2109,10 @@
               "_cleaned": "click | emit: completed"
             }
           ],
-          "_nested_name": "display_group_27.save",
+          "parameter_list": {
+            "disabled": "!@local.valid"
+          },
+          "_nested_name": "display_group_30.save",
           "_dynamicFields": {
             "action_list": {
               "0": {
@@ -2075,6 +2343,16 @@
                   ]
                 }
               }
+            },
+            "parameter_list": {
+              "disabled": [
+                {
+                  "fullExpression": "!@local.valid",
+                  "matchedExpression": "!@local.valid",
+                  "type": "local",
+                  "fieldName": "valid"
+                }
+              ]
             }
           },
           "_dynamicDependencies": {
@@ -2132,12 +2410,15 @@
               "action_list.0._raw",
               "action_list.0._cleaned",
               "action_list.0.params.question_10"
+            ],
+            "!@local.valid": [
+              "parameter_list.disabled"
             ]
           }
         }
       ],
-      "name": "display_group_27",
-      "_nested_name": "display_group_27"
+      "name": "display_group_30",
+      "_nested_name": "display_group_30"
     }
   ],
   "_xlsxPath": "templates/report_PH.xlsx",
