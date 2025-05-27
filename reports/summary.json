@@ -259,12 +259,12 @@
     "data": [
       {
         "assets": "total",
-        "KB": "27621 KB",
+        "KB": "27620 KB",
         "MB": "27.6 MB"
       },
       {
         "assets": "unused",
-        "KB": "21994 KB",
+        "KB": "21995 KB",
         "MB": "22 MB"
       }
     ]
@@ -684,6 +684,10 @@
         "size_kb": 2
       },
       {
+        "path": "images/icons/trophy.svg",
+        "size_kb": 1
+      },
+      {
         "path": "images/logos/MaPa_logo.png",
         "size_kb": 157.3
       },
@@ -934,6 +938,11 @@
         "size_kb": 0.6
       },
       {
+        "path": "images/icons/checkmark-outline.svg",
+        "count": 2,
+        "size_kb": 0.2
+      },
+      {
         "path": "images/icons/cog_white.svg",
         "count": 1,
         "size_kb": 3.6
@@ -1087,11 +1096,6 @@
         "path": "images/icons/task_8.png",
         "count": 1,
         "size_kb": 2.4
-      },
-      {
-        "path": "images/icons/trophy.svg",
-        "count": 2,
-        "size_kb": 1
       },
       {
         "path": "images/icons/unarchive.svg",

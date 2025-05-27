@@ -447,6 +447,10 @@
     "md5Checksum": "1be7ee8ef948e4080cae2badd9cdfe74",
     "size_kb": 1.2
   },
+  "images/icons/checkmark-outline.svg": {
+    "md5Checksum": "58f25155270f30c8940b82d9883549d7",
+    "size_kb": 0.2
+  },
   "images/icons/cog_white.svg": {
     "md5Checksum": "8d4f5938ab8dcdac16104e688fbce50e",
     "size_kb": 3.6

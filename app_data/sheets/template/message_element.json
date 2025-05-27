@@ -509,10 +509,11 @@
                       "trigger": "click",
                       "action_id": "copy",
                       "args": [],
-                      "_raw": "click | copy | text:@local.share_message",
-                      "_cleaned": "click | copy | text:@local.share_message",
+                      "_raw": "click | copy | text:@local.share_message, message: @global.copied_message",
+                      "_cleaned": "click | copy | text:@local.share_message, message: @global.copied_message",
                       "params": {
-                        "text": "@local.share_message"
+                        "text": "@local.share_message",
+                        "message": "@global.copied_message"
                       }
                     }
                   ],
@@ -614,18 +615,30 @@
                       "1": {
                         "_raw": [
                           {
-                            "fullExpression": "click | copy | text:@local.share_message",
+                            "fullExpression": "click | copy | text:@local.share_message, message: @global.copied_message",
                             "matchedExpression": "@local.share_message",
                             "type": "local",
                             "fieldName": "share_message"
+                          },
+                          {
+                            "fullExpression": "click | copy | text:@local.share_message, message: @global.copied_message",
+                            "matchedExpression": "@global.copied_message",
+                            "type": "global",
+                            "fieldName": "copied_message"
                           }
                         ],
                         "_cleaned": [
                           {
-                            "fullExpression": "click | copy | text:@local.share_message",
+                            "fullExpression": "click | copy | text:@local.share_message, message: @global.copied_message",
                             "matchedExpression": "@local.share_message",
                             "type": "local",
                             "fieldName": "share_message"
+                          },
+                          {
+                            "fullExpression": "click | copy | text:@local.share_message, message: @global.copied_message",
+                            "matchedExpression": "@global.copied_message",
+                            "type": "global",
+                            "fieldName": "copied_message"
                           }
                         ],
                         "params": {
@@ -635,6 +648,14 @@
                               "matchedExpression": "@local.share_message",
                               "type": "local",
                               "fieldName": "share_message"
+                            }
+                          ],
+                          "message": [
+                            {
+                              "fullExpression": "@global.copied_message",
+                              "matchedExpression": "@global.copied_message",
+                              "type": "global",
+                              "fieldName": "copied_message"
                             }
                           ]
                         }
@@ -674,6 +695,11 @@
                       "action_list.1._raw",
                       "action_list.1._cleaned",
                       "action_list.1.params.text"
+                    ],
+                    "@global.copied_message": [
+                      "action_list.1._raw",
+                      "action_list.1._cleaned",
+                      "action_list.1.params.message"
                     ],
                     "@local.asset_type": [
                       "condition"

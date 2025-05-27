@@ -135,7 +135,7 @@
             }
           ],
           "parameter_list": {
-            "icon_src": "images/icons/trophy.svg"
+            "icon_src": "images/icons/checkmark-outline.svg"
           },
           "condition": "!@local.show_next && @local.show_previous",
           "_nested_name": "display_group_4.report",
@@ -188,7 +188,7 @@
             }
           ],
           "parameter_list": {
-            "icon_src": "images/icons/trophy.svg"
+            "icon_src": "images/icons/checkmark-outline.svg"
           },
           "condition": "!@local.show_next && !@local.show_previous",
           "_nested_name": "display_group_4.report",
