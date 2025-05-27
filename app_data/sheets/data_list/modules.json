@@ -13,6 +13,14 @@
       "status": "released"
     },
     {
+      "id": "copy_week_1_session",
+      "title": "Proposed Module 1 Structure",
+      "description": "week_1",
+      "image_asset": "images/icons/task_1.png",
+      "report_id": "week_1",
+      "status": "released"
+    },
+    {
       "id": "week_1_1_reminder",
       "title": "Day 3: Module 1 Reminder",
       "description": "week_1",

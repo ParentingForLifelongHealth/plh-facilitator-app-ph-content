@@ -128,14 +128,14 @@
       "id": "intro_16",
       "foreign_key": "week_3_session",
       "text": "Welcome sa **Modyul 3: Pagbibigay ng Positibong Direksyon at Papuri!**\n\nAng layunin para sa linggong ito ay matuto kung paano maging mas epektibo ang mga magulang sa pagbibigay ng direksyon na susundan ng kanilang anak. Ginagawa ito sa dalawang paraan:\n\n1️⃣ Sa pagbibigay ng espesipiko, positibo, at  makatotohanan na direksyon\n2️⃣ Sa paggamit ng papuri sa mga anak kapag nasundan nila ang direksyon at sa iba pang pagkakataon",
-      "image_asset": "pdf",
+      "image_asset": "",
       "text_2": "",
       "ignore": 16
     },
     {
       "id": "intro_17",
       "foreign_key": "week_3_session_4",
-      "text": "Unang Araw: Group Chat Session\n\n**Tinatantyang tatagal ng isang oras ang sesyon.**\n\nIto ay isang talakayan ng grupo na ikaw bilang facilitator ang nangunguna. Tandaan na mag-pause pagkatapos ng bawat hakbang upang bigyan ang mga magulang ng pagkakataon na magbigay ng tugon o makipag-usap sa mga miyembro ng grupo kung komportable sila na gawin ito.",
+      "text": "Unang Araw: Group Chat Session\n\n*Tinatantyang tatagal ng isang oras ang sesyon.*\n\nIto ay isang talakayan ng grupo na ikaw bilang facilitator ang nangunguna. Tandaan na mag-pause pagkatapos ng bawat hakbang upang bigyan ang mga magulang ng pagkakataon na magbigay ng tugon o makipag-usap sa mga miyembro ng grupo kung komportable sila na gawin ito.",
       "image_asset": "",
       "text_2": "",
       "ignore": 17
@@ -143,7 +143,7 @@
     {
       "id": "intro_18",
       "foreign_key": "week_3_session_10",
-      "text": "Laktawan ang mensaheng ito kung may ibinahaging hamon ang mga magulang na dapat pag-usapan",
+      "text": "Laktawan ang mensaheng ito kung may ibinahaging hamon na ang mga magulang na dapat pag-usapan.",
       "image_asset": "",
       "text_2": "",
       "ignore": 18
@@ -311,7 +311,7 @@
     {
       "id": "intro_39",
       "foreign_key": "week_6_session_9",
-      "text": "Laktawan ang mensaheng ito kung may ibinahaging hamon ang mga magulang na dapat pag-usapan",
+      "text": "Laktawan ang mensaheng ito kung mayroon nang ibinahaging hamon ang mga magulang na dapat pag-usapan.",
       "image_asset": "",
       "text_2": "",
       "ignore": 39
@@ -351,7 +351,7 @@
     {
       "id": "intro_44",
       "foreign_key": "week_7_session_12",
-      "text": "Laktawan ang mensaheng ito kung may ibinahaging hamon ang mga magulang na dapat pag-usapan",
+      "text": "Laktawan ang mensaheng ito kung mayroon nang ibinahaging hamon ang mga magulang na dapat pag-usapan.",
       "image_asset": "",
       "text_2": "",
       "ignore": 44

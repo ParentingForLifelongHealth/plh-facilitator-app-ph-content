@@ -232,6 +232,11 @@
       "flow_type": "template"
     },
     {
+      "flow_name": "articles_week_2_session_31",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    {
       "flow_name": "articles_week_2_1_reminder",
       "flow_subtype": "generated",
       "flow_type": "template"
