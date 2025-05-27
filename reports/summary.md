@@ -26,11 +26,11 @@
 | radio_button_grid | 16 |
 | round_button | 42 |
 | select_text | 1 |
-| set_variable | 1049 |
+| set_variable | 1050 |
 | simple_checkbox | 2 |
 | task_card | 5 |
 | task_progress_bar | 1 |
-| template | 356 |
+| template | 357 |
 | test | 1 |
 | text | 280 |
 | text_area | 2 |
@@ -79,8 +79,8 @@
 
 | assets | KB | MB |
 | --- | --- | --- |
-| total | 27620 KB | 27.6 MB |
-| unused | 21995 KB | 22 MB |
+| total | 37220 KB | 37.2 MB |
+| unused | 12394 KB | 12.4 MB |
 </details>
 
 <details open>
@@ -100,8 +100,6 @@ Assets that appear in app-data but do not have references within sheets
 | cw_demo/talk_feelings_challenges.svg | 19.3 |
 | images/01_masayang_tahanan.jpg | 185.8 |
 | images/05_masayang_tahanan.jpg | 197 |
-| images/06_masayang_tahanan.jpg | 379.5 |
-| images/07_masayang_tahanan.jpg | 455.5 |
 | images/Message.png | 1.3 |
 | images/Message.svg | 0.7 |
 | images/after_disclosed_abuse.svg | 4.7 |
@@ -109,19 +107,6 @@ Assets that appear in app-data but do not have references within sheets
 | images/backgrounds/library_top_right.svg | 0.3 |
 | images/backgrounds/report_edit.png | 1.7 |
 | images/backgrounds/report_edit.svg | 0.2 |
-| images/comics/03_comics1_panel1.jpg | 268.8 |
-| images/comics/03_comics1_panel2.jpg | 177.9 |
-| images/comics/03_comics1_panel3.jpg | 236.7 |
-| images/comics/03_comics1_panel4.jpg | 189.5 |
-| images/comics/04_comics1_panel1.jpg | 239.4 |
-| images/comics/04_comics1_panel2.jpg | 224.4 |
-| images/comics/04_comics1_panel3.jpg | 241 |
-| images/comics/04_comics1_panel4.jpg | 268.2 |
-| images/comics/04_comics2_panel1.jpg | 272 |
-| images/comics/04_comics2_panel2.jpg | 256.8 |
-| images/comics/04_comics2_panel3.jpg | 268.6 |
-| images/comics/04_comics2_panel4.jpg | 176.8 |
-| images/comics/04_comics2_panel5.jpg | 246.1 |
 | images/comics/05_comics1_panel1.jpg | 235.6 |
 | images/comics/05_comics1_panel2.jpg | 239.3 |
 | images/comics/05_comics1_panel3.jpg | 241 |
@@ -131,27 +116,7 @@ Assets that appear in app-data but do not have references within sheets
 | images/comics/05_comics2_panel3.jpg | 185.3 |
 | images/comics/05_comics2_panel4.jpg | 208.6 |
 | images/comics/05_comics2_panel5.jpg | 214.1 |
-| images/comics/06_comics1_panel1.jpg | 208.8 |
-| images/comics/06_comics1_panel2.jpg | 238.4 |
-| images/comics/06_comics1_panel3.jpg | 232.3 |
-| images/comics/06_comics1_panel4.jpg | 225.3 |
-| images/comics/06_comics1_panel5.jpg | 236.4 |
-| images/comics/06_comics2_panel1.jpg | 253.3 |
 | images/comics/06_comics2_panel2.jpg | 235.1 |
-| images/comics/06_comics2_panel3.jpg | 258.4 |
-| images/comics/06_comics2_panel4.jpg | 207 |
-| images/comics/06_comics2_panel5.jpg | 214.1 |
-| images/comics/06_comics3_panel1.jpg | 238.4 |
-| images/comics/06_comics3_panel2.jpg | 228.2 |
-| images/comics/06_comics3_panel3.jpg | 229.1 |
-| images/comics/06_comics3_panel4.jpg | 207.8 |
-| images/comics/07_budgeting_plan.jpg | 323.7 |
-| images/comics/07_budgeting_step1.jpg | 324.5 |
-| images/comics/07_budgeting_step2.jpg | 366.8 |
-| images/comics/07_budgeting_step3.jpg | 362.8 |
-| images/comics/07_budgeting_step4.jpg | 399.8 |
-| images/comics/07_lola_emergencies.jpg | 188.7 |
-| images/comics/07_lola_goals.jpg | 755.7 |
 | images/comics/08_comics1_panel1.jpg | 176.6 |
 | images/comics/08_comics1_panel2.jpg | 229.5 |
 | images/comics/08_comics1_panel3.jpg | 206.1 |
@@ -208,19 +173,6 @@ Assets that have references within sheets but do not appear in app-data
 | --- | --- |
 | .png | 2 |
 | @data.pdf | 3 |
-| images/comics/03_comics1_panel1.png | 1 |
-| images/comics/03_comics1_panel2.png | 1 |
-| images/comics/03_comics1_panel3.png | 1 |
-| images/comics/03_comics1_panel4.png | 1 |
-| images/comics/04_comics1_panel1.png | 1 |
-| images/comics/04_comics1_panel2.png | 1 |
-| images/comics/04_comics1_panel3.png | 1 |
-| images/comics/04_comics1_panel4.png | 1 |
-| images/comics/04_comics2_panel1.png | 1 |
-| images/comics/04_comics2_panel2.png | 1 |
-| images/comics/04_comics2_panel3.png | 1 |
-| images/comics/04_comics2_panel4.png | 1 |
-| images/comics/04_comics2_panel5.png | 1 |
 | images/icons/in_progress.svg | 1 |
 | images/icons/tick.svg | 1 |
 | lottie/gift_box.json | 2 |
@@ -237,6 +189,8 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | images/02_masayang_tahanan.jpg | 191.5 | 1 |
 | images/03_masayang_tahanan.jpg | 195.3 | 1 |
 | images/04_masayang_tahanan.jpg | 198.8 | 1 |
+| images/06_masayang_tahanan.jpg | 379.5 | 1 |
+| images/07_masayang_tahanan.jpg | 455.5 | 1 |
 | images/08_masayang_tahanan.jpg | 455.5 | 1 |
 | images/backgrounds/MaPa_logo_with_background.png | 102 | 1 |
 | images/backgrounds/home_bottom_right.svg | 2.3 | 1 |
@@ -250,9 +204,42 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | images/comics/02_comics2_panel2.png | 1120.1 | 1 |
 | images/comics/02_comics2_panel3.png | 1177.2 | 1 |
 | images/comics/02_comics2_panel4.png | 887.1 | 1 |
+| images/comics/03_comics1_panel1.jpg | 268.8 | 1 |
+| images/comics/03_comics1_panel2.jpg | 177.9 | 1 |
+| images/comics/03_comics1_panel3.jpg | 236.7 | 1 |
+| images/comics/03_comics1_panel4.jpg | 189.5 | 1 |
 | images/comics/03_comics2_panel1.png | 984.3 | 1 |
 | images/comics/03_comics2_panel2.png | 937.6 | 1 |
 | images/comics/03_comics2_panel3.png | 2019.8 | 1 |
+| images/comics/04_comics1_panel1.jpg | 239.4 | 1 |
+| images/comics/04_comics1_panel2.jpg | 224.4 | 1 |
+| images/comics/04_comics1_panel3.jpg | 241 | 1 |
+| images/comics/04_comics1_panel4.jpg | 268.2 | 1 |
+| images/comics/04_comics2_panel1.jpg | 272 | 1 |
+| images/comics/04_comics2_panel2.jpg | 256.8 | 1 |
+| images/comics/04_comics2_panel3.jpg | 268.6 | 1 |
+| images/comics/04_comics2_panel4.jpg | 176.8 | 1 |
+| images/comics/04_comics2_panel5.jpg | 246.1 | 1 |
+| images/comics/06_comics1_panel1.jpg | 208.8 | 1 |
+| images/comics/06_comics1_panel2.jpg | 238.4 | 1 |
+| images/comics/06_comics1_panel3.jpg | 232.3 | 1 |
+| images/comics/06_comics1_panel4.jpg | 225.3 | 1 |
+| images/comics/06_comics1_panel5.jpg | 236.4 | 1 |
+| images/comics/06_comics2_panel1.jpg | 253.3 | 2 |
+| images/comics/06_comics2_panel3.jpg | 258.4 | 1 |
+| images/comics/06_comics2_panel4.jpg | 207 | 1 |
+| images/comics/06_comics2_panel5.jpg | 214.1 | 1 |
+| images/comics/06_comics3_panel1.jpg | 238.4 | 1 |
+| images/comics/06_comics3_panel2.jpg | 228.2 | 1 |
+| images/comics/06_comics3_panel3.jpg | 229.1 | 1 |
+| images/comics/06_comics3_panel4.jpg | 207.8 | 1 |
+| images/comics/07_budgeting_plan.jpg | 323.7 | 1 |
+| images/comics/07_budgeting_step1.jpg | 324.5 | 1 |
+| images/comics/07_budgeting_step2.jpg | 366.8 | 1 |
+| images/comics/07_budgeting_step3.jpg | 362.8 | 1 |
+| images/comics/07_budgeting_step4.jpg | 399.8 | 1 |
+| images/comics/07_lola_emergencies.jpg | 188.7 | 1 |
+| images/comics/07_lola_goals.jpg | 755.7 | 1 |
 | images/flags/gb.svg | 0.5 | 2 |
 | images/flags/ph.svg | 1.3 | 2 |
 | images/icons/add_circle.svg | 1 | 4 |
@@ -285,7 +272,7 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | images/icons/profile_card.svg | 7.4 | 1 |
 | images/icons/reminder.png | 10.4 | 14 |
 | images/icons/share.svg | 2.3 | 4 |
-| images/icons/task_1.png | 1 | 1 |
+| images/icons/task_1.png | 1 | 2 |
 | images/icons/task_2.png | 1.9 | 1 |
 | images/icons/task_3.png | 2 | 1 |
 | images/icons/task_4.png | 1.5 | 1 |
@@ -353,11 +340,11 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | data_list | legal_terms | 2 |
 | data_list | lifecycle_actions | 1 |
 | data_pipe |  | 2 |
-| data_pipe | generated | 218 |
+| data_pipe | generated | 219 |
 | generator |  | 9 |
 | global |  | 12 |
 | global | legal_terms | 1 |
 | template |  | 84 |
-| template | generated | 308 |
+| template | generated | 309 |
 | template | legal_terms | 4 |
 </details>

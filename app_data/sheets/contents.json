@@ -1166,6 +1166,28 @@
         }
       ]
     },
+    "prep_week_2_session_31_sub_items": {
+      "flow_name": "prep_week_2_session_31_sub_items",
+      "flow_subtype": "generated",
+      "flow_type": "data_pipe",
+      "_output_flows": [
+        {
+          "flow_name": "article_loops",
+          "flow_subtype": "generated",
+          "flow_type": "data_list"
+        },
+        {
+          "flow_name": "articles",
+          "flow_subtype": "generated",
+          "flow_type": "data_list"
+        },
+        {
+          "flow_name": "menus",
+          "flow_subtype": "generated",
+          "flow_type": "data_list"
+        }
+      ]
+    },
     "prep_week_2_session_3_sub_items": {
       "flow_name": "prep_week_2_session_3_sub_items",
       "flow_subtype": "generated",
@@ -5536,6 +5558,11 @@
           "flow_type": "template"
         },
         {
+          "flow_name": "articles_week_2_session_31",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
           "flow_name": "articles_week_2_1_reminder",
           "flow_subtype": "generated",
           "flow_type": "template"
@@ -6809,6 +6836,11 @@
         },
         {
           "flow_name": "prep_week_2_session_30_sub_items",
+          "flow_subtype": "generated",
+          "flow_type": "data_pipe"
+        },
+        {
+          "flow_name": "prep_week_2_session_31_sub_items",
           "flow_subtype": "generated",
           "flow_type": "data_pipe"
         },
@@ -8450,6 +8482,11 @@
     },
     "articles_week_2_session_30": {
       "flow_name": "articles_week_2_session_30",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "articles_week_2_session_31": {
+      "flow_name": "articles_week_2_session_31",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
