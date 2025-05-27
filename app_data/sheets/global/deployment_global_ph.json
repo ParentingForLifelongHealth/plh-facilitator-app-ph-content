@@ -297,7 +297,7 @@
     {
       "type": "declare_global_constant",
       "name": "go_to_start",
-      "value": "Go back to start",
+      "value": "View Module from Start",
       "_translations": {
         "value": {}
       }
