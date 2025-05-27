@@ -267,12 +267,9 @@
     {
       "type": "declare_global_constant",
       "name": "submit_report",
-      "value": "Submit Report",
+      "value": "Mark Session as Delivered",
       "_translations": {
-        "value": {
-          "fil_ph": true,
-          "ph_fil": true
-        }
+        "value": {}
       }
     },
     {
@@ -301,6 +298,14 @@
       "type": "declare_global_constant",
       "name": "go_to_start",
       "value": "Go back to start",
+      "_translations": {
+        "value": {}
+      }
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "copied_message",
+      "value": "Copied to clipboard",
       "_translations": {
         "value": {}
       }

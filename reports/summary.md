@@ -79,8 +79,8 @@
 
 | assets | KB | MB |
 | --- | --- | --- |
-| total | 27621 KB | 27.6 MB |
-| unused | 21994 KB | 22 MB |
+| total | 27620 KB | 27.6 MB |
+| unused | 21995 KB | 22 MB |
 </details>
 
 <details open>
@@ -193,6 +193,7 @@ Assets that appear in app-data but do not have references within sheets
 | images/icons/settings.png | 1.1 |
 | images/icons/settings.svg | 2.4 |
 | images/icons/task_0.png | 2 |
+| images/icons/trophy.svg | 1 |
 | images/logos/MaPa_logo.png | 157.3 |
 | images/person_cog.png | 0.8 |
 | pdf/08_mod8_mapa_skill.pdf | 2394.2 |
@@ -260,6 +261,7 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | images/icons/arrow_forward.svg | 0.4 | 1 |
 | images/icons/cancel.svg | 1.7 | 1 |
 | images/icons/check_circle.png | 0.6 | 1 |
+| images/icons/checkmark-outline.svg | 0.2 | 2 |
 | images/icons/cog_white.svg | 3.6 | 1 |
 | images/icons/content.svg | 7.2 | 2 |
 | images/icons/copy-outline.svg | 0.4 | 2 |
@@ -291,7 +293,6 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | images/icons/task_6.png | 2.2 | 1 |
 | images/icons/task_7.png | 1.5 | 1 |
 | images/icons/task_8.png | 2.4 | 1 |
-| images/icons/trophy.svg | 1 | 2 |
 | images/icons/unarchive.svg | 1.1 | 1 |
 | images/icons/visibility.svg | 1.9 | 1 |
 | images/icons/world.svg | 6.2 | 1 |
