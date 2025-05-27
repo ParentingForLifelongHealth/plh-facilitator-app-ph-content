@@ -111,16 +111,6 @@
           ],
           "_raw": "data_changed | set_local : first_not_complete_id: @items[0]?.id",
           "_cleaned": "data_changed | set_local : first_not_complete_id: @items[0]?.id"
-        },
-        {
-          "trigger": "data_changed",
-          "action_id": "set_local",
-          "args": [
-            "page_count",
-            "@items.length"
-          ],
-          "_raw": "data_changed | set_local : page_count: @items.length",
-          "_cleaned": "data_changed | set_local : page_count: @items.length"
         }
       ],
       "parameter_list": {
@@ -184,6 +174,158 @@
         ],
         "!@local.completed": [
           "condition"
+        ]
+      }
+    },
+    {
+      "type": "data_items",
+      "name": "get_page_count",
+      "value": "@data.sub_items",
+      "_translations": {
+        "value": {}
+      },
+      "action_list": [
+        {
+          "trigger": "data_changed",
+          "action_id": "set_local",
+          "args": [
+            "page_count",
+            "@items.length"
+          ],
+          "_raw": "data_changed | set_local : page_count: @items.length",
+          "_cleaned": "data_changed | set_local : page_count: @items.length"
+        }
+      ],
+      "parameter_list": {
+        "filter": "@item.foreign_key == @local.module_id"
+      },
+      "condition": "!@local.completed",
+      "exclude_from_translation": true,
+      "_nested_name": "get_page_count",
+      "_dynamicFields": {
+        "value": [
+          {
+            "fullExpression": "@data.sub_items",
+            "matchedExpression": "@data.sub_items",
+            "type": "data",
+            "fieldName": "sub_items"
+          }
+        ],
+        "parameter_list": {
+          "filter": [
+            {
+              "fullExpression": "@item.foreign_key == @local.module_id",
+              "matchedExpression": "@item.foreign_key",
+              "type": "item",
+              "fieldName": "foreign_key"
+            },
+            {
+              "fullExpression": "@item.foreign_key == @local.module_id",
+              "matchedExpression": "@local.module_id",
+              "type": "local",
+              "fieldName": "module_id"
+            }
+          ]
+        },
+        "condition": [
+          {
+            "fullExpression": "!@local.completed",
+            "matchedExpression": "!@local.completed",
+            "type": "local",
+            "fieldName": "completed"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@data.sub_items": [
+          "value"
+        ],
+        "@item.foreign_key": [
+          "parameter_list.filter"
+        ],
+        "@local.module_id": [
+          "parameter_list.filter"
+        ],
+        "!@local.completed": [
+          "condition"
+        ]
+      }
+    },
+    {
+      "type": "text",
+      "name": "debug_completed",
+      "value": "completed: @local.completed",
+      "_translations": {
+        "value": {}
+      },
+      "condition": false,
+      "exclude_from_translation": true,
+      "_nested_name": "debug_completed",
+      "_dynamicFields": {
+        "value": [
+          {
+            "fullExpression": "completed: @local.completed",
+            "matchedExpression": "@local.completed",
+            "type": "local",
+            "fieldName": "completed"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@local.completed": [
+          "value"
+        ]
+      }
+    },
+    {
+      "type": "text",
+      "name": "debug_first_not_completed",
+      "value": "first not completed: @local.first_not_completed",
+      "_translations": {
+        "value": {}
+      },
+      "condition": false,
+      "exclude_from_translation": true,
+      "_nested_name": "debug_first_not_completed",
+      "_dynamicFields": {
+        "value": [
+          {
+            "fullExpression": "first not completed: @local.first_not_completed",
+            "matchedExpression": "@local.first_not_completed",
+            "type": "local",
+            "fieldName": "first_not_completed"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@local.first_not_completed": [
+          "value"
+        ]
+      }
+    },
+    {
+      "type": "text",
+      "name": "debug_page_count",
+      "value": "page count: @local.page_count",
+      "_translations": {
+        "value": {}
+      },
+      "condition": false,
+      "exclude_from_translation": true,
+      "_nested_name": "debug_page_count",
+      "_dynamicFields": {
+        "value": [
+          {
+            "fullExpression": "page count: @local.page_count",
+            "matchedExpression": "@local.page_count",
+            "type": "local",
+            "fieldName": "page_count"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@local.page_count": [
+          "value"
         ]
       }
     },

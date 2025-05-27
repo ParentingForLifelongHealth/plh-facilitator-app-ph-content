@@ -10,14 +10,14 @@
 | button | 88 |
 | carousel | 2 |
 | combo_box | 16 |
-| data_items | 51 |
+| data_items | 53 |
 | date_time_picker | 4 |
 | debug_toggle | 1 |
-| display_grid | 2 |
-| display_group | 143 |
+| display_grid | 3 |
+| display_group | 145 |
 | drawer | 1 |
 | google_sign_in_button | 4 |
-| image | 17 |
+| image | 19 |
 | items | 23 |
 | lottie_animation | 3 |
 | navigation_bar | 2 |
@@ -26,13 +26,13 @@
 | radio_button_grid | 16 |
 | round_button | 42 |
 | select_text | 1 |
-| set_variable | 1046 |
+| set_variable | 1049 |
 | simple_checkbox | 2 |
 | task_card | 5 |
-| task_progress_bar | 2 |
+| task_progress_bar | 1 |
 | template | 356 |
 | test | 1 |
-| text | 273 |
+| text | 280 |
 | text_area | 2 |
 | text_box | 46 |
 | title | 44 |
@@ -79,7 +79,7 @@
 
 | assets | KB | MB |
 | --- | --- | --- |
-| total | 27619 KB | 27.6 MB |
+| total | 27621 KB | 27.6 MB |
 | unused | 21994 KB | 22 MB |
 </details>
 
@@ -102,6 +102,7 @@ Assets that appear in app-data but do not have references within sheets
 | images/05_masayang_tahanan.jpg | 197 |
 | images/06_masayang_tahanan.jpg | 379.5 |
 | images/07_masayang_tahanan.jpg | 455.5 |
+| images/Message.png | 1.3 |
 | images/Message.svg | 0.7 |
 | images/after_disclosed_abuse.svg | 4.7 |
 | images/backgrounds/library_bottom_left.svg | 2.3 |
@@ -193,7 +194,6 @@ Assets that appear in app-data but do not have references within sheets
 | images/icons/settings.svg | 2.4 |
 | images/icons/task_0.png | 2 |
 | images/logos/MaPa_logo.png | 157.3 |
-| images/message.png | 1.3 |
 | images/person_cog.png | 0.8 |
 | pdf/08_mod8_mapa_skill.pdf | 2394.2 |
 </details>
@@ -257,7 +257,7 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | images/icons/add_circle.svg | 1 | 4 |
 | images/icons/archive.svg | 0.9 | 1 |
 | images/icons/arrow_back.svg | 0.5 | 1 |
-| images/icons/arrow_forward.svg | 0.4 | 3 |
+| images/icons/arrow_forward.svg | 0.4 | 1 |
 | images/icons/cancel.svg | 1.7 | 1 |
 | images/icons/check_circle.png | 0.6 | 1 |
 | images/icons/cog_white.svg | 3.6 | 1 |
@@ -291,6 +291,7 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | images/icons/task_6.png | 2.2 | 1 |
 | images/icons/task_7.png | 1.5 | 1 |
 | images/icons/task_8.png | 2.4 | 1 |
+| images/icons/trophy.svg | 1 | 2 |
 | images/icons/unarchive.svg | 1.1 | 1 |
 | images/icons/visibility.svg | 1.9 | 1 |
 | images/icons/world.svg | 6.2 | 1 |
@@ -305,6 +306,8 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | images/logos/UNICEF.jpg | 57.9 | 1 |
 | images/logos/app_logo.png | 70.6 | 2 |
 | images/no_group_selected.svg | 3.5 | 1 |
+| images/progress_complete.png | 0.7 | 1 |
+| images/progress_uncomplete.png | 0.3 | 1 |
 | lottie/checkmark_blue.json | 17 | 1 |
 | pdf/01_mod1_intro.pdf | 650.7 | 1 |
 | pdf/01_mod1_layunin.pdf | 513.8 | 1 |
