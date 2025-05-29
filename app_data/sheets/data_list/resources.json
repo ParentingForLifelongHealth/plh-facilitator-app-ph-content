@@ -189,6 +189,48 @@
       "foreign_key": "week_8_session_8",
       "media_type": "pdf",
       "media_asset": "08_mod8_pagdiriwang"
+    },
+    {
+      "id": "resource_32",
+      "foreign_key": "copy_week_1_session",
+      "media_type": "pdf",
+      "media_asset": "01_mod1_intro"
+    },
+    {
+      "id": "resource_33",
+      "foreign_key": "copy_week_1_session_5",
+      "media_type": "pdf",
+      "media_asset": "01_mod1_session_structure"
+    },
+    {
+      "id": "resource_34",
+      "foreign_key": "copy_week_1_session_6",
+      "media_type": "pdf",
+      "media_asset": "01_mod1_panimulang_gawain"
+    },
+    {
+      "id": "resource_35",
+      "foreign_key": "copy_week_1_session_7",
+      "media_type": "pdf",
+      "media_asset": "01_mod1_layunin"
+    },
+    {
+      "id": "resource_36",
+      "foreign_key": "copy_week_1_session_8",
+      "media_type": "pdf",
+      "media_asset": "01_mod1_mapa_skill"
+    },
+    {
+      "id": "resource_37",
+      "foreign_key": "copy_week_1_session_9",
+      "media_type": "pdf",
+      "media_asset": "01_mod1_pabaong_gawain"
+    },
+    {
+      "id": "resource_38",
+      "foreign_key": "copy_week_1_session_10",
+      "media_type": "pdf",
+      "media_asset": "01_mod1_pagtatapos"
     }
   ],
   "_xlsxPath": "data/modules_sub_items_ph.xlsx",

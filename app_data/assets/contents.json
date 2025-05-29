@@ -416,8 +416,8 @@
     "size_kb": 1
   },
   "images/icons/archive.svg": {
-    "md5Checksum": "af60ad3a4a7e515373ef65cabb4af297",
-    "size_kb": 0.9
+    "md5Checksum": "85acfc9e651cb717e4eb9bbaf2206873",
+    "size_kb": 2
   },
   "images/icons/arrow_back.svg": {
     "md5Checksum": "878951da30fb77058b77d74964ba9f18",
@@ -464,6 +464,10 @@
     "size_kb": 0.4
   },
   "images/icons/delete.svg": {
+    "md5Checksum": "96e86fc4fd8ca8cb10ec04e020eb43b7",
+    "size_kb": 1.9
+  },
+  "images/icons/delete_orange.svg": {
     "md5Checksum": "c826cae44139a913440643fa7cbfacdd",
     "size_kb": 0.8
   },
@@ -486,6 +490,10 @@
   "images/icons/eye-outline.svg": {
     "md5Checksum": "d70d55331b93d4e10ad66e5bf53b8223",
     "size_kb": 0.5
+  },
+  "images/icons/eye.svg": {
+    "md5Checksum": "067f19ef2fa8178b0763ab9c2fc06d41",
+    "size_kb": 1.6
   },
   "images/icons/feather.svg": {
     "md5Checksum": "618dbb9e7b404e3d5c8da9e0ce605ab6",

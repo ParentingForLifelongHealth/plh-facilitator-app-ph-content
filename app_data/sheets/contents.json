@@ -396,6 +396,248 @@
         }
       ]
     },
+    "prep_copy_week_1_session_10_sub_items": {
+      "flow_name": "prep_copy_week_1_session_10_sub_items",
+      "flow_subtype": "generated",
+      "flow_type": "data_pipe",
+      "_output_flows": [
+        {
+          "flow_name": "article_loops",
+          "flow_subtype": "generated",
+          "flow_type": "data_list"
+        },
+        {
+          "flow_name": "articles",
+          "flow_subtype": "generated",
+          "flow_type": "data_list"
+        },
+        {
+          "flow_name": "menus",
+          "flow_subtype": "generated",
+          "flow_type": "data_list"
+        }
+      ]
+    },
+    "prep_copy_week_1_session_11_sub_items": {
+      "flow_name": "prep_copy_week_1_session_11_sub_items",
+      "flow_subtype": "generated",
+      "flow_type": "data_pipe",
+      "_output_flows": [
+        {
+          "flow_name": "article_loops",
+          "flow_subtype": "generated",
+          "flow_type": "data_list"
+        },
+        {
+          "flow_name": "articles",
+          "flow_subtype": "generated",
+          "flow_type": "data_list"
+        },
+        {
+          "flow_name": "menus",
+          "flow_subtype": "generated",
+          "flow_type": "data_list"
+        }
+      ]
+    },
+    "prep_copy_week_1_session_2_sub_items": {
+      "flow_name": "prep_copy_week_1_session_2_sub_items",
+      "flow_subtype": "generated",
+      "flow_type": "data_pipe",
+      "_output_flows": [
+        {
+          "flow_name": "article_loops",
+          "flow_subtype": "generated",
+          "flow_type": "data_list"
+        },
+        {
+          "flow_name": "articles",
+          "flow_subtype": "generated",
+          "flow_type": "data_list"
+        },
+        {
+          "flow_name": "menus",
+          "flow_subtype": "generated",
+          "flow_type": "data_list"
+        }
+      ]
+    },
+    "prep_copy_week_1_session_3_sub_items": {
+      "flow_name": "prep_copy_week_1_session_3_sub_items",
+      "flow_subtype": "generated",
+      "flow_type": "data_pipe",
+      "_output_flows": [
+        {
+          "flow_name": "article_loops",
+          "flow_subtype": "generated",
+          "flow_type": "data_list"
+        },
+        {
+          "flow_name": "articles",
+          "flow_subtype": "generated",
+          "flow_type": "data_list"
+        },
+        {
+          "flow_name": "menus",
+          "flow_subtype": "generated",
+          "flow_type": "data_list"
+        }
+      ]
+    },
+    "prep_copy_week_1_session_4_sub_items": {
+      "flow_name": "prep_copy_week_1_session_4_sub_items",
+      "flow_subtype": "generated",
+      "flow_type": "data_pipe",
+      "_output_flows": [
+        {
+          "flow_name": "article_loops",
+          "flow_subtype": "generated",
+          "flow_type": "data_list"
+        },
+        {
+          "flow_name": "articles",
+          "flow_subtype": "generated",
+          "flow_type": "data_list"
+        },
+        {
+          "flow_name": "menus",
+          "flow_subtype": "generated",
+          "flow_type": "data_list"
+        }
+      ]
+    },
+    "prep_copy_week_1_session_5_sub_items": {
+      "flow_name": "prep_copy_week_1_session_5_sub_items",
+      "flow_subtype": "generated",
+      "flow_type": "data_pipe",
+      "_output_flows": [
+        {
+          "flow_name": "article_loops",
+          "flow_subtype": "generated",
+          "flow_type": "data_list"
+        },
+        {
+          "flow_name": "articles",
+          "flow_subtype": "generated",
+          "flow_type": "data_list"
+        },
+        {
+          "flow_name": "menus",
+          "flow_subtype": "generated",
+          "flow_type": "data_list"
+        }
+      ]
+    },
+    "prep_copy_week_1_session_6_sub_items": {
+      "flow_name": "prep_copy_week_1_session_6_sub_items",
+      "flow_subtype": "generated",
+      "flow_type": "data_pipe",
+      "_output_flows": [
+        {
+          "flow_name": "article_loops",
+          "flow_subtype": "generated",
+          "flow_type": "data_list"
+        },
+        {
+          "flow_name": "articles",
+          "flow_subtype": "generated",
+          "flow_type": "data_list"
+        },
+        {
+          "flow_name": "menus",
+          "flow_subtype": "generated",
+          "flow_type": "data_list"
+        }
+      ]
+    },
+    "prep_copy_week_1_session_7_sub_items": {
+      "flow_name": "prep_copy_week_1_session_7_sub_items",
+      "flow_subtype": "generated",
+      "flow_type": "data_pipe",
+      "_output_flows": [
+        {
+          "flow_name": "article_loops",
+          "flow_subtype": "generated",
+          "flow_type": "data_list"
+        },
+        {
+          "flow_name": "articles",
+          "flow_subtype": "generated",
+          "flow_type": "data_list"
+        },
+        {
+          "flow_name": "menus",
+          "flow_subtype": "generated",
+          "flow_type": "data_list"
+        }
+      ]
+    },
+    "prep_copy_week_1_session_8_sub_items": {
+      "flow_name": "prep_copy_week_1_session_8_sub_items",
+      "flow_subtype": "generated",
+      "flow_type": "data_pipe",
+      "_output_flows": [
+        {
+          "flow_name": "article_loops",
+          "flow_subtype": "generated",
+          "flow_type": "data_list"
+        },
+        {
+          "flow_name": "articles",
+          "flow_subtype": "generated",
+          "flow_type": "data_list"
+        },
+        {
+          "flow_name": "menus",
+          "flow_subtype": "generated",
+          "flow_type": "data_list"
+        }
+      ]
+    },
+    "prep_copy_week_1_session_9_sub_items": {
+      "flow_name": "prep_copy_week_1_session_9_sub_items",
+      "flow_subtype": "generated",
+      "flow_type": "data_pipe",
+      "_output_flows": [
+        {
+          "flow_name": "article_loops",
+          "flow_subtype": "generated",
+          "flow_type": "data_list"
+        },
+        {
+          "flow_name": "articles",
+          "flow_subtype": "generated",
+          "flow_type": "data_list"
+        },
+        {
+          "flow_name": "menus",
+          "flow_subtype": "generated",
+          "flow_type": "data_list"
+        }
+      ]
+    },
+    "prep_copy_week_1_session_sub_items": {
+      "flow_name": "prep_copy_week_1_session_sub_items",
+      "flow_subtype": "generated",
+      "flow_type": "data_pipe",
+      "_output_flows": [
+        {
+          "flow_name": "article_loops",
+          "flow_subtype": "generated",
+          "flow_type": "data_list"
+        },
+        {
+          "flow_name": "articles",
+          "flow_subtype": "generated",
+          "flow_type": "data_list"
+        },
+        {
+          "flow_name": "menus",
+          "flow_subtype": "generated",
+          "flow_type": "data_list"
+        }
+      ]
+    },
     "prep_week_1_1_reminder_sub_items": {
       "flow_name": "prep_week_1_1_reminder_sub_items",
       "flow_subtype": "generated",
@@ -5337,6 +5579,11 @@
           "flow_name": "sub_item_week_8_session",
           "flow_subtype": "generated",
           "flow_type": "template"
+        },
+        {
+          "flow_name": "sub_item_copy_week_1_session",
+          "flow_subtype": "generated",
+          "flow_type": "template"
         }
       ]
     },
@@ -6444,6 +6691,61 @@
         },
         {
           "flow_name": "articles_week_8_session_8",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "articles_copy_week_1_session",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "articles_copy_week_1_session_2",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "articles_copy_week_1_session_3",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "articles_copy_week_1_session_4",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "articles_copy_week_1_session_5",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "articles_copy_week_1_session_6",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "articles_copy_week_1_session_7",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "articles_copy_week_1_session_8",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "articles_copy_week_1_session_9",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "articles_copy_week_1_session_10",
+          "flow_subtype": "generated",
+          "flow_type": "template"
+        },
+        {
+          "flow_name": "articles_copy_week_1_session_11",
           "flow_subtype": "generated",
           "flow_type": "template"
         }
@@ -7728,6 +8030,61 @@
           "flow_name": "prep_week_8_session_8_sub_items",
           "flow_subtype": "generated",
           "flow_type": "data_pipe"
+        },
+        {
+          "flow_name": "prep_copy_week_1_session_sub_items",
+          "flow_subtype": "generated",
+          "flow_type": "data_pipe"
+        },
+        {
+          "flow_name": "prep_copy_week_1_session_2_sub_items",
+          "flow_subtype": "generated",
+          "flow_type": "data_pipe"
+        },
+        {
+          "flow_name": "prep_copy_week_1_session_3_sub_items",
+          "flow_subtype": "generated",
+          "flow_type": "data_pipe"
+        },
+        {
+          "flow_name": "prep_copy_week_1_session_4_sub_items",
+          "flow_subtype": "generated",
+          "flow_type": "data_pipe"
+        },
+        {
+          "flow_name": "prep_copy_week_1_session_5_sub_items",
+          "flow_subtype": "generated",
+          "flow_type": "data_pipe"
+        },
+        {
+          "flow_name": "prep_copy_week_1_session_6_sub_items",
+          "flow_subtype": "generated",
+          "flow_type": "data_pipe"
+        },
+        {
+          "flow_name": "prep_copy_week_1_session_7_sub_items",
+          "flow_subtype": "generated",
+          "flow_type": "data_pipe"
+        },
+        {
+          "flow_name": "prep_copy_week_1_session_8_sub_items",
+          "flow_subtype": "generated",
+          "flow_type": "data_pipe"
+        },
+        {
+          "flow_name": "prep_copy_week_1_session_9_sub_items",
+          "flow_subtype": "generated",
+          "flow_type": "data_pipe"
+        },
+        {
+          "flow_name": "prep_copy_week_1_session_10_sub_items",
+          "flow_subtype": "generated",
+          "flow_type": "data_pipe"
+        },
+        {
+          "flow_name": "prep_copy_week_1_session_11_sub_items",
+          "flow_subtype": "generated",
+          "flow_type": "data_pipe"
         }
       ]
     },
@@ -8109,8 +8466,8 @@
     "add_parent_group": {
       "flow_type": "template",
       "flow_name": "add_parent_group",
-      "_xlsxPath": "templates/PH profile.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
+      "_xlsxPath": "templates/profile.xlsx",
+      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1Jo1-q7KOE4gC2XRKEMcU9bXnrwB5oCRC"
     },
     "add_remote": {
       "flow_type": "template",
@@ -8299,6 +8656,61 @@
       "override_condition": "@fields._deployment_name == \"plh_facilitator_ph\"",
       "_xlsxPath": "templates/footer_ph.xlsx",
       "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
+    },
+    "articles_copy_week_1_session": {
+      "flow_name": "articles_copy_week_1_session",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "articles_copy_week_1_session_10": {
+      "flow_name": "articles_copy_week_1_session_10",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "articles_copy_week_1_session_11": {
+      "flow_name": "articles_copy_week_1_session_11",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "articles_copy_week_1_session_2": {
+      "flow_name": "articles_copy_week_1_session_2",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "articles_copy_week_1_session_3": {
+      "flow_name": "articles_copy_week_1_session_3",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "articles_copy_week_1_session_4": {
+      "flow_name": "articles_copy_week_1_session_4",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "articles_copy_week_1_session_5": {
+      "flow_name": "articles_copy_week_1_session_5",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "articles_copy_week_1_session_6": {
+      "flow_name": "articles_copy_week_1_session_6",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "articles_copy_week_1_session_7": {
+      "flow_name": "articles_copy_week_1_session_7",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "articles_copy_week_1_session_8": {
+      "flow_name": "articles_copy_week_1_session_8",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "articles_copy_week_1_session_9": {
+      "flow_name": "articles_copy_week_1_session_9",
+      "flow_subtype": "generated",
+      "flow_type": "template"
     },
     "articles_week_1_1_reminder": {
       "flow_name": "articles_week_1_1_reminder",
@@ -9732,6 +10144,11 @@
     },
     "pdf_08_mod8_session_structure": {
       "flow_name": "pdf_08_mod8_session_structure",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "sub_item_copy_week_1_session": {
+      "flow_name": "sub_item_copy_week_1_session",
       "flow_subtype": "generated",
       "flow_type": "template"
     },
