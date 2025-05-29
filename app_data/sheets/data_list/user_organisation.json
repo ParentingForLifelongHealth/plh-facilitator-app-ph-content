@@ -85,6 +85,19 @@
       }
     },
     {
+      "id": "consuelo_6",
+      "name": "consuelo_6",
+      "text": "Consuelo Zobel Alger Foundation",
+      "_translations": {
+        "text": {}
+      },
+      "_translatedFields": {
+        "text": {
+          "eng": "Consuelo Zobel Alger Foundation"
+        }
+      }
+    },
+    {
       "id": "other",
       "name": "other",
       "text": "None of the above",
