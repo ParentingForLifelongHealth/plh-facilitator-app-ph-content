@@ -435,7 +435,6 @@
             }
           ],
           "parameter_list": {
-            "variant": "no-background",
             "icon_src": "images/icons/eye-outline.svg"
           },
           "condition": "@local.is_readonly",
@@ -651,10 +650,12 @@
             }
           ],
           "parameter_list": {
-            "variant": "no-background",
             "icon_src": "images/icons/archive.svg"
           },
           "condition": "!@local.is_readonly",
+          "style_list": [
+            "background: #70aac0"
+          ],
           "exclude_from_translation": true,
           "_nested_name": "dg_parent_@item.parent_no.button_archive_@local.group_id",
           "_dynamicFields": {
@@ -803,10 +804,12 @@
             }
           ],
           "parameter_list": {
-            "variant": "no-background",
             "icon_src": "images/icons/delete.svg"
           },
           "condition": "!@local.is_readonly",
+          "style_list": [
+            "background: #de6661"
+          ],
           "exclude_from_translation": true,
           "_nested_name": "dg_parent_@item.parent_no.button_delete_@local.group_id",
           "_dynamicFields": {
