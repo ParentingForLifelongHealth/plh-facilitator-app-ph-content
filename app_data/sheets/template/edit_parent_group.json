@@ -338,6 +338,39 @@
       "_nested_name": "parent_list"
     },
     {
+      "name": "valid",
+      "value": "!!@local.text_box && !@fields.current_group_readonly",
+      "_translations": {
+        "value": {}
+      },
+      "type": "set_variable",
+      "_nested_name": "valid",
+      "_dynamicFields": {
+        "value": [
+          {
+            "fullExpression": "!!@local.text_box && !@fields.current_group_readonly",
+            "matchedExpression": "!@local.text_box",
+            "type": "local",
+            "fieldName": "text_box"
+          },
+          {
+            "fullExpression": "!!@local.text_box && !@fields.current_group_readonly",
+            "matchedExpression": "!@fields.current_group_readonly",
+            "type": "fields",
+            "fieldName": "current_group_readonly"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "!@local.text_box": [
+          "value"
+        ],
+        "!@fields.current_group_readonly": [
+          "value"
+        ]
+      }
+    },
+    {
       "type": "display_group",
       "parameter_list": {
         "sticky": "bottom"
@@ -404,10 +437,10 @@
             }
           ],
           "parameter_list": {
-            "disabled": "@fields.current_group_readonly",
-            "variant": "card"
+            "variant": "card",
+            "disabled": "!@local.valid"
           },
-          "_nested_name": "display_group_19.save",
+          "_nested_name": "display_group_20.save",
           "_dynamicFields": {
             "action_list": {
               "0": {
@@ -462,10 +495,10 @@
             "parameter_list": {
               "disabled": [
                 {
-                  "fullExpression": "@fields.current_group_readonly",
-                  "matchedExpression": "@fields.current_group_readonly",
-                  "type": "fields",
-                  "fieldName": "current_group_readonly"
+                  "fullExpression": "!@local.valid",
+                  "matchedExpression": "!@local.valid",
+                  "type": "local",
+                  "fieldName": "valid"
                 }
               ]
             }
@@ -481,14 +514,14 @@
               "action_list.0._cleaned",
               "action_list.0.params.text"
             ],
-            "@fields.current_group_readonly": [
+            "!@local.valid": [
               "parameter_list.disabled"
             ]
           }
         }
       ],
-      "name": "display_group_19",
-      "_nested_name": "display_group_19"
+      "name": "display_group_20",
+      "_nested_name": "display_group_20"
     }
   ],
   "_xlsxPath": "templates/PH profile.xlsx",

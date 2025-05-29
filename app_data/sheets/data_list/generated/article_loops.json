@@ -266,6 +266,18 @@
       "previous_article": "",
       "test": "week_8_session",
       "create_loop": "create"
+    },
+    {
+      "ignore": 220,
+      "id": "copy_week_1_session",
+      "completed": false,
+      "loop_id": "copy_week_1_session",
+      "foreign_key": "copy_week_1_session",
+      "type": "article",
+      "next_article": "copy_week_1_session_2",
+      "previous_article": "",
+      "test": "copy_week_1_session",
+      "create_loop": "create"
     }
   ],
   "_metadata": {

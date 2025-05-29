@@ -1883,6 +1883,26 @@
       "asset_type": "",
       "asset": "",
       "ignore": 188
+    },
+    {
+      "id": "message_189",
+      "foreign_key": "copy_week_1_session_4",
+      "title": "Reminder Para sa Unang Sesyon",
+      "text": "Magandang araw! Paalala lamang na ang ating MaPa Chat Hybrid Program ay magsisimula na mamayang [ORAS] sa [VENUE]. Excited na kaming makasama kayo! Sisimulan natin ang pagbuo ng Masayang Tahanan sa isang simple at epektibong parenting skill: ang pakikipag-**One-on-One Time sa inyong Anak!** Malalaman ninyo mamaya ano ang magagawa nito sa inyong pamilya! Kita kits!",
+      "guidance": "Ipadala ang mensaheng ito sa mga magulang sa pamamagitan ng SMS/text messaging bilang paalala para sa unang sesyon. Palitan ang [ORAS] at [VENUE] ng iyong sesyon bago ipadala ang mensahe.",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 189
+    },
+    {
+      "id": "message_190",
+      "foreign_key": "copy_week_1_session_11",
+      "title": "Pagkatapos ng Sesyon: Pasasalamat sa Kalahok at Pagpapaalala na Magpraktis",
+      "text": "Hello! Salamat sa pagdalo sa ating sesyon! Tandaan, ang ating pabaong gawain ngayong linggo ay ang pagkikipag-One-on-One Time kasama ang iyong anak. Kahit 5 minuto lang, malaki ang magagawa! Kaya mo ito!",
+      "guidance": "",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 190
     }
   ],
   "_xlsxPath": "data/modules_sub_items_ph.xlsx",
