@@ -7,28 +7,28 @@
 | accordion_section | 1 |
 | apple_sign_in_button | 3 |
 | audio | 3 |
-| button | 88 |
+| button | 90 |
 | carousel | 2 |
 | combo_box | 16 |
-| data_items | 53 |
+| data_items | 52 |
 | date_time_picker | 4 |
 | debug_toggle | 1 |
 | display_grid | 3 |
-| display_group | 145 |
+| display_group | 140 |
 | drawer | 1 |
 | google_sign_in_button | 4 |
-| image | 19 |
+| image | 20 |
 | items | 23 |
-| lottie_animation | 3 |
+| lottie_animation | 2 |
 | navigation_bar | 2 |
 | pdf | 1 |
 | qr_code | 1 |
 | radio_button_grid | 16 |
 | round_button | 42 |
 | select_text | 1 |
-| set_variable | 1050 |
+| set_variable | 1042 |
 | simple_checkbox | 2 |
-| task_card | 5 |
+| task_card | 6 |
 | task_progress_bar | 1 |
 | template | 357 |
 | test | 1 |
@@ -52,22 +52,22 @@
 | auth | 2 |
 | copy | 2 |
 | emit: completed | 67 |
-| emit: force_reload | 9 |
+| emit: force_reload | 10 |
 | emit: force_reprocess | 18 |
 | emit: force_restart | 5 |
-| emit: server_sync | 16 |
+| emit: server_sync | 19 |
 | emit: set_language | 1 |
 | emit: uncompleted | 83 |
 | feedback | 13 |
 | go_to | 36 |
-| nav_stack | 5 |
+| nav_stack | 6 |
 | plh_parent_group | 9 |
 | pop_up | 20 |
-| reset_app | 1 |
+| reset_app | 3 |
 | save_to_device | 4 |
 | scroll | 1 |
-| set_data | 24 |
-| set_field | 84 |
+| set_data | 25 |
+| set_field | 87 |
 | set_item | 12 |
 | set_local | 95 |
 | share | 4 |
@@ -79,8 +79,8 @@
 
 | assets | KB | MB |
 | --- | --- | --- |
-| total | 37220 KB | 37.2 MB |
-| unused | 12394 KB | 12.4 MB |
+| total | 37379 KB | 37.4 MB |
+| unused | 12237 KB | 12.2 MB |
 </details>
 
 <details open>
@@ -159,7 +159,6 @@ Assets that appear in app-data but do not have references within sheets
 | images/icons/settings.svg | 2.4 |
 | images/icons/task_0.png | 2 |
 | images/icons/trophy.svg | 1 |
-| images/logos/MaPa_logo.png | 157.3 |
 | images/person_cog.png | 0.8 |
 | pdf/08_mod8_mapa_skill.pdf | 2394.2 |
 </details>
@@ -175,7 +174,6 @@ Assets that have references within sheets but do not appear in app-data
 | @data.pdf | 3 |
 | images/icons/in_progress.svg | 1 |
 | images/icons/tick.svg | 1 |
-| lottie/gift_box.json | 2 |
 | pdf/08_mapa_skill.pdf | 1 |
 </details>
 
@@ -290,13 +288,14 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | images/logos/ADMU.jpg | 246.9 | 1 |
 | images/logos/GPI.jpg | 200.1 | 1 |
 | images/logos/IDEMS.png | 84.6 | 1 |
+| images/logos/MaPa_logo.png | 157.3 | 1 |
 | images/logos/PLH.png | 26.6 | 1 |
 | images/logos/UNICEF.jpg | 57.9 | 1 |
 | images/logos/app_logo.png | 70.6 | 2 |
 | images/no_group_selected.svg | 3.5 | 1 |
-| images/progress_complete.png | 0.7 | 1 |
-| images/progress_uncomplete.png | 0.3 | 1 |
-| lottie/checkmark_blue.json | 17 | 1 |
+| images/progress_complete.png | 0.9 | 1 |
+| images/progress_uncomplete.png | 0.9 | 1 |
+| lottie/checkmark_blue.json | 17 | 2 |
 | pdf/01_mod1_intro.pdf | 650.7 | 1 |
 | pdf/01_mod1_layunin.pdf | 513.8 | 1 |
 | pdf/01_mod1_mapa_skill.pdf | 1819.1 | 1 |

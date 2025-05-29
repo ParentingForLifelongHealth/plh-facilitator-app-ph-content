@@ -30,7 +30,7 @@
     {
       "type": "display_group",
       "name": "dg_top",
-      "condition": "!@local.is_user_signed_in",
+      "condition": false,
       "parameter_list": {
         "sticky": "top",
         "background_image_asset": "images/backgrounds/MaPa_logo_with_background.png",
@@ -41,22 +41,34 @@
         "min-height: 230px"
       ],
       "rows": [],
-      "_nested_name": "dg_top",
-      "_dynamicFields": {
-        "condition": [
-          {
-            "fullExpression": "!@local.is_user_signed_in",
-            "matchedExpression": "!@local.is_user_signed_in",
-            "type": "local",
-            "fieldName": "is_user_signed_in"
-          }
-        ]
+      "_nested_name": "dg_top"
+    },
+    {
+      "type": "display_group",
+      "name": "dg_top",
+      "parameter_list": {
+        "sticky": "top",
+        "variant": "inline_padding"
       },
-      "_dynamicDependencies": {
-        "!@local.is_user_signed_in": [
-          "condition"
-        ]
-      }
+      "style_list": [
+        "background-color: var(--ion-color-primary-800)"
+      ],
+      "rows": [
+        {
+          "type": "image",
+          "name": "logo",
+          "value": "images/logos/MaPa_logo.png",
+          "_translations": {
+            "value": {}
+          },
+          "style_list": [
+            "height: 200px",
+            "margin-block: 24px"
+          ],
+          "_nested_name": "dg_top.logo"
+        }
+      ],
+      "_nested_name": "dg_top"
     },
     {
       "type": "display_group",
@@ -115,6 +127,9 @@
             }
           ],
           "condition": "@fields._platform === \"ios\"",
+          "style_list": [
+            "max-width: max-content"
+          ],
           "_nested_name": "before_login.button_apple_sign_in",
           "_dynamicFields": {
             "value": [
@@ -160,6 +175,9 @@
               "_raw": "click | emit: force_reprocess",
               "_cleaned": "click | emit: force_reprocess"
             }
+          ],
+          "style_list": [
+            "max-width: max-content"
           ],
           "_nested_name": "before_login.button_google_sign_in",
           "_dynamicFields": {
@@ -499,110 +517,97 @@
                   }
                 },
                 {
-                  "type": "display_group",
-                  "name": "dg_footer",
-                  "parameter_list": {
-                    "sticky": "bottom"
+                  "type": "button",
+                  "name": "button_import",
+                  "value": "@global.continue",
+                  "_translations": {
+                    "value": {}
                   },
-                  "style_list": [
-                    "padding: 12px 24px"
-                  ],
-                  "rows": [
+                  "action_list": [
                     {
-                      "type": "button",
-                      "name": "button_import",
-                      "value": "@global.continue",
-                      "_translations": {
-                        "value": {}
-                      },
-                      "action_list": [
-                        {
-                          "trigger": "click",
-                          "action_id": "user",
-                          "args": [
-                            "import",
-                            "@item.id"
-                          ],
-                          "_raw": "click | user: import: @item.id",
-                          "_cleaned": "click | user: import: @item.id"
-                        },
-                        {
-                          "trigger": "click",
-                          "action_id": "set_field",
-                          "args": [
-                            "login_passed",
-                            true
-                          ],
-                          "_raw": "click | set_field: login_passed: true",
-                          "_cleaned": "click | set_field: login_passed: true"
-                        },
-                        {
-                          "trigger": "click",
-                          "action_id": "emit",
-                          "args": [
-                            "force_restart"
-                          ],
-                          "_raw": "click | emit: force_restart",
-                          "_cleaned": "click | emit: force_restart"
-                        }
+                      "trigger": "click",
+                      "action_id": "user",
+                      "args": [
+                        "import",
+                        "@item.id"
                       ],
-                      "parameter_list": {
-                        "style": "navigation"
-                      },
-                      "_nested_name": "after_login.find_last_synced_id.dg_welcome_existing.dg_footer.button_import",
-                      "_dynamicFields": {
-                        "value": [
+                      "_raw": "click | user: import: @item.id",
+                      "_cleaned": "click | user: import: @item.id"
+                    },
+                    {
+                      "trigger": "click",
+                      "action_id": "set_field",
+                      "args": [
+                        "login_passed",
+                        true
+                      ],
+                      "_raw": "click | set_field: login_passed: true",
+                      "_cleaned": "click | set_field: login_passed: true"
+                    },
+                    {
+                      "trigger": "click",
+                      "action_id": "emit",
+                      "args": [
+                        "force_restart"
+                      ],
+                      "_raw": "click | emit: force_restart",
+                      "_cleaned": "click | emit: force_restart"
+                    }
+                  ],
+                  "parameter_list": {
+                    "style": "navigation"
+                  },
+                  "_nested_name": "after_login.find_last_synced_id.dg_welcome_existing.button_import",
+                  "_dynamicFields": {
+                    "value": [
+                      {
+                        "fullExpression": "@global.continue",
+                        "matchedExpression": "@global.continue",
+                        "type": "global",
+                        "fieldName": "continue"
+                      }
+                    ],
+                    "action_list": {
+                      "0": {
+                        "args": {
+                          "1": [
+                            {
+                              "fullExpression": "@item.id",
+                              "matchedExpression": "@item.id",
+                              "type": "item",
+                              "fieldName": "id"
+                            }
+                          ]
+                        },
+                        "_raw": [
                           {
-                            "fullExpression": "@global.continue",
-                            "matchedExpression": "@global.continue",
-                            "type": "global",
-                            "fieldName": "continue"
+                            "fullExpression": "click | user: import: @item.id",
+                            "matchedExpression": "@item.id",
+                            "type": "item",
+                            "fieldName": "id"
                           }
                         ],
-                        "action_list": {
-                          "0": {
-                            "args": {
-                              "1": [
-                                {
-                                  "fullExpression": "@item.id",
-                                  "matchedExpression": "@item.id",
-                                  "type": "item",
-                                  "fieldName": "id"
-                                }
-                              ]
-                            },
-                            "_raw": [
-                              {
-                                "fullExpression": "click | user: import: @item.id",
-                                "matchedExpression": "@item.id",
-                                "type": "item",
-                                "fieldName": "id"
-                              }
-                            ],
-                            "_cleaned": [
-                              {
-                                "fullExpression": "click | user: import: @item.id",
-                                "matchedExpression": "@item.id",
-                                "type": "item",
-                                "fieldName": "id"
-                              }
-                            ]
+                        "_cleaned": [
+                          {
+                            "fullExpression": "click | user: import: @item.id",
+                            "matchedExpression": "@item.id",
+                            "type": "item",
+                            "fieldName": "id"
                           }
-                        }
-                      },
-                      "_dynamicDependencies": {
-                        "@global.continue": [
-                          "value"
-                        ],
-                        "@item.id": [
-                          "action_list.0.args.1",
-                          "action_list.0._raw",
-                          "action_list.0._cleaned"
                         ]
                       }
                     }
-                  ],
-                  "_nested_name": "after_login.find_last_synced_id.dg_welcome_existing.dg_footer"
+                  },
+                  "_dynamicDependencies": {
+                    "@global.continue": [
+                      "value"
+                    ],
+                    "@item.id": [
+                      "action_list.0.args.1",
+                      "action_list.0._raw",
+                      "action_list.0._cleaned"
+                    ]
+                  }
                 }
               ],
               "_nested_name": "after_login.find_last_synced_id.dg_welcome_existing"
@@ -743,74 +748,61 @@
               }
             },
             {
-              "type": "display_group",
-              "name": "dg_footer",
-              "parameter_list": {
-                "sticky": "bottom"
+              "type": "button",
+              "name": "button_completed",
+              "value": "@global.continue",
+              "_translations": {
+                "value": {}
               },
-              "style_list": [
-                "padding: 12px 24px"
-              ],
-              "rows": [
+              "action_list": [
                 {
-                  "type": "button",
-                  "name": "button_completed",
-                  "value": "@global.continue",
-                  "_translations": {
-                    "value": {}
-                  },
-                  "action_list": [
-                    {
-                      "trigger": "click",
-                      "action_id": "set_field",
-                      "args": [
-                        "login_passed",
-                        true
-                      ],
-                      "_raw": "click | set_field: login_passed: true",
-                      "_cleaned": "click | set_field: login_passed: true"
-                    },
-                    {
-                      "trigger": "click",
-                      "action_id": "emit",
-                      "args": [
-                        "completed"
-                      ],
-                      "_raw": "click | emit: completed",
-                      "_cleaned": "click | emit: completed"
-                    },
-                    {
-                      "trigger": "click",
-                      "action_id": "emit",
-                      "args": [
-                        "server_sync"
-                      ],
-                      "_raw": "click | emit: server_sync",
-                      "_cleaned": "click | emit: server_sync"
-                    }
+                  "trigger": "click",
+                  "action_id": "set_field",
+                  "args": [
+                    "login_passed",
+                    true
                   ],
-                  "parameter_list": {
-                    "style": "navigation"
-                  },
-                  "_nested_name": "after_login.dg_welcome_new.dg_footer.button_completed",
-                  "_dynamicFields": {
-                    "value": [
-                      {
-                        "fullExpression": "@global.continue",
-                        "matchedExpression": "@global.continue",
-                        "type": "global",
-                        "fieldName": "continue"
-                      }
-                    ]
-                  },
-                  "_dynamicDependencies": {
-                    "@global.continue": [
-                      "value"
-                    ]
-                  }
+                  "_raw": "click | set_field: login_passed: true",
+                  "_cleaned": "click | set_field: login_passed: true"
+                },
+                {
+                  "trigger": "click",
+                  "action_id": "emit",
+                  "args": [
+                    "completed"
+                  ],
+                  "_raw": "click | emit: completed",
+                  "_cleaned": "click | emit: completed"
+                },
+                {
+                  "trigger": "click",
+                  "action_id": "emit",
+                  "args": [
+                    "server_sync"
+                  ],
+                  "_raw": "click | emit: server_sync",
+                  "_cleaned": "click | emit: server_sync"
                 }
               ],
-              "_nested_name": "after_login.dg_welcome_new.dg_footer"
+              "parameter_list": {
+                "style": "navigation"
+              },
+              "_nested_name": "after_login.dg_welcome_new.button_completed",
+              "_dynamicFields": {
+                "value": [
+                  {
+                    "fullExpression": "@global.continue",
+                    "matchedExpression": "@global.continue",
+                    "type": "global",
+                    "fieldName": "continue"
+                  }
+                ]
+              },
+              "_dynamicDependencies": {
+                "@global.continue": [
+                  "value"
+                ]
+              }
             }
           ],
           "_nested_name": "after_login.dg_welcome_new",
@@ -827,6 +819,53 @@
           "_dynamicDependencies": {
             "!@fields.no_previous_auth_id": [
               "condition"
+            ]
+          }
+        },
+        {
+          "type": "button",
+          "name": "button_sign_out",
+          "value": "<u>@global.logout</u>",
+          "_translations": {
+            "value": {}
+          },
+          "action_list": [
+            {
+              "trigger": "click",
+              "action_id": "emit",
+              "args": [
+                "server_sync"
+              ],
+              "_raw": "click | emit: server_sync",
+              "_cleaned": "click | emit: server_sync"
+            },
+            {
+              "trigger": "click",
+              "action_id": "reset_app",
+              "args": [],
+              "_raw": "click | reset_app",
+              "_cleaned": "click | reset_app"
+            }
+          ],
+          "parameter_list": {
+            "variant": "card",
+            "style": "no-background"
+          },
+          "exclude_from_translation": true,
+          "_nested_name": "after_login.button_sign_out",
+          "_dynamicFields": {
+            "value": [
+              {
+                "fullExpression": "<u>@global.logout</u>",
+                "matchedExpression": "@global.logout",
+                "type": "global",
+                "fieldName": "logout"
+              }
+            ]
+          },
+          "_dynamicDependencies": {
+            "@global.logout": [
+              "value"
             ]
           }
         }

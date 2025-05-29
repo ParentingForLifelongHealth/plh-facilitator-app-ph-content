@@ -309,6 +309,22 @@
       "_translations": {
         "value": {}
       }
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "module_final_title",
+      "value": "You've reached the end of this session. What would you like to do next?",
+      "_translations": {
+        "value": {}
+      }
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "end_module_animation",
+      "value": "lottie/checkmark_blue.json",
+      "_translations": {
+        "value": {}
+      }
     }
   ],
   "_xlsxPath": "data/deployment_data_ph.xlsx",

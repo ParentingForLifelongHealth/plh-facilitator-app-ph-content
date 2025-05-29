@@ -19,7 +19,7 @@
       },
       {
         "type": "button",
-        "count": 88
+        "count": 90
       },
       {
         "type": "carousel",
@@ -31,7 +31,7 @@
       },
       {
         "type": "data_items",
-        "count": 53
+        "count": 52
       },
       {
         "type": "date_time_picker",
@@ -47,7 +47,7 @@
       },
       {
         "type": "display_group",
-        "count": 145
+        "count": 140
       },
       {
         "type": "drawer",
@@ -59,7 +59,7 @@
       },
       {
         "type": "image",
-        "count": 19
+        "count": 20
       },
       {
         "type": "items",
@@ -67,7 +67,7 @@
       },
       {
         "type": "lottie_animation",
-        "count": 3
+        "count": 2
       },
       {
         "type": "navigation_bar",
@@ -95,7 +95,7 @@
       },
       {
         "type": "set_variable",
-        "count": 1050
+        "count": 1042
       },
       {
         "type": "simple_checkbox",
@@ -103,7 +103,7 @@
       },
       {
         "type": "task_card",
-        "count": 5
+        "count": 6
       },
       {
         "type": "task_progress_bar",
@@ -175,7 +175,7 @@
       },
       {
         "type": "emit: force_reload",
-        "count": 9
+        "count": 10
       },
       {
         "type": "emit: force_reprocess",
@@ -187,7 +187,7 @@
       },
       {
         "type": "emit: server_sync",
-        "count": 16
+        "count": 19
       },
       {
         "type": "emit: set_language",
@@ -207,7 +207,7 @@
       },
       {
         "type": "nav_stack",
-        "count": 5
+        "count": 6
       },
       {
         "type": "plh_parent_group",
@@ -219,7 +219,7 @@
       },
       {
         "type": "reset_app",
-        "count": 1
+        "count": 3
       },
       {
         "type": "save_to_device",
@@ -231,11 +231,11 @@
       },
       {
         "type": "set_data",
-        "count": 24
+        "count": 25
       },
       {
         "type": "set_field",
-        "count": 84
+        "count": 87
       },
       {
         "type": "set_item",
@@ -259,13 +259,13 @@
     "data": [
       {
         "assets": "total",
-        "KB": "37220 KB",
-        "MB": "37.2 MB"
+        "KB": "37379 KB",
+        "MB": "37.4 MB"
       },
       {
         "assets": "unused",
-        "KB": "12394 KB",
-        "MB": "12.4 MB"
+        "KB": "12237 KB",
+        "MB": "12.2 MB"
       }
     ]
   },
@@ -548,10 +548,6 @@
         "size_kb": 1
       },
       {
-        "path": "images/logos/MaPa_logo.png",
-        "size_kb": 157.3
-      },
-      {
         "path": "images/person_cog.png",
         "size_kb": 0.8
       },
@@ -581,11 +577,6 @@
       {
         "path": "images/icons/tick.svg",
         "count": 1,
-        "missing": true
-      },
-      {
-        "path": "lottie/gift_box.json",
-        "count": 2,
         "missing": true
       },
       {
@@ -1118,6 +1109,11 @@
         "size_kb": 84.6
       },
       {
+        "path": "images/logos/MaPa_logo.png",
+        "count": 1,
+        "size_kb": 157.3
+      },
+      {
         "path": "images/logos/PLH.png",
         "count": 1,
         "size_kb": 26.6
@@ -1140,16 +1136,16 @@
       {
         "path": "images/progress_complete.png",
         "count": 1,
-        "size_kb": 0.7
+        "size_kb": 0.9
       },
       {
         "path": "images/progress_uncomplete.png",
         "count": 1,
-        "size_kb": 0.3
+        "size_kb": 0.9
       },
       {
         "path": "lottie/checkmark_blue.json",
-        "count": 1,
+        "count": 2,
         "size_kb": 17
       },
       {
