@@ -1,0 +1,246 @@
+{
+  "flow_type": "template",
+  "flow_name": "remove_cofacilitator",
+  "status": "released",
+  "rows": [
+    {
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "name": "set_variable_2",
+      "_nested_name": "set_variable_2"
+    },
+    {
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "name": "set_variable_3",
+      "_nested_name": "set_variable_3"
+    },
+    {
+      "type": "title",
+      "name": "title",
+      "value": "Are you sure you want to remove the co-facilitator from this parent group?",
+      "_translations": {
+        "value": {}
+      },
+      "exclude_from_translation": false,
+      "_nested_name": "title"
+    },
+    {
+      "type": "text",
+      "name": "text_warning",
+      "value": "This action cannot be undone.",
+      "_translations": {
+        "value": {}
+      },
+      "exclude_from_translation": false,
+      "_nested_name": "text_warning"
+    },
+    {
+      "type": "text",
+      "name": "text_note",
+      "value": "Note: Removing a co-facilitator will revoke their access to this group.",
+      "_translations": {
+        "value": {}
+      },
+      "_nested_name": "text_note"
+    },
+    {
+      "type": "display_group",
+      "name": "buttons",
+      "rows": [
+        {
+          "type": "button",
+          "name": "button_no",
+          "value": "Cancel",
+          "_translations": {
+            "value": {
+              "fil_ph": true,
+              "ph_fil": true
+            }
+          },
+          "action_list": [
+            {
+              "trigger": "click",
+              "action_id": "emit",
+              "args": [
+                "uncompleted"
+              ],
+              "_raw": "click | emit: uncompleted",
+              "_cleaned": "click | emit: uncompleted"
+            }
+          ],
+          "parameter_list": {
+            "style": "card"
+          },
+          "style_list": [
+            "flex:1"
+          ],
+          "exclude_from_translation": false,
+          "_nested_name": "buttons.button_no"
+        },
+        {
+          "type": "button",
+          "name": "button_delete",
+          "value": "Remove",
+          "_translations": {
+            "value": {}
+          },
+          "action_list": [
+            {
+              "trigger": "click",
+              "action_id": "plh_parent_group",
+              "args": [
+                "remove_cofacilitator"
+              ],
+              "_raw": "click | plh_parent_group: remove_cofacilitator | parent_group_id: @fields.current_group_id, auth_id: @fields.cofacilitator_id, parent_groups_data_list: parent_groups, parents_data_list: parents",
+              "_cleaned": "click | plh_parent_group: remove_cofacilitator | parent_group_id: @fields.current_group_id, auth_id: @fields.cofacilitator_id, parent_groups_data_list: parent_groups, parents_data_list: parents",
+              "params": {
+                "parent_group_id": "@fields.current_group_id",
+                "auth_id": "@fields.cofacilitator_id",
+                "parent_groups_data_list": "parent_groups",
+                "parents_data_list": "parents"
+              }
+            },
+            {
+              "trigger": "click",
+              "action_id": "set_data",
+              "args": [],
+              "_raw": "click | set_data |\n_list_id: parent_groups,\n_id: @fields.current_group_id,\ncofacilitator_id:  ,\nco_facilitator_name:",
+              "_cleaned": "click | set_data |\n_list_id: parent_groups,\n_id: @fields.current_group_id,\ncofacilitator_id:  ,\nco_facilitator_name:",
+              "params": {
+                "_list_id": "parent_groups",
+                "_id": "@fields.current_group_id",
+                "cofacilitator_id": "",
+                "co_facilitator_name": ""
+              }
+            },
+            {
+              "trigger": "click",
+              "action_id": "emit",
+              "args": [
+                "force_reload"
+              ],
+              "_raw": "click | emit: force_reload",
+              "_cleaned": "click | emit: force_reload"
+            },
+            {
+              "trigger": "click",
+              "action_id": "emit",
+              "args": [
+                "completed"
+              ],
+              "_raw": "click | emit: completed",
+              "_cleaned": "click | emit: completed"
+            }
+          ],
+          "parameter_list": {
+            "style": "card"
+          },
+          "style_list": [
+            "flex:1"
+          ],
+          "exclude_from_translation": false,
+          "_nested_name": "buttons.button_delete",
+          "_dynamicFields": {
+            "action_list": {
+              "0": {
+                "_raw": [
+                  {
+                    "fullExpression": "click | plh_parent_group: remove_cofacilitator | parent_group_id: @fields.current_group_id, auth_id: @fields.cofacilitator_id, parent_groups_data_list: parent_groups, parents_data_list: parents",
+                    "matchedExpression": "@fields.current_group_id",
+                    "type": "fields",
+                    "fieldName": "current_group_id"
+                  },
+                  {
+                    "fullExpression": "click | plh_parent_group: remove_cofacilitator | parent_group_id: @fields.current_group_id, auth_id: @fields.cofacilitator_id, parent_groups_data_list: parent_groups, parents_data_list: parents",
+                    "matchedExpression": "@fields.cofacilitator_id",
+                    "type": "fields",
+                    "fieldName": "cofacilitator_id"
+                  }
+                ],
+                "_cleaned": [
+                  {
+                    "fullExpression": "click | plh_parent_group: remove_cofacilitator | parent_group_id: @fields.current_group_id, auth_id: @fields.cofacilitator_id, parent_groups_data_list: parent_groups, parents_data_list: parents",
+                    "matchedExpression": "@fields.current_group_id",
+                    "type": "fields",
+                    "fieldName": "current_group_id"
+                  },
+                  {
+                    "fullExpression": "click | plh_parent_group: remove_cofacilitator | parent_group_id: @fields.current_group_id, auth_id: @fields.cofacilitator_id, parent_groups_data_list: parent_groups, parents_data_list: parents",
+                    "matchedExpression": "@fields.cofacilitator_id",
+                    "type": "fields",
+                    "fieldName": "cofacilitator_id"
+                  }
+                ],
+                "params": {
+                  "parent_group_id": [
+                    {
+                      "fullExpression": "@fields.current_group_id",
+                      "matchedExpression": "@fields.current_group_id",
+                      "type": "fields",
+                      "fieldName": "current_group_id"
+                    }
+                  ],
+                  "auth_id": [
+                    {
+                      "fullExpression": "@fields.cofacilitator_id",
+                      "matchedExpression": "@fields.cofacilitator_id",
+                      "type": "fields",
+                      "fieldName": "cofacilitator_id"
+                    }
+                  ]
+                }
+              },
+              "1": {
+                "_raw": [
+                  {
+                    "fullExpression": "click | set_data |\n_list_id: parent_groups,\n_id: @fields.current_group_id,\ncofacilitator_id:  ,\nco_facilitator_name:",
+                    "matchedExpression": "@fields.current_group_id",
+                    "type": "fields",
+                    "fieldName": "current_group_id"
+                  }
+                ],
+                "_cleaned": [
+                  {
+                    "fullExpression": "click | set_data |\n_list_id: parent_groups,\n_id: @fields.current_group_id,\ncofacilitator_id:  ,\nco_facilitator_name:",
+                    "matchedExpression": "@fields.current_group_id",
+                    "type": "fields",
+                    "fieldName": "current_group_id"
+                  }
+                ],
+                "params": {
+                  "_id": [
+                    {
+                      "fullExpression": "@fields.current_group_id",
+                      "matchedExpression": "@fields.current_group_id",
+                      "type": "fields",
+                      "fieldName": "current_group_id"
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "_dynamicDependencies": {
+            "@fields.current_group_id": [
+              "action_list.0._raw",
+              "action_list.0._cleaned",
+              "action_list.0.params.parent_group_id",
+              "action_list.1._raw",
+              "action_list.1._cleaned",
+              "action_list.1.params._id"
+            ],
+            "@fields.cofacilitator_id": [
+              "action_list.0._raw",
+              "action_list.0._cleaned",
+              "action_list.0.params.auth_id"
+            ]
+          }
+        }
+      ],
+      "_nested_name": "buttons"
+    }
+  ],
+  "_xlsxPath": "templates/PH profile.xlsx",
+  "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
+}

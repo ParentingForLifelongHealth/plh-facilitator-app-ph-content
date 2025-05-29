@@ -7,14 +7,14 @@
 | accordion_section | 1 |
 | apple_sign_in_button | 3 |
 | audio | 3 |
-| button | 90 |
+| button | 92 |
 | carousel | 2 |
 | combo_box | 16 |
 | data_items | 52 |
 | date_time_picker | 4 |
 | debug_toggle | 1 |
 | display_grid | 3 |
-| display_group | 140 |
+| display_group | 141 |
 | drawer | 1 |
 | google_sign_in_button | 4 |
 | image | 20 |
@@ -26,16 +26,16 @@
 | radio_button_grid | 16 |
 | round_button | 42 |
 | select_text | 1 |
-| set_variable | 1042 |
+| set_variable | 1048 |
 | simple_checkbox | 2 |
 | task_card | 6 |
 | task_progress_bar | 1 |
 | template | 357 |
 | test | 1 |
-| text | 280 |
+| text | 285 |
 | text_area | 2 |
 | text_box | 46 |
-| title | 44 |
+| title | 45 |
 | toggle_bar | 5 |
 | update_action_list | 3 |
 | video | 3 |
@@ -51,24 +51,24 @@
 | app_update | 1 |
 | auth | 2 |
 | copy | 2 |
-| emit: completed | 67 |
+| emit: completed | 68 |
 | emit: force_reload | 10 |
 | emit: force_reprocess | 18 |
 | emit: force_restart | 5 |
 | emit: server_sync | 19 |
 | emit: set_language | 1 |
-| emit: uncompleted | 83 |
+| emit: uncompleted | 84 |
 | feedback | 13 |
 | go_to | 36 |
 | nav_stack | 6 |
 | plh_parent_group | 9 |
-| pop_up | 20 |
+| pop_up | 21 |
 | reset_app | 3 |
 | save_to_device | 4 |
 | scroll | 1 |
-| set_data | 25 |
-| set_field | 87 |
-| set_item | 12 |
+| set_data | 27 |
+| set_field | 88 |
+| set_item | 11 |
 | set_local | 95 |
 | share | 4 |
 | user | 4 |
@@ -343,7 +343,7 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | generator |  | 9 |
 | global |  | 12 |
 | global | legal_terms | 1 |
-| template |  | 84 |
+| template |  | 85 |
 | template | generated | 309 |
 | template | legal_terms | 4 |
 </details>

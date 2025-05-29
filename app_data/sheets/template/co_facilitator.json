@@ -87,17 +87,26 @@
               "rows": [
                 {
                   "type": "text",
-                  "value": "@item.cofacilitator_id",
+                  "value": "@item.co_facilitator_name",
                   "_translations": {
                     "value": {}
                   },
                   "style_list": [
                     "flex: 1"
                   ],
+                  "condition": "@item.cofacilitator_id",
                   "name": "text_1",
                   "_nested_name": "data_items_2.display_group_1.display_group_2.text_1",
                   "_dynamicFields": {
                     "value": [
+                      {
+                        "fullExpression": "@item.co_facilitator_name",
+                        "matchedExpression": "@item.co_facilitator_name",
+                        "type": "item",
+                        "fieldName": "co_facilitator_name"
+                      }
+                    ],
+                    "condition": [
                       {
                         "fullExpression": "@item.cofacilitator_id",
                         "matchedExpression": "@item.cofacilitator_id",
@@ -107,8 +116,11 @@
                     ]
                   },
                   "_dynamicDependencies": {
-                    "@item.cofacilitator_id": [
+                    "@item.co_facilitator_name": [
                       "value"
+                    ],
+                    "@item.cofacilitator_id": [
+                      "condition"
                     ]
                   }
                 },
@@ -118,37 +130,22 @@
                   "action_list": [
                     {
                       "trigger": "click",
-                      "action_id": "plh_parent_group",
+                      "action_id": "set_field",
+                      "args": [
+                        "cofacilitator_id",
+                        "@item.cofacilitator_id"
+                      ],
+                      "_raw": "click | set_field: cofacilitator_id: @item.cofacilitator_id",
+                      "_cleaned": "click | set_field: cofacilitator_id: @item.cofacilitator_id"
+                    },
+                    {
+                      "trigger": "click",
+                      "action_id": "pop_up",
                       "args": [
                         "remove_cofacilitator"
                       ],
-                      "_raw": "click | plh_parent_group: remove_cofacilitator | parent_group_id: @item.id, auth_id: @item.cofacilitator_id, parent_groups_data_list: parent_groups, parents_data_list: parents",
-                      "_cleaned": "click | plh_parent_group: remove_cofacilitator | parent_group_id: @item.id, auth_id: @item.cofacilitator_id, parent_groups_data_list: parent_groups, parents_data_list: parents",
-                      "params": {
-                        "parent_group_id": "@item.id",
-                        "auth_id": "@item.cofacilitator_id",
-                        "parent_groups_data_list": "parent_groups",
-                        "parents_data_list": "parents"
-                      }
-                    },
-                    {
-                      "trigger": "click",
-                      "action_id": "set_item",
-                      "args": [],
-                      "_raw": "click | set_item | cofacilitator_id:",
-                      "_cleaned": "click | set_item | cofacilitator_id:",
-                      "params": {
-                        "cofacilitator_id": ""
-                      }
-                    },
-                    {
-                      "trigger": "click",
-                      "action_id": "emit",
-                      "args": [
-                        "force_reload"
-                      ],
-                      "_raw": "click | emit: force_reload",
-                      "_cleaned": "click | emit: force_reload"
+                      "_raw": "click | pop_up: remove_cofacilitator",
+                      "_cleaned": "click | pop_up: remove_cofacilitator"
                     }
                   ],
                   "parameter_list": {
@@ -160,44 +157,8 @@
                   "_dynamicFields": {
                     "action_list": {
                       "0": {
-                        "_raw": [
-                          {
-                            "fullExpression": "click | plh_parent_group: remove_cofacilitator | parent_group_id: @item.id, auth_id: @item.cofacilitator_id, parent_groups_data_list: parent_groups, parents_data_list: parents",
-                            "matchedExpression": "@item.id",
-                            "type": "item",
-                            "fieldName": "id"
-                          },
-                          {
-                            "fullExpression": "click | plh_parent_group: remove_cofacilitator | parent_group_id: @item.id, auth_id: @item.cofacilitator_id, parent_groups_data_list: parent_groups, parents_data_list: parents",
-                            "matchedExpression": "@item.cofacilitator_id",
-                            "type": "item",
-                            "fieldName": "cofacilitator_id"
-                          }
-                        ],
-                        "_cleaned": [
-                          {
-                            "fullExpression": "click | plh_parent_group: remove_cofacilitator | parent_group_id: @item.id, auth_id: @item.cofacilitator_id, parent_groups_data_list: parent_groups, parents_data_list: parents",
-                            "matchedExpression": "@item.id",
-                            "type": "item",
-                            "fieldName": "id"
-                          },
-                          {
-                            "fullExpression": "click | plh_parent_group: remove_cofacilitator | parent_group_id: @item.id, auth_id: @item.cofacilitator_id, parent_groups_data_list: parent_groups, parents_data_list: parents",
-                            "matchedExpression": "@item.cofacilitator_id",
-                            "type": "item",
-                            "fieldName": "cofacilitator_id"
-                          }
-                        ],
-                        "params": {
-                          "parent_group_id": [
-                            {
-                              "fullExpression": "@item.id",
-                              "matchedExpression": "@item.id",
-                              "type": "item",
-                              "fieldName": "id"
-                            }
-                          ],
-                          "auth_id": [
+                        "args": {
+                          "1": [
                             {
                               "fullExpression": "@item.cofacilitator_id",
                               "matchedExpression": "@item.cofacilitator_id",
@@ -205,20 +166,31 @@
                               "fieldName": "cofacilitator_id"
                             }
                           ]
-                        }
+                        },
+                        "_raw": [
+                          {
+                            "fullExpression": "click | set_field: cofacilitator_id: @item.cofacilitator_id",
+                            "matchedExpression": "@item.cofacilitator_id",
+                            "type": "item",
+                            "fieldName": "cofacilitator_id"
+                          }
+                        ],
+                        "_cleaned": [
+                          {
+                            "fullExpression": "click | set_field: cofacilitator_id: @item.cofacilitator_id",
+                            "matchedExpression": "@item.cofacilitator_id",
+                            "type": "item",
+                            "fieldName": "cofacilitator_id"
+                          }
+                        ]
                       }
                     }
                   },
                   "_dynamicDependencies": {
-                    "@item.id": [
-                      "action_list.0._raw",
-                      "action_list.0._cleaned",
-                      "action_list.0.params.parent_group_id"
-                    ],
                     "@item.cofacilitator_id": [
+                      "action_list.0.args.1",
                       "action_list.0._raw",
-                      "action_list.0._cleaned",
-                      "action_list.0.params.auth_id"
+                      "action_list.0._cleaned"
                     ]
                   }
                 }

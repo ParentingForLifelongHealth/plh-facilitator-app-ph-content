@@ -321,6 +321,22 @@
           "ph_fil": true
         }
       }
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "region_without_province",
+      "value": "This region has no provinces",
+      "_translations": {
+        "value": {}
+      }
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "province_without_city",
+      "value": "This province has no cities/municipalities",
+      "_translations": {
+        "value": {}
+      }
     }
   ],
   "_xlsxPath": "data/deployment_data_ph.xlsx",

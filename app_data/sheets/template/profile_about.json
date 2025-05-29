@@ -373,6 +373,7 @@
       "parameter_list": {
         "style": "emphasised"
       },
+      "condition": false,
       "exclude_from_translation": true,
       "_nested_name": "choose_province",
       "_dynamicFields": {
@@ -393,6 +394,7 @@
     },
     {
       "name": "user_province_select",
+      "condition": false,
       "exclude_from_translation": true,
       "type": "set_variable",
       "_nested_name": "user_province_select"
@@ -406,6 +408,7 @@
         "disabled_text": "@global.no_region",
         "variant": "dropdown"
       },
+      "condition": false,
       "exclude_from_translation": true,
       "rows": [
         {
@@ -414,6 +417,7 @@
           "parameter_list": {
             "filter": "@item.region_id == @local.user_region_select"
           },
+          "condition": false,
           "exclude_from_translation": true,
           "rows": [],
           "name": "data_items_1",
@@ -497,6 +501,7 @@
       "parameter_list": {
         "style": "emphasised"
       },
+      "condition": false,
       "exclude_from_translation": true,
       "_nested_name": "choose_city",
       "_dynamicFields": {
@@ -517,6 +522,7 @@
     },
     {
       "name": "user_city_select",
+      "condition": false,
       "exclude_from_translation": true,
       "type": "set_variable",
       "_nested_name": "user_city_select"
@@ -530,6 +536,7 @@
         "disabled_text": "@global.no_province",
         "variant": "dropdown"
       },
+      "condition": false,
       "exclude_from_translation": true,
       "rows": [
         {
@@ -538,6 +545,7 @@
           "parameter_list": {
             "filter": "@item.province_id == @local.user_province_select"
           },
+          "condition": false,
           "exclude_from_translation": true,
           "rows": [],
           "name": "data_items_1",
