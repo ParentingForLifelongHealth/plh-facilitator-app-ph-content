@@ -45,32 +45,8 @@
       "rows": [
         {
           "type": "text",
-          "name": "text_1_@item.id",
-          "_nested_name": "data_items_5.text_1_@item.id",
-          "_dynamicFields": {
-            "name": [
-              {
-                "fullExpression": "text_1_@item.id",
-                "matchedExpression": "@item.id",
-                "type": "item",
-                "fieldName": "id"
-              }
-            ],
-            "_nested_name": [
-              {
-                "fullExpression": "data_items_5.text_1_@item.id",
-                "matchedExpression": "@item.id",
-                "type": "item",
-                "fieldName": "id"
-              }
-            ]
-          },
-          "_dynamicDependencies": {
-            "@item.id": [
-              "name",
-              "_nested_name"
-            ]
-          }
+          "name": "text_1",
+          "_nested_name": "data_items_5.text_1"
         },
         {
           "name": "first_name",
@@ -163,7 +139,7 @@
         },
         {
           "type": "simple_checkbox",
-          "name": "simple_checkbox_6_@item.id",
+          "name": "simple_checkbox_6",
           "action_list": [
             {
               "trigger": "changed",
@@ -207,16 +183,8 @@
             "reverse": "false",
             "label_text": "@local.first_name @local.last_name"
           },
-          "_nested_name": "data_items_5.simple_checkbox_6_@item.id",
+          "_nested_name": "data_items_5.simple_checkbox_6",
           "_dynamicFields": {
-            "name": [
-              {
-                "fullExpression": "simple_checkbox_6_@item.id",
-                "matchedExpression": "@item.id",
-                "type": "item",
-                "fieldName": "id"
-              }
-            ],
             "action_list": {
               "0": {
                 "_raw": [
@@ -420,28 +388,9 @@
                   "fieldName": "last_name"
                 }
               ]
-            },
-            "_nested_name": [
-              {
-                "fullExpression": "data_items_5.simple_checkbox_6_@item.id",
-                "matchedExpression": "@item.id",
-                "type": "item",
-                "fieldName": "id"
-              }
-            ]
+            }
           },
           "_dynamicDependencies": {
-            "@item.id": [
-              "name",
-              "action_list.0._raw",
-              "action_list.0._cleaned",
-              "action_list.0.params.co_parent_id",
-              "action_list.1._raw",
-              "action_list.1._cleaned",
-              "action_list.1.params._id",
-              "condition",
-              "_nested_name"
-            ],
             "@fields.current_parent_no": [
               "action_list.0._raw",
               "action_list.0._cleaned",
@@ -449,6 +398,15 @@
               "action_list.1._raw",
               "action_list.1._cleaned",
               "action_list.1.params.co_parent_id",
+              "condition"
+            ],
+            "@item.id": [
+              "action_list.0._raw",
+              "action_list.0._cleaned",
+              "action_list.0.params.co_parent_id",
+              "action_list.1._raw",
+              "action_list.1._cleaned",
+              "action_list.1.params._id",
               "condition"
             ],
             "@local.first_name": [

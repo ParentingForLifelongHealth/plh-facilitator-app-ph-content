@@ -64,7 +64,7 @@
                     "color: white"
                   ],
                   "name": "text_1",
-                  "_nested_name": "carousel_3.items_1.display_group_1_@item.id.text_1",
+                  "_nested_name": "carousel_3.items_1.display_group_1.text_1",
                   "_dynamicFields": {
                     "value": [
                       {
@@ -73,22 +73,11 @@
                         "type": "global",
                         "fieldName": "guide_text"
                       }
-                    ],
-                    "_nested_name": [
-                      {
-                        "fullExpression": "carousel_3.items_1.display_group_1_@item.id.text_1",
-                        "matchedExpression": "@item.id.text_1",
-                        "type": "item",
-                        "fieldName": "id"
-                      }
                     ]
                   },
                   "_dynamicDependencies": {
                     "@global.guide_text": [
                       "value"
-                    ],
-                    "@item.id.text_1": [
-                      "_nested_name"
                     ]
                   }
                 },
@@ -103,7 +92,7 @@
                     "color: white"
                   ],
                   "name": "text_2",
-                  "_nested_name": "carousel_3.items_1.display_group_1_@item.id.text_2",
+                  "_nested_name": "carousel_3.items_1.display_group_1.text_2",
                   "_dynamicFields": {
                     "value": [
                       {
@@ -112,28 +101,17 @@
                         "type": "item",
                         "fieldName": "description"
                       }
-                    ],
-                    "_nested_name": [
-                      {
-                        "fullExpression": "carousel_3.items_1.display_group_1_@item.id.text_2",
-                        "matchedExpression": "@item.id.text_2",
-                        "type": "item",
-                        "fieldName": "id"
-                      }
                     ]
                   },
                   "_dynamicDependencies": {
                     "@item.description": [
                       "value"
-                    ],
-                    "@item.id.text_2": [
-                      "_nested_name"
                     ]
                   }
                 }
               ],
-              "name": "display_group_1_@item.id",
-              "_nested_name": "carousel_3.items_1.display_group_1_@item.id",
+              "name": "display_group_1",
+              "_nested_name": "carousel_3.items_1.display_group_1",
               "_dynamicFields": {
                 "action_list": {
                   "0": {
@@ -164,31 +142,13 @@
                       }
                     ]
                   }
-                },
-                "name": [
-                  {
-                    "fullExpression": "display_group_1_@item.id",
-                    "matchedExpression": "@item.id",
-                    "type": "item",
-                    "fieldName": "id"
-                  }
-                ],
-                "_nested_name": [
-                  {
-                    "fullExpression": "carousel_3.items_1.display_group_1_@item.id",
-                    "matchedExpression": "@item.id",
-                    "type": "item",
-                    "fieldName": "id"
-                  }
-                ]
+                }
               },
               "_dynamicDependencies": {
                 "@item.id": [
                   "action_list.0.args.0",
                   "action_list.0._raw",
-                  "action_list.0._cleaned",
-                  "name",
-                  "_nested_name"
+                  "action_list.0._cleaned"
                 ]
               }
             }
