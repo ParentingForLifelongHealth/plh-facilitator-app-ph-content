@@ -716,12 +716,12 @@
     "size_kb": 0.8
   },
   "images/progress_complete.png": {
-    "md5Checksum": "854d54d8d7896c1aa30112043fec00cf",
-    "size_kb": 0.7
+    "md5Checksum": "7513f7d08c0560530be492d87c008d46",
+    "size_kb": 0.9
   },
   "images/progress_uncomplete.png": {
-    "md5Checksum": "f6d59cdb4f3ae0b9e349d31decb8dc65",
-    "size_kb": 0.3
+    "md5Checksum": "9e63470aa7b74b9f0e59a935016ed1f5",
+    "size_kb": 0.9
   },
   "lottie/checkmark_blue.json": {
     "md5Checksum": "8a2142347e0031620e14807839f439d5",

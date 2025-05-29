@@ -94,6 +94,9 @@
             }
           ],
           "condition": "@fields._platform === \"ios\"",
+          "style_list": [
+            "max-width: max-content"
+          ],
           "_nested_name": "login.button_apple_sign_in",
           "_dynamicFields": {
             "value": [
@@ -139,6 +142,9 @@
               "_raw": "click | emit: force_reprocess",
               "_cleaned": "click | emit: force_reprocess"
             }
+          ],
+          "style_list": [
+            "max-width: max-content"
           ],
           "_nested_name": "login.button_google_sign_in",
           "_dynamicFields": {
@@ -251,6 +257,53 @@
             }
           ],
           "_nested_name": "logged_in.dg_column"
+        },
+        {
+          "type": "button",
+          "name": "button_sign_out",
+          "value": "<u>@global.logout</u>",
+          "_translations": {
+            "value": {}
+          },
+          "action_list": [
+            {
+              "trigger": "click",
+              "action_id": "emit",
+              "args": [
+                "server_sync"
+              ],
+              "_raw": "click | emit: server_sync",
+              "_cleaned": "click | emit: server_sync"
+            },
+            {
+              "trigger": "click",
+              "action_id": "reset_app",
+              "args": [],
+              "_raw": "click | reset_app",
+              "_cleaned": "click | reset_app"
+            }
+          ],
+          "exclude_from_translation": true,
+          "parameter_list": {
+            "variant": "card",
+            "style": "no-background"
+          },
+          "_nested_name": "logged_in.button_sign_out",
+          "_dynamicFields": {
+            "value": [
+              {
+                "fullExpression": "<u>@global.logout</u>",
+                "matchedExpression": "@global.logout",
+                "type": "global",
+                "fieldName": "logout"
+              }
+            ]
+          },
+          "_dynamicDependencies": {
+            "@global.logout": [
+              "value"
+            ]
+          }
         }
       ],
       "_nested_name": "logged_in",

@@ -1069,6 +1069,9 @@
                       "_translations": {
                         "value": {}
                       },
+                      "parameter_list": {
+                        "style": "no-padding"
+                      },
                       "condition": "@item.row_index < @local.current_index",
                       "style_list": [
                         "height: 20px",
@@ -1129,9 +1132,16 @@
                       "_translations": {
                         "value": {}
                       },
+                      "parameter_list": {
+                        "style": "no-padding"
+                      },
                       "condition": "@item.row_index >= @local.current_index",
                       "style_list": [
-                        "height: 20px"
+                        "img {\nheight: 20px",
+                        "padding: 0px",
+                        "width: 100%",
+                        "object-fit: fill",
+                        "}"
                       ],
                       "_nested_name": "header.display_group_1.page_tracker.data_items_1.{@item.id}_uncomp_image",
                       "_dynamicFields": {
