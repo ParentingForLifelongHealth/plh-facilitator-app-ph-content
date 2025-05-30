@@ -373,7 +373,6 @@
       "parameter_list": {
         "style": "emphasised"
       },
-      "condition": false,
       "exclude_from_translation": true,
       "_nested_name": "choose_province",
       "_dynamicFields": {
@@ -393,8 +392,143 @@
       }
     },
     {
+      "name": "province_disabled_text",
+      "value": "@global.no_region",
+      "_translations": {
+        "value": {}
+      },
+      "type": "set_variable",
+      "_nested_name": "province_disabled_text",
+      "_dynamicFields": {
+        "value": [
+          {
+            "fullExpression": "@global.no_region",
+            "matchedExpression": "@global.no_region",
+            "type": "global",
+            "fieldName": "no_region"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@global.no_region": [
+          "value"
+        ]
+      }
+    },
+    {
+      "name": "province_count",
+      "type": "set_variable",
+      "_nested_name": "province_count"
+    },
+    {
+      "type": "data_items",
+      "name": "count_provinces_in_region",
+      "value": "@data.user_province",
+      "_translations": {
+        "value": {}
+      },
+      "action_list": [
+        {
+          "trigger": "data_changed",
+          "action_id": "set_local",
+          "args": [
+            "province_count",
+            "@items.length"
+          ],
+          "_raw": "data_changed | set_local : province_count : @items.length",
+          "_cleaned": "data_changed | set_local : province_count : @items.length"
+        }
+      ],
+      "parameter_list": {
+        "filter": "@item.region_id == @local.user_region_select",
+        "limit": "1"
+      },
+      "_nested_name": "count_provinces_in_region",
+      "_dynamicFields": {
+        "value": [
+          {
+            "fullExpression": "@data.user_province",
+            "matchedExpression": "@data.user_province",
+            "type": "data",
+            "fieldName": "user_province"
+          }
+        ],
+        "parameter_list": {
+          "filter": [
+            {
+              "fullExpression": "@item.region_id == @local.user_region_select",
+              "matchedExpression": "@item.region_id",
+              "type": "item",
+              "fieldName": "region_id"
+            },
+            {
+              "fullExpression": "@item.region_id == @local.user_region_select",
+              "matchedExpression": "@local.user_region_select",
+              "type": "local",
+              "fieldName": "user_region_select"
+            }
+          ]
+        }
+      },
+      "_dynamicDependencies": {
+        "@data.user_province": [
+          "value"
+        ],
+        "@item.region_id": [
+          "parameter_list.filter"
+        ],
+        "@local.user_region_select": [
+          "parameter_list.filter"
+        ]
+      }
+    },
+    {
+      "name": "province_disabled_text",
+      "value": "@global.region_without_province",
+      "_translations": {
+        "value": {}
+      },
+      "condition": "@local.province_count === 0 && !!@local.user_region_select",
+      "type": "set_variable",
+      "_nested_name": "province_disabled_text",
+      "_dynamicFields": {
+        "value": [
+          {
+            "fullExpression": "@global.region_without_province",
+            "matchedExpression": "@global.region_without_province",
+            "type": "global",
+            "fieldName": "region_without_province"
+          }
+        ],
+        "condition": [
+          {
+            "fullExpression": "@local.province_count === 0 && !!@local.user_region_select",
+            "matchedExpression": "@local.province_count",
+            "type": "local",
+            "fieldName": "province_count"
+          },
+          {
+            "fullExpression": "@local.province_count === 0 && !!@local.user_region_select",
+            "matchedExpression": "!@local.user_region_select",
+            "type": "local",
+            "fieldName": "user_region_select"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@global.region_without_province": [
+          "value"
+        ],
+        "@local.province_count": [
+          "condition"
+        ],
+        "!@local.user_region_select": [
+          "condition"
+        ]
+      }
+    },
+    {
       "name": "user_province_select",
-      "condition": false,
       "exclude_from_translation": true,
       "type": "set_variable",
       "_nested_name": "user_province_select"
@@ -405,10 +539,9 @@
       "value": "@fields.user_province",
       "parameter_list": {
         "placeholder": "@global.select_response",
-        "disabled_text": "@global.no_region",
+        "disabled_text": "@local.province_disabled_text",
         "variant": "dropdown"
       },
-      "condition": false,
       "exclude_from_translation": true,
       "rows": [
         {
@@ -417,7 +550,6 @@
           "parameter_list": {
             "filter": "@item.region_id == @local.user_region_select"
           },
-          "condition": false,
           "exclude_from_translation": true,
           "rows": [],
           "name": "data_items_1",
@@ -471,10 +603,10 @@
           ],
           "disabled_text": [
             {
-              "fullExpression": "@global.no_region",
-              "matchedExpression": "@global.no_region",
-              "type": "global",
-              "fieldName": "no_region"
+              "fullExpression": "@local.province_disabled_text",
+              "matchedExpression": "@local.province_disabled_text",
+              "type": "local",
+              "fieldName": "province_disabled_text"
             }
           ]
         }
@@ -486,7 +618,7 @@
         "@global.select_response": [
           "parameter_list.placeholder"
         ],
-        "@global.no_region": [
+        "@local.province_disabled_text": [
           "parameter_list.disabled_text"
         ]
       }
@@ -501,7 +633,6 @@
       "parameter_list": {
         "style": "emphasised"
       },
-      "condition": false,
       "exclude_from_translation": true,
       "_nested_name": "choose_city",
       "_dynamicFields": {
@@ -521,8 +652,143 @@
       }
     },
     {
+      "name": "city_disabled_text",
+      "value": "@global.no_province",
+      "_translations": {
+        "value": {}
+      },
+      "type": "set_variable",
+      "_nested_name": "city_disabled_text",
+      "_dynamicFields": {
+        "value": [
+          {
+            "fullExpression": "@global.no_province",
+            "matchedExpression": "@global.no_province",
+            "type": "global",
+            "fieldName": "no_province"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@global.no_province": [
+          "value"
+        ]
+      }
+    },
+    {
+      "name": "city_count",
+      "type": "set_variable",
+      "_nested_name": "city_count"
+    },
+    {
+      "type": "data_items",
+      "name": "count_cities_in_province",
+      "value": "@data.user_city",
+      "_translations": {
+        "value": {}
+      },
+      "action_list": [
+        {
+          "trigger": "data_changed",
+          "action_id": "set_local",
+          "args": [
+            "city_count",
+            "@items.length"
+          ],
+          "_raw": "data_changed | set_local : city_count : @items.length",
+          "_cleaned": "data_changed | set_local : city_count : @items.length"
+        }
+      ],
+      "parameter_list": {
+        "filter": "@item.province_id == @local.user_province_select",
+        "limit": "1"
+      },
+      "_nested_name": "count_cities_in_province",
+      "_dynamicFields": {
+        "value": [
+          {
+            "fullExpression": "@data.user_city",
+            "matchedExpression": "@data.user_city",
+            "type": "data",
+            "fieldName": "user_city"
+          }
+        ],
+        "parameter_list": {
+          "filter": [
+            {
+              "fullExpression": "@item.province_id == @local.user_province_select",
+              "matchedExpression": "@item.province_id",
+              "type": "item",
+              "fieldName": "province_id"
+            },
+            {
+              "fullExpression": "@item.province_id == @local.user_province_select",
+              "matchedExpression": "@local.user_province_select",
+              "type": "local",
+              "fieldName": "user_province_select"
+            }
+          ]
+        }
+      },
+      "_dynamicDependencies": {
+        "@data.user_city": [
+          "value"
+        ],
+        "@item.province_id": [
+          "parameter_list.filter"
+        ],
+        "@local.user_province_select": [
+          "parameter_list.filter"
+        ]
+      }
+    },
+    {
+      "name": "city_disabled_text",
+      "value": "@global.province_without_city",
+      "_translations": {
+        "value": {}
+      },
+      "condition": "@local.city_count === 0 && !!@local.user_province_select",
+      "type": "set_variable",
+      "_nested_name": "city_disabled_text",
+      "_dynamicFields": {
+        "value": [
+          {
+            "fullExpression": "@global.province_without_city",
+            "matchedExpression": "@global.province_without_city",
+            "type": "global",
+            "fieldName": "province_without_city"
+          }
+        ],
+        "condition": [
+          {
+            "fullExpression": "@local.city_count === 0 && !!@local.user_province_select",
+            "matchedExpression": "@local.city_count",
+            "type": "local",
+            "fieldName": "city_count"
+          },
+          {
+            "fullExpression": "@local.city_count === 0 && !!@local.user_province_select",
+            "matchedExpression": "!@local.user_province_select",
+            "type": "local",
+            "fieldName": "user_province_select"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@global.province_without_city": [
+          "value"
+        ],
+        "@local.city_count": [
+          "condition"
+        ],
+        "!@local.user_province_select": [
+          "condition"
+        ]
+      }
+    },
+    {
       "name": "user_city_select",
-      "condition": false,
       "exclude_from_translation": true,
       "type": "set_variable",
       "_nested_name": "user_city_select"
@@ -533,10 +799,9 @@
       "value": "@fields.user_city",
       "parameter_list": {
         "placeholder": "@global.select_response",
-        "disabled_text": "@global.no_province",
+        "disabled_text": "@local.city_disabled_text",
         "variant": "dropdown"
       },
-      "condition": false,
       "exclude_from_translation": true,
       "rows": [
         {
@@ -545,7 +810,6 @@
           "parameter_list": {
             "filter": "@item.province_id == @local.user_province_select"
           },
-          "condition": false,
           "exclude_from_translation": true,
           "rows": [],
           "name": "data_items_1",
@@ -599,10 +863,10 @@
           ],
           "disabled_text": [
             {
-              "fullExpression": "@global.no_province",
-              "matchedExpression": "@global.no_province",
-              "type": "global",
-              "fieldName": "no_province"
+              "fullExpression": "@local.city_disabled_text",
+              "matchedExpression": "@local.city_disabled_text",
+              "type": "local",
+              "fieldName": "city_disabled_text"
             }
           ]
         }
@@ -614,22 +878,10 @@
         "@global.select_response": [
           "parameter_list.placeholder"
         ],
-        "@global.no_province": [
+        "@local.city_disabled_text": [
           "parameter_list.disabled_text"
         ]
       }
-    },
-    {
-      "exclude_from_translation": true,
-      "type": "set_variable",
-      "name": "set_variable_24",
-      "_nested_name": "set_variable_24"
-    },
-    {
-      "exclude_from_translation": true,
-      "type": "set_variable",
-      "name": "set_variable_25",
-      "_nested_name": "set_variable_25"
     },
     {
       "type": "display_group",

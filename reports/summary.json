@@ -19,7 +19,7 @@
       },
       {
         "type": "button",
-        "count": 91
+        "count": 92
       },
       {
         "type": "carousel",
@@ -31,7 +31,7 @@
       },
       {
         "type": "data_items",
-        "count": 53
+        "count": 57
       },
       {
         "type": "date_time_picker",
@@ -47,7 +47,7 @@
       },
       {
         "type": "display_group",
-        "count": 137
+        "count": 138
       },
       {
         "type": "drawer",
@@ -87,7 +87,7 @@
       },
       {
         "type": "round_button",
-        "count": 40
+        "count": 43
       },
       {
         "type": "select_text",
@@ -95,7 +95,7 @@
       },
       {
         "type": "set_variable",
-        "count": 1069
+        "count": 1081
       },
       {
         "type": "simple_checkbox",
@@ -171,7 +171,7 @@
       },
       {
         "type": "emit: completed",
-        "count": 67
+        "count": 69
       },
       {
         "type": "emit: force_reload",
@@ -195,7 +195,7 @@
       },
       {
         "type": "emit: uncompleted",
-        "count": 84
+        "count": 86
       },
       {
         "type": "feedback",
@@ -243,7 +243,7 @@
       },
       {
         "type": "set_local",
-        "count": 96
+        "count": 100
       },
       {
         "type": "share",
@@ -474,6 +474,10 @@
       {
         "path": "images/icons/delete_orange.svg",
         "size_kb": 0.8
+      },
+      {
+        "path": "images/icons/eye-outline.svg",
+        "size_kb": 0.5
       },
       {
         "path": "images/icons/globe_blue.svg",
@@ -948,13 +952,8 @@
         "size_kb": 0.9
       },
       {
-        "path": "images/icons/eye-outline.svg",
-        "count": 1,
-        "size_kb": 0.5
-      },
-      {
         "path": "images/icons/eye.svg",
-        "count": 1,
+        "count": 2,
         "size_kb": 1.6
       },
       {

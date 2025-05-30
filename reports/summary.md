@@ -7,14 +7,14 @@
 | accordion_section | 1 |
 | apple_sign_in_button | 3 |
 | audio | 3 |
-| button | 91 |
+| button | 92 |
 | carousel | 2 |
 | combo_box | 16 |
-| data_items | 53 |
+| data_items | 57 |
 | date_time_picker | 4 |
 | debug_toggle | 1 |
 | display_grid | 3 |
-| display_group | 137 |
+| display_group | 138 |
 | drawer | 1 |
 | google_sign_in_button | 4 |
 | image | 20 |
@@ -24,9 +24,9 @@
 | pdf | 1 |
 | qr_code | 1 |
 | radio_button_grid | 16 |
-| round_button | 40 |
+| round_button | 43 |
 | select_text | 1 |
-| set_variable | 1069 |
+| set_variable | 1081 |
 | simple_checkbox | 2 |
 | task_card | 6 |
 | task_progress_bar | 1 |
@@ -51,13 +51,13 @@
 | app_update | 1 |
 | auth | 2 |
 | copy | 2 |
-| emit: completed | 67 |
+| emit: completed | 69 |
 | emit: force_reload | 9 |
 | emit: force_reprocess | 18 |
 | emit: force_restart | 5 |
 | emit: server_sync | 18 |
 | emit: set_language | 1 |
-| emit: uncompleted | 84 |
+| emit: uncompleted | 86 |
 | feedback | 13 |
 | go_to | 36 |
 | nav_stack | 6 |
@@ -69,7 +69,7 @@
 | set_data | 26 |
 | set_field | 88 |
 | set_item | 10 |
-| set_local | 96 |
+| set_local | 100 |
 | share | 4 |
 | user | 4 |
 </details>
@@ -141,6 +141,7 @@ Assets that appear in app-data but do not have references within sheets
 | images/icons/book_white.svg | 1.5 |
 | images/icons/check_circle.svg | 1.2 |
 | images/icons/delete_orange.svg | 0.8 |
+| images/icons/eye-outline.svg | 0.5 |
 | images/icons/globe_blue.svg | 3.9 |
 | images/icons/group_add.svg | 2.2 |
 | images/icons/group_add_dark.svg | 2.3 |
@@ -256,8 +257,7 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | images/icons/download.svg | 0.7 | 2 |
 | images/icons/download_white.svg | 0.7 | 1 |
 | images/icons/edit.svg | 0.9 | 5 |
-| images/icons/eye-outline.svg | 0.5 | 1 |
-| images/icons/eye.svg | 1.6 | 1 |
+| images/icons/eye.svg | 1.6 | 2 |
 | images/icons/feather.svg | 4.6 | 1 |
 | images/icons/help.svg | 2.6 | 1 |
 | images/icons/home_white.svg | 1.7 | 1 |

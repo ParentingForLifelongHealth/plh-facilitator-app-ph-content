@@ -42,7 +42,7 @@
         "placeholder": "@global.select_response",
         "variant": "dropdown"
       },
-      "style_list": true,
+      "exclude_from_translation": true,
       "_nested_name": "user_type_select",
       "_dynamicFields": {
         "value": [
@@ -90,7 +90,7 @@
       "_translations": {
         "value": {}
       },
-      "style_list": true,
+      "exclude_from_translation": true,
       "type": "set_variable",
       "_nested_name": "completed_enabled",
       "_dynamicFields": {
