@@ -10,7 +10,6 @@
       "name": "Module 1 Session",
       "_translations": {
         "name": {
-          "fil_ph": true,
           "ph_fil": true
         }
       },
@@ -26,7 +25,6 @@
       "name": "Module 2 Session",
       "_translations": {
         "name": {
-          "fil_ph": true,
           "ph_fil": true
         }
       },
@@ -42,7 +40,6 @@
       "name": "Module 3 Session",
       "_translations": {
         "name": {
-          "fil_ph": true,
           "ph_fil": true
         }
       },
@@ -58,7 +55,6 @@
       "name": "Module 4 Session",
       "_translations": {
         "name": {
-          "fil_ph": true,
           "ph_fil": true
         }
       },
@@ -74,7 +70,6 @@
       "name": "Module 5 Session",
       "_translations": {
         "name": {
-          "fil_ph": true,
           "ph_fil": true
         }
       },
@@ -90,7 +85,6 @@
       "name": "Module 6 Session",
       "_translations": {
         "name": {
-          "fil_ph": true,
           "ph_fil": true
         }
       },
@@ -106,7 +100,6 @@
       "name": "Module 7 Session",
       "_translations": {
         "name": {
-          "fil_ph": true,
           "ph_fil": true
         }
       },
@@ -122,7 +115,6 @@
       "name": "Module 8 Session",
       "_translations": {
         "name": {
-          "fil_ph": true,
           "ph_fil": true
         }
       },

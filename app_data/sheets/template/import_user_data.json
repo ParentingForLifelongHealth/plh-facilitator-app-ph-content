@@ -9,7 +9,6 @@
       "value": "Import user",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       },
@@ -20,7 +19,6 @@
       "value": "Facilitator ID",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       },
@@ -33,7 +31,6 @@
       "value": "Paste the @local.facilitator_id of a user to import their account data.",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       },
@@ -65,7 +62,6 @@
       "value": "Import data",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       },
@@ -136,7 +132,6 @@
       "value": "Validation",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       },
@@ -148,7 +143,6 @@
       "value": "User name (on the current account)",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       },
@@ -220,7 +214,6 @@
       "value": "Clear user name",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       },
@@ -253,7 +246,6 @@
       "value": "If you had set a user name on your old account and the data was imported succesfully, the user name above should update.",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       },

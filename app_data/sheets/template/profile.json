@@ -102,7 +102,6 @@
       "value": "Settings",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       },
@@ -120,7 +119,6 @@
       "value": "Profile",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       },
@@ -143,7 +141,6 @@
           "value": "Account",
           "_translations": {
             "value": {
-              "fil_ph": true,
               "ph_fil": true
             }
           },
@@ -205,7 +202,6 @@
           "value": "Profile",
           "_translations": {
             "value": {
-              "fil_ph": true,
               "ph_fil": true
             }
           },
@@ -263,7 +259,6 @@
           "value": "Switch language",
           "_translations": {
             "value": {
-              "fil_ph": true,
               "ph_fil": true
             }
           },
@@ -322,7 +317,6 @@
           "value": "Your @global.app_name Code",
           "_translations": {
             "value": {
-              "fil_ph": true,
               "ph_fil": true
             }
           },
@@ -391,7 +385,6 @@
           "value": "Your Content Package",
           "_translations": {
             "value": {
-              "fil_ph": true,
               "ph_fil": true
             }
           },
@@ -453,7 +446,6 @@
       "value": "Parent Actions",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       },
@@ -500,7 +492,6 @@
           "value": "Your Parent Groups",
           "_translations": {
             "value": {
-              "fil_ph": true,
               "ph_fil": true
             }
           },
@@ -597,7 +588,6 @@
       "value": "App Details & Terms",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       },

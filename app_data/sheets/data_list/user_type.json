@@ -10,7 +10,6 @@
       "text": "Facilitator/Co-facilitator",
       "_translations": {
         "text": {
-          "fil_ph": true,
           "ph_fil": true
         }
       },
@@ -26,7 +25,6 @@
       "text": "Coach/Trainer",
       "_translations": {
         "text": {
-          "fil_ph": true,
           "ph_fil": true
         }
       },
@@ -42,7 +40,6 @@
       "text": "Government/NGO Admin",
       "_translations": {
         "text": {
-          "fil_ph": true,
           "ph_fil": true
         }
       },
@@ -58,7 +55,6 @@
       "text": "System tester",
       "_translations": {
         "text": {
-          "fil_ph": true,
           "ph_fil": true
         }
       },
@@ -74,7 +70,6 @@
       "text": "System Tester (Coach)",
       "_translations": {
         "text": {
-          "fil_ph": true,
           "ph_fil": true
         }
       },
@@ -90,7 +85,6 @@
       "text": "None of the above",
       "_translations": {
         "text": {
-          "fil_ph": true,
           "ph_fil": true
         }
       },

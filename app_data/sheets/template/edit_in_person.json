@@ -381,7 +381,6 @@
       "value": "What was your role in the session?",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       },
@@ -392,7 +391,6 @@
       "value": "Lead",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       },
@@ -404,7 +402,6 @@
       "value": "Support",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       },
@@ -519,7 +516,6 @@
               "value": "Date of Session Delivery?",
               "_translations": {
                 "value": {
-                  "fil_ph": true,
                   "ph_fil": true
                 }
               },
@@ -558,7 +554,6 @@
               "value": "How long did the session last?",
               "_translations": {
                 "value": {
-                  "fil_ph": true,
                   "ph_fil": true
                 }
               },
@@ -705,7 +700,6 @@
               "value": "How much time did you spend on preparing for the session?",
               "_translations": {
                 "value": {
-                  "fil_ph": true,
                   "ph_fil": true
                 }
               },
@@ -852,7 +846,6 @@
               "value": "Were you able to complete all the activities?",
               "_translations": {
                 "value": {
-                  "fil_ph": true,
                   "ph_fil": true
                 }
               },
@@ -863,7 +856,6 @@
               "value": "Yes",
               "_translations": {
                 "value": {
-                  "fil_ph": true,
                   "ph_fil": true
                 }
               },
@@ -875,7 +867,6 @@
               "value": "No",
               "_translations": {
                 "value": {
-                  "fil_ph": true,
                   "ph_fil": true
                 }
               },
@@ -976,7 +967,6 @@
               "value": "What activities were you not able to complete? Why?",
               "_translations": {
                 "value": {
-                  "fil_ph": true,
                   "ph_fil": true
                 }
               },
@@ -1066,7 +1056,6 @@
               "value": "How confident are you in the following?",
               "_translations": {
                 "value": {
-                  "fil_ph": true,
                   "ph_fil": true
                 }
               },
@@ -1080,7 +1069,6 @@
               "value": "I have no confidence",
               "_translations": {
                 "value": {
-                  "fil_ph": true,
                   "ph_fil": true
                 }
               },
@@ -1092,7 +1080,6 @@
               "value": "My confidence is low",
               "_translations": {
                 "value": {
-                  "fil_ph": true,
                   "ph_fil": true
                 }
               },
@@ -1104,7 +1091,6 @@
               "value": "My confidence is moderate",
               "_translations": {
                 "value": {
-                  "fil_ph": true,
                   "ph_fil": true
                 }
               },
@@ -1116,7 +1102,6 @@
               "value": "My confidence is high",
               "_translations": {
                 "value": {
-                  "fil_ph": true,
                   "ph_fil": true
                 }
               },
@@ -1128,7 +1113,6 @@
               "value": "My confidence is very high",
               "_translations": {
                 "value": {
-                  "fil_ph": true,
                   "ph_fil": true
                 }
               },
@@ -1239,7 +1223,6 @@
               "value": "On your knowledge about Talking about Feelings",
               "_translations": {
                 "value": {
-                  "fil_ph": true,
                   "ph_fil": true
                 }
               },
@@ -1292,7 +1275,6 @@
               "value": "On your facilitation skills for Talking about Feelings",
               "_translations": {
                 "value": {
-                  "fil_ph": true,
                   "ph_fil": true
                 }
               },
@@ -1345,7 +1327,6 @@
               "value": "Notes for Coaching",
               "_translations": {
                 "value": {
-                  "fil_ph": true,
                   "ph_fil": true
                 }
               },
@@ -1360,7 +1341,6 @@
               "value": "What challenges did you face in delivering the module that you would like to discuss in the coaching session? Be specific.",
               "_translations": {
                 "value": {
-                  "fil_ph": true,
                   "ph_fil": true
                 }
               },
@@ -1396,7 +1376,6 @@
               "value": "What is your goal or what do you want to achieve or learn from the coaching session?",
               "_translations": {
                 "value": {
-                  "fil_ph": true,
                   "ph_fil": true
                 }
               },
@@ -1553,7 +1532,6 @@
               "value": "Which of the parents in this group attended your in-person session?",
               "_translations": {
                 "value": {
-                  "fil_ph": true,
                   "ph_fil": true
                 }
               },
@@ -1806,7 +1784,6 @@
                           "value": "What challenges or successes did the parent experience during with their home activity for @local.module_name ? Were there any concerns?",
                           "_translations": {
                             "value": {
-                              "fil_ph": true,
                               "ph_fil": true
                             }
                           },
@@ -2079,7 +2056,6 @@
           "value": "Save",
           "_translations": {
             "value": {
-              "fil_ph": true,
               "ph_fil": true
             }
           },

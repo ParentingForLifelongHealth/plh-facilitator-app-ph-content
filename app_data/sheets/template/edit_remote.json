@@ -110,7 +110,6 @@
       "value": "How many minutes did you spend facilitating your parent @global.share_medium group over the last week?",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       },
@@ -179,7 +178,6 @@
       "value": "I was able to send...",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       },
@@ -190,7 +188,6 @@
       "value": "All of the messages",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       },
@@ -202,7 +199,6 @@
       "value": "Some of the messages",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       },
@@ -214,7 +210,6 @@
       "value": "None of the messages",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       },
@@ -332,7 +327,6 @@
       "value": "How do you feel the session went?",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       },
@@ -343,7 +337,6 @@
       "value": "Very well",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       },
@@ -355,7 +348,6 @@
       "value": "Well",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       },
@@ -367,7 +359,6 @@
       "value": "Acceptable / Okay",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       },
@@ -379,7 +370,6 @@
       "value": "Poorly",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       },
@@ -391,7 +381,6 @@
       "value": "Very Poorly",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       },
@@ -543,7 +532,6 @@
       "value": "Which of the parents in this group attended your in-person session?",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       },
@@ -806,7 +794,6 @@
           "value": "Save",
           "_translations": {
             "value": {
-              "fil_ph": true,
               "ph_fil": true
             }
           },

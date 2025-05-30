@@ -9,7 +9,6 @@
       "text": "Woman",
       "_translations": {
         "text": {
-          "fil_ph": true,
           "ph_fil": true
         }
       },
@@ -25,7 +24,6 @@
       "text": "Man",
       "_translations": {
         "text": {
-          "fil_ph": true,
           "ph_fil": true
         }
       },
@@ -41,7 +39,6 @@
       "text": "Prefer not to say",
       "_translations": {
         "text": {
-          "fil_ph": true,
           "ph_fil": true
         }
       },
@@ -57,7 +54,6 @@
       "text": "Other",
       "_translations": {
         "text": {
-          "fil_ph": true,
           "ph_fil": true
         }
       },

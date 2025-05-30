@@ -9,7 +9,6 @@
       "value": "@global.app_name has downloaded an update. Please restart the app to finish installation.",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       },
@@ -36,7 +35,6 @@
       "value": "Restart",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       },

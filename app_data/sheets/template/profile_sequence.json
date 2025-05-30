@@ -75,7 +75,6 @@
       "value": "Completed count: @local.completed_count",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       },

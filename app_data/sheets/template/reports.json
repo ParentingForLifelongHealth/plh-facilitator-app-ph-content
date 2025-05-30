@@ -34,7 +34,6 @@
               "value": "Your Reports",
               "_translations": {
                 "value": {
-                  "fil_ph": true,
                   "ph_fil": true
                 }
               },
@@ -51,7 +50,6 @@
               "value": "Parent Group",
               "_translations": {
                 "value": {
-                  "fil_ph": true,
                   "ph_fil": true
                 }
               },

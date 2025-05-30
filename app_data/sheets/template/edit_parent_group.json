@@ -15,7 +15,6 @@
       "value": "Edit Parent Group",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       },
@@ -27,7 +26,6 @@
       "value": "New Parent Group",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       },
@@ -133,7 +131,6 @@
       "value": "Group Name",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       },
@@ -387,7 +384,6 @@
           "value": "Save",
           "_translations": {
             "value": {
-              "fil_ph": true,
               "ph_fil": true
             }
           },

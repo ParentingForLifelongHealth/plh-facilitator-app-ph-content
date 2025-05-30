@@ -44,7 +44,6 @@
       "value": "Are you sure you want to archive @fields.current_group_name?",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       },
@@ -84,7 +83,6 @@
           "value": "Cancel",
           "_translations": {
             "value": {
-              "fil_ph": true,
               "ph_fil": true
             }
           },
@@ -113,7 +111,6 @@
           "value": "Archive",
           "_translations": {
             "value": {
-              "fil_ph": true,
               "ph_fil": true
             }
           },

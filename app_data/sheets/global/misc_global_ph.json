@@ -9,7 +9,6 @@
       "value": "You are signed in.",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       }
@@ -20,7 +19,6 @@
       "value": "It looks like you've logged in on another device before. Would you like to continue from where you left off? \n\nIf you do, any progress made on this device will be lost.",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       }
@@ -31,7 +29,6 @@
       "value": "Load saved progress",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       }
@@ -42,7 +39,6 @@
       "value": "Welcome",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       }
@@ -53,7 +49,6 @@
       "value": "Continue",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       }
@@ -64,7 +59,6 @@
       "value": "Next",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       }
@@ -75,7 +69,6 @@
       "value": "Save",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       }
@@ -86,7 +79,6 @@
       "value": "Choose a language:",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       }
@@ -97,7 +89,6 @@
       "value": "Welcome to @global.app_name",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       }
@@ -108,7 +99,6 @@
       "value": "Login or Sign up",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       }
@@ -119,7 +109,6 @@
       "value": "Continue with Google",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       }
@@ -130,7 +119,6 @@
       "value": "Continue with Apple",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       }
@@ -141,7 +129,6 @@
       "value": "By continuing, you agree to our:",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       }
@@ -152,7 +139,6 @@
       "value": "Welcome back!",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       }
@@ -163,7 +149,6 @@
       "value": "Welcome back, @fields._auth_user_given_name!",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       }
@@ -174,7 +159,6 @@
       "value": "Welcome!",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       }
@@ -185,7 +169,6 @@
       "value": "Welcome, @fields._auth_user_given_name!",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       }
@@ -196,7 +179,6 @@
       "value": "Before we begin, tell us about yourself.",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       }
@@ -207,7 +189,6 @@
       "value": "Choose your role:",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       }
@@ -218,7 +199,6 @@
       "value": "Select a response",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       }
@@ -229,7 +209,6 @@
       "value": "Choose your organisation:",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       }
@@ -240,7 +219,6 @@
       "value": "Choose your region:",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       }
@@ -251,7 +229,6 @@
       "value": "First select your region",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       }
@@ -262,7 +239,6 @@
       "value": "Choose your province:",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       }
@@ -273,7 +249,6 @@
       "value": "First select your province",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       }
@@ -284,7 +259,6 @@
       "value": "Choose your city/municipality:",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       }
@@ -295,7 +269,6 @@
       "value": "You're all set!",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       }
@@ -306,7 +279,6 @@
       "value": "Your profile is complete, and you're ready to begin!",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       }
@@ -317,7 +289,6 @@
       "value": "Sign out",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       }
