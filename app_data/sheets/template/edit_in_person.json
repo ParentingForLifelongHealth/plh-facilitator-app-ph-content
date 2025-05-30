@@ -269,6 +269,7 @@
       "_translations": {
         "value": {}
       },
+      "exclude_from_translation": true,
       "name": "text_19",
       "_nested_name": "text_19",
       "_dynamicFields": {
@@ -293,6 +294,7 @@
       "_translations": {
         "value": {}
       },
+      "exclude_from_translation": true,
       "name": "text_20",
       "_nested_name": "text_20",
       "_dynamicFields": {
@@ -610,6 +612,7 @@
               "_translations": {
                 "value": {}
               },
+              "exclude_from_translation": true,
               "type": "set_variable",
               "_nested_name": "display_group_27.display_group_1.answer3_valid",
               "_dynamicFields": {
@@ -756,6 +759,7 @@
               "_translations": {
                 "value": {}
               },
+              "exclude_from_translation": true,
               "type": "set_variable",
               "_nested_name": "display_group_27.display_group_1.answer4_valid",
               "_dynamicFields": {
@@ -1842,6 +1846,7 @@
                               }
                             }
                           ],
+                          "exclude_from_translation": true,
                           "name": "text_box_2",
                           "_nested_name": "display_group_27.display_group_2.data_items_21.display_group_1.display_group_2.text_box_2",
                           "_dynamicFields": {
@@ -2031,6 +2036,7 @@
       "_translations": {
         "value": {}
       },
+      "exclude_from_translation": true,
       "type": "set_variable",
       "_nested_name": "valid",
       "_dynamicFields": {

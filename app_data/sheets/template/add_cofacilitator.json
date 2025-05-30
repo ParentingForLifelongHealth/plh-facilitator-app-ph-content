@@ -318,6 +318,7 @@
       "_translations": {
         "value": {}
       },
+      "exclude_from_translation": true,
       "type": "set_variable",
       "_nested_name": "co_facilitator_name_valid",
       "_dynamicFields": {
@@ -381,6 +382,7 @@
       "_translations": {
         "value": {}
       },
+      "exclude_from_translation": true,
       "type": "set_variable",
       "_nested_name": "valid",
       "_dynamicFields": {
