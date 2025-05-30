@@ -11,11 +11,9 @@
       "title": "About you",
       "_translations": {
         "title": {
-          "fil_ph": true,
           "ph_fil": true
         },
         "description": {
-          "fil_ph": true,
           "ph_fil": true
         }
       },
@@ -36,11 +34,9 @@
       "title": "Your @global.app_name Code",
       "_translations": {
         "title": {
-          "fil_ph": true,
           "ph_fil": true
         },
         "description": {
-          "fil_ph": true,
           "ph_fil": true
         }
       },
@@ -61,11 +57,9 @@
       "title": "Your Parent Group",
       "_translations": {
         "title": {
-          "fil_ph": true,
           "ph_fil": true
         },
         "description": {
-          "fil_ph": true,
           "ph_fil": true
         }
       },
@@ -86,11 +80,9 @@
       "title": "Your Parent Groups",
       "_translations": {
         "title": {
-          "fil_ph": true,
           "ph_fil": true
         },
         "description": {
-          "fil_ph": true,
           "ph_fil": true
         }
       },

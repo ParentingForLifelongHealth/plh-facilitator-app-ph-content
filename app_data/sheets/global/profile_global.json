@@ -9,7 +9,6 @@
       "value": "Parent's First Name",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       }
@@ -20,7 +19,6 @@
       "value": "Parent's Last Name",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       }
@@ -31,7 +29,6 @@
       "value": "Contact Number",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       }
@@ -42,7 +39,6 @@
       "value": "Parent's Age",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       }
@@ -53,7 +49,6 @@
       "value": "Parent's Sex",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       }
@@ -64,7 +59,6 @@
       "value": "About the child",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       }
@@ -75,7 +69,6 @@
       "value": "Child's Name",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       }
@@ -86,7 +79,6 @@
       "value": "Child's Age",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       }
@@ -97,7 +89,6 @@
       "value": "Child's Sex",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       }
@@ -108,7 +99,6 @@
       "value": "What is the parent's relationship with the child?",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       }
@@ -119,7 +109,6 @@
       "value": "About the family",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       }
@@ -130,7 +119,6 @@
       "value": "How many family members are there (including the program participant)?",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       }
@@ -141,7 +129,6 @@
       "value": "Who else is taking care of the child?",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       }
@@ -152,7 +139,6 @@
       "value": "Parents goal",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       }
@@ -163,7 +149,6 @@
       "value": "Other notes",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       }
@@ -174,7 +159,6 @@
       "value": "Date of Consultation",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       }
@@ -185,7 +169,6 @@
       "value": "Enter parent's first name",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       }
@@ -196,7 +179,6 @@
       "value": "Enter parent's last name",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       }
@@ -207,7 +189,6 @@
       "value": "Enter parent's contact number",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       }
@@ -218,7 +199,6 @@
       "value": "Enter parent's age",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       }
@@ -229,7 +209,6 @@
       "value": "Enter parent's sex",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       }
@@ -240,7 +219,6 @@
       "value": "Enter child's name",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       }
@@ -251,7 +229,6 @@
       "value": "Enter child's age",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       }
@@ -262,7 +239,6 @@
       "value": "Enter child's sex",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       }
@@ -273,7 +249,6 @@
       "value": "e.g., Mother, Grandfather",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       }
@@ -284,7 +259,6 @@
       "value": "e.g., 5",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       }
@@ -295,7 +269,6 @@
       "value": "e.g., Aunt, Grandparent",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       }
@@ -306,7 +279,6 @@
       "value": "Enter parent's goal",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       }
@@ -317,7 +289,6 @@
       "value": "Enter other notes",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       }
@@ -328,7 +299,6 @@
       "value": "Enter date of consultation",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       }
@@ -339,7 +309,6 @@
       "value": "Please enter a valid name using only letters. It must be at least 2 characters long.",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       }
@@ -350,7 +319,6 @@
       "value": "Please enter a valid name using only letters. It must be at least 2 characters long.",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       }
@@ -361,7 +329,6 @@
       "value": "Please enter a valid phone number starting with + followed by the country code.",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       }
@@ -372,7 +339,6 @@
       "value": "Please enter a valid age between 16 and 99.",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       }
@@ -383,7 +349,6 @@
       "value": "Please select a gender",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       }
@@ -394,7 +359,6 @@
       "value": "Please enter a valid name using only letters. It must be at least 2 characters long.",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       }
@@ -405,7 +369,6 @@
       "value": "Please enter an age between 2 and 17.",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       }
@@ -416,7 +379,6 @@
       "value": "Please select a gender",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       }
@@ -427,7 +389,6 @@
       "value": "Please provide a valid response using only letters.",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       }
@@ -438,7 +399,6 @@
       "value": "Please enter a valid number to indicate the total family members (including the program participant).",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       }
@@ -449,7 +409,6 @@
       "value": "Please enter a valid response using only letters, spaces, commas, or hyphens (e.g., ‘Grandmother, Aunt’ or ‘Daycare Provider’).",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       }
@@ -460,7 +419,6 @@
       "value": "Please enter a specific and realistic goal.",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       }
@@ -471,7 +429,6 @@
       "value": "Please enter a date.",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       }
@@ -482,7 +439,6 @@
       "value": "Send this message to the Facilitator who runs the group",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       }
@@ -493,7 +449,6 @@
       "value": "Hello, \nPlease add me as a co-facilitator!\nHere's how:\n1. Open the Facilitator App.\n2. Click on 'Your Parent Groups'\n3. Select EDIT on the Group.\n4. Click 'Add Co-Facilitator'\n5. Enter this ID:",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       }
@@ -504,7 +459,6 @@
       "value": "Excited to be on board!",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       }
@@ -515,7 +469,6 @@
       "value": "About parent",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       }
@@ -526,7 +479,6 @@
       "value": "Add Co-Facilitator",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       }
@@ -569,7 +521,6 @@
       "value": "Add Co-Facilitator",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       }

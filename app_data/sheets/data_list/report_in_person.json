@@ -10,7 +10,6 @@
       "text": "Welcome",
       "_translations": {
         "text": {
-          "fil_ph": true,
           "ph_fil": true
         }
       },
@@ -26,7 +25,6 @@
       "text": "Getting to know each other",
       "_translations": {
         "text": {
-          "fil_ph": true,
           "ph_fil": true
         }
       },
@@ -42,7 +40,6 @@
       "text": "Overview of the programme",
       "_translations": {
         "text": {
-          "fil_ph": true,
           "ph_fil": true
         }
       },
@@ -58,7 +55,6 @@
       "text": "Getting Started with the chatbot",
       "_translations": {
         "text": {
-          "fil_ph": true,
           "ph_fil": true
         }
       },
@@ -74,7 +70,6 @@
       "text": "Introduction to Phone Use",
       "_translations": {
         "text": {
-          "fil_ph": true,
           "ph_fil": true
         }
       },
@@ -90,7 +85,6 @@
       "text": "Chatbot onboarding",
       "_translations": {
         "text": {
-          "fil_ph": true,
           "ph_fil": true
         }
       },
@@ -106,7 +100,6 @@
       "text": "Resolving Challenges with the chatbot",
       "_translations": {
         "text": {
-          "fil_ph": true,
           "ph_fil": true
         }
       },
@@ -122,7 +115,6 @@
       "text": "Moving forward",
       "_translations": {
         "text": {
-          "fil_ph": true,
           "ph_fil": true
         }
       },
@@ -138,7 +130,6 @@
       "text": "Setting up Ground Rules",
       "_translations": {
         "text": {
-          "fil_ph": true,
           "ph_fil": true
         }
       },
@@ -154,7 +145,6 @@
       "text": "Facilitator’s Role",
       "_translations": {
         "text": {
-          "fil_ph": true,
           "ph_fil": true
         }
       },
@@ -170,7 +160,6 @@
       "text": "Questions",
       "_translations": {
         "text": {
-          "fil_ph": true,
           "ph_fil": true
         }
       },
@@ -199,7 +188,6 @@
       "text": "Closing Activity",
       "_translations": {
         "text": {
-          "fil_ph": true,
           "ph_fil": true
         }
       },

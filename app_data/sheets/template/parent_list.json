@@ -12,7 +12,6 @@
           "value": "Add Parent to Group",
           "_translations": {
             "value": {
-              "fil_ph": true,
               "ph_fil": true
             }
           },
@@ -466,7 +465,6 @@
                   "value": "Co-parent: @item.co_parent_name",
                   "_translations": {
                     "value": {
-                      "fil_ph": true,
                       "ph_fil": true
                     }
                   },

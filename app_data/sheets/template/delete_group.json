@@ -44,7 +44,6 @@
       "value": "Are you sure you want to delete @fields.current_group_name?",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       },
@@ -71,7 +70,6 @@
       "value": "This will delete all of @fields.current_group_name group data. The action cannot be undone.",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       },
@@ -102,7 +100,6 @@
           "value": "Cancel",
           "_translations": {
             "value": {
-              "fil_ph": true,
               "ph_fil": true
             }
           },
@@ -131,7 +128,6 @@
           "value": "Delete",
           "_translations": {
             "value": {
-              "fil_ph": true,
               "ph_fil": true
             }
           },

@@ -9,7 +9,6 @@
       "question": "How many minutes did it take you to prepare for this session?",
       "_translations": {
         "question": {
-          "fil_ph": true,
           "ph_fil": true
         }
       },
@@ -25,7 +24,6 @@
       "question": "How many minutes did it take you to travel to the location where the session was delivered?",
       "_translations": {
         "question": {
-          "fil_ph": true,
           "ph_fil": true
         }
       },
@@ -41,7 +39,6 @@
       "question": "How many minutes did it take you to deliver the sessions?",
       "_translations": {
         "question": {
-          "fil_ph": true,
           "ph_fil": true
         }
       },
@@ -57,7 +54,6 @@
       "question": "Which of the parents in this group attended your in-person session?",
       "_translations": {
         "question": {
-          "fil_ph": true,
           "ph_fil": true
         }
       },

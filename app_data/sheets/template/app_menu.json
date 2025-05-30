@@ -22,7 +22,6 @@
           "value": "Templates",
           "_translations": {
             "value": {
-              "fil_ph": true,
               "ph_fil": true
             }
           },
@@ -45,7 +44,6 @@
           "value": "Dynamic data",
           "_translations": {
             "value": {
-              "fil_ph": true,
               "ph_fil": true
             }
           },
@@ -68,7 +66,6 @@
           "value": "Reset app",
           "_translations": {
             "value": {
-              "fil_ph": true,
               "ph_fil": true
             }
           },
@@ -89,7 +86,6 @@
           "value": "Open feedback",
           "_translations": {
             "value": {
-              "fil_ph": true,
               "ph_fil": true
             }
           },
@@ -137,7 +133,6 @@
           "value": "Close feedback",
           "_translations": {
             "value": {
-              "fil_ph": true,
               "ph_fil": true
             }
           },
@@ -185,7 +180,6 @@
           "value": "Import user",
           "_translations": {
             "value": {
-              "fil_ph": true,
               "ph_fil": true
             }
           },
@@ -208,7 +202,6 @@
           "value": "Themes",
           "_translations": {
             "value": {
-              "fil_ph": true,
               "ph_fil": true
             }
           },
@@ -249,7 +242,6 @@
       "value": "Developer mode",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       },
@@ -288,7 +280,6 @@
       "value": "Exit developer mode",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       },

@@ -29,7 +29,6 @@
       "value": "Viber",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       },
@@ -41,7 +40,6 @@
       "value": "Viber",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       }
@@ -93,7 +91,6 @@
       "value": "14 December 2023",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       }
@@ -104,7 +101,6 @@
       "value": "Parent Group",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       }
@@ -115,7 +111,6 @@
       "value": "Select Parent Group",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       }
@@ -126,7 +121,6 @@
       "value": "No Parent Groups",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       }
@@ -137,7 +131,6 @@
       "value": "Chat Sessions will load after you select a parent group",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       }
@@ -148,7 +141,6 @@
       "value": "Parent's first name",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       }
@@ -159,7 +151,6 @@
       "value": "Parent's last name",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       }
@@ -170,7 +161,6 @@
       "value": "Parent Text ID",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       }
@@ -195,7 +185,6 @@
       "value": "minutes",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       }
@@ -215,7 +204,6 @@
       "value": "Your Active Groups",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       }
@@ -226,7 +214,6 @@
       "value": "Your Archived Groups",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       }
@@ -237,7 +224,6 @@
       "value": "You successfully completed this session!",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       }
@@ -248,7 +234,6 @@
       "value": "You successfully completed the report for this session!",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       }
@@ -259,7 +244,6 @@
       "value": "Review Report",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       }
@@ -278,7 +262,6 @@
       "value": "Frequently Asked Questions",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       }
@@ -289,7 +272,6 @@
       "value": "Language",
       "_translations": {
         "value": {
-          "fil_ph": true,
           "ph_fil": true
         }
       }

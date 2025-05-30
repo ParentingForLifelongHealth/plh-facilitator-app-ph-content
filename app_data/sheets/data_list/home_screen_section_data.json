@@ -10,7 +10,6 @@
       "title": "Tungkol sa MaPaChat Hybrid Program",
       "_translations": {
         "title": {
-          "fil_ph": true,
           "ph_fil": true
         }
       },
@@ -26,7 +25,6 @@
       "title": "Gabay Para sa Facilitator",
       "_translations": {
         "title": {
-          "fil_ph": true,
           "ph_fil": true
         }
       },
@@ -42,7 +40,6 @@
       "title": "Mga Madalas Itanong",
       "_translations": {
         "title": {
-          "fil_ph": true,
           "ph_fil": true
         }
       },
@@ -58,7 +55,6 @@
       "title": "Pag-Iingat, Pagka-Kumpidensyal, at Pagbubunyag",
       "_translations": {
         "title": {
-          "fil_ph": true,
           "ph_fil": true
         }
       },

@@ -441,9 +441,7 @@
       "type": "button",
       "value": "Add co-facilitator",
       "_translations": {
-        "value": {
-          "fil_ph": true
-        }
+        "value": {}
       },
       "action_list": [
         {
