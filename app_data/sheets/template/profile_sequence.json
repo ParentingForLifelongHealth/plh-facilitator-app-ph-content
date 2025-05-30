@@ -80,6 +80,7 @@
         }
       },
       "condition": false,
+      "exclude_from_translation": true,
       "_nested_name": "debug_completed_count",
       "_dynamicFields": {
         "value": [
@@ -414,6 +415,7 @@
               "_translations": {
                 "value": {}
               },
+              "exclude_from_translation": true,
               "_nested_name": "await_data_loop_evaluation.page_finished.lottie"
             },
             {
