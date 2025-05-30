@@ -442,8 +442,7 @@
       "value": "Add co-facilitator",
       "_translations": {
         "value": {
-          "fil_ph": true,
-          "ph_fil": true
+          "fil_ph": true
         }
       },
       "action_list": [

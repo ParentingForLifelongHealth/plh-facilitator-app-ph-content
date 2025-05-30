@@ -32,7 +32,7 @@
 | task_progress_bar | 1 |
 | template | 369 |
 | test | 1 |
-| text | 284 |
+| text | 285 |
 | text_area | 2 |
 | text_box | 46 |
 | title | 45 |

@@ -1,157 +1,25 @@
 [
   {
-    "SourceText": "Tungkol sa MaPaChat Hybrid Program",
-    "text": "Tungkol sa MaPaChat Hybrid Program",
+    "SourceText": "Sessions",
+    "text": "Mga Sesyon",
     "type": "data_list",
     "note": ""
   },
   {
-    "SourceText": "Gabay Para sa Facilitator",
-    "text": "Gabay Para sa Facilitator",
+    "SourceText": "Report",
+    "text": "Report",
     "type": "data_list",
     "note": ""
   },
   {
-    "SourceText": "Mga Madalas Itanong",
-    "text": "Mga Madalas Itanong",
+    "SourceText": "Library",
+    "text": "Library",
     "type": "data_list",
     "note": ""
   },
   {
-    "SourceText": "Pag-Iingat, Pagka-Kumpidensyal, at Pagbubunyag",
-    "text": "Pag-Iingat, Pagka-Kumpidensyal, at Pagbubunyag",
-    "type": "data_list",
-    "note": ""
-  },
-  {
-    "SourceText": "@global.app_name is an app designed by IDEMS International, Parenting for Lifelong Health, and Masayang Pamilya Organization, Inc. to support the delivery of MaPaChat in Philippines The content herein is available under an open source Creative Commons International 4.0 license. It was developed in collaboration with key partners:",
-    "text": "@global.app_name is an app designed by IDEMS International, Parenting for Lifelong Health, and Masayang Pamilya Organization, Inc. to support the delivery of MaPaChat in Philippines The content herein is available under an open source Creative Commons International 4.0 license. It was developed in collaboration with key partners:",
-    "type": "data_list",
-    "note": "The string @global.app_name should not be translated."
-  },
-  {
-    "SourceText": "Partners",
-    "text": "Partners",
-    "type": "data_list",
-    "note": ""
-  },
-  {
-    "SourceText": "How many minutes did it take you to prepare for this session?",
-    "text": "Ilang minuto ang iyong nilaan sa paghahanda para sa sesyon na ito?",
-    "type": "data_list",
-    "note": ""
-  },
-  {
-    "SourceText": "How many minutes did it take you to travel to the location where the session was delivered?",
-    "text": "Ilang minuto ang byahe mo papunta sa lugar ng sesyon?",
-    "type": "data_list",
-    "note": ""
-  },
-  {
-    "SourceText": "How many minutes did it take you to deliver the sessions?",
-    "text": "Ilang minuto ang itinagal ng sesyon?",
-    "type": "data_list",
-    "note": ""
-  },
-  {
-    "SourceText": "Which of the parents in this group attended your in-person session?",
-    "text": "Sino sa mga magulang sa grupong ito ang dumalo sa in-person sesyon?",
-    "type": "data_list",
-    "note": ""
-  },
-  {
-    "SourceText": "About you",
-    "text": "About you",
-    "type": "data_list",
-    "note": ""
-  },
-  {
-    "SourceText": "We will use this to personalise the messages for sharing with your @global.share_groups.",
-    "text": "Gagamitin namin ito para i-personalize ang mga mensahe para sa iyong @global.share_groups.",
-    "type": "data_list",
-    "note": "The string @global.share_groups. should not be translated."
-  },
-  {
-    "SourceText": "Your @global.app_name Code",
-    "text": "Ang Iyong @global.app_name Code",
-    "type": "data_list",
-    "note": "The string @global.app_name should not be translated."
-  },
-  {
-    "SourceText": "Here you can find your unique code. You may be asked to share this code with people who will support your @global.app_name journey.",
-    "text": "Makikit mo rito ang iyong unique code. Maaaring hingiin ito sayo ng mga taong sumusuporta sa iyong @global.app_name journey.",
-    "type": "data_list",
-    "note": "The string @global.app_name should not be translated."
-  },
-  {
-    "SourceText": "Your Parent Group",
-    "text": "Ang Iyong Parent Group",
-    "type": "data_list",
-    "note": ""
-  },
-  {
-    "SourceText": "See and edit the list of parents attending your groups.",
-    "text": "Tignan at i-edit ang listahan ng parent participants na kasama sa iyong grupo.",
-    "type": "data_list",
-    "note": ""
-  },
-  {
-    "SourceText": "Your Parent Groups",
-    "text": "Ang Iyong Mga Parent Groups",
-    "type": "data_list",
-    "note": ""
-  },
-  {
-    "SourceText": "See and edit the lists of parents attending your groups.",
-    "text": "Tignan at i-edit ang listahan ng parent participants na kasama sa iyong grupo.",
-    "type": "data_list",
-    "note": ""
-  },
-  {
-    "SourceText": "Module 1 Session",
-    "text": "Modyul 1 Sesyon",
-    "type": "data_list",
-    "note": ""
-  },
-  {
-    "SourceText": "Module 2 Session",
-    "text": "Modyul 2 Sesyon",
-    "type": "data_list",
-    "note": ""
-  },
-  {
-    "SourceText": "Module 3 Session",
-    "text": "Modyul 3 Sesyon",
-    "type": "data_list",
-    "note": ""
-  },
-  {
-    "SourceText": "Module 4 Session",
-    "text": "Modyul 4 Sesyon",
-    "type": "data_list",
-    "note": ""
-  },
-  {
-    "SourceText": "Module 5 Session",
-    "text": "Modyul 5 Sesyon",
-    "type": "data_list",
-    "note": ""
-  },
-  {
-    "SourceText": "Module 6 Session",
-    "text": "Modyul 6 Sesyon",
-    "type": "data_list",
-    "note": ""
-  },
-  {
-    "SourceText": "Module 7 Session",
-    "text": "Modyul 7 Sesyon",
-    "type": "data_list",
-    "note": ""
-  },
-  {
-    "SourceText": "Module 8 Session",
-    "text": "Modyul 8 Sesyon",
+    "SourceText": "Settings",
+    "text": "Settings",
     "type": "data_list",
     "note": ""
   },
@@ -228,38 +96,32 @@
     "note": ""
   },
   {
-    "SourceText": "Sessions",
-    "text": "Mga Sesyon",
+    "SourceText": "Facilitator/Co-facilitator",
+    "text": "Facilitator/Co-facilitator",
     "type": "data_list",
     "note": ""
   },
   {
-    "SourceText": "Report",
-    "text": "Report",
+    "SourceText": "Coach/Trainer",
+    "text": "Coach/Trainer",
     "type": "data_list",
     "note": ""
   },
   {
-    "SourceText": "Library",
-    "text": "Library",
+    "SourceText": "Government/NGO Admin",
+    "text": "Government/NGO Admin",
     "type": "data_list",
     "note": ""
   },
   {
-    "SourceText": "Settings",
-    "text": "Settings",
+    "SourceText": "System tester",
+    "text": "System tester",
     "type": "data_list",
     "note": ""
   },
   {
-    "SourceText": "Woman",
-    "text": "Babae",
-    "type": "data_list",
-    "note": ""
-  },
-  {
-    "SourceText": "Man",
-    "text": "Lalaki",
+    "SourceText": "System Tester (Coach)",
+    "text": "System Tester (Coach)",
     "type": "data_list",
     "note": ""
   },
@@ -294,6 +156,12 @@
     "note": ""
   },
   {
+    "SourceText": "None of the above",
+    "text": "None of the above",
+    "type": "data_list",
+    "note": ""
+  },
+  {
     "SourceText": "Girl",
     "text": "Batang babae",
     "type": "data_list",
@@ -302,6 +170,126 @@
   {
     "SourceText": "Boy",
     "text": "Batang lalaki",
+    "type": "data_list",
+    "note": ""
+  },
+  {
+    "SourceText": "How many minutes did it take you to prepare for this session?",
+    "text": "Ilang minuto ang iyong nilaan sa paghahanda para sa sesyon na ito?",
+    "type": "data_list",
+    "note": ""
+  },
+  {
+    "SourceText": "How many minutes did it take you to travel to the location where the session was delivered?",
+    "text": "Ilang minuto ang byahe mo papunta sa lugar ng sesyon?",
+    "type": "data_list",
+    "note": ""
+  },
+  {
+    "SourceText": "How many minutes did it take you to deliver the sessions?",
+    "text": "Ilang minuto ang itinagal ng sesyon?",
+    "type": "data_list",
+    "note": ""
+  },
+  {
+    "SourceText": "Which of the parents in this group attended your in-person session?",
+    "text": "Sino sa mga magulang sa grupong ito ang dumalo sa in-person sesyon?",
+    "type": "data_list",
+    "note": ""
+  },
+  {
+    "SourceText": "Partners",
+    "text": "Partners",
+    "type": "data_list",
+    "note": ""
+  },
+  {
+    "SourceText": "@global.app_name is an app designed by IDEMS International, Parenting for Lifelong Health, and Masayang Pamilya Organization, Inc. to support the delivery of MaPaChat in Philippines The content herein is available under an open source Creative Commons International 4.0 license. It was developed in collaboration with key partners:",
+    "text": "@global.app_name is an app designed by IDEMS International, Parenting for Lifelong Health, and Masayang Pamilya Organization, Inc. to support the delivery of MaPaChat in Philippines The content herein is available under an open source Creative Commons International 4.0 license. It was developed in collaboration with key partners:",
+    "type": "data_list",
+    "note": "The string @global.app_name should not be translated."
+  },
+  {
+    "SourceText": "Tungkol sa MaPaChat Hybrid Program",
+    "text": "Tungkol sa MaPaChat Hybrid Program",
+    "type": "data_list",
+    "note": ""
+  },
+  {
+    "SourceText": "Gabay Para sa Facilitator",
+    "text": "Gabay Para sa Facilitator",
+    "type": "data_list",
+    "note": ""
+  },
+  {
+    "SourceText": "Mga Madalas Itanong",
+    "text": "Mga Madalas Itanong",
+    "type": "data_list",
+    "note": ""
+  },
+  {
+    "SourceText": "Pag-Iingat, Pagka-Kumpidensyal, at Pagbubunyag",
+    "text": "Pag-Iingat, Pagka-Kumpidensyal, at Pagbubunyag",
+    "type": "data_list",
+    "note": ""
+  },
+  {
+    "SourceText": "About you",
+    "text": "About you",
+    "type": "data_list",
+    "note": ""
+  },
+  {
+    "SourceText": "We will use this to personalise the messages for sharing with your @global.share_groups.",
+    "text": "Gagamitin namin ito para i-personalize ang mga mensahe para sa iyong @global.share_groups.",
+    "type": "data_list",
+    "note": "The string @global.share_groups. should not be translated."
+  },
+  {
+    "SourceText": "Your @global.app_name Code",
+    "text": "Ang Iyong @global.app_name Code",
+    "type": "data_list",
+    "note": "The string @global.app_name should not be translated."
+  },
+  {
+    "SourceText": "Here you can find your unique code. You may be asked to share this code with people who will support your @global.app_name journey.",
+    "text": "Makikit mo rito ang iyong unique code. Maaaring hingiin ito sayo ng mga taong sumusuporta sa iyong @global.app_name journey.",
+    "type": "data_list",
+    "note": "The string @global.app_name should not be translated."
+  },
+  {
+    "SourceText": "Your Parent Group",
+    "text": "Ang Iyong Parent Group",
+    "type": "data_list",
+    "note": ""
+  },
+  {
+    "SourceText": "See and edit the list of parents attending your groups.",
+    "text": "Tignan at i-edit ang listahan ng parent participants na kasama sa iyong grupo.",
+    "type": "data_list",
+    "note": ""
+  },
+  {
+    "SourceText": "Your Parent Groups",
+    "text": "Ang Iyong Mga Parent Groups",
+    "type": "data_list",
+    "note": ""
+  },
+  {
+    "SourceText": "See and edit the lists of parents attending your groups.",
+    "text": "Tignan at i-edit ang listahan ng parent participants na kasama sa iyong grupo.",
+    "type": "data_list",
+    "note": ""
+  },
+  {
+    "SourceText": "Woman",
+    "text": "Babae",
+    "type": "data_list",
+    "note": ""
+  },
+  {
+    "SourceText": "Man",
+    "text": "Lalaki",
     "type": "data_list",
     "note": ""
   },
@@ -318,140 +306,62 @@
     "note": ""
   },
   {
-    "SourceText": "Facilitator/Co-facilitator",
-    "text": "Facilitator/Co-facilitator",
+    "SourceText": "Module 1 Session",
+    "text": "Modyul 1 Sesyon",
     "type": "data_list",
     "note": ""
   },
   {
-    "SourceText": "Coach/Trainer",
-    "text": "Coach/Trainer",
+    "SourceText": "Module 2 Session",
+    "text": "Modyul 2 Sesyon",
     "type": "data_list",
     "note": ""
   },
   {
-    "SourceText": "Government/NGO Admin",
-    "text": "Government/NGO Admin",
+    "SourceText": "Module 3 Session",
+    "text": "Modyul 3 Sesyon",
     "type": "data_list",
     "note": ""
   },
   {
-    "SourceText": "System tester",
-    "text": "System tester",
+    "SourceText": "Module 4 Session",
+    "text": "Modyul 4 Sesyon",
     "type": "data_list",
     "note": ""
   },
   {
-    "SourceText": "System Tester (Coach)",
-    "text": "System Tester (Coach)",
+    "SourceText": "Module 5 Session",
+    "text": "Modyul 5 Sesyon",
     "type": "data_list",
     "note": ""
   },
   {
-    "SourceText": "None of the above",
-    "text": "None of the above",
+    "SourceText": "Module 6 Session",
+    "text": "Modyul 6 Sesyon",
     "type": "data_list",
     "note": ""
   },
   {
-    "SourceText": "Viber",
-    "text": "Viber",
+    "SourceText": "Module 7 Session",
+    "text": "Modyul 7 Sesyon",
+    "type": "data_list",
+    "note": ""
+  },
+  {
+    "SourceText": "Module 8 Session",
+    "text": "Modyul 8 Sesyon",
+    "type": "data_list",
+    "note": ""
+  },
+  {
+    "SourceText": "Share",
+    "text": "Share",
     "type": "global",
     "note": ""
   },
   {
-    "SourceText": "14 December 2023",
-    "text": "14 December 2023",
-    "type": "global",
-    "note": ""
-  },
-  {
-    "SourceText": "Parent Group",
-    "text": "Parent Group",
-    "type": "global",
-    "note": ""
-  },
-  {
-    "SourceText": "Select Parent Group",
-    "text": "Select Parent Group",
-    "type": "global",
-    "note": ""
-  },
-  {
-    "SourceText": "No Parent Groups",
-    "text": "No Parent Groups",
-    "type": "global",
-    "note": ""
-  },
-  {
-    "SourceText": "Chat Sessions will load after you select a parent group",
-    "text": "Ang chat sessions ay magloload pagkatapos mong pumili ng parent group",
-    "type": "global",
-    "note": ""
-  },
-  {
-    "SourceText": "Parent's first name",
-    "text": "Parent's first name",
-    "type": "global",
-    "note": ""
-  },
-  {
-    "SourceText": "Parent's last name",
-    "text": "Parent's last name",
-    "type": "global",
-    "note": ""
-  },
-  {
-    "SourceText": "Parent Text ID",
-    "text": "Parent Text ID",
-    "type": "global",
-    "note": ""
-  },
-  {
-    "SourceText": "minutes",
-    "text": "minutes",
-    "type": "global",
-    "note": ""
-  },
-  {
-    "SourceText": "Your Active Groups",
-    "text": "Your Active Groups",
-    "type": "global",
-    "note": ""
-  },
-  {
-    "SourceText": "Your Archived Groups",
-    "text": "Your Archived Groups",
-    "type": "global",
-    "note": ""
-  },
-  {
-    "SourceText": "You successfully completed this session!",
-    "text": "Nakumpleto mo na ang sesyon na ito!",
-    "type": "global",
-    "note": ""
-  },
-  {
-    "SourceText": "You successfully completed the report for this session!",
-    "text": "Nakumpleto mo na ang report sa sesyon na ito!",
-    "type": "global",
-    "note": ""
-  },
-  {
-    "SourceText": "Review Report",
-    "text": "I-review ang report",
-    "type": "global",
-    "note": ""
-  },
-  {
-    "SourceText": "Submit Report",
-    "text": "I-sumite ang report",
-    "type": "global",
-    "note": ""
-  },
-  {
-    "SourceText": "Frequently Asked Questions",
-    "text": "Frequently Asked Questions",
+    "SourceText": "your DIF supervisor",
+    "text": "your DIF supervisor",
     "type": "global",
     "note": ""
   },
@@ -630,12 +540,6 @@
     "note": ""
   },
   {
-    "SourceText": "Language",
-    "text": "Wika",
-    "type": "global",
-    "note": ""
-  },
-  {
     "SourceText": "Your Content Package",
     "text": "Your Content Package",
     "type": "global",
@@ -664,18 +568,6 @@
     "text": "About @global.app_name",
     "type": "global",
     "note": "The string @global.app_name should not be translated."
-  },
-  {
-    "SourceText": "Share",
-    "text": "Share",
-    "type": "global",
-    "note": ""
-  },
-  {
-    "SourceText": "your supervisor",
-    "text": "your supervisor",
-    "type": "global",
-    "note": ""
   },
   {
     "SourceText": "Parent's First Name",
@@ -942,9 +834,129 @@
     "note": ""
   },
   {
-    "SourceText": "your DIF supervisor",
-    "text": "your DIF supervisor",
+    "SourceText": "Add Co-Facilitator",
+    "text": "Add Co-Facilitator",
     "type": "global",
+    "note": ""
+  },
+  {
+    "SourceText": "Viber",
+    "text": "Viber",
+    "type": "global",
+    "note": ""
+  },
+  {
+    "SourceText": "14 December 2023",
+    "text": "14 December 2023",
+    "type": "global",
+    "note": ""
+  },
+  {
+    "SourceText": "Parent Group",
+    "text": "Parent Group",
+    "type": "global",
+    "note": ""
+  },
+  {
+    "SourceText": "Select Parent Group",
+    "text": "Select Parent Group",
+    "type": "global",
+    "note": ""
+  },
+  {
+    "SourceText": "No Parent Groups",
+    "text": "No Parent Groups",
+    "type": "global",
+    "note": ""
+  },
+  {
+    "SourceText": "Chat Sessions will load after you select a parent group",
+    "text": "Ang chat sessions ay magloload pagkatapos mong pumili ng parent group",
+    "type": "global",
+    "note": ""
+  },
+  {
+    "SourceText": "Parent's first name",
+    "text": "Parent's first name",
+    "type": "global",
+    "note": ""
+  },
+  {
+    "SourceText": "Parent's last name",
+    "text": "Parent's last name",
+    "type": "global",
+    "note": ""
+  },
+  {
+    "SourceText": "Parent Text ID",
+    "text": "Parent Text ID",
+    "type": "global",
+    "note": ""
+  },
+  {
+    "SourceText": "minutes",
+    "text": "minutes",
+    "type": "global",
+    "note": ""
+  },
+  {
+    "SourceText": "Your Active Groups",
+    "text": "Your Active Groups",
+    "type": "global",
+    "note": ""
+  },
+  {
+    "SourceText": "Your Archived Groups",
+    "text": "Your Archived Groups",
+    "type": "global",
+    "note": ""
+  },
+  {
+    "SourceText": "You successfully completed this session!",
+    "text": "Nakumpleto mo na ang sesyon na ito!",
+    "type": "global",
+    "note": ""
+  },
+  {
+    "SourceText": "You successfully completed the report for this session!",
+    "text": "Nakumpleto mo na ang report sa sesyon na ito!",
+    "type": "global",
+    "note": ""
+  },
+  {
+    "SourceText": "Review Report",
+    "text": "I-review ang report",
+    "type": "global",
+    "note": ""
+  },
+  {
+    "SourceText": "Frequently Asked Questions",
+    "text": "Frequently Asked Questions",
+    "type": "global",
+    "note": ""
+  },
+  {
+    "SourceText": "Language",
+    "text": "Wika",
+    "type": "global",
+    "note": ""
+  },
+  {
+    "SourceText": "your supervisor",
+    "text": "your supervisor",
+    "type": "global",
+    "note": ""
+  },
+  {
+    "SourceText": "Are you sure you want to delete this report?",
+    "text": "Are you sure you want to delete this report?",
+    "type": "template",
+    "note": ""
+  },
+  {
+    "SourceText": "This will delete all of your report data and entries. The action cannot be undone!",
+    "text": "This will delete all of your report data and entries. The action cannot be undone!",
+    "type": "template",
     "note": ""
   },
   {
@@ -984,6 +996,84 @@
     "note": ""
   },
   {
+    "SourceText": "Settings",
+    "text": "Settings",
+    "type": "template",
+    "note": ""
+  },
+  {
+    "SourceText": "Profile",
+    "text": "Profile",
+    "type": "template",
+    "note": ""
+  },
+  {
+    "SourceText": "Switch language",
+    "text": "Switch language",
+    "type": "template",
+    "note": ""
+  },
+  {
+    "SourceText": "Your @global.app_name Code",
+    "text": "Your @global.app_name Code",
+    "type": "template",
+    "note": "The string @global.app_name should not be translated."
+  },
+  {
+    "SourceText": "Your Content Package",
+    "text": "Your Content Package",
+    "type": "template",
+    "note": ""
+  },
+  {
+    "SourceText": "Parent Actions",
+    "text": "Parent Actions",
+    "type": "template",
+    "note": ""
+  },
+  {
+    "SourceText": "Your Parent Groups",
+    "text": "Your Parent Groups",
+    "type": "template",
+    "note": ""
+  },
+  {
+    "SourceText": "App Details & Terms",
+    "text": "App Details & Terms",
+    "type": "template",
+    "note": ""
+  },
+  {
+    "SourceText": "Add Parent to Group",
+    "text": "Add Parent to Group",
+    "type": "template",
+    "note": ""
+  },
+  {
+    "SourceText": "Co-parent: @item.co_parent_name",
+    "text": "Co-parent: @item.co_parent_name",
+    "type": "template",
+    "note": "The string @item.co_parent_name should not be translated."
+  },
+  {
+    "SourceText": "Library",
+    "text": "Library",
+    "type": "template",
+    "note": ""
+  },
+  {
+    "SourceText": "Are you sure you want to delete @fields.current_parent_name?",
+    "text": "Are you sure you want to delete @fields.current_parent_name?",
+    "type": "template",
+    "note": "The string @fields.current_parent_name should not be translated."
+  },
+  {
+    "SourceText": "This will delete all of @fields.current_parent_name parent data. The action cannot be undone.",
+    "text": "This will delete all of @fields.current_parent_name parent data. The action cannot be undone.",
+    "type": "template",
+    "note": "The string @fields.current_parent_name should not be translated."
+  },
+  {
     "SourceText": "Are you sure you want to delete @fields.current_group_name?",
     "text": "Are you sure you want to delete @fields.current_group_name?",
     "type": "template",
@@ -996,20 +1086,62 @@
     "note": "The string @fields.current_group_name should not be translated."
   },
   {
-    "SourceText": "Add Co-Facilitator",
-    "text": "Add Co-Facilitator",
+    "SourceText": "Delete",
+    "text": "Delete",
     "type": "template",
     "note": ""
   },
   {
-    "SourceText": "Are you sure you want to delete this report?",
-    "text": "Are you sure you want to delete this report?",
+    "SourceText": "Co-parenting with",
+    "text": "Co-parenting with",
     "type": "template",
     "note": ""
   },
   {
-    "SourceText": "This will delete all of your report data and entries. The action cannot be undone!",
-    "text": "This will delete all of your report data and entries. The action cannot be undone!",
+    "SourceText": "Facilitator ID",
+    "text": "Facilitator ID",
+    "type": "template",
+    "note": ""
+  },
+  {
+    "SourceText": "Paste the @local.facilitator_id of a user to import their account data.",
+    "text": "Paste the @local.facilitator_id of a user to import their account data.",
+    "type": "template",
+    "note": "The string @local.facilitator_id should not be translated."
+  },
+  {
+    "SourceText": "Import data",
+    "text": "Import data",
+    "type": "template",
+    "note": ""
+  },
+  {
+    "SourceText": "Validation",
+    "text": "Validation",
+    "type": "template",
+    "note": ""
+  },
+  {
+    "SourceText": "User name (on the current account)",
+    "text": "User name (on the current account)",
+    "type": "template",
+    "note": ""
+  },
+  {
+    "SourceText": "Clear user name",
+    "text": "Clear user name",
+    "type": "template",
+    "note": ""
+  },
+  {
+    "SourceText": "If you had set a user name on your old account and the data was imported succesfully, the user name above should update.",
+    "text": "If you had set a user name on your old account and the data was imported succesfully, the user name above should update.",
+    "type": "template",
+    "note": ""
+  },
+  {
+    "SourceText": "Account",
+    "text": "Account",
     "type": "template",
     "note": ""
   },
@@ -1038,6 +1170,132 @@
     "note": ""
   },
   {
+    "SourceText": "Your Reports",
+    "text": "Your Reports",
+    "type": "template",
+    "note": ""
+  },
+  {
+    "SourceText": "Parent Group",
+    "text": "Parent Group",
+    "type": "template",
+    "note": ""
+  },
+  {
+    "SourceText": "Edit Parent Group",
+    "text": "Edit Parent Group",
+    "type": "template",
+    "note": ""
+  },
+  {
+    "SourceText": "New Parent Group",
+    "text": "New Parent Group",
+    "type": "template",
+    "note": ""
+  },
+  {
+    "SourceText": "Group Name",
+    "text": "Group Name",
+    "type": "template",
+    "note": ""
+  },
+  {
+    "SourceText": "Submit",
+    "text": "Submit",
+    "type": "template",
+    "note": ""
+  },
+  {
+    "SourceText": "Enter developer mode",
+    "text": "Enter developer mode",
+    "type": "template",
+    "note": ""
+  },
+  {
+    "SourceText": "To launch the app in developer mode, enter your developer code in the box below and press @local.submit.",
+    "text": "To launch the app in developer mode, enter your developer code in the box below and press @local.submit.",
+    "type": "template",
+    "note": "The string @local.submit should not be translated."
+  },
+  {
+    "SourceText": "You have successfully entered developer mode.",
+    "text": "You have successfully entered developer mode.",
+    "type": "template",
+    "note": ""
+  },
+  {
+    "SourceText": "You have entered an incorrect code.",
+    "text": "You have entered an incorrect code.",
+    "type": "template",
+    "note": ""
+  },
+  {
+    "SourceText": "test",
+    "text": "test",
+    "type": "template",
+    "note": ""
+  },
+  {
+    "SourceText": "Add Co-Facilitator",
+    "text": "Add Co-Facilitator",
+    "type": "template",
+    "note": ""
+  },
+  {
+    "SourceText": "Templates",
+    "text": "Templates",
+    "type": "template",
+    "note": ""
+  },
+  {
+    "SourceText": "Dynamic data",
+    "text": "Dynamic data",
+    "type": "template",
+    "note": ""
+  },
+  {
+    "SourceText": "Reset app",
+    "text": "Reset app",
+    "type": "template",
+    "note": ""
+  },
+  {
+    "SourceText": "Open feedback",
+    "text": "Open feedback",
+    "type": "template",
+    "note": ""
+  },
+  {
+    "SourceText": "Close feedback",
+    "text": "Close feedback",
+    "type": "template",
+    "note": ""
+  },
+  {
+    "SourceText": "Import user",
+    "text": "Import user",
+    "type": "template",
+    "note": ""
+  },
+  {
+    "SourceText": "Themes",
+    "text": "Themes",
+    "type": "template",
+    "note": ""
+  },
+  {
+    "SourceText": "Developer mode",
+    "text": "Developer mode",
+    "type": "template",
+    "note": ""
+  },
+  {
+    "SourceText": "Exit developer mode",
+    "text": "Exit developer mode",
+    "type": "template",
+    "note": ""
+  },
+  {
     "SourceText": "Save Profile",
     "text": "Save Profile",
     "type": "template",
@@ -1046,6 +1304,90 @@
   {
     "SourceText": "Save and Add New",
     "text": "Save and Add New",
+    "type": "template",
+    "note": ""
+  },
+  {
+    "SourceText": "How many minutes did you spend facilitating your parent @global.share_medium group over the last week?",
+    "text": "Ilang minuto ay iyong nilaan para i-facilitate ang iyong @global.share_medium group noong nakaraang linggo?",
+    "type": "template",
+    "note": "The string @global.share_medium should not be translated."
+  },
+  {
+    "SourceText": "I was able to send...",
+    "text": "I was able able to send...",
+    "type": "template",
+    "note": ""
+  },
+  {
+    "SourceText": "All of the messages",
+    "text": "All of the messages",
+    "type": "template",
+    "note": ""
+  },
+  {
+    "SourceText": "Some of the messages",
+    "text": "Some of the messages",
+    "type": "template",
+    "note": ""
+  },
+  {
+    "SourceText": "None of the messages",
+    "text": "None of the messages",
+    "type": "template",
+    "note": ""
+  },
+  {
+    "SourceText": "How do you feel the session went?",
+    "text": "How do you feel the session went?",
+    "type": "template",
+    "note": ""
+  },
+  {
+    "SourceText": "Very well",
+    "text": "Very well",
+    "type": "template",
+    "note": ""
+  },
+  {
+    "SourceText": "Well",
+    "text": "Well",
+    "type": "template",
+    "note": ""
+  },
+  {
+    "SourceText": "Acceptable / Okay",
+    "text": "Acceptable / Okay",
+    "type": "template",
+    "note": ""
+  },
+  {
+    "SourceText": "Poorly",
+    "text": "Poorly",
+    "type": "template",
+    "note": ""
+  },
+  {
+    "SourceText": "Very Poorly",
+    "text": "Very Poorly",
+    "type": "template",
+    "note": ""
+  },
+  {
+    "SourceText": "What was your role in the session?",
+    "text": "What was your role in the session?",
+    "type": "template",
+    "note": ""
+  },
+  {
+    "SourceText": "Lead",
+    "text": "Lead",
+    "type": "template",
+    "note": ""
+  },
+  {
+    "SourceText": "Support",
+    "text": "Support",
     "type": "template",
     "note": ""
   },
@@ -1158,10 +1500,52 @@
     "note": ""
   },
   {
+    "SourceText": "Which of the parents in this group attended your in-person session?",
+    "text": "Sino sa mga magulang sa grupong ito ang naka-attend ng in-person session?",
+    "type": "template",
+    "note": ""
+  },
+  {
+    "SourceText": "parents",
+    "text": "parents",
+    "type": "template",
+    "note": ""
+  },
+  {
     "SourceText": "What challenges or successes did the parent experience during with their home activity for @local.module_name ? Were there any concerns?",
     "text": "What challenges or successes did the parent experience during with their home activity for @local.module_name ? Were there any concerns?",
     "type": "template",
     "note": "The string @local.module_name should not be translated."
+  },
+  {
+    "SourceText": "Are you sure you want to archive @fields.current_group_name?",
+    "text": "Are you sure you want to archive @fields.current_group_name?",
+    "type": "template",
+    "note": "The string @fields.current_group_name should not be translated."
+  },
+  {
+    "SourceText": "Cancel",
+    "text": "Cancel",
+    "type": "template",
+    "note": ""
+  },
+  {
+    "SourceText": "Archive",
+    "text": "Archive",
+    "type": "template",
+    "note": ""
+  },
+  {
+    "SourceText": "Choose which content you want to see.",
+    "text": "Choose which content you want to see.",
+    "type": "template",
+    "note": ""
+  },
+  {
+    "SourceText": "Continue",
+    "text": "Continue",
+    "type": "template",
+    "note": ""
   },
   {
     "SourceText": "Syncing...",
@@ -1200,148 +1584,10 @@
     "note": ""
   },
   {
-    "SourceText": "Facilitator ID",
-    "text": "Facilitator ID",
+    "SourceText": "Completed count: @local.completed_count",
+    "text": "Completed count: @local.completed_count",
     "type": "template",
-    "note": ""
-  },
-  {
-    "SourceText": "Paste the @local.facilitator_id of a user to import their account data.",
-    "text": "Paste the @local.facilitator_id of a user to import their account data.",
-    "type": "template",
-    "note": "The string @local.facilitator_id should not be translated."
-  },
-  {
-    "SourceText": "Import data",
-    "text": "Import data",
-    "type": "template",
-    "note": ""
-  },
-  {
-    "SourceText": "Validation",
-    "text": "Validation",
-    "type": "template",
-    "note": ""
-  },
-  {
-    "SourceText": "User name (on the current account)",
-    "text": "User name (on the current account)",
-    "type": "template",
-    "note": ""
-  },
-  {
-    "SourceText": "Clear user name",
-    "text": "Clear user name",
-    "type": "template",
-    "note": ""
-  },
-  {
-    "SourceText": "If you had set a user name on your old account and the data was imported succesfully, the user name above should update.",
-    "text": "If you had set a user name on your old account and the data was imported succesfully, the user name above should update.",
-    "type": "template",
-    "note": ""
-  },
-  {
-    "SourceText": "Library",
-    "text": "Library",
-    "type": "template",
-    "note": ""
-  },
-  {
-    "SourceText": "Your Reports",
-    "text": "Your Reports",
-    "type": "template",
-    "note": ""
-  },
-  {
-    "SourceText": "Parent Group",
-    "text": "Parent Group",
-    "type": "template",
-    "note": ""
-  },
-  {
-    "SourceText": "Co-parenting with",
-    "text": "Co-parenting with",
-    "type": "template",
-    "note": ""
-  },
-  {
-    "SourceText": "Enter ID of proposed co-facilitator",
-    "text": "Enter ID of proposed co-facilitator",
-    "type": "template",
-    "note": ""
-  },
-  {
-    "SourceText": "Add co-facilitator",
-    "text": "Add co-facilitator",
-    "type": "template",
-    "note": ""
-  },
-  {
-    "SourceText": "Are you sure you want to delete @fields.current_parent_name?",
-    "text": "Are you sure you want to delete @fields.current_parent_name?",
-    "type": "template",
-    "note": "The string @fields.current_parent_name should not be translated."
-  },
-  {
-    "SourceText": "This will delete all of @fields.current_parent_name parent data. The action cannot be undone.",
-    "text": "This will delete all of @fields.current_parent_name parent data. The action cannot be undone.",
-    "type": "template",
-    "note": "The string @fields.current_parent_name should not be translated."
-  },
-  {
-    "SourceText": "Delete",
-    "text": "Delete",
-    "type": "template",
-    "note": ""
-  },
-  {
-    "SourceText": "Submit",
-    "text": "Submit",
-    "type": "template",
-    "note": ""
-  },
-  {
-    "SourceText": "Enter developer mode",
-    "text": "Enter developer mode",
-    "type": "template",
-    "note": ""
-  },
-  {
-    "SourceText": "To launch the app in developer mode, enter your developer code in the box below and press @local.submit.",
-    "text": "To launch the app in developer mode, enter your developer code in the box below and press @local.submit.",
-    "type": "template",
-    "note": "The string @local.submit should not be translated."
-  },
-  {
-    "SourceText": "You have successfully entered developer mode.",
-    "text": "You have successfully entered developer mode.",
-    "type": "template",
-    "note": ""
-  },
-  {
-    "SourceText": "You have entered an incorrect code.",
-    "text": "You have entered an incorrect code.",
-    "type": "template",
-    "note": ""
-  },
-  {
-    "SourceText": "What was your role in the session?",
-    "text": "What was your role in the session?",
-    "type": "template",
-    "note": ""
-  },
-  {
-    "SourceText": "Lead",
-    "text": "Lead",
-    "type": "template",
-    "note": ""
-  },
-  {
-    "SourceText": "Support",
-    "text": "Support",
-    "type": "template",
-    "note": ""
+    "note": "The string @local.completed_count should not be translated."
   },
   {
     "SourceText": "@global.app_name has downloaded an update. Please restart the app to finish installation.",
@@ -1356,278 +1602,14 @@
     "note": ""
   },
   {
-    "SourceText": "Add Parent to Group",
-    "text": "Add Parent to Group",
-    "type": "template",
-    "note": ""
-  },
-  {
-    "SourceText": "Co-parent: @item.co_parent_name",
-    "text": "Co-parent: @item.co_parent_name",
-    "type": "template",
-    "note": "The string @item.co_parent_name should not be translated."
-  },
-  {
-    "SourceText": "Settings",
-    "text": "Settings",
-    "type": "template",
-    "note": ""
-  },
-  {
-    "SourceText": "Account",
-    "text": "Account",
-    "type": "template",
-    "note": ""
-  },
-  {
-    "SourceText": "Profile",
-    "text": "Profile",
-    "type": "template",
-    "note": ""
-  },
-  {
-    "SourceText": "Switch language",
-    "text": "Switch language",
-    "type": "template",
-    "note": ""
-  },
-  {
-    "SourceText": "Your @global.app_name Code",
-    "text": "Your @global.app_name Code",
-    "type": "template",
-    "note": "The string @global.app_name should not be translated."
-  },
-  {
-    "SourceText": "Your Content Package",
-    "text": "Your Content Package",
-    "type": "template",
-    "note": ""
-  },
-  {
-    "SourceText": "Parent Actions",
-    "text": "Parent Actions",
-    "type": "template",
-    "note": ""
-  },
-  {
-    "SourceText": "Your Parent Groups",
-    "text": "Your Parent Groups",
-    "type": "template",
-    "note": ""
-  },
-  {
-    "SourceText": "App Details & Terms",
-    "text": "App Details & Terms",
-    "type": "template",
-    "note": ""
-  },
-  {
-    "SourceText": "Are you sure you want to archive @fields.current_group_name?",
-    "text": "Are you sure you want to archive @fields.current_group_name?",
-    "type": "template",
-    "note": "The string @fields.current_group_name should not be translated."
-  },
-  {
-    "SourceText": "This will archive all of @fields.current_group_name group data.",
-    "text": "This will archive all of @fields.current_group_name group data.",
-    "type": "template",
-    "note": "The string @fields.current_group_name should not be translated."
-  },
-  {
-    "SourceText": "Cancel",
-    "text": "Cancel",
-    "type": "template",
-    "note": ""
-  },
-  {
-    "SourceText": "Archive",
-    "text": "Archive",
-    "type": "template",
-    "note": ""
-  },
-  {
-    "SourceText": "Choose which content you want to see.",
-    "text": "Choose which content you want to see.",
-    "type": "template",
-    "note": ""
-  },
-  {
-    "SourceText": "Continue",
-    "text": "Continue",
-    "type": "template",
-    "note": ""
-  },
-  {
-    "SourceText": "test",
-    "text": "test",
-    "type": "template",
-    "note": ""
-  },
-  {
-    "SourceText": "pdf",
-    "text": "pdf",
-    "type": "template",
-    "note": ""
-  },
-  {
-    "SourceText": "Completed count: @local.completed_count",
-    "text": "Completed count: @local.completed_count",
-    "type": "template",
-    "note": "The string @local.completed_count should not be translated."
-  },
-  {
-    "SourceText": "Templates",
-    "text": "Templates",
-    "type": "template",
-    "note": ""
-  },
-  {
-    "SourceText": "Dynamic data",
-    "text": "Dynamic data",
-    "type": "template",
-    "note": ""
-  },
-  {
-    "SourceText": "Reset app",
-    "text": "Reset app",
-    "type": "template",
-    "note": ""
-  },
-  {
-    "SourceText": "Open feedback",
-    "text": "Open feedback",
-    "type": "template",
-    "note": ""
-  },
-  {
-    "SourceText": "Close feedback",
-    "text": "Close feedback",
-    "type": "template",
-    "note": ""
-  },
-  {
-    "SourceText": "Import user",
-    "text": "Import user",
-    "type": "template",
-    "note": ""
-  },
-  {
-    "SourceText": "Themes",
-    "text": "Themes",
-    "type": "template",
-    "note": ""
-  },
-  {
-    "SourceText": "Developer mode",
-    "text": "Developer mode",
-    "type": "template",
-    "note": ""
-  },
-  {
-    "SourceText": "Exit developer mode",
-    "text": "Exit developer mode",
-    "type": "template",
-    "note": ""
-  },
-  {
-    "SourceText": "How many minutes did you spend facilitating your parent @global.share_medium group over the last week?",
-    "text": "Ilang minuto ay iyong nilaan para i-facilitate ang iyong @global.share_medium group noong nakaraang linggo?",
-    "type": "template",
-    "note": "The string @global.share_medium should not be translated."
-  },
-  {
-    "SourceText": "I was able to send...",
-    "text": "I was able able to send...",
-    "type": "template",
-    "note": ""
-  },
-  {
-    "SourceText": "All of the messages",
-    "text": "All of the messages",
-    "type": "template",
-    "note": ""
-  },
-  {
-    "SourceText": "Some of the messages",
-    "text": "Some of the messages",
-    "type": "template",
-    "note": ""
-  },
-  {
-    "SourceText": "None of the messages",
-    "text": "None of the messages",
-    "type": "template",
-    "note": ""
-  },
-  {
-    "SourceText": "How do you feel the session went?",
-    "text": "How do you feel the session went?",
-    "type": "template",
-    "note": ""
-  },
-  {
-    "SourceText": "Very well",
-    "text": "Very well",
-    "type": "template",
-    "note": ""
-  },
-  {
-    "SourceText": "Well",
-    "text": "Well",
-    "type": "template",
-    "note": ""
-  },
-  {
-    "SourceText": "Acceptable / Okay",
-    "text": "Acceptable / Okay",
-    "type": "template",
-    "note": ""
-  },
-  {
-    "SourceText": "Poorly",
-    "text": "Poorly",
-    "type": "template",
-    "note": ""
-  },
-  {
-    "SourceText": "Very Poorly",
-    "text": "Very Poorly",
-    "type": "template",
-    "note": ""
-  },
-  {
-    "SourceText": "Which of the parents in this group attended your in-person session?",
-    "text": "Sino sa mga magulang sa grupong ito ang naka-attend ng in-person session?",
-    "type": "template",
-    "note": ""
-  },
-  {
-    "SourceText": "parents",
-    "text": "parents",
-    "type": "template",
-    "note": ""
-  },
-  {
     "SourceText": "Save",
     "text": "Save",
     "type": "template",
     "note": ""
   },
   {
-    "SourceText": "Edit Parent Group",
-    "text": "Edit Parent Group",
-    "type": "template",
-    "note": ""
-  },
-  {
-    "SourceText": "New Parent Group",
-    "text": "New Parent Group",
-    "type": "template",
-    "note": ""
-  },
-  {
-    "SourceText": "Group Name",
-    "text": "Group Name",
+    "SourceText": "pdf",
+    "text": "pdf",
     "type": "template",
     "note": ""
   }
