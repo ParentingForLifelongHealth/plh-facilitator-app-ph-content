@@ -259,8 +259,8 @@
     "data": [
       {
         "assets": "total",
-        "KB": "37382 KB",
-        "MB": "37.4 MB"
+        "KB": "42273 KB",
+        "MB": "42.3 MB"
       },
       {
         "assets": "unused",
@@ -1164,27 +1164,27 @@
       {
         "path": "pdf/01_mod1_layunin.pdf",
         "count": 1,
-        "size_kb": 513.8
+        "size_kb": 478.3
       },
       {
         "path": "pdf/01_mod1_mapa_skill.pdf",
         "count": 1,
-        "size_kb": 1819.1
+        "size_kb": 6899
       },
       {
         "path": "pdf/01_mod1_pabaong_gawain.pdf",
         "count": 1,
-        "size_kb": 132.7
+        "size_kb": 92.5
       },
       {
         "path": "pdf/01_mod1_pagtatapos.pdf",
         "count": 1,
-        "size_kb": 128.1
+        "size_kb": 68.5
       },
       {
         "path": "pdf/01_mod1_panimulang_gawain.pdf",
         "count": 1,
-        "size_kb": 489.2
+        "size_kb": 435.6
       },
       {
         "path": "pdf/01_mod1_session_structure.pdf",

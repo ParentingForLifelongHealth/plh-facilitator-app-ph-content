@@ -79,7 +79,7 @@
 
 | assets | KB | MB |
 | --- | --- | --- |
-| total | 37382 KB | 37.4 MB |
+| total | 42273 KB | 42.3 MB |
 | unused | 12238 KB | 12.2 MB |
 </details>
 
@@ -299,11 +299,11 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | images/progress_uncomplete.png | 0.9 | 1 |
 | lottie/checkmark_blue.json | 17 | 2 |
 | pdf/01_mod1_intro.pdf | 650.7 | 1 |
-| pdf/01_mod1_layunin.pdf | 513.8 | 1 |
-| pdf/01_mod1_mapa_skill.pdf | 1819.1 | 1 |
-| pdf/01_mod1_pabaong_gawain.pdf | 132.7 | 1 |
-| pdf/01_mod1_pagtatapos.pdf | 128.1 | 1 |
-| pdf/01_mod1_panimulang_gawain.pdf | 489.2 | 1 |
+| pdf/01_mod1_layunin.pdf | 478.3 | 1 |
+| pdf/01_mod1_mapa_skill.pdf | 6899 | 1 |
+| pdf/01_mod1_pabaong_gawain.pdf | 92.5 | 1 |
+| pdf/01_mod1_pagtatapos.pdf | 68.5 | 1 |
+| pdf/01_mod1_panimulang_gawain.pdf | 435.6 | 1 |
 | pdf/01_mod1_session_structure.pdf | 123.5 | 1 |
 | pdf/02_mod2_intro.pdf | 506.5 | 1 |
 | pdf/02_mod2_talakayan_ng_pabaong_gawain.pdf | 62.2 | 1 |

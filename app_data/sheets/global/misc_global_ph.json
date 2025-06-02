@@ -86,11 +86,9 @@
     {
       "type": "declare_global_constant",
       "name": "welcome_message",
-      "value": "Welcome to @global.app_name",
+      "value": "Welcome to \n@global.app_name",
       "_translations": {
-        "value": {
-          "ph_fil": true
-        }
+        "value": {}
       }
     },
     {
