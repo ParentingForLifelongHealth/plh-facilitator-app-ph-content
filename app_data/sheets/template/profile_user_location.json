@@ -168,6 +168,7 @@
         "filter": "@item.region_id == @local.user_region_select",
         "limit": "1"
       },
+      "hidden": true,
       "_nested_name": "count_provinces_in_region",
       "_dynamicFields": {
         "value": [
@@ -272,11 +273,13 @@
         {
           "type": "data_items",
           "value": "user_province",
+          "_translations": {
+            "value": {}
+          },
           "parameter_list": {
             "filter": "@item.region_id == @local.user_region_select"
           },
-          "exclude_from_translation": true,
-          "rows": [],
+          "hidden": true,
           "name": "data_items_1",
           "_nested_name": "user_province_select.data_items_1",
           "_dynamicFields": {
@@ -428,6 +431,7 @@
         "filter": "@item.province_id == @local.user_province_select",
         "limit": "1"
       },
+      "hidden": true,
       "_nested_name": "count_cities_in_province",
       "_dynamicFields": {
         "value": [
@@ -532,11 +536,13 @@
         {
           "type": "data_items",
           "value": "user_city",
+          "_translations": {
+            "value": {}
+          },
           "parameter_list": {
             "filter": "@item.province_id == @local.user_province_select"
           },
-          "exclude_from_translation": true,
-          "rows": [],
+          "hidden": true,
           "name": "data_items_1",
           "_nested_name": "user_city_select.data_items_1",
           "_dynamicFields": {
