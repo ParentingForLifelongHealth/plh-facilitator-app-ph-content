@@ -250,7 +250,7 @@
     },
     {
       "type": "declare_global_constant",
-      "name": "submit_report",
+      "name": "mark_delivered",
       "value": "Mark Session as Delivered",
       "_translations": {
         "value": {}

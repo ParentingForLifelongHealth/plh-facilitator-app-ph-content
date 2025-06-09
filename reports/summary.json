@@ -19,7 +19,7 @@
       },
       {
         "type": "button",
-        "count": 92
+        "count": 93
       },
       {
         "type": "carousel",
@@ -43,7 +43,7 @@
       },
       {
         "type": "display_grid",
-        "count": 3
+        "count": 2
       },
       {
         "type": "display_group",
@@ -59,7 +59,7 @@
       },
       {
         "type": "image",
-        "count": 20
+        "count": 18
       },
       {
         "type": "items",
@@ -95,7 +95,7 @@
       },
       {
         "type": "set_variable",
-        "count": 1081
+        "count": 1082
       },
       {
         "type": "simple_checkbox",
@@ -107,7 +107,7 @@
       },
       {
         "type": "task_progress_bar",
-        "count": 1
+        "count": 2
       },
       {
         "type": "template",
@@ -119,7 +119,7 @@
       },
       {
         "type": "text",
-        "count": 285
+        "count": 286
       },
       {
         "type": "text_area",
@@ -203,7 +203,7 @@
       },
       {
         "type": "go_to",
-        "count": 36
+        "count": 37
       },
       {
         "type": "nav_stack",
@@ -231,7 +231,7 @@
       },
       {
         "type": "set_data",
-        "count": 26
+        "count": 27
       },
       {
         "type": "set_field",
@@ -243,7 +243,7 @@
       },
       {
         "type": "set_local",
-        "count": 100
+        "count": 101
       },
       {
         "type": "share",
@@ -259,12 +259,12 @@
     "data": [
       {
         "assets": "total",
-        "KB": "42273 KB",
+        "KB": "42271 KB",
         "MB": "42.3 MB"
       },
       {
         "assets": "unused",
-        "KB": "12238 KB",
+        "KB": "12240 KB",
         "MB": "12.2 MB"
       }
     ]
@@ -558,6 +558,14 @@
       {
         "path": "images/person_cog.png",
         "size_kb": 0.8
+      },
+      {
+        "path": "images/progress_complete.png",
+        "size_kb": 0.9
+      },
+      {
+        "path": "images/progress_uncomplete.png",
+        "size_kb": 0.9
       },
       {
         "path": "pdf/08_mod8_mapa_skill.pdf",
@@ -948,7 +956,7 @@
       },
       {
         "path": "images/icons/edit.svg",
-        "count": 5,
+        "count": 3,
         "size_kb": 0.9
       },
       {
@@ -1140,16 +1148,6 @@
         "path": "images/no_group_selected.svg",
         "count": 1,
         "size_kb": 3.5
-      },
-      {
-        "path": "images/progress_complete.png",
-        "count": 1,
-        "size_kb": 0.9
-      },
-      {
-        "path": "images/progress_uncomplete.png",
-        "count": 1,
-        "size_kb": 0.9
       },
       {
         "path": "lottie/checkmark_blue.json",
