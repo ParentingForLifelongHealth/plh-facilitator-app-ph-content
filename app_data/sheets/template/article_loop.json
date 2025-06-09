@@ -1017,10 +1017,81 @@
       }
     },
     {
+      "name": "progress",
+      "value": "@calc(((@local.current_index-@local.first_row_index)/@local.count)*100)",
+      "_translations": {
+        "value": {}
+      },
       "exclude_from_translation": true,
       "type": "set_variable",
-      "name": "set_variable_37",
-      "_nested_name": "set_variable_37"
+      "_nested_name": "progress",
+      "_dynamicFields": {
+        "value": [
+          {
+            "fullExpression": "@calc(((@local.current_index-@local.first_row_index)/@local.count)*100)",
+            "matchedExpression": "@local.current_index",
+            "type": "local",
+            "fieldName": "current_index"
+          },
+          {
+            "fullExpression": "@calc(((@local.current_index-@local.first_row_index)/@local.count)*100)",
+            "matchedExpression": "@local.first_row_index",
+            "type": "local",
+            "fieldName": "first_row_index"
+          },
+          {
+            "fullExpression": "@calc(((@local.current_index-@local.first_row_index)/@local.count)*100)",
+            "matchedExpression": "@local.count",
+            "type": "local",
+            "fieldName": "count"
+          },
+          {
+            "fullExpression": "@calc(((@local.current_index-@local.first_row_index)/@local.count)*100)",
+            "matchedExpression": "@calc(((@local.current_index-@local.first_row_index)/@local.count)*100)",
+            "type": "calc",
+            "fieldName": "((@local.current_index-@local.first_row_index)/@local.count)*100"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@local.current_index": [
+          "value"
+        ],
+        "@local.first_row_index": [
+          "value"
+        ],
+        "@local.count": [
+          "value"
+        ],
+        "@calc(((@local.current_index-@local.first_row_index)/@local.count)*100)": [
+          "value"
+        ]
+      }
+    },
+    {
+      "type": "text",
+      "value": "progress: @local.progress",
+      "_translations": {
+        "value": {}
+      },
+      "condition": false,
+      "name": "text_38",
+      "_nested_name": "text_38",
+      "_dynamicFields": {
+        "value": [
+          {
+            "fullExpression": "progress: @local.progress",
+            "matchedExpression": "@local.progress",
+            "type": "local",
+            "fieldName": "progress"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@local.progress": [
+          "value"
+        ]
+      }
     },
     {
       "type": "display_group",
@@ -1041,195 +1112,32 @@
           "parameter_list": {
             "style": "column"
           },
+          "style_list": [
+            "padding: 5px"
+          ],
           "rows": [
             {
-              "type": "display_grid",
-              "name": "page_tracker",
+              "type": "task_progress_bar",
               "parameter_list": {
-                "item_width": "5px",
-                "item_border": "none",
-                "grid_width": "90%",
-                "grid_gap": "0px"
+                "progress_percent": "@local.progress"
               },
               "condition": "!!@local.current_id && !(@local.first && @local.last)",
-              "rows": [
-                {
-                  "type": "data_items",
-                  "value": "@data.sub_items",
-                  "parameter_list": {
-                    "filter": "@item.foreign_key == @local.foreign_key"
-                  },
-                  "rows": [
-                    {
-                      "type": "image",
-                      "name": "{@item.id}_comp_image",
-                      "value": "images/progress_complete.png",
-                      "_translations": {
-                        "value": {}
-                      },
-                      "parameter_list": {
-                        "style": "no-padding"
-                      },
-                      "condition": "@item.row_index < @local.current_index",
-                      "style_list": [
-                        "height: 20px",
-                        "padding: 0px",
-                        "width: 100%",
-                        "object-fit: fill"
-                      ],
-                      "_nested_name": "header.display_group_1.page_tracker.data_items_1.{@item.id}_comp_image",
-                      "_dynamicFields": {
-                        "name": [
-                          {
-                            "fullExpression": "{@item.id}_comp_image",
-                            "matchedExpression": "@item.id",
-                            "type": "item",
-                            "fieldName": "id"
-                          }
-                        ],
-                        "condition": [
-                          {
-                            "fullExpression": "@item.row_index < @local.current_index",
-                            "matchedExpression": "@item.row_index",
-                            "type": "item",
-                            "fieldName": "row_index"
-                          },
-                          {
-                            "fullExpression": "@item.row_index < @local.current_index",
-                            "matchedExpression": "@local.current_index",
-                            "type": "local",
-                            "fieldName": "current_index"
-                          }
-                        ],
-                        "_nested_name": [
-                          {
-                            "fullExpression": "header.display_group_1.page_tracker.data_items_1.{@item.id}_comp_image",
-                            "matchedExpression": "@item.id",
-                            "type": "item",
-                            "fieldName": "id"
-                          }
-                        ]
-                      },
-                      "_dynamicDependencies": {
-                        "@item.id": [
-                          "name",
-                          "_nested_name"
-                        ],
-                        "@item.row_index": [
-                          "condition"
-                        ],
-                        "@local.current_index": [
-                          "condition"
-                        ]
-                      }
-                    },
-                    {
-                      "type": "image",
-                      "name": "{@item.id}_uncomp_image",
-                      "value": "images/progress_uncomplete.png",
-                      "_translations": {
-                        "value": {}
-                      },
-                      "parameter_list": {
-                        "style": "no-padding"
-                      },
-                      "condition": "@item.row_index >= @local.current_index",
-                      "style_list": [
-                        "height: 20px",
-                        "padding: 0px",
-                        "width: 100%",
-                        "object-fit: fill"
-                      ],
-                      "_nested_name": "header.display_group_1.page_tracker.data_items_1.{@item.id}_uncomp_image",
-                      "_dynamicFields": {
-                        "name": [
-                          {
-                            "fullExpression": "{@item.id}_uncomp_image",
-                            "matchedExpression": "@item.id",
-                            "type": "item",
-                            "fieldName": "id"
-                          }
-                        ],
-                        "condition": [
-                          {
-                            "fullExpression": "@item.row_index >= @local.current_index",
-                            "matchedExpression": "@item.row_index",
-                            "type": "item",
-                            "fieldName": "row_index"
-                          },
-                          {
-                            "fullExpression": "@item.row_index >= @local.current_index",
-                            "matchedExpression": "@local.current_index",
-                            "type": "local",
-                            "fieldName": "current_index"
-                          }
-                        ],
-                        "_nested_name": [
-                          {
-                            "fullExpression": "header.display_group_1.page_tracker.data_items_1.{@item.id}_uncomp_image",
-                            "matchedExpression": "@item.id",
-                            "type": "item",
-                            "fieldName": "id"
-                          }
-                        ]
-                      },
-                      "_dynamicDependencies": {
-                        "@item.id": [
-                          "name",
-                          "_nested_name"
-                        ],
-                        "@item.row_index": [
-                          "condition"
-                        ],
-                        "@local.current_index": [
-                          "condition"
-                        ]
-                      }
-                    }
-                  ],
-                  "name": "data_items_1",
-                  "_nested_name": "header.display_group_1.page_tracker.data_items_1",
-                  "_dynamicFields": {
-                    "value": [
-                      {
-                        "fullExpression": "@data.sub_items",
-                        "matchedExpression": "@data.sub_items",
-                        "type": "data",
-                        "fieldName": "sub_items"
-                      }
-                    ],
-                    "parameter_list": {
-                      "filter": [
-                        {
-                          "fullExpression": "@item.foreign_key == @local.foreign_key",
-                          "matchedExpression": "@item.foreign_key",
-                          "type": "item",
-                          "fieldName": "foreign_key"
-                        },
-                        {
-                          "fullExpression": "@item.foreign_key == @local.foreign_key",
-                          "matchedExpression": "@local.foreign_key",
-                          "type": "local",
-                          "fieldName": "foreign_key"
-                        }
-                      ]
-                    }
-                  },
-                  "_dynamicDependencies": {
-                    "@data.sub_items": [
-                      "value"
-                    ],
-                    "@item.foreign_key": [
-                      "parameter_list.filter"
-                    ],
-                    "@local.foreign_key": [
-                      "parameter_list.filter"
-                    ]
-                  }
-                }
+              "style_list": [
+                "flex: 1"
               ],
-              "_nested_name": "header.display_group_1.page_tracker",
+              "name": "task_progress_bar_1",
+              "_nested_name": "header.display_group_1.task_progress_bar_1",
               "_dynamicFields": {
+                "parameter_list": {
+                  "progress_percent": [
+                    {
+                      "fullExpression": "@local.progress",
+                      "matchedExpression": "@local.progress",
+                      "type": "local",
+                      "fieldName": "progress"
+                    }
+                  ]
+                },
                 "condition": [
                   {
                     "fullExpression": "!!@local.current_id && !(@local.first && @local.last)",
@@ -1252,6 +1160,9 @@
                 ]
               },
               "_dynamicDependencies": {
+                "@local.progress": [
+                  "parameter_list.progress_percent"
+                ],
                 "!@local.current_id": [
                   "condition"
                 ],
@@ -1376,8 +1287,8 @@
     {
       "exclude_from_translation": true,
       "type": "set_variable",
-      "name": "set_variable_42",
-      "_nested_name": "set_variable_42"
+      "name": "set_variable_43",
+      "_nested_name": "set_variable_43"
     },
     {
       "type": "data_items",
@@ -1462,7 +1373,7 @@
                 "value": {}
               },
               "type": "set_variable",
-              "_nested_name": "data_items_43.popup_nav.show_previous",
+              "_nested_name": "data_items_44.popup_nav.show_previous",
               "_dynamicFields": {
                 "value": [
                   {
@@ -1486,7 +1397,7 @@
                 "value": {}
               },
               "type": "set_variable",
-              "_nested_name": "data_items_43.popup_nav.show_next",
+              "_nested_name": "data_items_44.popup_nav.show_next",
               "_dynamicFields": {
                 "value": [
                   {
@@ -1504,7 +1415,7 @@
               }
             }
           ],
-          "_nested_name": "data_items_43.popup_nav",
+          "_nested_name": "data_items_44.popup_nav",
           "_dynamicFields": {
             "action_list": {
               "1": {
@@ -1619,8 +1530,8 @@
           }
         }
       ],
-      "name": "data_items_43",
-      "_nested_name": "data_items_43",
+      "name": "data_items_44",
+      "_nested_name": "data_items_44",
       "_dynamicFields": {
         "value": [
           {

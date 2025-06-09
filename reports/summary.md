@@ -7,17 +7,17 @@
 | accordion_section | 1 |
 | apple_sign_in_button | 3 |
 | audio | 3 |
-| button | 92 |
+| button | 93 |
 | carousel | 2 |
 | combo_box | 16 |
 | data_items | 57 |
 | date_time_picker | 4 |
 | debug_toggle | 1 |
-| display_grid | 3 |
+| display_grid | 2 |
 | display_group | 138 |
 | drawer | 1 |
 | google_sign_in_button | 4 |
-| image | 20 |
+| image | 18 |
 | items | 23 |
 | lottie_animation | 2 |
 | navigation_bar | 2 |
@@ -26,13 +26,13 @@
 | radio_button_grid | 16 |
 | round_button | 43 |
 | select_text | 1 |
-| set_variable | 1081 |
+| set_variable | 1082 |
 | simple_checkbox | 2 |
 | task_card | 6 |
-| task_progress_bar | 1 |
+| task_progress_bar | 2 |
 | template | 369 |
 | test | 1 |
-| text | 285 |
+| text | 286 |
 | text_area | 2 |
 | text_box | 46 |
 | title | 45 |
@@ -59,17 +59,17 @@
 | emit: set_language | 1 |
 | emit: uncompleted | 86 |
 | feedback | 13 |
-| go_to | 36 |
+| go_to | 37 |
 | nav_stack | 6 |
 | plh_parent_group | 8 |
 | pop_up | 20 |
 | reset_app | 3 |
 | save_to_device | 4 |
 | scroll | 1 |
-| set_data | 26 |
+| set_data | 27 |
 | set_field | 88 |
 | set_item | 10 |
-| set_local | 100 |
+| set_local | 101 |
 | share | 4 |
 | user | 4 |
 </details>
@@ -79,8 +79,8 @@
 
 | assets | KB | MB |
 | --- | --- | --- |
-| total | 42273 KB | 42.3 MB |
-| unused | 12238 KB | 12.2 MB |
+| total | 42271 KB | 42.3 MB |
+| unused | 12240 KB | 12.2 MB |
 </details>
 
 <details open>
@@ -162,6 +162,8 @@ Assets that appear in app-data but do not have references within sheets
 | images/icons/task_0.png | 2 |
 | images/icons/trophy.svg | 1 |
 | images/person_cog.png | 0.8 |
+| images/progress_complete.png | 0.9 |
+| images/progress_uncomplete.png | 0.9 |
 | pdf/08_mod8_mapa_skill.pdf | 2394.2 |
 </details>
 
@@ -256,7 +258,7 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | images/icons/docs.svg | 0.7 | 1 |
 | images/icons/download.svg | 0.7 | 2 |
 | images/icons/download_white.svg | 0.7 | 1 |
-| images/icons/edit.svg | 0.9 | 5 |
+| images/icons/edit.svg | 0.9 | 3 |
 | images/icons/eye.svg | 1.6 | 2 |
 | images/icons/feather.svg | 4.6 | 1 |
 | images/icons/help.svg | 2.6 | 1 |
@@ -295,8 +297,6 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | images/logos/UNICEF.jpg | 57.9 | 1 |
 | images/logos/app_logo.png | 70.6 | 2 |
 | images/no_group_selected.svg | 3.5 | 1 |
-| images/progress_complete.png | 0.9 | 1 |
-| images/progress_uncomplete.png | 0.9 | 1 |
 | lottie/checkmark_blue.json | 17 | 2 |
 | pdf/01_mod1_intro.pdf | 650.7 | 1 |
 | pdf/01_mod1_layunin.pdf | 478.3 | 1 |
