@@ -592,6 +592,10 @@
     "size_kb": 0.6
   },
   "images/icons/reminder.png": {
+    "md5Checksum": "720eb2278afbb404699c2d9ab9c27a87",
+    "size_kb": 18.6
+  },
+  "images/icons/reminder_old.png": {
     "md5Checksum": "85fd4606c803ce911da8a04d56af18d7",
     "size_kb": 10.4
   },

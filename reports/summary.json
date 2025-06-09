@@ -259,13 +259,13 @@
     "data": [
       {
         "assets": "total",
-        "KB": "42271 KB",
+        "KB": "42279 KB",
         "MB": "42.3 MB"
       },
       {
         "assets": "unused",
-        "KB": "12240 KB",
-        "MB": "12.2 MB"
+        "KB": "12251 KB",
+        "MB": "12.3 MB"
       }
     ]
   },
@@ -526,6 +526,10 @@
       {
         "path": "images/icons/red_plus.svg",
         "size_kb": 0.6
+      },
+      {
+        "path": "images/icons/reminder_old.png",
+        "size_kb": 10.4
       },
       {
         "path": "images/icons/report.png",
@@ -1027,7 +1031,7 @@
       {
         "path": "images/icons/reminder.png",
         "count": 14,
-        "size_kb": 10.4
+        "size_kb": 18.6
       },
       {
         "path": "images/icons/share.svg",
