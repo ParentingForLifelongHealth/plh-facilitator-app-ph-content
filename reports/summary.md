@@ -79,8 +79,8 @@
 
 | assets | KB | MB |
 | --- | --- | --- |
-| total | 42271 KB | 42.3 MB |
-| unused | 12240 KB | 12.2 MB |
+| total | 42279 KB | 42.3 MB |
+| unused | 12251 KB | 12.3 MB |
 </details>
 
 <details open>
@@ -154,6 +154,7 @@ Assets that appear in app-data but do not have references within sheets
 | images/icons/plus_emoji.svg | 0.9 |
 | images/icons/reader_blue.svg | 1.4 |
 | images/icons/red_plus.svg | 0.6 |
+| images/icons/reminder_old.png | 10.4 |
 | images/icons/report.png | 1.1 |
 | images/icons/report.svg | 0.8 |
 | images/icons/sessions.png | 1.3 |
@@ -272,7 +273,7 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | images/icons/people_network.svg | 6.9 | 1 |
 | images/icons/person_cog.svg | 2.9 | 1 |
 | images/icons/profile_card.svg | 7.4 | 1 |
-| images/icons/reminder.png | 10.4 | 14 |
+| images/icons/reminder.png | 18.6 | 14 |
 | images/icons/share.svg | 2.3 | 4 |
 | images/icons/task_1.png | 1 | 2 |
 | images/icons/task_2.png | 1.9 | 1 |
