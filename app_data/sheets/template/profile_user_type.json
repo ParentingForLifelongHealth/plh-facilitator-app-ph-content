@@ -151,6 +151,9 @@
             "style": "navigation",
             "disabled": "!@local.completed_enabled"
           },
+          "style_list": [
+            "flex: 1"
+          ],
           "_nested_name": "dg_footer.button_completed",
           "_dynamicFields": {
             "value": [

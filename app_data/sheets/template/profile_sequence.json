@@ -122,7 +122,7 @@
             "icon_src": "arrow-back",
             "variant": "no-background"
           },
-          "condition": "@local.completed_count !== 0",
+          "condition": false,
           "name": "round_button_1",
           "_nested_name": "dg_top.round_button_1",
           "_dynamicFields": {
@@ -155,22 +155,13 @@
                   ]
                 }
               }
-            },
-            "condition": [
-              {
-                "fullExpression": "@local.completed_count !== 0",
-                "matchedExpression": "@local.completed_count",
-                "type": "local",
-                "fieldName": "completed_count"
-              }
-            ]
+            }
           },
           "_dynamicDependencies": {
             "@local.completed_count": [
               "action_list.0._raw",
               "action_list.0._cleaned",
-              "action_list.0.params._id",
-              "condition"
+              "action_list.0.params._id"
             ]
           }
         },
@@ -266,8 +257,8 @@
                   "trigger": "completed",
                   "action_id": "set_data",
                   "args": [],
-                  "_raw": "completed | set_data | \n\n_list_id: profile_pages,\n_id: page_1,\ncompleted: true",
-                  "_cleaned": "completed | set_data | \n\n_list_id: profile_pages,\n_id: page_1,\ncompleted: true",
+                  "_raw": "completed | set_data | \n_list_id: profile_pages,\n_id: page_1,\ncompleted: true",
+                  "_cleaned": "completed | set_data | \n_list_id: profile_pages,\n_id: page_1,\ncompleted: true",
                   "params": {
                     "_list_id": "profile_pages",
                     "_id": "page_1",
@@ -316,17 +307,68 @@
                   "trigger": "completed",
                   "action_id": "set_data",
                   "args": [],
-                  "_raw": "completed | set_data | \n\n_list_id: profile_pages,\n_id: page_2,\ncompleted: true",
-                  "_cleaned": "completed | set_data | \n\n_list_id: profile_pages,\n_id: page_2,\ncompleted: true",
+                  "_raw": "completed | set_data | \n_list_id: profile_pages,\n_id: page_2,\ncompleted: true",
+                  "_cleaned": "completed | set_data | \n_list_id: profile_pages,\n_id: page_2,\ncompleted: true",
                   "params": {
                     "_list_id": "profile_pages",
                     "_id": "page_2",
                     "completed": true
                   }
+                },
+                {
+                  "trigger": "uncompleted",
+                  "action_id": "set_data",
+                  "args": [],
+                  "_raw": "uncompleted | set_data | \n_list_id: profile_pages,\n_id: page_@local.completed_count,\ncompleted: false",
+                  "_cleaned": "uncompleted | set_data | \n_list_id: profile_pages,\n_id: page_@local.completed_count,\ncompleted: false",
+                  "params": {
+                    "_list_id": "profile_pages",
+                    "_id": "page_@local.completed_count",
+                    "completed": false
+                  }
                 }
               ],
               "rows": [],
-              "_nested_name": "await_data_loop_evaluation.page_2.profile_user_organisation"
+              "_nested_name": "await_data_loop_evaluation.page_2.profile_user_organisation",
+              "_dynamicFields": {
+                "action_list": {
+                  "1": {
+                    "_raw": [
+                      {
+                        "fullExpression": "uncompleted | set_data | \n_list_id: profile_pages,\n_id: page_@local.completed_count,\ncompleted: false",
+                        "matchedExpression": "@local.completed_count",
+                        "type": "local",
+                        "fieldName": "completed_count"
+                      }
+                    ],
+                    "_cleaned": [
+                      {
+                        "fullExpression": "uncompleted | set_data | \n_list_id: profile_pages,\n_id: page_@local.completed_count,\ncompleted: false",
+                        "matchedExpression": "@local.completed_count",
+                        "type": "local",
+                        "fieldName": "completed_count"
+                      }
+                    ],
+                    "params": {
+                      "_id": [
+                        {
+                          "fullExpression": "page_@local.completed_count",
+                          "matchedExpression": "@local.completed_count",
+                          "type": "local",
+                          "fieldName": "completed_count"
+                        }
+                      ]
+                    }
+                  }
+                }
+              },
+              "_dynamicDependencies": {
+                "@local.completed_count": [
+                  "action_list.1._raw",
+                  "action_list.1._cleaned",
+                  "action_list.1.params._id"
+                ]
+              }
             }
           ],
           "_nested_name": "await_data_loop_evaluation.page_2",
@@ -366,17 +408,68 @@
                   "trigger": "completed",
                   "action_id": "set_data",
                   "args": [],
-                  "_raw": "completed | set_data |\n\n_list_id: profile_pages,\n_id: page_3,\ncompleted: true",
-                  "_cleaned": "completed | set_data |\n\n_list_id: profile_pages,\n_id: page_3,\ncompleted: true",
+                  "_raw": "completed | set_data |\n_list_id: profile_pages,\n_id: page_3,\ncompleted: true",
+                  "_cleaned": "completed | set_data |\n_list_id: profile_pages,\n_id: page_3,\ncompleted: true",
                   "params": {
                     "_list_id": "profile_pages",
                     "_id": "page_3",
                     "completed": true
                   }
+                },
+                {
+                  "trigger": "uncompleted",
+                  "action_id": "set_data",
+                  "args": [],
+                  "_raw": "uncompleted | set_data | \n_list_id: profile_pages,\n_id: page_@local.completed_count,\ncompleted: false",
+                  "_cleaned": "uncompleted | set_data | \n_list_id: profile_pages,\n_id: page_@local.completed_count,\ncompleted: false",
+                  "params": {
+                    "_list_id": "profile_pages",
+                    "_id": "page_@local.completed_count",
+                    "completed": false
+                  }
                 }
               ],
               "rows": [],
-              "_nested_name": "await_data_loop_evaluation.page_3.profile_user_location"
+              "_nested_name": "await_data_loop_evaluation.page_3.profile_user_location",
+              "_dynamicFields": {
+                "action_list": {
+                  "1": {
+                    "_raw": [
+                      {
+                        "fullExpression": "uncompleted | set_data | \n_list_id: profile_pages,\n_id: page_@local.completed_count,\ncompleted: false",
+                        "matchedExpression": "@local.completed_count",
+                        "type": "local",
+                        "fieldName": "completed_count"
+                      }
+                    ],
+                    "_cleaned": [
+                      {
+                        "fullExpression": "uncompleted | set_data | \n_list_id: profile_pages,\n_id: page_@local.completed_count,\ncompleted: false",
+                        "matchedExpression": "@local.completed_count",
+                        "type": "local",
+                        "fieldName": "completed_count"
+                      }
+                    ],
+                    "params": {
+                      "_id": [
+                        {
+                          "fullExpression": "page_@local.completed_count",
+                          "matchedExpression": "@local.completed_count",
+                          "type": "local",
+                          "fieldName": "completed_count"
+                        }
+                      ]
+                    }
+                  }
+                }
+              },
+              "_dynamicDependencies": {
+                "@local.completed_count": [
+                  "action_list.1._raw",
+                  "action_list.1._cleaned",
+                  "action_list.1.params._id"
+                ]
+              }
             }
           ],
           "_nested_name": "await_data_loop_evaluation.page_3",

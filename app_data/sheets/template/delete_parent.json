@@ -126,6 +126,15 @@
             },
             {
               "trigger": "click",
+              "action_id": "emit",
+              "args": [
+                "completed"
+              ],
+              "_raw": "click | emit: completed",
+              "_cleaned": "click | emit: completed"
+            },
+            {
+              "trigger": "click",
               "action_id": "set_data",
               "args": [],
               "_raw": "click | set_data |\n_list_id: parents,\n_id: @fields.current_coparent_id,\nco_parent_id: \"\",\nco_parent_name: \"\"",
@@ -136,15 +145,6 @@
                 "co_parent_id": "",
                 "co_parent_name": ""
               }
-            },
-            {
-              "trigger": "click",
-              "action_id": "emit",
-              "args": [
-                "completed"
-              ],
-              "_raw": "click | emit: completed",
-              "_cleaned": "click | emit: completed"
             }
           ],
           "parameter_list": {
@@ -185,7 +185,7 @@
                   ]
                 }
               },
-              "1": {
+              "2": {
                 "_raw": [
                   {
                     "fullExpression": "click | set_data |\n_list_id: parents,\n_id: @fields.current_coparent_id,\nco_parent_id: \"\",\nco_parent_name: \"\"",
@@ -222,9 +222,9 @@
               "action_list.0.params._id"
             ],
             "@fields.current_coparent_id": [
-              "action_list.1._raw",
-              "action_list.1._cleaned",
-              "action_list.1.params._id"
+              "action_list.2._raw",
+              "action_list.2._cleaned",
+              "action_list.2.params._id"
             ]
           }
         }
