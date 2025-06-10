@@ -17,14 +17,14 @@
 | display_group | 138 |
 | drawer | 1 |
 | google_sign_in_button | 4 |
-| image | 18 |
+| image | 17 |
 | items | 23 |
 | lottie_animation | 2 |
 | navigation_bar | 2 |
 | pdf | 1 |
 | qr_code | 1 |
 | radio_button_grid | 16 |
-| round_button | 45 |
+| round_button | 46 |
 | select_text | 1 |
 | set_variable | 1082 |
 | simple_checkbox | 2 |
@@ -71,6 +71,7 @@
 | set_item | 10 |
 | set_local | 101 |
 | share | 4 |
+| toast | 1 |
 | user | 4 |
 </details>
 
