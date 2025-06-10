@@ -307,6 +307,14 @@
       "_translations": {
         "value": {}
       }
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "incomplete_parent",
+      "value": "This profile is incomplete. Open to complete the missing details.",
+      "_translations": {
+        "value": {}
+      }
     }
   ],
   "_xlsxPath": "data/deployment_data_ph.xlsx",

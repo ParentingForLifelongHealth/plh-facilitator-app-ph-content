@@ -59,7 +59,7 @@
       },
       {
         "type": "image",
-        "count": 18
+        "count": 17
       },
       {
         "type": "items",
@@ -87,7 +87,7 @@
       },
       {
         "type": "round_button",
-        "count": 45
+        "count": 46
       },
       {
         "type": "select_text",
@@ -248,6 +248,10 @@
       {
         "type": "share",
         "count": 4
+      },
+      {
+        "type": "toast",
+        "count": 1
       },
       {
         "type": "user",

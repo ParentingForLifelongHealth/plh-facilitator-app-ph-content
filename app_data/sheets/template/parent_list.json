@@ -449,10 +449,22 @@
                       }
                     },
                     {
-                      "type": "image",
-                      "value": "images/icons/incomplete.svg",
-                      "_translations": {
-                        "value": {}
+                      "type": "round_button",
+                      "action_list": [
+                        {
+                          "trigger": "click",
+                          "action_id": "toast",
+                          "args": [],
+                          "_raw": "click | toast | message: @global.incomplete_parent",
+                          "_cleaned": "click | toast | message: @global.incomplete_parent",
+                          "params": {
+                            "message": "@global.incomplete_parent"
+                          }
+                        }
+                      ],
+                      "parameter_list": {
+                        "icon_src": "images/icons/incomplete.svg",
+                        "variant": "no-background"
                       },
                       "style_list": [
                         "max-width: 32px",
@@ -460,9 +472,39 @@
                       ],
                       "condition": "!@item.number || !@item.age || !@item.sex || !@item.child_name || !@item.child_age || !@item.child_sex || !@item.relationship || !@item.members || !@item.childcare || !@item.goal || !@item.consoltation",
                       "exclude_from_translation": true,
-                      "name": "image_2",
-                      "_nested_name": "data_items_6.display_group_3_@item.id.display_group_2.display_group_5.image_2",
+                      "name": "round_button_2",
+                      "_nested_name": "data_items_6.display_group_3_@item.id.display_group_2.display_group_5.round_button_2",
                       "_dynamicFields": {
+                        "action_list": {
+                          "0": {
+                            "_raw": [
+                              {
+                                "fullExpression": "click | toast | message: @global.incomplete_parent",
+                                "matchedExpression": "@global.incomplete_parent",
+                                "type": "global",
+                                "fieldName": "incomplete_parent"
+                              }
+                            ],
+                            "_cleaned": [
+                              {
+                                "fullExpression": "click | toast | message: @global.incomplete_parent",
+                                "matchedExpression": "@global.incomplete_parent",
+                                "type": "global",
+                                "fieldName": "incomplete_parent"
+                              }
+                            ],
+                            "params": {
+                              "message": [
+                                {
+                                  "fullExpression": "@global.incomplete_parent",
+                                  "matchedExpression": "@global.incomplete_parent",
+                                  "type": "global",
+                                  "fieldName": "incomplete_parent"
+                                }
+                              ]
+                            }
+                          }
+                        },
                         "condition": [
                           {
                             "fullExpression": "!@item.number || !@item.age || !@item.sex || !@item.child_name || !@item.child_age || !@item.child_sex || !@item.relationship || !@item.members || !@item.childcare || !@item.goal || !@item.consoltation",
@@ -533,14 +575,19 @@
                         ],
                         "_nested_name": [
                           {
-                            "fullExpression": "data_items_6.display_group_3_@item.id.display_group_2.display_group_5.image_2",
-                            "matchedExpression": "@item.id.display_group_2.display_group_5.image_2",
+                            "fullExpression": "data_items_6.display_group_3_@item.id.display_group_2.display_group_5.round_button_2",
+                            "matchedExpression": "@item.id.display_group_2.display_group_5.round_button_2",
                             "type": "item",
                             "fieldName": "id"
                           }
                         ]
                       },
                       "_dynamicDependencies": {
+                        "@global.incomplete_parent": [
+                          "action_list.0._raw",
+                          "action_list.0._cleaned",
+                          "action_list.0.params.message"
+                        ],
                         "!@item.number": [
                           "condition"
                         ],
@@ -574,7 +621,7 @@
                         "!@item.consoltation": [
                           "condition"
                         ],
-                        "@item.id.display_group_2.display_group_5.image_2": [
+                        "@item.id.display_group_2.display_group_5.round_button_2": [
                           "_nested_name"
                         ]
                       }
