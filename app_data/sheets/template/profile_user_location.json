@@ -668,6 +668,26 @@
       ],
       "rows": [
         {
+          "type": "round_button",
+          "name": "button_back",
+          "action_list": [
+            {
+              "trigger": "click",
+              "action_id": "emit",
+              "args": [
+                "uncompleted"
+              ],
+              "_raw": "click | emit: uncompleted",
+              "_cleaned": "click | emit: uncompleted"
+            }
+          ],
+          "parameter_list": {
+            "icon_src": "arrow-back",
+            "variant": "no-background"
+          },
+          "_nested_name": "dg_footer.button_back"
+        },
+        {
           "type": "button",
           "name": "button_completed_3",
           "value": "@global.save",
@@ -719,6 +739,9 @@
             "style": "navigation",
             "disabled": "!@local.completed_enabled_3"
           },
+          "style_list": [
+            "flex: 1"
+          ],
           "_nested_name": "dg_footer.button_completed_3",
           "_dynamicFields": {
             "value": [

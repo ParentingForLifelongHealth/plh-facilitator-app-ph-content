@@ -24,7 +24,7 @@
 | pdf | 1 |
 | qr_code | 1 |
 | radio_button_grid | 16 |
-| round_button | 43 |
+| round_button | 45 |
 | select_text | 1 |
 | set_variable | 1082 |
 | simple_checkbox | 2 |
@@ -57,7 +57,7 @@
 | emit: force_restart | 5 |
 | emit: server_sync | 18 |
 | emit: set_language | 1 |
-| emit: uncompleted | 86 |
+| emit: uncompleted | 88 |
 | feedback | 13 |
 | go_to | 37 |
 | nav_stack | 6 |
@@ -66,7 +66,7 @@
 | reset_app | 3 |
 | save_to_device | 4 |
 | scroll | 1 |
-| set_data | 27 |
+| set_data | 29 |
 | set_field | 88 |
 | set_item | 10 |
 | set_local | 101 |
