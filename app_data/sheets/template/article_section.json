@@ -1,6 +1,6 @@
 {
   "flow_type": "template",
-  "flow_name": "a_article_section",
+  "flow_name": "article_section",
   "status": "released",
   "rows": [
     {
@@ -19,12 +19,14 @@
       "type": "data_items",
       "name": "loop_sections",
       "value": "@data.a_sections",
+      "exclude_from_translation": true,
       "rows": [
         {
           "type": "template",
           "name": "section_element",
           "value": "section_element",
           "condition": "@item.foreign_key == @local.article_id",
+          "exclude_from_translation": true,
           "rows": [
             {
               "name": "title",
@@ -32,6 +34,7 @@
               "_translations": {
                 "value": {}
               },
+              "exclude_from_translation": true,
               "type": "set_variable",
               "_nested_name": "loop_sections.section_element.title",
               "_dynamicFields": {
@@ -56,6 +59,7 @@
               "_translations": {
                 "value": {}
               },
+              "exclude_from_translation": true,
               "type": "set_variable",
               "_nested_name": "loop_sections.section_element.text",
               "_dynamicFields": {
@@ -120,6 +124,6 @@
       }
     }
   ],
-  "_xlsxPath": "templates/menu_sub_tasks.xlsx",
-  "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1Jo1-q7KOE4gC2XRKEMcU9bXnrwB5oCRC"
+  "_xlsxPath": "templates/article_loop_override.xlsx",
+  "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
 }

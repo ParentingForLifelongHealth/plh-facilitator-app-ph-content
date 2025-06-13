@@ -26,13 +26,13 @@
 | radio_button_grid | 16 |
 | round_button | 46 |
 | select_text | 1 |
-| set_variable | 1082 |
+| set_variable | 1066 |
 | simple_checkbox | 2 |
 | task_card | 6 |
 | task_progress_bar | 2 |
-| template | 369 |
+| template | 356 |
 | test | 1 |
-| text | 286 |
+| text | 283 |
 | text_area | 2 |
 | text_box | 46 |
 | title | 45 |
@@ -80,8 +80,8 @@
 
 | assets | KB | MB |
 | --- | --- | --- |
-| total | 42279 KB | 42.3 MB |
-| unused | 12251 KB | 12.3 MB |
+| total | 42281 KB | 42.3 MB |
+| unused | 12247 KB | 12.2 MB |
 </details>
 
 <details open>
@@ -147,20 +147,20 @@ Assets that appear in app-data but do not have references within sheets
 | images/icons/group_add.svg | 2.2 |
 | images/icons/group_add_dark.svg | 2.3 |
 | images/icons/library.png | 1.5 |
-| images/icons/library.svg | 1.7 |
+| images/icons/library.svg | 0.9 |
 | images/icons/paper_plane_white.svg | 1.4 |
 | images/icons/person_cog.png | 0.8 |
 | images/icons/person_remove.svg | 1.5 |
 | images/icons/person_white.svg | 1.5 |
-| images/icons/plus_emoji.svg | 0.9 |
+| images/icons/plus_emoji.svg | 0.2 |
 | images/icons/reader_blue.svg | 1.4 |
 | images/icons/red_plus.svg | 0.6 |
 | images/icons/reminder_old.png | 10.4 |
 | images/icons/report.png | 1.1 |
-| images/icons/report.svg | 0.8 |
+| images/icons/report.svg | 0.3 |
 | images/icons/sessions.png | 1.3 |
 | images/icons/settings.png | 1.1 |
-| images/icons/settings.svg | 2.4 |
+| images/icons/settings.svg | 1.2 |
 | images/icons/task_0.png | 2 |
 | images/icons/trophy.svg | 1 |
 | images/person_cog.png | 0.8 |
@@ -275,8 +275,8 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | images/icons/person_cog.svg | 2.9 | 1 |
 | images/icons/profile_card.svg | 7.4 | 1 |
 | images/icons/reminder.png | 18.6 | 14 |
-| images/icons/share.svg | 2.3 | 4 |
-| images/icons/task_1.png | 1 | 2 |
+| images/icons/share.svg | 4.2 | 4 |
+| images/icons/task_1.png | 1 | 1 |
 | images/icons/task_2.png | 1.9 | 1 |
 | images/icons/task_3.png | 2 | 1 |
 | images/icons/task_4.png | 1.5 | 1 |
@@ -343,11 +343,11 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | data_list | legal_terms | 2 |
 | data_list | lifecycle_actions | 1 |
 | data_pipe |  | 2 |
-| data_pipe | generated | 230 |
-| generator |  | 9 |
+| data_pipe | generated | 219 |
+| generator |  | 10 |
 | global |  | 12 |
 | global | legal_terms | 1 |
-| template |  | 85 |
-| template | generated | 321 |
+| template |  | 83 |
+| template | generated | 309 |
 | template | legal_terms | 4 |
 </details>

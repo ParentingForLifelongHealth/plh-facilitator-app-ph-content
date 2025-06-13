@@ -136,7 +136,7 @@
               "args": [
                 "close_all"
               ],
-              "_raw": "nav_stack: close_all",
+              "_raw": "click | nav_stack: close_all",
               "_cleaned": "click | nav_stack: close_all"
             },
             {
@@ -198,7 +198,7 @@
               "args": [
                 "close_all"
               ],
-              "_raw": "nav_stack: close_all",
+              "_raw": "click | nav_stack: close_all",
               "_cleaned": "click | nav_stack: close_all"
             },
             {

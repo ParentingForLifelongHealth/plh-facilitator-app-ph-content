@@ -1122,9 +1122,6 @@
                 "progress_percent": "@local.progress"
               },
               "condition": "!!@local.current_id && !(@local.first && @local.last)",
-              "style_list": [
-                "flex: 1"
-              ],
               "name": "task_progress_bar_1",
               "_nested_name": "header.display_group_1.task_progress_bar_1",
               "_dynamicFields": {
@@ -1224,9 +1221,6 @@
                     "icon_src": "images/icons/cancel.svg"
                   },
                   "exclude_from_translation": true,
-                  "style_list": [
-                    "width: 96px"
-                  ],
                   "_nested_name": "header.display_group_1.display_group_2.close_all"
                 }
               ],

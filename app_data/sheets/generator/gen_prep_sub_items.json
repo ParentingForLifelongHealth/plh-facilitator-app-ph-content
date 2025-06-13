@@ -34,8 +34,8 @@
       "output_target": "menus"
     }
   ],
-  "_xlsxPath": "templates/menu_sub_tasks.xlsx",
-  "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1Jo1-q7KOE4gC2XRKEMcU9bXnrwB5oCRC",
+  "_xlsxPath": "templates/article_loop_override.xlsx",
+  "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go",
   "_output_flows": [
     {
       "flow_name": "prep_week_1_session_sub_items",
@@ -1129,61 +1129,6 @@
     },
     {
       "flow_name": "prep_week_8_session_8_sub_items",
-      "flow_subtype": "generated",
-      "flow_type": "data_pipe"
-    },
-    {
-      "flow_name": "prep_copy_week_1_session_sub_items",
-      "flow_subtype": "generated",
-      "flow_type": "data_pipe"
-    },
-    {
-      "flow_name": "prep_copy_week_1_session_2_sub_items",
-      "flow_subtype": "generated",
-      "flow_type": "data_pipe"
-    },
-    {
-      "flow_name": "prep_copy_week_1_session_3_sub_items",
-      "flow_subtype": "generated",
-      "flow_type": "data_pipe"
-    },
-    {
-      "flow_name": "prep_copy_week_1_session_4_sub_items",
-      "flow_subtype": "generated",
-      "flow_type": "data_pipe"
-    },
-    {
-      "flow_name": "prep_copy_week_1_session_5_sub_items",
-      "flow_subtype": "generated",
-      "flow_type": "data_pipe"
-    },
-    {
-      "flow_name": "prep_copy_week_1_session_6_sub_items",
-      "flow_subtype": "generated",
-      "flow_type": "data_pipe"
-    },
-    {
-      "flow_name": "prep_copy_week_1_session_7_sub_items",
-      "flow_subtype": "generated",
-      "flow_type": "data_pipe"
-    },
-    {
-      "flow_name": "prep_copy_week_1_session_8_sub_items",
-      "flow_subtype": "generated",
-      "flow_type": "data_pipe"
-    },
-    {
-      "flow_name": "prep_copy_week_1_session_9_sub_items",
-      "flow_subtype": "generated",
-      "flow_type": "data_pipe"
-    },
-    {
-      "flow_name": "prep_copy_week_1_session_10_sub_items",
-      "flow_subtype": "generated",
-      "flow_type": "data_pipe"
-    },
-    {
-      "flow_name": "prep_copy_week_1_session_11_sub_items",
       "flow_subtype": "generated",
       "flow_type": "data_pipe"
     }

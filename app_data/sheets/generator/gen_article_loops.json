@@ -28,8 +28,8 @@
       ]
     }
   ],
-  "_xlsxPath": "templates/menu_sub_tasks.xlsx",
-  "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1Jo1-q7KOE4gC2XRKEMcU9bXnrwB5oCRC",
+  "_xlsxPath": "templates/article_loop_override.xlsx",
+  "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go",
   "_output_flows": [
     {
       "flow_name": "sub_item_week_1_session",
@@ -138,11 +138,6 @@
     },
     {
       "flow_name": "sub_item_week_8_session",
-      "flow_subtype": "generated",
-      "flow_type": "template"
-    },
-    {
-      "flow_name": "sub_item_copy_week_1_session",
       "flow_subtype": "generated",
       "flow_type": "template"
     }
