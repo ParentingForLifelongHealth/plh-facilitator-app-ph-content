@@ -147,7 +147,7 @@
       "rows": [
         {
           "type": "qr_code",
-          "value": "@local.user_id",
+          "value": "@fields._auth_user_id",
           "_translations": {
             "value": {}
           },
@@ -156,15 +156,15 @@
           "_dynamicFields": {
             "value": [
               {
-                "fullExpression": "@local.user_id",
-                "matchedExpression": "@local.user_id",
-                "type": "local",
-                "fieldName": "user_id"
+                "fullExpression": "@fields._auth_user_id",
+                "matchedExpression": "@fields._auth_user_id",
+                "type": "fields",
+                "fieldName": "_auth_user_id"
               }
             ]
           },
           "_dynamicDependencies": {
-            "@local.user_id": [
+            "@fields._auth_user_id": [
               "value"
             ]
           }
@@ -172,7 +172,7 @@
         {
           "type": "select_text",
           "name": "user_code",
-          "value": "@local.user_id",
+          "value": "@fields._auth_user_id",
           "_translations": {
             "value": {}
           },
@@ -184,10 +184,10 @@
           "_dynamicFields": {
             "value": [
               {
-                "fullExpression": "@local.user_id",
-                "matchedExpression": "@local.user_id",
-                "type": "local",
-                "fieldName": "user_id"
+                "fullExpression": "@fields._auth_user_id",
+                "matchedExpression": "@fields._auth_user_id",
+                "type": "fields",
+                "fieldName": "_auth_user_id"
               }
             ],
             "parameter_list": {
@@ -210,7 +210,7 @@
             }
           },
           "_dynamicDependencies": {
-            "@local.user_id": [
+            "@fields._auth_user_id": [
               "value"
             ],
             "@local.copy": [
