@@ -267,7 +267,7 @@
           "parameter_list": {
             "variant": "faq"
           },
-          "condition": "@item.home_screen_section_list == @local.library_id && @local.condition_package",
+          "condition": "@item.section == @local.library_id && @local.condition_package",
           "name": "button_5_@item.id",
           "_nested_name": "items_6.button_5_@item.id",
           "_dynamicFields": {
@@ -311,19 +311,19 @@
             },
             "condition": [
               {
-                "fullExpression": "@item.home_screen_section_list == @local.library_id && @local.condition_package",
-                "matchedExpression": "@item.home_screen_section_list",
+                "fullExpression": "@item.section == @local.library_id && @local.condition_package",
+                "matchedExpression": "@item.section",
                 "type": "item",
-                "fieldName": "home_screen_section_list"
+                "fieldName": "section"
               },
               {
-                "fullExpression": "@item.home_screen_section_list == @local.library_id && @local.condition_package",
+                "fullExpression": "@item.section == @local.library_id && @local.condition_package",
                 "matchedExpression": "@local.library_id",
                 "type": "local",
                 "fieldName": "library_id"
               },
               {
-                "fullExpression": "@item.home_screen_section_list == @local.library_id && @local.condition_package",
+                "fullExpression": "@item.section == @local.library_id && @local.condition_package",
                 "matchedExpression": "@local.condition_package",
                 "type": "local",
                 "fieldName": "condition_package"
@@ -357,7 +357,7 @@
               "name",
               "_nested_name"
             ],
-            "@item.home_screen_section_list": [
+            "@item.section": [
               "condition"
             ],
             "@local.library_id": [
