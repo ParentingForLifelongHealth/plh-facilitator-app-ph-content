@@ -51,7 +51,7 @@
             },
             {
               "name": "text",
-              "value": "@item.text",
+              "value": "@item.text_1",
               "_translations": {
                 "value": {}
               },
@@ -60,15 +60,15 @@
               "_dynamicFields": {
                 "value": [
                   {
-                    "fullExpression": "@item.text",
-                    "matchedExpression": "@item.text",
+                    "fullExpression": "@item.text_1",
+                    "matchedExpression": "@item.text_1",
                     "type": "item",
-                    "fieldName": "text"
+                    "fieldName": "text_1"
                   }
                 ]
               },
               "_dynamicDependencies": {
-                "@item.text": [
+                "@item.text_1": [
                   "value"
                 ]
               }
@@ -143,6 +143,6 @@
       }
     }
   ],
-  "_xlsxPath": "templates/menu_sub_tasks.xlsx",
-  "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1Jo1-q7KOE4gC2XRKEMcU9bXnrwB5oCRC"
+  "_xlsxPath": "templates/article_loop_override.xlsx",
+  "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
 }

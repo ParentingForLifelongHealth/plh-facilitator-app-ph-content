@@ -78,8 +78,8 @@
       "id": "message_8",
       "foreign_key": "week_2_session_6",
       "title": "Mensahe 2 - Talakayan Tungkol sa Pabaong Gawain",
-      "text": "Noong nakaraang linggo, pinag-usapan natin ang pakikipag-One-on-One Time kasama ang anak. Ngayong araw, titingnan natin ang isa sa iba pang paraan ng paggamit ng One-on-One Time—ang pakikipag-usap tungkol sa damdamin kasama ang anak. Pero una,  mag-chat muna tayo tungkol sa inyong home activity o pabaong gawain. Kamusta ang pag-One-on-One Time ninyo?",
-      "guidance": "Tanggapin ang mga karanasan na ibabahagi ng mga magulang. Magbahagi ng isang tagumpay at isang hamon mula sa mga ibinahagi ng mga magulang.",
+      "text": "Noong nakaraang linggo, pinag-usapan natin ang pakikipag-One-on-One Time kasama ang anak. Ngayong araw, titingnan natin ang isa sa iba pang paraan ng paggamit ng One-on-One Time—ang pakikipag-usap tungkol sa damdamin kasama ang anak. Pero una, mag-chat muna tayo tungkol sa inyong home activity o pabaong gawain. **Kamusta ang pag-One-on-One Time ninyo?**",
+      "guidance": "Tanggapin ang mga karanasan na ibabahagi ng mga magulang. I-connect ang kanilang mga karanasan sa mga pundasyon ng pag-One-on-One Time.",
       "asset_type": "",
       "asset": "",
       "ignore": 8
@@ -108,7 +108,7 @@
       "id": "message_11",
       "foreign_key": "week_2_session_9",
       "title": "Mensahe 4 - Pagbabahagi ng Hamon",
-      "text": "Nauunawaan kong mahirap mag-isip ng hamon. Narito ang ilang sa mga halimbawa ng mga hamon sa One-on-One time na ibinahagi ng ibang magulang:\n- Wala akong sapat na oras\n- Ayaw ng anak kong makipag-One-on-One Time\n- Hindi ako komportable sa mga gustong gawin ng anak ko\n\nMay mga nakaranas din ba ng mga hamong ito? Mag-react po tayo sa mga hamon na nakalista kapag ito ay naranasan niyo rin!",
+      "text": "Nauunawaan kong mahirap mag-isip ng hamon. Narito ang ilang sa mga \nhalimbawa ng mga hamon sa One-on-One time na ibinahagi ng ibang magulang:\n- Wala akong sapat na oras\n- Ayaw ng anak kong makipag-One-on-One Time\n- Hindi ako komportable sa mga gustong gawin ng anak ko\n\nMay mga nakaranas din ba ng mga hamong ito? Mag-react po tayo sa mga hamon na nakalista kapag ito ay naranasan niyo rin!",
       "guidance": "Maaaring gawing **poll** sa Viber ang mensahe na ito para makapili ang mga magulang ng isang hamon. Hayaan ang mga magulang na sumagot, at pumili ng isang hamon na maaaring pag-isipan ng buong grupo.",
       "asset_type": "",
       "asset": "",
@@ -311,7 +311,7 @@
       "text": "Narito ang isang maikling video kung paano makipag-usap tungkol sa damdamin kasama ang anak. Ito ay paalala ng mga pundasyon:\n\n1️⃣ **HUMINGA** - Huminga bago magsimula para mapakalma ang sarili.\n2️⃣ **IBAHAGI** - Ibahagi ang nararamdaman. \n3️⃣ **MAKINIG** - Makinig sa iyong anak na bata o tinedyer. \n4️⃣ **MALASAKIT** - Malasakit para sa kanila. \n5️⃣ **MAGHANAP** - Maghanap ng positibo.",
       "guidance": "",
       "asset_type": "youtube",
-      "asset": "https://www.youtube.com/watch?v=PCHaqxUnQdk",
+      "asset": "https://youtu.be/PCHaqxUnQdk",
       "ignore": 31
     },
     {
@@ -321,7 +321,7 @@
       "text": "Bago natin tapusin ang chat session ngayong araw, gagawin natin ang Tumigil nang Sandali. Tandaan na pwede po ninyong gawin din ito kapag kayo ay nakakaramdam ng stress.",
       "guidance": "Ipadala ang Video message ng Pagtigil nang Sandali.",
       "asset_type": "youtube",
-      "asset": "https://www.youtube.com/watch?v=BqYrYgJ3iKY",
+      "asset": "https://youtu.be/BqYrYgJ3iKY",
       "ignore": 32
     },
     {
@@ -1883,26 +1883,6 @@
       "asset_type": "",
       "asset": "",
       "ignore": 188
-    },
-    {
-      "id": "message_189",
-      "foreign_key": "copy_week_1_session_4",
-      "title": "Reminder Para sa Unang Sesyon",
-      "text": "Magandang araw! Paalala lamang na ang ating MaPa Chat Hybrid Program ay magsisimula na mamayang [ORAS] sa [VENUE]. Excited na kaming makasama kayo! Sisimulan natin ang pagbuo ng Masayang Tahanan sa isang simple at epektibong parenting skill: ang pakikipag-**One-on-One Time sa inyong Anak!** Malalaman ninyo mamaya ano ang magagawa nito sa inyong pamilya! Kita kits!",
-      "guidance": "Ipadala ang mensaheng ito sa mga magulang sa pamamagitan ng SMS/text messaging bilang paalala para sa unang sesyon. Palitan ang [ORAS] at [VENUE] ng iyong sesyon bago ipadala ang mensahe.",
-      "asset_type": "",
-      "asset": "",
-      "ignore": 189
-    },
-    {
-      "id": "message_190",
-      "foreign_key": "copy_week_1_session_11",
-      "title": "Pagkatapos ng Sesyon: Pasasalamat sa Kalahok at Pagpapaalala na Magpraktis",
-      "text": "Hello! Salamat sa pagdalo sa ating sesyon! Tandaan, ang ating pabaong gawain ngayong linggo ay ang pagkikipag-One-on-One Time kasama ang iyong anak. Kahit 5 minuto lang, malaki ang magagawa! Kaya mo ito!",
-      "guidance": "",
-      "asset_type": "",
-      "asset": "",
-      "ignore": 190
     }
   ],
   "_xlsxPath": "data/modules_sub_items_ph.xlsx",

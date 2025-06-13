@@ -103,7 +103,7 @@
     {
       "id": "intro_13",
       "foreign_key": "week_2_session_9",
-      "text": "Laktawan ang mensaheng ito kung may ibinahaging hamon ang mga magulang na dapat pag-usapan",
+      "text": "Laktawan ang mensaheng ito kung may ibinahagi ng hamon ang mga magulang na dapat pag-usapan.",
       "image_asset": "",
       "text_2": "",
       "ignore": 13
@@ -427,86 +427,6 @@
       "image_asset": "",
       "text_2": "",
       "ignore": 53
-    },
-    {
-      "id": "intro_54",
-      "foreign_key": "copy_week_1_session",
-      "text": "Welcome sa **Modyul 1: One-on-One Time Kasama ang Iyong Anak!**\n\nSa Modyul 1, bilang facilitator, kailangan mong makamit ang apat na bagay:\n\n1️⃣ Ipakilala ang programa ng MaPaChat sa mga pamilya\n2️⃣ Magtatag ng mga patakaran\n3️⃣ Tulungan ang mga magulang na pag-isipan at ilarawan ang kanilang mga layunin para sa pamilya\n4️⃣ Talakayin at i-praktis ang One-on-One Time kasama ang mga kalahok",
-      "image_asset": "pdf",
-      "text_2": "",
-      "ignore": 54
-    },
-    {
-      "id": "intro_55",
-      "foreign_key": "copy_week_1_session_2",
-      "text": "Bago ang sesyon, pag-usapan ang mga susunod kasama ang iyong co-facilitator:\t\n\n1️⃣ Basahin ang modyul at siguraduhin klaro para sa inyo ang mga layunin sa inyong talakayan\n\n2️⃣ Magsulat ng mga notes na makakatulong sa inyo sa pagpapadaloy ng sesyon\n\n3️⃣ Maaaring makatulong na isulat ang iba't ibang paraan ng pagtatanong sa mga kalahok\n\n4️⃣ Maaari mo ring pagsanayan o i-praktis ang pagsasagawa o pagtalakay ng ilang bahagi ng sesyon kasama ang iyong co-facilitator!\n\n5️⃣ Magdesisyon kung sino sa inyo at sa co-facilitator ang mangunguna sa mga aktibidad at kung sino ang magbibigay ng suporta\n\n6️⃣ Suriin ang mga dokumento ng bawat participant upang makita ang kanilang progreso sa programa at upang tandaan kung sino ang nangangailangan ng karagdagang suporta\n\n7️⃣ Hatiin ang oras ayon sa pangangailangan ng grupo\n\n8️⃣ Dumating ng maaga upang ihanda ang espasyo na gagamitin\"",
-      "image_asset": "",
-      "text_2": "",
-      "ignore": 55
-    },
-    {
-      "id": "intro_56",
-      "foreign_key": "copy_week_1_session_3",
-      "text": "Mga Importanteng Paalala Para sa Unang Sesyon:\n\n1️⃣ Sa unang sesyon, importante na magkaroon ng ligtas at malugod na lugar para sa lahat.\n\n2️⃣ Pag-usapan kasama ang buong grupo ng mga magulang ang mga patakaran sa simula ng programa. Kailangang sumasang-ayon ang lahat.\n\n3️⃣ Maaaring nahihiya pa ang mga magulang dahil ito ang unang sesyon, bigyan sila ng papuri at pasasalamat para sa kanilang pagbabahagi sa unang araw.\n\n4️⃣ Siguraduhing paalalahan ang mga magulang na walang perpektong tahanan. Lahat ay problema at mga hamon - regular na purihin ang mga magulang sa pagsali sa programa.\n\n5️⃣Paalalahanan ang mga magulang na kung ano man ang pag-uusapan o ibabahagi sa grupo, mananatili ito sa grupo! Importante na sa simula pa lamang ay klaro na kung ano ang mga maaaring ibahagi sa labas ng grupo at kung ano ang hindi.",
-      "image_asset": "",
-      "text_2": "",
-      "ignore": 56
-    },
-    {
-      "id": "intro_57",
-      "foreign_key": "copy_week_1_session_5",
-      "text": "**ISTRUKTURA NG SESYON**\n\nI-review ang istruktura ng sesyon para sa Modyul 1.",
-      "image_asset": "pdf",
-      "text_2": "",
-      "ignore": 57
-    },
-    {
-      "id": "intro_58",
-      "foreign_key": "copy_week_1_session_6",
-      "text": "**1 | PANIMULANG GAWAIN**\n\nI-deliver ang **Panimulang Gawain** gamit ang Facilitator Guide sa ibaba:",
-      "image_asset": "pdf",
-      "text_2": "",
-      "ignore": 58
-    },
-    {
-      "id": "intro_59",
-      "foreign_key": "copy_week_1_session_7",
-      "text": "**2 | PAGBUO NG LAYUNIN**\n\nI-deliver ang **Pagbuo ng Layunin** gamit ang Facilitator Guide sa ibaba:",
-      "image_asset": "pdf",
-      "text_2": "",
-      "ignore": 59
-    },
-    {
-      "id": "intro_60",
-      "foreign_key": "copy_week_1_session_8",
-      "text": "**3 | MAPA SKILL: ONE-ON-ONE TIME**\n\nI-deliver ang **MaPa Skill: One-on-One Time** gamit ang Facilitator Guide sa ibaba:",
-      "image_asset": "pdf",
-      "text_2": "",
-      "ignore": 60
-    },
-    {
-      "id": "intro_61",
-      "foreign_key": "copy_week_1_session_9",
-      "text": "**4 | PABAONG GAWAIN**\n\nI-deliver ang **Pabaong Gawain** gamit ang Facilitator Guide sa ibaba:",
-      "image_asset": "pdf",
-      "text_2": "",
-      "ignore": 61
-    },
-    {
-      "id": "intro_62",
-      "foreign_key": "copy_week_1_session_10",
-      "text": "**5 | PAGTATAPOS**\n\nI-deliver ang **Pagtatapos** gamit ang Facilitator Guide sa ibaba:",
-      "image_asset": "pdf",
-      "text_2": "",
-      "ignore": 62
-    },
-    {
-      "id": "intro_63",
-      "foreign_key": "copy_week_1_session_11",
-      "text": "**6 | MENSAHE NG PAGPAPAALALA**",
-      "image_asset": "",
-      "text_2": "",
-      "ignore": 63
     }
   ],
   "_xlsxPath": "data/modules_sub_items_ph.xlsx",
