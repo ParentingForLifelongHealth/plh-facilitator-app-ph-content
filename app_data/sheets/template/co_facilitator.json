@@ -200,8 +200,8 @@
                     }
                   ],
                   "parameter_list": {
-                    "variant": "no-background",
-                    "icon_src": "images/icons/delete.svg"
+                    "icon_src": "images/icons/delete.svg",
+                    "style": "orange"
                   },
                   "condition": true,
                   "_nested_name": "data_items_2.display_group_1_@item.id.display_group_2.button_delete_shared",

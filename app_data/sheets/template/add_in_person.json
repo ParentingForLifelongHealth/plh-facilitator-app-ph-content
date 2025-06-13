@@ -382,6 +382,99 @@
               }
             },
             {
+              "name": "answer3_valid",
+              "value": "@calc((/^\\d+$/.test(@local.answer_3) && @local.answer_3>= 1 && @local.answer_3<= 1000) || @local.answer_3 == '' || !@local.answer_3)",
+              "_translations": {
+                "value": {}
+              },
+              "exclude_from_translation": true,
+              "type": "set_variable",
+              "_nested_name": "q1_answered.is_lead.answer3_valid",
+              "_dynamicFields": {
+                "value": [
+                  {
+                    "fullExpression": "@calc((/^\\d+$/.test(@local.answer_3) && @local.answer_3>= 1 && @local.answer_3<= 1000) || @local.answer_3 == '' || !@local.answer_3)",
+                    "matchedExpression": "@local.answer_3",
+                    "type": "local",
+                    "fieldName": "answer_3"
+                  },
+                  {
+                    "fullExpression": "@calc((/^\\d+$/.test(@local.answer_3) && @local.answer_3>= 1 && @local.answer_3<= 1000) || @local.answer_3 == '' || !@local.answer_3)",
+                    "matchedExpression": "@local.answer_3",
+                    "type": "local",
+                    "fieldName": "answer_3"
+                  },
+                  {
+                    "fullExpression": "@calc((/^\\d+$/.test(@local.answer_3) && @local.answer_3>= 1 && @local.answer_3<= 1000) || @local.answer_3 == '' || !@local.answer_3)",
+                    "matchedExpression": "@local.answer_3",
+                    "type": "local",
+                    "fieldName": "answer_3"
+                  },
+                  {
+                    "fullExpression": "@calc((/^\\d+$/.test(@local.answer_3) && @local.answer_3>= 1 && @local.answer_3<= 1000) || @local.answer_3 == '' || !@local.answer_3)",
+                    "matchedExpression": "@local.answer_3",
+                    "type": "local",
+                    "fieldName": "answer_3"
+                  },
+                  {
+                    "fullExpression": "@calc((/^\\d+$/.test(@local.answer_3) && @local.answer_3>= 1 && @local.answer_3<= 1000) || @local.answer_3 == '' || !@local.answer_3)",
+                    "matchedExpression": "!@local.answer_3",
+                    "type": "local",
+                    "fieldName": "answer_3"
+                  },
+                  {
+                    "fullExpression": "@calc((/^\\d+$/.test(@local.answer_3) && @local.answer_3>= 1 && @local.answer_3<= 1000) || @local.answer_3 == '' || !@local.answer_3)",
+                    "matchedExpression": "@calc((/^\\d+$/.test(@local.answer_3) && @local.answer_3>= 1 && @local.answer_3<= 1000) || @local.answer_3 == '' || !@local.answer_3)",
+                    "type": "calc",
+                    "fieldName": "(/^\\d+$/.test(@local.answer_3) && @local.answer_3>= 1 && @local.answer_3<= 1000) || @local.answer_3 == '' || !@local.answer_3"
+                  }
+                ]
+              },
+              "_dynamicDependencies": {
+                "@local.answer_3": [
+                  "value",
+                  "value",
+                  "value",
+                  "value"
+                ],
+                "!@local.answer_3": [
+                  "value"
+                ],
+                "@calc((/^\\d+$/.test(@local.answer_3) && @local.answer_3>= 1 && @local.answer_3<= 1000) || @local.answer_3 == '' || !@local.answer_3)": [
+                  "value"
+                ]
+              }
+            },
+            {
+              "type": "text",
+              "value": "Please enter a valid number between 1 and 999.",
+              "_translations": {
+                "value": {}
+              },
+              "condition": "!@local.answer3_valid",
+              "style_list": [
+                "color: #FF0000",
+                "font-size: 14px"
+              ],
+              "name": "text_6",
+              "_nested_name": "q1_answered.is_lead.text_6",
+              "_dynamicFields": {
+                "condition": [
+                  {
+                    "fullExpression": "!@local.answer3_valid",
+                    "matchedExpression": "!@local.answer3_valid",
+                    "type": "local",
+                    "fieldName": "answer3_valid"
+                  }
+                ]
+              },
+              "_dynamicDependencies": {
+                "!@local.answer3_valid": [
+                  "condition"
+                ]
+              }
+            },
+            {
               "type": "text",
               "name": "question_4",
               "value": "How much time did you spend on preparing for the session?",
@@ -418,6 +511,99 @@
               "_dynamicDependencies": {
                 "@global.minutes": [
                   "parameter_list.placeholder"
+                ]
+              }
+            },
+            {
+              "name": "answer4_valid",
+              "value": "@calc((/^\\d+$/.test(@local.answer_4) && @local.answer_4>= 1 && @local.answer_4<= 1000) || @local.answer_4 == '' || !@local.answer_4)",
+              "_translations": {
+                "value": {}
+              },
+              "exclude_from_translation": true,
+              "type": "set_variable",
+              "_nested_name": "q1_answered.is_lead.answer4_valid",
+              "_dynamicFields": {
+                "value": [
+                  {
+                    "fullExpression": "@calc((/^\\d+$/.test(@local.answer_4) && @local.answer_4>= 1 && @local.answer_4<= 1000) || @local.answer_4 == '' || !@local.answer_4)",
+                    "matchedExpression": "@local.answer_4",
+                    "type": "local",
+                    "fieldName": "answer_4"
+                  },
+                  {
+                    "fullExpression": "@calc((/^\\d+$/.test(@local.answer_4) && @local.answer_4>= 1 && @local.answer_4<= 1000) || @local.answer_4 == '' || !@local.answer_4)",
+                    "matchedExpression": "@local.answer_4",
+                    "type": "local",
+                    "fieldName": "answer_4"
+                  },
+                  {
+                    "fullExpression": "@calc((/^\\d+$/.test(@local.answer_4) && @local.answer_4>= 1 && @local.answer_4<= 1000) || @local.answer_4 == '' || !@local.answer_4)",
+                    "matchedExpression": "@local.answer_4",
+                    "type": "local",
+                    "fieldName": "answer_4"
+                  },
+                  {
+                    "fullExpression": "@calc((/^\\d+$/.test(@local.answer_4) && @local.answer_4>= 1 && @local.answer_4<= 1000) || @local.answer_4 == '' || !@local.answer_4)",
+                    "matchedExpression": "@local.answer_4",
+                    "type": "local",
+                    "fieldName": "answer_4"
+                  },
+                  {
+                    "fullExpression": "@calc((/^\\d+$/.test(@local.answer_4) && @local.answer_4>= 1 && @local.answer_4<= 1000) || @local.answer_4 == '' || !@local.answer_4)",
+                    "matchedExpression": "!@local.answer_4",
+                    "type": "local",
+                    "fieldName": "answer_4"
+                  },
+                  {
+                    "fullExpression": "@calc((/^\\d+$/.test(@local.answer_4) && @local.answer_4>= 1 && @local.answer_4<= 1000) || @local.answer_4 == '' || !@local.answer_4)",
+                    "matchedExpression": "@calc((/^\\d+$/.test(@local.answer_4) && @local.answer_4>= 1 && @local.answer_4<= 1000) || @local.answer_4 == '' || !@local.answer_4)",
+                    "type": "calc",
+                    "fieldName": "(/^\\d+$/.test(@local.answer_4) && @local.answer_4>= 1 && @local.answer_4<= 1000) || @local.answer_4 == '' || !@local.answer_4"
+                  }
+                ]
+              },
+              "_dynamicDependencies": {
+                "@local.answer_4": [
+                  "value",
+                  "value",
+                  "value",
+                  "value"
+                ],
+                "!@local.answer_4": [
+                  "value"
+                ],
+                "@calc((/^\\d+$/.test(@local.answer_4) && @local.answer_4>= 1 && @local.answer_4<= 1000) || @local.answer_4 == '' || !@local.answer_4)": [
+                  "value"
+                ]
+              }
+            },
+            {
+              "type": "text",
+              "value": "Please enter a valid number between 1 and 999.",
+              "_translations": {
+                "value": {}
+              },
+              "condition": "!@local.answer4_valid",
+              "style_list": [
+                "color: #FF0000",
+                "font-size: 14px"
+              ],
+              "name": "text_10",
+              "_nested_name": "q1_answered.is_lead.text_10",
+              "_dynamicFields": {
+                "condition": [
+                  {
+                    "fullExpression": "!@local.answer4_valid",
+                    "matchedExpression": "!@local.answer4_valid",
+                    "type": "local",
+                    "fieldName": "answer4_valid"
+                  }
+                ]
+              },
+              "_dynamicDependencies": {
+                "!@local.answer4_valid": [
+                  "condition"
                 ]
               }
             },
@@ -1637,6 +1823,39 @@
       }
     },
     {
+      "name": "valid",
+      "value": "@local.answer3_valid && @local.answer4_valid",
+      "_translations": {
+        "value": {}
+      },
+      "type": "set_variable",
+      "_nested_name": "valid",
+      "_dynamicFields": {
+        "value": [
+          {
+            "fullExpression": "@local.answer3_valid && @local.answer4_valid",
+            "matchedExpression": "@local.answer3_valid",
+            "type": "local",
+            "fieldName": "answer3_valid"
+          },
+          {
+            "fullExpression": "@local.answer3_valid && @local.answer4_valid",
+            "matchedExpression": "@local.answer4_valid",
+            "type": "local",
+            "fieldName": "answer4_valid"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@local.answer3_valid": [
+          "value"
+        ],
+        "@local.answer4_valid": [
+          "value"
+        ]
+      }
+    },
+    {
       "type": "display_group",
       "parameter_list": {
         "sticky": "bottom"
@@ -1690,8 +1909,11 @@
               "_cleaned": "click | emit: completed"
             }
           ],
+          "parameter_list": {
+            "disabled": "!@local.valid"
+          },
           "exclude_from_translation": true,
-          "_nested_name": "display_group_20.save",
+          "_nested_name": "display_group_21.save",
           "_dynamicFields": {
             "action_list": {
               "0": {
@@ -1942,6 +2164,16 @@
                   ]
                 }
               }
+            },
+            "parameter_list": {
+              "disabled": [
+                {
+                  "fullExpression": "!@local.valid",
+                  "matchedExpression": "!@local.valid",
+                  "type": "local",
+                  "fieldName": "valid"
+                }
+              ]
             }
           },
           "_dynamicDependencies": {
@@ -2004,12 +2236,15 @@
               "action_list.0._raw",
               "action_list.0._cleaned",
               "action_list.0.params.question_10"
+            ],
+            "!@local.valid": [
+              "parameter_list.disabled"
             ]
           }
         }
       ],
-      "name": "display_group_20",
-      "_nested_name": "display_group_20"
+      "name": "display_group_21",
+      "_nested_name": "display_group_21"
     }
   ],
   "_xlsxPath": "templates/report_PH.xlsx",
