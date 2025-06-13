@@ -59,6 +59,7 @@
         "background_image_asset": "images/backgrounds/home_top_left.svg",
         "background_image_position": "top left"
       },
+      "condition": false,
       "style_list": [
         "width: 105%",
         "align-items: flex-start",
@@ -82,6 +83,34 @@
       "_nested_name": "dg_top"
     },
     {
+      "type": "lottie_animation",
+      "name": "lottie",
+      "value": "@global.end_module_animation",
+      "_translations": {
+        "value": {}
+      },
+      "exclude_from_translation": true,
+      "style_list": [
+        "margin-block: -48px"
+      ],
+      "_nested_name": "lottie",
+      "_dynamicFields": {
+        "value": [
+          {
+            "fullExpression": "@global.end_module_animation",
+            "matchedExpression": "@global.end_module_animation",
+            "type": "global",
+            "fieldName": "end_module_animation"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@global.end_module_animation": [
+          "value"
+        ]
+      }
+    },
+    {
       "type": "text",
       "name": "final_title",
       "value": "@global.module_final_title",
@@ -89,7 +118,7 @@
         "value": {}
       },
       "parameter_list": {
-        "style": "emphasised"
+        "text_align": "center"
       },
       "_nested_name": "final_title",
       "_dynamicFields": {
@@ -338,31 +367,6 @@
       }
     },
     {
-      "type": "lottie_animation",
-      "name": "lottie",
-      "value": "@global.end_module_animation",
-      "_translations": {
-        "value": {}
-      },
-      "exclude_from_translation": true,
-      "_nested_name": "lottie",
-      "_dynamicFields": {
-        "value": [
-          {
-            "fullExpression": "@global.end_module_animation",
-            "matchedExpression": "@global.end_module_animation",
-            "type": "global",
-            "fieldName": "end_module_animation"
-          }
-        ]
-      },
-      "_dynamicDependencies": {
-        "@global.end_module_animation": [
-          "value"
-        ]
-      }
-    },
-    {
       "type": "display_group",
       "parameter_list": {
         "style": "column"
@@ -376,6 +380,9 @@
           "value": "@global.module_rep_complete",
           "_translations": {
             "value": {}
+          },
+          "parameter_list": {
+            "text_align": "center"
           },
           "exclude_from_translation": true,
           "condition": "@local.report_count > 0",
