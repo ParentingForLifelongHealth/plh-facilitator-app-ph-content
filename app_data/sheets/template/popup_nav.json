@@ -38,6 +38,30 @@
       }
     },
     {
+      "name": "pages_complete_field",
+      "value": "pages_@fields.current_group_no",
+      "_translations": {
+        "value": {}
+      },
+      "type": "set_variable",
+      "_nested_name": "pages_complete_field",
+      "_dynamicFields": {
+        "value": [
+          {
+            "fullExpression": "pages_@fields.current_group_no",
+            "matchedExpression": "@fields.current_group_no",
+            "type": "fields",
+            "fieldName": "current_group_no"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@fields.current_group_no": [
+          "value"
+        ]
+      }
+    },
+    {
       "type": "display_group",
       "parameter_list": {
         "sticky": "bottom",
@@ -66,7 +90,7 @@
             "icon_src": "images/icons/arrow_back.svg"
           },
           "condition": "@local.show_previous",
-          "_nested_name": "display_group_5.previous_article",
+          "_nested_name": "display_group_6.previous_article",
           "_dynamicFields": {
             "condition": [
               {
@@ -89,7 +113,7 @@
           "style_list": [
             "flex: 1"
           ],
-          "_nested_name": "display_group_5.spacer"
+          "_nested_name": "display_group_6.spacer"
         },
         {
           "type": "round_button",
@@ -109,7 +133,7 @@
             "icon_src": "images/icons/arrow_forward.svg"
           },
           "condition": "@local.show_next",
-          "_nested_name": "display_group_5.next_article",
+          "_nested_name": "display_group_6.next_article",
           "_dynamicFields": {
             "condition": [
               {
@@ -156,14 +180,68 @@
               ],
               "_raw": "click | emit:completed",
               "_cleaned": "click | emit:completed"
+            },
+            {
+              "trigger": "click",
+              "action_id": "set_data",
+              "args": [],
+              "_raw": "click | set_data |\n_list_id: modules,\n_id: @fields.current_module_no,\n@local.pages_complete_field: true",
+              "_cleaned": "click | set_data |\n_list_id: modules,\n_id: @fields.current_module_no,\n@local.pages_complete_field: true",
+              "params": {
+                "_list_id": "modules",
+                "_id": "@fields.current_module_no",
+                "@local.pages_complete_field": true
+              }
             }
           ],
           "parameter_list": {
             "icon_src": "images/icons/checkmark-outline.svg"
           },
           "condition": "!@local.show_next && @local.show_previous",
-          "_nested_name": "display_group_5.go_module_final",
+          "_nested_name": "display_group_6.go_module_final",
           "_dynamicFields": {
+            "action_list": {
+              "3": {
+                "_raw": [
+                  {
+                    "fullExpression": "click | set_data |\n_list_id: modules,\n_id: @fields.current_module_no,\n@local.pages_complete_field: true",
+                    "matchedExpression": "@fields.current_module_no",
+                    "type": "fields",
+                    "fieldName": "current_module_no"
+                  },
+                  {
+                    "fullExpression": "click | set_data |\n_list_id: modules,\n_id: @fields.current_module_no,\n@local.pages_complete_field: true",
+                    "matchedExpression": "@local.pages_complete_field",
+                    "type": "local",
+                    "fieldName": "pages_complete_field"
+                  }
+                ],
+                "_cleaned": [
+                  {
+                    "fullExpression": "click | set_data |\n_list_id: modules,\n_id: @fields.current_module_no,\n@local.pages_complete_field: true",
+                    "matchedExpression": "@fields.current_module_no",
+                    "type": "fields",
+                    "fieldName": "current_module_no"
+                  },
+                  {
+                    "fullExpression": "click | set_data |\n_list_id: modules,\n_id: @fields.current_module_no,\n@local.pages_complete_field: true",
+                    "matchedExpression": "@local.pages_complete_field",
+                    "type": "local",
+                    "fieldName": "pages_complete_field"
+                  }
+                ],
+                "params": {
+                  "_id": [
+                    {
+                      "fullExpression": "@fields.current_module_no",
+                      "matchedExpression": "@fields.current_module_no",
+                      "type": "fields",
+                      "fieldName": "current_module_no"
+                    }
+                  ]
+                }
+              }
+            },
             "condition": [
               {
                 "fullExpression": "!@local.show_next && @local.show_previous",
@@ -180,6 +258,15 @@
             ]
           },
           "_dynamicDependencies": {
+            "@fields.current_module_no": [
+              "action_list.3._raw",
+              "action_list.3._cleaned",
+              "action_list.3.params._id"
+            ],
+            "@local.pages_complete_field": [
+              "action_list.3._raw",
+              "action_list.3._cleaned"
+            ],
             "!@local.show_next": [
               "condition"
             ],
@@ -205,12 +292,13 @@
               "trigger": "click",
               "action_id": "set_data",
               "args": [],
-              "_raw": "click | set_data |\n_list_id: modules,\n_id: @fields.current_module_no,\n@local.completed_field: true",
-              "_cleaned": "click | set_data |\n_list_id: modules,\n_id: @fields.current_module_no,\n@local.completed_field: true",
+              "_raw": "click | set_data |\n_list_id: modules,\n_id: @fields.current_module_no,\n@local.completed_field: true,\n@local.pages_complete_field: true",
+              "_cleaned": "click | set_data |\n_list_id: modules,\n_id: @fields.current_module_no,\n@local.completed_field: true,\n@local.pages_complete_field: true",
               "params": {
                 "_list_id": "modules",
                 "_id": "@fields.current_module_no",
-                "@local.completed_field": true
+                "@local.completed_field": true,
+                "@local.pages_complete_field": true
               }
             },
             {
@@ -227,36 +315,48 @@
             "icon_src": "images/icons/checkmark-outline.svg"
           },
           "condition": "!@local.show_next && !@local.show_previous",
-          "_nested_name": "display_group_5.go_modules_and_complete",
+          "_nested_name": "display_group_6.go_modules_and_complete",
           "_dynamicFields": {
             "action_list": {
               "1": {
                 "_raw": [
                   {
-                    "fullExpression": "click | set_data |\n_list_id: modules,\n_id: @fields.current_module_no,\n@local.completed_field: true",
+                    "fullExpression": "click | set_data |\n_list_id: modules,\n_id: @fields.current_module_no,\n@local.completed_field: true,\n@local.pages_complete_field: true",
                     "matchedExpression": "@fields.current_module_no",
                     "type": "fields",
                     "fieldName": "current_module_no"
                   },
                   {
-                    "fullExpression": "click | set_data |\n_list_id: modules,\n_id: @fields.current_module_no,\n@local.completed_field: true",
+                    "fullExpression": "click | set_data |\n_list_id: modules,\n_id: @fields.current_module_no,\n@local.completed_field: true,\n@local.pages_complete_field: true",
                     "matchedExpression": "@local.completed_field",
                     "type": "local",
                     "fieldName": "completed_field"
+                  },
+                  {
+                    "fullExpression": "click | set_data |\n_list_id: modules,\n_id: @fields.current_module_no,\n@local.completed_field: true,\n@local.pages_complete_field: true",
+                    "matchedExpression": "@local.pages_complete_field",
+                    "type": "local",
+                    "fieldName": "pages_complete_field"
                   }
                 ],
                 "_cleaned": [
                   {
-                    "fullExpression": "click | set_data |\n_list_id: modules,\n_id: @fields.current_module_no,\n@local.completed_field: true",
+                    "fullExpression": "click | set_data |\n_list_id: modules,\n_id: @fields.current_module_no,\n@local.completed_field: true,\n@local.pages_complete_field: true",
                     "matchedExpression": "@fields.current_module_no",
                     "type": "fields",
                     "fieldName": "current_module_no"
                   },
                   {
-                    "fullExpression": "click | set_data |\n_list_id: modules,\n_id: @fields.current_module_no,\n@local.completed_field: true",
+                    "fullExpression": "click | set_data |\n_list_id: modules,\n_id: @fields.current_module_no,\n@local.completed_field: true,\n@local.pages_complete_field: true",
                     "matchedExpression": "@local.completed_field",
                     "type": "local",
                     "fieldName": "completed_field"
+                  },
+                  {
+                    "fullExpression": "click | set_data |\n_list_id: modules,\n_id: @fields.current_module_no,\n@local.completed_field: true,\n@local.pages_complete_field: true",
+                    "matchedExpression": "@local.pages_complete_field",
+                    "type": "local",
+                    "fieldName": "pages_complete_field"
                   }
                 ],
                 "params": {
@@ -296,6 +396,10 @@
               "action_list.1._raw",
               "action_list.1._cleaned"
             ],
+            "@local.pages_complete_field": [
+              "action_list.1._raw",
+              "action_list.1._cleaned"
+            ],
             "!@local.show_next": [
               "condition"
             ],
@@ -305,8 +409,8 @@
           }
         }
       ],
-      "name": "display_group_5",
-      "_nested_name": "display_group_5"
+      "name": "display_group_6",
+      "_nested_name": "display_group_6"
     }
   ],
   "_xlsxPath": "templates/article_loop_override.xlsx",

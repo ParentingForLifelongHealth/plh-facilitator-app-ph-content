@@ -10,7 +10,7 @@
 | button | 93 |
 | carousel | 2 |
 | combo_box | 16 |
-| data_items | 57 |
+| data_items | 54 |
 | date_time_picker | 4 |
 | debug_toggle | 1 |
 | display_grid | 2 |
@@ -26,13 +26,13 @@
 | radio_button_grid | 16 |
 | round_button | 46 |
 | select_text | 1 |
-| set_variable | 1069 |
+| set_variable | 1075 |
 | simple_checkbox | 2 |
 | task_card | 6 |
 | task_progress_bar | 2 |
 | template | 356 |
 | test | 1 |
-| text | 285 |
+| text | 284 |
 | text_area | 2 |
 | text_box | 46 |
 | title | 45 |
@@ -66,10 +66,10 @@
 | reset_app | 3 |
 | save_to_device | 4 |
 | scroll | 1 |
-| set_data | 29 |
+| set_data | 31 |
 | set_field | 88 |
 | set_item | 10 |
-| set_local | 101 |
+| set_local | 98 |
 | share | 4 |
 | toast | 1 |
 | user | 4 |

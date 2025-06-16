@@ -10,12 +10,14 @@
       "description": "week_1",
       "image_asset": "images/icons/task_1.png",
       "report_id": "week_1",
+      "page_count": 9,
       "status": "released"
     },
     {
       "id": "week_1_1_reminder",
       "title": "Day 3: Module 1 Reminder",
       "description": "week_1",
+      "page_count": 1,
       "status": "released",
       "image_asset": "images/icons/reminder.png"
     },
@@ -23,6 +25,7 @@
       "id": "week_1_2_reminder",
       "title": "Day 5: Module 1 Reminder",
       "description": "week_1",
+      "page_count": 1,
       "status": "released",
       "image_asset": "images/icons/reminder.png"
     },
@@ -32,12 +35,14 @@
       "description": "week_2",
       "image_asset": "images/icons/task_2.png",
       "report_id": "week_2",
+      "page_count": 31,
       "status": "released"
     },
     {
       "id": "week_2_1_reminder",
       "title": "Day 3: Module 2 Reminder",
       "description": "week_2",
+      "page_count": 1,
       "status": "released",
       "image_asset": "images/icons/reminder.png"
     },
@@ -45,6 +50,7 @@
       "id": "week_2_2_reminder",
       "title": "Day 5: Module 2 Reminder",
       "description": "week_2",
+      "page_count": 1,
       "status": "released",
       "image_asset": "images/icons/reminder.png"
     },
@@ -54,12 +60,14 @@
       "description": "week_3",
       "image_asset": "images/icons/task_3.png",
       "report_id": "week_3",
+      "page_count": 35,
       "status": "released"
     },
     {
       "id": "week_3_1_reminder",
       "title": "Day 3: Module 3 Reminder",
       "description": "week_3",
+      "page_count": 1,
       "status": "released",
       "image_asset": "images/icons/reminder.png"
     },
@@ -67,6 +75,7 @@
       "id": "week_3_2_reminder",
       "title": "Day 5: Module 3 Reminder",
       "description": "week_3",
+      "page_count": 1,
       "status": "released",
       "image_asset": "images/icons/reminder.png"
     },
@@ -76,12 +85,14 @@
       "description": "week_4",
       "image_asset": "images/icons/task_4.png",
       "report_id": "week_4",
+      "page_count": 35,
       "status": "released"
     },
     {
       "id": "week_4_1_reminder",
       "title": "Day 3: Module 4 Reminder",
       "description": "week_4",
+      "page_count": 1,
       "status": "released",
       "image_asset": "images/icons/reminder.png"
     },
@@ -89,6 +100,7 @@
       "id": "week_4_2_reminder",
       "title": "Day 5: Module 4 Reminder",
       "description": "week_4",
+      "page_count": 1,
       "status": "released",
       "image_asset": "images/icons/reminder.png"
     },
@@ -98,12 +110,14 @@
       "description": "week_5",
       "image_asset": "images/icons/task_5.png",
       "report_id": "week_5",
+      "page_count": 9,
       "status": "released"
     },
     {
       "id": "week_5_1_reminder",
       "title": "Day 3: Module 5 Reminder",
       "description": "week_5",
+      "page_count": 3,
       "status": "released",
       "image_asset": "images/icons/reminder.png"
     },
@@ -111,6 +125,7 @@
       "id": "week_5_2_reminder",
       "title": "Day 5: Module 5 Reminder",
       "description": "week_5",
+      "page_count": 1,
       "status": "released",
       "image_asset": "images/icons/reminder.png"
     },
@@ -120,12 +135,14 @@
       "description": "week_6",
       "image_asset": "images/icons/task_6.png",
       "report_id": "week_6",
+      "page_count": 40,
       "status": "released"
     },
     {
       "id": "week_6_1_reminder",
       "title": "Day 3: Module 6 Reminder",
       "description": "week_6",
+      "page_count": 1,
       "status": "released",
       "image_asset": "images/icons/reminder.png"
     },
@@ -133,6 +150,7 @@
       "id": "week_6_2_reminder",
       "title": "Day 5: Module 6 Reminder",
       "description": "week_6",
+      "page_count": 1,
       "status": "released",
       "image_asset": "images/icons/reminder.png"
     },
@@ -142,12 +160,14 @@
       "description": "week_7",
       "image_asset": "images/icons/task_7.png",
       "report_id": "week_7",
+      "page_count": 36,
       "status": "released"
     },
     {
       "id": "week_7_1_reminder",
       "title": "Day 3: Module 7 Reminder",
       "description": "week_7",
+      "page_count": 1,
       "status": "released",
       "image_asset": "images/icons/reminder.png"
     },
@@ -155,6 +175,7 @@
       "id": "week_7_2_reminder",
       "title": "Day 5: Module 7 Reminder",
       "description": "week_7",
+      "page_count": 1,
       "status": "released",
       "image_asset": "images/icons/reminder.png"
     },
@@ -164,9 +185,15 @@
       "description": "week_8",
       "image_asset": "images/icons/task_8.png",
       "report_id": "week_8",
+      "page_count": 8,
       "status": "released"
     }
   ],
   "_xlsxPath": "data/modules_sub_items_ph.xlsx",
-  "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
+  "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go",
+  "_metadata": {
+    "page_count": {
+      "type": "number"
+    }
+  }
 }

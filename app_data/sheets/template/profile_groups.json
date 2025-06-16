@@ -218,58 +218,25 @@
     },
     {
       "name": "parent_group_count",
-      "type": "set_variable",
-      "_nested_name": "parent_group_count"
-    },
-    {
-      "type": "data_items",
-      "name": "get_group_count",
-      "value": "@data.parent_groups",
+      "value": "@fields.no_of_parent_groups",
       "_translations": {
         "value": {}
       },
-      "action_list": [
-        {
-          "trigger": "data_changed",
-          "action_id": "set_local",
-          "args": [
-            "parent_group_count",
-            "@items.length"
-          ],
-          "_raw": "data_changed | set_local : parent_group_count: @items.length",
-          "_cleaned": "data_changed | set_local : parent_group_count: @items.length"
-        }
-      ],
-      "parameter_list": {
-        "filter": "!@item.archived"
-      },
-      "_nested_name": "get_group_count",
+      "type": "set_variable",
+      "_nested_name": "parent_group_count",
       "_dynamicFields": {
         "value": [
           {
-            "fullExpression": "@data.parent_groups",
-            "matchedExpression": "@data.parent_groups",
-            "type": "data",
-            "fieldName": "parent_groups"
+            "fullExpression": "@fields.no_of_parent_groups",
+            "matchedExpression": "@fields.no_of_parent_groups",
+            "type": "fields",
+            "fieldName": "no_of_parent_groups"
           }
-        ],
-        "parameter_list": {
-          "filter": [
-            {
-              "fullExpression": "!@item.archived",
-              "matchedExpression": "!@item.archived",
-              "type": "item",
-              "fieldName": "archived"
-            }
-          ]
-        }
+        ]
       },
       "_dynamicDependencies": {
-        "@data.parent_groups": [
+        "@fields.no_of_parent_groups": [
           "value"
-        ],
-        "!@item.archived": [
-          "parameter_list.filter"
         ]
       }
     },
@@ -282,14 +249,14 @@
       "parameter_list": {
         "text_align": "center"
       },
-      "condition": "@local.parent_group_count == 0",
+      "condition": "@local.parent_group_count == 1",
       "exclude_from_translation": false,
       "name": "text_9",
       "_nested_name": "text_9",
       "_dynamicFields": {
         "condition": [
           {
-            "fullExpression": "@local.parent_group_count == 0",
+            "fullExpression": "@local.parent_group_count == 1",
             "matchedExpression": "@local.parent_group_count",
             "type": "local",
             "fieldName": "parent_group_count"
