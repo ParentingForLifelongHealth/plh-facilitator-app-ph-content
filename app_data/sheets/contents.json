@@ -8181,7 +8181,7 @@
     "article_related": {
       "flow_type": "template",
       "flow_name": "article_related",
-      "_xlsxPath": "templates/menu_sub_tasks.xlsx",
+      "_xlsxPath": "templates/module_flow.xlsx",
       "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1Jo1-q7KOE4gC2XRKEMcU9bXnrwB5oCRC"
     },
     "article_resource": {
@@ -9981,18 +9981,6 @@
       "flow_name": "menu_no_groups",
       "_xlsxPath": "templates/menu_override.xlsx",
       "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
-    },
-    "menu_sub_tasks": {
-      "flow_type": "template",
-      "flow_name": "menu_sub_tasks",
-      "_xlsxPath": "templates/menu_sub_tasks.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1Jo1-q7KOE4gC2XRKEMcU9bXnrwB5oCRC"
-    },
-    "menu_sub_tasks_base": {
-      "flow_type": "template",
-      "flow_name": "menu_sub_tasks_base",
-      "_xlsxPath": "templates/menu_sub_tasks.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1Jo1-q7KOE4gC2XRKEMcU9bXnrwB5oCRC"
     },
     "menu_task_card": {
       "flow_type": "template",

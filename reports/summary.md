@@ -7,18 +7,18 @@
 | accordion_section | 1 |
 | apple_sign_in_button | 3 |
 | audio | 3 |
-| button | 93 |
+| button | 92 |
 | carousel | 2 |
 | combo_box | 16 |
 | data_items | 54 |
 | date_time_picker | 4 |
 | debug_toggle | 1 |
 | display_grid | 2 |
-| display_group | 138 |
+| display_group | 137 |
 | drawer | 1 |
 | google_sign_in_button | 4 |
-| image | 17 |
-| items | 23 |
+| image | 16 |
+| items | 20 |
 | lottie_animation | 2 |
 | navigation_bar | 2 |
 | pdf | 1 |
@@ -26,16 +26,16 @@
 | radio_button_grid | 16 |
 | round_button | 46 |
 | select_text | 1 |
-| set_variable | 1075 |
+| set_variable | 1055 |
 | simple_checkbox | 2 |
-| task_card | 6 |
+| task_card | 5 |
 | task_progress_bar | 2 |
-| template | 356 |
+| template | 355 |
 | test | 1 |
 | text | 284 |
 | text_area | 2 |
 | text_box | 46 |
-| title | 45 |
+| title | 44 |
 | toggle_bar | 5 |
 | update_action_list | 3 |
 | video | 3 |
@@ -59,15 +59,15 @@
 | emit: set_language | 1 |
 | emit: uncompleted | 88 |
 | feedback | 13 |
-| go_to | 37 |
+| go_to | 36 |
 | nav_stack | 6 |
 | plh_parent_group | 8 |
 | pop_up | 20 |
 | reset_app | 3 |
 | save_to_device | 4 |
 | scroll | 1 |
-| set_data | 31 |
-| set_field | 88 |
+| set_data | 29 |
+| set_field | 87 |
 | set_item | 10 |
 | set_local | 98 |
 | share | 4 |
@@ -178,8 +178,6 @@ Assets that have references within sheets but do not appear in app-data
 | --- | --- |
 | .png | 2 |
 | @data.pdf | 3 |
-| images/icons/in_progress.svg | 1 |
-| images/icons/tick.svg | 1 |
 | pdf/08_mapa_skill.pdf | 1 |
 </details>
 
@@ -347,7 +345,7 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | generator |  | 10 |
 | global |  | 12 |
 | global | legal_terms | 1 |
-| template |  | 83 |
+| template |  | 81 |
 | template | generated | 309 |
 | template | legal_terms | 4 |
 </details>
