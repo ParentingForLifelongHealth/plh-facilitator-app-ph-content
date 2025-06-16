@@ -19,7 +19,7 @@
       },
       {
         "type": "button",
-        "count": 93
+        "count": 92
       },
       {
         "type": "carousel",
@@ -47,7 +47,7 @@
       },
       {
         "type": "display_group",
-        "count": 138
+        "count": 137
       },
       {
         "type": "drawer",
@@ -59,11 +59,11 @@
       },
       {
         "type": "image",
-        "count": 17
+        "count": 16
       },
       {
         "type": "items",
-        "count": 23
+        "count": 20
       },
       {
         "type": "lottie_animation",
@@ -95,7 +95,7 @@
       },
       {
         "type": "set_variable",
-        "count": 1075
+        "count": 1055
       },
       {
         "type": "simple_checkbox",
@@ -103,7 +103,7 @@
       },
       {
         "type": "task_card",
-        "count": 6
+        "count": 5
       },
       {
         "type": "task_progress_bar",
@@ -111,7 +111,7 @@
       },
       {
         "type": "template",
-        "count": 356
+        "count": 355
       },
       {
         "type": "test",
@@ -131,7 +131,7 @@
       },
       {
         "type": "title",
-        "count": 45
+        "count": 44
       },
       {
         "type": "toggle_bar",
@@ -203,7 +203,7 @@
       },
       {
         "type": "go_to",
-        "count": 37
+        "count": 36
       },
       {
         "type": "nav_stack",
@@ -231,11 +231,11 @@
       },
       {
         "type": "set_data",
-        "count": 31
+        "count": 29
       },
       {
         "type": "set_field",
-        "count": 88
+        "count": 87
       },
       {
         "type": "set_item",
@@ -591,16 +591,6 @@
       {
         "path": "@data.pdf",
         "count": 3,
-        "missing": true
-      },
-      {
-        "path": "images/icons/in_progress.svg",
-        "count": 1,
-        "missing": true
-      },
-      {
-        "path": "images/icons/tick.svg",
-        "count": 1,
         "missing": true
       },
       {
@@ -1369,7 +1359,7 @@
       {
         "type": "template",
         "subtype": null,
-        "total": 83
+        "total": 81
       },
       {
         "type": "template",
