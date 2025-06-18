@@ -1828,6 +1828,7 @@
       "_translations": {
         "value": {}
       },
+      "exclude_from_translation": true,
       "type": "set_variable",
       "_nested_name": "valid",
       "_dynamicFields": {
@@ -1860,7 +1861,6 @@
       "parameter_list": {
         "sticky": "bottom"
       },
-      "exclude_from_translation": true,
       "style_list": [
         "padding: 12px 24px"
       ],
@@ -1912,7 +1912,6 @@
           "parameter_list": {
             "disabled": "!@local.valid"
           },
-          "exclude_from_translation": true,
           "_nested_name": "display_group_21.save",
           "_dynamicFields": {
             "action_list": {
