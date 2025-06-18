@@ -1143,6 +1143,7 @@
                   "text": "@local.very_high"
                 }
               ],
+              "exclude_from_translation": true,
               "type": "set_variable",
               "_nested_name": "display_group_27.display_group_2.answer_list_confidence",
               "_dynamicFields": {
