@@ -12,11 +12,9 @@
     },
     {
       "name": "article_id",
-      "value": "test",
+      "value": "week_1_session",
       "_translations": {
-        "value": {
-          "ph_fil": true
-        }
+        "value": {}
       },
       "exclude_from_translation": true,
       "type": "set_variable",
@@ -24,11 +22,9 @@
     },
     {
       "name": "foreign_key",
-      "value": "test",
+      "value": "week_1_session",
       "_translations": {
-        "value": {
-          "ph_fil": true
-        }
+        "value": {}
       },
       "exclude_from_translation": true,
       "type": "set_variable",

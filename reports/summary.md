@@ -26,13 +26,13 @@
 | radio_button_grid | 16 |
 | round_button | 46 |
 | select_text | 1 |
-| set_variable | 1055 |
+| set_variable | 1056 |
 | simple_checkbox | 2 |
 | task_card | 5 |
 | task_progress_bar | 2 |
 | template | 355 |
 | test | 1 |
-| text | 284 |
+| text | 283 |
 | text_area | 2 |
 | text_box | 46 |
 | title | 44 |
@@ -61,12 +61,12 @@
 | feedback | 13 |
 | go_to | 36 |
 | nav_stack | 6 |
-| plh_parent_group | 8 |
+| plh_parent_group | 9 |
 | pop_up | 20 |
 | reset_app | 3 |
 | save_to_device | 4 |
 | scroll | 1 |
-| set_data | 29 |
+| set_data | 30 |
 | set_field | 87 |
 | set_item | 10 |
 | set_local | 98 |
@@ -270,7 +270,7 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | images/icons/magnify_glass.svg | 3 | 1 |
 | images/icons/pencil_white.svg | 2 | 1 |
 | images/icons/people_network.svg | 6.9 | 1 |
-| images/icons/person_cog.svg | 2.9 | 1 |
+| images/icons/person_cog.svg | 2.9 | 2 |
 | images/icons/profile_card.svg | 7.4 | 1 |
 | images/icons/reminder.png | 18.6 | 14 |
 | images/icons/share.svg | 4.2 | 4 |
@@ -295,9 +295,9 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | images/logos/MaPa_logo.png | 157.3 | 1 |
 | images/logos/PLH.png | 26.6 | 1 |
 | images/logos/UNICEF.jpg | 57.9 | 1 |
-| images/logos/app_logo.png | 70.6 | 2 |
+| images/logos/app_logo.png | 70.6 | 3 |
 | images/no_group_selected.svg | 3.5 | 1 |
-| lottie/checkmark_blue.json | 17 | 2 |
+| lottie/checkmark_blue.json | 17 | 3 |
 | pdf/01_mod1_intro.pdf | 650.7 | 1 |
 | pdf/01_mod1_layunin.pdf | 478.3 | 1 |
 | pdf/01_mod1_mapa_skill.pdf | 6899 | 1 |
@@ -335,12 +335,12 @@ Assets that are used within sheets and also can be found in the synced asset dat
 
 | type | subtype | total |
 | --- | --- | --- |
-| data_list |  | 32 |
+| data_list |  | 33 |
 | data_list | app_config_language_list | 1 |
-| data_list | generated | 5 |
+| data_list | generated | 4 |
 | data_list | legal_terms | 2 |
 | data_list | lifecycle_actions | 1 |
-| data_pipe |  | 2 |
+| data_pipe |  | 1 |
 | data_pipe | generated | 219 |
 | generator |  | 10 |
 | global |  | 12 |
