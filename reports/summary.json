@@ -95,7 +95,7 @@
       },
       {
         "type": "set_variable",
-        "count": 1055
+        "count": 1056
       },
       {
         "type": "simple_checkbox",
@@ -119,7 +119,7 @@
       },
       {
         "type": "text",
-        "count": 284
+        "count": 283
       },
       {
         "type": "text_area",
@@ -211,7 +211,7 @@
       },
       {
         "type": "plh_parent_group",
-        "count": 8
+        "count": 9
       },
       {
         "type": "pop_up",
@@ -231,7 +231,7 @@
       },
       {
         "type": "set_data",
-        "count": 29
+        "count": 30
       },
       {
         "type": "set_field",
@@ -1014,7 +1014,7 @@
       },
       {
         "path": "images/icons/person_cog.svg",
-        "count": 1,
+        "count": 2,
         "size_kb": 2.9
       },
       {
@@ -1139,7 +1139,7 @@
       },
       {
         "path": "images/logos/app_logo.png",
-        "count": 2,
+        "count": 3,
         "size_kb": 70.6
       },
       {
@@ -1149,7 +1149,7 @@
       },
       {
         "path": "lottie/checkmark_blue.json",
-        "count": 2,
+        "count": 3,
         "size_kb": 17
       },
       {
@@ -1309,7 +1309,7 @@
       {
         "type": "data_list",
         "subtype": null,
-        "total": 32
+        "total": 33
       },
       {
         "type": "data_list",
@@ -1319,7 +1319,7 @@
       {
         "type": "data_list",
         "subtype": "generated",
-        "total": 5
+        "total": 4
       },
       {
         "type": "data_list",
@@ -1334,7 +1334,7 @@
       {
         "type": "data_pipe",
         "subtype": null,
-        "total": 2
+        "total": 1
       },
       {
         "type": "data_pipe",

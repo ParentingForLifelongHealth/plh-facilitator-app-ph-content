@@ -47,6 +47,12 @@
       "_xlsxPath": "templates/footer_ph.xlsx",
       "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
     },
+    "article_data": {
+      "flow_type": "data_list",
+      "flow_name": "article_data",
+      "_xlsxPath": "data/FacilitatorApp PH articles.xlsx",
+      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
+    },
     "child_gender": {
       "flow_type": "data_list",
       "flow_name": "child_gender",
@@ -58,11 +64,6 @@
       "flow_name": "gender",
       "_xlsxPath": "templates/PH profile.xlsx",
       "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
-    },
-    "article_data": {
-      "flow_name": "article_data",
-      "flow_subtype": "generated",
-      "flow_type": "data_list"
     },
     "article_loops": {
       "flow_name": "article_loops",
@@ -374,20 +375,6 @@
     }
   },
   "data_pipe": {
-    "article_filter": {
-      "flow_type": "data_pipe",
-      "flow_name": "article_filter",
-      "comments": "Gives an error when the status column does not exist for any of the items in the list",
-      "_xlsxPath": "data/content_data_pipes.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1Jo1-q7KOE4gC2XRKEMcU9bXnrwB5oCRC",
-      "_output_flows": [
-        {
-          "flow_name": "article_data",
-          "flow_subtype": "generated",
-          "flow_type": "data_list"
-        }
-      ]
-    },
     "create_package": {
       "flow_type": "data_pipe",
       "flow_name": "create_package",
@@ -8211,8 +8198,8 @@
     "delete_group": {
       "flow_type": "template",
       "flow_name": "delete_group",
-      "_xlsxPath": "templates/profile.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1Jo1-q7KOE4gC2XRKEMcU9bXnrwB5oCRC"
+      "_xlsxPath": "templates/PH profile.xlsx",
+      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
     },
     "delete_parent": {
       "flow_type": "template",
