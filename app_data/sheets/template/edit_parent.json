@@ -2134,7 +2134,8 @@
           "type": "text_box",
           "name": "goal",
           "parameter_list": {
-            "placeholder": "@global.edit_goal"
+            "placeholder": "@global.edit_goal",
+            "disabled": "@fields.current_group_readonly"
           },
           "style_list": [
             "margin-top: -10px"
@@ -2150,12 +2151,23 @@
                   "type": "global",
                   "fieldName": "edit_goal"
                 }
+              ],
+              "disabled": [
+                {
+                  "fullExpression": "@fields.current_group_readonly",
+                  "matchedExpression": "@fields.current_group_readonly",
+                  "type": "fields",
+                  "fieldName": "current_group_readonly"
+                }
               ]
             }
           },
           "_dynamicDependencies": {
             "@global.edit_goal": [
               "parameter_list.placeholder"
+            ],
+            "@fields.current_group_readonly": [
+              "parameter_list.disabled"
             ]
           }
         },
