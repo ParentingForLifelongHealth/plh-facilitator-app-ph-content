@@ -9999,6 +9999,12 @@
       "_xlsxPath": "templates/navigation.xlsx",
       "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1Jo1-q7KOE4gC2XRKEMcU9bXnrwB5oCRC"
     },
+    "new_group_popup": {
+      "flow_type": "template",
+      "flow_name": "new_group_popup",
+      "_xlsxPath": "templates/PH profile.xlsx",
+      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
+    },
     "package_select": {
       "flow_type": "template",
       "flow_name": "package_select",

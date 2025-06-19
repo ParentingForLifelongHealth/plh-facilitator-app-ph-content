@@ -217,11 +217,6 @@
         },
         {
           "type": "round_button",
-          "name": "view_report",
-          "_nested_name": "existing_report.view_report"
-        },
-        {
-          "type": "round_button",
           "name": "edit_report",
           "action_list": [
             {

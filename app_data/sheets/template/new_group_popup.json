@@ -1,0 +1,95 @@
+{
+  "flow_type": "template",
+  "flow_name": "new_group_popup",
+  "status": "released",
+  "rows": [
+    {
+      "type": "title",
+      "name": "title",
+      "value": "Create/Join a Group",
+      "_translations": {
+        "value": {}
+      },
+      "exclude_from_translation": false,
+      "_nested_name": "title"
+    },
+    {
+      "type": "text",
+      "name": "question",
+      "value": "Are you a facilitator or co-facilitator for this parent group?",
+      "_translations": {
+        "value": {}
+      },
+      "exclude_from_translation": false,
+      "_nested_name": "question"
+    },
+    {
+      "type": "button",
+      "name": "facilitator",
+      "value": "Facilitator",
+      "_translations": {
+        "value": {}
+      },
+      "action_list": [
+        {
+          "trigger": "click",
+          "action_id": "nav_stack",
+          "args": [
+            "close_all"
+          ],
+          "_raw": "click | nav_stack: close_all",
+          "_cleaned": "click | nav_stack: close_all"
+        },
+        {
+          "trigger": "click",
+          "action_id": "go_to",
+          "args": [
+            "edit_parent_group"
+          ],
+          "_raw": "click | go_to: edit_parent_group",
+          "_cleaned": "click | go_to: edit_parent_group"
+        }
+      ],
+      "parameter_list": {
+        "variant": "card"
+      },
+      "exclude_from_translation": false,
+      "_nested_name": "facilitator"
+    },
+    {
+      "type": "button",
+      "name": "co_facilitator",
+      "value": "Co-facilitator",
+      "_translations": {
+        "value": {}
+      },
+      "action_list": [
+        {
+          "trigger": "click",
+          "action_id": "nav_stack",
+          "args": [
+            "close_all"
+          ],
+          "_raw": "click | nav_stack: close_all",
+          "_cleaned": "click | nav_stack: close_all"
+        },
+        {
+          "trigger": "click",
+          "action_id": "go_to",
+          "args": [
+            "profile_id"
+          ],
+          "_raw": "click | go_to: profile_id",
+          "_cleaned": "click | go_to: profile_id"
+        }
+      ],
+      "parameter_list": {
+        "variant": "card"
+      },
+      "exclude_from_translation": false,
+      "_nested_name": "co_facilitator"
+    }
+  ],
+  "_xlsxPath": "templates/PH profile.xlsx",
+  "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
+}
