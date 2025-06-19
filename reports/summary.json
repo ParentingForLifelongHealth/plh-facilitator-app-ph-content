@@ -19,7 +19,7 @@
       },
       {
         "type": "button",
-        "count": 92
+        "count": 94
       },
       {
         "type": "carousel",
@@ -87,7 +87,7 @@
       },
       {
         "type": "round_button",
-        "count": 47
+        "count": 46
       },
       {
         "type": "select_text",
@@ -119,7 +119,7 @@
       },
       {
         "type": "text",
-        "count": 283
+        "count": 284
       },
       {
         "type": "text_area",
@@ -131,7 +131,7 @@
       },
       {
         "type": "title",
-        "count": 44
+        "count": 45
       },
       {
         "type": "toggle_bar",
@@ -203,11 +203,11 @@
       },
       {
         "type": "go_to",
-        "count": 36
+        "count": 37
       },
       {
         "type": "nav_stack",
-        "count": 6
+        "count": 8
       },
       {
         "type": "plh_parent_group",
@@ -215,7 +215,7 @@
       },
       {
         "type": "pop_up",
-        "count": 20
+        "count": 21
       },
       {
         "type": "reset_app",
@@ -1363,7 +1363,7 @@
       {
         "type": "template",
         "subtype": null,
-        "total": 81
+        "total": 82
       },
       {
         "type": "template",

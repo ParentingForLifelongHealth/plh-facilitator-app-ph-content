@@ -436,11 +436,9 @@
     {
       "type": "declare_global_constant",
       "name": "co_facilitator_share_title",
-      "value": "Send this message to the Facilitator who runs the group",
+      "value": "As a co-facilitator, you can’t create a parent group. Please send this message to your facilitator to add them to the parent group:",
       "_translations": {
-        "value": {
-          "ph_fil": true
-        }
+        "value": {}
       }
     },
     {

@@ -7,7 +7,7 @@
 | accordion_section | 1 |
 | apple_sign_in_button | 3 |
 | audio | 3 |
-| button | 92 |
+| button | 94 |
 | carousel | 2 |
 | combo_box | 16 |
 | data_items | 54 |
@@ -24,7 +24,7 @@
 | pdf | 1 |
 | qr_code | 1 |
 | radio_button_grid | 16 |
-| round_button | 47 |
+| round_button | 46 |
 | select_text | 1 |
 | set_variable | 1056 |
 | simple_checkbox | 2 |
@@ -32,10 +32,10 @@
 | task_progress_bar | 2 |
 | template | 355 |
 | test | 1 |
-| text | 283 |
+| text | 284 |
 | text_area | 2 |
 | text_box | 46 |
-| title | 44 |
+| title | 45 |
 | toggle_bar | 5 |
 | update_action_list | 3 |
 | video | 3 |
@@ -59,10 +59,10 @@
 | emit: set_language | 1 |
 | emit: uncompleted | 88 |
 | feedback | 13 |
-| go_to | 36 |
-| nav_stack | 6 |
+| go_to | 37 |
+| nav_stack | 8 |
 | plh_parent_group | 9 |
-| pop_up | 20 |
+| pop_up | 21 |
 | reset_app | 3 |
 | save_to_device | 4 |
 | scroll | 1 |
@@ -345,7 +345,7 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | generator |  | 10 |
 | global |  | 12 |
 | global | legal_terms | 1 |
-| template |  | 81 |
+| template |  | 82 |
 | template | generated | 309 |
 | template | legal_terms | 4 |
 </details>
