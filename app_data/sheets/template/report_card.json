@@ -217,6 +217,12 @@
         },
         {
           "type": "round_button",
+          "name": "view_report",
+          "_nested_name": "existing_report.view_report"
+        },
+        {
+          "type": "round_button",
+          "name": "edit_report",
           "action_list": [
             {
               "trigger": "click",
@@ -271,8 +277,7 @@
           "parameter_list": {
             "icon_src": "images/icons/edit.svg"
           },
-          "name": "round_button_2",
-          "_nested_name": "existing_report.round_button_2",
+          "_nested_name": "existing_report.edit_report",
           "_dynamicFields": {
             "action_list": {
               "0": {
@@ -414,6 +419,7 @@
         },
         {
           "type": "round_button",
+          "name": "delete_report",
           "action_list": [
             {
               "trigger": "click",
@@ -439,8 +445,7 @@
             "variant": "no-background",
             "icon_src": "images/icons/delete.svg"
           },
-          "name": "round_button_3",
-          "_nested_name": "existing_report.round_button_3",
+          "_nested_name": "existing_report.delete_report",
           "_dynamicFields": {
             "action_list": {
               "0": {

@@ -24,7 +24,7 @@
 | pdf | 1 |
 | qr_code | 1 |
 | radio_button_grid | 16 |
-| round_button | 46 |
+| round_button | 47 |
 | select_text | 1 |
 | set_variable | 1056 |
 | simple_checkbox | 2 |
@@ -80,8 +80,8 @@
 
 | assets | KB | MB |
 | --- | --- | --- |
-| total | 42281 KB | 42.3 MB |
-| unused | 12247 KB | 12.2 MB |
+| total | 42286 KB | 42.3 MB |
+| unused | 12242 KB | 12.2 MB |
 </details>
 
 <details open>
@@ -146,7 +146,6 @@ Assets that appear in app-data but do not have references within sheets
 | images/icons/globe_blue.svg | 3.9 |
 | images/icons/group_add.svg | 2.2 |
 | images/icons/group_add_dark.svg | 2.3 |
-| images/icons/library.png | 1.5 |
 | images/icons/library.svg | 0.9 |
 | images/icons/paper_plane_white.svg | 1.4 |
 | images/icons/person_cog.png | 0.8 |
@@ -156,10 +155,7 @@ Assets that appear in app-data but do not have references within sheets
 | images/icons/reader_blue.svg | 1.4 |
 | images/icons/red_plus.svg | 0.6 |
 | images/icons/reminder_old.png | 10.4 |
-| images/icons/report.png | 1.1 |
 | images/icons/report.svg | 0.3 |
-| images/icons/sessions.png | 1.3 |
-| images/icons/settings.png | 1.1 |
 | images/icons/settings.svg | 1.2 |
 | images/icons/task_0.png | 2 |
 | images/icons/trophy.svg | 1 |
@@ -266,6 +262,7 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | images/icons/house_white.svg | 0.4 | 1 |
 | images/icons/incomplete.svg | 0.8 | 1 |
 | images/icons/key.svg | 5.5 | 2 |
+| images/icons/library.png | 1.5 | 1 |
 | images/icons/library_white.svg | 2.8 | 1 |
 | images/icons/magnify_glass.svg | 3 | 1 |
 | images/icons/pencil_white.svg | 2 | 1 |
@@ -273,6 +270,9 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | images/icons/person_cog.svg | 2.9 | 2 |
 | images/icons/profile_card.svg | 7.4 | 1 |
 | images/icons/reminder.png | 18.6 | 14 |
+| images/icons/report.png | 1.1 | 1 |
+| images/icons/sessions.png | 1.3 | 1 |
+| images/icons/settings.png | 1.1 | 1 |
 | images/icons/share.svg | 4.2 | 4 |
 | images/icons/task_1.png | 1 | 1 |
 | images/icons/task_2.png | 1.9 | 1 |

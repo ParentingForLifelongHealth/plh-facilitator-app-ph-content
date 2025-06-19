@@ -434,13 +434,26 @@
     {
       "type": "text",
       "name": "question_4",
-      "value": "Which of the parents in this group attended your in-person session?",
+      "value": "Which of the parents in this group attended your @global.virtual_session_platform group session?",
       "_translations": {
-        "value": {
-          "ph_fil": true
-        }
+        "value": {}
       },
-      "_nested_name": "question_4"
+      "_nested_name": "question_4",
+      "_dynamicFields": {
+        "value": [
+          {
+            "fullExpression": "Which of the parents in this group attended your @global.virtual_session_platform group session?",
+            "matchedExpression": "@global.virtual_session_platform",
+            "type": "global",
+            "fieldName": "virtual_session_platform"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@global.virtual_session_platform": [
+          "value"
+        ]
+      }
     },
     {
       "type": "data_items",
