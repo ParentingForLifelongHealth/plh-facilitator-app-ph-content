@@ -33,15 +33,6 @@
       "action_list": [
         {
           "trigger": "click",
-          "action_id": "nav_stack",
-          "args": [
-            "close_all"
-          ],
-          "_raw": "click | nav_stack: close_all",
-          "_cleaned": "click | nav_stack: close_all"
-        },
-        {
-          "trigger": "click",
           "action_id": "go_to",
           "args": [
             "edit_parent_group"
@@ -64,15 +55,6 @@
         "value": {}
       },
       "action_list": [
-        {
-          "trigger": "click",
-          "action_id": "nav_stack",
-          "args": [
-            "close_all"
-          ],
-          "_raw": "click | nav_stack: close_all",
-          "_cleaned": "click | nav_stack: close_all"
-        },
         {
           "trigger": "click",
           "action_id": "go_to",

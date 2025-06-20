@@ -190,6 +190,57 @@
       "_nested_name": "dg_top"
     },
     {
+      "name": "group",
+      "value": "_group",
+      "_translations": {
+        "value": {}
+      },
+      "type": "set_variable",
+      "_nested_name": "group"
+    },
+    {
+      "name": "notification_id",
+      "value": "notification_@local.module_id@local.group@local.group_id",
+      "_translations": {
+        "value": {}
+      },
+      "type": "set_variable",
+      "_nested_name": "notification_id",
+      "_dynamicFields": {
+        "value": [
+          {
+            "fullExpression": "notification_@local.module_id@local.group@local.group_id",
+            "matchedExpression": "@local.module_id",
+            "type": "local",
+            "fieldName": "module_id"
+          },
+          {
+            "fullExpression": "notification_@local.module_id@local.group@local.group_id",
+            "matchedExpression": "@local.group",
+            "type": "local",
+            "fieldName": "group"
+          },
+          {
+            "fullExpression": "notification_@local.module_id@local.group@local.group_id",
+            "matchedExpression": "@local.group_id",
+            "type": "local",
+            "fieldName": "group_id"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@local.module_id": [
+          "value"
+        ],
+        "@local.group": [
+          "value"
+        ],
+        "@local.group_id": [
+          "value"
+        ]
+      }
+    },
+    {
       "type": "template",
       "name": "add_in_person",
       "value": "add_in_person",
@@ -202,12 +253,54 @@
           ],
           "_raw": "completed | emit: completed",
           "_cleaned": "completed | emit: completed"
+        },
+        {
+          "trigger": "click",
+          "action_id": "notification",
+          "args": [
+            "cancel"
+          ],
+          "_raw": "click | notification: cancel | id: @local.notification_id",
+          "_cleaned": "click | notification: cancel | id: @local.notification_id",
+          "params": {
+            "id": "@local.notification_id"
+          }
         }
       ],
       "condition": "@local.report_type == \"in_person\"",
       "rows": [],
       "_nested_name": "add_in_person",
       "_dynamicFields": {
+        "action_list": {
+          "1": {
+            "_raw": [
+              {
+                "fullExpression": "click | notification: cancel | id: @local.notification_id",
+                "matchedExpression": "@local.notification_id",
+                "type": "local",
+                "fieldName": "notification_id"
+              }
+            ],
+            "_cleaned": [
+              {
+                "fullExpression": "click | notification: cancel | id: @local.notification_id",
+                "matchedExpression": "@local.notification_id",
+                "type": "local",
+                "fieldName": "notification_id"
+              }
+            ],
+            "params": {
+              "id": [
+                {
+                  "fullExpression": "@local.notification_id",
+                  "matchedExpression": "@local.notification_id",
+                  "type": "local",
+                  "fieldName": "notification_id"
+                }
+              ]
+            }
+          }
+        },
         "condition": [
           {
             "fullExpression": "@local.report_type == \"in_person\"",
@@ -218,6 +311,11 @@
         ]
       },
       "_dynamicDependencies": {
+        "@local.notification_id": [
+          "action_list.1._raw",
+          "action_list.1._cleaned",
+          "action_list.1.params.id"
+        ],
         "@local.report_type": [
           "condition"
         ]
@@ -236,12 +334,54 @@
           ],
           "_raw": "completed | emit: completed",
           "_cleaned": "completed | emit: completed"
+        },
+        {
+          "trigger": "click",
+          "action_id": "notification",
+          "args": [
+            "cancel"
+          ],
+          "_raw": "click | notification: cancel | id: @local.notification_id",
+          "_cleaned": "click | notification: cancel | id: @local.notification_id",
+          "params": {
+            "id": "@local.notification_id"
+          }
         }
       ],
       "condition": "@local.report_type == \"virtual\"",
       "rows": [],
       "_nested_name": "add_remote",
       "_dynamicFields": {
+        "action_list": {
+          "1": {
+            "_raw": [
+              {
+                "fullExpression": "click | notification: cancel | id: @local.notification_id",
+                "matchedExpression": "@local.notification_id",
+                "type": "local",
+                "fieldName": "notification_id"
+              }
+            ],
+            "_cleaned": [
+              {
+                "fullExpression": "click | notification: cancel | id: @local.notification_id",
+                "matchedExpression": "@local.notification_id",
+                "type": "local",
+                "fieldName": "notification_id"
+              }
+            ],
+            "params": {
+              "id": [
+                {
+                  "fullExpression": "@local.notification_id",
+                  "matchedExpression": "@local.notification_id",
+                  "type": "local",
+                  "fieldName": "notification_id"
+                }
+              ]
+            }
+          }
+        },
         "condition": [
           {
             "fullExpression": "@local.report_type == \"virtual\"",
@@ -252,12 +392,17 @@
         ]
       },
       "_dynamicDependencies": {
+        "@local.notification_id": [
+          "action_list.1._raw",
+          "action_list.1._cleaned",
+          "action_list.1.params.id"
+        ],
         "@local.report_type": [
           "condition"
         ]
       }
     }
   ],
-  "_xlsxPath": "templates/reports.xlsx",
-  "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1Jo1-q7KOE4gC2XRKEMcU9bXnrwB5oCRC"
+  "_xlsxPath": "templates/report_PH.xlsx",
+  "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
 }

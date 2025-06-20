@@ -108,10 +108,11 @@
                       "args": [
                         "pdf_@local.resource_id"
                       ],
-                      "_raw": "click | pop_up : pdf_@local.resource_id | fullscreen: true",
-                      "_cleaned": "click | pop_up : pdf_@local.resource_id | fullscreen: true",
+                      "_raw": "click | pop_up : pdf_@local.resource_id | fullscreen: true, showCloseButton: false",
+                      "_cleaned": "click | pop_up : pdf_@local.resource_id | fullscreen: true, showCloseButton: false",
                       "params": {
-                        "fullscreen": true
+                        "fullscreen": true,
+                        "showCloseButton": false
                       }
                     }
                   ],
@@ -136,7 +137,7 @@
                         },
                         "_raw": [
                           {
-                            "fullExpression": "click | pop_up : pdf_@local.resource_id | fullscreen: true",
+                            "fullExpression": "click | pop_up : pdf_@local.resource_id | fullscreen: true, showCloseButton: false",
                             "matchedExpression": "@local.resource_id",
                             "type": "local",
                             "fieldName": "resource_id"
@@ -144,7 +145,7 @@
                         ],
                         "_cleaned": [
                           {
-                            "fullExpression": "click | pop_up : pdf_@local.resource_id | fullscreen: true",
+                            "fullExpression": "click | pop_up : pdf_@local.resource_id | fullscreen: true, showCloseButton: false",
                             "matchedExpression": "@local.resource_id",
                             "type": "local",
                             "fieldName": "resource_id"
@@ -221,10 +222,11 @@
                       "args": [
                         "pdf_@local.resource_id"
                       ],
-                      "_raw": "click | pop_up : pdf_@local.resource_id | fullscreen: true",
-                      "_cleaned": "click | pop_up : pdf_@local.resource_id | fullscreen: true",
+                      "_raw": "click | pop_up : pdf_@local.resource_id | fullscreen: true, showCloseButton: false",
+                      "_cleaned": "click | pop_up : pdf_@local.resource_id | fullscreen: true, showCloseButton: false",
                       "params": {
-                        "fullscreen": true
+                        "fullscreen": true,
+                        "showCloseButton": false
                       }
                     }
                   ],
@@ -249,7 +251,7 @@
                         },
                         "_raw": [
                           {
-                            "fullExpression": "click | pop_up : pdf_@local.resource_id | fullscreen: true",
+                            "fullExpression": "click | pop_up : pdf_@local.resource_id | fullscreen: true, showCloseButton: false",
                             "matchedExpression": "@local.resource_id",
                             "type": "local",
                             "fieldName": "resource_id"
@@ -257,7 +259,7 @@
                         ],
                         "_cleaned": [
                           {
-                            "fullExpression": "click | pop_up : pdf_@local.resource_id | fullscreen: true",
+                            "fullExpression": "click | pop_up : pdf_@local.resource_id | fullscreen: true, showCloseButton: false",
                             "matchedExpression": "@local.resource_id",
                             "type": "local",
                             "fieldName": "resource_id"

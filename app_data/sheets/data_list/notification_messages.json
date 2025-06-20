@@ -1,0 +1,313 @@
+{
+  "flow_type": "data_list",
+  "flow_name": "notification_messages",
+  "status": "released",
+  "rows": [
+    {
+      "id": "notification_1",
+      "type": "form_reminder",
+      "text_fil_comment": "Ang iba sa programa ay nagsusumite ng mga report📝. Isumite ang sa'yo ngayon!",
+      "text": "Others in the programme are submitting reports 📝. Submit yours now!",
+      "_translations": {
+        "text": {},
+        "title": {}
+      },
+      "_translatedFields": {
+        "text": {
+          "eng": "Others in the programme are submitting reports 📝. Submit yours now!"
+        },
+        "title": {
+          "eng": "@global.app_name"
+        }
+      },
+      "title": "@global.app_name"
+    },
+    {
+      "id": "notification_2",
+      "type": "form_reminder",
+      "text_fil_comment": "Karamihan sa mga facilitators ay tapos na ✅. Isumite ang iyong ulat ngayon!",
+      "text": "Most facilitators are done ✅. Submit your report today!",
+      "_translations": {
+        "text": {},
+        "title": {}
+      },
+      "_translatedFields": {
+        "text": {
+          "eng": "Most facilitators are done ✅. Submit your report today!"
+        },
+        "title": {
+          "eng": "@global.app_name"
+        }
+      },
+      "title": "@global.app_name"
+    },
+    {
+      "id": "notification_3",
+      "type": "form_reminder",
+      "text_fil_comment": "Papasok na ang mga reports💬. Ibahagi ang iyong report ngayon!",
+      "text": "Reports are coming in 💬. Share your report now!",
+      "_translations": {
+        "text": {},
+        "title": {}
+      },
+      "_translatedFields": {
+        "text": {
+          "eng": "Reports are coming in 💬. Share your report now!"
+        },
+        "title": {
+          "eng": "@global.app_name"
+        }
+      },
+      "title": "@global.app_name"
+    },
+    {
+      "id": "notification_4",
+      "type": "form_reminder",
+      "text_fil_comment": "Sumali sa iba pang facilitator 🧡. Isumite ang iyong report upang manatili sa track!",
+      "text": "Join other facilitators 🧡. Submit your report to stay on track!",
+      "_translations": {
+        "text": {},
+        "title": {}
+      },
+      "_translatedFields": {
+        "text": {
+          "eng": "Join other facilitators 🧡. Submit your report to stay on track!"
+        },
+        "title": {
+          "eng": "@global.app_name"
+        }
+      },
+      "title": "@global.app_name"
+    },
+    {
+      "id": "notification_5",
+      "type": "form_reminder",
+      "text_fil_comment": "Isang hakbang na lang 🏁. Isumite ang iyong report upang matapos nang malakas!",
+      "text": "Just one step left 🏁. Submit your report to finish strong!",
+      "_translations": {
+        "text": {},
+        "title": {}
+      },
+      "_translatedFields": {
+        "text": {
+          "eng": "Just one step left 🏁. Submit your report to finish strong!"
+        },
+        "title": {
+          "eng": "@global.app_name"
+        }
+      },
+      "title": "@global.app_name"
+    },
+    {
+      "id": "notification_6",
+      "type": "form_reminder",
+      "text_fil_comment": "Huling hakbang 💪. Kumpletuhin ang session sa pamamagitan ng pagpapadala ng iyong report ngayon!",
+      "text": "Final step 💪. Wrap up by sending your report today!",
+      "_translations": {
+        "text": {},
+        "title": {}
+      },
+      "_translatedFields": {
+        "text": {
+          "eng": "Final step 💪. Wrap up by sending your report today!"
+        },
+        "title": {
+          "eng": "@global.app_name"
+        }
+      },
+      "title": "@global.app_name"
+    },
+    {
+      "id": "notification_7",
+      "type": "form_reminder",
+      "text_fil_comment": "Konti na lang📋. Ipadala ang iyong report at kumpletuhin ang iyong session!",
+      "text": "So close 📋. Send your report and complete your session!",
+      "_translations": {
+        "text": {},
+        "title": {}
+      },
+      "_translatedFields": {
+        "text": {
+          "eng": "So close 📋. Send your report and complete your session!"
+        },
+        "title": {
+          "eng": "@global.app_name"
+        }
+      },
+      "title": "@global.app_name"
+    },
+    {
+      "id": "notification_8",
+      "type": "form_reminder",
+      "text_fil_comment": "Malapit ka nang matapos ✨. Ipadala lang ang iyong report!",
+      "text": "You’re nearly done ✨. Just send in your report!",
+      "_translations": {
+        "text": {},
+        "title": {}
+      },
+      "_translatedFields": {
+        "text": {
+          "eng": "You’re nearly done ✨. Just send in your report!"
+        },
+        "title": {
+          "eng": "@global.app_name"
+        }
+      },
+      "title": "@global.app_name"
+    },
+    {
+      "id": "notification_9",
+      "type": "next_module_reminder",
+      "text_fil_comment": "Ang iba ay sumusulong 💬. Simulan ang iyong susunod na chat session ngayon!",
+      "text": "Others are moving forward 💬. Start your next chat session today!",
+      "_translations": {
+        "text": {},
+        "title": {}
+      },
+      "_translatedFields": {
+        "text": {
+          "eng": "Others are moving forward 💬. Start your next chat session today!"
+        },
+        "title": {
+          "eng": "@global.app_name"
+        }
+      },
+      "title": "@global.app_name"
+    },
+    {
+      "id": "notification_10",
+      "type": "next_module_reminder",
+      "text_fil_comment": "Karamihan sa mga facilitators ay nagsimula na sa kanilang susunod na chat ✅. Balikan na ang inyong chat session!",
+      "text": "Most facilitators have begun their next chat ✅. Pick up where you left off!",
+      "_translations": {
+        "text": {},
+        "title": {}
+      },
+      "_translatedFields": {
+        "text": {
+          "eng": "Most facilitators have begun their next chat ✅. Pick up where you left off!"
+        },
+        "title": {
+          "eng": "@global.app_name"
+        }
+      },
+      "title": "@global.app_name"
+    },
+    {
+      "id": "notification_11",
+      "type": "next_module_reminder",
+      "text_fil_comment": "Ang mga facilitators ay on track 📈. Simulan ang iyong susunod na session ngayon!",
+      "text": "Facilitators are staying on track 📈. Begin your next session now!",
+      "_translations": {
+        "text": {},
+        "title": {}
+      },
+      "_translatedFields": {
+        "text": {
+          "eng": "Facilitators are staying on track 📈. Begin your next session now!"
+        },
+        "title": {
+          "eng": "@global.app_name"
+        }
+      },
+      "title": "@global.app_name"
+    },
+    {
+      "id": "notification_12",
+      "type": "next_module_reminder",
+      "text_fil_comment": "Maraming facilitators ang nagpapatuloy sa kanilang mga chat 💬. Sumali at simulan ang iyong susunod!",
+      "text": "Many facilitators are continuing their chats 💬. Join in and start your next one!",
+      "_translations": {
+        "text": {},
+        "title": {}
+      },
+      "_translatedFields": {
+        "text": {
+          "eng": "Many facilitators are continuing their chats 💬. Join in and start your next one!"
+        },
+        "title": {
+          "eng": "@global.app_name"
+        }
+      },
+      "title": "@global.app_name"
+    },
+    {
+      "id": "notification_13",
+      "type": "next_module_reminder",
+      "text_fil_comment": "Ang ganda ng progress mo 💬. Magpatuloy sa pamamagitan ng pagsisimula ng iyong susunod na session!",
+      "text": "You’re building strong progress 💬. Continue by starting your next session!",
+      "_translations": {
+        "text": {},
+        "title": {}
+      },
+      "_translatedFields": {
+        "text": {
+          "eng": "You’re building strong progress 💬. Continue by starting your next session!"
+        },
+        "title": {
+          "eng": "@global.app_name"
+        }
+      },
+      "title": "@global.app_name"
+    },
+    {
+      "id": "notification_14",
+      "type": "next_module_reminder",
+      "text_fil_comment": "Magkakaugnay ang bawat session ✨. Next step: simulan mo ang bagong chat!",
+      "text": "Each session builds on the last ✨. Keep it going—start your next one now!",
+      "_translations": {
+        "text": {},
+        "title": {}
+      },
+      "_translatedFields": {
+        "text": {
+          "eng": "Each session builds on the last ✨. Keep it going—start your next one now!"
+        },
+        "title": {
+          "eng": "@global.app_name"
+        }
+      },
+      "title": "@global.app_name"
+    },
+    {
+      "id": "notification_15",
+      "type": "next_module_reminder",
+      "text_fil_comment": "Ang galing! Patuloy ang pag-unlad mo 💪. Simulan mo na ang susunod na session!",
+      "text": "Great progress so far 💪. You’re getting closer—begin your next session today!",
+      "_translations": {
+        "text": {},
+        "title": {}
+      },
+      "_translatedFields": {
+        "text": {
+          "eng": "Great progress so far 💪. You’re getting closer—begin your next session today!"
+        },
+        "title": {
+          "eng": "@global.app_name"
+        }
+      },
+      "title": "@global.app_name"
+    },
+    {
+      "id": "notification_16",
+      "type": "next_module_reminder",
+      "text_fil_comment": "Isang hakbang papalapit sa finish line 🏁. Simulan ang iyong susunod na chat session ngayon!",
+      "text": "One step closer to the finish line 🏁. Begin your next chat session today!",
+      "_translations": {
+        "text": {},
+        "title": {}
+      },
+      "_translatedFields": {
+        "text": {
+          "eng": "One step closer to the finish line 🏁. Begin your next chat session today!"
+        },
+        "title": {
+          "eng": "@global.app_name"
+        }
+      },
+      "title": "@global.app_name"
+    }
+  ],
+  "_xlsxPath": "PH notifications.xlsx",
+  "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
+}
