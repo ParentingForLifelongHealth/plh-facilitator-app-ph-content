@@ -31,7 +31,7 @@
       },
       {
         "type": "data_items",
-        "count": 54
+        "count": 55
       },
       {
         "type": "date_time_picker",
@@ -95,7 +95,7 @@
       },
       {
         "type": "set_variable",
-        "count": 1056
+        "count": 1063
       },
       {
         "type": "simple_checkbox",
@@ -207,7 +207,11 @@
       },
       {
         "type": "nav_stack",
-        "count": 8
+        "count": 6
+      },
+      {
+        "type": "notification",
+        "count": 3
       },
       {
         "type": "plh_parent_group",
@@ -1313,7 +1317,7 @@
       {
         "type": "data_list",
         "subtype": null,
-        "total": 33
+        "total": 34
       },
       {
         "type": "data_list",

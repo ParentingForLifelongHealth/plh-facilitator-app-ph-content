@@ -10,7 +10,7 @@
 | button | 94 |
 | carousel | 2 |
 | combo_box | 16 |
-| data_items | 54 |
+| data_items | 55 |
 | date_time_picker | 4 |
 | debug_toggle | 1 |
 | display_grid | 2 |
@@ -26,7 +26,7 @@
 | radio_button_grid | 16 |
 | round_button | 46 |
 | select_text | 1 |
-| set_variable | 1056 |
+| set_variable | 1063 |
 | simple_checkbox | 2 |
 | task_card | 5 |
 | task_progress_bar | 2 |
@@ -60,7 +60,8 @@
 | emit: uncompleted | 88 |
 | feedback | 13 |
 | go_to | 37 |
-| nav_stack | 8 |
+| nav_stack | 6 |
+| notification | 3 |
 | plh_parent_group | 9 |
 | pop_up | 21 |
 | reset_app | 3 |
@@ -335,7 +336,7 @@ Assets that are used within sheets and also can be found in the synced asset dat
 
 | type | subtype | total |
 | --- | --- | --- |
-| data_list |  | 33 |
+| data_list |  | 34 |
 | data_list | app_config_language_list | 1 |
 | data_list | generated | 4 |
 | data_list | legal_terms | 2 |
