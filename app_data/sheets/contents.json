@@ -8201,6 +8201,12 @@
       "_xlsxPath": "templates/PH profile.xlsx",
       "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
     },
+    "delete_account_warning": {
+      "flow_type": "template",
+      "flow_name": "delete_account_warning",
+      "_xlsxPath": "templates/PH profile.xlsx",
+      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
+    },
     "delete_group": {
       "flow_type": "template",
       "flow_name": "delete_group",

@@ -1438,30 +1438,21 @@
       "exclude_from_translation": true,
       "rows": [
         {
-          "type": "image",
-          "name": "logo",
-          "value": "images/no_group_selected.svg",
-          "_translations": {
-            "value": {}
-          },
-          "exclude_from_translation": true,
-          "style_list": [
-            "width: 40%"
-          ],
-          "_nested_name": "display_group_18.logo"
-        },
-        {
           "type": "text",
           "value": "@global.sessions_no_groups",
           "_translations": {
             "value": {}
           },
           "parameter_list": {
+            "style": "contextual",
             "text_align": "center"
           },
           "exclude_from_translation": true,
-          "name": "text_2",
-          "_nested_name": "display_group_18.text_2",
+          "style_list": [
+            "color: var(--ion-color-gray-700)"
+          ],
+          "name": "text_1",
+          "_nested_name": "display_group_18.text_1",
           "_dynamicFields": {
             "value": [
               {
@@ -1479,10 +1470,58 @@
           }
         },
         {
-          "exclude_from_translation": true,
-          "type": "set_variable",
-          "name": "set_variable_3",
-          "_nested_name": "display_group_18.set_variable_3"
+          "type": "round_button",
+          "name": "groups_go_to_2",
+          "action_list": [
+            {
+              "trigger": "click",
+              "action_id": "plh_parent_group",
+              "args": [
+                "pull"
+              ],
+              "_raw": "click | plh_parent_group: pull | parent_groups_data_list: parent_groups, parents_data_list: parents, completion_tracking_data_list: sub_items",
+              "_cleaned": "click | plh_parent_group: pull | parent_groups_data_list: parent_groups, parents_data_list: parents, completion_tracking_data_list: sub_items",
+              "params": {
+                "parent_groups_data_list": "parent_groups",
+                "parents_data_list": "parents",
+                "completion_tracking_data_list": "sub_items"
+              }
+            },
+            {
+              "trigger": "click",
+              "action_id": "go_to",
+              "args": [
+                "profile_groups"
+              ],
+              "_raw": "click | go_to: profile_groups",
+              "_cleaned": "click | go_to: profile_groups"
+            }
+          ],
+          "parameter_list": {
+            "variant": "no-background",
+            "icon_src": "@global.add_group_icon"
+          },
+          "style_list": [
+            "max-width: max-content"
+          ],
+          "_nested_name": "display_group_18.groups_go_to_2",
+          "_dynamicFields": {
+            "parameter_list": {
+              "icon_src": [
+                {
+                  "fullExpression": "@global.add_group_icon",
+                  "matchedExpression": "@global.add_group_icon",
+                  "type": "global",
+                  "fieldName": "add_group_icon"
+                }
+              ]
+            }
+          },
+          "_dynamicDependencies": {
+            "@global.add_group_icon": [
+              "parameter_list.icon_src"
+            ]
+          }
         }
       ],
       "name": "display_group_18",

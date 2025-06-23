@@ -592,8 +592,8 @@
     "size_kb": 0.6
   },
   "images/icons/reminder.png": {
-    "md5Checksum": "720eb2278afbb404699c2d9ab9c27a87",
-    "size_kb": 18.6
+    "md5Checksum": "173f74b58c40aefd7e99b0c025d24285",
+    "size_kb": 13.6
   },
   "images/icons/reminder_old.png": {
     "md5Checksum": "85fd4606c803ce911da8a04d56af18d7",
@@ -627,37 +627,77 @@
     "md5Checksum": "d091d24763ff4511f97d9aa0884561a2",
     "size_kb": 2
   },
+  "images/icons/task_0.svg": {
+    "md5Checksum": "6effd6fdd727a8e1b552ca2b5eb49e08",
+    "size_kb": 2.3
+  },
   "images/icons/task_1.png": {
     "md5Checksum": "559c3b128a91336b002ca0815620dd1a",
+    "size_kb": 1
+  },
+  "images/icons/task_1.svg": {
+    "md5Checksum": "58f7b99019287b4881aacb510e997875",
     "size_kb": 1
   },
   "images/icons/task_2.png": {
     "md5Checksum": "b9aa4ac99ca09ef9e1c345f0f6f41fa7",
     "size_kb": 1.9
   },
+  "images/icons/task_2.svg": {
+    "md5Checksum": "3b35a3b753056f774be364b4f45e113c",
+    "size_kb": 1.7
+  },
   "images/icons/task_3.png": {
     "md5Checksum": "e08a0179104f8b38ecca08bc848c21d5",
     "size_kb": 2
+  },
+  "images/icons/task_3.svg": {
+    "md5Checksum": "b9b63a1ee2ade01c082fd2f621b34d44",
+    "size_kb": 2.5
   },
   "images/icons/task_4.png": {
     "md5Checksum": "976fa5922c585b54cf3b2e17f2449eca",
     "size_kb": 1.5
   },
+  "images/icons/task_4.svg": {
+    "md5Checksum": "747da4ec3c45272ca53865319a4f6559",
+    "size_kb": 1
+  },
   "images/icons/task_5.png": {
     "md5Checksum": "a66a858794ab298777de25100657f6fe",
     "size_kb": 1.8
+  },
+  "images/icons/task_5.svg": {
+    "md5Checksum": "4e673f6192932f6ccd6d70f63a9a0510",
+    "size_kb": 2
   },
   "images/icons/task_6.png": {
     "md5Checksum": "60a8a479076d7b0ed0d695747c497b4a",
     "size_kb": 2.2
   },
+  "images/icons/task_6.svg": {
+    "md5Checksum": "c8485ffc59cdf1474f31cc87c18150c9",
+    "size_kb": 2.4
+  },
   "images/icons/task_7.png": {
     "md5Checksum": "ee4c07a9347dbf888f13cba7704feb7c",
     "size_kb": 1.5
   },
+  "images/icons/task_7.svg": {
+    "md5Checksum": "ece4e418e39b1ca81ee665266d3dba31",
+    "size_kb": 1
+  },
   "images/icons/task_8.png": {
     "md5Checksum": "ac226e440340ec3bbc0de46731e11763",
     "size_kb": 2.4
+  },
+  "images/icons/task_8.svg": {
+    "md5Checksum": "69df9bab88c32e46e4476528a4344f1f",
+    "size_kb": 2.8
+  },
+  "images/icons/task_9.svg": {
+    "md5Checksum": "6c869786ee314a171617899517b2259b",
+    "size_kb": 2.5
   },
   "images/icons/trophy.svg": {
     "md5Checksum": "a963eaa12d6640a02c61f34e86093c9c",

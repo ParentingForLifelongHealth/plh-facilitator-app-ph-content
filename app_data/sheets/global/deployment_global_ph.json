@@ -128,11 +128,9 @@
     {
       "type": "declare_global_constant",
       "name": "sessions_no_groups",
-      "value": "Chat Sessions will load after you select a parent group",
+      "value": "No parent groups found.\n\nTo create a parent group, click on:",
       "_translations": {
-        "value": {
-          "ph_fil": true
-        }
+        "value": {}
       }
     },
     {
