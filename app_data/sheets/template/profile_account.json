@@ -334,13 +334,6 @@
                 },
                 {
                   "trigger": "click",
-                  "action_id": "reset_data",
-                  "args": [],
-                  "_raw": "click | reset_data",
-                  "_cleaned": "click | reset_data"
-                },
-                {
-                  "trigger": "click",
                   "action_id": "reset_app",
                   "args": [],
                   "_raw": "click | reset_app",

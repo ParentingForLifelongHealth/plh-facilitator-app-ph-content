@@ -7,7 +7,7 @@
     {
       "id": "week_1_session",
       "description": "week_1",
-      "image_asset": "images/icons/task_1.png",
+      "image_asset": "images/icons/task_1.svg",
       "report_id": "week_1",
       "page_count": 9,
       "status": "released",
@@ -58,7 +58,7 @@
     {
       "id": "week_2_session",
       "description": "week_2",
-      "image_asset": "images/icons/task_2.png",
+      "image_asset": "images/icons/task_2.svg",
       "report_id": "week_2",
       "page_count": 31,
       "status": "released",
@@ -109,7 +109,7 @@
     {
       "id": "week_3_session",
       "description": "week_3",
-      "image_asset": "images/icons/task_3.png",
+      "image_asset": "images/icons/task_3.svg",
       "report_id": "week_3",
       "page_count": 35,
       "status": "released",
@@ -160,7 +160,7 @@
     {
       "id": "week_4_session",
       "description": "week_4",
-      "image_asset": "images/icons/task_4.png",
+      "image_asset": "images/icons/task_4.svg",
       "report_id": "week_4",
       "page_count": 35,
       "status": "released",
@@ -211,7 +211,7 @@
     {
       "id": "week_5_session",
       "description": "week_5",
-      "image_asset": "images/icons/task_5.png",
+      "image_asset": "images/icons/task_5.svg",
       "report_id": "week_5",
       "page_count": 9,
       "status": "released",
@@ -262,7 +262,7 @@
     {
       "id": "week_6_session",
       "description": "week_6",
-      "image_asset": "images/icons/task_6.png",
+      "image_asset": "images/icons/task_6.svg",
       "report_id": "week_6",
       "page_count": 40,
       "status": "released",
@@ -313,7 +313,7 @@
     {
       "id": "week_7_session",
       "description": "week_7",
-      "image_asset": "images/icons/task_7.png",
+      "image_asset": "images/icons/task_7.svg",
       "report_id": "week_7",
       "page_count": 36,
       "status": "released",
@@ -364,7 +364,7 @@
     {
       "id": "week_8_session",
       "description": "week_8",
-      "image_asset": "images/icons/task_8.png",
+      "image_asset": "images/icons/task_8.svg",
       "report_id": "week_8",
       "page_count": 8,
       "status": "released",
