@@ -65,7 +65,7 @@
 | plh_parent_group | 10 |
 | pop_up | 20 |
 | reset_app | 4 |
-| reset_data | 2 |
+| reset_data | 1 |
 | save_to_device | 4 |
 | scroll | 1 |
 | set_data | 30 |
@@ -82,7 +82,7 @@
 
 | assets | KB | MB |
 | --- | --- | --- |
-| total | 42278 KB | 42.3 MB |
+| total | 42270 KB | 42.3 MB |
 | unused | 12265 KB | 12.3 MB |
 </details>
 
@@ -161,14 +161,14 @@ Assets that appear in app-data but do not have references within sheets
 | images/icons/settings.svg | 1.2 |
 | images/icons/task_0.png | 2 |
 | images/icons/task_0.svg | 2.3 |
-| images/icons/task_1.svg | 1 |
-| images/icons/task_2.svg | 1.7 |
-| images/icons/task_3.svg | 2.5 |
-| images/icons/task_4.svg | 1 |
-| images/icons/task_5.svg | 2 |
-| images/icons/task_6.svg | 2.4 |
-| images/icons/task_7.svg | 1 |
-| images/icons/task_8.svg | 2.8 |
+| images/icons/task_1.png | 1 |
+| images/icons/task_2.png | 1.9 |
+| images/icons/task_3.png | 2 |
+| images/icons/task_4.png | 1.5 |
+| images/icons/task_5.png | 1.8 |
+| images/icons/task_6.png | 2.2 |
+| images/icons/task_7.png | 1.5 |
+| images/icons/task_8.png | 2.4 |
 | images/icons/task_9.svg | 2.5 |
 | images/icons/trophy.svg | 1 |
 | images/no_group_selected.svg | 3.5 |
@@ -185,7 +185,7 @@ Assets that have references within sheets but do not appear in app-data
 
 | path | count |
 | --- | --- |
-| .png | 2 |
+| .svg | 2 |
 | @data.pdf | 3 |
 | pdf/08_mapa_skill.pdf | 1 |
 </details>
@@ -206,7 +206,7 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | images/backgrounds/MaPa_logo_with_background.png | 102 | 1 |
 | images/backgrounds/home_bottom_right.svg | 2.3 | 1 |
 | images/backgrounds/home_top_left.svg | 2.4 | 3 |
-| images/backgrounds/reports_top_right.svg | 2 | 1 |
+| images/backgrounds/reports_top_right.svg | 0.9 | 1 |
 | images/comics/02_comics1_panel1.png | 1324.6 | 1 |
 | images/comics/02_comics1_panel2.png | 1320.2 | 1 |
 | images/comics/02_comics1_panel3.png | 1377.6 | 1 |
@@ -261,7 +261,7 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | images/icons/check_circle.png | 0.6 | 1 |
 | images/icons/checkmark-outline.svg | 0.2 | 2 |
 | images/icons/cog_white.svg | 3.6 | 1 |
-| images/icons/content.svg | 7.2 | 2 |
+| images/icons/content.svg | 6.3 | 2 |
 | images/icons/copy-outline.svg | 0.4 | 2 |
 | images/icons/delete.svg | 1.9 | 4 |
 | images/icons/docs.svg | 0.7 | 1 |
@@ -269,35 +269,35 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | images/icons/download_white.svg | 0.7 | 1 |
 | images/icons/edit.svg | 0.9 | 3 |
 | images/icons/eye.svg | 1.6 | 2 |
-| images/icons/feather.svg | 4.6 | 1 |
+| images/icons/feather.svg | 3.2 | 1 |
 | images/icons/help.svg | 2.6 | 1 |
 | images/icons/home_white.svg | 1.7 | 1 |
 | images/icons/house_white.svg | 0.4 | 1 |
 | images/icons/incomplete.svg | 0.8 | 1 |
-| images/icons/key.svg | 5.5 | 2 |
+| images/icons/key.svg | 4.6 | 2 |
 | images/icons/library.png | 1.5 | 1 |
 | images/icons/library_white.svg | 2.8 | 1 |
-| images/icons/magnify_glass.svg | 3 | 1 |
+| images/icons/magnify_glass.svg | 2 | 1 |
 | images/icons/pencil_white.svg | 2 | 1 |
-| images/icons/people_network.svg | 6.9 | 1 |
-| images/icons/person_cog.svg | 2.9 | 2 |
-| images/icons/profile_card.svg | 7.4 | 1 |
+| images/icons/people_network.svg | 5.9 | 1 |
+| images/icons/person_cog.svg | 3.2 | 2 |
+| images/icons/profile_card.svg | 6.2 | 1 |
 | images/icons/reminder.png | 13.6 | 14 |
 | images/icons/report.png | 1.1 | 1 |
 | images/icons/sessions.png | 1.3 | 1 |
 | images/icons/settings.png | 1.1 | 1 |
 | images/icons/share.svg | 4.2 | 4 |
-| images/icons/task_1.png | 1 | 1 |
-| images/icons/task_2.png | 1.9 | 1 |
-| images/icons/task_3.png | 2 | 1 |
-| images/icons/task_4.png | 1.5 | 1 |
-| images/icons/task_5.png | 1.8 | 1 |
-| images/icons/task_6.png | 2.2 | 1 |
-| images/icons/task_7.png | 1.5 | 1 |
-| images/icons/task_8.png | 2.4 | 1 |
+| images/icons/task_1.svg | 1 | 1 |
+| images/icons/task_2.svg | 1.7 | 1 |
+| images/icons/task_3.svg | 2.5 | 1 |
+| images/icons/task_4.svg | 1 | 1 |
+| images/icons/task_5.svg | 2 | 1 |
+| images/icons/task_6.svg | 2.4 | 1 |
+| images/icons/task_7.svg | 1 | 1 |
+| images/icons/task_8.svg | 2.8 | 1 |
 | images/icons/unarchive.svg | 1.1 | 1 |
 | images/icons/visibility.svg | 1.9 | 1 |
-| images/icons/world.svg | 6.2 | 1 |
+| images/icons/world.svg | 5.8 | 1 |
 | images/icons_1.png | 267.7 | 1 |
 | images/icons_2.png | 210 | 1 |
 | images/icons_3.png | 205.9 | 1 |

@@ -51,7 +51,7 @@
             },
             {
               "name": "text",
-              "value": "@item.text_1",
+              "value": "@item.text",
               "_translations": {
                 "value": {}
               },
@@ -60,15 +60,15 @@
               "_dynamicFields": {
                 "value": [
                   {
-                    "fullExpression": "@item.text_1",
-                    "matchedExpression": "@item.text_1",
+                    "fullExpression": "@item.text",
+                    "matchedExpression": "@item.text",
                     "type": "item",
-                    "fieldName": "text_1"
+                    "fieldName": "text"
                   }
                 ]
               },
               "_dynamicDependencies": {
-                "@item.text_1": [
+                "@item.text": [
                   "value"
                 ]
               }
@@ -143,6 +143,6 @@
       }
     }
   ],
-  "_xlsxPath": "templates/article_loop_override.xlsx",
+  "_xlsxPath": "templates/article_loop_ph.xlsx",
   "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
 }

@@ -201,7 +201,7 @@
     },
     {
       "name": "image_postfix",
-      "value": ".png",
+      "value": ".svg",
       "_translations": {
         "value": {}
       },

@@ -158,7 +158,7 @@
     "message_log": {
       "flow_type": "data_list",
       "flow_name": "message_log",
-      "_xlsxPath": "templates/article_elements_override.xlsx",
+      "_xlsxPath": "templates/article_elements_ph.xlsx",
       "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
     },
     "modules": {
@@ -5223,7 +5223,7 @@
         "output_flow_type": "template",
         "output_flow_subtype": "generated"
       },
-      "_xlsxPath": "templates/article_loop_override.xlsx",
+      "_xlsxPath": "templates/article_loop_ph.xlsx",
       "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go",
       "_output_flows": [
         {
@@ -5347,7 +5347,7 @@
         "output_flow_type": "template",
         "output_flow_subtype": "generated"
       },
-      "_xlsxPath": "templates/article_loop_override.xlsx",
+      "_xlsxPath": "templates/article_loop_ph.xlsx",
       "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go",
       "_output_flows": [
         {
@@ -6629,7 +6629,7 @@
         "output_flow_type": "template",
         "output_flow_subtype": "generated"
       },
-      "_xlsxPath": "templates/article_loop_override.xlsx",
+      "_xlsxPath": "templates/article_loop_ph.xlsx",
       "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go",
       "_output_flows": []
     },
@@ -6642,7 +6642,7 @@
         "output_flow_type": "data_pipe",
         "output_flow_subtype": "generated"
       },
-      "_xlsxPath": "templates/article_loop_override.xlsx",
+      "_xlsxPath": "templates/article_loop_ph.xlsx",
       "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go",
       "_output_flows": [
         {
@@ -8156,19 +8156,19 @@
     "article_intro": {
       "flow_type": "template",
       "flow_name": "article_intro",
-      "_xlsxPath": "templates/article_loop_override.xlsx",
+      "_xlsxPath": "templates/article_loop_ph.xlsx",
       "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
     },
     "article_loop": {
       "flow_type": "template",
       "flow_name": "article_loop",
-      "_xlsxPath": "templates/article_loop_override.xlsx",
+      "_xlsxPath": "templates/article_loop_ph.xlsx",
       "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
     },
     "article_message": {
       "flow_type": "template",
       "flow_name": "article_message",
-      "_xlsxPath": "templates/article_loop_override.xlsx",
+      "_xlsxPath": "templates/article_loop_ph.xlsx",
       "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
     },
     "article_related": {
@@ -8180,19 +8180,19 @@
     "article_resource": {
       "flow_type": "template",
       "flow_name": "article_resource",
-      "_xlsxPath": "templates/article_loop_override.xlsx",
+      "_xlsxPath": "templates/article_loop_ph.xlsx",
       "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
     },
     "article_section": {
       "flow_type": "template",
       "flow_name": "article_section",
-      "_xlsxPath": "templates/article_loop_override.xlsx",
+      "_xlsxPath": "templates/article_loop_ph.xlsx",
       "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
     },
     "article_story": {
       "flow_type": "template",
       "flow_name": "article_story",
-      "_xlsxPath": "templates/article_loop_override.xlsx",
+      "_xlsxPath": "templates/article_loop_ph.xlsx",
       "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
     },
     "co_facilitator": {
@@ -9954,8 +9954,8 @@
     "library_list": {
       "flow_type": "template",
       "flow_name": "library_list",
-      "_xlsxPath": "templates/library.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1Jo1-q7KOE4gC2XRKEMcU9bXnrwB5oCRC"
+      "_xlsxPath": "templates/article_loop_ph.xlsx",
+      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
     },
     "login": {
       "flow_type": "template",
@@ -9996,13 +9996,13 @@
     "message_element": {
       "flow_type": "template",
       "flow_name": "message_element",
-      "_xlsxPath": "templates/article_elements_override.xlsx",
+      "_xlsxPath": "templates/article_elements_ph.xlsx",
       "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
     },
     "module_final": {
       "flow_type": "template",
       "flow_name": "module_final",
-      "_xlsxPath": "templates/article_loop_override.xlsx",
+      "_xlsxPath": "templates/article_loop_ph.xlsx",
       "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
     },
     "nav_buttons": {
@@ -10050,7 +10050,7 @@
     "popup_nav": {
       "flow_type": "template",
       "flow_name": "popup_nav",
-      "_xlsxPath": "templates/article_loop_override.xlsx",
+      "_xlsxPath": "templates/article_loop_ph.xlsx",
       "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
     },
     "profile": {
@@ -10129,7 +10129,7 @@
     "related_element": {
       "flow_type": "template",
       "flow_name": "related_element",
-      "_xlsxPath": "templates/article_elements_override.xlsx",
+      "_xlsxPath": "templates/article_elements_ph.xlsx",
       "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
     },
     "remove_cofacilitator": {
@@ -10153,13 +10153,13 @@
     "resource_element": {
       "flow_type": "template",
       "flow_name": "resource_element",
-      "_xlsxPath": "templates/article_elements_override.xlsx",
+      "_xlsxPath": "templates/article_elements_ph.xlsx",
       "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
     },
     "section_element": {
       "flow_type": "template",
       "flow_name": "section_element",
-      "_xlsxPath": "templates/article_elements_override.xlsx",
+      "_xlsxPath": "templates/article_elements_ph.xlsx",
       "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
     },
     "section_header": {
