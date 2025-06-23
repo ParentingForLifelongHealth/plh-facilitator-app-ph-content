@@ -19,7 +19,7 @@
       },
       {
         "type": "button",
-        "count": 94
+        "count": 97
       },
       {
         "type": "carousel",
@@ -47,7 +47,7 @@
       },
       {
         "type": "display_group",
-        "count": 137
+        "count": 139
       },
       {
         "type": "drawer",
@@ -59,7 +59,7 @@
       },
       {
         "type": "image",
-        "count": 16
+        "count": 15
       },
       {
         "type": "items",
@@ -87,7 +87,7 @@
       },
       {
         "type": "round_button",
-        "count": 46
+        "count": 47
       },
       {
         "type": "select_text",
@@ -95,7 +95,7 @@
       },
       {
         "type": "set_variable",
-        "count": 1065
+        "count": 1064
       },
       {
         "type": "simple_checkbox",
@@ -119,7 +119,7 @@
       },
       {
         "type": "text",
-        "count": 284
+        "count": 285
       },
       {
         "type": "text_area",
@@ -131,7 +131,7 @@
       },
       {
         "type": "title",
-        "count": 44
+        "count": 45
       },
       {
         "type": "toggle_bar",
@@ -163,7 +163,7 @@
       },
       {
         "type": "auth",
-        "count": 2
+        "count": 3
       },
       {
         "type": "copy",
@@ -171,7 +171,7 @@
       },
       {
         "type": "emit: completed",
-        "count": 69
+        "count": 70
       },
       {
         "type": "emit: force_reload",
@@ -203,7 +203,7 @@
       },
       {
         "type": "go_to",
-        "count": 38
+        "count": 39
       },
       {
         "type": "nav_stack",
@@ -215,7 +215,7 @@
       },
       {
         "type": "plh_parent_group",
-        "count": 9
+        "count": 10
       },
       {
         "type": "pop_up",
@@ -223,7 +223,11 @@
       },
       {
         "type": "reset_app",
-        "count": 3
+        "count": 4
+      },
+      {
+        "type": "reset_data",
+        "count": 2
       },
       {
         "type": "save_to_device",
@@ -267,13 +271,13 @@
     "data": [
       {
         "assets": "total",
-        "KB": "42286 KB",
+        "KB": "42278 KB",
         "MB": "42.3 MB"
       },
       {
         "assets": "unused",
-        "KB": "12242 KB",
-        "MB": "12.2 MB"
+        "KB": "12265 KB",
+        "MB": "12.3 MB"
       }
     ]
   },
@@ -548,8 +552,52 @@
         "size_kb": 2
       },
       {
+        "path": "images/icons/task_0.svg",
+        "size_kb": 2.3
+      },
+      {
+        "path": "images/icons/task_1.svg",
+        "size_kb": 1
+      },
+      {
+        "path": "images/icons/task_2.svg",
+        "size_kb": 1.7
+      },
+      {
+        "path": "images/icons/task_3.svg",
+        "size_kb": 2.5
+      },
+      {
+        "path": "images/icons/task_4.svg",
+        "size_kb": 1
+      },
+      {
+        "path": "images/icons/task_5.svg",
+        "size_kb": 2
+      },
+      {
+        "path": "images/icons/task_6.svg",
+        "size_kb": 2.4
+      },
+      {
+        "path": "images/icons/task_7.svg",
+        "size_kb": 1
+      },
+      {
+        "path": "images/icons/task_8.svg",
+        "size_kb": 2.8
+      },
+      {
+        "path": "images/icons/task_9.svg",
+        "size_kb": 2.5
+      },
+      {
         "path": "images/icons/trophy.svg",
         "size_kb": 1
+      },
+      {
+        "path": "images/no_group_selected.svg",
+        "size_kb": 3.5
       },
       {
         "path": "images/person_cog.png",
@@ -1018,7 +1066,7 @@
       {
         "path": "images/icons/reminder.png",
         "count": 14,
-        "size_kb": 18.6
+        "size_kb": 13.6
       },
       {
         "path": "images/icons/report.png",
@@ -1149,11 +1197,6 @@
         "path": "images/logos/app_logo.png",
         "count": 3,
         "size_kb": 70.6
-      },
-      {
-        "path": "images/no_group_selected.svg",
-        "count": 1,
-        "size_kb": 3.5
       },
       {
         "path": "lottie/checkmark_blue.json",
@@ -1367,7 +1410,7 @@
       {
         "type": "template",
         "subtype": null,
-        "total": 82
+        "total": 83
       },
       {
         "type": "template",

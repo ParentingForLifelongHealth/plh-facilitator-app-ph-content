@@ -306,6 +306,50 @@
       "_translations": {
         "value": {}
       }
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "delete_account",
+      "value": "Delete account",
+      "_translations": {
+        "value": {}
+      }
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "delete_account_warning_title",
+      "value": "Are you sure you want to delete your account?",
+      "_translations": {
+        "value": {}
+      }
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "delete_account_warning_text",
+      "value": "This action is permanent and cannot be undone. You will lose all your progress.",
+      "_translations": {
+        "value": {}
+      }
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "yes",
+      "value": "Yes",
+      "_translations": {
+        "value": {
+          "ph_fil": true
+        }
+      }
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "no",
+      "value": "No",
+      "_translations": {
+        "value": {
+          "ph_fil": true
+        }
+      }
     }
   ],
   "_xlsxPath": "data/deployment_data_ph.xlsx",

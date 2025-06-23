@@ -4,6 +4,129 @@
   "status": "released",
   "rows": [
     {
+      "name": "notification_datetime",
+      "value": "@calc(date_fns.addDays(now(),3))",
+      "_translations": {
+        "value": {}
+      },
+      "type": "set_variable",
+      "_nested_name": "notification_datetime",
+      "_dynamicFields": {
+        "value": [
+          {
+            "fullExpression": "@calc(date_fns.addDays(now(),3))",
+            "matchedExpression": "@calc(date_fns.addDays(now(),3))",
+            "type": "calc",
+            "fieldName": "date_fns.addDays(now(),3)"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@calc(date_fns.addDays(now(),3))": [
+          "value"
+        ]
+      }
+    },
+    {
+      "name": "module_id",
+      "value": "@fields.current_module_no",
+      "_translations": {
+        "value": {}
+      },
+      "type": "set_variable",
+      "_nested_name": "module_id",
+      "_dynamicFields": {
+        "value": [
+          {
+            "fullExpression": "@fields.current_module_no",
+            "matchedExpression": "@fields.current_module_no",
+            "type": "fields",
+            "fieldName": "current_module_no"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@fields.current_module_no": [
+          "value"
+        ]
+      }
+    },
+    {
+      "name": "group_id",
+      "value": "@fields.current_group_no",
+      "_translations": {
+        "value": {}
+      },
+      "type": "set_variable",
+      "_nested_name": "group_id",
+      "_dynamicFields": {
+        "value": [
+          {
+            "fullExpression": "@fields.current_group_no",
+            "matchedExpression": "@fields.current_group_no",
+            "type": "fields",
+            "fieldName": "current_group_no"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@fields.current_group_no": [
+          "value"
+        ]
+      }
+    },
+    {
+      "name": "group",
+      "value": "_group",
+      "_translations": {
+        "value": {}
+      },
+      "type": "set_variable",
+      "_nested_name": "group"
+    },
+    {
+      "name": "notification_id",
+      "value": "notification_@local.module_id@local.group@local.group_id",
+      "_translations": {
+        "value": {}
+      },
+      "type": "set_variable",
+      "_nested_name": "notification_id",
+      "_dynamicFields": {
+        "value": [
+          {
+            "fullExpression": "notification_@local.module_id@local.group@local.group_id",
+            "matchedExpression": "@local.module_id",
+            "type": "local",
+            "fieldName": "module_id"
+          },
+          {
+            "fullExpression": "notification_@local.module_id@local.group@local.group_id",
+            "matchedExpression": "@local.group",
+            "type": "local",
+            "fieldName": "group"
+          },
+          {
+            "fullExpression": "notification_@local.module_id@local.group@local.group_id",
+            "matchedExpression": "@local.group_id",
+            "type": "local",
+            "fieldName": "group_id"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@local.module_id": [
+          "value"
+        ],
+        "@local.group": [
+          "value"
+        ],
+        "@local.group_id": [
+          "value"
+        ]
+      }
+    },
+    {
       "name": "completed_field",
       "value": "completed_@fields.current_group_no",
       "_translations": {
@@ -105,45 +228,6 @@
         }
       ],
       "_nested_name": "dg_top"
-    },
-    {
-      "type": "text",
-      "name": "final_title",
-      "value": "@global.module_final_title",
-      "_translations": {
-        "value": {}
-      },
-      "parameter_list": {
-        "text_align": "center"
-      },
-      "condition": "@local.report_count == 0",
-      "_nested_name": "final_title",
-      "_dynamicFields": {
-        "value": [
-          {
-            "fullExpression": "@global.module_final_title",
-            "matchedExpression": "@global.module_final_title",
-            "type": "global",
-            "fieldName": "module_final_title"
-          }
-        ],
-        "condition": [
-          {
-            "fullExpression": "@local.report_count == 0",
-            "matchedExpression": "@local.report_count",
-            "type": "local",
-            "fieldName": "report_count"
-          }
-        ]
-      },
-      "_dynamicDependencies": {
-        "@global.module_final_title": [
-          "value"
-        ],
-        "@local.report_count": [
-          "condition"
-        ]
-      }
     },
     {
       "name": "report_count",
@@ -260,6 +344,51 @@
       }
     },
     {
+      "type": "text",
+      "name": "final_title",
+      "value": "@global.module_final_title",
+      "_translations": {
+        "value": {}
+      },
+      "parameter_list": {
+        "text_align": "center"
+      },
+      "condition": "@local.report_count == 0",
+      "_nested_name": "final_title",
+      "_dynamicFields": {
+        "value": [
+          {
+            "fullExpression": "@global.module_final_title",
+            "matchedExpression": "@global.module_final_title",
+            "type": "global",
+            "fieldName": "module_final_title"
+          }
+        ],
+        "condition": [
+          {
+            "fullExpression": "@local.report_count == 0",
+            "matchedExpression": "@local.report_count",
+            "type": "local",
+            "fieldName": "report_count"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@global.module_final_title": [
+          "value"
+        ],
+        "@local.report_count": [
+          "condition"
+        ]
+      }
+    },
+    {
+      "name": "module_index",
+      "value": 0,
+      "type": "set_variable",
+      "_nested_name": "module_index"
+    },
+    {
       "name": "module_complete",
       "value": false,
       "type": "set_variable",
@@ -282,6 +411,16 @@
           ],
           "_raw": "data_changed | set_local : module_complete : @items[0]?.@local.completed_field",
           "_cleaned": "data_changed | set_local : module_complete : @items[0]?.@local.completed_field"
+        },
+        {
+          "trigger": "data_changed",
+          "action_id": "set_local",
+          "args": [
+            "module_index",
+            "@items[0]?._row_index"
+          ],
+          "_raw": "data_changed | set_local : module_index: @items[0]?._row_index",
+          "_cleaned": "data_changed | set_local : module_index: @items[0]?._row_index"
         }
       ],
       "parameter_list": {
@@ -375,6 +514,96 @@
       }
     },
     {
+      "name": "next_module_index",
+      "value": "@local.module_index + 1",
+      "_translations": {
+        "value": {}
+      },
+      "type": "set_variable",
+      "_nested_name": "next_module_index",
+      "_dynamicFields": {
+        "value": [
+          {
+            "fullExpression": "@local.module_index + 1",
+            "matchedExpression": "@local.module_index",
+            "type": "local",
+            "fieldName": "module_index"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@local.module_index": [
+          "value"
+        ]
+      }
+    },
+    {
+      "name": "next_module_id",
+      "type": "set_variable",
+      "_nested_name": "next_module_id"
+    },
+    {
+      "type": "data_items",
+      "name": "get_next_module_id",
+      "value": "@data.modules",
+      "_translations": {
+        "value": {}
+      },
+      "action_list": [
+        {
+          "trigger": "data_changed",
+          "action_id": "set_local",
+          "args": [
+            "next_module_id",
+            "@items[0]?.id"
+          ],
+          "_raw": "data_changed | set_local : next_module_id : @items[0]?.id",
+          "_cleaned": "data_changed | set_local : next_module_id : @items[0]?.id"
+        }
+      ],
+      "parameter_list": {
+        "filter": "@item._row_index == @local.next_module_index"
+      },
+      "_nested_name": "get_next_module_id",
+      "_dynamicFields": {
+        "value": [
+          {
+            "fullExpression": "@data.modules",
+            "matchedExpression": "@data.modules",
+            "type": "data",
+            "fieldName": "modules"
+          }
+        ],
+        "parameter_list": {
+          "filter": [
+            {
+              "fullExpression": "@item._row_index == @local.next_module_index",
+              "matchedExpression": "@item._row_index",
+              "type": "item",
+              "fieldName": "_row_index"
+            },
+            {
+              "fullExpression": "@item._row_index == @local.next_module_index",
+              "matchedExpression": "@local.next_module_index",
+              "type": "local",
+              "fieldName": "next_module_index"
+            }
+          ]
+        }
+      },
+      "_dynamicDependencies": {
+        "@data.modules": [
+          "value"
+        ],
+        "@item._row_index": [
+          "parameter_list.filter"
+        ],
+        "@local.next_module_index": [
+          "parameter_list.filter"
+        ]
+      }
+    },
+    {
       "type": "display_group",
       "parameter_list": {
         "style": "column"
@@ -394,7 +623,7 @@
           "style_list": [
             "margin-block: -48px"
           ],
-          "_nested_name": "display_group_13.lottie",
+          "_nested_name": "display_group_22.lottie",
           "_dynamicFields": {
             "value": [
               {
@@ -434,7 +663,7 @@
           },
           "exclude_from_translation": true,
           "condition": "@local.report_count > 0",
-          "_nested_name": "display_group_13.finish_text",
+          "_nested_name": "display_group_22.finish_text",
           "_dynamicFields": {
             "value": [
               {
@@ -492,7 +721,7 @@
           ],
           "exclude_from_translation": true,
           "condition": "@local.report_count > 0",
-          "_nested_name": "display_group_13.existing_report",
+          "_nested_name": "display_group_22.existing_report",
           "_dynamicFields": {
             "value": [
               {
@@ -556,122 +785,274 @@
           }
         },
         {
-          "type": "button",
-          "name": "new_report",
-          "value": "@global.mark_delivered",
-          "_translations": {
-            "value": {}
+          "type": "data_items",
+          "name": "select_random_notification_message",
+          "value": "notification_messages",
+          "parameter_list": {
+            "filter": "@item.type == \"form_reminder\"",
+            "shuffle": "true",
+            "limit": "1"
           },
-          "action_list": [
+          "rows": [
             {
-              "trigger": "click",
-              "action_id": "set_data",
-              "args": [],
-              "_raw": "click | set_data |\n_list_id: modules,\n_id: @fields.current_module_no,\n@local.completed_field: true",
-              "_cleaned": "click | set_data |\n_list_id: modules,\n_id: @fields.current_module_no,\n@local.completed_field: true",
-              "params": {
-                "_list_id": "modules",
-                "_id": "@fields.current_module_no",
-                "@local.completed_field": true
-              }
-            },
-            {
-              "trigger": "click",
-              "action_id": "go_to",
-              "args": [
-                "add_report"
+              "type": "button",
+              "name": "new_report",
+              "value": "@global.mark_delivered",
+              "_translations": {
+                "value": {}
+              },
+              "action_list": [
+                {
+                  "trigger": "click",
+                  "action_id": "set_data",
+                  "args": [],
+                  "_raw": "click | set_data |\n_list_id: modules,\n_id: @fields.current_module_no,\n@local.completed_field: true",
+                  "_cleaned": "click | set_data |\n_list_id: modules,\n_id: @fields.current_module_no,\n@local.completed_field: true",
+                  "params": {
+                    "_list_id": "modules",
+                    "_id": "@fields.current_module_no",
+                    "@local.completed_field": true
+                  }
+                },
+                {
+                  "trigger": "click",
+                  "action_id": "go_to",
+                  "args": [
+                    "add_report"
+                  ],
+                  "_raw": "click | go_to: add_report",
+                  "_cleaned": "click | go_to: add_report"
+                },
+                {
+                  "trigger": "click",
+                  "action_id": "notification",
+                  "args": [
+                    "create"
+                  ],
+                  "_raw": "click | notification: create |\nid: @local.notification_id,\ntitle: @item.title,\ntext: @item.text,\nschedule_at: @local.notification_datetime",
+                  "_cleaned": "click | notification: create |\nid: @local.notification_id,\ntitle: @item.title,\ntext: @item.text,\nschedule_at: @local.notification_datetime",
+                  "params": {
+                    "id": "@local.notification_id",
+                    "title": "@item.title",
+                    "text": "@item.text",
+                    "schedule_at": "@local.notification_datetime"
+                  }
+                }
               ],
-              "_raw": "click | go_to: add_report",
-              "_cleaned": "click | go_to: add_report"
+              "condition": "@local.report_count == 0 && @fields.current_report_id != \"empty\"",
+              "_nested_name": "display_group_22.select_random_notification_message.new_report",
+              "_dynamicFields": {
+                "value": [
+                  {
+                    "fullExpression": "@global.mark_delivered",
+                    "matchedExpression": "@global.mark_delivered",
+                    "type": "global",
+                    "fieldName": "mark_delivered"
+                  }
+                ],
+                "action_list": {
+                  "0": {
+                    "_raw": [
+                      {
+                        "fullExpression": "click | set_data |\n_list_id: modules,\n_id: @fields.current_module_no,\n@local.completed_field: true",
+                        "matchedExpression": "@fields.current_module_no",
+                        "type": "fields",
+                        "fieldName": "current_module_no"
+                      },
+                      {
+                        "fullExpression": "click | set_data |\n_list_id: modules,\n_id: @fields.current_module_no,\n@local.completed_field: true",
+                        "matchedExpression": "@local.completed_field",
+                        "type": "local",
+                        "fieldName": "completed_field"
+                      }
+                    ],
+                    "_cleaned": [
+                      {
+                        "fullExpression": "click | set_data |\n_list_id: modules,\n_id: @fields.current_module_no,\n@local.completed_field: true",
+                        "matchedExpression": "@fields.current_module_no",
+                        "type": "fields",
+                        "fieldName": "current_module_no"
+                      },
+                      {
+                        "fullExpression": "click | set_data |\n_list_id: modules,\n_id: @fields.current_module_no,\n@local.completed_field: true",
+                        "matchedExpression": "@local.completed_field",
+                        "type": "local",
+                        "fieldName": "completed_field"
+                      }
+                    ],
+                    "params": {
+                      "_id": [
+                        {
+                          "fullExpression": "@fields.current_module_no",
+                          "matchedExpression": "@fields.current_module_no",
+                          "type": "fields",
+                          "fieldName": "current_module_no"
+                        }
+                      ]
+                    }
+                  },
+                  "2": {
+                    "_raw": [
+                      {
+                        "fullExpression": "click | notification: create |\nid: @local.notification_id,\ntitle: @item.title,\ntext: @item.text,\nschedule_at: @local.notification_datetime",
+                        "matchedExpression": "@local.notification_id",
+                        "type": "local",
+                        "fieldName": "notification_id"
+                      },
+                      {
+                        "fullExpression": "click | notification: create |\nid: @local.notification_id,\ntitle: @item.title,\ntext: @item.text,\nschedule_at: @local.notification_datetime",
+                        "matchedExpression": "@item.title",
+                        "type": "item",
+                        "fieldName": "title"
+                      },
+                      {
+                        "fullExpression": "click | notification: create |\nid: @local.notification_id,\ntitle: @item.title,\ntext: @item.text,\nschedule_at: @local.notification_datetime",
+                        "matchedExpression": "@item.text",
+                        "type": "item",
+                        "fieldName": "text"
+                      },
+                      {
+                        "fullExpression": "click | notification: create |\nid: @local.notification_id,\ntitle: @item.title,\ntext: @item.text,\nschedule_at: @local.notification_datetime",
+                        "matchedExpression": "@local.notification_datetime",
+                        "type": "local",
+                        "fieldName": "notification_datetime"
+                      }
+                    ],
+                    "_cleaned": [
+                      {
+                        "fullExpression": "click | notification: create |\nid: @local.notification_id,\ntitle: @item.title,\ntext: @item.text,\nschedule_at: @local.notification_datetime",
+                        "matchedExpression": "@local.notification_id",
+                        "type": "local",
+                        "fieldName": "notification_id"
+                      },
+                      {
+                        "fullExpression": "click | notification: create |\nid: @local.notification_id,\ntitle: @item.title,\ntext: @item.text,\nschedule_at: @local.notification_datetime",
+                        "matchedExpression": "@item.title",
+                        "type": "item",
+                        "fieldName": "title"
+                      },
+                      {
+                        "fullExpression": "click | notification: create |\nid: @local.notification_id,\ntitle: @item.title,\ntext: @item.text,\nschedule_at: @local.notification_datetime",
+                        "matchedExpression": "@item.text",
+                        "type": "item",
+                        "fieldName": "text"
+                      },
+                      {
+                        "fullExpression": "click | notification: create |\nid: @local.notification_id,\ntitle: @item.title,\ntext: @item.text,\nschedule_at: @local.notification_datetime",
+                        "matchedExpression": "@local.notification_datetime",
+                        "type": "local",
+                        "fieldName": "notification_datetime"
+                      }
+                    ],
+                    "params": {
+                      "id": [
+                        {
+                          "fullExpression": "@local.notification_id",
+                          "matchedExpression": "@local.notification_id",
+                          "type": "local",
+                          "fieldName": "notification_id"
+                        }
+                      ],
+                      "title": [
+                        {
+                          "fullExpression": "@item.title",
+                          "matchedExpression": "@item.title",
+                          "type": "item",
+                          "fieldName": "title"
+                        }
+                      ],
+                      "text": [
+                        {
+                          "fullExpression": "@item.text",
+                          "matchedExpression": "@item.text",
+                          "type": "item",
+                          "fieldName": "text"
+                        }
+                      ],
+                      "schedule_at": [
+                        {
+                          "fullExpression": "@local.notification_datetime",
+                          "matchedExpression": "@local.notification_datetime",
+                          "type": "local",
+                          "fieldName": "notification_datetime"
+                        }
+                      ]
+                    }
+                  }
+                },
+                "condition": [
+                  {
+                    "fullExpression": "@local.report_count == 0 && @fields.current_report_id != \"empty\"",
+                    "matchedExpression": "@local.report_count",
+                    "type": "local",
+                    "fieldName": "report_count"
+                  },
+                  {
+                    "fullExpression": "@local.report_count == 0 && @fields.current_report_id != \"empty\"",
+                    "matchedExpression": "@fields.current_report_id",
+                    "type": "fields",
+                    "fieldName": "current_report_id"
+                  }
+                ]
+              },
+              "_dynamicDependencies": {
+                "@global.mark_delivered": [
+                  "value"
+                ],
+                "@fields.current_module_no": [
+                  "action_list.0._raw",
+                  "action_list.0._cleaned",
+                  "action_list.0.params._id"
+                ],
+                "@local.completed_field": [
+                  "action_list.0._raw",
+                  "action_list.0._cleaned"
+                ],
+                "@local.notification_id": [
+                  "action_list.2._raw",
+                  "action_list.2._cleaned",
+                  "action_list.2.params.id"
+                ],
+                "@item.title": [
+                  "action_list.2._raw",
+                  "action_list.2._cleaned",
+                  "action_list.2.params.title"
+                ],
+                "@item.text": [
+                  "action_list.2._raw",
+                  "action_list.2._cleaned",
+                  "action_list.2.params.text"
+                ],
+                "@local.notification_datetime": [
+                  "action_list.2._raw",
+                  "action_list.2._cleaned",
+                  "action_list.2.params.schedule_at"
+                ],
+                "@local.report_count": [
+                  "condition"
+                ],
+                "@fields.current_report_id": [
+                  "condition"
+                ]
+              }
             }
           ],
-          "exclude_from_translation": true,
-          "condition": "@local.report_count == 0 && @fields.current_report_id != \"empty\"",
-          "_nested_name": "display_group_13.new_report",
+          "_nested_name": "display_group_22.select_random_notification_message",
           "_dynamicFields": {
-            "value": [
-              {
-                "fullExpression": "@global.mark_delivered",
-                "matchedExpression": "@global.mark_delivered",
-                "type": "global",
-                "fieldName": "mark_delivered"
-              }
-            ],
-            "action_list": {
-              "0": {
-                "_raw": [
-                  {
-                    "fullExpression": "click | set_data |\n_list_id: modules,\n_id: @fields.current_module_no,\n@local.completed_field: true",
-                    "matchedExpression": "@fields.current_module_no",
-                    "type": "fields",
-                    "fieldName": "current_module_no"
-                  },
-                  {
-                    "fullExpression": "click | set_data |\n_list_id: modules,\n_id: @fields.current_module_no,\n@local.completed_field: true",
-                    "matchedExpression": "@local.completed_field",
-                    "type": "local",
-                    "fieldName": "completed_field"
-                  }
-                ],
-                "_cleaned": [
-                  {
-                    "fullExpression": "click | set_data |\n_list_id: modules,\n_id: @fields.current_module_no,\n@local.completed_field: true",
-                    "matchedExpression": "@fields.current_module_no",
-                    "type": "fields",
-                    "fieldName": "current_module_no"
-                  },
-                  {
-                    "fullExpression": "click | set_data |\n_list_id: modules,\n_id: @fields.current_module_no,\n@local.completed_field: true",
-                    "matchedExpression": "@local.completed_field",
-                    "type": "local",
-                    "fieldName": "completed_field"
-                  }
-                ],
-                "params": {
-                  "_id": [
-                    {
-                      "fullExpression": "@fields.current_module_no",
-                      "matchedExpression": "@fields.current_module_no",
-                      "type": "fields",
-                      "fieldName": "current_module_no"
-                    }
-                  ]
+            "parameter_list": {
+              "filter": [
+                {
+                  "fullExpression": "@item.type == \"form_reminder\"",
+                  "matchedExpression": "@item.type",
+                  "type": "item",
+                  "fieldName": "type"
                 }
-              }
-            },
-            "condition": [
-              {
-                "fullExpression": "@local.report_count == 0 && @fields.current_report_id != \"empty\"",
-                "matchedExpression": "@local.report_count",
-                "type": "local",
-                "fieldName": "report_count"
-              },
-              {
-                "fullExpression": "@local.report_count == 0 && @fields.current_report_id != \"empty\"",
-                "matchedExpression": "@fields.current_report_id",
-                "type": "fields",
-                "fieldName": "current_report_id"
-              }
-            ]
+              ]
+            }
           },
           "_dynamicDependencies": {
-            "@global.mark_delivered": [
-              "value"
-            ],
-            "@fields.current_module_no": [
-              "action_list.0._raw",
-              "action_list.0._cleaned",
-              "action_list.0.params._id"
-            ],
-            "@local.completed_field": [
-              "action_list.0._raw",
-              "action_list.0._cleaned"
-            ],
-            "@local.report_count": [
-              "condition"
-            ],
-            "@fields.current_report_id": [
-              "condition"
+            "@item.type": [
+              "parameter_list.filter"
             ]
           }
         },
@@ -707,7 +1088,7 @@
           ],
           "exclude_from_translation": true,
           "condition": "@fields.current_report_id == \"empty\" && !@local.module_complete",
-          "_nested_name": "display_group_13.complete_module",
+          "_nested_name": "display_group_22.complete_module",
           "_dynamicFields": {
             "value": [
               {
@@ -796,8 +1177,8 @@
           }
         }
       ],
-      "name": "display_group_13",
-      "_nested_name": "display_group_13",
+      "name": "display_group_22",
+      "_nested_name": "display_group_22",
       "_dynamicFields": {
         "condition": [
           {

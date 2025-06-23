@@ -7,35 +7,35 @@
 | accordion_section | 1 |
 | apple_sign_in_button | 3 |
 | audio | 3 |
-| button | 94 |
+| button | 97 |
 | carousel | 2 |
 | combo_box | 16 |
 | data_items | 56 |
 | date_time_picker | 4 |
 | debug_toggle | 1 |
 | display_grid | 2 |
-| display_group | 137 |
+| display_group | 139 |
 | drawer | 1 |
 | google_sign_in_button | 4 |
-| image | 16 |
+| image | 15 |
 | items | 20 |
 | lottie_animation | 2 |
 | navigation_bar | 2 |
 | pdf | 1 |
 | qr_code | 1 |
 | radio_button_grid | 16 |
-| round_button | 46 |
+| round_button | 47 |
 | select_text | 1 |
-| set_variable | 1065 |
+| set_variable | 1064 |
 | simple_checkbox | 2 |
 | task_card | 5 |
 | task_progress_bar | 2 |
 | template | 356 |
 | test | 1 |
-| text | 284 |
+| text | 285 |
 | text_area | 2 |
 | text_box | 46 |
-| title | 44 |
+| title | 45 |
 | toggle_bar | 5 |
 | update_action_list | 3 |
 | video | 3 |
@@ -49,9 +49,9 @@
 | --- | --- |
 | add_data | 9 |
 | app_update | 1 |
-| auth | 2 |
+| auth | 3 |
 | copy | 2 |
-| emit: completed | 69 |
+| emit: completed | 70 |
 | emit: force_reload | 9 |
 | emit: force_reprocess | 18 |
 | emit: force_restart | 5 |
@@ -59,12 +59,13 @@
 | emit: set_language | 1 |
 | emit: uncompleted | 89 |
 | feedback | 13 |
-| go_to | 38 |
+| go_to | 39 |
 | nav_stack | 6 |
 | notification | 3 |
-| plh_parent_group | 9 |
+| plh_parent_group | 10 |
 | pop_up | 20 |
-| reset_app | 3 |
+| reset_app | 4 |
+| reset_data | 2 |
 | save_to_device | 4 |
 | scroll | 1 |
 | set_data | 30 |
@@ -81,8 +82,8 @@
 
 | assets | KB | MB |
 | --- | --- | --- |
-| total | 42286 KB | 42.3 MB |
-| unused | 12242 KB | 12.2 MB |
+| total | 42278 KB | 42.3 MB |
+| unused | 12265 KB | 12.3 MB |
 </details>
 
 <details open>
@@ -159,7 +160,18 @@ Assets that appear in app-data but do not have references within sheets
 | images/icons/report.svg | 0.3 |
 | images/icons/settings.svg | 1.2 |
 | images/icons/task_0.png | 2 |
+| images/icons/task_0.svg | 2.3 |
+| images/icons/task_1.svg | 1 |
+| images/icons/task_2.svg | 1.7 |
+| images/icons/task_3.svg | 2.5 |
+| images/icons/task_4.svg | 1 |
+| images/icons/task_5.svg | 2 |
+| images/icons/task_6.svg | 2.4 |
+| images/icons/task_7.svg | 1 |
+| images/icons/task_8.svg | 2.8 |
+| images/icons/task_9.svg | 2.5 |
 | images/icons/trophy.svg | 1 |
+| images/no_group_selected.svg | 3.5 |
 | images/person_cog.png | 0.8 |
 | images/progress_complete.png | 0.9 |
 | images/progress_uncomplete.png | 0.9 |
@@ -270,7 +282,7 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | images/icons/people_network.svg | 6.9 | 1 |
 | images/icons/person_cog.svg | 2.9 | 2 |
 | images/icons/profile_card.svg | 7.4 | 1 |
-| images/icons/reminder.png | 18.6 | 14 |
+| images/icons/reminder.png | 13.6 | 14 |
 | images/icons/report.png | 1.1 | 1 |
 | images/icons/sessions.png | 1.3 | 1 |
 | images/icons/settings.png | 1.1 | 1 |
@@ -297,7 +309,6 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | images/logos/PLH.png | 26.6 | 1 |
 | images/logos/UNICEF.jpg | 57.9 | 1 |
 | images/logos/app_logo.png | 70.6 | 3 |
-| images/no_group_selected.svg | 3.5 | 1 |
 | lottie/checkmark_blue.json | 17 | 3 |
 | pdf/01_mod1_intro.pdf | 650.7 | 1 |
 | pdf/01_mod1_layunin.pdf | 478.3 | 1 |
@@ -346,7 +357,7 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | generator |  | 10 |
 | global |  | 12 |
 | global | legal_terms | 1 |
-| template |  | 82 |
+| template |  | 83 |
 | template | generated | 309 |
 | template | legal_terms | 4 |
 </details>
