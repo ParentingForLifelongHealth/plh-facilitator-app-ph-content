@@ -10,7 +10,7 @@
 | button | 94 |
 | carousel | 2 |
 | combo_box | 16 |
-| data_items | 54 |
+| data_items | 56 |
 | date_time_picker | 4 |
 | debug_toggle | 1 |
 | display_grid | 2 |
@@ -26,16 +26,16 @@
 | radio_button_grid | 16 |
 | round_button | 46 |
 | select_text | 1 |
-| set_variable | 1056 |
+| set_variable | 1065 |
 | simple_checkbox | 2 |
 | task_card | 5 |
 | task_progress_bar | 2 |
-| template | 355 |
+| template | 356 |
 | test | 1 |
 | text | 284 |
 | text_area | 2 |
 | text_box | 46 |
-| title | 45 |
+| title | 44 |
 | toggle_bar | 5 |
 | update_action_list | 3 |
 | video | 3 |
@@ -57,19 +57,20 @@
 | emit: force_restart | 5 |
 | emit: server_sync | 18 |
 | emit: set_language | 1 |
-| emit: uncompleted | 88 |
+| emit: uncompleted | 89 |
 | feedback | 13 |
-| go_to | 37 |
-| nav_stack | 8 |
+| go_to | 38 |
+| nav_stack | 6 |
+| notification | 3 |
 | plh_parent_group | 9 |
-| pop_up | 21 |
+| pop_up | 20 |
 | reset_app | 3 |
 | save_to_device | 4 |
 | scroll | 1 |
 | set_data | 30 |
 | set_field | 87 |
 | set_item | 10 |
-| set_local | 98 |
+| set_local | 100 |
 | share | 4 |
 | toast | 1 |
 | user | 4 |
@@ -335,7 +336,7 @@ Assets that are used within sheets and also can be found in the synced asset dat
 
 | type | subtype | total |
 | --- | --- | --- |
-| data_list |  | 33 |
+| data_list |  | 34 |
 | data_list | app_config_language_list | 1 |
 | data_list | generated | 4 |
 | data_list | legal_terms | 2 |
