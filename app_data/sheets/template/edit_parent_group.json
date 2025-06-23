@@ -166,12 +166,6 @@
       }
     },
     {
-      "exclude_from_translation": true,
-      "type": "set_variable",
-      "name": "set_variable_11",
-      "_nested_name": "set_variable_11"
-    },
-    {
       "type": "data_items",
       "name": "get_id",
       "value": "parent_groups",
@@ -245,12 +239,6 @@
       }
     },
     {
-      "exclude_from_translation": true,
-      "type": "set_variable",
-      "name": "set_variable_13",
-      "_nested_name": "set_variable_13"
-    },
-    {
       "type": "text_box",
       "name": "text_box",
       "value": "@fields.current_group_name",
@@ -259,7 +247,7 @@
       },
       "parameter_list": {
         "placeholder": "@local.text_group_name",
-        "disabled": "@fields.current_group_readonly"
+        "disabled": "!!@fields.current_group_readonly"
       },
       "exclude_from_translation": true,
       "_nested_name": "text_box",
@@ -283,8 +271,8 @@
           ],
           "disabled": [
             {
-              "fullExpression": "@fields.current_group_readonly",
-              "matchedExpression": "@fields.current_group_readonly",
+              "fullExpression": "!!@fields.current_group_readonly",
+              "matchedExpression": "!@fields.current_group_readonly",
               "type": "fields",
               "fieldName": "current_group_readonly"
             }
@@ -298,7 +286,7 @@
         "@local.text_group_name": [
           "parameter_list.placeholder"
         ],
-        "@fields.current_group_readonly": [
+        "!@fields.current_group_readonly": [
           "parameter_list.disabled"
         ]
       }
@@ -437,7 +425,7 @@
             "variant": "card",
             "disabled": "!@local.valid"
           },
-          "_nested_name": "display_group_20.save",
+          "_nested_name": "display_group_18.save",
           "_dynamicFields": {
             "action_list": {
               "0": {
@@ -517,8 +505,8 @@
           }
         }
       ],
-      "name": "display_group_20",
-      "_nested_name": "display_group_20"
+      "name": "display_group_18",
+      "_nested_name": "display_group_18"
     }
   ],
   "_xlsxPath": "templates/PH profile.xlsx",
