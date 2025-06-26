@@ -7,35 +7,35 @@
 | accordion_section | 1 |
 | apple_sign_in_button | 3 |
 | audio | 3 |
-| button | 97 |
+| button | 100 |
 | carousel | 2 |
 | combo_box | 16 |
-| data_items | 56 |
+| data_items | 57 |
 | date_time_picker | 4 |
 | debug_toggle | 1 |
 | display_grid | 2 |
-| display_group | 139 |
+| display_group | 140 |
 | drawer | 1 |
 | google_sign_in_button | 4 |
 | image | 15 |
-| items | 20 |
+| items | 23 |
 | lottie_animation | 2 |
 | navigation_bar | 2 |
 | pdf | 1 |
 | qr_code | 1 |
 | radio_button_grid | 16 |
-| round_button | 47 |
+| round_button | 49 |
 | select_text | 1 |
-| set_variable | 1064 |
+| set_variable | 1089 |
 | simple_checkbox | 2 |
 | task_card | 5 |
 | task_progress_bar | 2 |
 | template | 356 |
 | test | 1 |
-| text | 285 |
+| text | 286 |
 | text_area | 2 |
 | text_box | 46 |
-| title | 45 |
+| title | 46 |
 | toggle_bar | 5 |
 | update_action_list | 3 |
 | video | 3 |
@@ -51,27 +51,28 @@
 | app_update | 1 |
 | auth | 3 |
 | copy | 2 |
-| emit: completed | 70 |
+| emit: completed | 72 |
 | emit: force_reload | 9 |
 | emit: force_reprocess | 18 |
 | emit: force_restart | 5 |
 | emit: server_sync | 18 |
 | emit: set_language | 1 |
-| emit: uncompleted | 89 |
+| emit: uncompleted | 90 |
 | feedback | 13 |
-| go_to | 39 |
-| nav_stack | 6 |
-| notification | 3 |
+| go_to | 40 |
+| nav_stack | 7 |
+| navigate_back | 1 |
+| notification | 9 |
 | plh_parent_group | 10 |
-| pop_up | 20 |
+| pop_up | 21 |
 | reset_app | 4 |
 | reset_data | 1 |
 | save_to_device | 4 |
 | scroll | 1 |
-| set_data | 30 |
+| set_data | 32 |
 | set_field | 87 |
 | set_item | 10 |
-| set_local | 100 |
+| set_local | 105 |
 | share | 4 |
 | toast | 1 |
 | user | 4 |
@@ -259,7 +260,7 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | images/icons/arrow_forward.svg | 0.4 | 1 |
 | images/icons/cancel.svg | 1.7 | 1 |
 | images/icons/check_circle.png | 0.6 | 1 |
-| images/icons/checkmark-outline.svg | 0.2 | 2 |
+| images/icons/checkmark-outline.svg | 0.2 | 3 |
 | images/icons/cog_white.svg | 3.6 | 1 |
 | images/icons/content.svg | 6.3 | 2 |
 | images/icons/copy-outline.svg | 0.4 | 2 |
@@ -309,7 +310,7 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | images/logos/PLH.png | 26.6 | 1 |
 | images/logos/UNICEF.jpg | 57.9 | 1 |
 | images/logos/app_logo.png | 70.6 | 3 |
-| lottie/checkmark_blue.json | 17 | 3 |
+| lottie/checkmark_blue.json | 17 | 5 |
 | pdf/01_mod1_intro.pdf | 650.7 | 1 |
 | pdf/01_mod1_layunin.pdf | 478.3 | 1 |
 | pdf/01_mod1_mapa_skill.pdf | 6899 | 1 |
@@ -352,12 +353,11 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | data_list | generated | 4 |
 | data_list | legal_terms | 2 |
 | data_list | lifecycle_actions | 1 |
-| data_pipe |  | 1 |
-| data_pipe | generated | 219 |
-| generator |  | 10 |
-| global |  | 12 |
+| data_pipe |  | 2 |
+| generator |  | 8 |
+| global |  | 13 |
 | global | legal_terms | 1 |
-| template |  | 83 |
+| template |  | 84 |
 | template | generated | 309 |
 | template | legal_terms | 4 |
 </details>

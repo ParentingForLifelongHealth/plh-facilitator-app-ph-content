@@ -19,7 +19,7 @@
       },
       {
         "type": "button",
-        "count": 97
+        "count": 100
       },
       {
         "type": "carousel",
@@ -31,7 +31,7 @@
       },
       {
         "type": "data_items",
-        "count": 56
+        "count": 57
       },
       {
         "type": "date_time_picker",
@@ -47,7 +47,7 @@
       },
       {
         "type": "display_group",
-        "count": 139
+        "count": 140
       },
       {
         "type": "drawer",
@@ -63,7 +63,7 @@
       },
       {
         "type": "items",
-        "count": 20
+        "count": 23
       },
       {
         "type": "lottie_animation",
@@ -87,7 +87,7 @@
       },
       {
         "type": "round_button",
-        "count": 47
+        "count": 49
       },
       {
         "type": "select_text",
@@ -95,7 +95,7 @@
       },
       {
         "type": "set_variable",
-        "count": 1064
+        "count": 1089
       },
       {
         "type": "simple_checkbox",
@@ -119,7 +119,7 @@
       },
       {
         "type": "text",
-        "count": 285
+        "count": 286
       },
       {
         "type": "text_area",
@@ -131,7 +131,7 @@
       },
       {
         "type": "title",
-        "count": 45
+        "count": 46
       },
       {
         "type": "toggle_bar",
@@ -171,7 +171,7 @@
       },
       {
         "type": "emit: completed",
-        "count": 70
+        "count": 72
       },
       {
         "type": "emit: force_reload",
@@ -195,7 +195,7 @@
       },
       {
         "type": "emit: uncompleted",
-        "count": 89
+        "count": 90
       },
       {
         "type": "feedback",
@@ -203,15 +203,19 @@
       },
       {
         "type": "go_to",
-        "count": 39
+        "count": 40
       },
       {
         "type": "nav_stack",
-        "count": 6
+        "count": 7
+      },
+      {
+        "type": "navigate_back",
+        "count": 1
       },
       {
         "type": "notification",
-        "count": 3
+        "count": 9
       },
       {
         "type": "plh_parent_group",
@@ -219,7 +223,7 @@
       },
       {
         "type": "pop_up",
-        "count": 20
+        "count": 21
       },
       {
         "type": "reset_app",
@@ -239,7 +243,7 @@
       },
       {
         "type": "set_data",
-        "count": 30
+        "count": 32
       },
       {
         "type": "set_field",
@@ -251,7 +255,7 @@
       },
       {
         "type": "set_local",
-        "count": 100
+        "count": 105
       },
       {
         "type": "share",
@@ -950,7 +954,7 @@
       },
       {
         "path": "images/icons/checkmark-outline.svg",
-        "count": 2,
+        "count": 3,
         "size_kb": 0.2
       },
       {
@@ -1200,7 +1204,7 @@
       },
       {
         "path": "lottie/checkmark_blue.json",
-        "count": 3,
+        "count": 5,
         "size_kb": 17
       },
       {
@@ -1385,22 +1389,17 @@
       {
         "type": "data_pipe",
         "subtype": null,
-        "total": 1
-      },
-      {
-        "type": "data_pipe",
-        "subtype": "generated",
-        "total": 219
+        "total": 2
       },
       {
         "type": "generator",
         "subtype": null,
-        "total": 10
+        "total": 8
       },
       {
         "type": "global",
         "subtype": null,
-        "total": 12
+        "total": 13
       },
       {
         "type": "global",
@@ -1410,7 +1409,7 @@
       {
         "type": "template",
         "subtype": null,
-        "total": 83
+        "total": 84
       },
       {
         "type": "template",

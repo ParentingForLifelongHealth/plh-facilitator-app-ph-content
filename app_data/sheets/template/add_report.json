@@ -118,7 +118,8 @@
       },
       "exclude_from_translation": true,
       "style_list": [
-        "background-color: var(--ion-color-primary-100)"
+        "background-color: var(--ion-color-primary-100)",
+        "margin-block: -24px"
       ],
       "rows": [
         {
@@ -143,7 +144,8 @@
                 }
               ],
               "style_list": [
-                "padding-block: 24px"
+                "margin-top: 48px",
+                "margin-bottom: 24px"
               ],
               "rows": [
                 {
@@ -307,6 +309,9 @@
         }
       ],
       "condition": "@local.report_type == \"in_person\"",
+      "style_list": [
+        "margin-top: 48px"
+      ],
       "rows": [],
       "_nested_name": "add_in_person",
       "_dynamicFields": {
@@ -388,6 +393,9 @@
         }
       ],
       "condition": "@local.report_type == \"virtual\"",
+      "style_list": [
+        "margin-top: 48px"
+      ],
       "rows": [],
       "_nested_name": "add_remote",
       "_dynamicFields": {
