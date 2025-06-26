@@ -28,15 +28,6 @@
       }
     },
     {
-      "name": "module_id",
-      "value": "@field:current_module_no",
-      "_translations": {
-        "value": {}
-      },
-      "type": "set_variable",
-      "_nested_name": "module_id"
-    },
-    {
       "name": "report_name",
       "type": "set_variable",
       "_nested_name": "report_name"
@@ -78,8 +69,8 @@
         "filter": "@item.id == @fields.current_report_id",
         "limit": "1"
       },
-      "name": "data_items_6",
-      "_nested_name": "data_items_6",
+      "name": "data_items_5",
+      "_nested_name": "data_items_5",
       "_dynamicFields": {
         "value": [
           {
@@ -190,10 +181,121 @@
       "_nested_name": "dg_top"
     },
     {
+      "name": "module_id",
+      "value": "@field.current_module_no",
+      "_translations": {
+        "value": {}
+      },
+      "type": "set_variable",
+      "_nested_name": "module_id",
+      "_dynamicFields": {
+        "value": [
+          {
+            "fullExpression": "@field.current_module_no",
+            "matchedExpression": "@field.current_module_no",
+            "type": "field",
+            "fieldName": "current_module_no"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@field.current_module_no": [
+          "value"
+        ]
+      }
+    },
+    {
+      "name": "group_id",
+      "value": "@field.current_group_no",
+      "_translations": {
+        "value": {}
+      },
+      "type": "set_variable",
+      "_nested_name": "group_id",
+      "_dynamicFields": {
+        "value": [
+          {
+            "fullExpression": "@field.current_group_no",
+            "matchedExpression": "@field.current_group_no",
+            "type": "field",
+            "fieldName": "current_group_no"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@field.current_group_no": [
+          "value"
+        ]
+      }
+    },
+    {
+      "name": "group",
+      "value": "_group",
+      "_translations": {
+        "value": {}
+      },
+      "type": "set_variable",
+      "_nested_name": "group"
+    },
+    {
+      "name": "notification_id",
+      "value": "form_@local.module_id@local.group@local.group_id",
+      "_translations": {
+        "value": {}
+      },
+      "type": "set_variable",
+      "_nested_name": "notification_id",
+      "_dynamicFields": {
+        "value": [
+          {
+            "fullExpression": "form_@local.module_id@local.group@local.group_id",
+            "matchedExpression": "@local.module_id",
+            "type": "local",
+            "fieldName": "module_id"
+          },
+          {
+            "fullExpression": "form_@local.module_id@local.group@local.group_id",
+            "matchedExpression": "@local.group",
+            "type": "local",
+            "fieldName": "group"
+          },
+          {
+            "fullExpression": "form_@local.module_id@local.group@local.group_id",
+            "matchedExpression": "@local.group_id",
+            "type": "local",
+            "fieldName": "group_id"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@local.module_id": [
+          "value"
+        ],
+        "@local.group": [
+          "value"
+        ],
+        "@local.group_id": [
+          "value"
+        ]
+      }
+    },
+    {
       "type": "template",
       "name": "add_in_person",
       "value": "add_in_person",
       "action_list": [
+        {
+          "trigger": "completed",
+          "action_id": "notification",
+          "args": [
+            "cancel"
+          ],
+          "_raw": "completed | notification: cancel | id: @local.notification_id",
+          "_cleaned": "completed | notification: cancel | id: @local.notification_id",
+          "params": {
+            "id": "@local.notification_id"
+          }
+        },
         {
           "trigger": "completed",
           "action_id": "emit",
@@ -208,6 +310,36 @@
       "rows": [],
       "_nested_name": "add_in_person",
       "_dynamicFields": {
+        "action_list": {
+          "0": {
+            "_raw": [
+              {
+                "fullExpression": "completed | notification: cancel | id: @local.notification_id",
+                "matchedExpression": "@local.notification_id",
+                "type": "local",
+                "fieldName": "notification_id"
+              }
+            ],
+            "_cleaned": [
+              {
+                "fullExpression": "completed | notification: cancel | id: @local.notification_id",
+                "matchedExpression": "@local.notification_id",
+                "type": "local",
+                "fieldName": "notification_id"
+              }
+            ],
+            "params": {
+              "id": [
+                {
+                  "fullExpression": "@local.notification_id",
+                  "matchedExpression": "@local.notification_id",
+                  "type": "local",
+                  "fieldName": "notification_id"
+                }
+              ]
+            }
+          }
+        },
         "condition": [
           {
             "fullExpression": "@local.report_type == \"in_person\"",
@@ -218,6 +350,11 @@
         ]
       },
       "_dynamicDependencies": {
+        "@local.notification_id": [
+          "action_list.0._raw",
+          "action_list.0._cleaned",
+          "action_list.0.params.id"
+        ],
         "@local.report_type": [
           "condition"
         ]
@@ -228,6 +365,18 @@
       "name": "add_remote",
       "value": "add_remote",
       "action_list": [
+        {
+          "trigger": "completed",
+          "action_id": "notification",
+          "args": [
+            "cancel"
+          ],
+          "_raw": "completed | notification: cancel | id: @local.notification_id",
+          "_cleaned": "completed | notification: cancel | id: @local.notification_id",
+          "params": {
+            "id": "@local.notification_id"
+          }
+        },
         {
           "trigger": "completed",
           "action_id": "emit",
@@ -242,6 +391,36 @@
       "rows": [],
       "_nested_name": "add_remote",
       "_dynamicFields": {
+        "action_list": {
+          "0": {
+            "_raw": [
+              {
+                "fullExpression": "completed | notification: cancel | id: @local.notification_id",
+                "matchedExpression": "@local.notification_id",
+                "type": "local",
+                "fieldName": "notification_id"
+              }
+            ],
+            "_cleaned": [
+              {
+                "fullExpression": "completed | notification: cancel | id: @local.notification_id",
+                "matchedExpression": "@local.notification_id",
+                "type": "local",
+                "fieldName": "notification_id"
+              }
+            ],
+            "params": {
+              "id": [
+                {
+                  "fullExpression": "@local.notification_id",
+                  "matchedExpression": "@local.notification_id",
+                  "type": "local",
+                  "fieldName": "notification_id"
+                }
+              ]
+            }
+          }
+        },
         "condition": [
           {
             "fullExpression": "@local.report_type == \"virtual\"",
@@ -252,12 +431,17 @@
         ]
       },
       "_dynamicDependencies": {
+        "@local.notification_id": [
+          "action_list.0._raw",
+          "action_list.0._cleaned",
+          "action_list.0.params.id"
+        ],
         "@local.report_type": [
           "condition"
         ]
       }
     }
   ],
-  "_xlsxPath": "templates/reports.xlsx",
-  "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1Jo1-q7KOE4gC2XRKEMcU9bXnrwB5oCRC"
+  "_xlsxPath": "templates/report_ph.xlsx",
+  "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
 }
