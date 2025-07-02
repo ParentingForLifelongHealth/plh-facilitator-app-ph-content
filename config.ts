@@ -57,13 +57,11 @@ config.app_config.APP_HEADER_DEFAULTS.title = "Facilitator PH";
 config.app_config.APP_HEADER_DEFAULTS.hidden = true;
 config.app_config.NOTIFICATION_DEFAULTS.title = "New message from Facilitator PH";
 config.app_config.NOTIFICATION_DEFAULTS.text = "You have a new message from Facilitator PH";
-config.app_config.APP_THEMES.available = ["default", "professional"];
-config.app_config.APP_THEMES.defaultThemeName = "professional";
 config.app_config.APP_UPDATES.enabled = true;
 config.app_config.APP_UPDATES.completeUpdateTemplate = "app_update_complete";
 config.app_config.APP_FOOTER_DEFAULTS.templateName = "footer";
-config.app_config.APP_THEMES.available = ["plh_facilitator_mapa"];
-config.app_config.APP_THEMES.defaultThemeName = "plh_facilitator_mapa";
+config.app_config.APP_THEMES.available = ["plh_facilitator_ph"];
+config.app_config.APP_THEMES.defaultThemeName = "plh_facilitator_ph";
 
 
 config.error_logging = { dsn: "https://ca84802206d44c49b553c7dfc68b5e0e@app.glitchtip.com/6093"};
