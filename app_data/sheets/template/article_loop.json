@@ -1217,6 +1217,9 @@
                     "icon_src": "images/icons/cancel.svg"
                   },
                   "exclude_from_translation": true,
+                  "style_list": [
+                    "margin-inline-end: -10px"
+                  ],
                   "_nested_name": "header.display_group_1.display_group_2.close_all"
                 }
               ],

@@ -75,10 +75,6 @@
     "md5Checksum": "68e4168e8a69c3f751831cf00ccbd22c",
     "size_kb": 4.7
   },
-  "images/backgrounds/MaPa_logo_with_background.png": {
-    "md5Checksum": "df9a9f9e5e0aabdd97128b76c577f13b",
-    "size_kb": 102
-  },
   "images/backgrounds/home_bottom_right.svg": {
     "md5Checksum": "d1e5c20120116837424d9a646f8ee10e",
     "size_kb": 2.3
@@ -94,10 +90,6 @@
   "images/backgrounds/library_top_right.svg": {
     "md5Checksum": "2a8f32d264768ab0036997f6026883df",
     "size_kb": 0.3
-  },
-  "images/backgrounds/report_edit.png": {
-    "md5Checksum": "c7c6dffe196f54bfe36c2b8cc973cd64",
-    "size_kb": 1.7
   },
   "images/backgrounds/report_edit.svg": {
     "md5Checksum": "3e4a45f91225fc7b3abcc9ada2961143",

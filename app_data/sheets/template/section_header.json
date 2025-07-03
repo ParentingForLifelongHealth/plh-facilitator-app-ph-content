@@ -106,10 +106,16 @@
     },
     {
       "name": "title",
+      "type": "set_variable",
+      "_nested_name": "title"
+    },
+    {
+      "name": "title",
       "value": "@local.app_section_data.title",
       "_translations": {
         "value": {}
       },
+      "condition": "!!@local.app_section_data",
       "type": "set_variable",
       "_nested_name": "title",
       "_dynamicFields": {
@@ -120,11 +126,22 @@
             "type": "local",
             "fieldName": "app_section_data"
           }
+        ],
+        "condition": [
+          {
+            "fullExpression": "!!@local.app_section_data",
+            "matchedExpression": "!@local.app_section_data",
+            "type": "local",
+            "fieldName": "app_section_data"
+          }
         ]
       },
       "_dynamicDependencies": {
         "@local.app_section_data.title": [
           "value"
+        ],
+        "!@local.app_section_data": [
+          "condition"
         ]
       }
     },
