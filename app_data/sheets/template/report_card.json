@@ -437,7 +437,7 @@
             }
           ],
           "parameter_list": {
-            "variant": "no-background",
+            "style": "orange",
             "icon_src": "images/icons/delete.svg"
           },
           "_nested_name": "existing_report.delete_report",
@@ -748,6 +748,6 @@
       }
     }
   ],
-  "_xlsxPath": "templates/reports.xlsx",
-  "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1Jo1-q7KOE4gC2XRKEMcU9bXnrwB5oCRC"
+  "_xlsxPath": "templates/report_ph.xlsx",
+  "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
 }

@@ -313,6 +313,14 @@
       "_translations": {
         "value": {}
       }
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "module_nothing_shared",
+      "value": "Please share your message with the parent group before marking this module as delivered.",
+      "_translations": {
+        "value": {}
+      }
     }
   ],
   "_xlsxPath": "data/deployment_data_ph.xlsx",

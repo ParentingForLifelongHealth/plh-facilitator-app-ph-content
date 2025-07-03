@@ -219,12 +219,12 @@
     {
       "type": "display_group",
       "name": "dg_resources",
-      "style_list": [
-        "justify-content: space-evenly"
-      ],
       "parameter_list": {
         "style": "column"
       },
+      "style_list": [
+        "justify-content: space-evenly"
+      ],
       "rows": [
         {
           "type": "items",
@@ -1467,10 +1467,10 @@
     {
       "type": "display_group",
       "name": "dg_drawer",
-      "condition": "@local.article_data.task_list_text",
       "parameter_list": {
         "style": "column"
       },
+      "condition": "@local.article_data.task_list_text",
       "rows": [
         {
           "type": "drawer",

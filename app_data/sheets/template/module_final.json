@@ -171,7 +171,6 @@
         "filter": "@item.id == @fields.current_module_no"
       },
       "exclude_from_translation": true,
-      "condition": "This cannot have a condition, otherwise module_index does not get set",
       "_nested_name": "get_module_complete",
       "_dynamicFields": {
         "value": [
@@ -697,6 +696,135 @@
       }
     },
     {
+      "name": "message_shared",
+      "type": "set_variable",
+      "_nested_name": "message_shared"
+    },
+    {
+      "name": "has_cofacilitator",
+      "type": "set_variable",
+      "_nested_name": "has_cofacilitator"
+    },
+    {
+      "type": "data_items",
+      "name": "get_message_share",
+      "value": "message_log",
+      "_translations": {
+        "value": {}
+      },
+      "action_list": [
+        {
+          "trigger": "data_changed",
+          "action_id": "set_local",
+          "args": [
+            "message_shared",
+            "(@items.length > 0)"
+          ],
+          "_raw": "data_changed | set_local : message_shared : (@items.length > 0)",
+          "_cleaned": "data_changed | set_local : message_shared : (@items.length > 0)"
+        }
+      ],
+      "parameter_list": {
+        "filter": "@item.group_id == @fields.current_group_no && @item.module == @fields.current_module_no"
+      },
+      "exclude_from_translation": true,
+      "_nested_name": "get_message_share",
+      "_dynamicFields": {
+        "parameter_list": {
+          "filter": [
+            {
+              "fullExpression": "@item.group_id == @fields.current_group_no && @item.module == @fields.current_module_no",
+              "matchedExpression": "@item.group_id",
+              "type": "item",
+              "fieldName": "group_id"
+            },
+            {
+              "fullExpression": "@item.group_id == @fields.current_group_no && @item.module == @fields.current_module_no",
+              "matchedExpression": "@fields.current_group_no",
+              "type": "fields",
+              "fieldName": "current_group_no"
+            },
+            {
+              "fullExpression": "@item.group_id == @fields.current_group_no && @item.module == @fields.current_module_no",
+              "matchedExpression": "@item.module",
+              "type": "item",
+              "fieldName": "module"
+            },
+            {
+              "fullExpression": "@item.group_id == @fields.current_group_no && @item.module == @fields.current_module_no",
+              "matchedExpression": "@fields.current_module_no",
+              "type": "fields",
+              "fieldName": "current_module_no"
+            }
+          ]
+        }
+      },
+      "_dynamicDependencies": {
+        "@item.group_id": [
+          "parameter_list.filter"
+        ],
+        "@fields.current_group_no": [
+          "parameter_list.filter"
+        ],
+        "@item.module": [
+          "parameter_list.filter"
+        ],
+        "@fields.current_module_no": [
+          "parameter_list.filter"
+        ]
+      }
+    },
+    {
+      "type": "data_items",
+      "name": "get_cofacilitator",
+      "value": "parent_groups",
+      "_translations": {
+        "value": {}
+      },
+      "action_list": [
+        {
+          "trigger": "data_changed",
+          "action_id": "set_local",
+          "args": [
+            "has_cofacilitator",
+            "(@items[0].shared_id > \"\")"
+          ],
+          "_raw": "data_changed | set_local : has_cofacilitator : (@items[0].shared_id > \"\")",
+          "_cleaned": "data_changed | set_local : has_cofacilitator : (@items[0].shared_id > \"\")"
+        }
+      ],
+      "parameter_list": {
+        "filter": "@item.name == @fields.current_group_no"
+      },
+      "_nested_name": "get_cofacilitator",
+      "_dynamicFields": {
+        "parameter_list": {
+          "filter": [
+            {
+              "fullExpression": "@item.name == @fields.current_group_no",
+              "matchedExpression": "@item.name",
+              "type": "item",
+              "fieldName": "name"
+            },
+            {
+              "fullExpression": "@item.name == @fields.current_group_no",
+              "matchedExpression": "@fields.current_group_no",
+              "type": "fields",
+              "fieldName": "current_group_no"
+            }
+          ]
+        }
+      },
+      "_dynamicDependencies": {
+        "@item.name": [
+          "parameter_list.filter"
+        ],
+        "@fields.current_group_no": [
+          "parameter_list.filter"
+        ]
+      }
+    },
+    {
       "name": "pages_complete_field",
       "value": "pages_@fields.current_group_no",
       "_translations": {
@@ -948,7 +1076,7 @@
           "style_list": [
             "margin-block: -48px"
           ],
-          "_nested_name": "display_group_30.lottie",
+          "_nested_name": "display_group_34.lottie",
           "_dynamicFields": {
             "value": [
               {
@@ -978,6 +1106,55 @@
         },
         {
           "type": "text",
+          "name": "nothing_shared",
+          "value": "@global.module_nothing_shared",
+          "_translations": {
+            "value": {}
+          },
+          "parameter_list": {
+            "text_align": "center"
+          },
+          "exclude_from_translation": true,
+          "condition": "!@local.message_shared && !@local.has_cofacilitator",
+          "_nested_name": "display_group_34.nothing_shared",
+          "_dynamicFields": {
+            "value": [
+              {
+                "fullExpression": "@global.module_nothing_shared",
+                "matchedExpression": "@global.module_nothing_shared",
+                "type": "global",
+                "fieldName": "module_nothing_shared"
+              }
+            ],
+            "condition": [
+              {
+                "fullExpression": "!@local.message_shared && !@local.has_cofacilitator",
+                "matchedExpression": "!@local.message_shared",
+                "type": "local",
+                "fieldName": "message_shared"
+              },
+              {
+                "fullExpression": "!@local.message_shared && !@local.has_cofacilitator",
+                "matchedExpression": "!@local.has_cofacilitator",
+                "type": "local",
+                "fieldName": "has_cofacilitator"
+              }
+            ]
+          },
+          "_dynamicDependencies": {
+            "@global.module_nothing_shared": [
+              "value"
+            ],
+            "!@local.message_shared": [
+              "condition"
+            ],
+            "!@local.has_cofacilitator": [
+              "condition"
+            ]
+          }
+        },
+        {
+          "type": "text",
           "name": "finish_text",
           "value": "@global.module_rep_complete",
           "_translations": {
@@ -988,7 +1165,7 @@
           },
           "exclude_from_translation": true,
           "condition": "@local.report_count > 0",
-          "_nested_name": "display_group_30.finish_text",
+          "_nested_name": "display_group_34.finish_text",
           "_dynamicFields": {
             "value": [
               {
@@ -1046,7 +1223,7 @@
           ],
           "exclude_from_translation": true,
           "condition": "@local.report_count > 0",
-          "_nested_name": "display_group_30.existing_report",
+          "_nested_name": "display_group_34.existing_report",
           "_dynamicFields": {
             "value": [
               {
@@ -1167,7 +1344,7 @@
             }
           ],
           "condition": "(@local.report_count == 0 && @fields.current_report_id != \"empty\") && @local.next_module_complete",
-          "_nested_name": "display_group_30.new_report",
+          "_nested_name": "display_group_34.new_report",
           "_dynamicFields": {
             "value": [
               {
@@ -1478,7 +1655,7 @@
             }
           ],
           "condition": "(@local.report_count == 0 && @fields.current_report_id != \"empty\") && !@local.next_module_complete",
-          "_nested_name": "display_group_30.new_report",
+          "_nested_name": "display_group_34.new_report",
           "_dynamicFields": {
             "value": [
               {
@@ -1854,9 +2031,12 @@
               "_cleaned": "click | go_to: home_screen"
             }
           ],
+          "parameter_list": {
+            "disabled": "(!@local.message_shared && !@local.has_cofacilitator)"
+          },
           "exclude_from_translation": true,
           "condition": "@fields.current_report_id == \"empty\" && !@local.module_complete",
-          "_nested_name": "display_group_30.complete_module",
+          "_nested_name": "display_group_34.complete_module",
           "_dynamicFields": {
             "value": [
               {
@@ -1908,6 +2088,22 @@
                 }
               }
             },
+            "parameter_list": {
+              "disabled": [
+                {
+                  "fullExpression": "(!@local.message_shared && !@local.has_cofacilitator)",
+                  "matchedExpression": "!@local.message_shared",
+                  "type": "local",
+                  "fieldName": "message_shared"
+                },
+                {
+                  "fullExpression": "(!@local.message_shared && !@local.has_cofacilitator)",
+                  "matchedExpression": "!@local.has_cofacilitator",
+                  "type": "local",
+                  "fieldName": "has_cofacilitator"
+                }
+              ]
+            },
             "condition": [
               {
                 "fullExpression": "@fields.current_report_id == \"empty\" && !@local.module_complete",
@@ -1936,6 +2132,12 @@
               "action_list.0._raw",
               "action_list.0._cleaned"
             ],
+            "!@local.message_shared": [
+              "parameter_list.disabled"
+            ],
+            "!@local.has_cofacilitator": [
+              "parameter_list.disabled"
+            ],
             "@fields.current_report_id": [
               "condition"
             ],
@@ -1945,8 +2147,8 @@
           }
         }
       ],
-      "name": "display_group_30",
-      "_nested_name": "display_group_30",
+      "name": "display_group_34",
+      "_nested_name": "display_group_34",
       "_dynamicFields": {
         "condition": [
           {

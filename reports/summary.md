@@ -10,11 +10,11 @@
 | button | 100 |
 | carousel | 2 |
 | combo_box | 16 |
-| data_items | 57 |
+| data_items | 59 |
 | date_time_picker | 4 |
 | debug_toggle | 1 |
 | display_grid | 2 |
-| display_group | 140 |
+| display_group | 144 |
 | drawer | 1 |
 | google_sign_in_button | 4 |
 | image | 15 |
@@ -26,13 +26,13 @@
 | radio_button_grid | 16 |
 | round_button | 49 |
 | select_text | 1 |
-| set_variable | 1089 |
+| set_variable | 1091 |
 | simple_checkbox | 2 |
-| task_card | 5 |
+| task_card | 6 |
 | task_progress_bar | 2 |
 | template | 356 |
 | test | 1 |
-| text | 286 |
+| text | 287 |
 | text_area | 2 |
 | text_box | 46 |
 | title | 46 |
@@ -52,15 +52,15 @@
 | auth | 3 |
 | copy | 2 |
 | emit: completed | 72 |
-| emit: force_reload | 9 |
+| emit: force_reload | 10 |
 | emit: force_reprocess | 18 |
 | emit: force_restart | 5 |
-| emit: server_sync | 18 |
+| emit: server_sync | 19 |
 | emit: set_language | 1 |
 | emit: uncompleted | 90 |
 | feedback | 13 |
 | go_to | 40 |
-| nav_stack | 7 |
+| nav_stack | 8 |
 | navigate_back | 1 |
 | notification | 9 |
 | plh_parent_group | 10 |
@@ -70,9 +70,9 @@
 | save_to_device | 4 |
 | scroll | 1 |
 | set_data | 32 |
-| set_field | 87 |
+| set_field | 90 |
 | set_item | 10 |
-| set_local | 105 |
+| set_local | 107 |
 | share | 4 |
 | toast | 1 |
 | user | 4 |
@@ -83,8 +83,8 @@
 
 | assets | KB | MB |
 | --- | --- | --- |
-| total | 42270 KB | 42.3 MB |
-| unused | 12265 KB | 12.3 MB |
+| total | 42168 KB | 42.2 MB |
+| unused | 12263 KB | 12.3 MB |
 </details>
 
 <details open>
@@ -109,7 +109,6 @@ Assets that appear in app-data but do not have references within sheets
 | images/after_disclosed_abuse.svg | 4.7 |
 | images/backgrounds/library_bottom_left.svg | 2.3 |
 | images/backgrounds/library_top_right.svg | 0.3 |
-| images/backgrounds/report_edit.png | 1.7 |
 | images/backgrounds/report_edit.svg | 0.2 |
 | images/comics/05_comics1_panel1.jpg | 235.6 |
 | images/comics/05_comics1_panel2.jpg | 239.3 |
@@ -188,6 +187,7 @@ Assets that have references within sheets but do not appear in app-data
 | --- | --- |
 | .svg | 2 |
 | @data.pdf | 3 |
+| images/backgrounds/MaPa_logo_with_background.png | 1 |
 | pdf/08_mapa_skill.pdf | 1 |
 </details>
 
@@ -204,7 +204,6 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | images/06_masayang_tahanan.jpg | 379.5 | 1 |
 | images/07_masayang_tahanan.jpg | 455.5 | 1 |
 | images/08_masayang_tahanan.jpg | 455.5 | 1 |
-| images/backgrounds/MaPa_logo_with_background.png | 102 | 1 |
 | images/backgrounds/home_bottom_right.svg | 2.3 | 1 |
 | images/backgrounds/home_top_left.svg | 2.4 | 3 |
 | images/backgrounds/reports_top_right.svg | 0.9 | 1 |
@@ -258,7 +257,7 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | images/icons/archive.svg | 2 | 1 |
 | images/icons/arrow_back.svg | 0.5 | 1 |
 | images/icons/arrow_forward.svg | 0.4 | 1 |
-| images/icons/cancel.svg | 1.7 | 1 |
+| images/icons/cancel.svg | 1.7 | 2 |
 | images/icons/check_circle.png | 0.6 | 1 |
 | images/icons/checkmark-outline.svg | 0.2 | 3 |
 | images/icons/cog_white.svg | 3.6 | 1 |
