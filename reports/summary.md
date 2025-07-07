@@ -14,30 +14,30 @@
 | date_time_picker | 4 |
 | debug_toggle | 1 |
 | display_grid | 2 |
-| display_group | 144 |
+| display_group | 140 |
 | drawer | 1 |
 | google_sign_in_button | 4 |
 | image | 15 |
-| items | 23 |
+| items | 22 |
 | lottie_animation | 2 |
 | navigation_bar | 2 |
 | pdf | 1 |
 | qr_code | 1 |
 | radio_button_grid | 16 |
-| round_button | 49 |
+| round_button | 47 |
 | select_text | 1 |
-| set_variable | 1091 |
+| set_variable | 1052 |
 | simple_checkbox | 2 |
 | task_card | 6 |
 | task_progress_bar | 2 |
-| template | 356 |
+| template | 353 |
 | test | 1 |
-| text | 287 |
+| text | 280 |
 | text_area | 2 |
-| text_box | 46 |
-| title | 46 |
+| text_box | 43 |
+| title | 45 |
 | toggle_bar | 5 |
-| update_action_list | 3 |
+| update_action_list | 1 |
 | video | 3 |
 | youtube | 2 |
 </details>
@@ -51,26 +51,26 @@
 | app_update | 1 |
 | auth | 3 |
 | copy | 2 |
-| emit: completed | 72 |
-| emit: force_reload | 10 |
-| emit: force_reprocess | 18 |
+| emit: completed | 71 |
+| emit: force_reload | 8 |
+| emit: force_reprocess | 17 |
 | emit: force_restart | 5 |
-| emit: server_sync | 19 |
+| emit: server_sync | 18 |
 | emit: set_language | 1 |
-| emit: uncompleted | 90 |
+| emit: uncompleted | 89 |
 | feedback | 13 |
 | go_to | 40 |
+| nav | 1 |
 | nav_stack | 8 |
-| navigate_back | 1 |
 | notification | 9 |
 | plh_parent_group | 10 |
-| pop_up | 21 |
+| pop_up | 20 |
 | reset_app | 4 |
-| reset_data | 1 |
+| reset_data | 2 |
 | save_to_device | 4 |
 | scroll | 1 |
 | set_data | 32 |
-| set_field | 90 |
+| set_field | 85 |
 | set_item | 10 |
 | set_local | 107 |
 | share | 4 |
@@ -356,7 +356,7 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | generator |  | 8 |
 | global |  | 13 |
 | global | legal_terms | 1 |
-| template |  | 84 |
+| template |  | 82 |
 | template | generated | 309 |
 | template | legal_terms | 4 |
 </details>
