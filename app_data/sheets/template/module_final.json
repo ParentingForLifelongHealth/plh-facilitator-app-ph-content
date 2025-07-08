@@ -251,6 +251,7 @@
       "_translations": {
         "value": {}
       },
+      "exclude_from_translation": true,
       "type": "set_variable",
       "_nested_name": "next_module_index",
       "_dynamicFields": {
