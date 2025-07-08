@@ -321,6 +321,22 @@
       "_translations": {
         "value": {}
       }
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "pdf_compatibility_error_message",
+      "value": "Embedded PDFs are not supported in this browser, please use an up-to-date version of Google Chrome to view or open in external app",
+      "_translations": {
+        "value": {}
+      }
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "pdf_open_external_text",
+      "value": "Open with...",
+      "_translations": {
+        "value": {}
+      }
     }
   ],
   "_xlsxPath": "data/deployment_data.xlsx",
