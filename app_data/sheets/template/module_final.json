@@ -788,10 +788,10 @@
           "action_id": "set_local",
           "args": [
             "has_cofacilitator",
-            "(@items[0].shared_id > \"\")"
+            "(@items[0].cofacilitator_id > \"\")"
           ],
-          "_raw": "data_changed | set_local : has_cofacilitator : (@items[0].shared_id > \"\")",
-          "_cleaned": "data_changed | set_local : has_cofacilitator : (@items[0].shared_id > \"\")"
+          "_raw": "data_changed | set_local : has_cofacilitator : (@items[0].cofacilitator_id > \"\")",
+          "_cleaned": "data_changed | set_local : has_cofacilitator : (@items[0].cofacilitator_id > \"\")"
         }
       ],
       "parameter_list": {
@@ -822,6 +822,58 @@
         ],
         "@fields.current_group_no": [
           "parameter_list.filter"
+        ]
+      }
+    },
+    {
+      "type": "text",
+      "name": "debug_1",
+      "value": "message_shared: @local.message_shared",
+      "_translations": {
+        "value": {}
+      },
+      "exclude_from_translation": true,
+      "condition": false,
+      "_nested_name": "debug_1",
+      "_dynamicFields": {
+        "value": [
+          {
+            "fullExpression": "message_shared: @local.message_shared",
+            "matchedExpression": "@local.message_shared",
+            "type": "local",
+            "fieldName": "message_shared"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@local.message_shared": [
+          "value"
+        ]
+      }
+    },
+    {
+      "type": "text",
+      "name": "debug_2",
+      "value": "has_cofacilitator: @local.has_cofacilitator",
+      "_translations": {
+        "value": {}
+      },
+      "exclude_from_translation": true,
+      "condition": false,
+      "_nested_name": "debug_2",
+      "_dynamicFields": {
+        "value": [
+          {
+            "fullExpression": "has_cofacilitator: @local.has_cofacilitator",
+            "matchedExpression": "@local.has_cofacilitator",
+            "type": "local",
+            "fieldName": "has_cofacilitator"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@local.has_cofacilitator": [
+          "value"
         ]
       }
     },
@@ -1077,7 +1129,7 @@
           "style_list": [
             "margin-block: -48px"
           ],
-          "_nested_name": "display_group_34.lottie",
+          "_nested_name": "display_group_36.lottie",
           "_dynamicFields": {
             "value": [
               {
@@ -1117,7 +1169,7 @@
           },
           "exclude_from_translation": true,
           "condition": "!@local.message_shared && !@local.has_cofacilitator",
-          "_nested_name": "display_group_34.nothing_shared",
+          "_nested_name": "display_group_36.nothing_shared",
           "_dynamicFields": {
             "value": [
               {
@@ -1166,7 +1218,7 @@
           },
           "exclude_from_translation": true,
           "condition": "@local.report_count > 0",
-          "_nested_name": "display_group_34.finish_text",
+          "_nested_name": "display_group_36.finish_text",
           "_dynamicFields": {
             "value": [
               {
@@ -1224,7 +1276,7 @@
           ],
           "exclude_from_translation": true,
           "condition": "@local.report_count > 0",
-          "_nested_name": "display_group_34.existing_report",
+          "_nested_name": "display_group_36.existing_report",
           "_dynamicFields": {
             "value": [
               {
@@ -1344,8 +1396,11 @@
               }
             }
           ],
+          "parameter_list": {
+            "disabled": "(!@local.message_shared && !@local.has_cofacilitator)"
+          },
           "condition": "(@local.report_count == 0 && @fields.current_report_id != \"empty\") && @local.next_module_complete",
-          "_nested_name": "display_group_34.new_report",
+          "_nested_name": "display_group_36.new_report",
           "_dynamicFields": {
             "value": [
               {
@@ -1513,6 +1568,22 @@
                 }
               }
             },
+            "parameter_list": {
+              "disabled": [
+                {
+                  "fullExpression": "(!@local.message_shared && !@local.has_cofacilitator)",
+                  "matchedExpression": "!@local.message_shared",
+                  "type": "local",
+                  "fieldName": "message_shared"
+                },
+                {
+                  "fullExpression": "(!@local.message_shared && !@local.has_cofacilitator)",
+                  "matchedExpression": "!@local.has_cofacilitator",
+                  "type": "local",
+                  "fieldName": "has_cofacilitator"
+                }
+              ]
+            },
             "condition": [
               {
                 "fullExpression": "(@local.report_count == 0 && @fields.current_report_id != \"empty\") && @local.next_module_complete",
@@ -1571,6 +1642,12 @@
               "action_list.3._raw",
               "action_list.3._cleaned",
               "action_list.3.params.id"
+            ],
+            "!@local.message_shared": [
+              "parameter_list.disabled"
+            ],
+            "!@local.has_cofacilitator": [
+              "parameter_list.disabled"
             ],
             "@local.report_count": [
               "condition"
@@ -1655,8 +1732,11 @@
               }
             }
           ],
+          "parameter_list": {
+            "disabled": "(!@local.message_shared && !@local.has_cofacilitator)"
+          },
           "condition": "(@local.report_count == 0 && @fields.current_report_id != \"empty\") && !@local.next_module_complete",
-          "_nested_name": "display_group_34.new_report",
+          "_nested_name": "display_group_36.new_report",
           "_dynamicFields": {
             "value": [
               {
@@ -1912,6 +1992,22 @@
                 }
               }
             },
+            "parameter_list": {
+              "disabled": [
+                {
+                  "fullExpression": "(!@local.message_shared && !@local.has_cofacilitator)",
+                  "matchedExpression": "!@local.message_shared",
+                  "type": "local",
+                  "fieldName": "message_shared"
+                },
+                {
+                  "fullExpression": "(!@local.message_shared && !@local.has_cofacilitator)",
+                  "matchedExpression": "!@local.has_cofacilitator",
+                  "type": "local",
+                  "fieldName": "has_cofacilitator"
+                }
+              ]
+            },
             "condition": [
               {
                 "fullExpression": "(@local.report_count == 0 && @fields.current_report_id != \"empty\") && !@local.next_module_complete",
@@ -1991,6 +2087,12 @@
               "action_list.4._cleaned",
               "action_list.4.params.id"
             ],
+            "!@local.message_shared": [
+              "parameter_list.disabled"
+            ],
+            "!@local.has_cofacilitator": [
+              "parameter_list.disabled"
+            ],
             "@local.report_count": [
               "condition"
             ],
@@ -2037,7 +2139,7 @@
           },
           "exclude_from_translation": true,
           "condition": "@fields.current_report_id == \"empty\" && !@local.module_complete",
-          "_nested_name": "display_group_34.complete_module",
+          "_nested_name": "display_group_36.complete_module",
           "_dynamicFields": {
             "value": [
               {
@@ -2148,8 +2250,8 @@
           }
         }
       ],
-      "name": "display_group_34",
-      "_nested_name": "display_group_34",
+      "name": "display_group_36",
+      "_nested_name": "display_group_36",
       "_dynamicFields": {
         "condition": [
           {
