@@ -470,10 +470,10 @@
                   "trigger": "click",
                   "action_id": "emit",
                   "args": [
-                    "force_restart"
+                    "force_reprocess"
                   ],
-                  "_raw": "click | emit: force_restart",
-                  "_cleaned": "click | emit: force_restart"
+                  "_raw": "click | emit: force_reprocess",
+                  "_cleaned": "click | emit: force_reprocess"
                 }
               ],
               "_nested_name": "logged_in.find_last_synced_id.button_restore",

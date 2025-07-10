@@ -547,15 +547,6 @@
                       ],
                       "_raw": "click | set_field: login_passed: true",
                       "_cleaned": "click | set_field: login_passed: true"
-                    },
-                    {
-                      "trigger": "click",
-                      "action_id": "emit",
-                      "args": [
-                        "force_restart"
-                      ],
-                      "_raw": "click | emit: force_restart",
-                      "_cleaned": "click | emit: force_restart"
                     }
                   ],
                   "parameter_list": {
@@ -842,6 +833,13 @@
               ],
               "_raw": "click | emit: server_sync",
               "_cleaned": "click | emit: server_sync"
+            },
+            {
+              "trigger": "click",
+              "action_id": "reset_data",
+              "args": [],
+              "_raw": "click | reset_data",
+              "_cleaned": "click | reset_data"
             },
             {
               "trigger": "click",

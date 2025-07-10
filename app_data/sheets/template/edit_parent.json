@@ -4,6 +4,574 @@
   "status": "released",
   "rows": [
     {
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "name": "set_variable_2",
+      "_nested_name": "set_variable_2"
+    },
+    {
+      "name": "first_name_valid",
+      "value": "@calc(/^[a-zA-Z]+(?:[ -][a-zA-Z]+)*$/.test(@local.first_name))",
+      "_translations": {
+        "value": {}
+      },
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "_nested_name": "first_name_valid",
+      "_dynamicFields": {
+        "value": [
+          {
+            "fullExpression": "@calc(/^[a-zA-Z]+(?:[ -][a-zA-Z]+)*$/.test(@local.first_name))",
+            "matchedExpression": "@local.first_name",
+            "type": "local",
+            "fieldName": "first_name"
+          },
+          {
+            "fullExpression": "@calc(/^[a-zA-Z]+(?:[ -][a-zA-Z]+)*$/.test(@local.first_name))",
+            "matchedExpression": "@calc(/^[a-zA-Z]+(?:[ -][a-zA-Z]+)*$/.test(@local.first_name))",
+            "type": "calc",
+            "fieldName": "/^[a-zA-Z]+(?:[ -][a-zA-Z]+)*$/.test(@local.first_name)"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@local.first_name": [
+          "value"
+        ],
+        "@calc(/^[a-zA-Z]+(?:[ -][a-zA-Z]+)*$/.test(@local.first_name))": [
+          "value"
+        ]
+      }
+    },
+    {
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "name": "set_variable_7",
+      "_nested_name": "set_variable_7"
+    },
+    {
+      "name": "last_name_valid",
+      "value": "@calc(/^[a-zA-Z]+(?:[ -][a-zA-Z]+)*$/.test(@local.last_name))",
+      "_translations": {
+        "value": {}
+      },
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "_nested_name": "last_name_valid",
+      "_dynamicFields": {
+        "value": [
+          {
+            "fullExpression": "@calc(/^[a-zA-Z]+(?:[ -][a-zA-Z]+)*$/.test(@local.last_name))",
+            "matchedExpression": "@local.last_name",
+            "type": "local",
+            "fieldName": "last_name"
+          },
+          {
+            "fullExpression": "@calc(/^[a-zA-Z]+(?:[ -][a-zA-Z]+)*$/.test(@local.last_name))",
+            "matchedExpression": "@calc(/^[a-zA-Z]+(?:[ -][a-zA-Z]+)*$/.test(@local.last_name))",
+            "type": "calc",
+            "fieldName": "/^[a-zA-Z]+(?:[ -][a-zA-Z]+)*$/.test(@local.last_name)"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@local.last_name": [
+          "value"
+        ],
+        "@calc(/^[a-zA-Z]+(?:[ -][a-zA-Z]+)*$/.test(@local.last_name))": [
+          "value"
+        ]
+      }
+    },
+    {
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "name": "set_variable_12",
+      "_nested_name": "set_variable_12"
+    },
+    {
+      "name": "number_valid",
+      "value": "@calc(/^\\+\\d{10,15}$/.test(@local.number) || @local.number == '' || !@local.number)",
+      "_translations": {
+        "value": {}
+      },
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "_nested_name": "number_valid",
+      "_dynamicFields": {
+        "value": [
+          {
+            "fullExpression": "@calc(/^\\+\\d{10,15}$/.test(@local.number) || @local.number == '' || !@local.number)",
+            "matchedExpression": "@local.number",
+            "type": "local",
+            "fieldName": "number"
+          },
+          {
+            "fullExpression": "@calc(/^\\+\\d{10,15}$/.test(@local.number) || @local.number == '' || !@local.number)",
+            "matchedExpression": "@local.number",
+            "type": "local",
+            "fieldName": "number"
+          },
+          {
+            "fullExpression": "@calc(/^\\+\\d{10,15}$/.test(@local.number) || @local.number == '' || !@local.number)",
+            "matchedExpression": "!@local.number",
+            "type": "local",
+            "fieldName": "number"
+          },
+          {
+            "fullExpression": "@calc(/^\\+\\d{10,15}$/.test(@local.number) || @local.number == '' || !@local.number)",
+            "matchedExpression": "@calc(/^\\+\\d{10,15}$/.test(@local.number) || @local.number == '' || !@local.number)",
+            "type": "calc",
+            "fieldName": "/^\\+\\d{10,15}$/.test(@local.number) || @local.number == '' || !@local.number"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@local.number": [
+          "value",
+          "value"
+        ],
+        "!@local.number": [
+          "value"
+        ],
+        "@calc(/^\\+\\d{10,15}$/.test(@local.number) || @local.number == '' || !@local.number)": [
+          "value"
+        ]
+      }
+    },
+    {
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "name": "set_variable_17",
+      "_nested_name": "set_variable_17"
+    },
+    {
+      "name": "age_valid",
+      "value": "@calc((/^\\d{2}$/.test(@local.age) && @local.age>= 16 && @local.age<= 99) || @local.age == '' || !@local.age)",
+      "_translations": {
+        "value": {}
+      },
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "_nested_name": "age_valid",
+      "_dynamicFields": {
+        "value": [
+          {
+            "fullExpression": "@calc((/^\\d{2}$/.test(@local.age) && @local.age>= 16 && @local.age<= 99) || @local.age == '' || !@local.age)",
+            "matchedExpression": "@local.age",
+            "type": "local",
+            "fieldName": "age"
+          },
+          {
+            "fullExpression": "@calc((/^\\d{2}$/.test(@local.age) && @local.age>= 16 && @local.age<= 99) || @local.age == '' || !@local.age)",
+            "matchedExpression": "@local.age",
+            "type": "local",
+            "fieldName": "age"
+          },
+          {
+            "fullExpression": "@calc((/^\\d{2}$/.test(@local.age) && @local.age>= 16 && @local.age<= 99) || @local.age == '' || !@local.age)",
+            "matchedExpression": "@local.age",
+            "type": "local",
+            "fieldName": "age"
+          },
+          {
+            "fullExpression": "@calc((/^\\d{2}$/.test(@local.age) && @local.age>= 16 && @local.age<= 99) || @local.age == '' || !@local.age)",
+            "matchedExpression": "@local.age",
+            "type": "local",
+            "fieldName": "age"
+          },
+          {
+            "fullExpression": "@calc((/^\\d{2}$/.test(@local.age) && @local.age>= 16 && @local.age<= 99) || @local.age == '' || !@local.age)",
+            "matchedExpression": "!@local.age",
+            "type": "local",
+            "fieldName": "age"
+          },
+          {
+            "fullExpression": "@calc((/^\\d{2}$/.test(@local.age) && @local.age>= 16 && @local.age<= 99) || @local.age == '' || !@local.age)",
+            "matchedExpression": "@calc((/^\\d{2}$/.test(@local.age) && @local.age>= 16 && @local.age<= 99) || @local.age == '' || !@local.age)",
+            "type": "calc",
+            "fieldName": "(/^\\d{2}$/.test(@local.age) && @local.age>= 16 && @local.age<= 99) || @local.age == '' || !@local.age"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@local.age": [
+          "value",
+          "value",
+          "value",
+          "value"
+        ],
+        "!@local.age": [
+          "value"
+        ],
+        "@calc((/^\\d{2}$/.test(@local.age) && @local.age>= 16 && @local.age<= 99) || @local.age == '' || !@local.age)": [
+          "value"
+        ]
+      }
+    },
+    {
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "name": "set_variable_22",
+      "_nested_name": "set_variable_22"
+    },
+    {
+      "name": "sex_valid",
+      "value": true,
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "_nested_name": "sex_valid"
+    },
+    {
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "name": "set_variable_27",
+      "_nested_name": "set_variable_27"
+    },
+    {
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "name": "set_variable_29",
+      "_nested_name": "set_variable_29"
+    },
+    {
+      "name": "child_name_valid",
+      "value": "@calc(/^[a-zA-Z]+(?:[ -][a-zA-Z]+)*$/.test(@local.child_name))",
+      "_translations": {
+        "value": {}
+      },
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "_nested_name": "child_name_valid",
+      "_dynamicFields": {
+        "value": [
+          {
+            "fullExpression": "@calc(/^[a-zA-Z]+(?:[ -][a-zA-Z]+)*$/.test(@local.child_name))",
+            "matchedExpression": "@local.child_name",
+            "type": "local",
+            "fieldName": "child_name"
+          },
+          {
+            "fullExpression": "@calc(/^[a-zA-Z]+(?:[ -][a-zA-Z]+)*$/.test(@local.child_name))",
+            "matchedExpression": "@calc(/^[a-zA-Z]+(?:[ -][a-zA-Z]+)*$/.test(@local.child_name))",
+            "type": "calc",
+            "fieldName": "/^[a-zA-Z]+(?:[ -][a-zA-Z]+)*$/.test(@local.child_name)"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@local.child_name": [
+          "value"
+        ],
+        "@calc(/^[a-zA-Z]+(?:[ -][a-zA-Z]+)*$/.test(@local.child_name))": [
+          "value"
+        ]
+      }
+    },
+    {
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "name": "set_variable_34",
+      "_nested_name": "set_variable_34"
+    },
+    {
+      "name": "child_age_valid",
+      "value": "@calc((/^\\d{1,2}$/.test(@local.child_age) && @local.child_age>= 2 && @local.child_age<= 17))",
+      "_translations": {
+        "value": {}
+      },
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "_nested_name": "child_age_valid",
+      "_dynamicFields": {
+        "value": [
+          {
+            "fullExpression": "@calc((/^\\d{1,2}$/.test(@local.child_age) && @local.child_age>= 2 && @local.child_age<= 17))",
+            "matchedExpression": "@local.child_age",
+            "type": "local",
+            "fieldName": "child_age"
+          },
+          {
+            "fullExpression": "@calc((/^\\d{1,2}$/.test(@local.child_age) && @local.child_age>= 2 && @local.child_age<= 17))",
+            "matchedExpression": "@local.child_age",
+            "type": "local",
+            "fieldName": "child_age"
+          },
+          {
+            "fullExpression": "@calc((/^\\d{1,2}$/.test(@local.child_age) && @local.child_age>= 2 && @local.child_age<= 17))",
+            "matchedExpression": "@local.child_age",
+            "type": "local",
+            "fieldName": "child_age"
+          },
+          {
+            "fullExpression": "@calc((/^\\d{1,2}$/.test(@local.child_age) && @local.child_age>= 2 && @local.child_age<= 17))",
+            "matchedExpression": "@calc((/^\\d{1,2}$/.test(@local.child_age) && @local.child_age>= 2 && @local.child_age<= 17))",
+            "type": "calc",
+            "fieldName": "(/^\\d{1,2}$/.test(@local.child_age) && @local.child_age>= 2 && @local.child_age<= 17)"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@local.child_age": [
+          "value",
+          "value",
+          "value"
+        ],
+        "@calc((/^\\d{1,2}$/.test(@local.child_age) && @local.child_age>= 2 && @local.child_age<= 17))": [
+          "value"
+        ]
+      }
+    },
+    {
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "name": "set_variable_39",
+      "_nested_name": "set_variable_39"
+    },
+    {
+      "name": "child_sex_valid",
+      "value": "!!@local.child_sex",
+      "_translations": {
+        "value": {}
+      },
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "_nested_name": "child_sex_valid",
+      "_dynamicFields": {
+        "value": [
+          {
+            "fullExpression": "!!@local.child_sex",
+            "matchedExpression": "!@local.child_sex",
+            "type": "local",
+            "fieldName": "child_sex"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "!@local.child_sex": [
+          "value"
+        ]
+      }
+    },
+    {
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "name": "set_variable_44",
+      "_nested_name": "set_variable_44"
+    },
+    {
+      "name": "relationship_valid",
+      "value": "@calc(/^[a-zA-Z\\s-]{3,50}$/.test(@local.relationship) || @local.relationship == '' || !@local.relationship)",
+      "_translations": {
+        "value": {}
+      },
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "_nested_name": "relationship_valid",
+      "_dynamicFields": {
+        "value": [
+          {
+            "fullExpression": "@calc(/^[a-zA-Z\\s-]{3,50}$/.test(@local.relationship) || @local.relationship == '' || !@local.relationship)",
+            "matchedExpression": "@local.relationship",
+            "type": "local",
+            "fieldName": "relationship"
+          },
+          {
+            "fullExpression": "@calc(/^[a-zA-Z\\s-]{3,50}$/.test(@local.relationship) || @local.relationship == '' || !@local.relationship)",
+            "matchedExpression": "@local.relationship",
+            "type": "local",
+            "fieldName": "relationship"
+          },
+          {
+            "fullExpression": "@calc(/^[a-zA-Z\\s-]{3,50}$/.test(@local.relationship) || @local.relationship == '' || !@local.relationship)",
+            "matchedExpression": "!@local.relationship",
+            "type": "local",
+            "fieldName": "relationship"
+          },
+          {
+            "fullExpression": "@calc(/^[a-zA-Z\\s-]{3,50}$/.test(@local.relationship) || @local.relationship == '' || !@local.relationship)",
+            "matchedExpression": "@calc(/^[a-zA-Z\\s-]{3,50}$/.test(@local.relationship) || @local.relationship == '' || !@local.relationship)",
+            "type": "calc",
+            "fieldName": "/^[a-zA-Z\\s-]{3,50}$/.test(@local.relationship) || @local.relationship == '' || !@local.relationship"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@local.relationship": [
+          "value",
+          "value"
+        ],
+        "!@local.relationship": [
+          "value"
+        ],
+        "@calc(/^[a-zA-Z\\s-]{3,50}$/.test(@local.relationship) || @local.relationship == '' || !@local.relationship)": [
+          "value"
+        ]
+      }
+    },
+    {
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "name": "set_variable_49",
+      "_nested_name": "set_variable_49"
+    },
+    {
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "name": "set_variable_51",
+      "_nested_name": "set_variable_51"
+    },
+    {
+      "name": "members_valid",
+      "value": "@calc((/^\\d+$/.test(@local.members) && @local.members>= 1) || @local.members == '' || !@local.members)",
+      "_translations": {
+        "value": {}
+      },
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "_nested_name": "members_valid",
+      "_dynamicFields": {
+        "value": [
+          {
+            "fullExpression": "@calc((/^\\d+$/.test(@local.members) && @local.members>= 1) || @local.members == '' || !@local.members)",
+            "matchedExpression": "@local.members",
+            "type": "local",
+            "fieldName": "members"
+          },
+          {
+            "fullExpression": "@calc((/^\\d+$/.test(@local.members) && @local.members>= 1) || @local.members == '' || !@local.members)",
+            "matchedExpression": "@local.members",
+            "type": "local",
+            "fieldName": "members"
+          },
+          {
+            "fullExpression": "@calc((/^\\d+$/.test(@local.members) && @local.members>= 1) || @local.members == '' || !@local.members)",
+            "matchedExpression": "@local.members",
+            "type": "local",
+            "fieldName": "members"
+          },
+          {
+            "fullExpression": "@calc((/^\\d+$/.test(@local.members) && @local.members>= 1) || @local.members == '' || !@local.members)",
+            "matchedExpression": "!@local.members",
+            "type": "local",
+            "fieldName": "members"
+          },
+          {
+            "fullExpression": "@calc((/^\\d+$/.test(@local.members) && @local.members>= 1) || @local.members == '' || !@local.members)",
+            "matchedExpression": "@calc((/^\\d+$/.test(@local.members) && @local.members>= 1) || @local.members == '' || !@local.members)",
+            "type": "calc",
+            "fieldName": "(/^\\d+$/.test(@local.members) && @local.members>= 1) || @local.members == '' || !@local.members"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@local.members": [
+          "value",
+          "value",
+          "value"
+        ],
+        "!@local.members": [
+          "value"
+        ],
+        "@calc((/^\\d+$/.test(@local.members) && @local.members>= 1) || @local.members == '' || !@local.members)": [
+          "value"
+        ]
+      }
+    },
+    {
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "name": "set_variable_56",
+      "_nested_name": "set_variable_56"
+    },
+    {
+      "name": "childcare_valid",
+      "value": "@calc(/^[a-zA-Z\\s,-]{3,100}$/.test(@local.childcare) || @local.childcare == '' || !@local.childcare)",
+      "_translations": {
+        "value": {}
+      },
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "_nested_name": "childcare_valid",
+      "_dynamicFields": {
+        "value": [
+          {
+            "fullExpression": "@calc(/^[a-zA-Z\\s,-]{3,100}$/.test(@local.childcare) || @local.childcare == '' || !@local.childcare)",
+            "matchedExpression": "@local.childcare",
+            "type": "local",
+            "fieldName": "childcare"
+          },
+          {
+            "fullExpression": "@calc(/^[a-zA-Z\\s,-]{3,100}$/.test(@local.childcare) || @local.childcare == '' || !@local.childcare)",
+            "matchedExpression": "@local.childcare",
+            "type": "local",
+            "fieldName": "childcare"
+          },
+          {
+            "fullExpression": "@calc(/^[a-zA-Z\\s,-]{3,100}$/.test(@local.childcare) || @local.childcare == '' || !@local.childcare)",
+            "matchedExpression": "!@local.childcare",
+            "type": "local",
+            "fieldName": "childcare"
+          },
+          {
+            "fullExpression": "@calc(/^[a-zA-Z\\s,-]{3,100}$/.test(@local.childcare) || @local.childcare == '' || !@local.childcare)",
+            "matchedExpression": "@calc(/^[a-zA-Z\\s,-]{3,100}$/.test(@local.childcare) || @local.childcare == '' || !@local.childcare)",
+            "type": "calc",
+            "fieldName": "/^[a-zA-Z\\s,-]{3,100}$/.test(@local.childcare) || @local.childcare == '' || !@local.childcare"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@local.childcare": [
+          "value",
+          "value"
+        ],
+        "!@local.childcare": [
+          "value"
+        ],
+        "@calc(/^[a-zA-Z\\s,-]{3,100}$/.test(@local.childcare) || @local.childcare == '' || !@local.childcare)": [
+          "value"
+        ]
+      }
+    },
+    {
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "name": "set_variable_61",
+      "_nested_name": "set_variable_61"
+    },
+    {
+      "name": "goal_valid",
+      "value": true,
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "_nested_name": "goal_valid"
+    },
+    {
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "name": "set_variable_66",
+      "_nested_name": "set_variable_66"
+    },
+    {
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "name": "set_variable_69",
+      "_nested_name": "set_variable_69"
+    },
+    {
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "name": "set_variable_72",
+      "_nested_name": "set_variable_72"
+    },
+    {
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "name": "set_variable_74",
+      "_nested_name": "set_variable_74"
+    },
+    {
       "type": "round_button",
       "name": "back",
       "action_list": [
@@ -176,12 +744,6 @@
           }
         },
         {
-          "exclude_from_translation": true,
-          "type": "set_variable",
-          "name": "set_variable_2",
-          "_nested_name": "display_group_15.set_variable_2"
-        },
-        {
           "type": "text",
           "value": "@global.label_first_name",
           "_translations": {
@@ -248,40 +810,6 @@
           }
         },
         {
-          "name": "first_name_valid",
-          "value": "@calc(/^[a-zA-Z]+(?:[ -][a-zA-Z]+)*$/.test(@local.first_name))",
-          "_translations": {
-            "value": {}
-          },
-          "exclude_from_translation": true,
-          "type": "set_variable",
-          "_nested_name": "display_group_15.first_name_valid",
-          "_dynamicFields": {
-            "value": [
-              {
-                "fullExpression": "@calc(/^[a-zA-Z]+(?:[ -][a-zA-Z]+)*$/.test(@local.first_name))",
-                "matchedExpression": "@local.first_name",
-                "type": "local",
-                "fieldName": "first_name"
-              },
-              {
-                "fullExpression": "@calc(/^[a-zA-Z]+(?:[ -][a-zA-Z]+)*$/.test(@local.first_name))",
-                "matchedExpression": "@calc(/^[a-zA-Z]+(?:[ -][a-zA-Z]+)*$/.test(@local.first_name))",
-                "type": "calc",
-                "fieldName": "/^[a-zA-Z]+(?:[ -][a-zA-Z]+)*$/.test(@local.first_name)"
-              }
-            ]
-          },
-          "_dynamicDependencies": {
-            "@local.first_name": [
-              "value"
-            ],
-            "@calc(/^[a-zA-Z]+(?:[ -][a-zA-Z]+)*$/.test(@local.first_name))": [
-              "value"
-            ]
-          }
-        },
-        {
           "type": "text",
           "value": "@global.error_first_name",
           "_translations": {
@@ -321,12 +849,6 @@
               "condition"
             ]
           }
-        },
-        {
-          "exclude_from_translation": true,
-          "type": "set_variable",
-          "name": "set_variable_7",
-          "_nested_name": "display_group_15.set_variable_7"
         },
         {
           "type": "text",
@@ -395,40 +917,6 @@
           }
         },
         {
-          "name": "last_name_valid",
-          "value": "@calc(/^[a-zA-Z]+(?:[ -][a-zA-Z]+)*$/.test(@local.last_name))",
-          "_translations": {
-            "value": {}
-          },
-          "exclude_from_translation": true,
-          "type": "set_variable",
-          "_nested_name": "display_group_15.last_name_valid",
-          "_dynamicFields": {
-            "value": [
-              {
-                "fullExpression": "@calc(/^[a-zA-Z]+(?:[ -][a-zA-Z]+)*$/.test(@local.last_name))",
-                "matchedExpression": "@local.last_name",
-                "type": "local",
-                "fieldName": "last_name"
-              },
-              {
-                "fullExpression": "@calc(/^[a-zA-Z]+(?:[ -][a-zA-Z]+)*$/.test(@local.last_name))",
-                "matchedExpression": "@calc(/^[a-zA-Z]+(?:[ -][a-zA-Z]+)*$/.test(@local.last_name))",
-                "type": "calc",
-                "fieldName": "/^[a-zA-Z]+(?:[ -][a-zA-Z]+)*$/.test(@local.last_name)"
-              }
-            ]
-          },
-          "_dynamicDependencies": {
-            "@local.last_name": [
-              "value"
-            ],
-            "@calc(/^[a-zA-Z]+(?:[ -][a-zA-Z]+)*$/.test(@local.last_name))": [
-              "value"
-            ]
-          }
-        },
-        {
           "type": "text",
           "value": "@global.error_last_name",
           "_translations": {
@@ -468,12 +956,6 @@
               "condition"
             ]
           }
-        },
-        {
-          "exclude_from_translation": true,
-          "type": "set_variable",
-          "name": "set_variable_12",
-          "_nested_name": "display_group_15.set_variable_12"
         },
         {
           "type": "text",
@@ -554,56 +1036,6 @@
           }
         },
         {
-          "name": "number_valid",
-          "value": "@calc(/^\\+\\d{10,15}$/.test(@local.number) || @local.number == '' || !@local.number)",
-          "_translations": {
-            "value": {}
-          },
-          "exclude_from_translation": true,
-          "type": "set_variable",
-          "_nested_name": "display_group_15.number_valid",
-          "_dynamicFields": {
-            "value": [
-              {
-                "fullExpression": "@calc(/^\\+\\d{10,15}$/.test(@local.number) || @local.number == '' || !@local.number)",
-                "matchedExpression": "@local.number",
-                "type": "local",
-                "fieldName": "number"
-              },
-              {
-                "fullExpression": "@calc(/^\\+\\d{10,15}$/.test(@local.number) || @local.number == '' || !@local.number)",
-                "matchedExpression": "@local.number",
-                "type": "local",
-                "fieldName": "number"
-              },
-              {
-                "fullExpression": "@calc(/^\\+\\d{10,15}$/.test(@local.number) || @local.number == '' || !@local.number)",
-                "matchedExpression": "!@local.number",
-                "type": "local",
-                "fieldName": "number"
-              },
-              {
-                "fullExpression": "@calc(/^\\+\\d{10,15}$/.test(@local.number) || @local.number == '' || !@local.number)",
-                "matchedExpression": "@calc(/^\\+\\d{10,15}$/.test(@local.number) || @local.number == '' || !@local.number)",
-                "type": "calc",
-                "fieldName": "/^\\+\\d{10,15}$/.test(@local.number) || @local.number == '' || !@local.number"
-              }
-            ]
-          },
-          "_dynamicDependencies": {
-            "@local.number": [
-              "value",
-              "value"
-            ],
-            "!@local.number": [
-              "value"
-            ],
-            "@calc(/^\\+\\d{10,15}$/.test(@local.number) || @local.number == '' || !@local.number)": [
-              "value"
-            ]
-          }
-        },
-        {
           "type": "text",
           "value": "@global.error_number",
           "_translations": {
@@ -652,12 +1084,6 @@
               "condition"
             ]
           }
-        },
-        {
-          "exclude_from_translation": true,
-          "type": "set_variable",
-          "name": "set_variable_17",
-          "_nested_name": "display_group_15.set_variable_17"
         },
         {
           "type": "text",
@@ -738,70 +1164,6 @@
           }
         },
         {
-          "name": "age_valid",
-          "value": "@calc((/^\\d{2}$/.test(@local.age) && @local.age>= 16 && @local.age<= 99) || @local.age == '' || !@local.age)",
-          "_translations": {
-            "value": {}
-          },
-          "exclude_from_translation": true,
-          "type": "set_variable",
-          "_nested_name": "display_group_15.age_valid",
-          "_dynamicFields": {
-            "value": [
-              {
-                "fullExpression": "@calc((/^\\d{2}$/.test(@local.age) && @local.age>= 16 && @local.age<= 99) || @local.age == '' || !@local.age)",
-                "matchedExpression": "@local.age",
-                "type": "local",
-                "fieldName": "age"
-              },
-              {
-                "fullExpression": "@calc((/^\\d{2}$/.test(@local.age) && @local.age>= 16 && @local.age<= 99) || @local.age == '' || !@local.age)",
-                "matchedExpression": "@local.age",
-                "type": "local",
-                "fieldName": "age"
-              },
-              {
-                "fullExpression": "@calc((/^\\d{2}$/.test(@local.age) && @local.age>= 16 && @local.age<= 99) || @local.age == '' || !@local.age)",
-                "matchedExpression": "@local.age",
-                "type": "local",
-                "fieldName": "age"
-              },
-              {
-                "fullExpression": "@calc((/^\\d{2}$/.test(@local.age) && @local.age>= 16 && @local.age<= 99) || @local.age == '' || !@local.age)",
-                "matchedExpression": "@local.age",
-                "type": "local",
-                "fieldName": "age"
-              },
-              {
-                "fullExpression": "@calc((/^\\d{2}$/.test(@local.age) && @local.age>= 16 && @local.age<= 99) || @local.age == '' || !@local.age)",
-                "matchedExpression": "!@local.age",
-                "type": "local",
-                "fieldName": "age"
-              },
-              {
-                "fullExpression": "@calc((/^\\d{2}$/.test(@local.age) && @local.age>= 16 && @local.age<= 99) || @local.age == '' || !@local.age)",
-                "matchedExpression": "@calc((/^\\d{2}$/.test(@local.age) && @local.age>= 16 && @local.age<= 99) || @local.age == '' || !@local.age)",
-                "type": "calc",
-                "fieldName": "(/^\\d{2}$/.test(@local.age) && @local.age>= 16 && @local.age<= 99) || @local.age == '' || !@local.age"
-              }
-            ]
-          },
-          "_dynamicDependencies": {
-            "@local.age": [
-              "value",
-              "value",
-              "value",
-              "value"
-            ],
-            "!@local.age": [
-              "value"
-            ],
-            "@calc((/^\\d{2}$/.test(@local.age) && @local.age>= 16 && @local.age<= 99) || @local.age == '' || !@local.age)": [
-              "value"
-            ]
-          }
-        },
-        {
           "type": "text",
           "value": "@global.error_age",
           "_translations": {
@@ -850,12 +1212,6 @@
               "condition"
             ]
           }
-        },
-        {
-          "exclude_from_translation": true,
-          "type": "set_variable",
-          "name": "set_variable_22",
-          "_nested_name": "display_group_15.set_variable_22"
         },
         {
           "type": "text",
@@ -958,13 +1314,6 @@
           }
         },
         {
-          "name": "sex_valid",
-          "value": true,
-          "exclude_from_translation": true,
-          "type": "set_variable",
-          "_nested_name": "display_group_15.sex_valid"
-        },
-        {
           "type": "text",
           "value": "@global.error_sex",
           "_translations": {
@@ -1015,12 +1364,6 @@
           }
         },
         {
-          "exclude_from_translation": true,
-          "type": "set_variable",
-          "name": "set_variable_27",
-          "_nested_name": "display_group_15.set_variable_27"
-        },
-        {
           "type": "text",
           "value": "@global.label_about_child",
           "_translations": {
@@ -1047,12 +1390,6 @@
               "value"
             ]
           }
-        },
-        {
-          "exclude_from_translation": true,
-          "type": "set_variable",
-          "name": "set_variable_29",
-          "_nested_name": "display_group_15.set_variable_29"
         },
         {
           "type": "text",
@@ -1121,40 +1458,6 @@
           }
         },
         {
-          "name": "child_name_valid",
-          "value": "@calc(/^[a-zA-Z]+(?:[ -][a-zA-Z]+)*$/.test(@local.child_name))",
-          "_translations": {
-            "value": {}
-          },
-          "exclude_from_translation": true,
-          "type": "set_variable",
-          "_nested_name": "display_group_15.child_name_valid",
-          "_dynamicFields": {
-            "value": [
-              {
-                "fullExpression": "@calc(/^[a-zA-Z]+(?:[ -][a-zA-Z]+)*$/.test(@local.child_name))",
-                "matchedExpression": "@local.child_name",
-                "type": "local",
-                "fieldName": "child_name"
-              },
-              {
-                "fullExpression": "@calc(/^[a-zA-Z]+(?:[ -][a-zA-Z]+)*$/.test(@local.child_name))",
-                "matchedExpression": "@calc(/^[a-zA-Z]+(?:[ -][a-zA-Z]+)*$/.test(@local.child_name))",
-                "type": "calc",
-                "fieldName": "/^[a-zA-Z]+(?:[ -][a-zA-Z]+)*$/.test(@local.child_name)"
-              }
-            ]
-          },
-          "_dynamicDependencies": {
-            "@local.child_name": [
-              "value"
-            ],
-            "@calc(/^[a-zA-Z]+(?:[ -][a-zA-Z]+)*$/.test(@local.child_name))": [
-              "value"
-            ]
-          }
-        },
-        {
           "type": "text",
           "value": "@global.error_child_name",
           "_translations": {
@@ -1194,12 +1497,6 @@
               "condition"
             ]
           }
-        },
-        {
-          "exclude_from_translation": true,
-          "type": "set_variable",
-          "name": "set_variable_34",
-          "_nested_name": "display_group_15.set_variable_34"
         },
         {
           "type": "text",
@@ -1280,54 +1577,6 @@
           }
         },
         {
-          "name": "child_age_valid",
-          "value": "@calc((/^\\d{1,2}$/.test(@local.child_age) && @local.child_age>= 2 && @local.child_age<= 17))",
-          "_translations": {
-            "value": {}
-          },
-          "exclude_from_translation": true,
-          "type": "set_variable",
-          "_nested_name": "display_group_15.child_age_valid",
-          "_dynamicFields": {
-            "value": [
-              {
-                "fullExpression": "@calc((/^\\d{1,2}$/.test(@local.child_age) && @local.child_age>= 2 && @local.child_age<= 17))",
-                "matchedExpression": "@local.child_age",
-                "type": "local",
-                "fieldName": "child_age"
-              },
-              {
-                "fullExpression": "@calc((/^\\d{1,2}$/.test(@local.child_age) && @local.child_age>= 2 && @local.child_age<= 17))",
-                "matchedExpression": "@local.child_age",
-                "type": "local",
-                "fieldName": "child_age"
-              },
-              {
-                "fullExpression": "@calc((/^\\d{1,2}$/.test(@local.child_age) && @local.child_age>= 2 && @local.child_age<= 17))",
-                "matchedExpression": "@local.child_age",
-                "type": "local",
-                "fieldName": "child_age"
-              },
-              {
-                "fullExpression": "@calc((/^\\d{1,2}$/.test(@local.child_age) && @local.child_age>= 2 && @local.child_age<= 17))",
-                "matchedExpression": "@calc((/^\\d{1,2}$/.test(@local.child_age) && @local.child_age>= 2 && @local.child_age<= 17))",
-                "type": "calc",
-                "fieldName": "(/^\\d{1,2}$/.test(@local.child_age) && @local.child_age>= 2 && @local.child_age<= 17)"
-              }
-            ]
-          },
-          "_dynamicDependencies": {
-            "@local.child_age": [
-              "value",
-              "value",
-              "value"
-            ],
-            "@calc((/^\\d{1,2}$/.test(@local.child_age) && @local.child_age>= 2 && @local.child_age<= 17))": [
-              "value"
-            ]
-          }
-        },
-        {
           "type": "text",
           "value": "@global.error_child_age",
           "_translations": {
@@ -1376,12 +1625,6 @@
               "condition"
             ]
           }
-        },
-        {
-          "exclude_from_translation": true,
-          "type": "set_variable",
-          "name": "set_variable_39",
-          "_nested_name": "display_group_15.set_variable_39"
         },
         {
           "type": "text",
@@ -1474,31 +1717,6 @@
           }
         },
         {
-          "name": "child_sex_valid",
-          "value": "!!@local.child_sex",
-          "_translations": {
-            "value": {}
-          },
-          "exclude_from_translation": true,
-          "type": "set_variable",
-          "_nested_name": "display_group_15.child_sex_valid",
-          "_dynamicFields": {
-            "value": [
-              {
-                "fullExpression": "!!@local.child_sex",
-                "matchedExpression": "!@local.child_sex",
-                "type": "local",
-                "fieldName": "child_sex"
-              }
-            ]
-          },
-          "_dynamicDependencies": {
-            "!@local.child_sex": [
-              "value"
-            ]
-          }
-        },
-        {
           "type": "text",
           "value": "@global.error_child_sex",
           "_translations": {
@@ -1547,12 +1765,6 @@
               "condition"
             ]
           }
-        },
-        {
-          "exclude_from_translation": true,
-          "type": "set_variable",
-          "name": "set_variable_44",
-          "_nested_name": "display_group_15.set_variable_44"
         },
         {
           "type": "text",
@@ -1621,56 +1833,6 @@
           }
         },
         {
-          "name": "relationship_valid",
-          "value": "@calc(/^[a-zA-Z\\s-]{3,50}$/.test(@local.relationship) || @local.relationship == '' || !@local.relationship)",
-          "_translations": {
-            "value": {}
-          },
-          "exclude_from_translation": true,
-          "type": "set_variable",
-          "_nested_name": "display_group_15.relationship_valid",
-          "_dynamicFields": {
-            "value": [
-              {
-                "fullExpression": "@calc(/^[a-zA-Z\\s-]{3,50}$/.test(@local.relationship) || @local.relationship == '' || !@local.relationship)",
-                "matchedExpression": "@local.relationship",
-                "type": "local",
-                "fieldName": "relationship"
-              },
-              {
-                "fullExpression": "@calc(/^[a-zA-Z\\s-]{3,50}$/.test(@local.relationship) || @local.relationship == '' || !@local.relationship)",
-                "matchedExpression": "@local.relationship",
-                "type": "local",
-                "fieldName": "relationship"
-              },
-              {
-                "fullExpression": "@calc(/^[a-zA-Z\\s-]{3,50}$/.test(@local.relationship) || @local.relationship == '' || !@local.relationship)",
-                "matchedExpression": "!@local.relationship",
-                "type": "local",
-                "fieldName": "relationship"
-              },
-              {
-                "fullExpression": "@calc(/^[a-zA-Z\\s-]{3,50}$/.test(@local.relationship) || @local.relationship == '' || !@local.relationship)",
-                "matchedExpression": "@calc(/^[a-zA-Z\\s-]{3,50}$/.test(@local.relationship) || @local.relationship == '' || !@local.relationship)",
-                "type": "calc",
-                "fieldName": "/^[a-zA-Z\\s-]{3,50}$/.test(@local.relationship) || @local.relationship == '' || !@local.relationship"
-              }
-            ]
-          },
-          "_dynamicDependencies": {
-            "@local.relationship": [
-              "value",
-              "value"
-            ],
-            "!@local.relationship": [
-              "value"
-            ],
-            "@calc(/^[a-zA-Z\\s-]{3,50}$/.test(@local.relationship) || @local.relationship == '' || !@local.relationship)": [
-              "value"
-            ]
-          }
-        },
-        {
           "type": "text",
           "value": "@global.error_relationship",
           "_translations": {
@@ -1712,12 +1874,6 @@
           }
         },
         {
-          "exclude_from_translation": true,
-          "type": "set_variable",
-          "name": "set_variable_49",
-          "_nested_name": "display_group_15.set_variable_49"
-        },
-        {
           "type": "text",
           "value": "@global.label_about_family",
           "_translations": {
@@ -1744,12 +1900,6 @@
               "value"
             ]
           }
-        },
-        {
-          "exclude_from_translation": true,
-          "type": "set_variable",
-          "name": "set_variable_51",
-          "_nested_name": "display_group_15.set_variable_51"
         },
         {
           "type": "text",
@@ -1830,63 +1980,6 @@
           }
         },
         {
-          "name": "members_valid",
-          "value": "@calc((/^\\d+$/.test(@local.members) && @local.members>= 1) || @local.members == '' || !@local.members)",
-          "_translations": {
-            "value": {}
-          },
-          "exclude_from_translation": true,
-          "type": "set_variable",
-          "_nested_name": "display_group_15.members_valid",
-          "_dynamicFields": {
-            "value": [
-              {
-                "fullExpression": "@calc((/^\\d+$/.test(@local.members) && @local.members>= 1) || @local.members == '' || !@local.members)",
-                "matchedExpression": "@local.members",
-                "type": "local",
-                "fieldName": "members"
-              },
-              {
-                "fullExpression": "@calc((/^\\d+$/.test(@local.members) && @local.members>= 1) || @local.members == '' || !@local.members)",
-                "matchedExpression": "@local.members",
-                "type": "local",
-                "fieldName": "members"
-              },
-              {
-                "fullExpression": "@calc((/^\\d+$/.test(@local.members) && @local.members>= 1) || @local.members == '' || !@local.members)",
-                "matchedExpression": "@local.members",
-                "type": "local",
-                "fieldName": "members"
-              },
-              {
-                "fullExpression": "@calc((/^\\d+$/.test(@local.members) && @local.members>= 1) || @local.members == '' || !@local.members)",
-                "matchedExpression": "!@local.members",
-                "type": "local",
-                "fieldName": "members"
-              },
-              {
-                "fullExpression": "@calc((/^\\d+$/.test(@local.members) && @local.members>= 1) || @local.members == '' || !@local.members)",
-                "matchedExpression": "@calc((/^\\d+$/.test(@local.members) && @local.members>= 1) || @local.members == '' || !@local.members)",
-                "type": "calc",
-                "fieldName": "(/^\\d+$/.test(@local.members) && @local.members>= 1) || @local.members == '' || !@local.members"
-              }
-            ]
-          },
-          "_dynamicDependencies": {
-            "@local.members": [
-              "value",
-              "value",
-              "value"
-            ],
-            "!@local.members": [
-              "value"
-            ],
-            "@calc((/^\\d+$/.test(@local.members) && @local.members>= 1) || @local.members == '' || !@local.members)": [
-              "value"
-            ]
-          }
-        },
-        {
           "type": "text",
           "value": "@global.error_members",
           "_translations": {
@@ -1935,12 +2028,6 @@
               "condition"
             ]
           }
-        },
-        {
-          "exclude_from_translation": true,
-          "type": "set_variable",
-          "name": "set_variable_56",
-          "_nested_name": "display_group_15.set_variable_56"
         },
         {
           "type": "text",
@@ -2009,56 +2096,6 @@
           }
         },
         {
-          "name": "childcare_valid",
-          "value": "@calc(/^[a-zA-Z\\s,-]{3,100}$/.test(@local.childcare) || @local.childcare == '' || !@local.childcare)",
-          "_translations": {
-            "value": {}
-          },
-          "exclude_from_translation": true,
-          "type": "set_variable",
-          "_nested_name": "display_group_15.childcare_valid",
-          "_dynamicFields": {
-            "value": [
-              {
-                "fullExpression": "@calc(/^[a-zA-Z\\s,-]{3,100}$/.test(@local.childcare) || @local.childcare == '' || !@local.childcare)",
-                "matchedExpression": "@local.childcare",
-                "type": "local",
-                "fieldName": "childcare"
-              },
-              {
-                "fullExpression": "@calc(/^[a-zA-Z\\s,-]{3,100}$/.test(@local.childcare) || @local.childcare == '' || !@local.childcare)",
-                "matchedExpression": "@local.childcare",
-                "type": "local",
-                "fieldName": "childcare"
-              },
-              {
-                "fullExpression": "@calc(/^[a-zA-Z\\s,-]{3,100}$/.test(@local.childcare) || @local.childcare == '' || !@local.childcare)",
-                "matchedExpression": "!@local.childcare",
-                "type": "local",
-                "fieldName": "childcare"
-              },
-              {
-                "fullExpression": "@calc(/^[a-zA-Z\\s,-]{3,100}$/.test(@local.childcare) || @local.childcare == '' || !@local.childcare)",
-                "matchedExpression": "@calc(/^[a-zA-Z\\s,-]{3,100}$/.test(@local.childcare) || @local.childcare == '' || !@local.childcare)",
-                "type": "calc",
-                "fieldName": "/^[a-zA-Z\\s,-]{3,100}$/.test(@local.childcare) || @local.childcare == '' || !@local.childcare"
-              }
-            ]
-          },
-          "_dynamicDependencies": {
-            "@local.childcare": [
-              "value",
-              "value"
-            ],
-            "!@local.childcare": [
-              "value"
-            ],
-            "@calc(/^[a-zA-Z\\s,-]{3,100}$/.test(@local.childcare) || @local.childcare == '' || !@local.childcare)": [
-              "value"
-            ]
-          }
-        },
-        {
           "type": "text",
           "value": "@global.error_childcare",
           "_translations": {
@@ -2098,12 +2135,6 @@
               "condition"
             ]
           }
-        },
-        {
-          "exclude_from_translation": true,
-          "type": "set_variable",
-          "name": "set_variable_61",
-          "_nested_name": "display_group_15.set_variable_61"
         },
         {
           "type": "text",
@@ -2172,13 +2203,6 @@
           }
         },
         {
-          "name": "goal_valid",
-          "value": true,
-          "exclude_from_translation": true,
-          "type": "set_variable",
-          "_nested_name": "display_group_15.goal_valid"
-        },
-        {
           "type": "text",
           "value": "@global.error_goal",
           "_translations": {
@@ -2218,12 +2242,6 @@
               "condition"
             ]
           }
-        },
-        {
-          "exclude_from_translation": true,
-          "type": "set_variable",
-          "name": "set_variable_66",
-          "_nested_name": "display_group_15.set_variable_66"
         },
         {
           "type": "text",
@@ -2292,12 +2310,6 @@
           }
         },
         {
-          "exclude_from_translation": true,
-          "type": "set_variable",
-          "name": "set_variable_69",
-          "_nested_name": "display_group_15.set_variable_69"
-        },
-        {
           "type": "text",
           "value": "@global.label_consoltation",
           "_translations": {
@@ -2351,12 +2363,6 @@
               "parameter_list.disabled"
             ]
           }
-        },
-        {
-          "exclude_from_translation": true,
-          "type": "set_variable",
-          "name": "set_variable_72",
-          "_nested_name": "display_group_15.set_variable_72"
         },
         {
           "type": "data_items",
@@ -2550,12 +2556,6 @@
               "parameter_list.filter"
             ]
           }
-        },
-        {
-          "exclude_from_translation": true,
-          "type": "set_variable",
-          "name": "set_variable_74",
-          "_nested_name": "display_group_15.set_variable_74"
         }
       ],
       "name": "display_group_15",
