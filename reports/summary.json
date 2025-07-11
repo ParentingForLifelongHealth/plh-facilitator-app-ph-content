@@ -171,7 +171,7 @@
       },
       {
         "type": "emit: completed",
-        "count": 71
+        "count": 72
       },
       {
         "type": "emit: force_reload",
@@ -179,11 +179,11 @@
       },
       {
         "type": "emit: force_reprocess",
-        "count": 17
+        "count": 19
       },
       {
         "type": "emit: force_restart",
-        "count": 5
+        "count": 2
       },
       {
         "type": "emit: server_sync",
@@ -231,7 +231,7 @@
       },
       {
         "type": "reset_data",
-        "count": 2
+        "count": 3
       },
       {
         "type": "save_to_device",

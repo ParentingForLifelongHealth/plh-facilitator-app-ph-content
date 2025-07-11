@@ -51,10 +51,10 @@
 | app_update | 1 |
 | auth | 3 |
 | copy | 2 |
-| emit: completed | 71 |
+| emit: completed | 72 |
 | emit: force_reload | 8 |
-| emit: force_reprocess | 17 |
-| emit: force_restart | 5 |
+| emit: force_reprocess | 19 |
+| emit: force_restart | 2 |
 | emit: server_sync | 18 |
 | emit: set_language | 1 |
 | emit: uncompleted | 89 |
@@ -66,7 +66,7 @@
 | plh_parent_group | 10 |
 | pop_up | 20 |
 | reset_app | 4 |
-| reset_data | 2 |
+| reset_data | 3 |
 | save_to_device | 4 |
 | scroll | 1 |
 | set_data | 32 |

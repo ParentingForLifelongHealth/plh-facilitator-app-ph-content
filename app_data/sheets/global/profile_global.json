@@ -6,21 +6,17 @@
     {
       "type": "declare_global_constant",
       "name": "label_first_name",
-      "value": "Parent's First Name",
+      "value": "Parent's First Name*",
       "_translations": {
-        "value": {
-          "ph_fil": true
-        }
+        "value": {}
       }
     },
     {
       "type": "declare_global_constant",
       "name": "label_last_name",
-      "value": "Parent's Last Name",
+      "value": "Parent's Last Name*",
       "_translations": {
-        "value": {
-          "ph_fil": true
-        }
+        "value": {}
       }
     },
     {
@@ -66,21 +62,17 @@
     {
       "type": "declare_global_constant",
       "name": "label_child_name",
-      "value": "Child's Name",
+      "value": "Child's Name*",
       "_translations": {
-        "value": {
-          "ph_fil": true
-        }
+        "value": {}
       }
     },
     {
       "type": "declare_global_constant",
       "name": "label_child_age",
-      "value": "Child's Age",
+      "value": "Child's Age*",
       "_translations": {
-        "value": {
-          "ph_fil": true
-        }
+        "value": {}
       }
     },
     {
@@ -326,11 +318,9 @@
     {
       "type": "declare_global_constant",
       "name": "error_number",
-      "value": "Please enter a valid phone number starting with + followed by the country code.",
+      "value": "Please enter a valid 11-digit phone number that starts with 09.",
       "_translations": {
-        "value": {
-          "ph_fil": true
-        }
+        "value": {}
       }
     },
     {
