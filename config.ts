@@ -8,6 +8,7 @@ const config = generateDeploymentConfig("plh_facilitator_ph");
 
 config.google_drive.sheets_folder_ids =  [
   "1Jo1-q7KOE4gC2XRKEMcU9bXnrwB5oCRC",  //Global
+  "1XBq4iGIZHEwzwPk3xbHDAm9WCesjR7kR", // library PLH onboarding
   "1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"   //PH Sheets
 ];
 
@@ -19,7 +20,7 @@ config.google_drive.assets_folder_ids = [
 
 config.git = {
   content_repo: "https://github.com/IDEMSInternational/plh-facilitator-app-ph-content.git",
-  content_tag_latest: "1.3.7",
+  content_tag_latest: "1.3.8",
 };
 
 config.android = {

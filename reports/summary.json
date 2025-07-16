@@ -19,7 +19,7 @@
       },
       {
         "type": "button",
-        "count": 100
+        "count": 101
       },
       {
         "type": "carousel",
@@ -47,7 +47,7 @@
       },
       {
         "type": "display_group",
-        "count": 140
+        "count": 141
       },
       {
         "type": "drawer",
@@ -163,7 +163,7 @@
       },
       {
         "type": "auth",
-        "count": 3
+        "count": 4
       },
       {
         "type": "copy",
@@ -179,7 +179,7 @@
       },
       {
         "type": "emit: force_reprocess",
-        "count": 19
+        "count": 20
       },
       {
         "type": "emit: force_restart",
@@ -1200,7 +1200,7 @@
       },
       {
         "path": "lottie/checkmark_blue.json",
-        "count": 5,
+        "count": 4,
         "size_kb": 17
       },
       {

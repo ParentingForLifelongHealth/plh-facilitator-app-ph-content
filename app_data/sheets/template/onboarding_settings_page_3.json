@@ -1,6 +1,6 @@
 {
   "flow_type": "template",
-  "flow_name": "profile_user_location",
+  "flow_name": "onboarding_settings_page_3",
   "status": "released",
   "rows": [
     {
@@ -877,6 +877,6 @@
       "_nested_name": "dg_footer"
     }
   ],
-  "_xlsxPath": "templates/app_launch_ph.xlsx",
+  "_xlsxPath": "templates/PH onboarding templates.xlsx",
   "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
 }

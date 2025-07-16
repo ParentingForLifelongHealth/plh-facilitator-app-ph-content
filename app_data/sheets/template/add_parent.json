@@ -4,6 +4,143 @@
   "status": "released",
   "rows": [
     {
+      "type": "round_button",
+      "name": "back",
+      "action_list": [
+        {
+          "trigger": "click",
+          "action_id": "emit",
+          "args": [
+            "uncompleted"
+          ],
+          "_raw": "click | emit: uncompleted",
+          "_cleaned": "click | emit: uncompleted"
+        }
+      ],
+      "parameter_list": {
+        "icon_src": "chevron-back",
+        "variant": "navigation"
+      },
+      "exclude_from_translation": true,
+      "_nested_name": "back"
+    },
+    {
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "name": "set_variable_3",
+      "_nested_name": "set_variable_3"
+    },
+    {
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "name": "set_variable_4",
+      "_nested_name": "set_variable_4"
+    },
+    {
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "name": "set_variable_5",
+      "_nested_name": "set_variable_5"
+    },
+    {
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "name": "set_variable_6",
+      "_nested_name": "set_variable_6"
+    },
+    {
+      "name": "gender_select_options",
+      "value": "@data.gender",
+      "_translations": {
+        "value": {}
+      },
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "_nested_name": "gender_select_options",
+      "_dynamicFields": {
+        "value": [
+          {
+            "fullExpression": "@data.gender",
+            "matchedExpression": "@data.gender",
+            "type": "data",
+            "fieldName": "gender"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@data.gender": [
+          "value"
+        ]
+      }
+    },
+    {
+      "name": "child_gender_select_options",
+      "value": "@data.child_gender",
+      "_translations": {
+        "value": {}
+      },
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "_nested_name": "child_gender_select_options",
+      "_dynamicFields": {
+        "value": [
+          {
+            "fullExpression": "@data.child_gender",
+            "matchedExpression": "@data.child_gender",
+            "type": "data",
+            "fieldName": "child_gender"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@data.child_gender": [
+          "value"
+        ]
+      }
+    },
+    {
+      "name": "show_number_error",
+      "value": false,
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "_nested_name": "show_number_error"
+    },
+    {
+      "name": "show_age_error",
+      "value": false,
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "_nested_name": "show_age_error"
+    },
+    {
+      "name": "show_sex_error",
+      "value": false,
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "_nested_name": "show_sex_error"
+    },
+    {
+      "name": "show_child_age_error",
+      "value": false,
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "_nested_name": "show_child_age_error"
+    },
+    {
+      "name": "show_child_sex_error",
+      "value": false,
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "_nested_name": "show_child_sex_error"
+    },
+    {
+      "name": "show_members_error",
+      "value": false,
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "_nested_name": "show_members_error"
+    },
+    {
       "exclude_from_translation": true,
       "type": "set_variable",
       "name": "set_variable_2",
@@ -576,143 +713,6 @@
       "type": "set_variable",
       "name": "set_variable_74",
       "_nested_name": "set_variable_74"
-    },
-    {
-      "type": "round_button",
-      "name": "back",
-      "action_list": [
-        {
-          "trigger": "click",
-          "action_id": "emit",
-          "args": [
-            "uncompleted"
-          ],
-          "_raw": "click | emit: uncompleted",
-          "_cleaned": "click | emit: uncompleted"
-        }
-      ],
-      "parameter_list": {
-        "icon_src": "chevron-back",
-        "variant": "navigation"
-      },
-      "exclude_from_translation": true,
-      "_nested_name": "back"
-    },
-    {
-      "exclude_from_translation": true,
-      "type": "set_variable",
-      "name": "set_variable_3",
-      "_nested_name": "set_variable_3"
-    },
-    {
-      "exclude_from_translation": true,
-      "type": "set_variable",
-      "name": "set_variable_4",
-      "_nested_name": "set_variable_4"
-    },
-    {
-      "exclude_from_translation": true,
-      "type": "set_variable",
-      "name": "set_variable_5",
-      "_nested_name": "set_variable_5"
-    },
-    {
-      "exclude_from_translation": true,
-      "type": "set_variable",
-      "name": "set_variable_6",
-      "_nested_name": "set_variable_6"
-    },
-    {
-      "name": "gender_select_options",
-      "value": "@data.gender",
-      "_translations": {
-        "value": {}
-      },
-      "exclude_from_translation": true,
-      "type": "set_variable",
-      "_nested_name": "gender_select_options",
-      "_dynamicFields": {
-        "value": [
-          {
-            "fullExpression": "@data.gender",
-            "matchedExpression": "@data.gender",
-            "type": "data",
-            "fieldName": "gender"
-          }
-        ]
-      },
-      "_dynamicDependencies": {
-        "@data.gender": [
-          "value"
-        ]
-      }
-    },
-    {
-      "name": "child_gender_select_options",
-      "value": "@data.child_gender",
-      "_translations": {
-        "value": {}
-      },
-      "exclude_from_translation": true,
-      "type": "set_variable",
-      "_nested_name": "child_gender_select_options",
-      "_dynamicFields": {
-        "value": [
-          {
-            "fullExpression": "@data.child_gender",
-            "matchedExpression": "@data.child_gender",
-            "type": "data",
-            "fieldName": "child_gender"
-          }
-        ]
-      },
-      "_dynamicDependencies": {
-        "@data.child_gender": [
-          "value"
-        ]
-      }
-    },
-    {
-      "name": "show_number_error",
-      "value": false,
-      "exclude_from_translation": true,
-      "type": "set_variable",
-      "_nested_name": "show_number_error"
-    },
-    {
-      "name": "show_age_error",
-      "value": false,
-      "exclude_from_translation": true,
-      "type": "set_variable",
-      "_nested_name": "show_age_error"
-    },
-    {
-      "name": "show_sex_error",
-      "value": false,
-      "exclude_from_translation": true,
-      "type": "set_variable",
-      "_nested_name": "show_sex_error"
-    },
-    {
-      "name": "show_child_age_error",
-      "value": false,
-      "exclude_from_translation": true,
-      "type": "set_variable",
-      "_nested_name": "show_child_age_error"
-    },
-    {
-      "name": "show_child_sex_error",
-      "value": false,
-      "exclude_from_translation": true,
-      "type": "set_variable",
-      "_nested_name": "show_child_sex_error"
-    },
-    {
-      "name": "show_members_error",
-      "value": false,
-      "exclude_from_translation": true,
-      "type": "set_variable",
-      "_nested_name": "show_members_error"
     },
     {
       "type": "display_group",

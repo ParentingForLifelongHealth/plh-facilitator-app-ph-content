@@ -1,0 +1,65 @@
+{
+  "flow_type": "global",
+  "flow_subtype": "onboarding",
+  "flow_name": "onboarding_global_ph",
+  "status": "released",
+  "rows": [
+    {
+      "type": "declare_global_constant",
+      "name": "has_onboarding_language_select",
+      "value": false
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "has_onboarding_splash",
+      "value": false
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "has_onboarding_terms_login",
+      "value": true
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "login_is_mandatory",
+      "value": true
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "has_onboarding_settings",
+      "value": true
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "onboarding_header_background_colour",
+      "value": "var(--ion-color-primary-800)",
+      "_translations": {
+        "value": {}
+      },
+      "exclude_from_translation": true
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "onboarding_header_image_asset",
+      "value": "images/logos/MaPa_logo.png",
+      "_translations": {
+        "value": {}
+      },
+      "exclude_from_translation": true
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "onboarding_footer_image_asset"
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "onboarding_completed_lottie_asset",
+      "value": "lottie/checkmark_blue.json",
+      "_translations": {
+        "value": {}
+      }
+    }
+  ],
+  "_xlsxPath": "data/PH onboarding.xlsx",
+  "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
+}

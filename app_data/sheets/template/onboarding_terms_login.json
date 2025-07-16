@@ -1,16 +1,16 @@
 {
   "flow_type": "template",
-  "flow_name": "login_terms",
+  "flow_name": "onboarding_terms_login",
   "status": "released",
   "rows": [
     {
-      "name": "is_user_signed_in",
+      "name": "user_is_logged_in",
       "value": "!!@fields._auth_user_id",
       "_translations": {
         "value": {}
       },
       "type": "set_variable",
-      "_nested_name": "is_user_signed_in",
+      "_nested_name": "user_is_logged_in",
       "_dynamicFields": {
         "value": [
           {
@@ -28,53 +28,56 @@
       }
     },
     {
-      "type": "display_group",
-      "name": "dg_top",
-      "condition": false,
-      "parameter_list": {
-        "sticky": "top",
-        "background_image_asset": "images/backgrounds/MaPa_logo_with_background.png",
-        "background_image_position": "top"
-      },
-      "style_list": [
-        "width: 100%",
-        "min-height: 230px"
-      ],
-      "rows": [],
-      "_nested_name": "dg_top"
+      "name": "user_skipped_login",
+      "value": false,
+      "type": "set_variable",
+      "_nested_name": "user_skipped_login"
     },
     {
-      "type": "display_group",
-      "name": "dg_top",
-      "parameter_list": {
-        "sticky": "top",
-        "variant": "inline_padding"
-      },
-      "style_list": [
-        "background-color: var(--ion-color-primary-800)",
-        "margin-block: -24px"
-      ],
-      "rows": [
-        {
-          "type": "image",
-          "name": "logo",
-          "value": "images/logos/MaPa_logo.png",
-          "_translations": {
-            "value": {}
+      "type": "template",
+      "name": "header",
+      "value": "onboarding_header",
+      "condition": "@global.login_is_mandatory || @local.user_is_logged_in || @local.user_skipped_login",
+      "rows": [],
+      "_nested_name": "header",
+      "_dynamicFields": {
+        "condition": [
+          {
+            "fullExpression": "@global.login_is_mandatory || @local.user_is_logged_in || @local.user_skipped_login",
+            "matchedExpression": "@global.login_is_mandatory",
+            "type": "global",
+            "fieldName": "login_is_mandatory"
           },
-          "style_list": [
-            "height: 200px",
-            "margin-block: 24px"
-          ],
-          "_nested_name": "dg_top.logo"
-        }
-      ],
-      "_nested_name": "dg_top"
+          {
+            "fullExpression": "@global.login_is_mandatory || @local.user_is_logged_in || @local.user_skipped_login",
+            "matchedExpression": "@local.user_is_logged_in",
+            "type": "local",
+            "fieldName": "user_is_logged_in"
+          },
+          {
+            "fullExpression": "@global.login_is_mandatory || @local.user_is_logged_in || @local.user_skipped_login",
+            "matchedExpression": "@local.user_skipped_login",
+            "type": "local",
+            "fieldName": "user_skipped_login"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@global.login_is_mandatory": [
+          "condition"
+        ],
+        "@local.user_is_logged_in": [
+          "condition"
+        ],
+        "@local.user_skipped_login": [
+          "condition"
+        ]
+      }
     },
     {
       "type": "display_group",
       "name": "before_login",
-      "condition": "!@local.is_user_signed_in",
+      "condition": "!(@local.user_is_logged_in || @local.user_skipped_login)",
       "parameter_list": {
         "style": "column"
       },
@@ -109,6 +112,73 @@
           "_dynamicDependencies": {
             "@global.welcome_message": [
               "value"
+            ]
+          }
+        },
+        {
+          "type": "text",
+          "name": "text_login",
+          "value": "@global.login",
+          "_translations": {
+            "value": {}
+          },
+          "parameter_list": {
+            "text_align": "center",
+            "style": "emphasised"
+          },
+          "_nested_name": "before_login.text_login",
+          "_dynamicFields": {
+            "value": [
+              {
+                "fullExpression": "@global.login",
+                "matchedExpression": "@global.login",
+                "type": "global",
+                "fieldName": "login"
+              }
+            ]
+          },
+          "_dynamicDependencies": {
+            "@global.login": [
+              "value"
+            ]
+          }
+        },
+        {
+          "type": "text",
+          "name": "text_login_why",
+          "value": "@global.login_optional_why",
+          "_translations": {
+            "value": {}
+          },
+          "condition": "!@global.login_is_mandatory",
+          "parameter_list": {
+            "text_align": "center"
+          },
+          "_nested_name": "before_login.text_login_why",
+          "_dynamicFields": {
+            "value": [
+              {
+                "fullExpression": "@global.login_optional_why",
+                "matchedExpression": "@global.login_optional_why",
+                "type": "global",
+                "fieldName": "login_optional_why"
+              }
+            ],
+            "condition": [
+              {
+                "fullExpression": "!@global.login_is_mandatory",
+                "matchedExpression": "!@global.login_is_mandatory",
+                "type": "global",
+                "fieldName": "login_is_mandatory"
+              }
+            ]
+          },
+          "_dynamicDependencies": {
+            "@global.login_optional_why": [
+              "value"
+            ],
+            "!@global.login_is_mandatory": [
+              "condition"
             ]
           }
         },
@@ -197,6 +267,66 @@
           "_dynamicDependencies": {
             "@global.login_google": [
               "value"
+            ]
+          }
+        },
+        {
+          "type": "button",
+          "name": "button_skip_sign_in",
+          "value": "@global.login_skip",
+          "_translations": {
+            "value": {}
+          },
+          "action_list": [
+            {
+              "trigger": "click",
+              "action_id": "emit",
+              "args": [
+                "completed"
+              ],
+              "_raw": "click | emit: completed",
+              "_cleaned": "click | emit: completed"
+            },
+            {
+              "trigger": "click",
+              "action_id": "set_field",
+              "args": [
+                "onboarding_terms_login_completed",
+                true
+              ],
+              "_raw": "click | set_field: onboarding_terms_login_completed: true",
+              "_cleaned": "click | set_field: onboarding_terms_login_completed: true"
+            }
+          ],
+          "condition": "!@global.login_is_mandatory",
+          "parameter_list": {
+            "variant": "card"
+          },
+          "_nested_name": "before_login.button_skip_sign_in",
+          "_dynamicFields": {
+            "value": [
+              {
+                "fullExpression": "@global.login_skip",
+                "matchedExpression": "@global.login_skip",
+                "type": "global",
+                "fieldName": "login_skip"
+              }
+            ],
+            "condition": [
+              {
+                "fullExpression": "!@global.login_is_mandatory",
+                "matchedExpression": "!@global.login_is_mandatory",
+                "type": "global",
+                "fieldName": "login_is_mandatory"
+              }
+            ]
+          },
+          "_dynamicDependencies": {
+            "@global.login_skip": [
+              "value"
+            ],
+            "!@global.login_is_mandatory": [
+              "condition"
             ]
           }
         },
@@ -334,15 +464,24 @@
       "_dynamicFields": {
         "condition": [
           {
-            "fullExpression": "!@local.is_user_signed_in",
-            "matchedExpression": "!@local.is_user_signed_in",
+            "fullExpression": "!(@local.user_is_logged_in || @local.user_skipped_login)",
+            "matchedExpression": "@local.user_is_logged_in",
             "type": "local",
-            "fieldName": "is_user_signed_in"
+            "fieldName": "user_is_logged_in"
+          },
+          {
+            "fullExpression": "!(@local.user_is_logged_in || @local.user_skipped_login)",
+            "matchedExpression": "@local.user_skipped_login",
+            "type": "local",
+            "fieldName": "user_skipped_login"
           }
         ]
       },
       "_dynamicDependencies": {
-        "!@local.is_user_signed_in": [
+        "@local.user_is_logged_in": [
+          "condition"
+        ],
+        "@local.user_skipped_login": [
           "condition"
         ]
       }
@@ -350,7 +489,7 @@
     {
       "type": "display_group",
       "name": "after_login",
-      "condition": "@local.is_user_signed_in",
+      "condition": "@local.user_is_logged_in",
       "parameter_list": {
         "style": "column"
       },
@@ -542,11 +681,11 @@
                       "trigger": "click",
                       "action_id": "set_field",
                       "args": [
-                        "login_passed",
+                        "onboarding_terms_login_completed",
                         true
                       ],
-                      "_raw": "click | set_field: login_passed: true",
-                      "_cleaned": "click | set_field: login_passed: true"
+                      "_raw": "click | set_field: onboarding_terms_login_completed: true",
+                      "_cleaned": "click | set_field: onboarding_terms_login_completed: true"
                     }
                   ],
                   "parameter_list": {
@@ -752,16 +891,6 @@
               "action_list": [
                 {
                   "trigger": "click",
-                  "action_id": "set_field",
-                  "args": [
-                    "login_passed",
-                    true
-                  ],
-                  "_raw": "click | set_field: login_passed: true",
-                  "_cleaned": "click | set_field: login_passed: true"
-                },
-                {
-                  "trigger": "click",
                   "action_id": "emit",
                   "args": [
                     "completed"
@@ -771,12 +900,13 @@
                 },
                 {
                   "trigger": "click",
-                  "action_id": "emit",
+                  "action_id": "set_field",
                   "args": [
-                    "server_sync"
+                    "onboarding_terms_login_completed",
+                    true
                   ],
-                  "_raw": "click | emit: server_sync",
-                  "_cleaned": "click | emit: server_sync"
+                  "_raw": "click | set_field: onboarding_terms_login_completed: true",
+                  "_cleaned": "click | set_field: onboarding_terms_login_completed: true"
                 }
               ],
               "parameter_list": {
@@ -827,15 +957,6 @@
           "action_list": [
             {
               "trigger": "click",
-              "action_id": "emit",
-              "args": [
-                "server_sync"
-              ],
-              "_raw": "click | emit: server_sync",
-              "_cleaned": "click | emit: server_sync"
-            },
-            {
-              "trigger": "click",
               "action_id": "reset_data",
               "args": [],
               "_raw": "click | reset_data",
@@ -876,20 +997,20 @@
       "_dynamicFields": {
         "condition": [
           {
-            "fullExpression": "@local.is_user_signed_in",
-            "matchedExpression": "@local.is_user_signed_in",
+            "fullExpression": "@local.user_is_logged_in",
+            "matchedExpression": "@local.user_is_logged_in",
             "type": "local",
-            "fieldName": "is_user_signed_in"
+            "fieldName": "user_is_logged_in"
           }
         ]
       },
       "_dynamicDependencies": {
-        "@local.is_user_signed_in": [
+        "@local.user_is_logged_in": [
           "condition"
         ]
       }
     }
   ],
-  "_xlsxPath": "templates/app_launch_ph.xlsx",
-  "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
+  "_xlsxPath": "PLH onboarding.xlsx",
+  "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1XBq4iGIZHEwzwPk3xbHDAm9WCesjR7kR"
 }

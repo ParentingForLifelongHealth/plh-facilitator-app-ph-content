@@ -122,9 +122,11 @@
         {
           "type": "button",
           "name": "button_completed",
-          "value": "@global.next",
+          "value": "Continue",
           "_translations": {
-            "value": {}
+            "value": {
+              "ph_fil": true
+            }
           },
           "action_list": [
             {
@@ -156,14 +158,6 @@
           ],
           "_nested_name": "dg_footer.button_completed",
           "_dynamicFields": {
-            "value": [
-              {
-                "fullExpression": "@global.next",
-                "matchedExpression": "@global.next",
-                "type": "global",
-                "fieldName": "next"
-              }
-            ],
             "action_list": {
               "0": {
                 "args": {
@@ -206,9 +200,6 @@
             }
           },
           "_dynamicDependencies": {
-            "@global.next": [
-              "value"
-            ],
             "@local.user_type_select": [
               "action_list.0.args.1",
               "action_list.0._raw",
@@ -223,6 +214,6 @@
       "_nested_name": "dg_footer"
     }
   ],
-  "_xlsxPath": "templates/app_launch_ph.xlsx",
-  "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
+  "_xlsxPath": "templates/app_launch.xlsx",
+  "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1Jo1-q7KOE4gC2XRKEMcU9bXnrwB5oCRC"
 }
