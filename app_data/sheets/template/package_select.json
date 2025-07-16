@@ -4,76 +4,28 @@
   "status": "released",
   "rows": [
     {
-      "type": "template",
-      "name": "header",
-      "value": "section_header",
-      "action_list": [
-        {
-          "trigger": "uncompleted",
-          "action_id": "emit",
-          "args": [
-            "uncompleted"
-          ],
-          "_raw": "uncompleted | emit: uncompleted",
-          "_cleaned": "uncompleted | emit: uncompleted"
-        }
-      ],
-      "rows": [
-        {
-          "name": "show_back",
-          "value": "@fields.splash_screens_completed",
-          "_translations": {
-            "value": {}
-          },
-          "type": "set_variable",
-          "_nested_name": "header.show_back",
-          "_dynamicFields": {
-            "value": [
-              {
-                "fullExpression": "@fields.splash_screens_completed",
-                "matchedExpression": "@fields.splash_screens_completed",
-                "type": "fields",
-                "fieldName": "splash_screens_completed"
-              }
-            ]
-          },
-          "_dynamicDependencies": {
-            "@fields.splash_screens_completed": [
-              "value"
-            ]
-          }
-        },
-        {
-          "name": "title",
-          "value": "@global.your_package",
-          "_translations": {
-            "value": {}
-          },
-          "type": "set_variable",
-          "_nested_name": "header.title",
-          "_dynamicFields": {
-            "value": [
-              {
-                "fullExpression": "@global.your_package",
-                "matchedExpression": "@global.your_package",
-                "type": "global",
-                "fieldName": "your_package"
-              }
-            ]
-          },
-          "_dynamicDependencies": {
-            "@global.your_package": [
-              "value"
-            ]
-          }
-        }
-      ],
-      "_nested_name": "header"
-    },
-    {
       "type": "title",
       "name": "title",
-      "_nested_name": "title"
+      "value": "@global.your_package",
+      "_translations": {
+        "value": {}
+      },
+      "_nested_name": "title",
+      "_dynamicFields": {
+        "value": [
+          {
+            "fullExpression": "@global.your_package",
+            "matchedExpression": "@global.your_package",
+            "type": "global",
+            "fieldName": "your_package"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@global.your_package": [
+          "value"
+        ]
+      }
     },
     {
       "type": "text",
@@ -139,54 +91,41 @@
       }
     },
     {
-      "type": "display_group",
-      "name": "dg_bottom",
-      "parameter_list": {
-        "sticky": "bottom"
+      "type": "button",
+      "name": "button_completed",
+      "value": "Continue",
+      "_translations": {
+        "value": {
+          "ph_fil": true
+        }
       },
-      "style_list": [
-        "padding: 12px 24px"
-      ],
-      "rows": [
+      "action_list": [
         {
-          "type": "button",
-          "name": "button_completed",
-          "value": "Continue",
-          "_translations": {
-            "value": {
-              "ph_fil": true
-            }
-          },
-          "action_list": [
-            {
-              "trigger": "click",
-              "action_id": "emit",
-              "args": [
-                "completed"
-              ],
-              "_raw": "click | emit: completed",
-              "_cleaned": "click | emit: completed"
-            },
-            {
-              "trigger": "click",
-              "action_id": "set_field",
-              "args": [
-                "package_selected",
-                true
-              ],
-              "_raw": "click | set_field: package_selected: TRUE",
-              "_cleaned": "click | set_field: package_selected: TRUE"
-            }
+          "trigger": "click",
+          "action_id": "emit",
+          "args": [
+            "completed"
           ],
-          "parameter_list": {
-            "variant": "card"
-          },
-          "_nested_name": "dg_bottom.button_completed"
+          "_raw": "click | emit: completed",
+          "_cleaned": "click | emit: completed"
+        },
+        {
+          "trigger": "click",
+          "action_id": "set_field",
+          "args": [
+            "package_selected",
+            true
+          ],
+          "_raw": "click | set_field: package_selected: TRUE",
+          "_cleaned": "click | set_field: package_selected: TRUE"
         }
       ],
-      "_nested_name": "dg_bottom"
+      "parameter_list": {
+        "style": "navigation"
+      },
+      "_nested_name": "button_completed"
     }
   ],
-  "_xlsxPath": "templates/app_launch_ph.xlsx",
-  "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
+  "_xlsxPath": "templates/app_launch.xlsx",
+  "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1Jo1-q7KOE4gC2XRKEMcU9bXnrwB5oCRC"
 }
