@@ -358,10 +358,17 @@
                   "value"
                 ]
               }
-            },
+            }
+          ],
+          "_nested_name": "logged_in.dg_column"
+        },
+        {
+          "type": "display_group",
+          "name": "dg_row",
+          "rows": [
             {
               "type": "button",
-              "name": "button_logout",
+              "name": "button_sign_out",
               "value": "<u>@global.logout</u>",
               "_translations": {
                 "value": {}
@@ -386,11 +393,15 @@
                   "_cleaned": "click | emit: force_reprocess"
                 }
               ],
+              "exclude_from_translation": true,
               "parameter_list": {
                 "variant": "card",
                 "style": "no-background"
               },
-              "_nested_name": "logged_in.dg_column.button_logout",
+              "style_list": [
+                "flex: 1"
+              ],
+              "_nested_name": "logged_in.dg_row.button_sign_out",
               "_dynamicFields": {
                 "value": [
                   {
@@ -406,9 +417,61 @@
                   "value"
                 ]
               }
+            },
+            {
+              "type": "button",
+              "name": "button_delete_account",
+              "value": "<u>@global.delete_account</u>",
+              "_translations": {
+                "value": {}
+              },
+              "action_list": [
+                {
+                  "trigger": "click",
+                  "action_id": "auth",
+                  "args": [
+                    "delete_account"
+                  ],
+                  "_raw": "click | auth: delete_account",
+                  "_cleaned": "click | auth: delete_account"
+                },
+                {
+                  "trigger": "click",
+                  "action_id": "emit",
+                  "args": [
+                    "force_reprocess"
+                  ],
+                  "_raw": "click | emit: force_reprocess",
+                  "_cleaned": "click | emit: force_reprocess"
+                }
+              ],
+              "exclude_from_translation": true,
+              "parameter_list": {
+                "variant": "card",
+                "style": "no-background"
+              },
+              "style_list": [
+                "flex: 1"
+              ],
+              "_nested_name": "logged_in.dg_row.button_delete_account",
+              "_dynamicFields": {
+                "value": [
+                  {
+                    "fullExpression": "<u>@global.delete_account</u>",
+                    "matchedExpression": "@global.delete_account",
+                    "type": "global",
+                    "fieldName": "delete_account"
+                  }
+                ]
+              },
+              "_dynamicDependencies": {
+                "@global.delete_account": [
+                  "value"
+                ]
+              }
             }
           ],
-          "_nested_name": "logged_in.dg_column"
+          "_nested_name": "logged_in.dg_row"
         },
         {
           "type": "data_items",

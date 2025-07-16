@@ -7,14 +7,14 @@
 | accordion_section | 1 |
 | apple_sign_in_button | 3 |
 | audio | 3 |
-| button | 100 |
+| button | 101 |
 | carousel | 2 |
 | combo_box | 16 |
 | data_items | 59 |
 | date_time_picker | 4 |
 | debug_toggle | 1 |
 | display_grid | 2 |
-| display_group | 140 |
+| display_group | 141 |
 | drawer | 1 |
 | google_sign_in_button | 4 |
 | image | 15 |
@@ -49,11 +49,11 @@
 | --- | --- |
 | add_data | 9 |
 | app_update | 1 |
-| auth | 3 |
+| auth | 4 |
 | copy | 2 |
 | emit: completed | 72 |
 | emit: force_reload | 8 |
-| emit: force_reprocess | 19 |
+| emit: force_reprocess | 20 |
 | emit: force_restart | 2 |
 | emit: server_sync | 18 |
 | emit: set_language | 1 |
@@ -309,7 +309,7 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | images/logos/PLH.png | 26.6 | 1 |
 | images/logos/UNICEF.jpg | 57.9 | 1 |
 | images/logos/app_logo.png | 70.6 | 3 |
-| lottie/checkmark_blue.json | 17 | 5 |
+| lottie/checkmark_blue.json | 17 | 4 |
 | pdf/01_mod1_intro.pdf | 650.7 | 1 |
 | pdf/01_mod1_layunin.pdf | 478.3 | 1 |
 | pdf/01_mod1_mapa_skill.pdf | 6899 | 1 |
