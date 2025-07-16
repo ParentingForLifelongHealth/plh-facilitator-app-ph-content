@@ -2144,10 +2144,10 @@
       "_xlsxPath": "PLH onboarding.xlsx",
       "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1XBq4iGIZHEwzwPk3xbHDAm9WCesjR7kR"
     },
-    "onboarding_global_my": {
+    "onboarding_global_ph": {
       "flow_type": "global",
       "flow_subtype": "onboarding",
-      "flow_name": "onboarding_global_my",
+      "flow_name": "onboarding_global_ph",
       "_xlsxPath": "data/PH onboarding.xlsx",
       "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
     },
