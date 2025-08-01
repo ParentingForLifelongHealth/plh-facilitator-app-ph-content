@@ -20,7 +20,7 @@ config.google_drive.assets_folder_ids = [
 
 config.git = {
   content_repo: "https://github.com/IDEMSInternational/plh-facilitator-app-ph-content.git",
-  content_tag_latest: "1.3.8",
+  content_tag_latest: "1.3.9",
 };
 
 config.android = {
@@ -60,7 +60,7 @@ config.app_config.NOTIFICATION_DEFAULTS.title = "New message from Facilitator PH
 config.app_config.NOTIFICATION_DEFAULTS.text = "You have a new message from Facilitator PH";
 config.app_config.APP_UPDATES.enabled = true;
 config.app_config.APP_UPDATES.completeUpdateTemplate = "app_update_complete";
-config.app_config.APP_FOOTER_DEFAULTS.templateName = "footer";
+config.app_config.APP_FOOTER_DEFAULTS.template = "footer";
 config.app_config.APP_THEMES.available = ["plh_facilitator_ph"];
 config.app_config.APP_THEMES.defaultThemeName = "plh_facilitator_ph";
 
