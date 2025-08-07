@@ -396,8 +396,7 @@
                 "style": "no-background"
               },
               "style_list": [
-                "flex: 1",
-                "color: red"
+                "flex: 1"
               ],
               "_nested_name": "logged_in.dg_row.button_delete_account",
               "_dynamicFields": {

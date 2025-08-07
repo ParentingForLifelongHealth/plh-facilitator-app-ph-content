@@ -4056,7 +4056,7 @@
       "parameter_list": {
         "app_config": {
           "APP_FOOTER_DEFAULTS": {
-            "templateName": "footer"
+            "template": "footer"
           }
         }
       },

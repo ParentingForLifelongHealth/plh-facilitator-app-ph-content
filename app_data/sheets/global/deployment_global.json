@@ -135,6 +135,14 @@
     },
     {
       "type": "declare_global_constant",
+      "name": "sessions_no_groups_image",
+      "value": "images/no_group_selected.svg",
+      "_translations": {
+        "value": {}
+      }
+    },
+    {
+      "type": "declare_global_constant",
       "name": "edit_first_name",
       "value": "Parent's first name",
       "_translations": {
