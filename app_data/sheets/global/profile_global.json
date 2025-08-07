@@ -78,11 +78,9 @@
     {
       "type": "declare_global_constant",
       "name": "label_child_sex",
-      "value": "Child's Sex",
+      "value": "Child's Sex*",
       "_translations": {
-        "value": {
-          "ph_fil": true
-        }
+        "value": {}
       }
     },
     {
