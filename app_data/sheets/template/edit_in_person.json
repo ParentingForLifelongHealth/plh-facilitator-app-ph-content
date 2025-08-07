@@ -129,6 +129,7 @@
       "_translations": {
         "value": {}
       },
+      "exclude_from_translation": true,
       "type": "set_variable",
       "_nested_name": "current_module_number",
       "_dynamicFields": {
@@ -162,6 +163,7 @@
       "_translations": {
         "value": {}
       },
+      "exclude_from_translation": true,
       "type": "set_variable",
       "_nested_name": "previous_module_number",
       "_dynamicFields": {

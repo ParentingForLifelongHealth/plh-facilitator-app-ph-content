@@ -2701,7 +2701,7 @@
     },
     {
       "name": "valid",
-      "value": "!!@local.first_name && !!@local.last_name && @local.child_name_valid && @local.child_age_valid",
+      "value": "!!@local.first_name && !!@local.last_name && @local.child_name_valid && @local.child_age_valid && @local.child_sex_valid",
       "_translations": {
         "value": {}
       },
@@ -2711,28 +2711,34 @@
       "_dynamicFields": {
         "value": [
           {
-            "fullExpression": "!!@local.first_name && !!@local.last_name && @local.child_name_valid && @local.child_age_valid",
+            "fullExpression": "!!@local.first_name && !!@local.last_name && @local.child_name_valid && @local.child_age_valid && @local.child_sex_valid",
             "matchedExpression": "!@local.first_name",
             "type": "local",
             "fieldName": "first_name"
           },
           {
-            "fullExpression": "!!@local.first_name && !!@local.last_name && @local.child_name_valid && @local.child_age_valid",
+            "fullExpression": "!!@local.first_name && !!@local.last_name && @local.child_name_valid && @local.child_age_valid && @local.child_sex_valid",
             "matchedExpression": "!@local.last_name",
             "type": "local",
             "fieldName": "last_name"
           },
           {
-            "fullExpression": "!!@local.first_name && !!@local.last_name && @local.child_name_valid && @local.child_age_valid",
+            "fullExpression": "!!@local.first_name && !!@local.last_name && @local.child_name_valid && @local.child_age_valid && @local.child_sex_valid",
             "matchedExpression": "@local.child_name_valid",
             "type": "local",
             "fieldName": "child_name_valid"
           },
           {
-            "fullExpression": "!!@local.first_name && !!@local.last_name && @local.child_name_valid && @local.child_age_valid",
+            "fullExpression": "!!@local.first_name && !!@local.last_name && @local.child_name_valid && @local.child_age_valid && @local.child_sex_valid",
             "matchedExpression": "@local.child_age_valid",
             "type": "local",
             "fieldName": "child_age_valid"
+          },
+          {
+            "fullExpression": "!!@local.first_name && !!@local.last_name && @local.child_name_valid && @local.child_age_valid && @local.child_sex_valid",
+            "matchedExpression": "@local.child_sex_valid",
+            "type": "local",
+            "fieldName": "child_sex_valid"
           }
         ]
       },
@@ -2747,6 +2753,9 @@
           "value"
         ],
         "@local.child_age_valid": [
+          "value"
+        ],
+        "@local.child_sex_valid": [
           "value"
         ]
       }
