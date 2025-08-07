@@ -14,7 +14,9 @@
       "question_3": "text",
       "question_4": "text",
       "question_5": "text",
-      "question_6": "text",
+      "question_6_list": [
+        "text"
+      ],
       "question_7": "text",
       "question_8": "text",
       "question_9": "text",

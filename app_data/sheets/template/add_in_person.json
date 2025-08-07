@@ -42,13 +42,28 @@
     },
     {
       "name": "module_id",
-      "value": "@field:current_module_no",
+      "value": "@field.current_module_no",
       "_translations": {
         "value": {}
       },
       "exclude_from_translation": true,
       "type": "set_variable",
-      "_nested_name": "module_id"
+      "_nested_name": "module_id",
+      "_dynamicFields": {
+        "value": [
+          {
+            "fullExpression": "@field.current_module_no",
+            "matchedExpression": "@field.current_module_no",
+            "type": "field",
+            "fieldName": "current_module_no"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@field.current_module_no": [
+          "value"
+        ]
+      }
     },
     {
       "name": "first_name",
@@ -124,6 +139,280 @@
       }
     },
     {
+      "name": "current_module_number",
+      "value": "@calc(@local.module_id.match(/\\d+/)?.[0])",
+      "_translations": {
+        "value": {}
+      },
+      "type": "set_variable",
+      "_nested_name": "current_module_number",
+      "_dynamicFields": {
+        "value": [
+          {
+            "fullExpression": "@calc(@local.module_id.match(/\\d+/)?.[0])",
+            "matchedExpression": "@local.module_id.match",
+            "type": "local",
+            "fieldName": "module_id"
+          },
+          {
+            "fullExpression": "@calc(@local.module_id.match(/\\d+/)?.[0])",
+            "matchedExpression": "@calc(@local.module_id.match(/\\d+/)?.[0])",
+            "type": "calc",
+            "fieldName": "@local.module_id.match(/\\d+/)?.[0]"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@local.module_id.match": [
+          "value"
+        ],
+        "@calc(@local.module_id.match(/\\d+/)?.[0])": [
+          "value"
+        ]
+      }
+    },
+    {
+      "name": "previous_module_number",
+      "value": "@calc(@local.current_module_number - 1)",
+      "_translations": {
+        "value": {}
+      },
+      "type": "set_variable",
+      "_nested_name": "previous_module_number",
+      "_dynamicFields": {
+        "value": [
+          {
+            "fullExpression": "@calc(@local.current_module_number - 1)",
+            "matchedExpression": "@local.current_module_number",
+            "type": "local",
+            "fieldName": "current_module_number"
+          },
+          {
+            "fullExpression": "@calc(@local.current_module_number - 1)",
+            "matchedExpression": "@calc(@local.current_module_number - 1)",
+            "type": "calc",
+            "fieldName": "@local.current_module_number - 1"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@local.current_module_number": [
+          "value"
+        ],
+        "@calc(@local.current_module_number - 1)": [
+          "value"
+        ]
+      }
+    },
+    {
+      "name": "module_name",
+      "value": "Pagpapakilala at One-on-One Time Kasama ang Iyong Anak",
+      "_translations": {
+        "value": {}
+      },
+      "condition": "@local.current_module_number == 1",
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "_nested_name": "module_name",
+      "_dynamicFields": {
+        "condition": [
+          {
+            "fullExpression": "@local.current_module_number == 1",
+            "matchedExpression": "@local.current_module_number",
+            "type": "local",
+            "fieldName": "current_module_number"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@local.current_module_number": [
+          "condition"
+        ]
+      }
+    },
+    {
+      "name": "module_name",
+      "value": "Pakikipag-usap Tungkol sa Damdamin",
+      "_translations": {
+        "value": {}
+      },
+      "condition": "@local.current_module_number == 2",
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "_nested_name": "module_name",
+      "_dynamicFields": {
+        "condition": [
+          {
+            "fullExpression": "@local.current_module_number == 2",
+            "matchedExpression": "@local.current_module_number",
+            "type": "local",
+            "fieldName": "current_module_number"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@local.current_module_number": [
+          "condition"
+        ]
+      }
+    },
+    {
+      "name": "module_name",
+      "value": "Manatiling Positibo! Pagbibigay ng Positibong Direksyon at Papuri",
+      "_translations": {
+        "value": {}
+      },
+      "condition": "@local.current_module_number == 3",
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "_nested_name": "module_name",
+      "_dynamicFields": {
+        "condition": [
+          {
+            "fullExpression": "@local.current_module_number == 3",
+            "matchedExpression": "@local.current_module_number",
+            "type": "local",
+            "fieldName": "current_module_number"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@local.current_module_number": [
+          "condition"
+        ]
+      }
+    },
+    {
+      "name": "module_name",
+      "value": "Pagpapanatiling Ligtas ang Anak gamit ang Patakaran at Regular na Gawain",
+      "_translations": {
+        "value": {}
+      },
+      "condition": "@local.current_module_number == 4",
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "_nested_name": "module_name",
+      "_dynamicFields": {
+        "condition": [
+          {
+            "fullExpression": "@local.current_module_number == 4",
+            "matchedExpression": "@local.current_module_number",
+            "type": "local",
+            "fieldName": "current_module_number"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@local.current_module_number": [
+          "condition"
+        ]
+      }
+    },
+    {
+      "name": "module_name",
+      "value": "Pangangasiwa ng Negatibong Kilos: Pagbaling ng Atensyon at Paggamit ng Konsekwensya",
+      "_translations": {
+        "value": {}
+      },
+      "condition": "@local.current_module_number == 5",
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "_nested_name": "module_name",
+      "_dynamicFields": {
+        "condition": [
+          {
+            "fullExpression": "@local.current_module_number == 5",
+            "matchedExpression": "@local.current_module_number",
+            "type": "local",
+            "fieldName": "current_module_number"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@local.current_module_number": [
+          "condition"
+        ]
+      }
+    },
+    {
+      "name": "module_name",
+      "value": "Pagtugon sa mga Mahihirap na Isyu at Problema",
+      "_translations": {
+        "value": {}
+      },
+      "condition": "@local.current_module_number == 6",
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "_nested_name": "module_name",
+      "_dynamicFields": {
+        "condition": [
+          {
+            "fullExpression": "@local.current_module_number == 6",
+            "matchedExpression": "@local.current_module_number",
+            "type": "local",
+            "fieldName": "current_module_number"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@local.current_module_number": [
+          "condition"
+        ]
+      }
+    },
+    {
+      "name": "module_name",
+      "value": "Pagbadyet ng Pamilya at Mga Paraan ng Pag-iipon",
+      "_translations": {
+        "value": {}
+      },
+      "condition": "@local.current_module_number == 7",
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "_nested_name": "module_name",
+      "_dynamicFields": {
+        "condition": [
+          {
+            "fullExpression": "@local.current_module_number == 7",
+            "matchedExpression": "@local.current_module_number",
+            "type": "local",
+            "fieldName": "current_module_number"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@local.current_module_number": [
+          "condition"
+        ]
+      }
+    },
+    {
+      "name": "module_name",
+      "value": "Pagharap sa Problema Bilang Pamilya at Pagninilay",
+      "_translations": {
+        "value": {}
+      },
+      "condition": "@local.current_module_number == 8",
+      "exclude_from_translation": true,
+      "type": "set_variable",
+      "_nested_name": "module_name",
+      "_dynamicFields": {
+        "condition": [
+          {
+            "fullExpression": "@local.current_module_number == 8",
+            "matchedExpression": "@local.current_module_number",
+            "type": "local",
+            "fieldName": "current_module_number"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@local.current_module_number": [
+          "condition"
+        ]
+      }
+    },
+    {
       "type": "data_items",
       "value": "@data.report_data",
       "_translations": {
@@ -145,8 +434,8 @@
         "filter": "@item.id == @fields.current_report_id",
         "limit": "1"
       },
-      "name": "data_items_11",
-      "_nested_name": "data_items_11",
+      "name": "data_items_21",
+      "_nested_name": "data_items_21",
       "_dynamicFields": {
         "value": [
           {
@@ -299,8 +588,8 @@
     {
       "exclude_from_translation": true,
       "type": "set_variable",
-      "name": "set_variable_17",
-      "_nested_name": "set_variable_17"
+      "name": "set_variable_27",
+      "_nested_name": "set_variable_27"
     },
     {
       "type": "display_group",
@@ -721,11 +1010,9 @@
             {
               "type": "text",
               "name": "question_6",
-              "value": "What activities were you not able to complete? Why?",
+              "value": "What activities were you not able to complete?",
               "_translations": {
-                "value": {
-                  "ph_fil": true
-                }
+                "value": {}
               },
               "condition": "@local.answer_5 == \"no\"",
               "exclude_from_translation": false,
@@ -765,6 +1052,306 @@
               "_dynamicDependencies": {
                 "@local.answer_5": [
                   "condition"
+                ]
+              }
+            },
+            {
+              "type": "simple_checkbox",
+              "name": "answer_6_1",
+              "value": false,
+              "parameter_list": {
+                "align": "left",
+                "label_text": "Pagbati"
+              },
+              "condition": false,
+              "_nested_name": "q1_answered.is_lead.answer_6_1"
+            },
+            {
+              "type": "simple_checkbox",
+              "name": "answer_6_2",
+              "value": false,
+              "parameter_list": {
+                "align": "left",
+                "label_text": "Emotional Check-In"
+              },
+              "condition": false,
+              "_nested_name": "q1_answered.is_lead.answer_6_2"
+            },
+            {
+              "type": "simple_checkbox",
+              "name": "answer_6_3",
+              "value": false,
+              "parameter_list": {
+                "align": "left",
+                "label_text": "Pagtigil nang Sandali"
+              },
+              "condition": false,
+              "_nested_name": "q1_answered.is_lead.answer_6_3"
+            },
+            {
+              "type": "simple_checkbox",
+              "name": "answer_6_4",
+              "value": false,
+              "parameter_list": {
+                "align": "left",
+                "label_text": "Talakayan ng Pabaong Gawain"
+              },
+              "condition": false,
+              "_nested_name": "q1_answered.is_lead.answer_6_4"
+            },
+            {
+              "type": "simple_checkbox",
+              "name": "answer_6_5",
+              "value": false,
+              "parameter_list": {
+                "align": "left",
+                "label_text": "Komiks"
+              },
+              "condition": false,
+              "_nested_name": "q1_answered.is_lead.answer_6_5"
+            },
+            {
+              "type": "simple_checkbox",
+              "name": "answer_6_6",
+              "value": false,
+              "parameter_list": {
+                "align": "left",
+                "label_text": "Pundasyon"
+              },
+              "condition": false,
+              "_nested_name": "q1_answered.is_lead.answer_6_6"
+            },
+            {
+              "type": "simple_checkbox",
+              "name": "answer_6_7",
+              "value": false,
+              "parameter_list": {
+                "align": "left",
+                "label_text": "Talakayan Tungkol sa MaPa Skill"
+              },
+              "condition": false,
+              "_nested_name": "q1_answered.is_lead.answer_6_7"
+            },
+            {
+              "type": "simple_checkbox",
+              "name": "answer_6_8",
+              "value": false,
+              "parameter_list": {
+                "align": "left",
+                "label_text": "Praktis"
+              },
+              "condition": false,
+              "_nested_name": "q1_answered.is_lead.answer_6_8"
+            },
+            {
+              "type": "simple_checkbox",
+              "name": "answer_6_9",
+              "value": false,
+              "parameter_list": {
+                "align": "left",
+                "label_text": "Pagbigay ng Pabaong Gawain"
+              },
+              "condition": false,
+              "_nested_name": "q1_answered.is_lead.answer_6_9"
+            },
+            {
+              "type": "simple_checkbox",
+              "name": "answer_6_10",
+              "value": false,
+              "parameter_list": {
+                "align": "left",
+                "label_text": "Pagtatapos"
+              },
+              "condition": false,
+              "_nested_name": "q1_answered.is_lead.answer_6_10"
+            },
+            {
+              "name": "question_6_all",
+              "value": "@calc([@local.answer_6_1, @local.answer_6_2, @local.answer_6_3, @local.answer_6_4, @local.answer_6_5, @local.answer_6_6, @local.answer_6_7, @local.answer_6_8, @local.answer_6_9, @local.answer_6_10])",
+              "_translations": {
+                "value": {}
+              },
+              "condition": false,
+              "type": "set_variable",
+              "_nested_name": "q1_answered.is_lead.question_6_all",
+              "_dynamicFields": {
+                "value": [
+                  {
+                    "fullExpression": "@calc([@local.answer_6_1, @local.answer_6_2, @local.answer_6_3, @local.answer_6_4, @local.answer_6_5, @local.answer_6_6, @local.answer_6_7, @local.answer_6_8, @local.answer_6_9, @local.answer_6_10])",
+                    "matchedExpression": "@local.answer_6_1",
+                    "type": "local",
+                    "fieldName": "answer_6_1"
+                  },
+                  {
+                    "fullExpression": "@calc([@local.answer_6_1, @local.answer_6_2, @local.answer_6_3, @local.answer_6_4, @local.answer_6_5, @local.answer_6_6, @local.answer_6_7, @local.answer_6_8, @local.answer_6_9, @local.answer_6_10])",
+                    "matchedExpression": "@local.answer_6_2",
+                    "type": "local",
+                    "fieldName": "answer_6_2"
+                  },
+                  {
+                    "fullExpression": "@calc([@local.answer_6_1, @local.answer_6_2, @local.answer_6_3, @local.answer_6_4, @local.answer_6_5, @local.answer_6_6, @local.answer_6_7, @local.answer_6_8, @local.answer_6_9, @local.answer_6_10])",
+                    "matchedExpression": "@local.answer_6_3",
+                    "type": "local",
+                    "fieldName": "answer_6_3"
+                  },
+                  {
+                    "fullExpression": "@calc([@local.answer_6_1, @local.answer_6_2, @local.answer_6_3, @local.answer_6_4, @local.answer_6_5, @local.answer_6_6, @local.answer_6_7, @local.answer_6_8, @local.answer_6_9, @local.answer_6_10])",
+                    "matchedExpression": "@local.answer_6_4",
+                    "type": "local",
+                    "fieldName": "answer_6_4"
+                  },
+                  {
+                    "fullExpression": "@calc([@local.answer_6_1, @local.answer_6_2, @local.answer_6_3, @local.answer_6_4, @local.answer_6_5, @local.answer_6_6, @local.answer_6_7, @local.answer_6_8, @local.answer_6_9, @local.answer_6_10])",
+                    "matchedExpression": "@local.answer_6_5",
+                    "type": "local",
+                    "fieldName": "answer_6_5"
+                  },
+                  {
+                    "fullExpression": "@calc([@local.answer_6_1, @local.answer_6_2, @local.answer_6_3, @local.answer_6_4, @local.answer_6_5, @local.answer_6_6, @local.answer_6_7, @local.answer_6_8, @local.answer_6_9, @local.answer_6_10])",
+                    "matchedExpression": "@local.answer_6_6",
+                    "type": "local",
+                    "fieldName": "answer_6_6"
+                  },
+                  {
+                    "fullExpression": "@calc([@local.answer_6_1, @local.answer_6_2, @local.answer_6_3, @local.answer_6_4, @local.answer_6_5, @local.answer_6_6, @local.answer_6_7, @local.answer_6_8, @local.answer_6_9, @local.answer_6_10])",
+                    "matchedExpression": "@local.answer_6_7",
+                    "type": "local",
+                    "fieldName": "answer_6_7"
+                  },
+                  {
+                    "fullExpression": "@calc([@local.answer_6_1, @local.answer_6_2, @local.answer_6_3, @local.answer_6_4, @local.answer_6_5, @local.answer_6_6, @local.answer_6_7, @local.answer_6_8, @local.answer_6_9, @local.answer_6_10])",
+                    "matchedExpression": "@local.answer_6_8",
+                    "type": "local",
+                    "fieldName": "answer_6_8"
+                  },
+                  {
+                    "fullExpression": "@calc([@local.answer_6_1, @local.answer_6_2, @local.answer_6_3, @local.answer_6_4, @local.answer_6_5, @local.answer_6_6, @local.answer_6_7, @local.answer_6_8, @local.answer_6_9, @local.answer_6_10])",
+                    "matchedExpression": "@local.answer_6_9",
+                    "type": "local",
+                    "fieldName": "answer_6_9"
+                  },
+                  {
+                    "fullExpression": "@calc([@local.answer_6_1, @local.answer_6_2, @local.answer_6_3, @local.answer_6_4, @local.answer_6_5, @local.answer_6_6, @local.answer_6_7, @local.answer_6_8, @local.answer_6_9, @local.answer_6_10])",
+                    "matchedExpression": "@local.answer_6_10",
+                    "type": "local",
+                    "fieldName": "answer_6_10"
+                  },
+                  {
+                    "fullExpression": "@calc([@local.answer_6_1, @local.answer_6_2, @local.answer_6_3, @local.answer_6_4, @local.answer_6_5, @local.answer_6_6, @local.answer_6_7, @local.answer_6_8, @local.answer_6_9, @local.answer_6_10])",
+                    "matchedExpression": "@calc([@local.answer_6_1, @local.answer_6_2, @local.answer_6_3, @local.answer_6_4, @local.answer_6_5, @local.answer_6_6, @local.answer_6_7, @local.answer_6_8, @local.answer_6_9, @local.answer_6_10])",
+                    "type": "calc",
+                    "fieldName": "[@local.answer_6_1, @local.answer_6_2, @local.answer_6_3, @local.answer_6_4, @local.answer_6_5, @local.answer_6_6, @local.answer_6_7, @local.answer_6_8, @local.answer_6_9, @local.answer_6_10]"
+                  }
+                ]
+              },
+              "_dynamicDependencies": {
+                "@local.answer_6_1": [
+                  "value"
+                ],
+                "@local.answer_6_2": [
+                  "value"
+                ],
+                "@local.answer_6_3": [
+                  "value"
+                ],
+                "@local.answer_6_4": [
+                  "value"
+                ],
+                "@local.answer_6_5": [
+                  "value"
+                ],
+                "@local.answer_6_6": [
+                  "value"
+                ],
+                "@local.answer_6_7": [
+                  "value"
+                ],
+                "@local.answer_6_8": [
+                  "value"
+                ],
+                "@local.answer_6_9": [
+                  "value"
+                ],
+                "@local.answer_6_10": [
+                  "value"
+                ],
+                "@calc([@local.answer_6_1, @local.answer_6_2, @local.answer_6_3, @local.answer_6_4, @local.answer_6_5, @local.answer_6_6, @local.answer_6_7, @local.answer_6_8, @local.answer_6_9, @local.answer_6_10])": [
+                  "value"
+                ]
+              }
+            },
+            {
+              "type": "text",
+              "value": "@local.question_6_all",
+              "_translations": {
+                "value": {}
+              },
+              "condition": false,
+              "name": "text_29",
+              "_nested_name": "q1_answered.is_lead.text_29",
+              "_dynamicFields": {
+                "value": [
+                  {
+                    "fullExpression": "@local.question_6_all",
+                    "matchedExpression": "@local.question_6_all",
+                    "type": "local",
+                    "fieldName": "question_6_all"
+                  }
+                ]
+              },
+              "_dynamicDependencies": {
+                "@local.question_6_all": [
+                  "value"
+                ]
+              }
+            },
+            {
+              "type": "text",
+              "value": "1: @local.answer_6_1",
+              "_translations": {
+                "value": {}
+              },
+              "condition": false,
+              "name": "text_30",
+              "_nested_name": "q1_answered.is_lead.text_30",
+              "_dynamicFields": {
+                "value": [
+                  {
+                    "fullExpression": "1: @local.answer_6_1",
+                    "matchedExpression": "@local.answer_6_1",
+                    "type": "local",
+                    "fieldName": "answer_6_1"
+                  }
+                ]
+              },
+              "_dynamicDependencies": {
+                "@local.answer_6_1": [
+                  "value"
+                ]
+              }
+            },
+            {
+              "type": "text",
+              "value": "2: @local.answer_6_2",
+              "_translations": {
+                "value": {}
+              },
+              "condition": false,
+              "name": "text_31",
+              "_nested_name": "q1_answered.is_lead.text_31",
+              "_dynamicFields": {
+                "value": [
+                  {
+                    "fullExpression": "2: @local.answer_6_2",
+                    "matchedExpression": "@local.answer_6_2",
+                    "type": "local",
+                    "fieldName": "answer_6_2"
+                  }
+                ]
+              },
+              "_dynamicDependencies": {
+                "@local.answer_6_2": [
+                  "value"
                 ]
               }
             }
@@ -971,14 +1558,27 @@
             {
               "type": "text",
               "name": "question_7",
-              "value": "On your knowledge about Talking about Feelings",
+              "value": "On your knowledge about @local.module_name",
               "_translations": {
-                "value": {
-                  "ph_fil": true
-                }
+                "value": {}
               },
               "exclude_from_translation": false,
-              "_nested_name": "q1_answered.confidence_group.question_7"
+              "_nested_name": "q1_answered.confidence_group.question_7",
+              "_dynamicFields": {
+                "value": [
+                  {
+                    "fullExpression": "On your knowledge about @local.module_name",
+                    "matchedExpression": "@local.module_name",
+                    "type": "local",
+                    "fieldName": "module_name"
+                  }
+                ]
+              },
+              "_dynamicDependencies": {
+                "@local.module_name": [
+                  "value"
+                ]
+              }
             },
             {
               "type": "radio_button_grid",
@@ -1010,14 +1610,27 @@
             {
               "type": "text",
               "name": "question_8",
-              "value": "On your facilitation skills for Talking about Feelings",
+              "value": "On your facilitation skills for @local.module_name",
               "_translations": {
-                "value": {
-                  "ph_fil": true
-                }
+                "value": {}
               },
               "exclude_from_translation": false,
-              "_nested_name": "q1_answered.confidence_group.question_8"
+              "_nested_name": "q1_answered.confidence_group.question_8",
+              "_dynamicFields": {
+                "value": [
+                  {
+                    "fullExpression": "On your facilitation skills for @local.module_name",
+                    "matchedExpression": "@local.module_name",
+                    "type": "local",
+                    "fieldName": "module_name"
+                  }
+                ]
+              },
+              "_dynamicDependencies": {
+                "@local.module_name": [
+                  "value"
+                ]
+              }
             },
             {
               "type": "radio_button_grid",
@@ -1199,25 +1812,23 @@
             {
               "type": "text",
               "name": "question_11",
-              "value": "Which of the parents in this group attended your in-person session?",
+              "value": "Parent Attendance:",
               "_translations": {
-                "value": {
-                  "ph_fil": true
-                }
+                "value": {}
               },
-              "condition": "@local.answer_1 == \"lead\" && @local.parent_count> 1",
+              "condition": "@local.answer_1 == \"lead\" && @local.parent_count> 0",
               "exclude_from_translation": false,
               "_nested_name": "q1_answered.confidence_group.question_11",
               "_dynamicFields": {
                 "condition": [
                   {
-                    "fullExpression": "@local.answer_1 == \"lead\" && @local.parent_count> 1",
+                    "fullExpression": "@local.answer_1 == \"lead\" && @local.parent_count> 0",
                     "matchedExpression": "@local.answer_1",
                     "type": "local",
                     "fieldName": "answer_1"
                   },
                   {
-                    "fullExpression": "@local.answer_1 == \"lead\" && @local.parent_count> 1",
+                    "fullExpression": "@local.answer_1 == \"lead\" && @local.parent_count> 0",
                     "matchedExpression": "@local.parent_count",
                     "type": "local",
                     "fieldName": "parent_count"
@@ -1399,6 +2010,7 @@
                           "_translations": {
                             "value": {}
                           },
+                          "condition": false,
                           "exclude_from_translation": true,
                           "style_list": [
                             "flex: 1"
@@ -1442,6 +2054,101 @@
                           }
                         },
                         {
+                          "type": "simple_checkbox",
+                          "name": "parent_attend",
+                          "value": "@item.@fields.current_module_no",
+                          "_translations": {
+                            "value": {}
+                          },
+                          "action_list": [
+                            {
+                              "trigger": "changed",
+                              "action_id": "set_item",
+                              "args": [],
+                              "_raw": "changed | set_item| @fields.current_module_no: this.value",
+                              "_cleaned": "changed | set_item| @fields.current_module_no: this.value",
+                              "params": {
+                                "@fields.current_module_no": "this.value"
+                              }
+                            }
+                          ],
+                          "parameter_list": {
+                            "align": "left",
+                            "label_text": "@local.first_name @local.last_name"
+                          },
+                          "_nested_name": "q1_answered.confidence_group.data_items_19.display_group_1_@item.id.display_group_1.parent_attend",
+                          "_dynamicFields": {
+                            "value": [
+                              {
+                                "fullExpression": "@item.@fields.current_module_no",
+                                "matchedExpression": "@fields.current_module_no",
+                                "type": "fields",
+                                "fieldName": "current_module_no"
+                              }
+                            ],
+                            "action_list": {
+                              "0": {
+                                "_raw": [
+                                  {
+                                    "fullExpression": "changed | set_item| @fields.current_module_no: this.value",
+                                    "matchedExpression": "@fields.current_module_no",
+                                    "type": "fields",
+                                    "fieldName": "current_module_no"
+                                  }
+                                ],
+                                "_cleaned": [
+                                  {
+                                    "fullExpression": "changed | set_item| @fields.current_module_no: this.value",
+                                    "matchedExpression": "@fields.current_module_no",
+                                    "type": "fields",
+                                    "fieldName": "current_module_no"
+                                  }
+                                ]
+                              }
+                            },
+                            "parameter_list": {
+                              "label_text": [
+                                {
+                                  "fullExpression": "@local.first_name @local.last_name",
+                                  "matchedExpression": "@local.first_name",
+                                  "type": "local",
+                                  "fieldName": "first_name"
+                                },
+                                {
+                                  "fullExpression": "@local.first_name @local.last_name",
+                                  "matchedExpression": "@local.last_name",
+                                  "type": "local",
+                                  "fieldName": "last_name"
+                                }
+                              ]
+                            },
+                            "_nested_name": [
+                              {
+                                "fullExpression": "q1_answered.confidence_group.data_items_19.display_group_1_@item.id.display_group_1.parent_attend",
+                                "matchedExpression": "@item.id.display_group_1.parent_attend",
+                                "type": "item",
+                                "fieldName": "id"
+                              }
+                            ]
+                          },
+                          "_dynamicDependencies": {
+                            "@fields.current_module_no": [
+                              "value",
+                              "action_list.0._raw",
+                              "action_list.0._cleaned"
+                            ],
+                            "@local.first_name": [
+                              "parameter_list.label_text"
+                            ],
+                            "@local.last_name": [
+                              "parameter_list.label_text"
+                            ],
+                            "@item.id.display_group_1.parent_attend": [
+                              "_nested_name"
+                            ]
+                          }
+                        },
+                        {
                           "type": "toggle_bar",
                           "name": "parent_attend",
                           "value": "@item.@fields.current_module_no",
@@ -1464,6 +2171,7 @@
                             "show_icons": "false",
                             "variant": "ios"
                           },
+                          "condition": false,
                           "_nested_name": "q1_answered.confidence_group.data_items_19.display_group_1_@item.id.display_group_1.parent_attend",
                           "_dynamicFields": {
                             "value": [
@@ -1538,25 +2246,23 @@
                       "parameter_list": {
                         "style": "column"
                       },
-                      "condition": "@item.@fields.current_module_no",
+                      "condition": "@item.@fields.current_module_no && (\"@fields.current_module\" !== \"Module 1 Session\")",
                       "rows": [
                         {
                           "type": "text",
-                          "value": "What challenges or successes did the parent experience during with their home activity for @local.module_name ? Were there any concerns?",
+                          "value": "What challenges or successes did the parent experience with their home activity for Modyul @local.previous_module_number Sesyon? Were there any concerns?",
                           "_translations": {
-                            "value": {
-                              "ph_fil": true
-                            }
+                            "value": {}
                           },
                           "name": "text_1",
                           "_nested_name": "q1_answered.confidence_group.data_items_19.display_group_1_@item.id.display_group_2.text_1",
                           "_dynamicFields": {
                             "value": [
                               {
-                                "fullExpression": "What challenges or successes did the parent experience during with their home activity for @local.module_name ? Were there any concerns?",
-                                "matchedExpression": "@local.module_name",
+                                "fullExpression": "What challenges or successes did the parent experience with their home activity for Modyul @local.previous_module_number Sesyon? Were there any concerns?",
+                                "matchedExpression": "@local.previous_module_number",
                                 "type": "local",
-                                "fieldName": "module_name"
+                                "fieldName": "previous_module_number"
                               }
                             ],
                             "_nested_name": [
@@ -1569,7 +2275,7 @@
                             ]
                           },
                           "_dynamicDependencies": {
-                            "@local.module_name": [
+                            "@local.previous_module_number": [
                               "value"
                             ],
                             "@item.id.display_group_2.text_1": [
@@ -1652,10 +2358,16 @@
                       "_dynamicFields": {
                         "condition": [
                           {
-                            "fullExpression": "@item.@fields.current_module_no",
+                            "fullExpression": "@item.@fields.current_module_no && (\"@fields.current_module\" !== \"Module 1 Session\")",
                             "matchedExpression": "@fields.current_module_no",
                             "type": "fields",
                             "fieldName": "current_module_no"
+                          },
+                          {
+                            "fullExpression": "@item.@fields.current_module_no && (\"@fields.current_module\" !== \"Module 1 Session\")",
+                            "matchedExpression": "@fields.current_module",
+                            "type": "fields",
+                            "fieldName": "current_module"
                           }
                         ],
                         "_nested_name": [
@@ -1669,6 +2381,9 @@
                       },
                       "_dynamicDependencies": {
                         "@fields.current_module_no": [
+                          "condition"
+                        ],
+                        "@fields.current_module": [
                           "condition"
                         ],
                         "@item.id.display_group_2": [
@@ -1960,7 +2675,7 @@
           "parameter_list": {
             "disabled": "!@local.valid"
           },
-          "_nested_name": "display_group_21.save",
+          "_nested_name": "display_group_31.save",
           "_dynamicFields": {
             "action_list": {
               "0": {
@@ -2290,8 +3005,8 @@
           }
         }
       ],
-      "name": "display_group_21",
-      "_nested_name": "display_group_21"
+      "name": "display_group_31",
+      "_nested_name": "display_group_31"
     }
   ],
   "_xlsxPath": "templates/report_ph.xlsx",

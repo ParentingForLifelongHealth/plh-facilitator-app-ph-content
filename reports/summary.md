@@ -5,34 +5,36 @@
 | --- | --- |
 | accordion | 1 |
 | accordion_section | 1 |
-| apple_sign_in_button | 3 |
+| animated_section | 1 |
+| animated_slides | 1 |
+| apple_sign_in_button | 2 |
 | audio | 3 |
-| button | 101 |
+| button | 100 |
 | carousel | 2 |
-| combo_box | 16 |
-| data_items | 59 |
+| combo_box | 17 |
+| data_items | 60 |
 | date_time_picker | 4 |
 | debug_toggle | 1 |
 | display_grid | 2 |
-| display_group | 141 |
+| display_group | 136 |
 | drawer | 1 |
-| google_sign_in_button | 4 |
+| google_sign_in_button | 3 |
 | image | 15 |
-| items | 22 |
+| items | 23 |
 | lottie_animation | 2 |
 | navigation_bar | 2 |
 | pdf | 1 |
 | qr_code | 1 |
-| radio_button_grid | 16 |
-| round_button | 47 |
+| radio_button_grid | 17 |
+| round_button | 46 |
 | select_text | 1 |
-| set_variable | 1052 |
-| simple_checkbox | 2 |
+| set_variable | 1074 |
+| simple_checkbox | 24 |
 | task_card | 6 |
 | task_progress_bar | 2 |
-| template | 353 |
+| template | 355 |
 | test | 1 |
-| text | 282 |
+| text | 288 |
 | text_area | 2 |
 | text_box | 43 |
 | title | 45 |
@@ -49,17 +51,17 @@
 | --- | --- |
 | add_data | 9 |
 | app_update | 1 |
-| auth | 4 |
+| auth | 2 |
 | copy | 2 |
-| emit: completed | 72 |
+| emit: completed | 76 |
 | emit: force_reload | 8 |
-| emit: force_reprocess | 20 |
+| emit: force_reprocess | 15 |
 | emit: force_restart | 2 |
-| emit: server_sync | 18 |
-| emit: set_language | 1 |
+| emit: server_sync | 15 |
+| emit: set_language | 2 |
 | emit: uncompleted | 89 |
 | feedback | 13 |
-| go_to | 40 |
+| go_to | 39 |
 | nav | 1 |
 | nav_stack | 8 |
 | notification | 9 |
@@ -69,13 +71,13 @@
 | reset_data | 3 |
 | save_to_device | 4 |
 | scroll | 1 |
-| set_data | 32 |
-| set_field | 85 |
-| set_item | 10 |
-| set_local | 107 |
+| set_data | 28 |
+| set_field | 88 |
+| set_item | 12 |
+| set_local | 106 |
 | share | 4 |
 | toast | 1 |
-| user | 4 |
+| user | 3 |
 </details>
 
 <details open>
@@ -83,8 +85,8 @@
 
 | assets | KB | MB |
 | --- | --- | --- |
-| total | 42168 KB | 42.2 MB |
-| unused | 12263 KB | 12.3 MB |
+| total | 42172 KB | 42.2 MB |
+| unused | 12260 KB | 12.3 MB |
 </details>
 
 <details open>
@@ -171,7 +173,6 @@ Assets that appear in app-data but do not have references within sheets
 | images/icons/task_8.png | 2.4 |
 | images/icons/task_9.svg | 2.5 |
 | images/icons/trophy.svg | 1 |
-| images/no_group_selected.svg | 3.5 |
 | images/person_cog.png | 0.8 |
 | images/progress_complete.png | 0.9 |
 | images/progress_uncomplete.png | 0.9 |
@@ -187,7 +188,7 @@ Assets that have references within sheets but do not appear in app-data
 | --- | --- |
 | .svg | 2 |
 | @data.pdf | 3 |
-| images/backgrounds/MaPa_logo_with_background.png | 1 |
+| images/logos/plh_logomark.png | 1 |
 | pdf/08_mapa_skill.pdf | 1 |
 </details>
 
@@ -309,6 +310,7 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | images/logos/PLH.png | 26.6 | 1 |
 | images/logos/UNICEF.jpg | 57.9 | 1 |
 | images/logos/app_logo.png | 70.6 | 3 |
+| images/no_group_selected.svg | 3.5 | 1 |
 | lottie/checkmark_blue.json | 17 | 4 |
 | pdf/01_mod1_intro.pdf | 650.7 | 1 |
 | pdf/01_mod1_layunin.pdf | 478.3 | 1 |
@@ -347,7 +349,7 @@ Assets that are used within sheets and also can be found in the synced asset dat
 
 | type | subtype | total |
 | --- | --- | --- |
-| data_list |  | 34 |
+| data_list |  | 35 |
 | data_list | app_config_language_list | 1 |
 | data_list | generated | 4 |
 | data_list | legal_terms | 2 |
@@ -356,7 +358,8 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | generator |  | 8 |
 | global |  | 13 |
 | global | legal_terms | 1 |
-| template |  | 82 |
+| global | onboarding | 2 |
+| template |  | 87 |
 | template | generated | 309 |
 | template | legal_terms | 4 |
 </details>

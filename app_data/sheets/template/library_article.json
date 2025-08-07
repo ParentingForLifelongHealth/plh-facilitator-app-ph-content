@@ -398,6 +398,9 @@
               "name": "resource_element",
               "value": "resource_element",
               "condition": "@data.@local.concat_resource_id",
+              "style_list": [
+                "margin-bottom: 12px"
+              ],
               "rows": [
                 {
                   "name": "resource_type",
@@ -505,6 +508,7 @@
       "_translations": {
         "value": {}
       },
+      "condition": "!!@local.article_data.sections_title",
       "_nested_name": "sections_title",
       "_dynamicFields": {
         "value": [
@@ -514,11 +518,22 @@
             "type": "local",
             "fieldName": "article_data"
           }
+        ],
+        "condition": [
+          {
+            "fullExpression": "!!@local.article_data.sections_title",
+            "matchedExpression": "!@local.article_data.sections_title",
+            "type": "local",
+            "fieldName": "article_data"
+          }
         ]
       },
       "_dynamicDependencies": {
         "@local.article_data.sections_title": [
           "value"
+        ],
+        "!@local.article_data.sections_title": [
+          "condition"
         ]
       }
     },
