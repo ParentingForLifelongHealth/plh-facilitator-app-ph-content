@@ -39,11 +39,11 @@
       },
       {
         "type": "data_items",
-        "count": 60
+        "count": 64
       },
       {
         "type": "date_time_picker",
-        "count": 4
+        "count": 6
       },
       {
         "type": "debug_toggle",
@@ -55,7 +55,7 @@
       },
       {
         "type": "display_group",
-        "count": 136
+        "count": 148
       },
       {
         "type": "drawer",
@@ -91,7 +91,7 @@
       },
       {
         "type": "radio_button_grid",
-        "count": 17
+        "count": 21
       },
       {
         "type": "round_button",
@@ -103,11 +103,11 @@
       },
       {
         "type": "set_variable",
-        "count": 1074
+        "count": 1141
       },
       {
         "type": "simple_checkbox",
-        "count": 24
+        "count": 46
       },
       {
         "type": "task_card",
@@ -127,7 +127,7 @@
       },
       {
         "type": "text",
-        "count": 288
+        "count": 318
       },
       {
         "type": "text_area",
@@ -135,7 +135,7 @@
       },
       {
         "type": "text_box",
-        "count": 43
+        "count": 49
       },
       {
         "type": "title",
@@ -195,7 +195,7 @@
       },
       {
         "type": "emit: server_sync",
-        "count": 15
+        "count": 13
       },
       {
         "type": "emit: set_language",
@@ -259,11 +259,11 @@
       },
       {
         "type": "set_item",
-        "count": 12
+        "count": 16
       },
       {
         "type": "set_local",
-        "count": 106
+        "count": 135
       },
       {
         "type": "share",

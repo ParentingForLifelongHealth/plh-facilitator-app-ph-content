@@ -12,11 +12,11 @@
 | button | 100 |
 | carousel | 2 |
 | combo_box | 17 |
-| data_items | 60 |
-| date_time_picker | 4 |
+| data_items | 64 |
+| date_time_picker | 6 |
 | debug_toggle | 1 |
 | display_grid | 2 |
-| display_group | 136 |
+| display_group | 148 |
 | drawer | 1 |
 | google_sign_in_button | 3 |
 | image | 15 |
@@ -25,18 +25,18 @@
 | navigation_bar | 2 |
 | pdf | 1 |
 | qr_code | 1 |
-| radio_button_grid | 17 |
+| radio_button_grid | 21 |
 | round_button | 46 |
 | select_text | 1 |
-| set_variable | 1074 |
-| simple_checkbox | 24 |
+| set_variable | 1141 |
+| simple_checkbox | 46 |
 | task_card | 6 |
 | task_progress_bar | 2 |
 | template | 355 |
 | test | 1 |
-| text | 288 |
+| text | 318 |
 | text_area | 2 |
-| text_box | 43 |
+| text_box | 49 |
 | title | 45 |
 | toggle_bar | 5 |
 | update_action_list | 1 |
@@ -57,7 +57,7 @@
 | emit: force_reload | 8 |
 | emit: force_reprocess | 15 |
 | emit: force_restart | 2 |
-| emit: server_sync | 15 |
+| emit: server_sync | 13 |
 | emit: set_language | 2 |
 | emit: uncompleted | 89 |
 | feedback | 13 |
@@ -73,8 +73,8 @@
 | scroll | 1 |
 | set_data | 28 |
 | set_field | 88 |
-| set_item | 12 |
-| set_local | 106 |
+| set_item | 16 |
+| set_local | 135 |
 | share | 4 |
 | toast | 1 |
 | user | 3 |

@@ -21,7 +21,7 @@
     },
     {
       "id": "week_2",
-      "type": "in_person",
+      "type": "virtual",
       "name": "Module 2 Session",
       "_translations": {
         "name": {
@@ -36,7 +36,7 @@
     },
     {
       "id": "week_3",
-      "type": "in_person",
+      "type": "virtual",
       "name": "Module 3 Session",
       "_translations": {
         "name": {
@@ -51,7 +51,7 @@
     },
     {
       "id": "week_4",
-      "type": "in_person",
+      "type": "virtual",
       "name": "Module 4 Session",
       "_translations": {
         "name": {
@@ -81,7 +81,7 @@
     },
     {
       "id": "week_6",
-      "type": "in_person",
+      "type": "virtual",
       "name": "Module 6 Session",
       "_translations": {
         "name": {
@@ -96,7 +96,7 @@
     },
     {
       "id": "week_7",
-      "type": "in_person",
+      "type": "virtual",
       "name": "Module 7 Session",
       "_translations": {
         "name": {
