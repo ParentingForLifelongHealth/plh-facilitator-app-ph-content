@@ -39,7 +39,7 @@
       },
       {
         "type": "data_items",
-        "count": 64
+        "count": 65
       },
       {
         "type": "date_time_picker",
@@ -55,7 +55,7 @@
       },
       {
         "type": "display_group",
-        "count": 148
+        "count": 152
       },
       {
         "type": "drawer",
@@ -71,7 +71,7 @@
       },
       {
         "type": "items",
-        "count": 23
+        "count": 22
       },
       {
         "type": "lottie_animation",
@@ -103,7 +103,7 @@
       },
       {
         "type": "set_variable",
-        "count": 1141
+        "count": 1145
       },
       {
         "type": "simple_checkbox",
@@ -119,7 +119,7 @@
       },
       {
         "type": "template",
-        "count": 355
+        "count": 357
       },
       {
         "type": "test",
@@ -127,7 +127,7 @@
       },
       {
         "type": "text",
-        "count": 318
+        "count": 326
       },
       {
         "type": "text_area",
