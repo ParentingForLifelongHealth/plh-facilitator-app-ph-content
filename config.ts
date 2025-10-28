@@ -20,7 +20,7 @@ config.google_drive.assets_folder_ids = [
 
 config.git = {
   content_repo: "https://github.com/IDEMSInternational/plh-facilitator-app-ph-content.git",
-  content_tag_latest: "1.3.14",
+  content_tag_latest: "1.3.15",
 };
 
 config.android = {
@@ -53,11 +53,11 @@ config.api.db_name = "plh_facilitator_ph"
 config.app_data.output_path = "./app_data";
 
 config.app_config.APP_LANGUAGES.default = "ph_fil";
-config.app_config.APP_SIDEMENU_DEFAULTS.title = "Facilitator PH";
-config.app_config.APP_HEADER_DEFAULTS.title = "Facilitator PH";
+config.app_config.APP_SIDEMENU_DEFAULTS.title = "MaPa Faci App";
+config.app_config.APP_HEADER_DEFAULTS.title = "MaPa Faci App";
 config.app_config.APP_HEADER_DEFAULTS.hidden = true;
-config.app_config.NOTIFICATION_DEFAULTS.title = "New message from Facilitator PH";
-config.app_config.NOTIFICATION_DEFAULTS.text = "You have a new message from Facilitator PH";
+config.app_config.NOTIFICATION_DEFAULTS.title = "New message from MaPa Faci App";
+config.app_config.NOTIFICATION_DEFAULTS.text = "You have a new message from MaPa Faci App";
 config.app_config.APP_UPDATES.enabled = true;
 config.app_config.APP_UPDATES.completeUpdateTemplate = "app_update_complete";
 config.app_config.APP_FOOTER_DEFAULTS.template = "footer";
