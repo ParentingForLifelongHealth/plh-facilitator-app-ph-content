@@ -103,8 +103,7 @@
           "args": [
             "uncompleted"
           ],
-          "_raw": "uncompleted | emit: uncompleted",
-          "_cleaned": "uncompleted | emit: uncompleted"
+          "_raw": "uncompleted | emit: uncompleted"
         }
       ],
       "rows": [
@@ -1556,6 +1555,9 @@
       }
     }
   ],
-  "_xlsxPath": "templates/library.xlsx",
-  "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1Jo1-q7KOE4gC2XRKEMcU9bXnrwB5oCRC"
+  "_source": {
+    "name": "Facilitator Global Sheets",
+    "path": "templates/library.xlsx",
+    "url": "https://docs.google.com/spreadsheets/d/1fR02dckYiqDyAOoHtGORgGzNhCCMARAAcaVN0ZxFwnQ"
+  }
 }

@@ -27,6 +27,9 @@
       "exclude_from_translation": true
     }
   ],
-  "_xlsxPath": "data/FacilitatorApp PH articles.xlsx",
-  "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
+  "_source": {
+    "name": "facilitator_ph_sheets",
+    "path": "data/FacilitatorApp PH articles.xlsx",
+    "url": "https://docs.google.com/spreadsheets/d/1I8ERt0SpuUxJXVIvYISg7YZ-3bZMdl94mtSZvRFxA_s"
+  }
 }

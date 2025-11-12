@@ -5,8 +5,11 @@
       "flow_type": "data_list",
       "flow_name": "a_messages",
       "data_list_name": "a_messages",
-      "_xlsxPath": "data/modules_sub_items_ph.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go",
+      "_source": {
+        "name": "facilitator_ph_sheets",
+        "path": "data/modules_sub_items_ph.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1mExZHcwAwAym2E0gCl83qUTQrG0a8L1rxI_R4xrkRIQ"
+      },
       "_metadata": {
         "ignore": {
           "type": "number"
@@ -17,8 +20,11 @@
       "flow_type": "data_list",
       "flow_name": "a_sections",
       "data_list_name": "a_sections",
-      "_xlsxPath": "data/modules_sub_items_ph.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go",
+      "_source": {
+        "name": "facilitator_ph_sheets",
+        "path": "data/modules_sub_items_ph.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1mExZHcwAwAym2E0gCl83qUTQrG0a8L1rxI_R4xrkRIQ"
+      },
       "_metadata": {
         "ignore": {
           "type": "number"
@@ -29,41 +35,59 @@
       "flow_type": "data_list",
       "flow_name": "about_this_app",
       "data_list_name": "about_this_app",
-      "_xlsxPath": "data/deployment_data_ph.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
+      "_source": {
+        "name": "facilitator_ph_sheets",
+        "path": "data/deployment_data_ph.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1LtxwxG7d_JRMZ9MckE5Rc8Ubn4KGUsdZFqsGcH2EdKg"
+      }
     },
     "language": {
       "flow_type": "data_list",
       "flow_name": "language",
       "data_list_name": "language",
       "flow_subtype": "app_config_language_list",
-      "_xlsxPath": "data/deployment_data_ph.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
+      "_source": {
+        "name": "facilitator_ph_sheets",
+        "path": "data/deployment_data_ph.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1LtxwxG7d_JRMZ9MckE5Rc8Ubn4KGUsdZFqsGcH2EdKg"
+      }
     },
     "app_section_data": {
       "flow_type": "data_list",
       "flow_name": "app_section_data",
       "data_list_name": "app_section",
-      "_xlsxPath": "templates/footer_ph.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
+      "_source": {
+        "name": "facilitator_ph_sheets",
+        "path": "templates/footer_ph.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1POnXCXhKbSiI2jBxRQn6kGbeoOeWGB0kwqZlkjBAdiA"
+      }
     },
     "article_data": {
       "flow_type": "data_list",
       "flow_name": "article_data",
-      "_xlsxPath": "data/FacilitatorApp PH articles.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
+      "_source": {
+        "name": "facilitator_ph_sheets",
+        "path": "data/FacilitatorApp PH articles.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1I8ERt0SpuUxJXVIvYISg7YZ-3bZMdl94mtSZvRFxA_s"
+      }
     },
     "child_gender": {
       "flow_type": "data_list",
       "flow_name": "child_gender",
-      "_xlsxPath": "templates/profile_ph.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
+      "_source": {
+        "name": "facilitator_ph_sheets",
+        "path": "templates/profile_ph.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1vnZGZLoj7jrkDSR8V8aTCSASH53ucMN6jF1AyN6ksoM"
+      }
     },
     "gender": {
       "flow_type": "data_list",
       "flow_name": "gender",
-      "_xlsxPath": "templates/profile_ph.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
+      "_source": {
+        "name": "facilitator_ph_sheets",
+        "path": "templates/profile_ph.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1vnZGZLoj7jrkDSR8V8aTCSASH53ucMN6jF1AyN6ksoM"
+      }
     },
     "article_loops": {
       "flow_name": "article_loops",
@@ -105,15 +129,21 @@
       "flow_type": "data_list",
       "flow_name": "home_screen_section_data",
       "data_list_name": "home_screen_section",
-      "_xlsxPath": "data/FacilitatorApp PH articles.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
+      "_source": {
+        "name": "facilitator_ph_sheets",
+        "path": "data/FacilitatorApp PH articles.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1I8ERt0SpuUxJXVIvYISg7YZ-3bZMdl94mtSZvRFxA_s"
+      }
     },
     "intro": {
       "flow_type": "data_list",
       "flow_name": "intro",
       "data_list_name": "intro",
-      "_xlsxPath": "data/modules_sub_items_ph.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go",
+      "_source": {
+        "name": "facilitator_ph_sheets",
+        "path": "data/modules_sub_items_ph.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1mExZHcwAwAym2E0gCl83qUTQrG0a8L1rxI_R4xrkRIQ"
+      },
       "_metadata": {
         "ignore": {
           "type": "number"
@@ -125,23 +155,32 @@
       "flow_name": "privacy_policy",
       "data_list_name": "privacy_policy",
       "flow_subtype": "legal_terms",
-      "_xlsxPath": "data/deployment_data_ph.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
+      "_source": {
+        "name": "facilitator_ph_sheets",
+        "path": "data/deployment_data_ph.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1LtxwxG7d_JRMZ9MckE5Rc8Ubn4KGUsdZFqsGcH2EdKg"
+      }
     },
     "terms_and_conditions": {
       "flow_type": "data_list",
       "flow_name": "terms_and_conditions",
       "data_list_name": "terms_and_conditions",
       "flow_subtype": "legal_terms",
-      "_xlsxPath": "data/deployment_data_ph.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
+      "_source": {
+        "name": "facilitator_ph_sheets",
+        "path": "data/deployment_data_ph.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1LtxwxG7d_JRMZ9MckE5Rc8Ubn4KGUsdZFqsGcH2EdKg"
+      }
     },
     "launch_actions": {
       "flow_type": "data_list",
       "flow_subtype": "lifecycle_actions",
       "flow_name": "launch_actions",
-      "_xlsxPath": "PLH onboarding.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1XBq4iGIZHEwzwPk3xbHDAm9WCesjR7kR",
+      "_source": {
+        "name": "library_PLH_onboarding",
+        "path": "PLH onboarding.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1LUIu_aqkzYjyUq0ecQEmWJa62CEvQ4E2L4Fkz_94ydw"
+      },
       "_metadata": {
         "priority": {
           "type": "number"
@@ -152,21 +191,30 @@
       "flow_type": "data_list",
       "flow_name": "media_data",
       "data_list_name": "media",
-      "_xlsxPath": "data/FacilitatorApp PH articles.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
+      "_source": {
+        "name": "facilitator_ph_sheets",
+        "path": "data/FacilitatorApp PH articles.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1I8ERt0SpuUxJXVIvYISg7YZ-3bZMdl94mtSZvRFxA_s"
+      }
     },
     "message_log": {
       "flow_type": "data_list",
       "flow_name": "message_log",
-      "_xlsxPath": "templates/article_elements_ph.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
+      "_source": {
+        "name": "facilitator_ph_sheets",
+        "path": "templates/article_elements_ph.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1TdOrlPo-sVwiX-LJKW9M3UHdw4cpwDZMRW2ABzkners"
+      }
     },
     "modules": {
       "flow_type": "data_list",
       "flow_name": "modules",
       "data_list_name": "modules",
-      "_xlsxPath": "data/modules_sub_items_ph.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go",
+      "_source": {
+        "name": "facilitator_ph_sheets",
+        "path": "data/modules_sub_items_ph.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1mExZHcwAwAym2E0gCl83qUTQrG0a8L1rxI_R4xrkRIQ"
+      },
       "_metadata": {
         "page_count": {
           "type": "number"
@@ -176,22 +224,31 @@
     "notification_messages": {
       "flow_type": "data_list",
       "flow_name": "notification_messages",
-      "_xlsxPath": "PH notifications.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
+      "_source": {
+        "name": "facilitator_ph_sheets",
+        "path": "PH notifications.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1P_AU8pMrep_WJvsLeUNpk9jnLHkM7KONcR8MIN7OhwU"
+      }
     },
     "number_data": {
       "flow_type": "data_list",
       "flow_name": "number_data",
       "data_list_name": "number",
-      "_xlsxPath": "data/navigation_data.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1Jo1-q7KOE4gC2XRKEMcU9bXnrwB5oCRC"
+      "_source": {
+        "name": "Facilitator Global Sheets",
+        "path": "data/navigation_data.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1vat8BjZuJcemMfVWpJCLJoYcSyODUpIA0wawajIEQpU"
+      }
     },
     "onboarding_settings_pages": {
       "flow_type": "data_list",
       "flow_name": "onboarding_settings_pages",
       "data_list_name": "onboarding_settings_pages",
-      "_xlsxPath": "templates/PH onboarding templates.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go",
+      "_source": {
+        "name": "facilitator_ph_sheets",
+        "path": "templates/PH onboarding templates.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1hbzgC32cxSXAaoNK4Wf_J5yIDBllG9IHnwWoGmbaxeE"
+      },
       "_metadata": {
         "completed": {
           "type": "boolean"
@@ -204,29 +261,41 @@
     "onboarding_splash_slides": {
       "flow_type": "data_list",
       "flow_name": "onboarding_splash_slides",
-      "_xlsxPath": "PLH onboarding.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1XBq4iGIZHEwzwPk3xbHDAm9WCesjR7kR"
+      "_source": {
+        "name": "library_PLH_onboarding",
+        "path": "PLH onboarding.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1LUIu_aqkzYjyUq0ecQEmWJa62CEvQ4E2L4Fkz_94ydw"
+      }
     },
     "organisation": {
       "flow_type": "data_list",
       "flow_name": "organisation",
       "data_list_name": "organisation",
-      "_xlsxPath": "data/deployment_data_ph.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
+      "_source": {
+        "name": "facilitator_ph_sheets",
+        "path": "data/deployment_data_ph.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1LtxwxG7d_JRMZ9MckE5Rc8Ubn4KGUsdZFqsGcH2EdKg"
+      }
     },
     "organisation_group": {
       "flow_type": "data_list",
       "flow_name": "organisation_group",
       "data_list_name": "organisation_group",
-      "_xlsxPath": "data/deployment_data_ph.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
+      "_source": {
+        "name": "facilitator_ph_sheets",
+        "path": "data/deployment_data_ph.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1LtxwxG7d_JRMZ9MckE5Rc8Ubn4KGUsdZFqsGcH2EdKg"
+      }
     },
     "parent_groups": {
       "flow_type": "data_list",
       "flow_name": "parent_groups",
       "data_list_name": "parent_groups",
-      "_xlsxPath": "data/profile_data.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1Jo1-q7KOE4gC2XRKEMcU9bXnrwB5oCRC",
+      "_source": {
+        "name": "Facilitator Global Sheets",
+        "path": "data/profile_data.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1px_o58qaL5TIezNKuQf1pnCmboLXymmbDX8xM_EtSv0"
+      },
       "_metadata": {
         "archived": {
           "type": "boolean"
@@ -240,8 +309,11 @@
       "flow_type": "data_list",
       "flow_name": "parents",
       "data_list_name": "parents",
-      "_xlsxPath": "data/profile_data.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1Jo1-q7KOE4gC2XRKEMcU9bXnrwB5oCRC",
+      "_source": {
+        "name": "Facilitator Global Sheets",
+        "path": "data/profile_data.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1px_o58qaL5TIezNKuQf1pnCmboLXymmbDX8xM_EtSv0"
+      },
       "_metadata": {
         "archived": {
           "type": "boolean"
@@ -276,28 +348,40 @@
       "flow_type": "data_list",
       "flow_name": "pdf_data",
       "data_list_name": "pdf",
-      "_xlsxPath": "data/FacilitatorApp PH articles.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
+      "_source": {
+        "name": "facilitator_ph_sheets",
+        "path": "data/FacilitatorApp PH articles.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1I8ERt0SpuUxJXVIvYISg7YZ-3bZMdl94mtSZvRFxA_s"
+      }
     },
     "profile_section_data": {
       "flow_type": "data_list",
       "flow_name": "profile_section_data",
       "data_list_name": "profile_section",
-      "_xlsxPath": "templates/footer_ph.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
+      "_source": {
+        "name": "facilitator_ph_sheets",
+        "path": "templates/footer_ph.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1POnXCXhKbSiI2jBxRQn6kGbeoOeWGB0kwqZlkjBAdiA"
+      }
     },
     "related": {
       "flow_type": "data_list",
       "flow_name": "related",
       "data_list_name": "related",
-      "_xlsxPath": "data/modules_sub_items_ph.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
+      "_source": {
+        "name": "facilitator_ph_sheets",
+        "path": "data/modules_sub_items_ph.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1mExZHcwAwAym2E0gCl83qUTQrG0a8L1rxI_R4xrkRIQ"
+      }
     },
     "report_answers": {
       "flow_type": "data_list",
       "flow_name": "report_answers",
-      "_xlsxPath": "templates/report_ph.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go",
+      "_source": {
+        "name": "facilitator_ph_sheets",
+        "path": "templates/report_ph.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1-mqseKQFB9GrOIw6qPuObMcp8DcPsbAl2SvNyu-oKMc"
+      },
       "_metadata": {
         "archived": {
           "type": "boolean"
@@ -308,35 +392,50 @@
       "flow_type": "data_list",
       "flow_name": "report_data",
       "data_list_name": "report",
-      "_xlsxPath": "data/FacilitatorApp PH articles.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
+      "_source": {
+        "name": "facilitator_ph_sheets",
+        "path": "data/FacilitatorApp PH articles.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1I8ERt0SpuUxJXVIvYISg7YZ-3bZMdl94mtSZvRFxA_s"
+      }
     },
     "report_in_person": {
       "flow_type": "data_list",
       "flow_name": "report_in_person",
       "data_list_name": "report_in_person",
-      "_xlsxPath": "data/FacilitatorApp PH articles.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
+      "_source": {
+        "name": "facilitator_ph_sheets",
+        "path": "data/FacilitatorApp PH articles.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1I8ERt0SpuUxJXVIvYISg7YZ-3bZMdl94mtSZvRFxA_s"
+      }
     },
     "report_questions": {
       "flow_type": "data_list",
       "flow_name": "report_questions",
-      "_xlsxPath": "templates/reports.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1Jo1-q7KOE4gC2XRKEMcU9bXnrwB5oCRC"
+      "_source": {
+        "name": "Facilitator Global Sheets",
+        "path": "templates/reports.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1pqNDT__R83Co4cyz-E-Y5wiw0i020Bg7HnQ5t_wHqrA"
+      }
     },
     "resources": {
       "flow_type": "data_list",
       "flow_name": "resources",
       "data_list_name": "resources",
-      "_xlsxPath": "data/modules_sub_items_ph.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
+      "_source": {
+        "name": "facilitator_ph_sheets",
+        "path": "data/modules_sub_items_ph.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1mExZHcwAwAym2E0gCl83qUTQrG0a8L1rxI_R4xrkRIQ"
+      }
     },
     "sub_items": {
       "flow_type": "data_list",
       "flow_name": "sub_items",
       "data_list_name": "sub_items",
-      "_xlsxPath": "data/modules_sub_items_ph.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go",
+      "_source": {
+        "name": "facilitator_ph_sheets",
+        "path": "data/modules_sub_items_ph.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1mExZHcwAwAym2E0gCl83qUTQrG0a8L1rxI_R4xrkRIQ"
+      },
       "_metadata": {
         "ignore": {
           "type": "number"
@@ -350,51 +449,72 @@
       "flow_type": "data_list",
       "flow_name": "tag_data",
       "data_list_name": "tag",
-      "_xlsxPath": "data/FacilitatorApp PH articles.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
+      "_source": {
+        "name": "facilitator_ph_sheets",
+        "path": "data/FacilitatorApp PH articles.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1I8ERt0SpuUxJXVIvYISg7YZ-3bZMdl94mtSZvRFxA_s"
+      }
     },
     "user_city": {
       "flow_type": "data_list",
       "flow_name": "user_city",
       "data_list_name": "user_city",
-      "_xlsxPath": "data/deployment_data_ph.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
+      "_source": {
+        "name": "facilitator_ph_sheets",
+        "path": "data/deployment_data_ph.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1LtxwxG7d_JRMZ9MckE5Rc8Ubn4KGUsdZFqsGcH2EdKg"
+      }
     },
     "user_organisation": {
       "flow_type": "data_list",
       "flow_name": "user_organisation",
       "data_list_name": "user_organisation",
-      "_xlsxPath": "data/deployment_data_ph.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
+      "_source": {
+        "name": "facilitator_ph_sheets",
+        "path": "data/deployment_data_ph.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1LtxwxG7d_JRMZ9MckE5Rc8Ubn4KGUsdZFqsGcH2EdKg"
+      }
     },
     "user_province": {
       "flow_type": "data_list",
       "flow_name": "user_province",
       "data_list_name": "user_province",
-      "_xlsxPath": "data/deployment_data_ph.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
+      "_source": {
+        "name": "facilitator_ph_sheets",
+        "path": "data/deployment_data_ph.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1LtxwxG7d_JRMZ9MckE5Rc8Ubn4KGUsdZFqsGcH2EdKg"
+      }
     },
     "user_region": {
       "flow_type": "data_list",
       "flow_name": "user_region",
       "data_list_name": "user_region",
-      "_xlsxPath": "data/deployment_data_ph.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
+      "_source": {
+        "name": "facilitator_ph_sheets",
+        "path": "data/deployment_data_ph.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1LtxwxG7d_JRMZ9MckE5Rc8Ubn4KGUsdZFqsGcH2EdKg"
+      }
     },
     "user_type": {
       "flow_type": "data_list",
       "flow_name": "user_type",
       "data_list_name": "user_type",
-      "_xlsxPath": "data/deployment_data_ph.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
+      "_source": {
+        "name": "facilitator_ph_sheets",
+        "path": "data/deployment_data_ph.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1LtxwxG7d_JRMZ9MckE5Rc8Ubn4KGUsdZFqsGcH2EdKg"
+      }
     }
   },
   "data_pipe": {
     "create_package": {
       "flow_type": "data_pipe",
       "flow_name": "create_package",
-      "_xlsxPath": "data/content_data_pipes.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1Jo1-q7KOE4gC2XRKEMcU9bXnrwB5oCRC",
+      "_source": {
+        "name": "Facilitator Global Sheets",
+        "path": "data/content_data_pipes.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1qNHucxSdKVxpeawxaL70d9i980oijqNq12-eqFEXYqo"
+      },
       "_output_flows": [
         {
           "flow_name": "package",
@@ -406,8 +526,11 @@
     "prep_sub_items": {
       "flow_type": "data_pipe",
       "flow_name": "prep_sub_items",
-      "_xlsxPath": "templates/article_loop_ph.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go",
+      "_source": {
+        "name": "facilitator_ph_sheets",
+        "path": "templates/article_loop_ph.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1D2YuEsDp7QeN1S-l9A40tgONCb7P6bltgh-S3ZPPr4o"
+      },
       "_output_flows": [
         {
           "flow_name": "article_loops",
@@ -437,8 +560,11 @@
         "output_flow_type": "template",
         "output_flow_subtype": "generated"
       },
-      "_xlsxPath": "templates/article_loop_ph.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go",
+      "_source": {
+        "name": "facilitator_ph_sheets",
+        "path": "templates/article_loop_ph.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1D2YuEsDp7QeN1S-l9A40tgONCb7P6bltgh-S3ZPPr4o"
+      },
       "_output_flows": [
         {
           "flow_name": "sub_item_week_1_session",
@@ -561,8 +687,11 @@
         "output_flow_type": "template",
         "output_flow_subtype": "generated"
       },
-      "_xlsxPath": "templates/article_loop_ph.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go",
+      "_source": {
+        "name": "facilitator_ph_sheets",
+        "path": "templates/article_loop_ph.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1D2YuEsDp7QeN1S-l9A40tgONCb7P6bltgh-S3ZPPr4o"
+      },
       "_output_flows": [
         {
           "flow_name": "articles_week_1_session",
@@ -1670,8 +1799,11 @@
         "output_flow_type": "template",
         "output_flow_subtype": "generated"
       },
-      "_xlsxPath": "templates/library.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1Jo1-q7KOE4gC2XRKEMcU9bXnrwB5oCRC",
+      "_source": {
+        "name": "Facilitator Global Sheets",
+        "path": "templates/library.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1fR02dckYiqDyAOoHtGORgGzNhCCMARAAcaVN0ZxFwnQ"
+      },
       "_output_flows": [
         {
           "flow_name": "library_article_overview_mapachat",
@@ -1809,8 +1941,11 @@
         "output_flow_type": "template",
         "output_flow_subtype": "generated"
       },
-      "_xlsxPath": "templates/library.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1Jo1-q7KOE4gC2XRKEMcU9bXnrwB5oCRC",
+      "_source": {
+        "name": "Facilitator Global Sheets",
+        "path": "templates/library.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1fR02dckYiqDyAOoHtGORgGzNhCCMARAAcaVN0ZxFwnQ"
+      },
       "_output_flows": [
         {
           "flow_name": "library_programme",
@@ -1843,8 +1978,11 @@
         "output_flow_type": "template",
         "output_flow_subtype": "generated"
       },
-      "_xlsxPath": "templates/help.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1Jo1-q7KOE4gC2XRKEMcU9bXnrwB5oCRC",
+      "_source": {
+        "name": "Facilitator Global Sheets",
+        "path": "templates/help.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1ebZf46YGU2GwfNmOHd_tMbSXPFYoSJO9kIbyhCkp9CE"
+      },
       "_output_flows": [
         {
           "flow_name": "help_home",
@@ -1877,8 +2015,11 @@
         "output_flow_type": "template",
         "output_flow_subtype": "generated"
       },
-      "_xlsxPath": "templates/help.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1Jo1-q7KOE4gC2XRKEMcU9bXnrwB5oCRC",
+      "_source": {
+        "name": "Facilitator Global Sheets",
+        "path": "templates/help.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1ebZf46YGU2GwfNmOHd_tMbSXPFYoSJO9kIbyhCkp9CE"
+      },
       "_output_flows": [
         {
           "flow_name": "help_about",
@@ -1911,8 +2052,11 @@
         "output_flow_type": "template",
         "output_flow_subtype": "generated"
       },
-      "_xlsxPath": "templates/media.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1Jo1-q7KOE4gC2XRKEMcU9bXnrwB5oCRC",
+      "_source": {
+        "name": "Facilitator Global Sheets",
+        "path": "templates/media.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1sSfCRjKSDd7ZW2ILStLMbC2WjkJmUyosLnyoR62Jaf0"
+      },
       "_output_flows": []
     },
     "pdf_generator": {
@@ -1924,8 +2068,11 @@
         "output_flow_type": "template",
         "output_flow_subtype": "generated"
       },
-      "_xlsxPath": "templates/media.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1Jo1-q7KOE4gC2XRKEMcU9bXnrwB5oCRC",
+      "_source": {
+        "name": "Facilitator Global Sheets",
+        "path": "templates/media.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1sSfCRjKSDd7ZW2ILStLMbC2WjkJmUyosLnyoR62Jaf0"
+      },
       "_output_flows": [
         {
           "flow_name": "pdf_01_mod1_intro",
@@ -2089,334 +2236,493 @@
     "article_global": {
       "flow_type": "global",
       "flow_name": "article_global",
-      "_xlsxPath": "data/FacilitatorApp PH articles.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
+      "_source": {
+        "name": "facilitator_ph_sheets",
+        "path": "data/FacilitatorApp PH articles.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1I8ERt0SpuUxJXVIvYISg7YZ-3bZMdl94mtSZvRFxA_s"
+      }
     },
     "debug_global": {
       "flow_type": "global",
       "flow_name": "debug_global",
-      "_xlsxPath": "data/navigation_data.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1Jo1-q7KOE4gC2XRKEMcU9bXnrwB5oCRC"
+      "_source": {
+        "name": "Facilitator Global Sheets",
+        "path": "data/navigation_data.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1vat8BjZuJcemMfVWpJCLJoYcSyODUpIA0wawajIEQpU"
+      }
     },
     "deployment_global": {
       "flow_type": "global",
       "flow_name": "deployment_global",
-      "_xlsxPath": "data/deployment_data.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1Jo1-q7KOE4gC2XRKEMcU9bXnrwB5oCRC"
+      "_source": {
+        "name": "Facilitator Global Sheets",
+        "path": "data/deployment_data.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1uh8MAPGcGZJvMb57Kb2BUUNRxlF9-kfLiJ_YuxasHz0"
+      }
     },
     "deployment_global_ph": {
       "flow_type": "global",
       "flow_name": "deployment_global_ph",
       "override_target": "deployment_global",
       "override_condition": "@fields._deployment_name == \"plh_facilitator_ph\"",
-      "_xlsxPath": "data/deployment_data_ph.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
+      "_source": {
+        "name": "facilitator_ph_sheets",
+        "path": "data/deployment_data_ph.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1LtxwxG7d_JRMZ9MckE5Rc8Ubn4KGUsdZFqsGcH2EdKg"
+      }
     },
     "legal_terms": {
       "flow_type": "global",
       "flow_name": "legal_terms",
       "flow_subtype": "legal_terms",
-      "_xlsxPath": "data/deployment_data.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1Jo1-q7KOE4gC2XRKEMcU9bXnrwB5oCRC"
+      "_source": {
+        "name": "Facilitator Global Sheets",
+        "path": "data/deployment_data.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1uh8MAPGcGZJvMb57Kb2BUUNRxlF9-kfLiJ_YuxasHz0"
+      }
     },
     "misc_global_ph": {
       "flow_type": "global",
       "flow_name": "misc_global_ph",
-      "_xlsxPath": "data/deployment_data_ph.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
+      "_source": {
+        "name": "facilitator_ph_sheets",
+        "path": "data/deployment_data_ph.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1LtxwxG7d_JRMZ9MckE5Rc8Ubn4KGUsdZFqsGcH2EdKg"
+      }
     },
     "module_final_global": {
       "flow_type": "global",
       "flow_name": "module_final_global",
-      "_xlsxPath": "data/deployment_data.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1Jo1-q7KOE4gC2XRKEMcU9bXnrwB5oCRC"
+      "_source": {
+        "name": "Facilitator Global Sheets",
+        "path": "data/deployment_data.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1uh8MAPGcGZJvMb57Kb2BUUNRxlF9-kfLiJ_YuxasHz0"
+      }
     },
     "navigation_global": {
       "flow_type": "global",
       "flow_name": "navigation_global",
-      "_xlsxPath": "data/navigation_data.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1Jo1-q7KOE4gC2XRKEMcU9bXnrwB5oCRC"
+      "_source": {
+        "name": "Facilitator Global Sheets",
+        "path": "data/navigation_data.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1vat8BjZuJcemMfVWpJCLJoYcSyODUpIA0wawajIEQpU"
+      }
     },
     "onboarding_global": {
       "flow_type": "global",
       "flow_subtype": "onboarding",
       "flow_name": "onboarding_global",
-      "_xlsxPath": "PLH onboarding.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1XBq4iGIZHEwzwPk3xbHDAm9WCesjR7kR"
+      "_source": {
+        "name": "library_PLH_onboarding",
+        "path": "PLH onboarding.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1LUIu_aqkzYjyUq0ecQEmWJa62CEvQ4E2L4Fkz_94ydw"
+      }
     },
     "onboarding_global_ph": {
       "flow_type": "global",
       "flow_subtype": "onboarding",
       "flow_name": "onboarding_global_ph",
-      "_xlsxPath": "data/PH onboarding.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
+      "_source": {
+        "name": "facilitator_ph_sheets",
+        "path": "data/PH onboarding.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1l1sAdbsZinh1C2KyDBcqjA6xr30TYC9LJk0FjEINCJg"
+      }
     },
     "profile_global": {
       "flow_type": "global",
       "flow_name": "profile_global",
-      "_xlsxPath": "data/deployment_data_ph.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
+      "_source": {
+        "name": "facilitator_ph_sheets",
+        "path": "data/deployment_data_ph.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1LtxwxG7d_JRMZ9MckE5Rc8Ubn4KGUsdZFqsGcH2EdKg"
+      }
     },
     "programme_name": {
       "flow_type": "global",
       "flow_name": "programme_name",
-      "_xlsxPath": "data/dynamic_global_ph.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
+      "_source": {
+        "name": "facilitator_ph_sheets",
+        "path": "data/dynamic_global_ph.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1tVklb9WkKyAaKeIY5FxNHcBATyex73zY3khdi-9-q3w"
+      }
     },
     "programme_name_chih": {
       "flow_type": "global",
       "flow_name": "programme_name_chih",
       "override_target": "programme_name",
       "override_condition": "@fields.current_package == \"study_dif_chih\"",
-      "_xlsxPath": "data/dynamic_global_ph.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
+      "_source": {
+        "name": "facilitator_ph_sheets",
+        "path": "data/dynamic_global_ph.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1tVklb9WkKyAaKeIY5FxNHcBATyex73zY3khdi-9-q3w"
+      }
     },
     "supervisor_name": {
       "flow_type": "global",
       "flow_name": "supervisor_name",
-      "_xlsxPath": "data/dynamic_global_ph.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
+      "_source": {
+        "name": "facilitator_ph_sheets",
+        "path": "data/dynamic_global_ph.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1tVklb9WkKyAaKeIY5FxNHcBATyex73zY3khdi-9-q3w"
+      }
     },
     "supervisor_name_dif": {
       "flow_type": "global",
       "flow_name": "supervisor_name_dif",
       "override_target": "supervisor_name",
       "override_condition": "@fields.current_package == \"study_dif_bc\" || @fields.current_package == \"study_dif_chih\" || @fields.current_package == \"study_dif_cdmx\" || @fields.current_package == \"study_dif_mich\" || @fields.current_package == \"scale_dif\"",
-      "_xlsxPath": "data/dynamic_global_ph.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
+      "_source": {
+        "name": "facilitator_ph_sheets",
+        "path": "data/dynamic_global_ph.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1tVklb9WkKyAaKeIY5FxNHcBATyex73zY3khdi-9-q3w"
+      }
     },
     "trigger_words": {
       "flow_type": "global",
       "flow_name": "trigger_words",
-      "_xlsxPath": "data/dynamic_global_ph.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
+      "_source": {
+        "name": "facilitator_ph_sheets",
+        "path": "data/dynamic_global_ph.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1tVklb9WkKyAaKeIY5FxNHcBATyex73zY3khdi-9-q3w"
+      }
     }
   },
   "template": {
     "add_cofacilitator": {
       "flow_type": "template",
       "flow_name": "add_cofacilitator",
-      "_xlsxPath": "templates/profile_ph.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
+      "_source": {
+        "name": "facilitator_ph_sheets",
+        "path": "templates/profile_ph.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1vnZGZLoj7jrkDSR8V8aTCSASH53ucMN6jF1AyN6ksoM"
+      }
     },
     "add_coparent": {
       "flow_type": "template",
       "flow_name": "add_coparent",
-      "_xlsxPath": "templates/parent groups.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1Jo1-q7KOE4gC2XRKEMcU9bXnrwB5oCRC"
+      "_source": {
+        "name": "Facilitator Global Sheets",
+        "path": "templates/parent groups.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1O0Q2xNYXrmGtTFw6cCaikuoeEJq-VMRqcCDGJKHRB5o"
+      }
     },
     "add_group_button": {
       "flow_type": "template",
       "flow_name": "add_group_button",
-      "_xlsxPath": "templates/parent groups.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1Jo1-q7KOE4gC2XRKEMcU9bXnrwB5oCRC"
+      "_source": {
+        "name": "Facilitator Global Sheets",
+        "path": "templates/parent groups.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1O0Q2xNYXrmGtTFw6cCaikuoeEJq-VMRqcCDGJKHRB5o"
+      }
     },
     "add_in_person": {
       "flow_type": "template",
       "flow_name": "add_in_person",
-      "_xlsxPath": "templates/report_ph.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
+      "_source": {
+        "name": "facilitator_ph_sheets",
+        "path": "templates/report_ph.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1-mqseKQFB9GrOIw6qPuObMcp8DcPsbAl2SvNyu-oKMc"
+      }
     },
     "add_parent": {
       "flow_type": "template",
       "flow_name": "add_parent",
-      "_xlsxPath": "templates/profile_ph.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
+      "_source": {
+        "name": "facilitator_ph_sheets",
+        "path": "templates/profile_ph.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1vnZGZLoj7jrkDSR8V8aTCSASH53ucMN6jF1AyN6ksoM"
+      }
     },
     "add_parent_group": {
       "flow_type": "template",
       "flow_name": "add_parent_group",
-      "_xlsxPath": "templates/parent groups.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1Jo1-q7KOE4gC2XRKEMcU9bXnrwB5oCRC"
+      "_source": {
+        "name": "Facilitator Global Sheets",
+        "path": "templates/parent groups.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1O0Q2xNYXrmGtTFw6cCaikuoeEJq-VMRqcCDGJKHRB5o"
+      }
     },
     "add_remote": {
       "flow_type": "template",
       "flow_name": "add_remote",
-      "_xlsxPath": "templates/report_ph.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
+      "_source": {
+        "name": "facilitator_ph_sheets",
+        "path": "templates/report_ph.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1-mqseKQFB9GrOIw6qPuObMcp8DcPsbAl2SvNyu-oKMc"
+      }
     },
     "add_report": {
       "flow_type": "template",
       "flow_name": "add_report",
-      "_xlsxPath": "templates/report_ph.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
+      "_source": {
+        "name": "facilitator_ph_sheets",
+        "path": "templates/report_ph.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1-mqseKQFB9GrOIw6qPuObMcp8DcPsbAl2SvNyu-oKMc"
+      }
     },
     "app_about": {
       "flow_type": "template",
       "flow_name": "app_about",
-      "_xlsxPath": "templates/app_menu.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1Jo1-q7KOE4gC2XRKEMcU9bXnrwB5oCRC"
+      "_source": {
+        "name": "Facilitator Global Sheets",
+        "path": "templates/app_menu.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1IFDQ-SWxUfoEXwQ96C_FymTM2g3vyDzk6IRsna-pnWg"
+      }
     },
     "app_menu": {
       "flow_type": "template",
       "flow_name": "app_menu",
-      "_xlsxPath": "templates/app_menu.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1Jo1-q7KOE4gC2XRKEMcU9bXnrwB5oCRC"
+      "_source": {
+        "name": "Facilitator Global Sheets",
+        "path": "templates/app_menu.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1IFDQ-SWxUfoEXwQ96C_FymTM2g3vyDzk6IRsna-pnWg"
+      }
     },
     "app_update_complete": {
       "flow_type": "template",
       "flow_name": "app_update_complete",
-      "_xlsxPath": "templates/app_launch.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1Jo1-q7KOE4gC2XRKEMcU9bXnrwB5oCRC"
+      "_source": {
+        "name": "Facilitator Global Sheets",
+        "path": "templates/app_launch.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1ZG0zCdOzwTYFQTwESmirVQBSJSDFM-1PM7aqDzLJvr4"
+      }
     },
     "archive_group": {
       "flow_type": "template",
       "flow_name": "archive_group",
-      "_xlsxPath": "templates/parent groups.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1Jo1-q7KOE4gC2XRKEMcU9bXnrwB5oCRC"
+      "_source": {
+        "name": "Facilitator Global Sheets",
+        "path": "templates/parent groups.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1O0Q2xNYXrmGtTFw6cCaikuoeEJq-VMRqcCDGJKHRB5o"
+      }
     },
     "article_intro": {
       "flow_type": "template",
       "flow_name": "article_intro",
-      "_xlsxPath": "templates/article_loop_ph.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
+      "_source": {
+        "name": "facilitator_ph_sheets",
+        "path": "templates/article_loop_ph.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1D2YuEsDp7QeN1S-l9A40tgONCb7P6bltgh-S3ZPPr4o"
+      }
     },
     "article_loop": {
       "flow_type": "template",
       "flow_name": "article_loop",
-      "_xlsxPath": "templates/article_loop_ph.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
+      "_source": {
+        "name": "facilitator_ph_sheets",
+        "path": "templates/article_loop_ph.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1D2YuEsDp7QeN1S-l9A40tgONCb7P6bltgh-S3ZPPr4o"
+      }
     },
     "article_message": {
       "flow_type": "template",
       "flow_name": "article_message",
-      "_xlsxPath": "templates/article_loop_ph.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
+      "_source": {
+        "name": "facilitator_ph_sheets",
+        "path": "templates/article_loop_ph.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1D2YuEsDp7QeN1S-l9A40tgONCb7P6bltgh-S3ZPPr4o"
+      }
     },
     "article_related": {
       "flow_type": "template",
       "flow_name": "article_related",
-      "_xlsxPath": "templates/module_flow.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1Jo1-q7KOE4gC2XRKEMcU9bXnrwB5oCRC"
+      "_source": {
+        "name": "Facilitator Global Sheets",
+        "path": "templates/module_flow.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1a_caZOGQfuJ6UEXGwdh78q4WBWXAUO0Uz3w391DaDeo"
+      }
     },
     "article_resource": {
       "flow_type": "template",
       "flow_name": "article_resource",
-      "_xlsxPath": "templates/article_loop_ph.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
+      "_source": {
+        "name": "facilitator_ph_sheets",
+        "path": "templates/article_loop_ph.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1D2YuEsDp7QeN1S-l9A40tgONCb7P6bltgh-S3ZPPr4o"
+      }
     },
     "article_section": {
       "flow_type": "template",
       "flow_name": "article_section",
-      "_xlsxPath": "templates/article_loop_ph.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
+      "_source": {
+        "name": "facilitator_ph_sheets",
+        "path": "templates/article_loop_ph.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1D2YuEsDp7QeN1S-l9A40tgONCb7P6bltgh-S3ZPPr4o"
+      }
     },
     "article_story": {
       "flow_type": "template",
       "flow_name": "article_story",
-      "_xlsxPath": "templates/article_loop_ph.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
+      "_source": {
+        "name": "facilitator_ph_sheets",
+        "path": "templates/article_loop_ph.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1D2YuEsDp7QeN1S-l9A40tgONCb7P6bltgh-S3ZPPr4o"
+      }
     },
     "co_facilitator": {
       "flow_type": "template",
       "flow_name": "co_facilitator",
-      "_xlsxPath": "templates/profile_ph.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
+      "_source": {
+        "name": "facilitator_ph_sheets",
+        "path": "templates/profile_ph.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1vnZGZLoj7jrkDSR8V8aTCSASH53ucMN6jF1AyN6ksoM"
+      }
     },
     "confirm_exit": {
       "flow_type": "template",
       "flow_name": "confirm_exit",
-      "_xlsxPath": "templates/navigation.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1Jo1-q7KOE4gC2XRKEMcU9bXnrwB5oCRC"
+      "_source": {
+        "name": "Facilitator Global Sheets",
+        "path": "templates/navigation.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/15eLW60hvhMB4AeBmbWm1S9dpNDYrOhFHndJTveLRtjQ"
+      }
     },
     "delete_account_warning": {
       "flow_type": "template",
       "flow_name": "delete_account_warning",
-      "_xlsxPath": "templates/profile_ph.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
+      "_source": {
+        "name": "facilitator_ph_sheets",
+        "path": "templates/profile_ph.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1vnZGZLoj7jrkDSR8V8aTCSASH53ucMN6jF1AyN6ksoM"
+      }
     },
     "delete_group": {
       "flow_type": "template",
       "flow_name": "delete_group",
-      "_xlsxPath": "templates/profile_ph.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
+      "_source": {
+        "name": "facilitator_ph_sheets",
+        "path": "templates/profile_ph.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1vnZGZLoj7jrkDSR8V8aTCSASH53ucMN6jF1AyN6ksoM"
+      }
     },
     "delete_parent": {
       "flow_type": "template",
       "flow_name": "delete_parent",
-      "_xlsxPath": "templates/parent groups.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1Jo1-q7KOE4gC2XRKEMcU9bXnrwB5oCRC"
+      "_source": {
+        "name": "Facilitator Global Sheets",
+        "path": "templates/parent groups.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1O0Q2xNYXrmGtTFw6cCaikuoeEJq-VMRqcCDGJKHRB5o"
+      }
     },
     "delete_report": {
       "flow_type": "template",
       "flow_name": "delete_report",
-      "_xlsxPath": "templates/reports.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1Jo1-q7KOE4gC2XRKEMcU9bXnrwB5oCRC"
+      "_source": {
+        "name": "Facilitator Global Sheets",
+        "path": "templates/reports.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1pqNDT__R83Co4cyz-E-Y5wiw0i020Bg7HnQ5t_wHqrA"
+      }
     },
     "download_header": {
       "flow_type": "template",
       "flow_name": "download_header",
-      "_xlsxPath": "templates/media.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1Jo1-q7KOE4gC2XRKEMcU9bXnrwB5oCRC"
+      "_source": {
+        "name": "Facilitator Global Sheets",
+        "path": "templates/media.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1sSfCRjKSDd7ZW2ILStLMbC2WjkJmUyosLnyoR62Jaf0"
+      }
     },
     "edit_in_person": {
       "flow_type": "template",
       "flow_name": "edit_in_person",
-      "_xlsxPath": "templates/report_ph.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
+      "_source": {
+        "name": "facilitator_ph_sheets",
+        "path": "templates/report_ph.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1-mqseKQFB9GrOIw6qPuObMcp8DcPsbAl2SvNyu-oKMc"
+      }
     },
     "edit_parent": {
       "flow_type": "template",
       "flow_name": "edit_parent",
-      "_xlsxPath": "templates/profile_ph.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
+      "_source": {
+        "name": "facilitator_ph_sheets",
+        "path": "templates/profile_ph.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1vnZGZLoj7jrkDSR8V8aTCSASH53ucMN6jF1AyN6ksoM"
+      }
     },
     "edit_parent_group": {
       "flow_type": "template",
       "flow_name": "edit_parent_group",
-      "_xlsxPath": "templates/profile_ph.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
+      "_source": {
+        "name": "facilitator_ph_sheets",
+        "path": "templates/profile_ph.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1vnZGZLoj7jrkDSR8V8aTCSASH53ucMN6jF1AyN6ksoM"
+      }
     },
     "edit_remote": {
       "flow_type": "template",
       "flow_name": "edit_remote",
-      "_xlsxPath": "templates/report_ph.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
+      "_source": {
+        "name": "facilitator_ph_sheets",
+        "path": "templates/report_ph.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1-mqseKQFB9GrOIw6qPuObMcp8DcPsbAl2SvNyu-oKMc"
+      }
     },
     "edit_report": {
       "flow_type": "template",
       "flow_name": "edit_report",
-      "_xlsxPath": "templates/reports.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1Jo1-q7KOE4gC2XRKEMcU9bXnrwB5oCRC"
+      "_source": {
+        "name": "Facilitator Global Sheets",
+        "path": "templates/reports.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1pqNDT__R83Co4cyz-E-Y5wiw0i020Bg7HnQ5t_wHqrA"
+      }
     },
     "enter_dev_mode": {
       "flow_type": "template",
       "flow_name": "enter_dev_mode",
-      "_xlsxPath": "templates/app_menu.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1Jo1-q7KOE4gC2XRKEMcU9bXnrwB5oCRC"
+      "_source": {
+        "name": "Facilitator Global Sheets",
+        "path": "templates/app_menu.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1IFDQ-SWxUfoEXwQ96C_FymTM2g3vyDzk6IRsna-pnWg"
+      }
     },
     "exit_dev_mode": {
       "flow_type": "template",
       "flow_name": "exit_dev_mode",
-      "_xlsxPath": "templates/app_menu.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1Jo1-q7KOE4gC2XRKEMcU9bXnrwB5oCRC"
+      "_source": {
+        "name": "Facilitator Global Sheets",
+        "path": "templates/app_menu.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1IFDQ-SWxUfoEXwQ96C_FymTM2g3vyDzk6IRsna-pnWg"
+      }
     },
     "feature_feedback_debug": {
       "flow_type": "template",
       "flow_name": "feature_feedback_debug",
       "comments": "Default general feedback form",
-      "_xlsxPath": "templates/app_menu.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1Jo1-q7KOE4gC2XRKEMcU9bXnrwB5oCRC"
+      "_source": {
+        "name": "Facilitator Global Sheets",
+        "path": "templates/app_menu.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1IFDQ-SWxUfoEXwQ96C_FymTM2g3vyDzk6IRsna-pnWg"
+      }
     },
     "feature_feedback_default": {
       "flow_type": "template",
       "flow_name": "feature_feedback_default",
       "comments": "Default text-select feedback form",
-      "_xlsxPath": "templates/app_menu.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1Jo1-q7KOE4gC2XRKEMcU9bXnrwB5oCRC"
+      "_source": {
+        "name": "Facilitator Global Sheets",
+        "path": "templates/app_menu.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1IFDQ-SWxUfoEXwQ96C_FymTM2g3vyDzk6IRsna-pnWg"
+      }
     },
     "feature_feedback_text_select": {
       "flow_type": "template",
       "flow_name": "feature_feedback_text_select",
       "comments": "Used in /feedback debug page",
-      "_xlsxPath": "templates/app_menu.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1Jo1-q7KOE4gC2XRKEMcU9bXnrwB5oCRC"
+      "_source": {
+        "name": "Facilitator Global Sheets",
+        "path": "templates/app_menu.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1IFDQ-SWxUfoEXwQ96C_FymTM2g3vyDzk6IRsna-pnWg"
+      }
     },
     "footer": {
       "flow_type": "template",
       "flow_name": "footer",
-      "_xlsxPath": "templates/footer.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1Jo1-q7KOE4gC2XRKEMcU9bXnrwB5oCRC",
+      "_source": {
+        "name": "Facilitator Global Sheets",
+        "path": "templates/footer.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1TJLdkVzmJwqIp-eoGbynrfZMCtRXdsjzYq9O-x-bHOQ"
+      },
       "_overrides": {
         "footer_ph": "@fields._deployment_name == \"plh_facilitator_ph\""
       }
@@ -2426,8 +2732,11 @@
       "flow_name": "footer_ph",
       "override_target": "footer",
       "override_condition": "@fields._deployment_name == \"plh_facilitator_ph\"",
-      "_xlsxPath": "templates/footer_ph.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
+      "_source": {
+        "name": "facilitator_ph_sheets",
+        "path": "templates/footer_ph.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1POnXCXhKbSiI2jBxRQn6kGbeoOeWGB0kwqZlkjBAdiA"
+      }
     },
     "articles_week_1_1_reminder": {
       "flow_name": "articles_week_1_1_reminder",
@@ -3977,78 +4286,114 @@
     "header": {
       "flow_type": "template",
       "flow_name": "header",
-      "_xlsxPath": "templates/navigation.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1Jo1-q7KOE4gC2XRKEMcU9bXnrwB5oCRC"
+      "_source": {
+        "name": "Facilitator Global Sheets",
+        "path": "templates/navigation.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/15eLW60hvhMB4AeBmbWm1S9dpNDYrOhFHndJTveLRtjQ"
+      }
     },
     "help_button": {
       "flow_type": "template",
       "flow_name": "help_button",
-      "_xlsxPath": "templates/help.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1Jo1-q7KOE4gC2XRKEMcU9bXnrwB5oCRC"
+      "_source": {
+        "name": "Facilitator Global Sheets",
+        "path": "templates/help.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1ebZf46YGU2GwfNmOHd_tMbSXPFYoSJO9kIbyhCkp9CE"
+      }
     },
     "home_screen": {
       "flow_type": "template",
       "flow_name": "home_screen",
-      "_xlsxPath": "templates/menu_override_ph.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
+      "_source": {
+        "name": "facilitator_ph_sheets",
+        "path": "templates/menu_override_ph.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1JiKjLEZucBCeFuErhDnIjfTB3dSCrrxg9h0-YHlA7ns"
+      }
     },
     "home_screen_carousel": {
       "flow_type": "template",
       "flow_name": "home_screen_carousel",
-      "_xlsxPath": "templates/navigation.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1Jo1-q7KOE4gC2XRKEMcU9bXnrwB5oCRC"
+      "_source": {
+        "name": "Facilitator Global Sheets",
+        "path": "templates/navigation.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/15eLW60hvhMB4AeBmbWm1S9dpNDYrOhFHndJTveLRtjQ"
+      }
     },
     "home_screen_grid": {
       "flow_type": "template",
       "flow_name": "home_screen_grid",
-      "_xlsxPath": "templates/navigation.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1Jo1-q7KOE4gC2XRKEMcU9bXnrwB5oCRC"
+      "_source": {
+        "name": "Facilitator Global Sheets",
+        "path": "templates/navigation.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/15eLW60hvhMB4AeBmbWm1S9dpNDYrOhFHndJTveLRtjQ"
+      }
     },
     "import_user_data": {
       "flow_type": "template",
       "flow_name": "import_user_data",
-      "_xlsxPath": "templates/app_menu.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1Jo1-q7KOE4gC2XRKEMcU9bXnrwB5oCRC"
+      "_source": {
+        "name": "Facilitator Global Sheets",
+        "path": "templates/app_menu.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1IFDQ-SWxUfoEXwQ96C_FymTM2g3vyDzk6IRsna-pnWg"
+      }
     },
     "intro_element": {
       "flow_type": "template",
       "flow_name": "intro_element",
-      "_xlsxPath": "templates/article_elements.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1Jo1-q7KOE4gC2XRKEMcU9bXnrwB5oCRC"
+      "_source": {
+        "name": "Facilitator Global Sheets",
+        "path": "templates/article_elements.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1xoJQVGFuWx9EwRsSTIRYa_b-8655dQNzjGKr5gfarE4"
+      }
     },
     "language_select": {
       "flow_type": "template",
       "flow_name": "language_select",
-      "_xlsxPath": "templates/app_launch.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1Jo1-q7KOE4gC2XRKEMcU9bXnrwB5oCRC"
+      "_source": {
+        "name": "Facilitator Global Sheets",
+        "path": "templates/app_launch.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1ZG0zCdOzwTYFQTwESmirVQBSJSDFM-1PM7aqDzLJvr4"
+      }
     },
     "accept_terms": {
       "flow_type": "template",
       "flow_subtype": "legal_terms",
       "flow_name": "accept_terms",
-      "_xlsxPath": "templates/legal_terms.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1Jo1-q7KOE4gC2XRKEMcU9bXnrwB5oCRC"
+      "_source": {
+        "name": "Facilitator Global Sheets",
+        "path": "templates/legal_terms.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1YT6gJ821AvbECfPPLkhQIzG2RtQ8QpZ4vFzCL-vevEU"
+      }
     },
     "accept_terms_warning": {
       "flow_type": "template",
       "flow_subtype": "legal_terms",
       "flow_name": "accept_terms_warning",
-      "_xlsxPath": "templates/legal_terms.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1Jo1-q7KOE4gC2XRKEMcU9bXnrwB5oCRC"
+      "_source": {
+        "name": "Facilitator Global Sheets",
+        "path": "templates/legal_terms.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1YT6gJ821AvbECfPPLkhQIzG2RtQ8QpZ4vFzCL-vevEU"
+      }
     },
     "app_menu_privacy_policy": {
       "flow_type": "template",
       "flow_subtype": "legal_terms",
       "flow_name": "app_menu_privacy_policy",
-      "_xlsxPath": "templates/legal_terms.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1Jo1-q7KOE4gC2XRKEMcU9bXnrwB5oCRC"
+      "_source": {
+        "name": "Facilitator Global Sheets",
+        "path": "templates/legal_terms.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1YT6gJ821AvbECfPPLkhQIzG2RtQ8QpZ4vFzCL-vevEU"
+      }
     },
     "app_menu_terms": {
       "flow_type": "template",
       "flow_subtype": "legal_terms",
       "flow_name": "app_menu_terms",
-      "_xlsxPath": "templates/legal_terms.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1Jo1-q7KOE4gC2XRKEMcU9bXnrwB5oCRC"
+      "_source": {
+        "name": "Facilitator Global Sheets",
+        "path": "templates/legal_terms.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1YT6gJ821AvbECfPPLkhQIzG2RtQ8QpZ4vFzCL-vevEU"
+      }
     },
     "library": {
       "flow_type": "template",
@@ -4060,158 +4405,261 @@
           }
         }
       },
-      "_xlsxPath": "templates/library.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1Jo1-q7KOE4gC2XRKEMcU9bXnrwB5oCRC"
+      "_source": {
+        "name": "Facilitator Global Sheets",
+        "path": "templates/library.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1fR02dckYiqDyAOoHtGORgGzNhCCMARAAcaVN0ZxFwnQ"
+      }
     },
     "library_article": {
       "flow_type": "template",
       "flow_name": "library_article",
-      "_xlsxPath": "templates/library.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1Jo1-q7KOE4gC2XRKEMcU9bXnrwB5oCRC"
+      "_source": {
+        "name": "Facilitator Global Sheets",
+        "path": "templates/library.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1fR02dckYiqDyAOoHtGORgGzNhCCMARAAcaVN0ZxFwnQ"
+      }
     },
     "library_list": {
       "flow_type": "template",
       "flow_name": "library_list",
-      "_xlsxPath": "templates/article_loop_ph.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
+      "_source": {
+        "name": "facilitator_ph_sheets",
+        "path": "templates/article_loop_ph.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1D2YuEsDp7QeN1S-l9A40tgONCb7P6bltgh-S3ZPPr4o"
+      }
     },
     "login": {
       "flow_type": "template",
       "flow_name": "login",
-      "_xlsxPath": "templates/app_launch.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1Jo1-q7KOE4gC2XRKEMcU9bXnrwB5oCRC"
+      "_source": {
+        "name": "Facilitator Global Sheets",
+        "path": "templates/app_launch.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1ZG0zCdOzwTYFQTwESmirVQBSJSDFM-1PM7aqDzLJvr4"
+      }
     },
     "media": {
       "flow_type": "template",
       "flow_name": "media",
-      "_xlsxPath": "templates/media.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1Jo1-q7KOE4gC2XRKEMcU9bXnrwB5oCRC"
+      "_source": {
+        "name": "Facilitator Global Sheets",
+        "path": "templates/media.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1sSfCRjKSDd7ZW2ILStLMbC2WjkJmUyosLnyoR62Jaf0"
+      }
     },
     "menu_no_groups": {
       "flow_type": "template",
       "flow_name": "menu_no_groups",
-      "_xlsxPath": "templates/menu_override_ph.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
+      "_source": {
+        "name": "facilitator_ph_sheets",
+        "path": "templates/menu_override_ph.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1JiKjLEZucBCeFuErhDnIjfTB3dSCrrxg9h0-YHlA7ns"
+      }
     },
     "menu_task_card": {
       "flow_type": "template",
       "flow_name": "menu_task_card",
-      "_xlsxPath": "templates/menu_override_ph.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
+      "_source": {
+        "name": "facilitator_ph_sheets",
+        "path": "templates/menu_override_ph.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1JiKjLEZucBCeFuErhDnIjfTB3dSCrrxg9h0-YHlA7ns"
+      }
     },
     "menu_task_flow": {
       "flow_type": "template",
       "flow_name": "menu_task_flow",
-      "_xlsxPath": "templates/menu_override_ph.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
+      "_source": {
+        "name": "facilitator_ph_sheets",
+        "path": "templates/menu_override_ph.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1JiKjLEZucBCeFuErhDnIjfTB3dSCrrxg9h0-YHlA7ns"
+      }
     },
     "message_element": {
       "flow_type": "template",
       "flow_name": "message_element",
-      "_xlsxPath": "templates/article_elements_ph.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
+      "_source": {
+        "name": "facilitator_ph_sheets",
+        "path": "templates/article_elements_ph.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1TdOrlPo-sVwiX-LJKW9M3UHdw4cpwDZMRW2ABzkners"
+      }
     },
     "module_final": {
       "flow_type": "template",
       "flow_name": "module_final",
-      "_xlsxPath": "templates/article_loop_ph.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
+      "_source": {
+        "name": "facilitator_ph_sheets",
+        "path": "templates/article_loop_ph.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1D2YuEsDp7QeN1S-l9A40tgONCb7P6bltgh-S3ZPPr4o"
+      }
     },
     "nav_buttons": {
       "flow_type": "template",
       "flow_name": "nav_buttons",
-      "_xlsxPath": "templates/navigation.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1Jo1-q7KOE4gC2XRKEMcU9bXnrwB5oCRC"
+      "_source": {
+        "name": "Facilitator Global Sheets",
+        "path": "templates/navigation.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/15eLW60hvhMB4AeBmbWm1S9dpNDYrOhFHndJTveLRtjQ"
+      }
     },
     "new_group_popup": {
       "flow_type": "template",
       "flow_name": "new_group_popup",
-      "_xlsxPath": "templates/profile_ph.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
+      "_source": {
+        "name": "facilitator_ph_sheets",
+        "path": "templates/profile_ph.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1vnZGZLoj7jrkDSR8V8aTCSASH53ucMN6jF1AyN6ksoM"
+      }
     },
     "onboarding_footer": {
       "flow_type": "template",
       "flow_name": "onboarding_footer",
-      "_xlsxPath": "PLH onboarding.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1XBq4iGIZHEwzwPk3xbHDAm9WCesjR7kR"
+      "_source": {
+        "name": "library_PLH_onboarding",
+        "path": "PLH onboarding.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1LUIu_aqkzYjyUq0ecQEmWJa62CEvQ4E2L4Fkz_94ydw"
+      }
     },
     "onboarding_header": {
       "flow_type": "template",
       "flow_name": "onboarding_header",
-      "_xlsxPath": "PLH onboarding.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1XBq4iGIZHEwzwPk3xbHDAm9WCesjR7kR"
+      "_source": {
+        "name": "library_PLH_onboarding",
+        "path": "PLH onboarding.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1LUIu_aqkzYjyUq0ecQEmWJa62CEvQ4E2L4Fkz_94ydw"
+      }
     },
     "onboarding_language_select": {
       "flow_type": "template",
       "flow_name": "onboarding_language_select",
-      "_xlsxPath": "PLH onboarding.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1XBq4iGIZHEwzwPk3xbHDAm9WCesjR7kR"
+      "_source": {
+        "name": "library_PLH_onboarding",
+        "path": "PLH onboarding.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1LUIu_aqkzYjyUq0ecQEmWJa62CEvQ4E2L4Fkz_94ydw"
+      }
     },
     "onboarding_settings": {
       "flow_type": "template",
       "flow_name": "onboarding_settings",
-      "_xlsxPath": "PLH onboarding.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1XBq4iGIZHEwzwPk3xbHDAm9WCesjR7kR"
+      "_source": {
+        "name": "library_PLH_onboarding",
+        "path": "PLH onboarding.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1LUIu_aqkzYjyUq0ecQEmWJa62CEvQ4E2L4Fkz_94ydw"
+      }
     },
     "onboarding_settings_page_1": {
       "flow_type": "template",
       "flow_name": "onboarding_settings_page_1",
-      "_xlsxPath": "templates/PH onboarding templates.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
+      "_source": {
+        "name": "facilitator_ph_sheets",
+        "path": "templates/PH onboarding templates.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1hbzgC32cxSXAaoNK4Wf_J5yIDBllG9IHnwWoGmbaxeE"
+      }
     },
     "onboarding_settings_page_2": {
       "flow_type": "template",
       "flow_name": "onboarding_settings_page_2",
-      "_xlsxPath": "templates/PH onboarding templates.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
+      "_source": {
+        "name": "facilitator_ph_sheets",
+        "path": "templates/PH onboarding templates.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1hbzgC32cxSXAaoNK4Wf_J5yIDBllG9IHnwWoGmbaxeE"
+      }
     },
     "onboarding_settings_page_3": {
       "flow_type": "template",
       "flow_name": "onboarding_settings_page_3",
-      "_xlsxPath": "templates/PH onboarding templates.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
+      "_source": {
+        "name": "facilitator_ph_sheets",
+        "path": "templates/PH onboarding templates.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1hbzgC32cxSXAaoNK4Wf_J5yIDBllG9IHnwWoGmbaxeE"
+      }
     },
-    "onboarding_splash": {
+    "onboarding_splash_auto": {
       "flow_type": "template",
-      "flow_name": "onboarding_splash",
-      "_xlsxPath": "PLH onboarding.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1XBq4iGIZHEwzwPk3xbHDAm9WCesjR7kR"
+      "flow_name": "onboarding_splash_auto",
+      "_source": {
+        "name": "library_PLH_onboarding",
+        "path": "PLH onboarding.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1LUIu_aqkzYjyUq0ecQEmWJa62CEvQ4E2L4Fkz_94ydw"
+      }
+    },
+    "onboarding_splash_manual": {
+      "flow_type": "template",
+      "flow_name": "onboarding_splash_manual",
+      "_source": {
+        "name": "library_PLH_onboarding",
+        "path": "PLH onboarding.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1LUIu_aqkzYjyUq0ecQEmWJa62CEvQ4E2L4Fkz_94ydw"
+      }
+    },
+    "onboarding_splash_slide": {
+      "flow_type": "template",
+      "flow_name": "onboarding_splash_slide",
+      "_source": {
+        "name": "library_PLH_onboarding",
+        "path": "PLH onboarding.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1LUIu_aqkzYjyUq0ecQEmWJa62CEvQ4E2L4Fkz_94ydw"
+      }
     },
     "onboarding_terms_login": {
       "flow_type": "template",
       "flow_name": "onboarding_terms_login",
-      "_xlsxPath": "PLH onboarding.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1XBq4iGIZHEwzwPk3xbHDAm9WCesjR7kR"
+      "_source": {
+        "name": "library_PLH_onboarding",
+        "path": "PLH onboarding.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1LUIu_aqkzYjyUq0ecQEmWJa62CEvQ4E2L4Fkz_94ydw"
+      }
     },
     "package_select": {
       "flow_type": "template",
       "flow_name": "package_select",
-      "_xlsxPath": "templates/app_launch.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1Jo1-q7KOE4gC2XRKEMcU9bXnrwB5oCRC"
+      "_source": {
+        "name": "Facilitator Global Sheets",
+        "path": "templates/app_launch.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1ZG0zCdOzwTYFQTwESmirVQBSJSDFM-1PM7aqDzLJvr4"
+      }
     },
     "parent_group": {
       "flow_type": "template",
       "flow_name": "parent_group",
-      "_xlsxPath": "templates/profile_ph.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
+      "_source": {
+        "name": "facilitator_ph_sheets",
+        "path": "templates/profile_ph.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1vnZGZLoj7jrkDSR8V8aTCSASH53ucMN6jF1AyN6ksoM"
+      }
     },
     "parent_list": {
       "flow_type": "template",
       "flow_name": "parent_list",
-      "_xlsxPath": "templates/profile_ph.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
+      "_source": {
+        "name": "facilitator_ph_sheets",
+        "path": "templates/profile_ph.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1vnZGZLoj7jrkDSR8V8aTCSASH53ucMN6jF1AyN6ksoM"
+      }
     },
     "pdf": {
       "flow_type": "template",
       "flow_name": "pdf",
-      "_xlsxPath": "templates/media.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1Jo1-q7KOE4gC2XRKEMcU9bXnrwB5oCRC"
+      "parameter_list": {
+        "app_config": {
+          "LAYOUT": {
+            "page_padding": "0 0"
+          }
+        }
+      },
+      "_source": {
+        "name": "facilitator_ph_sheets",
+        "path": "templates/media_ph.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1CqGjC4ORWIq10WwfOIYqpbJdMH4pWllxQmZAXuTyfec"
+      }
     },
     "popup_nav": {
       "flow_type": "template",
       "flow_name": "popup_nav",
-      "_xlsxPath": "templates/article_loop_ph.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
+      "_source": {
+        "name": "facilitator_ph_sheets",
+        "path": "templates/article_loop_ph.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1D2YuEsDp7QeN1S-l9A40tgONCb7P6bltgh-S3ZPPr4o"
+      }
     },
     "profile": {
       "flow_type": "template",
@@ -4223,92 +4671,137 @@
           }
         }
       },
-      "_xlsxPath": "templates/profile_ph.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
+      "_source": {
+        "name": "facilitator_ph_sheets",
+        "path": "templates/profile_ph.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1vnZGZLoj7jrkDSR8V8aTCSASH53ucMN6jF1AyN6ksoM"
+      }
     },
     "profile_about": {
       "flow_type": "template",
       "flow_name": "profile_about",
-      "_xlsxPath": "templates/profile_ph.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
+      "_source": {
+        "name": "facilitator_ph_sheets",
+        "path": "templates/profile_ph.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1vnZGZLoj7jrkDSR8V8aTCSASH53ucMN6jF1AyN6ksoM"
+      }
     },
     "profile_account": {
       "flow_type": "template",
       "flow_name": "profile_account",
-      "_xlsxPath": "templates/profile_ph.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
+      "_source": {
+        "name": "facilitator_ph_sheets",
+        "path": "templates/profile_ph.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1vnZGZLoj7jrkDSR8V8aTCSASH53ucMN6jF1AyN6ksoM"
+      }
     },
     "profile_groups": {
       "flow_type": "template",
       "flow_name": "profile_groups",
-      "_xlsxPath": "templates/profile_ph.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
+      "_source": {
+        "name": "facilitator_ph_sheets",
+        "path": "templates/profile_ph.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1vnZGZLoj7jrkDSR8V8aTCSASH53ucMN6jF1AyN6ksoM"
+      }
     },
     "profile_id": {
       "flow_type": "template",
       "flow_name": "profile_id",
-      "_xlsxPath": "templates/profile_ph.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
+      "_source": {
+        "name": "facilitator_ph_sheets",
+        "path": "templates/profile_ph.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1vnZGZLoj7jrkDSR8V8aTCSASH53ucMN6jF1AyN6ksoM"
+      }
     },
     "profile_login": {
       "flow_type": "template",
       "flow_name": "profile_login",
-      "_xlsxPath": "templates/profile.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1Jo1-q7KOE4gC2XRKEMcU9bXnrwB5oCRC"
+      "_source": {
+        "name": "Facilitator Global Sheets",
+        "path": "templates/profile.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/14iUeYWUHIly3tyz61Wgz_tlPUVAqkI8aXFnlsrUA1ZY"
+      }
     },
     "profile_user_type": {
       "flow_type": "template",
       "flow_name": "profile_user_type",
-      "_xlsxPath": "templates/app_launch.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1Jo1-q7KOE4gC2XRKEMcU9bXnrwB5oCRC"
+      "_source": {
+        "name": "Facilitator Global Sheets",
+        "path": "templates/app_launch.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1ZG0zCdOzwTYFQTwESmirVQBSJSDFM-1PM7aqDzLJvr4"
+      }
     },
     "related_element": {
       "flow_type": "template",
       "flow_name": "related_element",
-      "_xlsxPath": "templates/article_elements_ph.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
+      "_source": {
+        "name": "facilitator_ph_sheets",
+        "path": "templates/article_elements_ph.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1TdOrlPo-sVwiX-LJKW9M3UHdw4cpwDZMRW2ABzkners"
+      }
     },
     "remove_cofacilitator": {
       "flow_type": "template",
       "flow_name": "remove_cofacilitator",
-      "_xlsxPath": "templates/profile_ph.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
+      "_source": {
+        "name": "facilitator_ph_sheets",
+        "path": "templates/profile_ph.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1vnZGZLoj7jrkDSR8V8aTCSASH53ucMN6jF1AyN6ksoM"
+      }
     },
     "report_card": {
       "flow_type": "template",
       "flow_name": "report_card",
-      "_xlsxPath": "templates/report_ph.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
+      "_source": {
+        "name": "facilitator_ph_sheets",
+        "path": "templates/report_ph.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1-mqseKQFB9GrOIw6qPuObMcp8DcPsbAl2SvNyu-oKMc"
+      }
     },
     "reports": {
       "flow_type": "template",
       "flow_name": "reports",
-      "_xlsxPath": "templates/reports.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1Jo1-q7KOE4gC2XRKEMcU9bXnrwB5oCRC"
+      "_source": {
+        "name": "Facilitator Global Sheets",
+        "path": "templates/reports.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1pqNDT__R83Co4cyz-E-Y5wiw0i020Bg7HnQ5t_wHqrA"
+      }
     },
     "resource_element": {
       "flow_type": "template",
       "flow_name": "resource_element",
-      "_xlsxPath": "templates/article_elements_ph.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
+      "_source": {
+        "name": "facilitator_ph_sheets",
+        "path": "templates/article_elements_ph.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1TdOrlPo-sVwiX-LJKW9M3UHdw4cpwDZMRW2ABzkners"
+      }
     },
     "section_element": {
       "flow_type": "template",
       "flow_name": "section_element",
-      "_xlsxPath": "templates/article_elements_ph.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
+      "_source": {
+        "name": "facilitator_ph_sheets",
+        "path": "templates/article_elements_ph.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1TdOrlPo-sVwiX-LJKW9M3UHdw4cpwDZMRW2ABzkners"
+      }
     },
     "section_header": {
       "flow_type": "template",
       "flow_name": "section_header",
-      "_xlsxPath": "templates/navigation.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1Jo1-q7KOE4gC2XRKEMcU9bXnrwB5oCRC"
+      "_source": {
+        "name": "Facilitator Global Sheets",
+        "path": "templates/navigation.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/15eLW60hvhMB4AeBmbWm1S9dpNDYrOhFHndJTveLRtjQ"
+      }
     },
     "virtual_form": {
       "flow_type": "template",
       "flow_name": "virtual_form",
-      "_xlsxPath": "templates/data_collection.xlsx",
-      "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1Jo1-q7KOE4gC2XRKEMcU9bXnrwB5oCRC"
+      "_source": {
+        "name": "Facilitator Global Sheets",
+        "path": "templates/data_collection.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1P9qBr_ijRDYknqvNxBPt9SwQCD2zCvPDVldfrX9gufc"
+      }
     }
   },
   "tour": {}

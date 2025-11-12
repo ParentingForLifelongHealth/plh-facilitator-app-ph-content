@@ -9,32 +9,32 @@
 | animated_slides | 1 |
 | apple_sign_in_button | 2 |
 | audio | 3 |
-| button | 100 |
+| button | 103 |
 | carousel | 2 |
 | combo_box | 17 |
-| data_items | 64 |
+| data_items | 68 |
 | date_time_picker | 6 |
 | debug_toggle | 1 |
 | display_grid | 2 |
-| display_group | 148 |
+| display_group | 155 |
 | drawer | 1 |
 | google_sign_in_button | 3 |
 | image | 15 |
-| items | 23 |
+| items | 22 |
 | lottie_animation | 2 |
 | navigation_bar | 2 |
 | pdf | 1 |
 | qr_code | 1 |
 | radio_button_grid | 21 |
-| round_button | 46 |
+| round_button | 47 |
 | select_text | 1 |
-| set_variable | 1141 |
+| set_variable | 1160 |
 | simple_checkbox | 46 |
 | task_card | 6 |
-| task_progress_bar | 2 |
-| template | 355 |
+| task_progress_bar | 3 |
+| template | 361 |
 | test | 1 |
-| text | 318 |
+| text | 327 |
 | text_area | 2 |
 | text_box | 49 |
 | title | 45 |
@@ -53,28 +53,28 @@
 | app_update | 1 |
 | auth | 2 |
 | copy | 2 |
-| emit: completed | 76 |
+| emit: completed | 79 |
 | emit: force_reload | 8 |
 | emit: force_reprocess | 15 |
 | emit: force_restart | 2 |
 | emit: server_sync | 13 |
 | emit: set_language | 2 |
-| emit: uncompleted | 89 |
+| emit: uncompleted | 90 |
 | feedback | 13 |
 | go_to | 39 |
 | nav | 1 |
 | nav_stack | 8 |
 | notification | 9 |
 | plh_parent_group | 10 |
-| pop_up | 20 |
+| pop_up | 22 |
 | reset_app | 4 |
 | reset_data | 3 |
 | save_to_device | 4 |
 | scroll | 1 |
-| set_data | 28 |
-| set_field | 88 |
+| set_data | 32 |
+| set_field | 93 |
 | set_item | 16 |
-| set_local | 135 |
+| set_local | 137 |
 | share | 4 |
 | toast | 1 |
 | user | 3 |
@@ -86,7 +86,7 @@
 | assets | KB | MB |
 | --- | --- | --- |
 | total | 42172 KB | 42.2 MB |
-| unused | 12260 KB | 12.3 MB |
+| unused | 12244 KB | 12.2 MB |
 </details>
 
 <details open>
@@ -161,16 +161,7 @@ Assets that appear in app-data but do not have references within sheets
 | images/icons/reminder_old.png | 10.4 |
 | images/icons/report.svg | 0.3 |
 | images/icons/settings.svg | 1.2 |
-| images/icons/task_0.png | 2 |
 | images/icons/task_0.svg | 2.3 |
-| images/icons/task_1.png | 1 |
-| images/icons/task_2.png | 1.9 |
-| images/icons/task_3.png | 2 |
-| images/icons/task_4.png | 1.5 |
-| images/icons/task_5.png | 1.8 |
-| images/icons/task_6.png | 2.2 |
-| images/icons/task_7.png | 1.5 |
-| images/icons/task_8.png | 2.4 |
 | images/icons/task_9.svg | 2.5 |
 | images/icons/trophy.svg | 1 |
 | images/person_cog.png | 0.8 |
@@ -265,9 +256,9 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | images/icons/content.svg | 6.3 | 2 |
 | images/icons/copy-outline.svg | 0.4 | 2 |
 | images/icons/delete.svg | 1.9 | 4 |
-| images/icons/docs.svg | 0.7 | 1 |
-| images/icons/download.svg | 0.7 | 2 |
-| images/icons/download_white.svg | 0.7 | 1 |
+| images/icons/docs.svg | 0.7 | 2 |
+| images/icons/download.svg | 0.7 | 1 |
+| images/icons/download_white.svg | 0.7 | 2 |
 | images/icons/edit.svg | 0.9 | 3 |
 | images/icons/eye.svg | 1.6 | 2 |
 | images/icons/feather.svg | 3.2 | 1 |
@@ -297,7 +288,7 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | images/icons/task_7.svg | 1 | 1 |
 | images/icons/task_8.svg | 2.8 | 1 |
 | images/icons/unarchive.svg | 1.1 | 1 |
-| images/icons/visibility.svg | 1.9 | 1 |
+| images/icons/visibility.svg | 1.9 | 2 |
 | images/icons/world.svg | 5.8 | 1 |
 | images/icons_1.png | 267.7 | 1 |
 | images/icons_2.png | 210 | 1 |
@@ -311,7 +302,7 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | images/logos/UNICEF.jpg | 57.9 | 1 |
 | images/logos/app_logo.png | 70.6 | 3 |
 | images/no_group_selected.svg | 3.5 | 1 |
-| lottie/checkmark_blue.json | 17 | 4 |
+| lottie/checkmark_blue.json | 17 | 5 |
 | pdf/01_mod1_intro.pdf | 650.7 | 1 |
 | pdf/01_mod1_layunin.pdf | 478.3 | 1 |
 | pdf/01_mod1_mapa_skill.pdf | 6899 | 1 |
@@ -359,7 +350,7 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | global |  | 13 |
 | global | legal_terms | 1 |
 | global | onboarding | 2 |
-| template |  | 87 |
+| template |  | 89 |
 | template | generated | 309 |
 | template | legal_terms | 4 |
 </details>

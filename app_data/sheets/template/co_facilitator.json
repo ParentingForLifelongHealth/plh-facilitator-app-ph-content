@@ -55,8 +55,7 @@
                       "args": [
                         "add_cofacilitator"
                       ],
-                      "_raw": "click | pop_up: add_cofacilitator",
-                      "_cleaned": "click | pop_up: add_cofacilitator"
+                      "_raw": "click | pop_up: add_cofacilitator"
                     }
                   ],
                   "parameter_list": {
@@ -186,8 +185,7 @@
                         "cofacilitator_id",
                         "@item.cofacilitator_id"
                       ],
-                      "_raw": "click | set_field: cofacilitator_id: @item.cofacilitator_id",
-                      "_cleaned": "click | set_field: cofacilitator_id: @item.cofacilitator_id"
+                      "_raw": "click | set_field: cofacilitator_id: @item.cofacilitator_id"
                     },
                     {
                       "trigger": "click",
@@ -195,8 +193,7 @@
                       "args": [
                         "remove_cofacilitator"
                       ],
-                      "_raw": "click | pop_up: remove_cofacilitator",
-                      "_cleaned": "click | pop_up: remove_cofacilitator"
+                      "_raw": "click | pop_up: remove_cofacilitator"
                     }
                   ],
                   "parameter_list": {
@@ -225,14 +222,6 @@
                             "type": "item",
                             "fieldName": "cofacilitator_id"
                           }
-                        ],
-                        "_cleaned": [
-                          {
-                            "fullExpression": "click | set_field: cofacilitator_id: @item.cofacilitator_id",
-                            "matchedExpression": "@item.cofacilitator_id",
-                            "type": "item",
-                            "fieldName": "cofacilitator_id"
-                          }
                         ]
                       }
                     },
@@ -248,8 +237,7 @@
                   "_dynamicDependencies": {
                     "@item.cofacilitator_id": [
                       "action_list.0.args.1",
-                      "action_list.0._raw",
-                      "action_list.0._cleaned"
+                      "action_list.0._raw"
                     ],
                     "@item.id.display_group_2.button_delete_shared": [
                       "_nested_name"
@@ -346,6 +334,9 @@
       "_nested_name": "data_items_2"
     }
   ],
-  "_xlsxPath": "templates/profile_ph.xlsx",
-  "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
+  "_source": {
+    "name": "facilitator_ph_sheets",
+    "path": "templates/profile_ph.xlsx",
+    "url": "https://docs.google.com/spreadsheets/d/1vnZGZLoj7jrkDSR8V8aTCSASH53ucMN6jF1AyN6ksoM"
+  }
 }

@@ -63,8 +63,7 @@
           "args": [
             "uncompleted"
           ],
-          "_raw": "uncompleted | emit: uncompleted",
-          "_cleaned": "uncompleted | emit: uncompleted"
+          "_raw": "uncompleted | emit: uncompleted"
         }
       ],
       "exclude_from_translation": true,
@@ -264,8 +263,7 @@
               "args": [
                 "completed"
               ],
-              "_raw": "completed | emit: completed",
-              "_cleaned": "completed | emit: completed"
+              "_raw": "completed | emit: completed"
             }
           ],
           "exclude_from_translation": true,
@@ -334,6 +332,9 @@
       "_nested_name": "set_variable_26"
     }
   ],
-  "_xlsxPath": "templates/parent groups.xlsx",
-  "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1Jo1-q7KOE4gC2XRKEMcU9bXnrwB5oCRC"
+  "_source": {
+    "name": "Facilitator Global Sheets",
+    "path": "templates/parent groups.xlsx",
+    "url": "https://docs.google.com/spreadsheets/d/1O0Q2xNYXrmGtTFw6cCaikuoeEJq-VMRqcCDGJKHRB5o"
+  }
 }

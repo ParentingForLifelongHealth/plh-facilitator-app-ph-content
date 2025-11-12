@@ -6,21 +6,21 @@ const config = generateDeploymentConfig("plh_facilitator_ph");
  * to allow for easier post-processing
  */
 
-config.google_drive.sheets_folder_ids =  [
-  "1Jo1-q7KOE4gC2XRKEMcU9bXnrwB5oCRC",  //Global
-  "1XBq4iGIZHEwzwPk3xbHDAm9WCesjR7kR", // library PLH onboarding
-  "1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"   //PH Sheets
+config.google_drive.sheets_folders = [
+  { id: "1Jo1-q7KOE4gC2XRKEMcU9bXnrwB5oCRC", name: "Facilitator Global Sheets" },
+  { id: "1XBq4iGIZHEwzwPk3xbHDAm9WCesjR7kR", name: "library_PLH_onboarding" },
+  { id: "1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go", name: "facilitator_ph_sheets" }
 ];
 
-config.google_drive.assets_folder_ids = [
-  "1nrj0QSvhVKdUaPFrnCB6CyXSCvpozBDK", 
-	"1GA6vgLIC2aPPRzUJkm_albAvPdMa3XUK" //PH assets
+config.google_drive.assets_folders = [
+  { id: "1nrj0QSvhVKdUaPFrnCB6CyXSCvpozBDK", name: "Facilitator Global Assets" },
+  { id: "1GA6vgLIC2aPPRzUJkm_albAvPdMa3XUK", name: "facilitator_ph_assets" }
 ];
 
 
 config.git = {
   content_repo: "https://github.com/IDEMSInternational/plh-facilitator-app-ph-content.git",
-  content_tag_latest: "1.3.15",
+  content_tag_latest: "1.3.16",
 };
 
 config.android = {

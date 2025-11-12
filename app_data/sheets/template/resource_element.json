@@ -104,18 +104,27 @@
                   "action_list": [
                     {
                       "trigger": "click",
+                      "action_id": "set_field",
+                      "args": [],
+                      "_raw": "click | set_field | current_pdf_id : @local.resource_id",
+                      "params": {
+                        "current_pdf_id ": "@local.resource_id"
+                      }
+                    },
+                    {
+                      "trigger": "click",
                       "action_id": "pop_up",
                       "args": [
                         "pdf_@local.resource_id"
                       ],
                       "_raw": "click | pop_up : pdf_@local.resource_id | fullscreen: true, showCloseButton: false",
-                      "_cleaned": "click | pop_up : pdf_@local.resource_id | fullscreen: true, showCloseButton: false",
                       "params": {
                         "fullscreen": true,
                         "showCloseButton": false
                       }
                     }
                   ],
+                  "condition": false,
                   "parameter_list": {
                     "variant": "no-background",
                     "icon_src": "images/icons/docs.svg"
@@ -125,6 +134,26 @@
                   "_dynamicFields": {
                     "action_list": {
                       "0": {
+                        "_raw": [
+                          {
+                            "fullExpression": "click | set_field | current_pdf_id : @local.resource_id",
+                            "matchedExpression": "@local.resource_id",
+                            "type": "local",
+                            "fieldName": "resource_id"
+                          }
+                        ],
+                        "params": {
+                          "current_pdf_id ": [
+                            {
+                              "fullExpression": "@local.resource_id",
+                              "matchedExpression": "@local.resource_id",
+                              "type": "local",
+                              "fieldName": "resource_id"
+                            }
+                          ]
+                        }
+                      },
+                      "1": {
                         "args": {
                           "0": [
                             {
@@ -136,14 +165,6 @@
                           ]
                         },
                         "_raw": [
-                          {
-                            "fullExpression": "click | pop_up : pdf_@local.resource_id | fullscreen: true, showCloseButton: false",
-                            "matchedExpression": "@local.resource_id",
-                            "type": "local",
-                            "fieldName": "resource_id"
-                          }
-                        ],
-                        "_cleaned": [
                           {
                             "fullExpression": "click | pop_up : pdf_@local.resource_id | fullscreen: true, showCloseButton: false",
                             "matchedExpression": "@local.resource_id",
@@ -164,9 +185,10 @@
                   },
                   "_dynamicDependencies": {
                     "@local.resource_id": [
-                      "action_list.0.args.0",
                       "action_list.0._raw",
-                      "action_list.0._cleaned"
+                      "action_list.0.params.current_pdf_id ",
+                      "action_list.1.args.0",
+                      "action_list.1._raw"
                     ],
                     "@item.id.main_view": [
                       "_nested_name"
@@ -179,6 +201,21 @@
                   "_translations": {
                     "value": {}
                   },
+                  "action_list": [
+                    {
+                      "trigger": "click",
+                      "action_id": "pop_up",
+                      "args": [
+                        "pdf_@local.resource_id"
+                      ],
+                      "_raw": "click | pop_up : pdf_@local.resource_id | fullscreen: true, showCloseButton: false",
+                      "params": {
+                        "fullscreen": true,
+                        "showCloseButton": false
+                      }
+                    }
+                  ],
+                  "condition": false,
                   "style_list": [
                     "flex: 1"
                   ],
@@ -194,6 +231,28 @@
                         "fieldName": "title"
                       }
                     ],
+                    "action_list": {
+                      "0": {
+                        "args": {
+                          "0": [
+                            {
+                              "fullExpression": "pdf_@local.resource_id",
+                              "matchedExpression": "@local.resource_id",
+                              "type": "local",
+                              "fieldName": "resource_id"
+                            }
+                          ]
+                        },
+                        "_raw": [
+                          {
+                            "fullExpression": "click | pop_up : pdf_@local.resource_id | fullscreen: true, showCloseButton: false",
+                            "matchedExpression": "@local.resource_id",
+                            "type": "local",
+                            "fieldName": "resource_id"
+                          }
+                        ]
+                      }
+                    },
                     "_nested_name": [
                       {
                         "fullExpression": "display_group_7.data_items_1.display_group_1_@item.id.text_2",
@@ -207,7 +266,128 @@
                     "@item.title": [
                       "value"
                     ],
+                    "@local.resource_id": [
+                      "action_list.0.args.0",
+                      "action_list.0._raw"
+                    ],
                     "@item.id.text_2": [
+                      "_nested_name"
+                    ]
+                  }
+                },
+                {
+                  "type": "button",
+                  "value": "@item.title",
+                  "_translations": {
+                    "value": {}
+                  },
+                  "action_list": [
+                    {
+                      "trigger": "click",
+                      "action_id": "set_field",
+                      "args": [
+                        "current_pdf_id",
+                        "@local.resource_id"
+                      ],
+                      "_raw": "click | set_field: current_pdf_id : @local.resource_id"
+                    },
+                    {
+                      "trigger": "click",
+                      "action_id": "pop_up",
+                      "args": [
+                        "pdf_@local.resource_id"
+                      ],
+                      "_raw": "click | pop_up : pdf_@local.resource_id | fullscreen: true, showCloseButton: false",
+                      "params": {
+                        "fullscreen": true,
+                        "showCloseButton": false
+                      }
+                    }
+                  ],
+                  "style_list": [
+                    "flex: 1"
+                  ],
+                  "parameter_list": {
+                    "variant": "card",
+                    "style": "no-background",
+                    "text_align": "left",
+                    "icon": "images/icons/docs.svg",
+                    "icon_secondary_asset": "images/icons/visibility.svg"
+                  },
+                  "exclude_from_translation": true,
+                  "name": "button_3",
+                  "_nested_name": "display_group_7.data_items_1.display_group_1_@item.id.button_3",
+                  "_dynamicFields": {
+                    "value": [
+                      {
+                        "fullExpression": "@item.title",
+                        "matchedExpression": "@item.title",
+                        "type": "item",
+                        "fieldName": "title"
+                      }
+                    ],
+                    "action_list": {
+                      "0": {
+                        "args": {
+                          "1": [
+                            {
+                              "fullExpression": "@local.resource_id",
+                              "matchedExpression": "@local.resource_id",
+                              "type": "local",
+                              "fieldName": "resource_id"
+                            }
+                          ]
+                        },
+                        "_raw": [
+                          {
+                            "fullExpression": "click | set_field: current_pdf_id : @local.resource_id",
+                            "matchedExpression": "@local.resource_id",
+                            "type": "local",
+                            "fieldName": "resource_id"
+                          }
+                        ]
+                      },
+                      "1": {
+                        "args": {
+                          "0": [
+                            {
+                              "fullExpression": "pdf_@local.resource_id",
+                              "matchedExpression": "@local.resource_id",
+                              "type": "local",
+                              "fieldName": "resource_id"
+                            }
+                          ]
+                        },
+                        "_raw": [
+                          {
+                            "fullExpression": "click | pop_up : pdf_@local.resource_id | fullscreen: true, showCloseButton: false",
+                            "matchedExpression": "@local.resource_id",
+                            "type": "local",
+                            "fieldName": "resource_id"
+                          }
+                        ]
+                      }
+                    },
+                    "_nested_name": [
+                      {
+                        "fullExpression": "display_group_7.data_items_1.display_group_1_@item.id.button_3",
+                        "matchedExpression": "@item.id.button_3",
+                        "type": "item",
+                        "fieldName": "id"
+                      }
+                    ]
+                  },
+                  "_dynamicDependencies": {
+                    "@item.title": [
+                      "value"
+                    ],
+                    "@local.resource_id": [
+                      "action_list.0.args.1",
+                      "action_list.0._raw",
+                      "action_list.1.args.0",
+                      "action_list.1._raw"
+                    ],
+                    "@item.id.button_3": [
                       "_nested_name"
                     ]
                   }
@@ -223,13 +403,13 @@
                         "pdf_@local.resource_id"
                       ],
                       "_raw": "click | pop_up : pdf_@local.resource_id | fullscreen: true, showCloseButton: false",
-                      "_cleaned": "click | pop_up : pdf_@local.resource_id | fullscreen: true, showCloseButton: false",
                       "params": {
                         "fullscreen": true,
                         "showCloseButton": false
                       }
                     }
                   ],
+                  "condition": false,
                   "parameter_list": {
                     "variant": "no-background",
                     "icon_src": "images/icons/visibility.svg"
@@ -256,14 +436,6 @@
                             "type": "local",
                             "fieldName": "resource_id"
                           }
-                        ],
-                        "_cleaned": [
-                          {
-                            "fullExpression": "click | pop_up : pdf_@local.resource_id | fullscreen: true, showCloseButton: false",
-                            "matchedExpression": "@local.resource_id",
-                            "type": "local",
-                            "fieldName": "resource_id"
-                          }
                         ]
                       }
                     },
@@ -279,8 +451,7 @@
                   "_dynamicDependencies": {
                     "@local.resource_id": [
                       "action_list.0.args.0",
-                      "action_list.0._raw",
-                      "action_list.0._cleaned"
+                      "action_list.0._raw"
                     ],
                     "@item.id.view": [
                       "_nested_name"
@@ -297,8 +468,7 @@
                       "args": [
                         "@item.pdf_asset"
                       ],
-                      "_raw": "click | save_to_device: @item.pdf_asset",
-                      "_cleaned": "click | save_to_device: @item.pdf_asset"
+                      "_raw": "click | save_to_device: @item.pdf_asset"
                     }
                   ],
                   "parameter_list": {
@@ -327,14 +497,6 @@
                             "type": "item",
                             "fieldName": "pdf_asset"
                           }
-                        ],
-                        "_cleaned": [
-                          {
-                            "fullExpression": "click | save_to_device: @item.pdf_asset",
-                            "matchedExpression": "@item.pdf_asset",
-                            "type": "item",
-                            "fieldName": "pdf_asset"
-                          }
                         ]
                       }
                     },
@@ -350,8 +512,7 @@
                   "_dynamicDependencies": {
                     "@item.pdf_asset": [
                       "action_list.0.args.0",
-                      "action_list.0._raw",
-                      "action_list.0._cleaned"
+                      "action_list.0._raw"
                     ],
                     "@item.id.download": [
                       "_nested_name"
@@ -585,8 +746,7 @@
                           "args": [
                             "@item.media_asset"
                           ],
-                          "_raw": "click | save_to_device: @item.media_asset",
-                          "_cleaned": "click | save_to_device: @item.media_asset"
+                          "_raw": "click | save_to_device: @item.media_asset"
                         }
                       ],
                       "style_list": [
@@ -618,14 +778,6 @@
                                 "type": "item",
                                 "fieldName": "media_asset"
                               }
-                            ],
-                            "_cleaned": [
-                              {
-                                "fullExpression": "click | save_to_device: @item.media_asset",
-                                "matchedExpression": "@item.media_asset",
-                                "type": "item",
-                                "fieldName": "media_asset"
-                              }
                             ]
                           }
                         },
@@ -641,8 +793,7 @@
                       "_dynamicDependencies": {
                         "@item.media_asset": [
                           "action_list.0.args.0",
-                          "action_list.0._raw",
-                          "action_list.0._cleaned"
+                          "action_list.0._raw"
                         ],
                         "@item.id.display_group_3.download": [
                           "_nested_name"
@@ -787,6 +938,9 @@
       }
     }
   ],
-  "_xlsxPath": "templates/article_elements_ph.xlsx",
-  "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
+  "_source": {
+    "name": "facilitator_ph_sheets",
+    "path": "templates/article_elements_ph.xlsx",
+    "url": "https://docs.google.com/spreadsheets/d/1TdOrlPo-sVwiX-LJKW9M3UHdw4cpwDZMRW2ABzkners"
+  }
 }

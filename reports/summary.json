@@ -27,7 +27,7 @@
       },
       {
         "type": "button",
-        "count": 100
+        "count": 103
       },
       {
         "type": "carousel",
@@ -39,7 +39,7 @@
       },
       {
         "type": "data_items",
-        "count": 64
+        "count": 68
       },
       {
         "type": "date_time_picker",
@@ -55,7 +55,7 @@
       },
       {
         "type": "display_group",
-        "count": 148
+        "count": 155
       },
       {
         "type": "drawer",
@@ -71,7 +71,7 @@
       },
       {
         "type": "items",
-        "count": 23
+        "count": 22
       },
       {
         "type": "lottie_animation",
@@ -95,7 +95,7 @@
       },
       {
         "type": "round_button",
-        "count": 46
+        "count": 47
       },
       {
         "type": "select_text",
@@ -103,7 +103,7 @@
       },
       {
         "type": "set_variable",
-        "count": 1141
+        "count": 1160
       },
       {
         "type": "simple_checkbox",
@@ -115,11 +115,11 @@
       },
       {
         "type": "task_progress_bar",
-        "count": 2
+        "count": 3
       },
       {
         "type": "template",
-        "count": 355
+        "count": 361
       },
       {
         "type": "test",
@@ -127,7 +127,7 @@
       },
       {
         "type": "text",
-        "count": 318
+        "count": 327
       },
       {
         "type": "text_area",
@@ -179,7 +179,7 @@
       },
       {
         "type": "emit: completed",
-        "count": 76
+        "count": 79
       },
       {
         "type": "emit: force_reload",
@@ -203,7 +203,7 @@
       },
       {
         "type": "emit: uncompleted",
-        "count": 89
+        "count": 90
       },
       {
         "type": "feedback",
@@ -231,7 +231,7 @@
       },
       {
         "type": "pop_up",
-        "count": 20
+        "count": 22
       },
       {
         "type": "reset_app",
@@ -251,11 +251,11 @@
       },
       {
         "type": "set_data",
-        "count": 28
+        "count": 32
       },
       {
         "type": "set_field",
-        "count": 88
+        "count": 93
       },
       {
         "type": "set_item",
@@ -263,7 +263,7 @@
       },
       {
         "type": "set_local",
-        "count": 135
+        "count": 137
       },
       {
         "type": "share",
@@ -288,8 +288,8 @@
       },
       {
         "assets": "unused",
-        "KB": "12260 KB",
-        "MB": "12.3 MB"
+        "KB": "12244 KB",
+        "MB": "12.2 MB"
       }
     ]
   },
@@ -556,44 +556,8 @@
         "size_kb": 1.2
       },
       {
-        "path": "images/icons/task_0.png",
-        "size_kb": 2
-      },
-      {
         "path": "images/icons/task_0.svg",
         "size_kb": 2.3
-      },
-      {
-        "path": "images/icons/task_1.png",
-        "size_kb": 1
-      },
-      {
-        "path": "images/icons/task_2.png",
-        "size_kb": 1.9
-      },
-      {
-        "path": "images/icons/task_3.png",
-        "size_kb": 2
-      },
-      {
-        "path": "images/icons/task_4.png",
-        "size_kb": 1.5
-      },
-      {
-        "path": "images/icons/task_5.png",
-        "size_kb": 1.8
-      },
-      {
-        "path": "images/icons/task_6.png",
-        "size_kb": 2.2
-      },
-      {
-        "path": "images/icons/task_7.png",
-        "size_kb": 1.5
-      },
-      {
-        "path": "images/icons/task_8.png",
-        "size_kb": 2.4
       },
       {
         "path": "images/icons/task_9.svg",
@@ -979,17 +943,17 @@
       },
       {
         "path": "images/icons/docs.svg",
-        "count": 1,
-        "size_kb": 0.7
-      },
-      {
-        "path": "images/icons/download.svg",
         "count": 2,
         "size_kb": 0.7
       },
       {
-        "path": "images/icons/download_white.svg",
+        "path": "images/icons/download.svg",
         "count": 1,
+        "size_kb": 0.7
+      },
+      {
+        "path": "images/icons/download_white.svg",
+        "count": 2,
         "size_kb": 0.7
       },
       {
@@ -1139,7 +1103,7 @@
       },
       {
         "path": "images/icons/visibility.svg",
-        "count": 1,
+        "count": 2,
         "size_kb": 1.9
       },
       {
@@ -1209,7 +1173,7 @@
       },
       {
         "path": "lottie/checkmark_blue.json",
-        "count": 4,
+        "count": 5,
         "size_kb": 17
       },
       {
@@ -1419,7 +1383,7 @@
       {
         "type": "template",
         "subtype": null,
-        "total": 87
+        "total": 89
       },
       {
         "type": "template",

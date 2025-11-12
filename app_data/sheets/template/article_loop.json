@@ -128,8 +128,7 @@
             "module_title",
             "@items[0]?.title"
           ],
-          "_raw": "data_changed | set_local : module_title: @items[0]?.title",
-          "_cleaned": "data_changed | set_local : module_title: @items[0]?.title"
+          "_raw": "data_changed | set_local : module_title: @items[0]?.title"
         }
       ],
       "parameter_list": {
@@ -191,8 +190,7 @@
             "first_id",
             "@items[0]?.id"
           ],
-          "_raw": "data_changed | set_local : first_id: @items[0]?.id",
-          "_cleaned": "data_changed | set_local : first_id: @items[0]?.id"
+          "_raw": "data_changed | set_local : first_id: @items[0]?.id"
         },
         {
           "trigger": "data_changed",
@@ -201,8 +199,7 @@
             "count",
             "@items.length"
           ],
-          "_raw": "data_changed | set_local : count: @items.length",
-          "_cleaned": "data_changed | set_local : count: @items.length"
+          "_raw": "data_changed | set_local : count: @items.length"
         },
         {
           "trigger": "data_changed",
@@ -211,8 +208,7 @@
             "first_row_index",
             "@items[0]?.row_index"
           ],
-          "_raw": "data_changed | set_local : first_row_index: @items[0]?.row_index",
-          "_cleaned": "data_changed | set_local : first_row_index: @items[0]?.row_index"
+          "_raw": "data_changed | set_local : first_row_index: @items[0]?.row_index"
         }
       ],
       "parameter_list": {
@@ -273,8 +269,7 @@
             "active_id",
             "@items[0]?.id"
           ],
-          "_raw": "data_changed | set_local : active_id: @items[0]?.id",
-          "_cleaned": "data_changed | set_local : active_id: @items[0]?.id"
+          "_raw": "data_changed | set_local : active_id: @items[0]?.id"
         }
       ],
       "parameter_list": {
@@ -363,8 +358,7 @@
             "first_not_complete_id",
             "@items[0]?.id"
           ],
-          "_raw": "data_changed | set_local : first_not_complete_id: @items[0]?.id",
-          "_cleaned": "data_changed | set_local : first_not_complete_id: @items[0]?.id"
+          "_raw": "data_changed | set_local : first_not_complete_id: @items[0]?.id"
         },
         {
           "trigger": "data_changed",
@@ -373,8 +367,7 @@
             "first_not_complete_index",
             "@items[0]?.row_index"
           ],
-          "_raw": "data_changed | set_local : first_not_complete_index: @items[0]?.row_index",
-          "_cleaned": "data_changed | set_local : first_not_complete_index: @items[0]?.row_index"
+          "_raw": "data_changed | set_local : first_not_complete_index: @items[0]?.row_index"
         }
       ],
       "parameter_list": {
@@ -1208,8 +1201,7 @@
                       "args": [
                         "close_all"
                       ],
-                      "_raw": "nav_stack: close_all",
-                      "_cleaned": "click | nav_stack: close_all"
+                      "_raw": "nav_stack: close_all"
                     }
                   ],
                   "parameter_list": {
@@ -1301,7 +1293,6 @@
               "action_id": "set_item",
               "args": [],
               "_raw": "completed | set_item | completed: true",
-              "_cleaned": "completed | set_item | completed: true",
               "params": {
                 "completed": true
               }
@@ -1311,7 +1302,6 @@
               "action_id": "set_item",
               "args": [],
               "_raw": "completed | set_item | @local.completed_field: true",
-              "_cleaned": "completed | set_item | @local.completed_field: true",
               "params": {
                 "@local.completed_field": true
               }
@@ -1323,15 +1313,13 @@
                 "active_index",
                 "@local.current_index + 1"
               ],
-              "_raw": "completed | set_local: active_index: @local.current_index + 1",
-              "_cleaned": "completed | set_local: active_index: @local.current_index + 1"
+              "_raw": "completed | set_local: active_index: @local.current_index + 1"
             },
             {
               "trigger": "uncompleted",
               "action_id": "set_item",
               "args": [],
               "_raw": "uncompleted | set_item | completed: false",
-              "_cleaned": "uncompleted | set_item | completed: false",
               "params": {
                 "completed": false
               }
@@ -1341,7 +1329,6 @@
               "action_id": "set_item",
               "args": [],
               "_raw": "uncompleted | set_item | @local.completed_field: false",
-              "_cleaned": "uncompleted | set_item | @local.completed_field: false",
               "params": {
                 "@local.completed_field": false
               }
@@ -1353,8 +1340,7 @@
                 "active_index",
                 "@local.current_index - 1"
               ],
-              "_raw": "uncompleted | set_local: active_index: @local.current_index - 1",
-              "_cleaned": "uncompleted | set_local: active_index: @local.current_index - 1"
+              "_raw": "uncompleted | set_local: active_index: @local.current_index - 1"
             }
           ],
           "exclude_from_translation": true,
@@ -1419,14 +1405,6 @@
                     "type": "local",
                     "fieldName": "completed_field"
                   }
-                ],
-                "_cleaned": [
-                  {
-                    "fullExpression": "completed | set_item | @local.completed_field: true",
-                    "matchedExpression": "@local.completed_field",
-                    "type": "local",
-                    "fieldName": "completed_field"
-                  }
                 ]
               },
               "2": {
@@ -1447,26 +1425,10 @@
                     "type": "local",
                     "fieldName": "current_index"
                   }
-                ],
-                "_cleaned": [
-                  {
-                    "fullExpression": "completed | set_local: active_index: @local.current_index + 1",
-                    "matchedExpression": "@local.current_index",
-                    "type": "local",
-                    "fieldName": "current_index"
-                  }
                 ]
               },
               "4": {
                 "_raw": [
-                  {
-                    "fullExpression": "uncompleted | set_item | @local.completed_field: false",
-                    "matchedExpression": "@local.completed_field",
-                    "type": "local",
-                    "fieldName": "completed_field"
-                  }
-                ],
-                "_cleaned": [
                   {
                     "fullExpression": "uncompleted | set_item | @local.completed_field: false",
                     "matchedExpression": "@local.completed_field",
@@ -1493,14 +1455,6 @@
                     "type": "local",
                     "fieldName": "current_index"
                   }
-                ],
-                "_cleaned": [
-                  {
-                    "fullExpression": "uncompleted | set_local: active_index: @local.current_index - 1",
-                    "matchedExpression": "@local.current_index",
-                    "type": "local",
-                    "fieldName": "current_index"
-                  }
                 ]
               }
             }
@@ -1508,17 +1462,13 @@
           "_dynamicDependencies": {
             "@local.completed_field": [
               "action_list.1._raw",
-              "action_list.1._cleaned",
-              "action_list.4._raw",
-              "action_list.4._cleaned"
+              "action_list.4._raw"
             ],
             "@local.current_index": [
               "action_list.2.args.1",
               "action_list.2._raw",
-              "action_list.2._cleaned",
               "action_list.5.args.1",
-              "action_list.5._raw",
-              "action_list.5._cleaned"
+              "action_list.5._raw"
             ]
           }
         }
@@ -1564,6 +1514,9 @@
       }
     }
   ],
-  "_xlsxPath": "templates/article_loop_ph.xlsx",
-  "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
+  "_source": {
+    "name": "facilitator_ph_sheets",
+    "path": "templates/article_loop_ph.xlsx",
+    "url": "https://docs.google.com/spreadsheets/d/1D2YuEsDp7QeN1S-l9A40tgONCb7P6bltgh-S3ZPPr4o"
+  }
 }

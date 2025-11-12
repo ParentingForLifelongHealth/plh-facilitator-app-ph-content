@@ -292,6 +292,9 @@
       "title": "@global.app_name"
     }
   ],
-  "_xlsxPath": "PH notifications.xlsx",
-  "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
+  "_source": {
+    "name": "facilitator_ph_sheets",
+    "path": "PH notifications.xlsx",
+    "url": "https://docs.google.com/spreadsheets/d/1P_AU8pMrep_WJvsLeUNpk9jnLHkM7KONcR8MIN7OhwU"
+  }
 }

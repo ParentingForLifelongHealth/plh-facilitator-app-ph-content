@@ -14,8 +14,7 @@
           "args": [
             "uncompleted"
           ],
-          "_raw": "uncompleted | emit: uncompleted",
-          "_cleaned": "uncompleted | emit: uncompleted"
+          "_raw": "uncompleted | emit: uncompleted"
         }
       ],
       "parameter_list": {
@@ -451,7 +450,6 @@
             "add_cofacilitator"
           ],
           "_raw": "click | plh_parent_group: add_cofacilitator | parent_group_id: @fields.current_group_id, auth_id: @local.co_facilitator_id, parent_groups_data_list: parent_groups, parents_data_list: parents",
-          "_cleaned": "click | plh_parent_group: add_cofacilitator | parent_group_id: @fields.current_group_id, auth_id: @local.co_facilitator_id, parent_groups_data_list: parent_groups, parents_data_list: parents",
           "params": {
             "parent_group_id": "@fields.current_group_id",
             "auth_id": "@local.co_facilitator_id",
@@ -464,7 +462,6 @@
           "action_id": "set_data",
           "args": [],
           "_raw": "click | set_data |\n_list_id: parent_groups,\n_id: @fields.current_group_id,\nco_facilitator_name: @local.co_facilitator_name",
-          "_cleaned": "click | set_data |\n_list_id: parent_groups,\n_id: @fields.current_group_id,\nco_facilitator_name: @local.co_facilitator_name",
           "params": {
             "_list_id": "parent_groups",
             "_id": "@fields.current_group_id",
@@ -477,8 +474,7 @@
           "args": [
             "completed"
           ],
-          "_raw": "click | emit: completed",
-          "_cleaned": "click | emit: completed"
+          "_raw": "click | emit: completed"
         }
       ],
       "parameter_list": {
@@ -492,20 +488,6 @@
         "action_list": {
           "0": {
             "_raw": [
-              {
-                "fullExpression": "click | plh_parent_group: add_cofacilitator | parent_group_id: @fields.current_group_id, auth_id: @local.co_facilitator_id, parent_groups_data_list: parent_groups, parents_data_list: parents",
-                "matchedExpression": "@fields.current_group_id",
-                "type": "fields",
-                "fieldName": "current_group_id"
-              },
-              {
-                "fullExpression": "click | plh_parent_group: add_cofacilitator | parent_group_id: @fields.current_group_id, auth_id: @local.co_facilitator_id, parent_groups_data_list: parent_groups, parents_data_list: parents",
-                "matchedExpression": "@local.co_facilitator_id",
-                "type": "local",
-                "fieldName": "co_facilitator_id"
-              }
-            ],
-            "_cleaned": [
               {
                 "fullExpression": "click | plh_parent_group: add_cofacilitator | parent_group_id: @fields.current_group_id, auth_id: @local.co_facilitator_id, parent_groups_data_list: parent_groups, parents_data_list: parents",
                 "matchedExpression": "@fields.current_group_id",
@@ -553,20 +535,6 @@
                 "fieldName": "co_facilitator_name"
               }
             ],
-            "_cleaned": [
-              {
-                "fullExpression": "click | set_data |\n_list_id: parent_groups,\n_id: @fields.current_group_id,\nco_facilitator_name: @local.co_facilitator_name",
-                "matchedExpression": "@fields.current_group_id",
-                "type": "fields",
-                "fieldName": "current_group_id"
-              },
-              {
-                "fullExpression": "click | set_data |\n_list_id: parent_groups,\n_id: @fields.current_group_id,\nco_facilitator_name: @local.co_facilitator_name",
-                "matchedExpression": "@local.co_facilitator_name",
-                "type": "local",
-                "fieldName": "co_facilitator_name"
-              }
-            ],
             "params": {
               "_id": [
                 {
@@ -601,20 +569,16 @@
       "_dynamicDependencies": {
         "@fields.current_group_id": [
           "action_list.0._raw",
-          "action_list.0._cleaned",
           "action_list.0.params.parent_group_id",
           "action_list.1._raw",
-          "action_list.1._cleaned",
           "action_list.1.params._id"
         ],
         "@local.co_facilitator_id": [
           "action_list.0._raw",
-          "action_list.0._cleaned",
           "action_list.0.params.auth_id"
         ],
         "@local.co_facilitator_name": [
           "action_list.1._raw",
-          "action_list.1._cleaned",
           "action_list.1.params.co_facilitator_name"
         ],
         "!@local.valid": [
@@ -623,6 +587,9 @@
       }
     }
   ],
-  "_xlsxPath": "templates/profile_ph.xlsx",
-  "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
+  "_source": {
+    "name": "facilitator_ph_sheets",
+    "path": "templates/profile_ph.xlsx",
+    "url": "https://docs.google.com/spreadsheets/d/1vnZGZLoj7jrkDSR8V8aTCSASH53ucMN6jF1AyN6ksoM"
+  }
 }

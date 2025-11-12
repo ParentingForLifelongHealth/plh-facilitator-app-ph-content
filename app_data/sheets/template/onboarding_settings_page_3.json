@@ -160,8 +160,7 @@
             "province_count",
             "@items.length"
           ],
-          "_raw": "data_changed | set_local : province_count : @items.length",
-          "_cleaned": "data_changed | set_local : province_count : @items.length"
+          "_raw": "data_changed | set_local : province_count : @items.length"
         }
       ],
       "parameter_list": {
@@ -423,8 +422,7 @@
             "city_count",
             "@items.length"
           ],
-          "_raw": "data_changed | set_local : city_count : @items.length",
-          "_cleaned": "data_changed | set_local : city_count : @items.length"
+          "_raw": "data_changed | set_local : city_count : @items.length"
         }
       ],
       "parameter_list": {
@@ -677,8 +675,7 @@
               "args": [
                 "uncompleted"
               ],
-              "_raw": "click | emit: uncompleted",
-              "_cleaned": "click | emit: uncompleted"
+              "_raw": "click | emit: uncompleted"
             }
           ],
           "parameter_list": {
@@ -702,8 +699,7 @@
                 "user_region",
                 "@local.user_region_select"
               ],
-              "_raw": "click | set_field: user_region: @local.user_region_select",
-              "_cleaned": "click | set_field: user_region: @local.user_region_select"
+              "_raw": "click | set_field: user_region: @local.user_region_select"
             },
             {
               "trigger": "click",
@@ -712,8 +708,7 @@
                 "user_province",
                 "@local.user_province_select"
               ],
-              "_raw": "click | set_field: user_province: @local.user_province_select",
-              "_cleaned": "click | set_field: user_province: @local.user_province_select"
+              "_raw": "click | set_field: user_province: @local.user_province_select"
             },
             {
               "trigger": "click",
@@ -722,8 +717,7 @@
                 "user_city",
                 "@local.user_city_select"
               ],
-              "_raw": "click | set_field: user_city: @local.user_city_select",
-              "_cleaned": "click | set_field: user_city: @local.user_city_select"
+              "_raw": "click | set_field: user_city: @local.user_city_select"
             },
             {
               "trigger": "click",
@@ -731,8 +725,7 @@
               "args": [
                 "completed"
               ],
-              "_raw": "click | emit: completed",
-              "_cleaned": "click | emit: completed"
+              "_raw": "click | emit: completed"
             }
           ],
           "parameter_list": {
@@ -771,14 +764,6 @@
                     "type": "local",
                     "fieldName": "user_region_select"
                   }
-                ],
-                "_cleaned": [
-                  {
-                    "fullExpression": "click | set_field: user_region: @local.user_region_select",
-                    "matchedExpression": "@local.user_region_select",
-                    "type": "local",
-                    "fieldName": "user_region_select"
-                  }
                 ]
               },
               "1": {
@@ -793,14 +778,6 @@
                   ]
                 },
                 "_raw": [
-                  {
-                    "fullExpression": "click | set_field: user_province: @local.user_province_select",
-                    "matchedExpression": "@local.user_province_select",
-                    "type": "local",
-                    "fieldName": "user_province_select"
-                  }
-                ],
-                "_cleaned": [
                   {
                     "fullExpression": "click | set_field: user_province: @local.user_province_select",
                     "matchedExpression": "@local.user_province_select",
@@ -827,14 +804,6 @@
                     "type": "local",
                     "fieldName": "user_city_select"
                   }
-                ],
-                "_cleaned": [
-                  {
-                    "fullExpression": "click | set_field: user_city: @local.user_city_select",
-                    "matchedExpression": "@local.user_city_select",
-                    "type": "local",
-                    "fieldName": "user_city_select"
-                  }
                 ]
               }
             },
@@ -855,18 +824,15 @@
             ],
             "@local.user_region_select": [
               "action_list.0.args.1",
-              "action_list.0._raw",
-              "action_list.0._cleaned"
+              "action_list.0._raw"
             ],
             "@local.user_province_select": [
               "action_list.1.args.1",
-              "action_list.1._raw",
-              "action_list.1._cleaned"
+              "action_list.1._raw"
             ],
             "@local.user_city_select": [
               "action_list.2.args.1",
-              "action_list.2._raw",
-              "action_list.2._cleaned"
+              "action_list.2._raw"
             ],
             "!@local.completed_enabled_3": [
               "parameter_list.disabled"
@@ -877,6 +843,9 @@
       "_nested_name": "dg_footer"
     }
   ],
-  "_xlsxPath": "templates/PH onboarding templates.xlsx",
-  "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
+  "_source": {
+    "name": "facilitator_ph_sheets",
+    "path": "templates/PH onboarding templates.xlsx",
+    "url": "https://docs.google.com/spreadsheets/d/1hbzgC32cxSXAaoNK4Wf_J5yIDBllG9IHnwWoGmbaxeE"
+  }
 }

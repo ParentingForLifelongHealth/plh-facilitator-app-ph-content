@@ -85,8 +85,7 @@
           "args": [
             "uncompleted"
           ],
-          "_raw": "uncompleted | emit: uncompleted",
-          "_cleaned": "uncompleted | emit: uncompleted"
+          "_raw": "uncompleted | emit: uncompleted"
         }
       ],
       "exclude_from_translation": true,
@@ -180,8 +179,7 @@
             "current_group_id",
             "@items[0]?.id"
           ],
-          "_raw": "data_changed | set_field: current_group_id: @items[0]?.id",
-          "_cleaned": "data_changed | set_field: current_group_id: @items[0]?.id"
+          "_raw": "data_changed | set_field: current_group_id: @items[0]?.id"
         },
         {
           "trigger": "data_changed",
@@ -190,8 +188,7 @@
             "is_new",
             true
           ],
-          "_raw": "data_changed | set_local: is_new: true",
-          "_cleaned": "data_changed | set_local: is_new: true"
+          "_raw": "data_changed | set_local: is_new: true"
         }
       ],
       "parameter_list": {
@@ -381,7 +378,6 @@
               "action_id": "set_data",
               "args": [],
               "_raw": "click | set_data |\n_list_id: parent_groups,\n_id: @fields.current_group_id,\ntext: @local.text_box,\narchived: false",
-              "_cleaned": "click | set_data |\n_list_id: parent_groups,\n_id: @fields.current_group_id,\ntext: @local.text_box,\narchived: false",
               "params": {
                 "_list_id": "parent_groups",
                 "_id": "@fields.current_group_id",
@@ -396,7 +392,6 @@
                 "push"
               ],
               "_raw": "click | plh_parent_group: push | parent_groups_data_list: parent_groups, parents_data_list: parents",
-              "_cleaned": "click | plh_parent_group: push | parent_groups_data_list: parent_groups, parents_data_list: parents",
               "params": {
                 "parent_groups_data_list": "parent_groups",
                 "parents_data_list": "parents"
@@ -408,8 +403,7 @@
               "args": [
                 "completed"
               ],
-              "_raw": "click | emit: completed",
-              "_cleaned": "click | emit: completed"
+              "_raw": "click | emit: completed"
             },
             {
               "trigger": "click",
@@ -417,8 +411,7 @@
               "args": [
                 "server_sync"
               ],
-              "_raw": "click | emit: server_sync",
-              "_cleaned": "click | emit: server_sync"
+              "_raw": "click | emit: server_sync"
             }
           ],
           "parameter_list": {
@@ -430,20 +423,6 @@
             "action_list": {
               "0": {
                 "_raw": [
-                  {
-                    "fullExpression": "click | set_data |\n_list_id: parent_groups,\n_id: @fields.current_group_id,\ntext: @local.text_box,\narchived: false",
-                    "matchedExpression": "@fields.current_group_id",
-                    "type": "fields",
-                    "fieldName": "current_group_id"
-                  },
-                  {
-                    "fullExpression": "click | set_data |\n_list_id: parent_groups,\n_id: @fields.current_group_id,\ntext: @local.text_box,\narchived: false",
-                    "matchedExpression": "@local.text_box",
-                    "type": "local",
-                    "fieldName": "text_box"
-                  }
-                ],
-                "_cleaned": [
                   {
                     "fullExpression": "click | set_data |\n_list_id: parent_groups,\n_id: @fields.current_group_id,\ntext: @local.text_box,\narchived: false",
                     "matchedExpression": "@fields.current_group_id",
@@ -491,12 +470,10 @@
           "_dynamicDependencies": {
             "@fields.current_group_id": [
               "action_list.0._raw",
-              "action_list.0._cleaned",
               "action_list.0.params._id"
             ],
             "@local.text_box": [
               "action_list.0._raw",
-              "action_list.0._cleaned",
               "action_list.0.params.text"
             ],
             "!@local.valid": [
@@ -509,6 +486,9 @@
       "_nested_name": "display_group_18"
     }
   ],
-  "_xlsxPath": "templates/profile_ph.xlsx",
-  "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
+  "_source": {
+    "name": "facilitator_ph_sheets",
+    "path": "templates/profile_ph.xlsx",
+    "url": "https://docs.google.com/spreadsheets/d/1vnZGZLoj7jrkDSR8V8aTCSASH53ucMN6jF1AyN6ksoM"
+  }
 }
