@@ -20,8 +20,7 @@
           "args": [
             "force_reload"
           ],
-          "_raw": "nav_resume | emit: force_reload",
-          "_cleaned": "nav_resume | emit: force_reload"
+          "_raw": "nav_resume | emit: force_reload"
         }
       ],
       "_nested_name": "update_login_button"
@@ -158,8 +157,7 @@
               "args": [
                 "profile_account"
               ],
-              "_raw": "click | go_to: profile_account",
-              "_cleaned": "click | go_to: profile_account"
+              "_raw": "click | go_to: profile_account"
             }
           ],
           "_nested_name": "dg_account.button_login",
@@ -215,8 +213,7 @@
               "args": [
                 "profile_about"
               ],
-              "_raw": "click | go_to: profile_about",
-              "_cleaned": "click | go_to: profile_about"
+              "_raw": "click | go_to: profile_about"
             }
           ],
           "_nested_name": "dg_account.button_profile",
@@ -272,8 +269,7 @@
               "args": [
                 "language_select"
               ],
-              "_raw": "click | go_to: language_select",
-              "_cleaned": "click | go_to: language_select"
+              "_raw": "click | go_to: language_select"
             }
           ],
           "condition": false,
@@ -330,8 +326,7 @@
               "args": [
                 "profile_id"
               ],
-              "_raw": "click | go_to: profile_id",
-              "_cleaned": "click | go_to: profile_id"
+              "_raw": "click | go_to: profile_id"
             }
           ],
           "_nested_name": "dg_account.button_user_id",
@@ -398,8 +393,7 @@
               "args": [
                 "package_select"
               ],
-              "_raw": "click | go_to: package_select",
-              "_cleaned": "click | go_to: package_select"
+              "_raw": "click | go_to: package_select"
             }
           ],
           "condition": false,
@@ -505,8 +499,7 @@
               "args": [
                 "profile_groups"
               ],
-              "_raw": "click | go_to: profile_groups",
-              "_cleaned": "click | go_to: profile_groups"
+              "_raw": "click | go_to: profile_groups"
             },
             {
               "trigger": "click",
@@ -515,7 +508,6 @@
                 "pull"
               ],
               "_raw": "click | plh_parent_group: pull | parent_groups_data_list: parent_groups, parents_data_list: parents, completion_tracking_data_list: sub_items",
-              "_cleaned": "click | plh_parent_group: pull | parent_groups_data_list: parent_groups, parents_data_list: parents, completion_tracking_data_list: sub_items",
               "params": {
                 "parent_groups_data_list": "parent_groups",
                 "parents_data_list": "parents",
@@ -622,7 +614,6 @@
                 "app_about"
               ],
               "_raw": "click | pop_up: app_about | fullscreen: true",
-              "_cleaned": "click | pop_up: app_about | fullscreen: true",
               "params": {
                 "fullscreen": true
               }
@@ -680,7 +671,6 @@
                 "app_menu_terms"
               ],
               "_raw": "click | pop_up: app_menu_terms | fullscreen: true",
-              "_cleaned": "click | pop_up: app_menu_terms | fullscreen: true",
               "params": {
                 "fullscreen": true
               }
@@ -738,7 +728,6 @@
                 "app_menu_privacy_policy"
               ],
               "_raw": "click | pop_up: app_menu_privacy_policy | fullscreen: true",
-              "_cleaned": "click | pop_up: app_menu_privacy_policy | fullscreen: true",
               "params": {
                 "fullscreen": true
               }
@@ -778,6 +767,9 @@
       "_nested_name": "dg_account"
     }
   ],
-  "_xlsxPath": "templates/profile_ph.xlsx",
-  "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
+  "_source": {
+    "name": "facilitator_ph_sheets",
+    "path": "templates/profile_ph.xlsx",
+    "url": "https://docs.google.com/spreadsheets/d/1vnZGZLoj7jrkDSR8V8aTCSASH53ucMN6jF1AyN6ksoM"
+  }
 }

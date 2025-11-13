@@ -60,6 +60,9 @@
       }
     }
   ],
-  "_xlsxPath": "data/PH onboarding.xlsx",
-  "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
+  "_source": {
+    "name": "facilitator_ph_sheets",
+    "path": "data/PH onboarding.xlsx",
+    "url": "https://docs.google.com/spreadsheets/d/1l1sAdbsZinh1C2KyDBcqjA6xr30TYC9LJk0FjEINCJg"
+  }
 }

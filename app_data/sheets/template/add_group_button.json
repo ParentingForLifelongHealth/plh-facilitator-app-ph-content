@@ -89,15 +89,13 @@
           "args": [
             "completed"
           ],
-          "_raw": "click | emit: completed",
-          "_cleaned": "click | emit: completed"
+          "_raw": "click | emit: completed"
         },
         {
           "trigger": "click",
           "action_id": "add_data",
           "args": [],
           "_raw": "click | add_data |\n_list_id: parent_groups,\narchived: FALSE,\nname: @local.name,\ntext: @local.text",
-          "_cleaned": "click | add_data |\n_list_id: parent_groups,\narchived: FALSE,\nname: @local.name,\ntext: @local.text",
           "params": {
             "_list_id": "parent_groups",
             "archived": false,
@@ -110,7 +108,6 @@
           "action_id": "set_data",
           "args": [],
           "_raw": "click | set_data |\n_list_id: sub_items,\n@local.completed_field: FALSE",
-          "_cleaned": "click | set_data |\n_list_id: sub_items,\n@local.completed_field: FALSE",
           "params": {
             "_list_id": "sub_items",
             "@local.completed_field": false
@@ -121,7 +118,6 @@
           "action_id": "set_data",
           "args": [],
           "_raw": "click | set_data |\n_list_id: modules,\n@local.completed_field: FALSE,\n@local.pages_field: FALSE",
-          "_cleaned": "click | set_data |\n_list_id: modules,\n@local.completed_field: FALSE,\n@local.pages_field: FALSE",
           "params": {
             "_list_id": "modules",
             "@local.completed_field": false,
@@ -134,8 +130,7 @@
           "args": [
             "server_sync"
           ],
-          "_raw": "click | emit: server_sync",
-          "_cleaned": "click | emit: server_sync"
+          "_raw": "click | emit: server_sync"
         }
       ],
       "parameter_list": {
@@ -146,20 +141,6 @@
         "action_list": {
           "1": {
             "_raw": [
-              {
-                "fullExpression": "click | add_data |\n_list_id: parent_groups,\narchived: FALSE,\nname: @local.name,\ntext: @local.text",
-                "matchedExpression": "@local.name",
-                "type": "local",
-                "fieldName": "name"
-              },
-              {
-                "fullExpression": "click | add_data |\n_list_id: parent_groups,\narchived: FALSE,\nname: @local.name,\ntext: @local.text",
-                "matchedExpression": "@local.text",
-                "type": "local",
-                "fieldName": "text"
-              }
-            ],
-            "_cleaned": [
               {
                 "fullExpression": "click | add_data |\n_list_id: parent_groups,\narchived: FALSE,\nname: @local.name,\ntext: @local.text",
                 "matchedExpression": "@local.name",
@@ -200,32 +181,10 @@
                 "type": "local",
                 "fieldName": "completed_field"
               }
-            ],
-            "_cleaned": [
-              {
-                "fullExpression": "click | set_data |\n_list_id: sub_items,\n@local.completed_field: FALSE",
-                "matchedExpression": "@local.completed_field",
-                "type": "local",
-                "fieldName": "completed_field"
-              }
             ]
           },
           "3": {
             "_raw": [
-              {
-                "fullExpression": "click | set_data |\n_list_id: modules,\n@local.completed_field: FALSE,\n@local.pages_field: FALSE",
-                "matchedExpression": "@local.completed_field",
-                "type": "local",
-                "fieldName": "completed_field"
-              },
-              {
-                "fullExpression": "click | set_data |\n_list_id: modules,\n@local.completed_field: FALSE,\n@local.pages_field: FALSE",
-                "matchedExpression": "@local.pages_field",
-                "type": "local",
-                "fieldName": "pages_field"
-              }
-            ],
-            "_cleaned": [
               {
                 "fullExpression": "click | set_data |\n_list_id: modules,\n@local.completed_field: FALSE,\n@local.pages_field: FALSE",
                 "matchedExpression": "@local.completed_field",
@@ -245,27 +204,25 @@
       "_dynamicDependencies": {
         "@local.name": [
           "action_list.1._raw",
-          "action_list.1._cleaned",
           "action_list.1.params.name"
         ],
         "@local.text": [
           "action_list.1._raw",
-          "action_list.1._cleaned",
           "action_list.1.params.text"
         ],
         "@local.completed_field": [
           "action_list.2._raw",
-          "action_list.2._cleaned",
-          "action_list.3._raw",
-          "action_list.3._cleaned"
+          "action_list.3._raw"
         ],
         "@local.pages_field": [
-          "action_list.3._raw",
-          "action_list.3._cleaned"
+          "action_list.3._raw"
         ]
       }
     }
   ],
-  "_xlsxPath": "templates/parent groups.xlsx",
-  "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1Jo1-q7KOE4gC2XRKEMcU9bXnrwB5oCRC"
+  "_source": {
+    "name": "Facilitator Global Sheets",
+    "path": "templates/parent groups.xlsx",
+    "url": "https://docs.google.com/spreadsheets/d/1O0Q2xNYXrmGtTFw6cCaikuoeEJq-VMRqcCDGJKHRB5o"
+  }
 }

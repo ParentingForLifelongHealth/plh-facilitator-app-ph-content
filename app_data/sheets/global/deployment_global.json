@@ -210,7 +210,8 @@
       "value": "images/icons/cancel.svg",
       "_translations": {
         "value": {}
-      }
+      },
+      "exclude_from_translation": true
     },
     {
       "type": "declare_global_constant",
@@ -275,6 +276,9 @@
       }
     }
   ],
-  "_xlsxPath": "data/deployment_data.xlsx",
-  "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1Jo1-q7KOE4gC2XRKEMcU9bXnrwB5oCRC"
+  "_source": {
+    "name": "Facilitator Global Sheets",
+    "path": "data/deployment_data.xlsx",
+    "url": "https://docs.google.com/spreadsheets/d/1uh8MAPGcGZJvMb57Kb2BUUNRxlF9-kfLiJ_YuxasHz0"
+  }
 }

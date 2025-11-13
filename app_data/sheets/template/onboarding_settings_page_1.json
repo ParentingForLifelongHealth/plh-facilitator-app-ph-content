@@ -134,8 +134,7 @@
                 "user_type",
                 "@local.user_type_select"
               ],
-              "_raw": "click | set_field: user_type: @local.user_type_select",
-              "_cleaned": "click | set_field: user_type: @local.user_type_select"
+              "_raw": "click | set_field: user_type: @local.user_type_select"
             },
             {
               "trigger": "click",
@@ -143,8 +142,7 @@
               "args": [
                 "completed"
               ],
-              "_raw": "click | emit: completed",
-              "_cleaned": "click | emit: completed"
+              "_raw": "click | emit: completed"
             }
           ],
           "parameter_list": {
@@ -183,14 +181,6 @@
                     "type": "local",
                     "fieldName": "user_type_select"
                   }
-                ],
-                "_cleaned": [
-                  {
-                    "fullExpression": "click | set_field: user_type: @local.user_type_select",
-                    "matchedExpression": "@local.user_type_select",
-                    "type": "local",
-                    "fieldName": "user_type_select"
-                  }
                 ]
               }
             },
@@ -211,8 +201,7 @@
             ],
             "@local.user_type_select": [
               "action_list.0.args.1",
-              "action_list.0._raw",
-              "action_list.0._cleaned"
+              "action_list.0._raw"
             ],
             "!@local.completed_enabled": [
               "parameter_list.disabled"
@@ -223,6 +212,9 @@
       "_nested_name": "dg_footer"
     }
   ],
-  "_xlsxPath": "templates/PH onboarding templates.xlsx",
-  "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
+  "_source": {
+    "name": "facilitator_ph_sheets",
+    "path": "templates/PH onboarding templates.xlsx",
+    "url": "https://docs.google.com/spreadsheets/d/1hbzgC32cxSXAaoNK4Wf_J5yIDBllG9IHnwWoGmbaxeE"
+  }
 }

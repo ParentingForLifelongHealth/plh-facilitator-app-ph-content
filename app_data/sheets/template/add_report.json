@@ -51,8 +51,7 @@
             "report_name",
             "@items[0].name"
           ],
-          "_raw": "data_changed | set_local : report_name: @items[0].name",
-          "_cleaned": "data_changed | set_local : report_name: @items[0].name"
+          "_raw": "data_changed | set_local : report_name: @items[0].name"
         },
         {
           "trigger": "data_changed",
@@ -61,8 +60,7 @@
             "report_type",
             "@items[0].type"
           ],
-          "_raw": "data_changed | set_local : report_type: @items[0].type",
-          "_cleaned": "data_changed | set_local : report_type: @items[0].type"
+          "_raw": "data_changed | set_local : report_type: @items[0].type"
         }
       ],
       "parameter_list": {
@@ -139,8 +137,7 @@
                   "args": [
                     "uncompleted"
                   ],
-                  "_raw": "uncompleted | emit: uncompleted",
-                  "_cleaned": "uncompleted | emit: uncompleted"
+                  "_raw": "uncompleted | emit: uncompleted"
                 }
               ],
               "style_list": [
@@ -293,7 +290,6 @@
             "cancel"
           ],
           "_raw": "completed | notification: cancel | id: @local.notification_id",
-          "_cleaned": "completed | notification: cancel | id: @local.notification_id",
           "params": {
             "id": "@local.notification_id"
           }
@@ -304,8 +300,7 @@
           "args": [
             "completed"
           ],
-          "_raw": "completed | emit: completed",
-          "_cleaned": "completed | emit: completed"
+          "_raw": "completed | emit: completed"
         }
       ],
       "condition": "@local.report_type == \"in_person\"",
@@ -318,14 +313,6 @@
         "action_list": {
           "0": {
             "_raw": [
-              {
-                "fullExpression": "completed | notification: cancel | id: @local.notification_id",
-                "matchedExpression": "@local.notification_id",
-                "type": "local",
-                "fieldName": "notification_id"
-              }
-            ],
-            "_cleaned": [
               {
                 "fullExpression": "completed | notification: cancel | id: @local.notification_id",
                 "matchedExpression": "@local.notification_id",
@@ -357,7 +344,6 @@
       "_dynamicDependencies": {
         "@local.notification_id": [
           "action_list.0._raw",
-          "action_list.0._cleaned",
           "action_list.0.params.id"
         ],
         "@local.report_type": [
@@ -377,7 +363,6 @@
             "cancel"
           ],
           "_raw": "completed | notification: cancel | id: @local.notification_id",
-          "_cleaned": "completed | notification: cancel | id: @local.notification_id",
           "params": {
             "id": "@local.notification_id"
           }
@@ -388,8 +373,7 @@
           "args": [
             "completed"
           ],
-          "_raw": "completed | emit: completed",
-          "_cleaned": "completed | emit: completed"
+          "_raw": "completed | emit: completed"
         }
       ],
       "condition": "@local.report_type == \"virtual\"",
@@ -402,14 +386,6 @@
         "action_list": {
           "0": {
             "_raw": [
-              {
-                "fullExpression": "completed | notification: cancel | id: @local.notification_id",
-                "matchedExpression": "@local.notification_id",
-                "type": "local",
-                "fieldName": "notification_id"
-              }
-            ],
-            "_cleaned": [
               {
                 "fullExpression": "completed | notification: cancel | id: @local.notification_id",
                 "matchedExpression": "@local.notification_id",
@@ -441,7 +417,6 @@
       "_dynamicDependencies": {
         "@local.notification_id": [
           "action_list.0._raw",
-          "action_list.0._cleaned",
           "action_list.0.params.id"
         ],
         "@local.report_type": [
@@ -450,6 +425,9 @@
       }
     }
   ],
-  "_xlsxPath": "templates/report_ph.xlsx",
-  "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
+  "_source": {
+    "name": "facilitator_ph_sheets",
+    "path": "templates/report_ph.xlsx",
+    "url": "https://docs.google.com/spreadsheets/d/1-mqseKQFB9GrOIw6qPuObMcp8DcPsbAl2SvNyu-oKMc"
+  }
 }

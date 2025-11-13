@@ -20,8 +20,11 @@
       "completed_count": 2
     }
   ],
-  "_xlsxPath": "templates/PH onboarding templates.xlsx",
-  "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go",
+  "_source": {
+    "name": "facilitator_ph_sheets",
+    "path": "templates/PH onboarding templates.xlsx",
+    "url": "https://docs.google.com/spreadsheets/d/1hbzgC32cxSXAaoNK4Wf_J5yIDBllG9IHnwWoGmbaxeE"
+  },
   "_metadata": {
     "completed": {
       "type": "boolean"

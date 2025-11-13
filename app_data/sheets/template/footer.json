@@ -84,8 +84,11 @@
       }
     }
   ],
-  "_xlsxPath": "templates/footer.xlsx",
-  "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1Jo1-q7KOE4gC2XRKEMcU9bXnrwB5oCRC",
+  "_source": {
+    "name": "Facilitator Global Sheets",
+    "path": "templates/footer.xlsx",
+    "url": "https://docs.google.com/spreadsheets/d/1TJLdkVzmJwqIp-eoGbynrfZMCtRXdsjzYq9O-x-bHOQ"
+  },
   "_overrides": {
     "footer_ph": "@fields._deployment_name == \"plh_facilitator_ph\""
   }

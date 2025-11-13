@@ -16,6 +16,11 @@
     },
     {
       "type": "declare_global_constant",
+      "name": "onboarding_splash_manual_advance",
+      "value": false
+    },
+    {
+      "type": "declare_global_constant",
       "name": "has_onboarding_terms_login",
       "value": false
     },
@@ -49,6 +54,14 @@
     },
     {
       "type": "declare_global_constant",
+      "name": "onboarding_header_image_height",
+      "value": "200px",
+      "_translations": {
+        "value": {}
+      }
+    },
+    {
+      "type": "declare_global_constant",
       "name": "onboarding_footer_image_asset"
     },
     {
@@ -71,6 +84,14 @@
       "type": "declare_global_constant",
       "name": "login",
       "value": "Sign in",
+      "_translations": {
+        "value": {}
+      }
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "welcome_message_subtext",
+      "value": "@global.login",
       "_translations": {
         "value": {}
       }
@@ -202,6 +223,9 @@
       }
     }
   ],
-  "_xlsxPath": "PLH onboarding.xlsx",
-  "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1XBq4iGIZHEwzwPk3xbHDAm9WCesjR7kR"
+  "_source": {
+    "name": "library_PLH_onboarding",
+    "path": "PLH onboarding.xlsx",
+    "url": "https://docs.google.com/spreadsheets/d/1LUIu_aqkzYjyUq0ecQEmWJa62CEvQ4E2L4Fkz_94ydw"
+  }
 }

@@ -428,8 +428,7 @@
             "module_name",
             "@items[0].name"
           ],
-          "_raw": "data_changed | set_local : module_name: @items[0].name",
-          "_cleaned": "data_changed | set_local : module_name: @items[0].name"
+          "_raw": "data_changed | set_local : module_name: @items[0].name"
         }
       ],
       "parameter_list": {
@@ -1839,8 +1838,7 @@
                     "parent_count",
                     "@items.length"
                   ],
-                  "_raw": "data_changed | set_local : parent_count: @items.length",
-                  "_cleaned": "data_changed | set_local : parent_count: @items.length"
+                  "_raw": "data_changed | set_local : parent_count: @items.length"
                 }
               ],
               "parameter_list": {
@@ -2196,7 +2194,6 @@
                               "action_id": "set_item",
                               "args": [],
                               "_raw": "changed | set_item| @fields.current_module_no: this.value",
-                              "_cleaned": "changed | set_item| @fields.current_module_no: this.value",
                               "params": {
                                 "@fields.current_module_no": "this.value"
                               }
@@ -2219,14 +2216,6 @@
                             "action_list": {
                               "0": {
                                 "_raw": [
-                                  {
-                                    "fullExpression": "changed | set_item| @fields.current_module_no: this.value",
-                                    "matchedExpression": "@fields.current_module_no",
-                                    "type": "fields",
-                                    "fieldName": "current_module_no"
-                                  }
-                                ],
-                                "_cleaned": [
                                   {
                                     "fullExpression": "changed | set_item| @fields.current_module_no: this.value",
                                     "matchedExpression": "@fields.current_module_no",
@@ -2264,8 +2253,7 @@
                           "_dynamicDependencies": {
                             "@fields.current_module_no": [
                               "value",
-                              "action_list.0._raw",
-                              "action_list.0._cleaned"
+                              "action_list.0._raw"
                             ],
                             "@local.first_name": [
                               "parameter_list.label_text"
@@ -2291,7 +2279,6 @@
                               "action_id": "set_item",
                               "args": [],
                               "_raw": "changed | set_item| @fields.current_module_no: this.value",
-                              "_cleaned": "changed | set_item| @fields.current_module_no: this.value",
                               "params": {
                                 "@fields.current_module_no": "this.value"
                               }
@@ -2321,14 +2308,6 @@
                                     "type": "fields",
                                     "fieldName": "current_module_no"
                                   }
-                                ],
-                                "_cleaned": [
-                                  {
-                                    "fullExpression": "changed | set_item| @fields.current_module_no: this.value",
-                                    "matchedExpression": "@fields.current_module_no",
-                                    "type": "fields",
-                                    "fieldName": "current_module_no"
-                                  }
                                 ]
                               }
                             },
@@ -2344,8 +2323,7 @@
                           "_dynamicDependencies": {
                             "@fields.current_module_no": [
                               "value",
-                              "action_list.0._raw",
-                              "action_list.0._cleaned"
+                              "action_list.0._raw"
                             ],
                             "@item.id.display_group_1.parent_attend": [
                               "_nested_name"
@@ -2425,7 +2403,6 @@
                               "action_id": "set_item",
                               "args": [],
                               "_raw": "changed | set_item| @local.challenge_field: this.value",
-                              "_cleaned": "changed | set_item| @local.challenge_field: this.value",
                               "params": {
                                 "@local.challenge_field": "this.value"
                               }
@@ -2451,14 +2428,6 @@
                                     "type": "local",
                                     "fieldName": "challenge_field"
                                   }
-                                ],
-                                "_cleaned": [
-                                  {
-                                    "fullExpression": "changed | set_item| @local.challenge_field: this.value",
-                                    "matchedExpression": "@local.challenge_field",
-                                    "type": "local",
-                                    "fieldName": "challenge_field"
-                                  }
                                 ]
                               }
                             },
@@ -2474,8 +2443,7 @@
                           "_dynamicDependencies": {
                             "@local.challenge_field": [
                               "value",
-                              "action_list.0._raw",
-                              "action_list.0._cleaned"
+                              "action_list.0._raw"
                             ],
                             "@item.id.display_group_2.text_box_2": [
                               "_nested_name"
@@ -2773,7 +2741,6 @@
               "action_id": "add_data",
               "args": [],
               "_raw": "click | add_data | \n_list_id: report_answers,\ngroup_id: @field.current_group_no ,\nmodule_id: @field.current_module_no ,\narchived: false,\ntype: \"in_person\",\nquestion_1: @local.answer_1,\nquestion_2: @local.answer_2,\nquestion_3: @local.answer_3,\nquestion_4: @local.answer_4,\nquestion_5: @local.answer_5,\nquestion_6_1: @local.answer_6_1,\nquestion_6_2: @local.answer_6_2,\nquestion_6_3: @local.answer_6_3,\nquestion_6_4: @local.answer_6_4,\nquestion_6_5: @local.answer_6_5,\nquestion_6_6: @local.answer_6_6,\nquestion_6_7: @local.answer_6_7,\nquestion_6_8: @local.answer_6_8,\nquestion_6_9: @local.answer_6_9,\nquestion_6_10: @local.answer_6_10,\nquestion_7: @local.answer_7,\nquestion_8: @local.answer_8,\nquestion_9: @local.answer_9,\nquestion_10: @local.answer_10",
-              "_cleaned": "click | add_data | \n_list_id: report_answers,\ngroup_id: @field.current_group_no ,\nmodule_id: @field.current_module_no ,\narchived: false,\ntype: \"in_person\",\nquestion_1: @local.answer_1,\nquestion_2: @local.answer_2,\nquestion_3: @local.answer_3,\nquestion_4: @local.answer_4,\nquestion_5: @local.answer_5,\nquestion_6_1: @local.answer_6_1,\nquestion_6_2: @local.answer_6_2,\nquestion_6_3: @local.answer_6_3,\nquestion_6_4: @local.answer_6_4,\nquestion_6_5: @local.answer_6_5,\nquestion_6_6: @local.answer_6_6,\nquestion_6_7: @local.answer_6_7,\nquestion_6_8: @local.answer_6_8,\nquestion_6_9: @local.answer_6_9,\nquestion_6_10: @local.answer_6_10,\nquestion_7: @local.answer_7,\nquestion_8: @local.answer_8,\nquestion_9: @local.answer_9,\nquestion_10: @local.answer_10",
               "params": {
                 "_list_id": "report_answers",
                 "group_id": "@field.current_group_no",
@@ -2807,8 +2774,7 @@
               "args": [
                 "completed"
               ],
-              "_raw": "click | emit: completed",
-              "_cleaned": "click | emit: completed"
+              "_raw": "click | emit: completed"
             }
           ],
           "parameter_list": {
@@ -2819,134 +2785,6 @@
             "action_list": {
               "0": {
                 "_raw": [
-                  {
-                    "fullExpression": "click | add_data | \n_list_id: report_answers,\ngroup_id: @field.current_group_no ,\nmodule_id: @field.current_module_no ,\narchived: false,\ntype: \"in_person\",\nquestion_1: @local.answer_1,\nquestion_2: @local.answer_2,\nquestion_3: @local.answer_3,\nquestion_4: @local.answer_4,\nquestion_5: @local.answer_5,\nquestion_6_1: @local.answer_6_1,\nquestion_6_2: @local.answer_6_2,\nquestion_6_3: @local.answer_6_3,\nquestion_6_4: @local.answer_6_4,\nquestion_6_5: @local.answer_6_5,\nquestion_6_6: @local.answer_6_6,\nquestion_6_7: @local.answer_6_7,\nquestion_6_8: @local.answer_6_8,\nquestion_6_9: @local.answer_6_9,\nquestion_6_10: @local.answer_6_10,\nquestion_7: @local.answer_7,\nquestion_8: @local.answer_8,\nquestion_9: @local.answer_9,\nquestion_10: @local.answer_10",
-                    "matchedExpression": "@field.current_group_no",
-                    "type": "field",
-                    "fieldName": "current_group_no"
-                  },
-                  {
-                    "fullExpression": "click | add_data | \n_list_id: report_answers,\ngroup_id: @field.current_group_no ,\nmodule_id: @field.current_module_no ,\narchived: false,\ntype: \"in_person\",\nquestion_1: @local.answer_1,\nquestion_2: @local.answer_2,\nquestion_3: @local.answer_3,\nquestion_4: @local.answer_4,\nquestion_5: @local.answer_5,\nquestion_6_1: @local.answer_6_1,\nquestion_6_2: @local.answer_6_2,\nquestion_6_3: @local.answer_6_3,\nquestion_6_4: @local.answer_6_4,\nquestion_6_5: @local.answer_6_5,\nquestion_6_6: @local.answer_6_6,\nquestion_6_7: @local.answer_6_7,\nquestion_6_8: @local.answer_6_8,\nquestion_6_9: @local.answer_6_9,\nquestion_6_10: @local.answer_6_10,\nquestion_7: @local.answer_7,\nquestion_8: @local.answer_8,\nquestion_9: @local.answer_9,\nquestion_10: @local.answer_10",
-                    "matchedExpression": "@field.current_module_no",
-                    "type": "field",
-                    "fieldName": "current_module_no"
-                  },
-                  {
-                    "fullExpression": "click | add_data | \n_list_id: report_answers,\ngroup_id: @field.current_group_no ,\nmodule_id: @field.current_module_no ,\narchived: false,\ntype: \"in_person\",\nquestion_1: @local.answer_1,\nquestion_2: @local.answer_2,\nquestion_3: @local.answer_3,\nquestion_4: @local.answer_4,\nquestion_5: @local.answer_5,\nquestion_6_1: @local.answer_6_1,\nquestion_6_2: @local.answer_6_2,\nquestion_6_3: @local.answer_6_3,\nquestion_6_4: @local.answer_6_4,\nquestion_6_5: @local.answer_6_5,\nquestion_6_6: @local.answer_6_6,\nquestion_6_7: @local.answer_6_7,\nquestion_6_8: @local.answer_6_8,\nquestion_6_9: @local.answer_6_9,\nquestion_6_10: @local.answer_6_10,\nquestion_7: @local.answer_7,\nquestion_8: @local.answer_8,\nquestion_9: @local.answer_9,\nquestion_10: @local.answer_10",
-                    "matchedExpression": "@local.answer_1",
-                    "type": "local",
-                    "fieldName": "answer_1"
-                  },
-                  {
-                    "fullExpression": "click | add_data | \n_list_id: report_answers,\ngroup_id: @field.current_group_no ,\nmodule_id: @field.current_module_no ,\narchived: false,\ntype: \"in_person\",\nquestion_1: @local.answer_1,\nquestion_2: @local.answer_2,\nquestion_3: @local.answer_3,\nquestion_4: @local.answer_4,\nquestion_5: @local.answer_5,\nquestion_6_1: @local.answer_6_1,\nquestion_6_2: @local.answer_6_2,\nquestion_6_3: @local.answer_6_3,\nquestion_6_4: @local.answer_6_4,\nquestion_6_5: @local.answer_6_5,\nquestion_6_6: @local.answer_6_6,\nquestion_6_7: @local.answer_6_7,\nquestion_6_8: @local.answer_6_8,\nquestion_6_9: @local.answer_6_9,\nquestion_6_10: @local.answer_6_10,\nquestion_7: @local.answer_7,\nquestion_8: @local.answer_8,\nquestion_9: @local.answer_9,\nquestion_10: @local.answer_10",
-                    "matchedExpression": "@local.answer_2",
-                    "type": "local",
-                    "fieldName": "answer_2"
-                  },
-                  {
-                    "fullExpression": "click | add_data | \n_list_id: report_answers,\ngroup_id: @field.current_group_no ,\nmodule_id: @field.current_module_no ,\narchived: false,\ntype: \"in_person\",\nquestion_1: @local.answer_1,\nquestion_2: @local.answer_2,\nquestion_3: @local.answer_3,\nquestion_4: @local.answer_4,\nquestion_5: @local.answer_5,\nquestion_6_1: @local.answer_6_1,\nquestion_6_2: @local.answer_6_2,\nquestion_6_3: @local.answer_6_3,\nquestion_6_4: @local.answer_6_4,\nquestion_6_5: @local.answer_6_5,\nquestion_6_6: @local.answer_6_6,\nquestion_6_7: @local.answer_6_7,\nquestion_6_8: @local.answer_6_8,\nquestion_6_9: @local.answer_6_9,\nquestion_6_10: @local.answer_6_10,\nquestion_7: @local.answer_7,\nquestion_8: @local.answer_8,\nquestion_9: @local.answer_9,\nquestion_10: @local.answer_10",
-                    "matchedExpression": "@local.answer_3",
-                    "type": "local",
-                    "fieldName": "answer_3"
-                  },
-                  {
-                    "fullExpression": "click | add_data | \n_list_id: report_answers,\ngroup_id: @field.current_group_no ,\nmodule_id: @field.current_module_no ,\narchived: false,\ntype: \"in_person\",\nquestion_1: @local.answer_1,\nquestion_2: @local.answer_2,\nquestion_3: @local.answer_3,\nquestion_4: @local.answer_4,\nquestion_5: @local.answer_5,\nquestion_6_1: @local.answer_6_1,\nquestion_6_2: @local.answer_6_2,\nquestion_6_3: @local.answer_6_3,\nquestion_6_4: @local.answer_6_4,\nquestion_6_5: @local.answer_6_5,\nquestion_6_6: @local.answer_6_6,\nquestion_6_7: @local.answer_6_7,\nquestion_6_8: @local.answer_6_8,\nquestion_6_9: @local.answer_6_9,\nquestion_6_10: @local.answer_6_10,\nquestion_7: @local.answer_7,\nquestion_8: @local.answer_8,\nquestion_9: @local.answer_9,\nquestion_10: @local.answer_10",
-                    "matchedExpression": "@local.answer_4",
-                    "type": "local",
-                    "fieldName": "answer_4"
-                  },
-                  {
-                    "fullExpression": "click | add_data | \n_list_id: report_answers,\ngroup_id: @field.current_group_no ,\nmodule_id: @field.current_module_no ,\narchived: false,\ntype: \"in_person\",\nquestion_1: @local.answer_1,\nquestion_2: @local.answer_2,\nquestion_3: @local.answer_3,\nquestion_4: @local.answer_4,\nquestion_5: @local.answer_5,\nquestion_6_1: @local.answer_6_1,\nquestion_6_2: @local.answer_6_2,\nquestion_6_3: @local.answer_6_3,\nquestion_6_4: @local.answer_6_4,\nquestion_6_5: @local.answer_6_5,\nquestion_6_6: @local.answer_6_6,\nquestion_6_7: @local.answer_6_7,\nquestion_6_8: @local.answer_6_8,\nquestion_6_9: @local.answer_6_9,\nquestion_6_10: @local.answer_6_10,\nquestion_7: @local.answer_7,\nquestion_8: @local.answer_8,\nquestion_9: @local.answer_9,\nquestion_10: @local.answer_10",
-                    "matchedExpression": "@local.answer_5",
-                    "type": "local",
-                    "fieldName": "answer_5"
-                  },
-                  {
-                    "fullExpression": "click | add_data | \n_list_id: report_answers,\ngroup_id: @field.current_group_no ,\nmodule_id: @field.current_module_no ,\narchived: false,\ntype: \"in_person\",\nquestion_1: @local.answer_1,\nquestion_2: @local.answer_2,\nquestion_3: @local.answer_3,\nquestion_4: @local.answer_4,\nquestion_5: @local.answer_5,\nquestion_6_1: @local.answer_6_1,\nquestion_6_2: @local.answer_6_2,\nquestion_6_3: @local.answer_6_3,\nquestion_6_4: @local.answer_6_4,\nquestion_6_5: @local.answer_6_5,\nquestion_6_6: @local.answer_6_6,\nquestion_6_7: @local.answer_6_7,\nquestion_6_8: @local.answer_6_8,\nquestion_6_9: @local.answer_6_9,\nquestion_6_10: @local.answer_6_10,\nquestion_7: @local.answer_7,\nquestion_8: @local.answer_8,\nquestion_9: @local.answer_9,\nquestion_10: @local.answer_10",
-                    "matchedExpression": "@local.answer_6_1",
-                    "type": "local",
-                    "fieldName": "answer_6_1"
-                  },
-                  {
-                    "fullExpression": "click | add_data | \n_list_id: report_answers,\ngroup_id: @field.current_group_no ,\nmodule_id: @field.current_module_no ,\narchived: false,\ntype: \"in_person\",\nquestion_1: @local.answer_1,\nquestion_2: @local.answer_2,\nquestion_3: @local.answer_3,\nquestion_4: @local.answer_4,\nquestion_5: @local.answer_5,\nquestion_6_1: @local.answer_6_1,\nquestion_6_2: @local.answer_6_2,\nquestion_6_3: @local.answer_6_3,\nquestion_6_4: @local.answer_6_4,\nquestion_6_5: @local.answer_6_5,\nquestion_6_6: @local.answer_6_6,\nquestion_6_7: @local.answer_6_7,\nquestion_6_8: @local.answer_6_8,\nquestion_6_9: @local.answer_6_9,\nquestion_6_10: @local.answer_6_10,\nquestion_7: @local.answer_7,\nquestion_8: @local.answer_8,\nquestion_9: @local.answer_9,\nquestion_10: @local.answer_10",
-                    "matchedExpression": "@local.answer_6_2",
-                    "type": "local",
-                    "fieldName": "answer_6_2"
-                  },
-                  {
-                    "fullExpression": "click | add_data | \n_list_id: report_answers,\ngroup_id: @field.current_group_no ,\nmodule_id: @field.current_module_no ,\narchived: false,\ntype: \"in_person\",\nquestion_1: @local.answer_1,\nquestion_2: @local.answer_2,\nquestion_3: @local.answer_3,\nquestion_4: @local.answer_4,\nquestion_5: @local.answer_5,\nquestion_6_1: @local.answer_6_1,\nquestion_6_2: @local.answer_6_2,\nquestion_6_3: @local.answer_6_3,\nquestion_6_4: @local.answer_6_4,\nquestion_6_5: @local.answer_6_5,\nquestion_6_6: @local.answer_6_6,\nquestion_6_7: @local.answer_6_7,\nquestion_6_8: @local.answer_6_8,\nquestion_6_9: @local.answer_6_9,\nquestion_6_10: @local.answer_6_10,\nquestion_7: @local.answer_7,\nquestion_8: @local.answer_8,\nquestion_9: @local.answer_9,\nquestion_10: @local.answer_10",
-                    "matchedExpression": "@local.answer_6_3",
-                    "type": "local",
-                    "fieldName": "answer_6_3"
-                  },
-                  {
-                    "fullExpression": "click | add_data | \n_list_id: report_answers,\ngroup_id: @field.current_group_no ,\nmodule_id: @field.current_module_no ,\narchived: false,\ntype: \"in_person\",\nquestion_1: @local.answer_1,\nquestion_2: @local.answer_2,\nquestion_3: @local.answer_3,\nquestion_4: @local.answer_4,\nquestion_5: @local.answer_5,\nquestion_6_1: @local.answer_6_1,\nquestion_6_2: @local.answer_6_2,\nquestion_6_3: @local.answer_6_3,\nquestion_6_4: @local.answer_6_4,\nquestion_6_5: @local.answer_6_5,\nquestion_6_6: @local.answer_6_6,\nquestion_6_7: @local.answer_6_7,\nquestion_6_8: @local.answer_6_8,\nquestion_6_9: @local.answer_6_9,\nquestion_6_10: @local.answer_6_10,\nquestion_7: @local.answer_7,\nquestion_8: @local.answer_8,\nquestion_9: @local.answer_9,\nquestion_10: @local.answer_10",
-                    "matchedExpression": "@local.answer_6_4",
-                    "type": "local",
-                    "fieldName": "answer_6_4"
-                  },
-                  {
-                    "fullExpression": "click | add_data | \n_list_id: report_answers,\ngroup_id: @field.current_group_no ,\nmodule_id: @field.current_module_no ,\narchived: false,\ntype: \"in_person\",\nquestion_1: @local.answer_1,\nquestion_2: @local.answer_2,\nquestion_3: @local.answer_3,\nquestion_4: @local.answer_4,\nquestion_5: @local.answer_5,\nquestion_6_1: @local.answer_6_1,\nquestion_6_2: @local.answer_6_2,\nquestion_6_3: @local.answer_6_3,\nquestion_6_4: @local.answer_6_4,\nquestion_6_5: @local.answer_6_5,\nquestion_6_6: @local.answer_6_6,\nquestion_6_7: @local.answer_6_7,\nquestion_6_8: @local.answer_6_8,\nquestion_6_9: @local.answer_6_9,\nquestion_6_10: @local.answer_6_10,\nquestion_7: @local.answer_7,\nquestion_8: @local.answer_8,\nquestion_9: @local.answer_9,\nquestion_10: @local.answer_10",
-                    "matchedExpression": "@local.answer_6_5",
-                    "type": "local",
-                    "fieldName": "answer_6_5"
-                  },
-                  {
-                    "fullExpression": "click | add_data | \n_list_id: report_answers,\ngroup_id: @field.current_group_no ,\nmodule_id: @field.current_module_no ,\narchived: false,\ntype: \"in_person\",\nquestion_1: @local.answer_1,\nquestion_2: @local.answer_2,\nquestion_3: @local.answer_3,\nquestion_4: @local.answer_4,\nquestion_5: @local.answer_5,\nquestion_6_1: @local.answer_6_1,\nquestion_6_2: @local.answer_6_2,\nquestion_6_3: @local.answer_6_3,\nquestion_6_4: @local.answer_6_4,\nquestion_6_5: @local.answer_6_5,\nquestion_6_6: @local.answer_6_6,\nquestion_6_7: @local.answer_6_7,\nquestion_6_8: @local.answer_6_8,\nquestion_6_9: @local.answer_6_9,\nquestion_6_10: @local.answer_6_10,\nquestion_7: @local.answer_7,\nquestion_8: @local.answer_8,\nquestion_9: @local.answer_9,\nquestion_10: @local.answer_10",
-                    "matchedExpression": "@local.answer_6_6",
-                    "type": "local",
-                    "fieldName": "answer_6_6"
-                  },
-                  {
-                    "fullExpression": "click | add_data | \n_list_id: report_answers,\ngroup_id: @field.current_group_no ,\nmodule_id: @field.current_module_no ,\narchived: false,\ntype: \"in_person\",\nquestion_1: @local.answer_1,\nquestion_2: @local.answer_2,\nquestion_3: @local.answer_3,\nquestion_4: @local.answer_4,\nquestion_5: @local.answer_5,\nquestion_6_1: @local.answer_6_1,\nquestion_6_2: @local.answer_6_2,\nquestion_6_3: @local.answer_6_3,\nquestion_6_4: @local.answer_6_4,\nquestion_6_5: @local.answer_6_5,\nquestion_6_6: @local.answer_6_6,\nquestion_6_7: @local.answer_6_7,\nquestion_6_8: @local.answer_6_8,\nquestion_6_9: @local.answer_6_9,\nquestion_6_10: @local.answer_6_10,\nquestion_7: @local.answer_7,\nquestion_8: @local.answer_8,\nquestion_9: @local.answer_9,\nquestion_10: @local.answer_10",
-                    "matchedExpression": "@local.answer_6_7",
-                    "type": "local",
-                    "fieldName": "answer_6_7"
-                  },
-                  {
-                    "fullExpression": "click | add_data | \n_list_id: report_answers,\ngroup_id: @field.current_group_no ,\nmodule_id: @field.current_module_no ,\narchived: false,\ntype: \"in_person\",\nquestion_1: @local.answer_1,\nquestion_2: @local.answer_2,\nquestion_3: @local.answer_3,\nquestion_4: @local.answer_4,\nquestion_5: @local.answer_5,\nquestion_6_1: @local.answer_6_1,\nquestion_6_2: @local.answer_6_2,\nquestion_6_3: @local.answer_6_3,\nquestion_6_4: @local.answer_6_4,\nquestion_6_5: @local.answer_6_5,\nquestion_6_6: @local.answer_6_6,\nquestion_6_7: @local.answer_6_7,\nquestion_6_8: @local.answer_6_8,\nquestion_6_9: @local.answer_6_9,\nquestion_6_10: @local.answer_6_10,\nquestion_7: @local.answer_7,\nquestion_8: @local.answer_8,\nquestion_9: @local.answer_9,\nquestion_10: @local.answer_10",
-                    "matchedExpression": "@local.answer_6_8",
-                    "type": "local",
-                    "fieldName": "answer_6_8"
-                  },
-                  {
-                    "fullExpression": "click | add_data | \n_list_id: report_answers,\ngroup_id: @field.current_group_no ,\nmodule_id: @field.current_module_no ,\narchived: false,\ntype: \"in_person\",\nquestion_1: @local.answer_1,\nquestion_2: @local.answer_2,\nquestion_3: @local.answer_3,\nquestion_4: @local.answer_4,\nquestion_5: @local.answer_5,\nquestion_6_1: @local.answer_6_1,\nquestion_6_2: @local.answer_6_2,\nquestion_6_3: @local.answer_6_3,\nquestion_6_4: @local.answer_6_4,\nquestion_6_5: @local.answer_6_5,\nquestion_6_6: @local.answer_6_6,\nquestion_6_7: @local.answer_6_7,\nquestion_6_8: @local.answer_6_8,\nquestion_6_9: @local.answer_6_9,\nquestion_6_10: @local.answer_6_10,\nquestion_7: @local.answer_7,\nquestion_8: @local.answer_8,\nquestion_9: @local.answer_9,\nquestion_10: @local.answer_10",
-                    "matchedExpression": "@local.answer_6_9",
-                    "type": "local",
-                    "fieldName": "answer_6_9"
-                  },
-                  {
-                    "fullExpression": "click | add_data | \n_list_id: report_answers,\ngroup_id: @field.current_group_no ,\nmodule_id: @field.current_module_no ,\narchived: false,\ntype: \"in_person\",\nquestion_1: @local.answer_1,\nquestion_2: @local.answer_2,\nquestion_3: @local.answer_3,\nquestion_4: @local.answer_4,\nquestion_5: @local.answer_5,\nquestion_6_1: @local.answer_6_1,\nquestion_6_2: @local.answer_6_2,\nquestion_6_3: @local.answer_6_3,\nquestion_6_4: @local.answer_6_4,\nquestion_6_5: @local.answer_6_5,\nquestion_6_6: @local.answer_6_6,\nquestion_6_7: @local.answer_6_7,\nquestion_6_8: @local.answer_6_8,\nquestion_6_9: @local.answer_6_9,\nquestion_6_10: @local.answer_6_10,\nquestion_7: @local.answer_7,\nquestion_8: @local.answer_8,\nquestion_9: @local.answer_9,\nquestion_10: @local.answer_10",
-                    "matchedExpression": "@local.answer_6_10",
-                    "type": "local",
-                    "fieldName": "answer_6_10"
-                  },
-                  {
-                    "fullExpression": "click | add_data | \n_list_id: report_answers,\ngroup_id: @field.current_group_no ,\nmodule_id: @field.current_module_no ,\narchived: false,\ntype: \"in_person\",\nquestion_1: @local.answer_1,\nquestion_2: @local.answer_2,\nquestion_3: @local.answer_3,\nquestion_4: @local.answer_4,\nquestion_5: @local.answer_5,\nquestion_6_1: @local.answer_6_1,\nquestion_6_2: @local.answer_6_2,\nquestion_6_3: @local.answer_6_3,\nquestion_6_4: @local.answer_6_4,\nquestion_6_5: @local.answer_6_5,\nquestion_6_6: @local.answer_6_6,\nquestion_6_7: @local.answer_6_7,\nquestion_6_8: @local.answer_6_8,\nquestion_6_9: @local.answer_6_9,\nquestion_6_10: @local.answer_6_10,\nquestion_7: @local.answer_7,\nquestion_8: @local.answer_8,\nquestion_9: @local.answer_9,\nquestion_10: @local.answer_10",
-                    "matchedExpression": "@local.answer_7",
-                    "type": "local",
-                    "fieldName": "answer_7"
-                  },
-                  {
-                    "fullExpression": "click | add_data | \n_list_id: report_answers,\ngroup_id: @field.current_group_no ,\nmodule_id: @field.current_module_no ,\narchived: false,\ntype: \"in_person\",\nquestion_1: @local.answer_1,\nquestion_2: @local.answer_2,\nquestion_3: @local.answer_3,\nquestion_4: @local.answer_4,\nquestion_5: @local.answer_5,\nquestion_6_1: @local.answer_6_1,\nquestion_6_2: @local.answer_6_2,\nquestion_6_3: @local.answer_6_3,\nquestion_6_4: @local.answer_6_4,\nquestion_6_5: @local.answer_6_5,\nquestion_6_6: @local.answer_6_6,\nquestion_6_7: @local.answer_6_7,\nquestion_6_8: @local.answer_6_8,\nquestion_6_9: @local.answer_6_9,\nquestion_6_10: @local.answer_6_10,\nquestion_7: @local.answer_7,\nquestion_8: @local.answer_8,\nquestion_9: @local.answer_9,\nquestion_10: @local.answer_10",
-                    "matchedExpression": "@local.answer_8",
-                    "type": "local",
-                    "fieldName": "answer_8"
-                  },
-                  {
-                    "fullExpression": "click | add_data | \n_list_id: report_answers,\ngroup_id: @field.current_group_no ,\nmodule_id: @field.current_module_no ,\narchived: false,\ntype: \"in_person\",\nquestion_1: @local.answer_1,\nquestion_2: @local.answer_2,\nquestion_3: @local.answer_3,\nquestion_4: @local.answer_4,\nquestion_5: @local.answer_5,\nquestion_6_1: @local.answer_6_1,\nquestion_6_2: @local.answer_6_2,\nquestion_6_3: @local.answer_6_3,\nquestion_6_4: @local.answer_6_4,\nquestion_6_5: @local.answer_6_5,\nquestion_6_6: @local.answer_6_6,\nquestion_6_7: @local.answer_6_7,\nquestion_6_8: @local.answer_6_8,\nquestion_6_9: @local.answer_6_9,\nquestion_6_10: @local.answer_6_10,\nquestion_7: @local.answer_7,\nquestion_8: @local.answer_8,\nquestion_9: @local.answer_9,\nquestion_10: @local.answer_10",
-                    "matchedExpression": "@local.answer_9",
-                    "type": "local",
-                    "fieldName": "answer_9"
-                  },
-                  {
-                    "fullExpression": "click | add_data | \n_list_id: report_answers,\ngroup_id: @field.current_group_no ,\nmodule_id: @field.current_module_no ,\narchived: false,\ntype: \"in_person\",\nquestion_1: @local.answer_1,\nquestion_2: @local.answer_2,\nquestion_3: @local.answer_3,\nquestion_4: @local.answer_4,\nquestion_5: @local.answer_5,\nquestion_6_1: @local.answer_6_1,\nquestion_6_2: @local.answer_6_2,\nquestion_6_3: @local.answer_6_3,\nquestion_6_4: @local.answer_6_4,\nquestion_6_5: @local.answer_6_5,\nquestion_6_6: @local.answer_6_6,\nquestion_6_7: @local.answer_6_7,\nquestion_6_8: @local.answer_6_8,\nquestion_6_9: @local.answer_6_9,\nquestion_6_10: @local.answer_6_10,\nquestion_7: @local.answer_7,\nquestion_8: @local.answer_8,\nquestion_9: @local.answer_9,\nquestion_10: @local.answer_10",
-                    "matchedExpression": "@local.answer_10",
-                    "type": "local",
-                    "fieldName": "answer_10"
-                  }
-                ],
-                "_cleaned": [
                   {
                     "fullExpression": "click | add_data | \n_list_id: report_answers,\ngroup_id: @field.current_group_no ,\nmodule_id: @field.current_module_no ,\narchived: false,\ntype: \"in_person\",\nquestion_1: @local.answer_1,\nquestion_2: @local.answer_2,\nquestion_3: @local.answer_3,\nquestion_4: @local.answer_4,\nquestion_5: @local.answer_5,\nquestion_6_1: @local.answer_6_1,\nquestion_6_2: @local.answer_6_2,\nquestion_6_3: @local.answer_6_3,\nquestion_6_4: @local.answer_6_4,\nquestion_6_5: @local.answer_6_5,\nquestion_6_6: @local.answer_6_6,\nquestion_6_7: @local.answer_6_7,\nquestion_6_8: @local.answer_6_8,\nquestion_6_9: @local.answer_6_9,\nquestion_6_10: @local.answer_6_10,\nquestion_7: @local.answer_7,\nquestion_8: @local.answer_8,\nquestion_9: @local.answer_9,\nquestion_10: @local.answer_10",
                     "matchedExpression": "@field.current_group_no",
@@ -3260,107 +3098,86 @@
           "_dynamicDependencies": {
             "@field.current_group_no": [
               "action_list.0._raw",
-              "action_list.0._cleaned",
               "action_list.0.params.group_id"
             ],
             "@field.current_module_no": [
               "action_list.0._raw",
-              "action_list.0._cleaned",
               "action_list.0.params.module_id"
             ],
             "@local.answer_1": [
               "action_list.0._raw",
-              "action_list.0._cleaned",
               "action_list.0.params.question_1"
             ],
             "@local.answer_2": [
               "action_list.0._raw",
-              "action_list.0._cleaned",
               "action_list.0.params.question_2"
             ],
             "@local.answer_3": [
               "action_list.0._raw",
-              "action_list.0._cleaned",
               "action_list.0.params.question_3"
             ],
             "@local.answer_4": [
               "action_list.0._raw",
-              "action_list.0._cleaned",
               "action_list.0.params.question_4"
             ],
             "@local.answer_5": [
               "action_list.0._raw",
-              "action_list.0._cleaned",
               "action_list.0.params.question_5"
             ],
             "@local.answer_6_1": [
               "action_list.0._raw",
-              "action_list.0._cleaned",
               "action_list.0.params.question_6_1"
             ],
             "@local.answer_6_2": [
               "action_list.0._raw",
-              "action_list.0._cleaned",
               "action_list.0.params.question_6_2"
             ],
             "@local.answer_6_3": [
               "action_list.0._raw",
-              "action_list.0._cleaned",
               "action_list.0.params.question_6_3"
             ],
             "@local.answer_6_4": [
               "action_list.0._raw",
-              "action_list.0._cleaned",
               "action_list.0.params.question_6_4"
             ],
             "@local.answer_6_5": [
               "action_list.0._raw",
-              "action_list.0._cleaned",
               "action_list.0.params.question_6_5"
             ],
             "@local.answer_6_6": [
               "action_list.0._raw",
-              "action_list.0._cleaned",
               "action_list.0.params.question_6_6"
             ],
             "@local.answer_6_7": [
               "action_list.0._raw",
-              "action_list.0._cleaned",
               "action_list.0.params.question_6_7"
             ],
             "@local.answer_6_8": [
               "action_list.0._raw",
-              "action_list.0._cleaned",
               "action_list.0.params.question_6_8"
             ],
             "@local.answer_6_9": [
               "action_list.0._raw",
-              "action_list.0._cleaned",
               "action_list.0.params.question_6_9"
             ],
             "@local.answer_6_10": [
               "action_list.0._raw",
-              "action_list.0._cleaned",
               "action_list.0.params.question_6_10"
             ],
             "@local.answer_7": [
               "action_list.0._raw",
-              "action_list.0._cleaned",
               "action_list.0.params.question_7"
             ],
             "@local.answer_8": [
               "action_list.0._raw",
-              "action_list.0._cleaned",
               "action_list.0.params.question_8"
             ],
             "@local.answer_9": [
               "action_list.0._raw",
-              "action_list.0._cleaned",
               "action_list.0.params.question_9"
             ],
             "@local.answer_10": [
               "action_list.0._raw",
-              "action_list.0._cleaned",
               "action_list.0.params.question_10"
             ],
             "!@local.valid": [
@@ -3373,6 +3190,9 @@
       "_nested_name": "display_group_31"
     }
   ],
-  "_xlsxPath": "templates/report_ph.xlsx",
-  "_sheetsFolderUrl": "https://drive.google.com/drive/u/0/folders/1SUErA3iOev9XiOkQfOmmiDHtvnKRY6Go"
+  "_source": {
+    "name": "facilitator_ph_sheets",
+    "path": "templates/report_ph.xlsx",
+    "url": "https://docs.google.com/spreadsheets/d/1-mqseKQFB9GrOIw6qPuObMcp8DcPsbAl2SvNyu-oKMc"
+  }
 }
