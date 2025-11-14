@@ -431,6 +431,21 @@
       }
     },
     {
+      "name": "form_notification_action_list",
+      "value": [
+        {
+          "trigger": "notification_interacted",
+          "action_id": "go_to",
+          "args": [
+            "reports"
+          ],
+          "_raw": "notification_interacted | go_to : reports"
+        }
+      ],
+      "type": "set_variable",
+      "_nested_name": "form_notification_action_list"
+    },
+    {
       "type": "items",
       "name": "select_random_form_notification",
       "value": "@data.notification_messages",
@@ -1103,7 +1118,7 @@
           "style_list": [
             "margin-block: -48px"
           ],
-          "_nested_name": "display_group_36.lottie",
+          "_nested_name": "display_group_37.lottie",
           "_dynamicFields": {
             "value": [
               {
@@ -1143,7 +1158,7 @@
           },
           "exclude_from_translation": true,
           "condition": "!@local.message_shared && !@local.has_cofacilitator",
-          "_nested_name": "display_group_36.nothing_shared",
+          "_nested_name": "display_group_37.nothing_shared",
           "_dynamicFields": {
             "value": [
               {
@@ -1192,7 +1207,7 @@
           },
           "exclude_from_translation": true,
           "condition": "@local.report_count > 0",
-          "_nested_name": "display_group_36.finish_text",
+          "_nested_name": "display_group_37.finish_text",
           "_dynamicFields": {
             "value": [
               {
@@ -1248,7 +1263,7 @@
           ],
           "exclude_from_translation": true,
           "condition": "@local.report_count > 0",
-          "_nested_name": "display_group_36.existing_report",
+          "_nested_name": "display_group_37.existing_report",
           "_dynamicFields": {
             "value": [
               {
@@ -1335,12 +1350,13 @@
               "args": [
                 "create"
               ],
-              "_raw": "click | notification: create |\nid: @local.form_notification_id,\ntitle: @local.form_notification_title,\ntext: @local.form_notification_text,\nschedule_at: @local.form_notification_datetime",
+              "_raw": "click | notification: create |\nid: @local.form_notification_id,\ntitle: @local.form_notification_title,\ntext: @local.form_notification_text,\nschedule_at: @local.form_notification_datetime,\naction_list: @local.form_notification_action_list",
               "params": {
                 "id": "@local.form_notification_id",
                 "title": "@local.form_notification_title",
                 "text": "@local.form_notification_text",
-                "schedule_at": "@local.form_notification_datetime"
+                "schedule_at": "@local.form_notification_datetime",
+                "action_list": "@local.form_notification_action_list"
               }
             },
             {
@@ -1359,7 +1375,7 @@
             "disabled": "(!@local.message_shared && !@local.has_cofacilitator)"
           },
           "condition": "(@local.report_count == 0 && @fields.current_report_id != \"empty\") && @local.next_module_complete",
-          "_nested_name": "display_group_36.new_report",
+          "_nested_name": "display_group_37.new_report",
           "_dynamicFields": {
             "value": [
               {
@@ -1399,28 +1415,34 @@
               "2": {
                 "_raw": [
                   {
-                    "fullExpression": "click | notification: create |\nid: @local.form_notification_id,\ntitle: @local.form_notification_title,\ntext: @local.form_notification_text,\nschedule_at: @local.form_notification_datetime",
+                    "fullExpression": "click | notification: create |\nid: @local.form_notification_id,\ntitle: @local.form_notification_title,\ntext: @local.form_notification_text,\nschedule_at: @local.form_notification_datetime,\naction_list: @local.form_notification_action_list",
                     "matchedExpression": "@local.form_notification_id",
                     "type": "local",
                     "fieldName": "form_notification_id"
                   },
                   {
-                    "fullExpression": "click | notification: create |\nid: @local.form_notification_id,\ntitle: @local.form_notification_title,\ntext: @local.form_notification_text,\nschedule_at: @local.form_notification_datetime",
+                    "fullExpression": "click | notification: create |\nid: @local.form_notification_id,\ntitle: @local.form_notification_title,\ntext: @local.form_notification_text,\nschedule_at: @local.form_notification_datetime,\naction_list: @local.form_notification_action_list",
                     "matchedExpression": "@local.form_notification_title",
                     "type": "local",
                     "fieldName": "form_notification_title"
                   },
                   {
-                    "fullExpression": "click | notification: create |\nid: @local.form_notification_id,\ntitle: @local.form_notification_title,\ntext: @local.form_notification_text,\nschedule_at: @local.form_notification_datetime",
+                    "fullExpression": "click | notification: create |\nid: @local.form_notification_id,\ntitle: @local.form_notification_title,\ntext: @local.form_notification_text,\nschedule_at: @local.form_notification_datetime,\naction_list: @local.form_notification_action_list",
                     "matchedExpression": "@local.form_notification_text",
                     "type": "local",
                     "fieldName": "form_notification_text"
                   },
                   {
-                    "fullExpression": "click | notification: create |\nid: @local.form_notification_id,\ntitle: @local.form_notification_title,\ntext: @local.form_notification_text,\nschedule_at: @local.form_notification_datetime",
+                    "fullExpression": "click | notification: create |\nid: @local.form_notification_id,\ntitle: @local.form_notification_title,\ntext: @local.form_notification_text,\nschedule_at: @local.form_notification_datetime,\naction_list: @local.form_notification_action_list",
                     "matchedExpression": "@local.form_notification_datetime",
                     "type": "local",
                     "fieldName": "form_notification_datetime"
+                  },
+                  {
+                    "fullExpression": "click | notification: create |\nid: @local.form_notification_id,\ntitle: @local.form_notification_title,\ntext: @local.form_notification_text,\nschedule_at: @local.form_notification_datetime,\naction_list: @local.form_notification_action_list",
+                    "matchedExpression": "@local.form_notification_action_list",
+                    "type": "local",
+                    "fieldName": "form_notification_action_list"
                   }
                 ],
                 "params": {
@@ -1454,6 +1476,14 @@
                       "matchedExpression": "@local.form_notification_datetime",
                       "type": "local",
                       "fieldName": "form_notification_datetime"
+                    }
+                  ],
+                  "action_list": [
+                    {
+                      "fullExpression": "@local.form_notification_action_list",
+                      "matchedExpression": "@local.form_notification_action_list",
+                      "type": "local",
+                      "fieldName": "form_notification_action_list"
                     }
                   ]
                 }
@@ -1543,6 +1573,10 @@
               "action_list.2._raw",
               "action_list.2.params.schedule_at"
             ],
+            "@local.form_notification_action_list": [
+              "action_list.2._raw",
+              "action_list.2.params.action_list"
+            ],
             "@local.module_notification_id": [
               "action_list.3._raw",
               "action_list.3.params.id"
@@ -1597,12 +1631,13 @@
               "args": [
                 "create"
               ],
-              "_raw": "click | notification: create |\nid: @local.form_notification_id,\ntitle: @local.form_notification_title,\ntext: @local.form_notification_text,\nschedule_at: @local.form_notification_datetime",
+              "_raw": "click | notification: create |\nid: @local.form_notification_id,\ntitle: @local.form_notification_title,\ntext: @local.form_notification_text,\nschedule_at: @local.form_notification_datetime,\naction_list: @local.form_notification_action_list",
               "params": {
                 "id": "@local.form_notification_id",
                 "title": "@local.form_notification_title",
                 "text": "@local.form_notification_text",
-                "schedule_at": "@local.form_notification_datetime"
+                "schedule_at": "@local.form_notification_datetime",
+                "action_list": "@local.form_notification_action_list"
               }
             },
             {
@@ -1635,7 +1670,7 @@
             "disabled": "(!@local.message_shared && !@local.has_cofacilitator)"
           },
           "condition": "(@local.report_count == 0 && @fields.current_report_id != \"empty\") && !@local.next_module_complete",
-          "_nested_name": "display_group_36.new_report",
+          "_nested_name": "display_group_37.new_report",
           "_dynamicFields": {
             "value": [
               {
@@ -1675,28 +1710,34 @@
               "2": {
                 "_raw": [
                   {
-                    "fullExpression": "click | notification: create |\nid: @local.form_notification_id,\ntitle: @local.form_notification_title,\ntext: @local.form_notification_text,\nschedule_at: @local.form_notification_datetime",
+                    "fullExpression": "click | notification: create |\nid: @local.form_notification_id,\ntitle: @local.form_notification_title,\ntext: @local.form_notification_text,\nschedule_at: @local.form_notification_datetime,\naction_list: @local.form_notification_action_list",
                     "matchedExpression": "@local.form_notification_id",
                     "type": "local",
                     "fieldName": "form_notification_id"
                   },
                   {
-                    "fullExpression": "click | notification: create |\nid: @local.form_notification_id,\ntitle: @local.form_notification_title,\ntext: @local.form_notification_text,\nschedule_at: @local.form_notification_datetime",
+                    "fullExpression": "click | notification: create |\nid: @local.form_notification_id,\ntitle: @local.form_notification_title,\ntext: @local.form_notification_text,\nschedule_at: @local.form_notification_datetime,\naction_list: @local.form_notification_action_list",
                     "matchedExpression": "@local.form_notification_title",
                     "type": "local",
                     "fieldName": "form_notification_title"
                   },
                   {
-                    "fullExpression": "click | notification: create |\nid: @local.form_notification_id,\ntitle: @local.form_notification_title,\ntext: @local.form_notification_text,\nschedule_at: @local.form_notification_datetime",
+                    "fullExpression": "click | notification: create |\nid: @local.form_notification_id,\ntitle: @local.form_notification_title,\ntext: @local.form_notification_text,\nschedule_at: @local.form_notification_datetime,\naction_list: @local.form_notification_action_list",
                     "matchedExpression": "@local.form_notification_text",
                     "type": "local",
                     "fieldName": "form_notification_text"
                   },
                   {
-                    "fullExpression": "click | notification: create |\nid: @local.form_notification_id,\ntitle: @local.form_notification_title,\ntext: @local.form_notification_text,\nschedule_at: @local.form_notification_datetime",
+                    "fullExpression": "click | notification: create |\nid: @local.form_notification_id,\ntitle: @local.form_notification_title,\ntext: @local.form_notification_text,\nschedule_at: @local.form_notification_datetime,\naction_list: @local.form_notification_action_list",
                     "matchedExpression": "@local.form_notification_datetime",
                     "type": "local",
                     "fieldName": "form_notification_datetime"
+                  },
+                  {
+                    "fullExpression": "click | notification: create |\nid: @local.form_notification_id,\ntitle: @local.form_notification_title,\ntext: @local.form_notification_text,\nschedule_at: @local.form_notification_datetime,\naction_list: @local.form_notification_action_list",
+                    "matchedExpression": "@local.form_notification_action_list",
+                    "type": "local",
+                    "fieldName": "form_notification_action_list"
                   }
                 ],
                 "params": {
@@ -1730,6 +1771,14 @@
                       "matchedExpression": "@local.form_notification_datetime",
                       "type": "local",
                       "fieldName": "form_notification_datetime"
+                    }
+                  ],
+                  "action_list": [
+                    {
+                      "fullExpression": "@local.form_notification_action_list",
+                      "matchedExpression": "@local.form_notification_action_list",
+                      "type": "local",
+                      "fieldName": "form_notification_action_list"
                     }
                   ]
                 }
@@ -1881,6 +1930,10 @@
               "action_list.2._raw",
               "action_list.2.params.schedule_at"
             ],
+            "@local.form_notification_action_list": [
+              "action_list.2._raw",
+              "action_list.2.params.action_list"
+            ],
             "@local.next_module_notification_id": [
               "action_list.3._raw",
               "action_list.3.params.id"
@@ -1951,7 +2004,7 @@
           },
           "exclude_from_translation": true,
           "condition": "@fields.current_report_id == \"empty\" && !@local.module_complete",
-          "_nested_name": "display_group_36.complete_module",
+          "_nested_name": "display_group_37.complete_module",
           "_dynamicFields": {
             "value": [
               {
@@ -2046,8 +2099,8 @@
           }
         }
       ],
-      "name": "display_group_36",
-      "_nested_name": "display_group_36",
+      "name": "display_group_37",
+      "_nested_name": "display_group_37",
       "_dynamicFields": {
         "condition": [
           {
