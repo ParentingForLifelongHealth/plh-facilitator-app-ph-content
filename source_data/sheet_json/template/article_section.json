@@ -1,0 +1,43 @@
+{
+  "flow_type": "template",
+  "flow_name": "article_section",
+  "status": "released",
+  "rows": [
+    {
+      "name": "article_id",
+      "value": "test",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "begin_data_items",
+      "name": "loop_sections",
+      "value": "@data.a_sections",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "begin_template",
+      "name": "section_element",
+      "value": "section_element",
+      "condition": "@item.foreign_key == @local.article_id",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "title",
+      "value": "@item.title",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "text",
+      "value": "@item.text",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "end_template",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "end_data_items",
+      "exclude_from_translation": true
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "flow_type": "template",
+  "flow_name": "popup_nav",
+  "status": "released",
+  "rows": [
+    {
+      "name": "show_previous"
+    },
+    {
+      "name": "show_next"
+    },
+    {
+      "name": "completed_field",
+      "value": "completed_@fields.current_group_no"
+    },
+    {
+      "name": "pages_complete_field",
+      "value": "pages_@fields.current_group_no"
+    },
+    {
+      "name": "module_id",
+      "value": "@fields.current_module_no"
+    },
+    {
+      "name": "group_id",
+      "value": "@fields.current_group_no"
+    },
+    {
+      "name": "group",
+      "value": "_group"
+    },
+    {
+      "name": "module_complete",
+      "value": false
+    },
+    {
+      "name": "module_index",
+      "value": 0
+    },
+    {
+      "type": "data_items",
+      "name": "get_module_complete",
+      "value": "@data.modules",
+      "action_list": "data_changed | set_local : module_complete : @items[0]?.@local.completed_field;\ndata_changed | set_local : module_index: @items[0]?.row_index;",
+      "parameter_list": "filter: @item.id == @fields.current_module_no;",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "module_notification_id",
+      "value": "module_@local.module_id@local.group@local.group_id"
+    },
+    {
+      "name": "next_module_index",
+      "value": "@local.module_index + 1",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "next_module_id"
+    },
+    {
+      "name": "next_module_complete"
+    },
+    {
+      "type": "data_items",
+      "name": "get_next_module_props",
+      "value": "@data.modules",
+      "action_list": "data_changed | set_local : next_module_id : @items[0]?.id;\ndata_changed | set_local : next_module_complete : @items[0]?.@local.completed_field;",
+      "parameter_list": "filter: @item.row_index == @local.next_module_index",
+      "comment": "Having a condition on this row makes that next_module_id does not get defined"
+    },
+    {
+      "name": "next_module_notification_id",
+      "value": "module_@local.next_module_id@local.group@local.group_id"
+    },
+    {
+      "name": "next_module_notification_datetime",
+      "value": "@calc(date_fns.addDays(now(),2))"
+    },
+    {
+      "type": "begin_items",
+      "name": "select_random_next_module_notification",
+      "value": "@data.notification_messages",
+      "parameter_list": "filter: @item.type == \"next_module_reminder\"; \nshuffle;\nlimit:1",
+      "comment": "Workaround: doing this with data_items + data_changed caused the local vars to be reevaluated a lot of times"
+    },
+    {
+      "name": "next_module_notification_text",
+      "value": "@item.text"
+    },
+    {
+      "name": "next_module_notification_title",
+      "value": "@item.title"
+    },
+    {
+      "type": "end_items"
+    },
+    {
+      "type": "begin_display_group",
+      "parameter_list": "sticky: bottom;\nstyle: background_solid;",
+      "style_list": "padding: 12px 24px;"
+    },
+    {
+      "type": "round_button",
+      "name": "previous_article",
+      "action_list": "click | emit:uncompleted;",
+      "parameter_list": "variant: no-background; \nicon_src: images/icons/arrow_back.svg;",
+      "condition": "@local.show_previous"
+    },
+    {
+      "type": "text",
+      "name": "spacer",
+      "style_list": "flex: 1"
+    },
+    {
+      "type": "round_button",
+      "name": "next_article",
+      "action_list": "click | emit:completed;",
+      "parameter_list": "icon_src: images/icons/arrow_forward.svg;",
+      "condition": "@local.show_next"
+    },
+    {
+      "type": "round_button",
+      "name": "go_module_final",
+      "action_list": "click | nav_stack: close_all;\nclick | go_to : module_final;\nclick | emit:completed; \nclick | set_data |\n_list_id: modules,\n_id: @fields.current_module_no,\n@local.pages_complete_field: true;",
+      "parameter_list": "icon_src: images/icons/checkmark-outline.svg;",
+      "condition": "!@local.show_next && @local.show_previous"
+    },
+    {
+      "type": "round_button",
+      "name": "go_modules_and_complete",
+      "action_list": "click | nav_stack: close_all;\nclick | set_data |\n_list_id: modules,\n_id: @fields.current_module_no,\n@local.completed_field: true,\n@local.pages_complete_field: true;\nclick | notification: create |\nid: module_@local.next_module_id@local.group@local.group_id,\ntitle: @local.next_module_notification_title,\ntext: @local.next_module_notification_text,\nschedule_at: @local.next_module_notification_datetime;\nclick | notification: cancel | id: @local.module_notification_id;\nclick | emit:completed; ",
+      "parameter_list": "icon_src: images/icons/checkmark-outline.svg;",
+      "condition": "(!@local.show_next && !@local.show_previous) && !@local.module_complete",
+      "comment": "Single page module that is not yet completed:\n\n- schedules a notification to complete the next module\n - cancels the notification to complete this module"
+    },
+    {
+      "type": "round_button",
+      "name": "go_modules",
+      "action_list": "click | nav_stack: close_all;\nclick | set_data |\n_list_id: modules,\n_id: @fields.current_module_no,\n@local.completed_field: true,\n@local.pages_complete_field: true;\nclick | emit:completed; ",
+      "parameter_list": "icon_src: images/icons/checkmark-outline.svg;",
+      "condition": "(!@local.show_next && !@local.show_previous) && @local.module_complete",
+      "comment": "Single page module that is already completed"
+    },
+    {
+      "type": "end_display_group"
+    }
+  ]
+}

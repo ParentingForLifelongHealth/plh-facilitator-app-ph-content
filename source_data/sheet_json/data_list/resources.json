@@ -1,0 +1,225 @@
+{
+  "flow_type": "data_list",
+  "flow_name": "resources",
+  "status": "released",
+  "data_list_name": "resources",
+  "rows": [
+    {
+      "id": "resource_1",
+      "foreign_key": "week_1_session",
+      "media_type": "pdf",
+      "media_asset": "01_mod1_intro",
+      "__EMPTY_3": 1
+    },
+    {
+      "id": "resource_2",
+      "foreign_key": "week_1_session_3",
+      "media_type": "pdf",
+      "media_asset": "01_mod1_session_structure",
+      "__EMPTY_3": 2
+    },
+    {
+      "id": "resource_3",
+      "foreign_key": "week_1_session_4",
+      "media_type": "pdf",
+      "media_asset": "01_mod1_panimulang_gawain",
+      "__EMPTY_3": 3
+    },
+    {
+      "id": "resource_4",
+      "foreign_key": "week_1_session_5",
+      "media_type": "pdf",
+      "media_asset": "01_mod1_layunin",
+      "__EMPTY_3": 4
+    },
+    {
+      "id": "resource_5",
+      "foreign_key": "week_1_session_6",
+      "media_type": "pdf",
+      "media_asset": "01_mod1_mapa_skill",
+      "__EMPTY_3": 5
+    },
+    {
+      "id": "resource_6",
+      "foreign_key": "week_1_session_7",
+      "media_type": "pdf",
+      "media_asset": "01_mod1_pabaong_gawain",
+      "__EMPTY_3": 6
+    },
+    {
+      "id": "resource_7",
+      "foreign_key": "week_1_session_8",
+      "media_type": "pdf",
+      "media_asset": "01_mod1_pagtatapos",
+      "__EMPTY_3": 7
+    },
+    {
+      "id": "resource_8",
+      "foreign_key": "week_2_session",
+      "media_type": "pdf",
+      "media_asset": "02_mod2_intro",
+      "__EMPTY_3": 8
+    },
+    {
+      "id": "resource_9",
+      "foreign_key": "week_2_session_10",
+      "media_type": "pdf",
+      "media_asset": "02_mod2_talakayan_ng_pabaong_gawain",
+      "__EMPTY_3": 9
+    },
+    {
+      "id": "resource_10",
+      "foreign_key": "week_3_session",
+      "media_type": "pdf",
+      "media_asset": "03_mod3_intro",
+      "__EMPTY_3": 10
+    },
+    {
+      "id": "resource_11",
+      "foreign_key": "week_3_session_11",
+      "media_type": "pdf",
+      "media_asset": "03_mod3_talakayan_ng_pabaong_gawain",
+      "__EMPTY_3": 11
+    },
+    {
+      "id": "resource_12",
+      "foreign_key": "week_4_session",
+      "media_type": "pdf",
+      "media_asset": "04_mod4_intro",
+      "__EMPTY_3": 12
+    },
+    {
+      "id": "resource_13",
+      "foreign_key": "week_4_session_11",
+      "media_type": "pdf",
+      "media_asset": "04_mod4_talakayan_ng_pabaong_gawain",
+      "__EMPTY_3": 13
+    },
+    {
+      "id": "resource_14",
+      "foreign_key": "week_5_session",
+      "media_type": "pdf",
+      "media_asset": "05_mod5_intro",
+      "__EMPTY_3": 14
+    },
+    {
+      "id": "resource_15",
+      "foreign_key": "week_5_session_3",
+      "media_type": "pdf",
+      "media_asset": "05_mod5_session_structure",
+      "__EMPTY_3": 15
+    },
+    {
+      "id": "resource_16",
+      "foreign_key": "week_5_session_4",
+      "media_type": "pdf",
+      "media_asset": "05_mod5_panimulang_gawain",
+      "__EMPTY_3": 16
+    },
+    {
+      "id": "resource_17",
+      "foreign_key": "week_5_session_5",
+      "media_type": "pdf",
+      "media_asset": "05_mod5_talakayan_ng_pabaong_gawain",
+      "__EMPTY_3": 17
+    },
+    {
+      "id": "resource_18",
+      "foreign_key": "week_5_session_6",
+      "media_type": "pdf",
+      "media_asset": "05_mod5_mapa_skill",
+      "__EMPTY_3": 18
+    },
+    {
+      "id": "resource_19",
+      "foreign_key": "week_5_session_7",
+      "media_type": "pdf",
+      "media_asset": "05_mod5_pabaong_gawain",
+      "__EMPTY_3": 19
+    },
+    {
+      "id": "resource_20",
+      "foreign_key": "week_5_session_8",
+      "media_type": "pdf",
+      "media_asset": "05_mod5_pagtatapos",
+      "__EMPTY_3": 20
+    },
+    {
+      "id": "resource_21",
+      "foreign_key": "week_6_session",
+      "media_type": "pdf",
+      "media_asset": "06_mod6_intro",
+      "__EMPTY_3": 21
+    },
+    {
+      "id": "resource_22",
+      "foreign_key": "week_6_session_10",
+      "media_type": "pdf",
+      "media_asset": "06_mod6_talakayan_ng_pabaong_gawain",
+      "__EMPTY_3": 22
+    },
+    {
+      "id": "resource_23",
+      "foreign_key": "week_7_session",
+      "media_type": "pdf",
+      "media_asset": "07_mod7_intro",
+      "__EMPTY_3": 23
+    },
+    {
+      "id": "resource_24",
+      "foreign_key": "week_7_session_13",
+      "media_type": "pdf",
+      "media_asset": "07_mod7_talakayan_ng_pabaong_gawain",
+      "__EMPTY_3": 24
+    },
+    {
+      "id": "resource_25",
+      "foreign_key": "week_8_session",
+      "media_type": "pdf",
+      "media_asset": "08_mod8_intro",
+      "__EMPTY_3": 25
+    },
+    {
+      "id": "resource_26",
+      "foreign_key": "week_8_session_3",
+      "media_type": "pdf",
+      "media_asset": "08_mod8_session_structure",
+      "__EMPTY_3": 26
+    },
+    {
+      "id": "resource_27",
+      "foreign_key": "week_8_session_4",
+      "media_type": "pdf",
+      "media_asset": "08_mod8_panimulang_gawain",
+      "__EMPTY_3": 27
+    },
+    {
+      "id": "resource_28",
+      "foreign_key": "week_8_session_5",
+      "media_type": "pdf",
+      "media_asset": "08_mod8_pabaong_gawain",
+      "__EMPTY_3": 28
+    },
+    {
+      "id": "resource_29",
+      "foreign_key": "week_8_session_6",
+      "media_type": "pdf",
+      "media_asset": "08_mapa_skill",
+      "__EMPTY_3": 29
+    },
+    {
+      "id": "resource_30",
+      "foreign_key": "week_8_session_7",
+      "media_type": "pdf",
+      "media_asset": "08_mod8_pagtatapos",
+      "__EMPTY_3": 30
+    },
+    {
+      "id": "resource_31",
+      "foreign_key": "week_8_session_8",
+      "media_type": "pdf",
+      "media_asset": "08_mod8_pagdiriwang",
+      "__EMPTY_3": 31
+    }
+  ]
+}

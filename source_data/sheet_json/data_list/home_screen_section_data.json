@@ -1,0 +1,28 @@
+{
+  "flow_type": "data_list",
+  "flow_name": "home_screen_section_data",
+  "status": "released",
+  "data_list_name": "home_screen_section",
+  "rows": [
+    {
+      "id": "programme",
+      "title::eng": "Tungkol sa MaPaChat Hybrid Program",
+      "image": "images/icons_1.png"
+    },
+    {
+      "id": "guide",
+      "title::eng": "Gabay Para sa Facilitator",
+      "image": "images/icons_2.png"
+    },
+    {
+      "id": "faq",
+      "title::eng": "Mga Madalas Itanong",
+      "image": "images/icons_3.png"
+    },
+    {
+      "id": "safeguarding",
+      "title::eng": "Pag-Iingat, Pagka-Kumpidensyal, at Pagbubunyag",
+      "image": "images/icons_4.png"
+    }
+  ]
+}

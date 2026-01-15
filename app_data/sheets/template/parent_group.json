@@ -124,6 +124,7 @@
         },
         {
           "type": "image",
+          "condition": false,
           "name": "image_2",
           "_nested_name": "dg_parent_@item.parent_no.image_2",
           "_dynamicFields": {

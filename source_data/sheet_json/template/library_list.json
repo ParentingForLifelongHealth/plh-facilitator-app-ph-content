@@ -1,0 +1,66 @@
+{
+  "flow_type": "template",
+  "flow_name": "library_list",
+  "status": "released",
+  "rows": [
+    {
+      "name": "library_id",
+      "value": "test"
+    },
+    {
+      "name": "display_title",
+      "value": "test"
+    },
+    {
+      "type": "begin_template",
+      "name": "header",
+      "value": "section_header",
+      "action_list": "uncompleted | emit: uncompleted; "
+    },
+    {
+      "name": "title",
+      "value": "@local.display_title",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "end_template"
+    },
+    {
+      "type": "begin_items",
+      "value": "@data.article_data"
+    },
+    {
+      "name": "packages",
+      "value": "ALL",
+      "exclude_from_translation": true,
+      "condition": "!@item.tag_list || !@global.has_multiple_content_packages"
+    },
+    {
+      "name": "condition_package",
+      "value": true,
+      "condition": "!@item.tag_list || !@global.has_multiple_content_packages",
+      "comment": "Content without a tag is assumed to apply to all tags"
+    },
+    {
+      "name": "packages",
+      "value": "@item.tag_list",
+      "condition": "!!@item.tag_list && @global.has_multiple_content_packages"
+    },
+    {
+      "name": "condition_package",
+      "value": "@calc(@local.packages.includes(@fields.current_package))",
+      "condition": "!!@item.tag_list && @global.has_multiple_content_packages"
+    },
+    {
+      "type": "button",
+      "value": "@item.title",
+      "action_list": "click | go_to: library_article_@item.id",
+      "parameter_list": "variant: faq;",
+      "condition": "@item.home_screen_section_list == @local.library_id && @local.condition_package",
+      "comment": "condition is the only difference here"
+    },
+    {
+      "type": "end_items"
+    }
+  ]
+}

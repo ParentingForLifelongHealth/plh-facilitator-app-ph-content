@@ -1,0 +1,40 @@
+{
+  "flow_type": "data_list",
+  "flow_subtype": "lifecycle_actions",
+  "flow_name": "splash_new_tec",
+  "status": "released",
+  "rows": [
+    {
+      "lifecycle_event": "app_start",
+      "id": "tec_popup",
+      "priority": 99,
+      "condition_list": [
+        "!@fields.terms_and_conditions_gen_2026_accepted"
+      ],
+      "action_list": [
+        {
+          "trigger": "click",
+          "action_id": "pop_up",
+          "args": [
+            "new_tec_popup"
+          ],
+          "_raw": "pop_up: new_tec_popup | fullscreen: true, showCloseButton: false",
+          "params": {
+            "fullscreen": true,
+            "showCloseButton": false
+          }
+        }
+      ]
+    }
+  ],
+  "_source": {
+    "name": "facilitator_ph_sheets",
+    "path": "templates/Splash_TaC.xlsx",
+    "url": "https://docs.google.com/spreadsheets/d/11bk3Cn9sgECQbdEFkq6jJ3Hw7yNEVzIzWrviJUD9AfE"
+  },
+  "_metadata": {
+    "priority": {
+      "type": "number"
+    }
+  }
+}

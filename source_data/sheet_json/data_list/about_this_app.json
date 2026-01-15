@@ -1,0 +1,12 @@
+{
+  "flow_type": "data_list",
+  "flow_name": "about_this_app",
+  "status": "released",
+  "data_list_name": "about_this_app",
+  "rows": [
+    {
+      "id": "text_1",
+      "text::eng": "@global.app_name is an app designed by IDEMS International, Parenting for Lifelong Health, and Masayang Pamilya Organization, Inc. to support the delivery of MaPaChat in Philippines The content herein is available under an open source Creative Commons International 4.0 license. It was developed in collaboration with key partners:"
+    }
+  ]
+}

@@ -1,0 +1,234 @@
+{
+  "flow_type": "template",
+  "flow_name": "menu_no_groups",
+  "status": "released",
+  "rows": [
+    {
+      "name": "completed_prefix",
+      "value": "completed_",
+      "exclude_from_translation": true,
+      "comments": "data_name"
+    },
+    {
+      "name": "completed_postfix",
+      "value": "_completed",
+      "exclude_from_translation": true,
+      "comments": "data_name"
+    },
+    {
+      "name": "sub_menu",
+      "value": "_category_tasks",
+      "exclude_from_translation": true,
+      "comments": "data_name - should be able to switch to single task "
+    },
+    {
+      "name": "menu_items",
+      "value": "modules",
+      "exclude_from_translation": true,
+      "comments": "data_name"
+    },
+    {
+      "name": "click_prefix",
+      "value": "sub_item_",
+      "exclude_from_translation": true,
+      "comments": "data_name"
+    },
+    {
+      "name": "progress_units_name",
+      "value": "sections",
+      "exclude_from_translation": true,
+      "comments": "data_name"
+    },
+    {
+      "type": "begin_display_group",
+      "name": "dg_top",
+      "parameter_list": "sticky: top;\nbackground_image_asset: images/backgrounds/home_top_left.svg;\nbackground_image_position: top left;\nstyle: background_solid;",
+      "exclude_from_translation": true,
+      "style_list": "width: 105%;\nalign-items: flex-start;\npadding: 24px;\nmin-height: 192px;"
+    },
+    {
+      "type": "begin_display_group",
+      "name": "dg_top_column",
+      "parameter_list": "style: column",
+      "exclude_from_translation": true,
+      "style_list": "align-items: flex-start;"
+    },
+    {
+      "type": "image",
+      "name": "logo",
+      "value": "@global.main_logo",
+      "exclude_from_translation": true,
+      "style_list": "max-width: 72px;\nmargin-block: -12px"
+    },
+    {
+      "type": "title",
+      "name": "label_group",
+      "value": "@global.main_menu_title",
+      "exclude_from_translation": true
+    },
+    {
+      "exclude_from_translation": true
+    },
+    {
+      "type": "end_display_group",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "end_display_group",
+      "exclude_from_translation": true
+    },
+    {
+      "exclude_from_translation": true
+    },
+    {
+      "exclude_from_translation": true
+    },
+    {
+      "name": "t_group_data",
+      "value": "sub_items",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "text",
+      "name": "spacer",
+      "condition": false,
+      "exclude_from_translation": true,
+      "style_list": "margin-top: 24px"
+    },
+    {
+      "name": "image_prefix",
+      "value": "images/icons/task_",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "image_postfix",
+      "value": ".svg",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "text",
+      "name": "debug_complete",
+      "value": "@local.completed_prefix@local.selected_group",
+      "condition": false,
+      "exclude_from_translation": true
+    },
+    {
+      "type": "text",
+      "name": "debug_current",
+      "value": "currentgroup: @fields.current_group_no",
+      "condition": false,
+      "exclude_from_translation": true
+    },
+    {
+      "type": "begin_display_group",
+      "parameter_list": "style: column",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "begin_items",
+      "value": "@data.modules",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "image_count",
+      "value": 0,
+      "condition": "@item._first",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "packages",
+      "value": "ALL",
+      "condition": "!@item.tag_list || !@global.has_multiple_content_packages",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "condition_package",
+      "value": true,
+      "condition": "!@item.tag_list || !@global.has_multiple_content_packages",
+      "exclude_from_translation": true,
+      "comments": "Content without a tag is assumed to apply to all tags"
+    },
+    {
+      "name": "packages",
+      "value": "@item.tag_list",
+      "condition": "!!@item.tag_list && @global.has_multiple_content_packages",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "condition_package",
+      "value": "@calc(@local.packages.includes(@fields.current_package))",
+      "condition": "!!@item.tag_list && @global.has_multiple_content_packages",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "condition_package",
+      "value": false,
+      "condition": "@item.status == \"draft\"",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "text",
+      "value": "@item.status",
+      "condition": false,
+      "exclude_from_translation": true
+    },
+    {
+      "type": "text",
+      "value": "@local.image_prefix@local.image_count@local.image_postfix",
+      "condition": false,
+      "exclude_from_translation": true
+    },
+    {
+      "type": "begin_template",
+      "name": "menu_task_card",
+      "value": "menu_task_card",
+      "condition": "@local.condition_package",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "module_id",
+      "value": "@item.id",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "module_name",
+      "value": "@item.title",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "report_id",
+      "value": "@item.report_id",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "image",
+      "value": "@local.image_prefix@local.image_count@local.image_postfix",
+      "condition": "!@global.use_module_image",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "image",
+      "value": "@item.image_asset",
+      "condition": "@global.use_module_image",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "end_template",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "image_count",
+      "value": "@calc(@local.image_count +1)",
+      "condition": "@local.condition_package",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "end_items",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "end_display_group",
+      "exclude_from_translation": true
+    }
+  ]
+}

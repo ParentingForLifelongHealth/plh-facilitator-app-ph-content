@@ -1,0 +1,48 @@
+{
+  "flow_type": "data_list",
+  "flow_name": "report_data",
+  "status": "released",
+  "data_list_name": "report",
+  "rows": [
+    {
+      "id": "week_1",
+      "name::eng": "Module 1 Session",
+      "type": "in_person"
+    },
+    {
+      "id": "week_2",
+      "name::eng": "Module 2 Session",
+      "type": "virtual"
+    },
+    {
+      "id": "week_3",
+      "name::eng": "Module 3 Session",
+      "type": "virtual"
+    },
+    {
+      "id": "week_4",
+      "name::eng": "Module 4 Session",
+      "type": "virtual"
+    },
+    {
+      "id": "week_5",
+      "name::eng": "Module 5 Session",
+      "type": "in_person"
+    },
+    {
+      "id": "week_6",
+      "name::eng": "Module 6 Session",
+      "type": "virtual"
+    },
+    {
+      "id": "week_7",
+      "name::eng": "Module 7 Session",
+      "type": "virtual"
+    },
+    {
+      "id": "week_8",
+      "name::eng": "Module 8 Session",
+      "type": "in_person"
+    }
+  ]
+}

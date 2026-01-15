@@ -1,0 +1,71 @@
+{
+  "flow_type": "template",
+  "flow_name": "pdf",
+  "status": "released",
+  "parameter_list": {
+    "app_config": {
+      "LAYOUT": {
+        "page_padding": "0 0"
+      }
+    }
+  },
+  "rows": [
+    {
+      "name": "pdf_id",
+      "value": "@fields.current_pdf_id"
+    },
+    {
+      "name": "pdf_asset"
+    },
+    {
+      "name": "pdf_title"
+    },
+    {
+      "type": "data_items",
+      "value": "pdf",
+      "parameter_list": "filter: @item.id == @local.pdf_id;\nlimit: 1;",
+      "action_list": "data_changed | set_local : pdf_asset: @items[0].pdf_asset;\ndata_changed | set_local : pdf_title: @items[0].title;",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "begin_template",
+      "name": "header",
+      "value": "section_header",
+      "action_list": "uncompleted | emit: uncompleted; "
+    },
+    {
+      "name": "title",
+      "value": "@local.pdf_title",
+      "__EMPTY": "align-items: flex-start;"
+    },
+    {
+      "type": "end_template"
+    },
+    {
+      "type": "begin_display_group"
+    },
+    {
+      "type": "text",
+      "name": "spacer",
+      "value": "  ",
+      "style_list": "flex: 1;"
+    },
+    {
+      "type": "round_button",
+      "name": "download",
+      "parameter_list": "variant: no-background; \nicon_src: images/icons/download_white.svg;",
+      "action_list": "click | save_to_device: @local.pdf_asset",
+      "__EMPTY": "justify-content: space-between"
+    },
+    {
+      "type": "end_display_group"
+    },
+    {
+      "type": "pdf",
+      "name": "pdf",
+      "value": "@local.pdf_asset",
+      "parameter_list": "starting_page: 1;\ncompatibility_error_message: @global.pdf_compatibility_error_message;\nopen_external_text: @global.pdf_open_external_text;",
+      "style_list": "margin-top:-46px;"
+    }
+  ]
+}

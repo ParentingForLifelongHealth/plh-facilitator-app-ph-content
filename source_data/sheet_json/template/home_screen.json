@@ -1,0 +1,25 @@
+{
+  "flow_type": "template",
+  "flow_name": "home_screen",
+  "status": "released",
+  "rows": [
+    {
+      "type": "begin_template",
+      "name": "menu_task_flow",
+      "value": "menu_task_flow",
+      "condition": "@fields.user_type == \"facilitator\" || @fields.user_type == \"tester\""
+    },
+    {
+      "type": "end_template"
+    },
+    {
+      "type": "begin_template",
+      "name": "menu_no_groups",
+      "value": "menu_no_groups",
+      "condition": "!(@fields.user_type == \"facilitator\" || @fields.user_type == \"tester\")"
+    },
+    {
+      "type": "end_template"
+    }
+  ]
+}

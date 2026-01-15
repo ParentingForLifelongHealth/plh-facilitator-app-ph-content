@@ -1,0 +1,73 @@
+{
+  "flow_type": "data_list",
+  "flow_name": "report_in_person",
+  "status": "released",
+  "data_list_name": "report_in_person",
+  "rows": [
+    {
+      "id": "welcome",
+      "type": "title",
+      "text::eng": "Welcome"
+    },
+    {
+      "id": "welcome_name_game",
+      "type": "toggle",
+      "text::eng": "Getting to know each other"
+    },
+    {
+      "id": "welcome_overview",
+      "type": "toggle",
+      "text::eng": "Overview of the programme"
+    },
+    {
+      "id": "start",
+      "type": "title",
+      "text::eng": "Getting Started with the chatbot "
+    },
+    {
+      "id": "start_ID_capture",
+      "type": "toggle",
+      "text::eng": "Introduction to Phone Use"
+    },
+    {
+      "id": "start_phone_capture",
+      "type": "toggle",
+      "text::eng": "Chatbot onboarding"
+    },
+    {
+      "id": "start_phone_functions",
+      "type": "toggle",
+      "text::eng": "Resolving Challenges with the chatbot"
+    },
+    {
+      "id": "activity",
+      "type": "title",
+      "text::eng": "Moving forward"
+    },
+    {
+      "id": "activity_1",
+      "type": "toggle",
+      "text::eng": "Setting up Ground Rules"
+    },
+    {
+      "id": "activity_2",
+      "type": "toggle",
+      "text::eng": "Facilitator’s Role"
+    },
+    {
+      "id": "close",
+      "type": "toggle",
+      "text::eng": "Questions"
+    },
+    {
+      "id": "close_reflection",
+      "type": "toggle",
+      "text::eng": "Connecting Formando Conciencia+ and Parent ID"
+    },
+    {
+      "id": "close_goodbye",
+      "type": "toggle",
+      "text::eng": "Closing Activity"
+    }
+  ]
+}

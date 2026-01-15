@@ -1,0 +1,180 @@
+{
+  "flow_type": "template",
+  "flow_name": "profile_groups",
+  "status": "released",
+  "rows": [
+    {
+      "type": "begin_template",
+      "name": "header",
+      "value": "section_header",
+      "action_list": "uncompleted | emit: uncompleted; ",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "section_id",
+      "value": "groups",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "section_data",
+      "value": "profile_section",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "confirm_exit",
+      "value": true,
+      "exclude_from_translation": true
+    },
+    {
+      "type": "end_template",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "text",
+      "name": "group_desc",
+      "value": "@global.active_group_title",
+      "exclude_from_translation": false
+    },
+    {
+      "type": "begin_data_items",
+      "value": "@data.parent_groups",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "begin_template",
+      "name": "parent_group",
+      "value": "parent_group",
+      "condition": "!@item.archived",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "group_id",
+      "value": "@item.id",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "group_name",
+      "value": "@item.text",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "group_no",
+      "value": "@item.name",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "is_readonly",
+      "value": "@item.readonly"
+    },
+    {
+      "type": "end_template",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "end_data_items",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "parent_group_count",
+      "value": "@fields.no_of_parent_groups"
+    },
+    {
+      "comments": "data_items",
+      "__EMPTY": "get_group_count",
+      "__EMPTY_1": "@data.parent_groups",
+      "__EMPTY_2": "data_changed | set_local : parent_group_count: @items.length;",
+      "__EMPTY_3": "filter: !@item.archived"
+    },
+    {
+      "type": "text",
+      "value": "You don't have any active parent groups yet",
+      "parameter_list": "text_align:center",
+      "condition": "@local.parent_group_count == 1",
+      "exclude_from_translation": false,
+      "comments": "This is a bodge fix as we cannot use data_items as it will slow down the screen too much. Using this means at least the first time uses enter this screen the message appears"
+    },
+    {
+      "exclude_from_translation": true
+    },
+    {
+      "type": "text",
+      "name": "spacer_1",
+      "value": " ",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "test",
+      "name": "spacer_2",
+      "value": " ",
+      "exclude_from_translation": true
+    },
+    {
+      "exclude_from_translation": true
+    },
+    {
+      "exclude_from_translation": true
+    },
+    {
+      "type": "begin_data_items",
+      "value": "@data.parent_groups",
+      "parameter_list": "filter: @item.hidden == true;",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "text",
+      "value": "@global.archived_group_title",
+      "condition": "@item._first",
+      "exclude_from_translation": false
+    },
+    {
+      "type": "begin_display_group",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "text",
+      "name": "text_@item.id",
+      "value": "@item.text",
+      "exclude_from_translation": true,
+      "style_list": "flex: 1"
+    },
+    {
+      "type": "round_button",
+      "name": "button_unarchive_@item.id",
+      "action_list": "click | set_data |\n_list_id: parent_groups,\n_id: @item.id,\narchived: FALSE,\nhidden: FALSE;",
+      "parameter_list": "variant: no-background; \nicon_src: images/icons/unarchive.svg;",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "end_display_group",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "end_data_items",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "begin_display_group",
+      "parameter_list": "sticky: bottom;",
+      "exclude_from_translation": true,
+      "style_list": "padding: 12px 24px;"
+    },
+    {
+      "name": "no_of_parent_groups",
+      "value": "+@fields.no_of_parent_groups",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "button",
+      "name": "add_group",
+      "value": "Create New Group",
+      "action_list": "click | set_field: no_of_parent_groups: @local.no_of_parent_groups + 1; \nclick | set_local: no_of_parent_groups: @local.no_of_parent_groups + 1;\nclick | add_data |\n_list_id: parent_groups,\narchived: TRUE,\nname: _@local.no_of_parent_groups,\ntext:  ;\nclick | set_field: current_group_no: _@local.no_of_parent_groups;\nclick | set_field: current_group_name:  ;\nclick | set_field: current_group_id: new;\nclick | set_field: current_group_readonly: false;\nclick | go_to: new_group_popup;\n\n",
+      "parameter_list": "variant: card; ",
+      "exclude_from_translation": false,
+      "comments": "used to do: click | go_to: edit_parent_group;\nThere is an issue that the group gets created (deleted) - but then maybe a facilitator"
+    },
+    {
+      "type": "end_display_group",
+      "exclude_from_translation": true
+    }
+  ]
+}

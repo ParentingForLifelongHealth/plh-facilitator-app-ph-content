@@ -1,0 +1,43 @@
+{
+  "flow_type": "data_list",
+  "flow_name": "user_organisation",
+  "status": "released",
+  "data_list_name": "user_organisation",
+  "rows": [
+    {
+      "id": "mapa_1",
+      "name": "mapa_1",
+      "text::eng": "MaPa Org., Inc."
+    },
+    {
+      "id": "mswdd_2",
+      "name": "mswdd_2",
+      "text::eng": "(MSWDD) Makati Social Welfare and Development Department"
+    },
+    {
+      "id": "valcswdo_3",
+      "name": "valcswdo_3",
+      "text::eng": "(VCSWDO) Valenzuela City Social Work Development Office"
+    },
+    {
+      "id": "dswd_4",
+      "name": "dswd_4",
+      "text::eng": "(DSWD) Department of Social Welfare and Development"
+    },
+    {
+      "id": "jnf_5",
+      "name": "jnf_5",
+      "text::eng": "Joy~Nostalg Foundation"
+    },
+    {
+      "id": "consuelo_6",
+      "name": "consuelo_6",
+      "text::eng": "Consuelo Zobel Alger Foundation"
+    },
+    {
+      "id": "other",
+      "name": "other",
+      "text::eng": "None of the above"
+    }
+  ]
+}

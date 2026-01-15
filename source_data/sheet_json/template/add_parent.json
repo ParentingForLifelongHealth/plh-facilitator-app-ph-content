@@ -1,0 +1,593 @@
+{
+  "flow_type": "template",
+  "flow_name": "add_parent",
+  "status": "released",
+  "rows": [
+    {
+      "type": "begin_template",
+      "name": "header",
+      "value": "section_header",
+      "action_list": "uncompleted | emit: uncompleted; ",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "title",
+      "value": "@global.label_about_parent",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "confirm_exit",
+      "value": true,
+      "exclude_from_translation": true
+    },
+    {
+      "type": "end_template",
+      "exclude_from_translation": true
+    },
+    {
+      "exclude_from_translation": true
+    },
+    {
+      "exclude_from_translation": true
+    },
+    {
+      "exclude_from_translation": true
+    },
+    {
+      "exclude_from_translation": true
+    },
+    {
+      "name": "gender_select_options",
+      "value": "@data.gender",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "child_gender_select_options",
+      "value": "@data.child_gender",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "show_number_error",
+      "value": false,
+      "comments": "Making sure errors are only there once data is entered",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "show_age_error",
+      "value": false,
+      "exclude_from_translation": true
+    },
+    {
+      "name": "show_sex_error",
+      "value": false,
+      "exclude_from_translation": true
+    },
+    {
+      "name": "show_child_age_error",
+      "value": false,
+      "exclude_from_translation": true
+    },
+    {
+      "name": "show_child_sex_error",
+      "value": false,
+      "exclude_from_translation": true
+    },
+    {
+      "name": "show_members_error",
+      "value": false,
+      "exclude_from_translation": true
+    },
+    {
+      "type": "begin_display_group",
+      "parameter_list": "style: column",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "text",
+      "name": "Required_fiels",
+      "value": "Required field*",
+      "parameter_list": "style: contextual",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "text",
+      "value": "@global.label_first_name",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "text_box",
+      "name": "first_name",
+      "parameter_list": "placeholder: @global.edit_first_name",
+      "style_list": "margin-top: -10px",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "first_name_valid",
+      "value": "@calc(/^[a-zA-Z]+(?:[ -][a-zA-Z]+)*$/.test(@local.first_name))",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "text",
+      "value": "@global.error_first_name",
+      "style_list": "color: #FF0000;\nfont-size: 14px; ",
+      "condition": "!@local.first_name_valid",
+      "exclude_from_translation": true
+    },
+    {
+      "exclude_from_translation": true
+    },
+    {
+      "type": "text",
+      "value": "@global.label_last_name",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "text_box",
+      "name": "last_name",
+      "parameter_list": "placeholder: @global.edit_last_name",
+      "style_list": "margin-top: -10px",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "last_name_valid",
+      "value": "@calc(/^[a-zA-Z]+(?:[ -][a-zA-Z]+)*$/.test(@local.last_name))",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "text",
+      "value": "@global.error_last_name",
+      "style_list": "color: #FF0000;\nfont-size: 14px; ",
+      "condition": "!@local.last_name_valid",
+      "exclude_from_translation": true
+    },
+    {
+      "exclude_from_translation": true
+    },
+    {
+      "type": "text",
+      "value": "@global.label_number",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "text_box",
+      "name": "number",
+      "action_list": "changed | set_local: show_number_error: TRUE",
+      "parameter_list": "placeholder: @global.edit_number",
+      "style_list": "margin-top: -10px",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "number_valid",
+      "value": "@calc(/^09\\d{9}$/.test(@local.number) || @local.number == '' || !@local.number)",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "text",
+      "value": "@global.error_number",
+      "style_list": "color: #FF0000;\nfont-size: 14px; ",
+      "condition": "!@local.number_valid && @local.show_number_error",
+      "exclude_from_translation": true
+    },
+    {
+      "exclude_from_translation": true
+    },
+    {
+      "type": "text",
+      "value": "@global.label_age",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "text_box",
+      "name": "age",
+      "action_list": "changed | set_local: show_age_error: TRUE",
+      "parameter_list": "placeholder: @global.edit_age",
+      "style_list": "margin-top: -10px",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "age_valid",
+      "value": "@calc((/^\\d{2}$/.test(@local.age) && @local.age>= 16 && @local.age<= 99) || @local.age == '' || !@local.age)",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "text",
+      "value": "@global.error_age",
+      "style_list": "color: #FF0000;\nfont-size: 14px; ",
+      "condition": "!@local.age_valid && @local.show_age_error",
+      "exclude_from_translation": true
+    },
+    {
+      "exclude_from_translation": true
+    },
+    {
+      "type": "text",
+      "value": "@global.label_sex",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "combo_box",
+      "name": "sex",
+      "action_list": "changed | set_local: show_sex_error: TRUE",
+      "parameter_list": "placeholder:@global.edit_sex;\nanswer_list: @local.gender_select_options;",
+      "style_list": "margin-top: -10px",
+      "condition": "answer_list: @local.gender_select_options",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "sex_valid",
+      "value": true,
+      "exclude_from_translation": true
+    },
+    {
+      "type": "text",
+      "value": "@global.error_sex",
+      "style_list": "color: #FF0000;\nfont-size: 14px; ",
+      "condition": "!@local.sex_valid && @local.show_sex_error",
+      "exclude_from_translation": true
+    },
+    {
+      "exclude_from_translation": true
+    },
+    {
+      "type": "text",
+      "value": "@global.label_about_child",
+      "parameter_list": "style: emphasised",
+      "exclude_from_translation": true
+    },
+    {
+      "exclude_from_translation": true
+    },
+    {
+      "type": "text",
+      "value": "@global.label_child_name",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "text_box",
+      "name": "child_name",
+      "parameter_list": "placeholder:@global.edit_child_name",
+      "style_list": "margin-top: -10px",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "child_name_valid",
+      "value": "@calc(/^[a-zA-Z]+(?:[ -][a-zA-Z]+)*$/.test(@local.child_name))",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "text",
+      "value": "@global.error_child_name",
+      "style_list": "color: #FF0000;\nfont-size: 14px; ",
+      "condition": "!@local.child_name_valid",
+      "exclude_from_translation": true
+    },
+    {
+      "exclude_from_translation": true
+    },
+    {
+      "type": "text",
+      "value": "@global.label_child_age",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "text_box",
+      "name": "child_age",
+      "action_list": "changed | set_local: show_child_age_error: TRUE",
+      "parameter_list": "placeholder:@global.edit_child_age",
+      "style_list": "margin-top: -10px",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "child_age_valid",
+      "value": "@calc((/^\\d{1,2}$/.test(@local.child_age) && @local.child_age>= 2 && @local.child_age<= 17))",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "text",
+      "value": "@global.error_child_age",
+      "style_list": "color: #FF0000;\nfont-size: 14px; ",
+      "condition": "!@local.child_age_valid && @local.show_child_age_error",
+      "exclude_from_translation": true
+    },
+    {
+      "exclude_from_translation": true
+    },
+    {
+      "type": "text",
+      "value": "@global.label_child_sex",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "combo_box",
+      "name": "child_sex",
+      "action_list": "changed | set_local: show_child_sex_error: TRUE",
+      "parameter_list": "placeholder:@global.edit_child_sex;\nanswer_list: @local.child_gender_select_options;",
+      "style_list": "margin-top: -10px",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "child_sex_valid",
+      "value": "!!@local.child_sex",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "text",
+      "value": "@global.error_child_sex",
+      "style_list": "color: #FF0000;\nfont-size: 14px; ",
+      "condition": "!@local.child_sex_valid && @local.show_child_sex_error",
+      "exclude_from_translation": true
+    },
+    {
+      "exclude_from_translation": true
+    },
+    {
+      "type": "text",
+      "value": "@global.label_relationship",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "text_box",
+      "name": "relationship",
+      "parameter_list": "placeholder:@global.edit_relationship",
+      "style_list": "margin-top: -10px",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "relationship_valid",
+      "value": "@calc(/^[a-zA-Z\\s-]{3,50}$/.test(@local.relationship) || @local.relationship == '' || !@local.relationship)",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "text",
+      "value": "@global.error_relationship",
+      "style_list": "color: #FF0000;\nfont-size: 14px; ",
+      "condition": "!@local.relationship_valid",
+      "exclude_from_translation": true
+    },
+    {
+      "exclude_from_translation": true
+    },
+    {
+      "type": "text",
+      "value": "@global.label_about_family",
+      "parameter_list": "style: emphasised",
+      "exclude_from_translation": true
+    },
+    {
+      "exclude_from_translation": true
+    },
+    {
+      "type": "text",
+      "value": "@global.label_members",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "text_box",
+      "name": "members",
+      "action_list": "changed | set_local: show_members_error: TRUE",
+      "parameter_list": "placeholder:@global.edit_members",
+      "style_list": "margin-top: -10px",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "members_valid",
+      "value": "@calc((/^\\d+$/.test(@local.members) && @local.members>= 1) || @local.members == '' || !@local.members)",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "text",
+      "value": "@global.error_members",
+      "style_list": "color: #FF0000;\nfont-size: 14px; ",
+      "condition": "!@local.members_valid && @local.show_members_error",
+      "exclude_from_translation": true
+    },
+    {
+      "exclude_from_translation": true
+    },
+    {
+      "type": "text",
+      "value": "@global.label_childcare",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "text_box",
+      "name": "childcare",
+      "parameter_list": "placeholder:@global.edit_childcare",
+      "style_list": "margin-top: -10px",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "childcare_valid",
+      "value": "@calc(/^[a-zA-Z\\s,-]{3,100}$/.test(@local.childcare) || @local.childcare == '' || !@local.childcare)",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "text",
+      "value": "@global.error_childcare",
+      "style_list": "color: #FF0000;\nfont-size: 14px; ",
+      "condition": "!@local.childcare_valid",
+      "exclude_from_translation": true
+    },
+    {
+      "exclude_from_translation": true
+    },
+    {
+      "type": "text",
+      "value": "@global.label_goal",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "text_box",
+      "name": "goal",
+      "parameter_list": "placeholder:@global.edit_goal",
+      "style_list": "margin-top: -10px",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "goal_valid",
+      "value": true,
+      "exclude_from_translation": true
+    },
+    {
+      "type": "text",
+      "value": "@global.error_goal",
+      "style_list": "color: #FF0000;\nfont-size: 14px; ",
+      "condition": "!@local.goal_valid",
+      "exclude_from_translation": true
+    },
+    {
+      "exclude_from_translation": true
+    },
+    {
+      "type": "text",
+      "value": "@global.label_other_notes",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "text_box",
+      "name": "other",
+      "parameter_list": "placeholder:@global.edit_other_notes",
+      "style_list": "margin-top: -10px",
+      "exclude_from_translation": true
+    },
+    {
+      "exclude_from_translation": true
+    },
+    {
+      "type": "text",
+      "value": "@global.label_consoltation",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "date_time_picker",
+      "name": "consoltation",
+      "parameter_list": "type: date",
+      "style_list": "margin-top: 0px",
+      "exclude_from_translation": true
+    },
+    {
+      "exclude_from_translation": true
+    },
+    {
+      "exclude_from_translation": true
+    },
+    {
+      "exclude_from_translation": true
+    },
+    {
+      "type": "end_display_group",
+      "exclude_from_translation": true
+    },
+    {
+      "exclude_from_translation": true
+    },
+    {
+      "name": "valid",
+      "value": "!!@local.first_name && !!@local.last_name &&@local.first_name_valid && @local.last_name_valid && @local.number_valid && @local.age_valid && @local.sex_valid && @local.child_name_valid && @local.child_age_valid && @local.child_sex_valid && @local.relationship_valid && @local.members_valid && @local.childcare_valid && @local.goal_valid",
+      "condition": false,
+      "exclude_from_translation": true
+    },
+    {
+      "name": "valid",
+      "value": "!!@local.first_name && !!@local.last_name && @local.child_name_valid && @local.child_age_valid && @local.child_sex_valid ",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "text",
+      "value": "first_name: @local.first_name_valid",
+      "condition": false,
+      "exclude_from_translation": true
+    },
+    {
+      "type": "text",
+      "value": "last_name @local.last_name_valid",
+      "condition": false,
+      "exclude_from_translation": true
+    },
+    {
+      "type": "text",
+      "value": "number: @local.number_valid",
+      "condition": false,
+      "exclude_from_translation": true
+    },
+    {
+      "type": "text",
+      "value": "age: @local.age_valid",
+      "condition": false,
+      "exclude_from_translation": true
+    },
+    {
+      "type": "text",
+      "value": "sex: @local.sex_valid",
+      "condition": false,
+      "exclude_from_translation": true
+    },
+    {
+      "type": "text",
+      "value": "child name: @local.child_name_valid",
+      "condition": false,
+      "exclude_from_translation": true
+    },
+    {
+      "type": "text",
+      "value": "child age: @local.child_age_valid",
+      "condition": false,
+      "exclude_from_translation": true
+    },
+    {
+      "type": "text",
+      "value": "child sex: @local.child_sex_valid",
+      "condition": false,
+      "exclude_from_translation": true
+    },
+    {
+      "type": "text",
+      "value": "relationship: @local.relationship_valid",
+      "condition": false,
+      "exclude_from_translation": true
+    },
+    {
+      "type": "text",
+      "value": "members: @local.members_valid",
+      "condition": false,
+      "exclude_from_translation": true
+    },
+    {
+      "type": "text",
+      "value": "childcare: @local.childcare_valid",
+      "condition": false,
+      "exclude_from_translation": true
+    },
+    {
+      "type": "text",
+      "value": "goal: @local.goal_valid",
+      "condition": false,
+      "exclude_from_translation": true
+    },
+    {
+      "type": "begin_display_group",
+      "parameter_list": "sticky: bottom;",
+      "style_list": "width: 100%;\npadding: 12px 24px;\nbackground-color: white;",
+      "condition": "@item._last"
+    },
+    {
+      "type": "button",
+      "name": "save",
+      "value": "Save Profile",
+      "action_list": "click | add_data | \n_list_id: parents,\ngroup_id: @fields.current_group_no,\narchived: false,\nfirst_name: @local.first_name,\nlast_name: @local.last_name,\nnumber: @local.number,\nage: @local.age,\nsex: @local.sex,\nchild_name: @local.child_name,\nchild_age: @local.child_age,\nchild_sex: @local.child_sex,\nrelationship: @local.relationship,\nmembers: @local.members,\nchildcare: @local.childcare,\ngoal: @local.goal,\nother: @local.other,        \nconsoltation: @local.consoltation;\nclick | plh_parent_group: push | parent_groups_data_list: parent_groups, parents_data_list: parents;\nclick | emit: completed;\nclick | emit: server_sync;",
+      "parameter_list": "variant: card;\ndisabled: !@local.valid;",
+      "style_list": "flex: 1"
+    },
+    {
+      "type": "button",
+      "name": "save_new",
+      "value": "Save and Add New",
+      "action_list": "click | add_data | \n_list_id: parents,\ngroup_id: @fields.current_group_no,\narchived: false,\nfirst_name: @local.first_name,\nlast_name: @local.last_name,\nnumber: @local.number,\nage: @local.age,\nsex: @local.sex,\nchild_name: @local.child_name,\nchild_age: @local.child_age,\nchild_sex: @local.child_sex,\nrelationship: @local.relationship,\nmembers: @local.members,\nchildcare: @local.childcare,\ngoal: @local.goal,\nother: @local.other,        \nconsoltation: @local.consoltation;\nclick | set_local: first_name: ;\nclick | set_local: last_name: ;\nclick | set_local: number: ;\nclick | set_local: age: ;\nclick | set_local: sex: ;\nclick | set_local: child_name: ;\nclick | set_local: child_age: ;\nclick | set_local: child_sex: ;\nclick | set_local: relationship: ;\nclick | set_local: members: ;\nclick | set_local: childcare: ;\nclick | set_local: goal: ;\nclick | set_local: other: ;\nclick | set_local: consoltation: ;\nclick | set_local: show_number_error:FALSE;\nclick | set_local: show_age_error:FALSE;\nclick | set_local: show_sex_error:FALSE;\nclick | set_local: show_child_age_error:FALSE;\nclick | set_local: show_child_sex_error:FALSE;\nclick | set_local: show_members_error:FALSE;\nclick | plh_parent_group: push | parent_groups_data_list: parent_groups, parents_data_list: parents;\nclick | emit: server_sync;\nclick | scroll: top;\n",
+      "parameter_list": "variant: card;\ndisabled: !@local.valid;",
+      "style_list": "flex: 1"
+    },
+    {
+      "type": "end_display_group"
+    }
+  ]
+}

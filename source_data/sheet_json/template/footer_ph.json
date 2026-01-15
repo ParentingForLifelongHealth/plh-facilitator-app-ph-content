@@ -1,0 +1,24 @@
+{
+  "flow_type": "template",
+  "flow_name": "footer_ph",
+  "status": "released",
+  "override_target": "footer",
+  "override_condition": "@fields._deployment_name == \"plh_facilitator_ph\"",
+  "rows": [
+    {
+      "name": "button_list",
+      "value": "image: @data.app_section.home.icon_asset  | target_template: @data.app_section.home.template | text: @data.app_section.home.title;\nimage: @data.app_section.reports.icon_asset  | target_template: @data.app_section.reports.template | text: @data.app_section.reports.title;\nimage: @data.app_section.library.icon_asset  | target_template: @data.app_section.library.template | text: @data.app_section.library.title;\nimage: @data.app_section.settings.icon_asset  | target_template: @data.app_section.settings.template | text: @data.app_section.settings.title;",
+      "condition": "@fields.user_type == \"facilitator\" || @fields.user_type == \"tester\""
+    },
+    {
+      "name": "button_list",
+      "value": "image: @data.app_section.home.icon_asset  | target_template: @data.app_section.home.template | text: @data.app_section.home.title;\nimage: @data.app_section.library.icon_asset  | target_template: @data.app_section.library.template | text: @data.app_section.library.title;\nimage: @data.app_section.settings.icon_asset  | target_template: @data.app_section.settings.template | text: @data.app_section.settings.title;",
+      "condition": "!(@fields.user_type == \"facilitator\" || @fields.user_type == \"tester\")"
+    },
+    {
+      "type": "navigation_bar",
+      "name": "navigation_bar",
+      "parameter_list": "button_list: @local.button_list"
+    }
+  ]
+}

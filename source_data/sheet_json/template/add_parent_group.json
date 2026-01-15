@@ -1,0 +1,138 @@
+{
+  "flow_type": "template",
+  "flow_name": "add_parent_group",
+  "status": "released",
+  "rows": [
+    {
+      "exclude_from_translation": true
+    },
+    {
+      "exclude_from_translation": true
+    },
+    {
+      "name": "title_label",
+      "value": "New Parent Group"
+    },
+    {
+      "type": "text",
+      "value": "group number: @fields.current_group_no",
+      "condition": false,
+      "exclude_from_translation": true
+    },
+    {
+      "type": "begin_template",
+      "name": "header",
+      "value": "section_header",
+      "action_list": "uncompleted | emit: uncompleted; ",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "title",
+      "value": "@local.title_label",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "confirm_exit",
+      "value": true
+    },
+    {
+      "type": "end_template",
+      "exclude_from_translation": true
+    },
+    {
+      "exclude_from_translation": true
+    },
+    {
+      "type": "text",
+      "name": "text_group_name",
+      "value": "Group Name",
+      "parameter_list": "style: emphasised"
+    },
+    {
+      "type": "text",
+      "value": "before: @fields.current_group_no",
+      "condition": false,
+      "exclude_from_translation": true
+    },
+    {
+      "exclude_from_translation": true
+    },
+    {
+      "exclude_from_translation": true
+    },
+    {
+      "exclude_from_translation": true
+    },
+    {
+      "type": "text_box",
+      "name": "text_box",
+      "parameter_list": "placeholder: @local.text_group_name",
+      "exclude_from_translation": true
+    },
+    {
+      "exclude_from_translation": true
+    },
+    {
+      "type": "begin_template",
+      "name": "parent_list",
+      "value": "parent_list",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "end_template",
+      "exclude_from_translation": true
+    },
+    {
+      "exclude_from_translation": true
+    },
+    {
+      "exclude_from_translation": true
+    },
+    {
+      "exclude_from_translation": true
+    },
+    {
+      "exclude_from_translation": true
+    },
+    {
+      "exclude_from_translation": true
+    },
+    {
+      "exclude_from_translation": true
+    },
+    {
+      "type": "begin_display_group",
+      "parameter_list": "sticky: bottom;",
+      "style_list": "padding: 12px 24px;",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "begin_template",
+      "name": "add_group_button",
+      "value": "add_group_button",
+      "action_list": "completed | emit: completed;",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "name",
+      "value": "@fields.current_group_no",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "text",
+      "value": "@local.text_box",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "end_template",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "end_display_group",
+      "exclude_from_translation": true
+    },
+    {
+      "exclude_from_translation": true
+    }
+  ]
+}

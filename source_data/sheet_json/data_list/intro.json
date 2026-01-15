@@ -1,0 +1,432 @@
+{
+  "flow_type": "data_list",
+  "flow_name": "intro",
+  "status": "released",
+  "data_list_name": "intro",
+  "rows": [
+    {
+      "id": "intro_1",
+      "foreign_key": "week_1_session",
+      "text": "Welcome sa **Modyul 1: One-on-One Time Kasama ang Iyong Anak!**\n\nSa Modyul 1, bilang facilitator, kailangan mong makamit ang apat na bagay:\n\n1️⃣ Ipakilala ang programa ng MaPaChat sa mga pamilya\n2️⃣ Magtatag ng mga patakaran\n3️⃣ Tulungan ang mga magulang na pag-isipan at ilarawan ang kanilang mga layunin para sa pamilya\n4️⃣ Talakayin at i-praktis ang One-on-One Time kasama ang mga kalahok",
+      "image_asset": "",
+      "text_2": "",
+      "ignore": 1
+    },
+    {
+      "id": "intro_2",
+      "foreign_key": "week_1_session_3",
+      "text": "**ISTRUKTURA NG SESYON**\n\nI-review ang istruktura ng sesyon para sa Modyul 1.",
+      "image_asset": "",
+      "text_2": "",
+      "ignore": 2
+    },
+    {
+      "id": "intro_3",
+      "foreign_key": "week_1_session_4",
+      "text": "**1 | PANIMULANG GAWAIN**\n\nI-deliver ang **Panimulang Gawain** gamit ang Facilitator Guide sa ibaba:",
+      "image_asset": "",
+      "text_2": "",
+      "ignore": 3
+    },
+    {
+      "id": "intro_4",
+      "foreign_key": "week_1_session_5",
+      "text": "**2 | PAGBUO NG LAYUNIN**\n\nI-deliver ang **Pagbuo ng Layunin** gamit ang Facilitator Guide sa ibaba:",
+      "image_asset": "",
+      "text_2": "",
+      "ignore": 4
+    },
+    {
+      "id": "intro_5",
+      "foreign_key": "week_1_session_6",
+      "text": "**3 | MAPA SKILL: ONE-ON-ONE TIME**\n\nI-deliver ang **MaPa Skill: One-on-One Time** gamit ang Facilitator Guide sa ibaba:",
+      "image_asset": "",
+      "text_2": "",
+      "ignore": 5
+    },
+    {
+      "id": "intro_6",
+      "foreign_key": "week_1_session_7",
+      "text": "**4 | PABAONG GAWAIN**\n\nI-deliver ang **Pabaong Gawain** gamit ang Facilitator Guide sa ibaba:",
+      "image_asset": "",
+      "text_2": "",
+      "ignore": 6
+    },
+    {
+      "id": "intro_7",
+      "foreign_key": "week_1_session_8",
+      "text": "**5 | PAGTATAPOS**\n\nI-deliver ang **Pagtatapos** gamit ang Facilitator Guide sa ibaba:",
+      "image_asset": "",
+      "text_2": "",
+      "ignore": 7
+    },
+    {
+      "id": "intro_8",
+      "foreign_key": "week_1_session_9",
+      "text": "**6 | MENSAHE NG PAGPAPAALALA**",
+      "image_asset": "",
+      "text_2": "",
+      "ignore": 8
+    },
+    {
+      "id": "intro_9",
+      "foreign_key": "week_1_1_reminder",
+      "text": "Pangatlong Araw: Pagpapaalala ng Suporta",
+      "image_asset": "",
+      "text_2": "",
+      "ignore": 9
+    },
+    {
+      "id": "intro_10",
+      "foreign_key": "week_1_2_reminder",
+      "text": "Isang Araw Bago ang Susunod na Online na Sesyon: Paalala para sa Susunod na Sesyon",
+      "image_asset": "",
+      "text_2": "",
+      "ignore": 10
+    },
+    {
+      "id": "intro_11",
+      "foreign_key": "week_2_session",
+      "text": "Welcome sa **Modyul 2: Pakikipag-usap Tungkol sa Damdamin!**\n\nAng pangunahing layunin ay matutunan at maisagawa ng mga magulang ang pag-usap tungkol sa kanilang sariling nararamdaman at nararamdaman ng kanilang anak.\n\nMatututo rin ang mga magulang ng:\n1️⃣ ang kahalagahan ng pagtanggap, pagtukoy, at pagkilala sa iba't ibang emosyon na nararamdaman ng kanilang anak\n2️⃣ mga paraan at kasanayan na makakatulong dito.",
+      "image_asset": "",
+      "text_2": "",
+      "ignore": 11
+    },
+    {
+      "id": "intro_12",
+      "foreign_key": "week_2_session_4",
+      "text": "Unang Araw: Group Chat Session\n\n**Tinatantyang tatagal ng isang oras ang sesyon.**\n\nIto ay isang talakayan ng grupo na ikaw bilang facilitator ang nangunguna. Tandaan na mag-pause pagkatapos ng bawat hakbang upang bigyan ang mga magulang ng pagkakataon na magbigay ng tugon o makipag-usap sa mga miyembro ng grupo kung komportable sila na gawin ito.",
+      "image_asset": "",
+      "text_2": "",
+      "ignore": 12
+    },
+    {
+      "id": "intro_13",
+      "foreign_key": "week_2_session_9",
+      "text": "Laktawan ang mensaheng ito kung may ibinahagi ng hamon ang mga magulang na dapat pag-usapan.",
+      "image_asset": "",
+      "text_2": "",
+      "ignore": 13
+    },
+    {
+      "id": "intro_14",
+      "foreign_key": "week_2_1_reminder",
+      "text": "Pangatlong Araw: Pagpapaalala na Magpraktis",
+      "image_asset": "",
+      "text_2": "",
+      "ignore": 14
+    },
+    {
+      "id": "intro_15",
+      "foreign_key": "week_2_2_reminder",
+      "text": "Panglimang Araw: Feedback",
+      "image_asset": "",
+      "text_2": "",
+      "ignore": 15
+    },
+    {
+      "id": "intro_16",
+      "foreign_key": "week_3_session",
+      "text": "Welcome sa **Modyul 3: Pagbibigay ng Positibong Direksyon at Papuri!**\n\nAng layunin para sa linggong ito ay matuto kung paano maging mas epektibo ang mga magulang sa pagbibigay ng direksyon na susundan ng kanilang anak. Ginagawa ito sa dalawang paraan:\n\n1️⃣ Sa pagbibigay ng espesipiko, positibo, at  makatotohanan na direksyon\n2️⃣ Sa paggamit ng papuri sa mga anak kapag nasundan nila ang direksyon at sa iba pang pagkakataon",
+      "image_asset": "",
+      "text_2": "",
+      "ignore": 16
+    },
+    {
+      "id": "intro_17",
+      "foreign_key": "week_3_session_4",
+      "text": "Unang Araw: Group Chat Session\n\n*Tinatantyang tatagal ng isang oras ang sesyon.*\n\nIto ay isang talakayan ng grupo na ikaw bilang facilitator ang nangunguna. Tandaan na mag-pause pagkatapos ng bawat hakbang upang bigyan ang mga magulang ng pagkakataon na magbigay ng tugon o makipag-usap sa mga miyembro ng grupo kung komportable sila na gawin ito.",
+      "image_asset": "",
+      "text_2": "",
+      "ignore": 17
+    },
+    {
+      "id": "intro_18",
+      "foreign_key": "week_3_session_10",
+      "text": "Laktawan ang mensaheng ito kung may ibinahaging hamon na ang mga magulang na dapat pag-usapan.",
+      "image_asset": "",
+      "text_2": "",
+      "ignore": 18
+    },
+    {
+      "id": "intro_19",
+      "foreign_key": "week_3_1_reminder",
+      "text": "Panglimang Araw: Feedback",
+      "image_asset": "",
+      "text_2": "",
+      "ignore": 19
+    },
+    {
+      "id": "intro_20",
+      "foreign_key": "week_3_2_reminder",
+      "text": "Panglimang Araw: Feedback",
+      "image_asset": "",
+      "text_2": "",
+      "ignore": 20
+    },
+    {
+      "id": "intro_21",
+      "foreign_key": "week_4_session",
+      "text": "Welcome sa **Modyul 4: Pagpapanatiling Ligtas ang Anak Gamit ang Patakaran at Regular na Gawain!”**\n\nAng pagtatag at pagpapaliwanag ng mga patakaran sa bahay ang gabay ng bata sa mga kilos na inaasahan mula sa kanya at kung bakit inaasahan ang mga ito. Ang mga patakaran ay mga hangganan sa pagkilos na nakakatulong mapanatiling ligtas ang mga bata.\n\nAng mga regular na gawain ay nakatutulong ding mapanatiling ligtas ang mga bata. Ang pagkain at pagtulog sa takdang oras ay makakatulong magtakda ng matatag na kapaligiran para sa kanila. Napaka-importante nito lalo na para sa mga nakatira sa mga lugar o komunidad na hindi gaanong ligtas o matindi ang stress.\n\nSa modyul na ito, matututo ang mga magulang tungkol sa:\n1️⃣ kahalagahan ng pagsama sa kanilang anak sa pagtakda ng patakaran sa tahanan at regular gawain; at\n2️⃣ kung paano nakakatulong ang mga patakaran at regular na gawain para mapanatiling ligtas at malusog ang kanilang mga anak",
+      "image_asset": "",
+      "text_2": "",
+      "ignore": 21
+    },
+    {
+      "id": "intro_22",
+      "foreign_key": "week_4_session_4",
+      "text": "Unang Araw: Group Chat Session\n\n**Tinatantyang tatagal ng isang oras ang sesyon.**\n\nIto ay isang talakayan ng grupo na ikaw bilang facilitator ang nangunguna. Tandaan na mag-pause pagkatapos ng bawat hakbang upang bigyan ang mga magulang ng pagkakataon na magbigay ng tugon o makipag-usap sa mga miyembro ng grupo kung komportable sila na gawin ito.",
+      "image_asset": "",
+      "text_2": "",
+      "ignore": 22
+    },
+    {
+      "id": "intro_23",
+      "foreign_key": "week_4_1_reminder",
+      "text": "Pangatlong Araw: Pagpapaalala na Magpraktis",
+      "image_asset": "",
+      "text_2": "",
+      "ignore": 23
+    },
+    {
+      "id": "intro_24",
+      "foreign_key": "week_4_2_reminder",
+      "text": "Panglimang Araw: Feedback",
+      "image_asset": "",
+      "text_2": "",
+      "ignore": 24
+    },
+    {
+      "id": "intro_25",
+      "foreign_key": "week_5_session",
+      "text": "Welcome sa **Modyul 5: Pangangasiwa Ng Negatibong Kilos: Pagbaling Ng Atensyon At Paggamit Ng Konsekwensya!**\n\nSa Modyul 5, layunin ng facilitator na matutunan ng mga magulang ang:\n\n1️⃣ mga paraan sa pagbaling ng atensyon ng anak bago pa man mangyari ang negatibong kilos\n2️⃣ mga paraan ng paggamit ng konsekwensya\n\nPositibong disiplina ang tawag natin sa mga estratehiya tulad ng pagbaling ng atensyon at ang pagbibigay ng konsekwensya, dahil pinatitibay nito ang positibong relasyon ng magulang at anak sa pamamagitan ng pagkakaroon ng oras para sa isa’t isa, pagbibigay ng papuri, at pagkakaroon ng mga klaro at tiyak na patakaran.",
+      "image_asset": "",
+      "text_2": "",
+      "ignore": 25
+    },
+    {
+      "id": "intro_26",
+      "foreign_key": "week_5_session_3",
+      "text": "**ISTRUKTURA NG SESYON**\n\nI-review ang istruktura ng sesyon para sa Modyul 5.",
+      "image_asset": "",
+      "text_2": "",
+      "ignore": 26
+    },
+    {
+      "id": "intro_27",
+      "foreign_key": "week_5_session_4",
+      "text": "**1 | PANIMULANG GAWAIN**\n\nI-deliver ang **Panimulang Gawain** gamit ang Facilitator Guide sa ibaba:",
+      "image_asset": "",
+      "text_2": "",
+      "ignore": 27
+    },
+    {
+      "id": "intro_28",
+      "foreign_key": "week_5_session_5",
+      "text": "**2 |TALAKAYAN TUNGKOL SA PABAONG GAWAIN**\n\nI-deliver ang **Talakayan ng Pabaong Gawain** gamit ang Facilitator Guide sa ibaba:",
+      "image_asset": "",
+      "text_2": "",
+      "ignore": 28
+    },
+    {
+      "id": "intro_29",
+      "foreign_key": "week_5_session_6",
+      "text": "**3 | MAPA SKILL: PANGANGASIWA NG NEGATIBONG KILOS**\n\nI-deliver ang **MaPa Skill: Pangangasiwa ng Negatibong Kilos Gamit ang Pagbaling ng Atensyon at Konsekwensya** gamit ang Facilitator Guide sa ibaba:",
+      "image_asset": "",
+      "text_2": "",
+      "ignore": 29
+    },
+    {
+      "id": "intro_30",
+      "foreign_key": "week_5_session_7",
+      "text": "**4 | PABAONG GAWAIN**\n\nI-deliver ang **Pabaong Gawain** gamit ang Facilitator Guide sa ibaba:",
+      "image_asset": "",
+      "text_2": "",
+      "ignore": 30
+    },
+    {
+      "id": "intro_31",
+      "foreign_key": "week_5_session_8",
+      "text": "**5 | PAGTATAPOS**\n\nI-deliver ang **Pagtatapos** gamit ang Facilitator Guide sa ibaba:",
+      "image_asset": "",
+      "text_2": "",
+      "ignore": 31
+    },
+    {
+      "id": "intro_32",
+      "foreign_key": "week_5_session_9",
+      "text": "**6 | MENSAHE NG PAGPAPAALALA**\nPagkatapos Ng Sesyon: Pasasalamat sa Kalahok at Pagpapaalala ng Praktis",
+      "image_asset": "",
+      "text_2": "",
+      "ignore": 32
+    },
+    {
+      "id": "intro_33",
+      "foreign_key": "week_5_1_reminder",
+      "text": "Pangatlong Araw: Pagpapaalala na Magpraktis",
+      "image_asset": "",
+      "text_2": "",
+      "ignore": 33
+    },
+    {
+      "id": "intro_34",
+      "foreign_key": "week_5_1_reminder_2",
+      "text": "Pangatlong Araw: Pagpapaalala na Magpraktis",
+      "image_asset": "",
+      "text_2": "",
+      "ignore": 34
+    },
+    {
+      "id": "intro_35",
+      "foreign_key": "week_5_1_reminder_3",
+      "text": "Pangatlong Araw: Pagpapaalala na Magpraktis",
+      "image_asset": "",
+      "text_2": "",
+      "ignore": 35
+    },
+    {
+      "id": "intro_36",
+      "foreign_key": "week_5_2_reminder",
+      "text": "Panglimang Araw: Feedback",
+      "image_asset": "",
+      "text_2": "",
+      "ignore": 36
+    },
+    {
+      "id": "intro_37",
+      "foreign_key": "week_6_session",
+      "text": "Welcome sa **Modyul 6: Pagtugon sa Mahihirap na Isyu at Problema**\n\nSa modyul na ito, matututunan ng mga magulang:\n\n1️⃣ kung ano ang gagawin kapag nag-aalboroto ang bata at kapag ang bata ay nakakaranas ng totoong krisis.\n2️⃣ na bigyan ng lubos na atensyon ang mga bata at ang kanilang mga positibong kilos\n3️⃣ kung paano gumawa ng mga hakbang para maiwasan ang mga ito.",
+      "image_asset": "",
+      "text_2": "",
+      "ignore": 37
+    },
+    {
+      "id": "intro_38",
+      "foreign_key": "week_6_session_4",
+      "text": "Unang Araw: Group Chat Session\n\n**Tinatantyang tatagal ng isang oras ang sesyon.**\n\nIto ay isang talakayan ng grupo na ikaw bilang facilitator ang nangunguna. Tandaan na mag-pause pagkatapos ng bawat hakbang upang bigyan ang mga magulang ng pagkakataon na magbigay ng tugon o makipag-usap sa mga miyembro ng grupo kung komportable sila na gawin ito.",
+      "image_asset": "",
+      "text_2": "",
+      "ignore": 38
+    },
+    {
+      "id": "intro_39",
+      "foreign_key": "week_6_session_9",
+      "text": "Laktawan ang mensaheng ito kung mayroon nang ibinahaging hamon ang mga magulang na dapat pag-usapan.",
+      "image_asset": "",
+      "text_2": "",
+      "ignore": 39
+    },
+    {
+      "id": "intro_40",
+      "foreign_key": "week_6_1_reminder",
+      "text": "Pangatlong Araw: Pagpapaalala na Magpraktis",
+      "image_asset": "",
+      "text_2": "",
+      "ignore": 40
+    },
+    {
+      "id": "intro_41",
+      "foreign_key": "week_6_2_reminder",
+      "text": "Panglimang Araw: Feedback",
+      "image_asset": "",
+      "text_2": "",
+      "ignore": 41
+    },
+    {
+      "id": "intro_42",
+      "foreign_key": "week_7_session",
+      "text": "Welcome sa **Modyul 7: Pagbadyet ng Pamilya at mga Paraan ng Pag-iipon**\n\nSa modyul na ito, pag-uusapan kasama ng mga magulang:\n\n1️⃣ kung paano pamahalaan ang kinikita ng pamilya sa pamamagitan ng pagbuo ng Family Badyet\n2️⃣ na tukuyin ang mga bagay na kailangan talaga nilang paggastusan bawat buwan upang mabuhay\n3️⃣ ang paghahanap ng mga paraan upang masiguradong sapat ang pera kada buwan para matugunan ang mga kinakailangan\n4️⃣ ang halaga ng pag-iipon ng pera bawat buwan",
+      "image_asset": "",
+      "text_2": "",
+      "ignore": 42
+    },
+    {
+      "id": "intro_43",
+      "foreign_key": "week_7_session_7",
+      "text": "Unang Araw: Group Chat Session\n\n**Tinatantyang tatagal ng isang oras ang sesyon.**\n\nIto ay isang talakayan ng grupo na ikaw bilang facilitator ang nangunguna. Tandaan na mag-pause pagkatapos ng bawat hakbang upang bigyan ang mga magulang ng pagkakataon na magbigay ng tugon o makipag-usap sa mga miyembro ng grupo kung komportable sila na gawin ito.",
+      "image_asset": "",
+      "text_2": "",
+      "ignore": 43
+    },
+    {
+      "id": "intro_44",
+      "foreign_key": "week_7_session_12",
+      "text": "Laktawan ang mensaheng ito kung mayroon nang ibinahaging hamon ang mga magulang na dapat pag-usapan.",
+      "image_asset": "",
+      "text_2": "",
+      "ignore": 44
+    },
+    {
+      "id": "intro_45",
+      "foreign_key": "week_7_1_reminder",
+      "text": "Pangatlong Araw: Pagpapaalala Na Magpraktis",
+      "image_asset": "",
+      "text_2": "",
+      "ignore": 45
+    },
+    {
+      "id": "intro_46",
+      "foreign_key": "week_7_2_reminder",
+      "text": "Panglimang Araw: Feedback Para Sa Pagbuo Ng Family Badyet",
+      "image_asset": "",
+      "text_2": "",
+      "ignore": 46
+    },
+    {
+      "id": "intro_47",
+      "foreign_key": "week_8_session",
+      "text": "Welcome sa **Modyul 8:Pagharap sa Problema Bilang Pamilya at Pagninilay!**\n\nAng huling modyul ng MaPaChat ay tungkol sa pagninilay at pagbabahagi. Ang modyul na ito ay mas mahaba ng kaunti kumpara sa iba, dahil tutulungan mo ang mga magulang na pagnilayan ang kanilang mga karanasan sa programa at pagplanuhan kung paano sila magpapatuloy pagkatapos nito.\n\nNagsisimula ang modyul sa isang huling kasanayan sa parenting— ang paglutas ng problema kasama ang anak. Kung iisipin, sa pagdeliber ng buong programa, naimomodelo mo sa mga magulang ang mga importanteng hakbang ng modyul na ito.\n\nMerong limang hakbang sa paglutas ng problema:\n1️⃣ Kilalanin ang problema\n2️⃣ Mag-isip ng mga solusyon nang magkasama\n3️⃣ Pumili ng solusyon\n4️⃣ Subukan ang solusyon\n5️⃣ Pagnilayan kung gumana ang solusyon",
+      "image_asset": "",
+      "text_2": "",
+      "ignore": 47
+    },
+    {
+      "id": "intro_48",
+      "foreign_key": "week_8_session_3",
+      "text": "**ISTRUKTURA NG SESYON**\n\nI-review ang istruktura ng sesyon para sa Modyul 8.",
+      "image_asset": "",
+      "text_2": "",
+      "ignore": 48
+    },
+    {
+      "id": "intro_49",
+      "foreign_key": "week_8_session_4",
+      "text": "**1 | PANIMULANG GAWAIN**\n\nI-deliver ang **Panimulang Gawain** gamit ang Facilitator Guide sa ibaba:",
+      "image_asset": "",
+      "text_2": "",
+      "ignore": 49
+    },
+    {
+      "id": "intro_50",
+      "foreign_key": "week_8_session_5",
+      "text": "**2 |TALAKAYAN TUNGKOL SA PABAONG GAWAIN**\n\nI-deliver ang **Talakayan ng Pabaong Gawain** gamit ang Facilitator Guide sa ibaba:",
+      "image_asset": "",
+      "text_2": "",
+      "ignore": 50
+    },
+    {
+      "id": "intro_51",
+      "foreign_key": "week_8_session_6",
+      "text": "**3 | MAPA SKILL: PAGHARAP SA PROBLEMA BILANG PAMILYA**\n\nI-deliver ang **MaPa Skill: Pagharap sa Problema Bilang Pamilya** gamit ang Facilitator Guide sa ibaba:",
+      "image_asset": "",
+      "text_2": "",
+      "ignore": 51
+    },
+    {
+      "id": "intro_52",
+      "foreign_key": "week_8_session_7",
+      "text": "**4 | PAGTATAPOS**\n\nI-deliver ang **Pagtatapos** gamit ang Facilitator Guide sa ibaba:",
+      "image_asset": "",
+      "text_2": "",
+      "ignore": 52
+    },
+    {
+      "id": "intro_53",
+      "foreign_key": "week_8_session_8",
+      "text": "**5 | PAGDIRIWANG NG PAGTATAPOS**\n\nI-deliver ang **Pagdidirawang ng Pagtatapos** gamit ang Facilitator Guide sa ibaba:",
+      "image_asset": "",
+      "text_2": "",
+      "ignore": 53
+    }
+  ]
+}

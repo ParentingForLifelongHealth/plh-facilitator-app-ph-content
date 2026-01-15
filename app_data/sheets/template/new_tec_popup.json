@@ -1,0 +1,148 @@
+{
+  "flow_type": "template",
+  "flow_name": "new_tec_popup",
+  "status": "released",
+  "rows": [
+    {
+      "type": "title",
+      "name": "tac_updated_title",
+      "value": "@global.tac_splash_title",
+      "_translations": {
+        "value": {}
+      },
+      "_nested_name": "tac_updated_title",
+      "_dynamicFields": {
+        "value": [
+          {
+            "fullExpression": "@global.tac_splash_title",
+            "matchedExpression": "@global.tac_splash_title",
+            "type": "global",
+            "fieldName": "tac_splash_title"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@global.tac_splash_title": [
+          "value"
+        ]
+      }
+    },
+    {
+      "type": "text",
+      "name": "main_text",
+      "value": "@global.tac_splash_text",
+      "_translations": {
+        "value": {}
+      },
+      "_nested_name": "main_text",
+      "_dynamicFields": {
+        "value": [
+          {
+            "fullExpression": "@global.tac_splash_text",
+            "matchedExpression": "@global.tac_splash_text",
+            "type": "global",
+            "fieldName": "tac_splash_text"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@global.tac_splash_text": [
+          "value"
+        ]
+      }
+    },
+    {
+      "type": "display_group",
+      "action_list": [
+        {
+          "trigger": "click",
+          "action_id": "pop_up",
+          "args": [
+            "app_menu_terms"
+          ],
+          "_raw": "click | pop_up: app_menu_terms | fullscreen: true",
+          "params": {
+            "fullscreen": true
+          }
+        }
+      ],
+      "rows": [
+        {
+          "type": "text",
+          "name": "link_tac",
+          "value": "View updated Terms & Conditions",
+          "_translations": {
+            "value": {}
+          },
+          "style_list": [
+            "color: blue"
+          ],
+          "_nested_name": "display_group_4.link_tac"
+        }
+      ],
+      "name": "display_group_4",
+      "_nested_name": "display_group_4"
+    },
+    {
+      "type": "button",
+      "name": "accept_button",
+      "value": "Agree and Continue",
+      "_translations": {
+        "value": {}
+      },
+      "action_list": [
+        {
+          "trigger": "click",
+          "action_id": "set_field",
+          "args": [
+            "terms_and_conditions_gen_2026_accepted",
+            true
+          ],
+          "_raw": "click | set_field: terms_and_conditions_gen_2026_accepted: true"
+        },
+        {
+          "trigger": "click",
+          "action_id": "emit",
+          "args": [
+            "completed"
+          ],
+          "_raw": "click | emit: completed"
+        }
+      ],
+      "_nested_name": "accept_button"
+    },
+    {
+      "type": "text",
+      "name": "footnote",
+      "value": "@global.tac_splash_footnote",
+      "_translations": {
+        "value": {}
+      },
+      "style_list": [
+        "font-size: 14px",
+        "color: gray"
+      ],
+      "_nested_name": "footnote",
+      "_dynamicFields": {
+        "value": [
+          {
+            "fullExpression": "@global.tac_splash_footnote",
+            "matchedExpression": "@global.tac_splash_footnote",
+            "type": "global",
+            "fieldName": "tac_splash_footnote"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@global.tac_splash_footnote": [
+          "value"
+        ]
+      }
+    }
+  ],
+  "_source": {
+    "name": "facilitator_ph_sheets",
+    "path": "templates/Splash_TaC.xlsx",
+    "url": "https://docs.google.com/spreadsheets/d/11bk3Cn9sgECQbdEFkq6jJ3Hw7yNEVzIzWrviJUD9AfE"
+  }
+}

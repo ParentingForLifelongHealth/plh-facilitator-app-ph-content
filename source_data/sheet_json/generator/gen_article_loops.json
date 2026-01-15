@@ -1,0 +1,33 @@
+{
+  "flow_type": "generator",
+  "flow_name": "gen_article_loops",
+  "status": "released",
+  "parameter_list": {
+    "input_data_list": "article_loops",
+    "output_flow_name": "sub_item_{@gen.loop_id}",
+    "output_flow_type": "template"
+  },
+  "rows": [
+    {
+      "type": "begin_template",
+      "name": "article_loop",
+      "value": "article_loop",
+      "exclude_from_translation": true,
+      "comments": "(@gen.type == \"article\") - this condition has been moved to the template as it does not work here"
+    },
+    {
+      "name": "article_id",
+      "value": "@gen.id",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "foreign_key",
+      "value": "@gen.foreign_key",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "end_template",
+      "exclude_from_translation": true
+    }
+  ]
+}

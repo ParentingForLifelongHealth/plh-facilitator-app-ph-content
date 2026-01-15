@@ -1,0 +1,146 @@
+{
+  "flow_type": "template",
+  "flow_name": "parent_list",
+  "status": "released",
+  "rows": [
+    {
+      "type": "begin_display_group",
+      "condition": "!@fields.current_group_readonly"
+    },
+    {
+      "type": "text",
+      "value": "Add Parent to Group",
+      "style_list": "color: #74777C"
+    },
+    {
+      "type": "round_button",
+      "action_list": "click | go_to: add_parent;",
+      "parameter_list": "variant: no-background; \nicon_src: images/icons/add_circle.svg;"
+    },
+    {
+      "type": "end_display_group"
+    },
+    {
+      "name": "first_name",
+      "value": " ",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "last_name",
+      "value": " ",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "begin_data_items",
+      "value": "parents"
+    },
+    {
+      "type": "text",
+      "value": "current: @fields.current_group_no ",
+      "condition": false,
+      "exclude_from_translation": true
+    },
+    {
+      "type": "text",
+      "value": "@item.group_id",
+      "condition": false,
+      "exclude_from_translation": true
+    },
+    {
+      "type": "begin_display_group",
+      "style_list": "margin-bottom: 12px;",
+      "condition": "@item.group_id == @fields.current_group_no && !@item.archived",
+      "comments": "@item.group_id == @fields.current_group_no && !@item.archived && (@item.co_parent_id== \"\" | @item.co_parent_name!= \"\")"
+    },
+    {
+      "name": "parent_name",
+      "value": "@item.first_name @item.last_name"
+    },
+    {
+      "type": "begin_display_group",
+      "parameter_list": "style: column",
+      "style_list": "flex: 1;"
+    },
+    {
+      "name": "first_name",
+      "value": " ",
+      "comments": "This makes sure undefined isnt listed",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "last_name",
+      "value": " ",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "first_name",
+      "value": "@item.first_name",
+      "condition": "@item.first_name",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "last_name",
+      "value": "@item.last_name",
+      "condition": "@item.last_name",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "begin_display_group"
+    },
+    {
+      "type": "text",
+      "name": "text_@item.parent_no",
+      "value": "@local.first_name @local.last_name",
+      "style_list": "color: #46607F;\n",
+      "condition": true,
+      "exclude_from_translation": true
+    },
+    {
+      "type": "round_button",
+      "action_list": "click | toast | message: @global.incomplete_parent",
+      "parameter_list": "icon_src: images/icons/incomplete.svg;\nvariant: no-background; ",
+      "style_list": "max-width: 32px;\nmargin-left: -10px;",
+      "condition": "!@item.number || !@item.age || !@item.sex || !@item.child_name || !@item.child_age || !@item.child_sex || !@item.relationship || !@item.members || !@item.childcare || !@item.goal || !@item.consoltation",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "end_display_group"
+    },
+    {
+      "type": "text",
+      "value": "Co-parent: @item.co_parent_name",
+      "style_list": "font-size: 12px; \ncolor: #46607F;\nmargin-top: -8px;\nmargin-bottom: -8px;",
+      "condition": "@item.co_parent_id"
+    },
+    {
+      "type": "end_display_group"
+    },
+    {
+      "type": "round_button",
+      "name": "button_edit_@item.id",
+      "action_list": "click | set_field: current_parent_no: @item.id; \nclick | set_field: current_parent_first_name: @local.first_name;\nclick | set_field: current_parent_last_name: @local.last_name;\nclick | set_field: current_parent_text_id: @item.text_id;\nclick | go_to: edit_parent;",
+      "parameter_list": "icon_src: images/icons/edit.svg;",
+      "condition": "!@fields.current_group_readonly"
+    },
+    {
+      "type": "round_button",
+      "name": "button_view_@item.id",
+      "action_list": "click | set_field: current_parent_no: @item.id; \nclick | set_field: current_parent_first_name: @local.first_name;\nclick | set_field: current_parent_last_name: @local.last_name;\nclick | set_field: current_parent_text_id: @item.text_id;\nclick | go_to: edit_parent;",
+      "parameter_list": "icon_src: images/icons/eye.svg;",
+      "condition": "@fields.current_group_readonly"
+    },
+    {
+      "type": "round_button",
+      "name": "button_delete_@item.id",
+      "action_list": "click | set_field: current_parent_no: @item.id; \nclick | set_field: current_parent_name: @local.first_name @local.last_name;\nclick | set_field: current_coparent_id: @item.co_parent_id;\nclick | pop_up: delete_parent;",
+      "parameter_list": "icon_src: images/icons/delete.svg;\nstyle: orange",
+      "condition": "!@fields.current_group_readonly"
+    },
+    {
+      "type": "end_display_group"
+    },
+    {
+      "type": "end_data_items"
+    }
+  ]
+}

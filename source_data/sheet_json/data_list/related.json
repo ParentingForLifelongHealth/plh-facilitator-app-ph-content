@@ -1,0 +1,18 @@
+{
+  "flow_type": "data_list",
+  "flow_name": "related",
+  "status": "released",
+  "data_list_name": "related",
+  "rows": [
+    {
+      "id": "test",
+      "foreign_key": "test",
+      "title": "test",
+      "related_article_id": "test",
+      "__EMPTY": "test",
+      "__EMPTY_1": "test",
+      "ignore": "test",
+      "ignore_2": "test"
+    }
+  ]
+}
