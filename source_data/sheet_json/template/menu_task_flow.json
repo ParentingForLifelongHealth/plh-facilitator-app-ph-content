@@ -1,0 +1,325 @@
+{
+  "flow_type": "template",
+  "flow_name": "menu_task_flow",
+  "status": "released",
+  "rows": [
+    {
+      "name": "completed_prefix",
+      "value": "completed_",
+      "exclude_from_translation": true,
+      "comments": "data_name"
+    },
+    {
+      "name": "pages_completed_prefix",
+      "value": "pages_"
+    },
+    {
+      "name": "completed_postfix",
+      "value": "_completed",
+      "exclude_from_translation": true,
+      "comments": "data_name"
+    },
+    {
+      "name": "sub_menu",
+      "value": "_category_tasks",
+      "exclude_from_translation": true,
+      "comments": "data_name - should be able to switch to single task "
+    },
+    {
+      "name": "menu_items",
+      "value": "modules",
+      "exclude_from_translation": true,
+      "comments": "data_name"
+    },
+    {
+      "name": "click_prefix",
+      "value": "sub_item_",
+      "exclude_from_translation": true,
+      "comments": "data_name"
+    },
+    {
+      "name": "progress_units_name",
+      "value": "sections",
+      "exclude_from_translation": true,
+      "comments": "data_name"
+    },
+    {
+      "type": "begin_display_group",
+      "name": "dg_top",
+      "parameter_list": "sticky: top;\nbackground_image_asset: images/backgrounds/home_top_left.svg;\nbackground_image_position: top left;\nstyle: background_solid;",
+      "exclude_from_translation": true,
+      "style_list": "width: 105%;\nalign-items: flex-start;\npadding: 24px;\nmin-height: 192px;"
+    },
+    {
+      "type": "begin_display_group",
+      "name": "dg_top_column",
+      "parameter_list": "style: column",
+      "exclude_from_translation": true,
+      "style_list": "align-items: flex-start;"
+    },
+    {
+      "type": "image",
+      "name": "logo",
+      "value": "@global.main_logo",
+      "exclude_from_translation": true,
+      "style_list": "max-width: 72px;\nmargin-block: -12px"
+    },
+    {
+      "type": "title",
+      "name": "label_group",
+      "value": "@global.main_menu_title",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "begin_display_group",
+      "name": "dg_top_row",
+      "style_list": "justify-content: space-between"
+    },
+    {
+      "type": "begin_combo_box",
+      "name": "selected_group",
+      "value": "@fields.current_group_no",
+      "action_list": "changed | set_field: current_group_no: this.value;\nchanged | set_data |\n_list_id: sub_items,\ncompleted: @item.@local.completed_prefix{this.value};\n",
+      "parameter_list": "placeholder: @global.select_group;\ndisabled_text: @global.no_groups;\nvariant: dropdown;",
+      "style_list": "flex: 4",
+      "comments": "This syntax feels very wrong and against the templating system Johnny McQuade let's find a time to discuss.\n\nchanged | set_data |\n_list_id: sub_items,\ncompleted: @item.@local.completed_prefix@local.selected_group;"
+    },
+    {
+      "type": "begin_data_items",
+      "value": "parent_groups",
+      "parameter_list": "filter: !@item.archived",
+      "comments": "Data list should include columns for name and text"
+    },
+    {
+      "type": "end_data_items"
+    },
+    {
+      "type": "end_combo_box"
+    },
+    {
+      "type": "button",
+      "name": "debug_button",
+      "action_list": "click |  set_data |\n_list_id: sub_items,\ncompleted: @item.@local.completed_prefix@local.selected_group;\nchanged | set_field: current_group_no: @local.selected_group;",
+      "condition": false
+    },
+    {
+      "type": "round_button",
+      "name": "groups_go_to",
+      "action_list": "click | plh_parent_group: pull | parent_groups_data_list: parent_groups, parents_data_list: parents, completion_tracking_data_list: sub_items;\nclick | go_to: profile_groups;",
+      "parameter_list": "variant: no-background;\nicon_src: @global.add_group_icon;",
+      "style_list": "flex: 1",
+      "comments": "icon_src: @global.add_group_icon;"
+    },
+    {
+      "type": "end_display_group"
+    },
+    {
+      "type": "end_display_group"
+    },
+    {
+      "type": "end_display_group"
+    },
+    {
+      "name": "t_group_data",
+      "value": "sub_items",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "image_prefix",
+      "value": "images/icons/task_",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "image_postfix",
+      "value": ".svg",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "text",
+      "name": "debug_complete",
+      "value": "@local.completed_prefix@local.selected_group",
+      "condition": false,
+      "exclude_from_translation": true
+    },
+    {
+      "type": "text",
+      "name": "debug_current",
+      "value": "currentgroup: @fields.current_group_no",
+      "condition": false,
+      "exclude_from_translation": true
+    },
+    {
+      "type": "begin_display_group",
+      "parameter_list": "style: column",
+      "condition": "@local.selected_group && @fields.current_group_no !== \"NULL\""
+    },
+    {
+      "type": "begin_data_items",
+      "value": "modules",
+      "exclude_from_translation": true
+    },
+    {
+      "exclude_from_translation": true
+    },
+    {
+      "name": "packages_@item.id",
+      "value": "ALL",
+      "condition": false,
+      "exclude_from_translation": true
+    },
+    {
+      "name": "condition_package_@item.id",
+      "value": true,
+      "condition": false,
+      "exclude_from_translation": true,
+      "comments": "Content without a tag is assumed to apply to all tags"
+    },
+    {
+      "name": "packages_@item.id",
+      "value": "@item.tag_list",
+      "condition": false,
+      "exclude_from_translation": true
+    },
+    {
+      "name": "condition_package_@item.id",
+      "value": true,
+      "condition": false,
+      "exclude_from_translation": true
+    },
+    {
+      "name": "condition_package_@item.id",
+      "value": false,
+      "condition": false,
+      "exclude_from_translation": true
+    },
+    {
+      "type": "text",
+      "value": "@item.status",
+      "condition": false,
+      "exclude_from_translation": true
+    },
+    {
+      "type": "text",
+      "value": "@local.image_prefix@local.image_count_@item.id@local.image_postfix",
+      "condition": false,
+      "exclude_from_translation": true
+    },
+    {
+      "name": "completed_field_@item.id",
+      "value": "@local.completed_prefix@local.selected_group",
+      "condition": false
+    },
+    {
+      "type": "text",
+      "value": "above completed: @item.completed",
+      "condition": false
+    },
+    {
+      "type": "text",
+      "value": "page_count: @item.page_count",
+      "condition": false
+    },
+    {
+      "type": "text",
+      "value": "page_complete: @item.@local.pages_completed_prefix@local.selected_group",
+      "condition": false
+    },
+    {
+      "type": "begin_template",
+      "name": "menu_task_card",
+      "value": "menu_task_card",
+      "condition": "@item.status != \"draft\"",
+      "exclude_from_translation": true,
+      "style_list": "margin-bottom: 12px"
+    },
+    {
+      "name": "module_id",
+      "value": "@item.id",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "module_name",
+      "value": "@item.title",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "report_id",
+      "value": "@item.report_id",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "image",
+      "value": "BLANK",
+      "condition": "!@global.use_module_image",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "image",
+      "value": "@item.image_asset",
+      "condition": "@global.use_module_image",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "completed",
+      "value": "@item.@local.completed_prefix@local.selected_group"
+    },
+    {
+      "name": "all_pages_complete",
+      "value": "@item.@local.pages_completed_prefix@local.selected_group"
+    },
+    {
+      "name": "page_count",
+      "value": "@item.page_count"
+    },
+    {
+      "type": "end_template",
+      "exclude_from_translation": true
+    },
+    {
+      "exclude_from_translation": true
+    },
+    {
+      "type": "end_data_items",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "end_display_group",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "begin_display_group",
+      "parameter_list": "style: column",
+      "condition": "!@local.selected_group || @fields.current_group_no == \"NULL\"",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "text",
+      "value": "@global.sessions_no_groups",
+      "parameter_list": "style: contextual;\ntext_align:center",
+      "exclude_from_translation": true,
+      "style_list": "color: var(--ion-color-gray-700);"
+    },
+    {
+      "type": "round_button",
+      "name": "groups_go_to_2",
+      "action_list": "click | plh_parent_group: pull | parent_groups_data_list: parent_groups, parents_data_list: parents, completion_tracking_data_list: sub_items;\nclick | go_to: profile_groups;",
+      "parameter_list": "variant: no-background;\nicon_src: @global.add_group_icon;",
+      "style_list": "max-width: max-content;"
+    },
+    {
+      "type": "end_display_group",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "begin_display_group",
+      "name": "dg_footer",
+      "parameter_list": "sticky: bottom;\nbackground_image_asset: images/backgrounds/home_bottom_right.svg;\nbackground_image_position: bottom right;",
+      "condition": "!@local.selected_group",
+      "exclude_from_translation": true,
+      "style_list": "width: 110%;\nmin-height: 144px;"
+    },
+    {
+      "type": "end_display_group"
+    }
+  ]
+}

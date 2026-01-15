@@ -1,0 +1,32 @@
+{
+  "flow_type": "data_list",
+  "flow_name": "app_section_data",
+  "status": "released",
+  "data_list_name": "app_section",
+  "rows": [
+    {
+      "id": "home",
+      "title::eng": "Sessions",
+      "icon_asset": "images/icons/house_white.svg",
+      "template": "home_screen"
+    },
+    {
+      "id": "reports",
+      "title::eng": "Report",
+      "icon_asset": "images/icons/pencil_white.svg",
+      "template": "reports"
+    },
+    {
+      "id": "library",
+      "title::eng": "Library",
+      "icon_asset": "images/icons/library_white.svg",
+      "template": "library"
+    },
+    {
+      "id": "settings",
+      "title::eng": "Settings",
+      "icon_asset": "images/icons/cog_white.svg",
+      "template": "profile"
+    }
+  ]
+}

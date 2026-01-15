@@ -1,0 +1,47 @@
+{
+  "flow_type": "template",
+  "flow_name": "onboarding_settings_page_2",
+  "status": "released",
+  "rows": [
+    {
+      "type": "text",
+      "name": "choose_org",
+      "value": "@global.choose_organisation",
+      "parameter_list": "style: emphasised;"
+    },
+    {
+      "type": "combo_box",
+      "name": "user_org_select",
+      "value": "@fields.user_organisation",
+      "parameter_list": "answer_list: @data.user_organisation;\nplaceholder: @global.select_response;\nvariant: dropdown;"
+    },
+    {
+      "name": "completed_enabled_2",
+      "value": "!!@local.user_org_select",
+      "style_list": true
+    },
+    {
+      "type": "begin_display_group",
+      "name": "dg_footer",
+      "parameter_list": "sticky: bottom;",
+      "style_list": "padding: 12px 24px;"
+    },
+    {
+      "type": "round_button",
+      "name": "button_back",
+      "action_list": "click | emit: uncompleted",
+      "parameter_list": "icon_src: arrow-back;\nvariant: no-background;"
+    },
+    {
+      "type": "button",
+      "name": "button_completed_2",
+      "value": "@global.next",
+      "action_list": "click | set_field: user_organisation: @local.user_org_select;\nclick | emit: completed;",
+      "parameter_list": "style: navigation;\ndisabled: !@local.completed_enabled_2",
+      "style_list": "flex: 1"
+    },
+    {
+      "type": "end_display_group"
+    }
+  ]
+}

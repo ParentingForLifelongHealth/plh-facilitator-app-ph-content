@@ -1,0 +1,808 @@
+{
+  "flow_type": "data_list",
+  "flow_name": "a_sections",
+  "status": "released",
+  "data_list_name": "a_sections",
+  "rows": [
+    {
+      "id": "section_1",
+      "foreign_key": "week_1_session",
+      "title": "Bago ang sesyon, pag-usapan ang mga susunod kasama ang iyong co-facilitator:",
+      "text": "1️⃣ Basahin ang modyul at siguraduhin klaro para sa inyo ang mga layunin sa inyong talakayan\n\n2️⃣ Magsulat ng mga notes na makakatulong sa inyo sa pagpapadaloy ng sesyon\n\n3️⃣ Maaaring makatulong na isulat ang iba't ibang paraan ng pagtatanong sa mga kalahok\n\n4️⃣ Maaari mo ring pagsanayan o i-praktis ang pagsasagawa o pagtalakay ng ilang bahagi ng sesyon kasama ang iyong co-facilitator!\n\n5️⃣ Magdesisyon kung sino sa inyo at sa co-facilitator ang mangunguna sa mga aktibidad at kung sino ang magbibigay ng suporta\n\n6️⃣ Suriin ang mga dokumento ng bawat participant upang makita ang kanilang progreso sa programa at upang tandaan kung sino ang nangangailangan ng karagdagang suporta\n\n7️⃣ Hatiin ang oras ayon sa pangangailangan ng grupo\n\n8️⃣ Dumating ng maaga upang ihanda ang espasyo na gagamitin",
+      "ignore": 1,
+      "ignore_2": "week_1_session_1"
+    },
+    {
+      "id": "section_2",
+      "foreign_key": "week_1_session_6",
+      "title": "Pundasyon ng Modyul 1: One-on-One Time",
+      "text": "1️⃣ **ARAW** - Gawin ito araw-araw. \n\n2️⃣ **LARO** - Hayaan ang iyong anak na pumili ng gagawin\n\n3️⃣ **ATENSYON** - Ibigay ang buong atensyon sa iyong anak.",
+      "ignore": 2,
+      "ignore_2": "week_1_session_6"
+    },
+    {
+      "id": "section_3",
+      "foreign_key": "week_1_session_7",
+      "title": "Pundasyon ng Modyul 1: One-on-One Time",
+      "text": "1️⃣ **ARAW** - Gawin ito araw-araw. \n\n2️⃣ **LARO** - Hayaan ang iyong anak na pumili ng gagawin\n\n3️⃣ **ATENSYON** - Ibigay ang buong atensyon sa iyong anak.",
+      "ignore": 3,
+      "ignore_2": "week_1_session_7"
+    },
+    {
+      "id": "section_4",
+      "foreign_key": "week_2_session",
+      "title": "Paghahanda Para sa Modyul 2",
+      "text": "Bago magsimula, siguraduhing nakahanda na ang lahat!\n\n1️⃣ I-review ang mga mensahe ng nakaraang modyul. Tandaan ang mga magulang na kailangan ng karagdagang suporta.\n\n2️⃣ I-review ang feedback ng nakaraang modyul. Pumili ng isang tagumpay na maaaring iugnay sa mga pundasyon sa live chat. Pumili ng isang hamon na pwedeng pagtulungan na masolusyonan ng grupo sa live chat.\n\n3️⃣ I-review ang mga pundasyon at mga mensahe para sa Modyul 2.",
+      "ignore": 4,
+      "ignore_2": "week_2_session_1"
+    },
+    {
+      "id": "section_5",
+      "foreign_key": "week_2_session_4",
+      "title": "Balangkas ng Live Chat Sesyon",
+      "text": "Mensahe 1: Pagbati at Pangangamusta\n\nMensahe 2: Talakayan Tungkol sa Pabaong Gawain\n\nMensahe 3: Pagbabahagi ng Tagumpay\n\nMensahe 4: Pagbabahagi ng Hamon\n\nMensahe 5: Talakayan Tungkol sa Hamon at mga Solusyon\n\nMensahe 6: Pagpapakilala ng MaPa Skill: Pakikipag-usap Tungkol sa Damdamin\n\nMensahe 7: Komiks Tungkol sa Batang Anak\n\nMensahe 8: Talakayan Tungkol sa Komiks\n\nMensahe 9: Komiks Tungkol sa Anak na Tinedyer\n\nMensahe 10: Talakayan Tungkol sa Komiks\n\nMensahe 11: Talakayan Tungkol sa Komiks: Isipin ang Edad ng Anak\n\nMensahe 12: Talakayan Tungkol sa mga Rason sa Pakikipag-usap Tungkol sa Damdamin\n\nMensahe 13: Pagtakda ng Home Activity o Pabaong Gawain\n\nMensahe 14: Paglilinaw\n\nMensahe 15: Video: Pagpapaalala ng MaPa Skill\n\nMensahe 16: Video: Tumigil nang Sandali at Pagtatapos\n\nMensahe 17 - Pagpapasalamat",
+      "ignore": 5,
+      "ignore_2": "week_2_session_4"
+    },
+    {
+      "id": "section_6",
+      "foreign_key": "week_2_session_6",
+      "title": "Pundasyon ng Modyul 1: One-on-One Time",
+      "text": "1️⃣ **ARAW** - Gawin ito araw-araw. \n\n2️⃣ **LARO** - Hayaan ang iyong anak na pumili ng gagawin\n\n3️⃣ **ATENSYON** - Ibigay ang buong atensyon sa iyong anak.",
+      "ignore": 6,
+      "ignore_2": "week_2_session_6"
+    },
+    {
+      "id": "section_7",
+      "foreign_key": "week_2_session_7",
+      "title": "Pundasyon ng Modyul 1: One-on-One Time",
+      "text": "1️⃣ **ARAW** - Gawin ito araw-araw. \n\n2️⃣ **LARO** - Hayaan ang iyong anak na pumili ng gagawin\n\n3️⃣ **ATENSYON** - Ibigay ang buong atensyon sa iyong anak.",
+      "ignore": 7,
+      "ignore_2": "week_2_session_7"
+    },
+    {
+      "id": "section_8",
+      "foreign_key": "week_2_session_8",
+      "title": "Pundasyon ng Modyul 1: One-on-One Time",
+      "text": "1️⃣ **ARAW** - Gawin ito araw-araw. \n\n2️⃣ **LARO** - Hayaan ang iyong anak na pumili ng gagawin\n\n3️⃣ **ATENSYON** - Ibigay ang buong atensyon sa iyong anak.",
+      "ignore": 8,
+      "ignore_2": "week_2_session_8"
+    },
+    {
+      "id": "section_9",
+      "foreign_key": "week_2_session_9",
+      "title": "Pundasyon ng Modyul 1: One-on-One Time",
+      "text": "1️⃣ **ARAW** - Gawin ito araw-araw. \n\n2️⃣ **LARO** - Hayaan ang iyong anak na pumili ng gagawin\n\n3️⃣ **ATENSYON** - Ibigay ang buong atensyon sa iyong anak.",
+      "ignore": 9,
+      "ignore_2": "week_2_session_9"
+    },
+    {
+      "id": "section_10",
+      "foreign_key": "week_2_session_10",
+      "title": "Pundasyon ng Modyul 1: One-on-One Time",
+      "text": "1️⃣ **ARAW** - Gawin ito araw-araw. \n\n2️⃣ **LARO** - Hayaan ang iyong anak na pumili ng gagawin\n\n3️⃣ **ATENSYON** - Ibigay ang buong atensyon sa iyong anak.",
+      "ignore": 10,
+      "ignore_2": "week_2_session_10"
+    },
+    {
+      "id": "section_11",
+      "foreign_key": "week_2_session_13",
+      "title": "Pundasyon ng Modyul 2: Pakikipag-usap Tungkol sa Damdamin",
+      "text": "1️⃣ **HUMINGA** - Huminga bago magsimula para mapakalma ang sarili.\n2️⃣ **IBAHAGI** - Ibahagi ang nararamdaman. \n3️⃣ **MAKINIG** - Makinig sa iyong anak na bata o tinedyer. \n4️⃣ **MALASAKIT** - Malasakit para sa kanila. \n5️⃣ **MAGHANAP** - Maghanap ng positibo.",
+      "ignore": 11,
+      "ignore_2": "week_2_session_13"
+    },
+    {
+      "id": "section_12",
+      "foreign_key": "week_2_session_18",
+      "title": "Mga Posibleng Sagot ng mga Magulang",
+      "text": "⚪️ Pinansin ni Lola ang nararamdaman ni Jun-Jun sa pagsabi ng “Nakikita ko na malungkot ka”.\n⚪️ Gumamit ng salita upang ilarawan ang emosyon.\n⚪️ Inulit ang sinabi ni Jun-Jun, “Hindi ito madali”.\n⚪️ Dinamayan ang anak.\n⚪️ Binahagi ang sariling damdamin tungkol sa sitwasyon sa pagsabi ng “Masaya akong nakasama kita ngayon, Jun-Jun”.\n⚪️ Naghanap ng solusyon.",
+      "ignore": 12,
+      "ignore_2": "week_2_session_18"
+    },
+    {
+      "id": "section_13",
+      "foreign_key": "week_2_session_24",
+      "title": "Mga Posibleng Sagot ng Magulang",
+      "text": "⚪️ Nananatiling kalmado ang magulang.\n⚪️ Tinatanggap ng magulang ang emosyon (takot) – kahit na negatibo ito.\n⚪️ Pinapaliwanag ng magulang ang kanyang nararamdaman.\n⚪️ Pinapansin ng magulang na ang kanyang anak ay balisa at pinapanatag niya ito sa pagsasabi ng, “Normal makaramdam nito.”\n⚪️ Nagpakita ang magulang ng pagdamay at suporta gamit ang salita upang malaman ng tinedyer na nandoon siya para sa kanila.\n⚪️ Pinapansin ng magulang kung ano ang nararamdaman ng kanyang tinedyer\n⚪️ Magkasamang naghanap ng solusyon ang magulang at ang tinedyer – na hindi nangangahulugang may kasagutan sa lahat!",
+      "ignore": 13,
+      "ignore_2": "week_2_session_24"
+    },
+    {
+      "id": "section_14",
+      "foreign_key": "week_2_session_26",
+      "title": "Mga posibleng sagot ng mga magulang:",
+      "text": "⚪️ Tinuturuan ang anak magbahagi ng kanilang damdamin.\n⚪️ Tinutulungan ang anak pag-ugnayin ang emosyon sa kilos at body language.\n⚪️ Natututunan ng anak na lahat ng emosyon ay katanggap-tanggap.\n⚪️ Makikita at matututunan ng mga magulang ang damdamin ng kanilang anak.\n⚪️ Tinuturuan ang anak kilalanin ang emosyon ng ibang tao.\n⚪️ Binibigyan ang anak ng pagkakataon baguhin ang kanilang kilos.",
+      "ignore": 14,
+      "ignore_2": "week_2_session_26"
+    },
+    {
+      "id": "section_15",
+      "foreign_key": "week_2_session_28",
+      "title": "Pundasyon ng Modyul 2: Pakikipag-Usap Tungkol sa Damdamin",
+      "text": "1️⃣ **HUMINGA** - Huminga bago magsimula para mapakalma ang sarili.\n2️⃣ **IBAHAGI** - Ibahagi ang nararamdaman. \n3️⃣ **MAKINIG** - Makinig sa iyong anak na bata o tinedyer. \n4️⃣ **MALASAKIT** - Malasakit para sa kanila. \n5️⃣ **MAGHANAP** - Maghanap ng positibo.",
+      "ignore": 15,
+      "ignore_2": "week_2_session_28"
+    },
+    {
+      "id": "section_16",
+      "foreign_key": "week_3_session",
+      "title": "Paghahanda Para sa Modyul 3",
+      "text": "Bago magsimula, siguraduhing nakahanda na ang lahat!\n\n1️⃣ I-review ang mga mensahe ng nakaraang modyul. Tandaan ang mga magulang na kailangan ng karagdagang suporta.\n\n2️⃣ I-review ang feedback ng nakaraang modyul. Pumili ng isang tagumpay na maaaring iugnay sa mga pundasyon sa live chat. Pumili ng isang hamon na pwedeng pagtulungan na masolusyonan ng grupo sa live chat.\n\n3️⃣ I-review ang mga pundasyon at mga mensahe para sa Modyul 3.",
+      "ignore": 16,
+      "ignore_2": "week_3_session_1"
+    },
+    {
+      "id": "section_17",
+      "foreign_key": "week_3_session_4",
+      "title": "Balangkas ng Live Chat Sesyon",
+      "text": "Mensahe 1: Pagbati\n\nMensahe 2: Pangangamusta\n\nMensahe 3: Talakayan Tungkol sa Pabaong Gawain\n\nMensahe 4: Pagbabahagi ng Tagumpay\n\nMensahe 5: Pagbabahagi ng Hamon\n\nMensahe 6: Talakayan Tungkol sa Hamon at mga Solusyon\nMensahe 7: Pagpapakilala ng MaPa Skill: Pagbibigay ng Positibong Direksyon\n\nMensahe 8: Komiks tungkol sa Anak na Tinedyer (Pagbibigay ng Positibong Direksyon)\n\nMensahe 9: Talakayan Tungkol sa Komiks\n\nMensahe 10: Talakayan Tungkol sa Komiks: Isipin ang Edad ng Anak\nMensahe 11: Pagpapakilala ng Parenting Tip: Paggamit ng Papuri\n\nMensahe 12: Komiks tungkol sa Batang Anak at Tinedyer (Paggamit ng Papuri)\n\nMensahe 13: Talakayan tungkol sa Komiks\n\nMensahe 14: Talakayan tungkol sa Komiks: Isipin ang Edad ng Anak\n\nMensahe 15: Talakayan tungkol sa mga Rason sa Pagbibigay ng Positibong Direksyon at Paggamit ng Papuri\n\nMensahe 16: Pagtakda ng Home Activity o Pabaong Gawain\n\nMensahe 17: Magbahagi ng Isang Bagay na Maaaring Purihin\n\nMensahe 18: Paglilinaw\n\nMensahe 19: Video: Pagpapaalala ng MaPa Skill\n\nMensahe 20: Video: Tumigil nang Sandali at Pagtatapos\n\nMensahe 21: Pagpapasalamat",
+      "ignore": 17,
+      "ignore_2": "week_3_session_4"
+    },
+    {
+      "id": "section_18",
+      "foreign_key": "week_3_session_7",
+      "title": "Pundasyon ng Modyul 2 - Pakikipag-usap Tungkol sa Damdamin",
+      "text": "1️⃣ **HUMINGA** - Huminga bago magsimula para mapakalma ang sarili.\n\n2️⃣ **IBAHAGI** - Ibahagi ang nararamdaman. \n\n3️⃣ **MAKINIG** - Makinig sa iyong anak na bata o tinedyer. \n\n4️⃣ **MALASAKIT** - Malasakit para sa kanila. \n\n5️⃣ **MAGHANAP** - Maghanap ng positibo.",
+      "ignore": 18,
+      "ignore_2": "week_3_session_7"
+    },
+    {
+      "id": "section_19",
+      "foreign_key": "week_3_session_8",
+      "title": "Pundasyon ng Modyul 2: Pakikipag-usap Tungkol sa Damdamin",
+      "text": "1️⃣ **HUMINGA** - Huminga bago magsimula para mapakalma ang sarili.\n\n2️⃣ **IBAHAGI** - Ibahagi ang nararamdaman. \n\n3️⃣ **MAKINIG** - Makinig sa iyong anak na bata o tinedyer. \n\n4️⃣ **MALASAKIT** - Malasakit para sa kanila. \n\n5️⃣ **MAGHANAP** - Maghanap ng positibo.",
+      "ignore": 19,
+      "ignore_2": "week_3_session_8"
+    },
+    {
+      "id": "section_20",
+      "foreign_key": "week_3_session_9",
+      "title": "Pundasyon ng Modyul 2: Pakikipag-usap Tungkol sa Damdamin",
+      "text": "1️⃣ **HUMINGA** - Huminga bago magsimula para mapakalma ang sarili.\n\n2️⃣ **IBAHAGI** - Ibahagi ang nararamdaman. \n\n3️⃣ **MAKINIG** - Makinig sa iyong anak na bata o tinedyer. \n\n4️⃣ **MALASAKIT** - Malasakit para sa kanila. \n\n5️⃣ **MAGHANAP** - Maghanap ng positibo.",
+      "ignore": 20,
+      "ignore_2": "week_3_session_9"
+    },
+    {
+      "id": "section_21",
+      "foreign_key": "week_3_session_10",
+      "title": "Pundasyon ng Modyul 2: Pakikipag-usap Tungkol sa Damdamin",
+      "text": "1️⃣ **HUMINGA** - Huminga bago magsimula para mapakalma ang sarili.\n\n2️⃣ **IBAHAGI** - Ibahagi ang nararamdaman. \n\n3️⃣ **MAKINIG** - Makinig sa iyong anak na bata o tinedyer. \n\n4️⃣ **MALASAKIT** - Malasakit para sa kanila. \n\n5️⃣ **MAGHANAP** - Maghanap ng positibo.",
+      "ignore": 21,
+      "ignore_2": "week_3_session_10"
+    },
+    {
+      "id": "section_22",
+      "foreign_key": "week_3_session_11",
+      "title": "Pundasyon ng Modyul 2: Pakikipag-usap Tungkol sa Damdamin",
+      "text": "1️⃣ **HUMINGA** - Huminga bago magsimula para mapakalma ang sarili.\n\n2️⃣ **IBAHAGI** - Ibahagi ang nararamdaman. \n\n3️⃣ **MAKINIG** - Makinig sa iyong anak na bata o tinedyer. \n\n4️⃣ **MALASAKIT** - Malasakit para sa kanila. \n\n5️⃣ **MAGHANAP** - Maghanap ng positibo.",
+      "ignore": 22,
+      "ignore_2": "week_3_session_11"
+    },
+    {
+      "id": "section_23",
+      "foreign_key": "week_3_session_18",
+      "title": "Mga posibleng sagot ng mga magulang:",
+      "text": "Gumamit ng klaro at positibong salita\nSinasabi ang mismong kilos na nais makita nang hindi ginagawang negatibo\nNakatingin kay Cristina habang binibigay ang direksyon\nPinuri ni Lola Rosario ang kanyang apo sa pagsunod sa direksyon",
+      "ignore": 23,
+      "ignore_2": "week_3_session_18"
+    },
+    {
+      "id": "section_24",
+      "foreign_key": "week_3_session_25",
+      "title": "Mga posibleng sagot ng mga magulang:",
+      "text": "Espesipiko ang papuring binigay.\nAgad-agad niyang binibigay ang papuri.\nGinagamit niya ang pangalan ng kanyang anak kapag pinupuri sila.\nMasigla at masigasig niyang sinabi ang papuri.",
+      "ignore": 24,
+      "ignore_2": "week_3_session_25"
+    },
+    {
+      "id": "section_25",
+      "foreign_key": "week_3_session_26",
+      "title": "Posibleng sagot ng mga magulang:",
+      "text": "Pinupuri niya kung paano tinutulungan ng nakatatandang kapatid ang kanyang nakababatang kapatid sa paggawa ng takdang aralin.",
+      "ignore": 25,
+      "ignore_2": "week_3_session_26"
+    },
+    {
+      "id": "section_26",
+      "foreign_key": "week_3_session_27",
+      "title": "Mga posibleng sagot ng mga magulang:",
+      "text": "Gusto niyang magtulungan ang kanyang mga anak nang madalas.\nGusto niyang suportahan ang pag-aaral ng kanyang mga anak.",
+      "ignore": 26,
+      "ignore_2": "week_3_session_27"
+    },
+    {
+      "id": "section_27",
+      "foreign_key": "week_3_session_29",
+      "title": "Mga posibleng sagot ng mga magulang (Positibong Direksyon):",
+      "text": "Alam ng anak kung anong kilos mismo ang inaasahan sa kanila.\nMas nasusundan ng batang anak ang paisa-isang hakbang dahil naaalala nila kung ano ang gagawin nila.\nKapag makatotohanan ang direksyon, mas masusundan ito ng mga anak.\nKapag mahinahon ang pagsalita ng magulang, mas masusundan ito ng mga anak.\nKapag nasundan ng anak ang direksyon, matutuwa sila sa sarili nilang kakayahan.\nMas madali para sa magulang na protektahan ang kanilang anak kapag sumusunod ang anak sa kanilang direksyon.",
+      "ignore": 27,
+      "ignore_2": "week_3_session_29"
+    },
+    {
+      "id": "section_28",
+      "foreign_key": "week_3_session_31",
+      "title": "Mga Halimbawa ng Positibo at Espesipikong Kilos na Gustong Maulit ng mga Magulang",
+      "text": "Tahimik na naglalaro\nMagalang na nakikipag-usap sa ibang tao\nNakakapagbihis nang mag-isa\nPag-uwi sa nakapagkasunduang oras\nPagsunod sa direksyon\nPagrespeto sa mga nakatatanda\nPagtulong sa mga gawaing bahay\nMaayos na iligpit ang uniporme\nPagtulog sa tamang oras",
+      "ignore": 28,
+      "ignore_2": "week_3_session_31"
+    },
+    {
+      "id": "section_29",
+      "foreign_key": "week_4_session",
+      "title": "Paghahanda Para sa Modyul 4",
+      "text": "Bago magsimula, siguraduhing nakahanda na ang lahat!\n\n1️⃣ I-review ang mga mensahe ng nakaraang modyul. Tandaan ang mga magulang na kailangan ng karagdagang suporta.\n\n2️⃣ I-review ang feedback ng nakaraang modyul. Pumili ng isang tagumpay na maaaring iugnay sa mga pundasyon sa live chat. Pumili ng isang hamon na pwedeng pagtulungan na masolusyonan ng grupo sa live chat.\n\n3️⃣ I-review ang mga pundasyon at mga mensahe para sa Modyul 4.",
+      "ignore": 29,
+      "ignore_2": "week_4_session_1"
+    },
+    {
+      "id": "section_30",
+      "foreign_key": "week_4_session_4",
+      "title": "Balangkas ng Live Chat Sesyon",
+      "text": "Mensahe 1: Pagbati\n\nMensahe 2: Pangangamusta\n\nMensahe 3: Talakayan Tungkol sa Pabaong Gawain\n\nMensahe 4: Pagbabahagi ng Tagumpay\n\nMensahe 5: Pagbabahagi ng Hamon\n\nMensahe 6: Talakayan Tungkol sa Hamon at mga Solusyon\n\nMensahe 7: Pagpapakilala ng MaPa Skill: Patakaran at Regular na Gawain\n\nMensahe 8: Komiks tungkol sa Anak na Tinedyer (Pagtatag ng Patakaran kasama ang Iyong Tinedyer)\n\nMensahe 9: Talakayan Tungkol sa Komiks\n\nMensahe 10: Talakayan Tungkol sa Komiks: Isipin ang Edad ng Anak\n\nMensahe 11: Paglilista ng mga Posibleng Patakaran sa Tahanan\n\nMensahe 12: Komiks tungkol sa Batang Anak (Paggawa ng Regular na Gawain kasama ang Batang Anak)\n\nMensahe 13: Talakayan tungkol sa Komiks\n\nMensahe 14: Paglilista ng mga Posibleng Regular na Gawain sa Tahanan\n\nMensahe 15: Talakayan tungkol sa mga Rason sa Pagtatag ng Patakaran at Regular na Gawain\n\nMensahe 16: Pagtakda ng Home Activity o Pabaong Gawain\n\nMensahe 17: Paglilinaw\n\nMensahe 18: Video: Pagpapaalala ng MaPa Skill\n\nMensahe 19: Video: Tumigil nang Sandali\n\nMensahe 20: Pagpapasalamat",
+      "ignore": 30,
+      "ignore_2": "week_4_session_4"
+    },
+    {
+      "id": "section_31",
+      "foreign_key": "week_4_session_7",
+      "title": "Pundasyon ng Modyul 3: Pagbibigay ng Positibong Direksyon",
+      "text": "1️⃣ **MAGING POSITIBO** - Ngumiti at tingnan sa mata ang iyong anak. Gumamit ng mga positibong salita kapag nagbibigay ng direksyon.\n\n2️⃣ **MAGING ESPESIPIKO** - Sabihin ang mismong kilos na nais makita sa pinaka-klarong paraan.\n\n3️⃣ **MAGING MAKATOTOHANAN** - Siguraduhing kaya ng anak gawin ang pinapagawa. Kung kinakailangan, himayin ang malalaking gawain sa mas maliliit at paisa-isang hakbang.",
+      "ignore": 31,
+      "ignore_2": "week_4_session_7"
+    },
+    {
+      "id": "section_32",
+      "foreign_key": "week_4_session_8",
+      "title": "Pundasyon ng Modyul 3: Pagbibigay ng Positibong Direksyon",
+      "text": "1️⃣ **MAGING POSITIBO** - Ngumiti at tingnan sa mata ang iyong anak. Gumamit ng mga positibong salita kapag nagbibigay ng direksyon.\n\n2️⃣ **MAGING ESPESIPIKO** - Sabihin ang mismong kilos na nais makita sa pinaka-klarong paraan.\n\n3️⃣ **MAGING MAKATOTOHANAN** - Siguraduhing kaya ng anak gawin ang pinapagawa. Kung kinakailangan, himayin ang malalaking gawain sa mas maliliit at paisa-isang hakbang.",
+      "ignore": 32,
+      "ignore_2": "week_4_session_8"
+    },
+    {
+      "id": "section_33",
+      "foreign_key": "week_4_session_9",
+      "title": "Pundasyon ng Modyul 3: Pagbibigay ng Positibong Direksyon",
+      "text": "1️⃣ **MAGING POSITIBO** - Ngumiti at tingnan sa mata ang iyong anak. Gumamit ng mga positibong salita kapag nagbibigay ng direksyon.\n\n2️⃣ **MAGING ESPESIPIKO** - Sabihin ang mismong kilos na nais makita sa pinaka-klarong paraan.\n\n3️⃣ **MAGING MAKATOTOHANAN** - Siguraduhing kaya ng anak gawin ang pinapagawa. Kung kinakailangan, himayin ang malalaking gawain sa mas maliliit at paisa-isang hakbang.",
+      "ignore": 33,
+      "ignore_2": "week_4_session_9"
+    },
+    {
+      "id": "section_34",
+      "foreign_key": "week_4_session_10",
+      "title": "Pundasyon ng Modyul 3: Pagbibigay ng Positibong Direksyon",
+      "text": "1️⃣ **MAGING POSITIBO** - Ngumiti at tingnan sa mata ang iyong anak. Gumamit ng mga positibong salita kapag nagbibigay ng direksyon.\n\n2️⃣ **MAGING ESPESIPIKO** - Sabihin ang mismong kilos na nais makita sa pinaka-klarong paraan.\n\n3️⃣ **MAGING MAKATOTOHANAN** - Siguraduhing kaya ng anak gawin ang pinapagawa. Kung kinakailangan, himayin ang malalaking gawain sa mas maliliit at paisa-isang hakbang.",
+      "ignore": 34,
+      "ignore_2": "week_4_session_10"
+    },
+    {
+      "id": "section_35",
+      "foreign_key": "week_4_session_11",
+      "title": "Pundasyon ng Modyul 3: Pagbibigay ng Positibong Direksyon",
+      "text": "1️⃣ **MAGING POSITIBO** - Ngumiti at tingnan sa mata ang iyong anak. Gumamit ng mga positibong salita kapag nagbibigay ng direksyon.\n\n2️⃣ **MAGING ESPESIPIKO** - Sabihin ang mismong kilos na nais makita sa pinaka-klarong paraan.\n\n3️⃣ **MAGING MAKATOTOHANAN** - Siguraduhing kaya ng anak gawin ang pinapagawa. Kung kinakailangan, himayin ang malalaking gawain sa mas maliliit at paisa-isang hakbang.",
+      "ignore": 35,
+      "ignore_2": "week_4_session_11"
+    },
+    {
+      "id": "section_36",
+      "foreign_key": "week_4_session_18",
+      "title": "Mga Posibleng Sagot ng mga Magulang",
+      "text": "Ipinaliwanag ng magulang ang kahalagahan ng pagtatag ng patakaran.\nIsinali ng magulang ang kanyang anak sa pagtatag ng patakaran.\nKinausap ng magulang ang kanyang anak noong pareho silang mahinahon.\nAng patakaran ay klaro at espesipiko.\nAng patakaran ay naglalarawan ng positibong kilos.",
+      "ignore": 36,
+      "ignore_2": "week_4_session_18"
+    },
+    {
+      "id": "section_37",
+      "foreign_key": "week_4_session_27",
+      "title": "Mga posibleng sagot ng mga magulang:",
+      "text": "Nagsalitan at nagtulungan sila sa pag-aalaga ng kanilang mga anak.\nMerong oras para sa paglalaro, pagkain, at paggawa ng gawain sa eskwela.\nNagbigay sila ng oras para sa kanilang anak bago matulog.\nPinuri nila ang kanilang anak noong nasunod nito ang routine o regular na gawain.",
+      "ignore": 37,
+      "ignore_2": "week_4_session_27"
+    },
+    {
+      "id": "section_38",
+      "foreign_key": "week_4_session_28",
+      "title": "Mga posibleng sagot ng mga magulang:",
+      "text": "Nagbigay ang mga magulang ng oras para sa sarili nilang One-on-One time.\nPinuri nila ang isa’t isa sa kanilang pagtutulungan",
+      "ignore": 38,
+      "ignore_2": "week_4_session_28"
+    },
+    {
+      "id": "section_39",
+      "foreign_key": "week_4_session_29",
+      "title": "Narito ang ilang mga suhistiyong pwede mong ibigay kapag nakasagot na sila:",
+      "text": "Regular na gawain sa pagtulog\nPaggawa ng gawain sa eskwela\nGawaing bahay\nRegular na gawain bago kumain o sa hapagkainan\nPaglalaro o libreng oras\nPanonood ng TV o paggamit ng gadget\nOras ng pagbasa o kwentuhan\nOne-on-One Time",
+      "ignore": 39,
+      "ignore_2": "week_4_session_29"
+    },
+    {
+      "id": "section_40",
+      "foreign_key": "week_4_session_30",
+      "title": "Mga posibleng sagot ng mga magulang:",
+      "text": "Nakatutulong ang mga patakaran na mapanatiling ligtas ang mga miyembro ng pamilya at nahihimok nitong tumulong ang lahat sa bahay.\nNakatutulong ang mga regular na gawain sa pagpapanatiling ligtas ang tahanan.\nNakakabawas ng stress ang mga regular na gawain.\nNakatutulong ang mga regular na gawain sa pagkakaroon ng malusog na pagkain, maayos na pagtulog, at sa paggawa ng takdang-aralin.\nMas susundin ng mga batang anak ang mga patakaran kung sila ay isinasama sa pagtatag nila.\nMararamdaman ng mga batang anak na sila’y pinakikinggan at nirerespeto kung sila ang isinasama sa pagtatag nila.\nMatututo lalo ng responsibilidad ang mga tinedyer at malalaman nila kung ano ang mga kilos na inaasahan sa kanila.",
+      "ignore": 40,
+      "ignore_2": "week_4_session_30"
+    },
+    {
+      "id": "section_41",
+      "foreign_key": "week_5_session",
+      "title": "Bago ang sesyon, pag-usapan ang mga susunod kasama ang iyong co-facilitator:",
+      "text": "1️⃣ Basahin ang modyul at siguraduhin klaro para sa inyo ang mga layunin sa inyong talakayan.\n\n2️⃣ Magsulat ng mga notes na makakatulong sa inyo sa pagpapadaloy ng sesyon.\n\n3️⃣ Maaaring makatulong na isulat ang iba't ibang paraan ng pagtatanong sa mga kalahok.\n\n4️⃣  Maaari mo ring pagsanayan o i-praktis ang pagsasagawa o pagtalakay ng ilang bahagi ng sesyon kasama ang iyong co-facilitator!\n\n5️⃣ Magdesisyon kung sino sa inyo at sa co-facilitator ang mangunguna sa mga aktibidad at kung sino ang magbibigay ng suporta.\n\n6️⃣ Suriin ang mga dokumento ng bawat participant upang makita ang kanilang progreso sa programa at upang tandaan kung sino ang nangangailangan ng karagdagang suporta.\n\n7️⃣ Hatiin ang oras ayon sa pangangailangan ng grupo.\n\n8️⃣ Dumating ng maaga upang ihanda ang espasyo na gagamitin.",
+      "ignore": 41,
+      "ignore_2": "week_5_session_1"
+    },
+    {
+      "id": "section_42",
+      "foreign_key": "week_5_session_5",
+      "title": "Pundasyon ng Modyul 4: Pagpapanatiling Ligtas ang Anak Gamit ang Patakaran at Regular na Gawain",
+      "text": "1️⃣ **MAGING ISANG GRUPO** - Isama ang iyong batang anak o tinedyer sa pagtatag ng mga patakaran.\n2️⃣ **MAGING MAKATOTOHANAN** - Gumawa ng patakaran base sa kung ano ang kayang gawin ng batang anak at tinedyer. Maging klaro at espesipiko para alam nila ang kilos na inaasahan mula sa kanila.\n3️⃣ **GAWIN ITO PALAGI** - Ang regular na gawain ay nakatutulong sa ating anak para makaramdam ng kapanatagan at pagiging ligtas.\n4️⃣ **GUMAMIT NG PAPURI** - Purihin ang iyong batang anak o tinedyer sa paggawa ng patakaran kasama mo. Purihin din siya kapag nasunod niya ito!",
+      "ignore": 42,
+      "ignore_2": "week_5_session_5"
+    },
+    {
+      "id": "section_43",
+      "foreign_key": "week_5_session_6",
+      "title": "Pundasyon ng Modyul 5: Pangangasiwa Ng Negatibong Kilos: Pagbaling Ng Atensyon At Paggamit Ng Konsekwensya",
+      "text": "1️⃣ **MANATILING MAHINAHON** - Pinakamahalagang parte sa pagdidisiplina ng anak ay ang pagiging mahinahon ng magulang. Huminga nang malalim. Pwede ring lumabas nang sandali kung kailangan. Pagkatapos gawin ang mga ito, kausapin nang klaro at mahinahon ang anak. \n\n2️⃣ **MANATILING PATAS O MAKATARUNGAN** - Bigyan ang iyong anak ng pagkakataong sumunod sa utos o patakaran bago siya bigyan ng konsekwensya. Kausapin ang iyong batang anak o tinedyer na anak tungkol sa bagong patakaran sa bahay at siguruhing makatarungan ang konsekwensya kapag hindi nasunod ang patakaran. Siguruhin ding kaya mong ibigay ang konsekwensya.\n\n3️⃣ **MANATILING POSITIBO** -Alalahanin ang Sinag ng Atensyon at Aruga! Subukang iwasan ang pagbibigay ng konsekwensya sa pamamagitan ng paunang paggamit ng pagbaling ng atensyon at ang pagbibigay ng positibong atensyon at papuri para sa mga kilos ng iyong anak na gusto mong mangyari nang mas madalas. Siguruhing isama ang iyong anak sa isang positibong gawain pagkatapos mo siyang bigyan o patawan ng konsekwensya.",
+      "ignore": 43,
+      "ignore_2": "week_5_session_6"
+    },
+    {
+      "id": "section_44",
+      "foreign_key": "week_6_session",
+      "title": "Paghahanda Para sa Modyul 6",
+      "text": "Bago magsimula, siguraduhing nakahanda na ang lahat!\n\n1️⃣ I-review ang mga mensahe ng nakaraang modyul. Tandaan ang mga magulang na kailangan ng karagdagang suporta.\n\n2️⃣ I-review ang feedback ng nakaraang modyul. Pumili ng isang tagumpay na maaaring iugnay sa mga pundasyon sa live chat. Pumili ng isang hamon na pwedeng pagtulungan na masolusyonan ng grupo sa live chat.\n\n3️⃣ I-review ang mga pundasyon at mga mensahe para sa Modyul 6.",
+      "ignore": 44,
+      "ignore_2": "week_6_session_1"
+    },
+    {
+      "id": "section_45",
+      "foreign_key": "week_6_session_4",
+      "title": "Balangkas ng Live Chat Sesyon",
+      "text": "Mensahe 1: Pagbati at Pangangamusta\n\nMensahe 2: Talakayan Tungkol sa Pabaong Gawain\n\nMensahe 3: Pagbabahagi ng Tagumpay\n\nMensahe 4: Pagbabahagi ng Hamon\n\nMensahe 5: Talakayan Tungkol sa Hamon at mga Solusyon\n\nMensahe 6: Pagpapakilala ng MaPa Skill: Pagtugon sa Mahihirap na Isyu at Problema\n\nMensahe 7: Komiks tungkol sa Batang Anak (Pagsasawalang-Bahala ng Negatibong Kilos na Naghahanap ng Atensyon)\n\nMensahe 8: Talakayan Tungkol sa Komiks\n\nMensahe 9: Paglilista ng mga Kilos na Pwedeng Gamitan ng Pagsasawalang-Bahala\n\nMensahe 10: Pagpapatibay ng Mahalagang Pundasyon para sa Pagsasawalang-Bahala ng Negatibong Kilos na Naghahanap ng Atensyon\n\nMensahe 11: Komiks tungkol sa Anak na Tinedyer (Pagtugon sa Krisis)\n\nMensahe 12: Talakayan tungkol sa Komiks\n\nMensahe 13: Komiks tungkol sa Anak na Tinedyer (Pagbubunyag ng Sekswal na Pang-aabuso)\n\nMensahe 14: Talakayan tungkol sa Komiks\n\nMensahe 15: Talakayan tungkol sa Komiks: Isipin ang Kasarian ng Anak\n\nMensahe 16: Pagpapatibay ng Mahalagang Pundasyon para sa Pagtugon sa Krisis\n\nMensahe 17: Pagtakda ng Home Activity o Pabaong Gawain\n\nMensahe 18: Paglilinaw\n\nMensahe 19: Video: Pagpapaalala ng Parenting Tip\n\nMensahe 20: Video: Tumigil nang Sandali\n\nMensahe 21: Pagpapasalamat",
+      "ignore": 45,
+      "ignore_2": "week_6_session_4"
+    },
+    {
+      "id": "section_46",
+      "foreign_key": "week_6_session_6",
+      "title": "Pundasyon ng Modyul 5: Pangangasiwa Ng Negatibong Kilos: Pagbaling Ng Atensyon At Paggamit Ng Konsekwensya",
+      "text": "1️⃣ **MANATILING MAHINAHON** - Pinakamahalagang parte sa pagdidisiplina ng anak ay ang pagiging mahinahon ng magulang. Huminga nang malalim. Pwede ring lumabas nang sandali kung kailangan. Pagkatapos gawin ang mga ito, kausapin nang klaro at mahinahon ang anak. \n\n2️⃣ **MANATILING PATAS O MAKATARUNGAN** - Bigyan ang iyong anak ng pagkakataong sumunod sa utos o patakaran bago siya bigyan ng konsekwensya. Kausapin ang iyong batang anak o tinedyer na anak tungkol sa bagong patakaran sa bahay at siguruhing makatarungan ang konsekwensya kapag hindi nasunod ang patakaran. Siguruhin ding kaya mong ibigay ang konsekwensya.\n\n3️⃣ **MANATILING POSITIBO** - Alalahanin ang Sinag ng Atensyon at Aruga! Subukang iwasan ang pagbibigay ng konsekwensya sa pamamagitan ng paunang paggamit ng pagbaling ng atensyon at ang pagbibigay ng positibong atensyon at papuri para sa mga kilos ng iyong anak na gusto mong mangyari nang mas madalas. Siguruhing isama ang iyong anak sa isang positibong gawain pagkatapos mo siyang bigyan o patawan ng konsekwensya.",
+      "ignore": 46,
+      "ignore_2": "week_6_session_6"
+    },
+    {
+      "id": "section_47",
+      "foreign_key": "week_6_session_7",
+      "title": "Pundasyon ng Modyul 5: Pangangasiwa Ng Negatibong Kilos: Pagbaling Ng Atensyon At Paggamit Ng Konsekwensya",
+      "text": "1️⃣ **MANATILING MAHINAHON** - Pinakamahalagang parte sa pagdidisiplina ng anak ay ang pagiging mahinahon ng magulang. Huminga nang malalim. Pwede ring lumabas nang sandali kung kailangan. Pagkatapos gawin ang mga ito, kausapin nang klaro at mahinahon ang anak. \n\n2️⃣ **MANATILING PATAS O MAKATARUNGAN** - Bigyan ang iyong anak ng pagkakataong sumunod sa utos o patakaran bago siya bigyan ng konsekwensya. Kausapin ang iyong batang anak o tinedyer na anak tungkol sa bagong patakaran sa bahay at siguruhing makatarungan ang konsekwensya kapag hindi nasunod ang patakaran. Siguruhin ding kaya mong ibigay ang konsekwensya.\n\n3️⃣ **MANATILING POSITIBO** - Alalahanin ang Sinag ng Atensyon at Aruga! Subukang iwasan ang pagbibigay ng konsekwensya sa pamamagitan ng paunang paggamit ng pagbaling ng atensyon at ang pagbibigay ng positibong atensyon at papuri para sa mga kilos ng iyong anak na gusto mong mangyari nang mas madalas. Siguruhing isama ang iyong anak sa isang positibong gawain pagkatapos mo siyang bigyan o patawan ng konsekwensya.",
+      "ignore": 47,
+      "ignore_2": "week_6_session_7"
+    },
+    {
+      "id": "section_48",
+      "foreign_key": "week_6_session_8",
+      "title": "Pundasyon ng Modyul 5: Pangangasiwa Ng Negatibong Kilos: Pagbaling Ng Atensyon At Paggamit Ng Konsekwensya",
+      "text": "1️⃣ **MANATILING MAHINAHON** - Pinakamahalagang parte sa pagdidisiplina ng anak ay ang pagiging mahinahon ng magulang. Huminga nang malalim. Pwede ring lumabas nang sandali kung kailangan. Pagkatapos gawin ang mga ito, kausapin nang klaro at mahinahon ang anak. \n\n2️⃣ **MANATILING PATAS O MAKATARUNGAN** - Bigyan ang iyong anak ng pagkakataong sumunod sa utos o patakaran bago siya bigyan ng konsekwensya. Kausapin ang iyong batang anak o tinedyer na anak tungkol sa bagong patakaran sa bahay at siguruhing makatarungan ang konsekwensya kapag hindi nasunod ang patakaran. Siguruhin ding kaya mong ibigay ang konsekwensya.\n\n3️⃣ **MANATILING POSITIBO** - Alalahanin ang Sinag ng Atensyon at Aruga! Subukang iwasan ang pagbibigay ng konsekwensya sa pamamagitan ng paunang paggamit ng pagbaling ng atensyon at ang pagbibigay ng positibong atensyon at papuri para sa mga kilos ng iyong anak na gusto mong mangyari nang mas madalas. Siguruhing isama ang iyong anak sa isang positibong gawain pagkatapos mo siyang bigyan o patawan ng konsekwensya.",
+      "ignore": 48,
+      "ignore_2": "week_6_session_8"
+    },
+    {
+      "id": "section_49",
+      "foreign_key": "week_6_session_9",
+      "title": "Pundasyon ng Modyul 5: Pangangasiwa Ng Negatibong Kilos: Pagbaling Ng Atensyon At Paggamit Ng Konsekwensya",
+      "text": "1️⃣ **MANATILING MAHINAHON** - Pinakamahalagang parte sa pagdidisiplina ng anak ay ang pagiging mahinahon ng magulang. Huminga nang malalim. Pwede ring lumabas nang sandali kung kailangan. Pagkatapos gawin ang mga ito, kausapin nang klaro at mahinahon ang anak. \n\n2️⃣ **MANATILING PATAS O MAKATARUNGAN** - Bigyan ang iyong anak ng pagkakataong sumunod sa utos o patakaran bago siya bigyan ng konsekwensya. Kausapin ang iyong batang anak o tinedyer na anak tungkol sa bagong patakaran sa bahay at siguruhing makatarungan ang konsekwensya kapag hindi nasunod ang patakaran. Siguruhin ding kaya mong ibigay ang konsekwensya.\n\n3️⃣ **MANATILING POSITIBO** - Alalahanin ang Sinag ng Atensyon at Aruga! Subukang iwasan ang pagbibigay ng konsekwensya sa pamamagitan ng paunang paggamit ng pagbaling ng atensyon at ang pagbibigay ng positibong atensyon at papuri para sa mga kilos ng iyong anak na gusto mong mangyari nang mas madalas. Siguruhing isama ang iyong anak sa isang positibong gawain pagkatapos mo siyang bigyan o patawan ng konsekwensya.",
+      "ignore": 49,
+      "ignore_2": "week_6_session_9"
+    },
+    {
+      "id": "section_50",
+      "foreign_key": "week_6_session_10",
+      "title": "Pundasyon ng Modyul 5: Pangangasiwa Ng Negatibong Kilos: Pagbaling Ng Atensyon At Paggamit Ng Konsekwensya",
+      "text": "1️⃣ **MANATILING MAHINAHON** - Pinakamahalagang parte sa pagdidisiplina ng anak ay ang pagiging mahinahon ng magulang. Huminga nang malalim. Pwede ring lumabas nang sandali kung kailangan. Pagkatapos gawin ang mga ito, kausapin nang klaro at mahinahon ang anak. \n\n2️⃣ **MANATILING PATAS O MAKATARUNGAN** - Bigyan ang iyong anak ng pagkakataong sumunod sa utos o patakaran bago siya bigyan ng konsekwensya. Kausapin ang iyong batang anak o tinedyer na anak tungkol sa bagong patakaran sa bahay at siguruhing makatarungan ang konsekwensya kapag hindi nasunod ang patakaran. Siguruhin ding kaya mong ibigay ang konsekwensya.\n\n3️⃣ **MANATILING POSITIBO** - Alalahanin ang Sinag ng Atensyon at Aruga! Subukang iwasan ang pagbibigay ng konsekwensya sa pamamagitan ng paunang paggamit ng pagbaling ng atensyon at ang pagbibigay ng positibong atensyon at papuri para sa mga kilos ng iyong anak na gusto mong mangyari nang mas madalas. Siguruhing isama ang iyong anak sa isang positibong gawain pagkatapos mo siyang bigyan o patawan ng konsekwensya.",
+      "ignore": 50,
+      "ignore_2": "week_6_session_10"
+    },
+    {
+      "id": "section_51",
+      "foreign_key": "week_6_session_18",
+      "title": "Posibleng sagot ng mga magulang:",
+      "text": "- Nanatiling kalmado ang magulang.\n- Ipinaalala ng magulang sa anak ang patakaran sa klarong paraan.\n- Isinawalang-bahala ng magulang ang pag-alboroto ng anak.\n- Pinuri niya ang sumunod na positibong kilos ng anak noong natapos na ang pag-aalboroto nito.",
+      "ignore": 51,
+      "ignore_2": "week_6_session_18"
+    },
+    {
+      "id": "section_52",
+      "foreign_key": "week_6_session_19",
+      "title": "Mga kilos na pwedeng gamitan ng pagsasawalang-bahala:",
+      "text": "- Pag-ungol o reklamo\n- Pang-aasar\n- Pag-aalboroto\n- Paghila sa damit ng magulang para makuha ang atensyon niya\n- Pagsabi ng masasamang salita (bad words) para makakuha ng atensyon\n\nMadaming kilos pa ang pwedeng gamitan ng pagsasawalang-bahala!",
+      "ignore": 52,
+      "ignore_2": "week_6_session_19"
+    },
+    {
+      "id": "section_53",
+      "foreign_key": "week_6_session_27",
+      "title": "Posibleng sagot ng mga magulang:",
+      "text": "- Kinilala ng magulang na nagkwento ang kanyang anak dahil kailangan nito ng suporta.\n- Pinansin niya ang damdamin ng kanyang anak noong nagbahagi ito ng isang sensitibong bagay.\n- Naging bukas siya at nakinig nang maayos sa sinabi ng kanyang anak.\n- Kalmado siyang tumugon sa kwento ng kanyang anak.\n- Inalam niya ang mga impormasyon bago siya tumugon.\n- Pinahalagahan niya ang kanyang anak at ang mga sinabi nitong sensitibong mga bagay.\n- Sinabi ng magulang na nandiyan siya para sa kanyang anak.\n- Sinama niya ang kanyang anak sa pag-iisip kung paano matugunan ang hamon.",
+      "ignore": 53,
+      "ignore_2": "week_6_session_27"
+    },
+    {
+      "id": "section_54",
+      "foreign_key": "week_6_session_33",
+      "title": "Posibleng mga sagot mula sa mga magulang:",
+      "text": "- Kinilala ng nanay na nagkwento ang kanyang anak dahil kailangan nito ng suporta.\n- Pinansin niya ang damdamin ng kanyang anak noong nagbahagi ito ng isang sensitibong bagay.\n- Bukas siya at nakinig nang maayos sa sinabi ng kanyang anak.\n- Kalmado siyang tumugon sa kwento ng kanyang anak.\n- Inalam niya ang mga impormasyon bago siya tumugon.\n- Pinahalagahan niya ang kanyang anak at ang mga sinabi nitong sensitibong mga bagay.\n- Sinabi ng magulang na nandiyan siya para sa kanyang anak.\n- Sinama niya ang kanyang anak sa pag-iisip kung paano matugunan ang hamon.",
+      "ignore": 54,
+      "ignore_2": "week_6_session_33"
+    },
+    {
+      "id": "section_55",
+      "foreign_key": "week_6_2_reminder",
+      "title": "Paalala!",
+      "text": "Tandaan na importante na mag-follow up sa mga magulang na magbubunyag ng krisis tulad ng karahasan, abuso, pagpapabaya, at pagsasamantala. Makinig nang maayos sa magulang o bata at tandaan ang mga detalye: ano/kailan/saan/sino. Hindi ka nag-iisa. Humingi ng tulong mula sa iyong coach para mapag-usapan at mapagkasunduan ang mga susunod na hakbang.",
+      "ignore": 55,
+      "ignore_2": "week_6_2_reminder_1"
+    },
+    {
+      "id": "section_56",
+      "foreign_key": "week_7_session",
+      "title": "Paghahanda Para sa Modyul 7",
+      "text": "Bago magsimula, siguraduhing nakahanda na ang lahat!\n\n1️⃣ I-review ang mga mensahe ng nakaraang modyul. Tandaan ang mga magulang na kailangan ng karagdagang suporta.\n\n2️⃣ I-review ang feedback ng nakaraang modyul. Pumili ng isang tagumpay na maaaring iugnay sa mga pundasyon sa live chat. Pumili ng isang hamon na pwedeng pagtulungan na masolusyonan ng grupo sa live chat.\n\n3️⃣ I-review ang mga pundasyon at mga mensahe para sa Modyul 7.",
+      "ignore": 56,
+      "ignore_2": "week_7_session_1"
+    },
+    {
+      "id": "section_57",
+      "foreign_key": "week_7_session_7",
+      "title": "Balangkas ng Live Chat Sesyon",
+      "text": "Mensahe 1: Pagbati at Pangangamusta\n\nMensahe 2: Talakayan Tungkol sa Pabaong Gawain\n\nMensahe 3: Pagbabahagi ng Tagumpay\n\nMensahe 4: Pagbabahagi ng Hamon\n\nMensahe 5: Talakayan tungkol sa Hamon at Mga Solusyon\n\nMensahe 6: Pagpapakilala ng Parenting Tip: Pagbuo ng Family Badyet\nMensahe 7: Talakayan tungkol sa mga Layunin ng Pamilya\n\nMensahe 8: Paano magbuo ng Family Badyet\n\nMensahe 9: Step 1. ISIPIN \nMensahe 10: Step 2. PAG-USAPAN \nMensahe 11: Step 3. BUMUO \n\nMensahe 12: Paglilinaw\n\nMensahe 13: Video: Ibang mga Dahilan para Mag-ipon \n\nMensahe 14: Talakayan tungkol sa Kwento \n\nMensahe 15: Mga Dahilan at Paraan para Mag-ipon \n\nMensahe 16: Isipin ang Kaligtasan\n\nMensahe 17: Step 4. IPLANO\n\nMensahe 18: Pagtakda ng Home Activity o Pabaong Gawain\n\nMensahe 19: Paglilinaw\n\nMensahe 20: Video: Pagpapaalala ng Parenting Tip o Pundasyon\n\nMensahe 21: Video: Tumigil nang Sandali \n\nMensahe 22: Pagpapasalamat",
+      "ignore": 57,
+      "ignore_2": "week_7_session_7"
+    },
+    {
+      "id": "section_58",
+      "foreign_key": "week_7_session_9",
+      "title": "Pundasyon ng Modyul 6: Pagtugon sa Mahihirap na Isyu at Problema",
+      "text": "1️⃣ **HUMINGA** - Manatiling kalmado. Tanungin ang sarili, “Ano ang kailangan ng aking anak sa ngayon?”\n2️⃣ **MAKINIG** - Hayaan ang batang anak o anak na tinedyer na magbahagi at sabihin ang kanilang kailangan. Sabihin na nandiyan ka para sa kanila at mahal mo sila.\n3️⃣ **TUMUGON** - Ano ang makakatulong sa ganitong sitwasyon? Maaaring kailangang isawalang-bahala ang pag-aalboroto ng bata o kailangang pag-usapan ang mga susunod na gagawin para matulungan ang anak\n4️⃣ **MAGBIGAY SUPORTA** - Ipakita sa anak na nandiyan ka para sa kanya. Kailangang maramdaman ng bata na siya ay lubos na mahal at tanggap ng kanyang mga magulang, sa kabila ng krisis. Kailangang bigyan siya ng emosyonal na suporta kung siya ay nasa mabigat o mahirap na sitwasyon.",
+      "ignore": 58,
+      "ignore_2": "week_7_session_9"
+    },
+    {
+      "id": "section_59",
+      "foreign_key": "week_7_session_10",
+      "title": "Pundasyon ng Modyul 6: Pagtugon sa Mahihirap na Isyu at Problema",
+      "text": "1️⃣ **HUMINGA** - Manatiling kalmado. Tanungin ang sarili, “Ano ang kailangan ng aking anak sa ngayon?”\n2️⃣ **MAKINIG** - Hayaan ang batang anak o anak na tinedyer na magbahagi at sabihin ang kanilang kailangan. Sabihin na nandiyan ka para sa kanila at mahal mo sila.\n3️⃣ **TUMUGON** - Ano ang makakatulong sa ganitong sitwasyon? Maaaring kailangang isawalang-bahala ang pag-aalboroto ng bata o kailangang pag-usapan ang mga susunod na gagawin para matulungan ang anak\n4️⃣ **MAGBIGAY SUPORTA** - Ipakita sa anak na nandiyan ka para sa kanya. Kailangang maramdaman ng bata na siya ay lubos na mahal at tanggap ng kanyang mga magulang, sa kabila ng krisis. Kailangang bigyan siya ng emosyonal na suporta kung siya ay nasa mabigat o mahirap na sitwasyon.",
+      "ignore": 59,
+      "ignore_2": "week_7_session_10"
+    },
+    {
+      "id": "section_60",
+      "foreign_key": "week_7_session_11",
+      "title": "Pundasyon ng Modyul 6: Pagtugon sa Mahihirap na Isyu at Problema",
+      "text": "1️⃣ **HUMINGA** - Manatiling kalmado. Tanungin ang sarili, “Ano ang kailangan ng aking anak sa ngayon?”\n2️⃣ **MAKINIG** - Hayaan ang batang anak o anak na tinedyer na magbahagi at sabihin ang kanilang kailangan. Sabihin na nandiyan ka para sa kanila at mahal mo sila.\n3️⃣ **TUMUGON** - Ano ang makakatulong sa ganitong sitwasyon? Maaaring kailangang isawalang-bahala ang pag-aalboroto ng bata o kailangang pag-usapan ang mga susunod na gagawin para matulungan ang anak\n4️⃣ **MAGBIGAY SUPORTA** - Ipakita sa anak na nandiyan ka para sa kanya. Kailangang maramdaman ng bata na siya ay lubos na mahal at tanggap ng kanyang mga magulang, sa kabila ng krisis. Kailangang bigyan siya ng emosyonal na suporta kung siya ay nasa mabigat o mahirap na sitwasyon.",
+      "ignore": 60,
+      "ignore_2": "week_7_session_11"
+    },
+    {
+      "id": "section_61",
+      "foreign_key": "week_7_session_12",
+      "title": "Pundasyon ng Modyul 6: Pagtugon sa Mahihirap na Isyu at Problema",
+      "text": "1️⃣ **HUMINGA** - Manatiling kalmado. Tanungin ang sarili, “Ano ang kailangan ng aking anak sa ngayon?”\n2️⃣ **MAKINIG** - Hayaan ang batang anak o anak na tinedyer na magbahagi at sabihin ang kanilang kailangan. Sabihin na nandiyan ka para sa kanila at mahal mo sila.\n3️⃣ **TUMUGON** - Ano ang makakatulong sa ganitong sitwasyon? Maaaring kailangang isawalang-bahala ang pag-aalboroto ng bata o kailangang pag-usapan ang mga susunod na gagawin para matulungan ang anak\n4️⃣ **MAGBIGAY SUPORTA** - Ipakita sa anak na nandiyan ka para sa kanya. Kailangang maramdaman ng bata na siya ay lubos na mahal at tanggap ng kanyang mga magulang, sa kabila ng krisis. Kailangang bigyan siya ng emosyonal na suporta kung siya ay nasa mabigat o mahirap na sitwasyon.",
+      "ignore": 61,
+      "ignore_2": "week_7_session_12"
+    },
+    {
+      "id": "section_62",
+      "foreign_key": "week_7_session_13",
+      "title": "Pundasyon ng Modyul 6: Pagtugon sa Mahihirap na Isyu at Problema",
+      "text": "1️⃣ **HUMINGA** - Manatiling kalmado. Tanungin ang sarili, “Ano ang kailangan ng aking anak sa ngayon?”\n2️⃣ **MAKINIG** - Hayaan ang batang anak o anak na tinedyer na magbahagi at sabihin ang kanilang kailangan. Sabihin na nandiyan ka para sa kanila at mahal mo sila.\n3️⃣ **TUMUGON** - Ano ang makakatulong sa ganitong sitwasyon? Maaaring kailangang isawalang-bahala ang pag-aalboroto ng bata o kailangang pag-usapan ang mga susunod na gagawin para matulungan ang anak\n4️⃣ **MAGBIGAY SUPORTA** - Ipakita sa anak na nandiyan ka para sa kanya. Kailangang maramdaman ng bata na siya ay lubos na mahal at tanggap ng kanyang mga magulang, sa kabila ng krisis. Kailangang bigyan siya ng emosyonal na suporta kung siya ay nasa mabigat o mahirap na sitwasyon.",
+      "ignore": 62,
+      "ignore_2": "week_7_session_13"
+    },
+    {
+      "id": "section_63",
+      "foreign_key": "week_7_session_15",
+      "title": "Mga Posibleng Sagot ng mga Magulang:",
+      "text": "- Tuition ng mga anak\n- Bumili ng sasakyan\n- Pag-renovate o Pagpapagawa ng bahay \n- Kasal o libing\n- Pagpundar ng negosyo",
+      "ignore": 63,
+      "ignore_2": "week_7_session_15"
+    },
+    {
+      "id": "section_64",
+      "foreign_key": "week_7_session_26",
+      "title": "Maaaring kailangan ibahagi ang mga sagot ng ibang magulang tungkol sa mga emergency:",
+      "text": "- Nakawan\n- Matinding sakit ng kamag-anak o kaibigan\n- Pagkawala ng trabaho\n- Pandemya (Covid-19)\n- Politikal na gulo\n- Bagyo\n- Baha\n- Tagtuyot",
+      "ignore": 64,
+      "ignore_2": "week_7_session_26"
+    },
+    {
+      "id": "section_65",
+      "foreign_key": "week_7_session_27",
+      "title": "Maaaring kailangan ibahagi ang mga sagot ng ibang magulang tungkol sa mga paraan ng pag-iipon:",
+      "text": "- Sa bahay\n- Sa pagbibili ng mga gamit na madaling ibenta\n- Sa bangko\n- Sa Paluwagan\n- Sa mga kooperatiba\n- Sa investments",
+      "ignore": 65,
+      "ignore_2": "week_7_session_27"
+    },
+    {
+      "id": "section_66",
+      "foreign_key": "week_8_session",
+      "title": "Bago ang sesyon, pag-usapan ang mga susunod kasama ang iyong co-facilitator:",
+      "text": "1️⃣ Basahin ang modyul at siguraduhin klaro para sa inyo ang mga layunin sa inyong talakayan.\n\n2️⃣ Magsulat ng mga notes na makakatulong sa inyo sa pagpapadaloy ng sesyon.\n\n3️⃣ Maaaring makatulong na isulat ang iba't ibang paraan ng pagtatanong sa mga kalahok.\n\n4️⃣  Maaari mo ring pagsanayan o i-praktis ang pagsasagawa o pagtalakay ng ilang bahagi ng sesyon kasama ang iyong co-facilitator!\n\n5️⃣ Magdesisyon kung sino sa inyo at sa co-facilitator ang mangunguna sa mga aktibidad at kung sino ang magbibigay ng suporta.\n\n6️⃣ Suriin ang mga dokumento ng bawat participant upang makita ang kanilang progreso sa programa at upang tandaan kung sino ang nangangailangan ng karagdagang suporta.\n\n7️⃣ Hatiin ang oras ayon sa pangangailangan ng grupo.\n\n8️⃣ Dumating ng maaga upang ihanda ang espasyo na gagamitin.",
+      "ignore": 66,
+      "ignore_2": "week_8_session_1"
+    },
+    {
+      "id": "section_67",
+      "foreign_key": "week_8_session_5",
+      "title": "Mga Pundasyon ng Modyul 7: Pagbadyet ng Pamilya at mga Paraan ng Pag-iipon",
+      "text": "1️⃣ **ISIPIN** - Isipin kung ano ang mga pinagkakagastusan kada buwan.\n\n2️⃣ **PAG-USAPAN** - Pag-usapan ang mga kailangan at gusto.\n\n3️⃣ **BUMUO** - Bumuo ng badyet kasama ang pamilya.\n\n4️⃣ **MAGPLANO** - Magplano kung paano makakapag-ipon ng pera upang makaraos sa emergency at makamit ang mga layunin ng pamilya.",
+      "ignore": 67,
+      "ignore_2": "week_8_session_5"
+    },
+    {
+      "id": "section_68",
+      "foreign_key": "week_8_session_6",
+      "title": "Mga Pundasyon ng Modyul 8: Pagharap sa Problema Bilang Pamilya at Pagninilay",
+      "text": "1️⃣**ALAMIN ITO** - Alamin ang problema.\n\n2️⃣ **PAG-ISIPAN ITO** - Pag-isipan ang mga posibleng solusyon at resulta.\n\n3️⃣ **SUBUKAN ITO** - Pumili ng isang solusyon at subukan ito.\n\n4️⃣ **SURIIN ITO** - Mabisa ba ang napiling solusyon? Magaling! Kung hindi ito gumana, subukan ang ibang solusyon.",
+      "ignore": 68,
+      "ignore_2": "week_8_session_6"
+    },
+    {
+      "id": "section_69",
+      "foreign_key": "week_1_session",
+      "title": "Mga Importanteng Paalala Para sa Unang Sesyon:",
+      "text": "1️⃣ Sa unang sesyon, importante na magkaroon ng ligtas at malugod na lugar para sa lahat.\n\n2️⃣ Pag-usapan kasama ang buong grupo ng mga magulang ang mga patakaran sa simula ng programa. Kailangang sumasang-ayon ang lahat.\n\n3️⃣ Maaaring nahihiya pa ang mga magulang dahil ito ang unang sesyon, bigyan sila ng papuri at pasasalamat para sa kanilang pagbabahagi sa unang araw.\n\n4️⃣ Siguraduhing paalalahan ang mga magulang na walang perpektong tahanan. Lahat ay problema at mga hamon - regular na purihin ang mga magulang sa pagsali sa programa.\n\n5️⃣Paalalahanan ang mga magulang na kung ano man ang pag-uusapan o ibabahagi sa grupo, mananatili ito sa grupo! Importante na sa simula pa lamang ay klaro na kung ano ang mga maaaring ibahagi sa labas ng grupo at kung ano ang hindi.",
+      "ignore": 69,
+      "ignore_2": "week_1_session_1"
+    },
+    {
+      "id": "section_70",
+      "foreign_key": "week_2_session",
+      "title": "Pundasyon ng Modyul 2: Pakikipag-usap Tungkol sa Damdamin",
+      "text": "1️⃣ **HUMINGA** - Huminga bago magsimula para mapakalma ang sarili.\n2️⃣ **IBAHAGI** - Ibahagi ang nararamdaman. \n3️⃣ **MAKINIG** - Makinig sa iyong anak na bata o tinedyer. \n4️⃣ **MALASAKIT** - Malasakit para sa kanila. \n5️⃣ **MAGHANAP** - Maghanap ng positibo.",
+      "ignore": 70,
+      "ignore_2": "week_2_session_1"
+    },
+    {
+      "id": "section_71",
+      "foreign_key": "week_2_session_18",
+      "title": "Pundasyon ng Modyul 2: Pakikipag-Usap Tungkol sa Damdamin",
+      "text": "1️⃣ **HUMINGA** - Huminga bago magsimula para mapakalma ang sarili.\n2️⃣ **IBAHAGI** - Ibahagi ang nararamdaman. \n3️⃣ **MAKINIG** - Makinig sa iyong anak na bata o tinedyer. \n4️⃣ **MALASAKIT** - Malasakit para sa kanila. \n5️⃣ **MAGHANAP** - Maghanap ng positibo.",
+      "ignore": 71,
+      "ignore_2": "week_2_session_18"
+    },
+    {
+      "id": "section_72",
+      "foreign_key": "week_2_session_24",
+      "title": "Pundasyon ng Modyul 2: Pakikipag-Usap Tungkol sa Damdamin",
+      "text": "1️⃣ **HUMINGA** - Huminga bago magsimula para mapakalma ang sarili.\n2️⃣ **IBAHAGI** - Ibahagi ang nararamdaman. \n3️⃣ **MAKINIG** - Makinig sa iyong anak na bata o tinedyer. \n4️⃣ **MALASAKIT** - Malasakit para sa kanila. \n5️⃣ **MAGHANAP** - Maghanap ng positibo.",
+      "ignore": 72,
+      "ignore_2": "week_2_session_24"
+    },
+    {
+      "id": "section_73",
+      "foreign_key": "week_3_session",
+      "title": "Mga Pundasyon ng Pagbibigay ng Positibong Direksyon",
+      "text": "Ang mga pundasyon ng pagbibigay ng positibong direksyon ay **MAGING POSITIBO, ESPESIPIKO, at MAKATOTOHANAN.**\nAlamin kung anong positibong kilos ang gusto mong makita sa iyong anak.\nSigurahin na nakuha mo ang atensyon ng iyong anak bago ibigay ang direksyon.\nPaisa-isang ibigay ang direksyon.\nBigyan ang anak ng oras para masundan ang bawat direksyon.\nSiguraduhing makakasunod ang anak sa iyong direksyon.\nPara sa mas batang anak, himayin ang malaking gawain sa mas maliliit at paisa-isang hakbang.\nPurihin agad ang anak pagkatapos nilang masundan ang direksyon.",
+      "ignore": 73,
+      "ignore_2": "week_3_session_1"
+    },
+    {
+      "id": "section_74",
+      "foreign_key": "week_3_session_29",
+      "title": "Mga posibleng sagot ng mga magulang (Paggamit ng Papuri):",
+      "text": "Mahihikayat ang anak na ulitin ang kilos kapag siya ay nakatanggap siya ng papuri.\nNakakatibay ng kumpiyansa ang papuri. Maghahanap pa ng ibang kilos ang anak kung saan makakatanggap pa sila ng papuri.\nMararamdaman ng anak na sila ay pinapahalagahan ng kanilang magulang.\nGusto ng anak makatanggap ng papuri at gaganda ang kanilang pakiramdam.\nMagsisikap ang anak na gumawa ng mabuti at magiging matulungin.\nMararamdaman ng anak na sila ay pinapansin, kinikilala, pinapahalagahan, at espesyal.\nPupurihin din ng anak ang ibang tao, tulad ng kanilang mga magulang.\nGaganda rin ang pakiramdam ng mga magulang.\nAng paggamit ng papuri ay nakakatibay ng positibong relasyon ng anak at magulang.",
+      "ignore": 74,
+      "ignore_2": "week_3_session_29"
+    },
+    {
+      "id": "section_75",
+      "foreign_key": "week_4_session",
+      "title": "Pundasyon ng Modyul 4: Pagpapanatiling Ligtas ang Anak Gamit ang Patakaran at Regular na Gawain",
+      "text": "1️⃣ **MAGING ISANG GRUPO** - Isama ang iyong batang anak o tinedyer sa pagtatag ng mga patakaran.\n\n2️⃣ **MAGING MAKATOTOHANAN** - Gumawa ng patakaran base sa kung ano ang kayang gawin ng batang anak at tinedyer. Maging klaro at espesipiko para alam nila ang kilos na inaasahan mula sa kanila.\n\n3️⃣ **GAWIN ITO PALAGI** - Ang regular na gawain ay nakatutulong sa ating anak para makaramdam ng kapanatagan at pagiging ligtas.\n\n4️⃣ **GUMAMIT NG PAPURI** - Purihin ang iyong batang anak o tinedyer sa paggawa ng patakaran kasama mo. Purihin din siya kapag nasunod niya ito!",
+      "ignore": 75,
+      "ignore_2": "week_4_session_1"
+    },
+    {
+      "id": "section_76",
+      "foreign_key": "week_4_session_7",
+      "title": "Pundasyon ng Modyul 3: Pagbibigay ng Papuri",
+      "text": "1️⃣ **​​PANSININ** - Pansinin ang mga maayos o magandang kilos ng iyong anak at purihin agad sila.\n\n2️⃣ **SABIHIN** - Maging magiliw at espesipiko sa pagsasabi ng papuri!\n\n3️⃣ **ULITIN** - Maghanap ng mga bagay na pupurihin sa iyong mga anak sa araw-araw. ",
+      "ignore": 76,
+      "ignore_2": "week_4_session_7"
+    },
+    {
+      "id": "section_77",
+      "foreign_key": "week_4_session_8",
+      "title": "Pundasyon ng Modyul 3: Pagbibigay ng Papuri",
+      "text": "1️⃣ **​​PANSININ** - Pansinin ang mga maayos o magandang kilos ng iyong anak at purihin agad sila.\n\n2️⃣ **SABIHIN** - Maging magiliw at espesipiko sa pagsasabi ng papuri!\n\n3️⃣ **ULITIN** - Maghanap ng mga bagay na pupurihin sa iyong mga anak sa araw-araw. ",
+      "ignore": 77,
+      "ignore_2": "week_4_session_8"
+    },
+    {
+      "id": "section_78",
+      "foreign_key": "week_4_session_9",
+      "title": "Pundasyon ng Modyul 3: Pagbibigay ng Papuri",
+      "text": "1️⃣ **​​PANSININ** - Pansinin ang mga maayos o magandang kilos ng iyong anak at purihin agad sila.\n\n2️⃣ **SABIHIN** - Maging magiliw at espesipiko sa pagsasabi ng papuri!\n\n3️⃣ **ULITIN** - Maghanap ng mga bagay na pupurihin sa iyong mga anak sa araw-araw. ",
+      "ignore": 78,
+      "ignore_2": "week_4_session_9"
+    },
+    {
+      "id": "section_79",
+      "foreign_key": "week_4_session_10",
+      "title": "Pundasyon ng Modyul 3: Pagbibigay ng Papuri",
+      "text": "1️⃣ **​​PANSININ** - Pansinin ang mga maayos o magandang kilos ng iyong anak at purihin agad sila.\n\n2️⃣ **SABIHIN** - Maging magiliw at espesipiko sa pagsasabi ng papuri!\n\n3️⃣ **ULITIN** - Maghanap ng mga bagay na pupurihin sa iyong mga anak sa araw-araw. ",
+      "ignore": 79,
+      "ignore_2": "week_4_session_10"
+    },
+    {
+      "id": "section_80",
+      "foreign_key": "week_4_session_11",
+      "title": "Pundasyon ng Modyul 3: Pagbibigay ng Papuri",
+      "text": "1️⃣ **​​PANSININ** - Pansinin ang mga maayos o magandang kilos ng iyong anak at purihin agad sila.\n\n2️⃣ **SABIHIN** - Maging magiliw at espesipiko sa pagsasabi ng papuri!\n\n3️⃣ **ULITIN** - Maghanap ng mga bagay na pupurihin sa iyong mga anak sa araw-araw. ",
+      "ignore": 80,
+      "ignore_2": "week_4_session_11"
+    },
+    {
+      "id": "section_81",
+      "foreign_key": "week_4_session_18",
+      "title": "Pundasyon ng Modyul 4: Pagpapanatiling Ligtas ang Anak Gamit ang Patakaran at Regular na Gawain",
+      "text": "1️⃣ **MAGING ISANG GRUPO** - Isama ang iyong batang anak o tinedyer sa pagtatag ng mga patakaran.\n\n2️⃣ **MAGING MAKATOTOHANAN** - Gumawa ng patakaran base sa kung ano ang kayang gawin ng batang anak at tinedyer. Maging klaro at espesipiko para alam nila ang kilos na inaasahan mula sa kanila.\n\n3️⃣ **GAWIN ITO PALAGI** - Ang regular na gawain ay nakatutulong sa ating anak para makaramdam ng kapanatagan at pagiging ligtas.\n\n4️⃣ **GUMAMIT NG PAPURI** - Purihin ang iyong batang anak o tinedyer sa paggawa ng patakaran kasama mo. Purihin din siya kapag nasunod niya ito!",
+      "ignore": 81,
+      "ignore_2": "week_4_session_18"
+    },
+    {
+      "id": "section_82",
+      "foreign_key": "week_4_session_27",
+      "title": "Pundasyon ng Modyul 4: Pagpapanatiling Ligtas ang Anak Gamit ang Patakaran at Regular na Gawain",
+      "text": "1️⃣ **MAGING ISANG GRUPO** - Isama ang iyong batang anak o tinedyer sa pagtatag ng mga patakaran.\n\n2️⃣ **MAGING MAKATOTOHANAN** - Gumawa ng patakaran base sa kung ano ang kayang gawin ng batang anak at tinedyer. Maging klaro at espesipiko para alam nila ang kilos na inaasahan mula sa kanila.\n\n3️⃣ **GAWIN ITO PALAGI** - Ang regular na gawain ay nakatutulong sa ating anak para makaramdam ng kapanatagan at pagiging ligtas.\n\n4️⃣ **GUMAMIT NG PAPURI** - Purihin ang iyong batang anak o tinedyer sa paggawa ng patakaran kasama mo. Purihin din siya kapag nasunod niya ito!",
+      "ignore": 82,
+      "ignore_2": "week_4_session_27"
+    },
+    {
+      "id": "section_83",
+      "foreign_key": "week_4_session_28",
+      "title": "Pundasyon ng Modyul 4: Pagpapanatiling Ligtas ang Anak Gamit ang Patakaran at Regular na Gawain",
+      "text": "1️⃣ **MAGING ISANG GRUPO** - Isama ang iyong batang anak o tinedyer sa pagtatag ng mga patakaran.\n\n2️⃣ **MAGING MAKATOTOHANAN** - Gumawa ng patakaran base sa kung ano ang kayang gawin ng batang anak at tinedyer. Maging klaro at espesipiko para alam nila ang kilos na inaasahan mula sa kanila.\n\n3️⃣ **GAWIN ITO PALAGI** - Ang regular na gawain ay nakatutulong sa ating anak para makaramdam ng kapanatagan at pagiging ligtas.\n\n4️⃣ **GUMAMIT NG PAPURI** - Purihin ang iyong batang anak o tinedyer sa paggawa ng patakaran kasama mo. Purihin din siya kapag nasunod niya ito!",
+      "ignore": 83,
+      "ignore_2": "week_4_session_28"
+    },
+    {
+      "id": "section_84",
+      "foreign_key": "week_5_session",
+      "title": "Mga Materials na Kailangan Para sa Sesyon",
+      "text": "Mga materials para sa 15 participants:\n✅ Pencils\n✅ Crayons\n✅ Bond papers\n✅ Ballpen\n✅ Name tags\n✅ Snacks\n\nIba pang materials para sa buong grupo:\n✅ Comic posters and handouts\n✅ Manila paper\n✅ Permanent markers\n✅ Projector\n✅ Video camera (kung irerecord ang sesyon)",
+      "ignore": 84,
+      "ignore_2": "week_5_session_1"
+    },
+    {
+      "id": "section_85",
+      "foreign_key": "week_6_session",
+      "title": "Pundasyon ng Modyul 6: Pagtugon sa Mahihirap na Isyu at Problema",
+      "text": "1️⃣ **HUMINGA** - Manatiling kalmado. Tanungin ang sarili, “Ano ang kailangan ng aking anak sa ngayon?”\n2️⃣ **MAKINIG** - Hayaan ang batang anak o anak na tinedyer na magbahagi at sabihin ang kanilang kailangan. Sabihin na nandiyan ka para sa kanila at mahal mo sila.\n3️⃣ **TUMUGON** - Ano ang makakatulong sa ganitong sitwasyon? Maaaring kailangang isawalang-bahala ang pag-aalboroto ng bata o kailangang pag-usapan ang mga susunod na gagawin para matulungan ang anak\n4️⃣ **MAGBIGAY SUPORTA** - Ipakita sa anak na nandiyan ka para sa kanya. Kailangang maramdaman ng bata na siya ay lubos na mahal at tanggap ng kanyang mga magulang, sa kabila ng krisis. Kailangang bigyan siya ng emosyonal na suporta kung siya ay nasa mabigat o mahirap na sitwasyon.",
+      "ignore": 85,
+      "ignore_2": "week_6_session_1"
+    },
+    {
+      "id": "section_86",
+      "foreign_key": "week_6_session_18",
+      "title": "Pundasyon ng Modyul 6: Pagtugon sa Mahihirap na Isyu at Problema",
+      "text": "1️⃣ **HUMINGA** - Manatiling kalmado. Tanungin ang sarili, “Ano ang kailangan ng aking anak sa ngayon?”\n2️⃣ **MAKINIG** - Hayaan ang batang anak o anak na tinedyer na magbahagi at sabihin ang kanilang kailangan. Sabihin na nandiyan ka para sa kanila at mahal mo sila.\n3️⃣ **TUMUGON** - Ano ang makakatulong sa ganitong sitwasyon? Maaaring kailangang isawalang-bahala ang pag-aalboroto ng bata o kailangang pag-usapan ang mga susunod na gagawin para matulungan ang anak\n4️⃣ **MAGBIGAY SUPORTA** - Ipakita sa anak na nandiyan ka para sa kanya. Kailangang maramdaman ng bata na siya ay lubos na mahal at tanggap ng kanyang mga magulang, sa kabila ng krisis. Kailangang bigyan siya ng emosyonal na suporta kung siya ay nasa mabigat o mahirap na sitwasyon.",
+      "ignore": 86,
+      "ignore_2": "week_6_session_18"
+    },
+    {
+      "id": "section_87",
+      "foreign_key": "week_6_session_27",
+      "title": "Pundasyon ng Modyul 6: Pagtugon sa Mahihirap na Isyu at Problema",
+      "text": "1️⃣ **HUMINGA** - Manatiling kalmado. Tanungin ang sarili, “Ano ang kailangan ng aking anak sa ngayon?”\n2️⃣ **MAKINIG** - Hayaan ang batang anak o anak na tinedyer na magbahagi at sabihin ang kanilang kailangan. Sabihin na nandiyan ka para sa kanila at mahal mo sila.\n3️⃣ **TUMUGON** - Ano ang makakatulong sa ganitong sitwasyon? Maaaring kailangang isawalang-bahala ang pag-aalboroto ng bata o kailangang pag-usapan ang mga susunod na gagawin para matulungan ang anak\n4️⃣ **MAGBIGAY SUPORTA** - Ipakita sa anak na nandiyan ka para sa kanya. Kailangang maramdaman ng bata na siya ay lubos na mahal at tanggap ng kanyang mga magulang, sa kabila ng krisis. Kailangang bigyan siya ng emosyonal na suporta kung siya ay nasa mabigat o mahirap na sitwasyon.",
+      "ignore": 87,
+      "ignore_2": "week_6_session_27"
+    },
+    {
+      "id": "section_88",
+      "foreign_key": "week_6_session_33",
+      "title": "Pundasyon ng Modyul 6: Pagtugon sa Mahihirap na Isyu at Problema",
+      "text": "1️⃣ **HUMINGA** - Manatiling kalmado. Tanungin ang sarili, “Ano ang kailangan ng aking anak sa ngayon?”\n2️⃣ **MAKINIG** - Hayaan ang batang anak o anak na tinedyer na magbahagi at sabihin ang kanilang kailangan. Sabihin na nandiyan ka para sa kanila at mahal mo sila.\n3️⃣ **TUMUGON** - Ano ang makakatulong sa ganitong sitwasyon? Maaaring kailangang isawalang-bahala ang pag-aalboroto ng bata o kailangang pag-usapan ang mga susunod na gagawin para matulungan ang anak\n4️⃣ **MAGBIGAY SUPORTA** - Ipakita sa anak na nandiyan ka para sa kanya. Kailangang maramdaman ng bata na siya ay lubos na mahal at tanggap ng kanyang mga magulang, sa kabila ng krisis. Kailangang bigyan siya ng emosyonal na suporta kung siya ay nasa mabigat o mahirap na sitwasyon.",
+      "ignore": 88,
+      "ignore_2": "week_6_session_33"
+    },
+    {
+      "id": "section_89",
+      "foreign_key": "week_7_session",
+      "title": "Mga Pundasyon ng Modyul 7: Pagbadyet ng Pamilya at mga Paraan ng Pag-iipon",
+      "text": "1️⃣ **ISIPIN** - Isipin kung ano ang mga pinagkakagastusan kada buwan.\n\n2️⃣ **PAG-USAPAN** - Pag-usapan ang mga kailangan at gusto.\n\n3️⃣ **BUMUO** - Bumuo ng badyet kasama ang pamilya.\n\n4️⃣ **MAGPLANO** - Magplano kung paano makakapag-ipon ng pera upang makaraos sa emergency at makamit ang mga layunin ng pamilya.",
+      "ignore": 89,
+      "ignore_2": "week_7_session_1"
+    },
+    {
+      "id": "section_90",
+      "foreign_key": "week_8_session",
+      "title": "Mga Materials na Kailangan Para sa Sesyon",
+      "text": "Mga materials para sa 15 participants:\n✅ Pencils\n✅ Crayons\n✅ Bond papers\n✅ Ballpen\n✅ Name tags\n✅ Snacks\n\nIba pang materials para sa buong grupo:\n✅ Comic posters and handouts\n✅ Manila paper\n✅ Permanent markers\n✅ Projector\n✅ Video camera (kung irerecord ang sesyon)",
+      "ignore": 90,
+      "ignore_2": "week_8_session_1"
+    },
+    {
+      "id": "section_91",
+      "foreign_key": "week_1_session",
+      "title": "Mga Materials na Kailangan Para sa Sesyon",
+      "text": "Mga materials para sa 15 participants:\n✅ Pencils\n✅ Crayons\n✅ Bond papers\n✅ Ballpen\n✅ Name tags\n✅ Snacks\n\nIba pang materials para sa buong grupo:\n✅ Comic posters and handouts\n✅ Manila paper\n✅ Permanent markers\n✅ Projector\n✅ Video camera (kung irerecord ang sesyon)",
+      "ignore": 91,
+      "ignore_2": "week_1_session_1"
+    },
+    {
+      "id": "section_92",
+      "foreign_key": "week_3_session",
+      "title": "Mga Pundasyon ng Paggamit ng Papuri",
+      "text": "Ang mga pundasyon ng paggamit ng papuri ay **PANSININ, SABIHIN, AT ULITIN.**\nPansinin ang mga maayos o magandang kilos ng iyong anak at purihin sila. Hindi man nila ipakita pero mapapansin mong gagawin nilang muli ito. Mararamdaman din nilang napansin mo sila at may malasakit ka.\nMaging magiliw – maging matapat sa pagsasabi!\nMaghanap ng mga bagay na pupurihin sa iyong mga anak sa araw-araw. Kahit simple lamang.",
+      "ignore": 92,
+      "ignore_2": "week_3_session_1"
+    },
+    {
+      "id": "section_93",
+      "foreign_key": "week_4_session",
+      "title": "Ito ang ilan pang mga pundasyon ng pagtatag ng patakaran:",
+      "text": "- Magtatag ng patakaran kapag ikaw at ang iyong anak ay mahinahon.\n\n- Gawing klaro at espesipiko ang patakaran.\n\n- Gawing makatarungan at makatotohanan ang patakaran.\n\n- Siguruhing alam ng iyong tinedyer ang dahilan kung bakit may patakaran.\n \n- Maging bukas para pag-usapan ito.\n\n- Bigyan ang iyong batang anak o tinedyer ng pagkakataong magtanong.\n\n- Purihin ang iyong anak kapag nasunod niya ang patakaran.",
+      "ignore": 93,
+      "ignore_2": "week_4_session_1"
+    },
+    {
+      "id": "section_94",
+      "foreign_key": "week_5_session",
+      "title": "Pundasyon ng Modyul 5: Pangangasiwa Ng Negatibong Kilos: Pagbaling Ng Atensyon At Paggamit Ng Konsekwensya",
+      "text": "1️⃣ **MANATILING MAHINAHON** - Pinakamahalagang parte sa pagdidisiplina ng anak ay ang pagiging mahinahon ng magulang. Huminga nang malalim. Pwede ring lumabas nang sandali kung kailangan. Pagkatapos gawin ang mga ito, kausapin nang klaro at mahinahon ang anak. \n\n2️⃣ **MANATILING PATAS O MAKATARUNGAN** - Bigyan ang iyong anak ng pagkakataong sumunod sa utos o patakaran bago siya bigyan ng konsekwensya. Kausapin ang iyong batang anak o tinedyer na anak tungkol sa bagong patakaran sa bahay at siguruhing makatarungan ang konsekwensya kapag hindi nasunod ang patakaran. Siguruhin ding kaya mong ibigay ang konsekwensya.\n\n3️⃣ **MANATILING POSITIBO** -Alalahanin ang Sinag ng Atensyon at Aruga! Subukang iwasan ang pagbibigay ng konsekwensya sa pamamagitan ng paunang paggamit ng pagbaling ng atensyon at ang pagbibigay ng positibong atensyon at papuri para sa mga kilos ng iyong anak na gusto mong mangyari nang mas madalas. Siguruhing isama ang iyong anak sa isang positibong gawain pagkatapos mo siyang bigyan o patawan ng konsekwensya.",
+      "ignore": 94,
+      "ignore_2": "week_5_session_1"
+    },
+    {
+      "id": "section_95",
+      "foreign_key": "week_6_session",
+      "title": "Mga pundasyon para sa mga negatibong kilos na naghahanap ng atensyon:",
+      "text": "- Subukang ibaling ang atensyon ng iyong anak.\n\n- Kung hindi gumana ang pagbaling ng atensyon, isawalang-bahala ang kilos ng iyong anak habang sinisigurong siya ay ligtas.\n\n- Kapag ginamit ang pagsasawalang-bahala sa kilos ng bata, maaaring lumalala muna ang negatibong kilos habang sinusubok ng bata ang lawak at haba ng pagsasawalang-bahala.\n \n- Kailangan ng ibayong pagpapasensya.\n\n- Ang pagsasawalang–bahala ay kailangang ginagawa ng lahat ng miyembro ng pamilya.\n\n- Alalahaning gumamit ng mga estratehiya para mapakalma ang sarili habang nagsasawalang-bahala ng pag-aalboroto at iba pang negatibong kilos na naghahanap ng atensyon.\n\n- Kapag natapos na ang negatibong kilos, agarang purihin ang anak kapag nagpakita siya ng isang positibong kilos.",
+      "ignore": 95,
+      "ignore_2": "week_6_session_1"
+    },
+    {
+      "id": "section_96",
+      "foreign_key": "week_7_session",
+      "title": "Iba pang mga pundasyon ng pagbadyet ng pamilya at mga paraan ng pag-iipon:",
+      "text": "- Ang pagkakaroon ng konkretong layunin bilang pamilya ay makakatulong sa pamilya mag-ipon.\n- Ang pagbabadyet ay paggawa ng plano tungkol sa pera at pag-iipon. Sa pagbabadyet, makikita kung paano tayo magdesisyon pagdating sa pera.\n- Pag-unawa sa iba't ibang paraan ng pag-ipon.\n- Pag-unawa sa mga benepisyo at peligro ng panghihiram ng pera\n- Paggawa ng mga maliliit na bagay upang makamit ang layunin ng pamilya sa pag-iipon",
+      "ignore": 96,
+      "ignore_2": "week_7_session_1"
+    },
+    {
+      "id": "section_97",
+      "foreign_key": "week_8_session",
+      "title": "Mga Pundasyon ng Modyul 8: Pagharap sa Problema Bilang Pamilya at Pagninilay",
+      "text": "1️⃣**ALAMIN ITO** - Alamin ang problema.\n\n2️⃣ **PAG-ISIPAN ITO** - Pag-isipan ang mga posibleng solusyon at resulta.\n\n3️⃣ **SUBUKAN ITO** - Pumili ng isang solusyon at subukan ito.\n\n4️⃣ **SURIIN ITO** - Mabisa ba ang napiling solusyon? Magaling! Kung hindi ito gumana, subukan ang ibang solusyon.",
+      "ignore": 97,
+      "ignore_2": "week_8_session_1"
+    },
+    {
+      "id": "section_98",
+      "foreign_key": "week_1_session",
+      "title": "Pundasyon ng Modyul 1: One-on-One Time",
+      "text": "1️⃣ **ARAW** - Gawin ito araw-araw. \n\n2️⃣ **LARO** - Hayaan ang iyong anak na pumili ng gagawin\n\n3️⃣ **ATENSYON** - Ibigay ang buong atensyon sa iyong anak.",
+      "ignore": 98,
+      "ignore_2": "week_1_session_1"
+    },
+    {
+      "id": "section_99",
+      "foreign_key": "week_4_session",
+      "title": "Ito ang ilan pang mga pundasyon ng paggawa ng regular na gawain:",
+      "text": "- Bigyan ang mga batang anak ng hudyat kapag patapos na ang isang gawain at lilipat na sa susunod.\n\n- Sabihin ang kilos na gusto mong gawin ng iyon anak gamit ang mga positibong salita. (Alalahanin ang mga pundasyon ng pagbibigay ng direksyon).\n\n- Magbigay ng direksyon nang paisa-isa. Ang bawat direksyon ay dapat simple at klaro.\n\n- Purihin ang iyong anak kapag nasunod niya ang direksyon. (Alalahanin ang mga pundasyon ng pagbibigay ng papuri.)\n\n- Gawing routine ang maayos na pagtulog at pagkain sa itinakdang oras nang sa gayon ay aasahan ito ng bata.\n\n- Gumawa ng iskedyul nang sa gayon ay makatulong ang ibang nakakatanda sa bahay.",
+      "ignore": 99,
+      "ignore_2": "week_4_session_1"
+    },
+    {
+      "id": "section_100",
+      "foreign_key": "week_6_session",
+      "title": "Mga pundasyon para sa pagtugon ng magulang kapag nasa krisis ang anak:",
+      "text": "- Manatiling kalmado habang tinutugunan ang anak na may problema o krisis\n\n- Ipaalam sa anak na nariyan ka para sa kanya, sa kabila ng krisis.\n\n- Maging bukas at makinig din sa kanya.\n\n- Isama ang anak sa pagtugon sa krisis.",
+      "ignore": 100,
+      "ignore_2": "week_6_session_1"
+    }
+  ]
+}

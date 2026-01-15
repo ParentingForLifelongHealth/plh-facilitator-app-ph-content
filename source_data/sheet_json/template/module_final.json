@@ -1,0 +1,283 @@
+{
+  "flow_type": "template",
+  "flow_name": "module_final",
+  "status": "released",
+  "rows": [
+    {
+      "name": "module_id",
+      "value": "@fields.current_module_no"
+    },
+    {
+      "name": "group_id",
+      "value": "@fields.current_group_no"
+    },
+    {
+      "name": "completed_field",
+      "value": "completed_@fields.current_group_no"
+    },
+    {
+      "name": "group",
+      "value": "_group"
+    },
+    {
+      "name": "module_notification_id",
+      "value": "module_@local.module_id@local.group@local.group_id"
+    },
+    {
+      "name": "module_complete",
+      "value": false
+    },
+    {
+      "name": "module_index",
+      "value": 0
+    },
+    {
+      "type": "data_items",
+      "name": "get_module_complete",
+      "value": "@data.modules",
+      "action_list": "data_changed | set_local : module_complete : @items[0]?.@local.completed_field;\ndata_changed | set_local : module_index: @items[0]?.row_index;",
+      "parameter_list": "filter: @item.id == @fields.current_module_no;",
+      "exclude_from_translation": true,
+      "comment": "This cannot have a condition, otherwise module_index does not get set"
+    },
+    {
+      "name": "next_module_index",
+      "value": "@local.module_index + 1",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "next_module_id"
+    },
+    {
+      "name": "next_module_complete"
+    },
+    {
+      "type": "data_items",
+      "name": "get_next_module_props",
+      "value": "@data.modules",
+      "action_list": "data_changed | set_local : next_module_id : @items[0]?.id;\ndata_changed | set_local : next_module_complete : @items[0]?.@local.completed_field;",
+      "parameter_list": "filter: @item.row_index == @local.next_module_index"
+    },
+    {
+      "name": "form_notification_id",
+      "value": "form_@local.module_id@local.group@local.group_id"
+    },
+    {
+      "name": "form_notification_datetime",
+      "value": "@calc(date_fns.addDays(now(),3))"
+    },
+    {
+      "name": "form_notification_action_list",
+      "value": "notification_interacted | go_to : reports;"
+    },
+    {
+      "type": "begin_items",
+      "name": "select_random_form_notification",
+      "value": "@data.notification_messages",
+      "parameter_list": "filter: @item.type == \"form_reminder\"; \nshuffle;\nlimit:1",
+      "comment": "Workaround: doing this with data_items + data_changed caused the local vars to be reevaluated a lot of times"
+    },
+    {
+      "name": "form_notification_text",
+      "value": "@item.text"
+    },
+    {
+      "name": "form_notification_title",
+      "value": "@item.title"
+    },
+    {
+      "type": "end_items"
+    },
+    {
+      "name": "next_module_notification_id",
+      "value": "module_@local.next_module_id@local.group@local.group_id"
+    },
+    {
+      "name": "next_module_notification_datetime",
+      "value": "@calc(date_fns.addDays(now(),2))"
+    },
+    {
+      "type": "begin_items",
+      "name": "select_random_next_module_notification",
+      "value": "@data.notification_messages",
+      "parameter_list": "filter: @item.type == \"next_module_reminder\"; \nshuffle;\nlimit:1",
+      "comment": "Workaround: doing this with data_items + data_changed caused the local vars to be reevaluated a lot of times"
+    },
+    {
+      "name": "next_module_notification_text",
+      "value": "@item.text"
+    },
+    {
+      "name": "next_module_notification_title",
+      "value": "@item.title"
+    },
+    {
+      "type": "end_items"
+    },
+    {
+      "name": "message_shared"
+    },
+    {
+      "name": "has_cofacilitator"
+    },
+    {
+      "type": "data_items",
+      "name": "get_message_share",
+      "value": "message_log",
+      "action_list": "data_changed | set_local : message_shared : (@items.length > 0);",
+      "parameter_list": "filter: @item.group_id == @fields.current_group_no && @item.module == @fields.current_module_no;",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "data_items",
+      "name": "get_cofacilitator",
+      "value": "parent_groups",
+      "action_list": "data_changed | set_local : has_cofacilitator : (@items[0].cofacilitator_id > \"\");",
+      "parameter_list": "filter: @item.name == @fields.current_group_no;"
+    },
+    {
+      "type": "text",
+      "name": "debug_1",
+      "value": "message_shared: @local.message_shared",
+      "exclude_from_translation": true,
+      "condition": false
+    },
+    {
+      "type": "text",
+      "name": "debug_2",
+      "value": "has_cofacilitator: @local.has_cofacilitator",
+      "exclude_from_translation": true,
+      "condition": false
+    },
+    {
+      "name": "pages_complete_field",
+      "value": "pages_@fields.current_group_no"
+    },
+    {
+      "name": "click_template",
+      "value": "sub_item_@fields.current_module_no"
+    },
+    {
+      "type": "begin_display_group",
+      "name": "dg_top",
+      "parameter_list": "sticky: top;\nbackground_image_asset: images/backgrounds/home_top_left.svg;\nbackground_image_position: top left;",
+      "condition": false,
+      "style_list": "width: 105%;\nalign-items: flex-start;\npadding: 24px;\nmin-height: 192px;"
+    },
+    {
+      "type": "image",
+      "name": "logo",
+      "value": "images/logos/app_logo.png",
+      "style_list": "max-width: 72px;"
+    },
+    {
+      "type": "end_display_group"
+    },
+    {
+      "name": "report_count"
+    },
+    {
+      "name": "report_id",
+      "value": "empty",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "data_items",
+      "name": "get_reports",
+      "value": "@data.report_answers",
+      "action_list": "data_changed | set_local : report_id : @items[0]?.id;\ndata_changed | set_local : report_count : @items.length;",
+      "parameter_list": "filter: @item.archived == false && @fields.current_module_no == @item.module_id && @item.group_id == @field.current_group_no;",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "text",
+      "name": "final_title",
+      "value": "@global.module_final_title",
+      "parameter_list": "text_align: center",
+      "condition": "@local.report_count == 0 "
+    },
+    {
+      "type": "begin_display_group",
+      "parameter_list": "style: column",
+      "exclude_from_translation": true,
+      "condition": "@fields.user_type == \"facilitator\" || @fields.user_type == \"tester\""
+    },
+    {
+      "type": "lottie_animation",
+      "name": "lottie",
+      "value": "@global.end_module_animation",
+      "exclude_from_translation": true,
+      "condition": "@local.report_count > 0",
+      "style_list": "margin-block: -48px"
+    },
+    {
+      "type": "text",
+      "name": "nothing_shared",
+      "value": "@global.module_nothing_shared",
+      "parameter_list": "text_align: center",
+      "exclude_from_translation": true,
+      "condition": "!@local.message_shared && !@local.has_cofacilitator"
+    },
+    {
+      "type": "text",
+      "name": "finish_text",
+      "value": "@global.module_rep_complete",
+      "parameter_list": "text_align: center",
+      "exclude_from_translation": true,
+      "condition": "@local.report_count > 0"
+    },
+    {
+      "type": "button",
+      "name": "existing_report",
+      "value": "@global.review_report",
+      "action_list": "click | set_field: current_report_no: @local.report_id;\nclick | go_to: edit_report;",
+      "exclude_from_translation": true,
+      "condition": "@local.report_count > 0"
+    },
+    {
+      "type": "button",
+      "name": "new_report",
+      "value": "@global.mark_delivered",
+      "action_list": "click | set_data |\n_list_id: modules,\n_id: @fields.current_module_no,\n@local.completed_field: true;\nclick | go_to: add_report;\nclick | notification: create |\nid: @local.form_notification_id,\ntitle: @local.form_notification_title,\ntext: @local.form_notification_text,\nschedule_at: @local.form_notification_datetime,\naction_list: @local.form_notification_action_list;\nclick | notification: cancel | id: @local.module_notification_id",
+      "parameter_list": "disabled: (!@local.message_shared && !@local.has_cofacilitator)",
+      "condition": "(@local.report_count == 0 && @fields.current_report_id != \"empty\") && @local.next_module_complete",
+      "comment": "- schedules a notification to complete the report\n - cancels the notification to complete this module"
+    },
+    {
+      "type": "button",
+      "name": "new_report",
+      "value": "@global.mark_delivered",
+      "action_list": "click | set_data |\n_list_id: modules,\n_id: @fields.current_module_no,\n@local.completed_field: true;\nclick | go_to: add_report;\nclick | notification: create |\nid: @local.form_notification_id,\ntitle: @local.form_notification_title,\ntext: @local.form_notification_text,\nschedule_at: @local.form_notification_datetime,\naction_list: @local.form_notification_action_list;\nclick | notification: create |\nid: @local.next_module_notification_id,\ntitle: @local.next_module_notification_title,\ntext: @local.next_module_notification_text,\nschedule_at: @local.next_module_notification_datetime;\nclick | notification: cancel | id: @local.module_notification_id",
+      "parameter_list": "disabled: (!@local.message_shared && !@local.has_cofacilitator)",
+      "condition": "(@local.report_count == 0 && @fields.current_report_id != \"empty\") && !@local.next_module_complete",
+      "comment": "- schedules a notification to complete the report\n- schedules a notification to complete the next module\n - cancels the notification to complete this module"
+    },
+    {
+      "type": "button",
+      "name": "complete_module",
+      "value": "@global.mark_delivered",
+      "action_list": "click | set_data |\n_list_id: modules,\n_id: @fields.current_module_no,\n@local.completed_field: true;\nclick | go_to: home_screen;",
+      "parameter_list": "disabled: (!@local.message_shared && !@local.has_cofacilitator)",
+      "exclude_from_translation": true,
+      "condition": "@fields.current_report_id == \"empty\" && !@local.module_complete"
+    },
+    {
+      "type": "end_display_group",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "button",
+      "name": "goto_start",
+      "value": "@global.go_to_start",
+      "action_list": "click | set_data |\n_list_id: sub_items,\n_id: @fields.current_module_no,\ncompleted: false,\n@local.completed_field: false;\nclick | set_data |\n_list_id: modules,\n_id: @fields.current_module_no,\n@local.pages_complete_field: true;\nclick | go_to: home_screen;\nclick | nav_stack: open | template: @local.click_template, header: false;"
+    },
+    {
+      "type": "button",
+      "name": "support",
+      "value": "@global.support_button",
+      "action_list": "click | go_to: library_faq;",
+      "parameter_list": "icon_src: images/icons/help.svg;",
+      "exclude_from_translation": true
+    }
+  ]
+}

@@ -1,0 +1,272 @@
+{
+  "flow_type": "global",
+  "flow_name": "profile_global",
+  "status": "released",
+  "rows": [
+    {
+      "type": "declare_global_constant",
+      "name": "label_first_name",
+      "value": "Parent's First Name*"
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "label_last_name",
+      "value": "Parent's Last Name*"
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "label_number",
+      "value": "Contact Number"
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "label_age",
+      "value": "Parent's Age"
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "label_sex",
+      "value": "Parent's Sex"
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "label_about_child",
+      "value": "About the child"
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "label_child_name",
+      "value": "Child's Name*"
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "label_child_age",
+      "value": "Child's Age*"
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "label_child_sex",
+      "value": "Child's Sex*"
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "label_relationship",
+      "value": "What is the parent's relationship with the child? "
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "label_about_family",
+      "value": "About the family"
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "label_members",
+      "value": "How many family members are there (including the program participant)? "
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "label_childcare",
+      "value": "Who else is taking care of the child?"
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "label_goal",
+      "value": "Parents goal"
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "label_other_notes",
+      "value": "Other notes"
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "label_consoltation",
+      "value": "Date of Consultation"
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "edit_first_name",
+      "value": "Enter parent's first name"
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "edit_last_name",
+      "value": "Enter parent's last name"
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "edit_number",
+      "value": "Enter parent's contact number"
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "edit_age",
+      "value": "Enter parent's age"
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "edit_sex",
+      "value": "Enter parent's sex"
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "edit_child_name",
+      "value": "Enter child's name"
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "edit_child_age",
+      "value": "Enter child's age"
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "edit_child_sex",
+      "value": "Enter child's sex"
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "edit_relationship",
+      "value": "e.g., Mother, Grandfather"
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "edit_members",
+      "value": "e.g., 5"
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "edit_childcare",
+      "value": "e.g., Aunt, Grandparent"
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "edit_goal",
+      "value": "Enter parent's goal"
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "edit_other_notes",
+      "value": "Enter other notes"
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "edit_consoltation",
+      "value": "Enter date of consultation"
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "error_first_name",
+      "value": "Please enter a valid name using only letters. It must be at least 2 characters long."
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "error_last_name",
+      "value": "Please enter a valid name using only letters. It must be at least 2 characters long."
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "error_number",
+      "value": "Please enter a valid 11-digit phone number that starts with 09."
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "error_age",
+      "value": "Please enter a valid age between 16 and 99."
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "error_sex",
+      "value": "Please select a gender"
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "error_child_name",
+      "value": "Please enter a valid name using only letters. It must be at least 2 characters long."
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "error_child_age",
+      "value": "Please enter an age between 2 and 17."
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "error_child_sex",
+      "value": "Please select a gender"
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "error_relationship",
+      "value": "Please provide a valid response using only letters."
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "error_members",
+      "value": "Please enter a valid number to indicate the total family members (including the program participant)."
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "error_childcare",
+      "value": "Please enter a valid response using only letters, spaces, commas, or hyphens (e.g., ‘Grandmother, Aunt’ or ‘Daycare Provider’)."
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "error_goal",
+      "value": "Please enter a specific and realistic goal."
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "error_consoltation",
+      "value": "Please enter a date."
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "co_facilitator_share_title",
+      "value": "As a co-facilitator, you can’t create a parent group. Please send this message to your facilitator to add them to the parent group: "
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "co_facilitator_share_start",
+      "value": "Hello, \nPlease add me as a co-facilitator!\nHere's how:\n1. Open the Facilitator App.\n2. Click on 'Your Parent Groups'\n3. Select EDIT on the Group.\n4. Click 'Add Co-Facilitator'\n5. Enter this ID: "
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "co_facilitator_share_end",
+      "value": "\nExcited to be on board!"
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "label_about_parent",
+      "value": "About parent"
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "co_facilitator_add_header",
+      "value": "Add Co-Facilitator"
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "co_facilitator_add_body",
+      "value": "Ask your co-facilitator for this parent group to share their @global.app_name code with you.\nPaste the code below to add them to the group."
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "co_facilitator_add_input_name",
+      "value": "Enter co-facilitator's name"
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "co_facilitator_add_placeholder_code",
+      "value": "Enter co-facilitator’s code"
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "co_facilitator_add_placeholder_name",
+      "value": "Enter co-facilitator's name"
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "co_facilitator_add_button",
+      "value": "Add Co-Facilitator"
+    }
+  ]
+}

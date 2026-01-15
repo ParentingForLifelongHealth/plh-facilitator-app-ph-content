@@ -1,0 +1,120 @@
+{
+  "flow_type": "template",
+  "flow_name": "edit_parent_group",
+  "status": "released",
+  "rows": [
+    {
+      "name": "is_new",
+      "value": false,
+      "exclude_from_translation": true
+    },
+    {
+      "name": "title_label",
+      "value": "Edit Parent Group"
+    },
+    {
+      "name": "title_label",
+      "value": "New Parent Group",
+      "condition": "@local.is_new"
+    },
+    {
+      "type": "text",
+      "value": "group number: @fields.current_group_no",
+      "condition": false,
+      "exclude_from_translation": true
+    },
+    {
+      "type": "begin_template",
+      "name": "header",
+      "value": "section_header",
+      "action_list": "uncompleted | emit: uncompleted; ",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "title",
+      "value": "@local.title_label",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "confirm_exit",
+      "value": true,
+      "exclude_from_translation": true
+    },
+    {
+      "type": "end_template",
+      "exclude_from_translation": true
+    },
+    {
+      "exclude_from_translation": true
+    },
+    {
+      "type": "text",
+      "name": "text_group_name",
+      "value": "Group Name",
+      "parameter_list": "style: emphasised"
+    },
+    {
+      "type": "text",
+      "value": "before: @fields.current_group_no",
+      "condition": false,
+      "exclude_from_translation": true
+    },
+    {
+      "type": "data_items",
+      "name": "get_id",
+      "value": "parent_groups",
+      "action_list": "data_changed | set_field: current_group_id: @items[0]?.id;\ndata_changed | set_local: is_new: true",
+      "parameter_list": "filter: @item.name == @field.current_group_no;",
+      "condition": "@fields.current_group_id == \"new\"",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "text_box",
+      "name": "text_box",
+      "value": "@fields.current_group_name",
+      "parameter_list": "placeholder: @local.text_group_name;\ndisabled: !!@fields.current_group_readonly;",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "begin_template",
+      "name": "co_facilitator",
+      "value": "co_facilitator",
+      "condition": "!@fields.current_group_readonly"
+    },
+    {
+      "type": "end_template"
+    },
+    {
+      "type": "begin_template",
+      "name": "parent_list",
+      "value": "parent_list",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "end_template",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "valid",
+      "value": "!!@local.text_box && !@fields.current_group_readonly",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "begin_display_group",
+      "parameter_list": "sticky: bottom;",
+      "style_list": "padding: 12px 24px;",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "button",
+      "name": "save",
+      "value": "Save",
+      "action_list": "click | set_data |\n_list_id: parent_groups,\n_id: @fields.current_group_id,\ntext: @local.text_box,\narchived: false;\nclick | plh_parent_group: push | parent_groups_data_list: parent_groups, parents_data_list: parents;\nclick | emit: completed;\nclick | emit: server_sync;",
+      "parameter_list": "variant: card; \ndisabled: !@local.valid;"
+    },
+    {
+      "type": "end_display_group",
+      "exclude_from_translation": true
+    }
+  ]
+}

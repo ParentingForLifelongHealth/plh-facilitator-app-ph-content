@@ -1,0 +1,98 @@
+{
+  "flow_type": "template",
+  "flow_name": "add_cofacilitator",
+  "status": "released",
+  "rows": [
+    {
+      "type": "begin_template",
+      "name": "header",
+      "value": "section_header",
+      "action_list": "uncompleted | emit: uncompleted; ",
+      "parameter_list": "begin_template",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "title",
+      "value": "@global.co_facilitator_add_header",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "end_template",
+      "parameter_list": "end_template",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "text",
+      "value": "@global.co_facilitator_add_body",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "text_box",
+      "name": "co_facilitator_id",
+      "parameter_list": "placeholder: @global.co_facilitator_add_placeholder_code",
+      "style_list": "margin-top: -10px",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "co_facilitator_id_valid",
+      "value": "@calc((/^.{28,}$/.test(@local.co_facilitator_id)) || @local.co_facilitator_id == '' || !@local.co_facilitator_id)\n",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "not_own_id",
+      "value": "@calc(@local.co_facilitator_id != @fields._auth_user_id)",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "text",
+      "value": "Please enter a valid co-facilitator id",
+      "style_list": "color: #FF0000;\nfont-size: 14px; ",
+      "condition": "!@local.co_facilitator_id_valid",
+      "exclude_from_translation": false
+    },
+    {
+      "type": "text",
+      "value": "id matches your own id",
+      "style_list": "color: #FF0000;\nfont-size: 14px; ",
+      "condition": "!@local.not_own_id",
+      "exclude_from_translation": false
+    },
+    {
+      "type": "text",
+      "value": "@global.co_facilitator_add_input_name",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "text_box",
+      "name": "co_facilitator_name",
+      "parameter_list": "placeholder: @global.co_facilitator_add_placeholder_name",
+      "style_list": "margin-top: -10px",
+      "exclude_from_translation": true,
+      "__EMPTY": "click | plh_parent_group: push | parent_groups_data_list: parent_groups, parents_data_list: parents;"
+    },
+    {
+      "name": "co_facilitator_name_valid",
+      "value": "@calc(/^[a-zA-Z]+(?:[ -][a-zA-Z]+)*$/.test(@local.co_facilitator_name))",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "text",
+      "value": "Please enter a name for the co-facilitator",
+      "style_list": "color: #FF0000;\nfont-size: 14px; ",
+      "condition": "!@local.co_facilitator_name_valid",
+      "exclude_from_translation": false
+    },
+    {
+      "name": "valid",
+      "value": "!!@local.co_facilitator_id && !!@local.co_facilitator_name&&@local.co_facilitator_id_valid && @local.co_facilitator_name_valid && @local.not_own_id",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "button",
+      "value": "Add co-facilitator",
+      "action_list": "click | plh_parent_group: add_cofacilitator | parent_group_id: @fields.current_group_id, auth_id: @local.co_facilitator_id, parent_groups_data_list: parent_groups, parents_data_list: parents;\nclick | set_data |\n_list_id: parent_groups,\n_id: @fields.current_group_id,\nco_facilitator_name: @local.co_facilitator_name;\nclick | emit: completed;",
+      "parameter_list": "variant: card;\ndisabled: !@local.valid;",
+      "exclude_from_translation": true
+    }
+  ]
+}

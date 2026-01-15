@@ -1,0 +1,57 @@
+{
+  "flow_type": "template",
+  "flow_name": "remove_cofacilitator",
+  "status": "released",
+  "rows": [
+    {
+      "exclude_from_translation": true,
+      "comments": "@fields.current_parent_no"
+    },
+    {
+      "exclude_from_translation": true,
+      "comments": "@fields.current_parent_name"
+    },
+    {
+      "type": "title",
+      "name": "title",
+      "value": "Are you sure you want to remove the co-facilitator from this parent group?",
+      "exclude_from_translation": false
+    },
+    {
+      "type": "text",
+      "name": "text_warning",
+      "value": "This action cannot be undone.",
+      "exclude_from_translation": false
+    },
+    {
+      "type": "text",
+      "name": "text_note",
+      "value": "Note: Removing a co-facilitator will revoke their access to this group."
+    },
+    {
+      "type": "begin_display_group",
+      "name": "buttons"
+    },
+    {
+      "type": "button",
+      "name": "button_no",
+      "value": "Cancel",
+      "action_list": "click | emit: uncompleted",
+      "parameter_list": "style: card",
+      "style_list": "flex:1",
+      "exclude_from_translation": false
+    },
+    {
+      "type": "button",
+      "name": "button_delete",
+      "value": "Remove",
+      "action_list": "click | plh_parent_group: remove_cofacilitator | parent_group_id: @fields.current_group_id, auth_id: @fields.cofacilitator_id, parent_groups_data_list: parent_groups, parents_data_list: parents;\nclick | set_data |\n_list_id: parent_groups,\n_id: @fields.current_group_id,\ncofacilitator_id:  ,\nco_facilitator_name: ;\nclick | emit: force_reload;\nclick | emit: completed;",
+      "parameter_list": "style: card",
+      "style_list": "flex:1",
+      "exclude_from_translation": false
+    },
+    {
+      "type": "end_display_group"
+    }
+  ]
+}

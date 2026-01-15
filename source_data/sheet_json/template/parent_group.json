@@ -1,0 +1,77 @@
+{
+  "flow_type": "template",
+  "flow_name": "parent_group",
+  "status": "released",
+  "rows": [
+    {
+      "name": "group_id",
+      "value": 1
+    },
+    {
+      "name": "group_name",
+      "value": "test"
+    },
+    {
+      "name": "group_no",
+      "value": 1
+    },
+    {
+      "name": "is_readonly",
+      "value": false
+    },
+    {
+      "type": "text",
+      "name": "is readonly: @local.is_readonly"
+    },
+    {
+      "type": "begin_display_group",
+      "name": "dg_parent_@item.parent_no"
+    },
+    {
+      "type": "text",
+      "name": "text_@item.parent_no",
+      "value": "@local.group_name",
+      "style_list": "flex: 1",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "image",
+      "condition": false
+    },
+    {
+      "type": "round_button",
+      "name": "button_edit_@local.group_id",
+      "action_list": "click | set_field: current_group_id: @local.group_id;\nclick | set_field: current_group_no: @local.group_no;\nclick | set_field: current_group_name: @local.group_name;\nclick | set_field: current_group_readonly: @local.is_readonly;\nclick | go_to: edit_parent_group;",
+      "parameter_list": "icon_src: images/icons/edit.svg;",
+      "condition": "!@local.is_readonly",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "round_button",
+      "name": "button_view_@local.group_id",
+      "action_list": "click | set_field: current_group_id: @local.group_id;\nclick | set_field: current_group_no: @local.group_no;\nclick | set_field: current_group_name: @local.group_name;\nclick | set_field: current_group_readonly: @local.is_readonly;\nclick | go_to: edit_parent_group;",
+      "parameter_list": "icon_src: images/icons/eye.svg;",
+      "condition": "@local.is_readonly",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "round_button",
+      "name": "button_archive_@local.group_id",
+      "action_list": "click | set_field: current_group_id: @local.group_id;\nclick | set_field: current_group_name: @local.group_name;\nclick | pop_up: archive_group;",
+      "parameter_list": "icon_src: images/icons/archive.svg;\nstyle: dark_orange",
+      "condition": "!@local.is_readonly",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "round_button",
+      "name": "button_delete_@local.group_id",
+      "action_list": "click | set_field: current_group_id: @local.group_id;\nclick | set_field: current_group_name: @local.group_name;\nclick | pop_up: delete_group;",
+      "parameter_list": "icon_src: images/icons/delete.svg;\nstyle: orange",
+      "condition": "!@local.is_readonly",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "end_display_group"
+    }
+  ]
+}

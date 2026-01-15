@@ -1,0 +1,1888 @@
+{
+  "flow_type": "data_list",
+  "flow_name": "a_messages",
+  "status": "released",
+  "data_list_name": "a_messages",
+  "rows": [
+    {
+      "id": "message_1",
+      "foreign_key": "week_1_session_2",
+      "title": "Reminder Para sa Unang Sesyon",
+      "text": "Magandang araw! Paalala lamang na ang ating MaPa Chat Hybrid Program ay magsisimula na mamayang [ORAS] sa [VENUE]. Excited na kaming makasama kayo! Sisimulan natin ang pagbuo ng Masayang Tahanan sa isang simple at epektibong parenting skill: ang pakikipag-**One-on-One Time sa inyong Anak!** Malalaman ninyo mamaya ano ang magagawa nito sa inyong pamilya! Kita kits!",
+      "guidance": "Ipadala ang mensaheng ito sa mga magulang sa pamamagitan ng SMS/text messaging bilang paalala para sa unang sesyon. Palitan ang [ORAS] at [VENUE] ng iyong sesyon bago ipadala ang mensahe.",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 1
+    },
+    {
+      "id": "message_2",
+      "foreign_key": "week_1_session_9",
+      "title": "Pagkatapos ng Sesyon: Pasasalamat sa Kalahok at Pagpapaalala na Magpraktis",
+      "text": "Hello! Salamat sa pagdalo sa ating sesyon! Tandaan, ang ating pabaong gawain ngayong linggo ay ang pagkikipag-One-on-One Time kasama ang iyong anak. Kahit 5 minuto lang, malaki ang magagawa! Kaya mo ito!",
+      "guidance": "",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 2
+    },
+    {
+      "id": "message_3",
+      "foreign_key": "week_1_1_reminder",
+      "title": "Mensahe 1 - Pagpapaalala ng Suporta",
+      "text": "Hi! Kumusta ang inyong pagpraktis ng pabaong gawain? Naiintindihan ko na baka may mga hamon kayo sa modyul na ito. Huwag mag-atubili na mag-text sa akin kung may mga tanong kayo. Salamat!",
+      "guidance": "",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 3
+    },
+    {
+      "id": "message_4",
+      "foreign_key": "week_1_2_reminder",
+      "title": "Mensahe 1 - Paalala para sa Susunod na Sesyon",
+      "text": "Magandang araw! Nakarating na tayo sa dulo ng linggo. Kamusta ang pag-wa-One-on-One Time kasama ang iyong mga anak? Ikwento ang inyong mga naging tagumpay at hamon! Maaaring maging malikhain sa pagbabahagi: magpadala ng mga kwento, voice message, o kaya picture. Natutuwa akong marinig kung kumusta ang inyong linggo sa ating sunod na sesyon sa [ITAKDA ANG PETSA DITO].",
+      "guidance": "Ilagay ang petsa ng susunod na sesyon bago ipadala ang mensahe.",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 4
+    },
+    {
+      "id": "message_5",
+      "foreign_key": "week_2_session_2",
+      "title": "Unang Araw: Paalala sa Modyul",
+      "text": "",
+      "guidance": "Ipadala ang picture na ito bago ang susunod na mensahe.",
+      "asset_type": "image",
+      "asset": "images/02_masayang_tahanan.jpg",
+      "ignore": 5
+    },
+    {
+      "id": "message_6",
+      "foreign_key": "week_2_session_3",
+      "title": "Unang Araw: Paalala sa Modyul",
+      "text": "Isang buong linggo na pala ang nakalipas! Ang susunod nating chat session ay [ITAKDA ANG ORAS] mamaya. Pag-uusapan natin ang benepisyo ng pakikipag-usap tungkol sa damdamin kasama ang anak—at madadagdagan rin ng ikalawang pundasyon ang dingding ng ating Masayang Tahanan. Mag-chat tayo!",
+      "guidance": "Palitan ang [ITAKDA ANG ORAS] ng oras ng iyong session. Siguraduhing naipadala na ang larawan ng Masayang Tahanan bago ang mensaheng ito.",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 6
+    },
+    {
+      "id": "message_7",
+      "foreign_key": "week_2_session_5",
+      "title": "Mensahe 1 - Pagbati ang Pangangamusta",
+      "text": "Welcome sa Modyul 2 ng ating MaPaChat! Kamusta po kayo lahat? Masaya? Stressed? Galit? Inis? Kalmado? Anumang emosyon ang inyong nararamdaman…okay lang ito! I-type po natin kung ano ang nararamdaman natin\nngayong araw.",
+      "guidance": "Bigyan ng sandali ang mga magulang na magbahagi ng kanilang nararamdaman. Ibahagi rin ang iyong nararamdaman. Halimbawa, “Masaya akong maging parte ng MaPa Chat session natin ngayong araw.”",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 7
+    },
+    {
+      "id": "message_8",
+      "foreign_key": "week_2_session_6",
+      "title": "Mensahe 2 - Talakayan Tungkol sa Pabaong Gawain",
+      "text": "Noong nakaraang linggo, pinag-usapan natin ang pakikipag-One-on-One Time kasama ang anak. Ngayong araw, titingnan natin ang isa sa iba pang paraan ng paggamit ng One-on-One Time—ang pakikipag-usap tungkol sa damdamin kasama ang anak. Pero una, mag-chat muna tayo tungkol sa inyong home activity o pabaong gawain. **Kamusta ang pag-One-on-One Time ninyo?**",
+      "guidance": "Tanggapin ang mga karanasan na ibabahagi ng mga magulang. I-connect ang kanilang mga karanasan sa mga pundasyon ng pag-One-on-One Time.",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 8
+    },
+    {
+      "id": "message_9",
+      "foreign_key": "week_2_session_7",
+      "title": "Mensahe 3 - Pagbabahagi ng Tagumpay",
+      "text": "Isa sa mga tagumpay na binahagi ninyo noong nag-One-on-One Time kayo ay [ilarawan ang tagumpay]. Mahusay na nagawa ninyo na [iugnay ang tagumpay sa\npundasyon].",
+      "guidance": "Palitan ang [ilarawan ang tagumpay] at [iugnay ang tagumpay sa pundasyon] base sa mga sagot ng magulang sa huling mensahe.",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 9
+    },
+    {
+      "id": "message_10",
+      "foreign_key": "week_2_session_8",
+      "title": "Mensahe 4 - Pagbabahagi ng Hamon",
+      "text": "Ngayon naman ay pag-uusapan natin ang isang binahaging hamon tungkol sa [ilarawan ang hamon mula sa feedback modyul].",
+      "guidance": "Palitan ang [ilarawan ang hamon mula sa feedback modyul] base sa mga naibahagi ng mga magulang na hamon.\n\nKung walang nagbahagi ng hamon sa nakaraang linggo, ipadala sa chat ang mga halimbawa ng mga posibleng hamon na nasa susunod na mensahe. Hayaan ang mga magulang na sumagot, at pumili ng isang hamon na maaaring pag-isipan ng buong grupo.",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 10
+    },
+    {
+      "id": "message_11",
+      "foreign_key": "week_2_session_9",
+      "title": "Mensahe 4 - Pagbabahagi ng Hamon",
+      "text": "Nauunawaan kong mahirap mag-isip ng hamon. Narito ang ilang sa mga \nhalimbawa ng mga hamon sa One-on-One time na ibinahagi ng ibang magulang:\n- Wala akong sapat na oras\n- Ayaw ng anak kong makipag-One-on-One Time\n- Hindi ako komportable sa mga gustong gawin ng anak ko\n\nMay mga nakaranas din ba ng mga hamong ito? Mag-react po tayo sa mga hamon na nakalista kapag ito ay naranasan niyo rin!",
+      "guidance": "Maaaring gawing **poll** sa Viber ang mensahe na ito para makapili ang mga magulang ng isang hamon. Hayaan ang mga magulang na sumagot, at pumili ng isang hamon na maaaring pag-isipan ng buong grupo.",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 11
+    },
+    {
+      "id": "message_12",
+      "foreign_key": "week_2_session_10",
+      "title": "Mensahe 5 - Talakayan Tungkol sa Hamon at mga Solusyon",
+      "text": "Maaari ba nating pagtulungan na isipan ng positibong solusyon ang [ilarawan ang hamon]? Ano kaya ang pwedeng gawin ng magulang na nasa sitwasyon na iyon?",
+      "guidance": "Palitan ang [ilarawan ang hamon] base sa tugon ng mga magulang. Himukin ang mga magulang na mag-isip ng mga positibong solusyon. Makikita ang mga halimbawa sa pdf.",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 12
+    },
+    {
+      "id": "message_13",
+      "foreign_key": "week_2_session_11",
+      "title": "Mensahe 6 - Pagtatapos ng Talakayan sa Pabaong Gawain",
+      "text": "Maraming salamat sa inyong mga ideya. Ngayon na alam ninyo paano gamitin ang One-on-One Time kasama ang anak, pwede ninyo rin ito subukan gawin kasama ang ibang miyembro ng inyong pamilya—tulad ng inyong asawa, magulang, biyenan, o kaya apo!",
+      "guidance": "",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 13
+    },
+    {
+      "id": "message_14",
+      "foreign_key": "week_2_session_12",
+      "title": "Mensahe 7 - Pagpapakilala ng MaPa Skill: Pakikipag-usap Tungkol sa Damdamin",
+      "text": "Pag-uusapan na natin ang **MaPa Parenting Skill** ngayong araw: ang pagtulong sa anak pangasiwaan ang kanilang mga damdamin. Heto ang mga **pundasyon** para makausap ang anak tungkol sa damdamin.\n\n1️⃣ **HUMINGA** - Huminga bago magsimula para mapakalma ang sarili.\n2️⃣ **IBAHAGI** - Ibahagi ang nararamdaman. \n3️⃣ **MAKINIG** - Makinig sa iyong anak na bata o tinedyer. \n4️⃣ **MALASAKIT** - Malasakit para sa kanila. \n5️⃣ **MAGHANAP** - Maghanap ng positibo.",
+      "guidance": "",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 14
+    },
+    {
+      "id": "message_15",
+      "foreign_key": "week_2_session_13",
+      "title": "Mensahe 8 - Komiks Tungkol sa Batang Anak",
+      "text": "Narito ang komiks na nagpapakita kung paano nakipag-usap ang anak tungkol sa kanyang damdamin sa kanyang Lola habang nag-wa-One-on-One Time.",
+      "guidance": "",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 15
+    },
+    {
+      "id": "message_16",
+      "foreign_key": "week_2_session_14",
+      "title": "Mensahe 8 - Komiks Tungkol sa Batang Anak",
+      "text": "",
+      "guidance": "Ipadala ang unang panel ng komiks.",
+      "asset_type": "image",
+      "asset": "images/comics/02_comics1_panel1.png",
+      "ignore": 16
+    },
+    {
+      "id": "message_17",
+      "foreign_key": "week_2_session_15",
+      "title": "Mensahe 8 - Komiks Tungkol sa Batang Anak",
+      "text": "",
+      "guidance": "Ipadala ang pangalawang panel ng komiks",
+      "asset_type": "image",
+      "asset": "images/comics/02_comics1_panel2.png",
+      "ignore": 17
+    },
+    {
+      "id": "message_18",
+      "foreign_key": "week_2_session_16",
+      "title": "Mensahe 8 - Komiks Tungkol sa Batang Anak",
+      "text": "",
+      "guidance": "Ipadala ang pangatlong panel ng komiks.",
+      "asset_type": "image",
+      "asset": "images/comics/02_comics1_panel3.png",
+      "ignore": 18
+    },
+    {
+      "id": "message_19",
+      "foreign_key": "week_2_session_17",
+      "title": "Mensahe 8 - Komiks Tungkol sa Batang Anak",
+      "text": "",
+      "guidance": "Ipadala ang pang-apat na panel ng komiks.",
+      "asset_type": "image",
+      "asset": "images/comics/02_comics1_panel4.png",
+      "ignore": 19
+    },
+    {
+      "id": "message_20",
+      "foreign_key": "week_2_session_18",
+      "title": "Mensahe 9 - Talakayan Tungkol sa Komiks",
+      "text": "Paano ninyo nakita ang kahit na alin sa limang pundasyon sa Pakikipag-usap tungkol sa Damdamin dito sa komiks?",
+      "guidance": "Bigyan ang mga magulang ng oras para makasagot bago pumunta sa sunod na komiks.",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 20
+    },
+    {
+      "id": "message_21",
+      "foreign_key": "week_2_session_19",
+      "title": "Mensahe 10 - Komiks Tungkol sa Anak na Tinedyer: Pakikipag-usap Tungkol sa Damdamin",
+      "text": "Narito ang isang komiks kung saan makikipag-usap si Tatay Jose tungkol sa mahirap na emosyon sa kanyang tinedyer na anak, si Pablo.",
+      "guidance": "",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 21
+    },
+    {
+      "id": "message_22",
+      "foreign_key": "week_2_session_20",
+      "title": "Mensahe 10 - Komiks Tungkol sa Anak na Tinedyer: Pakikipag-usap Tungkol sa Damdamin",
+      "text": "",
+      "guidance": "Ipadala ang unang panel ng komiks.",
+      "asset_type": "image",
+      "asset": "images/comics/02_comics2_panel1.png",
+      "ignore": 22
+    },
+    {
+      "id": "message_23",
+      "foreign_key": "week_2_session_21",
+      "title": "Mensahe 10 - Komiks Tungkol sa Anak na Tinedyer: Pakikipag-usap Tungkol sa Damdamin",
+      "text": "",
+      "guidance": "Ipadala ang pangalawang panel ng komiks.",
+      "asset_type": "image",
+      "asset": "images/comics/02_comics2_panel2.png",
+      "ignore": 23
+    },
+    {
+      "id": "message_24",
+      "foreign_key": "week_2_session_22",
+      "title": "Mensahe 10 - Komiks Tungkol sa Anak na Tinedyer: Pakikipag-usap Tungkol sa Damdamin",
+      "text": "",
+      "guidance": "Ipadala ang pangatlong panel ng komiks.",
+      "asset_type": "image",
+      "asset": "images/comics/02_comics2_panel3.png",
+      "ignore": 24
+    },
+    {
+      "id": "message_25",
+      "foreign_key": "week_2_session_23",
+      "title": "Mensahe 10 - Komiks Tungkol sa Anak na Tinedyer: Pakikipag-usap Tungkol sa Damdamin",
+      "text": "",
+      "guidance": "Ipadala ang pang-apat na panel ng komiks.",
+      "asset_type": "image",
+      "asset": "images/comics/02_comics2_panel4.png",
+      "ignore": 25
+    },
+    {
+      "id": "message_26",
+      "foreign_key": "week_2_session_24",
+      "title": "Mensahe 11 - Talakayan Tungkol sa Komiks",
+      "text": "Mag-chat din tayo tungkol sa komiks na ito. Anong napansin ninyo sa kung paano kinausap ni Tatay Jose ang kanyang anak? Alin sa mga **pundasyon** ang nakita ninyo?",
+      "guidance": "Bigyan ang mga magulang ng pagkakataon para sagutin ang unang tanong bago pumunta sa susunod na tanong.",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 26
+    },
+    {
+      "id": "message_27",
+      "foreign_key": "week_2_session_25",
+      "title": "Mensahe 12 - Talakayan tungkol sa Komiks: Isipin ang Edad ng Anak",
+      "text": "Paano kaya magbabago ang kwento sa komiks kung batang anak imbes na tinedyer ang kausap ni Tatay tungkol sa kanyang damdamin?",
+      "guidance": "Bigyan ang mga magulang ng pagkakataong magbahagi ng kanilang mga ideya.",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 27
+    },
+    {
+      "id": "message_28",
+      "foreign_key": "week_2_session_26",
+      "title": "Mensahe 13 - Talakayan tungkol sa mga Rason sa Pakikipag-usap tungkol sa Damdamin",
+      "text": "Bakit makakatulong ang paghikayat sa batang anak o tinedyer na ibahagi ang kanilang nararamdaman na emosyon?",
+      "guidance": "Bigyan ang mga magulang ng pagkakataong magbahagi ng kanilang mga ideya.",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 28
+    },
+    {
+      "id": "message_29",
+      "foreign_key": "week_2_session_27",
+      "title": "Mensahe 13 - Pagtakda ng Home Activity o Pabaong Gawain",
+      "text": "Maraming salamat sa pagbabahagi ng inyong mga ideya. Para sa homework ngayong linggo, ipraktis sa inyong anak ang pakikipag-usap tungkol sa damdamin sa inyong One-on-One time at maging sa ibang pagkakataon. Subukan ninyo ring pansinin ang inyong sariling damdamin habang nagdadaan ang inyong araw.",
+      "guidance": "",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 29
+    },
+    {
+      "id": "message_30",
+      "foreign_key": "week_2_session_28",
+      "title": "Mensahe 14 - Paglilinaw",
+      "text": "May tanong pa ba tungkol sa pakikipag-usap tungkol sa damdamin?",
+      "guidance": "Magbigay ng ilang minuto para makapagtanong ang mga magulang. Alalahaning magpasalamat sa mga magulang sa kanilang mga katanungan. Bago mo ibigay ang iyong sariling sagot, bigyan ang grupo ng pagkakataong pag-isipan ito at sumagot sa pamamagitan ng pagsabi “Magandang tanong iyan! Ano po sa tingin ng iba ang pwedeng isagot o solusyon diyan?”",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 30
+    },
+    {
+      "id": "message_31",
+      "foreign_key": "week_2_session_29",
+      "title": "Message 15 - Video: MaPa Skill Reminder",
+      "text": "Narito ang isang maikling video kung paano makipag-usap tungkol sa damdamin kasama ang anak. Ito ay paalala ng mga pundasyon:\n\n1️⃣ **HUMINGA** - Huminga bago magsimula para mapakalma ang sarili.\n2️⃣ **IBAHAGI** - Ibahagi ang nararamdaman. \n3️⃣ **MAKINIG** - Makinig sa iyong anak na bata o tinedyer. \n4️⃣ **MALASAKIT** - Malasakit para sa kanila. \n5️⃣ **MAGHANAP** - Maghanap ng positibo.",
+      "guidance": "",
+      "asset_type": "youtube",
+      "asset": "https://youtu.be/PCHaqxUnQdk",
+      "ignore": 31
+    },
+    {
+      "id": "message_32",
+      "foreign_key": "week_2_session_30",
+      "title": "Mensahe 16 - Video: Tumigil nang Sandali",
+      "text": "Bago natin tapusin ang chat session ngayong araw, gagawin natin ang Tumigil nang Sandali. Tandaan na pwede po ninyong gawin din ito kapag kayo ay nakakaramdam ng stress.",
+      "guidance": "Ipadala ang Video message ng Pagtigil nang Sandali.",
+      "asset_type": "youtube",
+      "asset": "https://youtu.be/BqYrYgJ3iKY",
+      "ignore": 32
+    },
+    {
+      "id": "message_33",
+      "foreign_key": "week_2_session_31",
+      "title": "Mensahe 17 - Pagpapasalamat",
+      "text": "Salamat sa inyo. Mahirap ang ginawa ninyo ngayong araw pero napaka-importante rin. Makakatulong ito para pangasiwaan ninyo ang inyong stress at mabigyan ang inyong anak ng kakayahan upang pangasiwaan ang kanilang stress. Magandang araw!",
+      "guidance": "",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 33
+    },
+    {
+      "id": "message_34",
+      "foreign_key": "week_2_1_reminder",
+      "title": "Mensahe 1 – Pagpapaalala ng Kasanayan",
+      "text": "Hello! Tandaan na ang pabaong gawain para sa linggo na ito ay ang **pakikipag-usap tungkol sa damdamin** sa inyong One-on-One time at maging sa ibang pagkakataon. Ang pakikipag-usap tungkol sa damdamin ay hindi madali sa una – lalo na kung bago ito sa iyo at sa inyong anak– kaya tandaang magpraktis. Good job sa iyong pagsubok!",
+      "guidance": "Ipadala ang mensahe na ito at hikayatin ang mga magulang na magpraktis ng MaPa Skill!",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 34
+    },
+    {
+      "id": "message_35",
+      "foreign_key": "week_2_2_reminder",
+      "title": "Mensahe 1 - Pagtanong sa Feedback",
+      "text": "Hi! Maaaring magbahagi ng isang positibong bagay na nangyari noong nakipag-usap ka sa iyong anak tungkol sa damdamin. Meron bang nakaranas ng hamon habang sinusubukan nila gawin ito? Maaaring maging malikhain! Magpadala ng mga kwento, voice message, at mga picture. Natutuwa akong marinig kung kumusta ang inyong linggo sa ating sunod na pagkikita sa [ITAKDA ANG PETSA DITO].",
+      "guidance": "Tanggapin ang mga ipapadala ng mga magulang sa pagbibigay ng thumbs up, emoji, o mga papuri. Siguraduhing makakakuha ng isa o dalawang mga tagumpay at hamon na maaaring pag-usapan sa simula ng susunod na modyul.\n\nPalitan din ang **[ITAKDA ANG PETSA DITO]** depende sa schedule ng susunod na sesyon.",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 35
+    },
+    {
+      "id": "message_36",
+      "foreign_key": "week_3_session_2",
+      "title": "Unang Araw: Paalala sa Modyul",
+      "text": "",
+      "guidance": "Ipadala ang picture na ito bago ang susunod na mensahe.",
+      "asset_type": "image",
+      "asset": "images/03_masayang_tahanan.jpg",
+      "ignore": 36
+    },
+    {
+      "id": "message_37",
+      "foreign_key": "week_3_session_3",
+      "title": "Unang Araw: Paalala sa Modyul",
+      "text": "Hello! Isang buong linggo na pala ang nakalipas. Ang susunod nating chat session ay [ITAKDA ANG ORAS] mamaya. Pag-uusapan natin kung paano mapapasunod ang anak sa direksyon ng magulang. Onti-onti nang nabubuo ang inyong Masayang Tahanan! Mag-chat tayo!",
+      "guidance": "Palitan ang [ITAKDA ANG ORAS] ng oras ng iyong session, pagkatapos ay ipadala ang mensahe kasama ang larawang ito.",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 37
+    },
+    {
+      "id": "message_38",
+      "foreign_key": "week_3_session_5",
+      "title": "Mensahe 1 – Pagbati",
+      "text": "Welcome sa Modyul 3 ng ating MaPaChat! Mabuti na gumawa kayo ng oras para makasali sa sesyon ngayon. Pag-uusapan natin kung paano matutulungan ang ating anak makasunod sa direksyon. ",
+      "guidance": "Bigyan ng sandali ang mga magulang na magbahagi ng kanilang nararamdaman.",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 38
+    },
+    {
+      "id": "message_39",
+      "foreign_key": "week_3_session_6",
+      "title": "Mensahe 2 – Pangangamusta",
+      "text": "Kamusta po ang lahat? [IYONG EMOSYON] ako ngayon. Maaari po kayong magbahagi ng inyong nararamdaman ngayong araw.",
+      "guidance": "Palitan ang *[IYONG EMOSYON]* na bahagi ng mensahe base sa iyong nararamdaman ngayong araw. Bigyan ng sandali ang mga magulang na magbahagi ng kanilang nararamdaman.",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 39
+    },
+    {
+      "id": "message_40",
+      "foreign_key": "week_3_session_7",
+      "title": "Mensahe 3 – Talakayan Tungkol sa Pabaong Gawain",
+      "text": "Bago natin ipakilala ang susunod na Parenting Tip, pag-usapan muna natin ang inyong pabaong gawain. Kamusta ang pakikipag-usap tungkol sa damdamin habang nag-One-on-One Time?",
+      "guidance": "Tanggapin ang mga karanasan na ibabahagi ng mga magulang. Magbahagi ng isang tagumpay at isang hamon mula sa mga binahagi ng mga magulang.",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 40
+    },
+    {
+      "id": "message_41",
+      "foreign_key": "week_3_session_8",
+      "title": "Mensahe 4 – Pagbabahagi ng Tagumpay",
+      "text": "Maraming salamat sa pagbabahagi! Isa sa mga tagumpay na binahagi ninyo noong nakipag-usap tungkol sa damdamin kasama ang anak ay [ilarawan ang tagumpay]. Mahusay na nagawa ninyo na [iugnay ang tagumpay sa pundasyon]",
+      "guidance": "Palitan ang [ilarawan ang tagumpay] at [iugnay ang tagumpay sa pundasyon] base sa mga sagot ng magulang sa huling mensahe.",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 41
+    },
+    {
+      "id": "message_42",
+      "foreign_key": "week_3_session_9",
+      "title": "Mensahe 5 – Pagbabahagi ng Hamon",
+      "text": "Ngayon naman ay pag-uusapan natin ang isang binahaging hamon tungkol sa [ilarawan ang hamon mula sa feedback modyul].",
+      "guidance": "Palitan ang [ilarawan ang hamon mula sa feedback modyul] base sa mga naibahagi ng mga magulang na hamon.\n\nKung walang nagbahagi ng hamon sa nakaraang linggo, ipadala sa chat ang mga halimbawa ng mga posibleng hamon na nasa susunod na mensahe. Hayaan ang mga magulang na sumagot, at pumili ng isang hamon na maaaring pag-isipan ng buong grupo.",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 42
+    },
+    {
+      "id": "message_43",
+      "foreign_key": "week_3_session_10",
+      "title": "Mensahe 5 – Talakayan tungkol sa Hamon at Mga Solusyon",
+      "text": "Nauunawaan kong mahirap mag-isip ng hamon. Narito ang ilang sa mga halimbawa ng mga hamon sa One-on-One time na ibinahagi ng ibang magulang:\n- Ayaw ng anak ko magbahagi ng kanyang damdamin.\n- Hindi ako komportable pag-usapan ang aking damdamin.\n- Hindi ko alam paano makahanap ng solusyon kasama ang aking anak.\n\nMay mga nakaranas din ba ng mga hamong ito? Mag-react po tayo sa mga hamon na nakalista kapag ito ay naranasan niyo rin!",
+      "guidance": "Maaaring gawing **poll** sa Viber ang mensahe na ito para makapili ang mga magulang ng isang hamon. Hayaan ang mga magulang na sumagot, at pumili ng isang hamon na maaaring pag-isipan ng buong grupo.",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 43
+    },
+    {
+      "id": "message_44",
+      "foreign_key": "week_3_session_11",
+      "title": "Mensahe 6 – Talakayan tungkol sa Hamon at Mga Solusyon",
+      "text": "Maaari ba nating pagtulungan na isipan ng positibong solusyon ang [ilarawan ang hamon]? Ano kaya ang pwedeng gawin ng magulang na nasa sitwasyon na iyon?",
+      "guidance": "Palitan ang [ilarawan ang hamon] base sa tugon ng mga magulang. Himukin ang mga magulang na mag-isip ng mga positibong solusyon. Makikita ang mga halimbawa sa pdf.",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 44
+    },
+    {
+      "id": "message_45",
+      "foreign_key": "week_3_session_12",
+      "title": "Mensahe 7 – Pagpapakilala ng MaPa Skill: Pagbibigay ng Positibong Direksyon",
+      "text": "Maraming salamat sa pagbabahagi! Tuloy na po tayo sa susunod na MaPa Skill. Narito ang tatlong hakbang para matulungan ang anak na mas madalas sumunod sa inyong direksyon.\n1️⃣ **MAGING POSITIBO** - Ngumiti at tingnan sa mata ang iyong anak. Gumamit ng mga positibong salita kapag nagbibigay ng direksyon.\n2️⃣ **MAGING ESPESIPIKO** - Sabihin ang mismong kilos na nais makita sa pinaka-klarong paraan.\n3️⃣ **MAGING MAKATOTOHANAN** - Siguraduhing kaya ng anak gawin ang pinapagawa. Kung kinakailangan, himayin ang malalaking gawain sa mas maliliit at paisa-isang hakbang.",
+      "guidance": "",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 45
+    },
+    {
+      "id": "message_46",
+      "foreign_key": "week_3_session_13",
+      "title": "Mensahe 8 – Komiks tungkol sa Anak na Tinedyer: Pagbibigay ng Positibong Direksyon",
+      "text": "Narito ang komiks na nagpapakita kung paano nagbibigay si Lola Rosario ng espesipikong at **positibong direksyon** sa kanyang apo na tinedyer:",
+      "guidance": "",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 46
+    },
+    {
+      "id": "message_47",
+      "foreign_key": "week_3_session_14",
+      "title": "Mensahe 8 – Komiks tungkol sa Anak na Tinedyer: Pagbibigay ng Positibong Direksyon",
+      "text": "",
+      "guidance": "Ipadala ang unang panel ng komiks.",
+      "asset_type": "image",
+      "asset": "images/comics/03_comics1_panel1.jpg",
+      "ignore": 47
+    },
+    {
+      "id": "message_48",
+      "foreign_key": "week_3_session_15",
+      "title": "Mensahe 8 – Komiks tungkol sa Anak na Tinedyer: Pagbibigay ng Positibong Direksyon",
+      "text": "",
+      "guidance": "Ipadala ang pangalawang panel ng komiks.",
+      "asset_type": "image",
+      "asset": "images/comics/03_comics1_panel2.jpg",
+      "ignore": 48
+    },
+    {
+      "id": "message_49",
+      "foreign_key": "week_3_session_16",
+      "title": "Mensahe 8 – Komiks tungkol sa Anak na Tinedyer: Pagbibigay ng Positibong Direksyon",
+      "text": "",
+      "guidance": "Ipadala ang pangatlong panel ng komiks.",
+      "asset_type": "image",
+      "asset": "images/comics/03_comics1_panel3.jpg",
+      "ignore": 49
+    },
+    {
+      "id": "message_50",
+      "foreign_key": "week_3_session_17",
+      "title": "Mensahe 8 – Komiks tungkol sa Anak na Tinedyer: Pagbibigay ng Positibong Direksyon",
+      "text": "",
+      "guidance": "Ipadala ang pang-apat na panel ng komiks.",
+      "asset_type": "image",
+      "asset": "images/comics/03_comics1_panel4.jpg",
+      "ignore": 50
+    },
+    {
+      "id": "message_51",
+      "foreign_key": "week_3_session_18",
+      "title": "Mensahe 9 — Talakayan tungkol sa Komiks",
+      "text": "Bakit kaya sinunod ni Cristina ang direksyon ni Lola na sumayaw sa labas nang bahay habang naglilinis siya?",
+      "guidance": "Bigyan ang mga magulang ng pagkakataong magbahagi ng kanilang mga ideya.",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 51
+    },
+    {
+      "id": "message_52",
+      "foreign_key": "week_3_session_19",
+      "title": "Mensahe 10 — Talakayan tungkol sa Komiks: Isipin ang Edad ng Anak",
+      "text": "Paano kaya magbabago ang sitwasyon kapag bata naman ang binibigyan ng direksyon?",
+      "guidance": "Bigyan ang mga magulang ng pagkakataong magbahagi ng kanilang mga ideya.",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 52
+    },
+    {
+      "id": "message_53",
+      "foreign_key": "week_3_session_20",
+      "title": "Mensahe 11 — Pagpapakilala ng Pundasyon: Paggamit ng Papuri",
+      "text": "Maaaring napansin ninyo na gumamit si Lola Rosario ng papuri kay Cristina dahil nasunod niya ang direksyon. Nakakatulong rin ang paggamit ng papuri sa positibong relasyon ng magulang at anak. Heto ang tatlong hakbang para sa paggamit ng papuri sa anak:\n1️⃣**​​PANSININ** - Pansinin ang mga maayos o magandang kilos ng iyong anak at purihin agad sila. \n2️⃣ **SABIHIN** - Maging magiliw at espesipiko sa pagsasabi ng papuri!\n3️⃣ **ULITIN** - Maghanap ng mga bagay na pupurihin sa iyong mga anak sa araw-araw. ",
+      "guidance": "",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 53
+    },
+    {
+      "id": "message_54",
+      "foreign_key": "week_3_session_21",
+      "title": "Mensahe 12 — Komiks tungkol sa Batang Anak at Tinedyer: Paggamit ng Papuri",
+      "text": "Narito ang komiks tungkol sa magulang na nagbibigay ng **papuri** sa kanyang mga anak:",
+      "guidance": "",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 54
+    },
+    {
+      "id": "message_55",
+      "foreign_key": "week_3_session_22",
+      "title": "Mensahe 12 — Komiks tungkol sa Batang Anak at Tinedyer: Paggamit ng Papuri",
+      "text": "",
+      "guidance": "Ipadala ang unang panel ng komiks.",
+      "asset_type": "image",
+      "asset": "images/comics/03_comics2_panel1.png",
+      "ignore": 55
+    },
+    {
+      "id": "message_56",
+      "foreign_key": "week_3_session_23",
+      "title": "Mensahe 12 — Komiks tungkol sa Batang Anak at Tinedyer: Paggamit ng Papuri",
+      "text": "",
+      "guidance": "Ipadala ang pangalawang panel ng komiks.",
+      "asset_type": "image",
+      "asset": "images/comics/03_comics2_panel2.png",
+      "ignore": 56
+    },
+    {
+      "id": "message_57",
+      "foreign_key": "week_3_session_24",
+      "title": "Mensahe 12 — Komiks tungkol sa Batang Anak at Tinedyer: Paggamit ng Papuri",
+      "text": "",
+      "guidance": "Ipadala ang pangatlong panel ng komiks.",
+      "asset_type": "image",
+      "asset": "images/comics/03_comics2_panel3.png",
+      "ignore": 57
+    },
+    {
+      "id": "message_58",
+      "foreign_key": "week_3_session_25",
+      "title": "Mensahe 13 — Talakayan tungkol sa Komiks",
+      "text": "Pag-usapan natin ang komiks! Anong nakatulong na paraan sa pagpuri ni Nanay sa kanyang mga anak? ",
+      "guidance": "Bigyan ang mga magulang ng pagkakataon para sagutin ang unang tanong bago pumunta sa susunod na tanong.",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 58
+    },
+    {
+      "id": "message_59",
+      "foreign_key": "week_3_session_26",
+      "title": "Mensahe 13 — Talakayan tungkol sa Komiks",
+      "text": "Anu-ano ang mga kilos na pinuri ni Nanay?",
+      "guidance": "Bigyan ang mga magulang ng pagkakataon para sagutin ang tanong bago pumunta sa susunod na tanong.",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 59
+    },
+    {
+      "id": "message_60",
+      "foreign_key": "week_3_session_27",
+      "title": "Mensahe 13 — Talakayan tungkol sa Komiks",
+      "text": "Bakit ito importante sa kanya?",
+      "guidance": "Bigyan ang mga magulang ng pagkakataon para sagutin ang tanong.",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 60
+    },
+    {
+      "id": "message_61",
+      "foreign_key": "week_3_session_28",
+      "title": "Mensahe 14 — Talakayan tungkol sa Komiks: Isipin ang Edad ng Anak",
+      "text": "Paano mag-iiba ang iyong paggamit ng papuri sa mga anak na iba-iba ang edad?",
+      "guidance": "Bigyan ng pagkakataon ang mga magulang na sumagot.",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 61
+    },
+    {
+      "id": "message_62",
+      "foreign_key": "week_3_session_29",
+      "title": "Mensahe 15 — Talakayan tungkol sa mga Rason sa Pagbibigay ng Positibong Direksyon at Paggamit ng Papuri",
+      "text": "Bakit makakatulong sa iyo at iyong anak ang pagbibigay ng positibong direksyon at paggamit ng papuri?",
+      "guidance": "Bigyan ang mga magulang ng pagkakataong magbahagi ng kanilang ng mga ideya.",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 62
+    },
+    {
+      "id": "message_63",
+      "foreign_key": "week_3_session_30",
+      "title": "Mensahe 16 — Pagtakda ng Home Activity o Pabaong Gawain",
+      "text": "Ang home activity o pabaong gawain ngayong linggo ay ipagpatuloy ang mag-One-on-One Time kasama ang iyong anak at ibahagi ang iyong damdamin. Subukan maging positibo, espesipiko, at makatotohanan kapag nagbibigay ng direksyon. Purihin sila pagkatapos masunod nila ito! Pwede ninyo rin subukan purihin ang sarili ninyo at ang ibang mga tao sa bahay.",
+      "guidance": "",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 63
+    },
+    {
+      "id": "message_64",
+      "foreign_key": "week_3_session_31",
+      "title": "Mensahe 17 — Magbahagi ng Isang Bagay na Maaaring Purihin",
+      "text": "Subukan nating magbahagi ng isang bagay na gusto natin sa ating mga anak. Tandaan na maging positibo at espesipiko. Narito ang isang halimbawa: Natutuwa ako kapag tumutulong sa paglilipit ng kinainan ang aking tinedyer na anak. May iba pang ideya ang grupo? Ano ang ginagawa ng inyong mga anak na nakapagpapasaya o kapuri-puri o gusto ninyong gawin nila nang mas madalas?",
+      "guidance": "Magbigay ng ilang minuto para makapag-isip ang mga magulang. Himukin ang mga magulang na mag-isip nang positibo at espesipikong kilos na gusto nilang mas maulit.",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 64
+    },
+    {
+      "id": "message_65",
+      "foreign_key": "week_3_session_32",
+      "title": "Mensahe 18 – Paglilinaw",
+      "text": "May tanong tungkol sa Pagibigay ng Positibong Direksyon at Paggamit ng Papuri?",
+      "guidance": "Magbigay ng ilang minuto para makapagtanong ang mga magulang. Alalahaning magpasalamat sa mga magulang sa kanilang mga katanungan. Bago mo ibigay ang iyong sariling sagot, bigyan ang grupo ng pagkakataong pag-isipan ito at sumagot sa pamamagitan ng pagsabi “Magandang tanong iyan! Ano po sa tingin ng iba ang pwedeng isagot o solusyon diyan?”",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 65
+    },
+    {
+      "id": "message_66",
+      "foreign_key": "week_3_session_33",
+      "title": "Mensahe 19 – Video: Pagpapaalala ng MaPa Skill",
+      "text": "Narito ang isang maikling video tungkol sa ating ikatlong MaPa Skill kung sakaling kakailanganin ninyo ng paalala ng mga pundasyon: \n1. Maging makatotohanan\n2. Maging positibo\n3. Maging espesipiko\n4. …at gumamit ng papuri!",
+      "guidance": "",
+      "asset_type": "youtube",
+      "asset": "https://www.youtube.com/watch?v=9NlGReXaAuM",
+      "ignore": 66
+    },
+    {
+      "id": "message_67",
+      "foreign_key": "week_3_session_34",
+      "title": "Mensahe 20 – Video: Tumigil nang Sandali",
+      "text": "Bago natin tapusin ang modyul ngayong araw, gagawin natin ang Tumigil nang Sandali. Tandaan na pwede po ninyong gawin din ito kapag kayo ay nakakaramdam ng stress.",
+      "guidance": "Ipadala ang Video message ng Pagtigil nang Sandali.",
+      "asset_type": "youtube",
+      "asset": "https://www.youtube.com/watch?v=BqYrYgJ3iKY",
+      "ignore": 67
+    },
+    {
+      "id": "message_68",
+      "foreign_key": "week_3_session_35",
+      "title": "Mensahe 21 – Pagpapasalamat",
+      "text": "Maraming salamat sa inyong pagpupursigi bilang magulang. Ang pagsali ninyo sa ating mga MaPaChat session ay patunay na gusto ninyong mapaganda ang buhay ng inyong mga anak. Karapat-dapat itong purihin sa pagtatapos ng modyul na ito. Mahusay!",
+      "guidance": "",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 68
+    },
+    {
+      "id": "message_69",
+      "foreign_key": "week_3_1_reminder",
+      "title": "Mensahe 1 – Pagtanong sa Feedback",
+      "text": "Hi! Maaaring magbahagi ng isang positibong bagay na nangyari ngayong linggo noong kayo ay nagbigay ng positibong direksyon at gumamit ng papuri. Meron bang nakaranas ng hamon habang sinusubukan nilang gawin ito? Maaaring maging malikhain! Magpadala ng mga kwento, voice message, at mga picture.",
+      "guidance": "Tanggapin ang mga ipapadala ng mga magulang sa pagbibigay ng thumbs up, emoji, o mga papuri. Siguraduhing makakakuha ng isa o dalawang mga tagumpay at hamon na maaaring pag-usapan sa simula ng susunod na modyul.",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 69
+    },
+    {
+      "id": "message_70",
+      "foreign_key": "week_3_2_reminder",
+      "title": "Mensahe 2 – Paalala para sa Susunod na Sesyon",
+      "text": "Kahit na mahirap magbahagi ng mga nararanasan na hamon, mas marami tayong natututunan dito. Makakatulong ang malaman na hindi tayo nag-iisa sa ganitong paghihirap. Excited ako kayong makita sa susunod nating sesyon sa [ITAKDA ANG PETSA DITO].",
+      "guidance": "Palitan ang [ITAKDA ANG PETSA DITO] base sa inyong schedule ng susunod na sesyon.",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 70
+    },
+    {
+      "id": "message_71",
+      "foreign_key": "week_4_session_2",
+      "title": "Unang Araw: Paalala sa Modyul",
+      "text": "",
+      "guidance": "Ipadala ang picture na ito bago ang susunod na mensahe.",
+      "asset_type": "image",
+      "asset": "images/04_masayang_tahanan.jpg",
+      "ignore": 71
+    },
+    {
+      "id": "message_72",
+      "foreign_key": "week_4_session_3",
+      "title": "Unang Araw: Paalala sa Modyul",
+      "text": "Magandang araw! Malapit na naman tayong mag-usap-usap muli! Ang ating susunod na chat session ay mamaya ng [ITAKDA ANG ORAS]. Ngayon, sisimulan nating itaguyod ang huling parte ng dingding ng ating Masayang Tahanan— matututo tayo tungkol sa pagtatag ng patakaran at regular na gawain kasama ang ating mga anak. Mag-chat tayo!",
+      "guidance": "Palitan ang [ITAKDA ANG ORAS] ng oras ng iyong session. Siguraduhing naipadala na ang larawan ng Masayang Tahanan bago ang mensaheng ito.",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 72
+    },
+    {
+      "id": "message_73",
+      "foreign_key": "week_4_session_5",
+      "title": "Mensahe 1 – Pagbati",
+      "text": "Welcome sa Modyul 4 ng ating MaPaChat! Parang kailan lang at ngayon ay lagpas na tayo sa kalagitnaan ng programa! Nakakatuwa ang pagpapatuloy ninyo sa programa. Ngayong araw, magcha-chat tayo tungkol sa pagpapanatili na ligtas ang ating anak sa pamamagitan ng pagtatag ng patakaran at regular na gawain sa tahanan.",
+      "guidance": "",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 73
+    },
+    {
+      "id": "message_74",
+      "foreign_key": "week_4_session_6",
+      "title": "Mensahe 2 – Pangangamusta",
+      "text": "Kamusta po kayo? Ilarawan natin ang ating mga nararamdaman ngayong araw, anong parte ng katawan ating nararamdaman ito, at ano ang ating mga naiisip na may kaugnay sa ating nararamdaman.",
+      "guidance": "Bigyan ng oras ang mga magulang na magbahagi ng kanilang nararamdaman. Ibahagi rin ang iyong nararamdaman. Halimbawa, “Masayang akong maging parte ng chat na session ngayong araw at nararamdaman ko ito sa aking dibdib.”",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 74
+    },
+    {
+      "id": "message_75",
+      "foreign_key": "week_4_session_7",
+      "title": "Mensahe 3 – Talakayan Tungkol sa Pabaong Gawain",
+      "text": "Kamusta ang inyong home activity o pabaong gawain noong nakaraang linggo? Ang inyong pabaong gawain ay ang pagbibigay ng espesipiko, praktikal, at positibong direksyon at ang pagpuri ng inyong mga anak pag sumunod sila sa positibong direksyon.",
+      "guidance": "Tanggapin ang mga karanasan na ibabahagi ng mga magulang. Magbahagi ng isang tagumpay at isang hamon mula sa mga binahagi ng mga magulang.",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 75
+    },
+    {
+      "id": "message_76",
+      "foreign_key": "week_4_session_8",
+      "title": "Mensahe 4 – Pagbabahagi ng Tagumpay",
+      "text": "Isa sa mga tagumpay na binahagi ninyo noong nagbibigay kayo ng positibong direksyon/papuri ay [ilarawan ang tagumpay]. Mahusay na nagawa ninyo na [iugnay ang tagumpay sa pundasyon].",
+      "guidance": "Palitan ang [ilarawan ang tagumpay] at [iugnay ang tagumpay sa pundasyon] base sa mga sagot ng magulang sa huling mensahe.",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 76
+    },
+    {
+      "id": "message_77",
+      "foreign_key": "week_4_session_9",
+      "title": "Mensahe 5 – Pagbabahagi ng Hamon",
+      "text": "Ngayon naman ay pag-uusapan natin ang isang binahaging hamon tungkol sa [ilarawan ang hamon mula sa feedback modyul].",
+      "guidance": "Palitan ang *[ilarawan ang hamon mula sa feedback modyul]* base sa mga naibahagi ng mga magulang na hamon.\n\nKung walang nagbahagi ng hamon sa nakaraang linggo, ipadala sa chat ang mga halimbawa ng mga posibleng hamon na nasa susunod na mensahe. Hayaan ang mga magulang na sumagot, at pumili ng isang hamon na maaaring pag-isipan ng buong grupo.",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 77
+    },
+    {
+      "id": "message_78",
+      "foreign_key": "week_4_session_10",
+      "title": "Mensahe 5 – Pagbabahagi ng Hamon",
+      "text": "Nauunawaan kong mahirap mag-isip ng hamon. Heto ang ilang halimbawa ng mga hamon mula sa ilang mga magulang tungkol sa positibong direksyon at papuri:\n \nHindi sumunod ang anak ko kahit na sinunod ko ang mga pundasyon\nNasigawan ko ang anak ko noong hindi maganda ang kanyang kilos imbes na magbigay ako ng positibong direksyon\nNakalimutan kong purihin ang anak ko.\nNahirapan akong maalala ang mga positibong salita kapag nagbibigay ng direksyon.\nNakakahiyang purihin ang anak ko.\n\nMay mga nakaranas din ba ng mga hamong ito? Mag-react po tayo sa mga hamon na nakalista kapag ito ay naranasan niyo rin!",
+      "guidance": "Maaaring gawing **poll** sa Viber ang mensahe na ito para makapili ang mga magulang ng isang hamon. Hayaan ang mga magulang na sumagot, at pumili ng isang hamon na maaaring pag-isipan ng buong grupo.",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 78
+    },
+    {
+      "id": "message_79",
+      "foreign_key": "week_4_session_11",
+      "title": "Mensahe 6 – Talakayan tungkol sa Hamon at mga Solusyon",
+      "text": "Maaari ba nating pagtulungan na isipan ng positibong solusyon ang [ilarawan ang hamon]? Ano kaya ang pwedeng gawin ng magulang na nasa sitwasyon na iyon?",
+      "guidance": "Palitan ang [ilarawan ang hamon] base sa tugon ng mga magulang. Himukin ang mga magulang na mag-isip ng mga positibong solusyon. Makikita ang mga halimbawa sa pdf.",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 79
+    },
+    {
+      "id": "message_80",
+      "foreign_key": "week_4_session_12",
+      "title": "Mensahe 7 – Pagpapakilala ng MaPa Skill: Patakaran at Regular na Gawain",
+      "text": "Maraming salamat sa pagbabahagi ninyo! Ngayon, pag-uusapan natin ang MaPa Skill ngayong araw. Heto ang apat na hakbang para matulungan ang inyong mga anak na sumunod sa mga patakaran at regular na gawain:\n\n1️⃣ **MAGING ISANG GRUPO** - Isama ang iyong batang anak o tinedyer sa pagtatag ng mga patakaran.\n\n\n2️⃣ **MAGING MAKATOTOHANAN** - Gumawa ng patakaran base sa kung ano ang kayang gawin ng batang anak at tinedyer. Maging klaro at espesipiko para alam nila ang kilos na inaasahan mula sa kanila.\n\n\n3️⃣ **GAWIN ITO PALAGI** - Ang regular na gawain ay nakatutulong sa ating anak para makaramdam ng kapanatagan at pagiging ligtas.\n\n\n4️⃣ **GUMAMIT NG PAPURI** - Purihin ang iyong batang anak o tinedyer sa paggawa ng patakaran kasama mo. Purihin din siya kapag nasunod niya ito!",
+      "guidance": "",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 80
+    },
+    {
+      "id": "message_81",
+      "foreign_key": "week_4_session_13",
+      "title": "Mensahe 8 – Komiks tungkol sa Anak na Tinedyer: Pagtatag ng Patakaran kasama ang Iyong Tinedyer",
+      "text": "Narito ang komiks na nagpapakita kung paano gumawa ng patakaran sina Tatay Jose at ang anak niyang tinedyer na si Pablo tungkol sa paggamit ng selpon.",
+      "guidance": "",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 81
+    },
+    {
+      "id": "message_82",
+      "foreign_key": "week_4_session_14",
+      "title": "Mensahe 8 – Komiks tungkol sa Anak na Tinedyer: Pagtatag ng Patakaran kasama ang Iyong Tinedyer",
+      "text": "",
+      "guidance": "Ipadala ang unang panel ng komiks.",
+      "asset_type": "image",
+      "asset": "images/comics/04_comics1_panel1.jpg",
+      "ignore": 82
+    },
+    {
+      "id": "message_83",
+      "foreign_key": "week_4_session_15",
+      "title": "Mensahe 8 – Komiks tungkol sa Anak na Tinedyer: Pagtatag ng Patakaran kasama ang Iyong Tinedyer",
+      "text": "",
+      "guidance": "Ipadala ang pangalawang panel ng komiks.",
+      "asset_type": "image",
+      "asset": "images/comics/04_comics1_panel2.jpg",
+      "ignore": 83
+    },
+    {
+      "id": "message_84",
+      "foreign_key": "week_4_session_16",
+      "title": "Mensahe 8 – Komiks tungkol sa Anak na Tinedyer: Pagtatag ng Patakaran kasama ang Iyong Tinedyer",
+      "text": "",
+      "guidance": "Ipadala ang pangatlong panel ng komiks.",
+      "asset_type": "image",
+      "asset": "images/comics/04_comics1_panel3.jpg",
+      "ignore": 84
+    },
+    {
+      "id": "message_85",
+      "foreign_key": "week_4_session_17",
+      "title": "Mensahe 8 – Komiks tungkol sa Anak na Tinedyer: Pagtatag ng Patakaran kasama ang Iyong Tinedyer",
+      "text": "",
+      "guidance": "Ipadala ang pang-apat na panel ng komiks.",
+      "asset_type": "image",
+      "asset": "images/comics/04_comics1_panel4.jpg",
+      "ignore": 85
+    },
+    {
+      "id": "message_86",
+      "foreign_key": "week_4_session_18",
+      "title": "Mensahe 9 — Talakayan tungkol sa Komiks",
+      "text": "Mag-chat po tayo tungkol dito. Ano po ang nagustuhan ninyo sa paraan ni Tatay Jose sa pagtatag ng patakaran kasama si Pablo?",
+      "guidance": "Bigyan ang mga magulang ng oras para makasagot bago pumunta sa sunod na komiks.\n",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 86
+    },
+    {
+      "id": "message_87",
+      "foreign_key": "week_4_session_19",
+      "title": "Mensahe 10 – Talakayan tungkol sa Komiks: Isipin ang Edad ng Anak",
+      "text": "Paano kayo magtatakda ng patakaran kung ang inyong mga anak ay iba-iba ng edad?",
+      "guidance": "Bigyan ang mga magulang ng pagkakataong magbahagi ng kanilang mga ideya.",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 87
+    },
+    {
+      "id": "message_88",
+      "foreign_key": "week_4_session_20",
+      "title": "Mensahe 11 – Paglilista ng mga Posibleng Patakaran sa Tahanan",
+      "text": "Anu-ano ang mga patakaran sa tahanan na posibleng maitatag ninyo kasama ang inyong batang anak o tinedyer? Ilista natin sila sa chat. Tandaan na gawing positibo ang pagsasabi ng mga patakaran, halimbawa, “Kailangan nakauwi na ang anak nang alas-7 ng gabi.”",
+      "guidance": "Hayaan ang mga magulang na mag-isip ng patakaran para sa kanilang anak. Siguruhing ang mga patakarang ito ay makatotohanan base sa edad at kakayahan ng kanilang anak. Maaaring tulungan ang mga magulang na gawing positibo ang patakaran kapag negatibo ang pagkakasaad nito (halimbawa, “Maghuhugas ng kamay bago kumain” imbes na “Kakain ng hindi madumi ang kamay.”)",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 88
+    },
+    {
+      "id": "message_89",
+      "foreign_key": "week_4_session_21",
+      "title": "Mensahe 12 – Komiks tungkol sa Batang Anak: Paggawa ng Regular na Gawain kasama ang Batang Anak",
+      "text": "Ngayon, tingnan natin ang komiks tungkol sa isang pamilyang gumagawa ng mga regular na gawain nang magkakasama araw-araw.",
+      "guidance": "",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 89
+    },
+    {
+      "id": "message_90",
+      "foreign_key": "week_4_session_22",
+      "title": "Mensahe 12 – Komiks tungkol sa Batang Anak: Paggawa ng Regular na Gawain kasama ang Batang Anak",
+      "text": "",
+      "guidance": "Ipadala ang unang panel ng komiks.",
+      "asset_type": "image",
+      "asset": "images/comics/04_comics2_panel1.jpg",
+      "ignore": 90
+    },
+    {
+      "id": "message_91",
+      "foreign_key": "week_4_session_23",
+      "title": "Mensahe 12 – Komiks tungkol sa Batang Anak: Paggawa ng Regular na Gawain kasama ang Batang Anak",
+      "text": "",
+      "guidance": "Ipadala ang pangalawang panel ng komiks.",
+      "asset_type": "image",
+      "asset": "images/comics/04_comics2_panel2.jpg",
+      "ignore": 91
+    },
+    {
+      "id": "message_92",
+      "foreign_key": "week_4_session_24",
+      "title": "Mensahe 12 – Komiks tungkol sa Batang Anak: Paggawa ng Regular na Gawain kasama ang Batang Anak",
+      "text": "",
+      "guidance": "Ipadala ang pangatlong panel ng komiks.",
+      "asset_type": "image",
+      "asset": "images/comics/04_comics2_panel3.jpg",
+      "ignore": 92
+    },
+    {
+      "id": "message_93",
+      "foreign_key": "week_4_session_25",
+      "title": "Mensahe 12 – Komiks tungkol sa Batang Anak: Paggawa ng Regular na Gawain kasama ang Batang Anak",
+      "text": "",
+      "guidance": "Ipadala ang pang-apat na panel ng komiks.",
+      "asset_type": "image",
+      "asset": "images/comics/04_comics2_panel4.jpg",
+      "ignore": 93
+    },
+    {
+      "id": "message_94",
+      "foreign_key": "week_4_session_26",
+      "title": "Mensahe 12 – Komiks tungkol sa Batang Anak: Paggawa ng Regular na Gawain kasama ang Batang Anak",
+      "text": "",
+      "guidance": "Ipadala ang panglimang panel ng komiks.",
+      "asset_type": "image",
+      "asset": "images/comics/04_comics2_panel5.jpg",
+      "ignore": 94
+    },
+    {
+      "id": "message_95",
+      "foreign_key": "week_4_session_27",
+      "title": "Mensahe 13 – Talakayan tungkol sa Komiks",
+      "text": "Ano ang nagustuhan ninyo sa pamamaraan ni Nanay sa paggawa ng mga routine o regular na gawain kasama ang kanyang anak?",
+      "guidance": "Bigyan ang mga magulang ng pagkakataon para sagutin ang unang tanong bago pumunta sa susunod na tanong",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 95
+    },
+    {
+      "id": "message_96",
+      "foreign_key": "week_4_session_28",
+      "title": "Mensahe 13 – Talakayan tungkol sa Komiks",
+      "text": "Paano naman sa huling komiks na nagpakita na may sariling routine ang mga magulang? Ano ang masasabi ninyo rito? Bakit kaya mahalaga rin ito?",
+      "guidance": "",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 96
+    },
+    {
+      "id": "message_97",
+      "foreign_key": "week_4_session_29",
+      "title": "Mensahe 14 – Paglilista ng mga Posibleng Regular na Gawain sa Tahanan",
+      "text": "Ngayon naman, magbahagi tayo ng mga posibleng regular na gawain na pwede nating gawin kasama ang ating anak. Sino ang gustong magsimula?",
+      "guidance": "Bigyan ang mga magulang ng pagkakataong maglahad ng sarili nilang regular na gawain. Purihin sila sa kanilang suhistiyon. Siguruhing ang mga regular na gawain na ito ay makatotohanan base sa edad at kakayanan ng kanilang anak.",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 97
+    },
+    {
+      "id": "message_98",
+      "foreign_key": "week_4_session_30",
+      "title": "Message 15 – Talakayan tungkol sa mga Rason sa Pagtatatag ng mga Patakaran at Regular na Gawain kasama ang Anak",
+      "text": "Bakit makakatulong na isama ang mga batang anak sa pagtatag ng mga patakaran at regular na gawain?",
+      "guidance": "Bigyan ang mga magulang ng pagkakataong magbahagi ng kanilang mga ideya.",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 98
+    },
+    {
+      "id": "message_99",
+      "foreign_key": "week_4_session_31",
+      "title": "Mensahe 16 – Pagtakda ng Home Activity o Pabaong Gawain",
+      "text": "Salamat sa nakakatuwang usapan! Ang pabaong gawain po natin ngayong linggo ay ang pagpapatuloy ng One-on-One Time kasama ang ating anak. Gagawa rin po tayo ng isang patakaran sa tahanan at isang regular na gawain o routine kasama ang ating anak. Tandaan na isama po sila sa pag-uusap kung bakit mahalaga ang mga patakaran at sa pagtatakda mismo nito.",
+      "guidance": "",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 99
+    },
+    {
+      "id": "message_100",
+      "foreign_key": "week_4_session_32",
+      "title": "Mensahe 17 – Paglilinaw",
+      "text": "May iba pa ba kayong tanong sa pagtatag ng patakaran at regular na gawain bago tayo magtapos?",
+      "guidance": "Magbigay ng ilang minuto para makapagtanong ang mga magulang. Alalahaning magpasalamat sa mga magulang sa kanilang mga katanungan. Bago mo ibigay ang iyong sariling sagot, bigyan ang grupo ng pagkakataong pag-isipan ito at sumagot sa pamamagitan ng pagsabi “Magandang tanong iyan! Ano po sa tingin ng iba ang pwedeng isagot o solusyon diyan?”",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 100
+    },
+    {
+      "id": "message_101",
+      "foreign_key": "week_4_session_33",
+      "title": "Mensahe 18 – Video: Pagpapaalala ng MaPa Skill",
+      "text": "Narito ang isang maikling video tungkol sa ating MaPa Skill. Pwede ninyong panuorin uli ang video mamaya kung kailangan ninyong maalala ang apat na hakbang:\n1️⃣ Maging Isang Grupo\n2️⃣ Maging Makatotohanan\n3️⃣ Gawin ito Palagi\n4️⃣ Gumamit ng Papuri",
+      "guidance": "Isend ang video kasama ang mensahe na ito.",
+      "asset_type": "youtube",
+      "asset": "https://www.youtube.com/watch?v=goJhi-HZuFc",
+      "ignore": 101
+    },
+    {
+      "id": "message_102",
+      "foreign_key": "week_4_session_34",
+      "title": "Mensahe 19 – Video: Tumigil nang Sandali",
+      "text": "Bago natin tapusin ang chat session ngayong araw, gagawin natin ang Tumigil nang Sandali. Tandaan na pwede po ninyong gawin din ito kapag kayo ay nakakaramdam ng stress.",
+      "guidance": "Ipadala ang Video message ng Pagtigil nang Sandali.",
+      "asset_type": "youtube",
+      "asset": "https://www.youtube.com/watch?v=BqYrYgJ3iKY",
+      "ignore": 102
+    },
+    {
+      "id": "message_103",
+      "foreign_key": "week_4_session_35",
+      "title": "Mensahe 20 – Pagpapasalamat",
+      "text": "Maraming salamat sa isang napakagandang chat session. Umaasa ako na ang mga patakaran at regular na gawain na gagamitin ninyo ay makakatulong para mas mapamahalaan ang inyong pamilya. Sana’y magkaroon kayo ng isang mapayapa at masayang araw!",
+      "guidance": "",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 103
+    },
+    {
+      "id": "message_104",
+      "foreign_key": "week_4_1_reminder",
+      "title": "Mensahe 1 – Pagpapaalala ng Kasanayan",
+      "text": "Magandang araw! Isama ang mga anak at iba pang kapamilya sa bahay kapag nagtatatag ng bagong patakaran at mga regular na gawain. Sa kalaunan, magiging normal na parte na rin siya ng pang-araw-araw na pamumuhay.\n\nGamitin ang inyong mga natutunan! Gumamit ng klarong direction at purihin ang mga anak sa pagsunod ng mga patakaran at mga regular na gawain! Salamat.",
+      "guidance": "Ipadala ang mensahe na ito at hikayatin ang mga magulang na magpraktis ng MaPa Skill!",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 104
+    },
+    {
+      "id": "message_105",
+      "foreign_key": "week_4_2_reminder",
+      "title": "Mensahe 1 – Pagtanong sa Feedback",
+      "text": "Maaaring magbahagi ng isang positibong bagay na nangyari ngayong linggo habang nagtatatag ng patakaran at regular na gawain kasama ang inyong batang anak o tinedyer. Anu-ano ang inyong mga naging karanasan? May mga nakaranas ba ng hamon? Maaaring maging malikhain! Magpadala ng mga kwento, voice message, at mga picture. Excited ako kayong makita sa [ITAKDA ANG PETSA DITO].",
+      "guidance": "Tanggapin ang mga ipapadala ng mga magulang sa pagbibigay ng thumbs up, emoji, o mga papuri. Siguraduhing makakakuha ng isa o dalawang mga tagumpay at hamon na maaaring pag-usapan sa simula ng susunod na modyul.\n\nPalitan din ang [ITAKDA ANG PETSA DITO] depende sa schedule ng susunod na sesyon.",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 105
+    },
+    {
+      "id": "message_106",
+      "foreign_key": "week_5_session_2",
+      "title": "Reminder Para sa Sesyon",
+      "text": "Magandang araw! Paalala lamang na ang ating Module 5 ng MaPa Chat Hybrid Program ay magsisimula na mamayang [ORAS] sa [VENUE]. Excited na kaming makasama kayo! Kita kits!",
+      "guidance": "Palitan ang [ORAS] at [VENUE] ng iyong sesyon bago ipadala ang mensahe.",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 106
+    },
+    {
+      "id": "message_107",
+      "foreign_key": "week_5_session_9",
+      "title": "Mensahe 1 - Pasasalamat sa Kalahok at Pagpapaalala na Magpraktis",
+      "text": "Hello! Salamat sa pagdalo sa ating sesyon! Tandaan, ang ating pabaong gawain ngayong linggo ay ang pagpapatuloy ng One-on-One Time kasama ang ating anak. Mag-isip ng isang kilos na pwedeng gamitan ng konsekwensya. Pwede ring ang kilos na maisip ninyo ay ang mga kilos na ating napag-usapan sa group sesyon ngayong araw.",
+      "guidance": "",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 107
+    },
+    {
+      "id": "message_108",
+      "foreign_key": "week_5_1_reminder",
+      "title": "Mensahe 1 – Pagpapaalala ng Kasanayan",
+      "text": "Magandang araw! Tandaan na ang mga bagong paraan ng pagdidisiplina ay nangangailangan ng praktis! Subukan munang ibaling ang atensyon ng anak sa positibong kilos bago pa man lumala ang sitwasyon. Kapag nakalimutan ng anak ang patakaran o kapag ayaw niyang sumunod sa direksyon, maaaring gumamit ng makatarungan at makatotohanan na konsekwensya.",
+      "guidance": "",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 108
+    },
+    {
+      "id": "message_109",
+      "foreign_key": "week_5_1_reminder_2",
+      "title": "Mensahe 2 – Pagpapaalala na Maging Positibo",
+      "text": "Importante na manatiling positibo! Ipagpatuloy ang quality time kasama ng inyong mga anak, gumamit ng positibong direksyon, at purihin sila kung positibo ang kanilang mga kilos. Kapag mas nakakatanggap sila ng positibong atensyon mula sa inyo, mas mababawasan ang mga pagkakataon na kailangan silang idisiplina.",
+      "guidance": "",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 109
+    },
+    {
+      "id": "message_110",
+      "foreign_key": "week_5_1_reminder_3",
+      "title": "Mensahe 3 – Pag-isipan kung Sino ang Pwedeng Bagong Administrator",
+      "text": "Habang iniisip natin ang hinaharap, mayroon bang nag-iisip na maging admin ng ating chat? Maaari kayong mag-DM kung kayo ay interesado! Maraming salamat.",
+      "guidance": "",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 110
+    },
+    {
+      "id": "message_111",
+      "foreign_key": "week_5_2_reminder",
+      "title": "Mensahe 1 – Pagtanong sa Feedback",
+      "text": "Maaaring magbahagi ng isang positibong bagay na nangyari ngayong linggo habang sinusubukang ibaling ang atensyon ng anak tungo sa positibong kilos. May makaranas ba ng hamon dito o hamon sa pagbibigay ng konsekwensya? Excited akong marinig ang inyong mga kwento kapag nagkita tayo sa [ITAKDA ANG PETSA DITO].",
+      "guidance": "Tanggapin ang mga ipapadala ng mga magulang sa pagbibigay ng thumbs up, emoji, o mga papuri. Siguraduhing makakakuha ng isa o dalawang mga tagumpay at hamon na maaaring pag-usapan sa simula ng susunod na modyul. Palitan ang *[ITAKDA ANG PETSA DITO]* bago isend ang mensahe.",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 111
+    },
+    {
+      "id": "message_112",
+      "foreign_key": "week_6_session_2",
+      "title": "Unang Araw: Paalala sa Modyul",
+      "text": "",
+      "guidance": "Ipadala ang picture na ito bago ang susunod na mensahe.",
+      "asset_type": "image",
+      "asset": "images/06_masayang_tahanan.jpg",
+      "ignore": 112
+    },
+    {
+      "id": "message_113",
+      "foreign_key": "week_6_session_3",
+      "title": "Unang Araw: Paalala sa Modyul",
+      "text": "Hello! Excited ako kayong maka-chat mamaya sa [TAKDANG ORAS]. Matututunan natin ang pagtugon sa mga mahihirap na isyu at problema— ito ang magiging bakod na nakapalibot sa ating Masayang Tahanan.",
+      "guidance": "Palitan ang [TAKDANG ORAS] ng oras ng iyong session. Siguraduhing naipadala na ang larawan ng Masayang Tahanan bago ang mensaheng ito.",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 113
+    },
+    {
+      "id": "message_114",
+      "foreign_key": "week_6_session_5",
+      "title": "Mensahe 1 – Pagbati at Pangangamusta",
+      "text": "Welcome sa isa na namang bagong linggo ng MaPaChat! Kamusta kayong lahat? Maaaring magbanggit kung ano ang emosyon ang nararamdaman ngayon, kung saan sa katawan nararamdaman, at ang naiisip kasama ng nararamdaman.",
+      "guidance": "Bigyan ng ilang minuto ang mga magulang na magbahagi. Ikaw din, maaari kang magbahagi ng emosyon, nararamdaman sa katawan, at nasa isip. Halimbawa, “Masaya ako ngayon, at pag masaya ako, magaan ang pakiramdam ng dibdib ko. Masaya ako dahil magkaka-usap na naman tayo muli!”",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 114
+    },
+    {
+      "id": "message_115",
+      "foreign_key": "week_6_session_6",
+      "title": "Mensahe 2 – Talakayan Tungkol sa Pabaong Gawain",
+      "text": "Noong nakaraang linggo, tiningnan natin ang pangangasiwa ng negatibong kilos gamit ang pagbaling ng atensyon patungong positibong kilos at paggamit ng konsekwensya. Ngayon, pag-uusapan naman ang pagtugon sa mahihirap na isyu at problema. Pero bago tayo magsimula, sino po ang gustong magbahagi ng karanasan nila sa kanilang pabaong gawain?",
+      "guidance": "Tanggapin ang mga karanasan na ibabahagi ng mga magulang. Pumili ng isang tagumpay at ng isang hamon mula sa kanilang mga nabanggit at pag-usapan ito.",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 115
+    },
+    {
+      "id": "message_116",
+      "foreign_key": "week_6_session_7",
+      "title": "Mensahe 3 – Pagbabahagi ng Tagumpay",
+      "text": "Isa sa mga nabanggit ninyo na tagumpay ay ang [ilarawan ang tagumpay]. Magaling kung paano ninyo [iugnay ang tagumpay sa pundasyon].",
+      "guidance": "Palitan ang [ilarawan ang tagumpay] at [iugnay ang tagumpay sa pundasyon] base sa mga sagot ng magulang sa huling mensahe.",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 116
+    },
+    {
+      "id": "message_117",
+      "foreign_key": "week_6_session_8",
+      "title": "Mensahe 4 – Pagbabahagi ng Hamon",
+      "text": "Ngayon naman ay pag-uusapan natin ang isang binahaging hamon tungkol sa [ilarawan ang hamon mula sa feedback modyul].",
+      "guidance": "Palitan ang *[ilarawan ang hamon mula sa feedback modyul]* base sa mga naibahagi ng mga magulang na hamon.\n\nKung walang nagbahagi ng hamon sa nakaraang linggo, ipadala sa chat ang mga halimbawa ng mga posibleng hamon na nasa susunod na mensahe. Hayaan ang mga magulang na sumagot, at pumili ng isang hamon na maaaring pag-isipan ng buong grupo.",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 117
+    },
+    {
+      "id": "message_118",
+      "foreign_key": "week_6_session_9",
+      "title": "Mensahe 4 – Pagbabahagi ng Hamon",
+      "text": "Nauunawaan kong mahirap mag-isip ng hamon. Heto ang ilang halimbawa ng mga hamon mula sa ilang mga magulang tungkol sa pagbaling ng atensyon at paggamit ng konsekwensya:\n\n- Nahihirapan akong ibaling ang atensyon ng aking anak kapag naglilikot na siya o sumusuway na siya.\n\n- Masyado akong nagalit at nahirapan akong mag-isip ng isang positibong bagay na sasabihin sa aking anak pagkatapos niyang sumuway.\n\n- Parang hindi nagbago ang aking anak na tinedyer kahit gumamit na ako ng konsekwensya.\n\n- Mukhang naging mas galit ang aking anak na tinedyer dahil sa konsekwensya.\n\n- Laging gumagawa ng kalokohan ang aking batang anak o anak na tinedyer.\n\nMay mga nakaranas din ba ng mga hamong ito? Mag-react po tayo sa mga hamon na nakalista kapag ito ay naranasan niyo rin!\n",
+      "guidance": "Maaaring gawing **poll** sa Viber ang mensahe na ito para makapili ang mga magulang ng isang hamon. Hayaan ang mga magulang na sumagot, at pumili ng isang hamon na maaaring pag-isipan ng buong grupo.",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 118
+    },
+    {
+      "id": "message_119",
+      "foreign_key": "week_6_session_10",
+      "title": "Mensahe 5 – Talakayan tungkol sa Hamon at mga Solusyon",
+      "text": "Pwede ba tayong magtulungan para mag-isip ng positibong solution para sa [ilarawan ang hamon]? Ano kaya ang pwedeng gawin ng magulang na nasa sitwasyon na iyon?",
+      "guidance": "Palitan ang [ilarawan ang hamon] base sa tugon ng mga magulang. Himukin ang mga magulang na mag-isip ng mga positibong solusyon. Makikita ang mga halimbawa sa pdf.",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 119
+    },
+    {
+      "id": "message_120",
+      "foreign_key": "week_6_session_11",
+      "title": "Mensahe 6 – Pagpapakilala ng MaPa Skill: Pagtugon sa Mahihirap na Isyu at Problema",
+      "text": "Ipapakilala ko ang ating MaPa Skill ngayong araw: Pagtugon sa Mahihirap na Isyu at Problema. Heto ang ilan sa mga importanteng mga tip na siyang gabay mo kung mahirapan ka man bilang magulang:\n \n1️⃣ **HUMINGA** - Manatiling kalmado para maintindihan kung ano ang pangangailangan ng iyong anak mula sa iyo bilang magulang.\n\n2️⃣ **MAKINIG** - Makinig sa anak. Sabihin na nandiyan ka para sa kanila at mahal mo sila.\n3️⃣ **TUMUGON** - Ano ang makakatulong sa ganitong sitwasyon? Maaaring kailangang isawalang-bahala ang pag-aalboroto ng bata o kailangang pag-usapan ang mga susunod na gagawin para matulungan ang anak.\n4️⃣ **MAGBIGAY SUPORTA** - Kailangang bigyan ng magulang ng emosyonal na suporta ang anak kung siya ay nasa mabigat o mahirap na sitwasyon.",
+      "guidance": "",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 120
+    },
+    {
+      "id": "message_121",
+      "foreign_key": "week_6_session_12",
+      "title": "Mensahe 7 – Komiks tungkol sa Batang Anak: Pagsasawalang-Bahala ng Negatibong Kilos na Naghahanap ng Atensyon",
+      "text": "Mahalaga na malaman kung kailan kailangan ng ating anak ang ating atensyon at kung kailan sila kumikilos nang negatibo para makuha ang kanilang gusto kagaya ng pag-ungol, pagmamaktol, pang-aasar, at pag-aalboroto. Narito ang komiks tungkol sa kung paano nagsawalang-bahala si Nanay Rose ng negatibong kilos ni Jenny na naghahanap ng atensyon para makuha ang gusto niya.",
+      "guidance": "",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 121
+    },
+    {
+      "id": "message_122",
+      "foreign_key": "week_6_session_13",
+      "title": "Mensahe 7 – Komiks tungkol sa Batang Anak: Pagsasawalang-Bahala ng Negatibong Kilos na Naghahanap ng Atensyon",
+      "text": "",
+      "guidance": "Ipadala ang unang panel ng komiks.",
+      "asset_type": "image",
+      "asset": "images/comics/06_comics1_panel1.jpg",
+      "ignore": 122
+    },
+    {
+      "id": "message_123",
+      "foreign_key": "week_6_session_14",
+      "title": "Mensahe 7 – Komiks tungkol sa Batang Anak: Pagsasawalang-Bahala ng Negatibong Kilos na Naghahanap ng Atensyon",
+      "text": "",
+      "guidance": "Ipadala ang pangalawang panel ng komiks.",
+      "asset_type": "image",
+      "asset": "images/comics/06_comics1_panel2.jpg",
+      "ignore": 123
+    },
+    {
+      "id": "message_124",
+      "foreign_key": "week_6_session_15",
+      "title": "Mensahe 7 – Komiks tungkol sa Batang Anak: Pagsasawalang-Bahala ng Negatibong Kilos na Naghahanap ng Atensyon",
+      "text": "",
+      "guidance": "Ipadala ang pangatlong panel ng komiks.",
+      "asset_type": "image",
+      "asset": "images/comics/06_comics1_panel3.jpg",
+      "ignore": 124
+    },
+    {
+      "id": "message_125",
+      "foreign_key": "week_6_session_16",
+      "title": "Mensahe 7 – Komiks tungkol sa Batang Anak: Pagsasawalang-Bahala ng Negatibong Kilos na Naghahanap ng Atensyon",
+      "text": "",
+      "guidance": "Ipadala ang pang-apat na panel ng komiks.",
+      "asset_type": "image",
+      "asset": "images/comics/06_comics1_panel4.jpg",
+      "ignore": 125
+    },
+    {
+      "id": "message_126",
+      "foreign_key": "week_6_session_17",
+      "title": "Mensahe 7 – Komiks tungkol sa Batang Anak: Pagsasawalang-Bahala ng Negatibong Kilos na Naghahanap ng Atensyon",
+      "text": "",
+      "guidance": "Ipadala ang panglimang panel ng komiks.",
+      "asset_type": "image",
+      "asset": "images/comics/06_comics1_panel5.jpg",
+      "ignore": 126
+    },
+    {
+      "id": "message_127",
+      "foreign_key": "week_6_session_18",
+      "title": "Mensahe 8 – Talakayan tungkol sa Komiks",
+      "text": "Ano ang epektibong ginawa ni Nanay Rose bilang pagtugon sa tantrum o pag-alboroto ni Jenny?",
+      "guidance": "Alalahaning bigyan ng pagkakataon ang mga magulang na sumagot bago ipadala ang susunod na mensahe.",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 127
+    },
+    {
+      "id": "message_128",
+      "foreign_key": "week_6_session_19",
+      "title": "Mensahe 9 – Paglilista ng mga Kilos na Pwedeng Gamitan ng Pagsasawalang-Bahala",
+      "text": "Anu-ano ang mga kilos ng iyong anak na sa tingin mo ay pwedeng isawalang-bahala?",
+      "guidance": "Hayaan ang mga magulang na magsabi ng mga kilos na pwedeng isawalang-bahala. Tandaan na kailangan na ang mga kilos na ito ay ginagawa ng bata para makuha ang atensyon ng magulang at para makuha ang kanilang gusto. Kailangang bigyan naman ng magulang ng konsekwensya ang mga mapanganib at agresibong kilos, o ang hindi pagsunod sa mga patakaran.",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 128
+    },
+    {
+      "id": "message_129",
+      "foreign_key": "week_6_session_20",
+      "title": "Mensahe 10 – Pagpapatibay ng Mahalagang Pundasyon para sa Pagsasawalang-Bahala ng Negatibong Kilos na Naghahanap ng Atensyon",
+      "text": "Sadyang mahirap ito pero kaya mo iyan! Narito ang mga kailangang tandaan kapag ginamit ang pagsasawalang-bahala sa mga negatibong kilos na naghahanap ng atensyon:\n\n- Subukang ibaling ang atensyon ng iyong anak.\n- Ang pagsasawalang–bahala ay kailangang ginagawa ng lahat ng miyembro ng pamilya.\n- Alalahaning gumamit ng mga estratehiya para mapakalma ang sarili habang nagsasawalang-bahala ng pag-aalboroto at iba pang negatibong kilos na naghahanap ng atensyon.\n- Kapag ginamit ang pagsasawalang bahala sa kilos ng bata, maaaring lumalala muna ang negatibong kilos habang sinusubok ng bata ang lawak at haba ng pagsasawalang-bahala. Kailangan ng ibayong pagpapasensya.\n- Maaaring lumala muna ang negatibong kilos bago mabawasan o humina ito.\n- Kapag natapos na ang negatibong kilos, agarang purihin ang anak kapag nagpakita siya ng isang positibong kilos.",
+      "guidance": "",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 129
+    },
+    {
+      "id": "message_130",
+      "foreign_key": "week_6_session_21",
+      "title": "Mensahe 11 – Komiks tungkol sa Anak na Tinedyer: Pagtugon sa Krisis",
+      "text": "Narito ang isa pang komiks. Ipinapakita rito ang maaaring gawing pagsuporta ng magulang sa kanyang anak na tinedyer pagkatapos makaranas nito ng isang nakakatakot na sitwasyon. Ang nagbibida naman dito ay sina Tatay Jose at ang kanyang anak na tinedyer, si Pablo.",
+      "guidance": "",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 130
+    },
+    {
+      "id": "message_131",
+      "foreign_key": "week_6_session_22",
+      "title": "Mensahe 11 – Komiks tungkol sa Anak na Tinedyer: Pagtugon sa Krisis",
+      "text": "",
+      "guidance": "Ipadala ang unang panel ng komiks.",
+      "asset_type": "image",
+      "asset": "images/comics/06_comics2_panel1.jpg",
+      "ignore": 131
+    },
+    {
+      "id": "message_132",
+      "foreign_key": "week_6_session_23",
+      "title": "Mensahe 11 – Komiks tungkol sa Anak na Tinedyer: Pagtugon sa Krisis",
+      "text": "",
+      "guidance": "Ipadala ang pangalawang panel ng komiks.",
+      "asset_type": "image",
+      "asset": "images/comics/06_comics2_panel1.jpg",
+      "ignore": 132
+    },
+    {
+      "id": "message_133",
+      "foreign_key": "week_6_session_24",
+      "title": "Mensahe 11 – Komiks tungkol sa Anak na Tinedyer: Pagtugon sa Krisis",
+      "text": "",
+      "guidance": "Ipadala ang pangatlong panel ng komiks.",
+      "asset_type": "image",
+      "asset": "images/comics/06_comics2_panel3.jpg",
+      "ignore": 133
+    },
+    {
+      "id": "message_134",
+      "foreign_key": "week_6_session_25",
+      "title": "Mensahe 11 – Komiks tungkol sa Anak na Tinedyer: Pagtugon sa Krisis",
+      "text": "",
+      "guidance": "Ipadala ang pang-apat na panel ng komiks.",
+      "asset_type": "image",
+      "asset": "images/comics/06_comics2_panel4.jpg",
+      "ignore": 134
+    },
+    {
+      "id": "message_135",
+      "foreign_key": "week_6_session_26",
+      "title": "Mensahe 11 – Komiks tungkol sa Anak na Tinedyer: Pagtugon sa Krisis",
+      "text": "",
+      "guidance": "Ipadala ang panglimang panel ng komiks.",
+      "asset_type": "image",
+      "asset": "images/comics/06_comics2_panel5.jpg",
+      "ignore": 135
+    },
+    {
+      "id": "message_136",
+      "foreign_key": "week_6_session_27",
+      "title": "Mensahe 12 – Talakayan tungkol sa Komiks ",
+      "text": "Ano ang inyong nagustuhan sa pagtugon ni Tatay noong sinabi ni Pablo ang tungkol sa gulong napasukan nito?",
+      "guidance": "Tandaan na bigyan ang mga magulang ng panahon para makasagot.",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 136
+    },
+    {
+      "id": "message_137",
+      "foreign_key": "week_6_session_28",
+      "title": "Mensahe 13 – Komiks tungkol sa Anak na Tinedyer: Pagbubunyag ng Sekswal na Pang-aabuso",
+      "text": "Ngayon naman, tingnan natin ang isa pang komiks. Minsan, nakakatakot ang pwedeng mangyari sa ating anak, kagaya ng sekswal na pang-aabuso. Heto ang isang halimbawa ng kung ano ang pwede nating gawin bilang magulang kapag ibinahagi ng ating anak sa atin na siya ay inabuso.",
+      "guidance": "",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 137
+    },
+    {
+      "id": "message_138",
+      "foreign_key": "week_6_session_29",
+      "title": "Mensahe 13 – Komiks tungkol sa Anak na Tinedyer: Pagbubunyag ng Sekswal na Pang-aabuso",
+      "text": "",
+      "guidance": "Ipadala ang unang panel ng komiks.",
+      "asset_type": "image",
+      "asset": "images/comics/06_comics3_panel1.jpg",
+      "ignore": 138
+    },
+    {
+      "id": "message_139",
+      "foreign_key": "week_6_session_30",
+      "title": "Mensahe 13 – Komiks tungkol sa Anak na Tinedyer: Pagbubunyag ng Sekswal na Pang-aabuso",
+      "text": "",
+      "guidance": "Ipadala ang pangalawang panel ng komiks.",
+      "asset_type": "image",
+      "asset": "images/comics/06_comics3_panel2.jpg",
+      "ignore": 139
+    },
+    {
+      "id": "message_140",
+      "foreign_key": "week_6_session_31",
+      "title": "Mensahe 13 – Komiks tungkol sa Anak na Tinedyer: Pagbubunyag ng Sekswal na Pang-aabuso",
+      "text": "",
+      "guidance": "Ipadala ang pangatlong panel ng komiks.",
+      "asset_type": "image",
+      "asset": "images/comics/06_comics3_panel3.jpg",
+      "ignore": 140
+    },
+    {
+      "id": "message_141",
+      "foreign_key": "week_6_session_32",
+      "title": "Mensahe 13 – Komiks tungkol sa Anak na Tinedyer: Pagbubunyag ng Sekswal na Pang-aabuso",
+      "text": "",
+      "guidance": "Ipadala ang pang-apat na panel ng komiks.",
+      "asset_type": "image",
+      "asset": "images/comics/06_comics3_panel4.jpg",
+      "ignore": 141
+    },
+    {
+      "id": "message_142",
+      "foreign_key": "week_6_session_33",
+      "title": "Mensahe 14 – Talakayan tungkol sa Komiks",
+      "text": "Anu-ano ang inyong nagustuhan sa paraan ni Nanay Linda para tugunan ang pagbabahagi ni Maria tungkol sa pang-aabusong nangyari sa kanya?",
+      "guidance": "Tandaan na bigyan ang mga magulang ng panahon para makasagot.",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 142
+    },
+    {
+      "id": "message_143",
+      "foreign_key": "week_6_session_34",
+      "title": "Mensahe 15 – Talakayan tungkol sa Komiks: Isipin ang Kasarian ng Anak",
+      "text": "Paano kaya maiiba ang gagawin ninyo sa sitwasyon na ito kung lalaki ang anak ninyo?",
+      "guidance": "",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 143
+    },
+    {
+      "id": "message_144",
+      "foreign_key": "week_6_session_35",
+      "title": "Mensahe 16 – Pagpapatibay ng Mahalagang Pundasyon para sa Pagtugon sa Krisis",
+      "text": "Narito ang ilang mga paalala sa kung paano haharapin ang problema kapag nangyari ito:\n\n1️⃣ Huminga nang malalim bago tugunan ang problema.\n2️⃣ Makinig sa anak at pansinin kung ano ang kanyang nararamdaman.\n3️⃣ Pansinin din ang iyong nararamdaman. Itanong sa sarili “Ano ang kailangan ng aking anak ngayon?”\n4️⃣ Ipaalam sa anak na nandiyan ka palagi para sa kanya.\n5️⃣ Pwede mong harapin ang mga konsekwensya sa hinaharap. Sa ngayon, alalahanin na kailangan ka ng iyong anak.\n6️⃣ Pag-usapan ang mga posibleng solusyon at ang mga hakbang sa pagharap sa problema.\n7️⃣ Ipaalala sa anak na mahal mo siya. Magpasalamat din dahil naging bukas siya sa iyo.",
+      "guidance": "",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 144
+    },
+    {
+      "id": "message_145",
+      "foreign_key": "week_6_session_36",
+      "title": "Mensahe 17 – Pagtakda ng Home Activity o Pabaong Gawain",
+      "text": "Salamat sa makabuluhang usapan! Ang pabaong gawain po natin ngayong linggo ay ang pagpapatuloy ng One-on-One Time kasama ang ating anak. Subukan ding isawalang-bahala ang mga negatibong kilos na naghahanap ng atensyon. Ipaalala rin sa iyong anak na nariyan ka para sa kanya kapag nakaranas siya ng mahirap o mabigat na mga sitwasyon.",
+      "guidance": "",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 145
+    },
+    {
+      "id": "message_146",
+      "foreign_key": "week_6_session_37",
+      "title": "Mensahe 18 – Paglilinaw",
+      "text": "Meron po ba kayong gustong linawin tungkol sa pagtugon sa mahihirap na isyu at problema?",
+      "guidance": "Magbigay ng ilang minuto para makapagtanong ang mga magulang. Alalahaning magpasalamat sa mga magulang sa kanilang mga katanungan. Bago mo ibigay ang iyong sariling sagot, bigyan ang grupo ng pagkakataong pag-isipan ito sa pamamagitan ng pagsabi “Magandang tanong iyan! Ano po sa tingin ng iba ang pwedeng isagot o solusyon diyan?”",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 146
+    },
+    {
+      "id": "message_147",
+      "foreign_key": "week_6_session_38",
+      "title": "Mensahe 19 – Video: Pagpapaalala ng MaPa Skill",
+      "text": "Narito ang isang maikling video tungkol sa ating parenting tip ngayong araw na tungkol sa pagtugon sa mahihirap na isyu at problema: \n1️⃣ HUMINGA.\n2️⃣ MAKINIG. \n3️⃣ TUMUGON.\n4️⃣ MAGBIGAY SUPORTA.",
+      "guidance": "Isend ang video kasama ang mensahe na ito.",
+      "asset_type": "youtube",
+      "asset": "https://www.youtube.com/watch?v=CP1CkeC3a7s",
+      "ignore": 147
+    },
+    {
+      "id": "message_148",
+      "foreign_key": "week_6_session_39",
+      "title": "Mensahe 20 – Video: Tumigil nang Sandali",
+      "text": "Bago po tayo magtapos ng ating session, gagawin natin ang Tumigil nang Sandali. Tandaan na pwedeng gamitin ito kapag naii-stress o galit kayo. Milyon-milyong mga magulang ang nagsabing nakatulong ito sa kanila!",
+      "guidance": "Ipadala ang Video message ng Pagtigil nang Sandali.",
+      "asset_type": "youtube",
+      "asset": "https://www.youtube.com/watch?v=BqYrYgJ3iKY",
+      "ignore": 148
+    },
+    {
+      "id": "message_149",
+      "foreign_key": "week_6_session_40",
+      "title": "Mensahe 21 – Pagpapasalamat",
+      "text": "Salamat po sa pagsali ninyo sa ating group chat ngayong araw. Ang pagkakaroon ng plano sa kung paano matutugunan ang problema kapag nangyari ito ay makakatulong na maging ligtas, masaya, at malakas ang pamilya. Kahanga-hanga po kayo!",
+      "guidance": "",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 149
+    },
+    {
+      "id": "message_150",
+      "foreign_key": "week_6_1_reminder",
+      "title": "Mensahe 1 – Pagpapaalala ng Kasanayan",
+      "text": "Magandang araw! Ang pabaong gawain natin ngayong linggo ay ang pagtugon sa mahihirap na isyu at problema (e.g., pagsasawalang-bahala ng mga negatibong kilos na naghahanap ng atensyon at pagtugon sa krisis).\n\nNaiintindihan ko na baka may mga hamon kayo sa modyul na ito. Huwag mag-atubili na magpadala ng direct message sa akin kung may mga tanong kayo. Salamat!",
+      "guidance": "",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 150
+    },
+    {
+      "id": "message_151",
+      "foreign_key": "week_6_2_reminder",
+      "title": "Mensahe 1 – Pagtanong sa Feedback",
+      "text": "Maaaring magbahagi ng isang positibong bagay na nangyari ngayong linggo nang sinubukan ninyo ang pagsasawalang-bahala ng mga negatibong kilos na naghahanap ng atensyon, o nang sinubukan ninyo ang patugon sa mahihirap na isyu at problema ng inyong anak. May mga nakaranas ba ng hamon habang sinusubukan ang mga ito? Excited ako kayong makita muli sa [ITAKDA ANG PETSA DITO]",
+      "guidance": "Palitan ang [ITAKDA ANG PETSA DITO] bago isend ang mensahe. Tanggapin ang mga ipapadala ng mga magulang sa pagbibigay ng thumbs up, emoji, o mga papuri. Siguraduhing makakakuha ng isa o dalawang mga tagumpay at hamon na maaaring pag-usapan sa simula ng susunod na modyul.",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 151
+    },
+    {
+      "id": "message_152",
+      "foreign_key": "week_7_session_2",
+      "title": "Unang Araw: Paalala sa Modyul",
+      "text": "",
+      "guidance": "Ipadala ang picture na ito bago ang susunod na mensahe.",
+      "asset_type": "image",
+      "asset": "images/07_masayang_tahanan.jpg",
+      "ignore": 152
+    },
+    {
+      "id": "message_153",
+      "foreign_key": "week_7_session_3",
+      "title": "Unang Araw: Paalala sa Modyul",
+      "text": "Hello! Excited ako kayong maka-chat mamaya ng [TAKDANG ORAS]. Matututunan natin ang pamamahala ng pera at pag-iipon bilang pamilya. Ito ang magiging hardin ng ating Masayang Tahanan, kung saan maaaring magpunla at mag-ani para sa ating pamilya.  ",
+      "guidance": "Palitan ang [TAKDANG ORAS] ng oras ng iyong session. Siguraduhing naipadala na ang larawan ng Masayang Tahanan bago ang mensaheng ito.",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 153
+    },
+    {
+      "id": "message_154",
+      "foreign_key": "week_7_session_4",
+      "title": "Unang Araw: Paalala sa Modyul",
+      "text": "Pakinggan ang isang kwento tungkol kay Lola Rosario at ang mga pangarap niya para sa kanyang mga apo na si Cristina at Daniel. Pag-uusapan natin ito sa session mamaya! (Maghanda ng papel, panulat, at mga malalaki at maliliit na bato.)",
+      "guidance": "",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 154
+    },
+    {
+      "id": "message_155",
+      "foreign_key": "week_7_session_5",
+      "title": "Unang Araw: Paalala sa Modyul",
+      "text": "",
+      "guidance": "Isend ang larawan na ito bago ang susunod na mensahe.",
+      "asset_type": "image",
+      "asset": "images/comics/07_lola_goals.jpg",
+      "ignore": 155
+    },
+    {
+      "id": "message_156",
+      "foreign_key": "week_7_session_6",
+      "title": "Unang Araw: Paalala sa Modyul",
+      "text": "",
+      "guidance": "Isend ang video.",
+      "asset_type": "youtube",
+      "asset": "https://www.youtube.com/watch?v=-S59XqXpFAQ",
+      "ignore": 156
+    },
+    {
+      "id": "message_157",
+      "foreign_key": "week_7_session_8",
+      "title": "Mensahe 1 – Pagbati at Pangangamusta",
+      "text": "Welcome sa isa na namang bagong linggo ng MaPaChat! Kamusta kayong lahat? Maaaring magbanggit kung ano ang emosyon ang nararamdaman ngayong nandito ka, kung saan sa katawan mo siya nararamdaman, at ang naiisip kasama ng nararamdaman.",
+      "guidance": "Bigyan ng ilang minuto ang mga magulang na magbahagi. Ikaw din, maaari kang magbahagi ng emosyon, nararamdaman sa katawan, at nasa isip. Halimbawa, “Masaya ako ngayon, at pag masaya ako, magaan ang pakiramdam ng dibdib ko. Masaya ako dahil magkaka-usap na naman tayo muli!”",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 157
+    },
+    {
+      "id": "message_158",
+      "foreign_key": "week_7_session_9",
+      "title": "Mensahe 2 – Talakayan Tungkol sa Pabaong Gawain",
+      "text": "Noong nakaraang linggo, tiningnan natin ang pagtugon sa mga mahihirap na isyu at problema. Ngayon, pag-uusapan naman ay kung paano mababawasan ang stress ng pamilya tungkol sa pera. Pero bago tayo magsimula, sino po ang gustong magbahagi ng karanasan nila sa kanilang pabaong gawain?",
+      "guidance": "Tanggapin ang mga karanasan na ibabahagi ng mga magulang. Pumili ng isang tagumpay at ng isang hamon mula sa kanilang mga nabanggit at pag-usapan ito.",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 158
+    },
+    {
+      "id": "message_159",
+      "foreign_key": "week_7_session_10",
+      "title": "Mensahe 3 – Pagbabahagi ng Tagumpay",
+      "text": "Isa sa mga nabanggit ninyo na tagumpay ay ang [ilarawan ang tagumpay]. Magaling kung paano ninyo [iugnay ang tagumpay sa pundasyon].",
+      "guidance": "Palitan ang [ilarawan ang tagumpay] at [iugnay ang tagumpay sa pundasyon] base sa mga sagot ng magulang sa huling mensahe.",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 159
+    },
+    {
+      "id": "message_160",
+      "foreign_key": "week_7_session_11",
+      "title": "Mensahe 4 – Pagbabahagi ng Hamon",
+      "text": "Ngayon naman ay pag-uusapan natin ang isang binahaging hamon tungkol sa [ilarawan ang hamon mula sa feedback modyul].",
+      "guidance": "Palitan ang [ilarawan ang hamon mula sa feedback modyul] base sa mga naibahagi ng mga magulang na hamon.\n\nKung walang nagbahagi ng hamon sa nakaraang linggo, ipadala sa chat ang mga halimbawa ng mga posibleng hamon na nasa susunod na mensahe. Hayaan ang mga magulang na sumagot, at pumili ng isang hamon na maaaring pag-isipan ng buong grupo.",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 160
+    },
+    {
+      "id": "message_161",
+      "foreign_key": "week_7_session_12",
+      "title": "Mensahe 4 – Pagbabahagi ng Hamon",
+      "text": "Nauunawaan kong mahirap mag-isip ng hamon. Heto ang ilang halimbawa ng mga hamon mula sa ilang mga magulang tungkol sa pagbaling ng atensyon at paggamit ng konsekwensya:\n \n- Hindi kami magkasundo ng mga miyembro sa pamilya tungkol sa mga KAILANGAN at GUSTO.\n- Ang tingin ng pamilya ay hindi mahalaga ang pag-iipon.\n- Iba-iba ang layunin namin para sa pamilya.\n- Hindi magkasundo ang pamilya kung saan ilalagay ang ipon na pera.\n\nMay mga nakaranas din ba ng mga hamong ito? Mag-react po tayo sa mga hamon na nakalista kapag ito ay naranasan niyo rin!",
+      "guidance": "Maaaring gawing **poll** sa Viber ang mensahe na ito para makapili ang mga magulang ng isang hamon. Hayaan ang mga magulang na sumagot, at pumili ng isang hamon na maaaring pag-isipan ng buong grupo.",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 161
+    },
+    {
+      "id": "message_162",
+      "foreign_key": "week_7_session_13",
+      "title": "Mensahe 5 – Talakayan tungkol sa Hamon at mga Solusyon",
+      "text": "Pwede ba tayong magtulungan para mag-isip ng positibong solution para sa [ilarawan ang hamon]? Ano kaya ang pwedeng gawin ng magulang na nasa sitwasyon na iyon?",
+      "guidance": "Palitan ang [ilarawan ang hamon] base sa tugon ng mga magulang. Himukin ang mga magulang na mag-isip ng mga positibong solusyon. Makikita ang mga halimbawa sa pdf.",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 162
+    },
+    {
+      "id": "message_163",
+      "foreign_key": "week_7_session_14",
+      "title": "Mensahe 6 – Pagpapakilala ng MaPa Skill: Pagbuo ng Family Badyet",
+      "text": "Maraming salamat sa inyong mga ideya! Ipapakilala ko na ang ating parent tip ngayong araw tungkol sa Family Badyet. Heto ang apat na hakbang:\nStep 1. **ISIPIN** - Isipin kung ano ang mga pinagkakagastusan kada buwan.\nStep 2. **PAG-USAPAN** - Pag-usapan ang mga kailangan at gusto.\nStep 3. **BUMUO** - Bumuo ng badyet kasama ang pamilya.\nStep 4. **IPLANO** - Iplano kung paano makakapag-ipon ng pera upang makaraos sa emergency at makamit ang mga layunin ng pamilya.",
+      "guidance": "",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 163
+    },
+    {
+      "id": "message_164",
+      "foreign_key": "week_7_session_15",
+      "title": "Mensahe 7 – Talakayan tungkol sa mga Layunin ng Pamilya",
+      "text": "Sa kwento na pinadala ko kanina, nakamit ng pamilya ni Lola Rosario ang layunin nila na makapag-ipon para sa tuition ni Cristina sa kolehiyo at makapagbayad sa gastusin ni Daniel sa school. Ngayon, ano naman ang mga pinansyal na layunin ng inyong mga sariling pamilya?",
+      "guidance": "Bigyan ng pagkakataon ang mga magulang na sumagot.",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 164
+    },
+    {
+      "id": "message_165",
+      "foreign_key": "week_7_session_16",
+      "title": "Mensahe 8 – Paano magbuo ng Family Badyet",
+      "text": "Kapag tayo ay bumuo ng badyet kasama ang pamilya, mapagkakasunduan natin kung paano gagastusin at iipunin ang ating pera. Makakatulong ito para makamit ng pamilya ang layunin nila sa pag-iipon at makakabawas din ng stress tungkol sa pera. Ang unang hakbang sa paggawa ng badyet ay ISIPIN kung ano ang mga pinagkakagastusan kada buwan.",
+      "guidance": "",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 165
+    },
+    {
+      "id": "message_166",
+      "foreign_key": "week_7_session_17",
+      "title": "Mensahe 9 – Step 1. ISIPIN",
+      "text": "",
+      "guidance": "Ipadala ang imahe bago ang susunod na mensahe.",
+      "asset_type": "image",
+      "asset": "images/comics/07_budgeting_step1.jpg",
+      "ignore": 166
+    },
+    {
+      "id": "message_167",
+      "foreign_key": "week_7_session_18",
+      "title": "Mensahe 9 – Step 1. ISIPIN",
+      "text": "Maghanda ng papel, panulat, at mga malalaki at maliliit na bato. Ito ay sumisimbolo ng pera para sa buwan. Kasama ang inyong pamilya, ISIPIN kung ano ang mga pinagkakagastusan ng pamilya kada buwan. Pagtulungan ang pag-drawing nito sa papel.",
+      "guidance": "Bigyan ang mga magulang ng oras para magawa itong hakbang.",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 167
+    },
+    {
+      "id": "message_168",
+      "foreign_key": "week_7_session_19",
+      "title": "Mensahe 10 – Step 2. PAG-USAPAN",
+      "text": "",
+      "guidance": "Ipadala ang imahe bago ang susunod na mensahe.",
+      "asset_type": "image",
+      "asset": "images/comics/07_budgeting_step2.jpg",
+      "ignore": 168
+    },
+    {
+      "id": "message_169",
+      "foreign_key": "week_7_session_20",
+      "title": "Mensahe 10 – Step 2. PAG-USAPAN",
+      "text": "Ang sunod na hakbang ay **PAG-USAPAN** kung ano ang mga **KAILANGAN** gastusan kada buwan. Ang **KAILANGAN (Needs)** ay mga bagay na ikamamatay kung wala ito, tulad ng pagkain, gamot, at ligtas na tirahan. Ang **GUSTO (Wants)** naman ay mga bagay na maaaring ipagpaliban dahil hindi ito kailangan para mabuhay, tulad ng ikalawang bagong sapatos. Bawat pamilya ay may iba’t ibang **KAILANGAN at GUSTO**. Bilugan ang mga drawing ng mga **KAILANGAN** sa inyong pamilya.",
+      "guidance": "Bigyan ang mga magulang ng oras para pag-usapan ang kanilang mga KAILANGAN.",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 169
+    },
+    {
+      "id": "message_170",
+      "foreign_key": "week_7_session_21",
+      "title": "Mensahe 11 – Step 3. BUMUO",
+      "text": "",
+      "guidance": "Ipadala ang imahe bago ang susunod na mensahe.",
+      "asset_type": "image",
+      "asset": "images/comics/07_budgeting_step3.jpg",
+      "ignore": 170
+    },
+    {
+      "id": "message_171",
+      "foreign_key": "week_7_session_22",
+      "title": "Mensahe 11 – Step 3. BUMUO",
+      "text": "Good job po! Ituloy na natin. Ang sunod na hakbang ay ang paglagay ng mga bato sa drawing ng mga kailangang gastusan ng pamilya kada buwan. Makakatulong ito para madaling makita mamaya kung saan pwedeng pagkunan ng pang-ipon.",
+      "guidance": "",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 171
+    },
+    {
+      "id": "message_172",
+      "foreign_key": "week_7_session_23",
+      "title": "Mensahe 12 – Paglilinaw",
+      "text": "Magaling! Nakabuo na kayo ng Badyet ng Pamilya. Meron bang tanong tungkol sa pagpasiya kung ano ang dapat gastusan bawat buwan? May nahirapan ba sa pagtukoy kung ano ang KAILANGAN at kung ano ang GUSTO? Meron bang mga GUSTO na pwedeng bawasan para makapag-ipon ng onti bawat buwan? Mainam na pag-usapan din ang mga tanong na ito kasama ang inyong pamilya.",
+      "guidance": "Bigyan ang mga magulang ng oras para magtanong tungkol sa pag-compute ng kanilang Family Badyet. Purihin sila sa kanilang pagpupursigi!",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 172
+    },
+    {
+      "id": "message_173",
+      "foreign_key": "week_7_session_24",
+      "title": "Mensahe 13 – Ibang mga Dahilan para Mag-ipon",
+      "text": "Ang pag-iipon para sa mga layunin ng pamilya ay kapuri-puri! Ituloy natin ang kwento ni Lola Rosario para malaman ang iba pang mga dahilan para mag-ipon.",
+      "guidance": "Ipadala ang video kasama ang mensahe.",
+      "asset_type": "youtube",
+      "asset": "https://www.youtube.com/watch?v=NEmyRu06X-k",
+      "ignore": 173
+    },
+    {
+      "id": "message_174",
+      "foreign_key": "week_7_session_25",
+      "title": "Mensahe 14 – Talakayan tungkol sa Kwento",
+      "text": "",
+      "guidance": "Ipadala ang imahe bago ang susunod na mensahe.",
+      "asset_type": "image",
+      "asset": "images/comics/07_lola_emergencies.jpg",
+      "ignore": 174
+    },
+    {
+      "id": "message_175",
+      "foreign_key": "week_7_session_26",
+      "title": "Mensahe 14 – Talakayan tungkol sa Kwento",
+      "text": "Sa ating kwento, nakaranas ang pamilya ni Lola Rosario ng matinding bagyo na nakakaapekto sa kanyang kakayahan mag-badyet at mag-ipon. Anu-anong mga emergency ang maaaring maranasan din ninyo?",
+      "guidance": "Bigyan ng pagkakataon ang mga magulang na sumagot.",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 175
+    },
+    {
+      "id": "message_176",
+      "foreign_key": "week_7_session_27",
+      "title": "Mensahe 15 – Mga Dahilan at Paraan para Mag-ipon",
+      "text": "Pwedeng mangyari ang emergency kahit kailan at kahit kaninong pamilya. Ang pag-ipon para sa emergency BAGO pa man ito mangyari ay makakatulong sa pag-iwas ng biglaang pag-aalala at stress. Ano ang mga paraan para mag-ipon? Saan pwedeng itago ang ipon para sa mga emergency?",
+      "guidance": "Bigyan ng pagkakataon ang mga magulang na sumagot.",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 176
+    },
+    {
+      "id": "message_177",
+      "foreign_key": "week_7_session_28",
+      "title": "Mensahe 16 – Isipin ang Kaligtasan",
+      "text": "Ano ang mga benepisyo at kahinaan ng mga nabanggit na paraan para mag-ipon? Alin dito ang mas delikado kaysa sa iba?",
+      "guidance": "",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 177
+    },
+    {
+      "id": "message_178",
+      "foreign_key": "week_7_session_29",
+      "title": "Mensahe 17 – Step 4. MAGPLANO",
+      "text": "",
+      "guidance": "Ipadala ang imahe bago ang susunod na mensahe.",
+      "asset_type": "image",
+      "asset": "images/comics/07_budgeting_step4.jpg",
+      "ignore": 178
+    },
+    {
+      "id": "message_179",
+      "foreign_key": "week_7_session_30",
+      "title": "Mensahe 17 – Step 4. MAGPLANO",
+      "text": "Ang kwento ni Lola Rosario ay nagbigay sa atin ng dalawang magandang dahilan para mag-ipon bawat buwan. Una, para makamit ang layunin ng pamilya at ikalawa, para makapaghanda sa emergency. Nakarating na rin tayo sa huling hakbang sa pag-iipon— kailangan **IPLANO**. Idagdag sa inyong Badyet ng Pamilya ang drawing para sa inyong mga layunin bilang pamilya at isa pang drawing para sa mga emergency. Pagpasiyahan kung saan malilipat ang pera para makapag-ipon ng onti kada buwan.",
+      "guidance": "",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 179
+    },
+    {
+      "id": "message_180",
+      "foreign_key": "week_7_session_31",
+      "title": "Mensahe 18 – Pagtakda ng Home Activity o Pabaong Gawain",
+      "text": "Mahusay! Nabuo na ninyo ang una ninyong Badyet ng Pamilya! Ang pabaong gawain para sa ngayong linggo ay ang pag-review ng badyet kasama ng inyong pamilya. Pwede ninyo rin ulitin ang mga hakbang sa pagbuo ng Badyet ng Pamilya kasama naman ang iyong mga anak at ibang miyembro ng pamilya. Mas tatanggapin nila ang plano sa pagbabadyet at pag-ipon kapag sinama sila sa pagdedesisyon. Isa rin itong paalala na, minsan, kailangan natin gumawa ng mahihirap na desisyon— pero ang kapalit ay makakamit natin ang ating mga layunin.",
+      "guidance": "",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 180
+    },
+    {
+      "id": "message_181",
+      "foreign_key": "week_7_session_32",
+      "title": "Mensahe 18 – Pagtakda ng Home Activity o Pabaong Gawain",
+      "text": "",
+      "guidance": "Ipadala ang Worksheet sa Pag-iipon bilang karagdagang resource para sa mga magulang.",
+      "asset_type": "image",
+      "asset": "images/comics/07_budgeting_plan.jpg",
+      "ignore": 181
+    },
+    {
+      "id": "message_182",
+      "foreign_key": "week_7_session_33",
+      "title": "Mensahe 19 – Paglilinaw",
+      "text": "May iba pa ba kayong tanong tungkol sa Pagbuo ng Family Badyet?",
+      "guidance": "Magbigay ng ilang minuto para magtanong ang mga magulang. Alalahaning magpasalamat sa mga magulang sa kanilang mga katanungan. Bago mo ibigay ang iyong sariling sagot, bigyan ang grupo ng pagkakataong pag-isipan ito at sumagot sa pamamagitan ng pagsabi “Magandang tanong iyan! Ano po sa tingin ng iba ang pwedeng isagot o solusyon diyan?”",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 182
+    },
+    {
+      "id": "message_183",
+      "foreign_key": "week_7_session_34",
+      "title": "Mensahe 20 – Video: Pagpapaalala ng MaPa Skill",
+      "text": "Narito ang isang maikling video kung paano magbuo ng Family Badyet. Ito ay paalala ng mga pundasyon:\nStep 1: ISIPIN\nStep 2: PAG-USAPAN \nStep 3: BUMUO\nStep 4: MAGPLANO",
+      "guidance": "Isend ang video kasama ang mensahe na ito.",
+      "asset_type": "youtube",
+      "asset": "https://www.youtube.com/watch?v=KZ3MrBwiGXY",
+      "ignore": 183
+    },
+    {
+      "id": "message_184",
+      "foreign_key": "week_7_session_35",
+      "title": "Mensahe 21 – Video: Tumigil nang Sandali",
+      "text": "Bago po tayo magtapos ng ating session, gagawin natin ang Tumigil nang Sandali. Tandaan na pwedeng gamitin ito kapag naii-stress o galit kayo. Milyon-milyong mga magulang ang nagsabing nakatulong ito sa kanila!",
+      "guidance": "Ipadala ang Video message ng Pagtigil nang Sandali.",
+      "asset_type": "youtube",
+      "asset": "https://www.youtube.com/watch?v=BqYrYgJ3iKY",
+      "ignore": 184
+    },
+    {
+      "id": "message_185",
+      "foreign_key": "week_7_session_36",
+      "title": "Mensahe 22 – Pagpapasalamat",
+      "text": "Salamat po sa pagsali ninyo sa ating group chat ngayong araw. Ang pagbuo ng badyet ay nakatulong na sa milyon-milyong pamilya sa buong mundo para makamit ang mga layunin nila bilang pamilya at maging handa sa emergency. Makakatulong ito sa pamilya ninyo na mabawasan ang stress at pag-aalala tungkol sa pera. Kayo po ay kapuri-puri!",
+      "guidance": "",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 185
+    },
+    {
+      "id": "message_186",
+      "foreign_key": "week_7_1_reminder",
+      "title": "Mensahe 1 – Pagpapaalala ng Kasanayan",
+      "text": "Magandang araw! Ang pabaong gawain natin ngayong linggo ay pag-usapan at isaayos ang Family Badyet kasama ang ibang miyembro ng inyong pamilya. Salamat!",
+      "guidance": "",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 186
+    },
+    {
+      "id": "message_187",
+      "foreign_key": "week_7_2_reminder",
+      "title": "Mensahe 1 – Pagtanong sa Feedback",
+      "text": "Maaaring magbahagi ng isang positibong bagay na nangyari ngayong linggo nang sinubukan ninyo ang pag-uusap tungkol sa Family Badyet kasama ng inyong pamilya. May mga nakaranas ba ng hamon habang sinusubukan ito? Excited akong marinig ang inyong mga kwento kapag nagkita tayo sa [ITAKDA ANG PETSA DITO].",
+      "guidance": "Palitan ang [ITAKDA ANG PETSA DITO] bago ipadala ang mensaheng ito. Tanggapin ang mga ipapadala ng mga magulang sa pagbibigay ng thumbs up, emoji, o mga papuri. Siguraduhing makakakuha ng isa o dalawang mga tagumpay at hamon na maaaring pag-usapan sa simula ng susunod na modyul.",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 187
+    },
+    {
+      "id": "message_188",
+      "foreign_key": "week_8_session_2",
+      "title": "Reminder Para sa Sesyon",
+      "text": "Magandang araw! Paalala lamang na ang ating Module 8 ng MaPa Chat Hybrid Program ay magsisimula na mamayang [ORAS] sa [VENUE]. Excited na kaming makasama kayo! Kita kits!",
+      "guidance": "Palitan ang [ORAS] at [VENUE] ng iyong sesyon bago ipadala ang mensahe.",
+      "asset_type": "",
+      "asset": "",
+      "ignore": 188
+    }
+  ]
+}

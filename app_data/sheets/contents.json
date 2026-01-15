@@ -187,6 +187,21 @@
         }
       }
     },
+    "splash_new_tec": {
+      "flow_type": "data_list",
+      "flow_subtype": "lifecycle_actions",
+      "flow_name": "splash_new_tec",
+      "_source": {
+        "name": "facilitator_ph_sheets",
+        "path": "templates/Splash_TaC.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/11bk3Cn9sgECQbdEFkq6jJ3Hw7yNEVzIzWrviJUD9AfE"
+      },
+      "_metadata": {
+        "priority": {
+          "type": "number"
+        }
+      }
+    },
     "media_data": {
       "flow_type": "data_list",
       "flow_name": "media_data",
@@ -4508,6 +4523,15 @@
         "name": "facilitator_ph_sheets",
         "path": "templates/profile_ph.xlsx",
         "url": "https://docs.google.com/spreadsheets/d/1vnZGZLoj7jrkDSR8V8aTCSASH53ucMN6jF1AyN6ksoM"
+      }
+    },
+    "new_tec_popup": {
+      "flow_type": "template",
+      "flow_name": "new_tec_popup",
+      "_source": {
+        "name": "facilitator_ph_sheets",
+        "path": "templates/Splash_TaC.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/11bk3Cn9sgECQbdEFkq6jJ3Hw7yNEVzIzWrviJUD9AfE"
       }
     },
     "onboarding_footer": {

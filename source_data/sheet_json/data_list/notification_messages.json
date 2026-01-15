@@ -1,0 +1,107 @@
+{
+  "flow_type": "data_list",
+  "flow_name": "notification_messages",
+  "status": "released",
+  "rows": [
+    {
+      "id": "@default",
+      "title::eng": "@global.app_name"
+    },
+    {
+      "id": "notification_1",
+      "type": "form_reminder",
+      "text::eng": "Others in the programme are submitting reports 📝. Submit yours now!",
+      "comment": "Based on social norm theory"
+    },
+    {
+      "id": "notification_2",
+      "type": "form_reminder",
+      "text::eng": "Most facilitators are done ✅. Submit your report today!",
+      "comment": "Based on social norm theory"
+    },
+    {
+      "id": "notification_3",
+      "type": "form_reminder",
+      "text::eng": "Reports are coming in 💬. Share your report now!",
+      "comment": "Based on social norm theory"
+    },
+    {
+      "id": "notification_4",
+      "type": "form_reminder",
+      "text::eng": "Join other facilitators 🧡. Submit your report to stay on track!",
+      "comment": "Based on social norm theory"
+    },
+    {
+      "id": "notification_5",
+      "type": "form_reminder",
+      "text::eng": "Just one step left 🏁. Submit your report to finish strong!",
+      "comment": "Based on goal gradient theory"
+    },
+    {
+      "id": "notification_6",
+      "type": "form_reminder",
+      "text::eng": "Final step 💪. Wrap up by sending your report today!",
+      "comment": "Based on goal gradient theory"
+    },
+    {
+      "id": "notification_7",
+      "type": "form_reminder",
+      "text::eng": "So close 📋. Send your report and complete your session!",
+      "comment": "Based on goal gradient theory"
+    },
+    {
+      "id": "notification_8",
+      "type": "form_reminder",
+      "text::eng": "You’re nearly done ✨. Just send in your report!",
+      "comment": "Based on goal gradient theory"
+    },
+    {
+      "id": "notification_9",
+      "type": "next_module_reminder",
+      "text::eng": "Others are moving forward 💬. Start your next chat session today!",
+      "comment": "Based on social norm theory"
+    },
+    {
+      "id": "notification_10",
+      "type": "next_module_reminder",
+      "text::eng": "Most facilitators have begun their next chat ✅. Pick up where you left off!",
+      "comment": "Based on social norm theory"
+    },
+    {
+      "id": "notification_11",
+      "type": "next_module_reminder",
+      "text::eng": "Facilitators are staying on track 📈. Begin your next session now!",
+      "comment": "Based on social norm theory"
+    },
+    {
+      "id": "notification_12",
+      "type": "next_module_reminder",
+      "text::eng": "Many facilitators are continuing their chats 💬. Join in and start your next one!",
+      "comment": "Based on social norm theory"
+    },
+    {
+      "id": "notification_13",
+      "type": "next_module_reminder",
+      "text::eng": "You’re building strong progress 💬. Continue by starting your next session!",
+      "comment": "Based on goal gradient theory"
+    },
+    {
+      "id": "notification_14",
+      "type": "next_module_reminder",
+      "text::eng": "Each session builds on the last ✨. Keep it going—start your next one now!",
+      "comment": "Based on goal gradient theory"
+    },
+    {
+      "id": "notification_15",
+      "type": "next_module_reminder",
+      "text::eng": "Great progress so far 💪. You’re getting closer—begin your next session today!",
+      "comment": "Based on goal gradient theory"
+    },
+    {
+      "id": "notification_16",
+      "type": "next_module_reminder",
+      "text::eng": "One step closer to the finish line 🏁. Begin your next chat session today!",
+      "comment": "Based on goal gradient theory"
+    }
+  ]
+}

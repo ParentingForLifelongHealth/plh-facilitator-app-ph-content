@@ -114,6 +114,13 @@
               "value"
             ]
           }
+        },
+        {
+          "name": "confirm_exit",
+          "value": true,
+          "exclude_from_translation": true,
+          "type": "set_variable",
+          "_nested_name": "header.confirm_exit"
         }
       ],
       "_nested_name": "header"

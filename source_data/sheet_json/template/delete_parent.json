@@ -1,0 +1,52 @@
+{
+  "flow_type": "template",
+  "flow_name": "delete_parent",
+  "status": "released",
+  "rows": [
+    {
+      "exclude_from_translation": true,
+      "comments": "@fields.current_parent_no"
+    },
+    {
+      "exclude_from_translation": true,
+      "comments": "@fields.current_parent_name"
+    },
+    {
+      "type": "title",
+      "name": "title",
+      "value": "Are you sure you want to delete @fields.current_parent_name?",
+      "exclude_from_translation": false
+    },
+    {
+      "type": "text",
+      "name": "text_warning",
+      "value": "This will delete all of @fields.current_parent_name parent data. The action cannot be undone.",
+      "exclude_from_translation": false
+    },
+    {
+      "type": "begin_display_group",
+      "name": "buttons"
+    },
+    {
+      "type": "button",
+      "name": "button_no",
+      "value": "Cancel",
+      "action_list": "click | emit: uncompleted",
+      "parameter_list": "style: card",
+      "style_list": "flex:1",
+      "exclude_from_translation": false
+    },
+    {
+      "type": "button",
+      "name": "button_delete",
+      "value": "Delete",
+      "action_list": "click | set_data |\n_list_id: parents,\n_id: @fields.current_parent_no,\narchived: true; \nclick | emit: completed;\nclick | set_data |\n_list_id: parents,\n_id: @fields.current_coparent_id,\nco_parent_id: \"\",\nco_parent_name: \"\"; ",
+      "parameter_list": "style: card",
+      "style_list": "flex:1",
+      "exclude_from_translation": false
+    },
+    {
+      "type": "end_display_group"
+    }
+  ]
+}

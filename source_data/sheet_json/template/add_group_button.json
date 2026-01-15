@@ -1,0 +1,30 @@
+{
+  "flow_type": "template",
+  "flow_name": "add_group_button",
+  "status": "released",
+  "rows": [
+    {
+      "name": "name",
+      "value": "test"
+    },
+    {
+      "name": "text",
+      "value": "test"
+    },
+    {
+      "name": "completed_field",
+      "value": "completed_@local.name"
+    },
+    {
+      "name": "pages_field",
+      "value": "pages_@local.name"
+    },
+    {
+      "type": "button",
+      "name": "save",
+      "value": "Save",
+      "action_list": "click | emit: completed;\nclick | add_data |\n_list_id: parent_groups,\narchived: FALSE,\nname: @local.name,\ntext: @local.text;\nclick | set_data |\n_list_id: sub_items,\n@local.completed_field: FALSE;\nclick | set_data |\n_list_id: modules,\n@local.completed_field: FALSE,\n@local.pages_field: FALSE;\nclick | emit: server_sync;",
+      "parameter_list": "variant: card; "
+    }
+  ]
+}

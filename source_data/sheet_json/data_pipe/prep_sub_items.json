@@ -1,0 +1,25 @@
+{
+  "flow_type": "data_pipe",
+  "flow_name": "prep_sub_items",
+  "status": "released",
+  "rows": [
+    {
+      "operation": "filter",
+      "args_list": "type == \"article\" && create_loop == \"create\"",
+      "input_source": "sub_items",
+      "output_target": "article_loops"
+    },
+    {
+      "operation": "filter",
+      "args_list": "type == \"article\"",
+      "input_source": "sub_items",
+      "output_target": "articles"
+    },
+    {
+      "operation": "filter",
+      "args_list": "type == \"menu\"",
+      "input_source": "sub_items",
+      "output_target": "menus"
+    }
+  ]
+}

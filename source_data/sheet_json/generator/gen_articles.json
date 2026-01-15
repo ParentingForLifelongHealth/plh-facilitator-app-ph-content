@@ -1,0 +1,27 @@
+{
+  "flow_type": "generator",
+  "flow_name": "gen_articles",
+  "status": "released",
+  "parameter_list": {
+    "input_data_list": "sub_items",
+    "output_flow_name": "articles_{@gen.id}",
+    "output_flow_type": "template"
+  },
+  "rows": [
+    {
+      "type": "begin_template",
+      "name": "article_story",
+      "value": "article_story",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "article_id",
+      "value": "@gen.id",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "end_template",
+      "exclude_from_translation": true
+    }
+  ]
+}

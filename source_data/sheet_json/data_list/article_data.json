@@ -1,0 +1,248 @@
+{
+  "flow_type": "data_list",
+  "flow_name": "article_data",
+  "status": "released",
+  "rows": [
+    {
+      "id": "@default",
+      "status": "released",
+      "attached_single_doc": "https://docs.google.com/document/d/1tsC8IqIV56NjH2MX4nJV57kP8ptFtofFU17PyOfy_mY/edit?tab=t.0#heading=h.n8fo4aq4xzbn"
+    },
+    {
+      "id": "overview_mapachat",
+      "status": "released",
+      "home_screen_section_list": "programme",
+      "title": "Ano ang MaPa Chat Hybrid Program?",
+      "introduction": "Ang MaPaChat program ay isang programa na idinedeliber sa mga grupo ng magulang para mapatibay ang relasyon ng mga pamilyang may mga anak edad 2 hanggang 17.\n\nLayunin ng programa na pagtibayin ang positibong relasyon ng magulang at anak para mabawasan ang pisikal at emosyonal na pang-aabuso at pagpapabaya sa mga bata.\n\nBago mo ideliber ito, kailangan lumahok ka sa isang masinsinang training ukol sa pagdeliber ng programa. Kapag natapos mo ang training, pwede mo nang maideliber ang programa na may coach na nakasuporta sa iyo."
+    },
+    {
+      "id": "layon_ng_mapachat",
+      "status": "released",
+      "home_screen_section_list": "programme",
+      "title": "Ano ang layon ng MaPa Chat?",
+      "introduction": "Ang MaPaChat Program ay isang parenting program na batay sa siyensya. Gumagamit ito ng digital na teknolohiya para masuportahan ang mga magulang. Ang pinakalayunin ng programa ay ang:\n\n1️⃣ mabawasan ang karahasan sa pamilya, \n2️⃣ mapatatag ang relasyon sa pagitan ng magulang at kanilang anak, at \n3️⃣ mapatibay ang pag-unlad ng bata sa pamamagitan ng in-person at online na pag-uusap ng grupo ng mga magulang na sinusuportahan ng isang facilitator.\n\nAng programa ay batay sa mga prinsipyong makikita sa mga iba’t ibang parenting programs na napatunayan nang epektibo.",
+      "introduction_2": "**Mga Mahalagang Prinsipyo ng Programa**\n\nAng facilitators at mga magulang ay nagtutulungan para makahanap ng solusyon sa mga problema.\n\nMga gawain na nakakaenganyo para sa mga magulang.\n\nPagpraktis ng mga natutunan kasama ang batang anak o tinedyer pagkatapos ng sesyon.\n\nPagkilala sa halaga ng suporta, pag-enganyo, at pagpuri para magtatag ng matibay at positibong relasyon.\n\nPagtatag ng mga patakaran sa bahay at klarong direksyon.\n\nMga mapayapa at alternatibong pamamaraan sa pagdidisiplina, kasama na rito ang paggamit ng konsekwensya.\n\nKung paano maaalagaan ng mga magulang ang kanilang mga sarili at mabawasan ang stress.\n\nAng kahalagahan ng pagbibigay ng ligtas na espasyo para mapag-usapan ang mga mabibigat na bagay at alitan sa bahay."
+    },
+    {
+      "id": "balangkas_ng_programa",
+      "status": "released",
+      "home_screen_section_list": "programme",
+      "title": "Balangkas ng Programa",
+      "introduction": "Ang programa ay nakapokus sa isang modyul bawat linggo sa loob ng walong (8) linggo. \n\nTatlo sa walong modyul ay papadaluyin ng in-person (Modyul 1, Modyul 5, at Modyul 8) at lima (Modyul 2, Modyul 3, Modyul 4, Modyul 6, at Modyul 7) naman ay online.",
+      "introduction_2": "MGA MODYUL NG MAPACHAT HYBRID PROGRAM\n\n**Modyul 1:** Pagpapakilala at One-on-One Time Kasama ang Iyong Anak\n\n**Modyul 2:** Pakikipag-usap Tungkol sa Damdamin\n\n**Modyul 3:** Manatiling Positibo! Pagbibigay ng Positibong Direksyon at Papuri\n\n**Modyul 4:** Pagpapanatiling Ligtas ang Anak gamit ang Patakaran at Regular na Gawain\n\n**Modyul 5:** Pangangasiwa ng Negatibong Kilos: Pagbaling ng Atensyon at Paggamit ng Konsekwensya\n\n**Modyul 6:** Pagtugon sa mga Mahihirap na Isyu at Problema\n\n**Modyul 7:** Pagbadyet ng Pamilya at Mga Paraan ng Pag-iipon\n\n**Modyul 8:** Pagharap sa Problema Bilang Pamilya at Pagninilay"
+    },
+    {
+      "id": "pagtaguyod_masayang_tahanan",
+      "status": "released",
+      "home_screen_section_list": "programme",
+      "title": "Pagtaguyod ng Masayang Tahanan",
+      "introduction": "Ginagamit ng MaPa ang imahe ng tahanang Pilipino para ipakita ang kahalagahan ng pagpapatibay ng matatag at positibong relasyon sa pagitan ng magulang at anak:",
+      "introduction_image": "images/08_masayang_tahanan.jpg",
+      "section_title_1": "Dingding",
+      "section_text_1": "Ang dingding ng tahanan ay simbolo ng positibong relasyon at pakikitungo ng magulang at anak: One-on-One time kasama ang anak, pakikipag-usap tungkol sa damdamin, pagbibigay ng positibong direksyon at papuri, at pagtatag ng patakaran sa tahanan bilang pagsuporta sa mabuting asal ng bata.\n\nAng haligi at dingding ang PUNDASYON ng pagiging mabuting magulang. Ito ang pinakamahalagang bahagi ng MaPa. Sa ating mga MaPa modyul, ang Modyul 1, 2, 3, at 4 ang siyang bumubuo ng “dingding” ng Masayang Tahanan.\n\nKapag naglaan ng mas maraming panahon ang magulang na patibayin ang kanilang positibong relasyon sa kanilang mga anak, kadalasan ay mababawasan ang pangangailan ng pagdidisiplina. Kapag naglaan ng mas maraming panahon ang magulang sa pakikipaglaro at pagpuri sa kanilang anak, mababawasan ang negatibong asal. Mas makararamdam ang anak ng suporta at kalinga mula sa\nmagulang. Mababawasan din ang stress ng magulang.",
+      "section_title_2": "Bubong",
+      "section_text_2": "Pagdating naman sa bubong, ang binibigyang pansin ay ang pagbibigay ng mga alternatibong paraan upang tugunan ang negatibong kilos ng anak, at kung paano tugunan at solusyunan ang mahihirap na isyu sa tahanan.\nSa ating mga MaPa modyul, ang Modyul 5 at 8 ang siyang bumubuo ng “bubong” ng Masayang Tahanan.\n\nKung ang dingding ng Masayang Tahanan ay matatag, ang bubong ay mas madaling panatilihin. Kung ang dingding ay mahina, mababa ang kalidad ng materyales, o kung palaging abala ang magulang sa bubong (pagdisiplina, pagbibigay ng konsekwensya) na hindi pinapalakas ang haligi at dingding, babagsak ang Masayang Tahanan.",
+      "section_title_3": "Bakod",
+      "section_text_3": "Ang Modyul 6 ng MaPa ang siyang bumubuo ng “bakod”. Ang bakod ay tungkol sa pagbibigay ng paggabay at proteksyon sa anak. Habang humaharap ang anak sa iba't ibang mga hamon sa kanilang pagtanda, ang mga magulang ay kailangang magbigay ng patnubay at suporta upang sila ay maging handa para harapin ang iba’t ibang karanasan. Sa pamamagitan ng pag-aalaga at suporta,\nang mga magulang ay tumutugon sa mga pangangailangan ng kanilang mga anak at tumutulong na makamit ng kanilang mga anak ang kanilang mga hangarin sa hinaharap.",
+      "section_title_4": "Hardin",
+      "section_text_4": "Ang Modyul 7 ng MaPa ang siyang bumubuo ng “hardin”. Ang hardin ay tungkol sa paggawa ng paraan na suportahan ang pamilya. Kasama nito ay ang pagdesisyon kung paano gagastusin ang pera na nagbibigay halaga sa mga pangunahing pangangailangan ng pamilya. Sa lahat ng MaPa modyul, ang “Sinag ng Atensyon at Aruga” ay nangingibabaw. Mapapabatid ito sa pamamagitan ng mahinahong paraan ng pakikipag-usap at sa pagbibigay ng atensyon sa anak. Sa abot ng makakaya, dapat nating ipadama na mapagkakatiwalaan ang kanilang mga tagapag-alaga. Makatutulong ito sa lubos na pagkilala at sa pagpapalalim ng relasyon sa bata, na magiging daan sa epektibong pagtaguyod ng isang Masayang Tahanan."
+    },
+    {
+      "id": "pagpapadaloy_programa",
+      "status": "released",
+      "home_screen_section_list": "programme",
+      "title": "Pagpapadaloy ng Programa",
+      "introduction": "Tatlo sa walong modyul ay papadaluyin ng in-person (Modyul 1, Modyul 5, at Modyul 8) at lima (Modyul 2, Modyul 3, Modyul 4, Modyul 6, at Modyul 7) naman ay online.\n\nAng pangunahing paraan sa pagtuturo na gamit sa programa ay ang paggawa ng mga gawain nang sama-sama para matuto nang sabay-sabay, imbes na matuto sa pamamagitan ng utos o direksyon ng facilitator. Ang paraang ito ay nakakatulong para matulungan ang mga kalahok na matuto habang may mga sessions at habang nagpapraktis sa bahay. Mas naaalala at naiintindihan natin ang mga bagay kapag nasubukan nating gawin ang mga ito.\n\nMagiging epektibo ang programa kapag komportable ang mga magulang na magbahagi ng mga nangyayari sa kanilang bahay at bilang facilitator, mayroon kang relasyon sa mga magulang at komunidad kung saan nakatira ang mga magulang. Ito ang mga pwedeng gawin para masiguro na mangyayari ito:\nSiguruhing mayroon kang relasyon sa mga magulang bago pa kayo mag-chat online.\nMahalaga na kilala ng mga magulang ang isa’t isa.\nKung posible, mainam na kilala mo ang komunidad kung saan nakatira ang mga magulang.",
+      "section_title_1": "Indibidwal na Konsultasyon",
+      "section_text_1": "Ang pakikipagkwentuhan sa magulang nang paisa-isa bago pa mag-umpisa ang programa ay nagbibigay sa mga magulang ng pagkakataong makilala ang programa at makapagtanong tungkol sa kanilang partisipasyon sa programa. Mabibigyan ka rin ng pagkakataong makilala ang mga magulang na parte ng iyong group chat. Mahalagang makilala mo at makausap ang bawat magulang bago magsimula ang programa. Ang pakikipag-usap na ito ay gagawin nang personal. Mayroon ding individual consultation form na magsisilbing gabay ng mga facilitators sa pakikipag-usap na ito.",
+      "section_title_2": "In-person Session",
+      "section_text_2": "Ang in-person na bahagi ng programa ay kinabibilangan ng:\nOne-on-one na pagkonsulta sa mga magulang bago magsimula ang mga sesyon;\nTatlong (3) in-person na sesyon (week 1, 5, at 6)\nInaanyayahan ang mga kalahok na makipagkita kada linggo kasama ang kanilang MaPa Partner upang pag-usapan ang mga pabaong gawain. Ang “Partner” ay isa pang kalahok na magiging kapares nila mula sa programa;\nKung naisin ng mga kalahok, maaari silang magpatuloy sa pagtitipon bilang grupo upang mapanatili ang pagsuporta sa isa’t isa kahit natapos na ang programa. Maaaring makatulong ang ganitong ugnayan ng grupo upang harapin ang iba pang isyu sa komunidad tulad ng serbisyong pangkalusugan at edukasyon, at iba pang uri ng pagsuporta mula sa gobyerno.\n\nDALAWANG (2) facilitators ang magtutulungan\nupang magdeliber ng session. Susuportahan nila ang isa’t isa sa pagpapadaloy ng mga activities at pagtatala ng mga mahahalagang obserbasyon at notes sa gitna ng session. Maliban sa group chat, pwede mo ring suportahan ang mga magulang sa pamamagitan ng mga direct message (DM) o pagtawag para mangamusta sa mga hamon o isyu sa paggawa ng mga activities at ma-konek ang mga magulang sa serbisyo na makakatulong sa kanila.",
+      "section_title_3": "Online Session",
+      "section_text_3": "Ang online na bahagi ng programa ay ibinibigay sa pamamagitan ng tinatayang isang oras na chat session na nangyayari isang beses bawat linggo. Nagbibigay din ang facilitator ng mga mensahe para masuportahan ang mga magulang sa kanilang gawain sa pagitan ng mga chat sessions:\n\n**Unang araw:** Sa unang araw, sabay sabay na naka-online ang facilitator at ang buong grupo para sa isang live chat na sesyon. Dito nagpapakilala ng bagong paksa at kasanayan sa parenting. Nakatuon ang bawat linggo sa iisang paksa tungkol sa parenting. Ang paksa ay tinatalakay gamit ang komiks at ang pag-uusap sa grupo na ginagabayan ng facilitator. Sa panghuling bahagi ng pag-uusap, binibigyan ang mga magulang ng home activities o mga pabaong gawain sa bahay – hinihikayat silang subukang gamitin ang MaPa skill sa linggong iyon sa kanilang anak sa bahay.\n**Pangatlong araw:** Sa kalagitnaan ng linggo, nagpapadala ang mga facilitators ng isang mensahe para paalalahanan at suportahan ang mga magulang sa kanilang home activity or pabaong gawain sa bahay.\n**Panglimang araw:** Nagpapadala ng mensahe ang mga facilitators na inaanyayahan ang mga magulang magbahagi ng kanilang mga tagumpay at hamon sa paggamit ng mga MaPa skills sa tahanan. Pag-uusapan itong mga karanasan sa susunod na session.\n\nGumagamit ang programa ng Viber na isang online messaging app na ligtas at madaling gamitin para sa mga facilitators at mga magulang. Ang mga online sessions ay idedeliber din ng DALAWANG (2) facilitators. Kalakip ng MaPaChat ay isang live chat session bawat linggo. Bilang facilitator, gagabayan mo ang group chat session gamit ang Viber."
+    },
+    {
+      "id": "aecp_skills",
+      "status": "released",
+      "home_screen_section_list": "guide",
+      "title": "MaPa Facilitation Skills",
+      "introduction": "Ang A-E-C-P ang pundasyon ng pagtutulungan o kolaborasyon ng facilitator at magulang sa mga programa ng PLH. Importante din na bilang facilitator, naimomodelo mo sa mga magulang ang Active Listening (aktibong pakikinig) para gawin din nila ito para sa kanilang mga anak.\n\nMay apat na aspeto ang A-E-C-P na ginagamit sa anumang oras habang tinatalakay ang mga modyul at habang tinutulungan ang mga magulang: Accept (Pagtanggap), Explore (Paghimay), Connect (Pag-ugnay), and Practice (Praktis).",
+      "section_title_1": "Accept/Pagtanggap",
+      "section_text_1": "Nakakadagdag ng kumpiyansa sa magulang kapag may bukas na pagtanggap sa kanyang ibinahagi. Walang maling sagot. Maaaring ipahiwatig ang pagtanggap kapag ibinubuod o inuulit ng facilitator ang ibinahagi ng magulang sa buong grupo.\n\nIto ay pinapakita rin na naiintindihan ng facilitator anuman ang ibinabahagi. ",
+      "section_title_2": "Explore/Paghimay",
+      "section_text_2": "Magbigay ng oras at pasensya sa paghimay sa karanasan ng mga magulang. Minsan, kinakailangan magtanong at makinig sa mga detalye ng mga nangyari para maunawaan ang sitwasyon nang maayos. Kapag ginagawa ito ng facilitator sa mga pag-uusap, isinusulong niya ang pagiging mausisa o mapagtanong ukol sa saan, ano, nino, at bakit ng anumang karanasan. Subukin lagi ang paghimay sa kabuuang karanasan!",
+      "section_title_3": "Connect/Pag-ugnay",
+      "section_text_3": "Maaaring iugnay ang mga karanasan ng magulang sa mga tema ng bawat modyul. Sa loob ng grupo, maaaring ang mga magulang din ang siyang magsasabi kung paano maiuugnay ang kanilang mga natutunan sa iba’t ibang parte ng kanilang mga buhay.",
+      "section_title_4": "Practice/Praktis",
+      "section_text_4": "Ang isang prinsipiyo ng MaPa ay “ang pagsasabahay ay pagsasabuhay.” \n\nAyon sa ebidensiya ng siensya, mas magagamit ng mga magulang ang mga bagong natutunang kasanayan sa bahay kapag ang mga ito ay pinapraktis sa loob ng sesyon. Kaya kinakailangang bigyan sila ng maraming pagkakataon magpraktis ng mga importanteng kasanayan. \n\nPwede rin magpraktis habang nag-uusap tungkol sa home activity o pabaong gawain, kagaya ng kapag may ibinabahaging hamon ang isang magulang. Sa ganitong paraan, ang magulang ay magkakapagpraktis ng posibleng solusyon bago ito subukan sa bahay.\n\nBigyan ng atensyon ang magulang na nagsasalita. Maging mapagpasensya. Bigyan ng panahon ang mga magulang isulat o sabihin ang kanilang saloobin bago hikayatin ang ibang kalahok na maghagi ng kanilang ideya.",
+      "section_title_5": "A-E-C-P tungkol sa mga Sensitibong Isyu",
+      "section_text_5": "Mainam na mabigyang halaga ng mga facilitator ang paggamit ng Accept (Pagtanggap), Explore (Paghimay), Connect (Pag-ugnay) at Practice (Praktis) sa mga talakayan tungkol sa mga sensitibong isyu tulad ng pang-aabuso ng droga o ng sekswal na pagkilos. Narito ang ilang paraan sa paggamit ng ganitong mga kasanayan:\n\nTanggapin ang sinasabi ng kalahok sa pagpapakita na ikaw ay nakikinig at pagkilala sa kanilang katapangan sa pagbahagi tungkol sa sensitibong isyu na pinagdadaanan ng kanilang pamilya sa tahanan at komunidad. \nTanggapin ang anumang nararamdaman ng mga kalahok sa pamamagitan ng pag-intindi at pagbigay-respeto sa mga ito. Purihin muli ang mga kalahok sa kanilang lakas ng loob na ibahagi ang mga damdamin nila. \nTanggapin ang binabahagi ng mga kalahok at ipaalala sa kanila na sila ang makakapagdesisyon kung ano ang nais nilang ibahagi tungkol sa kanilang karanasan. Ipadama sa kanila na ligtas na espasyo ang binibigay ng programa upang mapag-usapan nila ang anumang isyu na kanilang pinagdadaanan. \nTanggapin ang anumang nais ibahagi ng mga kalahok. Hindi nila kinakailangang sagutin ang mga tanong na maaaring sensitibo para sa kanila. \nHimayin ang kanilang mga karanasan sa pamamagitan ng pagpapaalala na walang tama o maling pagbabahagi sa talakayan ng grupo—kung ito man ay tungkol sa kanilang reaksyon tungo sa pag-aabuso ng droga o sekswal na pagkilos. Sing-dami ng mga opinyon, karanasan, at pag-iisip ang dami ng mga tao. Bilang facilitator, mahalagang mapanatili ang respeto sa pakikinig at pagbabahagi ng bawat kalahok ng grupo. \nAng pag-ugnay sa mga sesyon tungkol sa pagbabahagi ng emosyon, pagtutulungan sa paglutas ng problema, at pagbuo ng mga layunin ay mahalaga sa pakikipag-usap sa mga kalahok tungkol sa sensitibong isyu. \nIugnay din ang talakayan sa “Pagtigil nang Sandali” sa tuwing nagdudulot na ito ng stress. \n\nSa kasagsagan ng programa, pag-uusapan ninyo ang mga sensitibong isyu. Mahalagang maalala na okay lang kung wala kang kasagutan sa lahat ng mga tanong tungkol sa mga paksang ito. \n\n**Tandaan:** Ang inyong trabaho bilang facilitator ay gabayan lamang ang mga magulang na makabuo ng kanilang sariling solusyon sa mga problemang kanilang hinaharap. \n\nMaaari ninyong tanungin sa inyong coach/supervisor kung saan makakakuha ng propesyonal na serbisyo o tulong ang mga kalahok sa kanilang pangangasiwa ng sensitibong isyu sa kanilang mga pamilya. \nIpaalala sa mga kalahok at inyong mga sarili ang mga panggagalingan ng suportang ito. "
+    },
+    {
+      "id": "aecp_sensitive",
+      "status": "released",
+      "home_screen_section_list": "guide",
+      "title": "A-E-C-P tungkol sa mga Sensitibong Isyu",
+      "introduction": "Mainam na mabigyang halaga ng mga facilitator ang paggamit ng Accept (Pagtanggap), Explore (Paghimay), Connect (Pag-ugnay) at Practice (Praktis) sa mga talakayan tungkol sa mga sensitibong isyu tulad ng pang-aabuso ng droga o ng sekswal na pagkilos. Narito ang ilang paraan sa paggamit ng ganitong mga kasanayan:\n\nTanggapin ang sinasabi ng kalahok sa pagpapakita na ikaw ay nakikinig at pagkilala sa kanilang katapangan sa pagbahagi tungkol sa sensitibong isyu na pinagdadaanan ng kanilang pamilya sa tahanan at komunidad. \nTanggapin ang anumang nararamdaman ng mga kalahok sa pamamagitan ng pag-intindi at pagbigay-respeto sa mga ito. Purihin muli ang mga kalahok sa kanilang lakas ng loob na ibahagi ang mga damdamin nila. \nTanggapin ang binabahagi ng mga kalahok at ipaalala sa kanila na sila ang makakapagdesisyon kung ano ang nais nilang ibahagi tungkol sa kanilang karanasan. Ipadama sa kanila na ligtas na espasyo ang binibigay ng programa upang mapag-usapan nila ang anumang isyu na kanilang pinagdadaanan. \nTanggapin ang anumang nais ibahagi ng mga kalahok. Hindi nila kinakailangang sagutin ang mga tanong na maaaring sensitibo para sa kanila. \nHimayin ang kanilang mga karanasan sa pamamagitan ng pagpapaalala na walang tama o maling pagbabahagi sa talakayan ng grupo—kung ito man ay tungkol sa kanilang reaksyon tungo sa pag-aabuso ng droga o sekswal na pagkilos. Sing-dami ng mga opinyon, karanasan, at pag-iisip ang dami ng mga tao. Bilang facilitator, mahalagang mapanatili ang respeto sa pakikinig at pagbabahagi ng bawat kalahok ng grupo. \nAng pag-ugnay sa mga sesyon tungkol sa pagbabahagi ng emosyon, pagtutulungan sa paglutas ng problema, at pagbuo ng mga layunin ay mahalaga sa pakikipag-usap sa mga kalahok tungkol sa sensitibong isyu. \nIugnay din ang talakayan sa “Pagtigil nang Sandali” sa tuwing nagdudulot na ito ng stress. \n\nSa kasagsagan ng programa, pag-uusapan ninyo ang mga sensitibong isyu. Mahalagang maalala na okay lang kung wala kang kasagutan sa lahat ng mga tanong tungkol sa mga paksang ito. \n\n**Tandaan:** Ang inyong trabaho bilang facilitator ay gabayan lamang ang mga magulang na makabuo ng kanilang sariling solusyon sa mga problemang kanilang hinaharap. \n\nMaaari ninyong tanungin sa inyong coach/supervisor kung saan makakakuha ng propesyonal na serbisyo o tulong ang mga kalahok sa kanilang pangangasiwa ng sensitibong isyu sa kanilang mga pamilya. \nIpaalala sa mga kalahok at inyong mga sarili ang mga panggagalingan ng suportang ito. "
+    },
+    {
+      "id": "oryentasyon_magulang",
+      "status": "released",
+      "home_screen_section_list": "guide",
+      "title": "Gabay Para sa Oryentasyon ng mga Magulang at Tagapag-alaga",
+      "introduction": "Ang Oryentasyon ang nagsisilbing panimula ng buong MaPa Chat Hybrid Program. Mahalaga itong pagkakataon para makalikha ng isang welcoming at ligtas na space kung saan magiging komportable ang mga participants at masasanay sila sa takbo ng programa. Bago magsimula ang inyong pagpapadaloy ng MaPa modules, magtakda ng isang araw para gawin ang Oryentasyon ng mga Magulang at Tagapag-alaga. Maaari itong gawin pagkatapos ng Home Visits o Individual Consultation. Ang layunin ng Oryentasyon ay:\n\n1️⃣ Ipakilala ang MaPa Program\n2️⃣ Ipakilala ang Viber\n3️⃣ Mga Paalala",
+      "section_title_1": "Ipakilala ang MaPa Program",
+      "section_text_1": "Gamitin ang impormasyon sa “Pagpapakilala sa MaPa Chat Hybrid Program” na parte ng handbook. Sa pagpapakilala ng MaPa program, importante na matalakay sa mga magulang at tagapag-alaga ang mga susunod:\n\n1️⃣ Ano ang MaPa Chat Hybrid Program?\n2️⃣ Masayang Tahanan\n3️⃣ Mga Modyul ng Programa\n4️⃣ Mga Layunin ng Programa",
+      "section_title_2": "Ipakilala ang Viber",
+      "section_text_2": "Gamitin ang oras ng oryentasyon para siguraduhin na nakapagdownload na ng Viber app ang lahat ng magulang at tagapag-alaga sa kanilang mga cellphone. Maaari rin maglaan ng oras para turuan ang mga magulang kung paano gumamit ng iba’t ibang features ng Viber app. Maaari rin gumawa ng mga patakaran na susundin tuwing online chat sessions.",
+      "section_title_3": "Mga Paalala",
+      "section_text_3": "Sa huling parte ng oryentasyon, magbigay ng mga paalala sa mga magulang at tagapag-alaga tungkol sa iskedyul at venue ng Module 1 session."
+    },
+    {
+      "id": "viber_group",
+      "status": "released",
+      "home_screen_section_list": "guide",
+      "title": "Paano Gumawa ng Viber Group",
+      "introduction": "Pwede kang gumawa ng Groups kasama ang kahit sino sa contacts mo — at kahit hindi sila naka-save sa phone mo, basta meron kang number nila.*\n\nSa Phone:\n1️⃣ Buksan ang **Rakuten Viber** sa phone mo\n2️⃣ I-tap mo ang **Chats**\n3️⃣ Sa Android, tap mo ang **Compose**; sa iOS naman, tap mo ang **create-new-chat**\n4️⃣ Piliin ang **New group o community**\n5️⃣ Piliin ang mga contacts na gusto mong isama sa group\n6️⃣ I-tap mo ang **Checkmark** (sa Android) o **Next** (sa iOS) para kumpirmahin\n7️⃣ Kung gusto mong maglagay ng group icon, tap mo ang Camera. Puwede kang kumuha ng bagong photo o pumili mula sa gallery mo.\n8️⃣ Tap mo ang **Name your group** at ilagay ang pangalan ng group\n9️⃣ I-tap mo ang **Create Group** (Android) o **Done** (iOS) para matapos",
+      "section_title_1": "Kung gusto mong magdagdag ng tao na wala sa contacts mo:",
+      "section_text_1": "I-type ang phone number nila sa search bar gamit ang international format:\n+(country code)(area code, walang 0 sa unahan)(phone number)\nPag lumabas ang number, tap mo ito para ma-select at ma-add sa group"
+    },
+    {
+      "id": "viber_chat",
+      "status": "released",
+      "home_screen_section_list": "guide",
+      "title": "Paano Pangasiwaan ang Viber Group Chat Session",
+      "introduction": "**Bago simulan ang mga chat session, siguraduhing:**\nGumawa ng Viber Group sa mismong onboarding session.\nMag-set ng ground rules para sa Viber Group.\n\n**Daloy ng chat sessions:**\n**UNANG ARAW**\nLive Chat Session: Pagpapakilala sa MaPa Skill\n\n**PANGATLONG ARAW**\nPagpapaalala na Magpraktis\n\n**PANGLIMANG ARAW**\nPaghingi ng Feedback tungkol sa mga karanasan ng mga magulang at tagapag-alaga sa pagpraktis ng Pabaong Gawain\n\n**Kailan ipapadala ang mga mensahe:**\nKayo ng group ninyo ang mag-uusap kung anong oras ang chat schedule, ito'y gagawin sa oryentasyon.\nBawat chat session ay may reminder message (Message 1) na dapat ipadala ilang oras bago ang mismong chat session.\nIpadala ang mga natitirang messages sa mismong oras ng live chat session."
+    },
+    {
+      "id": "safeguarding_ingat",
+      "status": "released",
+      "home_screen_section_list": "safeguarding",
+      "title": "Pag-Iingat",
+      "introduction": "Ang pag-iingat ay ang pangangalaga sa kalusugan, kapakanan, at karapatan ng mga indibidwal, at masigurong sila ay nabubuhay na ligtas sa dahas, abuso, at pagpapabaya. Naniniwala ang PLH na lahat ng ating nakakasalamuha, ano pa man ang edad, kasarian, kakayahan, relihiyon o etnikong pinagmulan, ay may karapatang maipagtanggol sa lahat ng klase ng karahasan, abuso, pagpapabaya, at pagsasamantala ng kung sino mang may kaugnayan sa programa.\n\nGagawin natin ang lahat para masigurong ang epekto ng programa ay hindi makakasama, lalong lalo na sa mga bulnerable."
+    },
+    {
+      "id": "safeguarding_protokol",
+      "status": "released",
+      "home_screen_section_list": "safeguarding",
+      "title": "Protokol",
+      "introduction": "Ang protocol na nakalista rito ay may kinalaman sa pag-iingat sa batang edad 17 at pababa.\n\nAng lahat ng staff at nagtatrabaho para sa MaPaChat (kasama ang mga volunteers) ay magpoprotekta laban sa anumang klase ng pagsasamantala at abuso, at hindi gagawin ang mga sumusunod:\n\nGagawa ng anumang sekswal na gawain kasama ang batang edad 17 at pababa o sa mga indibidwal na walang kalaban-laban sa pagsasamantala o pang-aabuso. \nMananamantala o mang-aabuso ng sekswal sa bata o matatanda.\nMagpapabaya o mang-aabuso ng pisikal, emosyonal o sikolohikal ng bata o matatanda.\nMakikisali sa anumang pagsasamantalang may kaugnayan sa pera kasama na ang child labor, pang-aalipin, o trafficking. \nMagpapabaya sa pangangalaga ng personal na impormasyon ng mga bata at walang kalaban-labang mga nakatatanda, lalo na ang paggamit ng mga impormasyon nang walang pahintulot.\nMakikipagtalik o masasangkot sa sekswal na gawin kapalit ang pera, trabaho, ari-arian, o serbisyo. Kasama rin din ang pakikipagtalik o paggawa ng sekswal na gawain kapalit ng ayuda o tulong. \nMakikipagtalik o masasangkot sa sekswal na gawain kasama ang mga tatanggap ng tulong, dahil hindi pantay ang kapangyarihan ng mga tao sa relasyong ito."
+    },
+    {
+      "id": "safeguarding_report",
+      "status": "released",
+      "home_screen_section_list": "safeguarding",
+      "title": "Pagreport",
+      "introduction": "I-report ang pagkabahala o suspetsa na may kaugnayan sa hindi pagsunod ng protocol sa pangangalaga sa ganitong paraan:\n\n1. Magre-report sa [ang tamang ahensiya ng gobyerno ay tutukuyin ng coach] ang MaPaChat staff na may pagkabahalang kaugnay sa hindi pagsunod ng child protection protocol.\n\n2. Kung ang staff ay hindi komportable na mag-report sa tinukuyang ahensiya (halimbawa, dahil tungkol sa tauhan nito ang ire-report, o may pakiramdam ang staff na hindi ito seseryosohin), kailangan mag-report sa [ang iba pang ahensiya ng gobyerno ay ipapangalan ng coach].\n\nLahat ng ire-report ay pakikinggan. Kung ang taong sangkot sa paratang ay staff ng MaPaChat, ang report ay agarang isasaalang-alang.\n\nSiguraduhing sundan ang mga nakatakdang child protection at referral protocols!"
+    },
+    {
+      "id": "safeguarding_confidentiality",
+      "status": "released",
+      "home_screen_section_list": "safeguarding",
+      "title": "Pagka-kumpidensiyal",
+      "introduction": "Mahalagang maipatupad sa mga grupo sa MaPaChat ang pagpapanatili ng pagiging kumpidensiyal. Ang grupo ay pribado. Lahat ng group chat ay tatanggalin pagkatapos ng programma maliban kung ito ay ibabahagi sa mga mananaliksik para pag-aralan ang programa.\nKung may pangangailangang i-suspendi ang pagiging kumpidensiyal, ito ay dahil ang magulang ay nagkwento o nagpakita ng ebidensya ng pang-aabuso (pisikal, emosyonal o sikolohikal). Kailangan ding i-suspendi ng facilitator ang pagka-kumpidensiyal nito kung may posibilidad ng pinsala sa sarili o sa ibang tao. Kapag nangyari ito, siguruhing makipag-usap sa taong sangkot sa isyu."
+    },
+    {
+      "id": "safeguarding_asikaso",
+      "status": "released",
+      "home_screen_section_list": "safeguarding",
+      "title": "Pag-aasikaso sa mga pagsisiwalat ng pang-aabuso",
+      "introduction": "Bilang facilitator, maaaring makatagpo ka ng kaso ng mga pang-aabuso, pagpapabaya o pagsasamantala, kasama na ang pisikal, emosyonal, sekswal na pang-aabuso at pagpapabaya. Siguruhing alam mo ang protocol sa pangangalaga at mga polisiya at pamamaraan sa pagtatanggol ng bata ng iyong organisasyon. Siguraduhin ding alam ng mga kalahok sa iyong grupo na nandiyan ka para tumulong.\n\nMahalagang alam mo ang mga batas tungkol sa mga sumusunod para matulungan kang kilalanin ang mga panganib:\nChild protection \nAng legal na edad sa pagbibigay ng pahintulot sa pakikipag-sex o sekswal na aktibidad\nHindi pagkakapantay-pantay ng edad at kapangyarihan sa pagitan ng mga nakikipagtalik\nKarahasang may kinalaman sa kasarian\n\nMahalaga ring malaman mo kung anu-ano ang mga serbisyo para sa mga pamilyang kailangan ng tulong. Kabisaduhin ang mga ganitong serbisyo. Siguraduhing ilagay ang mga contact details ng pulis, ospital o clinic, counselling services, at mga legal support kung merong mga ganitong serbisyo sa inyong komunidad. "
+    },
+    {
+      "id": "faq_text_support",
+      "home_screen_section_list": "faq",
+      "title": "May magulang na nangangailangan ng tulong sa pag-access ng chatbot, at hindi ako sigurado kung paano sasagutin ang tanong nila.",
+      "introduction": "Makipag-ugnayan na lang sa MaPa Org., Inc. para sa suporta."
+    },
+    {
+      "id": "faq_ground_rules",
+      "home_screen_section_list": "faq",
+      "title": "May magulang na hindi makasunod sa ground rules.",
+      "introduction": "Ang mga ground rules ay tumutulong para maging komportable, may malasakit, at ligtas ang Viber Group para sa lahat.\n\nKung may makalimot sa ground rules, pwedeng ipadala ang mensaheng ito bilang mahinahong paalala kung gaano ito kahalaga. \n\nKung kinakailangan, magpadala ng paalala sa buong grupo tungkol sa kahalagahan ng pagpapanatili ng positibo at magalang na pakikitungo.\n\nKung, sa kabila ng mga paalala, patuloy pa rin ang magulang sa hindi pagsunod sa mga patakaran, ipagbigay-alam ito sa iyong coach.\n\nMaaari mong alisin ang magulang sa grupo bilang huling opsyon—gawin lang ito kung talagang kinakailangan. Halimbawa, kung paulit-ulit (higit sa dalawang beses) siyang nagbabahagi ng mga hindi kaugnay na bagay, gumagamit ng hindi angkop na wika, o nambabastos ng ibang miyembro.\n\nKung aalisin mo ang isang miyembro sa grupo, gawin ito nang may paggalang at pang-unawa. Siguraduhing kausapin muna ang magulang nang pribado, ipaalala sa grupo ang ground rules, at ipagbigay-alam sa iyong coach.",
+      "message_title_1": "Ipadala ang mensahe na ito sa buong grupo:",
+      "message_text_1": "Hello ⭐\n\n👀 Gusto ko lang sanang magpaalala tungkol sa kahalagahan ng ating group ground rules.\n\n💚 Nandito ang mga ito para siguraduhing lahat tayo ay komportable magbahagi at mapanatili ang positibong samahan.\n\n🌱 Layunin natin na maging maayos at welcoming ang grupong ito para sa lahat.\n\n❗ Paalala lang na kung hindi natin masusunod nang tuloy-tuloy ang ground rules, maaaring kailanganin naming alisin ang ilang miyembro mula sa Viber group para sa kapakanan ng lahat.\n\nKita-kits sa susunod na chat session!",
+      "message_title_2": "Ipadala ang paalala na ito sa magulang na lumabag sa ground rule:",
+      "message_text_2": "Hello ⭐\n\n👀 Mahalagang mapanatili natin ang positibong samahan sa ating Viber group, at nakasalalay ito sa ating lahat na sumunod sa ground rules.\n\n🌱 Naniniwala ako sa lakas ng ating komunidad.\n\nPero kung magpapatuloy pa rin ang mga paglabag, maaaring kailanganin kong isaalang-alang ang pag-alis ninyo sa grupo.\n\nSama-sama tayong magtulungan para mapanatili ang magalang at ligtas ang lahat sa ating Viber group chat.\n\nKita-kits sa susunod na chat session!",
+      "message_title_3": "Ipadala ang mensaheng ito sa magulang pagkatapos silang alisin sa Viber Group:",
+      "message_text_3": "Hello ⭐\n\n👀 Napansin ko po na sa kabila ng mga paalala, hindi pa rin nasusunod ang ating ground rules.\n\n💚 Maaari pa rin po kayong magpatuloy sa pagkatuto mula sa MaPa Org., Inc., pero sa kasamaang-palad, inalis ko na po kayo sa Viber group upang mapanatili ang positibong samahan para sa lahat.",
+      "message_guidance_3": "Ipaalam sa iyong coach kapag inalis mo sila.\n\nMaaari mo ring i-block ang magulang kung patuloy silang magpapadala ng mensahe sa iyo.",
+      "message_title_4": "Ipadala ang mensaheng ito sa grupo pagkatapos alisin ang magulang na lumabag sa ground rule.",
+      "message_text_4": "Hello sa inyong lahat!\n\n👀 Nais natin na maging positibo ang ating grupo para sa lahat, at nangangahulugan ito ng pagsunod sa mga patakaran.\n\n💚 Sa kasamaang-palad, may isang miyembro na kinailangang alisin dahil hindi nila nasunod ang mga patakaran kahit na may mga paalala.\n\nPananatilihin nating magalang at suportado ang isa’t isa.\n\nKita-kits sa susunod na chat session!"
+    },
+    {
+      "id": "faq_misbehaviour",
+      "home_screen_section_list": "faq",
+      "title": "May magulang na patuloy na nagme-message o tumatawag sa akin ng maraming tanong tungkol sa kanilang mga paraan ng pagpapalaki ng anak o mga negatibong kilos ng anak nila.",
+      "introduction": "Minsan, nakikita ng mga magulang na ikaw ay maaari nilang lapitan pati na rin sa mga payo tungkol sa asal ng kanilang anak at iba pang isyu sa pamilya.\n\nKahit na nais mong tumulong, mahalaga pa rin na maglaan ka ng balanse para sa iyong kapakanan.\n\nIpadala ang mensaheng ito upang mahinahong ipaalala sa mga magulang ang iyong papel sa MaPa program.\n\nKung nagpatuloy pa rin ang mga magulang, ipagbigay-alam ito sa iyong coach.",
+      "message_title_1": "Ipadala ang mensaheng ito sa magulang:",
+      "message_text_1": "Hello! Salamat po sa inyong mensahe.\n\nPasensya na po at hindi ako makareply sa lahat ng personal na mensahe. Kung komportable po kayong magpost inyong mga tanong sa grupo, malaya po kayong magtanong sa ating Viber group chat para po isang buong grupo natin mapag-isipan ang mga posibleng solusyon sa mga hamon."
+    },
+    {
+      "id": "faq_no_participation_general",
+      "home_screen_section_list": "faq",
+      "title": "Paano kung walang magreply sa groupchat?",
+      "introduction": "Minsan mahirap hikayatin ang mga magulang na makilahok sa group chat. Maaaring kailangan nila ng kaunting paghimok o encouragement para ibahagi ang kanilang mga karanasan, o kaya naman abala sila sa kanilang mga iskedyul.\n\nMinsan, kailangan lang ng mga tagapag-alaga ng isang tao para makilahok.\n\nKung manahimik ang chat pagkatapos ng prompt, maaaring ibahagi ang mga ideya o suhestiyon na ito:",
+      "message_title_1": "Direktang tanungin ang isang partikular na magulang na magbahagi.",
+      "message_text_1": "[Pangalan ng Magulang], gusto naming marinig kung kumusta ang linggo ninyo. Maaari mo ba itong ibahagi sa amin?",
+      "message_guidance_1": "Bago i-send ang mensahe, siguraduhing i-tag ang isang partikular na magulang sa pamamagitan ng pag-type ng @Pangalan ng Magulang.",
+      "message_title_2": "I-check o tanungin kung okay ang oras ng Viber chat.",
+      "message_text_2": "Hello Mga Magulang, 👋\n\n⏱️Pinahahalagahan ko ang inyong oras at gusto kong siguraduhin na ang ating chat ay convenient para sa lahat.\n\n⭐Okay lang ba sa inyo ang ganitong oras para sa ating usapan?\n\n🔔May iba pa po ba kayong oras na mas bagay o mas komportable para sa inyo?\n\nMahalaga po ang inyong opinyon!"
+    },
+    {
+      "id": "faq_small_group_active",
+      "home_screen_section_list": "faq",
+      "title": "Lilan lang sa mga magulang ang aktibong nakikilahok sa chat sessions, habang ang iba ay hindi sumasagot.",
+      "introduction": "Medyo hamon talaga ang mahikayat ang lahat na sumali sa chat sessions. Maaaring abala ang ibang magulang, mahiyain, o mas gusto lang nilang magbasa ng mga karanasan ng iba.\n\nNarito ang ilang tips para mas maengganyo silang makilahok:\n\n1️⃣Direktang magtanong sa isang magulang gamit ang pag-tag ng magulang (@pangalan) sa Viber.\n2️⃣I-share ang isa sa mga mensahe sa ibaba para sa buong grupo.\n3️⃣Maari ring magpadala ng pribadong mensahe sa isang magulang (tingnan ang mensahe sa ibaba).",
+      "message_title_1": "Paalala sa Pakikilahok",
+      "message_text_1": "🔔 Paalala:\n\nLahat tayo ay nakikinabang kapag lahat ay nakikilahok! Mahalaga ang inyong mga karanasan. Ibahagi ang inyong saloobin, at sama-sama nating gawing masigla at suportado ang grupong ito para sa lahat. 🌷",
+      "message_title_2": "Pagpuri sa mga Aktibong Magulang",
+      "message_text_2": "Maraming salamat sa mga aktibo ang partisipasyon! 👏\n\n🌟 Mahalaga ang inyong mga karanasan.\n\nKung hindi pa kayo nakakapagbahagi, gusto rin naming marinig ang inyong mga kwento at opinyon.\n\nBawat magulang ay mahalaga! 💚",
+      "message_title_3": "Pagbibigay ng Paalala ng Expectations sa Grupo",
+      "message_text_3": "Isang paalala lang po: Ang grupong ito ay isang ligtas na lugar para sa pagbabahagi at pagkatuto. 💙\n\nHinihikayat namin na ang lahat ay makilahok para maging positibo ang karanasan ng bawat isa. 🌱\n\nSama-sama nating buuin ang isang suportadong komunidad! 🌷",
+      "message_title_4": "Pribadong Mensahe para sa Magulang",
+      "message_text_4": "Hi po! 👋\n\nNapansin naming hindi pa po kayo gaanong nakakapagbahagi sa grupo.\n\nMayroon po ba kayong gustong makita o pag-usapan?\n\nMahalaga po sa amin ang inyong opinyon!\n\nHuwag po kayong mahiyang magbahagi ng inyong saloobin. 😊",
+      "message_title_5": "Hindi Komportable ang Magulang na Magbahagi",
+      "message_text_5": "Kung hindi pa po kayo komportable magbahagi, maaari po kayong mag-reply gamit ang emoji at mag-iwan ng komento kung kayo ay makakarelate sa karanasan ng iba!\n\nMahalaga po sa amin ang inyong kaginhawaan, at pinahahalagahan namin ang inyong pakikilahok sa paraang nararapat para sa inyo. 😊"
+    },
+    {
+      "id": "faq_h_after_group_ended",
+      "home_screen_section_list": "faq",
+      "title": "Kung ang mga magulang ay nagpapadala ng mga mensahe pagkatapos ng programa.",
+      "introduction": "Kung amg mga magulang at tagapag-alaga ay nakikipag-ugnayan sa iyo pagkatapos ng programa, nangangahulugang naging malaki ang naitulong mo sa kanila bilang facilitator ng MaPa program!\n\nMaaaring nakikita ng mga magulang na makakakuha sila ng patuloy na suporta mula sa’yo. Kahit ito ay totoo, mahalaga pa rin na mapanatili ang balanse para sa iyong kalusugan at kapakanan.\n\nIpadala ang mensaheng ito upang mahinahong gabayan ang mga magulang patungo sa ibang mga lugar para sa suporta.",
+      "message_text_1": "Hello! Salamat po sa inyong mensahe.\n\nPasensya na po at hindi ako makareply sa lahat ng personal na mensahe. Kung komportable po kayong magpost inyong mga tanong sa grupo, malaya po kayong magtanong sa ating Viber group chat para po isang buong grupo natin mapag-isipan ang mga posibleng solusyon sa mga hamon. Salamat po!"
+    },
+    {
+      "id": "faq_h_still_struggling",
+      "home_screen_section_list": "faq",
+      "title": "Nagbabahagi ang mga kalahok na hindi sila natulungan ng programa o patuloy pa rin silang nahihirapan.",
+      "introduction": "Iba-iba ang bawat pamilya, at may mga magulang na maaaring nangangailangan ng higit na tulong kaysa sa iba.\n\nIsaalang-alang ang pagpapadala ng mensaheng ito kung ang isang magulang ay patuloy na nahihirapan o nangangailangan ng karagdagang suporta.",
+      "message_title_1": "Mensahe ng Suporta",
+      "message_text_1": "Hello 👋\n\nSalamat sa pagbabahagi ng inyong mga iniisip tungkol sa programa. Normal lang ang may hamon! Kung komportable ka, maaari mong ibahagi sa ating Viber group chat ang iyong hamon. Baka may mga tops ang ating grupo na makakatulong. 👍\n\nTandaan, iba-iba ang kwento ng bawat isa pagdating sa pagkatuto, at ang pagbabago ay hindi agad-agad. Pero maniwala ka, kapag patuloy mong pinapraktis ang mga natutunan mo, makikita mo rin ang progreso. 🏅"
+    },
+    {
+      "id": "faq_h_sad_to_end",
+      "home_screen_section_list": "faq",
+      "title": "Nakakaramdam ng pag-aalala, stress, o lungkot ang mga magulang dahil sa pagtatapos ng programa.",
+      "introduction": "Normal lang na makaramdam ng lungkot o maging emosyonal ang mga magulang kapag natapos na ang programa. Ibig sabihin nito, naging makabuluhan para sa kanila ang mga MaPa session at nag-enjoy silang makibahagi. Ang ganda ng regalong naibigay mo sa kanila! Congratulations! 🎉\n\nPara matulungan sila sa pagbabagong ito, maaari mong ipadala ang mensaheng nasa ibaba.",
+      "message_title_1": "Mensahe ng Pagsuporta",
+      "message_text_1": "Hello 👋\n\nSalamat sa pagbabahagi ng iyong nararamdaman.\nAyos lang na makaramdam ng takot o lungkot kapag may isang bagay na naging bahagi ng buhay mo ang nagtatapos.\n\nTandaan natin:\n\n1️⃣ Kahit pa magtapos na ang MaPa Chat Hybrid Program, tuloy pa rin ang iyong paglalakbay. May mga ⭐kahanga-hanga⭐ kang natutunang skills bilang magulang na madadala mo sa araw-araw.\n\n2️⃣Maaaring maging tuloy-tuloy na suporta ang Viber group kahit tapos na ang programa. Patuloy lang sa pagbabahagi ng iyong mga tagumpay at mga hamon sa group chat o sa mga kapwa magulang.\n\nMahusay ang iyong partisipasyon sa buong MaPa Chat Hybrid program! Salamat! 👏"
+    },
+    {
+      "id": "faq_h_prompts",
+      "home_screen_section_list": "faq",
+      "title": "Chat Session Prompt Pra sa Bagong Group Admin",
+      "introduction": "Matapos mong kausapin ang bagong group admin, maaari mong ibahagi ang mga prompt na ito upang suportahan sila sa pangunguna ng mga chat session.",
+      "message_text_1": "🎉 Tara, ipagdiwang natin ang ating mga tagumpay! Ano ang isang magandang karanasan mo nung sinubukan mo ang isa sa mga MaPa parenting skills kasama ang anak mo?",
+      "message_text_2": "🌱 Sa una, mahirap talaga ang pagsubok ng bagong skills. Ano ang isang hamon na naranasan mo nung sinubukan mo ang isa sa mga MaPa parenting skill kasama ang anak mo sa bahay?",
+      "message_text_3": "💙 Welcome kayong mag-share dito sa Viber group chat ng mga tanong o karanasan nyo sa inyong MaPa journey. Baka hindi ako laging makasagot, pero grupo natin ito - magtulungan tayo para mahanap ang mga sagot na kailangan natin!"
+    },
+    {
+      "id": "faq_h_no_volunteers",
+      "home_screen_section_list": "faq",
+      "title": "Walang nag-volunteer na maging group admin",
+      "introduction": "Maaaring mahirap maghanap ng gustong maging admin ng grupo. Kung walang mag-volunteer na mamuno, maaari mong i-send ang mensahe sa baba para isara ang grupo.\n\nMaghintay lang ng ilang araw bago isara, baka may mag-volunteer pa!",
+      "message_title_1": "Alternatibong Mensahe sa Pagtatapos ng MaPa Chat",
+      "message_text_1": "Salamat sa pagbabahagi ng inyong mga saloobin 💙\n\nDahil wala tayong boluntaryong gustong maging group admin, isasara ko na ang Viber Group na ito sa pagtatapos ng Programa.\n\nTandaan, pwede pa rin ninyong ipagpatuloy ang inyong MaPa journey kasama ang inyong pamilya!"
+    }
+  ]
+}

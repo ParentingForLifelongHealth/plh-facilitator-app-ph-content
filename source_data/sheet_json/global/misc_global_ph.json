@@ -1,0 +1,202 @@
+{
+  "flow_type": "global",
+  "flow_name": "misc_global_ph",
+  "status": "released",
+  "rows": [
+    {
+      "type": "declare_global_constant",
+      "name": "logged_in",
+      "value": "You are signed in."
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "previous_login",
+      "value": "It looks like you've logged in on another device before. Would you like to continue from where you left off? \n\nIf you do, any progress made on this device will be lost."
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "restore_data",
+      "value": "Load saved progress"
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "welcome",
+      "value": "Welcome"
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "continue",
+      "value": "Continue"
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "next",
+      "value": "Next"
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "save",
+      "value": "Save"
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "language_prompt",
+      "value": "Choose a language:"
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "welcome_message",
+      "value": "Welcome to \n@global.app_name"
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "login",
+      "value": "Login or Sign up"
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "login_google",
+      "value": "Continue with Google"
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "login_apple",
+      "value": "Continue with Apple"
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "agree_terms",
+      "value": "By continuing, you agree to our:"
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "logged_in_existing",
+      "value": "Welcome back!"
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "logged_in_existing_user",
+      "value": "Welcome back, @fields._auth_user_given_name!"
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "logged_in_new",
+      "value": "Welcome!"
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "logged_in_new_user",
+      "value": "Welcome, @fields._auth_user_given_name!"
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "logged_in_text",
+      "value": "Before we begin, tell us about yourself."
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "choose_role",
+      "value": "Choose your role:"
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "select_response",
+      "value": "Select a response"
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "choose_organisation",
+      "value": "Choose your organisation:"
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "choose_region",
+      "value": "Choose your region:"
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "no_region",
+      "value": "First select your region"
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "choose_province",
+      "value": "Choose your province:"
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "no_province",
+      "value": "First select your province"
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "choose_city",
+      "value": "Choose your city/municipality:"
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "finish_profile_title",
+      "value": "You're all set!"
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "finish_profile_text",
+      "value": "Your profile is complete, and you're ready to begin!"
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "logout",
+      "value": "Sign out"
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "region_without_province",
+      "value": "This region has no provinces"
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "province_without_city",
+      "value": "This province has no cities/municipalities"
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "delete_account",
+      "value": "Delete account"
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "delete_account_warning_title",
+      "value": "Are you sure you want to delete your account?"
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "delete_account_warning_text",
+      "value": "This action is permanent and cannot be undone. You will lose all your progress."
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "yes",
+      "value": "Yes"
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "no",
+      "value": "No"
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "tac_splash_title",
+      "value": "View updated Terms & Conditions"
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "tac_splash_text",
+      "value": "To continue using this app, please review and agree to the updated Terms & Conditions.\nWe’ve made updates"
+    },
+    {
+      "type": "declare_global_constant",
+      "name": "tac_splash_footnote",
+      "value": "We care about your privacy & are committed to keeping your data safe."
+    }
+  ]
+}

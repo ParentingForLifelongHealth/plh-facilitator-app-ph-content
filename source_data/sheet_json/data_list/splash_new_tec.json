@@ -1,0 +1,15 @@
+{
+  "flow_type": "data_list",
+  "flow_subtype": "lifecycle_actions",
+  "flow_name": "splash_new_tec",
+  "status": "released",
+  "rows": [
+    {
+      "lifecycle_event": "app_start",
+      "id": "tec_popup",
+      "priority": 99,
+      "condition_list": "!@fields.terms_and_conditions_gen_2026_accepted",
+      "action_list": "pop_up: new_tec_popup | fullscreen: true, showCloseButton: false;"
+    }
+  ]
+}

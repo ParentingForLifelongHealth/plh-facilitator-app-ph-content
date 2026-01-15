@@ -1,0 +1,42 @@
+{
+  "flow_type": "template",
+  "flow_name": "new_tec_popup",
+  "status": "released",
+  "rows": [
+    {
+      "type": "title",
+      "name": "tac_updated_title",
+      "value": "@global.tac_splash_title"
+    },
+    {
+      "type": "text",
+      "name": "main_text",
+      "value": "@global.tac_splash_text"
+    },
+    {
+      "type": "begin_display_group",
+      "action_list": "click | pop_up: app_menu_terms | fullscreen: true"
+    },
+    {
+      "type": "text",
+      "name": "link_tac",
+      "value": "View updated Terms & Conditions",
+      "style_list": "color: blue;"
+    },
+    {
+      "type": "end_display_group"
+    },
+    {
+      "type": "button",
+      "name": "accept_button",
+      "value": "Agree and Continue",
+      "action_list": "click | set_field: terms_and_conditions_gen_2026_accepted: true;\nclick | emit: completed;"
+    },
+    {
+      "type": "text",
+      "name": "footnote",
+      "value": "@global.tac_splash_footnote",
+      "style_list": "font-size: 14px; color: gray;"
+    }
+  ]
+}

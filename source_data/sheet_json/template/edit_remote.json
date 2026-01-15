@@ -1,0 +1,591 @@
+{
+  "flow_type": "template",
+  "flow_name": "edit_remote",
+  "status": "released",
+  "rows": [
+    {
+      "name": "parent_count"
+    },
+    {
+      "name": "first_name",
+      "value": " "
+    },
+    {
+      "name": "last_name",
+      "value": " "
+    },
+    {
+      "name": "current_answer_1"
+    },
+    {
+      "name": "current_answer_2"
+    },
+    {
+      "name": "current_answer_3"
+    },
+    {
+      "name": "current_answer_4"
+    },
+    {
+      "name": "current_answer_5"
+    },
+    {
+      "name": "current_answer_6_1"
+    },
+    {
+      "name": "current_answer_6_2"
+    },
+    {
+      "name": "current_answer_6_3"
+    },
+    {
+      "name": "current_answer_6_4"
+    },
+    {
+      "name": "current_answer_6_5"
+    },
+    {
+      "name": "current_answer_6_6"
+    },
+    {
+      "name": "current_answer_6_7"
+    },
+    {
+      "name": "current_answer_6_8"
+    },
+    {
+      "name": "current_answer_6_9"
+    },
+    {
+      "name": "current_answer_6_10"
+    },
+    {
+      "name": "current_answer_7"
+    },
+    {
+      "name": "current_answer_8"
+    },
+    {
+      "name": "current_answer_9"
+    },
+    {
+      "name": "current_answer_10"
+    },
+    {
+      "name": "module_name"
+    },
+    {
+      "name": "challenge_postfix",
+      "value": "_challenge"
+    },
+    {
+      "name": "challenge_field",
+      "value": "@fields.current_module_no@local.challenge_postfix"
+    },
+    {
+      "name": "current_module_number",
+      "value": "@calc(Number(@local.module_name?.match(/\\b\\d+\\b/)?.[0]))",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "previous_module_number",
+      "value": "@calc(@local.current_module_number - 1)",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "module_name_question",
+      "value": "Pagpapakilala at One-on-One Time Kasama ang Iyong Anak",
+      "condition": "@local.current_module_number == 1",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "module_name_question",
+      "value": "Pakikipag-usap Tungkol sa Damdamin",
+      "condition": "@local.current_module_number == 2",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "module_name_question",
+      "value": "Manatiling Positibo! Pagbibigay ng Positibong Direksyon at Papuri",
+      "condition": "@local.current_module_number == 3",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "module_name_question",
+      "value": "Pagpapanatiling Ligtas ang Anak gamit ang Patakaran at Regular na Gawain",
+      "condition": "@local.current_module_number == 4",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "module_name_question",
+      "value": "Pangangasiwa ng Negatibong Kilos: Pagbaling ng Atensyon at Paggamit ng Konsekwensya",
+      "condition": "@local.current_module_number == 5",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "module_name_question",
+      "value": "Pagtugon sa mga Mahihirap na Isyu at Problema",
+      "condition": "@local.current_module_number == 6",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "module_name_question",
+      "value": "Pagbadyet ng Pamilya at Mga Paraan ng Pag-iipon",
+      "condition": "@local.current_module_number == 7",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "module_name_question",
+      "value": "Pagharap sa Problema Bilang Pamilya at Pagninilay",
+      "condition": "@local.current_module_number == 8",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "data_items",
+      "value": "report_answers",
+      "action_list": "data_changed | set_local : current_answer_1: @items[0].question_1;\ndata_changed | set_local : current_answer_2: @items[0].question_2;\ndata_changed | set_local : current_answer_3: @items[0].question_3;\ndata_changed | set_local : current_answer_4: @items[0].question_4;\ndata_changed | set_local : current_answer_5: @items[0].question_5;\ndata_changed | set_local : current_answer_6_1: @items[0].question_6_1;\ndata_changed | set_local : current_answer_6_2: @items[0].question_6_2;\ndata_changed | set_local : current_answer_6_3: @items[0].question_6_3;\ndata_changed | set_local : current_answer_6_4: @items[0].question_6_4;\ndata_changed | set_local : current_answer_6_5: @items[0].question_6_5;\ndata_changed | set_local : current_answer_6_6: @items[0].question_6_6;\ndata_changed | set_local : current_answer_6_7: @items[0].question_6_7;\ndata_changed | set_local : current_answer_6_8: @items[0].question_6_8;\ndata_changed | set_local : current_answer_6_9: @items[0].question_6_9;\ndata_changed | set_local : current_answer_6_10: @items[0].question_6_10;\ndata_changed | set_local : current_answer_7: @items[0].question_7;\ndata_changed | set_local : current_answer_8: @items[0].question_8;\ndata_changed | set_local : current_answer_9: @items[0].question_9;\ndata_changed | set_local : current_answer_10: @items[0].question_10;",
+      "parameter_list": "filter: @item.id == @fields.current_report_no && @item.archived !== true"
+    },
+    {
+      "type": "text",
+      "value": "current: @local.current_answer_1",
+      "condition": false,
+      "exclude_from_translation": true,
+      "comments": "I presume these are debug rows and shouldn't be translated?"
+    },
+    {
+      "type": "text",
+      "value": "answer: @local.answer_1",
+      "condition": false,
+      "exclude_from_translation": true
+    },
+    {
+      "type": "data_items",
+      "value": "@data.report_data",
+      "action_list": "data_changed | set_local : module_name: @items[0].name;",
+      "parameter_list": "filter: @item.id == @fields.current_report_id;\nlimit: 1;"
+    },
+    {
+      "type": "text",
+      "name": "question_1",
+      "value": "What was your role in the session?"
+    },
+    {
+      "name": "lead",
+      "value": "Lead"
+    },
+    {
+      "name": "support",
+      "value": "Support"
+    },
+    {
+      "name": "answer_list_1",
+      "value": "name: lead| text: @local.lead; name: support | text: @local.support;"
+    },
+    {
+      "type": "radio_button_grid",
+      "name": "answer_1",
+      "value": "@local.current_answer_1",
+      "parameter_list": "item_width: 100%; answer_list: @local.answer_list_1"
+    },
+    {
+      "type": "begin_display_group",
+      "parameter_list": "style:column",
+      "condition": "@local.answer_1 == \"lead\" || @local.answer_1 == \"support\""
+    },
+    {
+      "type": "begin_display_group",
+      "parameter_list": "style:column",
+      "condition": "@local.answer_1 == \"lead\""
+    },
+    {
+      "type": "text",
+      "name": "question_2",
+      "value": "Date of Session Delivery?"
+    },
+    {
+      "type": "date_time_picker",
+      "name": "answer_2",
+      "value": "@local.current_answer_2",
+      "parameter_list": "type: date"
+    },
+    {
+      "type": "text",
+      "name": "question_3",
+      "value": "How long did the session last?"
+    },
+    {
+      "type": "text_box",
+      "name": "answer_3",
+      "value": "@local.current_answer_3",
+      "parameter_list": "number_input: true; \nplaceholder: @global.minutes; \nmax_length: 3"
+    },
+    {
+      "name": "answer3_valid",
+      "value": "@calc((/^\\d+$/.test(@local.answer_3) && @local.answer_3>= 1 && @local.answer_3<= 1000) || @local.answer_3 == '' || !@local.answer_3)",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "text",
+      "value": "Please enter a valid number between 1 and 999.",
+      "condition": "!@local.answer3_valid",
+      "style_list": "color: #FF0000;\nfont-size: 14px; "
+    },
+    {
+      "type": "text",
+      "name": "question_4",
+      "value": "How much time did you spend on preparing for the session?"
+    },
+    {
+      "type": "text_box",
+      "name": "answer_4",
+      "value": "@local.current_answer_4",
+      "parameter_list": "number_input: true; \nplaceholder: @global.minutes; \nmax_length: 3"
+    },
+    {
+      "name": "answer4_valid",
+      "value": "@calc((/^\\d+$/.test(@local.answer_4) && @local.answer_4>= 1 && @local.answer_4<= 1000) || @local.answer_4 == '' || !@local.answer_4)",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "text",
+      "value": "Please enter a valid number between 1 and 999.",
+      "condition": "!@local.answer4_valid",
+      "style_list": "color: #FF0000;\nfont-size: 14px; "
+    },
+    {
+      "type": "text",
+      "name": "question_5",
+      "value": "Were you able to complete all the activities?"
+    },
+    {
+      "name": "yes",
+      "value": "Yes"
+    },
+    {
+      "name": "no",
+      "value": "No"
+    },
+    {
+      "name": "answer_list_5",
+      "value": "name: yes| text: @local.yes; name: no | text: @local.no;"
+    },
+    {
+      "type": "radio_button_grid",
+      "name": "answer_5",
+      "value": "@local.current_answer_5",
+      "parameter_list": "item_width: 100%; answer_list: @local.answer_list_5"
+    },
+    {
+      "type": "text",
+      "name": "question_6",
+      "value": "What activities were you not able to complete?",
+      "comments": "@local.answer_5 == \"no\""
+    },
+    {
+      "type": "simple_checkbox",
+      "name": "simple_checkbox_q6_1",
+      "value": "@local.current_answer_6_1",
+      "parameter_list": "align: left; label_text:Pagbati",
+      "condition": "@local.answer_5 == \"no\""
+    },
+    {
+      "type": "simple_checkbox",
+      "name": "simple_checkbox_q6_2",
+      "value": "@local.current_answer_6_2",
+      "parameter_list": "align: left; label_text:Emotional Check-In\n",
+      "condition": "@local.answer_5 == \"no\""
+    },
+    {
+      "type": "simple_checkbox",
+      "name": "simple_checkbox_q6_3",
+      "value": "@local.current_answer_6_3",
+      "parameter_list": "align: left; label_text:Talakayan Tungkol sa Pabaong Gawain\n",
+      "condition": "@local.answer_5 == \"no\""
+    },
+    {
+      "type": "simple_checkbox",
+      "name": "simple_checkbox_q6_4",
+      "value": "@local.current_answer_6_4",
+      "parameter_list": "align: left; label_text:Komiks",
+      "condition": "@local.answer_5 == \"no\""
+    },
+    {
+      "type": "simple_checkbox",
+      "name": "simple_checkbox_q6_5",
+      "value": "@local.current_answer_6_5",
+      "parameter_list": "align: left; label_text:Pundasyon",
+      "condition": "@local.answer_5 == \"no\""
+    },
+    {
+      "type": "simple_checkbox",
+      "name": "simple_checkbox_q6_6",
+      "value": "@local.current_answer_6_6",
+      "parameter_list": "align: left; label_text:Talakayan Tungkol sa MaPa Skill",
+      "condition": "@local.answer_5 == \"no\""
+    },
+    {
+      "type": "simple_checkbox",
+      "name": "simple_checkbox_q6_7",
+      "value": "@local.current_answer_6_7",
+      "parameter_list": "align: left; label_text:Pagbigay ng Pabaong Gawain",
+      "condition": "@local.answer_5 == \"no\""
+    },
+    {
+      "type": "simple_checkbox",
+      "name": "simple_checkbox_q6_8",
+      "value": "@local.current_answer_6_8",
+      "parameter_list": "align: left; label_text:Video ng MaPa Skill",
+      "condition": "@local.answer_5 == \"no\""
+    },
+    {
+      "type": "simple_checkbox",
+      "name": "simple_checkbox_q6_9",
+      "value": "@local.current_answer_6_9",
+      "parameter_list": "align: left; label_text:Tumigil nang Sandali",
+      "condition": "@local.answer_5 == \"no\""
+    },
+    {
+      "type": "simple_checkbox",
+      "name": "simple_checkbox_q6_10",
+      "value": "@local.current_answer_6_10",
+      "parameter_list": "align: left; label_text:Pagtatapos",
+      "condition": "@local.answer_5 == \"no\""
+    },
+    {
+      "type": "end_display_group"
+    },
+    {
+      "type": "begin_display_group",
+      "parameter_list": "style:column",
+      "condition": "@local.answer_5 == \"no\" || @local.answer_5 == \"yes\" || @local.answer_1 == \"support\""
+    },
+    {
+      "type": "text",
+      "name": "confidence_header",
+      "value": "How confident are you in the following?",
+      "parameter_list": "style: emphasised"
+    },
+    {
+      "name": "none",
+      "value": "I have no confidence"
+    },
+    {
+      "name": "low",
+      "value": "My confidence is low"
+    },
+    {
+      "name": "moderate",
+      "value": "My confidence is moderate"
+    },
+    {
+      "name": "high",
+      "value": "My confidence is high"
+    },
+    {
+      "name": "very_high",
+      "value": "My confidence is very high"
+    },
+    {
+      "name": "answer_list_confidence",
+      "value": "name: none| text: @local.none; name: low | text: @local.low; name: moderate | text: @local.moderate; name: high | text: @local.high; name: very_high | text: @local.very_high;",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "text",
+      "name": "question_7",
+      "value": "On your knowledge about @local.module_name_question"
+    },
+    {
+      "type": "radio_button_grid",
+      "name": "answer_7",
+      "value": "@local.current_answer_7",
+      "parameter_list": "item_width: 100%; answer_list: @local.answer_list_confidence;"
+    },
+    {
+      "type": "text",
+      "name": "question_8",
+      "value": "On your facilitation skills for @local.module_name_question"
+    },
+    {
+      "type": "radio_button_grid",
+      "name": "answer_8",
+      "value": "@local.current_answer_8",
+      "parameter_list": "item_width: 100%; answer_list: @local.answer_list_confidence;"
+    },
+    {
+      "type": "text",
+      "name": "coaching_header",
+      "value": "Notes for Coaching",
+      "parameter_list": "style: emphasised",
+      "comments": "These were orriginall just support"
+    },
+    {
+      "type": "text",
+      "name": "question_9",
+      "value": "What challenges did you face in delivering the module that you would like to discuss in the coaching session? Be specific."
+    },
+    {
+      "type": "text_box",
+      "name": "answer_9",
+      "value": "@local.current_answer_9"
+    },
+    {
+      "type": "text",
+      "name": "question_10",
+      "value": "What is your goal or what do you want to achieve or learn from the coaching session?"
+    },
+    {
+      "type": "text_box",
+      "name": "answer_10",
+      "value": "@local.current_answer_10"
+    },
+    {
+      "comments": "end"
+    },
+    {
+      "exclude_from_translation": true
+    },
+    {
+      "type": "data_items",
+      "value": "@data.parents",
+      "action_list": "data_changed | set_local : parent_count : @items.length;",
+      "parameter_list": "filter: @item.group_id == @field.current_group_no && @item.archived == false;",
+      "condition": true,
+      "exclude_from_translation": true
+    },
+    {
+      "type": "begin_display_group",
+      "condition": "@local.answer_1 == \"lead\" && @local.parent_count == 0",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "text",
+      "value": "No parents have been added to this group yet",
+      "exclude_from_translation": false
+    },
+    {
+      "type": "end_display_group",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "text",
+      "name": "question_11",
+      "value": "Parent Attendance:",
+      "condition": "@local.answer_1 == \"lead\" && @local.parent_count > 0"
+    },
+    {
+      "type": "begin_data_items",
+      "value": "parents",
+      "parameter_list": "filter: @item.group_id == @field.current_group_no && @item.archived == false",
+      "condition": "@local.answer_1 == \"lead\" && @local.parent_count > 0",
+      "__EMPTY_2": " "
+    },
+    {
+      "type": "begin_display_group",
+      "parameter_list": "style:column"
+    },
+    {
+      "type": "begin_display_group"
+    },
+    {
+      "name": "first_name",
+      "value": " ",
+      "exclude_from_translation": true,
+      "comments": "This makes sure undefined isnt listed"
+    },
+    {
+      "name": "last_name",
+      "value": " ",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "first_name",
+      "value": "@item.first_name",
+      "condition": "@item.first_name",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "last_name",
+      "value": "@item.last_name",
+      "condition": "@item.last_name",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "text",
+      "value": "@local.first_name @local.last_name",
+      "condition": false,
+      "exclude_from_translation": true,
+      "style_list": "flex: 1"
+    },
+    {
+      "type": "simple_checkbox",
+      "name": "parent_attend",
+      "value": "@item.@fields.current_module_no",
+      "action_list": "changed | set_item| @fields.current_module_no: this.value;",
+      "parameter_list": "align: left; label_text:@local.first_name @local.last_name;\n"
+    },
+    {
+      "type": "toggle_bar",
+      "name": "parent_attend",
+      "value": "@item.@fields.current_module_no",
+      "action_list": "changed | set_item| @fields.current_module_no: this.value;",
+      "parameter_list": "show_icons: false; variant: ios;",
+      "condition": false
+    },
+    {
+      "type": "end_display_group"
+    },
+    {
+      "type": "begin_display_group",
+      "parameter_list": "style:column",
+      "condition": "@item.@fields.current_module_no && (@local.current_module_number !== 1)"
+    },
+    {
+      "type": "text",
+      "value": "What challenges or successes did the parent experience with their home activity for Modyul @local.previous_module_number Sesyon? Were there any concerns?"
+    },
+    {
+      "type": "text_box",
+      "value": "@item.@local.challenge_field",
+      "action_list": "changed | set_item| @local.challenge_field: this.value;",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "end_display_group"
+    },
+    {
+      "type": "end_display_group"
+    },
+    {
+      "type": "end_data_items"
+    },
+    {
+      "type": "end_display_group"
+    },
+    {
+      "type": "end_display_group"
+    },
+    {
+      "name": "valid",
+      "value": "(@local.answer_1 == \"lead\" && @local.answer3_valid && @local.answer4_valid && @local.answer_3 && @local.answer_3 !== '' && @local.answer_4 && @local.answer_4 !== '') || @local.answer_1 == \"support\"",
+      "exclude_from_translation": true,
+      "comments": true
+    },
+    {
+      "type": "begin_display_group",
+      "parameter_list": "sticky: bottom",
+      "style_list": "padding: 12px 24px"
+    },
+    {
+      "type": "button",
+      "name": "save",
+      "value": "Save",
+      "action_list": "click | set_data |\n_list_id: report_answers,\n_id: @fields.current_report_no,\nquestion_1: @local.answer_1,\nquestion_2: @local.answer_2,\nquestion_3: @local.answer_3,\nquestion_4: @local.answer_4,\nquestion_5: @local.answer_5,\nquestion_6: @local.answer_6,\nquestion_7: @local.answer_7,\nquestion_8: @local.answer_8,\nquestion_9: @local.answer_9,\nquestion_10: @local.answer_10;\nclick | emit: completed;",
+      "parameter_list": "disabled: !@local.valid;"
+    },
+    {
+      "type": "end_display_group"
+    }
+  ]
+}

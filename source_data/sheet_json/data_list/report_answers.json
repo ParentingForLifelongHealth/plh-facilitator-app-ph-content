@@ -1,0 +1,33 @@
+{
+  "flow_type": "data_list",
+  "flow_name": "report_answers",
+  "status": "released",
+  "rows": [
+    {
+      "id": "text",
+      "group_id": "text",
+      "module_id": "text",
+      "type": "text",
+      "archived": false,
+      "question_1": "text",
+      "question_2": "text",
+      "question_3": "text",
+      "question_4": "text",
+      "question_5": "text",
+      "question_6_1": "text",
+      "question_6_2": "text",
+      "question_6_3": "text",
+      "question_6_4": "text",
+      "question_6_5": "text",
+      "question_6_6": "text",
+      "question_6_7": "text",
+      "question_6_8": "text",
+      "question_6_9": "text",
+      "question_6_10": "text",
+      "question_7": "text",
+      "question_8": "text",
+      "question_9": "text",
+      "question_10": "text"
+    }
+  ]
+}

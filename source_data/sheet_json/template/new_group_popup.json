@@ -1,0 +1,45 @@
+{
+  "flow_type": "template",
+  "flow_name": "new_group_popup",
+  "status": "released",
+  "rows": [
+    {
+      "type": "begin_template",
+      "name": "header",
+      "value": "section_header",
+      "action_list": "uncompleted | emit: uncompleted; ",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "title",
+      "value": "Create/Join a Group",
+      "exclude_from_translation": false
+    },
+    {
+      "type": "end_template",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "text",
+      "name": "question",
+      "value": "Are you a facilitator or co-facilitator for this parent group?",
+      "exclude_from_translation": false
+    },
+    {
+      "type": "button",
+      "name": "facilitator",
+      "value": "Facilitator",
+      "action_list": "click | go_to: edit_parent_group;",
+      "parameter_list": "variant: card; ",
+      "exclude_from_translation": false
+    },
+    {
+      "type": "button",
+      "name": "co_facilitator",
+      "value": "Co-facilitator",
+      "action_list": "click | go_to: profile_id;",
+      "parameter_list": "variant: card; ",
+      "exclude_from_translation": false
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "flow_type": "template",
+  "flow_name": "menu_task_card",
+  "status": "released",
+  "rows": [
+    {
+      "name": "module_id",
+      "value": "test",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "module_name",
+      "value": "test",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "report_id",
+      "value": "empty",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "image",
+      "value": "test",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "click_template",
+      "value": "sub_item_@local.module_id",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "completed",
+      "value": false
+    },
+    {
+      "name": "all_pages_complete",
+      "value": false
+    },
+    {
+      "name": "page_count",
+      "value": 1
+    },
+    {
+      "type": "begin_display_group",
+      "name": "uncomplete_wrapper",
+      "condition": "!@local.completed"
+    },
+    {
+      "type": "begin_display_group",
+      "name": "one_page_wrapper",
+      "condition": "@local.page_count == 1"
+    },
+    {
+      "type": "task_card",
+      "name": "not_complete",
+      "action_list": "click | set_field: current_module_no: @local.module_id;\nclick | set_field: current_module: @local.module_name;\nclick | set_field: current_report_id: @local.report_id;\nclick | nav_stack: open | template: @local.click_template, header: false;\ncompleted | emit: force_reload;\ncompleted | emit: server_sync;",
+      "parameter_list": "title: @local.module_name;\nstyle: button;\nvariant: block-button;\nimage: @local.image;"
+    },
+    {
+      "type": "end_display_group"
+    },
+    {
+      "type": "begin_display_group",
+      "name": "more_than_one_page_wrapper",
+      "condition": "@local.page_count > 1"
+    },
+    {
+      "type": "task_card",
+      "name": "not_complete_but_end",
+      "action_list": "click | set_field: current_module_no: @local.module_id;\nclick | set_field: current_module: @local.module_name;\nclick | set_field: current_report_id: @local.report_id;\nclick | go_to: module_final;\ncompleted | emit: force_reload;\ncompleted | emit: server_sync;",
+      "parameter_list": "title: @local.module_name;\nstyle: button;\nvariant: block-button;\nimage: @local.image;",
+      "condition": "!!@local.all_pages_complete"
+    },
+    {
+      "type": "task_card",
+      "name": "not_complete",
+      "action_list": "click | set_field: current_module_no: @local.module_id;\nclick | set_field: current_module: @local.module_name;\nclick | set_field: current_report_id: @local.report_id;\nclick | nav_stack: open | template: @local.click_template, header: false;\ncompleted | emit: force_reload;\ncompleted | emit: server_sync;",
+      "parameter_list": "title: @local.module_name;\nstyle: button;\nvariant: block-button;\nimage: @local.image;",
+      "condition": "!@local.all_pages_complete"
+    },
+    {
+      "type": "end_display_group"
+    },
+    {
+      "type": "end_display_group"
+    },
+    {
+      "type": "begin_display_group",
+      "name": "complete_wrapper",
+      "condition": "!!@local.completed"
+    },
+    {
+      "type": "task_card",
+      "name": "complete_more_than_one_page",
+      "action_list": "click | set_field: current_module_no: @local.module_id;\nclick | set_field: current_module: @local.module_name;\nclick | set_field: current_report_id: @local.report_id;\nclick | go_to: module_final;\ncompleted | emit: force_reload;\ncompleted | emit: server_sync;",
+      "parameter_list": "title: @local.module_name;\nstyle: button;\nvariant: block-button;\nimage: @local.image;",
+      "condition": "@local.page_count > 1 ",
+      "style_list": "filter: grayscale(1);"
+    },
+    {
+      "type": "task_card",
+      "name": "complete_one_page",
+      "action_list": "click | set_field: current_module_no: @local.module_id;\nclick | set_field: current_module: @local.module_name;\nclick | set_field: current_report_id: @local.report_id;\nclick | nav_stack: open | template: @local.click_template, header: false;\ncompleted | emit: force_reload;\ncompleted | emit: server_sync;",
+      "parameter_list": "title: @local.module_name;\nstyle: button;\nvariant: block-button;\nimage: @local.image;",
+      "condition": "@local.page_count == 1 ",
+      "style_list": "filter: grayscale(1);"
+    },
+    {
+      "type": "end_display_group"
+    }
+  ]
+}

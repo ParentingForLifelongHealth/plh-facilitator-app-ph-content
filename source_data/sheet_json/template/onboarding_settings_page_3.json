@@ -1,0 +1,148 @@
+{
+  "flow_type": "template",
+  "flow_name": "onboarding_settings_page_3",
+  "status": "released",
+  "rows": [
+    {
+      "type": "text",
+      "name": "choose_region",
+      "value": "@global.choose_region",
+      "parameter_list": "style: emphasised;"
+    },
+    {
+      "name": "user_region_select"
+    },
+    {
+      "type": "combo_box",
+      "name": "user_region_select",
+      "value": "@fields.user_region",
+      "parameter_list": "answer_list: @data.user_region;\nplaceholder: @global.select_response;\nvariant: dropdown;"
+    },
+    {
+      "type": "text",
+      "name": "choose_province",
+      "value": "@global.choose_province",
+      "parameter_list": "style: emphasised;",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "province_disabled_text",
+      "value": "@global.no_region"
+    },
+    {
+      "name": "province_count"
+    },
+    {
+      "type": "data_items",
+      "name": "count_provinces_in_region",
+      "value": "@data.user_province",
+      "action_list": "data_changed | set_local : province_count : @items.length",
+      "parameter_list": "filter: @item.region_id == @local.user_region_select; limit: 1",
+      "hidden": true,
+      "comments": "can stop counting when one is found"
+    },
+    {
+      "name": "province_disabled_text",
+      "value": "@global.region_without_province",
+      "condition": "@local.province_count === 0 && !!@local.user_region_select"
+    },
+    {
+      "name": "user_province_select",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "begin_combo_box",
+      "name": "user_province_select",
+      "value": "@fields.user_province",
+      "parameter_list": "placeholder: @global.select_response;\ndisabled_text: @local.province_disabled_text;\nvariant: dropdown;",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "data_items",
+      "value": "user_province",
+      "parameter_list": "filter: @item.region_id == @local.user_region_select",
+      "hidden": true
+    },
+    {
+      "type": "end_combo_box",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "text",
+      "name": "choose_city",
+      "value": "@global.choose_city",
+      "parameter_list": "style: emphasised;",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "city_disabled_text",
+      "value": "@global.no_province"
+    },
+    {
+      "name": "city_count"
+    },
+    {
+      "type": "data_items",
+      "name": "count_cities_in_province",
+      "value": "@data.user_city",
+      "action_list": "data_changed | set_local : city_count : @items.length",
+      "parameter_list": "filter: @item.province_id == @local.user_province_select; limit: 1",
+      "hidden": true,
+      "comments": "can stop counting when one is found"
+    },
+    {
+      "name": "city_disabled_text",
+      "value": "@global.province_without_city",
+      "condition": "@local.city_count === 0 && !!@local.user_province_select"
+    },
+    {
+      "name": "user_city_select",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "begin_combo_box",
+      "name": "user_city_select",
+      "value": "@fields.user_city",
+      "parameter_list": "placeholder: @global.select_response;\ndisabled_text: @local.city_disabled_text;\nvariant: dropdown;",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "data_items",
+      "value": "user_city",
+      "parameter_list": "filter: @item.province_id == @local.user_province_select",
+      "hidden": true
+    },
+    {
+      "type": "end_combo_box",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "completed_enabled_3",
+      "value": "!!@local.user_region_select && !!@local.user_province_select && !!@local.user_city_select",
+      "exclude_from_translation": true
+    },
+    {
+      "type": "begin_display_group",
+      "name": "dg_footer",
+      "parameter_list": "sticky: bottom;",
+      "style_list": "padding: 12px 24px;"
+    },
+    {
+      "type": "round_button",
+      "name": "button_back",
+      "action_list": "click | emit: uncompleted",
+      "parameter_list": "icon_src: arrow-back;\nvariant: no-background;"
+    },
+    {
+      "type": "button",
+      "name": "button_completed_3",
+      "value": "@global.save",
+      "action_list": "click | set_field: user_region: @local.user_region_select;\nclick | set_field: user_province: @local.user_province_select;\nclick | set_field: user_city: @local.user_city_select;\nclick | emit: completed;",
+      "parameter_list": "style: navigation;\ndisabled: !@local.completed_enabled_3",
+      "style_list": "flex: 1"
+    },
+    {
+      "type": "end_display_group"
+    }
+  ]
+}
