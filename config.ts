@@ -19,7 +19,7 @@ config.google_drive.assets_folders = [
 
 
 config.git = {
-  content_repo: "https://github.com/IDEMSInternational/plh-facilitator-app-ph-content.git",
+  content_repo: "https://github.com/ParentingForLifelongHealth/plh-facilitator-app-ph-content.git",
   content_tag_latest: "1.3.18",
 };
 
